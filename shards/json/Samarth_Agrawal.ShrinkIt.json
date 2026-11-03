@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": ["https://github.com/SamarthAgrawal-002/ShrinkIt/releases/download/Download/ShrinkIt.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/SamarthAgrawal-002/ShrinkIt/releases/download/Download/ShrinkIt.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/SamarthAgrawal-002/ShrinkIt/releases/tag/Download"
+	},
+	"replace": true
+}
