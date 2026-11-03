@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "desktop-plus",
+		"repo": "desktop-plus",
+		"method": "api-latest",
+		"assetRegex": "^(?:DesktopPlus\\-v\\d+\\.\\d+\\.\\d+\\.\\d+\\-windows\\-arm64\\.exe|DesktopPlus\\-v\\d+\\.\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\.exe|DesktopPlus\\-v\\d+\\.\\d+\\.\\d+\\.\\d+\\-windows\\-arm64\\.msi|DesktopPlus\\-v\\d+\\.\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\.msi)$"
+	}
+}
