@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://downloads.discoverworthy.com/scratchpad/latest.json"
+	},
+	"urls": [
+		"https://downloads.discoverworthy.com/scratchpad/DiscoverWorthy-Scratchpad-Setup-{version}.exe"
+	]
+}
