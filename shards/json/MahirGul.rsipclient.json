@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mahirgul",
+		"repo": "rsipclient"
+	},
+	"urls": [
+		"https://github.com/mahirgul/rsipclient/releases/download/v{version}/rsipclient-windows-x86_64.exe",
+		"https://github.com/mahirgul/rsipclient/releases/download/v{version}/rsipclient-windows-aarch64.exe"
+	]
+}
