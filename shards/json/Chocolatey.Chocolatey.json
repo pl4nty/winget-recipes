@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "chocolatey",
+		"repo": "choco",
+		"method": "api-latest",
+		"assetRegex": "^(?:chocolatey\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\.msi)$"
+	}
+}
