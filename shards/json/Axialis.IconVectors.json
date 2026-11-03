@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.axialis.com/downloads/IconVectors-Pro-32-bit.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.axialis.com/downloads/IconVectors-Pro.exe",
+			"architecture": "x64"
+		}
+	]
+}
