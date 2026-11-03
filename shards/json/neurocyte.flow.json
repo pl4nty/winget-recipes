@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "neurocyte",
+		"repo": "flow"
+	},
+	"urls": [
+		"https://github.com/neurocyte/flow/releases/download/v{version}/flow-v{version}-windows-x86_64.zip",
+		"https://github.com/neurocyte/flow/releases/download/v{version}/flow-v{version}-windows-aarch64.zip"
+	]
+}
