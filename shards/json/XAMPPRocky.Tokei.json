@@ -9,7 +9,6 @@
 		"assetRegex": "^tokei-(x86_64|i686)-pc-windows-msvc\\.exe$"
 	},
 	"releaseNotes": {
-		"source": "github",
-		"tag": "v{version}"
+		"releaseNotesUrl": "https://github.com/XAMPPRocky/tokei/releases/tag/v{version}"
 	}
 }
