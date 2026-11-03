@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tinyrack-net",
+		"repo": "proxer"
+	},
+	"urls": [
+		"https://github.com/tinyrack-net/proxer/releases/download/v{version}/proxer-win-x64.exe",
+		"https://github.com/tinyrack-net/proxer/releases/download/v{version}/proxer-win-arm64.exe"
+	]
+}
