@@ -26,8 +26,6 @@ export default defineShard(async () => {
 			{ url: `${base}/manictime-setup-${build}-win-x86.msi`, architecture: 'x86' },
 			{ url: `${base}/manictime-portable-${build}-win-x64.zip`, architecture: 'x64' },
 			{ url: `${base}/manictime-portable-${build}-win-x86.zip`, architecture: 'x86' },
-			{ url: `${base}/manictime-setup-${build}-win-x64.exe`, architecture: 'x64' },
-			{ url: `${base}/manictime-setup-${build}-win-x86.exe`, architecture: 'x86' },
 		],
 	};
 });
