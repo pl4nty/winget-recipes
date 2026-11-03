@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://github.com/yummyzzzz/CoreInstaller/releases/download/CoreInstaller/CoreInstaller.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/yummyzzzz/CoreInstaller/releases/download/CoreInstaller/CoreInstaller.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
