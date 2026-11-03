@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [{ "url": "https://winstep.net/xtreme.zip", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://winstep.net/xtreme.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
