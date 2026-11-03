@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RWK-Systems",
+		"repo": "test-package"
+	},
+	"urls": [
+		"https://github.com/RWK-Systems/test-package/releases/download/v{version}/TestPackageSetup.exe"
+	]
+}
