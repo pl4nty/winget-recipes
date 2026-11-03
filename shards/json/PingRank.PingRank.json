@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bpbp-boop",
+		"repo": "pingrank-cli"
+	},
+	"urls": ["https://github.com/bpbp-boop/pingrank-cli/releases/download/v{version}/pingrank.gg-{version}-x64.msi"]
+}
