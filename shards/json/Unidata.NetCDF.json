@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://downloads.unidata.ucar.edu/netcdf-c/release_info.json", "path": "releases.0.version" },
+	"urls": ["https://downloads.unidata.ucar.edu/netcdf-c/{version}/netCDF{version}-NC4-64.exe"]
+}
