@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "exercism",
+		"repo": "cli"
+	},
+	"urls": [
+		"https://github.com/exercism/cli/releases/download/{github.rawTag}/exercism-{version}-windows-arm64.zip",
+		"https://github.com/exercism/cli/releases/download/{github.rawTag}/exercism-{version}-windows-i386.zip",
+		"https://github.com/exercism/cli/releases/download/{github.rawTag}/exercism-{version}-windows-x86_64.zip",
+		"https://github.com/exercism/cli/releases/download/{github.rawTag}/exercism-{version}-windows-32bit.zip",
+		"https://github.com/exercism/cli/releases/download/{github.rawTag}/exercism-{version}-windows-64bit.zip"
+	]
+}
