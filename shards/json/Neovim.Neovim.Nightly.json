@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": [
 		"https://github.com/neovim/neovim/releases/download/nightly/nvim-win64.msi",
 		"https://github.com/neovim/neovim/releases/download/nightly/nvim-win-arm64.msi"
