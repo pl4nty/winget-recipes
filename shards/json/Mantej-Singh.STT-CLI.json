@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mantej-Singh",
+		"repo": "stt-cli"
+	},
+	"urls": [
+		"https://github.com/Mantej-Singh/stt-cli/releases/download/v{version}/speech-to-text-cli.exe"
+	]
+}
