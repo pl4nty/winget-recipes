@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://www.hidemyass.com/download-thank-you.php?product=HMA-WIN"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.hidemyass.com/download-thank-you.php?product=HMA-WIN",
+		"header": "content-length"
+	},
+	"replace": true
+}
