@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jackaopen",
+		"repo": "JaTubePlayer"
+	},
+	"urls": [
+		"https://github.com/jackaopen/JaTubePlayer/releases/download/{github.rawTag}/JaTubePlayer-{version}-Setup.exe"
+	]
+}
