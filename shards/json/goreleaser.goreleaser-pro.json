@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "goreleaser",
+		"repo": "goreleaser-pro"
+	},
+	"urls": [
+		"https://github.com/goreleaser/goreleaser-pro/releases/download/{github.rawTag}/goreleaser-pro_Windows_arm64.zip",
+		"https://github.com/goreleaser/goreleaser-pro/releases/download/{github.rawTag}/goreleaser-pro_Windows_i386.zip",
+		"https://github.com/goreleaser/goreleaser-pro/releases/download/{github.rawTag}/goreleaser-pro_Windows_x86_64.zip"
+	]
+}
