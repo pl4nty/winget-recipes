@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "evagelinaling",
+		"repo": "dotz.my-update"
+	},
+	"urls": [
+		"https://github.com/evagelinaling/dotz.my-update/releases/download/{github.rawTag}/dotz.my_{version}_x64-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/evagelinaling/dotz.my-update/releases/tag/{github.rawTag}"
+	}
+}
