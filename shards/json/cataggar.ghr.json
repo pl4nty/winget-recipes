@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cataggar",
+		"repo": "ghr"
+	},
+	"urls": [
+		"https://github.com/cataggar/ghr/releases/download/{github.rawTag}/ghr-{version}-windows-arm64.zip",
+		"https://github.com/cataggar/ghr/releases/download/{github.rawTag}/ghr-{version}-windows-x64.zip"
+	]
+}
