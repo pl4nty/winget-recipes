@@ -5,8 +5,5 @@
 		"owner": "cryptomator",
 		"repo": "cryptomator"
 	},
-	"urls": [
-		"https://github.com/cryptomator/cryptomator/releases/download/{version}/Cryptomator-{version}-x64.msi",
-		"https://github.com/cryptomator/cryptomator/releases/download/{version}/Cryptomator-{version}-x64.exe"
-	]
+	"urls": ["https://github.com/cryptomator/cryptomator/releases/download/{version}/Cryptomator-{version}-x64.msi"]
 }
