@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tengolabs",
+		"repo": "kbcalc"
+	},
+	"urls": ["https://github.com/tengolabs/kbcalc/releases/download/v{version}/kbCalc.Setup.{version}.exe"]
+}
