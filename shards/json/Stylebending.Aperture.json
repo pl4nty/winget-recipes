@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "stylebending", "repo": "Aperture" },
+	"urls": ["https://github.com/stylebending/Aperture/releases/download/v{version}/Aperture.exe"]
+}
