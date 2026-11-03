@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://www.zeta-resource-editor.com/zetaresourceeditor-setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.zeta-resource-editor.com/zetaresourceeditor-setup.exe",
+		"header": "last-modified",
+		"method": "get"
+	},
+	"replace": true
+}
