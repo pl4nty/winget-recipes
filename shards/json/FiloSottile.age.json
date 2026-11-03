@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FiloSottile",
+		"repo": "age"
+	},
+	"urls": [
+		"https://github.com/FiloSottile/age/releases/download/v{version}/age-v{version}-windows-amd64.zip"
+	],
+	"releaseNotes": { "source": "github" }
+}
