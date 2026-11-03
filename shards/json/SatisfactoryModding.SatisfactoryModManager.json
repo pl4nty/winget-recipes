@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "satisfactorymodding",
+		"repo": "SatisfactoryModManager"
+	},
+	"urls": ["https://github.com/satisfactorymodding/SatisfactoryModManager/releases/download/v{version}/SatisfactoryModManager-Setup.exe"]
+}
