@@ -1,9 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": {
-		"source": "product"
-	},
+	"version": "23.200",
 	"urls": [
 		{
 			"url": "https://installer.maxon.net/cinebench/CinebenchR23.zip",
