@@ -6,11 +6,20 @@
 		"regex": "<td>WakeMeOnLan v(?<version>\\d+(?:\\.\\d+)+)"
 	},
 	"urls": [
-		{ "url": "https://www.nirsoft.net/utils/wakemeonlan.zip", "architecture": "x86" },
-		{ "url": "https://www.nirsoft.net/utils/wakemeonlan-x64.zip", "architecture": "x64" }
+		{
+			"url": "https://www.nirsoft.net/utils/wakemeonlan.zip",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.nirsoft.net/utils/wakemeonlan-x64.zip",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
-		"releaseNotesUrl": "https://www.nirsoft.net/utils/wake_on_lan.html#:~:text=Versions%20History"
+		"source": "html",
+		"sourceUrl": "https://www.nirsoft.net/utils/wake_on_lan.html",
+		"releaseNotesUrl": "https://www.nirsoft.net/utils/wake_on_lan.html#:~:text=Versions%20History",
+		"cleanup": false
 	},
 	"replace": true
 }
