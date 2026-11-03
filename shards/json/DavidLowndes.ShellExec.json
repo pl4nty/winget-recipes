@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "Dave-Lowndes",
+		"repo": "ShellExec"
+	},
+	"urls": [
+		"https://github.com/Dave-Lowndes/ShellExec/releases/download/{github.rawTag}/ShellExec.zip"
+	]
+}
