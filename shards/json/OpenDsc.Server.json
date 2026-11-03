@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "opendsc", "repo": "opendsc" },
+	"urls": ["https://github.com/opendsc/opendsc/releases/download/v{version}/OpenDSC.Server-{version}.msi"]
+}
