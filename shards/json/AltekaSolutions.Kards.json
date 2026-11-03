@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Alteka",
+		"repo": "Kards"
+	},
+	"urls": [
+		"https://github.com/Alteka/Kards/releases/download/{github.rawTag}/Kards-{version}-windows-x64.exe"
+	]
+}
