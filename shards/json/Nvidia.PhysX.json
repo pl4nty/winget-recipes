@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nvidia.com/en-us/drivers/physx-system-software/",
+		"regex": "url=/Windows/(?<version>\\d+\\.\\d+\\.\\d+)/PhysX_\\k<version>_SystemSoftware\\.exe"
+	},
+	"urls": ["https://us.download.nvidia.com/Windows/{version}/PhysX_{version}_SystemSoftware.exe"]
+}
