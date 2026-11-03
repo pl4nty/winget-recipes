@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "psmux", "repo": "psmux" },
+	"urls": [
+		"https://github.com/psmux/psmux/releases/download/v{version}/psmux-v{version}-windows-x64.zip",
+		"https://github.com/psmux/psmux/releases/download/v{version}/psmux-v{version}-windows-x86.zip",
+		"https://github.com/psmux/psmux/releases/download/v{version}/psmux-v{version}-windows-arm64.zip"
+	]
+}
