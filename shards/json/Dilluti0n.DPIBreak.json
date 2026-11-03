@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dilluti0n",
+		"repo": "dpibreak"
+	},
+	"urls": [
+		"https://github.com/dilluti0n/dpibreak/releases/download/{github.rawTag}/dpibreak-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
