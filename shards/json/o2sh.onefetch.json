@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "o2sh",
+		"repo": "onefetch"
+	},
+	"urls": ["https://github.com/o2sh/onefetch/releases/download/{version}/onefetch-setup.exe"]
+}
