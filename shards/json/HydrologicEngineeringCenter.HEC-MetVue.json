@@ -8,6 +8,7 @@
 	"urls": [
 		{
 			"url": "https://www.hec.usace.army.mil/software/hec-metvue/downloads/{captures.file}",
+			"architecture": "neutral",
 			"nestedInstallerMatches": ["bin/metvue.exe"]
 		}
 	]
