@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Has-X",
+		"repo": "Sensitivity"
+	},
+	"urls": [
+		"https://github.com/Has-X/Sensitivity/releases/download/{github.rawTag}/sensitivity-windows-arm64-setup.exe",
+		"https://github.com/Has-X/Sensitivity/releases/download/{github.rawTag}/sensitivity-windows-x64-setup.exe"
+	]
+}
