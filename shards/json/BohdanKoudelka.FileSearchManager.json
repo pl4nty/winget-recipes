@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KoudelkaB",
+		"repo": "win-search"
+	},
+	"urls": [
+		"https://github.com/KoudelkaB/win-search/releases/download/{github.rawTag}/FileSearchManager-Setup-{version}.exe"
+	]
+}
