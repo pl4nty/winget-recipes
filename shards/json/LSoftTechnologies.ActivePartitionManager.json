@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://software.lsoft.net/PartManFree-Setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://software.lsoft.net/PartManFree-Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
