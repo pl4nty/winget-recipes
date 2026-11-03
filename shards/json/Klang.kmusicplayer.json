@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "Abbaskhurram255",
+		"repo": "hindCPlusPlus",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/Abbaskhurram255/hindCPlusPlus/releases/download/{github.rawTag}/kMusicPlayer.exe"
+	]
+}
