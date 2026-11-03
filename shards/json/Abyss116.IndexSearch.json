@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Abyss116",
+		"repo": "IndexSearch"
+	},
+	"urls": [
+		"https://github.com/Abyss116/IndexSearch/releases/download/{github.rawTag}/indexsearch-windows-x86_64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Abyss116/IndexSearch/releases/tag/{github.rawTag}"
+	}
+}
