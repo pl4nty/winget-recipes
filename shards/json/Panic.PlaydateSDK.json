@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://download.panic.com/playdate_sdk/Windows/PlaydateSDK-latest.exe"],
+		"regex": "PlaydateSDK-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://download.panic.com/playdate_sdk/Windows/PlaydateSDK-{version}.exe"]
+}
