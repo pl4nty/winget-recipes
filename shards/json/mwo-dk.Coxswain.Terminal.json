@@ -8,11 +8,13 @@
 	"urls": [
 		{
 			"url": "https://github.com/mwo-dk/coxswain/releases/download/v{version}/coxswain-terminal-v{version}-x86_64-pc-windows-msvc.zip",
-			"architecture": "x64"
+			"architecture": "x64",
+			"nestedInstallerMatches": ["cox.exe", "coxswain.exe"]
 		},
 		{
 			"url": "https://github.com/mwo-dk/coxswain/releases/download/v{version}/coxswain-terminal-v{version}-aarch64-pc-windows-msvc.zip",
-			"architecture": "arm64"
+			"architecture": "arm64",
+			"nestedInstallerMatches": ["cox.exe", "coxswain.exe"]
 		}
 	]
 }
