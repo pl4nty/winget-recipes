@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "superyngo",
+		"repo": "wenget"
+	},
+	"urls": [
+		"https://github.com/superyngo/wenget/releases/download/v{version}/wenget-windows-i686.exe",
+		"https://github.com/superyngo/wenget/releases/download/v{version}/wenget-windows-x86_64.exe",
+		"https://github.com/superyngo/wenget/releases/download/v{version}/wenget-windows-aarch64.exe"
+	]
+}
