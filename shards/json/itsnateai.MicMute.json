@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "itsnateai",
+		"repo": "MicMute"
+	},
+	"urls": [
+		"https://github.com/itsnateai/MicMute/releases/download/{github.rawTag}/MicMute.exe"
+	]
+}
