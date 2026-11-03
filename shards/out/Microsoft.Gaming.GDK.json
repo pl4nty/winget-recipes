@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "GDK",
+		"tagRegex": "^April\\-2026\\-Update\\-5\\-v"
+	},
+	"urls": [
+		"https://github.com/microsoft/GDK/releases/download/April-2026-Update-5-v{version}/GDK_{version}.zip"
+	]
+}
