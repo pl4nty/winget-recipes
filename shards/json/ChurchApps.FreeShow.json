@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ChurchApps",
+		"repo": "FreeShow"
+	},
+	"urls": ["https://github.com/ChurchApps/FreeShow/releases/download/v{version}/FreeShow-{version}-x64.exe"]
+}
