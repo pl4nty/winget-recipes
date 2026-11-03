@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "subhadeeproy3902",
+		"repo": "pong-ball"
+	},
+	"urls": [
+		"https://github.com/subhadeeproy3902/pong-ball/releases/download/v{version}/pong-ball_windows_amd64.zip"
+	]
+}
