@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "medvedeff-true", "repo": "Zapret-GUI" },
+	"urls": ["https://github.com/medvedeff-true/Zapret-GUI/releases/download/{version}/ZapretGUI-{version}.zip"]
+}
