@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JerryCat101",
+		"repo": "network-mapper-releases"
+	},
+	"urls": [
+		"https://github.com/JerryCat101/network-mapper-releases/releases/download/{github.rawTag}/Subnetlens-Setup-{version}.exe"
+	]
+}
