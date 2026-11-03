@@ -5,6 +5,5 @@
 	"urls": [
 		"https://github.com/contour-terminal/contour/releases/download/{github.rawTag}/contour-{version}-win64.zip",
 		"https://github.com/contour-terminal/contour/releases/download/{github.rawTag}/contour-{version}-win64.msi"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
