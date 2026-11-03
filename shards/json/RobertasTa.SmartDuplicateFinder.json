@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RobertasTa",
+		"repo": "smart-duplicate-finder"
+	},
+	"urls": [
+		"https://github.com/RobertasTa/smart-duplicate-finder/releases/download/v{version}/SmartDuplicateFinder.exe"
+	]
+}
