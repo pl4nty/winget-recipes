@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "v{version}",
+	"github": {
+		"owner": "docker",
+		"repo": "docker-agent"
+	},
+	"urls": [
+		"https://github.com/docker/docker-agent/releases/download/{github.rawTag}/docker-agent-windows-amd64.exe",
+		"https://github.com/docker/docker-agent/releases/download/{github.rawTag}/docker-agent-windows-arm64.exe"
+	]
+}
