@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "4G0NYY",
+		"repo": "BAKA"
+	},
+	"urls": [
+		"https://github.com/4G0NYY/BAKA/releases/download/{github.rawTag}/baka-{version}-aarch64-pc-windows-msvc.zip",
+		"https://github.com/4G0NYY/BAKA/releases/download/{github.rawTag}/baka-{version}-x86_64-pc-windows-msvc.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/4G0NYY/BAKA/releases/tag/{github.rawTag}"
+	}
+}
