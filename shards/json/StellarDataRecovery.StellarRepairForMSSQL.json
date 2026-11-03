@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stellarinfo.com/sql-recovery.php",
+		"regex": "\"softwareVersion\":\\s*\"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://cloud.stellarinfo.com/StellarRepairforMSSQL.exe"],
+	"replace": true
+}
