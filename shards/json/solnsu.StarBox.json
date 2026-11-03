@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "solnsu",
+		"repo": "StarBox_AITools"
+	},
+	"urls": [
+		"https://github.com/solnsu/StarBox_AITools/releases/download/v{version}/StarBox-{version}-windows-x64.exe"
+	]
+}
