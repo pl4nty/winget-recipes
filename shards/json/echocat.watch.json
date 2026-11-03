@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "echocat",
+		"repo": "watch"
+	},
+	"urls": [
+		"https://github.com/echocat/watch/releases/download/{github.rawTag}/watch-windows-386.exe",
+		"https://github.com/echocat/watch/releases/download/{github.rawTag}/watch-windows-amd64.exe",
+		"https://github.com/echocat/watch/releases/download/{github.rawTag}/watch-windows-arm64.exe"
+	]
+}
