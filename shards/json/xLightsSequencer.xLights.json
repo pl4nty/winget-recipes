@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xLightsSequencer",
+		"repo": "xLights",
+		"method": "api-latest",
+		"assetRegex": "^xLights64_[0-9_]+\\.exe$"
+	}
+}
