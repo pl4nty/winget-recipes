@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SirDiabo",
+		"repo": "GithubLauncher"
+	},
+	"urls": [
+		"https://github.com/SirDiabo/GithubLauncher/releases/download/v{version}/GitHubLauncher-v{version}-Windows.zip"
+	]
+}
