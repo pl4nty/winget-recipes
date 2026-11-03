@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tolgamorf",
+		"repo": "env2op-cli"
+	},
+	"urls": [
+		"https://github.com/tolgamorf/env2op-cli/releases/download/v{version}/env2op-windows-x64.zip"
+	]
+}
