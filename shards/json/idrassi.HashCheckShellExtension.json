@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "idrassi",
+		"repo": "HashCheck",
+		"method": "api-latest",
+		"assetRegex": "^(?:HashCheckSetup\\-v\\d+\\.\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
