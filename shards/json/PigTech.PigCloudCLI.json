@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pigtech-de",
+		"repo": "pigcloud-cli"
+	},
+	"urls": [
+		"https://github.com/pigtech-de/pigcloud-cli/releases/download/v{version}/pigcloud-{version}-windows-amd64.zip",
+		"https://github.com/pigtech-de/pigcloud-cli/releases/download/v{version}/pigcloud-{version}-windows-arm64.zip"
+	]
+}
