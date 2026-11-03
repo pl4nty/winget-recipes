@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "astral-sh",
+		"repo": "ruff"
+	},
+	"urls": [
+		"https://github.com/astral-sh/ruff/releases/download/{github.rawTag}/ruff-aarch64-pc-windows-msvc.zip",
+		"https://github.com/astral-sh/ruff/releases/download/{github.rawTag}/ruff-i686-pc-windows-msvc.zip",
+		"https://github.com/astral-sh/ruff/releases/download/{github.rawTag}/ruff-x86_64-pc-windows-msvc.zip"
+	]
+}
