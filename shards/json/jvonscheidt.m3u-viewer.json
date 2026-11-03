@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jvonscheidt",
+		"repo": "m3u-viewer"
+	},
+	"urls": [
+		"https://github.com/jvonscheidt/m3u-viewer/releases/download/{github.rawTag}/m3u-viewer-v{version}-x86_64-pc-windows-msvc.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/jvonscheidt/m3u-viewer/releases/tag/{github.rawTag}"
+	}
+}
