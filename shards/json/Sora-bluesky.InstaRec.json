@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Sora-bluesky", "repo": "InstaRec" },
+	"urls": ["https://github.com/Sora-bluesky/InstaRec/releases/download/v{version}/InstaRec-Setup.exe"]
+}
