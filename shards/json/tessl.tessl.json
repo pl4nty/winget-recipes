@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://get.tessl.io",
+		"regex": "TESSL_VERSION=\"(\\d+\\.\\d+\\.\\d+)\""
+	},
+	"urls": [
+		"https://install.tessl.io/installers-windows/{version}/TesslSetup-{version}-x64.exe",
+		"https://install.tessl.io/installers-windows/{version}/TesslSetup-{version}-arm64.exe"
+	]
+}
