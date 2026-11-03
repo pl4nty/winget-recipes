@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download.tescosw.cz/crypto/files/cryptong/",
+		"regex": "Installer-Crypto-Native-App-NG-v(\\d+(?:\\.\\d+)+)-x64-MUI\\.msi"
+	},
+	"urls": [
+		"https://download.tescosw.cz/crypto/files/cryptong/Installer-Crypto-Native-App-NG-v{version}-x86-MUI.msi",
+		"https://download.tescosw.cz/crypto/files/cryptong/Installer-Crypto-Native-App-NG-v{version}-x64-MUI.msi"
+	]
+}
