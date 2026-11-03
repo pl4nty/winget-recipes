@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "AariyJP",
-		"repo": "VRCXF"
+		"repo": "VRCXF",
+		"method": "api-list",
+		"kind": "all"
 	},
 	"urls": ["https://github.com/AariyJP/VRCXF/releases/download/{github.rawTag}/VRCXF_Setup_x64.exe"]
 }
