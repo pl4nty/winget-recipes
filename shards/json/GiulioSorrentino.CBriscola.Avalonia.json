@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "GiulianoSpaghetti",
+		"repo": "CBriscola.Material",
+		"method": "api-latest",
+		"assetRegex": "^(?:CBriscola\\.Avalonia\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\-material\\-amd64\\.msi)$"
+	}
+}
