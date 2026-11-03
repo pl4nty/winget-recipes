@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "firezone",
+		"repo": "firezone",
+		"method": "api-sort",
+		"tagRegex": "^headless\\-client\\-"
+	},
+	"urls": [
+		"https://github.com/firezone/firezone/releases/download/{github.rawTag}/firezone-client-headless-windows_{version}_x86_64.exe"
+	]
+}
