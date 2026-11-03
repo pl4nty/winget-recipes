@@ -9,5 +9,8 @@
 		"https://download.tortoisegit.org/tgit/{captures.dir}/TortoiseGit-{version}-32bit.msi",
 		"https://download.tortoisegit.org/tgit/{captures.dir}/TortoiseGit-{version}-64bit.msi",
 		"https://download.tortoisegit.org/tgit/{captures.dir}/TortoiseGit-{version}-arm64.msi"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tortoisegit.org/docs/releasenotes/#Release_{version}"
+	}
 }
