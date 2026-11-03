@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AOzmond",
+		"repo": "usb-tree"
+	},
+	"urls": ["https://github.com/AOzmond/usb-tree/releases/download/{version}/usb-tree-amd64-installer.exe"]
+}
