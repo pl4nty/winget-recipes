@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "speakeasy-api",
+		"repo": "speakeasy"
+	},
+	"urls": [
+		"https://github.com/speakeasy-api/speakeasy/releases/download/v{version}/speakeasy_windows_386.zip",
+		"https://github.com/speakeasy-api/speakeasy/releases/download/v{version}/speakeasy_windows_arm64.zip",
+		"https://github.com/speakeasy-api/speakeasy/releases/download/v{version}/speakeasy_windows_amd64.zip"
+	]
+}
