@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://avendo-app.com/en/download/",
+		"regex": "https://github\\.com/dima5163/avendo-downloads/releases/download/avendo-(?<version>\\d+(?:\\.\\d+)+)-direct/Avendo-\\k<version>-windows-x64-(?<build>[0-9a-f]+)\\.msi"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/dima5163/avendo-downloads/releases/download/avendo-{version}-direct/Avendo-{version}-windows-x64-{captures.build}.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/dima5163/avendo-downloads/releases/download/avendo-{version}-direct/Avendo-{version}-windows-arm64-{captures.build}.msi",
+			"architecture": "arm64"
+		}
+	]
+}
