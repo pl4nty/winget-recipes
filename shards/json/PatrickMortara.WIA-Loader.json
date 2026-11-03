@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mortara.org/apps-software/wia-loader/",
+		"regex": "data-program-version=\"(?<version>\\d+(?:\\.\\d+)+)\"[^>]*data-release-channel=\"release\"[^>]*data-type=\"Setup\"[^>]*data-platform=\"Windows\""
+	},
+	"urls": [
+		{
+			"url": "https://www.mortara.org/media/wialoader/WIALoader_x64_StandAlone_Setup.exe",
+			"architecture": "x64"
+		}
+	]
+}
