@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "maharmstone",
+		"repo": "ntfs2btrfs"
+	},
+	"urls": ["https://github.com/maharmstone/ntfs2btrfs/releases/download/{version}/ntfs2btrfs-{version}.zip"]
+}
