@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Eistee82",
+		"repo": "Keylegend"
+	},
+	"urls": [
+		"https://github.com/Eistee82/Keylegend/releases/download/{github.rawTag}/Keylegend-{version}-setup.exe"
+	]
+}
