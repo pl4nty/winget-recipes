@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "archisman-panigrahi",
+		"repo": "QuickBib"
+	},
+	"urls": [
+		"https://github.com/archisman-panigrahi/QuickBib/releases/download/{github.rawTag}/QuickBib-Installer-v{version}-arm64.exe",
+		"https://github.com/archisman-panigrahi/QuickBib/releases/download/{github.rawTag}/QuickBib-Installer-v{version}-x64.exe"
+	]
+}
