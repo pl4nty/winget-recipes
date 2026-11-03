@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "zenvara-platform", "repo": "cli" },
+	"urls": ["https://github.com/zenvara-platform/cli/releases/download/{version}/zen-win-x64.zip"]
+}
