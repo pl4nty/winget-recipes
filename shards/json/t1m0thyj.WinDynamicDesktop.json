@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "t1m0thyj",
+		"repo": "WinDynamicDesktop"
+	},
+	"urls": [
+		"https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v{version}/WinDynamicDesktop_{version}_x86_Setup.exe",
+		"https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v{version}/WinDynamicDesktop_{version}_x64_Setup.exe",
+		"https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v{version}/WinDynamicDesktop_{version}_arm64_Setup.exe"
+	]
+}
