@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.resplendence.com/latencymon",
+		"regex": "Latest version: LatencyMon v\\s*(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.resplendence.com/download/LatencyMon.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.resplendence.com/latencymon_whatsnew"
+	}
+}
