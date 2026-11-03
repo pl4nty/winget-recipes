@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DomGravante",
+		"repo": "UnitConverter",
+		"tagRegex": "^UnitConverter\\-v"
+	},
+	"urls": [
+		"https://github.com/DomGravante/UnitConverter/releases/download/{github.rawTag}/UnitConverter-Setup-{version}-arm64.exe",
+		"https://github.com/DomGravante/UnitConverter/releases/download/{github.rawTag}/UnitConverter-Setup-{version}-x64.exe"
+	]
+}
