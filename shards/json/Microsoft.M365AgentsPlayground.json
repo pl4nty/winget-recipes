@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OfficeDev",
+		"repo": "microsoft-365-agents-toolkit",
+		"tagRegex": "^microsoft-365-agents-playground@(?=\\d)",
+		"method": "api-list",
+		"kind": "all",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/OfficeDev/microsoft-365-agents-toolkit/releases/download/{github.rawTag}/agentsplayground-win32-x64.zip"
+	]
+}
