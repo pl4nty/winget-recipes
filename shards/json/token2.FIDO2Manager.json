@@ -16,5 +16,6 @@
 			"architecture": "x86",
 			"nestedInstallerMatches": ["FIDO2.1 Manager.exe"]
 		}
-	]
+	],
+	"releaseNotes": { "source": "github" }
 }
