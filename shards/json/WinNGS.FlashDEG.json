@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tus-kondolab",
+		"repo": "flashdeg"
+	},
+	"urls": [
+		"https://github.com/tus-kondolab/flashdeg/releases/download/v{version}/flashdeg-{version}-windows-x86_64.msi"
+	]
+}
