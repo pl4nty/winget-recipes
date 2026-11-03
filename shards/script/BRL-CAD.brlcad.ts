@@ -14,10 +14,11 @@ export default defineShard(async () => {
 		if (release.draft || release.prerelease || !/^rel-\d+(?:-\d+)+$/.test(release.tag_name)) continue;
 		const asset = release.assets.find((asset) => /^BRL-CAD_\d+(?:\.\d+)+_win64\.exe$/.test(asset.name));
 		if (!asset) continue;
+		const msi = release.assets.find((asset) => /^BRL-CAD_\d+(?:\.\d+)+_win64\.msi$/.test(asset.name));
 
 		return {
 			version: release.tag_name.replace(/^rel-/, '').replaceAll('-', '.'),
-			urls: () => [asset.browser_download_url],
+			urls: () => [asset.browser_download_url, ...(msi ? [msi.browser_download_url] : [])],
 			releaseNotes: { source: 'github', owner: 'BRL-CAD', repo: 'brlcad', tag: release.tag_name },
 		};
 	}
