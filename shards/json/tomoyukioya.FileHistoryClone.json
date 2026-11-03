@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tomoyukioya",
+		"repo": "FileHistoryClone"
+	},
+	"urls": [
+		"https://github.com/tomoyukioya/FileHistoryClone/releases/download/v{version}/FileHistoryCloneSetup-{version}.exe"
+	]
+}
