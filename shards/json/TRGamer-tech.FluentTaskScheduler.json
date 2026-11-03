@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TRGamer-tech",
+		"repo": "FluentTaskScheduler",
+		"tagRegex": "^V"
+	},
+	"urls": [
+		"https://github.com/TRGamer-tech/FluentTaskScheduler/releases/download/{github.rawTag}/Setup-x64.msi",
+		"https://github.com/TRGamer-tech/FluentTaskScheduler/releases/download/{github.rawTag}/Setup-arm64.msi"
+	]
+}
