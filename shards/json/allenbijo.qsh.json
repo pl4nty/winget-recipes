@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "allenbijo",
+		"repo": "QuickSSH-terminal"
+	},
+	"urls": [
+		"https://github.com/allenbijo/QuickSSH-terminal/releases/download/{github.rawTag}/qsh_windows_amd64.zip"
+	]
+}
