@@ -9,6 +9,5 @@
 		"https://github.com/claration/impactor/releases/download/v{version}/Impactor-windows-x86-setup.exe",
 		"https://github.com/claration/impactor/releases/download/v{version}/Impactor-windows-x86_64-setup.exe",
 		"https://github.com/claration/impactor/releases/download/v{version}/Impactor-windows-arm64-setup.exe"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
