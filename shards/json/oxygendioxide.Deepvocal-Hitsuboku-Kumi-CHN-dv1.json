@@ -3,7 +3,7 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "oxygen-dioxide",
-		"repo": "hitsuboku-kumi-chn-deepvocal"
+		"repo": "hitsuboku-kumi-zh-deepvocal"
 	},
-	"urls": ["https://github.com/oxygen-dioxide/hitsuboku-kumi-chn-deepvocal/releases/download/v{version}/Hitsuboku-Kumi-Chinese-deepvocal-{version}-dvtb1.exe"]
+	"urls": ["https://github.com/oxygen-dioxide/hitsuboku-kumi-zh-deepvocal/releases/download/v{version}/Hitsuboku-Kumi-Chinese-deepvocal-{version}-dvtb1.exe"]
 }
