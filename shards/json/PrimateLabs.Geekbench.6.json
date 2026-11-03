@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "sort-versions",
-	"sortVersions": {
-		"url": "https://www.geekbench.com/legacy/",
-		"regex": "Geekbench-(6\\.\\d+\\.\\d+)-WindowsSetup\\.exe"
-	},
-	"urls": ["https://cdn.geekbench.com/Geekbench-{version}-WindowsSetup.exe"]
-}
