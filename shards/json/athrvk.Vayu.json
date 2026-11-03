@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "athrvk",
+		"repo": "vayu"
+	},
+	"urls": [
+		"https://github.com/athrvk/vayu/releases/download/{github.rawTag}/Vayu-x64.exe"
+	]
+}
