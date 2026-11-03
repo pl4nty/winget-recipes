@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://downloads.lynxcloud.app/lynx-whiteboard/releases/win64/lynx-whiteboard.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.lynxcloud.app/change-logs/lynx-whiteboard/releases/win64"
+	}
+}
