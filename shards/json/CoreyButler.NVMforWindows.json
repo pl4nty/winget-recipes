@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nvm-windows",
+		"repo": "nvm"
+	},
+	"urls": [
+		"https://github.com/nvm-windows/nvm/releases/download/{github.rawTag}/nvm-setup.exe"
+	]
+}
