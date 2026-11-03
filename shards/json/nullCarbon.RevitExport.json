@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bhupas",
+		"repo": "revit"
+	},
+	"urls": ["https://github.com/bhupas/revit/releases/download/v{version}/nullCarbon-LCA-Export-win64-{version}.msi"]
+}
