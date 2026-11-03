@@ -11,5 +11,6 @@
 		"url": "https://tjgroup.ch/download/TigerJython.msi",
 		"header": "etag"
 	},
+	"releaseNotes": { "releaseNotesUrl": "https://www.tigerjython.ch/en/products/download" },
 	"replace": true
 }
