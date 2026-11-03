@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.maptiler.com/engine/download/",
+		"regex": "engineVersion\\\\?\"\\s*:\\s*\\\\?\"(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://maptiler.download/engine/maptiler-engine-{version}-app-win-x64-setup.exe"]
+}
