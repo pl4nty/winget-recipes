@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.zarastudio.es/en/downloads/",
+		"regex": "ZaraRadio (?<version>\\d+(?:\\.\\d+)+) Free Edition"
+	},
+	"urls": ["https://www.zarastudio.es/zararadiofr/ZaraRadioFreeEdition.exe"]
+}
