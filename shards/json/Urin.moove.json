@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "urin",
+		"repo": "moove"
+	},
+	"urls": ["https://github.com/urin/moove/releases/download/v{version}/moove-x86_64-pc-windows-msvc.zip"]
+}
