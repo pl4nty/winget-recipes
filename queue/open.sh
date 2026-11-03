@@ -1,6 +1,6 @@
 #!/bin/bash
 # usage: open.sh : opens a draft PR for each queue/*.tsv line (branch, title, base64 body), one per $INTERVAL seconds, taking the files in turn.
-# Skips heads that already have a PR, so a rerun resumes. Backs off on GitHub secondary rate limits. Stops after $BUDGET seconds.
+# Skips heads that already have a PR (listed once per run), so a rerun resumes. Backs off on GitHub secondary rate limits. Stops after $BUDGET seconds.
 set -uo pipefail
 R=$GITHUB_REPOSITORY; OWNER=${R%%/*}
 INTERVAL=${INTERVAL:-9}; end=$(( $(date +%s) + ${BUDGET:-20400} ))
@@ -20,11 +20,13 @@ call() {
   done
   return 1
 }
+gh api --paginate "repos/$R/pulls?state=all&per_page=100" --jq '.[].head.ref' | sort -u > /tmp/heads.txt
+echo "$(wc -l < /tmp/heads.txt) existing PR heads"
 opened=0
 while IFS=$'\t' read -r branch title body; do
   [ "$(date +%s)" -lt "$end" ] || { echo "budget used, $opened opened"; exit 0; }
-  n=$(gh api "repos/$R/pulls?head=$OWNER:$branch&state=all" --jq length) || continue
-  [ "$n" = 0 ] || continue
+  grep -qxF -- "$branch" /tmp/heads.txt && continue
+  echo "$branch" >> /tmp/heads.txt
   gh api "repos/$R/branches/$branch" --silent 2>/dev/null || { echo "missing branch $branch"; continue; }
   num=$(call "repos/$R/pulls" -f title="$title" -f head="$branch" -f base=main -F draft=true -f body="$(base64 -d <<<"$body")" --jq .number) || { echo "failed $branch"; continue; }
   call -X POST "repos/$R/issues/$num/assignees" -f "assignees[]=$OWNER" --silent || true
