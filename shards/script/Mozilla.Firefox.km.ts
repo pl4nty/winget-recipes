@@ -20,11 +20,11 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			`${base}/win32/it/Firefox%20Setup%20${version}.exe`,
-			`${base}/win64/it/Firefox%20Setup%20${version}.exe`,
-			`${base}/win64-aarch64/it/Firefox%20Setup%20${version}.exe`,
-			`${base}/win32/it/Firefox%20Setup%20${version}.msi`,
-			`${base}/win64/it/Firefox%20Setup%20${version}.msi`,
+			`${base}/win32/km/Firefox%20Setup%20${version}.exe`,
+			`${base}/win64/km/Firefox%20Setup%20${version}.exe`,
+			`${base}/win64-aarch64/km/Firefox%20Setup%20${version}.exe`,
+			`${base}/win32/km/Firefox%20Setup%20${version}.msi`,
+			`${base}/win64/km/Firefox%20Setup%20${version}.msi`,
 		],
 		releaseNotes: {
 			source: 'html',
