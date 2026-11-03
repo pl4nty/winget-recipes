@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://static-us-img.skywork.ai/skycode/changelog/index.html",
+		"regex": "Latest release[^v<]*v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://static-us-img.skywork.ai/desktop-package/skywork-desktop-wsl2_{version}_x64-setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://static-us-img.skywork.ai/skycode/changelog/index.html"
+	}
+}
