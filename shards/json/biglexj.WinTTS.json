@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "biglexj",
+		"repo": "WinTTS",
+		"method": "api-sort",
+		"assetRegex": "^(?:WinTTS\\.exe)$"
+	}
+}
