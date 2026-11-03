@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CatalystDevOrg",
+		"repo": "Catalyst"
+	},
+	"urls": [
+		"https://github.com/CatalystDevOrg/Catalyst/releases/download/{github.rawTag}/catalyst-Setup-{version}.exe"
+	]
+}
