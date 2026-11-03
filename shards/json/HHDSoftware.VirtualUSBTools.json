@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://hhdsoftware.com/download/virtual-usb-tools.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://hhdsoftware.com/download/virtual-usb-tools-arm64.exe",
+			"architecture": "arm64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hhdsoftware.com/virtual-usb-tools/history"
+	}
+}
