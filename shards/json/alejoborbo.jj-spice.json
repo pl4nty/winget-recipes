@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alejoborbo",
+		"repo": "jj-spice"
+	},
+	"urls": [
+		"https://github.com/alejoborbo/jj-spice/releases/download/{github.rawTag}/jj-spice_{version}_windows_amd64.zip"
+	]
+}
