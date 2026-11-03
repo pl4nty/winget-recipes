@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PoBruno",
+		"repo": "klip"
+	},
+	"urls": [
+		"https://github.com/PoBruno/klip/releases/download/{github.rawTag}/Klip-Setup-{version}.exe"
+	]
+}
