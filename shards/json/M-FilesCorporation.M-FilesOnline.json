@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://product.m-files.com/downloads/",
+		"regex": "https://cdn3\\.m-files\\.com/public/(?<dir>M-Files_[\\d.]+)/M-Files_Online_x64_eng_(?<version>\\d+_\\d+_\\d+_\\d+)_EV\\.msi"
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://cdn3.m-files.com/public/{captures.dir}/M-Files_Online_x64_eng_{version}_EV.msi"]
+}
