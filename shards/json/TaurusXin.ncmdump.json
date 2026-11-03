@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "taurusxin",
+		"repo": "ncmdump"
+	},
+	"urls": ["https://github.com/taurusxin/ncmdump/releases/download/{version}/ncmdump-{version}-windows-amd64.zip"]
+}
