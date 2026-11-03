@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mjansen4857",
+		"repo": "pathplanner"
+	},
+	"urls": ["https://github.com/mjansen4857/pathplanner/releases/download/v{version}/PathPlanner-Windows-v{version}-setup.exe"]
+}
