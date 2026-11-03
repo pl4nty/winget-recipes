@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "co2-lab",
+		"repo": "anchors"
+	},
+	"urls": [
+		"https://github.com/co2-lab/anchors/releases/download/{github.rawTag}/anchors_{version}_windows_amd64.zip",
+		"https://github.com/co2-lab/anchors/releases/download/{github.rawTag}/anchors_{version}_windows_arm64.zip"
+	]
+}
