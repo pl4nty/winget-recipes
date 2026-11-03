@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "baldknobber",
+		"repo": "deck-save"
+	},
+	"urls": [
+		"https://github.com/baldknobber/deck-save/releases/download/{github.rawTag}/DeckSave_{version}_x64_en-US.msi"
+	]
+}
