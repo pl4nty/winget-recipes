@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "modrexio",
+		"repo": "modrex"
+	},
+	"urls": [
+		"https://github.com/modrexio/modrex/releases/download/v{version}/modrex_x86_64.exe"
+	]
+}
