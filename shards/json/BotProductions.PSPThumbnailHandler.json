@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.botproductions.com/pspthumb/v2/pthsetup.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.botproductions.com/pspthumb/v2/x64/pthsetup.exe",
+			"architecture": "x64"
+		}
+	]
+}
