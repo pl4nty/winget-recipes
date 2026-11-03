@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.cube-soft.jp/cubepdf/",
+		"regex": "CubePDF (\\d+(?:\\.\\d+)+) をリリース"
+	},
+	"urls": [
+		"https://dl.cube-soft.jp/archive/cubepdf-{version}.exe",
+		"https://dl.cube-soft.jp/archive/cubepdf-{version}-x64.exe",
+		"https://dl.cube-soft.jp/archive/cubepdf-{version}-arm64.exe"
+	]
+}
