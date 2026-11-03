@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tig",
+		"repo": "winprint"
+	},
+	"urls": [
+		"https://github.com/tig/winprint/releases/download/{github.rawTag}/Kindel.WinPrint-win-x64-Setup.exe"
+	]
+}
