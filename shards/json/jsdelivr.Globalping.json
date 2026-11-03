@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jsdelivr",
+		"repo": "globalping-cli"
+	},
+	"urls": [
+		"https://github.com/jsdelivr/globalping-cli/releases/download/{github.rawTag}/globalping_Windows_arm64.zip",
+		"https://github.com/jsdelivr/globalping-cli/releases/download/{github.rawTag}/globalping_Windows_i386.zip",
+		"https://github.com/jsdelivr/globalping-cli/releases/download/{github.rawTag}/globalping_Windows_x86_64.zip"
+	]
+}
