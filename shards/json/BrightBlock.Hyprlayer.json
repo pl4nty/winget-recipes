@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BrightBlock",
+		"repo": "hyprlayer-cli"
+	},
+	"urls": [
+		"https://github.com/BrightBlock/hyprlayer-cli/releases/download/{github.rawTag}/hyprlayer-x86_64-pc-windows-msvc.exe"
+	]
+}
