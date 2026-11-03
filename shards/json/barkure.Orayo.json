@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "barkure",
+		"repo": "Orayo"
+	},
+	"urls": [
+		"https://github.com/barkure/Orayo/releases/download/{github.rawTag}/Orayo-v{version}-Setup.exe"
+	]
+}
