@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "product-noob", "repo": "launchpage-app" },
+	"urls": ["https://github.com/product-noob/launchpage-app/releases/download/v{version}/Launchpad.Setup.{version}.exe"]
+}
