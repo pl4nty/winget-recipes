@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://lunkrcdn.icoremail.net/cab/publish/lunkr4mail/cmclient_4.2.3-1614_amd32.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://lunkrcdn.icoremail.net/cab/publish/lunkr4mail/cmclient_4.2.3-1614_amd64.exe",
+			"architecture": "x64"
+		}
+	]
+}
