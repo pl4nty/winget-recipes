@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "x-motemen", "repo": "ghq" },
+	"urls": [
+		"https://github.com/x-motemen/ghq/releases/download/v{version}/ghq_windows_amd64.zip",
+		"https://github.com/x-motemen/ghq/releases/download/v{version}/ghq_windows_arm64.zip"
+	]
+}
