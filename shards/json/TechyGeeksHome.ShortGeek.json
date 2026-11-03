@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "techygeekshome",
+		"repo": "ShortGeek"
+	},
+	"urls": ["https://github.com/techygeekshome/ShortGeek/releases/download/v{version}/ShortGeekSetup.exe"]
+}
