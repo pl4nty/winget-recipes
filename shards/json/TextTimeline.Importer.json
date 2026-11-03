@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://texttimeline.com/download/windows"],
+		"regex": "/releases/download/v(?<version>\\d+(?:\\.\\d+)+)/TextTimeline-Importer_[^/]*_x64-setup\\.exe$"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "DevDizzle",
+		"repo": "texttimeline-downloads",
+		"tag": "v{version}",
+		"cleanup": false
+	}
+}
