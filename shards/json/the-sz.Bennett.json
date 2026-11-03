@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/products/bennett/",
+		"regex": "Version (\\d+(?:\\.\\d+)+) &middot;"
+	},
+	"urls": [{ "url": "https://the-sz.com/common/get.php?product=bennett&version={version}", "architecture": "x86" }],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=bennett"
+	}
+}
