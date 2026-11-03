@@ -4,9 +4,13 @@ import { defineShard } from 'anthelion';
 // The date gives the first three version parts; the letter suffix gives the build
 // (no letter = 0, a = 1, b = 2, ...), e.g. 20261014f -> 2026.10.14.6.
 export default defineShard(async () => {
-	const page = await fetch('https://www.gtopala.com/download/').then((response) => response.text());
+	const response = await fetch('https://www.gtopala.com/download/');
+	const page = await response.text();
 	const found = /\/download\/(\d{4})(\d{2})(\d{2})([a-z]?)\/siwtrial-setup\.exe/.exec(page);
-	if (!found) throw new Error('SIW download link not found');
+	if (!found) {
+		const title = /<title>([^<]*)<\/title>/i.exec(page)?.[1] ?? '';
+		throw new Error(`SIW download link not found (HTTP ${response.status}, title "${title}")`);
+	}
 	const [, year, month, day, letter] = found;
 	const folder = `${year}${month}${day}${letter}`;
 	const build = letter ? letter.charCodeAt(0) - 96 : 0;
