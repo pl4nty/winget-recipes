@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.sftpgo.com/windows/sftpgo_windows_v2.7.20260910_x86_64_onprem.exe"
+	]
+}
