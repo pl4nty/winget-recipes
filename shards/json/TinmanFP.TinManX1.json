@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Tinman-FP",
+		"repo": "TinManX1",
+		"method": "api-list",
+		"assetRegex": "^TinManX1_Windows_Installer_V[\\d.]+_(x64|arm64)\\.exe$"
+	},
+	"version": { "source": "product" }
+}
