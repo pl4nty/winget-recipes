@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/5.0/releases.json",
+		"path": "latest-runtime"
+	},
+	"urls": [
+		{
+			"url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/{version}/dotnet-hosting-{version}-win.exe",
+			"architecture": "x86"
+		}
+	]
+}
