@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://axure.cachefly.net/versions/9-0/AxureRP-Setup-3754.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.axure.com/changelog"
+	}
+}
