@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TeamFlos",
+		"repo": "phira"
+	},
+	"urls": [
+		"https://github.com/TeamFlos/phira/releases/download/v{version}/Phira-windows-x86_64-v{version}.zip",
+		"https://github.com/TeamFlos/phira/releases/download/v{version}/Phira-windows-aarch64-v{version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/TeamFlos/phira/releases/tag/v{version}"
+	}
+}
