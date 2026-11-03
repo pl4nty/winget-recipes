@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.lenovo.com/pccbbs/thinkvantage_en/metroapps/Vantage/LenovoCommercialVantage_20.2506.39.0_v17.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://download.lenovo.com/pccbbs/thinkvantage_en/metroapps/Vantage/Lenovo_Commercial_Vantage_Release_Notes_20.2506.39.0_v2.pdf"
+	}
+}
