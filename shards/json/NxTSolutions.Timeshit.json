@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "NoahNxT", "repo": "Toggl2Timeshit" },
+	"urls": [
+		"https://github.com/NoahNxT/Toggl2Timeshit/releases/download/v{version}/timeshit-windows.zip"
+	]
+}
