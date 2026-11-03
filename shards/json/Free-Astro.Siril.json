@@ -5,5 +5,10 @@
 		"url": "https://siril.org/download/",
 		"regex": "https://free-astro\\.org/download/siril-(?<version>\\d+(?:\\.\\d+)+)-(?<toolchain>[a-z0-9]+)-setup\\.exe"
 	},
-	"urls": ["https://free-astro.org/download/siril-{version}-{captures.toolchain}-setup.exe"]
+	"urls": [
+		{
+			"url": "https://free-astro.org/download/siril-{version}-{captures.toolchain}-setup.exe",
+			"architecture": "x64"
+		}
+	]
 }
