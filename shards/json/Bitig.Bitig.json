@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sametgurtuna",
+		"repo": "bitig"
+	},
+	"urls": [
+		"https://github.com/sametgurtuna/bitig/releases/download/{github.rawTag}/Bitig-Setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/sametgurtuna/bitig/releases/tag/{github.rawTag}"
+	}
+}
