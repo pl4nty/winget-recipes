@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://instant-eyedropper.com/",
+		"regex": "/download/instant-eyedropper-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [{ "url": "https://instant-eyedropper.com/download/instant-eyedropper-{version}.exe", "architecture": "x86" }]
+}
