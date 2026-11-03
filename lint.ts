@@ -52,6 +52,8 @@ const versionState: Rule = async (shards, report) => {
 const ROOT = new Set(['PackageIdentifier', 'PackageVersion', 'ManifestType', 'ManifestVersion']);
 // komac drops InstallerLocale on update, and shards cannot set it.
 const IGNORED = /(^|\.)InstallerLocale$/;
+// komac writes ReleaseNotesUrl only to the default locale.
+const DEFAULT_LOCALE_ONLY = /(^|\.)ReleaseNotesUrl$/;
 
 // Counts each field path without array indexes. Root installer fields count once per installer,
 // so komac moving a field between the root and the installers is not a drop.
@@ -96,12 +98,14 @@ const droppedFields: Rule = async (shards, report) => {
 		const version = [...generated.keys()].find((path) => path.startsWith(`${pkg}/`))!.split('/').at(-2);
 		for (const path of paths.filter((path) => basename(dirname(path)) === latest)) {
 			const name = basename(path);
-			const before = fields(await readFile(join(dir, path), 'utf8'));
+			const raw = await readFile(join(dir, path), 'utf8');
+			const before = fields(raw);
+			const defaultLocale = /^ManifestType:\s*defaultLocale\s*$/m.test(raw);
 			const yaml = generated.get(`${pkg}/${version}/${name}`);
 			const after = yaml === undefined ? new Map<string, number>() : fields(yaml);
 			for (const [field, count] of before) {
 				const kept = after.get(field) ?? 0;
-				if (kept < count && !IGNORED.test(field))
+				if (kept < count && !IGNORED.test(field) && (defaultLocale || !DEFAULT_LOCALE_ONLY.test(field)))
 					report(shard, `${name}: dry run drops ${field} (${count} in ${latest}, ${kept} in dry run)`);
 			}
 		}
