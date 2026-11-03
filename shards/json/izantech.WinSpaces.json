@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "izantech",
+		"repo": "winspaces"
+	},
+	"urls": [
+		"https://github.com/izantech/winspaces/releases/download/{github.rawTag}/WinSpaces-Setup-x64-{version}.exe"
+	]
+}
