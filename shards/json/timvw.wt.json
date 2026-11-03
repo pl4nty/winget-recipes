@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "timvw",
+		"repo": "wt"
+	},
+	"urls": [
+		"https://github.com/timvw/wt/releases/download/v{version}/wt_{version}_windows_amd64.zip"
+	]
+}
