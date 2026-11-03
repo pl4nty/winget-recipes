@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qzind",
+		"repo": "tray"
+	},
+	"urls": [
+		"https://github.com/qzind/tray/releases/download/v{version}/qz-tray-{version}-x86_64.exe",
+		"https://github.com/qzind/tray/releases/download/v{version}/qz-tray-{version}-arm64.exe"
+	]
+}
