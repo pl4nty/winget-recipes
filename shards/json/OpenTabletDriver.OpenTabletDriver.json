@@ -10,6 +10,5 @@
 			"url": "https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/{github.rawTag}/OpenTabletDriver-{version}_win-x64.zip",
 			"nestedInstallerMatches": ["OpenTabletDriver.UX.Wpf.exe"]
 		}
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
