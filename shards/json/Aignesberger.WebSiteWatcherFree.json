@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.aignes.com/download/wswfreesetup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.aignes.com/wsw_history.htm"
+	}
+}
