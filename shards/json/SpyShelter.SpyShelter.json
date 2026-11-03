@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://spyshelter.com/",
+		"regex": "<div class=\"versionInfo\">[\\s\\S]*?<div>Version (\\d+(?:\\.\\d+)+)</div>"
+	},
+	"urls": ["https://spyshelter.com/files/SpyShelterSetup.exe"],
+	"replace": true
+}
