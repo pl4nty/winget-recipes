@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "u14app", "repo": "neo-chat" },
+	"urls": [
+		"https://github.com/u14app/neo-chat/releases/download/v{version}/gemini-next-chat_{version}_x64-setup.exe",
+		"https://github.com/u14app/neo-chat/releases/download/v{version}/gemini-next-chat_{version}_x64_en-US.msi"
+	]
+}
