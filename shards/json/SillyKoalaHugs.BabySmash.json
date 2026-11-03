@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://sillykoala.eu.org/?sdm_process_download=1&download_id=261"],
+		"regex": "/baby-smash-setup-(\\d+(?:\\.\\d+)+)\\.exe$"
+	}
+}
