@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Daydreamer-riri",
+		"repo": "CmdPal-WebSearchShortcut",
+		"tagRegex": "^CmdPal-?"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/Daydreamer-riri/CmdPal-WebSearchShortcut/releases/download/{github.rawTag}/Riri.WebSearchShortcut_{packageVersion}_arm64.msix",
+		"https://github.com/Daydreamer-riri/CmdPal-WebSearchShortcut/releases/download/{github.rawTag}/Riri.WebSearchShortcut_{packageVersion}_x64.msix"
+	]
+}
