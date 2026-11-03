@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "momocrackcorp",
+		"repo": "janus-windows"
+	},
+	"urls": ["https://github.com/momocrackcorp/janus-windows/releases/download/v{version}/Janus.exe"]
+}
