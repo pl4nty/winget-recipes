@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "v{version}",
+	"github": {
+		"owner": "gptscript-ai",
+		"repo": "clio",
+		"method": "api-latest",
+		"assetRegex": "^(?:clio_v\\d+\\.\\d+\\.\\d+_windows_amd64\\.zip|clio_v\\d+\\.\\d+\\.\\d+_windows_arm64\\.zip)$"
+	}
+}
