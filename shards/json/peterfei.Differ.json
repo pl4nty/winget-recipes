@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "peterfei",
+		"repo": "differ"
+	},
+	"urls": [
+		"https://github.com/peterfei/differ/releases/download/v{version}/Differ_{version}_x64_en-US.msi",
+		"https://github.com/peterfei/differ/releases/download/v{version}/Differ_{version}_x64-setup.exe"
+	]
+}
