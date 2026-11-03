@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dannagle",
+		"repo": "PacketSender"
+	},
+	"urls": ["https://github.com/dannagle/PacketSender/releases/download/v{version}/PacketSender_x64_v{version}.exe"]
+}
