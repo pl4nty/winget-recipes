@@ -5,5 +5,10 @@
 		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/gettext",
 		"regex": "/gettext/(\\d+(?:\\.\\d+)+)/gettext-\\d+(?:\\.\\d+)+\\.exe/download"
 	},
-	"urls": ["https://sourceforge.net/projects/gnuwin32/files/gettext/{version}/gettext-{version}.exe/download"]
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/gnuwin32/files/gettext/{version}/gettext-{version}.exe/download",
+			"architecture": "x86"
+		}
+	]
 }
