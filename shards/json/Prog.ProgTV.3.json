@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.progdvb.com/index/progtv/progtv-win",
+		"regex": "progtv_win/ProgTV(3\\.\\d+\\.\\d+\\.\\d+)\\.x64\\.msix"
+	},
+	"urls": [
+		"https://files4.progdvb.com/progtv_win/ProgTV{version}.x64.msix",
+		"https://files4.progdvb.com/progtv_win/ProgTV{version}.x64.exe",
+		"https://files4.progdvb.com/progtv_win/ProgTV{version}.x86.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.progdvb.com/index/progtv/progtv-win"
+	}
+}
