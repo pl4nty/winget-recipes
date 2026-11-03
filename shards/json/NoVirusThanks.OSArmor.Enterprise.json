@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"releaseNotes": { "releaseNotesUrl": "https://www.osarmor.com/changelog/" },
+	"urls": ["https://downloads.osarmor.com/latest/osarmor-enterprise/setup"],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.osarmor.com/latest/osarmor-enterprise/setup",
+		"header": "etag",
+		"method": "get"
+	},
+	"replace": true
+}
