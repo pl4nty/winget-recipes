@@ -19,20 +19,6 @@
 			"nestedInstallerMatches": [
 				"Fiji/fiji-windows-arm64.exe"
 			]
-		},
-		{
-			"url": "https://downloads.imagej.net/fiji/archive/latest/{version}/fiji-latest-win64-jdk.zip",
-			"architecture": "x64",
-			"nestedInstallerMatches": [
-				"Fiji/fiji-windows-x64.exe"
-			]
-		},
-		{
-			"url": "https://downloads.imagej.net/fiji/archive/latest/{version}/fiji-latest-win-arm64-jdk.zip",
-			"architecture": "arm64",
-			"nestedInstallerMatches": [
-				"Fiji/fiji-windows-arm64.exe"
-			]
 		}
 	]
 }
