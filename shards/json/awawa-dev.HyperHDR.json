@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "awawa-dev",
+		"repo": "HyperHDR",
+		"method": "api-sort",
+		"assetRegex": "^(?:HyperHDR\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\-Windows\\-AMD64\\.exe)$"
+	}
+}
