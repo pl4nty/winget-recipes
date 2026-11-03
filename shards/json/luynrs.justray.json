@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "luynrs",
+		"repo": "justray"
+	},
+	"urls": [
+		"https://github.com/luynrs/justray/releases/download/{github.rawTag}/justray-{version}-windows-amd64.zip",
+		"https://github.com/luynrs/justray/releases/download/{github.rawTag}/justray-{version}-windows-arm64.zip"
+	]
+}
