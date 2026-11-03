@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://github.com/x86matthew/WoWMIPS/raw/refs/heads/main/Release/WoWMIPS.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://raw.githubusercontent.com/x86matthew/WoWMIPS/refs/heads/main/Release/WoWMIPS.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
