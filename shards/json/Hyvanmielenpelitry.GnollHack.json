@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "hyvanmielenpelit",
+		"repo": "GnollHack",
+		"method": "api-latest",
+		"assetRegex": "^(?:GnollHackM_\\d+\\.\\d+\\.\\d+\\.\\d+_x64\\.msix)$"
+	}
+}
