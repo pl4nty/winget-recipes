@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pdf-marin",
+		"repo": "pdf-marin.github.io"
+	},
+	"urls": ["https://github.com/pdf-marin/pdf-marin.github.io/releases/download/v{version}/PDF-MARIN-Setup-{version}.exe"]
+}
