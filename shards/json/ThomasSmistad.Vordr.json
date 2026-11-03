@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xxtsxx",
+		"repo": "Vordr"
+	},
+	"urls": [
+		"https://github.com/xxtsxx/Vordr/releases/download/v{version}/vordr-{version}.msi"
+	]
+}
