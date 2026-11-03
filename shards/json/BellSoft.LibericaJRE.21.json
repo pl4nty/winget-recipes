@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://download.bell-sw.com/java/21.0.12+10/bellsoft-jre21.0.12+10-windows-i586.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://download.bell-sw.com/java/21.0.12+10/bellsoft-jre21.0.12+10-windows-amd64.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://download.bell-sw.com/java/21.0.12+10/bellsoft-jre21.0.12+10-windows-aarch64.msi",
+			"architecture": "arm64"
+		}
+	]
+}
