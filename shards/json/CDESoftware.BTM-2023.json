@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://static.cdesoftware.com/btm2023/BTM2023INSTALLER.EXE"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://downloads.cdesoftware.com/btm2023\\VersionHistory.txt"
+	}
+}
