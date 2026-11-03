@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/mec-as2/rss?path=/",
+		"regex": "/install_mendelson_opensource_as2_(\\d+\\.\\d+b\\d+)\\.exe"
+	},
+	"urls": ["https://sourceforge.net/projects/mec-as2/files/install_mendelson_opensource_as2_{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/projects/mec-as2/files/"
+	}
+}
