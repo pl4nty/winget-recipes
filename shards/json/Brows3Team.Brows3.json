@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rgcsekaraa",
+		"repo": "brows3",
+		"tagRegex": "^app\\-v"
+	},
+	"urls": [
+		"https://github.com/rgcsekaraa/brows3/releases/download/{github.rawTag}/Brows3_{version}_x64-setup.exe",
+		"https://github.com/rgcsekaraa/brows3/releases/download/{github.rawTag}/Brows3_{version}_x64_en-US.msi"
+	]
+}
