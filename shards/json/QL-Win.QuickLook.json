@@ -7,6 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/QL-Win/QuickLook/releases/download/{version}/QuickLook-{version}.msi"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
