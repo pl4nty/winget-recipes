@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VSCodium",
+		"repo": "vscodium-insiders",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "-insider$"
+	},
+	"urls": [
+		"https://github.com/VSCodium/vscodium-insiders/releases/download/{github.rawTag}/VSCodiumUserSetup-x64-{github.rawTag}.exe",
+		"https://github.com/VSCodium/vscodium-insiders/releases/download/{github.rawTag}/VSCodiumSetup-x64-{github.rawTag}.exe",
+		"https://github.com/VSCodium/vscodium-insiders/releases/download/{github.rawTag}/VSCodiumUserSetup-arm64-{github.rawTag}.exe",
+		"https://github.com/VSCodium/vscodium-insiders/releases/download/{github.rawTag}/VSCodiumSetup-arm64-{github.rawTag}.exe",
+		"https://github.com/VSCodium/vscodium-insiders/releases/download/{github.rawTag}/VSCodium-x64-{github.rawTag}.msi"
+	]
+}
