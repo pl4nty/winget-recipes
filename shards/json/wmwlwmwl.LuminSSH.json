@@ -4,6 +4,7 @@
 	"github": {
 		"owner": "wmwlwmwl",
 		"repo": "LumeTerm",
+		"method": "api-latest",
 		"assetRegex": "-amd64-installer\\.exe$"
 	}
 }
