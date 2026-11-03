@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pouriyajamshidi",
+		"repo": "tcping"
+	},
+	"urls": [
+		"https://github.com/pouriyajamshidi/tcping/releases/download/v{version}/tcping-windows-arm64-static.zip",
+		"https://github.com/pouriyajamshidi/tcping/releases/download/v{version}/tcping-windows-amd64-static.zip"
+	]
+}
