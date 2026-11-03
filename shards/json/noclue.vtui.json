@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "noclue",
+		"repo": "vtui"
+	},
+	"urls": [
+		"https://github.com/noclue/vtui/releases/download/v{version}/vtui-x86_64-pc-windows-msvc.zip",
+		"https://github.com/noclue/vtui/releases/download/v{version}/vtui-aarch64-pc-windows-msvc.zip"
+	]
+}
