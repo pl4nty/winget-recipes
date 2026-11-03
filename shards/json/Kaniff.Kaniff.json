@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tgspn",
+		"repo": "kaniff"
+	},
+	"urls": [
+		"https://github.com/tgspn/kaniff/releases/download/{github.rawTag}/kaniff-{version}-win-x64.zip"
+	]
+}
