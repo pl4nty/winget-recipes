@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ben-burwood",
+		"repo": "anybucket",
+		"method": "api-sort",
+		"assetRegex": "^(?:AnyBucket_\\d+\\.\\d+\\.\\d+_x64\\-setup\\.exe|AnyBucket_\\d+\\.\\d+\\.\\d+_x64_en\\-US\\.msi)$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/ben-burwood/anybucket/releases/tag/{github.rawTag}"
+	}
+}
