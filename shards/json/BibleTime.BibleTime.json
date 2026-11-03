@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "bibletime",
-		"repo": "bibletime"
-	},
-	"urls": ["https://github.com/bibletime/bibletime/releases/download/v{version}/BibleTime-{version}-win64.exe"]
+		"repo": "bibletime",
+		"method": "api-sort",
+		"assetRegex": "win64\\.exe$"
+	}
 }
