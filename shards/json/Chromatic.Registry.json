@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Has-X",
+		"repo": "Registry"
+	},
+	"urls": [
+		"https://github.com/Has-X/Registry/releases/download/{github.rawTag}/Registry-Setup-arm64.exe",
+		"https://github.com/Has-X/Registry/releases/download/{github.rawTag}/Registry-Setup-x64.exe"
+	]
+}
