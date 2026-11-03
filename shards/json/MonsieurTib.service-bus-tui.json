@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MonsieurTib",
+		"repo": "service-bus-tui"
+	},
+	"urls": [
+		"https://github.com/MonsieurTib/service-bus-tui/releases/download/v{version}/service-bus-tui_Windows_arm64.zip",
+		"https://github.com/MonsieurTib/service-bus-tui/releases/download/v{version}/service-bus-tui_Windows_x86_64.zip"
+	]
+}
