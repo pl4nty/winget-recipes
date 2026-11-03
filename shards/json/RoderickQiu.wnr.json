@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RoderickQiu",
+		"repo": "wnr"
+	},
+	"urls": [
+		"https://github.com/RoderickQiu/wnr/releases/download/v{version}/wnr-{version}-Setup-x64.exe",
+		"https://github.com/RoderickQiu/wnr/releases/download/v{version}/wnr-{version}-Setup-arm64.exe"
+	]
+}
