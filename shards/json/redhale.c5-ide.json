@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "htxryan", "repo": "c5" },
+	"urls": [
+		"https://github.com/htxryan/c5/releases/download/v{version}/c5-ide-{version}-win-x64-setup.exe"
+	]
+}
