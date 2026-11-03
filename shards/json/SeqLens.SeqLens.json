@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.seqlens.app/v1/version",
+		"path": "windows.latest.version"
+	},
+	"urls": ["https://api.seqlens.app/v1/download/windows/{version}"]
+}
