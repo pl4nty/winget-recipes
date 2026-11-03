@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hidecode365",
+		"repo": "win-launcher"
+	},
+	"urls": [
+		"https://github.com/hidecode365/win-launcher/releases/download/{github.rawTag}/win-launcher_{version}_x64-setup.exe",
+		"https://github.com/hidecode365/win-launcher/releases/download/{github.rawTag}/win-launcher_{version}_x64_en-US.msi"
+	]
+}
