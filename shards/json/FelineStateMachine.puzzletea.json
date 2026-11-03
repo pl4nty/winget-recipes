@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FelineStateMachine",
+		"repo": "puzzletea"
+	},
+	"urls": [
+		"https://github.com/FelineStateMachine/puzzletea/releases/download/{github.rawTag}/puzzletea_{version}_windows_amd64.zip"
+	]
+}
