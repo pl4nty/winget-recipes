@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "peterju", "repo": "chkLink" },
+	"urls": ["https://github.com/peterju/chkLink/releases/download/v{version}/chklink-{version}-win-x64-setup.exe"]
+}
