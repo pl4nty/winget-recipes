@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://github.com/neovim/neovim/releases/download/nightly/nvim-win64.msi",
+		"https://github.com/neovim/neovim/releases/download/nightly/nvim-win-arm64.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/neovim/neovim/releases/download/nightly/nvim-win64.msi",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "neovim",
+		"repo": "neovim",
+		"tag": "nightly"
+	},
+	"replace": true
+}
