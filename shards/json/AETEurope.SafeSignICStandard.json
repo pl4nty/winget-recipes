@@ -12,7 +12,7 @@
 		},
 		{
 			"url": "https://safesign.gdamericadosul.com.br/content/windows_x86_{version}_aet.zip",
-			"nestedInstallerMatches": ["SafeSign IC Standard"]
+			"nestedInstallerMatches": [".msi/SafeSign IC Standard"]
 		}
 	]
 }
