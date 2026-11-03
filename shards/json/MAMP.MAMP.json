@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mamp.info/en/windows/",
+		"regex": "MAMP-PRO/Windows/MAMP-PRO/MAMP-MAMP-PRO-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://downloads.mamp.info/MAMP-PRO/Windows/MAMP-PRO/MAMP-MAMP-PRO-{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.mamp.info/en/release-notes/windows/#v{version}"
+	}
+}
