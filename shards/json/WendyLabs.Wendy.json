@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wendylabsinc",
+		"repo": "wendy-agent",
+		"method": "api-list",
+		"tagRegex": "^(?=\\d{4}\\.\\d{2}\\.\\d{2}-\\d+$)"
+	},
+	"urls": [
+		"https://github.com/wendylabsinc/wendy-agent/releases/download/{version}/wendy-cli-windows-amd64-{version}.msi",
+		"https://github.com/wendylabsinc/wendy-agent/releases/download/{version}/wendy-cli-windows-arm64-{version}.msi"
+	]
+}
