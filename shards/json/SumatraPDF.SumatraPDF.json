@@ -10,21 +10,21 @@
 		{
 			"url": "https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}.zip",
 			"nestedInstallerMatches": [
-				"SumatraPDF-{version}-32.exe"
+				"*.exe"
 			]
 		},
 		"https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}-64-install.exe",
 		{
 			"url": "https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}-64.zip",
 			"nestedInstallerMatches": [
-				"SumatraPDF-{version}-64.exe"
+				"*.exe"
 			]
 		},
 		"https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}-arm64-install.exe",
 		{
 			"url": "https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}-arm64.zip",
 			"nestedInstallerMatches": [
-				"SumatraPDF-{version}-arm64.exe"
+				"*.exe"
 			]
 		}
 	],
