@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "spicetify", "repo": "cli" },
+	"urls": [
+		"https://github.com/spicetify/cli/releases/download/v{version}/spicetify-{version}-windows-x32.zip",
+		"https://github.com/spicetify/cli/releases/download/v{version}/spicetify-{version}-windows-x64.zip",
+		"https://github.com/spicetify/cli/releases/download/v{version}/spicetify-{version}-windows-arm64.zip"
+	]
+}
