@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sibexico",
+		"repo": "Trusty"
+	},
+	"urls": [
+		"https://github.com/sibexico/Trusty/releases/download/v{version}/trusty_{version}_windows_x86_64.exe"
+	]
+}
