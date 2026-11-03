@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Vortrix5",
+		"repo": "sifty"
+	},
+	"urls": [
+		"https://github.com/Vortrix5/sifty/releases/download/v{version}/sifty.exe",
+		"https://github.com/Vortrix5/sifty/releases/download/v{version}/sifty-setup.exe"
+	]
+}
