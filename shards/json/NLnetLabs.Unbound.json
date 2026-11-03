@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://nlnetlabs.nl/downloads/unbound/",
+		"regex": "href=\"unbound_setup_(\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": [
+		{ "url": "https://nlnetlabs.nl/downloads/unbound/unbound_setup_{version}.exe", "architecture": "x64" },
+		{ "url": "https://nlnetlabs.nl/downloads/unbound/unbound_setup_{version}-w32.exe", "architecture": "x86" }
+	],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "NLnetLabs",
+		"repo": "unbound",
+		"tag": "release-{version}"
+	}
+}
