@@ -1,9 +1,17 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "microsoft",
-		"repo": "EventLogExpert"
+	"strategy": "static",
+	"version": {
+		"source": "display"
 	},
-	"urls": ["https://github.com/microsoft/EventLogExpert/releases/download/v{version}/EventLogExpert_{version}.msixbundle"]
+	"urls": [
+		{
+			"url": "https://github.com/microsoft/EventLogExpert/releases/download/v26.8.24.986/EventLogExpert_26.8.24.986.msixbundle",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/microsoft/EventLogExpert/releases/download/v26.8.24.986/EventLogExpert_26.8.24.986.msixbundle",
+			"architecture": "arm64"
+		}
+	]
 }
