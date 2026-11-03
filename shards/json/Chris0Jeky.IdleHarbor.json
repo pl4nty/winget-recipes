@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Chris0Jeky",
+		"repo": "IdleHarbor"
+	},
+	"urls": [
+		"https://github.com/Chris0Jeky/IdleHarbor/releases/download/{github.rawTag}/IdleHarbor-{version}-windows-arm64-portable.zip",
+		"https://github.com/Chris0Jeky/IdleHarbor/releases/download/{github.rawTag}/IdleHarbor-{version}-windows-x64-portable.zip"
+	]
+}
