@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oop7",
+		"repo": "rhashsum",
+		"method": "api-sort",
+		"assetRegex": "^rust-hash-sum_.*_(x64_en-US\\.msi|x64-setup\\.exe)$"
+	}
+}
