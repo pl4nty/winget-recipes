@@ -31,7 +31,7 @@ export default defineShard(async () => {
 		],
 		releaseNotes: {
 			source: 'html',
-			sourceUrl: `data:text/html,${encodeURIComponent(entry)}`,
+			sourceUrl: `data:text/html,${encodeURIComponent(entry.replaceAll(/<a class="headerlink"[^>]*>[^<]*<\/a>/g, ''))}`,
 			releaseNotesUrl: `${changelog}#python-${version.replaceAll('.', '-')}`,
 			cleanup: false,
 		},
