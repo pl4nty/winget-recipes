@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "justnullname",
+		"repo": "QuickView"
+	},
+	"urls": [
+		"https://github.com/justnullname/QuickView/releases/download/{github.rawTag}/QuickView_Installer_v{version}_ARM64.exe",
+		"https://github.com/justnullname/QuickView/releases/download/{github.rawTag}/QuickView_Installer_v{version}_X64.exe"
+	]
+}
