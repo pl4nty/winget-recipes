@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SickSartori",
+		"repo": "svg-preview"
+	},
+	"urls": ["https://github.com/SickSartori/svg-preview/releases/download/v{version}/svg_preview_x64.exe"]
+}
