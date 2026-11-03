@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Shinnosuke0722",
+		"repo": "jm"
+	},
+	"urls": [
+		"https://github.com/Shinnosuke0722/jm/releases/download/v{version}/jm-windows-x86_64.zip"
+	]
+}
