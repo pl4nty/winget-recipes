@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mbobka", "repo": "folderview" },
+	"urls": [
+		"https://github.com/mbobka/folderview/releases/download/v{version}/FolderView-{version}-win-x64.zip"
+	]
+}
