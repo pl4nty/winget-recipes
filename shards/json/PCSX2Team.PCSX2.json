@@ -7,6 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/PCSX2/pcsx2/releases/download/v{version}/pcsx2-v{version}-windows-x64-installer.exe"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
