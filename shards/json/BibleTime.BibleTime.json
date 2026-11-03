@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bibletime",
+		"repo": "bibletime"
+	},
+	"urls": ["https://github.com/bibletime/bibletime/releases/download/v{version}/BibleTime-{version}-win64.exe"]
+}
