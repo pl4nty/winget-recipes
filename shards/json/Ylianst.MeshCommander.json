@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://meshcommander.com/",
+		"regex": "Releases/MeshCommander-(\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": ["https://meshcommander.com/Releases/MeshCommander-{version}.msi"]
+}
