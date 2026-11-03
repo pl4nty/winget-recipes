@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gaphor",
+		"repo": "gaphor"
+	},
+	"urls": [
+		"https://github.com/gaphor/gaphor/releases/download/{github.rawTag}/gaphor-{version}-installer.exe"
+	]
+}
