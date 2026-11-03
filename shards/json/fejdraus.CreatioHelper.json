@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fejdraus",
+		"repo": "CreatioHelper",
+		"tagRegex": "^desktop\\-v"
+	},
+	"urls": [
+		"https://github.com/fejdraus/CreatioHelper/releases/download/{github.rawTag}/CreatioHelper-Desktop-win-x64-{version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/fejdraus/CreatioHelper/releases/tag/{github.rawTag}"
+	}
+}
