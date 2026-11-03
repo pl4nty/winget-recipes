@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/microsoft/MIDI/releases/download/enablement-checker/midicheckservice_x64.zip",
+			"architecture": "x64"
+		}
+	]
+}
