@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "asklar",
+		"repo": "lvt"
+	},
+	"urls": [
+		"https://github.com/asklar/lvt/releases/download/{github.rawTag}/lvt-viewer-v{version}-arm64.zip",
+		"https://github.com/asklar/lvt/releases/download/{github.rawTag}/lvt-viewer-v{version}-x64.zip",
+		"https://github.com/asklar/lvt/releases/download/{github.rawTag}/lvt-viewer-v{version}-x86.zip"
+	]
+}
