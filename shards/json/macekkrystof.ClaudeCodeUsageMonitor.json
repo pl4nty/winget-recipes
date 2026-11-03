@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "macek-systemart",
+		"repo": "Claude-Code-Usage-Monitor"
+	},
+	"urls": [
+		"https://github.com/macek-systemart/Claude-Code-Usage-Monitor/releases/download/v{version}/claude-code-usage-monitor.exe"
+	]
+}
