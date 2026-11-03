@@ -7,5 +7,9 @@
 		"method": "api-sort",
 		"kind": "stable",
 		"assetRegex": "^tokei-(x86_64|i686)-pc-windows-msvc\\.exe$"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"tag": "v{version}"
 	}
 }
