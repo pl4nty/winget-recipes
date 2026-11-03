@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PrimeBuild-pc",
+		"repo": "TweakHub"
+	},
+	"urls": [
+		"https://github.com/PrimeBuild-pc/TweakHub/releases/download/{github.rawTag}/TweakHub-Setup-{version}.exe"
+	]
+}
