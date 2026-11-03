@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FAForever",
+		"repo": "downlords-faf-client",
+		"method": "api-sort",
+		"assetRegex": "^(?:faf_windows\\-x64_\\d+_\\d+_\\d+\\.exe)$"
+	}
+}
