@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://promptflowartifact.blob.core.windows.net/msi-installer/promptflow-1.17.1.msi"
+	]
+}
