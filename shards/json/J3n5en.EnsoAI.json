@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "J3n5en",
+		"repo": "EnsoAI"
+	},
+	"urls": [
+		"https://github.com/J3n5en/EnsoAI/releases/download/{github.rawTag}/EnsoAI-Setup-{version}.exe"
+	]
+}
