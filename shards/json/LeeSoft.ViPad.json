@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://lee-soft.com/bin/vipad-open-source-desktop-launcher-20044e.exe"
+	]
+}
