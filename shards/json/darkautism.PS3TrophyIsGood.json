@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "darkautism",
+		"repo": "PS3TrophyIsGood"
+	},
+	"urls": [
+		"https://github.com/darkautism/PS3TrophyIsGood/releases/download/{github.rawTag}/PS3TrophyIsGood.zip"
+	]
+}
