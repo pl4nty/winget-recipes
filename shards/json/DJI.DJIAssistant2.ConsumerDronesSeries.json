@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.dji.com/downloads/softwares/dji-assistant-2-consumer-drones-series",
+		"regex": "\"windows\":\\{\"links\":\\[[^\\]]*?/downloads/dji_assistant/(?<date>\\d{8})/DJI Assistant 2\\(Consumer Drones Series\\) (?<file>\\d+(?:\\.\\d+)+)\\.exe\"[^\\]]*\\],\"version\":\"(?<version>V\\d+(?:\\.\\d+)+)\"[\\s\\S]*?\"category\":\"Release Notes\"[^}]*?\"url\":\"(?<notes>https://dl\\.djicdn\\.com/[^\"]+\\.pdf)\""
+	},
+	"urls": [
+		{
+			"url": "https://dl.djicdn.com/downloads/dji_assistant/{captures.date}/DJI%20Assistant%202(Consumer%20Drones%20Series)%20{captures.file}.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "{captures.notes| |%20}"
+	}
+}
