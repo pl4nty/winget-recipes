@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "agntcy",
+		"repo": "shadi",
+		"tagRegex": "^agntcy\\-agentbridge\\-cli\\-v",
+		"method": "api-sort",
+		"assetRegex": "^(?:agentbridge\\-v\\d+\\.\\d+\\.\\d+\\-x86_64\\-pc\\-windows\\-msvc\\.zip)$"
+	}
+}
