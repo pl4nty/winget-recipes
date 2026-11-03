@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "topgrade-rs",
+		"repo": "topgrade"
+	},
+	"urls": [
+		"https://github.com/topgrade-rs/topgrade/releases/download/v{version}/topgrade-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
