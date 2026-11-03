@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fernandotonon",
+		"repo": "QtMeshEditor"
+	},
+	"urls": [
+		"https://github.com/fernandotonon/QtMeshEditor/releases/download/{github.rawTag}/QtMeshEditor-{version}-bin-Windows.zip",
+		"https://github.com/fernandotonon/QtMeshEditor/releases/download/{github.rawTag}/QtMeshEditor-{version}-setup-Windows.exe"
+	]
+}
