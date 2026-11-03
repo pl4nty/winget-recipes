@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "ibsorn",
+		"repo": "glabels-windows",
+		"method": "api-latest",
+		"assetRegex": "^(?:gLabels\\-\\d+\\.\\d+\\-master\\d+\\-win64\\-setup\\.exe)$"
+	}
+}
