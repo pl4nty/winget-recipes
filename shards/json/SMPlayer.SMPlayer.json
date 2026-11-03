@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "smplayer-dev",
+		"repo": "smplayer",
+		"assetRegex": "^smplayer-[0-9.]+-(win32-qt[0-9.]+|x64)-unsigned\\.exe$"
+	}
+}
