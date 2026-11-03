@@ -3,10 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "cjcliffe",
-		"repo": "CubicSDR"
-	},
-	"urls": [
-		"https://github.com/cjcliffe/CubicSDR/releases/download/{version}/CubicSDR-{version}-win64.exe",
-		"https://github.com/cjcliffe/CubicSDR/releases/download/{version}/CubicSDR-{version}-win32.exe"
-	]
+		"repo": "CubicSDR",
+		"method": "api-latest",
+		"assetRegex": "\\.(exe|msi)$"
+	}
 }
