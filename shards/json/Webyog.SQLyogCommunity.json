@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "webyog", "repo": "sqlyog-community" },
+	"urls": ["https://s3.amazonaws.com/SQLyog_Community/SQLyog+{version}/SQLyog-{version}-0.x64Community.exe"]
+}
