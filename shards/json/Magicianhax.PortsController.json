@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Magicianhax", "repo": "ports-controller" },
+	"urls": [
+		"https://github.com/Magicianhax/ports-controller/releases/download/v{version}/PortsController_{version}_x64-setup.exe"
+	]
+}
