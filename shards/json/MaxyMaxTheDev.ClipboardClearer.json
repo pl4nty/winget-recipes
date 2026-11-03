@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://github.com/MaxyMaxTheDev/clear-clipboard/releases/download/pizza/ClipboardClear.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/MaxyMaxTheDev/clear-clipboard/releases/download/pizza/ClipboardClear.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
