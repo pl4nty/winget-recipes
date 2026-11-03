@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yhirose",
+		"repo": "culebra"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/yhirose/culebra/releases/download/v{version}/culebra-windows-x64.zip",
+			"nestedInstallerMatches": ["culebra.exe"]
+		}
+	]
+}
