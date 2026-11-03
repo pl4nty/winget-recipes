@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "LGUG2Z",
+		"repo": "komorebi",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/LGUG2Z/komorebi/releases/download/{github.rawTag}/komorebi-nightly-x86_64.msi",
+		"https://github.com/LGUG2Z/komorebi/releases/download/{github.rawTag}/komorebi-nightly-aarch64.msi"
+	]
+}
