@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "PrimeBuild-pc", "repo": "ThreadPilot" },
+	"urls": ["https://github.com/PrimeBuild-pc/ThreadPilot/releases/download/v{version}/ThreadPilot_v{version}_Setup.exe"]
+}
