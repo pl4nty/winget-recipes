@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "summitnl", "repo": "ActionsMonitor" },
+	"urls": ["https://github.com/summitnl/ActionsMonitor/releases/download/{github.rawTag}/ActionsMonitor.zip"]
+}
