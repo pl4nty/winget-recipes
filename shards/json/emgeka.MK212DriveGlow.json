@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "emgeka",
+		"repo": "mk212-driveglow"
+	},
+	"urls": [
+		"https://github.com/emgeka/mk212-driveglow/releases/download/{github.rawTag}/MK212-DriveGlow-Setup-v{version}.exe"
+	]
+}
