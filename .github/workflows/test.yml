@@ -1,0 +1,57 @@
+name: Test
+
+on:
+  pull_request:
+    paths:
+      - shards/**
+  workflow_dispatch:
+    inputs:
+      packages:
+        description: Package IDs to test (space-separated)
+        required: true
+        type: string
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions: {}
+
+defaults:
+  run:
+    shell: bash -euo pipefail {0}
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-26.04-arm
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Setup Environment
+        uses: jdx/mise-action@82a612c5ab8bcda7cc5db6b7e81a8e7584c3dc6e # v5.2.3
+        with:
+          version: 2026.10.22
+          install_args: bun
+
+      - name: Install Dependencies
+        run: bun ci --production
+
+      - name: Test Packages
+        run: |
+          if [ -z "$PACKAGES" ]; then
+            PACKAGES="$(git diff --name-only --diff-filter=AMR "$BASE_SHA" HEAD -- 'shards/json/*.json' 'shards/script/*.ts' | xargs -r -n1 basename | sed 's/\.[^.]*$//' | xargs)"
+          fi
+          if [ -z "$PACKAGES" ]; then
+            exit 0
+          fi
+          bun test:shard "$PACKAGES" --dry-run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PACKAGES: ${{ inputs.packages }}
