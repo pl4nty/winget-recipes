@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xniperbuilds",
+		"repo": "riplox-desktop"
+	},
+	"urls": ["https://github.com/xniperbuilds/riplox-desktop/releases/download/v{version}/Riplox_Setup_v{version}.exe"]
+}
