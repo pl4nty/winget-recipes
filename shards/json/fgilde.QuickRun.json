@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fgilde",
+		"repo": "QuickRun"
+	},
+	"urls": [
+		"https://github.com/fgilde/QuickRun/releases/download/{github.rawTag}/quickrun-win-arm64.zip",
+		"https://github.com/fgilde/QuickRun/releases/download/{github.rawTag}/quickrun-win-x64.zip"
+	]
+}
