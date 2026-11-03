@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win-guest-tools.exe"],
+		"regex": "/virtio-win-(\\d+(?:\\.\\d+)+-\\d+)/virtio-win-guest-tools\\.exe$"
+	},
+	"urls": [
+		"https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-{version}/virtio-win-guest-tools.exe"
+	]
+}
