@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sagami121",
+		"repo": "Audion"
+	},
+	"urls": ["https://github.com/sagami121/Audion/releases/download/{github.rawTag}/Audion_{version}_x64-setup.exe"]
+}
