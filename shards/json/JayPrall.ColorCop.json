@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ColorCop",
+		"repo": "ColorCop"
+	},
+	"urls": [
+		"https://github.com/ColorCop/ColorCop/releases/download/{github.rawTag}/colorcop-setup.exe"
+	]
+}
