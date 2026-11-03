@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "apecloud",
+		"repo": "kbcli"
+	},
+	"urls": [
+		"https://github.com/apecloud/kbcli/releases/download/{github.rawTag}/kbcli.exe"
+	]
+}
