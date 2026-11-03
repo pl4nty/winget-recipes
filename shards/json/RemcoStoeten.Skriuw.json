@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "remcostoeten",
+		"repo": "skriuw",
+		"tagRegex": "^v?2-v"
+	},
+	"urls": [
+		"https://github.com/remcostoeten/skriuw/releases/download/{github.rawTag}/Skriuw_{version}_x64_en-US.msi",
+		"https://github.com/remcostoeten/skriuw/releases/download/{github.rawTag}/Skriuw_{version}_x64-setup.exe"
+	]
+}
