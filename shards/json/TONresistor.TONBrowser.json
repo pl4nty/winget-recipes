@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "TONresistor", "repo": "Tonnet-Browser" },
+	"urls": ["https://github.com/TONresistor/Tonnet-Browser/releases/download/v{version}/TON-Browser-Setup-{version}.exe"]
+}
