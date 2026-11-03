@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.zohocdn.com/voice-desktop/windows/latest.yml",
+		"regex": "^version:\\s*(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://downloads.zohocdn.com/voice-desktop/windows/zoho-voice-desktop-installer-ia32-v{version}.exe",
+		"https://downloads.zohocdn.com/voice-desktop/windows/zoho-voice-desktop-installer-x64-v{version}.exe"
+	]
+}
