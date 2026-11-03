@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Genivia",
+		"repo": "ugrep"
+	},
+	"urls": [
+		"https://github.com/Genivia/ugrep/releases/download/{github.rawTag}/ugrep-windows-x64.zip"
+	]
+}
