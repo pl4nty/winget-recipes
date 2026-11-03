@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nihitdev",
+		"repo": "yo-cli"
+	},
+	"urls": ["https://github.com/nihitdev/yo-cli/releases/download/v{version}/yoo-windows-x86_64.exe"]
+}
