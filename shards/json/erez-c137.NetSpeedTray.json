@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "erez-c137",
+		"repo": "NetSpeedTray"
+	},
+	"urls": [
+		"https://github.com/erez-c137/NetSpeedTray/releases/download/{github.rawTag}/NetSpeedTray-{version}-x64-Setup.exe"
+	]
+}
