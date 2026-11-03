@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.hissenit.com/en/academy/downloads/HissenIT-Academy-Preview---it-security-awareness-for-employees-and-individuals.zip"
+	]
+}
