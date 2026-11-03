@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "faratech",
+		"repo": "htop-win"
+	},
+	"urls": [
+		"https://github.com/faratech/htop-win/releases/download/{github.rawTag}/htop-win-amd64.exe",
+		"https://github.com/faratech/htop-win/releases/download/{github.rawTag}/htop-win-arm64.exe"
+	]
+}
