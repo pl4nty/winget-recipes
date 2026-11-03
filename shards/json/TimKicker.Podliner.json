@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "timkicker",
+		"repo": "podliner"
+	},
+	"urls": ["https://github.com/timkicker/podliner/releases/download/v{version}/podliner-win-x64.exe"]
+}
