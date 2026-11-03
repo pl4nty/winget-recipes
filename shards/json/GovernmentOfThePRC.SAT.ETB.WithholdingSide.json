@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://file.etax.chinatax.gov.cn/bbxzdownload/kjkhd/ETax.exe"
+	]
+}
