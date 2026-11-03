@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "myagmb28Dev", "repo": "WindexBar" },
+	"urls": ["https://github.com/myagmb28Dev/WindexBar/releases/download/v{version}/WindexBarSetup.exe"]
+}
