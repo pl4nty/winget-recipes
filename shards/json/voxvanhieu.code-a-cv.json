@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "voxvanhieu", "repo": "code-a-cv" },
+	"urls": [
+		"https://github.com/voxvanhieu/code-a-cv/releases/download/v{version}/cac-x86_64-pc-windows-msvc.zip"
+	]
+}
