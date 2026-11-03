@@ -9,5 +9,5 @@
 		"https://github.com/ShouChenICU/FastSync/releases/download/v{version}/fastsync-v{version}-x86_64-pc-windows-msvc.exe",
 		"https://github.com/ShouChenICU/FastSync/releases/download/v{version}/fastsync-v{version}-aarch64-pc-windows-msvc.exe"
 	],
-	"releaseNotes": { "source": "github" }
+	"releaseNotes": { "source": "github", "cleanup": false }
 }
