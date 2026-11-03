@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aesgalexis",
+		"repo": "codex-usage-meter-windows"
+	},
+	"urls": [
+		"https://github.com/aesgalexis/codex-usage-meter-windows/releases/download/{github.rawTag}/CodexUsageMeter-Setup-win-x64.exe"
+	]
+}
