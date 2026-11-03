@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "amanthanvi",
+		"repo": "noctty"
+	},
+	"urls": [
+		"https://github.com/amanthanvi/noctty/releases/download/{github.rawTag}/noctty-{version}-windows-arm64-setup.exe",
+		"https://github.com/amanthanvi/noctty/releases/download/{github.rawTag}/noctty-{version}-windows-x64-setup.exe"
+	]
+}
