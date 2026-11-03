@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zeeqsleepy",
+		"repo": "DevNest"
+	},
+	"urls": [
+		"https://github.com/zeeqsleepy/DevNest/releases/download/v{version}/devnest-windows-arm64.zip",
+		"https://github.com/zeeqsleepy/DevNest/releases/download/v{version}/devnest-windows-amd64.zip"
+	]
+}
