@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.br.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.br.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
