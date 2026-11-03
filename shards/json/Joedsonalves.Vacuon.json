@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "joedsonalves",
+		"repo": "vacuon"
+	},
+	"urls": [
+		"https://github.com/joedsonalves/vacuon/releases/download/{github.rawTag}/Vacuon-{version}-win-x64.exe"
+	]
+}
