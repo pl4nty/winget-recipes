@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "duyxyz",
+		"repo": "GIF-Overlay"
+	},
+	"urls": [
+		"https://github.com/duyxyz/GIF-Overlay/releases/download/{github.rawTag}/GIF-Overlay-Setup-x64.exe"
+	]
+}
