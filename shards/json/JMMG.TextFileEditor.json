@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://www.jmmgc.com/downloads/Text_File_Editor_Standalone.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.jmmgc.com/downloads/Text_File_Editor_Standalone.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://www.jmmgc.com/downloads/Text_File_Editor_Standalone_ARM64.exe",
+			"architecture": "arm64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.jmmgc.com/downloads/Text_File_Editor_Standalone.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
