@@ -8,5 +8,6 @@
 		"url": "https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.br.exe",
 		"header": "etag"
 	},
+	"releaseNotes": { "releaseNotesUrl": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/" },
 	"replace": true
 }
