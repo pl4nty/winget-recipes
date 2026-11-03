@@ -4,6 +4,7 @@
 	"github": {
 		"owner": "zerx-lab",
 		"repo": "FluxDown",
+		"method": "api-list",
 		"tagRegex": "^(?=v\\d)"
 	},
 	"urls": [
