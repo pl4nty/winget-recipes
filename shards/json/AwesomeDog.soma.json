@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AwesomeDog",
+		"repo": "soma"
+	},
+	"urls": [
+		"https://github.com/AwesomeDog/soma/releases/download/{github.rawTag}/soma-windows-x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/AwesomeDog/soma/releases/tag/{github.rawTag}"
+	}
+}
