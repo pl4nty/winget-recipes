@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Open-DUMP-Viewer",
+		"repo": "Open-DUMP-Viewer"
+	},
+	"urls": [
+		"https://github.com/Open-DUMP-Viewer/Open-DUMP-Viewer/releases/download/v{version}/OpenDumpViewer_v{version}_installer_x64.exe",
+		"https://github.com/Open-DUMP-Viewer/Open-DUMP-Viewer/releases/download/v{version}/OpenDumpViewer_v{version}_installer_arm64.exe"
+	]
+}
