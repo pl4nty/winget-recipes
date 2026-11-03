@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "micahkepe",
+		"repo": "jsongrep"
+	},
+	"urls": ["https://github.com/micahkepe/jsongrep/releases/download/v{version}/jsongrep-{version}-x86_64-pc-windows-msvc.zip"]
+}
