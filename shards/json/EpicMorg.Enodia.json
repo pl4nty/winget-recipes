@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "EpicMorg",
+		"repo": "enodia",
+		"method": "api-latest",
+		"assetRegex": "^(?:enodia_windows_\\d+\\.zip|enodia_windows_amd64\\.zip|enodia_windows_arm64\\.zip)$"
+	}
+}
