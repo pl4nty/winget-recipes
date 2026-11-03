@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fahmiridho07",
+		"repo": "mypdf"
+	},
+	"urls": [
+		"https://github.com/fahmiridho07/mypdf/releases/download/{github.rawTag}/MyPDF_{version}_x64-setup.exe",
+		"https://github.com/fahmiridho07/mypdf/releases/download/{github.rawTag}/MyPDF_{version}_x64_en-US.msi"
+	]
+}
