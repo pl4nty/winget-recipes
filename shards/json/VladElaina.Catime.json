@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vladelaina",
+		"repo": "Catime"
+	},
+	"urls": [
+		"https://github.com/vladelaina/Catime/releases/download/v{version}/catime_{version}.exe"
+	]
+}
