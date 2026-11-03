@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "votinvv",
+		"repo": "justquery"
+	},
+	"urls": [
+		"https://github.com/votinvv/justquery/releases/download/v{version}/JustQuery-{version}-setup.exe"
+	]
+}
