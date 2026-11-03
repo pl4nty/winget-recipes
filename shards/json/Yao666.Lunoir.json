@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zhbj420",
+		"repo": "Lunoir"
+	},
+	"urls": ["https://github.com/zhbj420/Lunoir/releases/download/v{version}/Lunoir-{version}-setup.exe"]
+}
