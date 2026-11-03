@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.dbpoweramp.com/codec-central-ogg-vorbis.htm",
+		"regex": "Ogg Vorbis Release (\\d+)"
+	},
+	"version": "R{version}",
+	"urls": [
+		"https://www.dbpoweramp.com/codecs-new/dBpoweramp-Codec-OggVorbis.exe"
+	]
+}
