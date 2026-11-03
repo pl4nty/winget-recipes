@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "julien040",
+		"repo": "anyquery"
+	},
+	"urls": [
+		"https://github.com/julien040/anyquery/releases/download/{github.rawTag}/anyquery_{version}_windows_amd64.zip"
+	]
+}
