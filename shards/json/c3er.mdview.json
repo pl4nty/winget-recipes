@@ -5,6 +5,5 @@
 		"owner": "c3er",
 		"repo": "mdview"
 	},
-	"urls": ["https://github.com/c3er/mdview/releases/download/v{version}/mdview-{version}-x64.exe"],
-	"releaseNotes": { "source": "github" }
+	"urls": ["https://github.com/c3er/mdview/releases/download/v{version}/mdview-{version}-x64.exe"]
 }
