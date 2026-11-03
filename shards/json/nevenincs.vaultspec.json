@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nevenincs",
+		"repo": "vaultspec-dashboard"
+	},
+	"urls": [
+		"https://github.com/nevenincs/vaultspec-dashboard/releases/download/v{version}/vaultspec-cli-x86_64-pc-windows-msvc.zip"
+	]
+}
