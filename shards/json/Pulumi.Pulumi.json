@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pulumi",
+		"repo": "pulumi-winget"
+	},
+	"urls": ["https://github.com/pulumi/pulumi-winget/releases/download/v{version}/pulumi-{version}-windows-x64.msi"]
+}
