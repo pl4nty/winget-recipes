@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stratusadv",
+		"repo": "constellation"
+	},
+	"urls": ["https://github.com/stratusadv/constellation/releases/download/v{version}/constellation-setup-{version}.exe"]
+}
