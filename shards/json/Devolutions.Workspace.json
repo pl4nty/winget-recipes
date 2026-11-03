@@ -6,6 +6,7 @@
 		"regex": "WorkspaceDesktopMsi\\.Version=(\\d+(?:\\.\\d+)+)"
 	},
 	"urls": [
-		"https://cdn.devolutions.net/download/Devolutions.PasswordManager.{version}-x64.msi"
+		"https://cdn.devolutions.net/download/Devolutions.PasswordManager.{version}-x64.msi",
+		"https://cdn.devolutions.net/download/Devolutions.PasswordManager.{version}-x64.msix"
 	]
 }
