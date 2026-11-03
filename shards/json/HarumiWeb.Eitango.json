@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "harumiWeb",
+		"repo": "eitango"
+	},
+	"urls": [
+		"https://github.com/harumiWeb/eitango/releases/download/{github.rawTag}/eitango_{version}_windows_x86_64.zip"
+	]
+}
