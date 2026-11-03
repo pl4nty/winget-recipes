@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://registry-finder.com/",
+		"regex": "bin/(?<build>\\d+(?:\\.\\d+)+)/RegistryFinderSetup(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://registry-finder.com/bin/{captures.build}/RegistryFinder.zip",
+		"https://registry-finder.com/bin/{captures.build}/RegistryFinder64.zip",
+		"https://registry-finder.com/bin/{captures.build}/RegistryFinderSetup{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://registry-finder.com/version_history.html"
+	}
+}
