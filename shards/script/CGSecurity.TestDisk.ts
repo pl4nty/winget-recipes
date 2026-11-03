@@ -21,7 +21,7 @@ export default defineShard(async () => {
 			['win64', 'win'].map((build) => ({
 				url: `https://www.cgsecurity.org/${file}.${build}.zip`,
 				architecture: build === 'win64' ? ('x64' as const) : ('x86' as const),
-				nestedInstallerMatches: tools.map((tool) => `${file}/${tool}_win.exe`),
+				nestedInstallerMatches: tools.map((tool) => `${tool}_win.exe`),
 			})),
 		releaseNotes: {
 			releaseNotesUrl: latest.suffix
