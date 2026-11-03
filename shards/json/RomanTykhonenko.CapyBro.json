@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "phantasmat2018",
+		"repo": "capy-bro"
+	},
+	"urls": ["https://github.com/phantasmat2018/capy-bro/releases/download/v{version}/CapyBro-Setup-{version}.exe"]
+}
