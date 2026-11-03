@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://devolutions.net/launcher/download",
+		"regex": "https://cdn\\.devolutions\\.net/download/Setup\\.Devolutions\\.Launcher\\.(\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": [
+		"https://cdn.devolutions.net/download/Setup.Devolutions.Launcher.{version}.msi"
+	]
+}
