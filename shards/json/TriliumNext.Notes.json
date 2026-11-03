@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TriliumNext",
+		"repo": "Trilium",
+		"method": "api-list",
+		"tagRegex": "^v\\d+\\.\\d+\\.\\d+$"
+	},
+	"urls": [
+		"https://github.com/TriliumNext/Trilium/releases/download/v{version}/TriliumNotes-v{version}-windows-x64.exe",
+		"https://github.com/TriliumNext/Trilium/releases/download/v{version}/TriliumNotes-v{version}-windows-arm64.exe"
+	]
+}
