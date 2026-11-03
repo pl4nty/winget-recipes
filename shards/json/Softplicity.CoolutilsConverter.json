@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": { "source": "file" },
-	"urls": ["https://www.coolutils.com/Downloads/CoolutilsConverter.exe"],
+	"urls": [{ "url": "https://www.coolutils.com/Downloads/CoolutilsConverter.exe", "architecture": "x64" }],
 	"state": {
 		"source": "response-header",
 		"url": "https://www.coolutils.com/Downloads/CoolutilsConverter.exe",
