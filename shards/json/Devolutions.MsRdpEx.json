@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Devolutions",
+		"repo": "MsRdpEx"
+	},
+	"urls": [
+		"https://github.com/Devolutions/MsRdpEx/releases/download/{github.rawTag}/MsRdpEx-{version}-arm64.msi",
+		"https://github.com/Devolutions/MsRdpEx/releases/download/{github.rawTag}/MsRdpEx-{version}-x64.msi",
+		"https://github.com/Devolutions/MsRdpEx/releases/download/{github.rawTag}/MsRdpEx-{version}-x86.msi"
+	]
+}
