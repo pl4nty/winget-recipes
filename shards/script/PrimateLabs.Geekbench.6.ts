@@ -38,7 +38,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [installer(version)],
+		urls: () => [{ url: installer(version), architecture: 'x64' as const }],
 		releaseNotes: {
 			source: 'html',
 			sourceUrl: `data:text/html,${encodeURIComponent(content)}`,
