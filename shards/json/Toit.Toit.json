@@ -3,9 +3,7 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "toitlang",
-		"repo": "toit",
-		"method": "api-list",
-		"kind": "all"
+		"repo": "toit"
 	},
 	"urls": ["https://github.com/toitlang/toit/releases/download/v{version}/toit-windows-x64-installer.exe"]
 }
