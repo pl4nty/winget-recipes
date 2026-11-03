@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [{ "url": "https://dl.myviewboard.com/latest?64", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.myviewboard.com/latest?64",
+		"header": "etag"
+	},
+	"replace": true
+}
