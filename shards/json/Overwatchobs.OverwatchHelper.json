@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "overwatchobs", "repo": "helper-releases" },
+	"urls": ["https://github.com/overwatchobs/helper-releases/releases/download/v{version}/overwatch-helper-windows-x86_64-{version}.msi"]
+}
