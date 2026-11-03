@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "russmckendrick",
+		"repo": "tokenuse"
+	},
+	"urls": [
+		"https://github.com/russmckendrick/tokenuse/releases/download/v{version}/tokenuse-desktop-windows-amd64.msi",
+		"https://github.com/russmckendrick/tokenuse/releases/download/v{version}/tokenuse-desktop-windows-amd64-setup.exe"
+	]
+}
