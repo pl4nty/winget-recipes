@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "RicoSuter", "repo": "NSwag" },
+	"urls": ["https://github.com/RicoSuter/NSwag/releases/download/v{version}/NSwagStudio.msi"]
+}
