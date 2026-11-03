@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "bonnie-boni",
+		"repo": "CLI_stream"
+	},
+	"urls": [
+		"https://github.com/bonnie-boni/CLI_stream/releases/download/{github.rawTag}/stream.exe"
+	]
+}
