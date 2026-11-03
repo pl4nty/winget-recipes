@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/latest/download/GUI.for.SingBox-windows-amd64.zip"
+	]
+}
