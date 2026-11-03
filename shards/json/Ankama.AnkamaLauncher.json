@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://launcher.cdn.ankama.com/installers/production/Ankama%20Launcher-Setup.exe",
+		{
+			"url": "https://launcher.cdn.ankama.com/installers/production/Ankama%20Launcher-Setup-ia32.exe",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://launcher.cdn.ankama.com/installers/production/Ankama%20Launcher-Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
