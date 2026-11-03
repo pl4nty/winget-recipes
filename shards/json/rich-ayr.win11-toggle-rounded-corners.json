@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rich-ayr",
+		"repo": "win11-toggle-rounded-corners"
+	},
+	"urls": [
+		"https://github.com/rich-ayr/win11-toggle-rounded-corners/releases/download/v{version}/win11-toggle-rounded-corners.exe",
+		"https://github.com/rich-ayr/win11-toggle-rounded-corners/releases/download/v{version}/win11-toggle-rounded-corners-setup.exe"
+	]
+}
