@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VWS-Python",
+		"repo": "vws-cli"
+	},
+	"urls": ["https://github.com/VWS-Python/vws-cli/releases/download/{version}/vuforia-cloud-reco-windows.exe"]
+}
