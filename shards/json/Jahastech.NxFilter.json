@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://nxfilter.org/p4/download/",
+		"regex": "pub\\.nxfilter\\.org/nxfilter-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://pub.nxfilter.org/nxfilter-{version}.exe"]
+}
