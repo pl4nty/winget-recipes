@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MazeratorGame",
+		"repo": "Mazerator"
+	},
+	"urls": [
+		"https://github.com/MazeratorGame/Mazerator/releases/download/v{version}/mazerator-setup-win64.exe"
+	]
+}
