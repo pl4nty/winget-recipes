@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "objz",
+		"repo": "rmcl"
+	},
+	"urls": ["https://github.com/objz/rmcl/releases/download/v{version}/rmcl-x86_64-pc-windows-msvc.msi"]
+}
