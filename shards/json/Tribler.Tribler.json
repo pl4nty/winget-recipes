@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Tribler",
+		"repo": "tribler"
+	},
+	"urls": [
+		"https://github.com/Tribler/tribler/releases/download/v{version}/Tribler_{version}_x64.exe"
+	]
+}
