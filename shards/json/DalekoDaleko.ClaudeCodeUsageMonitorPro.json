@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DalekoDaleko",
+		"repo": "Claude-Code-Usage-Monitor-Pro"
+	},
+	"urls": [
+		"https://github.com/DalekoDaleko/Claude-Code-Usage-Monitor-Pro/releases/download/{github.rawTag}/claude-code-usage-monitor-pro.exe"
+	]
+}
