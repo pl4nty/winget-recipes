@@ -7,6 +7,5 @@
 		"method": "api-sort",
 		"tagRegex": "^Mudlet-(?=\\d+(?:\\.\\d+)+$)",
 		"assetRegex": "-windows-64-installer\\.exe$"
-	},
-	"urls": ["https://github.com/Mudlet/Mudlet/releases/download/{github.rawTag}/Mudlet-{version}-windows-64-installer.exe"]
+	}
 }
