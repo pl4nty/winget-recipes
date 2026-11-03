@@ -7,5 +7,8 @@
 	},
 	"version": { "source": "product" },
 	"state": { "source": "value", "value": "{version}" },
-	"urls": ["https://dl.4kdownload.com/app/4kvideodownloaderplus_{version}_x64_offline.exe?source=winget"]
+	"urls": [
+		"https://dl.4kdownload.com/app/4kvideodownloaderplus_{version}_x64_offline.exe?source=winget",
+		"https://dl.4kdownload.com/app/4kvideodownloaderplus_{version}_x64.msi"
+	]
 }
