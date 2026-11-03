@@ -3,6 +3,16 @@ import { match } from 'anthelion/helpers';
 
 const page = 'https://www.techpowerup.com/download/techpowerup-nvcleanstall/';
 
+// Reads a form field's value whatever the attribute order is.
+function field(form: string, name: string) {
+	for (const tag of form.match(/<(?:input|button)\b[^>]*>/g) ?? []) {
+		if (!new RegExp(`name=["']${name}["']`).test(tag)) continue;
+		const value = /value=["']([^"']+)["']/.exec(tag)?.[1];
+		if (value) return value;
+	}
+	throw new Error(`download form has no ${name}: ${form.slice(0, 1500)}`);
+}
+
 export default defineShard(async () => {
 	const html = await fetch(page).then((response) => response.text());
 	const {
@@ -10,12 +20,10 @@ export default defineShard(async () => {
 	} = match(html, /NVCleanstall[ _]v?(\d+\.\d+\.\d+)/);
 
 	// The download buttons post the file id and a mirror id back to the page, which redirects to the file.
-	const {
-		groups: [id],
-	} = match(html, /name="id" value="(\d+)"/, 'download form id not found');
-	const {
-		groups: [server],
-	} = match(html, /name="server_id" value="(\d+)"/, 'download form server_id not found');
+	const form = /<form\b[^>]*method=["']?post[\s\S]*?<\/form>/i.exec(html)?.[0];
+	if (!form) throw new Error('download form not found');
+	const id = field(form, 'id');
+	const server = field(form, 'server_id');
 
 	return {
 		version,
