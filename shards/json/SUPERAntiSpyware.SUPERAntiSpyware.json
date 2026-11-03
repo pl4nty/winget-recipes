@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://secure.superantispyware.com/SUPERAntiSpyware.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://secure.superantispyware.com/SUPERAntiSpyware.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.superantispyware.com/producthistory.html?id=SUPERANTISPYWAREFREE"
+	}
+}
