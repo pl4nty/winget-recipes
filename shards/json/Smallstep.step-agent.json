@@ -8,5 +8,8 @@
 	"urls": [
 		"https://github.com/smallstep/step-agent/releases/download/{github.rawTag}/step-agent_amd64.msi",
 		"https://github.com/smallstep/step-agent/releases/download/{github.rawTag}/step-agent_arm64.msi"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/smallstep/step-agent/releases/tag/v{version}"
+	}
 }
