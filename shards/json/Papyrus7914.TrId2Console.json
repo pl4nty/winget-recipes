@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Papyrus7914", "repo": "TrId2-file-type-identifier" },
+	"urls": [
+		"https://github.com/Papyrus7914/TrId2-file-type-identifier/releases/download/v{version}/TrId2Console-windows-x64.zip"
+	]
+}
