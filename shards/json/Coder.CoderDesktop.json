@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "coder",
+		"repo": "coder-desktop-windows"
+	},
+	"urls": [
+		"https://github.com/coder/coder-desktop-windows/releases/download/{github.rawTag}/CoderDesktop-{version}-arm64.exe",
+		"https://github.com/coder/coder-desktop-windows/releases/download/{github.rawTag}/CoderDesktop-{version}-x64.exe"
+	]
+}
