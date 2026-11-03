@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wezterm",
+		"repo": "wezterm",
+		"tagRegex": "^(?=\\d{8}-\\d{6}-[0-9a-f]{8}$)"
+	},
+	"urls": [
+		"https://github.com/wezterm/wezterm/releases/download/{github.rawTag}/WezTerm-{github.rawTag}-setup.exe"
+	]
+}
