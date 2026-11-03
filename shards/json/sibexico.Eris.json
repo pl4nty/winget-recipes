@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sibexico",
+		"repo": "Eris"
+	},
+	"urls": [
+		"https://github.com/sibexico/Eris/releases/download/v{version}/eris_{version}_windows_x86_64.exe",
+		"https://github.com/sibexico/Eris/releases/download/v{version}/eris_{version}_windows_arm64.exe"
+	]
+}
