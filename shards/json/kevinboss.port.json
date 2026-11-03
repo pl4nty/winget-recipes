@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kevinboss",
+		"repo": "port"
+	},
+	"urls": [
+		"https://github.com/kevinboss/port/releases/download/{github.rawTag}/port.exe"
+	]
+}
