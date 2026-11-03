@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tanchekwei",
+		"repo": "PortForCommandPalette"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/tanchekwei/PortForCommandPalette/releases/download/{github.rawTag}/15722UsefulApp.PortForCommandPalette_{version}_x64__s4b834ss2syh6.Msix",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/tanchekwei/PortForCommandPalette/releases/download/{github.rawTag}/15722UsefulApp.PortForCommandPalette_{version}_arm64__s4b834ss2syh6.Msix",
+			"architecture": "arm64"
+		}
+	]
+}
