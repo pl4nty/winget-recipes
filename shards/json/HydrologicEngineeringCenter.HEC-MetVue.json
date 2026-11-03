@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hec.usace.army.mil/software/hec-metvue/downloads.aspx",
+		"regex": "href=\"downloads/(?<file>HEC-MetVue_\\d+_Portable\\.zip)\"[^<]*<span[^>]*></span> Download</a> HEC-MetVue (?<version>\\d+(?:\\.\\d+)+) \\(portable package\\)"
+	},
+	"urls": [
+		{
+			"url": "https://www.hec.usace.army.mil/software/hec-metvue/downloads/{captures.file}",
+			"nestedInstallerMatches": ["bin/metvue.exe"]
+		}
+	]
+}
