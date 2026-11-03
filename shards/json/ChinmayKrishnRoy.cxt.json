@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chinmaykrishnroy",
+		"repo": "cxt"
+	},
+	"urls": [
+		"https://github.com/chinmaykrishnroy/cxt/releases/download/{github.rawTag}/cxt-aarch64-pc-windows-msvc.exe",
+		"https://github.com/chinmaykrishnroy/cxt/releases/download/{github.rawTag}/cxt-x86_64-pc-windows-msvc.exe"
+	]
+}
