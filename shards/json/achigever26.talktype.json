@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AchiGever26",
+		"repo": "talktype"
+	},
+	"urls": [
+		"https://github.com/AchiGever26/talktype/releases/download/{github.rawTag}/TalkType-Setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/AchiGever26/talktype/releases/tag/{github.rawTag}"
+	}
+}
