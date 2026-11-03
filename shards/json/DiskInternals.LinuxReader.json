@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.diskinternals.com/linux-reader/",
+		"regex": "\"name\":\"Linux Reader\",\"softwareVersion\":\"(?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [{ "url": "https://eu.diskinternals.com/download/Linux_Reader.exe", "architecture": "x86" }]
+}
