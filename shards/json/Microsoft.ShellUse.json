@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "tui-test",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/microsoft/tui-test/releases/download/{github.rawTag}/tui-test-x86_64-pc-windows-msvc.zip"
+	]
+}
