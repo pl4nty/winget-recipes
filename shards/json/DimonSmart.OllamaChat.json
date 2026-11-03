@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DimonSmart",
+		"repo": "OllamaChat"
+	},
+	"urls": [
+		"https://github.com/DimonSmart/OllamaChat/releases/download/{github.rawTag}/ollama-chat-win-x64-{version}.zip"
+	]
+}
