@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "ronnikols", "repo": "SNBT-AI-Localizer" },
+	"urls": [
+		"https://github.com/ronnikols/SNBT-AI-Localizer/releases/download/v{version}/snbt-tr-Windows-Installer.exe"
+	]
+}
