@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "TheR7angelo", "repo": "MyExpenses" },
+	"urls": [
+		"https://github.com/TheR7angelo/MyExpenses/releases/download/v{version}/MyExpensesUserSetup.x64.exe",
+		"https://github.com/TheR7angelo/MyExpenses/releases/download/v{version}/MyExpensesUserSetup.arm64.exe"
+	]
+}
