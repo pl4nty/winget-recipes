@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aloneguid",
+		"repo": "parquet-dotnet"
+	},
+	"urls": [
+		"https://github.com/aloneguid/parquet-dotnet/releases/download/{version}/floor-win-x64-{version}.zip"
+	]
+}
