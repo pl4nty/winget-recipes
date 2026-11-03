@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "theworker02",
+		"repo": "lexicon-error"
+	},
+	"urls": [
+		"https://github.com/theworker02/lexicon-error/releases/download/{github.rawTag}/LexiconError_{version}_x64_en-US.msi",
+		"https://github.com/theworker02/lexicon-error/releases/download/{github.rawTag}/LexiconError_{version}_x64-setup.exe"
+	]
+}
