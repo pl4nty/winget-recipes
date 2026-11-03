@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "randlee",
+		"repo": "atm-core"
+	},
+	"urls": [
+		"https://github.com/randlee/atm-core/releases/download/v{version}/atm_{version}_x86_64-pc-windows-msvc.zip"
+	]
+}
