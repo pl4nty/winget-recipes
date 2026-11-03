@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "ordinlabs", "repo": "wsm-cli" },
+	"urls": ["https://github.com/ordinlabs/wsm-cli/releases/download/{github.rawTag}/wsm-cli_{version}_windows_amd64.zip"]
+}
