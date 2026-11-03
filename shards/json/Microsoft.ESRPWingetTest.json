@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/cd056843-01f5-4eca-8e6e-aac1bf53eaf4/ESRPWingetTestApp.exe"
+	]
+}
