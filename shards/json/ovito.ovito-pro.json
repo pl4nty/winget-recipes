@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ovito.org/windows-downloads/",
+		"regex": "/download/master/ovito-pro-(\\d+(?:\\.\\d+)+)-win64\\.exe"
+	},
+	"urls": ["https://www.ovito.org/download/master/ovito-pro-{version}-win64.exe"]
+}
