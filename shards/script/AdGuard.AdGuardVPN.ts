@@ -25,5 +25,6 @@ export default defineShard(async () => {
 			{ url, architecture: 'x86' },
 			...arm64.map((url) => ({ url, architecture: 'arm64' as const })),
 		],
+		releaseNotes: { source: 'github', owner: 'AdguardTeam', repo: 'AdGuardVPNForWindows', tag: release.rawTag },
 	};
 });
