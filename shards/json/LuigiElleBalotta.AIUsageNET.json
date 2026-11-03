@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LuigiElleBalotta",
+		"repo": "AIUsage.NET"
+	},
+	"urls": [
+		"https://github.com/LuigiElleBalotta/AIUsage.NET/releases/download/{github.rawTag}/AIUsage.NET-win-Setup.exe"
+	]
+}
