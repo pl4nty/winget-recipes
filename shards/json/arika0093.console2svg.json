@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "arika0093",
+		"repo": "console2svg"
+	},
+	"urls": [
+		"https://github.com/arika0093/console2svg/releases/download/{github.rawTag}/console2svg-win-arm64.zip",
+		"https://github.com/arika0093/console2svg/releases/download/{github.rawTag}/console2svg-win-x64.zip"
+	]
+}
