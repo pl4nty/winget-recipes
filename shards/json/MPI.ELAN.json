@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://archive.mpi.nl/tla/elan/download",
+		"regex": "\">ELAN (\\d+(?:\\.\\d+)+)</a>"
+	},
+	"urls": [
+		"https://www.mpi.nl/tools/elan/ELAN_{version|.|-}_win.msi",
+		"https://www.mpi.nl/tools/elan/ELAN_{version|.|-}_win.exe"
+	]
+}
