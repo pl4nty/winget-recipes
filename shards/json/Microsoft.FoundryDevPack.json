@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "foundry-dev-tools",
+		"tagRegex": "^devpack\\-installer\\-",
+		"method": "api-sort",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/microsoft/foundry-dev-tools/releases/download/devpack-installer-{version}/foundry-devpack-win-x64.exe",
+		"https://github.com/microsoft/foundry-dev-tools/releases/download/devpack-installer-{version}/foundry-devpack-win-arm64.exe"
+	]
+}
