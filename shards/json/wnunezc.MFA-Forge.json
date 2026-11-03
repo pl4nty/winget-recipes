@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wnunezc",
+		"repo": "MFA-Forge"
+	},
+	"urls": [
+		"https://github.com/wnunezc/MFA-Forge/releases/download/v{version}/MFA-Forge-{version}-x64.msi"
+	]
+}
