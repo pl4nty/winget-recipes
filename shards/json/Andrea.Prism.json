@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NuggiDev",
+		"repo": "Prism"
+	},
+	"urls": [
+		"https://github.com/NuggiDev/Prism/releases/download/{github.rawTag}/windows-prism.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/NuggiDev/Prism/releases/tag/{github.rawTag}"
+	}
+}
