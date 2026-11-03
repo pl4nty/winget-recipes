@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RaynerSec",
+		"repo": "Hyper-V-Switch"
+	},
+	"urls": [
+		"https://github.com/RaynerSec/Hyper-V-Switch/releases/download/v{version}/Hyper-V-Switch-{version}-x64-Setup.exe",
+		{
+			"url": "https://github.com/RaynerSec/Hyper-V-Switch/releases/download/v{version}/Hyper-V-Switch-{version}-Portable.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["Hyper-V-Switch-x64.exe", "Hyper-V-Switch-x86.exe"]
+		},
+		"https://github.com/RaynerSec/Hyper-V-Switch/releases/download/v{version}/Hyper-V-Switch-{version}-x86-Setup.exe",
+		{
+			"url": "https://github.com/RaynerSec/Hyper-V-Switch/releases/download/v{version}/Hyper-V-Switch-{version}-Portable.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["Hyper-V-Switch-x86.exe"]
+		}
+	]
+}
