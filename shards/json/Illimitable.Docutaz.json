@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Illimitable-Consulting-Private-Limited",
+		"repo": "docutaz"
+	},
+	"urls": [
+		"https://github.com/Illimitable-Consulting-Private-Limited/docutaz/releases/download/{github.rawTag}/docutaz-{version}-windows-x86_64-setup.exe"
+	]
+}
