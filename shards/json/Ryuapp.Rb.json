@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ryuapp",
+		"repo": "rb"
+	},
+	"urls": [
+		"https://github.com/ryuapp/rb/releases/download/v{version}/rb-x86_64-pc-windows-msvc.zip",
+		"https://github.com/ryuapp/rb/releases/download/v{version}/rb-aarch64-pc-windows-msvc.zip"
+	]
+}
