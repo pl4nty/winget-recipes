@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://gajim.org/download/",
+		"regex": "https://gajim\\.org/downloads/(?<branch>\\d+\\.\\d+)/Gajim-(?<version>\\d+(?:\\.\\d+)+)-64bit\\.exe"
+	},
+	"urls": ["https://gajim.org/downloads/{captures.branch}/Gajim-{version}-64bit.exe"]
+}
