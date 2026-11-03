@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AlphaJack",
+		"repo": "rusticlone"
+	},
+	"urls": [
+		"https://github.com/AlphaJack/rusticlone/releases/download/{github.rawTag}/rusticlone-x86_64-pc-windows-msvc.zip"
+	]
+}
