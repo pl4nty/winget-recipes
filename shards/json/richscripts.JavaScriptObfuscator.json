@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://javascriptobfuscator.com/downloads.aspx",
+		"regex": "/download/javascriptobfuscator-(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": ["https://javascriptobfuscator.com/download/javascriptobfuscator-{version}.zip"],
+	"releaseNotes": { "releaseNotesUrl": "https://javascriptobfuscator.com/downloads.aspx" }
+}
