@@ -76,16 +76,12 @@ async function getLatestComponent(index: string, componentId: string, nameFilter
 
 export default defineShard(async () => {
 	const index = await fetchCatalog('catalog/CatalogIndexPC.cab');
-	// 114796 is Dell Command | Configure's x64 component ID and 113783 its ARM64 one; only ARM64
-	// model catalogs list the ARM64 package
-	const [x64, arm64] = await Promise.all([
-		getLatestComponent(index, '114796', /Dell-Command-Configure-Application_[^_]+_WIN64_/, 'COMPACT'),
-		getLatestComponent(index, '113783', /Dell-Command-Configure-Application_[^_]+_WINARM64_/, 'ARM64'),
-	]);
-	if (x64.version !== arm64.version) throw new Error(`x64 ${x64.version} and ARM64 ${arm64.version} versions differ`);
+	// 114796 is Dell Command | Configure's x64 component ID. Dell also ships an ARM64 build
+	// (component 113783, WINARM64), but komac classifies that exe as portable, so it is left out.
+	const x64 = await getLatestComponent(index, '114796', /Dell-Command-Configure-Application_[^_]+_WIN64_/, 'COMPACT');
 
 	return {
 		version: x64.version,
-		urls: () => [`https://dl.dell.com/${x64.path}`, `https://dl.dell.com/${arm64.path}`],
+		urls: () => [`https://dl.dell.com/${x64.path}`],
 	};
 });
