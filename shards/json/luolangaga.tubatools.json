@@ -8,5 +8,6 @@
 	"urls": [
 		"https://github.com/luolangaga/tubatools/releases/download/v{version}/TubaWinUi3_Setup_{version}_x64.exe",
 		"https://github.com/luolangaga/tubatools/releases/download/v{version}/TubaWinUi3_Setup_{version}_arm64.exe"
-	]
+	],
+	"releaseNotes": { "source": "github" }
 }
