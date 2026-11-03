@@ -12,7 +12,10 @@ export default defineShard(async () => {
 
 	return {
 		version: release.version,
-		urls: () => ['https://mega.nz/MEGAsyncSetup32.exe', 'https://mega.nz/MEGAsyncSetup64.exe'],
+		urls: () => [
+			{ url: 'https://mega.nz/MEGAsyncSetup32.exe', architecture: 'x86' },
+			{ url: 'https://mega.nz/MEGAsyncSetup64.exe', architecture: 'x64' },
+		],
 		releaseNotes: {
 			source: 'github',
 			owner: 'meganz',
