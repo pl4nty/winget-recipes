@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://hushglass.com/download",
+		"regex": "https://hushglass\\.com/Hushglass\\-Setup\\-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://hushglass.com/Hushglass-Setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hushglass.com/release-notes"
+	}
+}
