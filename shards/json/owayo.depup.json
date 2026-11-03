@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "owayo",
+		"repo": "depup"
+	},
+	"urls": ["https://github.com/owayo/depup/releases/download/v{version}/depup-x86_64-pc-windows-msvc.zip"]
+}
