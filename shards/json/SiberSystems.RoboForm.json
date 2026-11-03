@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://www.roboform.com/dist/RoboForm-v9-Enterprise.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.roboform.com/dist/RoboForm-v9-Enterprise.msi",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.roboform.com/news-windows"
+	},
+	"replace": true
+}
