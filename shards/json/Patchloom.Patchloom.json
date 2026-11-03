@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "patchloom",
+		"repo": "patchloom",
+		"tagRegex": "patchloom-v"
+	},
+	"urls": [
+		"https://github.com/patchloom/patchloom/releases/download/{github.rawTag}/patchloom-x86_64-pc-windows-msvc.zip",
+		"https://github.com/patchloom/patchloom/releases/download/{github.rawTag}/patchloom-aarch64-pc-windows-msvc.zip"
+	]
+}
