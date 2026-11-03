@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "karnyadavdev",
+		"repo": "FontWizard"
+	},
+	"urls": [
+		"https://github.com/karnyadavdev/FontWizard/releases/download/{github.rawTag}/Font_Wizard_5.exe"
+	]
+}
