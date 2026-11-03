@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/6/c/d/6cdafba0-054a-44fa-b627-bc1f1e1c6772/1394_ohci_legacydriver.msi"
+	]
+}
