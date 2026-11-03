@@ -1,0 +1,28 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://hyperionics.com/downloads/HS9Setup32.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://hyperionics.com/downloads/HS9Setup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://hyperionics.com/downloads/Lang/HS9Setup32DE.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://hyperionics.com/downloads/Lang/HS9SetupDE.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hyperionics.com/hsdx/changelog.asp"
+	}
+}
