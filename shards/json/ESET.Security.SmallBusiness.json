@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{ "url": "https://download.eset.com/com/eset/apps/home/esbs/windows/latest/esbs_nt64.exe", "architecture": "x64" },
+		{ "url": "https://download.eset.com/com/eset/apps/home/esbs/windows/latest/esbs_arm64.exe", "architecture": "arm64" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.eset.com/com/eset/apps/home/esbs/windows/latest/esbs_nt64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
