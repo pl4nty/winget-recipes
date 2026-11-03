@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "asdfjkl",
+		"repo": "jfxchess",
+		"method": "api-sort",
+		"assetRegex": "^(?:jfxchess_\\d+_win_x64\\.zip|SetupJFXChess_\\d+_win_x64\\.exe)$"
+	}
+}
