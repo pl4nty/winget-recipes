@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "EtherAura",
+		"repo": "Kartend"
+	},
+	"urls": [
+		"https://github.com/EtherAura/Kartend/releases/download/{github.rawTag}/Kartend-{version}-windows-x64-setup.exe"
+	]
+}
