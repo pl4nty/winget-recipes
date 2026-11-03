@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "YOUNES-2-wq",
+		"repo": "cachymonitor"
+	},
+	"urls": ["https://github.com/YOUNES-2-wq/cachymonitor/releases/download/v{version}/CachyMonitor-Setup-{version}.exe"]
+}
