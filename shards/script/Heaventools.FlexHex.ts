@@ -3,7 +3,7 @@ import { match } from 'anthelion/helpers';
 
 // download/flexhexsetup.exe redirects to the current installer under a
 // per-release path. The installer is unversioned, so its ETag is the state and
-// komac reads the version from the file. The newest Version History entry is
+// komac reads the version from the file's ProductVersion. The newest Version History entry is
 // passed to the html release-notes source as a data: URL.
 const download = 'https://www.heaventools.com/download/flexhexsetup.exe';
 const history = 'https://www.heaventools.com/flexhex-version-history.htm';
@@ -22,7 +22,7 @@ export default defineShard(async () => {
 	} = match(html, /(<p><b>Version \d[\s\S]*?)(?=<p><b>Version \d)/);
 
 	return {
-		version: { source: 'file' },
+		version: { source: 'product' },
 		urls: () => [{ url, architecture: 'x64' }],
 		releaseNotes: {
 			source: 'html',
