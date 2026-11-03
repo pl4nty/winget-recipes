@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://www.farmanager.com/files/Far30b6699.x64.20260614.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://www.farmanager.com/files/Far30b6699.x86.20260614.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.farmanager.com/files/Far30b6699.ARM64.20260614.msi",
+			"architecture": "arm64"
+		}
+	]
+}
