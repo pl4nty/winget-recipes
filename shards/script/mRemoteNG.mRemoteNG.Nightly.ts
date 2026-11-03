@@ -10,7 +10,7 @@ const repo = 'mRemoteNG';
 export default defineShard(async () => {
 	const release = await getLatestRelease({ owner, repo, kind: 'all', tagRegex: '-[Nn][Bb]\\b' });
 	const installers = release.assets.filter((asset) => /installer.*\.msi$/i.test(asset.name));
-	if (!installers.length) throw new Error(`No installer msi in ${release.rawTag}`);
+	if (!installers.length) throw new Error(`No installer msi in ${release.rawTag}: ${release.assetNames().join(", ")}`);
 
 	const base = match(release.rawTag, /v(\d+\.\d+\.\d+)/).groups[0];
 	const build =
