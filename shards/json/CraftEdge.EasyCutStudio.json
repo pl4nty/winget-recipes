@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://www.easycutstudio.com/EasyCutStudio6-64bit.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.easycutstudio.com/EasyCutStudio6-64bit.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.easycutstudio.com/download.html"
+	},
+	"replace": true
+}
