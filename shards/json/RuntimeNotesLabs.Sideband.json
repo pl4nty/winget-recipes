@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "runtimenoteslabs",
+		"repo": "sideband-public"
+	},
+	"urls": ["https://github.com/runtimenoteslabs/sideband-public/releases/download/v{version}/sideband.exe"]
+}
