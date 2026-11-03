@@ -16,5 +16,6 @@
 		{ "url": "https://www.voidtools.com/Everything-{version}.ARM-Setup.exe", "architecture": "arm" },
 		{ "url": "https://www.voidtools.com/Everything-{version}.ARM64.zip", "architecture": "arm64" },
 		{ "url": "https://www.voidtools.com/Everything-{version}.ARM64-Setup.exe", "architecture": "arm64" }
-	]
+	],
+	"releaseNotes": { "releaseNotesUrl": "https://www.voidtools.com/forum/viewtopic.php?f=12&t=9787#changes" }
 }
