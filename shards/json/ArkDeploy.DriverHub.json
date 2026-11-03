@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ArkDeployDev",
+		"repo": "ArkDeploy.DriverHub",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/ArkDeployDev/ArkDeploy.DriverHub/releases/download/{github.rawTag}/ArkDeploy-DriverHub-Setup-v{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/ArkDeployDev/ArkDeploy.DriverHub/releases/tag/{github.rawTag}"
+	}
+}
