@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "IDisposable",
+		"repo": "sdio-go"
+	},
+	"urls": [
+		"https://github.com/IDisposable/sdio-go/releases/download/{github.rawTag}/sdigo.exe"
+	]
+}
