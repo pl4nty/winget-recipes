@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "osirisjson", "repo": "osiris-producers" },
+	"urls": ["https://github.com/osirisjson/osiris-producers/releases/download/v{version}/osiris-producers_{version}_windows_amd64.zip"]
+}
