@@ -1,7 +1,10 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": { "source": "file" },
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.jmmgc.com/",
+		"regex": "news/jmmg-text-file-editor-v(\\d+(?:\\.\\d+)+)\\.php"
+	},
 	"urls": [
 		{
 			"url": "https://www.jmmgc.com/downloads/Text_File_Editor_Standalone.exe",
@@ -16,10 +19,7 @@
 			"architecture": "arm64"
 		}
 	],
-	"state": {
-		"source": "response-header",
-		"url": "https://www.jmmgc.com/downloads/Text_File_Editor_Standalone.exe",
-		"header": "etag"
-	},
-	"replace": true
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.jmmgc.com/news/jmmg-text-file-editor-v{version}.php"
+	}
 }
