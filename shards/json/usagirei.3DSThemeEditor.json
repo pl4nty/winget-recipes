@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "usagirei",
+		"repo": "3DS-Theme-Editor"
+	},
+	"urls": [
+		"https://github.com/usagirei/3DS-Theme-Editor/releases/download/v{version}/3DS.Theme.Editor.-.v{version}.zip"
+	]
+}
