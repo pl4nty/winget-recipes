@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://downloads.sandisk.com/downloads/memoryzone-win.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.sandisk.com/downloads/memoryzone-win.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support-en.sandisk.com/app/answers/detailweb/a_id/52650"
+	},
+	"replace": true
+}
