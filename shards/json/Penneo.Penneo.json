@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.support.penneo.com/hc/en-gb/articles/20502853066269-How-to-install-set-up-and-use-the-Desktop-Application-to-create-case-files",
+		"regex": "assets\\.penneo\\.com/release/desktop/windows/(?<version>\\d+(?:\\.\\d+)+)/dist/Penneo-\\d+(?:\\.\\d+)+\\.msi"
+	},
+	"urls": [
+		"https://assets.penneo.com/release/desktop/windows/{version}/dist/Penneo-{version}.msi",
+		"https://assets.penneo.com/release/desktop/windows/{version}/dist/Penneo-32bit-{version}.msi"
+	]
+}
