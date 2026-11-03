@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "filipeclacerda",
+		"repo": "lumen"
+	},
+	"urls": [
+		"https://github.com/filipeclacerda/lumen/releases/download/{github.rawTag}/Lumen-v{version}-windows-x64.msi",
+		"https://github.com/filipeclacerda/lumen/releases/download/{github.rawTag}/Lumen-v{version}-windows-x64-setup.exe"
+	]
+}
