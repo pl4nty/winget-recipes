@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.aws.amazon.com/cloudhsm/latest/userguide/latest-releases.html",
+		"regex": "https://s3\\.amazonaws\\.com/cloudhsmv2\\-software/CloudHsmClient/Windows/AWSCloudHSMCLI\\-(\\d+(?:\\.\\d+)+)\\-1\\.msi"
+	},
+	"urls": [
+		"https://s3.amazonaws.com/cloudhsmv2-software/CloudHsmClient/Windows/AWSCloudHSMCLI-{version}-1.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.aws.amazon.com/cloudhsm/latest/userguide/client-history.html"
+	}
+}
