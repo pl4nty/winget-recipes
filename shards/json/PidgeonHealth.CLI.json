@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PidgeonHealth",
+		"repo": "pidgeon-cli",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": ["https://github.com/PidgeonHealth/pidgeon-cli/releases/download/v{version}/pidgeon-windows-x64.zip"]
+}
