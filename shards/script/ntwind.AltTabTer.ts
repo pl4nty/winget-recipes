@@ -18,7 +18,8 @@ export default defineShard(async () => {
 
 	return {
 		version: parts.join('.'),
-		urls: () => [`https://www.ntwind.com/download/AltTabTer_${short}-setup.exe`],
+		// One setup installs the native 32-bit or 64-bit build, as upstream's neutral entry.
+		urls: () => [{ url: `https://www.ntwind.com/download/AltTabTer_${short}-setup.exe`, architecture: 'neutral' }],
 		releaseNotes: {
 			source: 'html',
 			sourceUrl: `data:text/html,${encodeURIComponent(notes)}`,
