@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "transifex",
+		"repo": "cli"
+	},
+	"urls": [
+		"https://github.com/transifex/cli/releases/download/v{version}/tx-windows-386.zip",
+		"https://github.com/transifex/cli/releases/download/v{version}/tx-windows-amd64.zip"
+	]
+}
