@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tanakamasayuki", "repo": "wsl-usb-identity-manager" },
+	"urls": [
+		"https://github.com/tanakamasayuki/wsl-usb-identity-manager/releases/download/{github.rawTag}/wsl-usb-identity-manager_{version}_x64_setup.exe"
+	]
+}
