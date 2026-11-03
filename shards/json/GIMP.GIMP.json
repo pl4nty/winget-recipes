@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.gimp.org/gimp_versions.json",
+		"regex": "\"version\":\\s*\"(?<version>(?<minor>\\d+\\.\\d+)\\.\\d+)\"[\\s\\S]*?\"windows\":\\s*\\[\\s*\\{[^}]*?\"filename\":\\s*\"(?<file>gimp-[^\"]+-setup[^\"]*\\.exe)\""
+	},
+	"urls": ["https://download.gimp.org/gimp/v{captures.minor}/windows/{captures.file}"]
+}
