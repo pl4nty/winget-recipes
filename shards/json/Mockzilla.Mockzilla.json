@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mockzilla",
+		"repo": "mockzilla"
+	},
+	"urls": [
+		"https://github.com/mockzilla/mockzilla/releases/download/v{version}/mockzilla-v{version}-windows-amd64.exe",
+		"https://github.com/mockzilla/mockzilla/releases/download/v{version}/mockzilla-v{version}-windows-arm64.exe"
+	]
+}
