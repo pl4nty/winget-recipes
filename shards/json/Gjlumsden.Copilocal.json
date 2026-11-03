@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "garylumsden",
+		"repo": "copilocal"
+	},
+	"urls": [
+		"https://github.com/garylumsden/copilocal/releases/download/{github.rawTag}/copilocal-win-arm64.exe",
+		"https://github.com/garylumsden/copilocal/releases/download/{github.rawTag}/copilocal-win-x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/garylumsden/copilocal/releases/tag/{github.rawTag}"
+	}
+}
