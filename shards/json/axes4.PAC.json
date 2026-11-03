@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://pac.pdf-accessibility.org/en/download",
+		"regex": "/_Resources/Persistent/(?<path>[0-9a-f]+(?:/[0-9a-f]+)*)/PAC_Setup\\.(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://pac.pdf-accessibility.org/_Resources/Persistent/{captures.path}/PAC_Setup.{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://pac.pdf-accessibility.org/en/resources/release-notes"
+	}
+}
