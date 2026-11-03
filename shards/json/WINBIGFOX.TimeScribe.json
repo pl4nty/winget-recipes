@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WINBIGFOX",
+		"repo": "TimeScribe"
+	},
+	"urls": ["https://github.com/WINBIGFOX/TimeScribe/releases/download/v{version}/TimeScribe-{version}-setup.exe"]
+}
