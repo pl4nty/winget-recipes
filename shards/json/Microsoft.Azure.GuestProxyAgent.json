@@ -1,10 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "Azure",
-		"repo": "GuestProxyAgent",
-		"method": "api-sort",
-		"assetRegex": "_GuestProxyAgent_(?:AMD64|ARM64)_[\\d.]+\\.msi$"
-	}
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://github.com/Azure/GuestProxyAgent/releases/download/1.0.52/Windows_183165466_GuestProxyAgent_AMD64_1.0.52.msi",
+		"https://github.com/Azure/GuestProxyAgent/releases/download/1.0.52/Windows_183165466_GuestProxyAgent_ARM64_1.0.52.msi"
+	]
 }
