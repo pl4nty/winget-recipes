@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "v2rayA",
+		"repo": "v2rayA"
+	},
+	"urls": [
+		"https://github.com/v2rayA/v2rayA/releases/download/v{version}/installer_windows_inno_x64_{version}.exe",
+		"https://github.com/v2rayA/v2rayA/releases/download/v{version}/installer_windows_inno_arm64_{version}.exe"
+	]
+}
