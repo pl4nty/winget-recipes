@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "prettyoaktree",
+		"repo": "exifmod"
+	},
+	"urls": ["https://github.com/prettyoaktree/exifmod/releases/download/v{version}/EXIFmod-{version}-setup.exe"]
+}
