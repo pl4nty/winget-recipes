@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VisiGrid",
+		"repo": "VisiGrid"
+	},
+	"urls": [
+		"https://github.com/VisiGrid/VisiGrid/releases/download/v{version}/VisiGrid-windows-x64.zip"
+	]
+}
