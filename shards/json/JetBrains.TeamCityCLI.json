@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JetBrains",
+		"repo": "teamcity-cli"
+	},
+	"urls": [
+		"https://github.com/JetBrains/teamcity-cli/releases/download/{github.rawTag}/teamcity_{version}_windows_arm64.zip",
+		"https://github.com/JetBrains/teamcity-cli/releases/download/{github.rawTag}/teamcity_{version}_windows_x86_64.zip"
+	]
+}
