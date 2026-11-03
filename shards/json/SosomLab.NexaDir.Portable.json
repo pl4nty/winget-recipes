@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SosomLab",
+		"repo": "nexa-dir3"
+	},
+	"urls": ["https://github.com/SosomLab/nexa-dir3/releases/download/v{version}/nexa-dir-{version}-windows-x64-portable.zip"]
+}
