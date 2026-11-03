@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://s3.us-west-1.amazonaws.com/downloads.outlook-integration.com/software/ImplicitForOutlookIOSetup(x86).msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://s3.us-west-1.amazonaws.com/downloads.outlook-integration.com/software/ImplicitForOutlookIOSetup(x64).msi",
+			"architecture": "x64"
+		}
+	]
+}
