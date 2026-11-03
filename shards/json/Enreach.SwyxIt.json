@@ -5,7 +5,7 @@
 		"url": "https://enreach.de/de/service/downloads",
 		"regex": "swyxit!_(\\d+(?:\\.\\d+)+)_64bit_german\\.zip\""
 	},
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": [
 		{
 			"url": "https://downloads.enreach.de/download/swyxit!_{version}_64bit_german.zip",
