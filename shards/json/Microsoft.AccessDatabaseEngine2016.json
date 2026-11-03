@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 54920,
+		"regex": "^(?:accessdatabaseengine\\.exe|accessdatabaseengine_X64\\.exe)$"
+	}
+}
