@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sandboxie-plus",
+		"repo": "Sandboxie"
+	},
+	"urls": [
+		"https://github.com/sandboxie-plus/Sandboxie/releases/download/v{version}/Sandboxie-Plus-x64-v{version}.exe",
+		"https://github.com/sandboxie-plus/Sandboxie/releases/download/v{version}/Sandboxie-Plus-ARM64-v{version}.exe"
+	]
+}
