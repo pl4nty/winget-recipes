@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ship-digital",
+		"repo": "pull-watch"
+	},
+	"urls": [
+		"https://github.com/ship-digital/pull-watch/releases/download/v{version}/pull-watch_Windows_x86_64.zip"
+	]
+}
