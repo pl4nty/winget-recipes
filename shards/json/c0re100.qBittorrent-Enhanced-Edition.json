@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "c0re100",
+		"repo": "qBittorrent-Enhanced-Edition",
+		"tagRegex": "^release-"
+	},
+	"urls": [
+		"https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/{github.rawTag}/qbittorrent_enhanced_{version}_x64_setup.exe"
+	]
+}
