@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hbread00",
+		"repo": "gdman"
+	},
+	"urls": [
+		"https://github.com/hbread00/gdman/releases/download/{github.rawTag}/GDMan-windows_x64.zip",
+		"https://github.com/hbread00/gdman/releases/download/{github.rawTag}/GDMan-windows_x86.zip"
+	]
+}
