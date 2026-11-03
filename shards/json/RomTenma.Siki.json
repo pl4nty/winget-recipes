@@ -6,6 +6,9 @@
 		"regex": "/archives/(?<version>\\d+(?:\\.\\d+)+)/SikiSetup-\\k<version>\\.exe"
 	},
 	"urls": [
-		"https://sikiapp.net/archives/{version}/SikiSetup-{version}.exe"
+		{
+			"url": "https://sikiapp.net/archives/{version}/SikiSetup-{version}.exe",
+			"architecture": "x64"
+		}
 	]
 }
