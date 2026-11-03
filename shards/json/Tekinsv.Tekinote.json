@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Tekinsv",
+		"repo": "tekinote"
+	},
+	"urls": [
+		"https://github.com/Tekinsv/tekinote/releases/download/v{version}/Tekinote-Setup-{version}.exe"
+	]
+}
