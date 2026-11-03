@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.proscan.org/proscan_whats_new.html",
+		"regex": "Version\\s+(\\d+\\.\\d+)</b><font[^>]*>&nbsp;\\s*Newest Version"
+	},
+	"urls": [
+		{
+			"url": "https://www.proscan.org/ProScan_{version|.|_}.zip",
+			"nestedInstallerMatches": ["ProScan_{version|.|_}.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.proscan.org/proscan_whats_new.html"
+	}
+}
