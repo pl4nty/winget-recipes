@@ -5,6 +5,6 @@
 		"owner": "cjcliffe",
 		"repo": "CubicSDR",
 		"method": "api-latest",
-		"assetRegex": "\\.(exe|msi)$"
+		"assetRegex": "win|\\.(exe|msi|zip)$"
 	}
 }
