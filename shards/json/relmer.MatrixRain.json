@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "relmer",
+		"repo": "MatrixRain"
+	},
+	"urls": [
+		"https://github.com/relmer/MatrixRain/releases/download/{github.rawTag}/MatrixRain.exe",
+		"https://github.com/relmer/MatrixRain/releases/download/{github.rawTag}/MatrixRain-arm64.exe"
+	]
+}
