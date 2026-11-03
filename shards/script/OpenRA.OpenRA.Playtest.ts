@@ -27,7 +27,10 @@ export default defineShard(async () => {
 
 	return {
 		version: `${year}.${month}.${day}`,
-		urls: () => [`https://github.com/OpenRA/OpenRA/releases/download/${tag}/OpenRA-playtest-${date}-x64.exe`],
+		urls: () => [
+			`https://github.com/OpenRA/OpenRA/releases/download/${tag}/OpenRA-playtest-${date}-x64.exe`,
+			`https://github.com/OpenRA/OpenRA/releases/download/${tag}/OpenRA-playtest-${date}-arm64.exe`,
+		],
 		releaseNotes: { releaseNotesUrl: `https://github.com/OpenRA/OpenRA/releases/tag/${tag}` },
 	};
 });
