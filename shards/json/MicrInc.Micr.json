@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Anemoriaa",
+		"repo": "micr-desktop"
+	},
+	"urls": ["https://github.com/Anemoriaa/micr-desktop/releases/download/v{version}/Micr-Setup.exe"]
+}
