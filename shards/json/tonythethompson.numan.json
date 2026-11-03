@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tonythethompson",
+		"repo": "numan"
+	},
+	"urls": [
+		"https://github.com/tonythethompson/numan/releases/download/v{version}/numan-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
