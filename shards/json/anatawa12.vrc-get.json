@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vrc-get",
+		"repo": "vrc-get"
+	},
+	"urls": [
+		"https://github.com/vrc-get/vrc-get/releases/download/{github.rawTag}/aarch64-pc-windows-msvc-vrc-get.exe",
+		"https://github.com/vrc-get/vrc-get/releases/download/{github.rawTag}/x86_64-pc-windows-msvc-vrc-get.exe"
+	]
+}
