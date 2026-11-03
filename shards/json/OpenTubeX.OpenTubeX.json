@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OpenTubeX",
+		"repo": "OpenTubeX",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "-beta$"
+	},
+	"urls": [
+		"https://github.com/OpenTubeX/OpenTubeX/releases/download/{github.rawTag}/opentubex-{version}-beta-setup-x64.exe",
+		"https://github.com/OpenTubeX/OpenTubeX/releases/download/{github.rawTag}/opentubex-{version}-beta-setup-arm64.exe"
+	]
+}
