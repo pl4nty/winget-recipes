@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ChrisLauinger77",
+		"repo": "QontrolPanel"
+	},
+	"urls": [
+		"https://github.com/ChrisLauinger77/QontrolPanel/releases/download/{github.rawTag}/QontrolPanel_Installer.exe"
+	]
+}
