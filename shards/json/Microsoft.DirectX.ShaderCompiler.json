@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "DirectXShaderCompiler",
+		"method": "api-latest",
+		"assetRegex": "^dxc_\\d{4}_\\d{2}_\\d{2}\\.zip$"
+	}
+}
