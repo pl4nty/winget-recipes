@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://static.cdesoftware.com/bls2025/BLS2025INSTALLER.EXE"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://downloads.cdesoftware.com/bls2025\\VersionHistory.txt"
+	}
+}
