@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LizardByte",
+		"repo": "Sunshine"
+	},
+	"urls": [
+		"https://github.com/LizardByte/Sunshine/releases/download/v{version}/Sunshine-Windows-AMD64-installer.msi",
+		"https://github.com/LizardByte/Sunshine/releases/download/v{version}/Sunshine-Windows-ARM64-installer.msi"
+	],
+	"releaseNotes": { "source": "github" }
+}
