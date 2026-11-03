@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "imperium42",
+		"repo": "echophrase-releases",
+		"method": "api-latest",
+		"assetRegex": "^(?:Echophrase_\\d+\\.\\d+\\.\\d+_x64\\-setup\\.exe)$"
+	}
+}
