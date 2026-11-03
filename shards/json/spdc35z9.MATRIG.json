@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "spdc35z9",
+		"repo": "matrig-releases"
+	},
+	"urls": [
+		"https://github.com/spdc35z9/matrig-releases/releases/download/v{version}/MATRIG_{version}_x64-setup.exe",
+		"https://github.com/spdc35z9/matrig-releases/releases/download/v{version}/MATRIG_{version}_x64_en-US.msi"
+	]
+}
