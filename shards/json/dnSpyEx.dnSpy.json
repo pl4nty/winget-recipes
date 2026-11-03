@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dnSpyEx",
+		"repo": "dnSpy"
+	},
+	"urls": [
+		"https://github.com/dnSpyEx/dnSpy/releases/download/v{version}/dnSpy-net-win32.zip",
+		"https://github.com/dnSpyEx/dnSpy/releases/download/v{version}/dnSpy-net-win64.zip"
+	],
+	"releaseNotes": { "source": "github" }
+}
