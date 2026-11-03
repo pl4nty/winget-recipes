@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "akon47",
+		"repo": "claude-account-switcher-windows"
+	},
+	"urls": [
+		"https://github.com/akon47/claude-account-switcher-windows/releases/download/{github.rawTag}/Claude-Account-Switcher-Setup_v{version}-x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/akon47/claude-account-switcher-windows/releases/tag/{github.rawTag}"
+	}
+}
