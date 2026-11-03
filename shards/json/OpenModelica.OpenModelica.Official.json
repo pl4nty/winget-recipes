@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://openmodelica.org/download/download-windows/",
+		"regex": "latest official release <strong>(?<version>(?<minor>\\d+\\.\\d+)\\.(?<patch>\\d+))</strong>"
+	},
+	"urls": ["https://build.openmodelica.org/omc/builds/windows/releases/{captures.minor}/{captures.patch}/64bit/OpenModelica-v{version}-64bit.exe"],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "OpenModelica",
+		"repo": "OpenModelica",
+		"tag": "v{version}",
+		"cleanup": false
+	}
+}
