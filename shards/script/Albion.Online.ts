@@ -13,6 +13,6 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [url],
+		urls: () => [{ url, architecture: 'x64' }],
 	};
 });
