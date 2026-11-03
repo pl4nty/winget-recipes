@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://download.uptodown.app/windows-client"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.uptodown.app/windows-client",
+		"header": "etag"
+	},
+	"replace": true
+}
