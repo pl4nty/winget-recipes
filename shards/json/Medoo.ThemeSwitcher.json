@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Medo-bit",
+		"repo": "ThemeSwitcher"
+	},
+	"urls": ["https://github.com/Medo-bit/ThemeSwitcher/releases/download/v{version}/ThemeSwitcher_Setup.exe"]
+}
