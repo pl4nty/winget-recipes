@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://lexai.aivozone.com/download/lexai-agent-windows-x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://lexai.aivozone.com/setup"
+	}
+}
