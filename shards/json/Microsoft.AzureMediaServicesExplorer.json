@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Azure",
+		"repo": "Azure-Media-Services-Explorer",
+		"method": "api-sort",
+		"assetRegex": "^(?:AMSExplorerSetup_v\\d+\\.\\d+\\.\\d+\\.msi)$",
+		"kind": "all"
+	},
+	"version": {
+		"source": "display"
+	}
+}
