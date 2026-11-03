@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://api.eu.redcactus.cloud/v1/public/software/download/latest/ff582a83-5f70-4629-aec8-4ed498dcc1b8/bubble/windows_x64"],
 	"state": {
 		"source": "response-header",
