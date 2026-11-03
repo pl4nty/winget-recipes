@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://releases.focusrite.com/com.focusrite.focusrite-control/latest/Focusrite-Control-2.exe"
+	]
+}
