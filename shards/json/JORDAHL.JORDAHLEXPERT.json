@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://pohlcon.com/fileadmin/crossbase/SOF/PRO/SOF_PRO_JTA-JDA-EXPERT_%23SALL_%23AING.zip"
+	]
+}
