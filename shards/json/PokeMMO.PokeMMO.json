@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [{ "url": "https://dl.pokemmo.com/pokemmo-installer-windows.exe", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.pokemmo.com/pokemmo-installer-windows.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://forums.pokemmo.com/index.php?/topic/189893-changelog-shiny-wars-2025/#comment-2184779"
+	},
+	"replace": true
+}
