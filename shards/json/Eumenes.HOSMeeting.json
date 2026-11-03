@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://dl.eumenes.ai/downloads",
+		"regex": "/downloads/EumenesHOSMeeting\\-Setup\\-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://dl.eumenes.ai/downloads/EumenesHOSMeeting-Setup-{version}.exe"
+	]
+}
