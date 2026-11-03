@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://okta.okta.com/api/v1/artifacts/WINDOWS_OKTA_VERIFY/download?releaseChannel=GA"],
+		"regex": "/WINDOWS_OKTA_VERIFY/(\\d+(?:\\.\\d+)+)/OktaVerifySetup-[^/]+\\.exe"
+	}
+}
