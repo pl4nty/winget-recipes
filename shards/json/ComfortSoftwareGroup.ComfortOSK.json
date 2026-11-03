@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.comfortsoftware.com/download/ComfortOSKSetup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.comfortsoftware.com/on-screen-keyboard/version-history/"
+	}
+}
