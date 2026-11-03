@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://downloads.usbradar.com/latest/usbradar-standard/setup"],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.usbradar.com/latest/usbradar-standard/setup",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"source": "html",
+		"sourceUrl": "https://www.usbradar.com/changelog/",
+		"releaseNotesUrl": "https://www.usbradar.com/changelog/",
+		"cleanup": false
+	},
+	"replace": true
+}
