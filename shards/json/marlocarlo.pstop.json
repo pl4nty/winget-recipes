@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "psmux", "repo": "pstop" },
+	"urls": ["https://github.com/psmux/pstop/releases/download/v{version}/pstop-windows-x86_64.zip"]
+}
