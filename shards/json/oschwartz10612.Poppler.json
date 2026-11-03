@@ -14,5 +14,8 @@
 			"url": "https://github.com/oschwartz10612/poppler-windows/releases/download/v{version}/Release-{version}.zip",
 			"architecture": "x86"
 		}
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/oschwartz10612/poppler-windows/releases/tag/v{version}"
+	}
 }
