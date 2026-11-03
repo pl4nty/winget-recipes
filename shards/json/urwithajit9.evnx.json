@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "urwithajit9",
+		"repo": "evnx"
+	},
+	"urls": ["https://github.com/urwithajit9/evnx/releases/download/v{version}/evnx-x86_64-pc-windows-msvc.zip"]
+}
