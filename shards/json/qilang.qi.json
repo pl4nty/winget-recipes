@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qilang-project",
+		"repo": "qi"
+	},
+	"urls": [
+		"https://github.com/qilang-project/qi/releases/download/{github.rawTag}/qi-{github.rawTag}-windows-x64.zip"
+	]
+}
