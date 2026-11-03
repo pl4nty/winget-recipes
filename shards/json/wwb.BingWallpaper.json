@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wwbgo",
+		"repo": "bing-wallpaper"
+	},
+	"urls": ["https://github.com/wwbgo/bing-wallpaper/releases/download/v{version}/BingWallpaperSetup-{version}.exe"]
+}
