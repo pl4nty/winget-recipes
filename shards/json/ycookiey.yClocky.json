@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ycookiey",
+		"repo": "yClocky"
+	},
+	"urls": ["https://github.com/ycookiey/yClocky/releases/download/v{version}/yClocky.exe"]
+}
