@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://files.rootsmagic.com/RM3/RM3Setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://files.rootsmagic.com/RM3/RM3Setup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://web.archive.org/web/20090122221829/http://rootsmagic.com/updates/index.htm"
+	},
+	"replace": true
+}
