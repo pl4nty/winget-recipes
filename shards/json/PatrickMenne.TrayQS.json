@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PatrickMenne",
+		"repo": "TrayQS",
+		"tagRegex": "^TrayQS_v"
+	},
+	"urls": ["https://github.com/PatrickMenne/TrayQS/releases/download/TrayQS_v{version}/TrayQS_v{version}.zip"]
+}
