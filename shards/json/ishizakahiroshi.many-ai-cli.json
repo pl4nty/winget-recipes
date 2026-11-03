@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ishizakahiroshi",
+		"repo": "many-ai-cli"
+	},
+	"urls": [
+		"https://github.com/ishizakahiroshi/many-ai-cli/releases/download/{github.rawTag}/many-ai-cli-{version}-windows-x64.zip"
+	]
+}
