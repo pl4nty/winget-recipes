@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "silvatower", "repo": "towermasterstudio" },
+	"urls": ["https://github.com/silvatower/towermasterstudio/releases/download/v{version}/TowerMaster-win-x64.zip"]
+}
