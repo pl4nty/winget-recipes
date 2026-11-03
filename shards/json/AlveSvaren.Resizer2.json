@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alvesvaren",
+		"repo": "resizer2"
+	},
+	"urls": ["https://github.com/alvesvaren/resizer2/releases/download/v{version}/resizer2-setup.exe"]
+}
