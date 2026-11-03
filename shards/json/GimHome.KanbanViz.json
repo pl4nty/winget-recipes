@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hngye02",
+		"repo": "KanbanViz-Releases"
+	},
+	"urls": [
+		"https://github.com/hngye02/KanbanViz-Releases/releases/download/{github.rawTag}/KanbanViz-{version}-win-x64-setup.exe"
+	]
+}
