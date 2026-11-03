@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sn4k3",
+		"repo": "UVtools"
+	},
+	"urls": [
+		"https://github.com/sn4k3/UVtools/releases/download/v{version}/UVtools_win-x64_v{version}.msi",
+		"https://github.com/sn4k3/UVtools/releases/download/v{version}/UVtools_win-arm64_v{version}.msi"
+	]
+}
