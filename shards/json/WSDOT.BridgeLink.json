@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.wsdot.wa.gov/eesc/bridge/software/index.cfm?fuseaction=release_history&software_id=69",
+		"regex": "Current Version:\\s*(?<version>(?<minor>\\d+\\.\\d+)\\.\\d+)"
+	},
+	"urls": ["https://www.wsdot.wa.gov/eesc/bridge/software/downloads/BridgeLink_{captures.minor}/BridgeLink_{version}.msi"]
+}
