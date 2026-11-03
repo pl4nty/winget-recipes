@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://s3.amazonaws.com/files.scrambleid.com/?list-type=2&prefix=windows-app/releases/",
+		"regex": "<Key>windows-app/releases/(\\d+(?:\\.\\d+)+)/ScrambleID-Windows-Desktop-PROD-[\\d.]+\\.zip</Key>"
+	},
+	"urls": [
+		"https://files.scrambleid.com/windows-app/releases/{version}/ScrambleID-Windows-Desktop-PROD-{version}.zip"
+	]
+}
