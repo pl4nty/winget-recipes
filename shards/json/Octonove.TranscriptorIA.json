@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Octonove",
+		"repo": "transcriptor-ia"
+	},
+	"urls": [
+		"https://github.com/Octonove/transcriptor-ia/releases/download/v{version}/TranscriptorIA-Setup.exe"
+	]
+}
