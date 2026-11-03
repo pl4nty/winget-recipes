@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TeXworks",
+		"repo": "texworks",
+		"method": "api-sort",
+		"tagRegex": "^release-",
+		"assetRegex": "^TeXworks-win10-setup-.*\\.exe$"
+	},
+	"releaseNotes": { "source": "github" }
+}
