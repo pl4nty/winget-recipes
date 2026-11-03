@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Wasabules", "repo": "SnmpLens" },
+	"urls": ["https://github.com/Wasabules/SnmpLens/releases/download/{github.rawTag}/SnmpLens-windows-amd64-setup.exe"]
+}
