@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "soheilous",
+		"repo": "GenLauncher",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": ["https://github.com/soheilous/GenLauncher/releases/download/v{version}/GenLauncher_{version}_x64-setup.exe"]
+}
