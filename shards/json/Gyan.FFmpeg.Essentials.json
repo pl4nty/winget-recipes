@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GyanD",
+		"repo": "codexffmpeg",
+		"method": "api-list",
+		"tagRegex": "^(?=\\d+(?:\\.\\d+)+$)"
+	},
+	"urls": [
+		"https://github.com/GyanD/codexffmpeg/releases/download/{github.rawTag}/ffmpeg-{version}-essentials_build.zip",
+		"https://github.com/GyanD/codexffmpeg/releases/download/{github.rawTag}/ffmpeg-{version}-essentials_build.zip"
+	]
+}
