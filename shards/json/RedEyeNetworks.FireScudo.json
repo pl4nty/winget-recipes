@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://download.redeyenetworks.com/firescudo/releases/latest/firescudo-win-x64-setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.redeyenetworks.com/firescudo/releases/latest/firescudo-win-x64-setup.exe",
+		"header": "etag"
+	}
+}
