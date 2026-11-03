@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Benny93",
+		"repo": "kafui"
+	},
+	"urls": [
+		"https://github.com/Benny93/kafui/releases/download/{github.rawTag}/kafui_windows_arm64.zip",
+		"https://github.com/Benny93/kafui/releases/download/{github.rawTag}/kafui_windows_i386.zip",
+		"https://github.com/Benny93/kafui/releases/download/{github.rawTag}/kafui_windows_x86_64.zip"
+	]
+}
