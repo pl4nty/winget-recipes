@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Aleixenandros",
+		"repo": "Rustty"
+	},
+	"urls": [
+		"https://github.com/Aleixenandros/Rustty/releases/download/v{version}/Rustty_{version}_x64.msi",
+		"https://github.com/Aleixenandros/Rustty/releases/download/v{version}/Rustty_{version}_x64-setup.exe"
+	]
+}
