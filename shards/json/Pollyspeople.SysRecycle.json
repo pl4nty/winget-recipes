@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.pollyspeople.net/downloads/sysrecycle.zip",
+			"nestedInstallerMatches": ["SysRecycle.msi"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.pollyspeople.net/downloads/sysrecycle.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
