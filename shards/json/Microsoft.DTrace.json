@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 100441,
+		"regex": "^(?:DTrace\\.amd64\\.msi|DTrace\\.arm64\\.msi)$"
+	}
+}
