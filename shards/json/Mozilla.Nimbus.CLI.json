@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://archive.mozilla.org/pub/app-services/releases/",
+		"regex": "/pub/app-services/releases/(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": [
+		"https://archive.mozilla.org/pub/app-services/releases/{version}/nimbus-cli-x86_64-pc-windows-gnu.zip"
+	]
+}
