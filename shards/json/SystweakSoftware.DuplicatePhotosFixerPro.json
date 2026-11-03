@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://cdn.systweak.com/setups/dpfw/baps/dpfsetupipg_dpfw-site.exe?of=dpfsetupipg_.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.systweak.com/setups/dpfw/baps/dpfsetupipg_dpfw-site.exe?of=dpfsetupipg_.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
