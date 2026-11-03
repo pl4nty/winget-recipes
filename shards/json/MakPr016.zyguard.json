@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MakPr016",
+		"repo": "zyguard-releases",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": ["https://github.com/MakPr016/zyguard-releases/releases/download/v{version}/zyguard-setup-{version}.exe"]
+}
