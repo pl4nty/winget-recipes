@@ -45,6 +45,12 @@ jobs:
       - name: Install Dependencies
         run: bun ci --production
 
+      - name: Install komac
+        run: |
+          curl -fsSLo "$RUNNER_TEMP/komac.node" https://github.com/devicie/Komac-anthelion/releases/download/v0.0.73/anthelion-komac.linux-arm64-gnu.node
+          echo "1c797a61db7c90ba4cabd0124a01101f0e33e7f919cc847adfe18004323681f7  $RUNNER_TEMP/komac.node" | sha256sum -c
+          echo "NAPI_RS_NATIVE_LIBRARY_PATH=$RUNNER_TEMP/komac.node" >> "$GITHUB_ENV"
+
       - name: Lint Shards
         run: bun lint.ts
 
