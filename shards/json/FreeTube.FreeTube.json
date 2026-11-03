@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "FreeTubeApp",
+		"repo": "FreeTube",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^(?:freetube\\-\\d+\\.\\d+\\.\\d+\\-beta\\-setup\\-arm64\\.exe|freetube\\-\\d+\\.\\d+\\.\\d+\\-beta\\-setup\\-x64\\.exe)$"
+	}
+}
