@@ -25,11 +25,25 @@ export default defineShard(async () => {
 	}
 	if (!version) throw new Error(`no Windows installer found on the CDN for Geekbench ${minor}`);
 
+	// The announcement's body becomes the release notes; it is passed to the html source as a
+	// data: URL so the blog's navigation and sidebar are left out.
+	const post = new URL(path, blog).href;
+	const {
+		groups: [content],
+	} = match(
+		await fetch(post).then((response) => response.text()),
+		/<div class="blog-content">([\s\S]*?)<\/div>/,
+		'blog post content not found',
+	);
+
 	return {
 		version,
 		urls: () => [installer(version)],
 		releaseNotes: {
-			releaseNotesUrl: new URL(path, blog).href,
+			source: 'html',
+			sourceUrl: `data:text/html,${encodeURIComponent(content)}`,
+			releaseNotesUrl: post,
+			cleanup: false,
 		},
 	};
 });
