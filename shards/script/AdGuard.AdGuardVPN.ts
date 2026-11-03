@@ -13,6 +13,7 @@ export default defineShard(async () => {
 	});
 
 	const [url] = release.urls().filter((url) => /\/AdGuardVpn-[\d.]+-\.\d+\.exe$/i.test(url));
+	if (!url) throw new Error(`No installer in ${release.rawTag}: ${release.assetNames().join(', ')}`);
 	const {
 		groups: [major, minor, build],
 	} = match(url, /AdGuardVpn-(\d+)\.(\d+)\.\d+-\.(\d+)\.exe$/i);
