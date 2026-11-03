@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Quicksaver",
+		"repo": "lfs-cloud"
+	},
+	"urls": [
+		"https://github.com/Quicksaver/lfs-cloud/releases/download/v{version}/lfscloud-v{version}-windows-x86_64.zip"
+	]
+}
