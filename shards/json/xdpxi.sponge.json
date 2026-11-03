@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sponge.xdpxi.dev/",
+		"regex": "href=\"/releases/(?<version>\\d+(?:\\.\\d+)+)\"[^>]*>Release Notes<"
+	},
+	"urls": ["http://cdn.xdpxi.net:8716/sponge/{version}/sponge-{version}-windows-installer.exe"]
+}
