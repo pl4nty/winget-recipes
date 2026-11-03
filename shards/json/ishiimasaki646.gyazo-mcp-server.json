@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ishii-masaki-646",
+		"repo": "gyazo-mcp-server"
+	},
+	"urls": [
+		"https://github.com/ishii-masaki-646/gyazo-mcp-server/releases/download/{github.rawTag}/gyazo-mcp-server-x86_64-pc-windows-msvc.zip",
+		"https://github.com/ishii-masaki-646/gyazo-mcp-server/releases/download/{github.rawTag}/gyazo-mcp-server-aarch64-pc-windows-msvc.zip"
+	]
+}
