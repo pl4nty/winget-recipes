@@ -6,6 +6,8 @@
 		"regex": "/virtio-win-(\\d+(?:\\.\\d+)+-\\d+)/virtio-win-guest-tools\\.exe$"
 	},
 	"urls": [
-		"https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-{version}/virtio-win-guest-tools.exe"
+		"https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-{version}/virtio-win-guest-tools.exe",
+		"https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-{version}/virtio-win-gt-x64.msi",
+		"https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-{version}/virtio-win-gt-x86.msi"
 	]
 }
