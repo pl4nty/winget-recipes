@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://hetmanrecovery.com/download/hetman_uneraser.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hetmanrecovery.com/hetman_uneraser_version_history.htm"
+	}
+}
