@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "VibeSmiths", "repo": "HeatSync" },
+	"urls": ["https://github.com/VibeSmiths/HeatSync/releases/download/v{version}/HeatSync.exe"]
+}
