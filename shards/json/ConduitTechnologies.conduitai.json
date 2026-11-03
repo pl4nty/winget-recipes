@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "conduit-technologies",
+		"repo": "conduitai-cli",
+		"tagRegex": "^cli\\-v"
+	},
+	"urls": [
+		"https://github.com/conduit-technologies/conduitai-cli/releases/download/{github.rawTag}/conduitai-win-x64.exe"
+	]
+}
