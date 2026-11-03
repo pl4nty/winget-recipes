@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.genymotion.com/download",
+		"regex": "https://dl\\.genymotion\\.com/releases/genymotion\\-(\\d+(?:\\.\\d+)+)/genymotion\\-\\1\\.exe"
+	},
+	"urls": [
+		"https://dl.genymotion.com/releases/genymotion-{version}/genymotion-{version}.exe"
+	]
+}
