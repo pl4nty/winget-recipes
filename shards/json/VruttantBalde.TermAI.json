@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Vruttant",
+		"repo": "termai"
+	},
+	"urls": [
+		"https://github.com/Vruttant/termai/releases/download/v{version}/termai-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
