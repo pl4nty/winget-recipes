@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdn.kde.org/ci-builds/multimedia/kid3/master/windows/kid3-windows-amd64.zip"
+	]
+}
