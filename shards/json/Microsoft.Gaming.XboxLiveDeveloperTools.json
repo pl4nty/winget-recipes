@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "xbox-live-developer-tools",
+		"method": "api-latest",
+		"assetRegex": "^(?:XboxLiveTools\\-\\d+\\-\\d+\\.zip)$"
+	},
+	"version": {
+		"source": "product"
+	}
+}
