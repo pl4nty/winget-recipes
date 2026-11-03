@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nirsoft.net/utils/inside_clipboard.html",
+		"regex": "<td>InsideClipboard v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [{ "url": "https://www.nirsoft.net/utils/insideclipboard.zip", "architecture": "neutral" }],
+	"releaseNotes": { "releaseNotesUrl": "https://www.nirsoft.net/utils/inside_clipboard.html" },
+	"replace": true
+}
