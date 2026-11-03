@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://devolutions.net/productinfo.htm",
+		"regex": "\\bDevoAgentbin\\.Version=(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://cdn.devolutions.net/download/DevolutionsAgent-{version}-x64.msi",
+		"https://cdn.devolutions.net/download/DevolutionsAgent-{version}-arm64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://devolutions.net/agent/release-notes/"
+	}
+}
