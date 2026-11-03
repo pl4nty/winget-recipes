@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "squigit-org",
+		"repo": "squigit",
+		"method": "api-list",
+		"tagRegex": "^stt-v",
+		"assetRegex": "^squigit-stt-win-[a-z0-9]+\\.zip$"
+	}
+}
