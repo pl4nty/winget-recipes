@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nobu121",
+		"repo": "win3drag"
+	},
+	"urls": [
+		"https://github.com/nobu121/win3drag/releases/download/v{version}/3drag.exe"
+	]
+}
