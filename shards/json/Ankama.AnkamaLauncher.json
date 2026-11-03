@@ -1,9 +1,14 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": {
+		"source": "file"
+	},
 	"urls": [
-		"https://launcher.cdn.ankama.com/installers/production/Ankama%20Launcher-Setup.exe",
+		{
+			"url": "https://launcher.cdn.ankama.com/installers/production/Ankama%20Launcher-Setup.exe",
+			"architecture": "x64"
+		},
 		{
 			"url": "https://launcher.cdn.ankama.com/installers/production/Ankama%20Launcher-Setup-ia32.exe",
 			"architecture": "x86"
