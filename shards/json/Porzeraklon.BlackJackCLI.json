@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Porzeraklon",
+		"repo": "blackjack",
+		"method": "api-latest",
+		"assetRegex": "^BlackJackCLI-win-[a-z0-9]+\\.zip$"
+	}
+}
