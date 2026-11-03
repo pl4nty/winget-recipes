@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nuitsjp",
+		"repo": "commit-spark"
+	},
+	"urls": [
+		"https://github.com/nuitsjp/commit-spark/releases/download/v{version}/commit-spark_windows_amd64.zip"
+	]
+}
