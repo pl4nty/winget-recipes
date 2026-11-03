@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "nunuvin", "repo": "silent_bt_awake" },
+	"urls": [{ "url": "https://github.com/nunuvin/silent_bt_awake/releases/download/v{version}/Release.zip", "architecture": "x86" }]
+}
