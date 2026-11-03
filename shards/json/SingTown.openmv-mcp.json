@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "SingTown", "repo": "openmv-mcp" },
+	"urls": [
+		"https://github.com/SingTown/openmv-mcp/releases/download/v{version}/openmv_mcp_server-{version}-windows-x86_64.exe",
+		"https://github.com/SingTown/openmv-mcp/releases/download/v{version}/openmv_mcp_server-{version}-windows-arm64.exe"
+	]
+}
