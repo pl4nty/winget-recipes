@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Jayakrishna20",
+		"repo": "file-converter"
+	},
+	"urls": [
+		"https://github.com/Jayakrishna20/file-converter/releases/download/{github.rawTag}/avtr_Windows_arm64.zip",
+		"https://github.com/Jayakrishna20/file-converter/releases/download/{github.rawTag}/avtr_Windows_x86_64.zip"
+	]
+}
