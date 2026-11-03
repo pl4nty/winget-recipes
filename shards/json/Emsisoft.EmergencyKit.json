@@ -5,5 +5,10 @@
 		"url": "https://www.emsisoft.com/en/emergency-kit/",
 		"regex": "Hero__version\">\\s*Version (?<version>\\d+(?:\\.\\d+)+)"
 	},
-	"urls": ["https://dl.emsisoft.com/EmsisoftEmergencyKit.exe"]
+	"urls": [
+		{
+			"url": "https://dl.emsisoft.com/EmsisoftEmergencyKit.exe",
+			"architecture": "x64"
+		}
+	]
 }
