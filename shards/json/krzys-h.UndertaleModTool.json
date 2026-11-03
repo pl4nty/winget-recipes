@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "UnderminersTeam",
+		"repo": "UndertaleModTool"
+	},
+	"urls": [
+		"https://github.com/UnderminersTeam/UndertaleModTool/releases/download/{github.rawTag}/UndertaleModTool_v{version}-Windows.zip"
+	]
+}
