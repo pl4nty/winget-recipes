@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://download.endnote.com/downloads/2025/EN2025Inst.msi"],
 	"state": {
 		"source": "response-header",
