@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ShahFaisalGfG",
+		"repo": "gfgLock"
+	},
+	"urls": [
+		"https://github.com/ShahFaisalGfG/gfgLock/releases/download/{github.rawTag}/gfgLock_{version}_system_installer.exe",
+		"https://github.com/ShahFaisalGfG/gfgLock/releases/download/{github.rawTag}/gfgLock_{version}_user_installer.exe"
+	]
+}
