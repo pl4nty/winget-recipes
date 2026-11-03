@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://ftp.axis.com/pub/axis/software/cam_srv/file_player/latest/AxisFilePlayer.exe"
+	]
+}
