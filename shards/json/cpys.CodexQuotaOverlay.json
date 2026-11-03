@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cpys",
+		"repo": "codex-quota-overlay",
+		"method": "api-sort",
+		"assetRegex": "^(?:CodexQuotaOverlay\\-Setup\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
