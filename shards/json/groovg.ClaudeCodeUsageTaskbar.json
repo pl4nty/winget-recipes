@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "groovg",
+		"repo": "claude-code-usage-taskbar"
+	},
+	"urls": [
+		"https://github.com/groovg/claude-code-usage-taskbar/releases/download/{github.rawTag}/claude-code-usage-taskbar.exe"
+	]
+}
