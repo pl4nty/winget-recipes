@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "miangee21", "repo": "Renamo" },
+	"urls": [
+		"https://github.com/miangee21/Renamo/releases/download/v{version}/Renamo_{version}_x64_en-US.msi",
+		"https://github.com/miangee21/Renamo/releases/download/v{version}/Renamo_{version}_x64-setup.exe"
+	]
+}
