@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LGUG2Z",
+		"repo": "komokana"
+	},
+	"urls": [
+		"https://github.com/LGUG2Z/komokana/releases/download/{github.rawTag}/komokana-{version}-aarch64.msi",
+		"https://github.com/LGUG2Z/komokana/releases/download/{github.rawTag}/komokana-{version}-x86_64.msi"
+	]
+}
