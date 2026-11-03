@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.iris-instruments.com/Download/FullWaveViewerII/SetupFullWaveViewer2.exe"
+	]
+}
