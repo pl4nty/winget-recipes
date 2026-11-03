@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "viswajith275", "repo": "EnvSeal-CLI" },
+	"urls": ["https://github.com/viswajith275/EnvSeal-CLI/releases/download/v{version}/envseal-windows-x86_64.zip"]
+}
