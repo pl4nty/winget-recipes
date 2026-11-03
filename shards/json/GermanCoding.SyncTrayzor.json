@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GermanCoding",
+		"repo": "SyncTrayzor"
+	},
+	"urls": [
+		"https://github.com/GermanCoding/SyncTrayzor/releases/download/{github.rawTag}/SyncTrayzorSetup-arm64.exe",
+		"https://github.com/GermanCoding/SyncTrayzor/releases/download/{github.rawTag}/SyncTrayzorSetup-x64.exe"
+	]
+}
