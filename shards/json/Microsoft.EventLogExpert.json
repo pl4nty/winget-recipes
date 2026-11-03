@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "EventLogExpert"
+	},
+	"urls": ["https://github.com/microsoft/EventLogExpert/releases/download/v{version}/EventLogExpert_{version}.msixbundle"]
+}
