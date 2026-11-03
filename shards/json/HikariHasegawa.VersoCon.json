@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lupanostefano",
+		"repo": "versocon"
+	},
+	"urls": [
+		"https://github.com/lupanostefano/versocon/releases/download/{github.rawTag}/versocon-setup-{version}.exe"
+	]
+}
