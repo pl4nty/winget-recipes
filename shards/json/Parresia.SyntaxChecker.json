@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elguala9",
+		"repo": "SyntaxChecker"
+	},
+	"urls": ["https://github.com/elguala9/SyntaxChecker/releases/download/v{version}/syntaxchecker-v{version}-windows-amd64.zip"]
+}
