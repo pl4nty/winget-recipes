@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "intelligent-terminal"
+	},
+	"urls": [
+		"https://github.com/microsoft/intelligent-terminal/releases/download/v{version}/Microsoft.IntelligentTerminal_{version}.0_8wekyb3d8bbwe.msixbundle"
+	]
+}
