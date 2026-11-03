@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "harry0703",
+		"repo": "MangoDisk"
+	},
+	"urls": ["https://github.com/harry0703/MangoDisk/releases/download/v{version}/MangoDisk-{version}-windows.exe"]
+}
