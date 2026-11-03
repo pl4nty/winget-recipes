@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "QuadrantMC",
+		"repo": "quadrant"
+	},
+	"urls": [
+		"https://github.com/QuadrantMC/quadrant/releases/download/v{version}/Quadrant_{version}_x64-setup.exe",
+		"https://github.com/QuadrantMC/quadrant/releases/download/v{version}/Quadrant_{version}_arm64-setup.exe"
+	]
+}
