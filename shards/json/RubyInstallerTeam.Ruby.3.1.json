@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oneclick",
+		"repo": "rubyinstaller2",
+		"method": "api-list",
+		"tagRegex": "^RubyInstaller-3\\.1\\.\\d+-\\d+$"
+	},
+	"versionRemove": "RubyInstaller-",
+	"urls": [
+		"https://github.com/oneclick/rubyinstaller2/releases/download/{github.rawTag}/rubyinstaller-{version}-x86.exe",
+		"https://github.com/oneclick/rubyinstaller2/releases/download/{github.rawTag}/rubyinstaller-{version}-x64.exe"
+	]
+}
