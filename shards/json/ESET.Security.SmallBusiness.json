@@ -4,7 +4,8 @@
 	"version": { "source": "product" },
 	"urls": [
 		{ "url": "https://download.eset.com/com/eset/apps/home/esbs/windows/latest/esbs_nt64.exe", "architecture": "x64" },
-		{ "url": "https://download.eset.com/com/eset/apps/home/esbs/windows/latest/esbs_arm64.exe", "architecture": "arm64" }
+		{ "url": "https://download.eset.com/com/eset/apps/home/esbs/windows/latest/esbs_arm64.exe", "architecture": "arm64" },
+		{ "url": "https://download.eset.com/com/eset/apps/home/esbs/windows/latest/esbs_nt32.exe", "architecture": "x86" }
 	],
 	"state": {
 		"source": "response-header",
