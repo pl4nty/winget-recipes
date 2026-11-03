@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ciromattia",
+		"repo": "kcc",
+		"method": "api-latest",
+		"assetRegex": "^(?:KCC_\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
