@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hydrusnetwork",
+		"repo": "hydrus"
+	},
+	"urls": ["https://github.com/hydrusnetwork/hydrus/releases/download/v{version}/Hydrus.Network.{version}.-.Windows.-.Installer.exe"]
+}
