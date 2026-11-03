@@ -1,0 +1,28 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://www.coreftp.com/download/setupp.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.coreftp.com/download/CoreftpSetup.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.coreftp.com/download/setup64.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://www.coreftp.com/download/CoreftpSetup64.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.coreftp.com/forums/viewtopic.php?t=4023051"
+	}
+}
