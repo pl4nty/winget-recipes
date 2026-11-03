@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Oire",
+		"repo": "sic",
+		"method": "api-sort",
+		"assetRegex": "^sic-v[0-9.]+-setup\\.exe$"
+	}
+}
