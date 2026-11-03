@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "wustites", "repo": "OrcaSVN" },
+	"urls": [
+		"https://github.com/wustites/OrcaSVN/releases/download/{github.rawTag}/OrcaSVN_{version}_x64-setup.exe",
+		"https://github.com/wustites/OrcaSVN/releases/download/{github.rawTag}/OrcaSVN_{version}_x64_en-US.msi"
+	]
+}
