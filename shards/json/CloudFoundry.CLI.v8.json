@@ -7,8 +7,6 @@
 	},
 	"urls": [
 		"https://s3-us-west-1.amazonaws.com/v8-cf-cli-releases/releases/v{version}/cf8-cli_{version}_winx64.zip",
-		"https://s3-us-west-1.amazonaws.com/v8-cf-cli-releases/releases/v{version}/cf8-cli_{version}_win32.zip",
-		"https://s3-us-west-1.amazonaws.com/v8-cf-cli-releases/releases/v{version}/cf8-cli-installer_{version}_winx64.zip",
-		"https://s3-us-west-1.amazonaws.com/v8-cf-cli-releases/releases/v{version}/cf8-cli-installer_{version}_win32.zip"
+		"https://s3-us-west-1.amazonaws.com/v8-cf-cli-releases/releases/v{version}/cf8-cli_{version}_win32.zip"
 	]
 }
