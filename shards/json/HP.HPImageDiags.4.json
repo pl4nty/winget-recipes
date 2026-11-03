@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://ftp.hp.com/pub/idr/ImageDiags4/ImageDiags.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ftp.hp.com/pub/caps-softpaq/cmit/support/HP_ImageDiags.html#:~:text=VERSION-,4.0.1.02,-Release"
+	}
+}
