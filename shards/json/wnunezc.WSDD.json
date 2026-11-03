@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wnunezc",
+		"repo": "wsdd-rust"
+	},
+	"urls": ["https://github.com/wnunezc/wsdd-rust/releases/download/v{version}/wsdd-{version}-x86_64.msi"]
+}
