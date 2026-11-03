@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "guzmandrade-dev",
+		"repo": "simple-dap-gui"
+	},
+	"urls": [
+		"https://github.com/guzmandrade-dev/simple-dap-gui/releases/download/{github.rawTag}/simple-dap-gui.{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/guzmandrade-dev/simple-dap-gui/releases/tag/{github.rawTag}"
+	}
+}
