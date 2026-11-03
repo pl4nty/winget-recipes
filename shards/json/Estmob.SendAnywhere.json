@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://update.send-anywhere.com/downloads/x64/SendAnywhereSetup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe",
+			"architecture": "x86"
+		}
+	]
+}
