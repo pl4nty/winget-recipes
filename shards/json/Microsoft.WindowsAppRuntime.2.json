@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/release-notes/windows-app-sdk-2-0?pivots=stable",
+		"regex": "<h2 id=\"(?<anchor>version-\\d+)\">Version (?<version>(?<minor>2\\.\\d+)\\.\\d+)\\s*</h2>"
+	},
+	"urls": [
+		"https://aka.ms/windowsappsdk/{captures.minor}/{version}/windowsappruntimeinstall-x64.exe",
+		"https://aka.ms/windowsappsdk/{captures.minor}/{version}/windowsappruntimeinstall-x86.exe",
+		"https://aka.ms/windowsappsdk/{captures.minor}/{version}/windowsappruntimeinstall-arm64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/release-notes/windows-app-sdk-2-0?pivots=stable#{captures.anchor}"
+	}
+}
