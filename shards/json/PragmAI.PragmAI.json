@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mmamani93",
+		"repo": "pragm-ai-core"
+	},
+	"urls": [
+		"https://github.com/mmamani93/pragm-ai-core/releases/download/{github.rawTag}/pragmai-windows-x64.zip"
+	]
+}
