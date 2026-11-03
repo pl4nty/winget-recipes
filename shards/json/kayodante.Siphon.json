@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kayodante",
+		"repo": "Win-siphonClaudeUsage"
+	},
+	"urls": [
+		"https://github.com/kayodante/Win-siphonClaudeUsage/releases/download/{github.rawTag}/Siphon.Setup.{version}.exe"
+	]
+}
