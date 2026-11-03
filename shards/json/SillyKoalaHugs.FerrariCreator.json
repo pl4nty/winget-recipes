@@ -5,7 +5,7 @@
 	"urls": ["https://sillykoala.eu.org/?sdm_process_download=1&download_id=351"],
 	"state": {
 		"source": "response-header",
-		"url": "https://sillykoala.eu.org/?sdm_process_download=1&download_id=351",
+		"url": "https://sillykoala.eu.org/wp-content/uploads/2023/02/ferrari-creator-setup.exe",
 		"header": "etag"
 	},
 	"replace": true
