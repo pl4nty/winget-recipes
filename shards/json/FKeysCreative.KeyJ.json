@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vince-gonzalez",
+		"repo": "f-keys",
+		"tagRegex": "^keyj\\-v"
+	},
+	"urls": [
+		"https://github.com/vince-gonzalez/f-keys/releases/download/{github.rawTag}/Key-J-{version}-win-x64.exe"
+	]
+}
