@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "nutdotnet", "repo": "WinNUT-Client" },
+	"urls": [
+		"https://github.com/nutdotnet/WinNUT-Client/releases/download/v{version}/_WinNUT-Client-v{version}-NoInstaller.zip",
+		"https://github.com/nutdotnet/WinNUT-Client/releases/download/v{version}/WinNUT-Setup.msi"
+	]
+}
