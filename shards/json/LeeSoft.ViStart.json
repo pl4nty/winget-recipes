@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://lee-soft.com/bin/windows-start-menu-vistart-8105344.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://lee-soft.com/vistart/whats-new/"
+	}
+}
