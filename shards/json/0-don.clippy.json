@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "0-don",
+		"repo": "clippy"
+	},
+	"urls": [
+		"https://github.com/0-don/clippy/releases/download/{github.rawTag}/clippy_{version}_arm64-setup.exe",
+		"https://github.com/0-don/clippy/releases/download/{github.rawTag}/clippy_{version}_x64-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/0-don/clippy/releases/tag/{github.rawTag}"
+	}
+}
