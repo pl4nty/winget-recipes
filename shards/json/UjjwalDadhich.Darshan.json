@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ujjwal-08",
+		"repo": "DarshanPlayer"
+	},
+	"urls": ["https://github.com/Ujjwal-08/DarshanPlayer/releases/download/v{version}/DarshanPlayer-win-Setup.exe"]
+}
