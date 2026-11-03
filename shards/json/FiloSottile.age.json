@@ -7,6 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/FiloSottile/age/releases/download/v{version}/age-v{version}-windows-amd64.zip"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
