@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AIDotNet",
+		"repo": "NextCoWork"
+	},
+	"urls": [
+		"https://github.com/AIDotNet/NextCoWork/releases/download/{github.rawTag}/OpenCowork-win-amd64-setup-compat.exe",
+		"https://github.com/AIDotNet/NextCoWork/releases/download/{github.rawTag}/OpenCowork-win-arm64-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/AIDotNet/NextCoWork/releases/tag/{github.rawTag}"
+	}
+}
