@@ -2,7 +2,7 @@ import { defineShard } from 'anthelion';
 import { match } from 'anthelion/helpers';
 
 // The installer URL is unversioned and the history page only names the major
-// version (KillDisk v.26), so komac reads the version from the installer and
+// version (KillDisk v.26), so komac reads the file version from the installer and
 // the ETag tells when it changed. The newest history row becomes the release
 // notes: it is passed to the html source as a data: URL so the rest of the page
 // is left out.
@@ -19,7 +19,7 @@ export default defineShard(async () => {
 	} = match(html, /id="responsive-example-table"[\s\S]*?(<ul class="history">[\s\S]*?<\/ul>)/);
 
 	return {
-		version: { source: 'product' },
+		version: { source: 'file' },
 		urls: () => [{ url, architecture: 'x86' }],
 		releaseNotes: {
 			source: 'html',
