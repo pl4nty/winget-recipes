@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://api.stacher.io/api/update/windows/x64/latest"],
+		"regex": "/stacher-(\\d+(?:\\.\\d+)+)-setup\\.exe$"
+	}
+}
