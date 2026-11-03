@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Yash12007", "repo": "Sera" },
+	"urls": ["https://github.com/Yash12007/Sera/releases/download/v{version}/SERA_ANTIVIRUS_{version}.exe"]
+}
