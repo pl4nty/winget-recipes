@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "moltenform", "repo": "sfarkxtc-windows" },
+	"urls": [
+		"https://github.com/moltenform/sfarkxtc-windows/releases/download/{version}/sfarkxtc-windows-{version}-win64.zip"
+	]
+}
