@@ -5,7 +5,7 @@
 		"url": "https://dl.jami.net/windows/version",
 		"regex": "(?<build>\\d{12})"
 	},
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"state": { "source": "value", "value": "{captures.build}" },
 	"urls": ["https://dl.jami.net/windows/archive/jami_x86_64-{captures.build}.msi"]
 }
