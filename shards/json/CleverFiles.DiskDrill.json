@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://win.cleverfiles.com/disk-drill-win-full.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.cleverfiles.com/help/news/"
+	}
+}
