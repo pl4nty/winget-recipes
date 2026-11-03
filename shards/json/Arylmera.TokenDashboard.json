@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Arylmera",
+		"repo": "Token-Dashboard"
+	},
+	"urls": [
+		"https://github.com/Arylmera/Token-Dashboard/releases/download/{github.rawTag}/Token.Dashboard_{version}_x64_en-US.msi"
+	]
+}
