@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "andreagrandi",
+		"repo": "logbasset"
+	},
+	"urls": [
+		"https://github.com/andreagrandi/logbasset/releases/download/{github.rawTag}/logbasset_Windows_x86_64.zip"
+	]
+}
