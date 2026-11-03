@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://downloads.discoverworthy.com/roost/latest.json"
+	},
+	"urls": [
+		"https://downloads.discoverworthy.com/roost/DiscoverWorthy-Roost-Setup-{version}.exe"
+	]
+}
