@@ -82,6 +82,10 @@ function fields(yaml: string) {
 		const shared = Object.entries(manifest).filter(([key]) => !ROOT.has(key) && key !== 'Installers');
 		for (const [key] of shared) delete manifest[key];
 		manifest.Installers = manifest.Installers.map((installer) => ({ ...Object.fromEntries(shared), ...installer }));
+		// komac leaves out an ARP DisplayVersion that matches PackageVersion, which winget already assumes.
+		for (const installer of manifest.Installers as { AppsAndFeaturesEntries?: { DisplayVersion?: unknown }[] }[])
+			for (const entry of installer.AppsAndFeaturesEntries ?? [])
+				if (String(entry.DisplayVersion) === String(manifest.PackageVersion)) delete entry.DisplayVersion;
 	}
 	const counts = new Map<string, number>();
 	const walk = (value: unknown, path: string) => {
