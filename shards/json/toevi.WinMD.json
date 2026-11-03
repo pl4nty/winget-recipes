@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "toevi",
+		"repo": "WinMD",
+		"assetRegex": "^WinMD-Setup\\.exe$"
+	}
+}
