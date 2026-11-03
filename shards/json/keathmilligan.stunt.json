@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "keathmilligan",
+		"repo": "stunt"
+	},
+	"urls": [
+		"https://github.com/keathmilligan/stunt/releases/download/{github.rawTag}/stunt-{version}-aarch64-pc-windows-msvc.zip",
+		"https://github.com/keathmilligan/stunt/releases/download/{github.rawTag}/stunt-{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/keathmilligan/stunt/releases/download/{github.rawTag}/stunt-{version}-x86_64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/keathmilligan/stunt/releases/tag/{github.rawTag}"
+	}
+}
