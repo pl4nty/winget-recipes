@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://sillykoala.eu.org/?sdm_process_download=1&download_id=351"],
+	"state": {
+		"source": "response-header",
+		"url": "https://sillykoala.eu.org/?sdm_process_download=1&download_id=351",
+		"header": "etag"
+	},
+	"replace": true
+}
