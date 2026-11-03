@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://redeyenetworks.com/",
+		"regex": "logivore-for-veeam/releases/(\\d+(?:\\.\\d+)+)/logivore-for-veeam-win-"
+	},
+	"urls": [
+		"https://download.redeyenetworks.com/logivore-for-veeam/releases/{version}/logivore-for-veeam-win-x64-setup.exe",
+		"https://download.redeyenetworks.com/logivore-for-veeam/releases/{version}/logivore-for-veeam-win-x64-machine-setup.exe"
+	]
+}
