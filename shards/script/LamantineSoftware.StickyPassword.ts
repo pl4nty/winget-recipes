@@ -9,7 +9,7 @@ export default defineShard(async () => {
 	// Major and minor are one digit and the build is four digits, as in every release so far.
 	const {
 		groups: [file, major, minor, patch, build],
-	} = match(html, /StickyPassword_rev(\d)(\d)(\d+?)(\d{4})\.exe/);
+	} = match(html, /(StickyPassword_rev(\d)(\d)(\d+?)(\d{4})\.exe)/);
 
 	return {
 		version: `${major}.${minor}.${patch}.${build}`,
