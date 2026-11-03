@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "umage-ai",
+		"repo": "CodeShellManager"
+	},
+	"urls": ["https://github.com/umage-ai/CodeShellManager/releases/download/v{version}/CodeShellManager-{version}-Setup.msi"]
+}
