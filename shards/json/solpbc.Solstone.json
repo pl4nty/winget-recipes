@@ -6,6 +6,9 @@
 		"repo": "solstone-windows"
 	},
 	"urls": [
-		"https://github.com/solpbc/solstone-windows/releases/download/v{version}/solstone-setup-{version}.exe"
+		{
+			"url": "https://github.com/solpbc/solstone-windows/releases/download/v{version}/solstone-setup-{version}.exe",
+			"architecture": "x64"
+		}
 	]
 }
