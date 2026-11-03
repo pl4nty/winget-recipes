@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vshulcz",
+		"repo": "deja-vu"
+	},
+	"urls": [
+		"https://github.com/vshulcz/deja-vu/releases/download/v{version}/deja-vu_{version}_windows_amd64.zip",
+		"https://github.com/vshulcz/deja-vu/releases/download/v{version}/deja-vu_{version}_windows_arm64.zip"
+	]
+}
