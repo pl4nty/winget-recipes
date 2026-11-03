@@ -32,7 +32,13 @@ jobs:
         run: bun ci --production
 
       - name: Update Packages
-        run: bun start
+        run: |
+          status=0
+          bun start || status=$?
+          sed -n 's|^Pull Request: \(https://.*\)$|\1|p' "$GITHUB_STEP_SUMMARY" | while read -r url; do
+            gh api graphql -f query='mutation($id: ID!) { updateSubscription(input: {subscribableId: $id, state: IGNORED}) { clientMutationId } }' -f id="$(gh pr view "$url" --json id --jq .id)"
+          done
+          exit "$status"
         env:
           KOMAC_FORK_OWNER: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.UPDATE_TOKEN }}
