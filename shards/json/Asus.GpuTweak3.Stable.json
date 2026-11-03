@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://dlcdnets.asus.com/pub/ASUS/Graphic%20Card/Unique_Applications/GPU-Tweak-III-v2180.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.asus.com/campaign/GPU-Tweak-III/us/index.php#download"
+	}
+}
