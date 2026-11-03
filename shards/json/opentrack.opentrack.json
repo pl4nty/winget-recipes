@@ -6,6 +6,5 @@
 		"repo": "opentrack",
 		"tagRegex": "^opentrack-"
 	},
-	"urls": ["https://github.com/opentrack/opentrack/releases/download/{github.rawTag}/opentrack-{version}-win32-setup.exe"],
-	"releaseNotes": { "source": "github" }
+	"urls": ["https://github.com/opentrack/opentrack/releases/download/{github.rawTag}/opentrack-{version}-win32-setup.exe"]
 }
