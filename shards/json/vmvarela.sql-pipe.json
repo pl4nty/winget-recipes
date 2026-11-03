@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vmvarela",
+		"repo": "sql-pipe"
+	},
+	"urls": [
+		"https://github.com/vmvarela/sql-pipe/releases/download/v{version}/sql-pipe-x86-windows.exe",
+		"https://github.com/vmvarela/sql-pipe/releases/download/v{version}/sql-pipe-x86_64-windows.exe",
+		"https://github.com/vmvarela/sql-pipe/releases/download/v{version}/sql-pipe-aarch64-windows.exe"
+	]
+}
