@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "giantpinkrobots",
+		"repo": "varia"
+	},
+	"urls": [
+		"https://github.com/giantpinkrobots/varia/releases/download/{github.rawTag}/varia-windows-setup-amd64.exe"
+	]
+}
