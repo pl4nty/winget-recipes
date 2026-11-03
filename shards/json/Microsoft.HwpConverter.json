@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 36772,
+		"regex": "^(?:HwpConverter_x64_en\\-us\\.exe|HwpConverter_x64_ko\\-kr\\.exe|HwpConverter_x86_en\\-us\\.exe|HwpConverter_x86_ko\\-kr\\.exe)$"
+	}
+}
