@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "abishekvupputur",
+		"repo": "ravensPort"
+	},
+	"urls": [
+		"https://github.com/abishekvupputur/ravensPort/releases/download/{github.rawTag}/RavensPort-Setup-{version}.exe"
+	]
+}
