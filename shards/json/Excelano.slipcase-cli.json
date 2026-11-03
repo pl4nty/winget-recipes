@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "excelano",
+		"repo": "slpc-rust"
+	},
+	"urls": [
+		"https://github.com/excelano/slpc-rust/releases/download/{github.rawTag}/slipcase-x86_64-pc-windows-msvc.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/excelano/slpc-rust/releases/tag/{github.rawTag}"
+	}
+}
