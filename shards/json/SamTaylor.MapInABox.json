@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sjtaylor82",
+		"repo": "MapInABox",
+		"method": "api-latest",
+		"assetRegex": "^MapInABox-[\\d.]+-setup\\.exe$"
+	}
+}
