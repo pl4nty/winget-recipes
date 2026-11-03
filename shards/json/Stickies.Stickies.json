@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://download.stickies.lol/latest.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://download.stickies.lol/v{version}/Stickies_{version}_x64-setup.exe",
+		"https://download.stickies.lol/v{version}/Stickies_{version}_x64_en-US.msi"
+	],
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://download.stickies.lol/latest.json",
+		"path": "release_notes",
+		"nestedSource": "plain-text",
+		"cleanup": false
+	}
+}
