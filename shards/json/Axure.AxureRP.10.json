@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.axure.com/release-history/rp10",
+		"regex": "<h3>Axure RP (?<version>10\\.0\\.0\\.(?<build>\\d+))</h3>"
+	},
+	"urls": [
+		"https://axure.cachefly.net/versions/10-0/AxureRP-Setup-{captures.build}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.axure.com/release-history"
+	}
+}
