@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ryan-AI-Studios",
+		"repo": "Ledgerful"
+	},
+	"urls": [
+		"https://github.com/Ryan-AI-Studios/Ledgerful/releases/download/{github.rawTag}/ledgerful-x86_64-pc-windows-msvc.zip"
+	]
+}
