@@ -20,6 +20,7 @@ export default defineShard(async () => {
 		urls: () => [
 			`https://github.com/git-for-windows/git/releases/download/${release.rawTag}/MinGit-${version}-busybox-32-bit.zip`,
 			`https://github.com/git-for-windows/git/releases/download/${release.rawTag}/MinGit-${version}-busybox-64-bit.zip`,
+			`https://github.com/git-for-windows/git/releases/download/${release.rawTag}/MinGit-${version}-busybox-arm64.zip`,
 		],
 		releaseNotes: {
 			releaseNotesUrl: `https://github.com/git-for-windows/git/releases/tag/${release.rawTag}`,
