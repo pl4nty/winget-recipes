@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mudlet.org/download/",
+		"regex": "href=\"(?<url>https://github\\.com/Mudlet/Mudlet/releases/download/Mudlet-(?<version>\\d+(?:\\.\\d+)+)/Mudlet-\\k<version>-windows-64-installer\\.exe)\""
+	},
+	"urls": ["{captures.url}"],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "Mudlet",
+		"repo": "Mudlet",
+		"tag": "Mudlet-{version}"
+	}
+}
