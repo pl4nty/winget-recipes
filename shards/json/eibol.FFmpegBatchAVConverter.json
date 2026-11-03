@@ -5,6 +5,5 @@
 		"owner": "eibols",
 		"repo": "ffmpeg_batch"
 	},
-	"urls": ["https://github.com/eibols/ffmpeg_batch/releases/download/{github.rawTag}/FFBatch_AV_Converter_{version}_64bit.exe"],
-	"releaseNotes": { "source": "github" }
+	"urls": ["https://github.com/eibols/ffmpeg_batch/releases/download/{github.rawTag}/FFBatch_AV_Converter_{version}_64bit.exe"]
 }
