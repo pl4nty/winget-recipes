@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "schemacrawler",
+		"repo": "SchemaCrawler-Installers"
+	},
+	"urls": ["https://github.com/schemacrawler/SchemaCrawler-Installers/releases/download/v{version}/SchemaCrawler-{version}.msi"]
+}
