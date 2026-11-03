@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "icyhoty2k",
+		"repo": "QuickImageViewer"
+	},
+	"urls": [
+		"https://github.com/icyhoty2k/QuickImageViewer/releases/download/{github.rawTag}/QuickImageViewer.exe"
+	]
+}
