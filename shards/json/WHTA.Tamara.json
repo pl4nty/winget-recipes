@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tekniskakustik",
+		"repo": "tamara"
+	},
+	"urls": ["https://download.tamara.app/{version}/installer.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://download.tamara.app/{version}/releasenotes.pdf"
+	}
+}
