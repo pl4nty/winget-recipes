@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Reblexis",
+		"repo": "lookpilot-downloads"
+	},
+	"urls": ["https://github.com/Reblexis/lookpilot-downloads/releases/download/v{version}/LookPilot-Setup-{version}.exe"]
+}
