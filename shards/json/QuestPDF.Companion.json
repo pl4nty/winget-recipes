@@ -3,9 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "QuestPDF",
-		"repo": "QuestPDF.Companion"
+		"repo": "QuestPDF.CompanionApp"
 	},
 	"urls": [
-		"https://github.com/QuestPDF/QuestPDF.Companion/releases/download/{version}/questpdf_companion-{version}-windows.msix"
+		"https://github.com/QuestPDF/QuestPDF.CompanionApp/releases/download/{version}/questpdf_companion-{version}-windows.msix"
 	]
 }
