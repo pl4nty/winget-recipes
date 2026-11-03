@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aayushlbef",
+		"repo": "Nepali-Date-Widget",
+		"method": "api-sort",
+		"assetRegex": "^(?:NepaliDateWidget_Setup\\.exe)$"
+	}
+}
