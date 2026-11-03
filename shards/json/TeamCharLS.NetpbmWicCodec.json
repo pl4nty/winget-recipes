@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "team-charls", "repo": "netpbm-wic-codec" },
+	"urls": [
+		"https://github.com/team-charls/netpbm-wic-codec/releases/download/v{version}/NetpbmWicCodecSetup-{version}-x64.exe",
+		"https://github.com/team-charls/netpbm-wic-codec/releases/download/v{version}/NetpbmWicCodecSetup-{version}-ARM64.exe",
+		"https://github.com/team-charls/netpbm-wic-codec/releases/download/v{version}/NetpbmWicCodecSetup-{version}-x86.exe"
+	]
+}
