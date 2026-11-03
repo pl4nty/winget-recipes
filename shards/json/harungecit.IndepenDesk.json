@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "harungecit",
+		"repo": "IndepenDesk"
+	},
+	"urls": [
+		"https://github.com/harungecit/IndepenDesk/releases/download/{github.rawTag}/IndepenDesk-Setup-{version}-arm64.exe",
+		"https://github.com/harungecit/IndepenDesk/releases/download/{github.rawTag}/IndepenDesk-Setup-{version}-x64.exe",
+		"https://github.com/harungecit/IndepenDesk/releases/download/{github.rawTag}/IndepenDesk-Setup-{version}-x86.exe",
+		"https://github.com/harungecit/IndepenDesk/releases/download/{github.rawTag}/IndepenDesk-{version}-arm64.msi",
+		"https://github.com/harungecit/IndepenDesk/releases/download/{github.rawTag}/IndepenDesk-{version}-arm64.msix",
+		"https://github.com/harungecit/IndepenDesk/releases/download/{github.rawTag}/IndepenDesk-{version}-x64.msi",
+		"https://github.com/harungecit/IndepenDesk/releases/download/{github.rawTag}/IndepenDesk-{version}-x64.msix",
+		"https://github.com/harungecit/IndepenDesk/releases/download/{github.rawTag}/IndepenDesk-{version}-x86.msi",
+		"https://github.com/harungecit/IndepenDesk/releases/download/{github.rawTag}/IndepenDesk-{version}-x86.msix"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/harungecit/IndepenDesk/releases/tag/{github.rawTag}"
+	}
+}
