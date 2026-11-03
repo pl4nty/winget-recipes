@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JPersson77",
+		"repo": "LGTVCompanion"
+	},
+	"urls": [
+		"https://github.com/JPersson77/LGTVCompanion/releases/download/{github.rawTag}/LGTV.Companion.Setup.ARM64.msi",
+		"https://github.com/JPersson77/LGTVCompanion/releases/download/{github.rawTag}/LGTV.Companion.Setup.x64.msi"
+	]
+}
