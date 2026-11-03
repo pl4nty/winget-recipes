@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.rutoken.ru/Rutoken/Drivers/Current/rtDrivers.x64.msi"
+	]
+}
