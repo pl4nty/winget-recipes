@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hemtt",
+		"repo": "launcher"
+	},
+	"urls": [
+		"https://github.com/hemtt/launcher/releases/download/{github.rawTag}/windows-x64.zip"
+	]
+}
