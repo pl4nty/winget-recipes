@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "winsw",
+		"repo": "winsw",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^(?:WinSW\\-net\\d+\\.exe)$"
+	}
+}
