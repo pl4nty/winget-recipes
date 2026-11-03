@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://officefileguard.com/",
+		"regex": "https://officefileguard\\.com/download/OfficeFileGuard_Setup_v(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		"https://officefileguard.com/download/OfficeFileGuard_Setup_v{version}.zip"
+	]
+}
