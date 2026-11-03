@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KoalaFacts",
+		"repo": "HeroParser"
+	},
+	"urls": [
+		"https://github.com/KoalaFacts/HeroParser/releases/download/{github.rawTag}/heroparser-v{version}-win-x64.zip"
+	]
+}
