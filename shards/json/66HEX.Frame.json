@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "66HEX",
+		"repo": "frame"
+	},
+	"urls": [
+		"https://github.com/66HEX/frame/releases/download/{github.rawTag}/Frame-x86_64.exe"
+	]
+}
