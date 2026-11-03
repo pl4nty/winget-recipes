@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Matt-17",
+		"repo": "QConvert"
+	},
+	"urls": [
+		"https://github.com/Matt-17/QConvert/releases/download/{github.rawTag}/QConvert-{version}-x64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Matt-17/QConvert/releases/tag/{github.rawTag}"
+	}
+}
