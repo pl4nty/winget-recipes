@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nikhil25803",
+		"repo": "purrpeek"
+	},
+	"urls": ["https://github.com/nikhil25803/purrpeek/releases/download/v{version}/purrpeek_{version}_windows_amd64.zip"]
+}
