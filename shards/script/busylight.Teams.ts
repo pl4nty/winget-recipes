@@ -8,10 +8,15 @@ export default defineShard(async () => {
 	const controller = new AbortController();
 	const response = await fetch(url, { signal: controller.signal });
 	const disposition = response.headers.get('content-disposition') ?? '';
+	const type = response.headers.get('content-type');
 	controller.abort();
 	const {
 		groups: [version],
-	} = match(disposition, /Busylight-for-MS-Teams-Win-(\d+(?:\.\d+)+)\.zip/);
+	} = match(
+		disposition,
+		/Busylight-for-MS-Teams-Win-(\d+(?:\.\d+)+)\.zip/,
+		`No versioned filename in Content-Disposition (status ${response.status}, content-type ${type}, disposition "${disposition}")`,
+	);
 
 	return {
 		version,
