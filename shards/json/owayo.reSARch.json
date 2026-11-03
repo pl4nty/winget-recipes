@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "owayo", "repo": "re-sar-ch" },
+	"urls": [
+		"https://github.com/owayo/re-sar-ch/releases/download/v{version}/resarch-x86_64-pc-windows-msvc.zip"
+	]
+}
