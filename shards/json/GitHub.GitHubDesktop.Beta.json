@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "desktop",
+		"repo": "desktop",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "^release-(?=\\d+(?:\\.\\d+)+-beta\\d+$)"
+	},
+	"urls": [
+		"https://github.com/desktop/desktop/releases/download/release-{version}/GitHubDesktopSetup-x64.exe",
+		"https://github.com/desktop/desktop/releases/download/release-{version}/GitHubDesktopSetup-arm64.exe",
+		"https://github.com/desktop/desktop/releases/download/release-{version}/GitHubDesktopSetup-x64.msi",
+		"https://github.com/desktop/desktop/releases/download/release-{version}/GitHubDesktopSetup-arm64.msi"
+	],
+	"releaseNotes": { "source": "github" }
+}
