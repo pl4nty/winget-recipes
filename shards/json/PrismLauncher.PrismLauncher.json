@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PrismLauncher",
+		"repo": "PrismLauncher"
+	},
+	"urls": [
+		"https://github.com/PrismLauncher/PrismLauncher/releases/download/{version}/PrismLauncher-Windows-MSVC-Setup-{version}.exe",
+		"https://github.com/PrismLauncher/PrismLauncher/releases/download/{version}/PrismLauncher-Windows-MSVC-arm64-Setup-{version}.exe"
+	]
+}
