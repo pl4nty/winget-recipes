@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "snowdreamtech",
+		"repo": "unistack"
+	},
+	"urls": [
+		"https://github.com/snowdreamtech/unistack/releases/download/v{version}/unistack_Windows_i386.zip",
+		"https://github.com/snowdreamtech/unistack/releases/download/v{version}/unistack_Windows_arm64.zip",
+		"https://github.com/snowdreamtech/unistack/releases/download/v{version}/unistack_Windows_x86_64.zip"
+	]
+}
