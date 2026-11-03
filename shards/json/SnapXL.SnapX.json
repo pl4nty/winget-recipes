@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SnapXL",
+		"repo": "SnapX",
+		"method": "api-latest",
+		"assetRegex": "^SnapX-Release-Windows-.*-(X64|Arm64)\\.msi$"
+	}
+}
