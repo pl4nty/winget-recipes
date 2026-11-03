@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sikiapp.net/",
+		"regex": "/archives/(?<version>\\d+(?:\\.\\d+)+)/SikiSetup-\\k<version>\\.exe"
+	},
+	"urls": [
+		"https://sikiapp.net/archives/{version}/SikiSetup-{version}.exe"
+	]
+}
