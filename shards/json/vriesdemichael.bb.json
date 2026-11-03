@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vriesdemichael",
+		"repo": "bitbucket-data-center-cli"
+	},
+	"urls": [
+		"https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v{version}/bb_{version}_windows_amd64_noupdate.zip",
+		"https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v{version}/bb_{version}_windows_arm64_noupdate.zip"
+	]
+}
