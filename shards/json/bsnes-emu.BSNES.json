@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "bsnes-emu",
+		"repo": "bsnes",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/bsnes-emu/bsnes/releases/download/{github.rawTag}/bsnes-windows.zip"
+	]
+}
