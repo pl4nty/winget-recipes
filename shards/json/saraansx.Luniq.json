@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "saraansx",
+		"repo": "Luniq-Music"
+	},
+	"urls": [
+		"https://github.com/saraansx/Luniq-Music/releases/download/{github.rawTag}/Luniq-Setup-{version}.exe"
+	]
+}
