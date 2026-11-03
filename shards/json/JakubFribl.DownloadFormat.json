@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "socialmediatvtweet-tech",
+		"repo": "download-format"
+	},
+	"urls": [
+		"https://github.com/socialmediatvtweet-tech/download-format/releases/download/{github.rawTag}/osldown.exe"
+	]
+}
