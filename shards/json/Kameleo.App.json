@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kameleo-io",
+		"repo": "kameleo"
+	},
+	"urls": [
+		"https://github.com/kameleo-io/kameleo/releases/download/{github.rawTag}/kameleo-{version}-win-x64-setup.exe"
+	]
+}
