@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "TeamMate",
+		"method": "api-latest",
+		"assetRegex": "^(?:Microsoft\\.Tools\\.TeamMate\\.msi)$"
+	},
+	"version": {
+		"source": "display"
+	}
+}
