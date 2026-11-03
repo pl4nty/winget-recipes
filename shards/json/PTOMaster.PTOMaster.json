@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ptomaster.com/",
+		"regex": "PTOMaster-Setup-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://downloads.ptomaster.com/PTOMaster-Setup-{version}.exe"]
+}
