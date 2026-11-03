@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://rii7.com/csbuyscriptor/",
+		"regex": "href=\"/assets/file/cb_(?<version>\\d+(?:\\.\\d+)+)\\.zip\""
+	},
+	"urls": ["https://rii7.com/assets/file/cb_{version}.zip"]
+}
