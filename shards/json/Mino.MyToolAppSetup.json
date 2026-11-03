@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "105313059",
+		"repo": "SWE40006-Deployment-Task1"
+	},
+	"urls": [
+		"https://github.com/105313059/SWE40006-Deployment-Task1/releases/download/v{version}/Package1.msi"
+	]
+}
