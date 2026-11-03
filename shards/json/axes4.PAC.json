@@ -3,9 +3,12 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://pac.pdf-accessibility.org/en/download",
-		"regex": "/_Resources/Persistent/(?<path>[0-9a-f]+(?:/[0-9a-f]+)*)/PAC_Setup\\.(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+		"regex": "/_Resources/Persistent/(?<exe>[0-9a-f]+(?:/[0-9a-f]+)*)/PAC_Setup\\.(?<version>\\d+(?:\\.\\d+)+)\\.exe[\\s\\S]*?/_Resources/Persistent/(?<msi>[0-9a-f]+(?:/[0-9a-f]+)*)/PAC_Setup\\.\\k<version>\\.msi"
 	},
-	"urls": ["https://pac.pdf-accessibility.org/_Resources/Persistent/{captures.path}/PAC_Setup.{version}.exe"],
+	"urls": [
+		"https://pac.pdf-accessibility.org/_Resources/Persistent/{captures.exe}/PAC_Setup.{version}.exe",
+		"https://pac.pdf-accessibility.org/_Resources/Persistent/{captures.msi}/PAC_Setup.{version}.msi"
+	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://pac.pdf-accessibility.org/en/resources/release-notes"
 	}
