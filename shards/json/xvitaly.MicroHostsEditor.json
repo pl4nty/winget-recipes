@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xvitaly",
+		"repo": "mhed"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/xvitaly/mhed/releases/download/v{version}/mhed_{version|.|}_setup.exe"
+	]
+}
