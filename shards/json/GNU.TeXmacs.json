@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.texmacs.org/Download/ftp/tmftp/windows/",
+		"regex": "TeXmacs-(\\d+(?:\\.\\d+)+)-x86_64\\.exe\""
+	},
+	"urls": ["https://www.texmacs.org/Download/ftp/tmftp/windows/TeXmacs-{version}-x86_64.exe"]
+}
