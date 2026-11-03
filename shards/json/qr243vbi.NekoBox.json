@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "qr243vbi", "repo": "nekobox" },
+	"urls": [
+		"https://github.com/qr243vbi/nekobox/releases/download/{version}/nekobox-{version}-windows64-installer.exe",
+		"https://github.com/qr243vbi/nekobox/releases/download/{version}/nekobox-{version}-windows-arm64-installer.exe",
+		"https://github.com/qr243vbi/nekobox/releases/download/{version}/nekobox-{version}-windows32-installer.exe"
+	]
+}
