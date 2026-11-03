@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "crowdin",
+		"repo": "crowdin-cli"
+	},
+	"urls": [
+		"https://github.com/crowdin/crowdin-cli/releases/download/{github.rawTag}/crowdin.exe"
+	]
+}
