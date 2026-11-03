@@ -5,5 +5,5 @@
 		"url": "https://www.diskpart.com/changelog.html",
 		"regex": "<dt>Version (\\d+(?:\\.\\d+)+)</dt>"
 	},
-	"urls": ["https://www2.aomeisoftware.com/download/pa/PAssist_Std.exe"]
+	"urls": ["https://go.diskpart.com/dl/pa/PAssist_Std.exe"]
 }
