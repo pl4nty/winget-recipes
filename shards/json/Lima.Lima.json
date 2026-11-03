@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lima-vm",
+		"repo": "lima"
+	},
+	"urls": [
+		"https://github.com/lima-vm/lima/releases/download/{github.rawTag}/lima-{version}-Windows-AMD64.zip",
+		"https://github.com/lima-vm/lima/releases/download/{github.rawTag}/lima-{version}-Windows-ARM64.zip"
+	]
+}
