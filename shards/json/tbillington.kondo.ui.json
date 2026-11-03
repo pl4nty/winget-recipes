@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tbillington",
+		"repo": "kondo"
+	},
+	"urls": ["https://github.com/tbillington/kondo/releases/download/v{version}/kondo-ui-x86_64-pc-windows-msvc.zip"]
+}
