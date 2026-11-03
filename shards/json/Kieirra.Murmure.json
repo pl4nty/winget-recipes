@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kieirra",
+		"repo": "murmure"
+	},
+	"urls": [
+		"https://github.com/Kieirra/murmure/releases/download/{github.rawTag}/Murmure_x64.msi",
+		"https://github.com/Kieirra/murmure/releases/download/{github.rawTag}/Murmure_x64-setup.exe"
+	]
+}
