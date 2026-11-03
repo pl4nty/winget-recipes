@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "maneeshth",
+		"repo": "yourpetproject"
+	},
+	"urls": [
+		"https://github.com/maneeshth/yourpetproject/releases/download/{github.rawTag}/Desktop.Pet.Setup.{version}.exe"
+	]
+}
