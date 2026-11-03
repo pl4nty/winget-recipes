@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NachoSC",
+		"repo": "ScreenTuner"
+	},
+	"urls": ["https://github.com/NachoSC/ScreenTuner/releases/download/v{version}/ScreenTuner-{version}-setup.exe"]
+}
