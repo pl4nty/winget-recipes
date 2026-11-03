@@ -6,6 +6,7 @@
 		"repo": "QuickLook"
 	},
 	"urls": [
-		"https://github.com/QL-Win/QuickLook/releases/download/{version}/QuickLook-{version}.msi"
+		"https://github.com/QL-Win/QuickLook/releases/download/{version}/QuickLook-{version}.msi",
+		"https://github.com/QL-Win/QuickLook/releases/download/{version}/QuickLook-{version}.exe"
 	]
 }
