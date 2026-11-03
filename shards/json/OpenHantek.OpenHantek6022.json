@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "OpenHantek",
-		"repo": "OpenHantek6022"
+		"repo": "OpenHantek6022",
+		"method": "api-sort",
+		"tagRegex": "^(?=\\d+\\.\\d+\\.\\d+$)"
 	},
 	"urls": ["https://github.com/OpenHantek/OpenHantek6022/releases/download/{version}/openhantek_{version}_msvc_x64.zip"]
 }
