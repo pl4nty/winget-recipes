@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://down.360safe.com/pcnewapp/360FileSetup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://bbs.360.cn/thread-16040300-1-1.html"
+	}
+}
