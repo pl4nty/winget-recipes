@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://downloads.filecloud.com/tonido/live/installer/x86-win32/FileCloudDrive2eSetup.exe"
+	]
+}
