@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "QUniBone",
+		"repo": "qunilator-installer"
+	},
+	"urls": ["https://github.com/QUniBone/qunilator-installer/releases/download/v{version}/qunilator-installer-windows-amd64.exe"]
+}
