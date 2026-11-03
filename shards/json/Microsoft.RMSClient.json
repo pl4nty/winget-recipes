@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 38396,
+		"regex": "^(?:setup_msipc_x64\\.exe|setup_msipc_x86\\.exe)$"
+	}
+}
