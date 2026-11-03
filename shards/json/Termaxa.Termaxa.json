@@ -3,7 +3,7 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "termaxa",
-		"repo": "termaxa",
-		"assetRegex": "^termaxa-windows-x86_64\\.exe$"
-	}
+		"repo": "termaxa"
+	},
+	"urls": ["https://github.com/termaxa/termaxa/releases/download/v{version}/termaxa-windows-x86_64.exe"]
 }
