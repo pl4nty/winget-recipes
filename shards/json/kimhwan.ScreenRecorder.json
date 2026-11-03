@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "akon47",
+		"repo": "ScreenRecorder"
+	},
+	"urls": [
+		"https://github.com/akon47/ScreenRecorder/releases/download/{github.rawTag}/ScreenRecorder_Setup_v{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/akon47/ScreenRecorder/releases/tag/{github.rawTag}"
+	}
+}
