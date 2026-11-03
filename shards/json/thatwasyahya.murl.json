@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "thatwasyahya",
+		"repo": "mURL"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/thatwasyahya/mURL/releases/download/v{version}/murl-v{version}-x86_64-pc-windows-msvc.zip",
+			"nestedInstallerMatches": ["murl.exe"]
+		}
+	]
+}
