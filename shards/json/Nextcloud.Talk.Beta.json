@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nextcloud-releases",
+		"repo": "talk-desktop",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/nextcloud-releases/talk-desktop/releases/download/{github.rawTag}/Nextcloud.Talk-windows-x64.exe",
+		"https://github.com/nextcloud-releases/talk-desktop/releases/download/{github.rawTag}/Nextcloud.Talk-windows-x64.msi"
+	]
+}
