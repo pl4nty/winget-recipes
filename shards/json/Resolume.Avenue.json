@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://resolume.com/download/win",
+		"regex": "Resolume_Avenue_(?<version>(?<ver>\\d+_\\d+_\\d+)_rev_(?<rev>\\d+))_Installer\\.exe"
+	},
+	"version": "{captures.ver|_|.}.{captures.rev}",
+	"urls": ["https://dd5sgwxv3xok.cloudfront.net/Resolume_Avenue_{captures.version}_Installer.exe"]
+}
