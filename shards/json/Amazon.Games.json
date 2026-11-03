@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://download.amazongames.com/AmazonGamesSetup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.amazongames.com/AmazonGamesSetup.exe",
+		"header": "etag"
+	}
+}
