@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wj1918",
+		"repo": "bunker"
+	},
+	"urls": [
+		"https://github.com/wj1918/bunker/releases/download/{github.rawTag}/bunker-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
