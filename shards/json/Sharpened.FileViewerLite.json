@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://windowsfileviewer.com/download",
+		"regex": "objects\\.liquidweb\\.services/fvp/(?<file>fvl_setup_[0-9a-z]+)\\.exe[\\s\\S]*?Current Version:\\s*(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://objects.liquidweb.services/fvp/{captures.file}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://windowsfileviewer.com/download"
+	}
+}
