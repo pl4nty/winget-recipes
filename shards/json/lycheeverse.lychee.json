@@ -6,6 +6,5 @@
 		"repo": "lychee",
 		"tagRegex": "^lychee-v"
 	},
-	"urls": ["https://github.com/lycheeverse/lychee/releases/download/{github.rawTag}/lychee-x86_64-pc-windows-msvc.zip"],
-	"releaseNotes": { "source": "github" }
+	"urls": ["https://github.com/lycheeverse/lychee/releases/download/{github.rawTag}/lychee-x86_64-pc-windows-msvc.zip"]
 }
