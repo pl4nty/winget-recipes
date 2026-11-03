@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tj-smith47", "repo": "cfgd" },
+	"urls": [
+		"https://github.com/tj-smith47/cfgd/releases/download/{github.rawTag}/cfgd-{version}-windows-arm64.zip",
+		"https://github.com/tj-smith47/cfgd/releases/download/{github.rawTag}/cfgd-{version}-windows-amd64.zip"
+	]
+}
