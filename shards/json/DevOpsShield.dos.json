@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "devopsshield",
+		"repo": "devops-shield"
+	},
+	"urls": [
+		"https://github.com/devopsshield/devops-shield/releases/download/{github.rawTag}/dos-{version}-win-x64.zip"
+	]
+}
