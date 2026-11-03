@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LGUG2Z",
+		"repo": "komorebi"
+	},
+	"urls": [
+		"https://github.com/LGUG2Z/komorebi/releases/download/{github.rawTag}/komorebi-{version}-aarch64.msi",
+		"https://github.com/LGUG2Z/komorebi/releases/download/{github.rawTag}/komorebi-{version}-x86_64.msi"
+	]
+}
