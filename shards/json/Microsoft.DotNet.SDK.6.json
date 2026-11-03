@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/6.0/releases.json",
+		"path": "latest-sdk"
+	},
+	"urls": [
+		{
+			"url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/{version}/dotnet-sdk-{version}-win-arm64.exe",
+			"architecture": "arm64"
+		},
+		{
+			"url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/{version}/dotnet-sdk-{version}-win-x64.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/{version}/dotnet-sdk-{version}-win-x86.exe",
+			"architecture": "x86"
+		}
+	]
+}
