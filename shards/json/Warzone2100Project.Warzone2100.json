@@ -5,6 +5,5 @@
 		"owner": "Warzone2100",
 		"repo": "warzone2100"
 	},
-	"urls": ["https://github.com/Warzone2100/warzone2100/releases/download/{version}/warzone2100_win_installer.exe"],
-	"releaseNotes": { "source": "github" }
+	"urls": ["https://github.com/Warzone2100/warzone2100/releases/download/{version}/warzone2100_win_installer.exe"]
 }
