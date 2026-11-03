@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LiveSplit",
+		"repo": "LiveSplit"
+	},
+	"urls": [
+		"https://github.com/LiveSplit/LiveSplit/releases/download/{github.rawTag}/LiveSplit_{version}.zip"
+	]
+}
