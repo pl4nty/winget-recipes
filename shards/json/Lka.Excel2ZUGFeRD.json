@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "lka",
+		"repo": "excel2zugferd",
+		"method": "api-latest",
+		"assetRegex": "^(?:setup_excel\\d+zugferd_x64\\d+_\\d+\\.\\d+\\.\\d+\\.\\d+\\.msi)$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/lka/excel2zugferd/releases/tag/{github.rawTag}"
+	}
+}
