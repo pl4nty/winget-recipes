@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "SerZhyAle", "repo": "FileDO" },
+	"urls": ["https://github.com/SerZhyAle/FileDO/releases/download/v{version}/FileDO-{version}-windows-x64.zip"]
+}
