@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NicoAvanzDev",
+		"repo": "dtach-rs",
+		"assetRegex": "^dtach-rs-(?:x86_64|aarch64)-pc-windows-msvc\\.zip$"
+	}
+}
