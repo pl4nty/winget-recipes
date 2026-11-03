@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Abdozebzeb",
+		"repo": "msix_modifier",
+		"method": "api-sort",
+		"tagRegex": "^V",
+		"assetRegex": "^(?:msix_modifier_setup_by_abdozebzeb_v\\d+\\.\\d+\\.exe)$"
+	}
+}
