@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SimonSchubert",
+		"repo": "Kai"
+	},
+	"urls": ["https://github.com/SimonSchubert/Kai/releases/download/v{version}/Kai-{version}-windows.msi"]
+}
