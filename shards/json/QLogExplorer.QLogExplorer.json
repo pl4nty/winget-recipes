@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "rafaelfassi", "repo": "qlogexplorer" },
+	"urls": [
+		"https://github.com/rafaelfassi/qlogexplorer/releases/download/v{version}/QLogExplorer-Win64-Setup.exe",
+		"https://github.com/rafaelfassi/qlogexplorer/releases/download/v{version}/QLogExplorer-Win64-Portable.zip"
+	]
+}
