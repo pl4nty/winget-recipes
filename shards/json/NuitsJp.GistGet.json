@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "nuitsjp", "repo": "GistGet" },
+	"urls": ["https://github.com/nuitsjp/GistGet/releases/download/v{version}/GistGet-win-x64.zip"]
+}
