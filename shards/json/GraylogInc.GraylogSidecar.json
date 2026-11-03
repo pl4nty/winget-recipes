@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Graylog2",
+		"repo": "collector-sidecar"
+	},
+	"urls": [
+		"https://github.com/Graylog2/collector-sidecar/releases/download/{github.rawTag}/graylog-sidecar-{version}-1.msi"
+	]
+}
