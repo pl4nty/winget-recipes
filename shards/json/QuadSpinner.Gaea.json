@@ -5,5 +5,12 @@
 		"url": "https://quadspinner.com/Download",
 		"regex": "get\\.gaea\\.app/Release/Gaea-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
 	},
-	"urls": ["https://get.gaea.app/Release/Gaea-{version}.exe"]
+	"urls": [
+		"https://get.gaea.app/Release/Gaea-{version}.exe"
+	],
+	"releaseNotes": {
+		"source": "html",
+		"sourceUrl": "https://quadspinner.com/Download",
+		"cleanup": false
+	}
 }
