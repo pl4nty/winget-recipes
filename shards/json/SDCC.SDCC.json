@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "sdcc",
+		"file": "sdcc-{version}-x64-setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/sdcc/files/sdcc-win32/{version}/sdcc-{version}-setup.exe/download",
+		"https://sourceforge.net/projects/sdcc/files/sdcc-win64/{version}/sdcc-{version}-x64-setup.exe/download"
+	]
+}
