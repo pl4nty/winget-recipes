@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fanis",
+		"repo": "claude-code-switcher"
+	},
+	"urls": [
+		"https://github.com/fanis/claude-code-switcher/releases/download/{github.rawTag}/claude-code-switcher.exe"
+	]
+}
