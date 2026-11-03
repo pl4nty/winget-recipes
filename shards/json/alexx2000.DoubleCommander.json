@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "doublecmd",
+		"repo": "doublecmd"
+	},
+	"urls": [
+		"https://github.com/doublecmd/doublecmd/releases/download/{github.rawTag}/doublecmd-{version}.i386-win32.msi",
+		"https://github.com/doublecmd/doublecmd/releases/download/{github.rawTag}/doublecmd-{version}.x86_64-win64.msi",
+		"https://github.com/doublecmd/doublecmd/releases/download/{github.rawTag}/doublecmd-{version}.i386-win32.exe",
+		"https://github.com/doublecmd/doublecmd/releases/download/{github.rawTag}/doublecmd-{version}.x86_64-win64.exe"
+	]
+}
