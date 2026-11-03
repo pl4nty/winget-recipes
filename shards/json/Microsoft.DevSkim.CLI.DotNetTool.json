@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "DevSkim",
+		"method": "api-sort",
+		"assetRegex": "^(?:DevSkim_CLI_netcoreapp_\\d+\\.\\d+\\.\\d+\\.zip)$"
+	}
+}
