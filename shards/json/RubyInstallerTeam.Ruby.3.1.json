@@ -8,9 +8,9 @@
 		"tagRegex": "^RubyInstaller-3\\.1\\.\\d+-\\d+$",
 		"perPage": 100
 	},
-	"versionRemove": "RubyInstaller-",
+	"version": "{github.rawTag|RubyInstaller-|}",
 	"urls": [
-		"https://github.com/oneclick/rubyinstaller2/releases/download/{github.rawTag}/rubyinstaller-{version}-x86.exe",
-		"https://github.com/oneclick/rubyinstaller2/releases/download/{github.rawTag}/rubyinstaller-{version}-x64.exe"
+		"https://github.com/oneclick/rubyinstaller2/releases/download/{github.rawTag}/rubyinstaller-{github.rawTag|RubyInstaller-|}-x86.exe",
+		"https://github.com/oneclick/rubyinstaller2/releases/download/{github.rawTag}/rubyinstaller-{github.rawTag|RubyInstaller-|}-x64.exe"
 	]
 }
