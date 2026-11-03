@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vegha-ai",
+		"repo": "Vegha"
+	},
+	"urls": [
+		"https://github.com/vegha-ai/Vegha/releases/download/v{version}/Vegha-win-x64-Setup.exe",
+		"https://github.com/vegha-ai/Vegha/releases/download/v{version}/Vegha-win-arm64-Setup.exe"
+	]
+}
