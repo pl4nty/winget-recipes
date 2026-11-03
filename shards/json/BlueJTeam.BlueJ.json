@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "k-pet-group",
+		"repo": "BlueJ-Greenfoot",
+		"tagRegex": "^BLUEJ\\-RELEASE\\-"
+	},
+	"urls": [
+		"https://github.com/k-pet-group/BlueJ-Greenfoot/releases/download/{github.rawTag}/BlueJ-windows-{version}.msi"
+	]
+}
