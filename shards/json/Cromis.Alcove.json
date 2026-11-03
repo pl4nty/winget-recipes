@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "izkac",
+		"repo": "alcove"
+	},
+	"urls": [
+		"https://github.com/izkac/alcove/releases/download/{github.rawTag}/Alcove_{version}_x64-setup.exe"
+	]
+}
