@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Raicuparta",
+		"repo": "rai-pal"
+	},
+	"urls": ["https://github.com/Raicuparta/rai-pal/releases/download/{github.rawTag}/RaiPal.exe"]
+}
