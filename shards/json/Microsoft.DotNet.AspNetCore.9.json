@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/a746bac4-3065-4d33-bf0f-dd54871ef9f7/b0cfa170-7bd7-4901-9f73-e0966c27ccce/aspnetcore-runtime-9.0.22-win-arm64.exe",
+		"https://download.microsoft.com/download/a746bac4-3065-4d33-bf0f-dd54871ef9f7/688a59c2-4024-4e20-bc7c-054afd91ed72/aspnetcore-runtime-9.0.22-win-x64.exe",
+		"https://download.microsoft.com/download/a746bac4-3065-4d33-bf0f-dd54871ef9f7/f4bba57c-9f0f-42d7-bbe7-25f9149a902c/aspnetcore-runtime-9.0.22-win-x86.exe"
+	]
+}
