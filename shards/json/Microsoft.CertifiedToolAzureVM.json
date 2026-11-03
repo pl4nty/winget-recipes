@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 44299,
+		"regex": "(?:^|[\\\\/])(?:Certification ?\\d*Test ?\\d*Tool ?\\d*\\.\\d+ ?\\d*for ?\\d*Azure ?\\d*Certified\\.msi)$"
+	}
+}
