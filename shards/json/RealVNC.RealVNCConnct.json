@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.realvnc.com/en/connect/download/",
+		"regex": "RealVNC-Connect-(?<version>\\d+(?:\\.\\d+)+)-Windows\\.msi"
+	},
+	"version": { "source": "product" },
+	"state": { "source": "value", "value": "{version}" },
+	"urls": [
+		{
+			"url": "https://downloads.realvnc.com/download/file/realvnc-connect/RealVNC-Connect-{version}-Windows.msi",
+			"architecture": "x64"
+		}
+	]
+}
