@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ccseer",
+		"repo": "PinStack"
+	},
+	"urls": [
+		"https://github.com/ccseer/PinStack/releases/download/{github.rawTag}/PinStack-{version}.exe"
+	]
+}
