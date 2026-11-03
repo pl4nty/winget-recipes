@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "input-leap",
-		"repo": "input-leap"
-	},
-	"urls": ["https://github.com/input-leap/input-leap/releases/download/v{version}/InputLeap_{version}_windows_qt6.exe"]
+		"repo": "input-leap",
+		"method": "api-latest",
+		"assetRegex": "windows.*\\.exe$"
+	}
 }
