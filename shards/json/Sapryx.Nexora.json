@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Sapryx", "repo": "Nexora" },
+	"urls": ["https://github.com/Sapryx/Nexora/releases/download/{version}/Nexora-win-x64.zip"]
+}
