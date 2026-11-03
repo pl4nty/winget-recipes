@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://hb.bizmrg.com/vkteams-www/win/x64/vkworkspace.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://hb.bizmrg.com/vkteams-www/win/x64/vkworkspace.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
