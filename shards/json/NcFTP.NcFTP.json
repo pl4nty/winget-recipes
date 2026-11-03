@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ncftp.com/download/",
+		"regex": "www\\.ncftp\\.com/public_ftp/ncftp/(?<dir>(?:[A-Za-z0-9_]+/)*)Setup NcFTP (?<version>\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": ["https://www.ncftp.com/public_ftp/ncftp/{captures.dir}Setup%20NcFTP%20{version}.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ncftp.com/ncftp/doc/changelog.html"
+	}
+}
