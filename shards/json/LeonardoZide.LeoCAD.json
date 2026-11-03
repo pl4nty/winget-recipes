@@ -5,6 +5,5 @@
 		"owner": "leozide",
 		"repo": "leocad"
 	},
-	"urls": ["https://github.com/leozide/leocad/releases/download/v{version}/LeoCAD-Windows-{version}.exe"],
-	"releaseNotes": { "source": "github" }
+	"urls": ["https://github.com/leozide/leocad/releases/download/v{version}/LeoCAD-Windows-{version}.exe"]
 }
