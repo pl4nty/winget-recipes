@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "iMAboud",
+		"repo": "iMA-Menu"
+	},
+	"urls": [
+		"https://github.com/iMAboud/iMA-Menu/releases/download/{github.rawTag}/iMA.Menu.exe"
+	]
+}
