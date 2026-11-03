@@ -4,6 +4,8 @@ import { match } from 'anthelion/helpers';
 // Developer Edition builds are betas (e.g. 160.0b4), but winget-pkgs versions them by
 // release (160.0), so each release is submitted once. The release notes are the beta
 // notes section of the vendor page, passed as a data: URL so the page chrome is left out.
+// The en-US MSIs are left out: they wrap the exe, so komac reads a %Temp% install location,
+// DisplayVersion 0.0.0.0 and one ProductCode for both architectures from them.
 export default defineShard(async () => {
 	const versions = await fetch('https://product-details.mozilla.org/1.0/firefox_versions.json').then((response) =>
 		response.text(),
@@ -26,8 +28,6 @@ export default defineShard(async () => {
 			`${base}/win32/en-US/Firefox%20Setup%20${build}.exe`,
 			`${base}/win64/en-US/Firefox%20Setup%20${build}.exe`,
 			`${base}/win64-aarch64/en-US/Firefox%20Setup%20${build}.exe`,
-			`${base}/win32/en-US/Firefox%20Setup%20${build}.msi`,
-			`${base}/win64/en-US/Firefox%20Setup%20${build}.msi`,
 		],
 		releaseNotes: {
 			source: 'html',
