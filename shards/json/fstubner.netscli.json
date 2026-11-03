@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fstubner",
+		"repo": "netscli"
+	},
+	"urls": [
+		"https://github.com/fstubner/netscli/releases/download/{github.rawTag}/netscli-windows-x86_64.exe"
+	]
+}
