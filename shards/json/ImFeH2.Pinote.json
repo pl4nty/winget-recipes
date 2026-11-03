@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ImFeH2",
+		"repo": "pinote"
+	},
+	"urls": [
+		"https://github.com/ImFeH2/pinote/releases/download/{github.rawTag}/Pinote_{version}_x64_en-US.msi",
+		"https://github.com/ImFeH2/pinote/releases/download/{github.rawTag}/Pinote_{version}_x64-setup.exe"
+	]
+}
