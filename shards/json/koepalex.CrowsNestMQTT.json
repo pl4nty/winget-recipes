@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "koepalex",
+		"repo": "Crow-s-Nest-MQTT"
+	},
+	"urls": [
+		"https://github.com/koepalex/Crow-s-Nest-MQTT/releases/download/{github.rawTag}/crows-nest-mqtt-win-x64-{version}.zip",
+		"https://github.com/koepalex/Crow-s-Nest-MQTT/releases/download/{github.rawTag}/crows-nest-mqtt-win-arm64-{version}.zip"
+	]
+}
