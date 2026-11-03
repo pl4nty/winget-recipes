@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bl00mber",
+		"repo": "alarm-cron"
+	},
+	"urls": [
+		"https://github.com/bl00mber/alarm-cron/releases/download/{github.rawTag}/AlarmCronInstaller.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/bl00mber/alarm-cron/releases/tag/{github.rawTag}"
+	}
+}
