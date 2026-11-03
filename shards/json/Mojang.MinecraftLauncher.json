@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://launcher.mojang.com/download/MinecraftInstaller.msi"],
 	"state": {
 		"source": "response-header",
