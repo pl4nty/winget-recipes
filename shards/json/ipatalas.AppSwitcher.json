@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ipatalas",
+		"repo": "app-switcher"
+	},
+	"urls": [
+		"https://github.com/ipatalas/app-switcher/releases/download/{github.rawTag}/AppSwitcher.SelfContained.Installer.exe"
+	]
+}
