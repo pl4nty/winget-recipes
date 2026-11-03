@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ibrahemid",
+		"repo": "writ"
+	},
+	"urls": [
+		"https://github.com/ibrahemid/writ/releases/download/{github.rawTag}/Writ_{version}_x64_en-US.msi"
+	]
+}
