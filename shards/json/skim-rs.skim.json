@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "skim-rs", "repo": "skim" },
+	"urls": [
+		"https://github.com/skim-rs/skim/releases/download/v{version}/skim-x86_64-pc-windows-msvc.zip",
+		"https://github.com/skim-rs/skim/releases/download/v{version}/skim-x86_64-pc-windows-msvc.msi"
+	]
+}
