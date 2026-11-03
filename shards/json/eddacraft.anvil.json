@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "eddacraft",
+		"repo": "anvil"
+	},
+	"urls": [
+		"https://github.com/eddacraft/anvil/releases/download/{github.rawTag}/eddacraft-anvil-aarch64-pc-windows-msvc.zip",
+		"https://github.com/eddacraft/anvil/releases/download/{github.rawTag}/eddacraft-anvil-x86_64-pc-windows-msvc.zip"
+	]
+}
