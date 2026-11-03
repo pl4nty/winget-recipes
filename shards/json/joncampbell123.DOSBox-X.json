@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "joncampbell123",
+		"repo": "dosbox-x",
+		"method": "api-list",
+		"tagRegex": "^dosbox-x-v(?=\\d+\\.\\d+\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/joncampbell123/dosbox-x/releases/download/{github.rawTag}/dosbox-x-windows-{version}-setup.exe",
+		"https://github.com/joncampbell123/dosbox-x/releases/download/{github.rawTag}/dosbox-x-windows-{version}-setup.exe"
+	],
+	"releaseNotes": { "source": "github" }
+}
