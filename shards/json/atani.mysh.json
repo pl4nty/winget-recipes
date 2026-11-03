@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "atani",
+		"repo": "mysh"
+	},
+	"urls": [
+		"https://github.com/atani/mysh/releases/download/{github.rawTag}/mysh-windows-arm64.msi",
+		"https://github.com/atani/mysh/releases/download/{github.rawTag}/mysh-windows-x64.msi"
+	]
+}
