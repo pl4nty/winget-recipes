@@ -7,7 +7,6 @@
 	},
 	"urls": [
 		"https://launchpad.net/veracrypt/trunk/{version}/+download/VeraCrypt_Setup_x64_{version}.msi",
-		"https://launchpad.net/veracrypt/trunk/{version}/+download/VeraCrypt_Setup_arm64_{version}.msi",
 		"https://launchpad.net/veracrypt/trunk/{version}/+download/VeraCrypt%20Setup%20{version}.exe"
 	]
 }
