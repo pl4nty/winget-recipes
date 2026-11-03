@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TraGicCode",
+		"repo": "busly-cli"
+	},
+	"urls": [
+		"https://github.com/TraGicCode/busly-cli/releases/download/{github.rawTag}/busly-cli-{github.rawTag}-win-x64.zip"
+	]
+}
