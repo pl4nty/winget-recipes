@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dail8859",
+		"repo": "NotepadNext"
+	},
+	"urls": [
+		"https://github.com/dail8859/NotepadNext/releases/download/{github.rawTag}/NotepadNext-v{version}-Installer.exe"
+	]
+}
