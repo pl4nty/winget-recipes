@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FengZeng",
+		"repo": "soia"
+	},
+	"urls": [
+		"https://github.com/FengZeng/soia/releases/download/{github.rawTag}/Soia-v{version}-Windows-arm64-setup.exe",
+		"https://github.com/FengZeng/soia/releases/download/{github.rawTag}/Soia-v{version}-Windows-x64-setup.exe"
+	]
+}
