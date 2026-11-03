@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Juwan-Hwang",
+		"repo": "Zephyr",
+		"method": "api-sort",
+		"assetRegex": "^(?:Zephyr_\\d+\\.\\d+\\.\\d+_arm64\\-setup\\-full\\.exe|Zephyr_\\d+\\.\\d+\\.\\d+_x64\\-setup\\-full\\.exe)$"
+	}
+}
