@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kevingosse",
+		"repo": "ClipPing"
+	},
+	"urls": [
+		"https://github.com/kevingosse/ClipPing/releases/download/{github.rawTag}/ClipPing-Setup.exe"
+	]
+}
