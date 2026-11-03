@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/3926157e-ce34-49ca-80a4-5adeff12ab8e/MicrosoftEdgeDevEnterpriseX64.msi",
+		"https://download.microsoft.com/download/3926157e-ce34-49ca-80a4-5adeff12ab8e/MicrosoftEdgeDevEnterpriseX86.msi",
+		"https://download.microsoft.com/download/3926157e-ce34-49ca-80a4-5adeff12ab8e/MicrosoftEdgeDevEnterpriseARM64.msi"
+	]
+}
