@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "The-AI-Grid", "repo": "grid-cli" },
+	"urls": [
+		"https://github.com/The-AI-Grid/grid-cli/releases/download/v{version}/grid_{version}_windows_amd64.zip",
+		"https://github.com/The-AI-Grid/grid-cli/releases/download/v{version}/grid_{version}_windows_arm64.zip"
+	]
+}
