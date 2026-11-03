@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "r-lib",
+		"repo": "rig"
+	},
+	"urls": [
+		"https://github.com/r-lib/rig/releases/download/v{version}/rig-windows-{version}.exe",
+		"https://github.com/r-lib/rig/releases/download/v{version}/rig-windows-arm64-{version}.exe"
+	]
+}
