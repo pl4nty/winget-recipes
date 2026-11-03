@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "beulea",
+		"repo": "eve-industry-releases"
+	},
+	"urls": [
+		"https://github.com/beulea/eve-industry-releases/releases/download/{github.rawTag}/Beulea.s.Eve.Industry_{version}_x64-setup.exe"
+	]
+}
