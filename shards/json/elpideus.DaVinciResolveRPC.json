@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elpideus",
+		"repo": "DavinciResolveRPC"
+	},
+	"urls": [
+		"https://github.com/elpideus/DavinciResolveRPC/releases/download/{github.rawTag}/DaVinciResolveRPC-Setup.exe"
+	]
+}
