@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://gz-dlsw.tpv-tech.com/MNT/PHILIPS/files/Software/SmartControl.exe.zip"],
+	"state": {
+		"source": "response-header",
+		"url": "https://gz-dlsw.tpv-tech.com/MNT/PHILIPS/files/Software/SmartControl.exe.zip",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tv-sound-monitors.philips.com/s/article/How-to-download-and-install-the-Philips-SmartControl-Software-1683023412860"
+	},
+	"replace": true
+}
