@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://devtools.web.roku.com/RokuRemote/app/win/roku-remote-tool-win64-installer.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://devtools.web.roku.com/RokuRemote/app/win/roku-remote-tool-win64-installer.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
