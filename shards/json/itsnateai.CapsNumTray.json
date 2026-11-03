@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "itsnateai",
+		"repo": "CaplockNumlock"
+	},
+	"urls": [
+		"https://github.com/itsnateai/CaplockNumlock/releases/download/{github.rawTag}/CapsNumTray.exe"
+	]
+}
