@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "overmindtech",
+		"repo": "cli"
+	},
+	"urls": [
+		"https://github.com/overmindtech/cli/releases/download/v{version}/overmind_cli_Windows_i386.zip",
+		"https://github.com/overmindtech/cli/releases/download/v{version}/overmind_cli_Windows_arm64.zip",
+		"https://github.com/overmindtech/cli/releases/download/v{version}/overmind_cli_Windows_x86_64.zip"
+	]
+}
