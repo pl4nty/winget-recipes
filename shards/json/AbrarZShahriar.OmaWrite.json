@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "AbrarZShahriar",
+		"repo": "omawrite-windows",
+		"method": "api-latest",
+		"assetRegex": "^(?:OmaWrite\\-Windows\\-v\\d+\\.\\d+\\.\\d+\\-windows\\.\\d+\\-x64\\-Setup\\.exe)$"
+	}
+}
