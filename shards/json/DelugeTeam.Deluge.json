@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "http://download.deluge-torrent.org/windows/",
+		"regex": "deluge-(\\d+(?:\\.\\d+)+)-win64-setup\\.exe\""
+	},
+	"urls": [
+		"http://download.deluge-torrent.org/windows/deluge-{version}-win32-setup.exe",
+		"http://download.deluge-torrent.org/windows/deluge-{version}-win64-setup.exe"
+	]
+}
