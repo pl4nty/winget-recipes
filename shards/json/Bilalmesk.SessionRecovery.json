@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Bilalmesk",
+		"repo": "session-recovery"
+	},
+	"urls": [
+		"https://github.com/Bilalmesk/session-recovery/releases/download/{github.rawTag}/SessionRecovery-{version}.msi"
+	]
+}
