@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/2.2/releases.json",
+		"path": "latest-runtime"
+	},
+	"urls": [
+		"https://builds.dotnet.microsoft.com/dotnet/Runtime/{version}/dotnet-runtime-{version}-win-x64.msi",
+		"https://builds.dotnet.microsoft.com/dotnet/Runtime/{version}/dotnet-runtime-{version}-win-x86.msi",
+		"https://builds.dotnet.microsoft.com/dotnet/Runtime/{version}/dotnet-runtime-{version}-win-arm.zip"
+	],
+	"version": { "source": "display" }
+}
