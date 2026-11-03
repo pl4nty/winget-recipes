@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "P403n1x87",
+		"repo": "austin"
+	},
+	"urls": [
+		"https://github.com/P403n1x87/austin/releases/download/v{version}/austin-{version}-win64.msi",
+		"https://github.com/P403n1x87/austin/releases/download/v{version}/austin-{version}-win64.zip"
+	]
+}
