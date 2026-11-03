@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "openai",
+		"repo": "codex",
+		"tagRegex": "^rust-v"
+	},
+	"urls": [
+		"https://github.com/openai/codex/releases/download/{github.rawTag}/codex-x86_64-pc-windows-msvc.exe.zip",
+		"https://github.com/openai/codex/releases/download/{github.rawTag}/codex-aarch64-pc-windows-msvc.exe.zip"
+	]
+}
