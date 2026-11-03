@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ntwind.com/remote/media.html",
+		"regex": "/download/MediaRemote_(?<version>\\d+(?:\\.\\d+)+)-win-x64\\.exe"
+	},
+	"urls": ["https://www.ntwind.com/files/MediaRemote_{version}-win-x64.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ntwind.com/remote/media/what-is-new.html"
+	}
+}
