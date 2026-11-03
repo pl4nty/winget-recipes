@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{ "url": "https://chat.mailplug.com/download/?app=windows", "architecture": "x86" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://chat.mailplug.com/download/?app=windows",
+		"header": "etag"
+	},
+	"replace": true
+}
