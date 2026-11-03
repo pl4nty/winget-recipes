@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "r2cuerdame",
+		"repo": "CodeSampleX"
+	},
+	"urls": [
+		"https://github.com/r2cuerdame/CodeSampleX/releases/download/v{version}/csx-windows-amd64.exe",
+		"https://github.com/r2cuerdame/CodeSampleX/releases/download/v{version}/csx-windows-arm64.exe"
+	]
+}
