@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "traintastic", "repo": "traintastic" },
+	"urls": [
+		"https://github.com/traintastic/traintastic/releases/download/v{version}/traintastic-setup-v{version}.exe"
+	]
+}
