@@ -4,7 +4,7 @@
 	"github": {
 		"owner": "BYVoid",
 		"repo": "OpenCC",
-		"tagRegex": "^ver\\."
+		"tagRegex": "^v?er\\."
 	},
 	"urls": [
 		{
