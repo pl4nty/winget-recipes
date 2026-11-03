@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VoltKraft",
+		"repo": "immich-folder-watch"
+	},
+	"urls": [
+		"https://github.com/VoltKraft/immich-folder-watch/releases/download/v{version}/immich-folder-watch-{version}-win-x64.msi",
+		"https://github.com/VoltKraft/immich-folder-watch/releases/download/v{version}/immich-folder-watch-{version}-win-arm64.msi"
+	]
+}
