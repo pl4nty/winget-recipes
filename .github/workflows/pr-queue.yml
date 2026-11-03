@@ -1,0 +1,82 @@
+name: PR Queue
+
+on:
+  push:
+    branches:
+      - claude/project-thread-ustj1r-pr-queue
+    paths:
+      - queue/**
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash -euo pipefail {0}
+
+jobs:
+  open1:
+    name: Open PRs (1)
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Open PRs
+        run: queue/open.sh
+        env:
+          GH_TOKEN: ${{ secrets.UPDATE_TOKEN }}
+
+  open2:
+    name: Open PRs (2)
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    needs: open1
+    if: always()
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Open PRs
+        run: queue/open.sh
+        env:
+          GH_TOKEN: ${{ secrets.UPDATE_TOKEN }}
+
+  open3:
+    name: Open PRs (3)
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    needs: open2
+    if: always()
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Open PRs
+        run: queue/open.sh
+        env:
+          GH_TOKEN: ${{ secrets.UPDATE_TOKEN }}
+
+  open4:
+    name: Open PRs (4)
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    needs: open3
+    if: always()
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Open PRs
+        run: queue/open.sh
+        env:
+          GH_TOKEN: ${{ secrets.UPDATE_TOKEN }}
