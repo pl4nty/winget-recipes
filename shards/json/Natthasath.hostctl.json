@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "natthasath", "repo": "hostctl" },
+	"urls": ["https://github.com/natthasath/hostctl/releases/download/v{version}/hostctl.exe"]
+}
