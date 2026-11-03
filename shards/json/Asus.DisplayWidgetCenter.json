@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": [
 		{
 			"url": "https://dlcdnets.asus.com/pub/ASUS/LCD%20Monitors/App/DisplayWidgetCenter/DisplayWidgetCenter.zip",
