@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AlDanial",
+		"repo": "cloc"
+	},
+	"urls": ["https://github.com/AlDanial/cloc/releases/download/v{version}/cloc-{version}.exe"],
+	"releaseNotes": { "source": "github" }
+}
