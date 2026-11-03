@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ShifuRain",
+		"repo": "Nitrado-TUI"
+	},
+	"urls": [
+		"https://github.com/ShifuRain/Nitrado-TUI/releases/download/v{version}/nitui_{version}_windows_arm64.zip",
+		"https://github.com/ShifuRain/Nitrado-TUI/releases/download/v{version}/nitui_{version}_windows_amd64.zip"
+	]
+}
