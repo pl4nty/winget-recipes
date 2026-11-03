@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "itsnateai",
+		"repo": "MousewithoutBordersToggle"
+	},
+	"urls": [
+		"https://github.com/itsnateai/MousewithoutBordersToggle/releases/download/{github.rawTag}/MWBToggle.exe"
+	]
+}
