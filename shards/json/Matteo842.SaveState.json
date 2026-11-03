@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Matteo842",
+		"repo": "SaveState"
+	},
+	"urls": ["https://github.com/Matteo842/SaveState/releases/download/v{version}/SaveState_v{version}_Win.zip"]
+}
