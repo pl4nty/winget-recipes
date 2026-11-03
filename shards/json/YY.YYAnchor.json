@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [{ "url": "https://yydl.yy.com/client/yyanchor/3.10.0.0/YYAnchorSetup-3.10.0.0.exe", "architecture": "x64" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://yydl.yy.com/client/yyanchor/3.10.0.0/YYAnchorSetup-3.10.0.0.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
