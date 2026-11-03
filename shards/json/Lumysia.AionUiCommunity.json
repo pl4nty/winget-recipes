@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Lumysia",
+		"repo": "AionUi-Community-Builds"
+	},
+	"urls": [
+		"https://github.com/Lumysia/AionUi-Community-Builds/releases/download/{github.rawTag}/AionUi-{version}-win-arm64.exe",
+		"https://github.com/Lumysia/AionUi-Community-Builds/releases/download/{github.rawTag}/AionUi-{version}-win-x64.exe"
+	]
+}
