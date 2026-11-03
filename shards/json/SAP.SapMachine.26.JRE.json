@@ -6,8 +6,7 @@
 		"repo": "SapMachine",
 		"method": "api-sort",
 		"tagRegex": "^sapmachine-(?=26(?:\\.|$))",
-		"perPage": 100,
-		"assetRegex": "^sapmachine-jre-26[.0-9]*_windows-x64_bin\\.msi$"
+		"perPage": 100
 	},
 	"urls": ["https://github.com/SAP/SapMachine/releases/download/sapmachine-{version}/sapmachine-jre-{version}_windows-x64_bin.msi"]
 }
