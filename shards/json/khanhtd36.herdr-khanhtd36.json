@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "khanhtd36",
+		"repo": "herdr",
+		"tagRegex": "^fork\\-v"
+	},
+	"urls": [
+		"https://github.com/khanhtd36/herdr/releases/download/{github.rawTag}/herdr-windows-x86_64.exe"
+	]
+}
