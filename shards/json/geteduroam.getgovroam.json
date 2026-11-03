@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "geteduroam",
+		"repo": "windows-app"
+	},
+	"urls": [
+		"https://github.com/geteduroam/windows-app/releases/download/{github.rawTag}/getgovroam.exe",
+		"https://github.com/geteduroam/windows-app/releases/download/{github.rawTag}/getgovroam_arm.exe"
+	]
+}
