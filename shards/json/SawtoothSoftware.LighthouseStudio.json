@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sawtoothsoftware.com/resources/software-downloads/lighthouse-studio",
+		"regex": "LighthouseStudio_(\\d+_\\d+_\\d+)_Setup\\.exe"
+	},
+	"urls": [
+		"https://d2rpjb6zne1wug.cloudfront.net/software-installers/Lighthouse-Studio/LighthouseStudio_{version}_Setup.exe"
+	],
+	"version": "{version|_|.}"
+}
