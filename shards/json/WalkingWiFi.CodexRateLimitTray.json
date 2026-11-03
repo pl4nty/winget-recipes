@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "walkingwifi28",
+		"repo": "codex-rate-limit-tray-win"
+	},
+	"urls": ["https://github.com/walkingwifi28/codex-rate-limit-tray-win/releases/download/v{version}/CodexRateLimitTray-{version}-win-x64-setup.exe"]
+}
