@@ -8,7 +8,7 @@ const owner = 'mRemoteNG';
 const repo = 'mRemoteNG';
 
 export default defineShard(async () => {
-	const { data: releases } = await githubClient.rest.repos.listReleases({ owner, repo, per_page: 100 });
+	const releases = await githubClient.paginate(githubClient.rest.repos.listReleases, { owner, repo, per_page: 100 });
 	const release = releases.find(
 		(release) =>
 			!release.draft &&
