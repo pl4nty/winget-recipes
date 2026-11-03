@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "reckel-jm", "repo": "cantara" },
+	"urls": [
+		"https://github.com/reckel-jm/cantara/releases/download/v{version}/cantara-{version}_setup_win64.exe"
+	]
+}
