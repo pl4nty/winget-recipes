@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mjishnu",
+		"repo": "Raven"
+	},
+	"urls": [
+		"https://github.com/mjishnu/Raven/releases/download/v{version}/Raven-v{version}-win-x86-self-contained.zip",
+		"https://github.com/mjishnu/Raven/releases/download/v{version}/Raven-v{version}-win-x64-self-contained.zip",
+		"https://github.com/mjishnu/Raven/releases/download/v{version}/Raven-v{version}-win-arm64-self-contained.zip"
+	]
+}
