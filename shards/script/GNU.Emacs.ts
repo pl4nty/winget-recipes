@@ -4,8 +4,10 @@ import ky from 'ky';
 
 // Windows builds sit in one directory per major (emacs-31/). Take the newest major, then its newest
 // UCRT64 installer. Respins are published as emacs-{version}_N-installer-UCRT64.exe next to the
-// original; the original file is used when it exists, as the manifests carry.
+// original; the original file is used when it exists, as the manifests carry. ftp.gnu.org answers
+// 403 to installer downloads from GitHub runners, so installers go through GNU's ftpmirror redirector.
 const base = 'https://ftp.gnu.org/gnu/emacs/windows/';
+const mirror = 'https://ftpmirror.gnu.org/emacs/windows/';
 
 export default defineShard(async () => {
 	const root = await ky(base, { timeout: 60_000 }).text();
@@ -40,6 +42,6 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [`${dir}${file}`],
+		urls: () => [`${mirror}emacs-${major}/${file}`],
 	};
 });
