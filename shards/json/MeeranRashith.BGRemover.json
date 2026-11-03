@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "meeranrashith166-lang", "repo": "BG-Remover" },
+	"urls": [
+		"https://github.com/meeranrashith166-lang/BG-Remover/releases/download/v{version}/BG_Remover_Setup.exe"
+	]
+}
