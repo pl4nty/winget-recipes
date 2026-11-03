@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "locomorange",
+		"repo": "uiautomation-mcp"
+	},
+	"urls": [
+		"https://github.com/locomorange/uiautomation-mcp/releases/download/{github.rawTag}/UIAutomationMCP-v{version}-win-arm64.zip",
+		"https://github.com/locomorange/uiautomation-mcp/releases/download/{github.rawTag}/UIAutomationMCP-v{version}-win-x64.zip"
+	]
+}
