@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "haga-rak",
+		"repo": "fluxzy.core"
+	},
+	"urls": [
+		"https://github.com/haga-rak/fluxzy.core/releases/download/{github.rawTag}/fluxzy-cli-{version}-win-arm64.zip",
+		"https://github.com/haga-rak/fluxzy.core/releases/download/{github.rawTag}/fluxzy-cli-{version}-win-x64.zip",
+		"https://github.com/haga-rak/fluxzy.core/releases/download/{github.rawTag}/fluxzy-cli-{version}-win-x86.zip"
+	]
+}
