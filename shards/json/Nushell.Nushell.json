@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nushell",
+		"repo": "nushell"
+	},
+	"urls": [
+		"https://github.com/nushell/nushell/releases/download/{version}/nu-{version}-x86_64-pc-windows-msvc.msi",
+		"https://github.com/nushell/nushell/releases/download/{version}/nu-{version}-aarch64-pc-windows-msvc.msi"
+	]
+}
