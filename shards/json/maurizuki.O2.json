@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "maurizuki",
+		"repo": "O2",
+		"method": "api-latest",
+		"assetRegex": "^O2-[\\d.]+-setup\\.exe$"
+	}
+}
