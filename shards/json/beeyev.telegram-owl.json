@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "beeyev",
+		"repo": "telegram-owl"
+	},
+	"urls": [
+		"https://github.com/beeyev/telegram-owl/releases/download/{github.rawTag}/telegram-owl_v{version}_Windows_32bit.zip",
+		"https://github.com/beeyev/telegram-owl/releases/download/{github.rawTag}/telegram-owl_v{version}_Windows_64bit.zip",
+		"https://github.com/beeyev/telegram-owl/releases/download/{github.rawTag}/telegram-owl_v{version}_Windows_ARM64.zip"
+	]
+}
