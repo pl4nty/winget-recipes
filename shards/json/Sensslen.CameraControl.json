@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sensslen",
+		"repo": "Cgf.CameraControl.Net"
+	},
+	"urls": [
+		"https://github.com/sensslen/Cgf.CameraControl.Net/releases/download/v{version}/CameraControl-{version}-win-x64-setup.exe",
+		"https://github.com/sensslen/Cgf.CameraControl.Net/releases/download/v{version}/CameraControl-{version}-win-arm64-setup.exe"
+	]
+}
