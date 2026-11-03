@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stan-ely",
+		"repo": "qrdrop",
+		"method": "api-list",
+		"tagRegex": "^app-v"
+	},
+	"urls": ["https://github.com/stan-ely/qrdrop/releases/download/{github.rawTag}/qrdrop_{version}_x64-setup.exe"]
+}
