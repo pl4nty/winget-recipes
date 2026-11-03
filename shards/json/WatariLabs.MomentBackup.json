@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://releases.momentbackup.com/latest.json",
+		"platforms": ["windows-x86_64-msi", "windows-aarch64-msi", "windows-x86_64-nsis", "windows-aarch64-nsis"]
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://momentbackup.com/changelog/"
+	}
+}
