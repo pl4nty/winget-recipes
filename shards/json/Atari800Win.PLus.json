@@ -6,7 +6,13 @@
 		"regex": "files/Atari800Win PLus (\\d+(?:\\.\\d+)+)\\.exe"
 	},
 	"urls": [
-		"https://atari.org.pl/PLus/files/Atari800Win%20PLus%20{version}.exe",
-		"https://atari.org.pl/PLus/files/Atari800Win%20PLus%20{version}.zip"
+		{
+			"url": "https://atari.org.pl/PLus/files/Atari800Win%20PLus%20{version}.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://atari.org.pl/PLus/files/Atari800Win%20PLus%20{version}.zip",
+			"architecture": "x86"
+		}
 	]
 }
