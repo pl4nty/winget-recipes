@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://help.ctrader.com/ctrader-cli/",
+		"regex": "ctrader-cli-(\\d+(?:\\.\\d+)+)-win-x64\\.exe"
+	},
+	"urls": ["https://getctraderwin.spotware.com/cli/winget/ctrader-cli-{version}-win-x64.exe"]
+}
