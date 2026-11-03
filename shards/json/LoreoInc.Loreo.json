@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "farrokh",
+		"repo": "loreo-releases"
+	},
+	"urls": [
+		"https://github.com/farrokh/loreo-releases/releases/download/{github.rawTag}/Loreo_{version}_x64-setup.exe"
+	]
+}
