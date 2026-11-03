@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ben-burwood",
+		"repo": "window"
+	},
+	"urls": [
+		"https://github.com/ben-burwood/window/releases/download/{github.rawTag}/drawing-paner_{version}_x64-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/ben-burwood/window/releases/tag/{github.rawTag}"
+	}
+}
