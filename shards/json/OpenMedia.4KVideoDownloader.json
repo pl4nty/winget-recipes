@@ -5,7 +5,7 @@
 		"url": "https://www.4kdownload.com/downloads",
 		"regex": "dl\\.4kdownload\\.com/app/4kvideodownloader_(\\d+\\.\\d+\\.\\d+)_x64\\.msi"
 	},
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": [
 		"https://dl.4kdownload.com/app/4kvideodownloader_{version}.msi",
 		"https://dl.4kdownload.com/app/4kvideodownloader_{version}_x64.msi"
