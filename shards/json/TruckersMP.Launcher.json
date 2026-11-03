@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://files.launcher.truckersmp.com/truckersmp-launcher/win/x64/RELEASES",
+		"regex": "TruckersMP-(\\d+(?:\\.\\d+)+)-full\\.nupkg"
+	},
+	"urls": ["https://files.launcher.truckersmp.com/truckersmp-launcher/win/x64/TruckersMP-Setup.exe"],
+	"replace": true
+}
