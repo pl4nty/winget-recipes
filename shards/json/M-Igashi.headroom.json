@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "M-Igashi",
+		"repo": "baken",
+		"method": "api-sort",
+		"tagRegex": "^v(?=[12]\\.)",
+		"perPage": 100
+	},
+	"urls": ["https://github.com/M-Igashi/baken/releases/download/v{version}/headroom-v{version}-windows-x86_64.zip"]
+}
