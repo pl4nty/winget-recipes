@@ -5,5 +5,8 @@
 		"url": "https://www.faststone.org/FSViewerDownload.htm",
 		"regex": "FastStone Image Viewer (?<version>\\d+(?:\\.\\d+)+)"
 	},
-	"urls": ["https://www.faststonesoft.net/DN/FSViewerSetup{version|.|}.exe"]
+	"urls": [
+		"https://www.faststonesoft.net/DN/FSViewerSetup{version|.|}.exe",
+		"https://www.faststonesoft.net/DN/FSViewerSetup{version|.|}.zip"
+	]
 }
