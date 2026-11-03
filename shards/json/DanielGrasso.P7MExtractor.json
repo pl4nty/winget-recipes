@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "daniel-g-carrasco",
+		"repo": "p7m-extractor"
+	},
+	"urls": [
+		"https://github.com/daniel-g-carrasco/p7m-extractor/releases/download/{github.rawTag}/p7m-extractor-setup-v{version}-windows-x64.exe"
+	]
+}
