@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "noFAYZ",
+		"repo": "zuno"
+	},
+	"urls": [
+		"https://github.com/noFAYZ/zuno/releases/download/v{version}/Zuno_{version}_x64-setup.exe",
+		"https://github.com/noFAYZ/zuno/releases/download/v{version}/Zuno_{version}_x64_en-US.msi"
+	]
+}
