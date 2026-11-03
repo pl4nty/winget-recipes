@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "autobrr",
+		"repo": "upbrr",
+		"method": "api-sort",
+		"assetRegex": "^(?:upbrr\\-gui\\-v\\d+\\.\\d+\\.\\d+\\-windows\\-arm64\\.zip|upbrr\\-gui\\-v\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\.zip)$"
+	}
+}
