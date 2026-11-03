@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dagaza",
+		"repo": "Qube"
+	},
+	"urls": [
+		"https://github.com/dagaza/Qube/releases/download/{github.rawTag}/Qube-{version}-vulkan-Setup.exe"
+	]
+}
