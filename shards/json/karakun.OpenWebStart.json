@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "karakun",
+		"repo": "OpenWebStart"
+	},
+	"urls": ["https://github.com/karakun/OpenWebStart/releases/download/{github.rawTag}/OpenWebStart_windows-x64_{version|.|_}.exe"],
+	"releaseNotes": { "source": "github" }
+}
