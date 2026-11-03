@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Tom94", "repo": "tev" },
+	"urls": [
+		"https://github.com/Tom94/tev/releases/download/v{version}/tev-installer.msi"
+	]
+}
