@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Logic647",
+		"repo": "MemorySQL"
+	},
+	"urls": [
+		"https://github.com/Logic647/MemorySQL/releases/download/{github.rawTag}/MemorySQL-Setup-{version}.exe"
+	]
+}
