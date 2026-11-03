@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "zaferkilic2024", "repo": "md-plus" },
+	"urls": ["https://github.com/zaferkilic2024/md-plus/releases/download/v{version}/MD.Plus_{version}_x64_en-US.msi"]
+}
