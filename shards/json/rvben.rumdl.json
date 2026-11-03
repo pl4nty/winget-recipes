@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "rvben", "repo": "rumdl" },
+	"urls": ["https://github.com/rvben/rumdl/releases/download/v{version}/rumdl-v{version}-x86_64-pc-windows-msvc.zip"]
+}
