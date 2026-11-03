@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ruben2776",
+		"repo": "PicView"
+	},
+	"urls": [
+		"https://github.com/Ruben2776/PicView/releases/download/{version}/Setup-PicView-v{version}-win-x64.exe",
+		"https://github.com/Ruben2776/PicView/releases/download/{version}/Setup-PicView-v{version}-win-arm64.exe"
+	]
+}
