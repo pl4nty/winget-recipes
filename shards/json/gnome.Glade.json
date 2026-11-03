@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.gnome.org/binaries/win32/glade/3.14/glade-3-14-2-installer.exe"
+	]
+}
