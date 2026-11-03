@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JustinGuese",
+		"repo": "flutter-simple-meeting-recorder-transcriber-summarizer"
+	},
+	"urls": [
+		"https://github.com/JustinGuese/flutter-simple-meeting-recorder-transcriber-summarizer/releases/download/{github.rawTag}/goatly-setup.exe"
+	]
+}
