@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://files.vovsoft.com/disk-benchmark.exe",
+		"https://files.vovsoft.com/disk-benchmark-portable.zip"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://files.vovsoft.com/disk-benchmark.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/disk-benchmark/"
+	},
+	"replace": true
+}
