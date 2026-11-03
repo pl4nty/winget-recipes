@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RangS-1",
+		"repo": "Ferminal"
+	},
+	"urls": [
+		"https://github.com/RangS-1/Ferminal/releases/download/v{version}/fm.exe"
+	]
+}
