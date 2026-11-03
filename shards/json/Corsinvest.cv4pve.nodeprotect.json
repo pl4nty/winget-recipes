@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Corsinvest",
+		"repo": "cv4pve-node-protect"
+	},
+	"urls": [
+		"https://github.com/Corsinvest/cv4pve-node-protect/releases/download/{github.rawTag}/cv4pve-node-protect.exe-win-arm64.zip",
+		"https://github.com/Corsinvest/cv4pve-node-protect/releases/download/{github.rawTag}/cv4pve-node-protect.exe-win-x64.zip",
+		"https://github.com/Corsinvest/cv4pve-node-protect/releases/download/{github.rawTag}/cv4pve-node-protect.exe-win-x86.zip"
+	]
+}
