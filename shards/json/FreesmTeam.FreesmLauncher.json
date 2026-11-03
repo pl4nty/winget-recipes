@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FreesmTeam",
+		"repo": "FreesmLauncher"
+	},
+	"urls": [
+		"https://github.com/FreesmTeam/FreesmLauncher/releases/download/{github.rawTag}/FreesmLauncher-Windows-MSVC-arm64-Setup-{version}.exe",
+		"https://github.com/FreesmTeam/FreesmLauncher/releases/download/{github.rawTag}/FreesmLauncher-Windows-MSVC-Setup-{version}.exe"
+	]
+}
