@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 108598,
+		"regex": "^(?:AzVpnAppx_\\d+\\.\\d+\\.\\d+\\.\\d+_sideload\\.zip)$"
+	}
+}
