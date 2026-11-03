@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "abooodbah",
+		"repo": "leanmark"
+	},
+	"urls": [
+		"https://github.com/abooodbah/leanmark/releases/download/{github.rawTag}/LeanMark-v{version}-windows-x64.zip"
+	]
+}
