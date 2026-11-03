@@ -6,6 +6,9 @@
 		"repo": "rus-zip"
 	},
 	"urls": [
-		"https://github.com/utarn/rus-zip/releases/download/v{version}/rus-zip-desktop_with_cli-{version}-setup.exe"
+		{
+			"url": "https://github.com/utarn/rus-zip/releases/download/v{version}/rus-zip-desktop_with_cli-{version}-setup.exe",
+			"architecture": "x64"
+		}
 	]
 }
