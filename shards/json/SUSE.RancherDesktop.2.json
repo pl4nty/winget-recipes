@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rancher-sandbox",
+		"repo": "rancher-desktop-2",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": ["https://github.com/rancher-sandbox/rancher-desktop-2/releases/download/v{version}/Rancher.Desktop.Setup.{version}.msi"]
+}
