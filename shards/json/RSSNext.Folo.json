@@ -7,6 +7,5 @@
 		"method": "api-list",
 		"tagRegex": "^desktop/v"
 	},
-	"urls": ["https://github.com/RSSNext/Folo/releases/download/{github.rawTag}/Folo-{version}-windows-x64.exe"],
-	"releaseNotes": { "source": "github" }
+	"urls": ["https://github.com/RSSNext/Folo/releases/download/{github.rawTag}/Folo-{version}-windows-x64.exe"]
 }
