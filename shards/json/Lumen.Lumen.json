@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://lumen.movie/download",
+		"regex": "https://dl\\.lumen\\.movie/downloads/(\\d+(?:\\.\\d+)+)/Lumen\\-\\1\\-Setup\\-x64\\.exe"
+	},
+	"urls": [
+		"https://dl.lumen.movie/downloads/{version}/Lumen-{version}-Setup-x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://lumen.movie/changelog/#{version}"
+	}
+}
