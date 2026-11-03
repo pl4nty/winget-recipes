@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://raw.githubusercontent.com/porrey/Virtual-ZPL-Printer/main/README.md",
+		"regex": "\\[Download the installer\\]\\([^)]*\\) \\(v ?(\\d+(?:\\.\\d+)+)\\)"
+	},
+	"urls": ["https://github.com/porrey/Virtual-ZPL-Printer/raw/main/Installer/Virtual%20ZPL%20Printer%20Setup.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/porrey/Virtual-ZPL-Printer?tab=readme-ov-file#history"
+	}
+}
