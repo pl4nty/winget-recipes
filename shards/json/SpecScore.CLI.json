@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "specscore",
+		"repo": "specscore-cli"
+	},
+	"urls": ["https://github.com/specscore/specscore-cli/releases/download/v{version}/specscore_{version}_windows_amd64.zip"]
+}
