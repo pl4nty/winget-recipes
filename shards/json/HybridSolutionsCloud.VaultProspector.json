@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Hybrid-Solutions-Cloud",
+		"repo": "vault-prospector-releases",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/Hybrid-Solutions-Cloud/vault-prospector-releases/releases/download/{github.rawTag}/VaultProspector-{version}-win-x64.msi",
+		"https://github.com/Hybrid-Solutions-Cloud/vault-prospector-releases/releases/download/{github.rawTag}/VaultProspector-{version}-win-x64.msix"
+	]
+}
