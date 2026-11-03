@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "29thnight",
+		"repo": "PrSM"
+	},
+	"urls": ["https://github.com/29thnight/PrSM/releases/download/v{version}/refraction-{version}-x86_64.msi"]
+}
