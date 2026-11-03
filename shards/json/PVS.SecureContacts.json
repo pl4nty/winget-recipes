@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Provectus-Software-GmbH",
+		"repo": "SCA_Desktop_Releases",
+		"method": "api-latest",
+		"assetRegex": "\\.msi$"
+	}
+}
