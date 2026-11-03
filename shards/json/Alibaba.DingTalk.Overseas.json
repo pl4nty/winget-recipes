@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/overseas/DingTalk_v8.2.13.260209001.exe"
+	]
+}
