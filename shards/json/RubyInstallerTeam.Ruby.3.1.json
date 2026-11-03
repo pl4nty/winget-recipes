@@ -5,7 +5,8 @@
 		"owner": "oneclick",
 		"repo": "rubyinstaller2",
 		"method": "api-list",
-		"tagRegex": "^RubyInstaller-3\\.1\\.\\d+-\\d+$"
+		"tagRegex": "^RubyInstaller-3\\.1\\.\\d+-\\d+$",
+		"perPage": 100
 	},
 	"versionRemove": "RubyInstaller-",
 	"urls": [
