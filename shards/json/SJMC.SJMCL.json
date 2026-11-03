@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "UNIkeEN",
+		"repo": "SJMCL"
+	},
+	"urls": [
+		"https://github.com/UNIkeEN/SJMCL/releases/download/v{version}/SJMCL_{version}_windows_x86_64_setup.exe",
+		"https://github.com/UNIkeEN/SJMCL/releases/download/v{version}/SJMCL_{version}_windows_i686_setup.exe",
+		"https://github.com/UNIkeEN/SJMCL/releases/download/v{version}/SJMCL_{version}_windows_aarch64_setup.exe"
+	]
+}
