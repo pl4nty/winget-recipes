@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "danielsiegl",
+		"repo": "gitsqlite",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/danielsiegl/gitsqlite/releases/download/{github.rawTag}/gitsqlite-windows-amd64.exe",
+		"https://github.com/danielsiegl/gitsqlite/releases/download/{github.rawTag}/gitsqlite-windows-arm64.exe"
+	]
+}
