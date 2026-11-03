@@ -14,6 +14,7 @@
 		"sourceUrl": "https://data.services.jetbrains.com/products/releases?code=IIU&latest=true&type=release",
 		"path": "IIU.0.whatsnew",
 		"nestedSource": "html",
+		"cleanup": false,
 		"releaseNotesUrl": "{data.IIU.0.notesLink}"
 	}
 }
