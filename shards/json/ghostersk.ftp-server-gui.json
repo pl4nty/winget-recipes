@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "ghostersk",
+		"repo": "ftp-server-gui"
+	},
+	"urls": [
+		"https://github.com/ghostersk/ftp-server-gui/releases/download/{github.rawTag}/FTP_Server_GUI.exe"
+	]
+}
