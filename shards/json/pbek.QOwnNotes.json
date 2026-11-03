@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pbek",
+		"repo": "QOwnNotes"
+	},
+	"urls": [
+		"https://github.com/pbek/QOwnNotes/releases/download/v{version}/QOwnNotes.zip",
+		"https://github.com/pbek/QOwnNotes/releases/download/v{version}/QOwnNotes.msi"
+	]
+}
