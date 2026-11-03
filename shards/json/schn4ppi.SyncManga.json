@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "schn4ppi",
+		"repo": "SyncManga",
+		"tagRegex": "^v\\."
+	},
+	"urls": [
+		"https://github.com/schn4ppi/SyncManga/releases/download/{github.rawTag}/SyncManga-Setup.exe"
+	]
+}
