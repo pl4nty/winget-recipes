@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://www.roboform.com/dist/RoboForm-v9-Enterprise.msi"],
 	"state": {
 		"source": "response-header",
