@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "michaelnoergaard", "repo": "USB-Groove" },
+	"urls": [
+		"https://github.com/michaelnoergaard/USB-Groove/releases/download/v{version}/USBGroove.exe",
+		"https://github.com/michaelnoergaard/USB-Groove/releases/download/v{version}/USBGroove_Setup_v{version}.exe"
+	]
+}
