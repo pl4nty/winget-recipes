@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "nvm-windows",
-		"repo": "nvm"
+		"repo": "nvm",
+		"method": "api-list",
+		"tagRegex": "^\\d+(?:\\.\\d+)+$"
 	},
 	"urls": [
 		"https://github.com/nvm-windows/nvm/releases/download/{github.rawTag}/nvm-setup.exe"
