@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "BiglySoftware",
+		"repo": "BiglyBT"
+	},
+	"urls": [
+		"https://github.com/BiglySoftware/BiglyBT/releases/download/{github.rawTag}/GitHub_BiglyBT_Windows_NoJRE.exe",
+		"https://github.com/BiglySoftware/BiglyBT/releases/download/{github.rawTag}/GitHub_Legacy_BiglyBT_Installer32.exe"
+	]
+}
