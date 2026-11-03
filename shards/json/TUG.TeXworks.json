@@ -7,6 +7,5 @@
 		"method": "api-sort",
 		"tagRegex": "^release-",
 		"assetRegex": "^TeXworks-win10-setup-.*\\.exe$"
-	},
-	"releaseNotes": { "source": "github" }
+	}
 }
