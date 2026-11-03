@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yutat23",
+		"repo": "lsoff"
+	},
+	"urls": [
+		"https://github.com/yutat23/lsoff/releases/download/v{version}/lsoff-windows-amd64.exe",
+		"https://github.com/yutat23/lsoff/releases/download/v{version}/lsoff-windows-arm64.exe",
+		"https://github.com/yutat23/lsoff/releases/download/v{version}/lsoff-windows-386.exe"
+	]
+}
