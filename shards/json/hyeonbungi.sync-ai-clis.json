@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hyeonbungi",
+		"repo": "sync-ai-clis"
+	},
+	"urls": [
+		"https://github.com/hyeonbungi/sync-ai-clis/releases/download/{github.rawTag}/sync-ai-clis-x86_64-pc-windows-msvc.msi"
+	]
+}
