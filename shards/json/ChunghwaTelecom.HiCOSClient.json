@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://api-hisecurecdn.cdn.hinet.net/HiCOS_Client.zip"
+	]
+}
