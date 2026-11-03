@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "binjr",
+		"repo": "binjr"
+	},
+	"urls": [
+		"https://github.com/binjr/binjr/releases/download/{github.rawTag}/binjr-{version}_windows-x86_64.msi"
+	]
+}
