@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Artexis10",
+		"repo": "endstate-gui",
+		"method": "api-list",
+		"tagRegex": "^gui-v"
+	},
+	"urls": [
+		"https://github.com/Artexis10/endstate-gui/releases/download/{github.rawTag}/Endstate_{version}_x64_en-US.msi",
+		"https://github.com/Artexis10/endstate-gui/releases/download/{github.rawTag}/Endstate_{version}_x64-setup.exe"
+	]
+}
