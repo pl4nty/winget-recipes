@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hwtnb",
+		"repo": "SylphyHornPlus",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/hwtnb/SylphyHornPlus/releases/download/{github.rawTag}/SylphyHornPlus-v{version}-arm64.zip",
+		"https://github.com/hwtnb/SylphyHornPlus/releases/download/{github.rawTag}/SylphyHornPlus-v{version}-x64.zip",
+		"https://github.com/hwtnb/SylphyHornPlus/releases/download/{github.rawTag}/SylphyHornPlus-v{version}-x86.zip"
+	]
+}
