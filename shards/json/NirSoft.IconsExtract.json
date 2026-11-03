@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nirsoft.net/utils/iconsext.html",
+		"regex": "Versions History<\/h4>[\\s\\S]+?<tr><td>[^<]+<td>(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{ "url": "https://www.nirsoft.net/utils/iconsext_setup.exe", "architecture": "x86" },
+		{ "url": "https://www.nirsoft.net/utils/iconsext.zip", "architecture": "x86" }
+	],
+	"replace": true
+}
