@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "poychang",
+		"repo": "CmdPalTranslator",
+		"tagRegex": "^CmdPalTranslator-v"
+	},
+	"urls": [
+		"https://github.com/poychang/CmdPalTranslator/releases/download/CmdPalTranslator-v{version}/CmdPalTranslator-Setup-{version}-x64.exe",
+		"https://github.com/poychang/CmdPalTranslator/releases/download/CmdPalTranslator-v{version}/CmdPalTranslator-Setup-{version}-arm64.exe"
+	]
+}
