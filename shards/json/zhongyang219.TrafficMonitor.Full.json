@@ -10,6 +10,5 @@
 		"https://github.com/zhongyang219/TrafficMonitor/releases/download/{github.rawTag}/TrafficMonitor_{github.rawTag}_arm64ec.zip",
 		"https://github.com/zhongyang219/TrafficMonitor/releases/download/{github.rawTag}/TrafficMonitor_{github.rawTag}_x86.zip",
 		"https://github.com/zhongyang219/TrafficMonitor/releases/download/{github.rawTag}/TrafficMonitor_{github.rawTag}_x64.zip"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
