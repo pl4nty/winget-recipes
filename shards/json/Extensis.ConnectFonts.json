@@ -5,6 +5,7 @@
 		"url": "https://www.extensis.com/support/connect-fonts/release-notes",
 		"regex": "Connect desktop for Windows:\\s*(\\d+(?:\\.\\d+)+)"
 	},
+	"version": { "source": "display" },
 	"urls": [
 		{
 			"url": "https://bin.extensis.com/ConnectFonts-W-{version|.|-}.zip",
