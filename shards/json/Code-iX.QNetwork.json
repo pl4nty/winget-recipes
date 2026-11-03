@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Matt-17",
+		"repo": "QNetwork"
+	},
+	"urls": [
+		"https://github.com/Matt-17/QNetwork/releases/download/{github.rawTag}/QNetwork-{version}-x64.msi"
+	]
+}
