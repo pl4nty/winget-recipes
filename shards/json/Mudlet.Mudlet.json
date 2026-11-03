@@ -1,15 +1,12 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.mudlet.org/download/",
-		"regex": "href=\"(?<url>https://github\\.com/Mudlet/Mudlet/releases/download/Mudlet-(?<version>\\d+(?:\\.\\d+)+)/Mudlet-\\k<version>-windows-64-installer\\.exe)\""
-	},
-	"urls": ["{captures.url}"],
-	"releaseNotes": {
-		"source": "github",
+	"strategy": "github-release",
+	"github": {
 		"owner": "Mudlet",
 		"repo": "Mudlet",
-		"tag": "Mudlet-{version}"
-	}
+		"method": "api-sort",
+		"tagRegex": "^Mudlet-(?=\\d+(?:\\.\\d+)+$)",
+		"assetRegex": "-windows-64-installer\\.exe$"
+	},
+	"urls": ["https://github.com/Mudlet/Mudlet/releases/download/{github.rawTag}/Mudlet-{version}-windows-64-installer.exe"]
 }
