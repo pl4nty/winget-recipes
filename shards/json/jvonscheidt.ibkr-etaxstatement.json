@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jvonscheidt",
+		"repo": "ibkr-etaxstatement"
+	},
+	"urls": [
+		"https://github.com/jvonscheidt/ibkr-etaxstatement/releases/download/{github.rawTag}/ibkr-etaxstatement.exe"
+	]
+}
