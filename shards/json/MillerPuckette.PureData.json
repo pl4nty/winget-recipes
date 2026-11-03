@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://msp.ucsd.edu/software.html",
+		"regex": "Software/pd-(\\d+\\.\\d+-\\d+)\\.windows-installer\\.exe"
+	},
+	"urls": [
+		"https://msp.ucsd.edu/Software/pd-{version}.windows-installer.exe",
+		{
+			"url": "https://msp.ucsd.edu/Software/pd-{version}-i386.windows-installer.exe",
+			"architecture": "x86"
+		}
+	]
+}
