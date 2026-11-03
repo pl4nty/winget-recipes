@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.scia.net/en/scia-engineer/downloads",
+		"regex": "downloads\\.scia\\.net/support/sciaengineer/setup/26/release_(?<version>26\\.\\d+\\.\\d+)\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://downloads.scia.net/support/sciaengineer/setup/26/release_{version}.zip",
+			"nestedInstallerMatches": ["SCIAEngineer26.0.msi"]
+		},
+		"https://cdnstore.scia.net/sen/{version}/SCIAEngineer_{version}_setup.exe"
+	],
+	"releaseNotes": { "releaseNotesUrl": "https://www.scia.net/scia-engineer/downloads" }
+}
