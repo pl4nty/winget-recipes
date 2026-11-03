@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "portdock",
+		"repo": "PortDock"
+	},
+	"urls": ["https://github.com/portdock/PortDock/releases/download/v{version}/PortDock-Simulator-setup.exe"]
+}
