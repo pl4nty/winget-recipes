@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nRafinia",
+		"repo": "CsMesh"
+	},
+	"urls": [
+		"https://github.com/nRafinia/CsMesh/releases/download/v{version}/csmesh-win-x64.zip",
+		"https://github.com/nRafinia/CsMesh/releases/download/v{version}/csmesh-win-arm64.zip"
+	]
+}
