@@ -6,9 +6,11 @@ import { compareVersions } from 'anthelion/helpers';
 const page = 'https://www.grc.com/validrive/version-history.htm';
 
 export default defineShard(async () => {
-	const html = await fetch(page).then((response) => response.text());
-	const entries = [...html.matchAll(/<li><span class="pointy">v(?<version>\d+(?:\.\d+)+)<\/span>[\s\S]*?<\/li>/g)];
-	if (entries.length === 0) throw new Error('No ValiDrive versions found');
+	const response = await fetch(page);
+	const html = await response.text();
+	const entries = [...html.matchAll(/<li>\s*<span class="pointy">\s*v(?<version>\d+(?:\.\d+)+)\s*<\/span>[\s\S]*?<\/li>/gi)];
+	if (entries.length === 0)
+		throw new Error(`No ValiDrive versions found (HTTP ${response.status}, ${html.length} chars): ${html.slice(0, 300)}`);
 	const [latest] = entries.sort((a, b) => compareVersions(b.groups!.version, a.groups!.version));
 
 	return {
