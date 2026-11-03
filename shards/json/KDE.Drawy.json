@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdn.kde.org/ci-builds/graphics/drawy/1.0/windows/drawy-1.0-2277-windows-cl-msvc2022-x86_64.exe"
+	]
+}
