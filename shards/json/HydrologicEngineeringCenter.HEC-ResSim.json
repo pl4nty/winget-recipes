@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hec.usace.army.mil/software/hec-ressim/downloads.aspx",
+		"regex": "href=\"downloads/(?<file>HEC-ResSim_\\d+_Setup\\.exe)\"><span class=\"fas fa-download\"></span> Download</a> HEC-ResSim\\s+(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.hec.usace.army.mil/software/hec-ressim/downloads/{captures.file}"]
+}
