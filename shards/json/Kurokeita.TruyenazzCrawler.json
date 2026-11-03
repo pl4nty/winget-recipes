@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kurokeita",
+		"repo": "truyenazz-crawler",
+		"method": "api-sort",
+		"assetRegex": "^(?:truyenazz\\-crawl\\-windows\\-x86_64\\.zip)$"
+	}
+}
