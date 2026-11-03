@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rodrigoantonioli",
+		"repo": "trayffeine"
+	},
+	"urls": [
+		"https://github.com/rodrigoantonioli/trayffeine/releases/download/v{version}/Trayffeine-Setup-{version}.exe"
+	]
+}
