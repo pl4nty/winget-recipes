@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cat-forgor",
+		"repo": "AssignmentPacker"
+	},
+	"urls": [
+		"https://github.com/cat-forgor/AssignmentPacker/releases/download/{github.rawTag}/ap-windows-x64.exe",
+		"https://github.com/cat-forgor/AssignmentPacker/releases/download/{github.rawTag}/ap-windows-x64.msi"
+	]
+}
