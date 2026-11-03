@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mresanto", "repo": "mid" },
+	"urls": ["https://github.com/mresanto/mid/releases/download/{github.rawTag}/mid.exe"]
+}
