@@ -5,7 +5,7 @@
 		"owner": "richawo",
 		"repo": "yaps-releases",
 		"method": "api-sort",
-		"tagRegex": "^v(?=\\d)",
-		"assetRegex": "^Yaps_[\\d.]+_x64-setup\\.exe$"
-	}
+		"tagRegex": "^v(?=\\d)"
+	},
+	"urls": ["https://downloads.yaps.ai/releases/v{version}/Yaps_{version}_x64-setup.exe"]
 }
