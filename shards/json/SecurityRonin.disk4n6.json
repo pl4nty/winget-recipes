@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SecurityRonin",
+		"repo": "disk-forensic"
+	},
+	"urls": [
+		"https://github.com/SecurityRonin/disk-forensic/releases/download/v{version}/disk4n6-{version}-x86_64-pc-windows-msvc.msi"
+	]
+}
