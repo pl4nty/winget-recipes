@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LanRhyme",
+		"repo": "MicYou"
+	},
+	"urls": [
+		"https://github.com/LanRhyme/MicYou/releases/download/{github.rawTag}/MicYou-Win-{version}-installer.exe"
+	]
+}
