@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Cliftonz",
+		"repo": "jarvy"
+	},
+	"urls": [
+		"https://github.com/Cliftonz/jarvy/releases/download/{github.rawTag}/jarvy_{version}_x64_en-US.msi",
+		"https://github.com/Cliftonz/jarvy/releases/download/{github.rawTag}/jarvy_{version}_x64-setup.exe"
+	]
+}
