@@ -6,7 +6,8 @@
 	"state": {
 		"source": "response-header",
 		"url": "https://downloads.sandisk.com/downloads/memoryzone-win.exe",
-		"header": "etag"
+		"header": "etag",
+		"method": "get"
 	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://support-en.sandisk.com/app/answers/detailweb/a_id/52650"
