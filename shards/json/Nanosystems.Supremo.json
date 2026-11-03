@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://www.nanosystems.com/public/download/Supremo.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.nanosystems.com/public/download/Supremo.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
