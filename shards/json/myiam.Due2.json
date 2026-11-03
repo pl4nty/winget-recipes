@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "due2-app",
+		"repo": "due2-releases",
+		"method": "api-list",
+		"tagRegex": "^due2-v"
+	},
+	"urls": [
+		"https://github.com/due2-app/due2-releases/releases/download/{github.rawTag}/due2-{version}-windows-x64-setup.exe",
+		"https://github.com/due2-app/due2-releases/releases/download/{github.rawTag}/due2-{version}-windows-arm64-setup.exe"
+	]
+}
