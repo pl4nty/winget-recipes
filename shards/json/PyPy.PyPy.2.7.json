@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.pypy.org/download.html",
+		"regex": "pypy2\\.7-v(\\d+(?:\\.\\d+)+)-win64\\.zip"
+	},
+	"urls": ["https://downloads.python.org/pypy/pypy2.7-v{version}-win64.zip"]
+}
