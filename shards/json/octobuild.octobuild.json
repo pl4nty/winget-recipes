@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "octobuild", "repo": "octobuild" },
+	"urls": ["https://github.com/octobuild/octobuild/releases/download/{version}/octobuild-{version}-x86_64.msi"]
+}
