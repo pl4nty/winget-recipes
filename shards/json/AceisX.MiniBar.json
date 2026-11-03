@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AceisX",
+		"repo": "minibar-now-playing-overlay"
+	},
+	"urls": [
+		"https://github.com/AceisX/minibar-now-playing-overlay/releases/download/{github.rawTag}/minibar.exe"
+	]
+}
