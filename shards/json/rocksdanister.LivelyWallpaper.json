@@ -5,6 +5,5 @@
 		"owner": "lively-community",
 		"repo": "lively"
 	},
-	"urls": ["https://github.com/lively-community/lively/releases/download/v{version}/lively_setup_x86_full_v{version|.|}.exe"],
-	"releaseNotes": { "source": "github" }
+	"urls": ["https://github.com/lively-community/lively/releases/download/v{version}/lively_setup_x86_full_v{version|.|}.exe"]
 }
