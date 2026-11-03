@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PowerShell",
+		"repo": "PowerShell"
+	},
+	"urls": [
+		"https://github.com/PowerShell/PowerShell/releases/download/v{version}/PowerShell-{version}.msixbundle",
+		"https://github.com/PowerShell/PowerShell/releases/download/v{version}/PowerShell-{version}-win-x64.msi",
+		"https://github.com/PowerShell/PowerShell/releases/download/v{version}/PowerShell-{version}-win-x86.msi",
+		"https://github.com/PowerShell/PowerShell/releases/download/v{version}/PowerShell-{version}-win-arm64.msi"
+	]
+}
