@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "IrosTheBeggar",
+		"repo": "mStream"
+	},
+	"urls": [
+		"https://github.com/IrosTheBeggar/mStream/releases/download/v{version}/mStream-{version}-win-x64-setup.exe",
+		"https://github.com/IrosTheBeggar/mStream/releases/download/v{version}/mStream-{version}-win-x64.zip"
+	]
+}
