@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kando-menu",
+		"repo": "kando"
+	},
+	"urls": [
+		"https://github.com/kando-menu/kando/releases/download/{github.rawTag}/Kando-{version}.Setup-arm64.exe",
+		"https://github.com/kando-menu/kando/releases/download/{github.rawTag}/Kando-{version}.Setup-x64.exe"
+	]
+}
