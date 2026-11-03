@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "scaleway",
+		"repo": "scaleway-cli"
+	},
+	"urls": [
+		"https://github.com/scaleway/scaleway-cli/releases/download/v{version}/scaleway-cli_{version}_windows_386.exe",
+		"https://github.com/scaleway/scaleway-cli/releases/download/v{version}/scaleway-cli_{version}_windows_arm64.exe",
+		"https://github.com/scaleway/scaleway-cli/releases/download/v{version}/scaleway-cli_{version}_windows_amd64.exe"
+	]
+}
