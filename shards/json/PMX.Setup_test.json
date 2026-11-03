@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://github.com/Drifter011/test/releases/latest/download/Setup_test.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/Drifter011/test/releases/latest/download/Setup_test.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
