@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "from104",
+		"repo": "qcalc"
+	},
+	"urls": [
+		"https://github.com/from104/qcalc/releases/download/{github.rawTag}/QCalc_{version}_x64-setup.exe"
+	]
+}
