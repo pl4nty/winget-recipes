@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://www.jumpingbytes.com/down/ClipboardMasterInst.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.jumpingbytes.com/down/ClipboardMasterInst.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
