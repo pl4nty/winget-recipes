@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://api.eu.redcactus.cloud/v1/public/software/download/494342c8-f3e9-491d-b6f2-4654c8ac8cbd"],
+	"state": {
+		"source": "response-header",
+		"url": "https://api.eu.redcactus.cloud/v1/public/software/download/494342c8-f3e9-491d-b6f2-4654c8ac8cbd",
+		"header": "last-modified"
+	},
+	"replace": true
+}
