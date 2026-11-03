@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "flint-lang",
+		"repo": "flintc"
+	},
+	"urls": [
+		"https://github.com/flint-lang/flintc/releases/download/{github.rawTag}/fls.exe"
+	]
+}
