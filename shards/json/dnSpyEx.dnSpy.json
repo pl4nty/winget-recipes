@@ -10,7 +10,8 @@
 		"https://github.com/dnSpyEx/dnSpy/releases/download/v{version}/dnSpy-net-win64.zip",
 		{
 			"url": "https://github.com/dnSpyEx/dnSpy/releases/download/v{version}/dnSpy-netframework.zip",
-			"architecture": "neutral"
+			"architecture": "neutral",
+			"nestedInstallerMatches": ["dnSpy.Console.exe", "dnSpy.exe"]
 		}
 	],
 	"releaseNotes": { "source": "github" }
