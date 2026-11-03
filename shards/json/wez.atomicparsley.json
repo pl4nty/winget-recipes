@@ -6,8 +6,7 @@
 		"repo": "atomicparsley"
 	},
 	"releaseNotes": {
-		"source": "github",
-		"tag": "{version}"
+		"releaseNotesUrl": "https://github.com/wez/atomicparsley/releases/tag/{version}"
 	},
 	"urls": [
 		"https://github.com/wez/atomicparsley/releases/download/{version}/AtomicParsleyWindowsX86.zip",
