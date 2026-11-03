@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VirtusLab",
+		"repo": "scala-cli"
+	},
+	"urls": [
+		"https://github.com/VirtusLab/scala-cli/releases/download/v{version}/scala-cli-x86_64-pc-win32.msi"
+	]
+}
