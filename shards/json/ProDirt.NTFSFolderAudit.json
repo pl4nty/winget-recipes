@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/prodirt-llc/ntfs-folder-audit/releases/download/initial/NTFSFolderAudit.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/prodirt-llc/ntfs-folder-audit/releases/download/initial/NTFSFolderAudit.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/prodirt-llc/ntfs-folder-audit/releases/tag/initial"
+	},
+	"replace": true
+}
