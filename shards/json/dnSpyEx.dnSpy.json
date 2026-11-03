@@ -7,7 +7,11 @@
 	},
 	"urls": [
 		"https://github.com/dnSpyEx/dnSpy/releases/download/v{version}/dnSpy-net-win32.zip",
-		"https://github.com/dnSpyEx/dnSpy/releases/download/v{version}/dnSpy-net-win64.zip"
+		"https://github.com/dnSpyEx/dnSpy/releases/download/v{version}/dnSpy-net-win64.zip",
+		{
+			"url": "https://github.com/dnSpyEx/dnSpy/releases/download/v{version}/dnSpy-netframework.zip",
+			"architecture": "neutral"
+		}
 	],
 	"releaseNotes": { "source": "github" }
 }
