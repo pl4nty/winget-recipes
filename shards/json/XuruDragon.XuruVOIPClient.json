@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "XuruDragon",
+		"repo": "XuruVOIP",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/XuruDragon/XuruVOIP/releases/download/{github.rawTag}/XuruVoipClient-win-x64.msi"
+	]
+}
