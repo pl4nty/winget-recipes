@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sblantipodi",
+		"repo": "firefly_luciferin"
+	},
+	"urls": [
+		"https://github.com/sblantipodi/firefly_luciferin/releases/download/{github.rawTag}/FireflyLuciferinSetup.exe"
+	]
+}
