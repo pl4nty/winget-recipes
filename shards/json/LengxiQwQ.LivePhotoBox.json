@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LengxiQwQ",
+		"repo": "live-photo-box"
+	},
+	"urls": [
+		"https://github.com/LengxiQwQ/live-photo-box/releases/download/{github.rawTag}/Live-Photo-Box-v{version}-x64-cli.zip",
+		"https://github.com/LengxiQwQ/live-photo-box/releases/download/{github.rawTag}/Live-Photo-Box-v{version}-x64-setup.exe"
+	]
+}
