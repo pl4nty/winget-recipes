@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "bceverly", "repo": "sysmanage-agent" },
+	"urls": [
+		"https://github.com/bceverly/sysmanage-agent/releases/download/v{version}/sysmanage-agent-{version}-windows-x64.msi",
+		"https://github.com/bceverly/sysmanage-agent/releases/download/v{version}/sysmanage-agent-{version}-windows-arm64.msi",
+		"https://github.com/bceverly/sysmanage-agent/releases/download/v{version}/sysmanage-agent-{version}-windows-x64.exe",
+		"https://github.com/bceverly/sysmanage-agent/releases/download/v{version}/sysmanage-agent-{version}-windows-arm64.exe"
+	]
+}
