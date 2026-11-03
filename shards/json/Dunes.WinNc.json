@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.winnc.com/setup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://www.winnc.com/setup32.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.winnc.com/releases/"
+	}
+}
