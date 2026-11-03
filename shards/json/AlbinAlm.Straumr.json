@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "albinalm",
+		"repo": "straumr"
+	},
+	"urls": [
+		"https://github.com/albinalm/straumr/releases/download/{github.rawTag}/straumr-{version}-win-x64-setup.exe"
+	]
+}
