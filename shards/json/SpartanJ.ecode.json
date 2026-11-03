@@ -9,6 +9,5 @@
 	"urls": [
 		"https://github.com/SpartanJ/ecode/releases/download/{github.rawTag}/ecode-windows-{version}-x86_64.zip",
 		"https://github.com/SpartanJ/ecode/releases/download/{github.rawTag}/ecode-windows-{version}-arm64.zip"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
