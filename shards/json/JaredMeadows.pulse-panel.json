@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "meadowsjared",
+		"repo": "pulse-panel"
+	},
+	"urls": [
+		"https://github.com/meadowsjared/pulse-panel/releases/download/{github.rawTag}/pulse-panel_{version}.exe"
+	]
+}
