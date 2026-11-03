@@ -9,7 +9,7 @@ const folders = { 32: 'Lazarus Windows 32 bits', 64: 'Lazarus Windows 64 bits' }
 
 async function installers(bits: 32 | 64) {
 	const feed = await ky(
-		`https://sourceforge.net/projects/lazarus/rss?path=/${encodeURIComponent(folders[bits])}&limit=200`,
+		`https://sourceforge.net/projects/lazarus/rss?path=/${encodeURIComponent(folders[bits])}`,
 		{ timeout: 60_000 },
 	).text();
 	const pattern = new RegExp(
