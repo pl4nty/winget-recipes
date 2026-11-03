@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rodolfovillaruz",
+		"repo": "watch-and-commit"
+	},
+	"urls": ["https://github.com/rodolfovillaruz/watch-and-commit/releases/download/v{version}/wac-x86_64-pc-windows-msvc.zip"]
+}
