@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "markCCGnomes",
+		"repo": "vault-flasher-releases"
+	},
+	"urls": [
+		"https://github.com/markCCGnomes/vault-flasher-releases/releases/download/{github.rawTag}/VaultManager-x64-setup.exe",
+		"https://github.com/markCCGnomes/vault-flasher-releases/releases/download/{github.rawTag}/VaultManager-x64.msi"
+	]
+}
