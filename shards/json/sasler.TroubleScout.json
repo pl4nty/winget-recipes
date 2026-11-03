@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sasler",
+		"repo": "TroubleScout"
+	},
+	"urls": [
+		"https://github.com/sasler/TroubleScout/releases/download/v{version}/TroubleScout-v{version}-win-x64.zip",
+		"https://github.com/sasler/TroubleScout/releases/download/v{version}/TroubleScout-v{version}-win-arm64.zip"
+	]
+}
