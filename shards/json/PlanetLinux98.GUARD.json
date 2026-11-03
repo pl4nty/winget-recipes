@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PlanetLinux98",
+		"repo": "guard"
+	},
+	"urls": [
+		"https://github.com/PlanetLinux98/guard/releases/download/v{version}/GUARD.zip"
+	]
+}
