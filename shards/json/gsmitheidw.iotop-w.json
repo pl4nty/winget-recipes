@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "gsmitheidw",
+		"repo": "iotop-w"
+	},
+	"urls": [
+		"https://github.com/gsmitheidw/iotop-w/releases/download/{github.rawTag}/iotop-w.exe"
+	]
+}
