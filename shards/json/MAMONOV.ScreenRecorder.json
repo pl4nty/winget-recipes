@@ -8,6 +8,9 @@
 		"tagRegex": "^v(?=\\d)"
 	},
 	"urls": [
-		"https://github.com/evgeniymamonov1988z-creator/Zapis-ekrana/releases/download/{github.rawTag}/Ekrannik-Setup.exe"
+		{
+			"url": "https://github.com/evgeniymamonov1988z-creator/Zapis-ekrana/releases/download/{github.rawTag}/Ekrannik-Setup.exe",
+			"architecture": "x64"
+		}
 	]
 }
