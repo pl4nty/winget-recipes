@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "randlee",
+		"repo": "wyvern"
+	},
+	"urls": ["https://github.com/randlee/wyvern/releases/download/v{version}/wyvern_{version}_x86_64-pc-windows-msvc.zip"]
+}
