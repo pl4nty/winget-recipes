@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "takayukiyukii-commits",
+		"repo": "kuzira"
+	},
+	"urls": ["https://github.com/takayukiyukii-commits/kuzira/releases/download/v{version}/KUZIRA-Setup-{version}.exe"]
+}
