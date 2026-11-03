@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.qobuz.com/applications",
+		"regex": "desktop\\.qobuz\\.com/releases/win32/x64/windows7_8_10/(\\d+\\.\\d+\\.\\d+-b\\d+)/Qobuz_Installer\\.exe"
+	},
+	"urls": [
+		"https://desktop.qobuz.com/releases/win32/x64/windows7_8_10/{version}/Qobuz_Installer.exe"
+	]
+}
