@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://voiden.md/api/download/beta/win32/x64/latest.yml",
+		"regex": "^version: (?<version>\\S+)"
+	},
+	"urls": ["https://voiden.md/api/download/beta/win32/x64/Voiden%20Setup%20{version}.exe"]
+}
