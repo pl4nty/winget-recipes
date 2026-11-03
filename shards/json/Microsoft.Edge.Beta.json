@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/9fe30712-0c45-4705-901e-2b3e6dc185d0/MicrosoftEdgeBetaEnterpriseX64.msi",
+		"https://download.microsoft.com/download/9fe30712-0c45-4705-901e-2b3e6dc185d0/MicrosoftEdgeBetaEnterpriseX86.msi",
+		"https://download.microsoft.com/download/9fe30712-0c45-4705-901e-2b3e6dc185d0/MicrosoftEdgeBetaEnterpriseARM64.msi"
+	]
+}
