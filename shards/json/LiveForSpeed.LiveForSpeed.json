@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://nlrtm1-edge2.cdn.i3d.net/o6/brdzjj/LFS_S3_7G_setup.exe"
+	]
+}
