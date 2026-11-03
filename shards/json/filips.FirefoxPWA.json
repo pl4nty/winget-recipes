@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "filips123",
+		"repo": "PWAsForFirefox"
+	},
+	"urls": [
+		"https://github.com/filips123/PWAsForFirefox/releases/download/{github.rawTag}/firefoxpwa-{version}-x86.msi",
+		"https://github.com/filips123/PWAsForFirefox/releases/download/{github.rawTag}/firefoxpwa-{version}-x86_64.msi"
+	]
+}
