@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TiCodeX",
+		"repo": "SQLSchemaCompare"
+	},
+	"urls": [
+		"https://github.com/TiCodeX/SQLSchemaCompare/releases/download/v{version}/SQLSchemaCompare-{version}.exe"
+	]
+}
