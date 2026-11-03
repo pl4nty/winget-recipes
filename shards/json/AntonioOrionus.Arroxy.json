@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "antonio-orionus",
+		"repo": "Arroxy"
+	},
+	"urls": [
+		"https://github.com/antonio-orionus/Arroxy/releases/download/{github.rawTag}/Arroxy-win-x64-Setup.exe"
+	]
+}
