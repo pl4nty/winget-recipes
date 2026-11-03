@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://d00m.tech/releases/doomscroller/",
+		"regex": "href=\"(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": ["https://d00m.tech/releases/doomscroller/{version}/DoomScroller-{version}-win-x64.msi"]
+}
