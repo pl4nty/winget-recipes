@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "YS-L", "repo": "csvlens" },
+	"urls": [
+		"https://github.com/YS-L/csvlens/releases/download/v{version}/csvlens-x86_64-pc-windows-msvc.zip",
+		"https://github.com/YS-L/csvlens/releases/download/v{version}/csvlens-aarch64-pc-windows-msvc.zip"
+	]
+}
