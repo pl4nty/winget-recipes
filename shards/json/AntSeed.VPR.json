@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/AntSeed/antseed/releases/download/v0.2.29/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/AntSeed/antseed/releases/tag/v{version}"
+	}
+}
