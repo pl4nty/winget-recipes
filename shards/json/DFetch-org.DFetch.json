@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dfetch-org",
+		"repo": "dfetch"
+	},
+	"urls": [
+		"https://github.com/dfetch-org/dfetch/releases/download/{github.rawTag}/dfetch-{version}-win.msi"
+	]
+}
