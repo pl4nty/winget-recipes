@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WhiteMagic",
+		"repo": "JoystickGremlin",
+		"tagRegex": "^Release_",
+		"method": "api-sort",
+		"assetRegex": "^(?:Joystick\\.Gremlin\\.R\\d+\\.\\d+\\.zip)$"
+	}
+}
