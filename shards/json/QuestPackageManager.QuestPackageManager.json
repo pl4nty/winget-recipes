@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "QuestPackageManager",
+		"repo": "QPM.CLI"
+	},
+	"urls": [
+		"https://github.com/QuestPackageManager/QPM.CLI/releases/download/v{version}/qpm-windows-x64.zip",
+		"https://github.com/QuestPackageManager/QPM.CLI/releases/download/v{version}/installer-windows-x64.zip",
+		"https://github.com/QuestPackageManager/QPM.CLI/releases/download/v{version}/qpm-windows-arm64.zip"
+	]
+}
