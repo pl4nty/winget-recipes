@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AlexsJones",
+		"repo": "llmfit"
+	},
+	"urls": [
+		"https://github.com/AlexsJones/llmfit/releases/download/{github.rawTag}/llmfit-v{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/AlexsJones/llmfit/releases/download/{github.rawTag}/llmfit-v{version}-aarch64-pc-windows-msvc.zip"
+	]
+}
