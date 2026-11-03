@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Radekyspec", "repo": "StartLive" },
+	"urls": ["https://github.com/Radekyspec/StartLive/releases/download/{version}/StartLive-win-Setup.exe"]
+}
