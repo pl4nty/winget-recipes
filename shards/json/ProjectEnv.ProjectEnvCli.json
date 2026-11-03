@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Project-Env",
+		"repo": "project-env-cli"
+	},
+	"urls": [
+		"https://github.com/Project-Env/project-env-cli/releases/download/v{version}/cli-{version}-windows-amd64-setup.exe"
+	]
+}
