@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "owayo",
+		"repo": "git-smart-commit"
+	},
+	"urls": [
+		"https://github.com/owayo/git-smart-commit/releases/download/v{version}/git-sc-x86_64-pc-windows-msvc.zip"
+	]
+}
