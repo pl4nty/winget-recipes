@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "a2aproject",
+		"repo": "a2a-rs",
+		"tagRegex": "^a\\d+a\\-cli\\-v",
+		"method": "api-sort",
+		"assetRegex": "^(?:a\\d+acli\\-v\\d+\\.\\d+\\.\\d+\\-x86_64\\-pc\\-windows\\-msvc\\.zip)$"
+	}
+}
