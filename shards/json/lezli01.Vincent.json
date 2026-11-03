@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lezli01",
+		"repo": "vincent"
+	},
+	"urls": [
+		"https://github.com/lezli01/vincent/releases/download/{github.rawTag}/vincent_{version}_windows_amd64.zip",
+		"https://github.com/lezli01/vincent/releases/download/{github.rawTag}/vincent_{version}_windows_arm64.zip"
+	]
+}
