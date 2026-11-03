@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "sbatten", "repo": "madm" },
+	"urls": [
+		"https://github.com/sbatten/madm/releases/download/v{version}/madm-{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/sbatten/madm/releases/download/v{version}/madm-{version}-aarch64-pc-windows-msvc.zip"
+	]
+}
