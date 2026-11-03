@@ -5,7 +5,7 @@
 		"url": "https://releases.warp.dev/channel_versions.json",
 		"path": "stable.version"
 	},
-	"version": "v{version}",
+	"version": "vv{version}",
 	"urls": [
 		{
 			"url": "https://app.warp.dev/download/windows?version=v{version}&arch=x86_64",
