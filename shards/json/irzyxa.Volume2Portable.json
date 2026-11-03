@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "irzyxa",
+		"repo": "Volume2",
+		"method": "api-sort",
+		"assetRegex": "^(?:Setup_Volume\\d+_\\d+_\\d+_\\d+_x64\\.zip)$"
+	}
+}
