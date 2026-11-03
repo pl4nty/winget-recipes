@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Buffer124",
+		"repo": "WinNetManager"
+	},
+	"urls": [
+		"https://github.com/Buffer124/WinNetManager/releases/download/{github.rawTag}/WinNetManager.exe"
+	]
+}
