@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "unimails", "repo": "unimail-client" },
+	"urls": [
+		"https://github.com/unimails/unimail-client/releases/download/{github.rawTag}/unimail-client_windows_386.zip",
+		"https://github.com/unimails/unimail-client/releases/download/{github.rawTag}/unimail-client_windows_amd64.zip",
+		"https://github.com/unimails/unimail-client/releases/download/{github.rawTag}/unimail-client_windows_arm64.zip"
+	],
+	"releaseNotes": { "source": "github" }
+}
