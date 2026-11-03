@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JvanKatwijk",
+		"repo": "qt-dab",
+		"method": "api-list",
+		"tagRegex": "^Qt-DAB-",
+		"assetRegex": "^setup-qt-dab64-[\\d.]+-avx2\\.exe$"
+	},
+	"releaseNotes": { "source": "github" }
+}
