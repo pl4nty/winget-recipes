@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://webhelp.tempered.io/webhelp/content/topics/downloads_latest.html",
+		"regex": "release/(?<version>\\d+\\.\\d+\\.\\d+)/windows/AirwallAgent64-bit_\\k<version>\\.(?<build>\\d+)_Installer\\.exe"
+	},
+	"urls": [
+		"https://temperedsoftware.s3.amazonaws.com/release/{version}/windows/AirwallAgent64-bit_{version}.{captures.build}_Installer.exe",
+		"https://temperedsoftware.s3.amazonaws.com/release/{version}/windows/AirwallAgent64-bit_UnattendedInstaller_{version}.{captures.build}.msi"
+	]
+}
