@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tromoSM", "repo": "CryptivisX" },
+	"urls": ["https://github.com/tromoSM/CryptivisX/releases/download/v{version}/CryptivisX-windows-installer.exe"]
+}
