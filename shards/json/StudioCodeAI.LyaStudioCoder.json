@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "StudioCodeAI",
+		"repo": "Lya-Studio-Coder"
+	},
+	"urls": [
+		"https://github.com/StudioCodeAI/Lya-Studio-Coder/releases/download/v{version}/Lya.Studio.Coder_{version}_x64_en-US.msi",
+		"https://github.com/StudioCodeAI/Lya-Studio-Coder/releases/download/v{version}/Lya.Studio.Coder_{version}_x64-setup.exe"
+	]
+}
