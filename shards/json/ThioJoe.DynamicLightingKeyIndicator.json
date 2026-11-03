@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ThioJoe",
+		"repo": "Dynamic-Lighting-Key-Indicator",
+		"method": "api-list",
+		"assetRegex": "^Dynamic-Lighting-Key-Indicator_.*_x64\\.msix$"
+	}
+}
