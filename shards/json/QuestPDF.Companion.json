@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "QuestPDF",
+		"repo": "QuestPDF.Companion"
+	},
+	"urls": [
+		"https://github.com/QuestPDF/QuestPDF.Companion/releases/download/{version}/questpdf_companion-{version}-windows.msix"
+	]
+}
