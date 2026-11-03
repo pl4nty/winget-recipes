@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "claration",
+		"repo": "impactor"
+	},
+	"urls": [
+		"https://github.com/claration/impactor/releases/download/v{version}/Impactor-windows-x86-setup.exe",
+		"https://github.com/claration/impactor/releases/download/v{version}/Impactor-windows-x86_64-setup.exe",
+		"https://github.com/claration/impactor/releases/download/v{version}/Impactor-windows-arm64-setup.exe"
+	],
+	"releaseNotes": { "source": "github" }
+}
