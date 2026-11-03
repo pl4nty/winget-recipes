@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "file" },
+	"version": { "source": "product" },
 	"urls": [
 		{
 			"url": "https://setup.rbxcdn.com/RobloxStudioInstaller.exe",
