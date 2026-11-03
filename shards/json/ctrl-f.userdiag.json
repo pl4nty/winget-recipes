@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://userdiag.com/download?winget"],
+	"state": {
+		"source": "response-header",
+		"url": "https://userdiag.com/download?winget",
+		"header": "content-length"
+	},
+	"replace": true
+}
