@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.xyplorer.com/download.php?bit=64",
+		"regex": "(\\d+\\.\\d+\\.\\d{4}) \\(64-bit"
+	},
+	"urls": [
+		{
+			"url": "https://www.xyplorer.com/download/xyplorer64_{version}.zip",
+			"nestedInstallerMatches": ["_Install.exe"]
+		}
+	]
+}
