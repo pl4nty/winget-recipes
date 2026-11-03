@@ -17,5 +17,7 @@
 			"nestedInstallerMatches": ["FIDO2.1 Manager.exe"]
 		}
 	],
-	"releaseNotes": { "source": "github" }
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/token2/fido2-manage.cpp/releases/tag/{version}"
+	}
 }
