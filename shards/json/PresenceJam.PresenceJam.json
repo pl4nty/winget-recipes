@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Carme99",
+		"repo": "PresenceJam-Desktop"
+	},
+	"urls": [
+		"https://github.com/Carme99/PresenceJam-Desktop/releases/download/v{version}/PresenceJam-v{version}.msi",
+		"https://github.com/Carme99/PresenceJam-Desktop/releases/download/v{version}/PresenceJam-v{version}-setup.exe"
+	]
+}
