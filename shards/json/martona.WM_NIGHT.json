@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "martona",
+		"repo": "WM_NIGHT"
+	},
+	"urls": [
+		"https://github.com/martona/WM_NIGHT/releases/download/v{version}/WM_NIGHT-windows-amd64.msix",
+		"https://github.com/martona/WM_NIGHT/releases/download/v{version}/WM_NIGHT-windows-arm64.msix"
+	]
+}
