@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/products/spencer/",
+		"regex": "title=\"Version (?<version>\\d+(?:\\.\\d+)+) &middot;[^\"]*\">Free Download Spencer\\.zip"
+	},
+	"urls": ["https://the-sz.com/common/get.php?product=spencer&version={version}"],
+	"releaseNotes": { "releaseNotesUrl": "https://the-sz.com/common/history.php?product=spencer" }
+}
