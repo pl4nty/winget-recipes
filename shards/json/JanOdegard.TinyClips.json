@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "janode",
+		"repo": "tiny-clips-win"
+	},
+	"urls": [
+		"https://github.com/janode/tiny-clips-win/releases/download/{github.rawTag}/TinyClips-arm64.zip",
+		"https://github.com/janode/tiny-clips-win/releases/download/{github.rawTag}/TinyClips-x64.zip"
+	]
+}
