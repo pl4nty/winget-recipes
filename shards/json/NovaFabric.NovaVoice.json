@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "novafabric",
+		"repo": "novavoice"
+	},
+	"urls": ["https://github.com/novafabric/novavoice/releases/download/v{version}/NovaVoice-{version}-windows-x64.exe"]
+}
