@@ -1,12 +1,15 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": { "source": "product" },
-	"urls": [{ "url": "https://winstep.net/xtreme.zip", "architecture": "x86" }],
-	"state": {
-		"source": "response-header",
-		"url": "https://winstep.net/xtreme.zip",
-		"header": "etag"
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.winstep.net/news.asp",
+		"regex": "/news/winstep_xtreme_v(\\d+(?:\\.\\d+)+)_released\\.asp"
 	},
-	"replace": true
+	"urls": [
+		{
+			"url": "https://winstep.net/versions/v{version}/xtreme.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["XtremeSetup.exe"]
+		}
+	]
 }
