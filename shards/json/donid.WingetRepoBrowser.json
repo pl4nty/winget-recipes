@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "donid",
+		"repo": "WingetRepoBrowser"
+	},
+	"urls": [
+		"https://github.com/donid/WingetRepoBrowser/releases/download/{github.rawTag}/WingetRepoBrowser_0_3_0.zip"
+	]
+}
