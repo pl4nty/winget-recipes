@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "QL-Win",
+		"repo": "QuickLook"
+	},
+	"urls": [
+		"https://github.com/QL-Win/QuickLook/releases/download/{version}/QuickLook-{version}.msi"
+	],
+	"releaseNotes": { "source": "github" }
+}
