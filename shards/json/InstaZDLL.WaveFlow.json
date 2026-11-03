@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "InstaZDLL",
+		"repo": "WaveFlow"
+	},
+	"urls": [
+		"https://github.com/InstaZDLL/WaveFlow/releases/download/{github.rawTag}/WaveFlow_{version}_windows-x86_64-setup.exe",
+		"https://github.com/InstaZDLL/WaveFlow/releases/download/{github.rawTag}/WaveFlow_{version}_windows-x86_64.msi"
+	]
+}
