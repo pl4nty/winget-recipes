@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "eitsupi",
+		"repo": "arf"
+	},
+	"urls": [
+		"https://github.com/eitsupi/arf/releases/download/{github.rawTag}/arf-console-aarch64-pc-windows-msvc.zip",
+		"https://github.com/eitsupi/arf/releases/download/{github.rawTag}/arf-console-x86_64-pc-windows-msvc.zip"
+	]
+}
