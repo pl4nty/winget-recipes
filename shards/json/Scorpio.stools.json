@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qingfeng346",
+		"repo": "stools"
+	},
+	"urls": [
+		"https://github.com/qingfeng346/stools/releases/download/v{version}/stools-{version}-win-x86.zip",
+		"https://github.com/qingfeng346/stools/releases/download/v{version}/stools-{version}-win-x64.zip",
+		"https://github.com/qingfeng346/stools/releases/download/v{version}/stools-{version}-win-arm.zip",
+		"https://github.com/qingfeng346/stools/releases/download/v{version}/stools-{version}-win-arm64.zip"
+	]
+}
