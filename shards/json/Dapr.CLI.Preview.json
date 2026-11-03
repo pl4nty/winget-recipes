@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dapr",
+		"repo": "cli",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/dapr/cli/releases/download/{github.rawTag}/dapr.msi"
+	]
+}
