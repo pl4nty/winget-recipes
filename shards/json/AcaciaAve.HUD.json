@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "acaciaavellc",
+		"repo": "Heads-Up-Display",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/acaciaavellc/Heads-Up-Display/releases/download/{github.rawTag}/AcaciaAve-HUD-Personal-x64.msi",
+		"https://github.com/acaciaavellc/Heads-Up-Display/releases/download/{github.rawTag}/AcaciaAve-HUD-Personal-ARM64.msi"
+	]
+}
