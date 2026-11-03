@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://veecad.com/downloads.html",
+		"regex": "VeeCAD_(?<version>\\d+_\\d+_\\d+)_(?<build>\\d+)\\.zip"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		{
+			"url": "https://veecad.com/downloads/VeeCAD_{captures.version}_{captures.build}.zip",
+			"architecture": "x86"
+		}
+	]
+}
