@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://www.viflow.de/files/media/downloads/programme/viflow-8/viflow%20Suite%20x64.exe",
+		"https://www.viflow.de/files/media/downloads/programme/viflow-8/viflow%20Suite%20x86.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.viflow.de/files/media/downloads/programme/viflow-8/viflow%20Suite%20x64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
