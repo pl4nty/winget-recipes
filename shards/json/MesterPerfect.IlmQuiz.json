@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MesterPerfect",
+		"repo": "IlmQuiz"
+	},
+	"urls": ["https://github.com/MesterPerfect/IlmQuiz/releases/download/v{version}/IlmQuiz_Setup_v{version}.exe"]
+}
