@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "russmckendrick",
+		"repo": "aicommit"
+	},
+	"urls": ["https://github.com/russmckendrick/aicommit/releases/download/v{version}/aic-windows-amd64.exe"]
+}
