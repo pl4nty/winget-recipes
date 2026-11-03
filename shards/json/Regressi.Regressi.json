@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://regressi.fr/zip/Regressi.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://regressi.fr/zip/Regressi.msi",
+		"header": "last-modified"
+	},
+	"replace": true
+}
