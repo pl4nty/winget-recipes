@@ -13,6 +13,5 @@
 		"https://github.com/desktop/desktop/releases/download/release-{version}/GitHubDesktopSetup-arm64.exe",
 		"https://github.com/desktop/desktop/releases/download/release-{version}/GitHubDesktopSetup-x64.msi",
 		"https://github.com/desktop/desktop/releases/download/release-{version}/GitHubDesktopSetup-arm64.msi"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
