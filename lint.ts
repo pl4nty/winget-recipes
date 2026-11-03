@@ -49,6 +49,15 @@ const versionState: Rule = async (shards, report) => {
 	}
 };
 
+const releaseNotesUrl: Rule = async (shards, report) => {
+	for (const shard of shards) {
+		const contents = await readFile(shard, 'utf8');
+		const { strategy, releaseNotes } = shard.endsWith('.json') ? JSON.parse(contents) : {};
+		const url = shard.endsWith('.json') ? releaseNotes?.releaseNotesUrl : /\breleaseNotesUrl\s*:/.test(contents);
+		if (strategy !== 'github-release' && !url) report(shard, 'shard does not set releaseNotes.releaseNotesUrl');
+	}
+};
+
 const ROOT = new Set(['PackageIdentifier', 'PackageVersion', 'ManifestType', 'ManifestVersion']);
 // komac drops InstallerLocale on update, and shards cannot set it.
 const IGNORED = /(^|\.)InstallerLocale$/;
@@ -112,15 +121,18 @@ const rules: Record<string, Rule> = {
 	maintained,
 	'shard-urls': shardUrls,
 	'version-state': versionState,
+	'release-notes-url': releaseNotesUrl,
 	...(process.argv.includes('--dry-run') && { 'dropped-fields': droppedFields }),
 };
 
+const WARNINGS = new Set(['release-notes-url']);
 const shards = (await Array.fromAsync(glob('shards/{json,script}/*.{json,ts}'))).sort();
 let errors = 0;
 for (const [name, rule] of Object.entries(rules)) {
 	await rule(shards, (file, message) => {
-		errors++;
-		console.log(`::error file=${file},title=${name}::${message}`);
+		const level = WARNINGS.has(name) ? 'warning' : 'error';
+		if (level === 'error') errors++;
+		console.log(`::${level} file=${file},title=${name}::${message}`);
 	});
 }
 if (errors > 0) process.exit(1);
