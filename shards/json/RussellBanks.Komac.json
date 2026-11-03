@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "russellbanks", "repo": "Komac" },
+	"urls": [
+		"https://github.com/russellbanks/Komac/releases/download/{github.rawTag}/komac-setup-{version}-x86_64-pc-windows-msvc.exe",
+		"https://github.com/russellbanks/Komac/releases/download/{github.rawTag}/komac-setup-{version}-aarch64-pc-windows-msvc.exe"
+	]
+}
