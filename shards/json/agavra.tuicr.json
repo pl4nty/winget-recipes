@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "agavra", "repo": "tuicr" },
+	"urls": ["https://github.com/agavra/tuicr/releases/download/{github.rawTag}/tuicr-{version}-x86_64-pc-windows-msvc.zip"],
+	"releaseNotes": { "source": "github" }
+}
