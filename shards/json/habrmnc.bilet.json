@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Habeeb-Rahman-CA",
+		"repo": "bilet",
+		"tagRegex": "^bilet\\-v"
+	},
+	"urls": [
+		"https://github.com/Habeeb-Rahman-CA/bilet/releases/download/{github.rawTag}/bilet_{version}_x64-setup.exe",
+		"https://github.com/Habeeb-Rahman-CA/bilet/releases/download/{github.rawTag}/bilet_{version}_x64_en-US.msi"
+	]
+}
