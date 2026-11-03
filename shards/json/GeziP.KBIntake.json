@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GeziP",
+		"repo": "windows-rightclick-vault-import"
+	},
+	"urls": [
+		"https://github.com/GeziP/windows-rightclick-vault-import/releases/download/{github.rawTag}/KBIntake-Setup.exe"
+	]
+}
