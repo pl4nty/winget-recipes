@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ravitz-Computers",
+		"repo": "webbit",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "-beta\\.\\d+$",
+		"assetRegex": "^Webbit-.*Setup\\.exe$"
+	}
+}
