@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "render-oss",
+		"repo": "cli"
+	},
+	"urls": [
+		"https://github.com/render-oss/cli/releases/download/v{version}/cli_{version}_windows_amd64.zip",
+		"https://github.com/render-oss/cli/releases/download/v{version}/cli_{version}_windows_arm64.zip",
+		"https://github.com/render-oss/cli/releases/download/v{version}/cli_{version}_windows_386.zip"
+	]
+}
