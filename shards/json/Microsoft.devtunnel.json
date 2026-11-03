@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://tunnelsassetsprod.blob.core.windows.net/cli/1.0.2115+e16833f284/devtunnel.exe"
+	]
+}
