@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "pratham15541", "repo": "disktracker" },
+	"urls": [
+		"https://github.com/pratham15541/disktracker/releases/download/v{version}/disktracker-v{version}-windows-x64.zip"
+	]
+}
