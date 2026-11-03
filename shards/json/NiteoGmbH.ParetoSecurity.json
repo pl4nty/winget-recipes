@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ParetoSecurity",
+		"repo": "agent"
+	},
+	"urls": ["https://github.com/ParetoSecurity/agent/releases/download/{version}/paretosecurity-installer-amd64.exe"]
+}
