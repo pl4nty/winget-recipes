@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://download.fileforum.com/download/1099412658-1/iview476_plugins_setup.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://download.fileforum.com/download/1099412658-1/iview476_plugins_x64_setup.exe",
+			"architecture": "x64"
+		}
+	]
+}
