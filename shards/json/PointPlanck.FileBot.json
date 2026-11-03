@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://get.filebot.net/filebot/",
+		"regex": "href=\"FileBot_(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": [
+		"https://get.filebot.net/filebot/FileBot_{version}/FileBot_{version}_x64.msi",
+		"https://get.filebot.net/filebot/FileBot_{version}/FileBot_{version}_arm64.msi"
+	]
+}
