@@ -8,7 +8,10 @@ const download = (type: string, version?: string) =>
 	`https://portswigger.net/burp/releases/download?product=community${version ? `&version=${version}` : ''}&type=${type}`;
 
 export default defineShard(async () => {
-	const response = await fetch(download('WindowsX64'), { headers: { range: 'bytes=0-0' } });
+	const response = await fetch(download('WindowsX64'), {
+		headers: { range: 'bytes=0-0' },
+		signal: AbortSignal.timeout(60_000),
+	});
 	await response.body?.cancel();
 	const disposition = response.headers.get('content-disposition') ?? '';
 	const build = /burpsuite_community_windows-x64_v(\d+(?:_\d+)+)\.exe/i.exec(disposition)?.[1];
@@ -16,7 +19,7 @@ export default defineShard(async () => {
 	const version = build.replaceAll('_', '.');
 
 	const releaseNotesUrl = `https://portswigger.net/burp/releases/professional-community-${version.replaceAll('.', '-')}`;
-	const page = await fetch(releaseNotesUrl).then((response) => response.text());
+	const page = await fetch(releaseNotesUrl, { signal: AbortSignal.timeout(60_000) }).then((response) => response.text());
 	const article = /<!-- Article Start -->([\s\S]*?)<!-- Article End -->/.exec(page)?.[1]?.trim();
 
 	return {
