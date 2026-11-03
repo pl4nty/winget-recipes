@@ -7,6 +7,5 @@
 		"method": "api-list",
 		"tagRegex": "^Qt-DAB-",
 		"assetRegex": "^setup-qt-dab64-[\\d.]+-avx2\\.exe$"
-	},
-	"releaseNotes": { "source": "github" }
+	}
 }
