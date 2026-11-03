@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": "1.0",
 	"urls": [{ "url": "https://dl.pokemmo.com/pokemmo-installer-windows.exe", "architecture": "x86" }],
 	"state": {
 		"source": "response-header",
