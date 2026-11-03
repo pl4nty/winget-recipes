@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.alldup.info/en/alldup/download.php",
+		"regex": "version-history\\.php\">(\\d+(?:\\.\\d+)+)</a>"
+	},
+	"urls": ["https://www.alldup.info/download/AllDupSetup.exe"]
+}
