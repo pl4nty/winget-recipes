@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RankFTW",
+		"repo": "RHI",
+		"tagRegex": "^RHI-"
+	},
+	"urls": ["https://github.com/RankFTW/RHI/releases/download/{github.rawTag}/RHI-Setup.exe"]
+}
