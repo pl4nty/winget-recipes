@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://c2rsetup.edog.officeapps.live.com/c2r/downloadEdge.aspx?platform=X86&source=EdgeInsiderPage&Channel=Canary&language=en-US&brand=M103"
+	]
+}
