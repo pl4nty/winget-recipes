@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "techygeekshome",
+		"repo": "AuthGeek"
+	},
+	"urls": ["https://github.com/techygeekshome/AuthGeek/releases/download/v{version}/AuthGeekSetup.exe"]
+}
