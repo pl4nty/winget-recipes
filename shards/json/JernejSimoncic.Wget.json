@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://eternallybored.org/misc/wget/",
+		"regex": "href=\"(?<version>\\d+(?:\\.\\d+)+)/64/wget\\.exe\""
+	},
+	"urls": [
+		{
+			"url": "https://eternallybored.org/misc/wget/{version}/64/wget.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://eternallybored.org/misc/wget/{version}/32/wget.exe",
+			"architecture": "x86"
+		}
+	]
+}
