@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "MicrosoftAzureCloudHSM",
+		"tagRegex": "^AzureCloudHSM\\-ClientSDK\\-"
+	},
+	"urls": [
+		"https://github.com/microsoft/MicrosoftAzureCloudHSM/releases/download/AzureCloudHSM-ClientSDK-{version}/AzureCloudHSM-ClientSDK-Windows-{version}.msi"
+	]
+}
