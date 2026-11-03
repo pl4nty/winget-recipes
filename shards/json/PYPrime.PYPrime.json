@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "monabuntur", "repo": "PYPrime-2.x" },
+	"urls": [
+		"https://github.com/monabuntur/PYPrime-2.x/releases/download/{github.rawTag}/PYPrime.{github.rawTag}.Installer.exe"
+	]
+}
