@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PhaseLockLabs",
+		"repo": "spedy-releases"
+	},
+	"urls": [
+		"https://github.com/PhaseLockLabs/spedy-releases/releases/download/v{version}/spedyctl-x86_64-pc-windows-msvc.msi"
+	]
+}
