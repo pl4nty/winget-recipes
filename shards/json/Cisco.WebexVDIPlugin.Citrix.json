@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://binaries.webex.com/WebexTeamsDesktop-Windows-VDI-gold-Production/20250815094908/WebexVDIPlugin.msi"
+	]
+}
