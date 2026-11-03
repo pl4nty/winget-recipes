@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "GDK",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "^RIT-\\d+-v"
+	},
+	"urls": [
+		"https://github.com/microsoft/GDK/releases/download/{github.rawTag}/Microsoft.Gaming.RemoteIterationClient-{version}.zip"
+	]
+}
