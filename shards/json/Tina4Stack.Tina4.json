@@ -5,5 +5,8 @@
 		"owner": "tina4stack",
 		"repo": "tina4"
 	},
-	"urls": ["https://github.com/tina4stack/tina4/releases/download/v{version}/tina4-windows-amd64.exe"]
+	"urls": ["https://github.com/tina4stack/tina4/releases/download/v{version}/tina4-windows-amd64.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/tina4stack/tina4/releases/tag/v{version}"
+	}
 }
