@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Soundux",
+		"repo": "Soundux"
+	},
+	"urls": ["https://github.com/Soundux/Soundux/releases/download/{version}/soundux-{version}-windows-portable.exe"]
+}
