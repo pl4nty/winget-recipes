@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KevinDoremy",
+		"repo": "SearchDeadCode"
+	},
+	"urls": [
+		"https://github.com/KevinDoremy/SearchDeadCode/releases/download/{github.rawTag}/searchdeadcode-windows-x86_64.exe"
+	]
+}
