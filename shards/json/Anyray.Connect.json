@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "anyrayHQ",
+		"repo": "install",
+		"tagRegex": "^connect\\-v"
+	},
+	"urls": [
+		"https://github.com/anyrayHQ/install/releases/download/{github.rawTag}/anyray-connect-windows-x64.exe"
+	]
+}
