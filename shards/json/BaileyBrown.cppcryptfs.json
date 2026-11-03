@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bailey27",
+		"repo": "cppcryptfs"
+	},
+	"urls": [
+		"https://github.com/bailey27/cppcryptfs/releases/download/{github.rawTag}/cppcryptfs_32.exe",
+		"https://github.com/bailey27/cppcryptfs/releases/download/{github.rawTag}/cppcryptfs.exe",
+		"https://github.com/bailey27/cppcryptfs/releases/download/{github.rawTag}/cppcryptfs_arm64.exe"
+	],
+	"releaseNotes": { "source": "github" }
+}
