@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ellipse-software",
+		"repo": "bast"
+	},
+	"urls": [
+		"https://github.com/ellipse-software/bast/releases/download/{github.rawTag}/bast_{version}_windows_amd64.zip",
+		"https://github.com/ellipse-software/bast/releases/download/{github.rawTag}/bast_{version}_windows_arm64.zip"
+	]
+}
