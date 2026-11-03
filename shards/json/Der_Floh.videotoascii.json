@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Der-Floh",
+		"repo": "Video-To-Ascii"
+	},
+	"urls": ["https://github.com/Der-Floh/Video-To-Ascii/releases/download/v{version}/VideoToAscii-v{version}.zip"]
+}
