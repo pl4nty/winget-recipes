@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ClementTsang",
+		"repo": "bottom"
+	},
+	"urls": [
+		"https://github.com/ClementTsang/bottom/releases/download/{version}/bottom_x86_64_installer.msi",
+		"https://github.com/ClementTsang/bottom/releases/download/{version}/bottom_aarch64_installer.msi"
+	]
+}
