@@ -6,6 +6,20 @@ type Release = {
 	downloads: Record<string, { link: string } | undefined>;
 };
 
+// YouTrack serves the release notes article body as Markdown through its REST API.
+const notes = (releaseNotesUrl: string) => {
+	const article = /\/articles\/([^/]+)/.exec(releaseNotesUrl)?.[1];
+	if (!article) return { releaseNotesUrl };
+	return {
+		source: 'json' as const,
+		sourceUrl: `https://youtrack.jetbrains.com/api/articles/${article}?fields=content`,
+		path: 'content',
+		nestedSource: 'markdown' as const,
+		cleanup: false,
+		releaseNotesUrl,
+	};
+};
+
 export default defineShard(async () => {
 	const { PCC: releases }: { PCC: Release[] } = await fetch(
 		'https://data.services.jetbrains.com/products/releases?code=PCC&type=release',
@@ -25,7 +39,7 @@ export default defineShard(async () => {
 		version: release.version,
 		urls: () => [windows.link, windowsARM64.link],
 		...(release.notesLink && {
-			releaseNotes: { releaseNotesUrl: release.notesLink },
+			releaseNotes: notes(release.notesLink),
 		}),
 	};
 });
