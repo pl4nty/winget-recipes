@@ -4,8 +4,8 @@
 	"github": {
 		"owner": "gawindx",
 		"repo": "WinNUT-Client",
-		"method": "api-list",
-		"tagRegex": "^v?\\d+\\.\\d+\\.\\d{4}\\.\\d+$"
+		"method": "api-sort",
+		"tagRegex": "^v?(?=\\d+\\.\\d+\\.\\d{4}\\.\\d+$)"
 	},
 	"urls": ["https://github.com/gawindx/WinNUT-Client/releases/download/{github.rawTag}/WinNUT-Setup.msi"]
 }
