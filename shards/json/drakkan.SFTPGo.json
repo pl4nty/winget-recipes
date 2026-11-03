@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "drakkan",
+		"repo": "sftpgo"
+	},
+	"urls": [
+		"https://github.com/drakkan/sftpgo/releases/download/{github.rawTag}/sftpgo_v{version}_windows_arm64.exe",
+		"https://github.com/drakkan/sftpgo/releases/download/{github.rawTag}/sftpgo_v{version}_windows_portable.zip",
+		"https://github.com/drakkan/sftpgo/releases/download/{github.rawTag}/sftpgo_v{version}_windows_x86.exe",
+		"https://github.com/drakkan/sftpgo/releases/download/{github.rawTag}/sftpgo_v{version}_windows_x86_64.exe"
+	]
+}
