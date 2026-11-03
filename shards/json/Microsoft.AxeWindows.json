@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "axe-windows"
+	},
+	"urls": [
+		"https://github.com/microsoft/axe-windows/releases/download/v{version}/AxeWindowsCLI-{version}.msi"
+	]
+}
