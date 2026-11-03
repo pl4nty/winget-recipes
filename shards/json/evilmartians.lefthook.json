@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "evilmartians",
+		"repo": "lefthook"
+	},
+	"urls": [
+		"https://github.com/evilmartians/lefthook/releases/download/{github.rawTag}/lefthook_{version}_Windows_arm64.exe",
+		"https://github.com/evilmartians/lefthook/releases/download/{github.rawTag}/lefthook_{version}_Windows_i386.exe",
+		"https://github.com/evilmartians/lefthook/releases/download/{github.rawTag}/lefthook_{version}_Windows_x86_64.exe"
+	]
+}
