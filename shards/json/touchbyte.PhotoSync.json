@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.photosync-app.com/downloads",
+		"regex": "PhotoSync Companion for Windows</h2>\\s*<p class=\"version text-center\">Version (?<version>\\d+(?:\\.\\d+)+)<br>[\\s\\S]*?publish/win/photosync_setup\\.(?<build>\\d+)/photosync_setup\\.exe"
+	},
+	"urls": ["https://www.photosync-app.com/tl_files/photosync/publish/win/photosync_setup.{captures.build}/photosync_setup.exe"]
+}
