@@ -26,7 +26,7 @@ export default defineShard(async () => {
 		],
 		releaseNotes: {
 			source: 'html',
-			sourceUrl: `data:text/html,${encodeURIComponent(notes)}`,
+			sourceUrl: `data:text/html,${encodeURIComponent(notes.replace(/<\/?blockquote>/g, ''))}`,
 			releaseNotesUrl: `${page}#${anchor}`,
 			cleanup: false,
 		},
