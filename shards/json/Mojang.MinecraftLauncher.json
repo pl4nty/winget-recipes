@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://launcher.mojang.com/download/MinecraftInstaller.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://launcher.mojang.com/download/MinecraftInstaller.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
