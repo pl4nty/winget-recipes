@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "zack-zzq", "repo": "skillmux" },
+	"urls": [
+		"https://github.com/zack-zzq/skillmux/releases/download/v{version}/skillmux-{version}-x86_64-pc-windows-msvc.exe",
+		"https://github.com/zack-zzq/skillmux/releases/download/v{version}/skillmux-{version}-aarch64-pc-windows-msvc.exe"
+	]
+}
