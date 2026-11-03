@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "drrakendu78",
+		"repo": "UniCreate"
+	},
+	"urls": [
+		"https://github.com/drrakendu78/UniCreate/releases/download/{github.rawTag}/UniCreate_{version}_x64-setup.exe",
+		"https://github.com/drrakendu78/UniCreate/releases/download/{github.rawTag}/UniCreate_{version}_x64_en-US.msi"
+	]
+}
