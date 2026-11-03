@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dl.acdsystems.com/acdsee/en/acdsee-gemstone-photo-editor-15-0-0-1449-win-en.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.acdsee.com/en/support/gemstone-photo-editor/changelog/#:~:text=Version-,{version},-("
+	}
+}
