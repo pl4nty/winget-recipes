@@ -5,5 +5,8 @@
 		"url": "https://www.gimp.org/gimp_versions.json",
 		"regex": "\"version\":\\s*\"(?<version>(?<minor>\\d+\\.\\d+)\\.\\d+)\"[\\s\\S]*?\"windows\":\\s*\\[\\s*\\{[^}]*?\"filename\":\\s*\"(?<file>gimp-[^\"]+-setup[^\"]*\\.exe)\""
 	},
-	"urls": ["https://download.gimp.org/gimp/v{captures.minor}/windows/{captures.file}"]
+	"urls": [
+		{ "url": "https://download.gimp.org/gimp/v{captures.minor}/windows/{captures.file}", "architecture": "x64" },
+		{ "url": "https://download.gimp.org/gimp/v{captures.minor}/windows/{captures.file}", "architecture": "arm64" }
+	]
 }
