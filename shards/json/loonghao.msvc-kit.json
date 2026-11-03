@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "loonghao",
+		"repo": "msvc-kit"
+	},
+	"urls": [
+		"https://github.com/loonghao/msvc-kit/releases/download/{github.rawTag}/msvc-kit-x86_64-windows.exe"
+	]
+}
