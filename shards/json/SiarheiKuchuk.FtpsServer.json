@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "drweb86",
+		"repo": "dotnet-ftps-server"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/drweb86/dotnet-ftps-server/releases/download/{github.rawTag}/ftpsserver_{version}_windows_setup.exe",
+			"architecture": "arm64"
+		},
+		{
+			"url": "https://github.com/drweb86/dotnet-ftps-server/releases/download/{github.rawTag}/ftpsserver_{version}_windows_setup.exe",
+			"architecture": "x64"
+		}
+	]
+}
