@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.grunt.io/api/download",
+		"regex": "\"winX64Url\":\"(?<x64>[^\"]*/grunt-(?<release>\\d+\\.\\d+)-r(?<revision>\\d+)-(?<build>\\d+)-[^\"]*\\.msi)\"[\\s\\S]*?\"winX86Url\":\"(?<x86>[^\"]*\\.msi)\""
+	},
+	"version": "{captures.release}.{captures.revision}.{captures.build}",
+	"urls": ["{captures.x64}", "{captures.x86}"],
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://www.grunt.io/api/release-notes",
+		"path": "0.notes",
+		"nestedSource": "markdown",
+		"releaseNotesUrl": "https://www.grunt.io/release-version/{captures.release}",
+		"cleanup": false
+	}
+}
