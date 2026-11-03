@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kandy87",
+		"repo": "LogLens-Python"
+	},
+	"urls": [
+		"https://github.com/kandy87/LogLens-Python/releases/download/{github.rawTag}/LogLensSetup-{version}.exe"
+	]
+}
