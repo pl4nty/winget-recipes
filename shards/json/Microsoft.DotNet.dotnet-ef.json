@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://globalcdn.nuget.org/packages/dotnet-ef.10.0.7.nupkg"
+	]
+}
