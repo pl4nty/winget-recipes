@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SabakiHQ",
+		"repo": "Sabaki"
+	},
+	"urls": [
+		"https://github.com/SabakiHQ/Sabaki/releases/download/v{version}/sabaki-v{version}-win-x64-setup.exe",
+		"https://github.com/SabakiHQ/Sabaki/releases/download/v{version}/sabaki-v{version}-win-x64-portable.exe"
+	]
+}
