@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mono", "repo": "gtk-sharp" },
+	"urls": ["https://github.com/mono/gtk-sharp/releases/download/{version}/gtk-sharp-{version}.msi"]
+}
