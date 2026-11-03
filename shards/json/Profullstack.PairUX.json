@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "profullstack",
+		"repo": "pairux.com"
+	},
+	"urls": ["https://github.com/profullstack/pairux.com/releases/download/v{version}/PairUX.Setup.{version}.exe"]
+}
