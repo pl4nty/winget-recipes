@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Matt-17",
+		"repo": "QTiles"
+	},
+	"urls": [
+		"https://github.com/Matt-17/QTiles/releases/download/{github.rawTag}/QTiles-{version}-x64.msi"
+	]
+}
