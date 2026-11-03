@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "michaelsanford", "repo": "mdr" },
+	"urls": [
+		"https://github.com/michaelsanford/mdr/releases/download/v{version}/mdr-v{version}-win-x64.zip",
+		"https://github.com/michaelsanford/mdr/releases/download/v{version}/mdr-v{version}-win-arm64.zip"
+	]
+}
