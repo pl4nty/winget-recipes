@@ -20,7 +20,11 @@ export default defineShard(async () => {
 		urls: () => [
 			`https://github.com/git-for-windows/git/releases/download/${release.rawTag}/MinGit-${version}-busybox-32-bit.zip`,
 			`https://github.com/git-for-windows/git/releases/download/${release.rawTag}/MinGit-${version}-busybox-64-bit.zip`,
-			`https://github.com/git-for-windows/git/releases/download/${release.rawTag}/MinGit-${version}-busybox-arm64.zip`,
+			{
+				url: `https://github.com/git-for-windows/git/releases/download/${release.rawTag}/MinGit-${version}-busybox-arm64.zip`,
+				architecture: 'arm64',
+				nestedInstallerMatches: ['cmd/git-receive-pack.exe', 'cmd/git-upload-pack.exe', 'cmd/git.exe', 'cmd/scalar.exe'],
+			},
 		],
 		releaseNotes: {
 			releaseNotesUrl: `https://github.com/git-for-windows/git/releases/tag/${release.rawTag}`,
