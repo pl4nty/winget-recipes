@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://duncansmith.tech/apps/winclip/",
+		"regex": "/apps/winclip/releases/v(?<version>\\d+(?:\\.\\d+)+)/WinClip-[\\d.]+-x64-Setup\\.exe"
+	},
+	"urls": [
+		"https://duncansmith.tech/apps/winclip/releases/v{version}/WinClip-{version}-x64-Setup.exe",
+		"https://duncansmith.tech/apps/winclip/releases/v{version}/WinClip-{version}-arm64-Setup.exe"
+	]
+}
