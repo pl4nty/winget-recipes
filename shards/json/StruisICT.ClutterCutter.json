@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "StruisICT",
+		"repo": "ClutterCutter"
+	},
+	"urls": ["https://github.com/StruisICT/ClutterCutter/releases/download/v{version}/ClutterCutter.msi"]
+}
