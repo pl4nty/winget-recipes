@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Cognirush-Labs-LLP",
+		"repo": "icompress-win"
+	},
+	"urls": [
+		"https://github.com/Cognirush-Labs-LLP/icompress-win/releases/download/{github.rawTag}/MassImageCompressorInstallerV4_2_2.exe"
+	]
+}
