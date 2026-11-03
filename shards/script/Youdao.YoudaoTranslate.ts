@@ -29,5 +29,21 @@ export default defineShard(async () => {
 		throw new Error('No FileVersion or ProductVersion found in YoudaoDictSetup.exe');
 	}
 
-	return { version, urls: () => [installer], state: url, releaseNotes: notes };
+	// The release notes page renders this config's logList; use the entry for this version when it is listed
+	const config = 'https://api-overmind.youdao.com/openapi/get/luna/dict/luna-front/prod/cidianConfig';
+	const { data } = await ky(config).json<{ data: { value: { logList: { version: string }[] } } }>();
+	const index = data.value.logList.findIndex((entry) => entry.version.replace(/^v/, '') === version);
+	const releaseNotes =
+		index === -1
+			? notes
+			: {
+					source: 'json' as const,
+					sourceUrl: config,
+					path: `data.value.logList.${index}.desc.0`,
+					nestedSource: 'plain-text' as const,
+					cleanup: false,
+					...notes,
+				};
+
+	return { version, urls: () => [installer], state: url, releaseNotes: releaseNotes };
 });
