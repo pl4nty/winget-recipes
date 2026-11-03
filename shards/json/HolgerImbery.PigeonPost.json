@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "holgerimbery",
+		"repo": "PigeonPost"
+	},
+	"urls": [
+		"https://github.com/holgerimbery/PigeonPost/releases/download/{github.rawTag}/PigeonPost-win-arm64-Setup.exe",
+		"https://github.com/holgerimbery/PigeonPost/releases/download/{github.rawTag}/PigeonPost-win-x64-Setup.exe"
+	]
+}
