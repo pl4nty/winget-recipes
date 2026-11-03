@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://releases.routebase.dev/desktop/latest.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://releases.routebase.dev/desktop/{version}/Routebase_{version}_x64-setup.exe",
+		"https://releases.routebase.dev/desktop/{version}/Routebase_{version}_x64_en-US.msi"
+	],
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://releases.routebase.dev/desktop/latest.json",
+		"path": "notes",
+		"nestedSource": "plain-text",
+		"releaseNotesUrl": "https://docs.routebase.dev/release-notes/",
+		"cleanup": false
+	}
+}
