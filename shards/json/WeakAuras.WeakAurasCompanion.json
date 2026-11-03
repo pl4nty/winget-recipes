@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WeakAuras",
+		"repo": "WeakAuras-Companion"
+	},
+	"urls": ["https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v{version}/WeakAuras-Companion-Setup-{version}.exe"]
+}
