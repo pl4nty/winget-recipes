@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "maximmax42",
+		"repo": "Discord-CustomRP"
+	},
+	"urls": ["https://github.com/maximmax42/Discord-CustomRP/releases/download/{version}/CustomRP.{version}.exe"]
+}
