@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xudesheng",
+		"repo": "quorum"
+	},
+	"urls": [
+		"https://github.com/xudesheng/quorum/releases/download/{github.rawTag}/quorum-v{version}-windows-x64.zip"
+	]
+}
