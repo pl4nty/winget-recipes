@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "conventoangelo",
+		"repo": "OverKeys"
+	},
+	"urls": [
+		"https://github.com/conventoangelo/OverKeys/releases/download/{github.rawTag}/overkeys_{version}_x64_setup.exe"
+	]
+}
