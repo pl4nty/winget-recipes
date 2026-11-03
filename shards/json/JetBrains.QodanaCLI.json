@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JetBrains",
+		"repo": "qodana-cli"
+	},
+	"urls": [
+		"https://github.com/JetBrains/qodana-cli/releases/download/{github.rawTag}/qodana_windows_arm64.zip",
+		"https://github.com/JetBrains/qodana-cli/releases/download/{github.rawTag}/qodana_windows_x86_64.zip"
+	]
+}
