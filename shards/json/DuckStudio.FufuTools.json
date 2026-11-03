@@ -5,6 +5,5 @@
 		"owner": "DuckDuckStudio",
 		"repo": "Fufu_Tools"
 	},
-	"urls": ["https://github.com/DuckDuckStudio/Fufu_Tools/releases/download/{github.rawTag}/Fufu_Tools_Setup.{github.rawTag}.exe"],
-	"releaseNotes": { "source": "github" }
+	"urls": ["https://github.com/DuckDuckStudio/Fufu_Tools/releases/download/{github.rawTag}/Fufu_Tools_Setup.{github.rawTag}.exe"]
 }
