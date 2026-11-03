@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://s3.amazonaws.com/outline-releases/manager/windows/stable/Outline-Manager.exe"
+	]
+}
