@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://virt-manager.org/download.html",
+		"regex": "https://gitlab\\.com/virt-viewer/virt-viewer/-/releases/(?<tag>v[\\d.]+)/downloads/virt-viewer-x64-(?<build>\\d+(?:\\.\\d+)*-\\d+(?:\\.\\d+)*)\\.msi"
+	},
+	"version": { "source": "product" },
+	"state": { "source": "value", "value": "{captures.build}" },
+	"urls": [
+		"https://gitlab.com/virt-viewer/virt-viewer/-/releases/{captures.tag}/downloads/virt-viewer-x64-{captures.build}.msi",
+		"https://gitlab.com/virt-viewer/virt-viewer/-/releases/{captures.tag}/downloads/virt-viewer-x86-{captures.build}.msi"
+	]
+}
