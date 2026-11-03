@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ThioJoe",
+		"repo": "win-svg-thumbs-rust"
+	},
+	"urls": [
+		"https://github.com/ThioJoe/win-svg-thumbs-rust/releases/download/v{version}/SVG-Thumbnail-Extension-Installer_{version}_x64.msi",
+		"https://github.com/ThioJoe/win-svg-thumbs-rust/releases/download/v{version}/SVG-Thumbnail-Extension-Installer_{version}_arm64.msi"
+	]
+}
