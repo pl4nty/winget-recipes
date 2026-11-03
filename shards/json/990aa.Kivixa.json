@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "990aa",
+		"repo": "Kivixa",
+		"method": "api-latest",
+		"assetRegex": "^(?:Kivixa\\-Setup\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
