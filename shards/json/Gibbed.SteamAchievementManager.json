@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gibbed",
+		"repo": "SteamAchievementManager"
+	},
+	"urls": [
+		"https://github.com/gibbed/SteamAchievementManager/releases/download/{github.rawTag}/SteamAchievementManager-{version}.zip"
+	]
+}
