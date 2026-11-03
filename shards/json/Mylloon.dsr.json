@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://git.mylloon.fr/api/v1/repos/Anri/dsr/releases/latest",
+		"path": "tag_name"
+	},
+	"urls": ["https://git.mylloon.fr/Anri/dsr/releases/download/{version}/dsr-win32-x64-{version}.zip"],
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://git.mylloon.fr/api/v1/repos/Anri/dsr/releases/latest",
+		"path": "body",
+		"nestedSource": "markdown",
+		"cleanup": false
+	}
+}
