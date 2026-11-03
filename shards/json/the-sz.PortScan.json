@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/products/portscan/",
+		"regex": "title=\"Version (?<version>\\d+(?:\\.\\d+)+) &middot;[^\"]*\">Free Download PortScan\\.zip"
+	},
+	"urls": ["https://the-sz.com/common/get.php?product=portscan&version={version}"],
+	"releaseNotes": { "releaseNotesUrl": "https://the-sz.com/common/history.php?product=portscan" }
+}
