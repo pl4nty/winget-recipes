@@ -3,6 +3,7 @@ import { defineShard } from 'anthelion';
 type Release = {
 	version: string;
 	notesLink?: string | null;
+	whatsnew?: string | null;
 	downloads: Record<string, { link: string } | undefined>;
 };
 
@@ -23,7 +24,10 @@ export default defineShard(async () => {
 		version: release.version,
 		urls: () => [x64, ...(arm64 ? [arm64] : [])],
 		releaseNotes: {
+			source: 'html',
+			sourceUrl: `data:text/html,${encodeURIComponent(release.whatsnew || '<p>For more details, refer to our release notes.</p>')}`,
 			releaseNotesUrl: release.notesLink ?? 'https://www.jetbrains.com/idea/whatsnew/',
+			cleanup: false,
 		},
 	};
 });
