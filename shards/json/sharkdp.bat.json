@@ -9,6 +9,5 @@
 		"https://github.com/sharkdp/bat/releases/download/v{version}/bat-v{version}-i686-pc-windows-msvc.zip",
 		"https://github.com/sharkdp/bat/releases/download/v{version}/bat-v{version}-x86_64-pc-windows-msvc.zip",
 		"https://github.com/sharkdp/bat/releases/download/v{version}/bat-v{version}-aarch64-pc-windows-msvc.zip"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
