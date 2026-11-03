@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cosmicvi",
+		"repo": "papers-for-windows",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "^v(?=\\d+\\.)"
+	},
+	"urls": [
+		"https://github.com/cosmicvi/papers-for-windows/releases/download/v{version}/papers-{version}-installer-x64.exe"
+	]
+}
