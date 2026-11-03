@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ntlite.com/download/",
+		"regex": "v(?:<!-- -->)?(\\d{4}\\.\\d{2}\\.\\d+)<"
+	},
+	"urls": [
+		"https://downloads.ntlite.com/files/packages/{version}/NTLite_setup_x64.exe",
+		"https://downloads.ntlite.com/files/packages/{version}/NTLite_setup_x86_legacy.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ntlite.com/changelog/"
+	}
+}
