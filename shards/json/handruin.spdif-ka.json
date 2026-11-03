@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "handruin",
+		"repo": "spdif-ka"
+	},
+	"urls": [
+		"https://github.com/handruin/spdif-ka/releases/download/{github.rawTag}/SPDIFKA.exe"
+	]
+}
