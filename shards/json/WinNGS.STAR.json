@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "win-ngs",
+		"repo": "star-windows-build",
+		"method": "api-list",
+		"tagRegex": "-windows",
+		"assetRegex": "^win-ngs-STAR-.*-windows-x86_64-msys\\.msi$"
+	}
+}
