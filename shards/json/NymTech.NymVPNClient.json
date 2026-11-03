@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nymtech",
+		"repo": "nym-vpn-client",
+		"method": "api-list",
+		"tagRegex": "^nym-vpn-app-v"
+	},
+	"urls": [
+		"https://github.com/nymtech/nym-vpn-client/releases/download/{github.rawTag}/NymVPN_{version}_x64-setup.exe",
+		"https://github.com/nymtech/nym-vpn-client/releases/download/{github.rawTag}/NymVPN_{version}_arm64-setup.exe"
+	]
+}
