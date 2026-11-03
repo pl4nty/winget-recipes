@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mealman1551",
+		"repo": "ArchivedDataCodec"
+	},
+	"urls": [
+		"https://github.com/Mealman1551/ArchivedDataCodec/releases/download/v{version}/adc{version}_amd64setup.exe"
+	]
+}
