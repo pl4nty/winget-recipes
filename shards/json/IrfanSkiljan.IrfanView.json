@@ -7,6 +7,7 @@
 	},
 	"urls": [
 		"https://download.fileforum.com/download/967963863-1/iview{version|.|}_setup.exe",
-		"https://download.fileforum.com/download/967963863-1/iview{version|.|}_x64_setup.exe"
+		"https://download.fileforum.com/download/967963863-1/iview{version|.|}_x64_setup.exe",
+		{ "url": "https://dappcdn.com/download/graphic-apps/irfanview-arm?get=iview{version|.|}_arm64_setup.exe", "architecture": "arm64" }
 	]
 }
