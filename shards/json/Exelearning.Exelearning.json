@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "exelearning",
+		"repo": "exelearning"
+	},
+	"urls": [
+		"https://github.com/exelearning/exelearning/releases/download/{github.rawTag}/eXeLearning-Setup-{version}.exe",
+		"https://github.com/exelearning/exelearning/releases/download/{github.rawTag}/eXeLearning-{version}.msi"
+	]
+}
