@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "toprakahmetaydogmus", "repo": "BEST-AI" },
+	"urls": ["https://github.com/toprakahmetaydogmus/BEST-AI/releases/download/{version}/BestAI_Setup.exe"]
+}
