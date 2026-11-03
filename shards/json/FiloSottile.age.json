@@ -6,7 +6,8 @@
 		"repo": "age"
 	},
 	"urls": [
-		"https://github.com/FiloSottile/age/releases/download/v{version}/age-v{version}-windows-amd64.zip"
+		"https://github.com/FiloSottile/age/releases/download/v{version}/age-v{version}-windows-amd64.zip",
+		"https://github.com/FiloSottile/age/releases/download/v{version}/age-v{version}-windows-arm64.zip"
 	],
 	"releaseNotes": { "source": "github" }
 }
