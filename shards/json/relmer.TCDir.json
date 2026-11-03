@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "relmer",
+		"repo": "TCDir"
+	},
+	"urls": [
+		"https://github.com/relmer/TCDir/releases/download/v{version}/TCDir.exe",
+		"https://github.com/relmer/TCDir/releases/download/v{version}/TCDir-ARM64.exe"
+	]
+}
