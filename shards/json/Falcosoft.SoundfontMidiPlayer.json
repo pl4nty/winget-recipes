@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://falcosoft.hu/midiplayer_66_bse.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://falcosoft.hu/softwares.html#midiplayer"
+	}
+}
