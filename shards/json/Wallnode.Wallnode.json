@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bogdanspn",
+		"repo": "wallnode-releases"
+	},
+	"urls": [
+		"https://github.com/bogdanspn/wallnode-releases/releases/download/{github.rawTag}/WallnodeSetup-{version}.exe"
+	]
+}
