@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "danielmiessler",
+		"repo": "Fabric"
+	},
+	"urls": [
+		"https://github.com/danielmiessler/Fabric/releases/download/{github.rawTag}/fabric_Windows_arm64.zip",
+		"https://github.com/danielmiessler/Fabric/releases/download/{github.rawTag}/fabric_Windows_i386.zip",
+		"https://github.com/danielmiessler/Fabric/releases/download/{github.rawTag}/fabric_Windows_x86_64.zip"
+	]
+}
