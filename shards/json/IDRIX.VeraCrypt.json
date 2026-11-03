@@ -5,5 +5,9 @@
 		"url": "https://veracrypt.io/en/Downloads.html",
 		"regex": "VeraCrypt_Setup_x64_(\\d+(?:\\.\\d+)+)\\.msi"
 	},
-	"urls": ["https://launchpad.net/veracrypt/trunk/{version}/+download/VeraCrypt_Setup_x64_{version}.msi"]
+	"urls": [
+		"https://launchpad.net/veracrypt/trunk/{version}/+download/VeraCrypt_Setup_x64_{version}.msi",
+		"https://launchpad.net/veracrypt/trunk/{version}/+download/VeraCrypt_Setup_arm64_{version}.msi",
+		"https://launchpad.net/veracrypt/trunk/{version}/+download/VeraCrypt%20Setup%20{version}.exe"
+	]
 }
