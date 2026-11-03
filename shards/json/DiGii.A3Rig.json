@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AtrixZockt",
+		"repo": "DiGii-A3Rig"
+	},
+	"urls": [
+		"https://github.com/AtrixZockt/DiGii-A3Rig/releases/download/{github.rawTag}/a3rig-windows-x64.zip"
+	]
+}
