@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "jrsoftware",
+		"repo": "issrc",
+		"method": "api-latest",
+		"assetRegex": "^(?:innosetup\\-\\d+\\.\\d+\\.\\d+\\-x64\\.exe)$"
+	}
+}
