@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://stellary.co/downloads/desktop/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://stellary.co/docs/changelog"
+	}
+}
