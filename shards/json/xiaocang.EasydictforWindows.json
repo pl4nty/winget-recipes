@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xiaocang",
+		"repo": "easydict_win32"
+	},
+	"urls": [
+		"https://github.com/xiaocang/easydict_win32/releases/download/v{version}/Easydict-v{version}-x64-setup.unsigned.exe",
+		"https://github.com/xiaocang/easydict_win32/releases/download/v{version}/Easydict-v{version}-arm64-setup.unsigned.exe"
+	]
+}
