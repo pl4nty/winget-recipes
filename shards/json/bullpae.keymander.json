@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bullpae",
+		"repo": "keymander"
+	},
+	"urls": [
+		"https://github.com/bullpae/keymander/releases/download/{github.rawTag}/keymander-winget-aarch64-pc-windows-msvc.zip",
+		"https://github.com/bullpae/keymander/releases/download/{github.rawTag}/keymander-winget-x86_64-pc-windows-msvc.zip"
+	]
+}
