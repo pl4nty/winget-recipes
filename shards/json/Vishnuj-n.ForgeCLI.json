@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Vishnuj-n", "repo": "forge" },
+	"urls": ["https://github.com/Vishnuj-n/forge/releases/download/v{version}/forge.exe"]
+}
