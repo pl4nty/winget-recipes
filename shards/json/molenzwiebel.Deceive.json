@@ -5,6 +5,5 @@
 		"owner": "molenzwiebel",
 		"repo": "Deceive"
 	},
-	"urls": [{ "url": "https://github.com/molenzwiebel/Deceive/releases/download/v{version}/Deceive.exe", "architecture": "x86" }],
-	"releaseNotes": { "source": "github" }
+	"urls": [{ "url": "https://github.com/molenzwiebel/Deceive/releases/download/v{version}/Deceive.exe", "architecture": "x86" }]
 }
