@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "NethServer", "repo": "nethlink" },
+	"urls": ["https://github.com/NethServer/nethlink/releases/download/v{version}/nethlink-{version}-setup.exe"]
+}
