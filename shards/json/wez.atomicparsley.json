@@ -5,6 +5,10 @@
 		"owner": "wez",
 		"repo": "atomicparsley"
 	},
+	"releaseNotes": {
+		"source": "github",
+		"tag": "{version}"
+	},
 	"urls": [
 		"https://github.com/wez/atomicparsley/releases/download/{version}/AtomicParsleyWindowsX86.zip",
 		"https://github.com/wez/atomicparsley/releases/download/{version}/AtomicParsleyWindows.zip"
