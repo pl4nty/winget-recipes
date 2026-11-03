@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ElCruncharino",
+		"repo": "neostego"
+	},
+	"urls": [
+		"https://github.com/ElCruncharino/neostego/releases/download/{github.rawTag}/NeoStego-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/ElCruncharino/neostego/releases/tag/{github.rawTag}"
+	}
+}
