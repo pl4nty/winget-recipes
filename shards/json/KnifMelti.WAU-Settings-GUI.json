@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KnifMelti",
+		"repo": "WAU-Settings-GUI"
+	},
+	"urls": [
+		"https://github.com/KnifMelti/WAU-Settings-GUI/releases/download/{github.rawTag}/WAU-Settings-GUI-v{version}.zip"
+	]
+}
