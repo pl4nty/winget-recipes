@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "sirredbeard",
-		"repo": "determined-windows-cli"
+		"repo": "determined-windows-cli",
+		"method": "api-sort",
+		"kind": "all"
 	},
 	"urls": [
 		"https://github.com/sirredbeard/determined-windows-cli/releases/download/{version}/determined-cli.zip",
