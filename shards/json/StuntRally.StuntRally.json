@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stuntrally",
+		"repo": "stuntrally3"
+	},
+	"urls": ["https://github.com/stuntrally/stuntrally3/releases/download/{version}/StuntRally-{version}-installer.exe"],
+	"releaseNotes": { "source": "github" }
+}
