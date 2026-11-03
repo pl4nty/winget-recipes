@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://prerelease.keybase.io/update-windows-prod-v2.json",
+		"path": "version"
+	},
+	"version": { "source": "product" },
+	"state": { "source": "value", "value": "{data.version}" },
+	"urls": ["https://prerelease.keybase.io/windows/Keybase_{version|+|%2B}.amd64.msi"]
+}
