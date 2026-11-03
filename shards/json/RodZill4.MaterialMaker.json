@@ -10,6 +10,5 @@
 			"url": "https://github.com/RodZill4/material-maker/releases/download/{github.rawTag}/material_maker_{version|.|_}_windows.zip",
 			"nestedInstallerMatches": ["material_maker.exe"]
 		}
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
