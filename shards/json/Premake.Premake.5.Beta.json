@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "premake",
+		"repo": "premake-core",
+		"method": "api-sort",
+		"kind": "all",
+		"tagRegex": "^v(?=5\\.0\\.0-beta\\d+$)"
+	},
+	"version": "{version|.0-|-}",
+	"urls": ["https://github.com/premake/premake-core/releases/download/{github.rawTag}/premake-{version}-windows.zip"]
+}
