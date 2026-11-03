@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ow-mods",
+		"repo": "ow-mod-man",
+		"method": "api-list",
+		"tagRegex": "^gui_v"
+	},
+	"urls": [
+		"https://github.com/ow-mods/ow-mod-man/releases/download/gui_v{version}/Outer.Wilds.Mod.Manager_{version}_x64_en-US.msi",
+		"https://github.com/ow-mods/ow-mod-man/releases/download/gui_v{version}/Outer.Wilds.Mod.Manager_{version}_x64-setup.exe"
+	]
+}
