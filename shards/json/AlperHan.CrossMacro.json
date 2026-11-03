@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alper-han",
+		"repo": "CrossMacro"
+	},
+	"urls": [
+		"https://github.com/alper-han/CrossMacro/releases/download/{github.rawTag}/CrossMacro-{version}-win-arm64.exe",
+		"https://github.com/alper-han/CrossMacro/releases/download/{github.rawTag}/CrossMacro-{version}-win-x64.exe"
+	]
+}
