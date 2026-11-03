@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mrtechnoo",
+		"repo": "portty"
+	},
+	"urls": [
+		"https://github.com/mrtechnoo/portty/releases/download/{github.rawTag}/portty-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
