@@ -12,7 +12,7 @@ export default defineShard(async () => {
 
 	return {
 		version: release!.tag_name.replace(/^v/, ''),
-		urls: () => [installer.url],
+		urls: () => [{ url: installer.url, architecture: 'x64' }],
 		releaseNotes: {
 			releaseNotesUrl: `https://gitlab.com/ImaginaryInfinity/squiid-calculator/squiid/-/releases/${release!.tag_name}`,
 		},
