@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Lob2018", "repo": "CanScan" },
+	"urls": ["https://github.com/Lob2018/CanScan/releases/download/v{version}/CanScan-{version}-x64-Setup.exe"]
+}
