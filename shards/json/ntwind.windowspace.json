@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ntwind.com/software/windowspace.html",
+		"regex": "WindowSpace_(\\d+(?:\\.\\d+)+)-setup\\.exe"
+	},
+	"urls": [
+		{ "url": "https://www.ntwind.com/files/WindowSpace_{version}-setup.exe", "architecture": "x86" },
+		{ "url": "https://www.ntwind.com/files/WindowSpace_{version}-setup.exe", "architecture": "x64" }
+	],
+	"releaseNotes": { "releaseNotesUrl": "https://www.ntwind.com/software/windowspace/what-is-new.html" }
+}
