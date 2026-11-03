@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://prog.nalle.no/nb/home/winupdate-eng",
+		"regex": "/user/pages/01\\.home/apps/WinProgramSuiteSetup(?<version>\\d{4}\\.\\d{2}\\.\\d{2}\\.\\d{2})\\.msi"
+	},
+	"urls": ["https://prog.nalle.no/user/pages/01.home/apps/WinProgramSuiteSetup{version}.msi"]
+}
