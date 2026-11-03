@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cmi-bildung.ch/lo/dateien/easy/lo_desktop_windows.exe"
+	]
+}
