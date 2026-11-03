@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Justsenger",
+		"repo": "ExHyperV",
+		"method": "api-sort",
+		"tagRegex": "^V"
+	},
+	"urls": [
+		"https://github.com/Justsenger/ExHyperV/releases/download/{github.rawTag}/ExHyperV_V{version}_arm64.exe",
+		"https://github.com/Justsenger/ExHyperV/releases/download/{github.rawTag}/ExHyperV_V{version}_Setup_arm64.exe",
+		"https://github.com/Justsenger/ExHyperV/releases/download/{github.rawTag}/ExHyperV_V{version}_Setup_x64.exe",
+		"https://github.com/Justsenger/ExHyperV/releases/download/{github.rawTag}/ExHyperV_V{version}_x64.exe"
+	]
+}
