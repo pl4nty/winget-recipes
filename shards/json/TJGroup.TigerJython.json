@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://tjgroup.ch/download/TigerJython.msi",
+		"https://tjgroup.ch/download/TigerJython32.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://tjgroup.ch/download/TigerJython.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
