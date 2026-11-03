@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "alicecaml", "repo": "alice" },
+	"urls": ["https://github.com/alicecaml/alice/releases/download/{version}/alice-{version}-x86_64-windows.zip"]
+}
