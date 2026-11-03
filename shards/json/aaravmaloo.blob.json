@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aaravmaloo",
+		"repo": "blob"
+	},
+	"urls": [
+		"https://github.com/aaravmaloo/blob/releases/download/{github.rawTag}/blob-windows-amd64.zip"
+	]
+}
