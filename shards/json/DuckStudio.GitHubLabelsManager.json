@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DuckDuckStudio",
+		"repo": "GitHub-Labels-Manager"
+	},
+	"urls": [
+		"https://github.com/DuckDuckStudio/GitHub-Labels-Manager/releases/download/v{version}/GitHub_Labels_Manager_Setup_v{version}.exe",
+		"https://github.com/DuckDuckStudio/GitHub-Labels-Manager/releases/download/v{version}/GitHub_Labels_Manager_Setup_v{version}-EN.exe"
+	],
+	"releaseNotes": { "source": "github" }
+}
