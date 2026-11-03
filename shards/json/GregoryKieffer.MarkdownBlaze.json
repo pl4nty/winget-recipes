@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bwets",
+		"repo": "MarkdownBlaze"
+	},
+	"urls": [
+		"https://github.com/bwets/MarkdownBlaze/releases/download/{github.rawTag}/MarkdownBlaze-{version}-win-x64-setup.exe",
+		"https://github.com/bwets/MarkdownBlaze/releases/download/{github.rawTag}/MarkdownBlaze-{version}-win-x64.msix"
+	]
+}
