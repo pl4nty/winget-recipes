@@ -16,6 +16,8 @@ jobs:
     name: Update Packages
     runs-on: ubuntu-26.04-arm
     timeout-minutes: 10
+    env:
+      NAPI_RS_NATIVE_LIBRARY_PATH: ${{ github.workspace }}/anthelion-komac.node
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -32,10 +34,7 @@ jobs:
         run: bun ci --production
 
       - name: Install komac
-        run: |
-          curl -fsSLo "$RUNNER_TEMP/komac.node" https://github.com/devicie/Komac-anthelion/releases/download/v0.0.73/anthelion-komac.linux-arm64-gnu.node
-          echo "1c797a61db7c90ba4cabd0124a01101f0e33e7f919cc847adfe18004323681f7  $RUNNER_TEMP/komac.node" | sha256sum -c
-          echo "NAPI_RS_NATIVE_LIBRARY_PATH=$RUNNER_TEMP/komac.node" >> "$GITHUB_ENV"
+        run: curl -fsSLo "$NAPI_RS_NATIVE_LIBRARY_PATH" https://github.com/devicie/Komac-anthelion/releases/latest/download/anthelion-komac.linux-arm64-gnu.node
 
       - name: Update Packages
         run: |
