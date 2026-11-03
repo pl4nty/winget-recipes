@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://siril.org/download/",
+		"regex": "https://free-astro\\.org/download/siril-(?<version>\\d+(?:\\.\\d+)+)-(?<toolchain>[a-z0-9]+)-setup\\.exe"
+	},
+	"urls": ["https://free-astro.org/download/siril-{version}-{captures.toolchain}-setup.exe"]
+}
