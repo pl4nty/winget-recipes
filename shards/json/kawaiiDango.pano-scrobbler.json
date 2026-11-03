@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "kawaiiDango",
+		"repo": "pano-scrobbler"
+	},
+	"urls": [
+		"https://github.com/kawaiiDango/pano-scrobbler/releases/download/{github.rawTag}/pano-scrobbler-windows-x64.exe"
+	]
+}
