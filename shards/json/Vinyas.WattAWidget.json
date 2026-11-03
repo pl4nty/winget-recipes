@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pyvinyas",
+		"repo": "WattAWidget"
+	},
+	"urls": ["https://github.com/pyvinyas/WattAWidget/releases/download/v{version}/WattAWidget-{version}-win-x64.zip"]
+}
