@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rexpose",
+		"repo": "rexpose"
+	},
+	"urls": ["https://github.com/rexpose/rexpose/releases/download/{version}/rexpose_Windows_x86_64.zip"]
+}
