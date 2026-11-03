@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "StruisICT",
+		"repo": "InLook"
+	},
+	"urls": [
+		"https://github.com/StruisICT/InLook/releases/download/v{version}/inlook-{version}-x86_64.msi"
+	]
+}
