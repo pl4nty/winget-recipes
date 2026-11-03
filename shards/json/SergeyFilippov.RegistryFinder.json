@@ -11,6 +11,8 @@
 		"https://registry-finder.com/bin/{captures.build}/RegistryFinderSetup{version}.exe"
 	],
 	"releaseNotes": {
+		"source": "html",
+		"sourceUrl": "https://registry-finder.com/version_history.html",
 		"releaseNotesUrl": "https://registry-finder.com/version_history.html"
 	}
 }
