@@ -5,6 +5,5 @@
 		"owner": "mumble-voip",
 		"repo": "mumble"
 	},
-	"urls": ["https://github.com/mumble-voip/mumble/releases/download/v{version}/mumble_client-{version}.x64.exe"],
-	"releaseNotes": { "source": "github" }
+	"urls": ["https://github.com/mumble-voip/mumble/releases/download/v{version}/mumble_client-{version}.x64.exe"]
 }
