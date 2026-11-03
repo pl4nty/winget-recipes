@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rkozlowski",
+		"repo": "TigerWrap"
+	},
+	"urls": [
+		"https://github.com/rkozlowski/TigerWrap/releases/download/{github.rawTag}/TigerWrapSetup_0_9_1.exe"
+	]
+}
