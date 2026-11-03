@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://files.rootsmagic.com/RM9/RootsMagic9Setup.exe",
+		"https://files.rootsmagic.com/RM9/RootsMagic9SetupX64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://files.rootsmagic.com/RM9/RootsMagic9Setup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://community.rootsmagic.com/t/rootsmagic-update-history/6700"
+	},
+	"replace": true
+}
