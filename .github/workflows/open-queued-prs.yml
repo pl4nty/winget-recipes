@@ -1,0 +1,48 @@
+name: Open Queued PRs
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Maximum pull requests to open
+        default: '200'
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+permissions: {}
+
+jobs:
+  open-queued-prs:
+    name: Open Queued PRs
+    runs-on: ubuntu-slim
+    timeout-minutes: 60
+    steps:
+      - name: Open Queued PRs
+        run: |
+          gh api --paginate "repos/$GH_REPO/pulls?state=all&per_page=100" --jq '.[].head.ref' | sort -u > opened
+          gh api --paginate "repos/$GH_REPO/branches?per_page=100" --jq '.[].name | select(startswith("claude/"))' | sort -u > branches
+          opened=0
+          for branch in $(comm -23 branches opened); do
+            [ "$opened" -ge "$LIMIT" ] && break
+            message=$(gh api "repos/$GH_REPO/commits/$branch" --jq .commit.message)
+            grep -qx 'Queue-PR: draft' <<< "$message" || continue
+            title=$(head -n 1 <<< "$message")
+            body=$(sed -n '3,$p' <<< "$message" | sed '/^Queue-PR: draft$/,$d')
+            if ! output=$(gh pr create --draft --base main --head "$branch" --title "$title" --body "$body" 2>&1); then
+              echo "$branch: $output"
+              grep -qiE 'secondary rate limit|submitted too quickly|HTTP (403|429)' <<< "$output" && exit 1
+              continue
+            fi
+            echo "$output"
+            opened=$((opened + 1))
+            sleep 15
+          done
+          echo "Opened $opened pull requests" >> "$GITHUB_STEP_SUMMARY"
+        env:
+          GH_REPO: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.UPDATE_TOKEN }}
+          LIMIT: ${{ inputs.limit || 200 }}
