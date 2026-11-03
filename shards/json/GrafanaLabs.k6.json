@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "grafana",
+		"repo": "k6"
+	},
+	"urls": [
+		"https://github.com/grafana/k6/releases/download/{github.rawTag}/k6-v{version}-windows-amd64.msi"
+	]
+}
