@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "docker",
+		"repo": "sbx-releases"
+	},
+	"urls": [
+		"https://github.com/docker/sbx-releases/releases/download/{github.rawTag}/DockerSandboxes.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/docker/sbx-releases/releases/tag/{github.rawTag}"
+	}
+}
