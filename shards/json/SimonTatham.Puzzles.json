@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://www.chiark.greenend.org.uk/~sgtatham/puzzles/puzzles-installer.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/puzzles-installer.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
