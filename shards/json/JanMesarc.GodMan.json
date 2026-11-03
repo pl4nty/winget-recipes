@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jame581",
+		"repo": "GodotManager"
+	},
+	"urls": [
+		"https://github.com/jame581/GodotManager/releases/download/{github.rawTag}/godman-windows-x64-{version}.zip"
+	]
+}
