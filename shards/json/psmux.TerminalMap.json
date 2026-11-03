@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "psmux",
+		"repo": "TerminalMap"
+	},
+	"urls": ["https://github.com/psmux/TerminalMap/releases/download/v{version}/terminalmap-v{version}-windows-x64.zip"]
+}
