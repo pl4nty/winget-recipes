@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "zenogrid-law80", "repo": "lorelens" },
+	"urls": ["https://github.com/zenogrid-law80/lorelens/releases/download/v{version}/LoreLens-{version}.msi"]
+}
