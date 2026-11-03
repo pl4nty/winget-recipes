@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ONEoo7",
+		"repo": "ai_tools_git_assistant"
+	},
+	"urls": [
+		"https://github.com/ONEoo7/ai_tools_git_assistant/releases/download/v{version}/git-assistant-{version}-noupdate-user-windows-x64-setup.exe"
+	]
+}
