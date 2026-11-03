@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fafarunner",
+		"repo": "fafarunner",
+		"method": "api-sort",
+		"assetRegex": "^(?:fafarunner\\-\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\-en\\-US\\.msi|fafarunner\\-\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\-zh\\-CN\\.msi|fafarunner\\-\\d+\\.\\d+\\.\\d+\\-windows\\-setup\\-x64\\.exe|fafarunner\\-\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\.msix)$"
+	}
+}
