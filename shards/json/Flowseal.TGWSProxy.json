@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/Flowseal/tg-ws-proxy/releases/latest/download/TgWsProxy_windows.exe"
+	]
+}
