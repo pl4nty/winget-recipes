@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Suwayomi",
+		"repo": "Suwayomi-VaadinUI"
+	},
+	"urls": [
+		"https://github.com/Suwayomi/Suwayomi-VaadinUI/releases/download/v{version}/Suwayomi.VaadinUI-{version}.msi",
+		"https://github.com/Suwayomi/Suwayomi-VaadinUI/releases/download/v{version}/Suwayomi.VaadinUI-{version}.exe"
+	]
+}
