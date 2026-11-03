@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TwintailTeam",
+		"repo": "TwintailLauncher",
+		"tagRegex": "ttl-v"
+	},
+	"urls": [
+		"https://github.com/TwintailTeam/TwintailLauncher/releases/download/{github.rawTag}/twintaillauncher_{version}_x64-setup.exe"
+	]
+}
