@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ferdium",
+		"repo": "ferdium-app",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/ferdium/ferdium-app/releases/download/{github.rawTag}/Ferdium-win-AutoSetup-{version}-arm64.exe",
+		"https://github.com/ferdium/ferdium-app/releases/download/{github.rawTag}/Ferdium-win-AutoSetup-{version}-x64.exe"
+	]
+}
