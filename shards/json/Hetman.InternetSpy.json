@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://hetmanrecovery.com/download/hetman_internet_spy.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hetmanrecovery.com/hetman_internet_spy_version_history.htm"
+	}
+}
