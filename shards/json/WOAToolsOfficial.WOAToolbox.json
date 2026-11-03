@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": [{ "url": "https://github.com/Misha803/WOA-Tools/releases/download/WOA-ToolBox/WOA-Toolbox-NEW.exe", "architecture": "arm64" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/Misha803/WOA-Tools/releases/download/WOA-ToolBox/WOA-Toolbox-NEW.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
