@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "izzet",
+		"repo": "quotabubble"
+	},
+	"urls": [
+		"https://github.com/izzet/quotabubble/releases/download/{github.rawTag}/QuotaBubble-windows-x64.zip",
+		"https://github.com/izzet/quotabubble/releases/download/{github.rawTag}/QuotaBubble-windows-x64.msix"
+	]
+}
