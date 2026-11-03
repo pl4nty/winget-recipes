@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "telegramdesktop",
+		"repo": "tdesktop"
+	},
+	"urls": [
+		"https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-setup-win-x64-{version}.exe",
+		"https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-setup-win-x86-{version}.exe",
+		"https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-setup-win-arm-{version}.exe",
+		"https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-portable-win-x64-{version}.zip",
+		"https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-portable-win-x86-{version}.zip",
+		"https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-portable-win-arm-{version}.zip"
+	]
+}
