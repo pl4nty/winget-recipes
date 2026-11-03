@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MSEndpointMgr",
+		"repo": "1PhoneMirror"
+	},
+	"urls": ["https://github.com/MSEndpointMgr/1PhoneMirror/releases/download/v{version}/1PhoneMirror-{version}.msi"]
+}
