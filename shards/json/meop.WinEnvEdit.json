@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "meop",
+		"repo": "WinEnvEdit"
+	},
+	"urls": [
+		"https://github.com/meop/WinEnvEdit/releases/download/v{version}/WinEnvEdit-arm64.msi",
+		"https://github.com/meop/WinEnvEdit/releases/download/v{version}/WinEnvEdit-x64.msi"
+	]
+}
