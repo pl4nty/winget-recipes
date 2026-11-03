@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "ringover", "repo": "ringover-desktop-v2" },
+	"urls": [
+		"https://github.com/ringover/ringover-desktop-v2/releases/download/{github.rawTag}/Ringover.msi"
+	]
+}
