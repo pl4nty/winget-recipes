@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "adrifer",
+		"repo": "sonarctl"
+	},
+	"urls": [
+		"https://github.com/adrifer/sonarctl/releases/download/{github.rawTag}/sonarctl.exe"
+	]
+}
