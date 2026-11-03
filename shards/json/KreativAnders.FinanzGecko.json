@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kreativ-anders",
+		"repo": "finanzgecko"
+	},
+	"urls": [
+		"https://github.com/kreativ-anders/finanzgecko/releases/download/{github.rawTag}/FinanzGecko-{version}-Setup.exe"
+	]
+}
