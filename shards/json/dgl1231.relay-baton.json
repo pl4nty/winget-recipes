@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dgl1231",
+		"repo": "relay-baton"
+	},
+	"urls": [
+		"https://github.com/dgl1231/relay-baton/releases/download/{github.rawTag}/relay-baton-windows-x64.exe"
+	]
+}
