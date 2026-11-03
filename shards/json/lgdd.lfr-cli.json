@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lgdd",
+		"repo": "lfr-cli",
+		"method": "api-sort",
+		"assetRegex": "^(?:lfr\\-cli_\\d+\\.\\d+\\.\\d+_windows_\\d+\\.exe|lfr\\-cli_\\d+\\.\\d+\\.\\d+_windows_amd64\\.exe)$"
+	}
+}
