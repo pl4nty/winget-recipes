@@ -7,6 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/i2van/hourglass/releases/download/{version}/HourglassInstaller.exe"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
