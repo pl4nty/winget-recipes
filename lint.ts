@@ -49,6 +49,14 @@ const versionState: Rule = async (shards, report) => {
 	}
 };
 
+// Anthelion, the Test diff and these rules only read shards/json/*.json and shards/script/*.ts.
+const shardPath: Rule = async (_, report) => {
+	for await (const file of new Bun.Glob('shards/**/*').scan()) {
+		if (!/^shards\/(json\/[^/]+\.json|script\/[^/]+\.ts)$/.test(file))
+			report(file, 'shard is outside shards/json and shards/script');
+	}
+};
+
 const ROOT = new Set(['PackageIdentifier', 'PackageVersion', 'ManifestType', 'ManifestVersion']);
 // komac drops InstallerLocale on update, and shards cannot set it.
 const IGNORED = /(^|\.)InstallerLocale$/;
@@ -110,6 +118,7 @@ const droppedFields: Rule = async (shards, report) => {
 
 const rules: Record<string, Rule> = {
 	maintained,
+	'shard-path': shardPath,
 	'shard-urls': shardUrls,
 	'version-state': versionState,
 	...(process.argv.includes('--dry-run') && { 'dropped-fields': droppedFields }),
