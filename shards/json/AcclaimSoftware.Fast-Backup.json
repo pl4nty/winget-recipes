@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AcclaimSoftwareLtd",
+		"repo": "Fast-Backup",
+		"method": "api-sort",
+		"assetRegex": "^(?:Fast\\-Backup\\d+_\\d+\\.exe)$"
+	}
+}
