@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://down.pc.yyb.qq.com/channel/55/115/10000/pcyyb__installer.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://down.pc.yyb.qq.com/channel/55/115/10000/pcyyb__installer.exe",
+		"header": "etag"
+	}
+}
