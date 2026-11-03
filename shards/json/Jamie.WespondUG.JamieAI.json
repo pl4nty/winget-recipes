@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "meetjamie",
+		"repo": "releases",
+		"tagRegex": "^app\\-v"
+	},
+	"urls": [
+		"https://github.com/meetjamie/releases/releases/download/{github.rawTag}/Jamie_{version}_x64_en-US.msi"
+	]
+}
