@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "huanguan1978",
+		"repo": "ft"
+	},
+	"urls": [
+		"https://github.com/huanguan1978/ft/releases/download/{github.rawTag}/ft-windows-x64-{version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/huanguan1978/ft/releases/tag/{github.rawTag}"
+	}
+}
