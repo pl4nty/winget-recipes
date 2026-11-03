@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.bandicam.com/downloads/version_history/",
+		"regex": "data-bandicam-release=\"full\">v\\s*(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://dl.bandicam.com/bdcamsetup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.bandicam.com/downloads/version_history/"
+	}
+}
