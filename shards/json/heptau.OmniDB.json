@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "heptau",
+		"repo": "omnidb"
+	},
+	"urls": [
+		"https://github.com/heptau/omnidb/releases/download/{github.rawTag}/OmniDB-win-x64-setup.exe"
+	]
+}
