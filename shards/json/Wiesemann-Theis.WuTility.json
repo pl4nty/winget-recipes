@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.wut.de/e-5wwww-17-inus-000.php",
+		"regex": "title=\"Download WuTility v(\\d+\\.\\d+)\""
+	},
+	"urls": [
+		"https://www.wut.de/download/tools/e-5wwww-22-swde-{version|.|}.msi",
+		"https://www.wut.de/download/tools/e-5wwww-22-swus-{version|.|}.msi",
+		"https://www.wut.de/download/tools/e-5wwww-22-swww-{version|.|}.exe"
+	]
+}
