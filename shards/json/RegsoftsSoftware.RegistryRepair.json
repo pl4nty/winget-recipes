@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.regsofts.com/free_registry_repair/fwrrhistory.htm",
+		"regex": "v(\\d+(?:\\.\\d+)+) - \\d\\d\\d\\d\\.\\d\\d"
+	},
+	"urls": ["https://www.regsofts.com/download/RegpairSetup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.regsofts.com/free_registry_repair/fwrrhistory.htm"
+	}
+}
