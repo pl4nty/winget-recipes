@@ -5,6 +5,5 @@
 		"owner": "AlDanial",
 		"repo": "cloc"
 	},
-	"urls": ["https://github.com/AlDanial/cloc/releases/download/v{version}/cloc-{version}.exe"],
-	"releaseNotes": { "source": "github" }
+	"urls": ["https://github.com/AlDanial/cloc/releases/download/v{version}/cloc-{version}.exe"]
 }
