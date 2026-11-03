@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DefGuard",
+		"repo": "client"
+	},
+	"urls": [
+		"https://github.com/DefGuard/client/releases/download/{github.rawTag}/Defguard_{version}_x64_en-US.msi",
+		"https://github.com/DefGuard/client/releases/download/{github.rawTag}/Defguard_{version}_arm64_en-US.msi"
+	]
+}
