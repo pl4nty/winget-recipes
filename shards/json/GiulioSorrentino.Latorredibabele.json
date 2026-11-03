@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "GiulianoSpaghetti",
+		"repo": "Solitario.Avalonia",
+		"method": "api-latest",
+		"assetRegex": "^(?:Solitario\\.Avalonia\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\-amd64\\.msi)$"
+	}
+}
