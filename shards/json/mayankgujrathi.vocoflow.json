@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mayankgujrathi",
+		"repo": "vocoflow"
+	},
+	"urls": [
+		"https://github.com/mayankgujrathi/vocoflow/releases/download/v{version}/vocoflow-v{version}-windows-installer.exe"
+	]
+}
