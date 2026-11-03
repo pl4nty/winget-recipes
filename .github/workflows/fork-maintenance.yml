@@ -1,0 +1,36 @@
+name: Fork Maintenance
+
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  fork-maintenance:
+    name: Fork Maintenance
+    runs-on: ubuntu-slim
+    timeout-minutes: 1
+    steps:
+      - name: Install komac
+        uses: UnownPlain/install-komac@7809fbdafd350643fe2a2d76d239ec2e80006fe6 # main
+        with:
+          repo: unpn-org/Komac
+          linux_libc: musl
+          compression: zst
+      - parallel:
+          - name: Sync Fork
+            run: komac sync
+            env:
+              KOMAC_FORK_OWNER: ${{ github.repository_owner }}
+              GITHUB_TOKEN: ${{ secrets.UPDATE_TOKEN }}
+          - name: Cleanup Branches
+            run: komac cleanup -a
+            env:
+              KOMAC_FORK_OWNER: ${{ github.repository_owner }}
+              GITHUB_TOKEN: ${{ secrets.UPDATE_TOKEN }}
