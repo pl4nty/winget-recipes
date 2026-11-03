@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jimicze",
+		"repo": "fb-messenger-crossplatform"
+	},
+	"urls": [
+		"https://github.com/jimicze/fb-messenger-crossplatform/releases/download/{github.rawTag}/Messenger.X_{version}_arm64-setup.exe",
+		"https://github.com/jimicze/fb-messenger-crossplatform/releases/download/{github.rawTag}/Messenger.X_{version}_x64-setup.exe"
+	]
+}
