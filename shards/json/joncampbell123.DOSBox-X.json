@@ -10,6 +10,5 @@
 	"urls": [
 		"https://github.com/joncampbell123/dosbox-x/releases/download/{github.rawTag}/dosbox-x-windows-{version}-setup.exe",
 		"https://github.com/joncampbell123/dosbox-x/releases/download/{github.rawTag}/dosbox-x-windows-{version}-setup.exe"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
