@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "napxlexn",
+		"repo": "ailimits"
+	},
+	"urls": ["https://github.com/napxlexn/ailimits/releases/download/v{version}/AiLimits-Setup-{version}.exe"]
+}
