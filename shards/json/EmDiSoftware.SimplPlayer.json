@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "AdamAnomatik",
+		"repo": "SimplPlayer-Releases",
+		"method": "api-latest",
+		"assetRegex": "^(?:SimplPlayer\\-\\d+\\.\\d+\\.\\d+\\-win\\-x64\\-setup\\.exe)$"
+	}
+}
