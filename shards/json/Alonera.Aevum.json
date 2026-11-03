@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Alonera",
+		"repo": "Aevum"
+	},
+	"urls": [
+		"https://github.com/Alonera/Aevum/releases/download/{github.rawTag}/Aevum-Setup.exe"
+	]
+}
