@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OrgMentem",
+		"repo": "zotio"
+	},
+	"urls": [
+		"https://github.com/OrgMentem/zotio/releases/download/v{version}/zotio_{version}_windows_amd64.zip",
+		"https://github.com/OrgMentem/zotio/releases/download/v{version}/zotio_{version}_windows_arm64.zip"
+	]
+}
