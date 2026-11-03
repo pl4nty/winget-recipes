@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "shanselman",
+		"repo": "winget-tui"
+	},
+	"urls": [
+		"https://github.com/shanselman/winget-tui/releases/download/v{version}/winget-tui-x64.exe",
+		"https://github.com/shanselman/winget-tui/releases/download/v{version}/winget-tui-arm64.exe"
+	],
+	"releaseNotes": { "source": "github" }
+}
