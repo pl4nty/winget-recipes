@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "owayo",
+		"repo": "astro-sight"
+	},
+	"urls": ["https://github.com/owayo/astro-sight/releases/download/v{version}/astro-sight-x86_64-pc-windows-msvc.zip"]
+}
