@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "DirectXMesh",
+		"method": "api-latest",
+		"assetRegex": "^(?:meshconvert\\.exe|meshconvert_arm64\\.exe)$"
+	},
+	"version": {
+		"source": "product"
+	}
+}
