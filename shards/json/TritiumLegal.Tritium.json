@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://tritium.legal/version",
+		"regex": "^\\s*(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://tritium.legal/static/releases/tritium.{version}.msi"
+	]
+}
