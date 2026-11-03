@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.w1hkj.org/files/flnet/",
+		"regex": "flnet-(?<version>\\d+(?:\\.\\d+)+)_setup\\.exe"
+	},
+	"urls": ["https://www.w1hkj.org/files/flnet/flnet-{version}_setup.exe"]
+}
