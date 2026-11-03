@@ -3,7 +3,10 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Taiko2k",
-		"repo": "Tauon"
-	},
-	"urls": ["https://github.com/Taiko2k/Tauon/releases/download/v{version}/TauonMusicBox-windows-installer.exe"]
+		"repo": "Tauon",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "^v\\d+(?:\\.\\d+)+$",
+		"assetRegex": "^TauonMusicBox-windows-installer\\.exe$"
+	}
 }
