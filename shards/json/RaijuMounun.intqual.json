@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RaijuMounun",
+		"repo": "intqual"
+	},
+	"urls": ["https://github.com/RaijuMounun/intqual/releases/download/v{version}/intqual-windows-amd64.exe"]
+}
