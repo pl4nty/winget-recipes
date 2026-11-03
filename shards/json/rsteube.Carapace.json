@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "carapace-sh",
+		"repo": "carapace-bin"
+	},
+	"urls": [
+		"https://github.com/carapace-sh/carapace-bin/releases/download/v{version}/carapace-bin_{version}_windows_amd64.zip",
+		"https://github.com/carapace-sh/carapace-bin/releases/download/v{version}/carapace-bin_{version}_windows_386.zip",
+		"https://github.com/carapace-sh/carapace-bin/releases/download/v{version}/carapace-bin_{version}_windows_arm64.zip"
+	]
+}
