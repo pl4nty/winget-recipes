@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Leo-Galli",
+		"repo": "ScreenShareTool",
+		"method": "api-sort",
+		"assetRegex": "^(?:CharlieRPScreenShareTool\\-v\\d+\\.\\d+\\.\\d+\\.zip)$"
+	}
+}
