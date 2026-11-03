@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Suwayomi",
+		"repo": "Suwayomi-Server"
+	},
+	"version": "v{version}",
+	"urls": ["https://github.com/Suwayomi/Suwayomi-Server/releases/download/v{version}/Suwayomi-Server-v{version}-windows-x64.msi"]
+}
