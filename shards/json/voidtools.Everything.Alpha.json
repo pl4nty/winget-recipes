@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.voidtools.com/everything-1.5/",
+		"regex": "Everything-(\\d+\\.\\d+\\.\\d+\\.\\d+a)\\.x64-Setup\\.exe"
+	},
+	"urls": [
+		"https://www.voidtools.com/Everything-{version}.x86-Setup.exe",
+		"https://www.voidtools.com/Everything-{version}.x64-Setup.exe"
+	]
+}
