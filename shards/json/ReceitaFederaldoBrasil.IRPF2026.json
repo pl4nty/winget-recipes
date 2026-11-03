@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/pgd/dirpf",
+		"regex": "/irpf/2026/irpf/arquivos/IRPF2026Win64v(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://downloadirpf.receita.fazenda.gov.br/irpf/2026/irpf/arquivos/IRPF2026Win64v{version}.exe",
+		"https://downloadirpf.receita.fazenda.gov.br/irpf/2026/irpf/arquivos/IRPF2026Win32v{version}.exe"
+	]
+}
