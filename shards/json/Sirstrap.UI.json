@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "massimopaganigh",
+		"repo": "Sirstrap",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "-beta$"
+	},
+	"urls": [
+		"https://github.com/massimopaganigh/Sirstrap/releases/download/{github.rawTag}/Sirstrap.UI_fat.zip"
+	]
+}
