@@ -4,7 +4,7 @@
 	"github": {
 		"owner": "input-leap",
 		"repo": "input-leap",
-		"method": "api-latest",
+		"method": "api-sort",
 		"assetRegex": "windows.*\\.exe$"
 	}
 }
