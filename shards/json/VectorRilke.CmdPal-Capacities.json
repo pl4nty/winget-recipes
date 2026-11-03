@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vectorrilke",
+		"repo": "CmdPal-Capacities",
+		"tagRegex": "^CapacitiesCommandPaletteExtension-v"
+	},
+	"urls": [
+		"https://github.com/vectorrilke/CmdPal-Capacities/releases/download/{github.rawTag}/CapacitiesCommandPaletteExtension-{version}-x64.exe",
+		"https://github.com/vectorrilke/CmdPal-Capacities/releases/download/{github.rawTag}/CapacitiesCommandPaletteExtension-{version}-arm64.exe"
+	]
+}
