@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://cloud.stellarinfo.com/StellarPhotoRecovery.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://cloud.stellarinfo.com/StellarPhotoRecovery.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
