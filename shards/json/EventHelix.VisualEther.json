@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.eventhelix.com/visualether/download",
+		"regex": "https://downloads\\.eventhelix\\.com/visualether/(\\d+(?:\\.\\d+)+)/VisualEther\\-\\1\\-x86_64\\.msi"
+	},
+	"urls": [
+		"https://downloads.eventhelix.com/visualether/{version}/VisualEther-{version}-x86_64.msi"
+	]
+}
