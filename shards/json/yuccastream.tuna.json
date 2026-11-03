@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://tuna.am/releases/tuna/",
+		"regex": "href=\"v(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": [
+		"https://releases.tuna.am/tuna/v{version}/tuna_{version}_windows_arm64.zip",
+		"https://releases.tuna.am/tuna/v{version}/tuna_{version}_windows_amd64.zip"
+	]
+}
