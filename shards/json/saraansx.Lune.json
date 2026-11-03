@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "saraansx",
+		"repo": "Lune"
+	},
+	"urls": ["https://github.com/saraansx/Lune/releases/download/v{version}/Lune-Setup-{version}.exe"]
+}
