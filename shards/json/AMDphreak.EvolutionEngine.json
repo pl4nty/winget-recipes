@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AMDphreak",
+		"repo": "evolution-engine"
+	},
+	"urls": [
+		"https://github.com/AMDphreak/evolution-engine/releases/download/{github.rawTag}/evolution-engine-windows-latest.exe"
+	]
+}
