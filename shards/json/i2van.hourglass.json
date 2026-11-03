@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "i2van",
+		"repo": "hourglass"
+	},
+	"urls": [
+		"https://github.com/i2van/hourglass/releases/download/{version}/HourglassInstaller.exe"
+	],
+	"releaseNotes": { "source": "github" }
+}
