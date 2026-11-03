@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "toitlang",
+		"repo": "toit",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": ["https://github.com/toitlang/toit/releases/download/v{version}/toit-windows-x64-installer.exe"]
+}
