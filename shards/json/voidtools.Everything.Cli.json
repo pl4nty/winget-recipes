@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "voidtools",
+		"repo": "ES"
+	},
+	"urls": [
+		"https://github.com/voidtools/ES/releases/download/{version}/ES-{version}.x86.zip",
+		"https://github.com/voidtools/ES/releases/download/{version}/ES-{version}.x64.zip",
+		"https://github.com/voidtools/ES/releases/download/{version}/ES-{version}.ARM.zip",
+		"https://github.com/voidtools/ES/releases/download/{version}/ES-{version}.ARM64.zip"
+	]
+}
