@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ben-burwood",
+		"repo": "window"
+	},
+	"urls": [
+		"https://github.com/ben-burwood/window/releases/download/{github.rawTag}/data-framer_{version}_x64-setup.exe",
+		"https://github.com/ben-burwood/window/releases/download/{github.rawTag}/data-framer_{version}_x64_en-US.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/ben-burwood/window/releases/tag/{github.rawTag}"
+	}
+}
