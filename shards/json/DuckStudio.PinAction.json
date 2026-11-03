@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DuckDuckStudio",
+		"repo": "PinAction"
+	},
+	"urls": [
+		"https://github.com/DuckDuckStudio/PinAction/releases/download/{github.rawTag}/PinAction_Setup.exe"
+	]
+}
