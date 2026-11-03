@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://support.bluebeam.com/revu/resources/release-notes-20-and-below.html",
+		"regex": "<p>Revu (20\\.\\d+\\.\\d+)</p>"
+	},
+	"urls": [
+		"https://downloads.bluebeam.com/software/downloads/{version}/MSIBluebeamRevu{version}x64.zip",
+		"https://downloads.bluebeam.com/software/downloads/{version}/BbRevu{version}.exe"
+	]
+}
