@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Efeyamann",
+		"repo": "Streamlity"
+	},
+	"urls": [
+		"https://github.com/Efeyamann/Streamlity/releases/download/{github.rawTag}/Streamlity-{version}-windows-x64-setup.exe",
+		"https://github.com/Efeyamann/Streamlity/releases/download/{github.rawTag}/Streamlity-{version}-store.msix"
+	]
+}
