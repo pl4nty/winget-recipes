@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "owenlamont",
+		"repo": "ryl"
+	},
+	"urls": [
+		"https://github.com/owenlamont/ryl/releases/download/v{version}/ryl-x86_64-pc-windows-msvc.zip",
+		"https://github.com/owenlamont/ryl/releases/download/v{version}/ryl-aarch64-pc-windows-msvc.zip"
+	]
+}
