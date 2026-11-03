@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.aloneguid.uk/projects/mw/",
+		"regex": "bin/Markwright-(\\d+(?:\\.\\d+)+)-win64\\.msi"
+	},
+	"urls": ["https://www.aloneguid.uk/projects/mw/bin/Markwright-{version}-win64.msi"]
+}
