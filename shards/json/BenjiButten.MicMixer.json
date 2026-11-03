@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "benjibutten",
+		"repo": "MicMixer"
+	},
+	"urls": [
+		"https://github.com/benjibutten/MicMixer/releases/download/{github.rawTag}/MicMixer-{version}-win-x64.zip",
+		"https://github.com/benjibutten/MicMixer/releases/download/{github.rawTag}/MicMixer-{version}-win-x64-setup.exe"
+	]
+}
