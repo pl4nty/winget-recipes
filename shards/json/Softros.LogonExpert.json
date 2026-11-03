@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.logonexpert.com/history/",
+		"regex": "Version (\\d+(?:\\.\\d+)+) \\("
+	},
+	"urls": [
+		"https://download.softros.com/LogonExpertSetup32.msi",
+		"https://download.softros.com/LogonExpertSetup64.msi",
+		"https://download.softros.com/LogonExpertSetupARM64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.logonexpert.com/history/"
+	}
+}
