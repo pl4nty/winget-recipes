@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jakedorony",
+		"repo": "Monitor-Input-Switcher"
+	},
+	"urls": [
+		"https://github.com/jakedorony/Monitor-Input-Switcher/releases/download/{github.rawTag}/MonitorSwitch-Setup-{version}.exe"
+	]
+}
