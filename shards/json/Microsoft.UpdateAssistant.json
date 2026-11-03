@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/4/8/3/483976ae-b4b1-490d-bd5f-74fdc44bb84e/Windows10Upgrade9252.exe"
+	]
+}
