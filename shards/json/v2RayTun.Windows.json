@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://storage.v2raytun.com/v2RayTun_Setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://storage.v2raytun.com/v2RayTun_Setup.exe",
+		"header": "last-modified"
+	}
+}
