@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "levon2805",
+		"repo": "SoundBar"
+	},
+	"urls": [
+		"https://github.com/levon2805/SoundBar/releases/download/{github.rawTag}/SoundBar.zip"
+	]
+}
