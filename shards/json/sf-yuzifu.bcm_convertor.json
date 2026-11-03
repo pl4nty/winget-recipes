@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sf-yuzifu",
+		"repo": "bcm_convertor"
+	},
+	"urls": [
+		"https://github.com/sf-yuzifu/bcm_convertor/releases/download/v{version}/moe.yzf.bcm-convertor_{version}_x64-setup.exe"
+	]
+}
