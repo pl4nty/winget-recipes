@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Readarr",
-		"repo": "Readarr"
+		"repo": "Readarr",
+		"method": "api-list",
+		"kind": "all"
 	},
 	"urls": [
 		"https://github.com/Readarr/Readarr/releases/download/v{version}/Readarr.develop.{version}.windows-core-x86-installer.exe",
