@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bitwarden",
+		"repo": "sdk-sm",
+		"tagRegex": "^bws\\-v",
+		"method": "api-sort",
+		"assetRegex": "^(?:bws\\-aarch64\\-pc\\-windows\\-msvc\\-\\d+\\.\\d+\\.\\d+\\.zip|bws\\-x86_64\\-pc\\-windows\\-msvc\\-\\d+\\.\\d+\\.\\d+\\.zip)$"
+	}
+}
