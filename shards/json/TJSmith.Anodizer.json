@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tj-smith47", "repo": "anodizer" },
+	"urls": [
+		"https://github.com/tj-smith47/anodizer/releases/download/{github.rawTag}/anodizer-{version}-windows-arm64.zip",
+		"https://github.com/tj-smith47/anodizer/releases/download/{github.rawTag}/anodizer-{version}-windows-amd64.zip"
+	]
+}
