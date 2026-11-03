@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "ravibhushan10", "repo": "File-encryptor-CLI-app" },
+	"urls": ["https://github.com/ravibhushan10/File-encryptor-CLI-app/releases/download/{github.rawTag}/fenc-{github.rawTag}-windows.exe"]
+}
