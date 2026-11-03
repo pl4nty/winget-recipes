@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Hostpad",
+		"repo": "Hostpad"
+	},
+	"urls": [
+		"https://github.com/Hostpad/Hostpad/releases/download/{github.rawTag}/Hostpad-{version}-win-x64.exe"
+	]
+}
