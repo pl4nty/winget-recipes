@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://static.idriveonlinebackup.com/downloads/msi/042326/IDriveWinSetup.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://static.idriveonlinebackup.com/downloads/042326/IDriveWinSetup.exe",
+			"architecture": "x86"
+		}
+	]
+}
