@@ -3,9 +3,11 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "jrsoftware",
-		"repo": "issrc"
+		"repo": "issrc",
+		"method": "api-list",
+		"tagRegex": "^is-(?=6_)",
+		"perPage": 50
 	},
-	"versionRemove": "is-",
 	"version": "{version|_|.}",
 	"urls": ["https://github.com/jrsoftware/issrc/releases/download/{github.rawTag}/innosetup-{packageVersion}.exe"],
 	"releaseNotes": {
