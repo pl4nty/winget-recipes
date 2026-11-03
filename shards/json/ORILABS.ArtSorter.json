@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://orilabs.studio/artsorter/download"],
+		"method": "get",
+		"regex": "/artsorter/(?<version>\\d+(?:\\.\\d+)+)/ArtSorter-Setup-\\k<version>-x64\\.exe"
+	},
+	"urls": ["https://files.orilabs.studio/artsorter/{version}/ArtSorter-Setup-{version}-x64.exe"],
+	"releaseNotes": { "releaseNotesUrl": "https://orilabs.studio/artsorter/" }
+}
