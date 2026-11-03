@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 52379,
+		"regex": "^(?:Hyperlapse\\-Pro\\-for\\-64\\-bit\\-Windows_\\d+\\.\\d+\\-\\d+\\-d\\d+cb\\d+\\-\\d+\\.msi)$"
+	}
+}
