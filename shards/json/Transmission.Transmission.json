@@ -5,6 +5,5 @@
 	"urls": [
 		"https://github.com/transmission/transmission/releases/download/{github.rawTag}/transmission-{version}-x86.msi",
 		"https://github.com/transmission/transmission/releases/download/{github.rawTag}/transmission-{version}-x64.msi"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
