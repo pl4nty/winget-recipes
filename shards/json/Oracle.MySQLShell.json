@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://dev.mysql.com/downloads/shell/?tpl=version&os=3&version=8.4",
+		"regex": "mysql-shell-(?<version>8\\.4\\.\\d+)-windows-x86-64bit\\.msi"
+	},
+	"urls": ["https://cdn.mysql.com/Downloads/MySQL-Shell/mysql-shell-{version}-windows-x86-64bit.msi"]
+}
