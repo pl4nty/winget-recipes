@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "neosubhamoy",
+		"repo": "neodlp"
+	},
+	"urls": [
+		"https://github.com/neosubhamoy/neodlp/releases/download/v{version}/NeoDLP_{version}_x64-setup.exe",
+		"https://github.com/neosubhamoy/neodlp/releases/download/v{version}/NeoDLP_{version}_arm64-setup.exe",
+		"https://github.com/neosubhamoy/neodlp/releases/download/v{version}/NeoDLP_{version}_x64_en-US.msi",
+		"https://github.com/neosubhamoy/neodlp/releases/download/v{version}/NeoDLP_{version}_arm64_en-US.msi"
+	]
+}
