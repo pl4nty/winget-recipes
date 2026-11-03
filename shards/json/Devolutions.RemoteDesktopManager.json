@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://devolutions.net/productinfo.htm",
+		"regex": "\\bRDMmsi\\.Version=(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{ "url": "https://cdn.devolutions.net/download/Setup.RemoteDesktopManager.{version}.msi", "architecture": "neutral" },
+		"https://cdn.devolutions.net/download/Setup.RemoteDesktopManager.win-x64.{version}.msi",
+		"https://cdn.devolutions.net/download/Setup.RemoteDesktopManager.win-arm64.{version}.msi",
+		{ "url": "https://cdn.devolutions.net/download/Setup.RemoteDesktopManager.{version}.exe", "architecture": "neutral" },
+		"https://cdn.devolutions.net/download/Setup.RemoteDesktopManager.win-x64.{version}.exe",
+		"https://cdn.devolutions.net/download/Setup.RemoteDesktopManager.win-arm64.{version}.exe"
+	]
+}
