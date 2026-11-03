@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "interlynk-io",
+		"repo": "lynk-mcp"
+	},
+	"urls": [
+		"https://github.com/interlynk-io/lynk-mcp/releases/download/{github.rawTag}/lynk-mcp_{version}_Windows_arm64.zip",
+		"https://github.com/interlynk-io/lynk-mcp/releases/download/{github.rawTag}/lynk-mcp_{version}_Windows_x86_64.zip"
+	]
+}
