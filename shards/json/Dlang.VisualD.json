@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dlang",
+		"repo": "visuald",
+		"method": "api-sort",
+		"assetRegex": "^(?:VisualD\\-v\\d+\\.\\d+\\.\\d+\\-dmd\\-\\d+\\.\\d+\\.\\d+\\-ldc\\d+\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
