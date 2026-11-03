@@ -5,7 +5,8 @@
 		"owner": "stoplightio",
 		"repo": "spectral",
 		"method": "api-list",
-		"tagRegex": "^v(?=\\d)"
+		"tagRegex": "^v(?=\\d)",
+		"perPage": 100
 	},
 	"urls": ["https://github.com/stoplightio/spectral/releases/download/v{version}/spectral.exe"]
 }
