@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mpv-player", "repo": "mpv" },
+	"urls": [
+		"https://github.com/mpv-player/mpv/releases/download/v{version}/mpv-v{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/mpv-player/mpv/releases/download/v{version}/mpv-v{version}-aarch64-pc-windows-msvc.zip"
+	]
+}
