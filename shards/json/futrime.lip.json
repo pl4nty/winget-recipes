@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "futrime",
+		"repo": "lip"
+	},
+	"urls": [
+		"https://github.com/futrime/lip/releases/download/{github.rawTag}/lip-{version}-win-arm64.zip",
+		"https://github.com/futrime/lip/releases/download/{github.rawTag}/lip-{version}-win-x64.zip",
+		"https://github.com/futrime/lip/releases/download/{github.rawTag}/lip-{version}-win-arm64-setup.exe",
+		"https://github.com/futrime/lip/releases/download/{github.rawTag}/lip-{version}-win-x64-setup.exe"
+	]
+}
