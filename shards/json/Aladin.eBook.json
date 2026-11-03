@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.aladin.co.kr/events/wevent.aspx?EventId=212360",
+		"regex": "https://softcdn\\.ebook\\.aladin\\.co\\.kr/viewer/(\\d+(?:\\.\\d+)+)/setup\\.exe"
+	},
+	"urls": [
+		"https://softcdn.ebook.aladin.co.kr/viewer/{version}/setup.exe"
+	]
+}
