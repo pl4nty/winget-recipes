@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "YerongAI",
+		"repo": "Office-Tool"
+	},
+	"urls": [
+		"https://otp.landian.vip/redirect/download.php?type=normal&arch=x64&version={version}",
+		"https://otp.landian.vip/redirect/download.php?type=normal&arch=arm64&version={version}"
+	]
+}
