@@ -10,7 +10,7 @@ function field(form: string, name: string) {
 		const value = /value=["']([^"']+)["']/.exec(tag)?.[1];
 		if (value) return value;
 	}
-	throw new Error(`download form has no ${name}: ${form.slice(0, 1500)}`);
+	throw new Error(`download form has no ${name}: ${JSON.stringify(form.slice(0, 1500))}`);
 }
 
 export default defineShard(async () => {
@@ -19,11 +19,14 @@ export default defineShard(async () => {
 		groups: [version],
 	} = match(html, /NVCleanstall[ _]v?(\d+\.\d+\.\d+)/);
 
-	// The download buttons post the file id and a mirror id back to the page, which redirects to the file.
-	const form = /<form\b[^>]*method=["']?post[\s\S]*?<\/form>/i.exec(html)?.[0];
-	if (!form) throw new Error('download form not found');
-	const id = field(form, 'id');
-	const server = field(form, 'server_id');
+	// Downloading takes two posts back to the page: the file id returns the mirror list, and
+	// the file id plus a mirror id redirects to the file.
+	const form = (html: string) => /<form\b[^>]*method=["']?post[\s\S]*?<\/form>/i.exec(html)?.[0] ?? html;
+	const id = field(form(html), 'id');
+	const mirrors = await fetch(page, { method: 'POST', body: new URLSearchParams({ id }) }).then((response) =>
+		response.text(),
+	);
+	const server = field(mirrors, 'server_id');
 
 	return {
 		version,
