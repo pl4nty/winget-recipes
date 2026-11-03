@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "piers-sinclair", "repo": "cardpool" },
+	"urls": [
+		"https://github.com/piers-sinclair/cardpool/releases/download/v{version}/cpool-win-x64.zip",
+		"https://github.com/piers-sinclair/cardpool/releases/download/v{version}/cpool-win-arm64.zip"
+	]
+}
