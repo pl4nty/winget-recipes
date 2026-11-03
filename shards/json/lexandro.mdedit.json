@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lexandro",
+		"repo": "mdedit"
+	},
+	"urls": [
+		"https://github.com/lexandro/mdedit/releases/download/{github.rawTag}/mdedit_{version}_x64_en-US.msi"
+	]
+}
