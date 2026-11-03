@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "babyworm",
+		"repo": "video-viewer"
+	},
+	"urls": [
+		"https://github.com/babyworm/video-viewer/releases/download/{github.rawTag}/video-viewer-v{version}-windows-x86_64.zip"
+	]
+}
