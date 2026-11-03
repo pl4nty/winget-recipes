@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://www.b-trust.bg/attachments/BtrustPrivateFile/64/docs/BISS.msi"
+	]
+}
