@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": { "source": "product" },
-	"urls": ["https://downloads.poly.com/headsets/PlantronicsHubInstaller.exe"],
+	"urls": [{ "url": "https://downloads.poly.com/headsets/PlantronicsHubInstaller.exe", "architecture": "x64" }],
 	"state": {
 		"source": "response-header",
 		"url": "https://downloads.poly.com/headsets/PlantronicsHubInstaller.exe",
