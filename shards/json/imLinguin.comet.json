@@ -8,6 +8,5 @@
 	"urls": [
 		"https://github.com/imLinguin/comet/releases/download/{github.rawTag}/comet-x86_64-pc-windows-msvc.exe",
 		"https://github.com/imLinguin/comet/releases/download/{github.rawTag}/comet-aarch64-pc-windows-msvc.exe"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
