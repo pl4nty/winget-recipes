@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "louisboii747",
+		"repo": "HardwareMon"
+	},
+	"urls": [
+		"https://github.com/louisboii747/HardwareMon/releases/download/{github.rawTag}/HardwareMon-v{version}.exe"
+	]
+}
