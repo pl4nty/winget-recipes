@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "violet2code",
+		"repo": "magnify-snap"
+	},
+	"urls": [
+		"https://github.com/violet2code/magnify-snap/releases/download/v{version}/MagnifySnap-{version}-windows-x64-setup.exe"
+	]
+}
