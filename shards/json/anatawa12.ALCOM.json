@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vrc-get",
+		"repo": "vrc-get",
+		"tagRegex": "^gui\\-v",
+		"method": "api-sort",
+		"assetRegex": "^(?:ALCOM\\-\\d+\\.\\d+\\.\\d+\\-setup\\.exe)$"
+	}
+}
