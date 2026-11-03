@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "creationsofm7",
+		"repo": "localtv-remote"
+	},
+	"urls": [
+		"https://github.com/creationsofm7/localtv-remote/releases/download/{github.rawTag}/LocalTVRemote-Setup-{version}.exe"
+	]
+}
