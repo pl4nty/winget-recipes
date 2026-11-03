@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "spieglt",
+		"repo": "winage"
+	},
+	"urls": ["https://github.com/spieglt/winage/releases/download/{github.rawTag}/ageSetup.msi"]
+}
