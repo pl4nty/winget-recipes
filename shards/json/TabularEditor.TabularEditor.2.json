@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TabularEditor",
+		"repo": "TabularEditor"
+	},
+	"urls": [
+		"https://github.com/TabularEditor/TabularEditor/releases/download/{version}/TabularEditor.Portable.zip",
+		"https://github.com/TabularEditor/TabularEditor/releases/download/{version}/TabularEditor.Installer.msi"
+	]
+}
