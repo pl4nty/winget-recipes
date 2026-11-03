@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://seekfast.org/download-seekfast",
+		"regex": "Latest version:\\s*(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://seekfast.org/files_933/SeekFast_Setup_{version}.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://seekfast.org/version-history"
+	}
+}
