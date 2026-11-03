@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "robedpixel",
+		"repo": "SDL3Installer"
+	},
+	"urls": [
+		"https://github.com/robedpixel/SDL3Installer/releases/download/{version}/SDL3Installer.msi"
+	]
+}
