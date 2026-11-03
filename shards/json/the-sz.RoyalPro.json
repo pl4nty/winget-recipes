@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/products/royal_pro/",
+		"regex": "Product: 'royal_pro', Link[^>]*title=\"Version (\\d+\\.\\d+) &middot;"
+	},
+	"urls": ["https://the-sz.com/common/get.php?product=royal_pro&version={version}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=royal_pro"
+	}
+}
