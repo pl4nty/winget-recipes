@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://releases.privacynotes.app/latest.json"
+	},
+	"urls": [
+		"https://releases.privacynotes.app/{version}/PrivacyNotes_x64-setup.exe"
+	]
+}
