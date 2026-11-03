@@ -6,8 +6,7 @@
 		"regex": "SmartFTP (\\d+(?:\\.\\d+){3}) \\(x64\\)"
 	},
 	"urls": [
-		"https://static.smartftp.com/static/Products/Client/{version}/x64/SmartFTP.msi",
-		"https://static.smartftp.com/static/Products/Client/{version}/x64/SmartFTP-Setup.exe"
+		"https://static.smartftp.com/static/Products/Client/{version}/x64/SmartFTP.msi"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.smartftp.com/en-us/changelog/1"
