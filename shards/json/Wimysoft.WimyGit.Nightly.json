@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zelon",
+		"repo": "wimygit",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "^nightly-v"
+	},
+	"urls": ["https://github.com/zelon/wimygit/releases/download/nightly-v{version}/wimygit-windows-nightly-v{version}.zip"]
+}
