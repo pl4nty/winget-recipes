@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aaravmaloo",
+		"repo": "cmdutils"
+	},
+	"urls": [
+		"https://github.com/aaravmaloo/cmdutils/releases/download/{github.rawTag}/cmdutils-v{version}-windows_x64.zip",
+		"https://github.com/aaravmaloo/cmdutils/releases/download/{github.rawTag}/cmdutils-v{version}-windows_arm64.zip"
+	]
+}
