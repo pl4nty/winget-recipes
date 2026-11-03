@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "choyy",
+		"repo": "VirtualDesktopSwitcher"
+	},
+	"urls": [
+		"https://github.com/choyy/VirtualDesktopSwitcher/releases/download/{github.rawTag}/VirtualDesktopSwitcher.exe"
+	]
+}
