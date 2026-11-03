@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdnone.aerosoft.com/client/installers/Aerosoft%20One%20Setup.exe"
+	]
+}
