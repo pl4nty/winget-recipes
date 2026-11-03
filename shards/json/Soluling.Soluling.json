@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.soluling.com/Download",
+		"regex": "Soluling setup file</a>\\s*(?<version>\\d+(?:\\.\\d+)+) released"
+	},
+	"urls": ["https://solulingfiles.blob.core.windows.net/setups/SoluSetup_{version|.|_}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.soluling.com/Download/History#:~:text={version},-download"
+	}
+}
