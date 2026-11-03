@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Alex313031",
+		"repo": "Mercury",
+		"tagRegex": "^v?\\."
+	},
+	"urls": [
+		"https://github.com/Alex313031/Mercury/releases/download/{github.rawTag}/mercury_{version}_win64_AVX_installer.exe"
+	]
+}
