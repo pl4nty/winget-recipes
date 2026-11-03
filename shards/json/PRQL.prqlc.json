@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PRQL",
+		"repo": "prql"
+	},
+	"urls": ["https://github.com/PRQL/prql/releases/download/{version}/prqlc-{version}-x86_64-pc-windows-msvc.zip"]
+}
