@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://app.testcontainers.cloud/download/testcontainers-desktop_windows_x86-64.msi"
+	]
+}
