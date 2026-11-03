@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qiyuey",
+		"repo": "bing-wallpaper-now"
+	},
+	"urls": [
+		"https://github.com/qiyuey/bing-wallpaper-now/releases/download/{version}/Bing.Wallpaper.Now_{version}_x64_zh-CN.msi",
+		"https://github.com/qiyuey/bing-wallpaper-now/releases/download/{version}/Bing.Wallpaper.Now_{version}_arm64_zh-CN.msi"
+	]
+}
