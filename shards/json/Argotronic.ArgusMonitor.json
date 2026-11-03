@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://www.argusmonitor.com/downloads/ArgusMonitor_Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.argusmonitor.com/history.php"
+	}
+}
