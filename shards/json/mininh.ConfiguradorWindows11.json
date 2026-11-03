@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mininh1206",
+		"repo": "windows-config"
+	},
+	"urls": [
+		"https://github.com/Mininh1206/windows-config/releases/download/v{version}/configurador.exe"
+	]
+}
