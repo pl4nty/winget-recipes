@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ltmroberthk915",
+		"repo": "markpilot"
+	},
+	"urls": ["https://github.com/ltmroberthk915/markpilot/releases/download/v{version}/markpilot-Setup-{version}.exe"]
+}
