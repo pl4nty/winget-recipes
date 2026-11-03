@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "skyllc-ai", "repo": "UltraFastFileSearch" },
+	"urls": ["https://github.com/skyllc-ai/UltraFastFileSearch/releases/download/v{version}/uffs-windows-x64.zip"]
+}
