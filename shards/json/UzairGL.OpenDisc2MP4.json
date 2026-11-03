@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "UzairGL",
+		"repo": "OpenDisc2MP4"
+	},
+	"urls": [
+		"https://github.com/UzairGL/OpenDisc2MP4/releases/download/v{version}/OpenDisc2MP4.Cli.exe"
+	]
+}
