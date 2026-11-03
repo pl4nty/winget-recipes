@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://transmart.qq.com/en-US/client",
+		"regex": "installation_pro/TranSmart_(?<version>[A-Za-z]*\\d+(?:\\.\\d+)+)\\((?<build>\\d+)\\)_windows\\.exe"
+	},
+	"urls": ["https://cdn.transmart.qq.com/installation_pro/TranSmart_{version}({captures.build})_windows.exe"]
+}
