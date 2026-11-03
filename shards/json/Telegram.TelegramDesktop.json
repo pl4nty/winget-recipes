@@ -8,9 +8,9 @@
 	"urls": [
 		"https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-setup-win-x64-{version}.exe",
 		"https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-setup-win-x86-{version}.exe",
-		"https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-setup-win-arm-{version}.exe",
+		{ "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-setup-win-arm-{version}.exe", "architecture": "arm64" },
 		"https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-portable-win-x64-{version}.zip",
 		"https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-portable-win-x86-{version}.zip",
-		"https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-portable-win-arm-{version}.zip"
+		{ "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v{version}/td-portable-win-arm-{version}.zip", "architecture": "arm64" }
 	]
 }
