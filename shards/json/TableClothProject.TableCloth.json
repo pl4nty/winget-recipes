@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yourtablecloth",
+		"repo": "TableCloth"
+	},
+	"urls": [
+		"https://github.com/yourtablecloth/TableCloth/releases/download/v{version}/TableCloth_{version}.0_Release_x64.exe",
+		"https://github.com/yourtablecloth/TableCloth/releases/download/v{version}/TableCloth_{version}.0_Release_arm64.exe"
+	]
+}
