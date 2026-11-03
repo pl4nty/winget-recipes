@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vjousse",
+		"repo": "concentre",
+		"tagRegex": "^app\\-v"
+	},
+	"urls": [
+		"https://github.com/vjousse/concentre/releases/download/{github.rawTag}/pomodorolm_{version}_x64-setup.exe",
+		"https://github.com/vjousse/concentre/releases/download/{github.rawTag}/pomodorolm_{version}_x64_en-US.msi"
+	]
+}
