@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TonyD365",
+		"repo": "YTKTV"
+	},
+	"urls": [
+		"https://github.com/TonyD365/YTKTV/releases/download/v{version}/YTKTV-{version}-windows-x64-setup.exe",
+		"https://github.com/TonyD365/YTKTV/releases/download/v{version}/YTKTV-{version}-windows-arm64-setup.exe"
+	]
+}
