@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "friction2d",
-		"repo": "friction"
+		"repo": "friction",
+		"method": "api-sort"
 	},
 	"urls": ["https://github.com/friction2d/friction/releases/download/v{version}/friction-{version}-setup-win64.exe"]
 }
