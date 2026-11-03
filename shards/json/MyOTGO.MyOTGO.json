@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://myotgo.blob.core.windows.net/downloads/MyOTGO-Setup-Windows-x64.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://myotgo.blob.core.windows.net/downloads/MyOTGO-Setup-Windows-x64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
