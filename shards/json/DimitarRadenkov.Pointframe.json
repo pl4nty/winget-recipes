@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dimitar-radenkov",
+		"repo": "Pointframe"
+	},
+	"urls": [
+		"https://github.com/dimitar-radenkov/Pointframe/releases/download/{github.rawTag}/Pointframe-{version}-x64-Setup.exe"
+	]
+}
