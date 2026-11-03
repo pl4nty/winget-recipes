@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://aikonic.app/download/latest.json"
+	},
+	"urls": [
+		"https://aikonic.app/download/Aikonic_{version}_x64_en-US.msi"
+	]
+}
