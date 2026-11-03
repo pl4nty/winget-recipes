@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hvrcharon1",
+		"repo": "agentdb"
+	},
+	"urls": [
+		"https://github.com/hvrcharon1/agentdb/releases/download/{github.rawTag}/agentdb-x86_64-pc-windows-msvc.zip"
+	]
+}
