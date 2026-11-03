@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "evandde",
+		"repo": "G4Starter"
+	},
+	"urls": [
+		"https://github.com/evandde/G4Starter/releases/download/{github.rawTag}/G4Starter.exe"
+	]
+}
