@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "flowkeeper-org",
+		"repo": "fk-desktop",
+		"method": "api-sort",
+		"assetRegex": "^(?:flowkeeper\\-\\d+\\.\\d+\\.\\d+\\-windows\\-\\d+\\-nuitka\\-installer\\.exe)$"
+	}
+}
