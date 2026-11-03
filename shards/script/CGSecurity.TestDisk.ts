@@ -13,13 +13,16 @@ export default defineShard(async () => {
 	if (!builds.length) throw new Error('No TestDisk win64 build found');
 	const latest = builds.sort((a, b) => compareVersions(b.version, a.version) || a.suffix.length - b.suffix.length)[0]!;
 	const file = `testdisk-${latest.version}${latest.suffix}`;
+	const tools = ['fidentify', 'photorec', 'qphotorec', 'testdisk'];
 
 	return {
 		version: latest.version,
-		urls: () => [
-			{ url: `https://www.cgsecurity.org/${file}.win64.zip`, architecture: 'x64' },
-			{ url: `https://www.cgsecurity.org/${file}.win.zip`, architecture: 'x86' },
-		],
+		urls: () =>
+			['win64', 'win'].map((build) => ({
+				url: `https://www.cgsecurity.org/${file}.${build}.zip`,
+				architecture: build === 'win64' ? ('x64' as const) : ('x86' as const),
+				nestedInstallerMatches: tools.map((tool) => `${file}/${tool}_win.exe`),
+			})),
 		releaseNotes: {
 			releaseNotesUrl: latest.suffix
 				? 'https://www.cgsecurity.org/wiki/TestDisk_Download'
