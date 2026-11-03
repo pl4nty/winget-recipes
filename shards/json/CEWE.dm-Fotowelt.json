@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "display" },
+	"version": { "source": "file" },
 	"urls": ["https://dls.photoprintit.com/api/getClient/1320-de_DE/hps/x_x_x_x_1320_x_01320-GWOzcPEqitmof/windows"],
 	"state": {
 		"source": "response-header",
