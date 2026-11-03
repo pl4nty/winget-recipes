@@ -8,6 +8,5 @@
 			"url": "https://github.com/valinet/ExplorerPatcher/releases/download/{github.rawTag}/ep_setup_arm64.exe",
 			"architecture": "arm64"
 		}
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
