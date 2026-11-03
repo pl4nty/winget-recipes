@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yd-null",
+		"repo": "sbscraper"
+	},
+	"urls": ["https://github.com/yd-null/sbscraper/releases/download/v{version}/sbscraper-windows.zip"]
+}
