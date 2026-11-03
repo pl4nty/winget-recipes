@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "roob-p",
+		"repo": "SkipUacTaskCreator"
+	},
+	"urls": [
+		"https://github.com/roob-p/SkipUacTaskCreator/releases/download/v{version}/SkipUacTaskCreator-INSTALLER_x64.exe",
+		"https://github.com/roob-p/SkipUacTaskCreator/releases/download/v{version}/SkipUacTaskCreator-INSTALLER_x86.exe"
+	]
+}
