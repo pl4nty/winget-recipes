@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "ltmroberthk915",
-		"repo": "markpilot"
+		"repo": "markpilot",
+		"method": "api-sort",
+		"tagRegex": "^v(?=\\d+\\.\\d+\\.\\d+$)"
 	},
 	"urls": ["https://github.com/ltmroberthk915/markpilot/releases/download/v{version}/markpilot-Setup-{version}.exe"]
 }
