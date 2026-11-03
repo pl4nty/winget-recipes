@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://public.novacura.com/public-storage/client-cloud-installers/Flow%20Connect%20-%20Windows%20Client.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://public.novacura.com/public-storage/client-cloud-installers/Flow%20Connect%20-%20Windows%20Client.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
