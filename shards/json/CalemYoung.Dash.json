@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CalemYoung",
+		"repo": "Dash"
+	},
+	"urls": [
+		"https://github.com/CalemYoung/Dash/releases/download/{github.rawTag}/DashSetup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/CalemYoung/Dash/releases/tag/{github.rawTag}"
+	}
+}
