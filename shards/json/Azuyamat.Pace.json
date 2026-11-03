@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "azuyamat",
+		"repo": "pace"
+	},
+	"urls": [
+		"https://github.com/azuyamat/pace/releases/download/{github.rawTag}/pace-windows-amd64.zip",
+		"https://github.com/azuyamat/pace/releases/download/{github.rawTag}/pace-windows-arm64.zip"
+	]
+}
