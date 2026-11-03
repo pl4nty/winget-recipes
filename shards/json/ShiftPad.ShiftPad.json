@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "APPLEVODKARUS", "repo": "ShiftPad" },
+	"urls": [
+		"https://github.com/APPLEVODKARUS/ShiftPad/releases/download/v{version}/ShiftPad-Setup-{version}.exe"
+	]
+}
