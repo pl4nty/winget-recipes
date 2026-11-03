@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lkurcak",
+		"repo": "tend"
+	},
+	"urls": [
+		"https://github.com/lkurcak/tend/releases/download/v{version}/tend-v{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/lkurcak/tend/releases/download/v{version}/tend-v{version}-aarch64-pc-windows-msvc.zip"
+	]
+}
