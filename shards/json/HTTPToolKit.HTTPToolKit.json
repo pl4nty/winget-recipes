@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "httptoolkit",
+		"repo": "httptoolkit-desktop"
+	},
+	"urls": [
+		"https://github.com/httptoolkit/httptoolkit-desktop/releases/download/{github.rawTag}/HttpToolkit-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/httptoolkit/httptoolkit-desktop/releases/tag/{github.rawTag}"
+	}
+}
