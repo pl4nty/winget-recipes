@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "deadlock-mod-manager",
+		"repo": "deadlock-mod-manager"
+	},
+	"urls": ["https://github.com/deadlock-mod-manager/deadlock-mod-manager/releases/download/v{version}/Deadlock.Mod.Manager_{version}_x64-setup.exe"]
+}
