@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "nefarius", "repo": "nefcon" },
+	"urls": [
+		{
+			"url": "https://github.com/nefarius/nefcon/releases/download/v{version}/nefcon_v{version}.zip",
+			"architecture": "arm64",
+			"nestedInstallerMatches": ["ARM64/nefconc.exe", "ARM64/nefconw.exe"]
+		},
+		{
+			"url": "https://github.com/nefarius/nefcon/releases/download/v{version}/nefcon_v{version}.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["x64/nefconc.exe", "x64/nefconw.exe"]
+		},
+		{
+			"url": "https://github.com/nefarius/nefcon/releases/download/v{version}/nefcon_v{version}.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["x86/nefconc.exe", "x86/nefconw.exe"]
+		}
+	]
+}
