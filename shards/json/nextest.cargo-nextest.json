@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nextest-rs",
+		"repo": "nextest",
+		"method": "api-list",
+		"tagRegex": "^cargo-nextest-"
+	},
+	"urls": [
+		"https://github.com/nextest-rs/nextest/releases/download/{github.rawTag}/cargo-nextest-{version}-i686-pc-windows-msvc.zip",
+		"https://github.com/nextest-rs/nextest/releases/download/{github.rawTag}/cargo-nextest-{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/nextest-rs/nextest/releases/download/{github.rawTag}/cargo-nextest-{version}-aarch64-pc-windows-msvc.zip"
+	]
+}
