@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "appinstaller",
+	"appinstaller": {
+		"url": ["https://cdn.files.community/files/stable/Files.Package.appinstaller"]
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/files-community/Files/releases"
+	}
+}
