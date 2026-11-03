@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Soltrubeg",
+		"repo": "TungSay"
+	},
+	"urls": [
+		"https://github.com/Soltrubeg/TungSay/releases/download/v{version}/tungsay.exe"
+	]
+}
