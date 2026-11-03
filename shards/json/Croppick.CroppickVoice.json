@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://voice.croppick.com/download",
+		"regex": "https://dl\\-voice\\.croppick\\.com/v(\\d+(?:\\.\\d+)+)/CroppickVoice\\-windows\\-setup\\.exe"
+	},
+	"urls": [
+		"https://dl-voice.croppick.com/v{version}/CroppickVoice-windows-setup.exe"
+	]
+}
