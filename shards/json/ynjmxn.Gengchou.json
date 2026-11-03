@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "ynjmxn", "repo": "gengchou" },
+	"urls": ["https://github.com/ynjmxn/gengchou/releases/download/v{version}/gengchou-windows-x64.zip"]
+}
