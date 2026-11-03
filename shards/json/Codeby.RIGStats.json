@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dvalfrid",
+		"repo": "rigstats"
+	},
+	"urls": [
+		"https://github.com/dvalfrid/rigstats/releases/download/{github.rawTag}/RIGStats_{version}_x64-setup.exe"
+	]
+}
