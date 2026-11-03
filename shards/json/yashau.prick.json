@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "yashau", "repo": "prick" },
+	"urls": [
+		"https://github.com/yashau/prick/releases/download/{github.rawTag}/prk-{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/yashau/prick/releases/download/{github.rawTag}/prk-{version}-aarch64-pc-windows-msvc.zip"
+	]
+}
