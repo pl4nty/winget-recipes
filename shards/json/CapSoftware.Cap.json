@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://cdn.crabnebula.app/update/cap/cap/windows-x86_64/0.0.0"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "CapSoftware",
+		"repo": "Cap",
+		"tag": "cap-v{version}"
+	}
+}
