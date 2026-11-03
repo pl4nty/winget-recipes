@@ -3,7 +3,10 @@ name: Test
 on:
   pull_request:
     paths:
+      - lint.ts
+      - maintainers.csv
       - shards/**
+      - version-state/**
   workflow_dispatch:
     inputs:
       packages:
@@ -42,6 +45,9 @@ jobs:
       - name: Install Dependencies
         run: bun ci --production
 
+      - name: Lint Shards
+        run: bun lint.ts
+
       - name: Test Packages
         run: |
           if [ -z "$PACKAGES" ]; then
@@ -51,6 +57,7 @@ jobs:
             exit 0
           fi
           bun test:shard "$PACKAGES" --dry-run
+          bun lint.ts --dry-run
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
