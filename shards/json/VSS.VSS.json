@@ -6,6 +6,9 @@
 		"repo": "vss-language"
 	},
 	"urls": [
-		"https://github.com/siddharth-1118/vss-language/releases/download/v{version}/VSS-{version}-Setup.exe"
+		{
+			"architecture": "x64",
+			"url": "https://github.com/siddharth-1118/vss-language/releases/download/v{version}/VSS-{version}-Setup.exe"
+		}
 	]
 }
