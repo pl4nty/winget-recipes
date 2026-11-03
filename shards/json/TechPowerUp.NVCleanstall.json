@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.techpowerup.com/download/techpowerup-nvcleanstall/",
-		"regex": "NVCleanstall[ _]v?(\\d+\\.\\d+\\.\\d+)"
-	},
-	"urls": ["https://closest-dl.techpowerup.com/files/NVCleanstall_{version}.exe"]
-}
