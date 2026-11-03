@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AariyJP",
+		"repo": "VRCXF"
+	},
+	"urls": ["https://github.com/AariyJP/VRCXF/releases/download/{github.rawTag}/VRCXF_Setup_x64.exe"]
+}
