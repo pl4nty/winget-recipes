@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Azure",
+		"repo": "kubelogin"
+	},
+	"urls": [
+		"https://github.com/Azure/kubelogin/releases/download/v{version}/kubelogin-win-amd64.zip",
+		"https://github.com/Azure/kubelogin/releases/download/v{version}/kubelogin-win-arm64.zip"
+	]
+}
