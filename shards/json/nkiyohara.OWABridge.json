@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nkiyohara",
+		"repo": "corresync"
+	},
+	"urls": [
+		"https://github.com/nkiyohara/corresync/releases/download/v{version}/corresync_{version}_windows_arm64.zip",
+		"https://github.com/nkiyohara/corresync/releases/download/v{version}/corresync_{version}_windows_amd64.zip"
+	]
+}
