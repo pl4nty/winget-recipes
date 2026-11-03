@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aziontech",
+		"repo": "azion",
+		"method": "api-latest",
+		"assetRegex": "^(?:azion_\\d+\\.\\d+\\.\\d+\\-dev\\.\\d+_windows_\\d+\\.zip|azion_\\d+\\.\\d+\\.\\d+\\-dev\\.\\d+_windows_amd64\\.zip|azion_\\d+\\.\\d+\\.\\d+\\-dev\\.\\d+_windows_arm64\\.zip)$"
+	}
+}
