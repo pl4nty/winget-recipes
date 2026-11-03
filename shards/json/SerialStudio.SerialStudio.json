@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Serial-Studio",
+		"repo": "Serial-Studio"
+	},
+	"urls": [
+		"https://github.com/Serial-Studio/Serial-Studio/releases/download/v{version}/Serial-Studio-Pro-{version}-Windows.msi"
+	]
+}
