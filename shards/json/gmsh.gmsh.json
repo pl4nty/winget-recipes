@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://gmsh.info/",
+		"regex": "bin/Windows/gmsh-(\\d+(?:\\.\\d+)+)-Windows64\\.zip"
+	},
+	"urls": ["https://gmsh.info/bin/Windows/gmsh-{version}-Windows64.zip"]
+}
