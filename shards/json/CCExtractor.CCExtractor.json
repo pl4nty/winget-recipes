@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CCExtractor",
+		"repo": "ccextractor"
+	},
+	"urls": [
+		"https://github.com/CCExtractor/ccextractor/releases/download/{github.rawTag}/CCExtractor.{version}.msi"
+	]
+}
