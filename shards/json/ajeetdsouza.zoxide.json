@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ajeetdsouza",
+		"repo": "zoxide"
+	},
+	"urls": [
+		"https://github.com/ajeetdsouza/zoxide/releases/download/{github.rawTag}/zoxide-{version}-aarch64-pc-windows-msvc.zip",
+		"https://github.com/ajeetdsouza/zoxide/releases/download/{github.rawTag}/zoxide-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
