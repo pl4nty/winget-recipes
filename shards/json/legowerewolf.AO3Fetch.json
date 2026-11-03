@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "legowerewolf",
+		"repo": "AO3fetch"
+	},
+	"urls": [
+		"https://github.com/legowerewolf/AO3fetch/releases/download/{github.rawTag}/ao3fetch-v{version}-windows-386.zip",
+		"https://github.com/legowerewolf/AO3fetch/releases/download/{github.rawTag}/ao3fetch-v{version}-windows-amd64.zip",
+		"https://github.com/legowerewolf/AO3fetch/releases/download/{github.rawTag}/ao3fetch-v{version}-windows-arm64.zip"
+	]
+}
