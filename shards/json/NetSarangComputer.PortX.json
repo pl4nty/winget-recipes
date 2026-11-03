@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://xcasca.com/download",
+		"regex": "cdn\\.netsarang\\.net/(?<dir>[0-9a-f]+)/PortX-(?<version>\\d+(?:\\.\\d+)+)-Setup\\.exe"
+	},
+	"urls": ["https://cdn.netsarang.net/{captures.dir}/PortX-{version}-Setup.exe"]
+}
