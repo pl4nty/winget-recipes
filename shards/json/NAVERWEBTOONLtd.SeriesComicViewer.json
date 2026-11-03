@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": ["https://appdown.pstatic.net/naver/pccomicviewer/Series%20Comic%20Viewer.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://appdown.pstatic.net/naver/pccomicviewer/Series%20Comic%20Viewer.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
