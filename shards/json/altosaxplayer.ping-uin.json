@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "altosaxplayer",
+		"repo": "ping-uin"
+	},
+	"urls": [
+		"https://github.com/altosaxplayer/ping-uin/releases/download/{github.rawTag}/ping-uin-windows-x86_64.zip"
+	]
+}
