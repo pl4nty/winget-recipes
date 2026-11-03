@@ -6,6 +6,9 @@
 		"regex": "releases/(\\d+\\.\\d+-\\d+)-pd64\""
 	},
 	"urls": [
-		"https://puredata.info/downloads/pure-data/releases/{version}-pd64/Pd64-{version}.windows-installer.exe"
+		{
+			"url": "https://puredata.info/downloads/pure-data/releases/{version}-pd64/Pd64-{version}.windows-installer.exe",
+			"architecture": "x64"
+		}
 	]
 }
