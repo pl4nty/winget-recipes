@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oracle.com/database/sqldeveloper/technologies/download/",
+		"regex": "/sqldeveloper-(?<version>(?<release>\\d+\\.\\d+)\\.\\d+)\\.(?<build>\\d+\\.\\d+)-x64\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://download.oracle.com/otn_software/java/sqldeveloper/sqldeveloper-{version}.{captures.build}-x64.zip",
+			"architecture": "neutral"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.oracle.com/tools/sqldev/sqldev-relnotes-{captures.release}.html"
+	}
+}
