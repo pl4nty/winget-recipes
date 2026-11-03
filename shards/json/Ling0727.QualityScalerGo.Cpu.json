@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ling0727-ai",
+		"repo": "qs-go-website"
+	},
+	"urls": [
+		"https://github.com/Ling0727-ai/qs-go-website/releases/download/{github.rawTag}/QualityScaler-Go-{version}-onnx-cpu-win-amd64-wails-setup.exe"
+	]
+}
