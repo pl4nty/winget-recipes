@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "automutemusic",
+		"repo": "auto-mute-music-releases"
+	},
+	"urls": ["https://github.com/automutemusic/auto-mute-music-releases/releases/download/v{version}/AutoMuteMusic-Setup-{version}.exe"]
+}
