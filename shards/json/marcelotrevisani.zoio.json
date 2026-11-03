@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "marcelotrevisani",
+		"repo": "zoio"
+	},
+	"urls": ["https://github.com/marcelotrevisani/zoio/releases/download/v{version}/zoio-v{version}-x86_64.msi"]
+}
