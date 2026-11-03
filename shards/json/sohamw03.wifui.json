@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sohamw03",
+		"repo": "wifui"
+	},
+	"urls": ["https://github.com/sohamw03/wifui/releases/download/{version}/wifui-x86_64-pc-windows-msvc.zip"],
+	"releaseNotes": { "source": "github" }
+}
