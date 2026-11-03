@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GioNicolas",
+		"repo": "catenary-releases"
+	},
+	"urls": [
+		"https://github.com/GioNicolas/catenary-releases/releases/download/{github.rawTag}/Catenary-Setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/GioNicolas/catenary-releases/releases/tag/{github.rawTag}"
+	}
+}
