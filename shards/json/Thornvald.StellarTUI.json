@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "basarersek", "repo": "Stellar-TUI" },
+	"urls": ["https://github.com/basarersek/Stellar-TUI/releases/download/v{version}/Stellar-setup-{version}.exe"]
+}
