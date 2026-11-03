@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nobloatpdf.com",
+		"regex": "https://www\\.nobloatpdf\\.com/downloads/NoBloatPDF\\-Setup\\-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.nobloatpdf.com/downloads/NoBloatPDF-Setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nobloatpdf.com/download.html"
+	}
+}
