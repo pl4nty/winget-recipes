@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "clash-verge-rev",
+		"repo": "clash-verge-rev"
+	},
+	"urls": [
+		"https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v{version}/Clash.Verge_{version}_x64-setup.exe",
+		"https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v{version}/Clash.Verge_{version}_arm64-setup.exe"
+	]
+}
