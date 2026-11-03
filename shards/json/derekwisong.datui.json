@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "derekwisong",
+		"repo": "datui"
+	},
+	"urls": [
+		"https://github.com/derekwisong/datui/releases/download/{github.rawTag}/datui-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
