@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://uniqkey-desktop-production.s3.eu-central-1.amazonaws.com/uniqkey-desktop-production.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://uniqkey-desktop-production.s3.eu-central-1.amazonaws.com/uniqkey-desktop-production.msi",
+		"header": "etag"
+	}
+}
