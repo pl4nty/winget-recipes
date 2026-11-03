@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jayyanez",
+		"repo": "java-service-steward"
+	},
+	"urls": [
+		"https://github.com/jayyanez/java-service-steward/releases/download/{github.rawTag}/java-service-steward-{version}-windows-x64.zip"
+	]
+}
