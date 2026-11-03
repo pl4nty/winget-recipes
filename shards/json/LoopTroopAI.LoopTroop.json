@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "looptroop-ai",
+		"repo": "LoopTroop"
+	},
+	"urls": [
+		"https://github.com/looptroop-ai/LoopTroop/releases/download/{github.rawTag}/looptroop-{version}-win-x64.zip"
+	]
+}
