@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hec.usace.army.mil/software/hec-dssvue/downloads.aspx",
+		"regex": "downloads/HEC-DSSVue_(?<file>\\d+)_Setup\\.exe\"><span class=\"fas fa-download\"></span> Download</a> HEC-DSSVue (?<version>\\d+(?:\\.\\d+)+) for Windows"
+	},
+	"urls": ["https://www.hec.usace.army.mil/software/hec-dssvue/downloads/HEC-DSSVue_{captures.file}_Setup.exe"]
+}
