@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oxygen-dioxide",
+		"repo": "hitsuboku-kumi-chn-deepvocal"
+	},
+	"urls": ["https://github.com/oxygen-dioxide/hitsuboku-kumi-chn-deepvocal/releases/download/v{version}/Hitsuboku-Kumi-Chinese-deepvocal-{version}-dvtb1.exe"]
+}
