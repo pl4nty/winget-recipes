@@ -5,7 +5,12 @@
 		"url": "https://www.mamp.info/en/windows/",
 		"regex": "MAMP-PRO/Windows/MAMP-PRO/MAMP-MAMP-PRO-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
 	},
-	"urls": ["https://downloads.mamp.info/MAMP-PRO/Windows/MAMP-PRO/MAMP-MAMP-PRO-{version}.exe"],
+	"urls": [
+		{
+			"url": "https://downloads.mamp.info/MAMP-PRO/Windows/MAMP-PRO/MAMP-MAMP-PRO-{version}.exe",
+			"architecture": "x64"
+		}
+	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.mamp.info/en/release-notes/windows/#v{version}"
 	}
