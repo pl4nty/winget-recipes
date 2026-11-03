@@ -75,13 +75,19 @@ const IGNORED = /(^|\.)InstallerLocale$/;
 const DEFAULT_LOCALE_ONLY = /(^|\.)ReleaseNotesUrl$/;
 
 // Counts each field path without array indexes. Root installer fields count once per installer,
-// so komac moving a field between the root and the installers is not a drop.
+// so komac moving a field between the root and the installers is not a drop. Like winget,
+// installer switches override the root switches one by one.
 function fields(yaml: string) {
 	const manifest = Bun.YAML.parse(yaml) as Record<string, unknown>;
 	if (Array.isArray(manifest.Installers)) {
 		const shared = Object.entries(manifest).filter(([key]) => !ROOT.has(key) && key !== 'Installers');
 		for (const [key] of shared) delete manifest[key];
-		manifest.Installers = manifest.Installers.map((installer) => ({ ...Object.fromEntries(shared), ...installer }));
+		const root = Object.fromEntries(shared) as Record<string, object>;
+		manifest.Installers = manifest.Installers.map((installer) => ({
+			...root,
+			...installer,
+			InstallerSwitches: { ...root.InstallerSwitches, ...installer.InstallerSwitches },
+		}));
 	}
 	const counts = new Map<string, number>();
 	const walk = (value: unknown, path: string) => {
