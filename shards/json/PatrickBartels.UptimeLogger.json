@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "roughneck",
+		"repo": "uptime-logger"
+	},
+	"urls": [
+		"https://github.com/roughneck/uptime-logger/releases/download/v{version}/UptimeLogger-{version}-setup.exe"
+	]
+}
