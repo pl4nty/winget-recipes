@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/singularity/singularity-windows/archive/41a42bb5f338fb870971bf06444196a32b2e5a1c.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/singularity/singularity/releases/tag/v{version}"
+	}
+}
