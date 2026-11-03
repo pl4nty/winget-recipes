@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "amnezia-vpn",
+		"repo": "amnezia-client"
+	},
+	"urls": [
+		"https://github.com/amnezia-vpn/amnezia-client/releases/download/{github.rawTag}/AmneziaVPN_{version}_windows_x64.exe"
+	]
+}
