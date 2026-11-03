@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JosefNemec",
+		"repo": "Playnite"
+	},
+	"urls": ["https://github.com/JosefNemec/Playnite/releases/download/{github.rawTag}/Playnite{version|.|}.exe"],
+	"releaseNotes": { "source": "github" }
+}
