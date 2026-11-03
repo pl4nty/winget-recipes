@@ -5,5 +5,8 @@
 		"owner": "drweb86",
 		"repo": "butil"
 	},
-	"urls": ["https://github.com/drweb86/butil/releases/download/{github.rawTag}/butil_{version}_windows_setup.exe"]
+	"urls": ["https://github.com/drweb86/butil/releases/download/{github.rawTag}/butil_{version}_windows_setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://raw.githubusercontent.com/drweb86/butil/refs/heads/master/CHANGELOG.md"
+	}
 }
