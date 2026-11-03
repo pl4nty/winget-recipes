@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kubri",
+		"repo": "kubri"
+	},
+	"urls": [
+		"https://github.com/kubri/kubri/releases/download/{github.rawTag}/kubri_{version}_Windows_arm64.zip",
+		"https://github.com/kubri/kubri/releases/download/{github.rawTag}/kubri_{version}_Windows_i386.zip",
+		"https://github.com/kubri/kubri/releases/download/{github.rawTag}/kubri_{version}_Windows_x86_64.zip"
+	]
+}
