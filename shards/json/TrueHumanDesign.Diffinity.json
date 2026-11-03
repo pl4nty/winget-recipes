@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://truehumandesign.se/download/diffinityInstaller.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://truehumandesign.se/download/diffinityInstaller.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": { "releaseNotesUrl": "https://truehumandesign.se/s_diffinity.php#versionhistory" },
+	"replace": true
+}
