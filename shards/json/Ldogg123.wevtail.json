@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ldogg123",
+		"repo": "wevtail"
+	},
+	"urls": [
+		"https://github.com/Ldogg123/wevtail/releases/download/{github.rawTag}/wevtail-{version}-x86_64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Ldogg123/wevtail/releases/tag/{github.rawTag}"
+	}
+}
