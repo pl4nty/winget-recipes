@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "amys94fr",
+		"repo": "Snap2Link"
+	},
+	"urls": [
+		"https://github.com/amys94fr/Snap2Link/releases/download/{github.rawTag}/Snap2Link_{version}_x64-setup.exe"
+	]
+}
