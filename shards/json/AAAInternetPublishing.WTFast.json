@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.wtfast.com/product/wtfast/wtfastsetup.5.5.20.exe"
+	]
+}
