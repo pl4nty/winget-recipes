@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "abrignoni",
+		"repo": "ALEAPP",
+		"method": "api-sort",
+		"assetRegex": "^(?:aleapp\\-v\\d+\\.\\d+\\.\\d+\\-Windows_x86_64\\.zip|aleapp\\-v\\d+\\.\\d+\\.\\d+\\-Windows_arm64\\.zip)$"
+	}
+}
