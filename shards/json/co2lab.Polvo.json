@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "co2-lab",
+		"repo": "Polvo"
+	},
+	"urls": [
+		"https://github.com/co2-lab/Polvo/releases/download/{github.rawTag}/Polvo_{version}_x64_en-US.msi",
+		"https://github.com/co2-lab/Polvo/releases/download/{github.rawTag}/Polvo_{version}_x64-setup.exe"
+	]
+}
