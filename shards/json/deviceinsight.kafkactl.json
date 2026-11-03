@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "deviceinsight",
+		"repo": "kafkactl"
+	},
+	"urls": [
+		"https://github.com/deviceinsight/kafkactl/releases/download/{github.rawTag}/kafkactl_{version}_windows_386.zip",
+		"https://github.com/deviceinsight/kafkactl/releases/download/{github.rawTag}/kafkactl_{version}_windows_amd64.zip",
+		"https://github.com/deviceinsight/kafkactl/releases/download/{github.rawTag}/kafkactl_{version}_windows_arm64.zip"
+	]
+}
