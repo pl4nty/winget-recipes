@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FedoraQt",
+		"repo": "MediaWriter"
+	},
+	"urls": [
+		"https://github.com/FedoraQt/MediaWriter/releases/download/{github.rawTag}/FedoraMediaWriter-win64-{version}.exe"
+	]
+}
