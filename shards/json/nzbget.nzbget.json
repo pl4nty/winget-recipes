@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nzbgetcom",
+		"repo": "nzbget"
+	},
+	"urls": [
+		"https://github.com/nzbgetcom/nzbget/releases/download/v{version}/nzbget-{version}-bin-windows-setup.exe"
+	]
+}
