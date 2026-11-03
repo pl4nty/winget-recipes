@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Snesnopic",
+		"repo": "mseedout"
+	},
+	"urls": [
+		"https://github.com/Snesnopic/mseedout/releases/download/{github.rawTag}/mseedout-windows-x64.zip",
+		"https://github.com/Snesnopic/mseedout/releases/download/{github.rawTag}/mseedout-windows-x86.zip",
+		"https://github.com/Snesnopic/mseedout/releases/download/{github.rawTag}/mseedout-windows-arm64.zip"
+	]
+}
