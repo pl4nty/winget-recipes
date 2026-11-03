@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://yogadns.com/download/",
+		"regex": "changelog-version\">Version (\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": ["https://yogadns.com/download/YogaDNSSetup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://yogadns.com/download/"
+	}
+}
