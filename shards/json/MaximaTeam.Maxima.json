@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "maxima",
+		"file": "maxima-{version}-win64.exe"
+	},
+	"urls": ["https://sourceforge.net/projects/maxima/files/Maxima-Windows/{version}-Windows/maxima-{version}-win64.exe/download"]
+}
