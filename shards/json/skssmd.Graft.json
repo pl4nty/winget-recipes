@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "The-Graft-Project",
+		"repo": "Graft"
+	},
+	"urls": [
+		"https://github.com/The-Graft-Project/Graft/releases/download/v{version}/Graft_{version}_Windows_arm64.zip",
+		"https://github.com/The-Graft-Project/Graft/releases/download/v{version}/Graft_{version}_Windows_amd64.zip"
+	]
+}
