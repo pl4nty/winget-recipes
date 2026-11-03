@@ -3,9 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "aloneguid",
-		"repo": "parquet-dotnet"
-	},
-	"urls": [
-		"https://github.com/aloneguid/parquet-dotnet/releases/download/{version}/floor-win-x64-{version}.zip"
-	]
+		"repo": "parquet-dotnet",
+		"method": "api-sort",
+		"perPage": 50,
+		"assetRegex": "^floor-win-x64-[\\d.]+\\.zip$"
+	}
 }
