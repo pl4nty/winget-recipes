@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "snubwoody",
+		"repo": "mukwa"
+	},
+	"urls": [
+		"https://github.com/snubwoody/mukwa/releases/download/v{version}/Mukwa-x86_64-Setup.exe",
+		"https://github.com/snubwoody/mukwa/releases/download/v{version}/Mukwa-aarch64-Setup.exe"
+	]
+}
