@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/midi-router-client/rss?path=/",
+		"regex": "/midi-router-client-(?<version>\\d+(?:\\.\\d+)+)-win64\\.exe"
+	},
+	"urls": [
+		"https://downloads.sourceforge.net/midi-router-client/midi-router-client-{version}-win64.exe",
+		"https://downloads.sourceforge.net/midi-router-client/midi-router-client-{version}-win64-ARM.exe"
+	]
+}
