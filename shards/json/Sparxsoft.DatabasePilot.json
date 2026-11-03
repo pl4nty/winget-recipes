@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://stdatabasepilotprod.blob.core.windows.net/public/AppManifest.json",
+		"path": "LatestVersion"
+	},
+	"urls": ["https://stdatabasepilotprod.blob.core.windows.net/public/DatabasePilot_{version}_x64.msix"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.databasepilot.com/install"
+	}
+}
