@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://desktop.magister.net/api/download/windows/msi",
+		"https://desktop.magister.net/api/download/windows"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://desktop.magister.net/api/download/windows/msi",
+		"header": "last-modified",
+		"method": "get"
+	},
+	"replace": true
+}
