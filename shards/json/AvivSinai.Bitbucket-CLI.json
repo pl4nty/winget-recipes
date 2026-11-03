@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "avivsinai",
+		"repo": "bitbucket-cli"
+	},
+	"urls": [
+		"https://github.com/avivsinai/bitbucket-cli/releases/download/{github.rawTag}/bkt_{version}_windows_x86_64.zip"
+	]
+}
