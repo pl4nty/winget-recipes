@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://efisc.kttg.ch/update/eFisc/2026/efisc2026-1.0.0-76-32bit.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://efisc.kttg.ch/update/eFisc/2026/efisc2026-1.0.0-76-64bit.msi",
+			"architecture": "x64"
+		}
+	]
+}
