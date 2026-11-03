@@ -4,5 +4,6 @@
 	"redirectMatch": {
 		"url": ["https://nicepage.com/get/windows/"],
 		"regex": "/Nicepage-(\\d+(?:\\.\\d+)+)\\.exe$"
-	}
+	},
+	"urls": [{ "url": "https://get.nicepage.com/Nicepage-{version}.exe", "architecture": "x64" }]
 }
