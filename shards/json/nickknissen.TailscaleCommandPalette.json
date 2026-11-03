@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "nickknissen", "repo": "TailscaleCommandPalette" },
+	"urls": [
+		"https://github.com/nickknissen/TailscaleCommandPalette/releases/download/{version}/TailscaleCommandPalette_{version}.0_x64.msix",
+		"https://github.com/nickknissen/TailscaleCommandPalette/releases/download/{version}/TailscaleCommandPalette_{version}.0_arm64.msix"
+	]
+}
