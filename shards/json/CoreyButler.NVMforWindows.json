@@ -7,8 +7,5 @@
 		"method": "api-sort",
 		"perPage": 100,
 		"assetRegex": "^nvm-setup\\.exe$"
-	},
-	"urls": [
-		"https://github.com/nvm-windows/nvm/releases/download/{github.rawTag}/nvm-setup.exe"
-	]
+	}
 }
