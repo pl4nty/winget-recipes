@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cyberland.ro/stasherx",
+		"regex": "href=\"/SSetup\\.exe\"[\\s\\S]*?Latest version:\\D*(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.cyberland.ro/SSetup.exe"]
+}
