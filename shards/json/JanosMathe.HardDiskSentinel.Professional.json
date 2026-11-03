@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.harddisksentinel.com/hdsentinel_pro_setup.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.hdsentinel.com/revision.php"
+	}
+}
