@@ -7,6 +7,7 @@
 	},
 	"urls": [
 		"https://github.com/micro-editor/micro/releases/download/v{version}/micro-{version}-win32.zip",
-		"https://github.com/micro-editor/micro/releases/download/v{version}/micro-{version}-win64.zip"
+		"https://github.com/micro-editor/micro/releases/download/v{version}/micro-{version}-win64.zip",
+		"https://github.com/micro-editor/micro/releases/download/v{version}/micro-{version}-win-arm64.zip"
 	]
 }
