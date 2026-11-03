@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://www.samsung.com/global/download/SamsungDeXWin/"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.samsung.com/global/download/SamsungDeXWin/",
+		"method": "get",
+		"header": "etag"
+	},
+	"replace": true
+}
