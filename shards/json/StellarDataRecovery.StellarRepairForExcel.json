@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stellarinfo.com/repair-excel-file.php",
+		"regex": "<strong>Version:</strong></td>\\s*<td>(\\d+(?:\\.\\d+)+)</td>"
+	},
+	"urls": ["https://cloud.stellarinfo.com/StellarRepairforExcel.exe"]
+}
