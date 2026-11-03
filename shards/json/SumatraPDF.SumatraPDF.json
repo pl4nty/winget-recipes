@@ -7,26 +7,11 @@
 	},
 	"urls": [
 		"https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}-install.exe",
-		{
-			"url": "https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}.zip",
-			"nestedInstallerMatches": [
-				"*.exe"
-			]
-		},
+		"https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}.zip",
 		"https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}-64-install.exe",
-		{
-			"url": "https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}-64.zip",
-			"nestedInstallerMatches": [
-				"*.exe"
-			]
-		},
+		"https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}-64.zip",
 		"https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}-arm64-install.exe",
-		{
-			"url": "https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}-arm64.zip",
-			"nestedInstallerMatches": [
-				"*.exe"
-			]
-		}
+		"https://www.sumatrapdfreader.org/dl/rel/{version}/SumatraPDF-{version}-arm64.zip"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.sumatrapdfreader.org/docs/Version-history"
