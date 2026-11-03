@@ -14,11 +14,7 @@ export default defineShard(async () => {
 
 	return {
 		version: release.version,
-		urls: () => [
-			{ url: zip, architecture: 'x64' },
-			{ url: zip, architecture: 'arm64' },
-			...(setup ? [setup] : []),
-		],
+		urls: () => [{ url: zip, architecture: 'x64' }, { url: zip, architecture: 'arm64' }, ...(setup ? [setup] : [])],
 		releaseNotes: {
 			source: 'github',
 			owner: 'ElektroStudios',
