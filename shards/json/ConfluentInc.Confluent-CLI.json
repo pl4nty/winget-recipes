@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "confluentinc",
+		"repo": "cli"
+	},
+	"urls": [
+		"https://github.com/confluentinc/cli/releases/download/{github.rawTag}/confluent_{version}_windows_amd64.exe",
+		"https://github.com/confluentinc/cli/releases/download/{github.rawTag}/confluent_{version}_windows_amd64.zip"
+	]
+}
