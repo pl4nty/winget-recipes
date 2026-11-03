@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "peters",
+		"repo": "horizon"
+	},
+	"urls": ["https://github.com/peters/horizon/releases/download/v{version}/horizon-windows-x64.exe"]
+}
