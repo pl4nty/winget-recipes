@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sibexico",
+		"repo": "Trailblazer"
+	},
+	"urls": [
+		"https://github.com/sibexico/Trailblazer/releases/download/v{version}/trailblazer_{version}_windows_x86_64.exe"
+	]
+}
