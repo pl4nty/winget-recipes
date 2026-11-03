@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "quotationfactory",
+		"repo": "qf_cli",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/quotationfactory/qf_cli/releases/download/{github.rawTag}/qfc-win-x64.zip"
+	]
+}
