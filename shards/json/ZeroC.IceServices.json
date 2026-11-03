@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://zeroc.com/ice/downloads",
+		"regex": "ice/archive/v(?<version>(?<series>\\d+\\.\\d+)\\.\\d+)\\.zip"
+	},
+	"urls": ["https://download.zeroc.com/ice/{captures.series}/Ice-Services-{version}.exe"]
+}
