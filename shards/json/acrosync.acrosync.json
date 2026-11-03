@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://acrosync.com/win32/acrosync_installer_win64_1.7_611.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://acrosync.com/win32/acrosync_installer_win32_1.7_611.exe",
+			"architecture": "x86"
+		}
+	]
+}
