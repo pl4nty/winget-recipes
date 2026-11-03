@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "SecurityRonin", "repo": "blazehash" },
+	"urls": ["https://github.com/SecurityRonin/blazehash/releases/download/v{version}/blazehash-{version}-x86_64-pc-windows-msvc.msi"]
+}
