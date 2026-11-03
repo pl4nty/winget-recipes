@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Quiet-Signals-Lab",
+		"repo": "RAG-Assistant-for-Zotero"
+	},
+	"urls": [
+		"https://github.com/Quiet-Signals-Lab/RAG-Assistant-for-Zotero/releases/download/{github.rawTag}/RAG.Assistant-{version}-win-x64.exe"
+	]
+}
