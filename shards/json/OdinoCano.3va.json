@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OdinoCano",
+		"repo": "3va"
+	},
+	"urls": ["https://github.com/OdinoCano/3va/releases/download/v{version}/3va-v{version}-x86_64-pc-windows-msvc.zip"]
+}
