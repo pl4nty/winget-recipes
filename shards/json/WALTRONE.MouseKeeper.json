@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "waltrone1",
+		"repo": "waltrone1-mouse-keeper"
+	},
+	"urls": [
+		"https://github.com/waltrone1/waltrone1-mouse-keeper/releases/download/v{version}/WALTRONE_Mouse_Keeper_Setup_{version}_x64.exe"
+	]
+}
