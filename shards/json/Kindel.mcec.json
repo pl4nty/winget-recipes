@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tig",
+		"repo": "mcec"
+	},
+	"urls": [
+		"https://github.com/tig/mcec/releases/download/{github.rawTag}/mcec.Setup.exe"
+	]
+}
