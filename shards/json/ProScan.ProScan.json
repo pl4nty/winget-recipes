@@ -9,7 +9,7 @@
 		{
 			"url": "https://www.proscan.org/ProScan_{version|.|_}.zip",
 			"architecture": "x86",
-			"nestedInstallerMatches": ["ProScan_{version|.|_}.exe"]
+			"nestedInstallerMatches": ["ProScan_"]
 		}
 	],
 	"releaseNotes": {
