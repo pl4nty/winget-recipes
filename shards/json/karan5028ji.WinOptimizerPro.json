@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "karan5028ji",
+		"repo": "Win-Optimizer-Pro"
+	},
+	"urls": [
+		"https://github.com/karan5028ji/Win-Optimizer-Pro/releases/download/{github.rawTag}/Win-Optimizer-Pro_{version}_x64-setup.exe"
+	]
+}
