@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Oksion",
+		"repo": "XiControl",
+		"method": "api-latest",
+		"assetRegex": "^XiControl-v[\\d.]+-win-(x64|arm64|x86)\\.exe$"
+	}
+}
