@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "heartleo",
+		"repo": "zlib"
+	},
+	"urls": [
+		"https://github.com/heartleo/zlib/releases/download/{github.rawTag}/zlib_{version}_windows_arm64.zip",
+		"https://github.com/heartleo/zlib/releases/download/{github.rawTag}/zlib_{version}_windows_x86_64.zip"
+	]
+}
