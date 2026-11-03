@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "andre12230-png",
+		"repo": "Pecule"
+	},
+	"urls": [
+		"https://github.com/andre12230-png/Pecule/releases/download/{github.rawTag}/Pecule-{version}-win64.zip",
+		"https://github.com/andre12230-png/Pecule/releases/download/{github.rawTag}/Pecule-Setup.exe"
+	]
+}
