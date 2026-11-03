@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Akaere-NetWorks",
+		"repo": "whois",
+		"method": "api-sort",
+		"assetRegex": "^(?:whois\\-cli\\-windows\\-\\d+\\-arm\\.exe|whois\\-cli\\-windows\\-\\d+\\.exe)$"
+	}
+}
