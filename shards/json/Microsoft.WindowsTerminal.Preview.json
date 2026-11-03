@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "terminal",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/microsoft/terminal/releases/download/v{version}/Microsoft.WindowsTerminalPreview_{version}_8wekyb3d8bbwe.msixbundle"
+	]
+}
