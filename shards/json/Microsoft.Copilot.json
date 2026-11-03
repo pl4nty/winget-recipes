@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/a3ef0a4e-f906-47af-8c0b-da34dde8ff20/CopilotStableEnterpriseX64.msi",
+		"https://download.microsoft.com/download/a3ef0a4e-f906-47af-8c0b-da34dde8ff20/CopilotStableEnterpriseX86.msi",
+		"https://download.microsoft.com/download/a3ef0a4e-f906-47af-8c0b-da34dde8ff20/CopilotStableEnterpriseARM64.msi"
+	]
+}
