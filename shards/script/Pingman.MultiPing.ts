@@ -2,7 +2,7 @@ import { defineShard } from 'anthelion';
 import { match } from 'anthelion/helpers';
 
 // The installer URL is unversioned, so its ETag tracks changes and the version comes from the
-// installer. The history page's newest entry becomes the release notes: it is passed to the
+// installer's FileVersion (it has no ProductVersion). The history page's newest entry becomes the release notes: it is passed to the
 // html source as a data: URL so the page's navigation and older entries are left out.
 const url = 'https://multiping.com/downloads/mping_3.exe';
 const page = 'https://multiping.com/history.html';
@@ -19,7 +19,7 @@ export default defineShard(async () => {
 	} = match(html, /(<h4>MultiPing Version [\s\S]*?<\/ul>)/);
 
 	return {
-		version: { source: 'product' },
+		version: { source: 'file' },
 		urls: () => [url],
 		state,
 		releaseNotes: {
