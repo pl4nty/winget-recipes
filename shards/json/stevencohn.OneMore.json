@@ -9,6 +9,5 @@
 			"url": "https://github.com/stevencohn/OneMore/releases/download/{github.rawTag}/OneMore_{version}_SetupARM64.exe",
 			"architecture": "arm64"
 		}
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
