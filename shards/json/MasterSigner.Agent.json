@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://get.mastersigner.app/agent/windows-amd64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://get.mastersigner.app/agent/windows-amd64.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
