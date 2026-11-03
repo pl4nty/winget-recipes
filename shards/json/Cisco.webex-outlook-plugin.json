@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://akamaicdn.webex.com/upgradeserver/client/ptool/45.2.0/msi/webexplugin.msi"],
 	"state": {
 		"source": "response-header",
