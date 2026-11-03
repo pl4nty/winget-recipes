@@ -5,10 +5,6 @@
 		"owner": "SparcleHQ",
 		"repo": "sparcle.app",
 		"method": "api-list",
-		"assetRegex": "^Bolt-Enterprise-.*-x86_64-pc-windows-msvc\\.exe$"
-	},
-	"urls": [
-		"https://github.com/SparcleHQ/sparcle.app/releases/download/v{version}/Bolt-Enterprise-{version}-x86_64-pc-windows-msvc.exe",
-		"https://github.com/SparcleHQ/sparcle.app/releases/download/v{version}/Bolt-Enterprise-{version}-x86_64-pc-windows-msvc.msi"
-	]
+		"assetRegex": "^Bolt-Enterprise-.*-x86_64-pc-windows-msvc\\.(?:exe|msi)$"
+	}
 }
