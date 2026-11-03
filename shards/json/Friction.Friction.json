@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "friction2d",
+		"repo": "friction"
+	},
+	"urls": ["https://github.com/friction2d/friction/releases/download/v{version}/friction-{version}-setup-win64.exe"]
+}
