@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "IngSquared99",
+		"repo": "agent-sync"
+	},
+	"urls": [
+		"https://github.com/IngSquared99/agent-sync/releases/download/{github.rawTag}/agsy_windows_arm64.zip",
+		"https://github.com/IngSquared99/agent-sync/releases/download/{github.rawTag}/agsy_windows_x64.zip"
+	]
+}
