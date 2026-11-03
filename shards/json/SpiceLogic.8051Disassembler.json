@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.spicelogic.com/Products/8051-disassembler-1",
+		"regex": "\"softwareVersion\":\\s*\"(?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://spicelogic.com/download/8051hexExplorer/{version}"]
+}
