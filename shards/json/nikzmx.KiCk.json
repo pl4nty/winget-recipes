@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mxnix", "repo": "kick" },
+	"urls": ["https://github.com/mxnix/kick/releases/download/{github.rawTag}/kick-windows-{version}-setup.exe"]
+}
