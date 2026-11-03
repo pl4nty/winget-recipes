@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://static.adtidy.org/windows/beta/setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/AdguardTeam/AdguardForWindows/releases"
+	}
+}
