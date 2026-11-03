@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://repository.drovio.com/",
+		"regex": "/stable/drovio/win64/3\\.x/(\\d+(?:\\.\\d+)+)/drovio\\-win64\\.exe"
+	},
+	"urls": [
+		"https://repository.drovio.com/stable/drovio/win64/3.x/{version}/drovio-win64.exe"
+	]
+}
