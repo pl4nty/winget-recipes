@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://www.raimersoft.com/downloads/radiomaximus_setup_x32.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.raimersoft.com/downloads/radiomaximus_setup_x32.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.raimersoft.com/php/radiomaximus_release.php"
+	}
+}
