@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lejyfps",
+		"repo": "winchisel"
+	},
+	"urls": [
+		"https://github.com/lejyfps/winchisel/releases/download/{github.rawTag}/Winchisel-Setup-x64.exe",
+		"https://github.com/lejyfps/winchisel/releases/download/{github.rawTag}/Winchisel-Store-x64.msix"
+	]
+}
