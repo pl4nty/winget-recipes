@@ -10,7 +10,7 @@ export default defineShard(async () => {
 	const feed = (await fetch('https://downloads.rune-launcher.com/latest.json').then((response) => response.json())) as {
 		version: string;
 	};
-	const version = match(feed.version, /^\d+(?:\.\d+)+$/).groups[0];
+	const version = match(feed.version, /^(\d+(?:\.\d+)+)$/).groups[0];
 
 	const html = await fetch(notesPage).then((response) => response.text());
 	const id = `version-${version.replaceAll('.', '-')}`;
