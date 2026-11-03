@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DetachHead",
+		"repo": "rebased"
+	},
+	"urls": [
+		"https://github.com/DetachHead/rebased/releases/download/{github.rawTag}/rebased-aarch64.exe",
+		"https://github.com/DetachHead/rebased/releases/download/{github.rawTag}/rebased.exe"
+	]
+}
