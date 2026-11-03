@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://marketplace.pretix.eu/products/pretixscan-windows/versions",
+		"regex": "<strong>(?<version>\\d+(?:\\.\\d+)+)</strong>[\\s\\S]*?/download/pretixscan-windows/(?<id>\\d+)"
+	},
+	"urls": ["https://marketplace.pretix.eu/download/pretixscan-windows/{captures.id}"]
+}
