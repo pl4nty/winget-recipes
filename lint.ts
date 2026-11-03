@@ -68,6 +68,7 @@ const githubReleaseNotes: Rule = async (shards, report) => {
 	}
 };
 
+const DEFAULT_LOCALE = /^ManifestType:\s*defaultLocale\s*$/m;
 const ROOT = new Set(['PackageIdentifier', 'PackageVersion', 'ManifestType', 'ManifestVersion']);
 // komac drops InstallerLocale on update, and shards cannot set it.
 const IGNORED = /(^|\.)InstallerLocale$/;
@@ -76,16 +77,17 @@ const DEFAULT_LOCALE_ONLY = /(^|\.)ReleaseNotesUrl$/;
 
 // Counts each field path without array indexes. Root installer fields count once per installer,
 // so komac moving a field between the root and the installers is not a drop.
-function fields(yaml: string) {
+function fields(yaml: string, arp: Record<string, unknown> = {}) {
 	const manifest = Bun.YAML.parse(yaml) as Record<string, unknown>;
 	if (Array.isArray(manifest.Installers)) {
 		const shared = Object.entries(manifest).filter(([key]) => !ROOT.has(key) && key !== 'Installers');
 		for (const [key] of shared) delete manifest[key];
 		manifest.Installers = manifest.Installers.map((installer) => ({ ...Object.fromEntries(shared), ...installer }));
-		// komac leaves out an ARP DisplayVersion that matches PackageVersion, which winget already assumes.
-		for (const installer of manifest.Installers as { AppsAndFeaturesEntries?: { DisplayVersion?: unknown }[] }[])
+		// komac leaves out ARP values that match the package, which winget already assumes.
+		for (const installer of manifest.Installers as { AppsAndFeaturesEntries?: Record<string, unknown>[] }[])
 			for (const entry of installer.AppsAndFeaturesEntries ?? [])
-				if (String(entry.DisplayVersion) === String(manifest.PackageVersion)) delete entry.DisplayVersion;
+				for (const [key, value] of Object.entries({ ...arp, DisplayVersion: manifest.PackageVersion }))
+					if (value !== undefined && String(entry[key]) === String(value)) delete entry[key];
 	}
 	const counts = new Map<string, number>();
 	const walk = (value: unknown, path: string) => {
@@ -140,13 +142,20 @@ const droppedFields: Rule = async (shards, report) => {
 		const paths = await Array.fromAsync(glob(`${pkg}/*/*.yaml`, { cwd: dir }));
 		const latest = [...new Set(paths.map((path) => basename(dirname(path))))].sort(compareVersions).at(-1);
 		const version = [...generated.keys()].find((path) => path.startsWith(`${pkg}/`))!.split('/').at(-2);
-		for (const path of paths.filter((path) => basename(dirname(path)) === latest)) {
-			const name = basename(path);
-			const raw = await readFile(join(dir, path), 'utf8');
-			const before = fields(raw);
-			const defaultLocale = /^ManifestType:\s*defaultLocale\s*$/m.test(raw);
-			const yaml = generated.get(`${pkg}/${version}/${name}`);
-			const after = yaml === undefined ? new Map<string, number>() : fields(yaml);
+		const raws = new Map<string, string>();
+		for (const path of paths.filter((path) => basename(dirname(path)) === latest))
+			raws.set(basename(path), await readFile(join(dir, path), 'utf8'));
+		const yamls = new Map([...raws.keys()].map((name) => [name, generated.get(`${pkg}/${version}/${name}`)]));
+		const [beforeArp, afterArp] = [raws, yamls].map((files) => {
+			const yaml = [...files.values()].find((yaml) => yaml && DEFAULT_LOCALE.test(yaml));
+			const { PackageName, Publisher } = (yaml ? Bun.YAML.parse(yaml) : {}) as Record<string, unknown>;
+			return { DisplayName: PackageName, Publisher };
+		});
+		for (const [name, raw] of raws) {
+			const before = fields(raw, beforeArp);
+			const defaultLocale = DEFAULT_LOCALE.test(raw);
+			const yaml = yamls.get(name);
+			const after = yaml === undefined ? new Map<string, number>() : fields(yaml, afterArp);
 			for (const [field, count] of before) {
 				const kept = after.get(field) ?? 0;
 				if (kept < count && !IGNORED.test(field) && (defaultLocale || !DEFAULT_LOCALE_ONLY.test(field)))
