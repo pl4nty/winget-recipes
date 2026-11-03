@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ozashub",
+		"repo": "speech2text"
+	},
+	"urls": ["https://github.com/ozashub/speech2text/releases/download/v{version}/speech2text_{version}_x64-setup.exe"]
+}
