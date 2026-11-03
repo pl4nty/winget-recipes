@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.wisecleaner.com/index.php?r=download-product/latest-version&product=wise-registry-cleaner"],
+		"regex": "/WRCFree_(?<version>\\d+\\.\\d+\\.\\d+)\\.\\d+\\.exe$"
+	}
+}
