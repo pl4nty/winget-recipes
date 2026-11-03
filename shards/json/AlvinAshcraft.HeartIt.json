@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alvinashcraft",
+		"repo": "heart-it"
+	},
+	"urls": [
+		"https://github.com/alvinashcraft/heart-it/releases/download/{github.rawTag}/HeartIt.msixbundle"
+	]
+}
