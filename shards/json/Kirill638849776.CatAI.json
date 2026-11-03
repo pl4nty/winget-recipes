@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kirill638849776",
+		"repo": "catai"
+	},
+	"urls": [
+		"https://github.com/Kirill638849776/catai/releases/download/{github.rawTag}/catai_setup.exe"
+	]
+}
