@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://download.servantvoice.com/WindowsMSI", "https://download.servantvoice.com/Windows"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.servantvoice.com/WindowsMSI",
+		"header": "etag"
+	},
+	"replace": true
+}
