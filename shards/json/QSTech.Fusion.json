@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "QuantumSecureTechnologiesInc",
+		"repo": "Fusion-Programming-Language"
+	},
+	"urls": [
+		"https://github.com/QuantumSecureTechnologiesInc/Fusion-Programming-Language/releases/download/v{version}/Fusion-v{version}-x64.zip"
+	]
+}
