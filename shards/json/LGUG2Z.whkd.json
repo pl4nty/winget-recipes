@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LGUG2Z",
+		"repo": "whkd"
+	},
+	"urls": [
+		"https://github.com/LGUG2Z/whkd/releases/download/{github.rawTag}/whkd-{version}-aarch64.msi",
+		"https://github.com/LGUG2Z/whkd/releases/download/{github.rawTag}/whkd-{version}-x86_64.msi"
+	]
+}
