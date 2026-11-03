@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Neverous",
+		"repo": "efibooteditor",
+		"method": "api-sort",
+		"assetRegex": "^(?:EFIBootEditor\\-v\\d+\\.\\d+\\.\\d+\\-windows\\-\\d+\\-qt\\-\\d+\\.\\d+\\.\\d+\\-MSVC\\.msi)$"
+	}
+}
