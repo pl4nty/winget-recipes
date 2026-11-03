@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "canton7",
+		"repo": "SyncTrayzor"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/canton7/SyncTrayzor/releases/download/{github.rawTag}/SyncTrayzorSetup-x64.exe",
+		"https://github.com/canton7/SyncTrayzor/releases/download/{github.rawTag}/SyncTrayzorSetup-x86.exe"
+	]
+}
