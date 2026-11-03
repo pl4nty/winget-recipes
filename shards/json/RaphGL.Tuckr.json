@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "RaphGL", "repo": "Tuckr" },
+	"urls": ["https://github.com/RaphGL/Tuckr/releases/download/{version}/tuckr-x86_64-windows.exe"]
+}
