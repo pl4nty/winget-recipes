@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aelassas",
+		"repo": "servy"
+	},
+	"urls": [
+		"https://github.com/aelassas/servy/releases/download/{github.rawTag}/servy-{version}-arm64-installer.exe",
+		"https://github.com/aelassas/servy/releases/download/{github.rawTag}/servy-{version}-x64-installer.exe"
+	]
+}
