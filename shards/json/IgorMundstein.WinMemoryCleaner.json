@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "IgorMundstein",
+		"repo": "WinMemoryCleaner"
+	},
+	"urls": [
+		"https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/{github.rawTag}/WinMemoryCleaner.exe"
+	]
+}
