@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Leon-Achteresch",
+		"repo": "l8db"
+	},
+	"urls": [
+		"https://github.com/Leon-Achteresch/l8db/releases/download/{github.rawTag}/l8db_{version}_x64_en-US.msi",
+		"https://github.com/Leon-Achteresch/l8db/releases/download/{github.rawTag}/l8db_{version}_x64-setup.exe"
+	]
+}
