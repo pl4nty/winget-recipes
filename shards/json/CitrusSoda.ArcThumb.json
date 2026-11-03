@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "citrussoda-com",
+		"repo": "ArcThumb"
+	},
+	"urls": [
+		"https://github.com/citrussoda-com/ArcThumb/releases/download/{github.rawTag}/ArcThumb-Setup.exe"
+	]
+}
