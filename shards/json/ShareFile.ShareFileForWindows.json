@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://dl.sharefile.com/sfwin-msi/"
+		],
+		"method": "head",
+		"regex": "ShareFileForWindows_x64_v(?<version>\\d+(?:\\.\\d+)+)\\.msi$"
+	},
+	"urls": [
+		"https://dl.sharefile.com/sfwin-msi/ShareFileForWindows_x64_v{version}.msi"
+	]
+}
