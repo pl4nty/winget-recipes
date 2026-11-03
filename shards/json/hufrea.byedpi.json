@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hufrea",
+		"repo": "byedpi",
+		"method": "api-sort",
+		"assetRegex": "^(?:byedpi\\-\\d+\\.\\d+\\-i686\\-w\\d+\\.zip|byedpi\\-\\d+\\.\\d+\\-x86_64\\-w\\d+\\.zip)$"
+	}
+}
