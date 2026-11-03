@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://links.twibright.com/download/binaries/win32/",
+		"regex": "Links-(\\d+(?:\\.\\d+)+)-64bit-install\\.exe\""
+	},
+	"urls": [
+		{ "url": "https://links.twibright.com/download/binaries/win32/Links-{version}-32bit-install.exe", "architecture": "x86" },
+		{ "url": "https://links.twibright.com/download/binaries/win32/Links-{version}-64bit-install.exe", "architecture": "x64" }
+	]
+}
