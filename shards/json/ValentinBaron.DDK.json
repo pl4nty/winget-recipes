@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "valentin-baron",
+		"repo": "delphi-devkit"
+	},
+	"urls": ["https://github.com/valentin-baron/delphi-devkit/releases/download/v{version}/ddk-windows-x86_64.zip"]
+}
