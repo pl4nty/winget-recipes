@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://diskuv.com/a/dk-exe/2.4.202506130531-signed/dk-windows_x86_64.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://diskuv.com/a/dk-exe/2.4.202506130531-signed/dk-windows_x86.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/diskuv/dk/releases/tag/2.4.202506130531-signed"
+	}
+}
