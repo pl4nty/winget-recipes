@@ -67,28 +67,30 @@ async function b0t() {
 	return ids;
 }
 
-const rows = new Map<string, { id: string; bots: Set<string>; maintainers: string }>();
+const bots = { spectopo: dumplings, UnownBot: anthelion, 'damn-good-b0t': b0t };
+
+const rows = new Map<string, { id: string; maintainers: Set<string> }>();
 const row = (id: string) => {
 	const key = id.toLowerCase();
-	if (!rows.has(key)) rows.set(key, { id, bots: new Set(), maintainers: '' });
+	if (!rows.has(key)) rows.set(key, { id, maintainers: new Set() });
 	return rows.get(key)!;
 };
 
-const bots = { Dumplings: dumplings, Anthelion: anthelion, 'b0t-at': b0t };
 await Promise.all(
 	Object.entries(bots).map(async ([bot, list]) => {
-		for (const id of await list()) row(id).bots.add(bot);
+		for (const id of await list()) row(id).maintainers.add(bot);
 	}),
 );
 
 const previous = await readFile(CSV, 'utf8').catch(() => '');
 for (const line of previous.split('\n').slice(1)) {
-	const [id, , maintainers] = line.trim().split(',');
-	if (id && maintainers) row(id).maintainers = maintainers;
+	const [id, maintainers = ''] = line.trim().split(',');
+	for (const login of maintainers.split(';')) {
+		if (id && login && !(login in bots)) row(id).maintainers.add(login);
+	}
 }
 
 const lines = [...rows.values()]
-	.filter((r) => r.bots.size || r.maintainers)
 	.sort((a, b) => a.id.toLowerCase().localeCompare(b.id.toLowerCase()))
-	.map((r) => [r.id, [...r.bots].sort().join(';'), r.maintainers].join(','));
-await writeFile(CSV, ['PackageIdentifier,Bots,Maintainers', ...lines].join('\n') + '\n');
+	.map((r) => [r.id, [...r.maintainers].sort().join(';')].join(','));
+await writeFile(CSV, ['PackageIdentifier,Maintainers', ...lines].join('\n') + '\n');
