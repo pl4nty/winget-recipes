@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "koharu-rs",
+		"repo": "koharu"
+	},
+	"urls": [
+		"https://github.com/koharu-rs/koharu/releases/download/{version}/koharu_{version}_x64-setup.exe",
+		"https://github.com/koharu-rs/koharu/releases/download/{version}/koharu_{version}_x64_en-US.msi"
+	]
+}
