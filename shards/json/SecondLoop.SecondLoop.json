@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dale0525",
+		"repo": "SecondLoop"
+	},
+	"urls": ["https://github.com/dale0525/SecondLoop/releases/download/v{version}/SecondLoop-win.msi"]
+}
