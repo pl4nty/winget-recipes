@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "amnweb",
+		"repo": "yasb"
+	},
+	"urls": [
+		"https://github.com/amnweb/yasb/releases/download/{github.rawTag}/yasb-{version}-aarch64.msi",
+		"https://github.com/amnweb/yasb/releases/download/{github.rawTag}/yasb-{version}-x64.msi"
+	]
+}
