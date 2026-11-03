@@ -9,6 +9,8 @@ import { $ } from 'bun';
 // Run in the same step as `bun test:shard --dry-run`, which lists its manifests in the step summary.
 const SUMMARY = process.env.GITHUB_STEP_SUMMARY!;
 const ROOT = new Set(['PackageIdentifier', 'PackageVersion', 'ManifestType', 'ManifestVersion']);
+// komac drops InstallerLocale on update, and shards cannot set it.
+const IGNORED = /(^|\.)InstallerLocale$/;
 
 // Counts each field path without array indexes. Root installer fields count once per installer,
 // so komac moving a field between the root and the installers is not a drop.
@@ -59,6 +61,7 @@ for (const pkg of packages) {
 		const yaml = generated.get(`${pkg}/${version}/${name}`);
 		const after = yaml === undefined ? new Map<string, number>() : fields(yaml);
 		for (const [field, count] of before) {
+			if (IGNORED.test(field)) continue;
 			const kept = after.get(field) ?? 0;
 			if (kept >= count) continue;
 			const message = `${name}: ${field} (${count} in ${latest}, ${kept} in dry run)`;
