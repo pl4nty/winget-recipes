@@ -8,6 +8,5 @@
 	"urls": [
 		"https://github.com/henrygd/beszel/releases/download/v{version}/beszel-agent_windows_arm64.zip",
 		"https://github.com/henrygd/beszel/releases/download/v{version}/beszel-agent_windows_amd64.zip"
-	],
-	"releaseNotes": { "source": "github" }
+	]
 }
