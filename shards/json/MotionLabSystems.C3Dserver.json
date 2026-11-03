@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://www.c3d.org/apps/C3Dserver_setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.c3d.org/apps/C3Dserver_setup.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
