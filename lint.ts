@@ -2,7 +2,6 @@ import { glob, mkdtemp, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { basename, dirname, join } from 'node:path';
 
-import { compareVersions } from 'anthelion/helpers';
 import { $ } from 'bun';
 
 // `bun lint.ts` checks every shard. With --dry-run it also compares the manifests that
@@ -49,9 +48,31 @@ const versionState: Rule = async (shards, report) => {
 	}
 };
 
+// Every releaseNotes source sets ReleaseNotesUrl, and github-release installers get GitHub release notes by default.
+const releaseNotesUrl: Rule = async (shards, report) => {
+	for (const shard of shards) {
+		const contents = await readFile(shard, 'utf8');
+		const { strategy, releaseNotes } = shard.endsWith('.json') ? JSON.parse(contents) : {};
+		const set = shard.endsWith('.json') ? releaseNotes : /\breleaseNotes\s*:/.test(contents);
+		if (strategy !== 'github-release' && !set)
+			report(shard, 'shard does not set releaseNotes, so manifests have no ReleaseNotesUrl');
+	}
+};
+
+const githubReleaseNotes: Rule = async (shards, report) => {
+	for (const shard of shards.filter((shard) => shard.endsWith('.json'))) {
+		const { strategy, github, releaseNotes } = JSON.parse(await readFile(shard, 'utf8'));
+		if (strategy !== 'github-release' || releaseNotes?.source !== 'github') continue;
+		if (Object.entries(releaseNotes).every(([key, value]) => key === 'source' || github[key] === value))
+			report(shard, 'github-release shards get GitHub release notes by default, so remove releaseNotes');
+	}
+};
+
 const ROOT = new Set(['PackageIdentifier', 'PackageVersion', 'ManifestType', 'ManifestVersion']);
 // komac drops InstallerLocale on update, and shards cannot set it.
 const IGNORED = /(^|\.)InstallerLocale$/;
+// komac writes ReleaseNotesUrl only to the default locale.
+const DEFAULT_LOCALE_ONLY = /(^|\.)ReleaseNotesUrl$/;
 
 // Counts each field path without array indexes. Root installer fields count once per installer,
 // so komac moving a field between the root and the installers is not a drop.
@@ -76,6 +97,27 @@ function fields(yaml: string) {
 	return counts;
 }
 
+// Ports winget's Version ordering (src/AppInstallerSharedLib/Versions.cpp).
+function compareVersions(a: string, b: string) {
+	const parts = (version: string) => {
+		const digit = version.search(/\d/);
+		const split = version.indexOf('.');
+		if (digit >= 0 && (split < 0 || digit < split)) version = version.slice(digit);
+		return version.split('.').map((part) => {
+			const [, number = '', other = ''] = /^(\d*)(.*)$/.exec(part.trim())!;
+			return [Number(number), other.toLowerCase()] as const;
+		});
+	};
+	const [left, right] = [parts(a.trim()), parts(b.trim())];
+	for (let i = 0; i < Math.max(left.length, right.length); i++) {
+		const [x, xo] = left[i] ?? [0, ''];
+		const [y, yo] = right[i] ?? [0, ''];
+		if (x !== y) return x - y;
+		if (xo !== yo) return !xo ? 1 : !yo ? -1 : xo < yo ? -1 : 1;
+	}
+	return 0;
+}
+
 const droppedFields: Rule = async (shards, report) => {
 	const summary = await readFile(process.env.GITHUB_STEP_SUMMARY!, 'utf8');
 	const generated = new Map(
@@ -96,12 +138,14 @@ const droppedFields: Rule = async (shards, report) => {
 		const version = [...generated.keys()].find((path) => path.startsWith(`${pkg}/`))!.split('/').at(-2);
 		for (const path of paths.filter((path) => basename(dirname(path)) === latest)) {
 			const name = basename(path);
-			const before = fields(await readFile(join(dir, path), 'utf8'));
+			const raw = await readFile(join(dir, path), 'utf8');
+			const before = fields(raw);
+			const defaultLocale = /^ManifestType:\s*defaultLocale\s*$/m.test(raw);
 			const yaml = generated.get(`${pkg}/${version}/${name}`);
 			const after = yaml === undefined ? new Map<string, number>() : fields(yaml);
 			for (const [field, count] of before) {
 				const kept = after.get(field) ?? 0;
-				if (kept < count && !IGNORED.test(field))
+				if (kept < count && !IGNORED.test(field) && (defaultLocale || !DEFAULT_LOCALE_ONLY.test(field)))
 					report(shard, `${name}: dry run drops ${field} (${count} in ${latest}, ${kept} in dry run)`);
 			}
 		}
@@ -112,15 +156,19 @@ const rules: Record<string, Rule> = {
 	maintained,
 	'shard-urls': shardUrls,
 	'version-state': versionState,
+	'release-notes-url': releaseNotesUrl,
+	'github-release-notes': githubReleaseNotes,
 	...(process.argv.includes('--dry-run') && { 'dropped-fields': droppedFields }),
 };
 
+const WARNINGS = new Set(['release-notes-url']);
 const shards = (await Array.fromAsync(glob('shards/{json,script}/*.{json,ts}'))).sort();
 let errors = 0;
 for (const [name, rule] of Object.entries(rules)) {
 	await rule(shards, (file, message) => {
-		errors++;
-		console.log(`::error file=${file},title=${name}::${message}`);
+		const level = WARNINGS.has(name) ? 'warning' : 'error';
+		if (level === 'error') errors++;
+		console.log(`::${level} file=${file},title=${name}::${message}`);
 	});
 }
 if (errors > 0) process.exit(1);
