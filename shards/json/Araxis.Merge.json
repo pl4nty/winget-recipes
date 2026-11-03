@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.araxis.com/merge/download",
+		"regex": "/download/Merge(?<version>\\d+(?:\\.\\d+)+)-x64\\.msi"
+	},
+	"urls": [
+		"https://www.araxis.com/download/Merge{version}-x64.msi",
+		"https://www.araxis.com/download/Merge{version}-x64-ja.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.araxis.com/url/merge-windows/release-notes.uri"
+	}
+}
