@@ -1,17 +1,22 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://acrosync.com/windows.html",
+		"regex": "acrosync_installer_win64_(?<version>\\d+(?:\\.\\d+)+)_(?<build>\\d+)\\.exe"
 	},
+	"version": "{version}.{captures.build}",
 	"urls": [
 		{
-			"url": "https://acrosync.com/win32/acrosync_installer_win64_1.7_611.exe",
+			"url": "https://acrosync.com/win32/acrosync_installer_win64_{version}_{captures.build}.exe",
 			"architecture": "x64"
 		},
 		{
-			"url": "https://acrosync.com/win32/acrosync_installer_win32_1.7_611.exe",
+			"url": "https://acrosync.com/win32/acrosync_installer_win32_{version}_{captures.build}.exe",
 			"architecture": "x86"
 		}
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://acrosync.com/windows.html"
+	}
 }
