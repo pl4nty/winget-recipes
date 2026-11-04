@@ -6,5 +6,8 @@
 		"repo": "luajls",
 		"method": "api-sort",
 		"assetRegex": "^(?:luajls\\-\\d+\\.\\d+\\-x86_64\\-windows\\.\\d+\\.zip)$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/javalikescript/luajls/releases/tag/{github.rawTag}"
 	}
 }
