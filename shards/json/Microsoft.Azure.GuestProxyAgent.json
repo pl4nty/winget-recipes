@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Azure",
+		"repo": "GuestProxyAgent",
+		"method": "api-sort",
+		"assetRegex": "_GuestProxyAgent_(?:AMD64|ARM64)_[\\d.]+\\.msi$"
+	}
+}
