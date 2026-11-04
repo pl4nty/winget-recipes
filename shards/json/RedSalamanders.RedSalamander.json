@@ -5,5 +5,8 @@
 	"urls": [
 		"https://github.com/RedSalamanders/RedSalamander/releases/download/v{version}/RedSalamander-{version}-x64-Portable.zip",
 		"https://github.com/RedSalamanders/RedSalamander/releases/download/v{version}/RedSalamander-{version}-ARM64-Portable.zip"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/RedSalamanders/RedSalamander/releases/tag/{github.rawTag}"
+	}
 }
