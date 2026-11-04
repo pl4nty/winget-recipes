@@ -4,6 +4,7 @@
 	"github": {
 		"owner": "peterandree",
 		"repo": "BTChargeTrayWatcher",
+		"method": "api-latest",
 		"assetRegex": "^BTChargeTrayWatcher_.*_Setup\\.exe$"
 	}
 }
