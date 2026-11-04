@@ -10,5 +10,8 @@
 		"https://github.com/Snesnopic/vbrfix/releases/download/v{version}/vbrfix-windows-x86.zip",
 		"https://github.com/Snesnopic/vbrfix/releases/download/v{version}/vbrfix-windows-arm64.zip"
 	],
-	"version": "{version}.0"
+	"version": "{version}.0",
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Snesnopic/vbrfix/releases/tag/{github.rawTag}"
+	}
 }
