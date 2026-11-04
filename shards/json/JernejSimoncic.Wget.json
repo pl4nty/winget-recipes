@@ -13,6 +13,10 @@
 		{
 			"url": "https://eternallybored.org/misc/wget/{version}/32/wget.exe",
 			"architecture": "x86"
+		},
+		{
+			"url": "https://eternallybored.org/misc/wget/{version}/a64/wget.exe",
+			"architecture": "arm64"
 		}
 	]
 }
