@@ -8,5 +8,8 @@
 	},
 	"urls": [
 		"https://github.com/naplon74/CleanMe/releases/download/V{version}/Keyboard_Cleaner-V{version}_Setup.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/naplon74/CleanMe/releases/tag/{github.rawTag}"
+	}
 }
