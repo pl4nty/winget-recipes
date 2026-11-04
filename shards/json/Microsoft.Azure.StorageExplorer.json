@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "AzureStorageExplorer"
+	},
+	"urls": [
+		"https://github.com/microsoft/AzureStorageExplorer/releases/download/v{version}/StorageExplorer-windows-x64.exe",
+		"https://github.com/microsoft/AzureStorageExplorer/releases/download/v{version}/StorageExplorer-windows-arm64.exe"
+	]
+}
