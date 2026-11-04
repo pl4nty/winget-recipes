@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			`https://download.ni.com/support/nipkg/products/ni-d/ni-daqmx/${short}/online/ni-daqmx_${short}_online.exe`,
+			{ url: `https://download.ni.com/support/nipkg/products/ni-d/ni-daqmx/${short}/online/ni-daqmx_${short}_online.exe`, architecture: 'x64' },
 		],
 	};
 });
