@@ -1,8 +1,8 @@
 import { defineShard } from 'anthelion';
-import { getLatestReleaseFromRedirect } from 'anthelion/github';
+import { getLatestRelease } from 'anthelion/github';
 
 export default defineShard(async () => {
-	const release = await getLatestReleaseFromRedirect({ owner: 'TheYali1', repo: 'DelFast' });
+	const release = await getLatestRelease({ owner: 'TheYali1', repo: 'DelFast', tagRegex: '^v' });
 	// Upstream pads the tag (v1.2) to four parts (1.2.0.0).
 	const parts = release.rawTag.replace(/^v/i, '').split('.');
 	while (parts.length < 4) parts.push('0');
