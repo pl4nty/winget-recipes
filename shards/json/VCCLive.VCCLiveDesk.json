@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://storage.googleapis.com/client-installing/WINNT_x86/vcc-client.msi"],
 	"state": {
 		"source": "response-header",
