@@ -6,5 +6,8 @@
 		"repo": "whois",
 		"method": "api-sort",
 		"assetRegex": "^(?:whois\\-cli\\-windows\\-\\d+\\-arm\\.exe|whois\\-cli\\-windows\\-\\d+\\.exe)$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Akaere-NetWorks/whois/releases/tag/{github.rawTag}"
 	}
 }
