@@ -1,16 +1,17 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://static.idriveonlinebackup.com/downloads/version_win.js",
+		"regex": "win_ver=\"Version (?<version>\\d+(?:\\.\\d+)+)\"[\\s\\S]*?/downloads/(?<dir>\\d+)/IDriveWinSetup\\.exe"
 	},
 	"urls": [
 		{
-			"url": "https://static.idriveonlinebackup.com/downloads/msi/042326/IDriveWinSetup.msi",
+			"url": "https://static.idriveonlinebackup.com/downloads/msi/{captures.dir}/IDriveWinSetup.msi",
 			"architecture": "x86"
 		},
 		{
-			"url": "https://static.idriveonlinebackup.com/downloads/042326/IDriveWinSetup.exe",
+			"url": "https://static.idriveonlinebackup.com/downloads/{captures.dir}/IDriveWinSetup.exe",
 			"architecture": "x86"
 		}
 	]
