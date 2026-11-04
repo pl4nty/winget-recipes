@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://download.withsecure.com/PSB/latest/ElementsAgentOfflineInstaller.msi"],
 	"state": {
 		"source": "response-header",
