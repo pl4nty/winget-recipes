@@ -14,7 +14,7 @@ export default defineShard(async () => {
 
 	return {
 		version: `${major}.${minor}.${patch}`,
-		urls: () => [new URL(path, page).href],
+		urls: () => [{ url: new URL(path, page).href, architecture: 'neutral' }],
 		replace: true,
 	};
 });
