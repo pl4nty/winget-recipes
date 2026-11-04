@@ -15,8 +15,5 @@
 			"url": "https://acrosync.com/win32/acrosync_installer_win32_{version}_{captures.build}.exe",
 			"architecture": "x86"
 		}
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://acrosync.com/windows.html"
-	}
+	]
 }
