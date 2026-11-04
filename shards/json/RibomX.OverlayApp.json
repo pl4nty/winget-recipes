@@ -2,5 +2,8 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": { "owner": "RibomX", "repo": "overlay-app" },
-	"urls": ["https://github.com/RibomX/overlay-app/releases/download/v{version}/OverlayApp-Setup.exe"]
+	"urls": ["https://github.com/RibomX/overlay-app/releases/download/v{version}/OverlayApp-Setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/RibomX/overlay-app/releases/tag/{github.rawTag}"
+	}
 }
