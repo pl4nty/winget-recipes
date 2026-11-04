@@ -4,6 +4,7 @@
 	"github": {
 		"owner": "Alazar42",
 		"repo": "DupliScan",
+		"method": "api-latest",
 		"assetRegex": "^dupliscan_.*_windows_(?:amd64|arm64)\\.zip$"
 	}
 }
