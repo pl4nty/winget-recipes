@@ -5,5 +5,8 @@
 		"owner": "SosomLab",
 		"repo": "nexa-memkeeper"
 	},
-	"urls": ["https://github.com/SosomLab/nexa-memkeeper/releases/download/{version}/NexaMemKeeper-{version}-portable.zip"]
+	"urls": ["https://github.com/SosomLab/nexa-memkeeper/releases/download/{version}/NexaMemKeeper-{version}-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/SosomLab/nexa-memkeeper/releases/tag/{github.rawTag}"
+	}
 }
