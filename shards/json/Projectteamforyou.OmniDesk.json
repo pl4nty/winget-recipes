@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "work517",
+		"owner": "projectteamforyou",
 		"repo": "omnidesk-desktop"
 	},
 	"urls": [
-		"https://github.com/work517/omnidesk-desktop/releases/download/{github.rawTag}/OmniDesk-Windows-Setup.exe"
+		"https://github.com/projectteamforyou/omnidesk-desktop/releases/download/{github.rawTag}/OmniDesk-Windows-Setup.exe"
 	]
 }
