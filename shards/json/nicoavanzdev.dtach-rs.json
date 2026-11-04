@@ -4,6 +4,7 @@
 	"github": {
 		"owner": "NicoAvanzDev",
 		"repo": "dtach-rs",
+		"method": "api-latest",
 		"assetRegex": "^dtach-rs-(?:x86_64|aarch64)-pc-windows-msvc\\.zip$"
 	}
 }
