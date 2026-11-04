@@ -5,5 +5,8 @@
 		"owner": "btsouth",
 		"repo": "matteshot"
 	},
-	"urls": ["https://download.matteshot.app/MatteshotSetup-{version}.exe"]
+	"urls": ["https://download.matteshot.app/MatteshotSetup-{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/btsouth/matteshot/releases/tag/{github.rawTag}"
+	}
 }
