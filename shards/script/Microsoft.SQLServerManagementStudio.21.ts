@@ -7,5 +7,6 @@ export default defineShard(async () => {
 	return {
 		version: info.productDisplayVersion,
 		urls: () => [url],
+		releaseNotes: { releaseNotesUrl: `https://aka.ms/SSMSReleaseNotes-21#${info.productDisplayVersion.replaceAll('.', '')}` },
 	};
 });
