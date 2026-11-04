@@ -7,5 +7,8 @@
 		"method": "api-list",
 		"tagRegex": "^v(?=\\d+(?:\\.\\d+)+$)",
 		"assetRegex": "\\.msi$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/TwinTypeFont/TwinType_Cloud_Client_Release/releases/tag/{github.rawTag}"
 	}
 }
