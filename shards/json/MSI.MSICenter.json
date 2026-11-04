@@ -4,7 +4,7 @@
 	"version": { "source": "product" },
 	"urls": [
 		{
-			"url": "https://download-2.msi.com/uti_exe/desktop/MSI-Center.zip",
+			"url": "https://download-2.msi.com/uti_exe/desktop/MSI-Center.zip", "architecture": "x64",
 			"nestedInstallerMatches": ["MSI Center_"]
 		}
 	],
