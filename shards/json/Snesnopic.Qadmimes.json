@@ -9,5 +9,8 @@
 		"https://github.com/Snesnopic/qadmimes/releases/download/v{version}/qadmimes-windows-x64.zip",
 		"https://github.com/Snesnopic/qadmimes/releases/download/v{version}/qadmimes-windows-x86.zip",
 		"https://github.com/Snesnopic/qadmimes/releases/download/v{version}/qadmimes-windows-arm64.zip"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Snesnopic/qadmimes/releases/tag/{github.rawTag}"
+	}
 }
