@@ -9,6 +9,6 @@
 		"repo": "TerrSet"
 	},
 	"urls": [
-		"https://github.com/ClarkCGA/TerrSet/releases/download/{github.rawTag}/setup_TerrSet_liberaGIS_v20_06.exe"
+		{ "url": "https://github.com/ClarkCGA/TerrSet/releases/download/{github.rawTag}/setup_TerrSet_liberaGIS_v20_06.exe", "architecture": "x64" }
 	]
 }
