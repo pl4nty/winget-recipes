@@ -1,12 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.ccleaner.com/speccy/version-history",
-		"regex": "version-history__latest-version\">v(?<version>\\d+\\.\\d+)\\.\\d+<"
-	},
+	"strategy": "static",
+	"version": { "source": "file" },
 	"urls": ["https://download.ccleaner.com/spsetup.exe"],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://www.ccleaner.com/speccy/version-history"
+	"state": {
+		"source": "response-header",
+		"url": "https://download.ccleaner.com/spsetup.exe",
+		"header": "etag"
 	}
 }
