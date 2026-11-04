@@ -1,8 +1,8 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
-	"github": { "owner": "wiradigitalid", "repo": "wira-desk" },
+	"github": { "owner": "wiradeltaid", "repo": "wira-desk" },
 	"urls": [
-		"https://github.com/wiradigitalid/wira-desk/releases/download/v{version}/WiraDesk-{version}-x64-setup.exe"
+		"https://github.com/wiradeltaid/wira-desk/releases/download/v{version}/WiraDesk-{version}-x64-setup.exe"
 	]
 }
