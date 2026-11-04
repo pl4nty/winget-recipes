@@ -1,6 +1,11 @@
 name: Update Maintainers
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - shards/**
   pull_request:
     paths:
       - .github/workflows/update-maintainers.yml
