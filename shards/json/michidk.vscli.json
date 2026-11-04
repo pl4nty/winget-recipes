@@ -12,5 +12,8 @@
 			"architecture": "x86",
 			"nestedInstallerMatches": ["vscli-i686-pc-windows-msvc/vscli.exe"]
 		}
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/michidk/vscli/releases/tag/{github.rawTag}"
+	}
 }
