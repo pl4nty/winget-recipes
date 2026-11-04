@@ -11,6 +11,6 @@ export default defineShard(async () => {
 
 	return {
 		version: file.replaceAll('_', '.'),
-		urls: () => [`https://pcstwinget.blob.core.windows.net/pc-servicetool-images/Remeha_Pro_${file}.msi`],
+		urls: () => [{ url: `https://pcstwinget.blob.core.windows.net/pc-servicetool-images/Remeha_Pro_${file}.msi`, architecture: 'x64' }],
 	};
 });
