@@ -68,6 +68,98 @@ const githubReleaseNotes: Rule = async (shards, report) => {
 	}
 };
 
+// Ports winget-cli's name normalization (src/AppInstallerCommonCore/NameNormalization.cpp, via winget-types),
+// which komac uses to leave out an ARP DisplayName that matches the PackageName.
+const LEGAL_ENTITY_SUFFIXES = new Set(
+	'ab,ad,ag,aps,as,asa,bv,co,cv,doo,ev,ges,gesmbh,gmbh,inc,kg,ks,ps,llc,lp,ltd,ltda,mbh,nv,plc,sl,pty,pvt,sa,sarl,sc,sca,sp,spa,srl,sro,company,corp,corporation,holding,holdings,incorporated,limited,subsidiary'.split(','),
+);
+const LOCALES = new Set(
+	'af-za,am-et,ar-ae,ar-bh,ar-dz,ar-eg,ar-iq,ar-jo,ar-kw,ar-lb,ar-ly,ar-ma,arn-cl,ar-om,ar-qa,ar-sa,ar-sy,ar-tn,ar-ye,as-in,ba-ru,be-by,bg-bg,bn-bd,bn-in,bo-cn,br-fr,ca-es,ca-es-valencia,co-fr,cs-cz,cy-gb,da-dk,de-at,de-ch,de-de,de-li,de-lu,dsb-de,dv-mv,el-gr,en-au,en-bz,en-ca,en-gb,en-ie,en-in,en-jm,en-my,en-nz,en-ph,en-sg,en-tt,en-us,en-za,en-zw,es-ar,es-bo,es-cl,es-co,es-cr,es-do,es-ec,es-es,es-gt,es-hn,es-mx,es-ni,es-pa,es-pe,es-pr,es-py,es-sv,es-us,es-uy,es-ve,et-ee,eu-es,fa-ir,fi-fi,fil-ph,fo-fo,fr-be,fr-ca,fr-ch,fr-fr,fr-lu,fr-mc,fy-nl,ga-ie,gd-db,gl-es,gsw-fr,gu-in,he-il,hi-in,hr-ba,hr-hr,hsb-de,hu-hu,hy-am,id-id,ig-ng,ii-cn,is-is,it-ch,it-it,ja-jp,ka-ge,kk-kz,kl-gl,km-kh,kn-in,kok-in,ko-kr,ky-kg,lb-lu,lo-la,lt-lt,lv-lv,mi-nz,mk-mk,ml-in,mn-mn,moh-ca,mr-in,ms-bn,ms-my,mt-mt,nb-no,ne-np,nl-be,nl-nl,nn-no,nso-za,oc-fr,or-in,pa-in,pl-pl,prs-af,ps-af,pt-br,pt-pt,qut-gt,quz-bo,quz-ec,quz-pe,rm-ch,ro-ro,ru-ru,rw-rw,sah-ru,sa-in,se-fi,se-no,se-se,si-lk,sk-sk,sl-si,sma-no,sma-se,smj-no,smj-se,smn-fi,sms-fi,sq-al,sv-fi,sv-se,sw-ke,syr-sy,ta-in,te-in,th-th,tk-tm,tn-za,tr-tr,tt-ru,ug-cn,uk-ua,ur-pk,vi-vn,wo-sn,xh-za,yo-ng,zh-cn,zh-hk,zh-mo,zh-sg,zh-tw,zu-za,az-cyrl-az,az-latn-az,bs-cyrl-ba,bs-latn-ba,ha-latn-ng,iu-cans-ca,iu-latn-ca,mn-mong-cn,sr-cyrl-ba,sr-cyrl-cs,sr-cyrl-me,sr-cyrl-rs,sr-latn-ba,sr-latn-cs,sr-latn-me,sr-latn-rs,tg-cyrl-tj,tzm-latn-dz,uz-cyrl-uz,uz-latn-uz'.split(','),
+);
+const ARCHITECTURES = [
+	/(?:^|[^\p{L}\p{Nd}])(?<target>(?:64[\\/]32|32[\\/]64)[\p{Pd}\p{Pc}\p{Z}]?BITS?(?:\sEDITION)?)/diu,
+	/(?:^|[^\p{L}\p{Nd}])(?<target>X64|AMD64|X86(?:[\p{Pd}\p{Pc}]64))(?:(?<edition>\sEDITION)|\P{Nd}|$)/diu,
+	/(?:^|[^\p{L}\p{Nd}])(?<target>64[\p{Pd}\p{Pc}\p{Z}]?BITS?(?:\sEDITION)?)/diu,
+	/(?:^|[^\p{L}\p{Nd}])(?<target>X32|X86)(?:(?<edition>\sEDITION)|\P{Nd}|$)/diu,
+	/(?:^|[^\p{L}\p{Nd}])(?<target>32[\p{Pd}\p{Pc}\p{Z}]?BITS?(?:\sEDITION)?)/diu,
+];
+const LOCALE = /(?:^|[^A-Z])(?:(?<valencia>[A-Z]{2,3}(?:-(?:CANS|CYRL|LATN|MONG))?-[A-Z]{2}-VALENCIA)|(?<target>[A-Z]{2,3}(?:-(?:CANS|CYRL|LATN|MONG))?-[A-Z]{2})(?:[^A-Z]|$))/dgiu;
+const SAP_PACKAGE = /^(?:[\p{Lu}\p{Nd}]+[._])+[\p{Lu}\p{Nd}]+(?:-(?:\p{Nd}+\.)+\p{Nd}+)(?:-(?:\p{Lu}{2}(?:_\p{Lu}{2})?|CORE))(?:-(?:\p{Lu}{2}|\p{Nd}{2}))$/iu;
+const KB_NUMBER = /\((KB\d+)\)/giu;
+const VERSION_PREFIX = '(?:V|VER|VERSI(?:O|Ó)N|VERSÃO|VERSIE|WERSJA|BUILD|RELEASE|RC|SP)';
+const PREFIX = '(?:P|V|R|VER|VERSI(?:O|Ó)N|VERSÃO|VERSIE|WERSJA|BUILD|RELEASE|RC|SP)';
+const CLEANUP = [
+	/^(?:ROBLOX\s(?:PLAYER|STUDIO))(?<target>\sFOR\s.*)/diu,
+	/^(?:BOMGAR\s(?:JUMP CLIENT|(?:ACCESS|REPRESENTATIVE) CONSOLE|BUTTON)|EMBEDDED CALLBACK)(?<target>\s.*)/diu,
+	/(?<target>^\(.*?\))/diu,
+	/(?<target>\(\s*\)|\[\s*\]|"\s*")/diu,
+	/(?<target>\(CHANGE #\d{1,2} TO [CDEF]:\\(?:.+?\\)*[^\s]*\\?\))/diu,
+	/(?<target>\([CDEF]:\\(?:.+?\\)*[^\s]*\\?\))/diu,
+	/(?<target>"[CDEF]:\\(?:.+?\\)*[^\s]*\\?")/diu,
+	/(?<target>(?:(?:INSTALLED\sAT|IN)\s)?[CDEF]:\\(?:.+?\\)*[^\s]*\\?)/diu,
+	new RegExp(`(?:^|[^\\p{L}])(?<target>(?:${VERSION_PREFIX}\\P{L})?\\p{Lu}\\p{Nd}+(?:[\\p{Po}\\p{Pd}\\p{Pc}]\\p{Nd}+)+)`, 'diu'),
+	new RegExp(`(?:^|[^\\p{L}])(?<target>${VERSION_PREFIX}\\P{L}?\\p{Nd}+(?:[\\p{Po}\\p{Pd}\\p{Pc}]\\p{Nd}?(?:RC|B|A|R|SP|K)?\\p{Nd}+)+(?:[\\p{Po}\\p{Pd}\\p{Pc}]?[\\p{L}\\p{Nd}]+)*)`, 'diu'),
+	/(?<target>\p{Nd}+(?:[\p{Po}\p{Pd}\p{Pc}]\p{Nd}?(?:RC|B|A|R|SP|K)?\p{Nd}+)+(?:[\p{Po}\p{Pd}\p{Pc}]?[\p{L}\p{Nd}]+)*)/diu,
+	new RegExp(`(?<target>FOR\\s${PREFIX}(?:\\P{L}|\\P{L}\\p{L})?(?:\\p{Nd}|\\.\\p{Nd})+(?:RC|B|A|R|V|SP)?\\p{Nd}?)`, 'diu'),
+	new RegExp(`(?:^|[^\\p{L}])(?<target>${PREFIX}(?:\\P{L}|\\P{L}\\p{L})?(?:\\p{Nd}|\\.\\p{Nd})+(?:RC|B|A|R|V|SP)?\\p{Nd}?)`, 'diu'),
+	/(?<target>\sEN\s*$)/diu,
+	/(?<target>\([^()]*\)|\[[^[\]]*\])/du,
+	/(?<target>\p{Ps}.*\p{Pe}|".*")/du,
+	/(?:^|[^\p{L}])(?<target>(?:HTTPS?|FTP):\/\/)/diu,
+	/(?<target>^[^\p{L}\p{Nd}]+|[^\p{L}\p{Nd}]+$)/du,
+];
+const WHITESPACE = /^[ \f\n\r\t\v]+|[ \f\n\r\t\v]+$/g;
+
+function removeAll(expression: RegExp, input: string): [string, boolean] {
+	let removed = false;
+	for (let match = expression.exec(input); match?.indices?.groups?.target; match = expression.exec(input)) {
+		const [start] = match.indices.groups.target;
+		const [, end] = match.indices.groups.edition ?? match.indices.groups.target;
+		input = input.slice(0, start) + input.slice(end);
+		removed = true;
+	}
+	return [input, removed];
+}
+
+function normalizeName(name: string) {
+	let result = name.toLowerCase().normalize('NFKC').replace(WHITESPACE, '');
+	const at = result.indexOf('@@', 3);
+	if (at >= 0) result = result.slice(0, at);
+	while (result.length >= 2 && ((result.startsWith('"') && result.endsWith('"')) || (result.startsWith('(') && result.endsWith(')'))))
+		result = result.slice(1, -1);
+	if (SAP_PACKAGE.test(result)) return result;
+
+	for (const expression of ARCHITECTURES) {
+		let removed;
+		[result, removed] = removeAll(expression, result);
+		if (removed) break;
+	}
+	for (LOCALE.lastIndex = 0; ; ) {
+		const match = LOCALE.exec(result);
+		if (!match) break;
+		const [start, end] = match.indices!.groups!.valencia ?? match.indices!.groups!.target!;
+		if (LOCALES.has(result.slice(start, end))) {
+			result = result.slice(0, start) + result.slice(end);
+			LOCALE.lastIndex = 0;
+		} else LOCALE.lastIndex = end;
+	}
+	result = result.replace(KB_NUMBER, '$1');
+	for (let removed = true; removed; ) {
+		removed = false;
+		for (const expression of CLEANUP) {
+			let changed;
+			[result, changed] = removeAll(expression, result);
+			removed ||= changed;
+		}
+	}
+	let normalized = '';
+	for (const token of result.split(/[^\p{L}\p{Nd}+&]/u).filter((token) => token.replace(WHITESPACE, ''))) {
+		if (normalized && LEGAL_ENTITY_SUFFIXES.has(token)) continue;
+		normalized += token;
+	}
+	return normalized.replace(/[^\p{L}\p{Nd}]/gu, '');
+}
+
 const DEFAULT_LOCALE = /^ManifestType:\s*defaultLocale\s*$/m;
 const ROOT = new Set(['PackageIdentifier', 'PackageVersion', 'ManifestType', 'ManifestVersion']);
 // komac drops InstallerLocale on update, and shards cannot set it.
@@ -83,12 +175,17 @@ function fields(yaml: string, arp: Record<string, unknown> = {}) {
 		const shared = Object.entries(manifest).filter(([key]) => !ROOT.has(key) && key !== 'Installers');
 		for (const [key] of shared) delete manifest[key];
 		manifest.Installers = manifest.Installers.map((installer) => ({ ...Object.fromEntries(shared), ...installer }));
-		// komac leaves out ARP values that match the package or the installer type, which winget already assumes.
+		// komac leaves out ARP values that match the package (DisplayName after normalization) or the installer type.
 		for (const installer of manifest.Installers as Record<string, unknown>[]) {
 			const InstallerType = installer.InstallerType === 'zip' ? installer.NestedInstallerType : installer.InstallerType;
 			for (const entry of (installer.AppsAndFeaturesEntries ?? []) as Record<string, unknown>[])
 				for (const [key, value] of Object.entries({ ...arp, DisplayVersion: manifest.PackageVersion, InstallerType }))
-					if (value !== undefined && String(entry[key]) === String(value)) delete entry[key];
+					if (
+						value !== undefined &&
+						(String(entry[key]) === String(value) ||
+							(key === 'DisplayName' && normalizeName(String(entry[key])) === normalizeName(String(value))))
+					)
+						delete entry[key];
 		}
 	}
 	const counts = new Map<string, number>();
