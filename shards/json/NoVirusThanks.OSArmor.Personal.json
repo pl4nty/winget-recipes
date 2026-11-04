@@ -1,14 +1,15 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": { "source": "file" },
-	"releaseNotes": { "releaseNotesUrl": "https://www.osarmor.com/changelog/" },
-	"urls": ["https://downloads.osarmor.com/latest/osarmor-personal/setup"],
-	"state": {
-		"source": "response-header",
-		"url": "https://downloads.osarmor.com/latest/osarmor-personal/setup",
-		"header": "etag",
-		"method": "get"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.osarmor.com/changelog/",
+		"regex": "</i> v(\\d+(?:\\.\\d+)+)"
 	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.osarmor.com/changelog/"
+	},
+	"urls": [
+		"https://downloads.osarmor.com/latest/osarmor-personal/setup"
+	],
 	"replace": true
 }
