@@ -41,11 +41,14 @@ async function dumplings() {
 	return ids;
 }
 
-async function anthelion() {
-	const dir = await checkout('UnownPlain/anthelion', ['/shards/']);
+async function shards(dir: string) {
 	return (await files(dir, 'shards/{json,script}/*.{json,ts}')).map((path) =>
 		basename(path).replace(/\.(json|ts)$/, ''),
 	);
+}
+
+async function anthelion() {
+	return shards(await checkout('UnownPlain/anthelion', ['/shards/']));
 }
 
 async function b0t() {
@@ -67,7 +70,12 @@ async function b0t() {
 	return ids;
 }
 
-const bots = { spectopo: dumplings, UnownBot: anthelion, 'damn-good-b0t': b0t };
+const bots = {
+	spectopo: dumplings,
+	UnownBot: anthelion,
+	'damn-good-b0t': b0t,
+	[process.env.GITHUB_REPOSITORY_OWNER ?? 'pl4nty']: () => shards('.'),
+};
 
 const rows = new Map<string, { id: string; maintainers: Set<string> }>();
 const row = (id: string) => {
