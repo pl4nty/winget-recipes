@@ -3,10 +3,10 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "naplon74",
-		"repo": "keyboard-cleaner",
+		"repo": "CleanMe",
 		"tagRegex": "^V"
 	},
 	"urls": [
-		"https://github.com/naplon74/keyboard-cleaner/releases/download/V{version}/Keyboard_Cleaner-V{version}_Setup.exe"
+		"https://github.com/naplon74/CleanMe/releases/download/V{version}/Keyboard_Cleaner-V{version}_Setup.exe"
 	]
 }
