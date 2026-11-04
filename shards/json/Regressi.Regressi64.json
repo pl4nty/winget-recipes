@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": { "source": "display" },
-	"urls": ["https://regressi.fr/zip/Regressi64.msi"],
+	"urls": [{ "url": "https://regressi.fr/zip/Regressi64.msi", "architecture": "neutral" }],
 	"state": {
 		"source": "response-header",
 		"url": "https://regressi.fr/zip/Regressi64.msi",
