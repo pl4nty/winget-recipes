@@ -2,5 +2,8 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": { "owner": "pulsejet", "repo": "EdgeAndBingDeflector" },
-	"urls": ["https://github.com/pulsejet/EdgeAndBingDeflector/releases/download/{github.rawTag}/EdgeAndBingDeflector.exe"]
+	"urls": ["https://github.com/pulsejet/EdgeAndBingDeflector/releases/download/{github.rawTag}/EdgeAndBingDeflector.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/pulsejet/EdgeAndBingDeflector/releases/tag/{github.rawTag}"
+	}
 }
