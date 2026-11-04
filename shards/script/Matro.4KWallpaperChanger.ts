@@ -11,11 +11,6 @@ export default defineShard(async () => {
 	return {
 		version: release.rawTag,
 		urls: () => release.urls().filter((url) => /\/4KWallpaperChanger[^/]*Setup[^/]*\.exe$/i.test(url)),
-		releaseNotes: {
-			source: 'github',
-			owner: 'Matro81',
-			repo: '4K-Wallpaper-App',
-			tag: release.rawTag,
-		},
+		releaseNotes: { releaseNotesUrl: `https://github.com/Matro81/4K-Wallpaper-App/releases/tag/${release.rawTag}` },
 	};
 });
