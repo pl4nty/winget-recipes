@@ -5,5 +5,5 @@
 		"url": "https://te4.org/download",
 		"regex": "do-download/tome-(?<version>\\d+(?:\\.\\d+)+)/t-engine4-src-"
 	},
-	"urls": ["https://te4.org/do-download/tome-{version}/t-engine4-windows-{version}.zip"]
+	"urls": [{ "url": "https://te4.org/do-download/tome-{version}/t-engine4-windows-{version}.zip", "architecture": "neutral" }]
 }
