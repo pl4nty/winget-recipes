@@ -83,11 +83,13 @@ function fields(yaml: string, arp: Record<string, unknown> = {}) {
 		const shared = Object.entries(manifest).filter(([key]) => !ROOT.has(key) && key !== 'Installers');
 		for (const [key] of shared) delete manifest[key];
 		manifest.Installers = manifest.Installers.map((installer) => ({ ...Object.fromEntries(shared), ...installer }));
-		// komac leaves out ARP values that match the package, which winget already assumes.
-		for (const installer of manifest.Installers as { AppsAndFeaturesEntries?: Record<string, unknown>[] }[])
-			for (const entry of installer.AppsAndFeaturesEntries ?? [])
-				for (const [key, value] of Object.entries({ ...arp, DisplayVersion: manifest.PackageVersion }))
+		// komac leaves out ARP values that match the package or the installer type, which winget already assumes.
+		for (const installer of manifest.Installers as Record<string, unknown>[]) {
+			const InstallerType = installer.InstallerType === 'zip' ? installer.NestedInstallerType : installer.InstallerType;
+			for (const entry of (installer.AppsAndFeaturesEntries ?? []) as Record<string, unknown>[])
+				for (const [key, value] of Object.entries({ ...arp, DisplayVersion: manifest.PackageVersion, InstallerType }))
 					if (value !== undefined && String(entry[key]) === String(value)) delete entry[key];
+		}
 	}
 	const counts = new Map<string, number>();
 	const walk = (value: unknown, path: string) => {
