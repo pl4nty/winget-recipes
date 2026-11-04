@@ -1,9 +1,6 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
-	"version": {
-		"source": "product"
-	},
 	"github": {
 		"owner": "Buger2008",
 		"repo": "SuperTextToolBox"
