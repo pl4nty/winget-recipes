@@ -1,7 +1,7 @@
 import { defineShard } from 'anthelion';
 import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"aztf": ["Azure", "aztfexport"], "amse": ["Azure", "Azure-Media-Services-Explorer"], "midi": ["microsoft", "MIDI"], "idfix": ["microsoft", "idfix"], "aisw": ["AariyJP", "ai-switcher"], "vrcxf": ["AariyJP", "VRCXF"], "mini": ["conda-forge", "miniforge"], "cowork": ["AIDotNet", "NextCoWork"], "racemo": ["racemo-dev", "racemo-client"], "yama": ["mrenanpx", "appyama-novo"], "wall": ["rishabh3354", "4KWALL"], "snbt": ["ronnikols", "SNBT-AI-Localizer"]};
+const repos: Record<string, [string, string]> = {"cubic": ["cjcliffe", "CubicSDR"], "dvpp": ["CobaltFusion", "DebugViewPP"], "hvtop": ["mazvazzeg", "hvtop"], "delfast": ["TheYali1", "DelFast"], "slim": ["akasula09", "CodeSlimmer"], "pstub": ["jazzdelightsme", "PowershellStub"], "glabels": ["ibsorn", "glabels-windows"], "smapp": ["spacemeshos", "smapp"], "wowmips": ["x86matthew", "WoWMIPS"]};
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
