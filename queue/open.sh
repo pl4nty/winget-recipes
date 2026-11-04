@@ -1,6 +1,7 @@
 #!/bin/bash
 # usage: open.sh : opens a draft PR for each queue/*.tsv line (branch, title, base64 body), one per $INTERVAL seconds, taking the files in turn.
 # Skips heads that already have a PR (listed once per run), so a rerun resumes. Backs off on GitHub secondary rate limits. Stops after $BUDGET seconds.
+# Appends "Resolves ..." for open winget-pkgs Update Requests that match the PackageIdentifier in the "feat: add <Id> shard" title (fetched once per run).
 set -uo pipefail
 R=$GITHUB_REPOSITORY
 INTERVAL=${INTERVAL:-10}; end=$(( $(date +%s) + ${BUDGET:-20400} ))
@@ -20,6 +21,8 @@ call() {
   done
   return 1
 }
+gh api --paginate "repos/microsoft/winget-pkgs/issues?labels=Package-Update&state=open&per_page=100" --jq '.[]|select(.pull_request|not)|{n:.number,t:.title,b:.body}' | python3 queue/issues.py > /tmp/issues.tsv
+echo "$(wc -l < /tmp/issues.tsv) Update Request identifiers"
 gh api --paginate "repos/$R/pulls?state=all&per_page=100" --jq '.[].head.ref' | sort -u > /tmp/heads.txt
 echo "$(wc -l < /tmp/heads.txt) existing PR heads"
 opened=0
@@ -28,7 +31,11 @@ while IFS=$'\t' read -r branch title body; do
   grep -qxF -- "$branch" /tmp/heads.txt && continue
   echo "$branch" >> /tmp/heads.txt
   gh api "repos/$R/branches/$branch" --silent 2>/dev/null || { echo "missing branch $branch"; continue; }
-  num=$(call "repos/$R/pulls" -f title="$title" -f head="$branch" -f base=main -F draft=true -f body="$(base64 -d <<<"$body")" --jq .number) || { echo "failed $branch"; continue; }
+  body=$(base64 -d <<<"$body")
+  id=$(sed -n 's/^feat: add \(.*\) shard$/\1/p' <<<"$title" | tr '[:upper:]' '[:lower:]')
+  refs=$(awk -F'\t' -v id="$id" '$1 == id { print $2 }' /tmp/issues.tsv)
+  [ -z "$refs" ] || body+=$'\n\n'"Resolves $refs"
+  num=$(call "repos/$R/pulls" -f title="$title" -f head="$branch" -f base=main -F draft=true -f body="$body" --jq .number) || { echo "failed $branch"; continue; }
   opened=$((opened+1)); echo "#$num $title"
   sleep "$INTERVAL"
 done < /tmp/order.tsv
