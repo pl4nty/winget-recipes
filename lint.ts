@@ -223,28 +223,41 @@ function compareVersions(a: string, b: string) {
 	return 0;
 }
 
+type DryRun = { shard: string; latest: string; raws: Map<string, string>; yamls: Map<string, string | undefined> };
+
+// Pairs each dry-run manifest from the step summary with the latest winget-pkgs manifest of the same name.
+let loaded: Promise<DryRun[]> | undefined;
+const dryRuns = (shards: string[]) =>
+	(loaded ??= (async () => {
+		const summary = await readFile(process.env.GITHUB_STEP_SUMMARY!, 'utf8');
+		const generated = new Map(
+			[...summary.matchAll(/^#### (.+)\n\n```yaml\n([\s\S]*?)\n```$/gm)].map(([, path, yaml]) => [path!, yaml!]),
+		);
+		const packages = [...new Set([...generated.keys()].map((path) => dirname(dirname(path))))];
+		if (packages.length === 0) return [];
+
+		const dir = await mkdtemp(join(tmpdir(), 'lint-'));
+		await $`git clone --quiet --depth 1 --filter=blob:none --sparse https://github.com/microsoft/winget-pkgs.git ${dir}`;
+		await $`git -C ${dir} sparse-checkout set --no-cone ${packages.map((pkg) => `/${pkg}/*/*.yaml`)}`.quiet();
+
+		return Promise.all(
+			packages.map(async (pkg) => {
+				const identifier = pkg.split('/').slice(2).join('.').toLowerCase();
+				const shard = shards.find((shard) => id(shard).toLowerCase() === identifier) ?? pkg;
+				const paths = await Array.fromAsync(glob(`${pkg}/*/*.yaml`, { cwd: dir }));
+				const latest = [...new Set(paths.map((path) => basename(dirname(path))))].sort(compareVersions).at(-1)!;
+				const version = [...generated.keys()].find((path) => path.startsWith(`${pkg}/`))!.split('/').at(-2);
+				const raws = new Map<string, string>();
+				for (const path of paths.filter((path) => basename(dirname(path)) === latest))
+					raws.set(basename(path), await readFile(join(dir, path), 'utf8'));
+				const yamls = new Map([...raws.keys()].map((name) => [name, generated.get(`${pkg}/${version}/${name}`)]));
+				return { shard, latest, raws, yamls };
+			}),
+		);
+	})());
+
 const droppedFields: Rule = async (shards, report) => {
-	const summary = await readFile(process.env.GITHUB_STEP_SUMMARY!, 'utf8');
-	const generated = new Map(
-		[...summary.matchAll(/^#### (.+)\n\n```yaml\n([\s\S]*?)\n```$/gm)].map(([, path, yaml]) => [path!, yaml!]),
-	);
-	const packages = [...new Set([...generated.keys()].map((path) => dirname(dirname(path))))];
-	if (packages.length === 0) return;
-
-	const dir = await mkdtemp(join(tmpdir(), 'lint-'));
-	await $`git clone --quiet --depth 1 --filter=blob:none --sparse https://github.com/microsoft/winget-pkgs.git ${dir}`;
-	await $`git -C ${dir} sparse-checkout set --no-cone ${packages.map((pkg) => `/${pkg}/*/*.yaml`)}`.quiet();
-
-	for (const pkg of packages) {
-		const identifier = pkg.split('/').slice(2).join('.').toLowerCase();
-		const shard = shards.find((shard) => id(shard).toLowerCase() === identifier) ?? pkg;
-		const paths = await Array.fromAsync(glob(`${pkg}/*/*.yaml`, { cwd: dir }));
-		const latest = [...new Set(paths.map((path) => basename(dirname(path))))].sort(compareVersions).at(-1);
-		const version = [...generated.keys()].find((path) => path.startsWith(`${pkg}/`))!.split('/').at(-2);
-		const raws = new Map<string, string>();
-		for (const path of paths.filter((path) => basename(dirname(path)) === latest))
-			raws.set(basename(path), await readFile(join(dir, path), 'utf8'));
-		const yamls = new Map([...raws.keys()].map((name) => [name, generated.get(`${pkg}/${version}/${name}`)]));
+	for (const { shard, latest, raws, yamls } of await dryRuns(shards)) {
 		const [beforeArp, afterArp] = [raws, yamls].map((files) => {
 			const yaml = [...files.values()].find((yaml) => yaml && DEFAULT_LOCALE.test(yaml));
 			const { PackageName, Publisher } = (yaml ? Bun.YAML.parse(yaml) : {}) as Record<string, unknown>;
@@ -264,13 +277,73 @@ const droppedFields: Rule = async (shards, report) => {
 	}
 };
 
+const installers = (yaml: string) => {
+	const { Installers = [], ...root } = Bun.YAML.parse(yaml) as Record<string, unknown> & {
+		Installers?: Record<string, unknown>[];
+	};
+	return Installers.map((installer) => ({ ...root, ...installer }));
+};
+const counts = (values: unknown[]) => values.map(String).sort().join(', ');
+// Where the installer comes from: the GitHub repository, else the host without its subdomains.
+const source = (url: unknown) => {
+	const { hostname, pathname } = new URL(String(url));
+	if (hostname === 'github.com') return `github.com/${pathname.split('/').slice(1, 3).join('/')}`.toLowerCase();
+	const labels = hostname.split('.');
+	return labels.slice(/^(?:ac|co|com|gov|net|org)$/.test(labels.at(-2)!) && labels.at(-1)!.length === 2 ? -3 : -2).join('.');
+};
+// komac detects a more specific type than the one upstream declares.
+const REFINED = new Set(['msi>wix', 'wix>msi', 'exe>burn', 'exe>inno', 'exe>msi', 'exe>nullsoft', 'exe>wix']);
+
+// dropped-fields counts fields, so it misses values that change: architectures, scopes, types, sources and versions.
+const dryRunValues: Rule = async (shards, report) => {
+	for (const { shard, latest, raws, yamls } of await dryRuns(shards)) {
+		const name = [...raws.keys()].find((name) => name.endsWith('.installer.yaml'));
+		const yaml = name && yamls.get(name);
+		if (!name || !yaml) continue;
+		const [before, after] = [installers(raws.get(name)!), installers(yaml)];
+		const version = String(Bun.YAML.parse(yaml).PackageVersion);
+		if (compareVersions(version, latest) < 0) report(shard, `${name}: dry run version ${version} is lower than ${latest}`);
+		else if (compareVersions(version, latest) === 0 && version !== latest)
+			report(shard, `${name}: dry run version ${version} is ${latest} written differently`);
+		else if (/[\s()]/.test(version) && !/[\s()]/.test(latest))
+			report(shard, `${name}: dry run version ${version} has spaces or brackets, unlike ${latest}`);
+
+		const remaining = after.map((installer) => installer.Architecture);
+		const missing = before.filter((installer) => {
+			const at = remaining.indexOf(installer.Architecture);
+			if (at >= 0) remaining.splice(at, 1);
+			return at < 0;
+		});
+		if (missing.length) {
+			const [had, has] = [before, after].map((list) => counts(list.map((installer) => installer.Architecture)));
+			report(shard, `${name}: dry run architectures ${has} do not cover ${had} in ${latest}`);
+		}
+		if (before.length === after.length) {
+			const [scopes, scoped] = [before, after].map((list) => counts(list.map((i) => i.Scope)));
+			if (before.some((installer) => installer.Scope) && scopes !== scoped)
+				report(shard, `${name}: dry run scopes ${scoped} differ from ${scopes} in ${latest}`);
+			const [types, typed] = [before, after].map((list) => list.map((i) => String(i.InstallerType)).sort());
+			if (types.some((type, i) => type !== typed[i] && !REFINED.has(`${type}>${typed[i]}`)))
+				report(shard, `${name}: dry run installer types ${typed.join(', ')} differ from ${types.join(', ')} in ${latest}`);
+		}
+
+		const sources = new Set(before.map((installer) => source(installer.InstallerUrl)));
+		for (const url of new Set(after.map((installer) => String(installer.InstallerUrl)))) {
+			if (/^https:\/\/github\.com\/[^/]+\/winget-pkgs\//i.test(url))
+				report(shard, `${name}: dry run downloads from a winget-pkgs repository: ${url}`);
+			else if (!sources.has(source(url)))
+				report(shard, `${name}: dry run downloads from ${source(url)}, which ${latest} does not use`);
+		}
+	}
+};
+
 const rules: Record<string, Rule> = {
 	maintained,
 	'shard-urls': shardUrls,
 	'version-state': versionState,
 	'release-notes-url': releaseNotesUrl,
 	'github-release-notes': githubReleaseNotes,
-	...(process.argv.includes('--dry-run') && { 'dropped-fields': droppedFields }),
+	...(process.argv.includes('--dry-run') && { 'dropped-fields': droppedFields, 'dry-run-values': dryRunValues }),
 };
 
 const WARNINGS = new Set(['release-notes-url']);
