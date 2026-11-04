@@ -7,5 +7,8 @@
 	},
 	"urls": [
 		"https://github.com/wanghongyu666qiang/AskBridge/releases/download/v{version}/AskBridge-{version}-windows-x64.zip"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/wanghongyu666qiang/AskBridge/releases/tag/{github.rawTag}"
+	}
 }
