@@ -6,5 +6,8 @@
 		"repo": "print-util",
 		"method": "api-sort",
 		"assetRegex": "^(?:print\\-util\\-\\d+\\.\\d+\\.\\d+\\-setup\\.exe)$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/MYuitsu/print-util/releases/tag/{github.rawTag}"
 	}
 }
