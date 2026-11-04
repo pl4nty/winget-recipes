@@ -4,6 +4,7 @@
 	"github": {
 		"owner": "stanley-projects",
 		"repo": "Insomnia",
+		"method": "api-latest",
 		"assetRegex": "^Insomnia[ .-]Setup[ .-]\\d+(?:\\.\\d+)+\\.exe$"
 	}
 }
