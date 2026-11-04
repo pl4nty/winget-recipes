@@ -5,5 +5,8 @@
 		"owner": "Walkoud",
 		"repo": "Palisades"
 	},
-	"urls": ["https://github.com/Walkoud/Palisades/releases/download/v{version}/Palisades_setup.exe"]
+	"urls": ["https://github.com/Walkoud/Palisades/releases/download/v{version}/Palisades_setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Walkoud/Palisades/releases/tag/{github.rawTag}"
+	}
 }
