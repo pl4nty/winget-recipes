@@ -6,8 +6,6 @@
 		"repo": "boxplayer"
 	},
 	"urls": [
-		"https://github.com/gaozhangmin/boxplayer/releases/download/{github.rawTag}/boxplayer-{version}-win-x64.exe",
-		"https://github.com/gaozhangmin/boxplayer/releases/download/{github.rawTag}/boxplayer-{version}-win-ia32.exe",
-		"https://github.com/gaozhangmin/boxplayer/releases/download/{github.rawTag}/boxplayer-{version}-win-arm64.exe"
+		"https://github.com/gaozhangmin/boxplayer/releases/download/{github.rawTag}/boxplayer-{version}-win-x64.exe"
 	]
 }
