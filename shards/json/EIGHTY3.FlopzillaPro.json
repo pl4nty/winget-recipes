@@ -6,5 +6,8 @@
 	},
 	"urls": [
 		"https://londongto.s3-accelerate.amazonaws.com/FlopzillaPro217.msi"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.flopzilla.com/download/"
+	}
 }
