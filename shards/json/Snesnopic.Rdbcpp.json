@@ -9,5 +9,8 @@
 		"https://github.com/Snesnopic/rdbcpp/releases/download/v{version}/rdbcpp-windows-x64.zip",
 		"https://github.com/Snesnopic/rdbcpp/releases/download/v{version}/rdbcpp-windows-x86.zip",
 		"https://github.com/Snesnopic/rdbcpp/releases/download/v{version}/rdbcpp-windows-arm64.zip"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Snesnopic/rdbcpp/releases/tag/{github.rawTag}"
+	}
 }
