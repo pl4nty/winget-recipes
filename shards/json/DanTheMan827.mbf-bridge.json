@@ -10,5 +10,8 @@
 	"urls": [
 		"https://github.com/DanTheMan827/mbf-bridge/releases/download/{github.rawTag}/mbf-bridge-windows-x64-release.zip",
 		"https://github.com/DanTheMan827/mbf-bridge/releases/download/{github.rawTag}/mbf-bridge-windows-x86-release.zip"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/DanTheMan827/mbf-bridge/releases/tag/{github.rawTag}"
+	}
 }
