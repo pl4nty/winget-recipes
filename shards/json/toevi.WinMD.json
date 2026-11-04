@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "toevi",
-		"repo": "WinMD",
-		"assetRegex": "^WinMD-Setup\\.exe$"
-	}
+		"repo": "WinMD"
+	},
+	"urls": [
+		"https://github.com/toevi/WinMD/releases/download/{github.rawTag}/WinMD-Setup.exe"
+	]
 }
