@@ -1,13 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": { "source": "product" },
-	"urls": ["https://www.raimersoft.com/downloads/radioveritas_setup_x64.exe"],
-	"state": {
-		"source": "response-header",
-		"url": "https://www.raimersoft.com/downloads/radioveritas_setup_x64.exe",
-		"header": "etag"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.raimersoft.com/php/radioveritas_release.php",
+		"regex": "<h2>Version (\\d+(?:\\.\\d+)+)</h2>"
 	},
+	"urls": ["https://www.raimersoft.com/downloads/radioveritas_setup_x64.exe"],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.raimersoft.com/php/radioveritas_release.php"
 	}
