@@ -6,5 +6,5 @@
 		"repo": "openmw",
 		"tagRegex": "^openmw-"
 	},
-	"urls": ["https://github.com/OpenMW/openmw/releases/download/{github.rawTag}/OpenMW-{version}-win64.exe"]
+	"urls": ["https://github.com/OpenMW/openmw/releases/download/{github.rawTag}/OpenMW-{version}-Windows-x64.exe"]
 }
