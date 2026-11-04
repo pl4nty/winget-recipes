@@ -1,9 +1,8 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
-	"version": {
-		"source": "product"
-	},
+	"versionRemove": "win-",
+	"version": "{version|-master|.}",
 	"github": {
 		"owner": "ibsorn",
 		"repo": "glabels-windows",
