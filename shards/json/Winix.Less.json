@@ -5,5 +5,8 @@
 		"owner": "Yortw",
 		"repo": "winix"
 	},
-	"urls": ["https://github.com/Yortw/winix/releases/download/v{version}/less-win-x64.zip"]
+	"urls": ["https://github.com/Yortw/winix/releases/download/v{version}/less-win-x64.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Yortw/winix/releases/tag/{github.rawTag}"
+	}
 }
