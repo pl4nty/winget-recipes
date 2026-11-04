@@ -7,5 +7,8 @@
 	},
 	"urls": [
 		"https://github.com/RangS-1/Nein/releases/download/v{version}/nein.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/RangS-1/Nein/releases/tag/{github.rawTag}"
+	}
 }
