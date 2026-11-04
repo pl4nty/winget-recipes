@@ -9,5 +9,8 @@
 	"urls": [
 		"https://github.com/claw-sharp/ClawSharp/releases/download/{github.rawTag}/ClawSharp_{version}_windows_x64.msi",
 		"https://github.com/claw-sharp/ClawSharp/releases/download/{github.rawTag}/ClawSharp_{version}_windows_x64_setup.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/claw-sharp/ClawSharp/releases/tag/{github.rawTag}"
+	}
 }
