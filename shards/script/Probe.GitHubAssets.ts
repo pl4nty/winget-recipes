@@ -1,7 +1,7 @@
 import { defineShard } from 'anthelion';
 import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"cubic": ["cjcliffe", "CubicSDR"], "dvpp": ["CobaltFusion", "DebugViewPP"], "hvtop": ["mazvazzeg", "hvtop"], "delfast": ["TheYali1", "DelFast"], "slim": ["akasula09", "CodeSlimmer"], "pstub": ["jazzdelightsme", "PowershellStub"], "glabels": ["ibsorn", "glabels-windows"], "smapp": ["spacemeshos", "smapp"], "wowmips": ["x86matthew", "WoWMIPS"]};
+const repos: Record<string, [string, string]> = {"claudebar": ["Yovancas", "claudebar-win"], "prism": ["stoplightio", "prism"], "holdkey": ["Noxxider", "holdkey-releases"], "kondo": ["tbillington", "kondo"], "ferminal": ["RangS-1", "Ferminal"], "neochat": ["u14app", "neo-chat"], "skillmux": ["zack-zzq", "skillmux"], "dainb": ["Hyeonjun0527", "discord-ai-network-bot"], "openmw": ["OpenMW", "openmw"], "msixcmd": ["bergerpascal", "MSIX_Commander"], "typesymbol": ["yazanmwk", "TypeSymbol"], "tuckr": ["RaphGL", "Tuckr"], "sefirah": ["shrimqy", "Sefirah"], "whois": ["Akaere-NetWorks", "whois"], "yahb": ["asdfjkl", "yahb"], "smartsub": ["buxuku", "SmartSub"]};
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
