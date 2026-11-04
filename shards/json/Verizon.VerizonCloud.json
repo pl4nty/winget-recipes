@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://mediamanagerpc.vzw.com/pc-software/vzcloud/pc/pc-vzcloud-install.msi"],
 	"state": {
 		"source": "response-header",
