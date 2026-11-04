@@ -6,6 +6,6 @@
 		"repo": "PinAction"
 	},
 	"urls": [
-		"https://github.com/DuckDuckStudio/PinAction/releases/download/{github.rawTag}/PinAction_Setup.exe"
+		{ "url": "https://github.com/DuckDuckStudio/PinAction/releases/download/{github.rawTag}/PinAction_Setup.exe", "architecture": "neutral" }
 	]
 }
