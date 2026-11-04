@@ -6,5 +6,8 @@
 		"repo": "SyncthingWindowsSetup",
 		"method": "api-sort",
 		"assetRegex": "^(?:syncthing\\-windows\\-setup\\.exe)$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Bill-Stewart/SyncthingWindowsSetup/releases/tag/{github.rawTag}"
 	}
 }
