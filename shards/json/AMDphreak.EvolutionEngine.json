@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "AMDphreak",
-		"repo": "evolution-engine"
+		"owner": "dev-centr",
+		"repo": "equivalence-engine"
 	},
 	"urls": [
-		"https://github.com/AMDphreak/evolution-engine/releases/download/{github.rawTag}/evolution-engine-windows-latest.exe"
+		"https://github.com/dev-centr/equivalence-engine/releases/download/{github.rawTag}/evolution-engine-windows-latest.exe"
 	]
 }
