@@ -3,10 +3,10 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "MM120-i",
-		"repo": "Adaptive-Game-Audio-Mixer",
+		"repo": "AudioMixer",
 		"tagRegex": "^\\."
 	},
 	"urls": [
-		"https://github.com/MM120-i/Adaptive-Game-Audio-Mixer/releases/download/{github.rawTag}/AudioMixer-Release.zip"
+		"https://github.com/MM120-i/AudioMixer/releases/download/{github.rawTag}/AudioMixer-Release.zip"
 	]
 }
