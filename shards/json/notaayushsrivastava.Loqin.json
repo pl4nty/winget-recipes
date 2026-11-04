@@ -6,6 +6,6 @@
 		"repo": "Loqin"
 	},
 	"urls": [
-		"https://github.com/notaayushsrivastava/Loqin/releases/download/v{version}/Install_Loqin_WinGet.exe"
+		{ "url": "https://github.com/notaayushsrivastava/Loqin/releases/download/v{version}/Install_Loqin_WinGet.exe", "architecture": "x64" }
 	]
 }
