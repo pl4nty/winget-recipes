@@ -1,7 +1,7 @@
 import { defineShard } from 'anthelion';
 import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"omnidesk": ["projectteamforyou", "omnidesk-desktop"], "pyprime": ["mbntr", "PYPrime-2.x"], "cleanme": ["naplon74", "CleanMe"], "winmd": ["toevi", "WinMD"], "cdict": ["Nubulizer", "Command-Dictate-App"], "omnisearch": ["PranshulSoni", "omnisearch"], "odassey": ["pgerke", "get-odassey"], "devclean": ["tuanle96", "devclean"], "nym": ["nymtech", "nym-vpn-client"]};
+const repos: Record<string, [string, string]> = {"stt": ["Buger2008", "SuperTextToolBox"], "ftp": ["ghostersk", "ftp-server-gui"], "nidaa": ["A-Faqihi", "Nidaa"], "equiv": ["dev-centr", "equivalence-engine"], "aztf": ["Azure", "aztfexport"]};
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
