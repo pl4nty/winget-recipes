@@ -5,5 +5,8 @@
 		"owner": "unitarylab",
 		"repo": "unitarylab-agent"
 	},
-	"urls": ["https://github.com/unitarylab/unitarylab-agent/releases/download/v{version}/unitarylab-windows-x86_64.exe"]
+	"urls": ["https://github.com/unitarylab/unitarylab-agent/releases/download/v{version}/unitarylab-windows-x86_64.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/unitarylab/unitarylab-agent/releases/tag/{github.rawTag}"
+	}
 }
