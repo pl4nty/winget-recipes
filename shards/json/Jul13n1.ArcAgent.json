@@ -8,5 +8,8 @@
 	},
 	"urls": [
 		"https://github.com/Jul13n1/arc-release/releases/download/{github.rawTag}/Arc_Installer_v{version}_windows.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Jul13n1/arc-release/releases/tag/{github.rawTag}"
+	}
 }
