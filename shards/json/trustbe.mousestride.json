@@ -2,5 +2,8 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": { "owner": "trustbe", "repo": "MouseStride" },
-	"urls": ["https://github.com/trustbe/MouseStride/releases/download/v{version}/mousestride-{version}-x86_64.msi"]
+	"urls": ["https://github.com/trustbe/MouseStride/releases/download/v{version}/mousestride-{version}-x86_64.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/trustbe/MouseStride/releases/tag/{github.rawTag}"
+	}
 }
