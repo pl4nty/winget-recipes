@@ -6,5 +6,8 @@
 		"repo": "SCA_Desktop_Releases",
 		"method": "api-latest",
 		"assetRegex": "\\.msi$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Provectus-Software-GmbH/SCA_Desktop_Releases/releases/tag/{github.rawTag}"
 	}
 }
