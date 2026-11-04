@@ -5,5 +5,8 @@
 		"owner": "sharpninja",
 		"repo": "vice-sharp"
 	},
-	"urls": ["https://github.com/sharpninja/vice-sharp/releases/download/v{version}/ViceSharp.msi"]
+	"urls": ["https://github.com/sharpninja/vice-sharp/releases/download/v{version}/ViceSharp.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/sharpninja/vice-sharp/releases/tag/{github.rawTag}"
+	}
 }
