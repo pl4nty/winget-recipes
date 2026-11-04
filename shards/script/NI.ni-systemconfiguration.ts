@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			`https://download.ni.com/support/nipkg/products/ni-s/ni-system-configuration/${short}/online/ni-system-configuration_${short}_online.exe`,
+			{ url: `https://download.ni.com/support/nipkg/products/ni-s/ni-system-configuration/${short}/online/ni-system-configuration_${short}_online.exe`, architecture: 'x64' },
 		],
 	};
 });
