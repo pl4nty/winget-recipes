@@ -18,7 +18,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			`https://download.ni.com/support/nipkg/products/ni-s/ni-serial/${short}/online/ni-serial_${short}_online.exe`,
+			{ url: `https://download.ni.com/support/nipkg/products/ni-s/ni-serial/${short}/online/ni-serial_${short}_online.exe`, architecture: 'x64' },
 		],
 	};
 });
