@@ -10,7 +10,6 @@
 	},
 	"urls": [
 		"https://github.com/ente-io/ente/releases/download/ente-cli-v{version}/ente-cli-v{version}-windows-amd64.zip",
-		"https://github.com/ente-io/ente/releases/download/ente-cli-v{version}/ente-cli-v{version}-windows-arm64.zip",
-		"https://github.com/ente-io/ente/releases/download/ente-cli-v{version}/ente-cli-v{version}-windows-386.zip"
+		"https://github.com/ente-io/ente/releases/download/ente-cli-v{version}/ente-cli-v{version}-windows-arm64.zip"
 	]
 }
