@@ -4,7 +4,7 @@
 	"github": {
 		"owner": "SleipnirGroup",
 		"repo": "Choreo",
-		"useLatestEndpoint": true
+		"method": "api-latest"
 	},
 	"urls": [
 		"https://github.com/SleipnirGroup/Choreo/releases/download/v{version}/Choreo-v{version}-Windows-x86_64-setup.exe",
