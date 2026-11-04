@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://downloads.brosix.com/builds/official/Brosix_setup.exe"],
 	"state": {
 		"source": "response-header",
