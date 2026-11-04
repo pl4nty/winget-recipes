@@ -18,7 +18,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			`https://download.ni.com/support/nipkg/products/ni-p/ni-pxiplatformservices/${short}/online/ni-pxiplatformservices_${short}_online.exe`,
+			{ url: `https://download.ni.com/support/nipkg/products/ni-p/ni-pxiplatformservices/${short}/online/ni-pxiplatformservices_${short}_online.exe`, architecture: 'x64' },
 		],
 	};
 });
