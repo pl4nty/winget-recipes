@@ -7,5 +7,8 @@
 	},
 	"urls": [
 		"https://github.com/tagecode/chm-assistant/releases/download/v{version}/CHM-Assistant-v{version}-win-x64.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/tagecode/chm-assistant/releases/tag/{github.rawTag}"
+	}
 }
