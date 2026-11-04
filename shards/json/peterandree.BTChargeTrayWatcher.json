@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "peterandree",
+		"repo": "BTChargeTrayWatcher",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^BTChargeTrayWatcher_.*_Setup\\.exe$"
+	}
+}
