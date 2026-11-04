@@ -27,5 +27,8 @@
 		"https://download.microsoft.com/download/8/4/D/84DD73BF-93E9-4298-B54D-CB779F9D0EC9/CHS/x64/msodbcsql.msi",
 		"https://download.microsoft.com/download/3/C/F/3CFF4278-D501-4FAF-8C37-B99066E534A5/CHT/x86/msodbcsql.msi",
 		"https://download.microsoft.com/download/3/C/F/3CFF4278-D501-4FAF-8C37-B99066E534A5/CHT/x64/msodbcsql.msi"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/sql/connect/odbc/windows/release-notes-odbc-sql-server-windows"
+	}
 }
