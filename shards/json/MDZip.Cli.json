@@ -5,5 +5,8 @@
 	"urls": [
 		"https://github.com/mdzip-project/mdzip-cli/releases/download/{github.rawTag}/mdz-{github.rawTag}-win-x64.zip",
 		"https://github.com/mdzip-project/mdzip-cli/releases/download/{github.rawTag}/mdz-{github.rawTag}-win-arm64.zip"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/mdzip-project/mdzip-cli/releases/tag/{github.rawTag}"
+	}
 }
