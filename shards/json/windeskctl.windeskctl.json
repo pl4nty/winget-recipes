@@ -6,5 +6,8 @@
 		"repo": "windeskctl"
 	},
 	"urls": ["https://github.com/bearlyplayz/windeskctl/releases/download/v{version}/windeskctl.exe"],
-	"version": "{version}.0"
+	"version": "{version}.0",
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/bearlyplayz/windeskctl/releases/tag/{github.rawTag}"
+	}
 }
