@@ -1101,6 +1101,7 @@ ContourDesign.ContourShuttle,spectopo
 ControlUp.ControlUpAgent,spectopo
 ControlUp.ControlUpAgentManager,spectopo
 Convertilla.Convertilla,spectopo
+Cookieboty.Nomi,spectopo
 coolcoala.KoalaClash,spectopo
 Coooolfan.UniRhy,spectopo
 COPASI.COPASI,spectopo
@@ -1274,6 +1275,7 @@ DBeaver.DBeaver.Lite,spectopo
 DBeaver.DBeaver.Team,spectopo
 DBeaver.DBeaver.Ultimate,spectopo
 dbrgn.tealdeer,damn-good-b0t
+dbtLabs.dbtFusion,pl4nty
 DBVis.DBVisualizer,spectopo
 DDEVFoundation.DDEV,damn-good-b0t
 deanxv.DoneHub,spectopo
@@ -2418,6 +2420,7 @@ Jagogency.KasirPOS,damn-good-b0t
 jaimecartodb.MSXCP,damn-good-b0t
 JakobHellermann.Atlas,damn-good-b0t
 Jamailar.LeanFPS,spectopo
+Jamailar.WeaveOffice,spectopo
 JamboCompany.RunEnv,damn-good-b0t
 JamesTsang.Nettune,spectopo
 Jan.Jan,spectopo
@@ -3062,17 +3065,22 @@ Microsoft.Azure.Az,UnownBot
 Microsoft.Azure.AZCopy.10,UnownBot
 Microsoft.Azure.CosmosEmulator,spectopo
 Microsoft.Azure.FunctionsCoreTools,spectopo
+Microsoft.Azure.GuestProxyAgent,pl4nty
 Microsoft.Azure.GuestProxyAgent.AllowListTool,damn-good-b0t
+Microsoft.Azure.Kubelogin,pl4nty
+Microsoft.Azure.StorageExplorer,pl4nty
 Microsoft.Azure.TemplateAnalyzer,damn-good-b0t
 Microsoft.AzureCLI,UnownBot
 Microsoft.AzureMonitorAgent,spectopo
 Microsoft.Bicep,spectopo
 Microsoft.DependencyAgent,spectopo
+Microsoft.DirectX.ShaderCompiler,pl4nty
 Microsoft.DiskSpd,UnownBot
 Microsoft.DotNet.UninstallTool,damn-good-b0t
 Microsoft.Dynamics365ContactCenterDesktop,spectopo
 Microsoft.EdgeDriver,spectopo
 Microsoft.EdgeWebView2Runtime,spectopo
+Microsoft.EventLogExpert,pl4nty
 Microsoft.GameInput,UnownBot
 Microsoft.Garnet.DN8,damn-good-b0t
 Microsoft.Garnet.DN9,damn-good-b0t
@@ -3140,6 +3148,7 @@ Microsoft.VCRedist.2015+.arm64,spectopo
 Microsoft.VCRedist.2015+.x64,spectopo
 Microsoft.VCRedist.2015+.x86,spectopo
 Microsoft.VFSforGit,UnownBot
+Microsoft.VisualStudioCode,pl4nty
 Microsoft.Wassette,damn-good-b0t
 Microsoft.WindowsAdminCenter,spectopo
 Microsoft.WindowsApp,spectopo
@@ -3216,6 +3225,7 @@ mokeyish.SmartDNS-rs,spectopo
 Moku.Moku,damn-good-b0t
 MolotovTV.Molotov,spectopo
 molr-ai.Molr,spectopo
+Moltis.Moltis,spectopo
 Mondago.GoIntegratorCara,spectopo
 monday.monday,spectopo
 moneymanagerex.moneymanagerex,damn-good-b0t
@@ -4856,6 +4866,8 @@ TobiiDynavox.Boardmaker.Studio,spectopo
 TobiiDynavox.TDSnap,spectopo
 TobyAllen.DocTo,damn-good-b0t
 tobylai-toby.qmcli,damn-good-b0t
+TodayAI.Today,spectopo
+TodayAI.Today.CN,spectopo
 ToDesktop.ToDesktop,spectopo
 ToEverything.AFFiNE,spectopo
 Toggl.TogglTrack,spectopo
@@ -5034,6 +5046,7 @@ VGN.VGNHUB,spectopo
 Vial.Vial,spectopo
 viarotel.Escrcpy,spectopo
 Vicinae.Vicinae,spectopo
+Victor-Quqi.Axiopera,spectopo
 Victor141516.Voolime,damn-good-b0t
 VictorAlves.Aonsoku,damn-good-b0t
 VictorIX.BlenderLauncher,damn-good-b0t
@@ -5288,6 +5301,7 @@ WXRIW.Lyricify,spectopo
 WXRIW.Lyricify.Lite,spectopo
 wxyhgk.RetainPDF,spectopo
 WyreStorm.ManagementSuite,spectopo
+X-T-E-R.Kiki,spectopo
 xAI.GrokBot,UnownBot
 xAI.GrokBuild,spectopo
 Xanashi.Icaros,spectopo
