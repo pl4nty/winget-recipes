@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "Abdulaziz-Faqihi",
+		"owner": "A-Faqihi",
 		"repo": "Nidaa"
 	},
 	"urls": [
-		"https://github.com/Abdulaziz-Faqihi/Nidaa/releases/download/{github.rawTag}/NidaaSetup_{version}.exe"
+		"https://github.com/A-Faqihi/Nidaa/releases/download/{github.rawTag}/NidaaSetup_{version}.exe"
 	]
 }
