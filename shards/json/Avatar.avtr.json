@@ -3,10 +3,10 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Jayakrishna20",
-		"repo": "file-converter"
+		"repo": "avatar-cli"
 	},
 	"urls": [
-		"https://github.com/Jayakrishna20/file-converter/releases/download/{github.rawTag}/avtr_Windows_arm64.zip",
-		"https://github.com/Jayakrishna20/file-converter/releases/download/{github.rawTag}/avtr_Windows_x86_64.zip"
+		"https://github.com/Jayakrishna20/avatar-cli/releases/download/{github.rawTag}/avtr_Windows_arm64.zip",
+		"https://github.com/Jayakrishna20/avatar-cli/releases/download/{github.rawTag}/avtr_Windows_x86_64.zip"
 	]
 }
