@@ -6,6 +6,6 @@
 		"repo": "ElevenClock"
 	},
 	"urls": [
-		"https://github.com/marticliment/ElevenClock/releases/download/{version}/ElevenClock.Installer.exe"
+		{ "url": "https://github.com/marticliment/ElevenClock/releases/download/{version}/ElevenClock.Installer.exe", "architecture": "x64" }
 	]
 }
