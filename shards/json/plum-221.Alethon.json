@@ -3,6 +3,6 @@
 	"strategy": "github-release",
 	"github": { "owner": "plum-221", "repo": "alethon-releases" },
 	"urls": [
-		"https://github.com/plum-221/alethon-releases/releases/download/v{version}/Alethon-Setup-{version}.exe"
+		{ "url": "https://github.com/plum-221/alethon-releases/releases/download/v{version}/Alethon-Setup-{version}.exe", "architecture": "x64" }
 	]
 }
