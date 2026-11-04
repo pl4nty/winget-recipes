@@ -5,5 +5,8 @@
 	"urls": [
 		"https://github.com/ethereum/remix-desktop/releases/download/v{version}/Remix-IDE-Setup-{version}.exe",
 		"https://github.com/ethereum/remix-desktop/releases/download/v{version}/Remix-IDE-Setup-{version}.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/ethereum/remix-desktop/releases/tag/{github.rawTag}"
+	}
 }
