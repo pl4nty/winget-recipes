@@ -5,10 +5,10 @@
 		"source": "product"
 	},
 	"github": {
-		"owner": "Qibowen2008",
+		"owner": "Buger2008",
 		"repo": "SuperTextToolBox"
 	},
 	"urls": [
-		"https://github.com/Qibowen2008/SuperTextToolBox/releases/download/{github.rawTag}/Setup.exe"
+		"https://github.com/Buger2008/SuperTextToolBox/releases/download/{github.rawTag}/Setup.exe"
 	]
 }
