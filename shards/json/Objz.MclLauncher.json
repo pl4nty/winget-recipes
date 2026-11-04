@@ -3,7 +3,7 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "objz",
-		"repo": "mcl"
+		"repo": "rmcl"
 	},
-	"urls": ["https://github.com/objz/mcl/releases/download/v{version}/mcl-launcher-x86_64-pc-windows-msvc.msi"]
+	"urls": ["https://github.com/objz/rmcl/releases/download/v{version}/mcl-launcher-x86_64-pc-windows-msvc.msi"]
 }
