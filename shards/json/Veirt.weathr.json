@@ -5,5 +5,8 @@
 	"urls": [
 		"https://github.com/Veirt/weathr/releases/download/v{version}/weathr-windows-amd64.exe",
 		"https://github.com/Veirt/weathr/releases/download/v{version}/weathr-windows-arm64.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Veirt/weathr/releases/tag/{github.rawTag}"
+	}
 }
