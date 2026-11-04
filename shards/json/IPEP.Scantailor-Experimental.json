@@ -6,6 +6,8 @@
 		"repo": "scantailor-experimental"
 	},
 	"urls": [
-		"https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/{github.rawTag}/scantailor-experimental-{version}-X86-64-install.exe"
+		"https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/{github.rawTag}/scantailor-experimental-{version}-X86-64-install.exe",
+		"https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/{github.rawTag}/scantailor-experimental-{version}-X86-32-install.exe",
+		"https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/{github.rawTag}/scantailor-experimental-{version}-ARM64-Qt6-install.exe"
 	]
 }
