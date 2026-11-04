@@ -4,7 +4,8 @@
 	"github": {
 		"owner": "SnapXL",
 		"repo": "SnapX",
-		"method": "api-latest",
+		"method": "api-list",
+		"kind": "all",
 		"assetRegex": "^SnapX-Release-Windows-.*-(X64|Arm64)\\.msi$"
 	}
 }
