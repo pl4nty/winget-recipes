@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "racemo-dev",
+		"repo": "racemo-client",
+		"method": "api-sort"
+	},
+	"urls": [
+		"https://github.com/racemo-dev/racemo-client/releases/download/{github.rawTag}/Racemo_{version}_Windows_x64-setup.exe"
+	]
+}
