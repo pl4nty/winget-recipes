@@ -5,5 +5,8 @@
 		"owner": "dev-alt",
 		"repo": "PortGhost"
 	},
-	"urls": ["https://github.com/dev-alt/PortGhost/releases/download/v{version}/PortGhost.exe"]
+	"urls": ["https://github.com/dev-alt/PortGhost/releases/download/v{version}/PortGhost.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/dev-alt/PortGhost/releases/tag/{github.rawTag}"
+	}
 }
