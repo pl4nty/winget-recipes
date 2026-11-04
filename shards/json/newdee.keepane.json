@@ -8,5 +8,8 @@
 	"urls": [
 		"https://github.com/newdee/keepane/releases/download/v{version}/keepane-{version}-windows-x86_64.msi",
 		"https://github.com/newdee/keepane/releases/download/v{version}/keepane-{version}-windows-x86_64-user.msi"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/newdee/keepane/releases/tag/{github.rawTag}"
+	}
 }
