@@ -162,8 +162,8 @@ function normalizeName(name: string) {
 
 const DEFAULT_LOCALE = /^ManifestType:\s*defaultLocale\s*$/m;
 const ROOT = new Set(['PackageIdentifier', 'PackageVersion', 'ManifestType', 'ManifestVersion']);
-// komac drops InstallerLocale on update, and shards cannot set it.
-const IGNORED = /(^|\.)InstallerLocale$/;
+// komac drops InstallerLocale on update, and shards cannot set it. ReleaseNotes text is optional; ReleaseNotesUrl is not.
+const IGNORED = /(^|\.)(InstallerLocale|ReleaseNotes)$/;
 // komac writes ReleaseNotesUrl only to the default locale.
 const DEFAULT_LOCALE_ONLY = /(^|\.)ReleaseNotesUrl$/;
 
