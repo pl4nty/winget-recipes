@@ -18,7 +18,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			`https://download.ni.com/support/nipkg/products/ni-v/ni-visa/${short}/online/ni-visa_${short}_online.exe`,
+			{ url: `https://download.ni.com/support/nipkg/products/ni-v/ni-visa/${short}/online/ni-visa_${short}_online.exe`, architecture: 'x64' },
 		],
 	};
 });
