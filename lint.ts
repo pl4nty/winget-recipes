@@ -19,7 +19,7 @@ const maintained: Rule = async (shards, report) => {
 	for (const shard of shards) {
 		const others = (maintainers.get(id(shard).toLowerCase()) ?? '')
 			.split(';')
-			.filter((login) => login && login !== process.env.GITHUB_REPOSITORY_OWNER);
+			.filter((login) => login && login !== (process.env.GITHUB_REPOSITORY_OWNER ?? 'pl4nty'));
 		if (others.length) report(shard, `package is maintained by ${others.join(', ')}`);
 	}
 };
