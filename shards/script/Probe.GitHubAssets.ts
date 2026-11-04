@@ -1,7 +1,7 @@
 import { defineShard } from 'anthelion';
 import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"relight": ["cnr-isti-vclab", "relight"], "racemo": ["racemo-dev", "racemo-client"], "scantailor": ["ImageProcessing-ElectronicPublications", "scantailor-experimental"]};
+const repos: Record<string, [string, string]> = {"tui":["microsoft","tui-test"]};
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
