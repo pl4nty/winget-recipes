@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://public.cdn.getdbt.com/fs/versions.json",
+		"path": "latest.tag"
+	},
+	"versionRemove": "v",
+	"urls": ["https://public.cdn.getdbt.com/fs/cli/fs-v{version}-x86_64-pc-windows-msvc.zip"]
+}
