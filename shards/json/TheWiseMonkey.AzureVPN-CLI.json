@@ -2,8 +2,8 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "the-wise-monkey",
+		"owner": "1930-dev",
 		"repo": "azure-vpn-cli"
 	},
-	"urls": ["https://github.com/the-wise-monkey/azure-vpn-cli/releases/download/v{version}/AzureVPN-CLI-{version}-setup.exe"]
+	"urls": ["https://github.com/1930-dev/azure-vpn-cli/releases/download/v{version}/AzureVPN-CLI-{version}-setup.exe"]
 }
