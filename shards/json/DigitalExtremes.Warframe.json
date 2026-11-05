@@ -5,6 +5,6 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://content.warframe.com/dl/Warframe.msi"
+		{ "url": "https://content.warframe.com/dl/Warframe.msi", "architecture": "x64" }
 	]
 }
