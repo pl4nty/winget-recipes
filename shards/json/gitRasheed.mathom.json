@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "gitRasheed",
+		"repo": "mathom",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^(?:mathom_\\d+\\.\\d+\\.\\d+_x64_en\\-US\\.msi|mathom_\\d+\\.\\d+\\.\\d+_x64\\-setup\\.exe)$"
+	}
+}
