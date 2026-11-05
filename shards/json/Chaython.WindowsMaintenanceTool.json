@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Chaython",
+		"repo": "Windows-Maintenance-Tool"
+	},
+	"urls": [
+		{ "url": "https://github.com/Chaython/Windows-Maintenance-Tool/releases/download/{github.rawTag}/WindowsMaintenanceTool.exe", "architecture": "x64" }
+	]
+}
