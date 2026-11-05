@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bostrot",
+		"repo": "wslmanager"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/bostrot/wslmanager/releases/download/{github.rawTag}/wsl2-distro-manager-v{version}-setup.exe",
+		"https://github.com/bostrot/wslmanager/releases/download/{github.rawTag}/wsl2-distro-manager-v{version}-arm64-setup.exe"
+	]
+}
