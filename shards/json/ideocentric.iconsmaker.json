@@ -8,5 +8,8 @@
 	"urls": [
 		"https://github.com/ideocentric/iconsmaker/releases/download/{github.rawTag}/iconsmaker-{version}-arm64.msi",
 		"https://github.com/ideocentric/iconsmaker/releases/download/{github.rawTag}/iconsmaker-{version}-x86_64.msi"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/ideocentric/iconsmaker/releases/tag/{github.rawTag}"
+	}
 }
