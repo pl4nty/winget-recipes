@@ -19,7 +19,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => ['https://files.vovsoft.com/cpu-benchmark.exe', 'https://files.vovsoft.com/cpu-benchmark-portable.zip'],
+		urls: () => [{ url: 'https://files.vovsoft.com/cpu-benchmark.exe', architecture: 'x64' }, 'https://files.vovsoft.com/cpu-benchmark-portable.zip'],
 		releaseNotes: {
 			source: 'html',
 			sourceUrl: `data:text/html,${encodeURIComponent(notes)}`,
