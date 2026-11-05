@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "GetQuantumDrive",
+		"repo": "QuantumDrive",
+		"method": "api-latest",
+		"assetRegex": "^(?:QuantumDrive\\-Setup\\-x64\\-\\d+\\.\\d+\\.\\d+\\.msi|QuantumDrive\\-Setup\\-x64\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
