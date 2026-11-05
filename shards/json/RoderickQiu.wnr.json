@@ -3,10 +3,11 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "RoderickQiu",
-		"repo": "wnr"
+		"repo": "wnr",
+		"tagRegex": "-patch$"
 	},
 	"urls": [
-		"https://github.com/RoderickQiu/wnr/releases/download/v{version}/wnr-{version}-Setup-x64.exe",
-		"https://github.com/RoderickQiu/wnr/releases/download/v{version}/wnr-{version}-Setup-arm64.exe"
+		"https://github.com/RoderickQiu/wnr/releases/download/{github.rawTag}/wnr-{github.tag}-Setup-x64.exe",
+		"https://github.com/RoderickQiu/wnr/releases/download/{github.rawTag}/wnr-{github.tag}-Setup-arm64.exe"
 	]
 }
