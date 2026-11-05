@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "KatKoyn",
+		"repo": "katkoyn-client",
+		"method": "api-latest",
+		"assetRegex": "^(?:KatKoyn\\-Wallet\\-x86_64\\-win\\.zip|KatKoyn\\-Wallet\\-i686\\-win\\.zip)$"
+	}
+}
