@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DevMando",
+		"repo": "MandoCode.Desktop"
+	},
+	"urls": [
+		"https://github.com/DevMando/MandoCode.Desktop/releases/download/{github.rawTag}/MandoCode.Desktop-v{version}-win-x64.zip"
+	]
+}
