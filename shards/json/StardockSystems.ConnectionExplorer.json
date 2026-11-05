@@ -2,7 +2,9 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": { "source": "file" },
-	"urls": ["https://stardock.cachefly.net/software/ConnectionExplorer/v1/ConnectionExplorer_setup.exe"],
+	"urls": [
+		{ "url": "https://stardock.cachefly.net/software/ConnectionExplorer/v1/ConnectionExplorer_setup.exe", "architecture": "x64" }
+	],
 	"state": {
 		"source": "response-header",
 		"url": "https://stardock.cachefly.net/software/ConnectionExplorer/v1/ConnectionExplorer_setup.exe",
