@@ -22,7 +22,7 @@ export default defineShard(async () => {
 
 	return {
 		version: latest.version,
-		urls: () => [latest.url],
+		urls: () => [{ url: latest.url, architecture: 'x64' }],
 		releaseNotes: { source: 'github', owner: 'yyqh01', repo: 'git', tag: 'snapshot' },
 	};
 });
