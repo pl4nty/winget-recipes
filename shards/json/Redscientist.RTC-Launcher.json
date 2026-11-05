@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://redscientist.com/launcher/version.txt",
+		"regex": "^\\s*(?<version>\\d+(?:\\.\\d+)*)\\s*$"
+	},
+	"urls": ["https://redscientist.com/launcher/RTC_Launcher.exe"]
+}
