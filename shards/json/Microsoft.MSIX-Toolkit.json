@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "MSIX-Toolkit",
+		"method": "api-sort",
+		"assetRegex": "^(?:MSIX\\-Toolkit\\.x64\\.zip|MSIX\\-Toolkit\\.x86\\.zip)$"
+	},
+	"version": {
+		"source": "product"
+	}
+}
