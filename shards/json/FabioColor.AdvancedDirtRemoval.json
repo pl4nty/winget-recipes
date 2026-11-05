@@ -6,7 +6,7 @@
 		"repo": "Advanced-Dirt-Removal"
 	},
 	"urls": [
-		"https://github.com/fabiocolor/Advanced-Dirt-Removal/releases/download/{github.rawTag}/AdvancedDirtRemoval-Setup-{version}.exe"
+		{ "url": "https://github.com/fabiocolor/Advanced-Dirt-Removal/releases/download/{github.rawTag}/AdvancedDirtRemoval-Setup-{version}.exe", "architecture": "x64" }
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://github.com/fabiocolor/Advanced-Dirt-Removal/releases/tag/{github.rawTag}"
