@@ -5,5 +5,5 @@
 		"url": "https://www.stellarinfo.com/convert-ost-to-pst.php",
 		"regex": "\"softwareVersion\":\\s*\"(\\d+(?:\\.\\d+)+)\""
 	},
-	"urls": ["https://cloud.stellarinfo.com/StellarConverterforOST-Corporate.exe"]
+	"urls": [{ "url": "https://cloud.stellarinfo.com/StellarConverterforOST-Corporate.exe", "architecture": "x64" }]
 }
