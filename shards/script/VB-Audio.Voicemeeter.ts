@@ -14,7 +14,7 @@ export default defineShard(async () => {
 
 	return {
 		version: digits.split('').join('.'),
-		urls: () => [url],
+		urls: () => [{ url: url, architecture: 'x64' }],
 		replace: true,
 	};
 });
