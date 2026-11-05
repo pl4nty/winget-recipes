@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://download-2.msi.com/uti_exe/desktop/MSI-Center.zip", "architecture": "x64",
+			"nestedInstallerMatches": ["MSI Center_"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download-2.msi.com/uti_exe/desktop/MSI-Center.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
