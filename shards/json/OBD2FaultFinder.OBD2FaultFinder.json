@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://obd2faultfinder.com",
+		"regex": "https://dl\\.obd2faultfinder\\.com/OBD2-FaultFinder-(?<version>\\d+(?:\\.\\d+)+)-win\\.exe"
+	},
+	"urls": ["https://dl.obd2faultfinder.com/OBD2-FaultFinder-{version}-win.exe"],
+	"releaseNotes": { "releaseNotesUrl": "https://obd2faultfinder.com" }
+}
