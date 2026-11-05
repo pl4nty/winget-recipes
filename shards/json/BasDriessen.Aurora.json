@@ -5,6 +5,6 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://aurorabuilder.com/downloads/Aurora%20Setup.zip"
+		{ "url": "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", "architecture": "x64" }
 	]
 }
