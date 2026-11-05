@@ -6,7 +6,7 @@
 		"regex": "TAMRON Lens Utility (\\d+(?:\\.\\d+)+) Setup\\.exe"
 	},
 	"urls": [
-		"https://tamron.cdngc.net/lensutility/utility/TAMRON%20Lens%20Utility%20{version}%20Setup.exe"
+		{ "url": "https://tamron.cdngc.net/lensutility/utility/TAMRON%20Lens%20Utility%20{version}%20Setup.exe", "architecture": "x64" }
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.tamron.com/global/consumer/support/download/lensutility/"
