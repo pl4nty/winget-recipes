@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/mogwai-dev/IntelHexExpandPlugin/releases/download/v{version}/IntelHexExpandPlugin-x64-setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/mogwai-dev/IntelHexExpandPlugin/releases/tag/{github.rawTag}"
-	}
+	]
 }
