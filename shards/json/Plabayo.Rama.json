@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "plabayo", "repo": "rama", "tagRegex": "^rama-" },
+	"urls": [
+		"https://github.com/plabayo/rama/releases/download/{github.rawTag}/rama.x86_64-pc-windows-msvc.zip",
+		"https://github.com/plabayo/rama/releases/download/{github.rawTag}/rama.aarch64-pc-windows-msvc.zip"
+	]
+}
