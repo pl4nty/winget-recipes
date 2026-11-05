@@ -6,6 +6,6 @@
 		"repo": "cli"
 	},
 	"urls": [
-		"https://github.com/dapr/cli/releases/download/{github.rawTag}/dapr.msi"
+		{ "url": "https://github.com/dapr/cli/releases/download/{github.rawTag}/dapr.msi", "architecture": "x64" }
 	]
 }
