@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TokTok",
+		"repo": "qTox"
+	},
+	"urls": [
+		"https://github.com/TokTok/qTox/releases/download/v{version}/setup-qtox-x86_64-release.exe",
+		"https://github.com/TokTok/qTox/releases/download/v{version}/setup-qtox-i686-release.exe"
+	]
+}
