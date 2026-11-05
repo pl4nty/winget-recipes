@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 102778,
+		"regex": "^(?:MixedRealityFeatureTool\\.exe)$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool#changes-in-this-release"
+	}
+}
