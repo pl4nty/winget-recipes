@@ -7,6 +7,6 @@
 		"method": "api-sort"
 	},
 	"urls": [
-		"https://github.com/mbntr/PYPrime-2.x/releases/download/{github.rawTag}/PYPrime.{github.rawTag}.Installer.exe"
+		{ "url": "https://github.com/mbntr/PYPrime-2.x/releases/download/{github.rawTag}/PYPrime.{github.rawTag}.Installer.exe", "architecture": "x64" }
 	]
 }
