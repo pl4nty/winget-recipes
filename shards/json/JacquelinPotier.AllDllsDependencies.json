@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"http://jacquelin.potier.free.fr/exe/AllDllDeps_bin.zip"
+	]
+}
