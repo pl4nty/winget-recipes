@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Wox-launcher",
+		"repo": "Wox"
+	},
+	"urls": [
+		"https://github.com/Wox-launcher/Wox/releases/download/v{version}/wox-windows-amd64.exe"
+	]
+}
