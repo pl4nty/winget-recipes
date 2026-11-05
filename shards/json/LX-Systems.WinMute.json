@@ -6,6 +6,6 @@
 		"repo": "WinMute"
 	},
 	"urls": [
-		"https://github.com/lx-s/WinMute/releases/download/{github.rawTag}/WinMute-{version}-Setup.exe"
+		{ "url": "https://github.com/lx-s/WinMute/releases/download/{github.rawTag}/WinMute-{version}-Setup.exe", "architecture": "x64" }
 	]
 }
