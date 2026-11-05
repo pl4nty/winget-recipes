@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lootwitch",
+		"repo": "HopsMD"
+	},
+	"urls": [
+		"https://github.com/lootwitch/HopsMD/releases/download/{github.rawTag}/HopsMD_{version}_x64-setup.exe",
+		"https://github.com/lootwitch/HopsMD/releases/download/{github.rawTag}/HopsMD_{version}_x64_en-US.msi"
+	]
+}
