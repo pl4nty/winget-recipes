@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "coreos",
+		"repo": "ignition"
+	},
+	"urls": [
+		"https://github.com/coreos/ignition/releases/download/{github.rawTag}/ignition-validate-x86_64-pc-windows-gnu.exe"
+	]
+}
