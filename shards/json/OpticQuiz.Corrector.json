@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vince-gonzalez",
+		"repo": "opticquiz.com",
+		"method": "api-list",
+		"tagRegex": "-desktop$"
+	},
+	"urls": ["https://github.com/vince-gonzalez/opticquiz.com/releases/download/{github.rawTag}/OpticQuizCorrector.exe"]
+}
