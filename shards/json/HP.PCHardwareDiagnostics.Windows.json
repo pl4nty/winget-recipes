@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://ftp.hp.com/pub/softpaq/sp174001-174500/sp174215.exe"
+	]
+}
