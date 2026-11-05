@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.testmylogic.com/v1/download/installer"],
+		"regex": "/releases/(?<version>\\d+(?:\\.\\d+)+)/TestMyLogic_[\\d.]+_x64-setup\\.exe"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.testmylogic.com/release-notes"
+	}
+}
