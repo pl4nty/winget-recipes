@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://ci.dot.net/public/aspire/13.3.0-preview.1.26111.5/aspire-cli-win-x64-13.3.0-preview.1.26111.5.zip",
+		"https://ci.dot.net/public/aspire/13.3.0-preview.1.26111.5/aspire-cli-win-arm64-13.3.0-preview.1.26111.5.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://aspire.dev/whats-new/aspire-13-1/"
+	}
+}
