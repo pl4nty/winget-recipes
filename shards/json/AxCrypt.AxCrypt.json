@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://account.axcrypt.net/download/axcrypt-2-setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://account.axcrypt.net/download/axcrypt-2-setup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://axcrypt.net/information/release-notes/"
+	},
+	"replace": true
+}
