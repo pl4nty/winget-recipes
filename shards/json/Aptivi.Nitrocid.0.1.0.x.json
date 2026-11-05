@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Aptivi",
+		"repo": "Nitrocid"
+	},
+	"urls": [
+		"https://github.com/Aptivi/Nitrocid/releases/download/{github.rawTag}/nitrocid-win-arm64-installer.exe",
+		"https://github.com/Aptivi/Nitrocid/releases/download/{github.rawTag}/nitrocid-win-x64-installer.exe"
+	]
+}
