@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://www.family-historian.co.uk/download/family-historian-7/"
+		{ "url": "https://www.family-historian.co.uk/download/family-historian-7/", "architecture": "x64" }
 	]
 }
