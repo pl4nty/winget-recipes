@@ -6,6 +6,6 @@
 		"repo": "axe-windows"
 	},
 	"urls": [
-		"https://github.com/microsoft/axe-windows/releases/download/v{version}/AxeWindowsCLI-{version}.msi"
+		{ "url": "https://github.com/microsoft/axe-windows/releases/download/v{version}/AxeWindowsCLI-{version}.msi", "architecture": "x64" }
 	]
 }
