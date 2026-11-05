@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/JKamsker/ztnet-cli/releases/download/{github.rawTag}/ztnet-{version}-x86_64-pc-windows-msvc.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/JKamsker/ztnet-cli/releases/tag/{github.rawTag}"
-	}
+	]
 }
