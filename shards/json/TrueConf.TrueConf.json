@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://trueconf.com/downloads/windows.html",
+		"regex": "/trueconf_client_x64\\.msi\\?v=(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://trueconf.com/download/client/windows/trueconf_client_x64.msi",
+		"https://trueconf.com/download/client/windows/trueconf_client_x86.msi",
+		"https://trueconf.com/download/client/windows/trueconf_client_x64.exe",
+		"https://trueconf.com/download/client/windows/trueconf_client_x86.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://trueconf.com/products/changelog.html#client"
+	}
+}
