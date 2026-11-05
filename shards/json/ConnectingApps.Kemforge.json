@@ -7,5 +7,8 @@
 	},
 	"urls": [
 		"https://github.com/ConnectingApps/kemforge/releases/download/{github.rawTag}/kemforge.zip"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/ConnectingApps/kemforge/releases/tag/{github.rawTag}"
+	}
 }
