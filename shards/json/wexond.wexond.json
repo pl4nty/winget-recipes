@@ -6,8 +6,8 @@
 		"repo": "browser-base"
 	},
 	"urls": [
-		"https://github.com/wexond/browser-base/releases/download/v{version}/Wexond-Web-Setup-{version}.exe",
-		"https://github.com/wexond/browser-base/releases/download/v{version}/Wexond-{version}-win.zip",
-		"https://github.com/wexond/browser-base/releases/download/v{version}/Wexond-{version}-ia32-win.zip"
+		{ "url": "https://github.com/wexond/browser-base/releases/download/v{version}/Wexond-Web-Setup-{version}.exe", "architecture": "x64" },
+		{ "url": "https://github.com/wexond/browser-base/releases/download/v{version}/Wexond-{version}-win.zip" },
+		{ "url": "https://github.com/wexond/browser-base/releases/download/v{version}/Wexond-{version}-ia32-win.zip" }
 	]
 }
