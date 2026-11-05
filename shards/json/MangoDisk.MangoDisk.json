@@ -5,5 +5,7 @@
 		"owner": "harry0703",
 		"repo": "MangoDisk"
 	},
-	"urls": ["https://github.com/harry0703/MangoDisk/releases/download/v{version}/MangoDisk-{version}-windows.exe"]
+	"urls": [
+		{ "url": "https://github.com/harry0703/MangoDisk/releases/download/v{version}/MangoDisk-{version}-windows.exe", "architecture": "x64" }
+	]
 }
