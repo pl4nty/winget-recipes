@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bsharper",
+		"repo": "atv-desktop-remote"
+	},
+	"urls": [
+		"https://github.com/bsharper/atv-desktop-remote/releases/download/{github.rawTag}/ATV.Remote.Setup.{version}.exe"
+	]
+}
