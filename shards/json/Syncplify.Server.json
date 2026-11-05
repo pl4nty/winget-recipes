@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.syncplify.com/download",
+		"regex": "dl\\.syncplify\\.com/ss-setup-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://dl.syncplify.com/ss-setup-win-x64-cli-{version}.zip",
+			"nestedInstallerMatches": ["ss-setup.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://blog.syncplify.com/p/syncplify-server-v{version|.|}-released"
+	}
+}
