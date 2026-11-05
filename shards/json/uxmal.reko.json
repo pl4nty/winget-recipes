@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "uxmal",
+		"repo": "reko",
+		"method": "api-list",
+		"tagRegex": "^version-",
+		"assetRegex": "^Reko-[\\d.]+-x(64|86)-[0-9a-f]+\\.msi$"
+	}
+}
