@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.auslogics.com/en/software/ssd-optimizer/",
+		"regex": "Version (\\d+(?:\\.\\d+)+) \\|"
+	},
+	"urls": ["https://downloads.auslogics.com/en/ssd-optimizer/auslogics-ssd-optimizer-setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.auslogics.com/en/software/ssd-optimizer/ajax/history/"
+	},
+	"replace": true
+}
