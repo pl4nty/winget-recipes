@@ -1,10 +1,8 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
-	"version": {
-		"source": "display"
-	},
+	"version": "11.26H2",
 	"msDownloadCenter": {
-		"id": 108394
+		"id": 108847
 	}
 }
