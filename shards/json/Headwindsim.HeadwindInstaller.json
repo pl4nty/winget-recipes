@@ -7,5 +7,8 @@
 	},
 	"urls": [
 		"https://github.com/headwindsim/installer/releases/download/{github.rawTag}/Headwind_Installer_Setup.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/headwindsim/installer/releases/tag/{github.rawTag}"
+	}
 }
