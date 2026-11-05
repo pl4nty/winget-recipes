@@ -3,5 +3,8 @@
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
 		"id": 108850
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information"
 	}
 }
