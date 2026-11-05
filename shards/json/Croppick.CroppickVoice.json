@@ -6,6 +6,6 @@
 		"regex": "https://dl\\-voice\\.croppick\\.com/v(\\d+(?:\\.\\d+)+)/CroppickVoice\\-windows\\-setup\\.exe"
 	},
 	"urls": [
-		"https://dl-voice.croppick.com/v{version}/CroppickVoice-windows-setup.exe"
+		{ "url": "https://dl-voice.croppick.com/v{version}/CroppickVoice-windows-setup.exe", "architecture": "x64" }
 	]
 }
