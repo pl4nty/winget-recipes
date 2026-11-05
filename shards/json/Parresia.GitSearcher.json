@@ -5,5 +5,7 @@
 		"owner": "elguala9",
 		"repo": "GitSearcher"
 	},
-	"urls": ["https://github.com/elguala9/GitSearcher/releases/download/v{version}/GitSearcher-Setup-{version}.exe"]
+	"urls": [
+		{ "url": "https://github.com/elguala9/GitSearcher/releases/download/v{version}/GitSearcher-Setup-{version}.exe", "architecture": "x64" }
+	]
 }
