@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sublimetext.com/updates/4/stable_update_check",
+		"regex": "\"latest_version\":\\s*(?<build>\\d+)"
+	},
+	"version": "4.0.0.{captures.build}00",
+	"urls": [
+		"https://download.sublimetext.com/sublime_text_build_{captures.build}_x64.zip",
+		"https://download.sublimetext.com/sublime_text_build_{captures.build}_x64_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sublimetext.com/download"
+	}
+}
