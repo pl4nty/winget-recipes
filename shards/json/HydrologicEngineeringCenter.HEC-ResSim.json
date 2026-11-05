@@ -5,5 +5,7 @@
 		"url": "https://www.hec.usace.army.mil/software/hec-ressim/downloads.aspx",
 		"regex": "href=\"downloads/(?<file>HEC-ResSim_\\d+_Setup\\.exe)\"><span class=\"fas fa-download\"></span> Download</a> HEC-ResSim\\s+(?<version>\\d+(?:\\.\\d+)+)"
 	},
-	"urls": ["https://www.hec.usace.army.mil/software/hec-ressim/downloads/{captures.file}"]
+	"urls": [
+		{ "url": "https://www.hec.usace.army.mil/software/hec-ressim/downloads/{captures.file}", "architecture": "x64" }
+	]
 }
