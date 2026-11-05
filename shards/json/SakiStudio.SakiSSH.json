@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Saki-tw",
+		"repo": "SakiSSH-Saki-Agent-Secure-Stream"
+	},
+	"urls": [
+		"https://github.com/Saki-tw/SakiSSH-Saki-Agent-Secure-Stream/releases/download/v{version}/sakissh-{version}-win-x64.zip"
+	]
+}
