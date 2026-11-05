@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/dramxx/dMeter/releases/download/{github.rawTag}/dmeter-{version}-windows-x64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/dramxx/dMeter/releases/tag/{github.rawTag}"
-	}
+	]
 }
