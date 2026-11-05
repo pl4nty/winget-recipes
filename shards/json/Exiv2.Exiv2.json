@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Exiv2",
+		"repo": "exiv2"
+	},
+	"urls": [
+		"https://github.com/Exiv2/exiv2/releases/download/{github.rawTag}/exiv2-{version}-2022msvc-AMD64.zip"
+	]
+}
