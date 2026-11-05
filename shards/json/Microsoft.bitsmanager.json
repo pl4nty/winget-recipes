@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "BITS-Manager",
+		"method": "api-latest",
+		"assetRegex": "^(?:BITSManager\\.msi)$"
+	},
+	"version": {
+		"source": "display"
+	}
+}
