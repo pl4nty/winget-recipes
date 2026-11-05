@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.bay12games.com/dwarves/",
+		"regex": "df_(?<version>\\d+_\\d+)_win\\.zip"
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://www.bay12games.com/dwarves/df_{captures.version}_win.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.bay12games.com/dwarves/"
+	}
+}
