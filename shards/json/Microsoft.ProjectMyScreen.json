@@ -2,7 +2,6 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
-		"id": 42536,
-		"regex": "^(?:ProjectMyScreenApp\\.msi)$"
+		"id": 42536
 	}
 }
