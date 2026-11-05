@@ -2,7 +2,6 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
-		"id": 105763,
-		"regex": "^(?:PrintMetadataTroubleshooterArm\\d+\\.exe|PrintMetadataTroubleshooterArm64\\.exe|PrintMetadataTroubleshooterX64\\.exe|PrintMetadataTroubleshooterX86\\.exe)$"
+		"id": 105763
 	}
 }
