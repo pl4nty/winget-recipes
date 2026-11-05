@@ -1,0 +1,37 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/WebDeploy_x86_zh-TW.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_zh-CN.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_tr-TR.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_ru-RU.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_pt-BR.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_pl-PL.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_ko-KR.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_ja-JP.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_it-IT.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_fr-FR.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_es-ES.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_de-DE.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_en-US.msi",
+		"https://download.microsoft.com/download/WebDeploy_x86_cs-CZ.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_zh-TW.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_zh-CN.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_tr-TR.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_ru-RU.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_pt-BR.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_pl-PL.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_ko-KR.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_ja-JP.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_it-IT.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_fr-FR.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_es-ES.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_de-DE.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_en-US.msi",
+		"https://download.microsoft.com/download/webdeploy_amd64_cs-CZ.msi"
+	]
+}
