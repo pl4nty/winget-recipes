@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://getpdfstudio.xodo.com/xodopdfreader/XodoPDFReader_win64.exe"
+	]
+}
