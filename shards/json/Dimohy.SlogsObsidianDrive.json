@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dimohy",
+		"repo": "slogs",
+		"tagRegex": "^slogs\\-obsidian\\-drive\\-v"
+	},
+	"urls": [
+		"https://github.com/dimohy/slogs/releases/download/{github.rawTag}/SlogsObsidianDrive-{version}-win-x64.exe"
+	]
+}
