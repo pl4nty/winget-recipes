@@ -6,6 +6,6 @@
 		"repo": "pw-auto-login"
 	},
 	"urls": [
-		"https://github.com/DIG-/pw-auto-login/releases/download/{github.rawTag}/pwal-setup-64b.msi"
+		{ "url": "https://github.com/DIG-/pw-auto-login/releases/download/{github.rawTag}/pwal-setup-64b.msi", "architecture": "x64" }
 	]
 }
