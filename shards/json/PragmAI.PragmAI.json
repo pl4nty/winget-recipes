@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/mmamani93/pragm-ai-core/releases/download/{github.rawTag}/pragmai-windows-x64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/mmamani93/pragm-ai-core/releases/tag/{github.rawTag}"
-	}
+	]
 }
