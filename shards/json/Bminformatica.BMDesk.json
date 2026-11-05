@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://bmdesk-down.bmhelp.click/",
+		"regex": "/releases/download/(\\d+(?:\\.\\d+)+)/bmdesk\\-\\1\\-x86_64\\.exe"
+	},
+	"urls": [
+		"https://bmdesk-down.bmhelp.click/releases/download/{version}/bmdesk-{version}-x86_64.exe"
+	]
+}
