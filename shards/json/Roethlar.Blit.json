@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "roethlar",
+		"repo": "Blit"
+	},
+	"urls": [
+		"https://github.com/roethlar/Blit/releases/download/v{version}/blit-x86_64-pc-windows-msvc.zip"
+	]
+}
