@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "ondrejsikax", "repo": "woof" },
+	"urls": ["https://github.com/ondrejsikax/woof/releases/download/v{version}/woof.exe"]
+}
