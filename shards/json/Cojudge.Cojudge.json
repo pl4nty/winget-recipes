@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cojudge",
+		"repo": "cojudge"
+	},
+	"urls": [
+		"https://github.com/cojudge/cojudge/releases/download/{github.rawTag}/Cojudge_{version}_x64-setup.exe"
+	]
+}
