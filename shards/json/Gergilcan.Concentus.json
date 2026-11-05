@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/Gergilcan/concentus/releases/download/{github.rawTag}/Concentus-Setup-{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Gergilcan/concentus/releases/tag/{github.rawTag}"
-	}
+	]
 }
