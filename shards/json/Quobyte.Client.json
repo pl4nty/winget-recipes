@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://packages.quobyte.com/repo/current/Windows/",
+		"regex": "quobyte-client-(\\d+(?:\\.\\d+)+)-win64\\.msi'"
+	},
+	"urls": ["https://packages.quobyte.com/repo/current/Windows/quobyte-client-{version}-win64.msi"]
+}
