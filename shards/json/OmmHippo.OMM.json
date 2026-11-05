@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "omm-hippo",
+		"repo": "omm"
+	},
+	"urls": ["https://github.com/omm-hippo/omm/releases/download/v{version}/omm-windows-x64-{version}.zip"]
+}
