@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://wecreat.com/pages/software",
+		"regex": "const versions = `(\\d+(?:\\.\\d+)+)&&"
+	},
+	"urls": ["https://package.wecreatapp.com/windows/release/WeCreat%20MakeIt!-V{version}.exe"]
+}
