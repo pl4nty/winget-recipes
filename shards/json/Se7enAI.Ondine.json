@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "quang101182", "repo": "ondine-releases" },
+	"urls": ["https://github.com/quang101182/ondine-releases/releases/download/v{version}/Ondine-Setup-{version}.exe"]
+}
