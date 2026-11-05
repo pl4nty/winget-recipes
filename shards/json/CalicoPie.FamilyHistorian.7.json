@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{ "url": "https://www.family-historian.co.uk/download/family-historian-7/", "architecture": "x64" }
+	]
+}
