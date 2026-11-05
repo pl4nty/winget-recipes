@@ -5,5 +5,7 @@
 		"owner": "yanlearn2",
 		"repo": "rustic-backup-rs"
 	},
-	"urls": ["https://github.com/yanlearn2/rustic-backup-rs/releases/download/v{version}/RusticBackup-Setup.exe"]
+	"urls": [
+		{ "url": "https://github.com/yanlearn2/rustic-backup-rs/releases/download/v{version}/RusticBackup-Setup.exe", "architecture": "x64" }
+	]
 }
