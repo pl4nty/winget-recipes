@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://public.novacura.com/public-storage/designer-cloud-installers/Flow%20Cloud%20Studio%20Designer%20Setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://public.novacura.com/public-storage/designer-cloud-installers/Flow%20Cloud%20Studio%20Designer%20Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
