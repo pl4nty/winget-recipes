@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JNX03",
+		"repo": "Flowtake"
+	},
+	"urls": [
+		"https://github.com/JNX03/Flowtake/releases/download/{github.rawTag}/Flowtake_{version}_x64_en-US.msi",
+		"https://github.com/JNX03/Flowtake/releases/download/{github.rawTag}/Flowtake_{version}_x64-setup.exe"
+	]
+}
