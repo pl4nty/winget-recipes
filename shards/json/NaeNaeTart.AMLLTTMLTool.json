@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "spicylyrics",
+		"repo": "ttml-tool",
+		"method": "api-sort"
+	},
+	"urls": [
+		"https://github.com/spicylyrics/ttml-tool/releases/download/v{version}/AMLL.TTML.Tool_{version}_x64_en-US.msi",
+		"https://github.com/spicylyrics/ttml-tool/releases/download/v{version}/AMLL.TTML.Tool_{version}_x64-setup.exe"
+	]
+}
