@@ -3,5 +3,8 @@
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
 		"id": 48159
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/visualstudio/releases/2015/vs2015-update3-vs"
 	}
 }
