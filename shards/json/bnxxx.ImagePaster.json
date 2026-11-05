@@ -6,6 +6,6 @@
 		"repo": "Image-Paster"
 	},
 	"urls": [
-		"https://github.com/bnxxx/Image-Paster/releases/download/{github.rawTag}/ClipboardPaster.exe"
+		{ "url": "https://github.com/bnxxx/Image-Paster/releases/download/{github.rawTag}/ClipboardPaster.exe", "architecture": "x64" }
 	]
 }
