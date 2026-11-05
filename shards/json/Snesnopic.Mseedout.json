@@ -9,8 +9,5 @@
 		"https://github.com/Snesnopic/mseedout/releases/download/{github.rawTag}/mseedout-windows-x64.zip",
 		"https://github.com/Snesnopic/mseedout/releases/download/{github.rawTag}/mseedout-windows-x86.zip",
 		"https://github.com/Snesnopic/mseedout/releases/download/{github.rawTag}/mseedout-windows-arm64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Snesnopic/mseedout/releases/tag/{github.rawTag}"
-	}
+	]
 }
