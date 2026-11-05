@@ -5,5 +5,7 @@
 		"owner": "ytmdesktop",
 		"repo": "ytmdesktop"
 	},
-	"urls": ["https://github.com/ytmdesktop/ytmdesktop/releases/download/v{version}/YouTube.Music.Desktop.App-{version}.Setup.exe"]
+	"urls": [
+		{ "url": "https://github.com/ytmdesktop/ytmdesktop/releases/download/v{version}/YouTube.Music.Desktop.App-{version}.Setup.exe", "architecture": "x64" }
+	]
 }
