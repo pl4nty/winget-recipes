@@ -8,8 +8,5 @@
 	"urls": [
 		"https://github.com/Skpow1234/TheWindowsTunning/releases/download/{github.rawTag}/WinTune-{version}-win-x64.zip",
 		"https://github.com/Skpow1234/TheWindowsTunning/releases/download/{github.rawTag}/WinTune-{version}-win-arm64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Skpow1234/TheWindowsTunning/releases/tag/{github.rawTag}"
-	}
+	]
 }
