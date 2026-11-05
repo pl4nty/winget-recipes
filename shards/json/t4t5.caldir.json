@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "t4t5",
+		"repo": "caldir"
+	},
+	"urls": ["https://github.com/t4t5/caldir/releases/download/v{version}/caldir-x86_64-pc-windows-msvc.zip"]
+}
