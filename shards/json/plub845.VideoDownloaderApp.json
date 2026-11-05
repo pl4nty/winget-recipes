@@ -5,5 +5,7 @@
 		"owner": "plub845",
 		"repo": "VideoDownloaderApp"
 	},
-	"urls": ["https://github.com/plub845/VideoDownloaderApp/releases/download/v{version}/VideoDownloaderApp_Setup_v{version}.exe"]
+	"urls": [
+		{ "url": "https://github.com/plub845/VideoDownloaderApp/releases/download/v{version}/VideoDownloaderApp_Setup_v{version}.exe", "architecture": "x64" }
+	]
 }
