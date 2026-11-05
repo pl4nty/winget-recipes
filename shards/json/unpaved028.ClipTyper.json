@@ -5,5 +5,7 @@
 		"owner": "unpaved028",
 		"repo": "ClipTyper"
 	},
-	"urls": ["https://github.com/unpaved028/ClipTyper/releases/download/v{version}/ClipTyper-Setup.exe"]
+	"urls": [
+		{ "url": "https://github.com/unpaved028/ClipTyper/releases/download/v{version}/ClipTyper-Setup.exe", "architecture": "x64" }
+	]
 }
