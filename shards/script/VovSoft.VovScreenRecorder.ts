@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/vov-screen-recorder.exe',
+			{ url: 'https://files.vovsoft.com/vov-screen-recorder.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/vov-screen-recorder-portable.zip',
 		],
 		releaseNotes: {
