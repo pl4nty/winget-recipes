@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "OrkestraOnline", "repo": "Orkestra_Online" },
+	"urls": ["https://github.com/OrkestraOnline/Orkestra_Online/releases/download/{version}/Orkestra.v.{version}.msi"]
+}
