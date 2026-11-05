@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://aplicaai.app/download/AplicaAI-Local-Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://aplicaai.app"
+	}
+}
