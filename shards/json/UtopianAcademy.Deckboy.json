@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Utopian-Academy",
+		"repo": "Deckboy"
+	},
+	"urls": [
+		"https://github.com/Utopian-Academy/Deckboy/releases/download/v{version}/Deckboy-{version}-windows-x64-setup.exe"
+	]
+}
