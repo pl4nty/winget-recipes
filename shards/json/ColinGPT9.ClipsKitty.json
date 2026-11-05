@@ -6,6 +6,6 @@
 		"repo": "clips-studio"
 	},
 	"urls": [
-		"https://github.com/ColinGPT9/clips-studio/releases/download/{github.rawTag}/ClipsKitty-Web-Setup-{version}.exe"
+		{ "url": "https://github.com/ColinGPT9/clips-studio/releases/download/{github.rawTag}/ClipsKitty-Web-Setup-{version}.exe", "architecture": "x64" }
 	]
 }
