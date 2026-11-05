@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "symbolicsoft", "repo": "verifpal" },
+	"urls": ["https://github.com/symbolicsoft/verifpal/releases/download/v{version}/verifpal_{version}_windows_amd64.zip"]
+}
