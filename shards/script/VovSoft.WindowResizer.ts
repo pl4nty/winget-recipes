@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/window-resizer.exe',
+			{ url: 'https://files.vovsoft.com/window-resizer.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/window-resizer-portable.zip',
 		],
 		releaseNotes: {
