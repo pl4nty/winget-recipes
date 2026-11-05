@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sql-bi",
+		"repo": "SQLBI-Whiteboard",
+		"method": "api-list",
+		"tagRegex": "^v?(?=\\d+\\.\\d+\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/sql-bi/SQLBI-Whiteboard/releases/download/v{version}/SQLBI.Whiteboard.{version}.x64.msi",
+		"https://github.com/sql-bi/SQLBI-Whiteboard/releases/download/v{version}/SQLBI.Whiteboard.{version}.x64-userinstaller.msi"
+	]
+}
