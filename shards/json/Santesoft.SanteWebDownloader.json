@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": { "source": "product" },
-	"urls": ["https://www.santesoft.com/files/win/sante_web_downloader.exe"],
+	"urls": [{ "url": "https://www.santesoft.com/files/win/sante_web_downloader.exe", "architecture": "x64" }],
 	"state": {
 		"source": "response-header",
 		"url": "https://www.santesoft.com/files/win/sante_web_downloader.exe",
