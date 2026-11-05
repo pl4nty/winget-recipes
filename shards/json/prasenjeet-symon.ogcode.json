@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "prasenjeet-symon",
+		"repo": "ogcode"
+	},
+	"urls": [
+		"https://github.com/prasenjeet-symon/ogcode/releases/download/v{version}/ogcode_{version}_windows_arm64.zip",
+		"https://github.com/prasenjeet-symon/ogcode/releases/download/v{version}/ogcode_{version}_windows_x86_64.zip"
+	]
+}
