@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Fefedu973",
+		"repo": "UniversalSearchSuggestions",
+		"tagRegex": "^UniversalSearchSuggestions\\-v"
+	},
+	"urls": [
+		"https://github.com/Fefedu973/UniversalSearchSuggestions/releases/download/{github.rawTag}/UniversalSearchSuggestions_{version}.msixbundle"
+	]
+}
