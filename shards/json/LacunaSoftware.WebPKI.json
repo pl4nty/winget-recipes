@@ -5,6 +5,6 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://get.webpkiplugin.com/Downloads/2.12.3/setup-win-pt"
+		{ "url": "https://get.webpkiplugin.com/Downloads/2.12.3/setup-win-pt", "architecture": "x64" }
 	]
 }
