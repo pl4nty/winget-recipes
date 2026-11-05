@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/266c0370-a6b6-4a49-ac55-6cb2e086b14c/wdrt-hl1.zip"
+	]
+}
