@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "dotnet",
+		"repo": "ResXResourceManager"
+	},
+	"urls": [
+		"https://github.com/dotnet/ResXResourceManager/releases/download/{github.rawTag}/ResXManager.zip"
+	]
+}
