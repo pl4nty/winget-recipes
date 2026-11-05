@@ -8,5 +8,8 @@
 	"urls": [
 		"https://github.com/catforgor/AssignmentPacker/releases/download/{github.rawTag}/ap-windows-x64.exe",
 		"https://github.com/catforgor/AssignmentPacker/releases/download/{github.rawTag}/ap-windows-x64.msi"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/catforgor/AssignmentPacker/releases/tag/{github.rawTag}"
+	}
 }
