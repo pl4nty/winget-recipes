@@ -7,5 +7,5 @@
 	},
 	"version": { "source": "product" },
 	"state": { "source": "value", "value": "{version}" },
-	"urls": ["https://vma-broadcast.com/wp-content/uploads/{captures.path}"]
+	"urls": [{ "url": "https://vma-broadcast.com/wp-content/uploads/{captures.path}", "architecture": "x64" }]
 }
