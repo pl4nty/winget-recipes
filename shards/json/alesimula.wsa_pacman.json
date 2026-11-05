@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alesimula",
+		"repo": "wsa_pacman"
+	},
+	"urls": [
+		{ "url": "https://github.com/alesimula/wsa_pacman/releases/download/{github.rawTag}/WSA-pacman-v{version}-installer.exe", "architecture": "x64" }
+	]
+}
