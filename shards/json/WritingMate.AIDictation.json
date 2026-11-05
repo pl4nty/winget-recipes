@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "writingmate",
+		"repo": "aidictation",
+		"method": "api-sort",
+		"tagRegex": "^windows-v",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/writingmate/aidictation/releases/download/{github.rawTag}/AIDictation-Windows-Setup-v{version}.exe"
+	]
+}
