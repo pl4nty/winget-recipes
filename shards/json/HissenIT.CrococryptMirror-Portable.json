@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://www.hissenit.com/assets/downloads/CrococryptMirror-Portable.zip"
+		{ "url": "https://www.hissenit.com/assets/downloads/CrococryptMirror-Portable.zip", "architecture": "x64" }
 	]
 }
