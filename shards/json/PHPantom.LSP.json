@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PHPantom-dev",
+		"repo": "phpantom_lsp"
+	},
+	"urls": [
+		"https://github.com/PHPantom-dev/phpantom_lsp/releases/download/{version}/phpantom_lsp-x86_64-pc-windows-msvc.zip",
+		"https://github.com/PHPantom-dev/phpantom_lsp/releases/download/{version}/phpantom_lsp-aarch64-pc-windows-msvc.zip"
+	]
+}
