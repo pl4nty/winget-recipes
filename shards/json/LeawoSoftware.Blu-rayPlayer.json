@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://d1.amazonfile.net/download/leawo_com/blurayplayer_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.leawo.org/support/blu-ray-player-history.html"
+	}
+}
