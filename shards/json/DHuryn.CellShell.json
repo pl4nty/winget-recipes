@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/DHuryn/CellShell/releases/download/{github.rawTag}/CellShell.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/DHuryn/CellShell/releases/tag/{github.rawTag}"
-	}
+	]
 }
