@@ -2,7 +2,6 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
-		"id": 17062,
-		"regex": "^(?:FilterPack32bit\\.exe|FilterPack64bit\\.exe)$"
+		"id": 17062
 	}
 }
