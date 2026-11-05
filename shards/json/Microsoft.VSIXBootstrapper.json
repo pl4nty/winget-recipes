@@ -6,6 +6,6 @@
 		"repo": "vsixbootstrapper"
 	},
 	"urls": [
-		"https://github.com/microsoft/vsixbootstrapper/releases/download/{version}/VSIXBootstrapper.exe"
+		{ "url": "https://github.com/microsoft/vsixbootstrapper/releases/download/{version}/VSIXBootstrapper.exe", "architecture": "x64" }
 	]
 }
