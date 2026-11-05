@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "QymIs-Tech", "repo": "QymCAD" },
+	"urls": ["https://github.com/QymIs-Tech/QymCAD/releases/download/{github.rawTag}/qymcad-{version}-x64.msi"]
+}
