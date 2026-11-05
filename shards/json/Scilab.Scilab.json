@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.scilab.org/download",
+		"regex": "scilab-(\\d+\\.\\d+\\.\\d+)\\.bin\\.x64\\.exe"
+	},
+	"urls": [
+		"https://www.scilab.org/download/{version}/scilab-{version}.bin.x64.exe",
+		"https://www.scilab.org/download/{version}/scilab-{version}.bin.arm64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://help.scilab.org/docs/{version}/en_US/CHANGES.html"
+	}
+}
