@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/jasontiw/PowerToysCommandPalettePortKill/releases/download/{github.rawTag}/JasonTiw.PortKillforCommandPalette_{version}_Bundle.Msixbundle"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/jasontiw/PowerToysCommandPalettePortKill/releases/tag/{github.rawTag}"
-	}
+	]
 }
