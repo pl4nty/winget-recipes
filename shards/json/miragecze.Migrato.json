@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/miragecze/migrato/releases/download/v{version}/Migrato.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/miragecze/migrato/blob/main/CHANGELOG.md"
-	}
+	]
 }
