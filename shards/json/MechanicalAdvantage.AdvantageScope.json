@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mechanical-Advantage",
+		"repo": "AdvantageScope",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v{version}/advantagescope-win-x64-v{version}.exe",
+		"https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v{version}/advantagescope-win-arm64-v{version}.exe"
+	]
+}
