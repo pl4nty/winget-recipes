@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.startrekfleetcommand.com/",
+		"regex": "xlauncher-builds/launcher_builds/(?<version>\\d+)/(?<build>\\d+)/prod/STFC_installer\\.exe"
+	},
+	"urls": [
+		{ "url": "https://installer.launcher.xsolla.com/xlauncher-builds/launcher_builds/{version}/{captures.build}/prod/STFC_installer.exe", "architecture": "x64" }
+	]
+}
