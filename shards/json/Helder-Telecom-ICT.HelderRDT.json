@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Helder-Telecom-ICT",
+		"repo": "Helder-Recording-Download-tool-Public",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/Helder-Telecom-ICT/Helder-Recording-Download-tool-Public/releases/download/{github.rawTag}/HelderRDT.exe"
+	]
+}
