@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://nighttime-imaging.eu/download/",
+		"regex": "ninasetup/Releases/(\\d+(?:\\.\\d+)+)/NINASetupBundle_"
+	},
+	"urls": ["https://f002.backblazeb2.com/file/ninasetup/Releases/{version}/NINASetupBundle_{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://f002.backblazeb2.com/file/ninasetup/Releases/{version}/RELEASE_NOTES.html"
+	}
+}
