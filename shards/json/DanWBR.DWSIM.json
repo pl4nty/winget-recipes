@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DanWBR",
+		"repo": "dwsim",
+		"method": "api-sort",
+		"assetRegex": "^(?:DWSIM_v\\d+_win64_setup\\.exe)$"
+	}
+}
