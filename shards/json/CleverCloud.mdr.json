@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CleverCloud",
+		"repo": "mdr"
+	},
+	"urls": [
+		"https://github.com/CleverCloud/mdr/releases/download/{github.rawTag}/mdr-x86_64-pc-windows-msvc.zip"
+	]
+}
