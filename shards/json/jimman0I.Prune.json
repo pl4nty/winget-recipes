@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jimman0I",
+		"repo": "prune"
+	},
+	"urls": [
+		"https://github.com/jimman0I/prune/releases/download/{github.rawTag}/Prune-Setup-{version}.exe"
+	]
+}
