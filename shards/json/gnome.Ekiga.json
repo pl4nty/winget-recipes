@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": "4.0.2",
+	"urls": [
+		"https://download.gnome.org/binaries/win32/ekiga/4.0/ekiga-setup-4.0.1%2B.exe"
+	]
+}
