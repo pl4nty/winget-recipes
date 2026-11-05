@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.multiextractor.com/xdownload.php?xfile=MultiExtractor.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.multiextractor.com/index.html#History"
+	}
+}
