@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/sibexico/chartgen/releases/download/v{version}/chartgen-windows-x86_64-v{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/sibexico/chartgen/releases/tag/{github.rawTag}"
-	}
+	]
 }
