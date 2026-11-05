@@ -8,6 +8,6 @@
 		"regex": "/wt_launcher_(?<version>\\d+(?:\\.\\d+)+)\\.exe$"
 	},
 	"urls": [
-		"https://cdnnow-distr.gaijinent.com/wt_launcher_{version}.exe"
+		{ "url": "https://cdnnow-distr.gaijinent.com/wt_launcher_{version}.exe", "architecture": "x64" }
 	]
 }
