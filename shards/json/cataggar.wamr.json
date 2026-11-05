@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cataggar",
+		"repo": "wamr"
+	},
+	"urls": [
+		"https://github.com/cataggar/wamr/releases/download/{github.rawTag}/wamr-{version}-windows-arm64.zip",
+		"https://github.com/cataggar/wamr/releases/download/{github.rawTag}/wamr-{version}-windows-x64.zip"
+	]
+}
