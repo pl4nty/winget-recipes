@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "ebpf-for-windows",
+		"tagRegex": "^(?:Release-)?v",
+		"method": "api-sort",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/microsoft/ebpf-for-windows/releases/download/{github.rawTag}/Build-native-only.NativeOnlyRelease.x64.zip",
+		"https://github.com/microsoft/ebpf-for-windows/releases/download/{github.rawTag}/Build-native-only.NativeOnlyRelease.arm64.zip",
+		"https://github.com/microsoft/ebpf-for-windows/releases/download/{github.rawTag}/ebpf-for-windows.x64.{version}.msi",
+		"https://github.com/microsoft/ebpf-for-windows/releases/download/{github.rawTag}/ebpf-for-windows.arm64.{version}.msi"
+	]
+}
