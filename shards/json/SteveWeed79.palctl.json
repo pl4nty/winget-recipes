@@ -6,6 +6,6 @@
 		"repo": "palctl"
 	},
 	"urls": [
-		"https://github.com/SteveWeed79/palctl/releases/download/{version}/palctl-setup.exe"
+		{ "url": "https://github.com/SteveWeed79/palctl/releases/download/{version}/palctl-setup.exe", "architecture": "x64" }
 	]
 }
