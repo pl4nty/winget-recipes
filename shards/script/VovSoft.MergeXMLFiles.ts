@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/merge-xml-files.exe',
+			{ url: 'https://files.vovsoft.com/merge-xml-files.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/merge-xml-files-portable.zip',
 		],
 		releaseNotes: {
