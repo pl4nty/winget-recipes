@@ -3,5 +3,8 @@
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
 		"id": 106287
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/troubleshoot/sql/tools/replay-markup-language-utility"
 	}
 }
