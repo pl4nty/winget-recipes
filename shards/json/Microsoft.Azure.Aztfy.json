@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Azure",
+		"repo": "aztfy"
+	},
+	"urls": [
+		"https://github.com/Azure/aztfy/releases/download/v{version}/aztfy_v{version}_x64.msi",
+		"https://github.com/Azure/aztfy/releases/download/v{version}/aztfy_v{version}_x86.msi"
+	]
+}
