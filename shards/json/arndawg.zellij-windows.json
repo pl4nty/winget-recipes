@@ -6,6 +6,6 @@
 		"repo": "zellij-windows"
 	},
 	"urls": [
-		"https://github.com/arndawg/zellij-windows/releases/download/{github.rawTag}/zellij-windows-v{version}.zip"
+		{ "url": "https://github.com/arndawg/zellij-windows/releases/download/{github.rawTag}/zellij-windows-v{version}.zip", "architecture": "x64" }
 	]
 }
