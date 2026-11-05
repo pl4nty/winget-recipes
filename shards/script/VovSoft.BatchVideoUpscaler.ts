@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/batch-video-upscaler.exe',
+			{ url: 'https://files.vovsoft.com/batch-video-upscaler.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/batch-video-upscaler-portable.zip',
 		],
 		releaseNotes: {
