@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oleg-shilo",
+		"repo": "cs-script"
+	},
+	"urls": ["https://github.com/oleg-shilo/cs-script/releases/download/v{version}/cs-script.win.v{version}.zip"]
+}
