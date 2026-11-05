@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://acessos.fiorilli.com.br/api/instalacao/webextension.exe"
+		{ "url": "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "architecture": "x64" }
 	]
 }
