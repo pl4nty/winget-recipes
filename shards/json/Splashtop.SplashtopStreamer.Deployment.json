@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support-splashtopbusiness.splashtop.com/api/v2/help_center/en-us/sections/11960321666203/articles.json?sort_by=created_at&sort_order=desc&per_page=30",
+		"regex": "\"id\":(?<id>\\d+),[^{}]*?\"html_url\":\"(?<notes>[^\"]+)\"[^{}]*?\"title\":\"Splashtop Streamer version v(?<version>\\d+(?:\\.\\d+)+) for Windows released\""
+	},
+	"urls": ["https://download.splashtop.com/csrs/Splashtop_Streamer_Win_DEPLOY_INSTALLER_v{version}.exe"],
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://support-splashtopbusiness.splashtop.com/api/v2/help_center/en-us/articles/{captures.id}.json",
+		"path": "article.body",
+		"nestedSource": "html",
+		"releaseNotesUrl": "{captures.notes}",
+		"cleanup": false
+	}
+}
