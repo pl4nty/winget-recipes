@@ -14,6 +14,6 @@ export default defineShard(async () => {
 
 	return {
 		version: underscored.replaceAll('_', '.'),
-		urls: () => [url],
+		urls: () => [{ url: url, architecture: 'x64' }],
 	};
 });
