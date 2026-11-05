@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://screenbits.com/download",
+		"regex": "https://screenbits\\.com/downloads/packages/Screenbits\\.Installer\\-(\\d+(?:\\.\\d+)+)\\-x64\\.msi"
+	},
+	"urls": [
+		"https://screenbits.com/downloads/packages/Screenbits.Installer-{version}-x64.msi"
+	]
+}
