@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hainguyents13",
+		"repo": "mechvibes"
+	},
+	"urls": [
+		"https://github.com/hainguyents13/mechvibes/releases/download/{github.rawTag}/Mechvibes-{version}-Setup-x64.exe"
+	]
+}
