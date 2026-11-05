@@ -6,6 +6,6 @@
 		"repo": "QIT"
 	},
 	"urls": [
-		"https://github.com/stanize/QIT/releases/download/{github.rawTag}/Qit-{version}-Setup.exe"
+		{ "url": "https://github.com/stanize/QIT/releases/download/{github.rawTag}/Qit-{version}-Setup.exe", "architecture": "x64" }
 	]
 }
