@@ -24,6 +24,6 @@ export default defineShard(async () => {
 
 	return {
 		version: `${year}.${month}`,
-		urls: () => [url],
+		urls: () => [{ url: url, architecture: 'x64' }],
 	};
 });
