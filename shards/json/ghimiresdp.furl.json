@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ghimiresdp",
+		"repo": "furl-cli"
+	},
+	"urls": [
+		"https://github.com/ghimiresdp/furl-cli/releases/download/{github.rawTag}/furl-v{version}-windows-x86_64.zip"
+	]
+}
