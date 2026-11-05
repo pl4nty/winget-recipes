@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "AdfreeHaven",
+		"repo": "cloudserverpc"
+	},
+	"urls": [
+		"https://github.com/AdfreeHaven/cloudserverpc/releases/download/{github.rawTag}/CloudServerPC.exe"
+	]
+}
