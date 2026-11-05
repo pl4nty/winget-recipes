@@ -2,5 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": { "owner": "Wouterdek", "repo": "WindowsFolderPickerFix" },
-	"urls": ["https://github.com/Wouterdek/WindowsFolderPickerFix/releases/download/v{version}/Setup.exe"]
+	"urls": [
+		{ "url": "https://github.com/Wouterdek/WindowsFolderPickerFix/releases/download/v{version}/Setup.exe", "architecture": "x64" }
+	]
 }
