@@ -6,6 +6,6 @@
 		"repo": "whispaste"
 	},
 	"urls": [
-		"https://github.com/whispaste/whispaste/releases/download/v{version}/WhisPaste-Setup.exe"
+		{ "url": "https://github.com/whispaste/whispaste/releases/download/v{version}/WhisPaste-Setup.exe", "architecture": "x64" }
 	]
 }
