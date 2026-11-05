@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "IronLanguages",
+		"repo": "ironpython2",
+		"method": "api-latest",
+		"assetRegex": "^(?:IronPython\\-\\d+\\.\\d+\\.\\d+\\.msi)$"
+	},
+	"version": {
+		"source": "display"
+	}
+}
