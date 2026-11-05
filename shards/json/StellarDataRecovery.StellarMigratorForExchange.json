@@ -5,6 +5,6 @@
 		"url": "https://www.stellarinfo.com/exchange-migration.php",
 		"regex": "\"softwareVersion\":\\s*\"(\\d+(?:\\.\\d+)+)\""
 	},
-	"urls": ["https://cloud.stellarinfo.com/StellarMigratorforExchange.exe"],
+	"urls": [{ "url": "https://cloud.stellarinfo.com/StellarMigratorforExchange.exe", "architecture": "x64" }],
 	"replace": true
 }
