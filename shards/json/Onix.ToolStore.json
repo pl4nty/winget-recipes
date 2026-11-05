@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://onixwork.com/software/OnixToolStoreV2Msix/index.html",
+		"regex": "href='(?<bundle>[^']+/OnixToolStore\\.Maui_(?<version>\\d+\\.\\d+\\.\\d+)(?:\\.0)?_x86\\.msixbundle)'"
+	},
+	"urls": ["{captures.bundle}"]
+}
