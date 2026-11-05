@@ -2,7 +2,6 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
-		"id": 108850,
-		"regex": "^(?:Windows\\d+InstallationAssistant\\.exe)$"
+		"id": 108850
 	}
 }
