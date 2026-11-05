@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "TCDev10", "repo": "MicaPDF" },
+	"urls": [
+		"https://github.com/TCDev10/MicaPDF/releases/download/v{version}/MicaPDF-Setup-x64.exe",
+		"https://github.com/TCDev10/MicaPDF/releases/download/v{version}/MicaPDF-Setup-ARM64.exe"
+	]
+}
