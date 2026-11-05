@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://purple-api.plaync.com/api/categories/purpleWeb/contents/purple-store?keySets=purple-download-info",
+		"regex": "\"windowsLink\":\"(?<url>https://[^\"]+/PURPLE_Installer_(?<version>\\d+(?:_\\d+)+)\\.exe)\""
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		{
+			"url": "{captures.url}",
+			"architecture": "x64"
+		}
+	]
+}
