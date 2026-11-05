@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ariane-s-Line",
+		"repo": "Ariane-Release"
+	},
+	"urls": [
+		"https://github.com/Ariane-s-Line/Ariane-Release/releases/download/{github.rawTag}/Ariane-{version}-WINDOWS-x64.msi"
+	]
+}
