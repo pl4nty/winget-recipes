@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.token2.com/site/page/token2-companion-app-v2-user-manual",
+		"regex": "/soft/upl/Token2CompanionAppWindows\\((\\d+(?:\\.\\d+)+)\\)\\.zip"
+	},
+	"urls": ["https://www.token2.com/soft/upl/Token2CompanionAppWindows({version}).zip"]
+}
