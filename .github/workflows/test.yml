@@ -31,7 +31,8 @@ jobs:
     timeout-minutes: 10
     env:
       NAPI_RS_NATIVE_LIBRARY_PATH: ${{ github.workspace }}/anthelion-komac.node
-      BASE_SHA: ${{ github.event.pull_request.base.sha }}
+      # The merge commit's first parent is the base branch, which pull_request.base.sha can lag behind.
+      BASE: ${{ github.event.pull_request && 'HEAD^1' || '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -57,7 +58,7 @@ jobs:
       - name: Test Packages
         run: |
           if [ -z "$PACKAGES" ]; then
-            PACKAGES="$(git diff --name-only --diff-filter=AMR "$BASE_SHA" HEAD -- 'shards/json/*.json' 'shards/script/*.ts' | xargs -r -n1 basename | sed 's/\.[^.]*$//' | xargs)"
+            PACKAGES="$(git diff --name-only --diff-filter=AMR "$BASE" HEAD -- 'shards/json/*.json' 'shards/script/*.ts' | xargs -r -n1 basename | sed 's/\.[^.]*$//' | xargs)"
           fi
           if [ -z "$PACKAGES" ]; then
             exit 0

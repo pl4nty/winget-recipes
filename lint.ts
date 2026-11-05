@@ -357,7 +357,7 @@ const rules: Record<string, Rule> = process.argv.includes('--dry-run')
 
 const WARNINGS = new Set(['release-notes-url']);
 // GitHub shows only 10 warnings per step, so pull requests get warnings for their own shards only.
-const changed = process.env.BASE_SHA && (await $`git diff --name-only ${process.env.BASE_SHA} HEAD`.text()).split('\n');
+const changed = process.env.BASE && (await $`git diff --name-only ${process.env.BASE} HEAD`.text()).split('\n');
 const shards = (await Array.fromAsync(glob('shards/{json,script}/*.{json,ts}'))).sort();
 let errors = 0;
 for (const [name, rule] of Object.entries(rules)) {
