@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://download.microsoft.com/download/9d8c7f34-4647-4b1e-9b71-a67472ea1912/MDEClientAnalyzer.zip"
+		{ "url": "https://download.microsoft.com/download/9d8c7f34-4647-4b1e-9b71-a67472ea1912/MDEClientAnalyzer.zip", "architecture": "x64" }
 	]
 }
