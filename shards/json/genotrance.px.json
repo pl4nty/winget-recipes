@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "genotrance",
+		"repo": "px",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/genotrance/px/releases/download/{github.rawTag}/px-v{version}-windows-amd64.zip"
+	]
+}
