@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Gentian28",
+		"repo": "resume-builder"
+	},
+	"urls": [
+		{ "url": "https://github.com/Gentian28/resume-builder/releases/download/{github.rawTag}/ResumeBuilder-win-Setup.exe", "architecture": "x64" }
+	]
+}
