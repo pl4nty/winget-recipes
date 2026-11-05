@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sede.fnmt.gob.es/descargas/descarga-software",
+		"regex": "https://descargas\\.cert\\.fnmt\\.es/Windows/Configurador_FNMT_(\\d+(?:\\.\\d+)+)_64bits\\.exe"
+	},
+	"urls": [
+		"https://descargas.cert.fnmt.es/Windows/Configurador_FNMT_{version}_64bits.exe"
+	]
+}
