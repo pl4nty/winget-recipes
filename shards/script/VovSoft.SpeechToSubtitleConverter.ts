@@ -19,7 +19,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => ['https://files.vovsoft.com/speech-to-subtitle-converter.exe', 'https://files.vovsoft.com/speech-to-subtitle-converter-portable.zip'],
+		urls: () => [{ url: 'https://files.vovsoft.com/speech-to-subtitle-converter.exe', architecture: 'x64' }, 'https://files.vovsoft.com/speech-to-subtitle-converter-portable.zip'],
 		releaseNotes: {
 			source: 'html',
 			sourceUrl: `data:text/html,${encodeURIComponent(notes)}`,
