@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Gryt-chat",
+		"repo": "gryt"
+	},
+	"urls": [
+		"https://github.com/Gryt-chat/gryt/releases/download/{github.rawTag}/Gryt-Chat-{version}-win-x64.exe"
+	]
+}
