@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://eew.earthquake.tw/releases/win/x64/oxwu-win-x64.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://eew.earthquake.tw/releases/win/ia32/oxwu-win-ia32.exe",
+			"architecture": "x86"
+		}
+	]
+}
