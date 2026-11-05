@@ -6,6 +6,6 @@
 		"repo": "lanceur-bis"
 	},
 	"urls": [
-		"https://github.com/jibedoubleve/lanceur-bis/releases/download/{github.rawTag}/Lanceur.{version}.setup.exe"
+		{ "url": "https://github.com/jibedoubleve/lanceur-bis/releases/download/{github.rawTag}/Lanceur.{version}.setup.exe", "architecture": "x64" }
 	]
 }
