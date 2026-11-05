@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://download.itopupdate.com/dl/itop-voicy-setup.exe"
+		{ "url": "https://download.itopupdate.com/dl/itop-voicy-setup.exe", "architecture": "x64" }
 	]
 }
