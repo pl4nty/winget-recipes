@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "snw-mint",
+		"repo": "fluent-scrobbler"
+	},
+	"urls": [
+		"https://github.com/snw-mint/fluent-scrobbler/releases/download/v{version}/FluentScrobbler-Setup-x64.exe",
+		"https://github.com/snw-mint/fluent-scrobbler/releases/download/v{version}/FluentScrobbler-Setup-arm64.exe"
+	]
+}
