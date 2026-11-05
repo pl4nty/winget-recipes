@@ -6,6 +6,6 @@
 		"repo": "Aevum"
 	},
 	"urls": [
-		"https://github.com/Alonera/Aevum/releases/download/{github.rawTag}/Aevum-Setup.exe"
+		{ "url": "https://github.com/Alonera/Aevum/releases/download/{github.rawTag}/Aevum-Setup.exe", "architecture": "x64" }
 	]
 }
