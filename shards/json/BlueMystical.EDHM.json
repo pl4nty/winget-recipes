@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BlueMystical",
+		"repo": "EDHM_UI"
+	},
+	"urls": [
+		"https://github.com/BlueMystical/EDHM_UI/releases/download/{github.rawTag}/edhm-ui-v3-windows-x64.exe"
+	]
+}
