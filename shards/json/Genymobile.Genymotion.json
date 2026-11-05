@@ -6,6 +6,6 @@
 		"regex": "https://dl\\.genymotion\\.com/releases/genymotion\\-(\\d+(?:\\.\\d+)+)/genymotion\\-\\1\\.exe"
 	},
 	"urls": [
-		"https://dl.genymotion.com/releases/genymotion-{version}/genymotion-{version}.exe"
+		{ "url": "https://dl.genymotion.com/releases/genymotion-{version}/genymotion-{version}.exe", "architecture": "x64" }
 	]
 }
