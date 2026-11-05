@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://jpegclub.org/jpegcrop.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://jpegclub.org/preview/jpegcrop.txt"
+	}
+}
