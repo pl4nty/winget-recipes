@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://www.hissenit.com/en/academy/downloads/HissenIT-Academy-Preview---it-security-awareness-for-employees-and-individuals.zip"
+		{ "url": "https://www.hissenit.com/en/academy/downloads/HissenIT-Academy-Preview---it-security-awareness-for-employees-and-individuals.zip", "architecture": "x64" }
 	]
 }
