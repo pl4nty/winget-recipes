@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/webp-converter.exe',
+			{ url: 'https://files.vovsoft.com/webp-converter.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/webp-converter-portable.zip',
 		],
 		releaseNotes: {
