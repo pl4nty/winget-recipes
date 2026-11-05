@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://novabench.com/docs/changelog",
+		"regex": "Version (\\d+(?:\\.\\d+)+) \\(\\d+/\\d+/\\d+\\)"
+	},
+	"urls": ["https://cdn.novabench.net/novabench.msi", "https://cdn.novabench.net/novabench-arm64.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://novabench.com/docs/changelog"
+	}
+}
