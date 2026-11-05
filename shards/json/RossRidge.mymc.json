@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://www.csclub.uwaterloo.ca:11068/mymc/",
+		"regex": "mymc-alpha-(?<version>\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": ["http://www.csclub.uwaterloo.ca:11068/mymc/mymc-alpha-{version}.zip"]
+}
