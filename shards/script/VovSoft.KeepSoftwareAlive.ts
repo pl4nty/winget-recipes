@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/keep-software-alive.exe',
+			{ url: 'https://files.vovsoft.com/keep-software-alive.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/keep-software-alive-portable.zip',
 		],
 		releaseNotes: {
