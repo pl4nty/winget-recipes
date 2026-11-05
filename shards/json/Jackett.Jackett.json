@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Jackett",
+		"repo": "Jackett"
+	},
+	"urls": [
+		"https://github.com/Jackett/Jackett/releases/download/{github.rawTag}/Jackett.Installer.Windows.exe"
+	]
+}
