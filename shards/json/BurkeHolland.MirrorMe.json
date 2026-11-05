@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "burkeholland",
+		"repo": "mirror-me",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^(?:MirrorMe\\-\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\.zip)$"
+	}
+}
