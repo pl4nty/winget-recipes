@@ -4,7 +4,7 @@
 	"version": {
 		"source": "product"
 	},
-	"urls": ["https://taxdome-public.s3.amazonaws.com/Windows+App/TaxDome_Setup.exe"],
+	"urls": [{ "url": "https://taxdome-public.s3.amazonaws.com/Windows+App/TaxDome_Setup.exe", "architecture": "x64" }],
 	"state": {
 		"source": "response-header",
 		"url": "https://taxdome-public.s3.amazonaws.com/Windows+App/TaxDome_Setup.exe",
