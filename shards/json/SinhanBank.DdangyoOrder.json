@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ddangyo.com/",
+		"regex": "SHAgent-(\\d+(?:\\.\\d+)+)-Setup\\.exe"
+	},
+	"urls": [
+		"https://updateofd.ddangyo.com/o2o/upt/cm/N23/Installer/SHAgent-{version}-Setup.exe"
+	]
+}
