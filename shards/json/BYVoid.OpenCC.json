@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BYVoid",
+		"repo": "OpenCC",
+		"tagRegex": "^v?er\\."
+	},
+	"urls": [
+		{
+			"url": "https://github.com/BYVoid/OpenCC/releases/download/{github.rawTag}/OpenCC-{version}-windows-x64-portable.zip",
+			"nestedInstallerMatches": ["bin/opencc.exe", "bin/opencc_dict.exe", "bin/opencc_phrase_extract.exe"]
+		}
+	]
+}
