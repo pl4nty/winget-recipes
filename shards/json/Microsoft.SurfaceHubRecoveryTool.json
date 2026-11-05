@@ -6,6 +6,6 @@
 		"regex": "^(?:SurfaceHub_Recovery_v\\d+\\.\\d+\\.\\d+\\.\\d+\\.msi)$"
 	},
 	"releaseNotes": {
-		"releaseNotesUrl": "https://learn.microsoft.com/en-us/surface-hub/surface-hub-recovery-tool"
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/surface-hub/surface-hub-recovery-tool#version-history"
 	}
 }
