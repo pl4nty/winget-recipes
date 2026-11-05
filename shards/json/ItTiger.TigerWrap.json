@@ -6,6 +6,6 @@
 		"repo": "TigerWrap"
 	},
 	"urls": [
-		"https://github.com/rkozlowski/TigerWrap/releases/download/{github.rawTag}/TigerWrapSetup_0_9_1.exe"
+		{ "url": "https://github.com/rkozlowski/TigerWrap/releases/download/{github.rawTag}/TigerWrapSetup_0_9_1.exe", "architecture": "x64" }
 	]
 }
