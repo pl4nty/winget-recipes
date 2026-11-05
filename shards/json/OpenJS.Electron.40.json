@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://releases.electronjs.org/releases.json",
+		"regex": "\"version\":\"(40\\.\\d+\\.\\d+)\""
+	},
+	"urls": [
+		"https://github.com/electron/electron/releases/download/v{version}/electron-v{version}-win32-ia32.zip",
+		"https://github.com/electron/electron/releases/download/v{version}/electron-v{version}-win32-x64.zip",
+		"https://github.com/electron/electron/releases/download/v{version}/electron-v{version}-win32-arm64.zip"
+	],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "electron",
+		"repo": "electron",
+		"tag": "v{version}"
+	}
+}
