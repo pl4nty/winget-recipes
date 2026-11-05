@@ -12,7 +12,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [msi],
+		urls: () => [{ url: msi, architecture: 'x64' }],
 		releaseNotes: {
 			releaseNotesUrl: 'https://wezops.com/changelog',
 		},
