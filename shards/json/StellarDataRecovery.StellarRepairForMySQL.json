@@ -5,5 +5,5 @@
 		"url": "https://www.stellarinfo.com/mysql-repair.php",
 		"regex": "\"softwareVersion\": \"(?<version>\\d+(?:\\.\\d+)+)\""
 	},
-	"urls": ["https://cloud.stellarinfo.com/StellarRepairforMySQL.exe"]
+	"urls": [{ "url": "https://cloud.stellarinfo.com/StellarRepairforMySQL.exe", "architecture": "x64" }]
 }
