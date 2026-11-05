@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lulu-loopp",
+		"repo": "folio-terminal",
+		"method": "api-sort",
+		"kind": "all",
+		"tagRegex": "(?:-preview)?$"
+	},
+	"urls": ["https://github.com/lulu-loopp/folio-terminal/releases/download/{github.rawTag}/folio-{version}-windows-x64.zip"]
+}
