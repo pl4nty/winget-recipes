@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Naruebodee8", "repo": "vibeKidbright-Idf" },
+	"urls": [
+		"https://github.com/Naruebodee8/vibeKidbright-Idf/releases/download/v{version}/Kidbright_IDE_{version}_x64-setup.exe",
+		"https://github.com/Naruebodee8/vibeKidbright-Idf/releases/download/v{version}/Kidbright_IDE_{version}_x64_en-US.msi"
+	]
+}
