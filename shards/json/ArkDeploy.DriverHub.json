@@ -8,7 +8,7 @@
 		"kind": "all"
 	},
 	"urls": [
-		"https://github.com/ArkDeployDev/ArkDeploy.DriverHub/releases/download/{github.rawTag}/ArkDeploy-DriverHub-Setup-v{version}.exe"
+		{ "url": "https://github.com/ArkDeployDev/ArkDeploy.DriverHub/releases/download/{github.rawTag}/ArkDeploy-DriverHub-Setup-v{version}.exe", "architecture": "x64" }
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://github.com/ArkDeployDev/ArkDeploy.DriverHub/releases/tag/{github.rawTag}"
