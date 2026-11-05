@@ -6,6 +6,6 @@
 		"repo": "VoTT"
 	},
 	"urls": [
-		"https://github.com/microsoft/VoTT/releases/download/v{version}/vott-{version}-win32.exe"
+		{ "url": "https://github.com/microsoft/VoTT/releases/download/v{version}/vott-{version}-win32.exe", "architecture": "x64" }
 	]
 }
