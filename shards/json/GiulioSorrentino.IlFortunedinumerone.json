@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "GiulianoSpaghetti",
+		"repo": "ilfortunedinumeronematerial",
+		"method": "api-latest",
+		"assetRegex": "^(?:ilfortunedinumerone\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\-material\\-amd64\\.msi)$"
+	}
+}
