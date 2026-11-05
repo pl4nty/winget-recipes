@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kanywst",
+		"repo": "y509"
+	},
+	"urls": [
+		"https://github.com/kanywst/y509/releases/download/{github.rawTag}/y509-{version}-windows-amd64.zip",
+		"https://github.com/kanywst/y509/releases/download/{github.rawTag}/y509-{version}-windows-arm64.zip"
+	]
+}
