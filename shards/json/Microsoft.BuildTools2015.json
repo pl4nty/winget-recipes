@@ -2,7 +2,6 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
-		"id": 48159,
-		"regex": "^(?:BuildTools_Full\\.exe)$"
+		"id": 48159
 	}
 }
