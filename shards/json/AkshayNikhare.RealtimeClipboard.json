@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "akshaynikhare",
+		"repo": "RealtimeClipboard"
+	},
+	"urls": [
+		"https://github.com/akshaynikhare/RealtimeClipboard/releases/download/{github.rawTag}/RealtimeClipboard_{version}_x64_en-US.msi",
+		"https://github.com/akshaynikhare/RealtimeClipboard/releases/download/{github.rawTag}/RealtimeClipboard_{version}_x64-setup.exe"
+	]
+}
