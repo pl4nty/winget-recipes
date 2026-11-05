@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "13xforever",
+		"repo": "ps3-disc-dumper"
+	},
+	"urls": [
+		"https://github.com/13xforever/ps3-disc-dumper/releases/download/{github.rawTag}/ps3-disc-dumper_windows_v{version}.zip"
+	]
+}
