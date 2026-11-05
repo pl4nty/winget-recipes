@@ -6,5 +6,6 @@
 		"repo": "quicreach",
 		"method": "api-sort",
 		"assetRegex": "^(?:quicreach\\.msi)$"
-	}
+	},
+	"urls": [{ "url": "https://github.com/microsoft/quicreach/releases/download/v{version}/quicreach.msi", "architecture": "x64" }]
 }
