@@ -2,7 +2,6 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
-		"id": 20914,
-		"regex": "^(?:xnafx\\d+_redist\\.msi)$"
+		"id": 20914
 	}
 }
