@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "AdamAnomatik",
+		"repo": "Simpltask-Releases",
+		"method": "api-latest",
+		"assetRegex": "^(?:Simpltask\\-Setup\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
