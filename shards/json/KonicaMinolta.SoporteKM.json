@@ -6,6 +6,6 @@
 		"repo": "soporteKM2-releases"
 	},
 	"urls": [
-		"https://github.com/mrobirasm/soporteKM2-releases/releases/download/{github.rawTag}/soporteKM-Setup-{version}.exe"
+		{ "url": "https://github.com/mrobirasm/soporteKM2-releases/releases/download/{github.rawTag}/soporteKM-Setup-{version}.exe", "architecture": "x64" }
 	]
 }
