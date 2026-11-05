@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NuvioMedia",
+		"repo": "NuvioDesktop",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": ["https://github.com/NuvioMedia/NuvioDesktop/releases/download/{version}/Nuvio-Windows-x64-{version}.msi"]
+}
