@@ -5,5 +5,5 @@
 		"url": "https://www.stellarinfo.com/edb-exchange-server-recovery.htm",
 		"regex": "\"softwareVersion\":\\s*\"(\\d+(?:\\.\\d+)+)\""
 	},
-	"urls": ["https://cloud.stellarinfo.com/StellarRepairforExchange.exe"]
+	"urls": [{ "url": "https://cloud.stellarinfo.com/StellarRepairforExchange.exe", "architecture": "x64" }]
 }
