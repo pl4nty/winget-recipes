@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "stellorbit", "repo": "ChordLaunchpad-Ver.2.0" },
+	"urls": [
+		{ "url": "https://github.com/stellorbit/ChordLaunchpad-Ver.2.0/releases/download/{github.rawTag}/ChordLaunchpad_{github.rawTag}_Setup.exe", "architecture": "x64" }
+	]
+}
