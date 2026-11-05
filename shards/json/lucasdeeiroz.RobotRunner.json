@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lucasdeeiroz",
+		"repo": "robot_runner",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/lucasdeeiroz/robot_runner/releases/download/{github.rawTag}/Robot.Runner_{version}_windows_x64-setup.exe"
+	]
+}
