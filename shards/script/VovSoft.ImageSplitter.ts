@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/image-splitter.exe',
+			{ url: 'https://files.vovsoft.com/image-splitter.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/image-splitter-portable.zip',
 		],
 		releaseNotes: {
