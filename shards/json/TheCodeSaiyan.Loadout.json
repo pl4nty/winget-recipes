@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ntatschner",
+		"repo": "loadout-cli"
+	},
+	"urls": [
+		"https://github.com/ntatschner/loadout-cli/releases/download/v{version}/loadout-{version}-win-x64.msi",
+		"https://github.com/ntatschner/loadout-cli/releases/download/v{version}/loadout-{version}-win-arm64.msi"
+	]
+}
