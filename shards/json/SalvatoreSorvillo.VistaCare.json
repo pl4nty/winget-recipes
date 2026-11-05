@@ -2,5 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": { "owner": "SalvatoreSorvillo", "repo": "VistaCare" },
-	"urls": ["https://github.com/SalvatoreSorvillo/VistaCare/releases/download/v{version}/VistaCare.exe"]
+	"urls": [
+		{ "url": "https://github.com/SalvatoreSorvillo/VistaCare/releases/download/v{version}/VistaCare.exe", "architecture": "x64" }
+	]
 }
