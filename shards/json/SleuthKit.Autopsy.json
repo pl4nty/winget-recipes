@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sleuthkit",
+		"repo": "autopsy",
+		"tagRegex": "^autopsy-"
+	},
+	"urls": [
+		"https://github.com/sleuthkit/autopsy/releases/download/{github.rawTag}/autopsy-{version}-64bit.msi"
+	]
+}
