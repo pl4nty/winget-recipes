@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.tourboxtech.com/en/downloads/",
+		"regex": "path\\\\\":\\\\\"https://cdn\\.tourboxtech\\.com/prod/console/TourBoxConsoleSetup_(?<version>\\d+(?:\\.\\d+)+)_(?<build>\\d+)\\.zip"
+	},
+	"urls": ["https://cdn.tourboxtech.com/prod/console/TourBoxConsoleSetup_{version}_{captures.build}.zip"]
+}
