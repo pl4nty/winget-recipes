@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oracle.com/database/sqldeveloper/technologies/sqlcl/download/",
+		"regex": "sqlcl-(\\d+(?:\\.\\d+){4})\\.zip"
+	},
+	"urls": [{ "url": "https://download.oracle.com/otn_software/java/sqldeveloper/sqlcl-{version}.zip", "architecture": "x86" }]
+}
