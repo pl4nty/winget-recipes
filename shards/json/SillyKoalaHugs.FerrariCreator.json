@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": { "source": "product" },
-	"urls": ["https://sillykoala.eu.org/?sdm_process_download=1&download_id=351"],
+	"urls": [{ "url": "https://sillykoala.eu.org/?sdm_process_download=1&download_id=351", "architecture": "x64" }],
 	"state": {
 		"source": "response-header",
 		"url": "https://sillykoala.eu.org/wp-content/uploads/2023/02/ferrari-creator-setup.exe",
