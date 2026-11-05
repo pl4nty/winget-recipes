@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Luttik",
+		"repo": "fast-action"
+	},
+	"urls": [
+		"https://github.com/Luttik/fast-action/releases/download/{github.rawTag}/FastActionSetup-{version}-x64.exe"
+	]
+}
