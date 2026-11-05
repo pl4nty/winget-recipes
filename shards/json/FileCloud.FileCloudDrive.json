@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://downloads.filecloud.com/tonido/live/installer/x86-win32/FileCloudDrive2eSetup.exe"
+		{ "url": "https://downloads.filecloud.com/tonido/live/installer/x86-win32/FileCloudDrive2eSetup.exe", "architecture": "x64" }
 	]
 }
