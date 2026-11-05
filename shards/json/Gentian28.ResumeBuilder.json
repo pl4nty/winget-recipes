@@ -6,6 +6,6 @@
 		"repo": "resume-builder"
 	},
 	"urls": [
-		"https://github.com/Gentian28/resume-builder/releases/download/{github.rawTag}/ResumeBuilder-win-Setup.exe"
+		{ "url": "https://github.com/Gentian28/resume-builder/releases/download/{github.rawTag}/ResumeBuilder-win-Setup.exe", "architecture": "x64" }
 	]
 }
