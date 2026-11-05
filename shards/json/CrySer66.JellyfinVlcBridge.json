@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CrySer66",
+		"repo": "jellyfin-vlc-bridge"
+	},
+	"urls": [
+		{ "url": "https://github.com/CrySer66/jellyfin-vlc-bridge/releases/download/{github.rawTag}/JellyfinVlcBridge-{version}-Setup.exe", "architecture": "x64" }
+	]
+}
