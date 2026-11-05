@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "TASEmulators", "repo": "BizHawk" },
+	"urls": [
+		"https://github.com/TASEmulators/BizHawk/releases/download/{version}/BizHawk-{version}-win-x64.zip"
+	]
+}
