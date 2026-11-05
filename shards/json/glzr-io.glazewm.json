@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "glzr-io",
+		"repo": "glazewm"
+	},
+	"urls": [
+		"https://github.com/glzr-io/glazewm/releases/download/v{version}/glazewm-v{version}.exe",
+		"https://github.com/glzr-io/glazewm/releases/download/v{version}/standalone-glazewm-v{version}-x64.msi",
+		"https://github.com/glzr-io/glazewm/releases/download/v{version}/standalone-glazewm-v{version}-arm64.msi"
+	]
+}
