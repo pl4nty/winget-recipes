@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "shep-pm",
+		"repo": "shep",
+		"method": "api-list",
+		"tagRegex": "^shep-v"
+	},
+	"urls": ["https://github.com/shep-pm/shep/releases/download/{github.rawTag}/shep-x86_64-pc-windows-msvc.zip"]
+}
