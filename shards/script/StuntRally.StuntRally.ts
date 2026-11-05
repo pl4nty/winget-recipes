@@ -14,7 +14,7 @@ export default defineShard(async () => {
 		if (installer) {
 			return {
 				version: release.tag_name.replace(/^v/, ''),
-				urls: () => [installer.browser_download_url],
+				urls: () => [{ url: installer.browser_download_url, architecture: 'x64' }],
 				releaseNotes: { source: 'github', owner: 'stuntrally', repo: 'stuntrally3', tag: release.tag_name },
 			};
 		}
