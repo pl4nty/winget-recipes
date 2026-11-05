@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://download.microsoft.com/download/7ab8f535-7eb8-4b16-82eb-eca0fa2d38f3/SQL2025-SSEI-Expr.exe"
+		{ "url": "https://download.microsoft.com/download/7ab8f535-7eb8-4b16-82eb-eca0fa2d38f3/SQL2025-SSEI-Expr.exe", "architecture": "x64" }
 	]
 }
