@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tieo",
+		"repo": "ruscal"
+	},
+	"urls": [
+		{ "url": "https://github.com/tieo/ruscal/releases/download/v{version}/ruscal-setup.exe", "architecture": "x64" }
+	]
+}
