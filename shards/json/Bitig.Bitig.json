@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/sametgurtuna/bitig/releases/download/{github.rawTag}/Bitig-Setup-{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/sametgurtuna/bitig/releases/tag/{github.rawTag}"
-	}
+	]
 }
