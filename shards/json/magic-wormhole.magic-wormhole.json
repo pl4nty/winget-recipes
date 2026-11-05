@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aquacash5",
+		"repo": "magic-wormhole-exe"
+	},
+	"urls": ["https://github.com/aquacash5/magic-wormhole-exe/releases/download/{version}/wormhole.exe"]
+}
