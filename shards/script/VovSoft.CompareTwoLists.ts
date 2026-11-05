@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/compare-two-lists.exe',
+			{ url: 'https://files.vovsoft.com/compare-two-lists.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/compare-two-lists-portable.zip',
 		],
 		releaseNotes: {
