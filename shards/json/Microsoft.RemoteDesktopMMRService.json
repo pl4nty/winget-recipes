@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://intstreamreleases.z22.web.core.windows.net/MsMMRHostInstaller_1.0.2602.05003_x64.msi"
+	]
+}
