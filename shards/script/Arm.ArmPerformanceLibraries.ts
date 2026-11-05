@@ -19,7 +19,7 @@ export default defineShard(async () => {
 		if (response.ok) {
 			return {
 				version,
-				urls: () => [installerUrl(version)],
+				urls: () => [{ url: installerUrl(version), architecture: 'arm64' }],
 			};
 		}
 	}
