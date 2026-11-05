@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lines-of-codes",
+		"repo": "QSMSharp"
+	},
+	"urls": [
+		"https://github.com/lines-of-codes/QSMSharp/releases/download/{github.rawTag}/QSMWindows-x64-{version}.exe"
+	]
+}
