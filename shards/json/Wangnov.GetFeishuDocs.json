@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "wangnov", "repo": "get-feishu-docs" },
+	"urls": [
+		"https://github.com/wangnov/get-feishu-docs/releases/download/v{version}/get-feishu-docs_{version}_windows_arm64.zip",
+		"https://github.com/wangnov/get-feishu-docs/releases/download/v{version}/get-feishu-docs_{version}_windows_amd64.zip"
+	]
+}
