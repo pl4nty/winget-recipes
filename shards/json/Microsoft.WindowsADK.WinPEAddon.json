@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://download.microsoft.com/download/5/5/6/556e01ec-9d78-417d-b1e1-d83a2eff20bc/ADKWinPEAddons/adkwinpesetup.exe"
+		{ "url": "https://download.microsoft.com/download/5/5/6/556e01ec-9d78-417d-b1e1-d83a2eff20bc/ADKWinPEAddons/adkwinpesetup.exe", "architecture": "x64" }
 	]
 }
