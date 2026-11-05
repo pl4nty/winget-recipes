@@ -6,7 +6,7 @@
 		"repo": "Dash"
 	},
 	"urls": [
-		"https://github.com/CalemYoung/Dash/releases/download/{github.rawTag}/DashSetup-{version}.exe"
+		{ "url": "https://github.com/CalemYoung/Dash/releases/download/{github.rawTag}/DashSetup-{version}.exe", "architecture": "x64" }
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://github.com/CalemYoung/Dash/releases/tag/{github.rawTag}"
