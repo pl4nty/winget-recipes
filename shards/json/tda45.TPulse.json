@@ -6,6 +6,6 @@
 		"repo": "TPulse"
 	},
 	"urls": [
-		"https://github.com/tda45/TPulse/releases/download/{version}/TPulse_Windows_Setup.exe"
+		{ "url": "https://github.com/tda45/TPulse/releases/download/{version}/TPulse_Windows_Setup.exe", "architecture": "x64" }
 	]
 }
