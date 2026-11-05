@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "DirectXTK",
+		"method": "api-latest",
+		"assetRegex": "^(?:XWBTool\\.exe|XWBTool_arm64\\.exe)$"
+	},
+	"version": {
+		"source": "product"
+	}
+}
