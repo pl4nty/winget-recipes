@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.easyuefi.com/backup-software/downloads/Hasleo_Backup_Suite_Free.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.easyuefi.com/backup-software/tech-spec.html"
+	}
+}
