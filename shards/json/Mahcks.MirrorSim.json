@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Mahcks", "repo": "MirrorSim" },
+	"urls": [
+		"https://github.com/Mahcks/MirrorSim/releases/download/{github.rawTag}/MirrorSim_{version}_x64_en-US.msi",
+		"https://github.com/Mahcks/MirrorSim/releases/download/{github.rawTag}/MirrorSim_{version}_x64-setup.exe"
+	]
+}
