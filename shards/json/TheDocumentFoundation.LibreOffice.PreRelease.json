@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloadarchive.documentfoundation.org/libreoffice/old/?C=N;O=D",
+		"regex": "href=\"(?<version>(?<minor>\\d+\\.\\d+)\\.0\\.0\\.(?:alpha|beta)\\d+)/\""
+	},
+	"urls": [
+		"https://downloadarchive.documentfoundation.org/libreoffice/old/{version}/win/x86/LibreOfficeDev_{version}_Win_x86.msi",
+		"https://downloadarchive.documentfoundation.org/libreoffice/old/{version}/win/x86_64/LibreOfficeDev_{version}_Win_x86-64.msi",
+		"https://downloadarchive.documentfoundation.org/libreoffice/old/{version}/win/aarch64/LibreOfficeDev_{version}_Win_aarch64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://wiki.documentfoundation.org/ReleaseNotes/{captures.minor}"
+	}
+}
