@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://packages.streamwithmeld.com/MeldStudio.appinstaller",
+		"regex": "<MainPackage[^>]*?Uri=\"https://packages\\.streamwithmeld\\.com/MeldStudio-(?<version>\\d+(?:\\.\\d+)+)\\.msix\""
+	},
+	"urls": [
+		"https://packages.streamwithmeld.com/MeldStudio-{version}.msix",
+		"https://packages.streamwithmeld.com/MeldStudio-{version}.msix?p"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://meldstudio.co/blog/tag/changelog/"
+	}
+}
