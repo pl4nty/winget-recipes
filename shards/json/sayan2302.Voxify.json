@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sayan2302",
+		"repo": "voxify"
+	},
+	"urls": ["https://github.com/sayan2302/voxify/releases/download/v{version}/Voxify_{version}_x64-setup.exe"]
+}
