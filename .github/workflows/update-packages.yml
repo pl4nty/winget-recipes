@@ -3,11 +3,11 @@ name: Update Packages
 on:
   workflow_dispatch:
   schedule:
-    - cron: 37 * * * *
+    - cron: 7,22,37,52 * * * *
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions: {}
 
