@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/image-combiner.exe',
+			{ url: 'https://files.vovsoft.com/image-combiner.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/image-combiner-portable.zip',
 		],
 		releaseNotes: {
