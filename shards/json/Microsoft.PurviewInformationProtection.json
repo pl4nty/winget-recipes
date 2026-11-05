@@ -2,7 +2,6 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
-		"id": 53018,
-		"regex": "^PurviewInfoProtection\\.(?:msi|exe)$"
+		"id": 53018
 	}
 }
