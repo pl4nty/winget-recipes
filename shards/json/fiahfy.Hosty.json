@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "fiahfy",
+		"repo": "hosty",
+		"method": "api-latest",
+		"assetRegex": "^(?:hosty\\-setup\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
