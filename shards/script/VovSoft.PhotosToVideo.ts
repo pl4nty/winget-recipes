@@ -20,8 +20,8 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/photos-to-video.exe',
-			'https://files.vovsoft.com/photos-to-video-portable.zip',
+			{ url: 'https://files.vovsoft.com/photos-to-video.exe', architecture: 'x64' },
+			{ url: 'https://files.vovsoft.com/photos-to-video-portable.zip', architecture: 'x64' },
 		],
 		releaseNotes: {
 			source: 'html',
