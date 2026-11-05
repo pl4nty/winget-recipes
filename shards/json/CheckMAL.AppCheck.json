@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{ "url": "https://www.checkmal.com/download/appcheckv3.0/AppCheckSetup.exe", "architecture": "x86" }
+	]
+}
