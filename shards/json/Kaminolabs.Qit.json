@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stanize",
+		"repo": "QIT"
+	},
+	"urls": [
+		{ "url": "https://github.com/stanize/QIT/releases/download/{github.rawTag}/Qit-{version}-Setup.exe", "architecture": "x64" }
+	]
+}
