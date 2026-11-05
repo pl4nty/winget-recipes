@@ -10,7 +10,7 @@ export default defineShard(async () => {
 
 	return {
 		version: release.rawTag,
-		urls: () => release.urls().filter((url) => /\/4KWallpaperChanger[^/]*Setup[^/]*\.exe$/i.test(url)),
+		urls: () => release.urls().filter((url) => /\/4KWallpaperChanger[^/]*Setup[^/]*\.exe$/i.test(url)).map((url) => ({ url, architecture: 'x64' })),
 		releaseNotes: { releaseNotesUrl: `https://github.com/Matro81/4K-Wallpaper-App/releases/tag/${release.rawTag}` },
 	};
 });
