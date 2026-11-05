@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sorokin-vladimir",
+		"repo": "tele"
+	},
+	"urls": [
+		"https://github.com/sorokin-vladimir/tele/releases/download/v{version}/tele_windows_amd64.zip",
+		"https://github.com/sorokin-vladimir/tele/releases/download/v{version}/tele_windows_arm64.zip"
+	]
+}
