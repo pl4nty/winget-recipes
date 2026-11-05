@@ -9,6 +9,6 @@
 		"repo": "WeblocOpener"
 	},
 	"urls": [
-		"https://github.com/benchdoos/WeblocOpener/releases/download/{github.rawTag}/WeblocOpenerSetup.exe"
+		{ "url": "https://github.com/benchdoos/WeblocOpener/releases/download/{github.rawTag}/WeblocOpenerSetup.exe", "architecture": "x64" }
 	]
 }
