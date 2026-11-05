@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "flowscripter",
+		"repo": "template-bun-executable"
+	},
+	"urls": [
+		"https://github.com/flowscripter/template-bun-executable/releases/download/{github.rawTag}/template-bun-executable_Windows_arm64.zip",
+		"https://github.com/flowscripter/template-bun-executable/releases/download/{github.rawTag}/template-bun-executable_Windows_x64.zip"
+	]
+}
