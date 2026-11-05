@@ -17,7 +17,7 @@ export default defineShard(async () => {
 
 	return {
 		version: `${release.version}-release`,
-		urls: () => release.urls(),
+		urls: () => release.urls().map((url) => ({ url, architecture: 'x64' })),
 		releaseNotes: {
 			source: 'github',
 			owner,
