@@ -9,8 +9,5 @@
 		"https://github.com/Snesnopic/gftcpp/releases/download/v{version}/gftcpp-windows-x64.zip",
 		"https://github.com/Snesnopic/gftcpp/releases/download/v{version}/gftcpp-windows-x86.zip",
 		"https://github.com/Snesnopic/gftcpp/releases/download/v{version}/gftcpp-windows-arm64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Snesnopic/gftcpp/releases/tag/{github.rawTag}"
-	}
+	]
 }
