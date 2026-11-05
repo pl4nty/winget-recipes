@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://releases.focusrite.com/com.focusrite.focusrite-control/latest/Focusrite-Control-2.exe"
+		{ "url": "https://releases.focusrite.com/com.focusrite.focusrite-control/latest/Focusrite-Control-2.exe", "architecture": "x64" }
 	]
 }
