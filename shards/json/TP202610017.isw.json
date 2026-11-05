@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TP202610017",
+		"repo": "framework-llm-releases",
+		"method": "api-latest",
+		"assetRegex": "^isw_v[\\d.]+_windows_(?:x86_64|arm64)\\.zip$"
+	}
+}
