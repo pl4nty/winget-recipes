@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [{ "url": "https://websigner.softplan.com.br/Downloads/2.11.1/setup-win-pt", "architecture": "x64" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://websigner.softplan.com.br/Downloads/2.11.1/setup-win-pt",
+		"header": "etag"
+	},
+	"replace": true
+}
