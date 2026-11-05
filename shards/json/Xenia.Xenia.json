@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xenia-project",
+		"repo": "release-builds-windows",
+		"tagRegex": "-master$"
+	},
+	"urls": ["https://github.com/xenia-project/release-builds-windows/releases/download/{github.rawTag}/xenia_master.zip"]
+}
