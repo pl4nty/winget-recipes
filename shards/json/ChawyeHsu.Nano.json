@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chawyehsu",
+		"repo": "nano-for-windows"
+	},
+	"urls": [
+		"https://github.com/chawyehsu/nano-for-windows/releases/download/{github.rawTag}/nano-{version}-win-64.zip",
+		"https://github.com/chawyehsu/nano-for-windows/releases/download/{github.rawTag}/nano-{version}-win-arm64.zip"
+	]
+}
