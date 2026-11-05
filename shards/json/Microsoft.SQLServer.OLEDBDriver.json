@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/6afc73cd-aad7-4bab-876a-ab0dcc8a9001/amd64/1031/msoledbsql.msi",
+		"https://download.microsoft.com/download/bbb0d870-7a04-44d9-af17-af28575a0ed8/amd64/1033/msoledbsql.msi",
+		"https://download.microsoft.com/download/1462d639-ae55-42d1-9f6b-c35235018be6/amd64/1040/msoledbsql.msi"
+	]
+}
