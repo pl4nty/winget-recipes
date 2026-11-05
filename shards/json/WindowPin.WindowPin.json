@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://api.windowpin.com/v1/download?channel=stable&src=direct"],
+		"regex": "/stable/(?<version>\\d+(?:\\.\\d+)+)/WindowPin-\\d+(?:\\.\\d+)+-win-x64\\.exe$"
+	}
+}
