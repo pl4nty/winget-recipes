@@ -345,23 +345,28 @@ const dryRunValues: Rule = async (shards, report) => {
 	}
 };
 
-const rules: Record<string, Rule> = {
-	maintained,
-	'shard-urls': shardUrls,
-	'version-state': versionState,
-	'release-notes-url': releaseNotesUrl,
-	'github-release-notes': githubReleaseNotes,
-	...(process.argv.includes('--dry-run') && { 'dropped-fields': droppedFields, 'dry-run-values': dryRunValues }),
-};
+const rules: Record<string, Rule> = process.argv.includes('--dry-run')
+	? { 'dropped-fields': droppedFields, 'dry-run-values': dryRunValues }
+	: {
+			maintained,
+			'shard-urls': shardUrls,
+			'version-state': versionState,
+			'release-notes-url': releaseNotesUrl,
+			'github-release-notes': githubReleaseNotes,
+		};
 
 const WARNINGS = new Set(['release-notes-url']);
+// GitHub shows only 10 warnings per step, so pull requests get warnings for their own shards only.
+const changed = process.env.BASE_SHA && (await $`git diff --name-only ${process.env.BASE_SHA} HEAD`.text()).split('\n');
 const shards = (await Array.fromAsync(glob('shards/{json,script}/*.{json,ts}'))).sort();
 let errors = 0;
 for (const [name, rule] of Object.entries(rules)) {
 	await rule(shards, (file, message) => {
 		const level = WARNINGS.has(name) ? 'warning' : 'error';
+		if (level === 'warning' && changed && !changed.includes(file)) return;
 		if (level === 'error') errors++;
-		console.log(`::${level} file=${file},title=${name}::${message}`);
+		// Annotations without a line show only in the check run, not on the pull request's changed files.
+		console.log(`::${level} file=${file},line=1,title=${name}::${message}`);
 	});
 }
 if (errors > 0) process.exit(1);
