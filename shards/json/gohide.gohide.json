@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/gohide/GoHide/releases/download/{github.rawTag}/gohide-{version}-win-Setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/gohide/GoHide/releases/tag/{github.rawTag}"
-	}
+	]
 }
