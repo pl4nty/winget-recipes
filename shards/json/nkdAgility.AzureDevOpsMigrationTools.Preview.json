@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nkdAgility",
+		"repo": "azure-devops-migration-tools",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "^v?(?=\\d+\\.\\d+\\.\\d+-Preview\\.\\d+$)"
+	},
+	"urls": [
+		{ "url": "https://github.com/nkdAgility/azure-devops-migration-tools/releases/download/{github.rawTag}/MigrationTools-{version}.zip", "architecture": "x64" }
+	]
+}
