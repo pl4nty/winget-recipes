@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/json-beautifier.exe',
+			{ url: 'https://files.vovsoft.com/json-beautifier.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/json-beautifier-portable.zip',
 		],
 		releaseNotes: {
