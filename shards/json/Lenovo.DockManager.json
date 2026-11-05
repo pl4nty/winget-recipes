@@ -5,5 +5,7 @@
 		"url": "https://download.lenovo.com/consumer/options/dock_manager_readme.txt",
 		"regex": "Version:\\s+(\\d+(?:\\.\\d+)+)"
 	},
-	"urls": ["https://download.lenovo.com/consumer/options/dockmanager_{version}_setup.exe"]
+	"urls": [
+		{ "url": "https://download.lenovo.com/consumer/options/dockmanager_{version}_setup.exe", "architecture": "x64" }
+	]
 }
