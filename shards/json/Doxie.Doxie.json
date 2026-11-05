@@ -5,7 +5,7 @@
 		"url": "https://r.getdoxie.com/app/doxie/release-notes.html",
 		"regex": "<h2>Doxie (?<version>\\d+(?:\\.\\d+)+)\\s"
 	},
-	"urls": ["https://download.getdoxie.com/DoxieSetup-{version}.exe"],
+	"urls": [{ "url": "https://download.getdoxie.com/DoxieSetup-{version}.exe", "architecture": "x64" }],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://r.getdoxie.com/app/doxie/release-notes.html"
 	}
