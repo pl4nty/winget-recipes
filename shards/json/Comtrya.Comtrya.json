@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "comtrya",
+		"repo": "comtrya"
+	},
+	"urls": [
+		"https://github.com/comtrya/comtrya/releases/download/{github.rawTag}/comtrya-x86_64-pc-windows-msvc.exe"
+	]
+}
