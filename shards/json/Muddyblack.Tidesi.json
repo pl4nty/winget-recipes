@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Muddyblack",
+		"repo": "tidesi",
+		"method": "api-sort",
+		"assetRegex": "^tidesi-setup-\\d+(?:\\.\\d+)*\\.exe$"
+	}
+}
