@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bholmesdev",
+		"repo": "hubble.md",
+		"tagRegex": "^desktop\\-v"
+	},
+	"urls": [
+		"https://github.com/bholmesdev/hubble.md/releases/download/{github.rawTag}/hubble_{version}_arm64.exe",
+		"https://github.com/bholmesdev/hubble.md/releases/download/{github.rawTag}/hubble_{version}_x64.exe"
+	]
+}
