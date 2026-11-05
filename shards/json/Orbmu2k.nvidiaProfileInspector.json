@@ -5,5 +5,7 @@
 		"owner": "Orbmu2k",
 		"repo": "nvidiaProfileInspector"
 	},
-	"urls": ["https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v{version}/nvidiaProfileInspector.zip"]
+	"urls": [
+		{ "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v{version}/nvidiaProfileInspector.zip", "architecture": "x64" }
+	]
 }
