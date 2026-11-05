@@ -7,5 +7,8 @@
 	},
 	"urls": [
 		"https://github.com/Nuu-maan/glowfetch/releases/download/v{version}/glowfetch-x86_64-pc-windows-msvc.zip"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Nuu-maan/glowfetch/releases/tag/{github.rawTag}"
+	}
 }
