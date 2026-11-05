@@ -8,5 +8,8 @@
 	"urls": [
 		"https://github.com/awakecoding/mcp-proxy-tool/releases/download/{github.rawTag}/mcp-proxy-tool-windows-arm64.zip",
 		"https://github.com/awakecoding/mcp-proxy-tool/releases/download/{github.rawTag}/mcp-proxy-tool-windows-x64.zip"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/awakecoding/mcp-proxy-tool/releases/tag/{github.rawTag}"
+	}
 }
