@@ -6,6 +6,6 @@
 		"repo": "Win-siphonClaudeUsage"
 	},
 	"urls": [
-		"https://github.com/kayodante/Win-siphonClaudeUsage/releases/download/{github.rawTag}/Siphon.Setup.{version}.exe"
+		{ "url": "https://github.com/kayodante/Win-siphonClaudeUsage/releases/download/{github.rawTag}/Siphon.Setup.{version}.exe", "architecture": "x64" }
 	]
 }
