@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dhdtech",
+		"repo": "ooshare.io",
+		"method": "api-sort",
+		"tagRegex": "^v"
+	},
+	"urls": [
+		"https://github.com/dhdtech/ooshare.io/releases/download/{github.rawTag}/ooshare_{version}_windows_amd64.zip"
+	]
+}
