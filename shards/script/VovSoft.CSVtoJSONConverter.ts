@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/csv-to-json-converter.exe',
+			{ url: 'https://files.vovsoft.com/csv-to-json-converter.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/csv-to-json-converter-portable.zip',
 		],
 		releaseNotes: {
