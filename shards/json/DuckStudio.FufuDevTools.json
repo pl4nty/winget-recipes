@@ -1,0 +1,50 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DuckDuckStudio",
+		"repo": "Fufu_Dev_Tools"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/DuckDuckStudio/Fufu_Dev_Tools/releases/download/{version}/Fufu_Dev_Tools_Setup_{version}.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/DuckDuckStudio/Fufu_Dev_Tools/releases/download/{version}/Fufu_Dev_Tools_Setup_{version}.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://github.com/DuckDuckStudio/Fufu_Dev_Tools/releases/download/{version}/Fufu_Dev_Tools_Setup_{version}.exe",
+			"architecture": "arm"
+		},
+		{
+			"url": "https://github.com/DuckDuckStudio/Fufu_Dev_Tools/releases/download/{version}/Fufu_Dev_Tools_Setup_{version}.exe",
+			"architecture": "arm64"
+		},
+		{
+			"url": "https://github.com/DuckDuckStudio/Fufu_Dev_Tools/releases/download/{version}/Fufu_Dev_Tools_Setup_{version}.exe",
+			"architecture": "neutral"
+		},
+		{
+			"url": "https://github.com/DuckDuckStudio/Fufu_Dev_Tools/releases/download/{version}/Fufu_Tools_Dev_Tools_{version}.zip",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/DuckDuckStudio/Fufu_Dev_Tools/releases/download/{version}/Fufu_Tools_Dev_Tools_{version}.zip",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://github.com/DuckDuckStudio/Fufu_Dev_Tools/releases/download/{version}/Fufu_Tools_Dev_Tools_{version}.zip",
+			"architecture": "arm"
+		},
+		{
+			"url": "https://github.com/DuckDuckStudio/Fufu_Dev_Tools/releases/download/{version}/Fufu_Tools_Dev_Tools_{version}.zip",
+			"architecture": "arm64"
+		},
+		{
+			"url": "https://github.com/DuckDuckStudio/Fufu_Dev_Tools/releases/download/{version}/Fufu_Tools_Dev_Tools_{version}.zip",
+			"architecture": "neutral"
+		}
+	]
+}
