@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WinMerge",
+		"repo": "winmerge",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/WinMerge/winmerge/releases/download/v{version}/WinMerge-{version}-x64-PerUser-Setup.exe",
+		"https://github.com/WinMerge/winmerge/releases/download/v{version}/WinMerge-{version}-x64-Setup.exe",
+		"https://github.com/WinMerge/winmerge/releases/download/v{version}/WinMerge-{version}-ARM64-Setup.exe",
+		"https://github.com/WinMerge/winmerge/releases/download/v{version}/WinMerge-{version}-Setup.exe"
+	]
+}
