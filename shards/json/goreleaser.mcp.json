@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "goreleaser",
+		"repo": "mcp"
+	},
+	"urls": [
+		"https://github.com/goreleaser/mcp/releases/download/{github.rawTag}/goreleaser-mcp_Windows_arm64.zip",
+		"https://github.com/goreleaser/mcp/releases/download/{github.rawTag}/goreleaser-mcp_Windows_i386.zip",
+		"https://github.com/goreleaser/mcp/releases/download/{github.rawTag}/goreleaser-mcp_Windows_x86_64.zip"
+	]
+}
