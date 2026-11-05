@@ -12,7 +12,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [`https://download2.veeam.com/VAW/v${major}/VeeamAgentWindows_${version}_wg.exe`],
+		urls: () => [{ url: `https://download2.veeam.com/VAW/v${major}/VeeamAgentWindows_${version}_wg.exe`, architecture: 'x64' }],
 		releaseNotes: {
 			releaseNotesUrl: notes,
 		},
