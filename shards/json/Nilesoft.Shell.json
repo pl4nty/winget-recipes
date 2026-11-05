@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://nilesoft.org/download",
+		"regex": "/download/shell/(?<version>\\d+(?:\\.\\d+)+)/setup-x64\\.msi"
+	},
+	"urls": [
+		"https://nilesoft.org/download/shell/{version}/setup-x64.msi",
+		"https://nilesoft.org/download/shell/{version}/setup-x86.msi",
+		"https://nilesoft.org/download/shell/{version}/setup-arm64.msi"
+	]
+}
