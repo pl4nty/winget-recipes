@@ -5,7 +5,9 @@
 		"url": "https://onepix.app/en/download",
 		"regex": "/ONEPIX/SETUP/OnepixSetup_(\\d+(?:\\.\\d+)+)\\.exe"
 	},
-	"urls": ["https://onepix-site.s3.eu-north-1.amazonaws.com/ONEPIX/SETUP/OnepixSetup_{version}.exe"],
+	"urls": [
+		{ "url": "https://onepix-site.s3.eu-north-1.amazonaws.com/ONEPIX/SETUP/OnepixSetup_{version}.exe", "architecture": "x64" }
+	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://onepix.app/en/news"
 	}
