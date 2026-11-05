@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "scryer-media",
+		"repo": "weaver",
+		"method": "api-list",
+		"tagRegex": "^weaver-v"
+	},
+	"urls": [
+		"https://github.com/scryer-media/weaver/releases/download/{github.rawTag}/weaver-windows-x86_64.msi",
+		"https://github.com/scryer-media/weaver/releases/download/{github.rawTag}/weaver-windows-arm64.msi"
+	]
+}
