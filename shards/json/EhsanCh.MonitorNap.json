@@ -6,6 +6,6 @@
 		"repo": "MonitorNap"
 	},
 	"urls": [
-		"https://github.com/EhsanCh/MonitorNap/releases/download/{github.rawTag}/MonitorNap.exe"
+		{ "url": "https://github.com/EhsanCh/MonitorNap/releases/download/{github.rawTag}/MonitorNap.exe", "architecture": "x64" }
 	]
 }
