@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nextmv-io",
+		"repo": "nextmv-py",
+		"method": "api-list",
+		"tagRegex": "^nextmv-v(?=\\d+\\.\\d+\\.\\d+$)"
+	},
+	"urls": ["https://github.com/nextmv-io/nextmv-py/releases/download/{github.rawTag}/nextmv-windows-x64.zip"]
+}
