@@ -6,6 +6,6 @@
 		"repo": "WinMD"
 	},
 	"urls": [
-		"https://github.com/toevi/WinMD/releases/download/{github.rawTag}/WinMD-Setup.exe"
+		{ "url": "https://github.com/toevi/WinMD/releases/download/{github.rawTag}/WinMD-Setup.exe", "architecture": "x64" }
 	]
 }
