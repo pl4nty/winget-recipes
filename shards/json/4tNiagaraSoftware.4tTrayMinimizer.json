@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.4t-niagara.com/files/4t-min.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.4t-niagara.com/tray_history.html"
+	}
+}
