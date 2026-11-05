@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://download.itopupdate.com/dl/itop-easy-desktop-setup.exe"
+		{ "url": "https://download.itopupdate.com/dl/itop-easy-desktop-setup.exe", "architecture": "x64" }
 	]
 }
