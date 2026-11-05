@@ -5,5 +5,7 @@
 		"owner": "VoidGriefedTeam",
 		"repo": "Hyper-Photon"
 	},
-	"urls": ["https://github.com/VoidGriefedTeam/Hyper-Photon/releases/download/v{version}/WaveSetup.exe"]
+	"urls": [
+		{ "url": "https://github.com/VoidGriefedTeam/Hyper-Photon/releases/download/v{version}/WaveSetup.exe", "architecture": "x64" }
+	]
 }
