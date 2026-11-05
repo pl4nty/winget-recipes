@@ -10,7 +10,7 @@ export default defineShard(async () => {
 
 	return {
 		version: version!,
-		urls: () => [`${base}/AXISDeviceManagerSetup.exe`],
+		urls: () => [{ url: `${base}/AXISDeviceManagerSetup.exe`, architecture: 'x64' }],
 		releaseNotes: {
 			source: 'markdown',
 			sourceUrl: `${base}/relnote.md`,
