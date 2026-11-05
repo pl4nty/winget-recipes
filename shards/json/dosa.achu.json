@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "QAInsights",
+		"repo": "achu",
+		"method": "api-latest",
+		"assetRegex": "^(?:achu\\-Setup\\-arm64\\-\\d+\\.\\d+\\.\\d+\\.exe|achu\\-Setup\\-x64\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
