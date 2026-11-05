@@ -6,6 +6,6 @@
 		"regex": "/downloads/EumenesHOSMeeting\\-Setup\\-(\\d+(?:\\.\\d+)+)\\.exe"
 	},
 	"urls": [
-		"https://dl.eumenes.ai/downloads/EumenesHOSMeeting-Setup-{version}.exe"
+		{ "url": "https://dl.eumenes.ai/downloads/EumenesHOSMeeting-Setup-{version}.exe", "architecture": "x64" }
 	]
 }
