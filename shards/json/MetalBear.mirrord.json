@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "metalbear-co",
+		"repo": "mirrord"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/metalbear-co/mirrord/releases/download/{version}/mirrord.msi",
+			"architecture": "x64"
+		}
+	]
+}
