@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "hxseven",
+		"repo": "Remove-Empty-Directories",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^(?:red\\-v\\d+\\.\\d+\\-beta\\.\\d+\\-portable\\-win32\\.zip|red\\-v\\d+\\.\\d+\\-beta\\.\\d+\\-portable\\-win64\\.zip|red\\-v\\d+\\.\\d+\\-beta\\.\\d+\\-setup\\.exe)$"
+	}
+}
