@@ -6,6 +6,6 @@
 		"repo": "opentoonz"
 	},
 	"urls": [
-		"https://github.com/opentoonz/opentoonz/releases/download/{github.rawTag}/OpenToonzSetup.exe"
+		{ "url": "https://github.com/opentoonz/opentoonz/releases/download/{github.rawTag}/OpenToonzSetup.exe", "architecture": "x64" }
 	]
 }
