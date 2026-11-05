@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.os-monitor.com/download/",
+		"regex": "OsMonitorServerSetup(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.os-monitor.com/OsMonitorServerSetup{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.os-monitor.com/download/"
+	}
+}
