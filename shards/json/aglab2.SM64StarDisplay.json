@@ -6,6 +6,6 @@
 		"repo": "SM64StarDisplay"
 	},
 	"urls": [
-		"https://github.com/aglab2/SM64StarDisplay/releases/download/{github.rawTag}/StarManager.exe"
+		{ "url": "https://github.com/aglab2/SM64StarDisplay/releases/download/{github.rawTag}/StarManager.exe", "architecture": "x64" }
 	]
 }
