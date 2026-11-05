@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PowerShell",
+		"repo": "Win32-OpenSSH",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^(?:OpenSSH\\-ARM64\\-v\\d+\\.\\d+\\.\\d+\\.\\d+\\.msi|OpenSSH\\-Win32\\-v\\d+\\.\\d+\\.\\d+\\.\\d+\\.msi|OpenSSH\\-Win64\\-v\\d+\\.\\d+\\.\\d+\\.\\d+\\.msi)$",
+		"tagRegex": "-Preview$"
+	},
+	"version": {
+		"source": "display"
+	}
+}
