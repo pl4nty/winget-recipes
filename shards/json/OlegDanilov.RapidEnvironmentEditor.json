@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://gitlab.com/api/v4/projects/olegd%2Frapidee/releases?per_page=1",
+		"path": "0.tag_name"
+	},
+	"urls": ["https://gitlab.com/olegd/rapidee/-/releases/v{version}/downloads/RapidEE_setup.exe"],
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://gitlab.com/api/v4/projects/olegd%2Frapidee/releases?per_page=1",
+		"path": "0.description",
+		"nestedSource": "markdown",
+		"releaseNotesUrl": "https://gitlab.com/olegd/rapidee/-/releases/v{version}",
+		"cleanup": false
+	}
+}
