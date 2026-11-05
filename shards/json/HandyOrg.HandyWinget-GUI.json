@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HandyOrg",
+		"repo": "HandyWinGet"
+	},
+	"urls": [
+		"https://github.com/HandyOrg/HandyWinGet/releases/download/{github.rawTag}/HandyWinget-Portable.zip"
+	]
+}
