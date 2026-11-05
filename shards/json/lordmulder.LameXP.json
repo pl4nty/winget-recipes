@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "lordmulder",
+		"repo": "LameXP",
+		"method": "api-latest",
+		"assetRegex": "^(?:LameXP\\.\\d+\\-\\d+\\-\\d+\\.Release\\-Static\\.Build\\-\\d+\\.exe)$"
+	}
+}
