@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "101yogeshsharma",
+		"repo": "NullByte",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": ["https://github.com/101yogeshsharma/NullByte/releases/download/v{version}/NullByte-Setup-{version}.exe"]
+}
