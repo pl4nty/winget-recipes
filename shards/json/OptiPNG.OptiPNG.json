@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "optipng",
+		"file": "optipng-{version}-win64.zip"
+	},
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/optipng/files/OptiPNG/optipng-{version}/optipng-{version}-win32.zip/download",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://sourceforge.net/projects/optipng/files/OptiPNG/optipng-{version}/optipng-{version}-win64.zip/download",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://optipng.sourceforge.net/history.txt"
+	}
+}
