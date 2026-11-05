@@ -5,7 +5,7 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://londongto.s3-accelerate.amazonaws.com/FlopzillaPro217.msi"
+		{ "url": "https://londongto.s3-accelerate.amazonaws.com/FlopzillaPro217.msi", "architecture": "x64" }
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.flopzilla.com/download/"
