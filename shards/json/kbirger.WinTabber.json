@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/kbirger/wintabber/releases/download/{github.rawTag}/WinTabber-{version}-win-x64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/kbirger/wintabber/releases/tag/{github.rawTag}"
-	}
+	]
 }
