@@ -2,7 +2,6 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
-		"id": 53336,
-		"regex": "^(?:onenotediagnosticsinstaller\\.msi)$"
+		"id": 53336
 	}
 }
