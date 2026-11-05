@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{ "url": "https://bits.avcdn.net/productfamily_CCLEANER/insttype_SLIM/platform_WIN_PIR/installertype_ONLINE/build_RELEASE", "architecture": "x86" },
+		{ "url": "https://bits.avcdn.net/productfamily_CCLEANER/insttype_SLIM/platform_WIN_PIR/installertype_ONLINE/build_RELEASE", "architecture": "x64" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://bits.avcdn.net/productfamily_CCLEANER/insttype_SLIM/platform_WIN_PIR/installertype_ONLINE/build_RELEASE",
+		"header": "content-disposition"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ccleaner.com/ccleaner/version-history"
+	}
+}
