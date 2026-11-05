@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "enzo1982",
+		"repo": "freac",
+		"method": "api-sort",
+		"assetRegex": "^(?:freac\\-\\d+\\.\\d+\\.\\d+\\-windows\\-arm64\\.zip|freac\\-\\d+\\.\\d+\\.\\d+\\-windows\\-i686\\.zip|freac\\-\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\.zip)$"
+	}
+}
