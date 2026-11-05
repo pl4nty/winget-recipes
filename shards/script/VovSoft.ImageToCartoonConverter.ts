@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/image-to-cartoon-converter.exe',
+			{ url: 'https://files.vovsoft.com/image-to-cartoon-converter.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/image-to-cartoon-converter-portable.zip',
 		],
 		releaseNotes: {
