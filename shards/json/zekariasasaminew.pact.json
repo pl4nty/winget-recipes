@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zekariasasaminew",
+		"repo": "pact"
+	},
+	"urls": [
+		"https://github.com/zekariasasaminew/pact/releases/download/v{version}/pact-x86_64-pc-windows-msvc.zip"
+	]
+}
