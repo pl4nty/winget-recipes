@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oo-software.com/en/autobackup-sync-files/whats-new",
+		"regex": "<h4>(?<version>\\d+\\.\\d+\\.\\d+) &#8211; released"
+	},
+	"urls": ["https://package.oo-software.com/winget/autobackup/{version}/ooautobackup_{version}_x64.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.oo-software.com/en/autobackup-sync-files/whats-new"
+	}
+}
