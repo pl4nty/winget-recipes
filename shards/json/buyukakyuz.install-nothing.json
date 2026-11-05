@@ -7,5 +7,8 @@
 	},
 	"urls": [
 		"https://github.com/buyukakyuz/install-nothing/releases/download/{github.rawTag}/install-nothing-windows-x86_64.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/buyukakyuz/install-nothing/releases/tag/{github.rawTag}"
+	}
 }
