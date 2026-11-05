@@ -2,7 +2,6 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
-		"id": 100451,
-		"regex": "^(?:SQLSysClrTypes\\.msi)$"
+		"id": 100451
 	}
 }
