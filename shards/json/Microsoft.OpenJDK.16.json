@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.visualstudio.microsoft.com/download/pr/47631081-c93a-4629-be38-bec6fced2c35/88fd2f2555d9061c28ebe0854a2c9798/microsoft-jdk-16.0.2.7.1-windows-x64.msi",
+		"https://download.visualstudio.microsoft.com/download/pr/47631081-c93a-4629-be38-bec6fced2c35/2a4010e873b9834922b250506d8e9f0e/microsoft-jdk-16.0.2.7.1-windows-x86.msi"
+	]
+}
