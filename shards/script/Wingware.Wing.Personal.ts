@@ -17,7 +17,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [`${base}/${version}/wing-personal-${version}.exe`],
+		urls: () => [{ url: `${base}/${version}/wing-personal-${version}.exe`, architecture: 'x64' }],
 		releaseNotes: {
 			source: 'plain-text',
 			sourceUrl: `data:text/plain,${encodeURIComponent(latest)}`,
