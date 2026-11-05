@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://download.syntrosend.workers.dev/windows"],
+		"regex": "/releases/download/v(?<version>\\d+(?:\\.\\d+)+)/SyntroSend_\\k<version>_x64-setup\\.exe"
+	},
+	"releaseNotes": { "releaseNotesUrl": "https://syntrosend-app.web.app/changelog" }
+}
