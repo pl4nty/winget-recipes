@@ -3,7 +3,7 @@
 	"strategy": "github-release",
 	"github": { "owner": "AnalistaOtgan", "repo": "CanetaRelease" },
 	"urls": [
-		"https://github.com/AnalistaOtgan/CanetaRelease/releases/download/v{version}/CanetaNaTela-Setup-v{version}.exe",
-		"https://github.com/AnalistaOtgan/CanetaRelease/releases/download/v{version}/CanetaNaTela-v{version}.msi"
+		{ "url": "https://github.com/AnalistaOtgan/CanetaRelease/releases/download/v{version}/CanetaNaTela-Setup-v{version}.exe", "architecture": "x64" },
+		{ "url": "https://github.com/AnalistaOtgan/CanetaRelease/releases/download/v{version}/CanetaNaTela-v{version}.msi" }
 	]
 }
