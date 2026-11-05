@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "{version|0-preview.|}",
+	"github": {
+		"owner": "PowerShell",
+		"repo": "DSC",
+		"method": "api-list",
+		"kind": "prerelease",
+		"assetRegex": "^(?:DSC\\-\\d+\\.\\d+\\.\\d+\\-preview\\.\\d+\\-Win\\.msixbundle|DSC\\-\\d+\\.\\d+\\.\\d+\\-preview\\.\\d+\\-aarch64\\-pc\\-windows\\-msvc\\.zip|DSC\\-\\d+\\.\\d+\\.\\d+\\-preview\\.\\d+\\-x86_64\\-pc\\-windows\\-msvc\\.zip)$",
+		"tagRegex": "(?=-preview\\.)"
+	}
+}
