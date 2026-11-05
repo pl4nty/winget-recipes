@@ -6,6 +6,6 @@
 		"repo": "tmux-windows"
 	},
 	"urls": [
-		"https://github.com/arndawg/tmux-windows/releases/download/{github.rawTag}/tmux-windows-v{version}.zip"
+		{ "url": "https://github.com/arndawg/tmux-windows/releases/download/{github.rawTag}/tmux-windows-v{version}.zip", "architecture": "x64" }
 	]
 }
