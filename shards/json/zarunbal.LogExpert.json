@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LogExperts",
+		"repo": "LogExpert"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/LogExperts/LogExpert/releases/download/v{version}/LogExpert.{version}.zip",
+			"nestedInstallerMatches": ["LogExpert.exe"]
+		},
+		"https://github.com/LogExperts/LogExpert/releases/download/v{version}/LogExpert-Setup-{version}.exe"
+	]
+}
