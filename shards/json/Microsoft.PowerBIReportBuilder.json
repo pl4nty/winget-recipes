@@ -2,7 +2,6 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
-		"id": 105942,
-		"regex": "^(?:PowerBIReportBuilder\\.msi)$"
+		"id": 105942
 	}
 }
