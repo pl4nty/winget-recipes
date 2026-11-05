@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": { "source": "display" },
-	"urls": ["https://downloads.brosix.com/builds/official/Brosix_setup.exe"],
+	"urls": [{ "url": "https://downloads.brosix.com/builds/official/Brosix_setup.exe", "architecture": "x64" }],
 	"state": {
 		"source": "response-header",
 		"url": "https://downloads.brosix.com/builds/official/Brosix_setup.exe",
