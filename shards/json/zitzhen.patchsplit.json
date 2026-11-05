@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "zitzhen", "repo": "patchsplit" },
+	"urls": ["https://github.com/zitzhen/patchsplit/releases/download/v{version}/patchsplit-windows-x86_64.zip"]
+}
