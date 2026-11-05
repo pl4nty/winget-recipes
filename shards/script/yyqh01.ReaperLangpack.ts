@@ -23,7 +23,7 @@ export default defineShard(async () => {
 
 	return {
 		version: latest.version,
-		urls: () => [latest.url],
+		urls: () => [{ url: latest.url, architecture: 'x64' }],
 		releaseNotes: {
 			releaseNotesUrl: 'https://github.com/yyqh01/reaper_and_osara_chineselanguagepack/releases/tag/snapshot',
 		},
