@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "albertony",
+		"repo": "npiperelay"
+	},
+	"urls": [
+		"https://github.com/albertony/npiperelay/releases/download/v{version}/npiperelay_windows_386.zip",
+		"https://github.com/albertony/npiperelay/releases/download/v{version}/npiperelay_windows_amd64.zip",
+		"https://github.com/albertony/npiperelay/releases/download/v{version}/npiperelay_windows_386.exe",
+		"https://github.com/albertony/npiperelay/releases/download/v{version}/npiperelay_windows_amd64.exe"
+	]
+}
