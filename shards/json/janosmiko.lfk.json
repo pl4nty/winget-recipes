@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "janosmiko",
+		"repo": "lfk"
+	},
+	"urls": [
+		"https://github.com/janosmiko/lfk/releases/download/{github.rawTag}/lfk_{version}_windows_amd64.zip",
+		"https://github.com/janosmiko/lfk/releases/download/{github.rawTag}/lfk_{version}_windows_arm64.zip"
+	]
+}
