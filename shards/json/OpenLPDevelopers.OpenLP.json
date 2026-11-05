@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://get.openlp.org/",
+		"regex": "href=\"(\\d+\\.\\d+\\.\\d+)/\""
+	},
+	"urls": ["https://get.openlp.org/{version}/OpenLP-{version}-x64.msi"]
+}
