@@ -5,5 +5,7 @@
 		"url": ["https://files.pharo.org/pharo-launcher/windows"],
 		"regex": "/pharo-launcher/(?<version>\\d+(?:\\.\\d+)+)/pharo-launcher-\\d+(?:\\.\\d+)+\\.msi$"
 	},
-	"urls": ["https://files.pharo.org/pharo-launcher/{version}/pharo-launcher-{version}.msi"]
+	"urls": [
+		{ "url": "https://files.pharo.org/pharo-launcher/{version}/pharo-launcher-{version}.msi", "architecture": "x64" }
+	]
 }
