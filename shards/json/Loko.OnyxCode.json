@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "onyxcode-app",
+		"repo": "onyxcode-releases"
+	},
+	"urls": [
+		"https://github.com/onyxcode-app/onyxcode-releases/releases/download/{github.rawTag}/OnyxCode-win32-x64-winget.exe"
+	]
+}
