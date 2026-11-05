@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://onlineservices.epicgames.com/api/cosmos/sdk/download?archive_id=832&archive_type=c_sharp"
+	]
+}
