@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Infisical",
+		"repo": "cli"
+	},
+	"urls": [
+		"https://github.com/Infisical/cli/releases/download/{github.rawTag}/cli_{version}_windows_amd64.zip",
+		"https://github.com/Infisical/cli/releases/download/{github.rawTag}/cli_{version}_windows_arm64.zip"
+	]
+}
