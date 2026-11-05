@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Recol",
+		"repo": "DLSS-Updater",
+		"tagRegex": "^V"
+	},
+	"urls": [
+		"https://github.com/Recol/DLSS-Updater/releases/download/{github.rawTag}/DLSS.Updater.{version}.msi"
+	]
+}
