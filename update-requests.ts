@@ -5,10 +5,10 @@ import { basename, join } from 'node:path';
 import { $ } from 'bun';
 import { Database } from 'bun:sqlite';
 
-// `bun update-requests.ts [YYYY-MM-DD]` lists packages with winget-pkgs Update Requests (created on or after the
-// date) that nothing here covers yet: no shard on main, no shard PR or branch, no maintainers.csv row.
-// Prints `<PackageIdentifier>\t<latest request date>\t<request numbers>`, newest first.
-const since = process.argv[2];
+// `bun update-requests.ts [YYYY-MM-DD | '*']` lists packages with winget-pkgs Update Requests (created on or after
+// the date, default 30 days ago, `*` for all) that nothing here covers yet: no shard on main, no shard PR or branch,
+// no maintainers.csv row. Prints `<PackageIdentifier>\t<latest request date>\t<request numbers>`, newest first.
+const since = process.argv[2] ?? new Date(Date.now() - 30 * 86_400_000).toISOString().slice(0, 10);
 const repo = process.env.GITHUB_REPOSITORY ?? 'pl4nty/winget-recipes';
 
 // The winget source index has every PackageIdentifier with its manifest casing.
@@ -29,7 +29,7 @@ const issues = new Map<number, Issue>();
 for (let before = ''; ; ) {
 	let added = 0;
 	for (let page = 1; page <= 10; page++) {
-		const q = `repo:microsoft/winget-pkgs is:issue label:Package-Update created:${since ?? '*'}..${before || '*'}`;
+		const q = `repo:microsoft/winget-pkgs is:issue label:Package-Update created:${since}..${before || '*'}`;
 		const { items }: { items: Issue[] } =
 			await $`gh api -X GET search/issues -f q=${q} -f sort=created -f order=desc -f per_page=100 -f page=${page}`.json();
 		for (const issue of items) {
@@ -63,16 +63,20 @@ for await (const shard of glob('shards/{json,script}/*.{json,ts}'))
 	covered.add(basename(shard).replace(/\.(json|ts)$/, '').toLowerCase());
 for (const row of (await readFile('maintainers.csv', 'utf8')).trim().split('\n').slice(1))
 	covered.add(row.split(',')[0]!.toLowerCase());
-// Open, merged and closed shard PRs all count: a closed one is a decision.
-for (let page = 1; ; page++) {
-	const titles = (await $`gh api ${`repos/${repo}/pulls?state=all&per_page=100&page=${page}`} --jq .[].title`.text())
-		.split('\n')
-		.filter(Boolean);
-	for (const title of titles) {
+// Open, merged and closed shard PRs all count: a closed one is a decision. Ten pages at a time.
+for (let first = 1, last = false; !last; first += 10) {
+	const pages = await Promise.all(
+		Array.from({ length: 10 }, async (_, i) =>
+			(await $`gh api ${`repos/${repo}/pulls?state=all&per_page=100&page=${first + i}`} --jq .[].title`.text())
+				.split('\n')
+				.filter(Boolean),
+		),
+	);
+	for (const title of pages.flat()) {
 		const id = title.match(/^feat: add (\S+) shard$/)?.[1];
 		if (id) covered.add(id.toLowerCase());
 	}
-	if (titles.length < 100) break;
+	last = pages.some((titles) => titles.length < 100);
 }
 // Branches pushed without a PR yet (PR Queue backlog, held drafts) are named `<prefix>-<id with dashes>`.
 const branches = new Set(
