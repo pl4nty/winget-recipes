@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "netdata",
+		"repo": "netdata"
+	},
+	"urls": [
+		"https://github.com/netdata/netdata/releases/download/v{version}/netdata-v{version}-x64.msi"
+	]
+}
