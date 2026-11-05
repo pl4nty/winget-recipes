@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://readiotvm4.eastus.cloudapp.azure.com/Software/CDRipper.msi"
+	]
+}
