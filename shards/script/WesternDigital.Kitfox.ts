@@ -24,5 +24,5 @@ export default defineShard(async () => {
 
 	const version = match(raw.toString('utf8'), /version:\s*(\d+(?:\.\d+)+)/i).groups[0];
 
-	return { version, urls: () => [url] };
+	return { version, urls: () => [{ url: url, architecture: 'x64' }] };
 });
