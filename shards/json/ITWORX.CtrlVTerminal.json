@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/it-worx-nl/ctrl-v-terminal-releases/releases/download/{github.rawTag}/Ctrl-V-Terminal-Setup-{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/it-worx-nl/ctrl-v-terminal-releases/releases/tag/{github.rawTag}"
-	}
+	]
 }
