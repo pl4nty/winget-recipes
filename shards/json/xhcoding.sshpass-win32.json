@@ -3,6 +3,6 @@
 	"strategy": "github-release",
 	"github": { "owner": "xhcoding", "repo": "sshpass-win32" },
 	"urls": [
-		"https://github.com/xhcoding/sshpass-win32/releases/download/v{version}/sshpass.exe"
+		{ "url": "https://github.com/xhcoding/sshpass-win32/releases/download/v{version}/sshpass.exe", "architecture": "x64" }
 	]
 }
