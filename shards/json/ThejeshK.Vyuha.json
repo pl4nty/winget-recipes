@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Thejesh-k463",
+		"repo": "VYUHA-LOG"
+	},
+	"urls": [
+		"https://github.com/Thejesh-k463/VYUHA-LOG/releases/download/v{version}/Vyuha_{version}_x64-setup.exe"
+	]
+}
