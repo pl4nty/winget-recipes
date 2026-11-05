@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.masterpackager.com/download",
+		"regex": "/installer/dev/(\\d+(?:\\.\\d+)+)/mpdev_framework_dependent_x64_\\1\\.msi"
+	},
+	"urls": ["https://www.masterpackager.com/installer/dev/{version}/mpdev_framework_dependent_x64_{version}.msi"]
+}
