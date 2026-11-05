@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chrishuan9",
+		"repo": "LosslessCut-winget-rls",
+		"tagRegex": "^losslesscut\\-v"
+	},
+	"urls": [
+		"https://github.com/chrishuan9/LosslessCut-winget-rls/releases/download/{github.rawTag}/losslesscut-v{version}.zip"
+	]
+}
