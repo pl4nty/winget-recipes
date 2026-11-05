@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/ULT1MAT3-PC/PCManager-releases/releases/download/v{version}/PCManager-Setup-{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/ULT1MAT3-PC/PCManager-releases/releases/tag/{github.rawTag}"
-	}
+	]
 }
