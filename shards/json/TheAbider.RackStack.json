@@ -5,5 +5,7 @@
 		"owner": "TheAbider",
 		"repo": "RackStack"
 	},
-	"urls": ["https://github.com/TheAbider/RackStack/releases/download/v{version}/RackStack.exe"]
+	"urls": [
+		{ "url": "https://github.com/TheAbider/RackStack/releases/download/v{version}/RackStack.exe", "architecture": "x64" }
+	]
 }
