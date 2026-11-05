@@ -5,5 +5,7 @@
 		"owner": "portdock",
 		"repo": "PortDock"
 	},
-	"urls": ["https://github.com/portdock/PortDock/releases/download/v{version}/PortDock-UDP-setup.exe"]
+	"urls": [
+		{ "url": "https://github.com/portdock/PortDock/releases/download/v{version}/PortDock-UDP-setup.exe", "architecture": "x64" }
+	]
 }
