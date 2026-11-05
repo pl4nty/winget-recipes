@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/Corail44/goxlr-streamlabs-sync/releases/download/{github.rawTag}/goxlr-streamlabs-sync.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Corail44/goxlr-streamlabs-sync/releases/tag/{github.rawTag}"
-	}
+	]
 }
