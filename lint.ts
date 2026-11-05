@@ -246,7 +246,7 @@ const dryRuns = (shards: string[]) =>
 				const shard = shards.find((shard) => id(shard).toLowerCase() === identifier) ?? pkg;
 				const paths = await Array.fromAsync(glob(`${pkg}/*/*.yaml`, { cwd: dir }));
 				const latest = [...new Set(paths.map((path) => basename(dirname(path))))].sort(compareVersions).at(-1)!;
-				const version = [...generated.keys()].find((path) => path.startsWith(`${pkg}/`))!.split('/').at(-2);
+				const version = [...generated.keys()].find((path) => dirname(dirname(path)) === pkg)!.split('/').at(-2);
 				const raws = new Map<string, string>();
 				for (const path of paths.filter((path) => basename(dirname(path)) === latest))
 					raws.set(basename(path), await readFile(join(dir, path), 'utf8'));
