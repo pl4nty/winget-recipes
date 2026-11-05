@@ -6,6 +6,6 @@
 		"repo": "portfolio"
 	},
 	"urls": [
-		"https://github.com/portfolio-performance/portfolio/releases/download/{github.rawTag}/PortfolioPerformance-{version}-setup.exe"
+		{ "url": "https://github.com/portfolio-performance/portfolio/releases/download/{github.rawTag}/PortfolioPerformance-{version}-setup.exe", "architecture": "x64" }
 	]
 }
