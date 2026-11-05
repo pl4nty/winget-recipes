@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dundee",
+		"repo": "gdu"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/dundee/gdu/releases/download/v{version}/gdu_windows_amd64.exe.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["gdu_windows_amd64.exe"]
+		},
+		{
+			"url": "https://github.com/dundee/gdu/releases/download/v{version}/gdu_windows_arm64.exe.zip",
+			"architecture": "arm64",
+			"nestedInstallerMatches": ["gdu_windows_arm64.exe"]
+		}
+	]
+}
