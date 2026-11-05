@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oo-software.com/en/shutup10/changelog",
+		"regex": "Version: (?<version>\\d+\\.\\d+\\.\\d+)<br"
+	},
+	"urls": [
+		"https://package.oo-software.com/winget/shutup10/{version}/ooshutup10_{version}_x86.exe",
+		"https://package.oo-software.com/winget/shutup10/{version}/ooshutup10_{version}_x64.exe",
+		"https://package.oo-software.com/winget/shutup10/{version}/ooshutup10_{version}_arm64.exe"
+	],
+	"releaseNotes": { "releaseNotesUrl": "https://www.oo-software.com/en/shutup10/changelog" }
+}
