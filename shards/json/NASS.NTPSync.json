@@ -6,7 +6,7 @@
 		"repo": "NTPSync"
 	},
 	"urls": [
-		"https://github.com/manfred-mueller/NTPSync/releases/download/{version}/NTPSync-Setup-{version}.exe",
-		"https://github.com/manfred-mueller/NTPSync/releases/download/{version}/NTPSync.exe"
+		{ "url": "https://github.com/manfred-mueller/NTPSync/releases/download/{version}/NTPSync-Setup-{version}.exe", "architecture": "x64" },
+		{ "url": "https://github.com/manfred-mueller/NTPSync/releases/download/{version}/NTPSync.exe", "architecture": "x64" }
 	]
 }
