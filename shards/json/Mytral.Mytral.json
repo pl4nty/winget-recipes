@@ -6,6 +6,6 @@
 		"repo": "mytral"
 	},
 	"urls": [
-		"https://github.com/dvorka/mytral/releases/download/v{version}/mytral-{version}-setup.exe"
+		{ "url": "https://github.com/dvorka/mytral/releases/download/v{version}/mytral-{version}-setup.exe", "architecture": "x64" }
 	]
 }
