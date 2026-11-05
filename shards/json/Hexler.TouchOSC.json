@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://hexler.net/touchosc#get",
+		"regex": "/pub/touchosc/touchosc\\-(\\d+(?:\\.\\d+)+)\\-win\\-x64\\.exe"
+	},
+	"urls": [
+		"https://hexler.net/pub/touchosc/touchosc-{version}-win-x64.exe"
+	]
+}
