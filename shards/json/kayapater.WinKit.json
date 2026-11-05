@@ -6,6 +6,6 @@
 		"repo": "WinKit"
 	},
 	"urls": [
-		"https://github.com/kayapater/WinKit/releases/download/{github.rawTag}/WinKit-{version}.msi"
+		{ "url": "https://github.com/kayapater/WinKit/releases/download/{github.rawTag}/WinKit-{version}.msi", "architecture": "x64" }
 	]
 }
