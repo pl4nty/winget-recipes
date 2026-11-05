@@ -6,6 +6,6 @@
 		"repo": "omnidesk-desktop"
 	},
 	"urls": [
-		"https://github.com/projectteamforyou/omnidesk-desktop/releases/download/{github.rawTag}/OmniDesk-Windows-Setup.exe"
+		{ "url": "https://github.com/projectteamforyou/omnidesk-desktop/releases/download/{github.rawTag}/OmniDesk-Windows-Setup.exe", "architecture": "x64" }
 	]
 }
