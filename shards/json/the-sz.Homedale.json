@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/products/homedale/",
+		"regex": "Product: 'homedale', Link[^>]*title=\"Version (\\d+\\.\\d+) &middot;"
+	},
+	"urls": ["https://the-sz.com/common/get.php?product=homedale&version={version}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=homedale"
+	}
+}
