@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cvut",
+		"repo": "qtrvsim"
+	},
+	"urls": [
+		"https://github.com/cvut/qtrvsim/releases/download/{github.rawTag}/qtrvsim-mingw32-v{version}.zip"
+	]
+}
