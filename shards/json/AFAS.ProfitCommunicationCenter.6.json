@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": { "source": "product" },
-	"urls": ["https://profitdownload.afas.nl/download/PCC/PccSetup6.01.exe"],
+	"urls": [{ "url": "https://profitdownload.afas.nl/download/PCC/PccSetup6.01.exe", "architecture": "x64" }],
 	"state": {
 		"source": "response-header",
 		"url": "https://profitdownload.afas.nl/download/PCC/PccSetup6.01.exe",
