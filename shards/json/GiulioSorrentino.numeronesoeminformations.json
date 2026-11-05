@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "GiulianoSpaghetti",
+		"repo": "numoeminformations",
+		"method": "api-latest",
+		"assetRegex": "^(?:numoeminformations\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\-amd64\\.msi|numoeminformations\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\-arm64\\.msi)$"
+	}
+}
