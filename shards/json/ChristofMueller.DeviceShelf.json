@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://deviceshelf.app",
+		"regex": "/DeviceShelf\\-(\\d+(?:\\.\\d+)+)\\-setup\\.exe"
+	},
+	"urls": [
+		"https://downloads.deviceshelf.app/DeviceShelf-{version}-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://deviceshelf.app/blog"
+	}
+}
