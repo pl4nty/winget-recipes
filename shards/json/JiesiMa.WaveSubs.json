@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jason-jm",
+		"repo": "wavesubs"
+	},
+	"urls": [
+		"https://github.com/jason-jm/wavesubs/releases/download/{github.rawTag}/Wave.Subs.Setup.{version}.exe"
+	]
+}
