@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mediatriple",
+		"repo": "cdnctl"
+	},
+	"urls": [
+		"https://github.com/mediatriple/cdnctl/releases/download/{github.rawTag}/cdnctl-{version}-windows-amd64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/mediatriple/cdnctl/releases/tag/v{version}"
+	}
+}
