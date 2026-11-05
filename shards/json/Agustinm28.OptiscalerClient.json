@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Optiscaler-Client",
+		"repo": "Optiscaler-Client"
+	},
+	"urls": [
+		"https://github.com/Optiscaler-Client/Optiscaler-Client/releases/download/{github.rawTag}/{github.rawTag}-win-x64.zip"
+	],
+	"versionRemove": "OptiscalerClient-"
+}
