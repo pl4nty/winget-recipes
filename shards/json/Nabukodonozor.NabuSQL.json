@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://nabusql.nabu.work/releases/",
+		"regex": "NabuSQL_(\\d+(?:\\.\\d+)+)_x64-setup\\.exe\""
+	},
+	"urls": ["https://nabusql.nabu.work/releases/NabuSQL_{version}_x64-setup.exe"]
+}
