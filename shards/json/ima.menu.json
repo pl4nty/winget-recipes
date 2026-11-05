@@ -6,7 +6,7 @@
 		"repo": "iMA-Menu"
 	},
 	"urls": [
-		"https://github.com/iMAboud/iMA-Menu/releases/download/{github.rawTag}/iMA.Menu.exe"
+		{ "url": "https://github.com/iMAboud/iMA-Menu/releases/download/{github.rawTag}/iMA.Menu.exe", "architecture": "x64" }
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://github.com/iMAboud/iMA-Menu/releases/tag/{github.rawTag}"
