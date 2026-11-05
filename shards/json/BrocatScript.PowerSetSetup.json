@@ -6,6 +6,6 @@
 		"repo": "PowerSetSetup"
 	},
 	"urls": [
-		"https://github.com/BrocatScript/PowerSetSetup/releases/download/{github.rawTag}/PowerSetSetup_Installer-{version}.exe"
+		{ "url": "https://github.com/BrocatScript/PowerSetSetup/releases/download/{github.rawTag}/PowerSetSetup_Installer-{version}.exe", "architecture": "x64" }
 	]
 }
