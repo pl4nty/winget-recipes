@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AIWander",
+		"repo": "AI-Hands"
+	},
+	"urls": [
+		"https://github.com/AIWander/AI-Hands/releases/download/{github.rawTag}/hands-v{version}-aarch64.exe",
+		"https://github.com/AIWander/AI-Hands/releases/download/{github.rawTag}/hands-v{version}-x64.exe"
+	]
+}
