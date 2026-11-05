@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{ "url": "https://www.axis.com/ftp/pub_soft/cam_srv/IPUtility/latest/AxisIPUtilitySetup.exe", "architecture": "x64" }
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.axis.com/ftp/pub_soft/cam_srv/IPUtility/latest/relnote.txt"
+	}
+}
