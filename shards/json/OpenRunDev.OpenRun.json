@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "openrundev",
+		"repo": "openrun"
+	},
+	"urls": [
+		"https://github.com/openrundev/openrun/releases/download/{github.rawTag}/openrun-{github.rawTag}-windows-amd64.zip"
+	]
+}
