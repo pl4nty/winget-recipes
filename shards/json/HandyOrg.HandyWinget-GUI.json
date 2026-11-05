@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "HandyOrg",
-		"repo": "HandyWinGet"
+		"repo": "HandyWinGet",
+		"method": "api-sort",
+		"tagRegex": "^v?(?=\\d+(?:\\.\\d+)*$)"
 	},
 	"urls": [
 		"https://github.com/HandyOrg/HandyWinGet/releases/download/{github.rawTag}/HandyWinget-Portable.zip"
