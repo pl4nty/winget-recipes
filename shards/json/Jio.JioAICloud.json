@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://static.jiocloud.com/dclient/windows/JioAICloud.exe"
+		{ "url": "https://static.jiocloud.com/dclient/windows/JioAICloud.exe", "architecture": "x64" }
 	]
 }
