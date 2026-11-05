@@ -1,0 +1,26 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DuckDuckStudio",
+		"repo": "Sundry"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/DuckDuckStudio/Sundry/releases/download/{version}/Sundry.zip",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/DuckDuckStudio/Sundry/releases/download/{version}/Sundry.zip",
+			"architecture": "arm64"
+		},
+		{
+			"url": "https://github.com/DuckDuckStudio/Sundry/releases/download/{version}/Sundry_Setup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/DuckDuckStudio/Sundry/releases/download/{version}/Sundry_Setup.exe",
+			"architecture": "arm64"
+		}
+	]
+}
