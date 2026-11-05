@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://cdn.bit4id.com/es/soporte/downloads/middleware/Bit4id_Middleware.exe"
+	]
+}
