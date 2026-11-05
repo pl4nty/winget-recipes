@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rmcrackan",
+		"repo": "Libation"
+	},
+	"urls": [
+		"https://github.com/rmcrackan/Libation/releases/download/v{version}/Libation.{version}-windows-chardonnay-x64-setup.exe",
+		"https://github.com/rmcrackan/Libation/releases/download/v{version}/Libation.{version}-windows-chardonnay-x64.zip",
+		"https://github.com/rmcrackan/Libation/releases/download/v{version}/Libation.{version}-windows-chardonnay-arm64-setup.exe",
+		"https://github.com/rmcrackan/Libation/releases/download/v{version}/Libation.{version}-windows-chardonnay-arm64.zip"
+	]
+}
