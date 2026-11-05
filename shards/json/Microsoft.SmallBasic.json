@@ -5,6 +5,6 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://smallbasic-publicwebsite.azurewebsites.net/assets/SmallBasic_v1.2.msi"
+		{ "url": "https://smallbasic-publicwebsite.azurewebsites.net/assets/SmallBasic_v1.2.msi", "architecture": "x64" }
 	]
 }
