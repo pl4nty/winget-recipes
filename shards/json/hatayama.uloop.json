@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hatayama",
+		"repo": "unity-cli-loop",
+		"tagRegex": "^dispatcher\\-v",
+		"method": "api-sort",
+		"assetRegex": "^(?:uloop\\-dispatcher\\-windows\\-amd64\\.zip)$"
+	}
+}
