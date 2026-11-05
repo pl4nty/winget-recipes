@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/auto-change-screensavers.exe',
+			{ url: 'https://files.vovsoft.com/auto-change-screensavers.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/auto-change-screensavers-portable.zip',
 		],
 		releaseNotes: {
