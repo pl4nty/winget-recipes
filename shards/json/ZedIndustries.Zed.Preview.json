@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zed-industries",
+		"repo": "zed",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "(?=-pre$)"
+	},
+	"urls": [
+		"https://github.com/zed-industries/zed/releases/download/{github.rawTag}/Zed-x86_64.exe",
+		"https://github.com/zed-industries/zed/releases/download/{github.rawTag}/Zed-aarch64.exe"
+	]
+}
