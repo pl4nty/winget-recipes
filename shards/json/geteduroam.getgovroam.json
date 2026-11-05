@@ -6,7 +6,7 @@
 		"repo": "windows-app"
 	},
 	"urls": [
-		"https://github.com/geteduroam/windows-app/releases/download/{github.rawTag}/getgovroam.exe",
-		"https://github.com/geteduroam/windows-app/releases/download/{github.rawTag}/getgovroam_arm.exe"
+		{ "url": "https://github.com/geteduroam/windows-app/releases/download/{github.rawTag}/getgovroam.exe" },
+		{ "url": "https://github.com/geteduroam/windows-app/releases/download/{github.rawTag}/getgovroam_arm.exe", "architecture": "arm64" }
 	]
 }
