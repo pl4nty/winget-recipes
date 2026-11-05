@@ -6,7 +6,7 @@
 		"regex": "<h3>Axure RP (?<version>10\\.0\\.0\\.(?<build>\\d+))</h3>"
 	},
 	"urls": [
-		"https://axure.cachefly.net/versions/10-0/AxureRP-Setup-{captures.build}.exe"
+		{ "url": "https://axure.cachefly.net/versions/10-0/AxureRP-Setup-{captures.build}.exe", "architecture": "x64" }
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.axure.com/release-history"
