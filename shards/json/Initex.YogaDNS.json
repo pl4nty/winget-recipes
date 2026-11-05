@@ -5,7 +5,7 @@
 		"url": "https://yogadns.com/download/",
 		"regex": "changelog-version\">Version (\\d+(?:\\.\\d+)+)<"
 	},
-	"urls": ["https://yogadns.com/download/YogaDNSSetup.exe"],
+	"urls": [{ "url": "https://yogadns.com/download/YogaDNSSetup.exe", "architecture": "x64" }],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://yogadns.com/download/"
 	}
