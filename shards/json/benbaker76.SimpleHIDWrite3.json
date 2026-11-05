@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-commit",
+	"github": {
+		"owner": "benbaker76",
+		"repo": "SimpleHIDWrite",
+		"branch": "master",
+		"path": "BIN/SimpleHIDWrite.exe"
+	},
+	"version": "1",
+	"state": {
+		"source": "value",
+		"value": "{github.commit}"
+	},
+	"urls": [
+		"https://github.com/benbaker76/SimpleHIDWrite/raw/{github.commit}/BIN/SimpleHIDWrite.exe"
+	]
+}
