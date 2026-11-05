@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "otfried",
+		"repo": "ipe",
+		"method": "api-sort",
+		"kind": "stable",
+		"assetRegex": "^ipe-\\d+(?:\\.\\d+)+-win64\\.zip$"
+	}
+}
