@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://download.owncloud.com/desktop/ownCloud/stable/",
+		"regex": "href=\"\\./(\\d+\\.\\d+\\.\\d+\\.\\d+)/\""
+	},
+	"urls": ["https://download.owncloud.com/desktop/ownCloud/stable/{version}/win/ownCloud-{version}.x64.msi"]
+}
