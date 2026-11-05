@@ -5,7 +5,7 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://www.argusmonitor.com/downloads/ArgusMonitor_Setup.exe"
+		{ "url": "https://www.argusmonitor.com/downloads/ArgusMonitor_Setup.exe", "architecture": "x64" }
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.argusmonitor.com/history.php"
