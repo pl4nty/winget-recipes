@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zhongyang219",
+		"repo": "TrafficMonitor",
+		"tagRegex": "^V"
+	},
+	"urls": [
+		"https://github.com/zhongyang219/TrafficMonitor/releases/download/V{version}/TrafficMonitor_V{version}_x86_Lite.zip",
+		"https://github.com/zhongyang219/TrafficMonitor/releases/download/V{version}/TrafficMonitor_V{version}_x64_Lite.zip",
+		{
+			"url": "https://github.com/zhongyang219/TrafficMonitor/releases/download/V{version}/TrafficMonitor_V{version}_arm64ec_Lite.zip",
+			"architecture": "arm64"
+		}
+	]
+}
