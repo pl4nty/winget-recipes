@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.chemtable.com/autorun-organizer.htm",
+		"regex": "<title>Autorun Organizer (?<version>\\d+\\.\\d+)\\b"
+	},
+	"urls": ["https://files.chemtable.com/older/AO/AO{version|.|}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.chemtable.com/version-history.htm?prod_id=AutorunOrganizer"
+	}
+}
