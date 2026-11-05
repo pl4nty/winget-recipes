@@ -6,6 +6,6 @@
 		"repo": "windows-rightclick-vault-import"
 	},
 	"urls": [
-		"https://github.com/GeziP/windows-rightclick-vault-import/releases/download/{github.rawTag}/KBIntake-Setup.exe"
+		{ "url": "https://github.com/GeziP/windows-rightclick-vault-import/releases/download/{github.rawTag}/KBIntake-Setup.exe", "architecture": "x64" }
 	]
 }
