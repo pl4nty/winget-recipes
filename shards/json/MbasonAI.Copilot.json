@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JPmbagwu",
+		"repo": "mbason-copilot-downloads",
+		"tagRegex": "^copilot-v"
+	},
+	"urls": [
+		"https://github.com/JPmbagwu/mbason-copilot-downloads/releases/download/{github.rawTag}/Mbason-Copilot-Setup.exe"
+	]
+}
