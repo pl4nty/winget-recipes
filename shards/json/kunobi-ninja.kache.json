@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kunobi-ninja",
+		"repo": "kache",
+		"method": "api-sort",
+		"assetRegex": "^(?:kache\\-aarch64\\-pc\\-windows\\-msvc\\.exe|kache\\-x86_64\\-pc\\-windows\\-msvc\\.exe)$"
+	}
+}
