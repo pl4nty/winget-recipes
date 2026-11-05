@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/ai-automator.exe',
+			{ url: 'https://files.vovsoft.com/ai-automator.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/ai-automator-portable.zip',
 		],
 		releaseNotes: {
