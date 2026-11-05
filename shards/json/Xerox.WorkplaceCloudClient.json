@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.support.xerox.com/en-ca/product/xerox-workplace-cloud/downloads?language=en",
+		"regex": "XWC%20Client%20v(?<version>\\d+(?:\\.\\d+)+)%20MSI\\.zip"
+	},
+	"urls": ["https://download.support.xerox.com/pub/drivers/PMM_SERVICE/utils/winme/en/XWC%20Client%20v{version}%20MSI.zip"]
+}
