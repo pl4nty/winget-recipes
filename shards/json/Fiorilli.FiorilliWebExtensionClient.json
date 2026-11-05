@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{ "url": "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "architecture": "x64" }
+	]
+}
