@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/343286f7-8a96-4298-a789-def76763fbd3/ecc3b9b0-a814-4264-8965-d3e9f60791d9/azd-windows-amd64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Azure/azure-dev/releases/tag/azure-dev-cli_1.37.2"
+	}
+}
