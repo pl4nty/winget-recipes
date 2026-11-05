@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.bitwig.com/download",
+		"regex": "https://www\\.bitwig\\.com/dl/Bitwig%20Studio/(\\d+(?:\\.\\d+)+)/installer_windows/"
+	},
+	"urls": [
+		{
+			"url": "https://www.bitwig.com/dl/Bitwig%20Studio/{version}/installer_windows/",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://www.bitwig.com/dl/Bitwig%20Studio/{version}/installer_windowsarm/",
+			"architecture": "arm64"
+		}
+	]
+}
