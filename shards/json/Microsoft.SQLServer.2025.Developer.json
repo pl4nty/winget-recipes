@@ -5,6 +5,6 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://download.microsoft.com/download/77dc60d3-0139-4dad-83c8-bb52ab22db01/SQL2025-SSEI-StdDev.exe"
+		{ "url": "https://download.microsoft.com/download/77dc60d3-0139-4dad-83c8-bb52ab22db01/SQL2025-SSEI-StdDev.exe", "architecture": "x64" }
 	]
 }
