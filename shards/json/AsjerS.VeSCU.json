@@ -8,5 +8,8 @@
 	"urls": [
 		"https://github.com/AsjerS/VeSCU/releases/download/{github.rawTag}/VeSCU-win-arm64-installer.exe",
 		"https://github.com/AsjerS/VeSCU/releases/download/{github.rawTag}/VeSCU-win-x64-installer.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/AsjerS/VeSCU/releases/tag/{github.rawTag}"
+	}
 }
