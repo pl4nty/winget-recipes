@@ -6,6 +6,6 @@
 		"repo": "jellyfin-vlc-bridge"
 	},
 	"urls": [
-		"https://github.com/CrySer66/jellyfin-vlc-bridge/releases/download/{github.rawTag}/JellyfinVlcBridge-{version}-Setup.exe"
+		{ "url": "https://github.com/CrySer66/jellyfin-vlc-bridge/releases/download/{github.rawTag}/JellyfinVlcBridge-{version}-Setup.exe", "architecture": "x64" }
 	]
 }
