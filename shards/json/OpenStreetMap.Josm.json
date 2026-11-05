@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://josm.openstreetmap.de/download/windows/",
+		"regex": "href=\"josm-setup-(?<version>\\d+)-(?<java>java\\d+)\\.msi\""
+	},
+	"urls": [
+		"https://josm.openstreetmap.de/download/windows/josm-setup-{version}-{captures.java}.msi",
+		"https://josm.openstreetmap.de/download/windows/josm-setup-{version}-{captures.java}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://josm.openstreetmap.de/log/josm/?rev={version}"
+	}
+}
