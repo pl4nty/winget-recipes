@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": { "source": "display" },
-	"urls": ["https://www.softmaker.net/down/freeoffice2024.msi"],
+	"urls": [{ "url": "https://www.softmaker.net/down/freeoffice2024.msi", "architecture": "x64" }],
 	"state": {
 		"source": "response-header",
 		"url": "https://www.softmaker.net/down/freeoffice2024.msi",
