@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SteveWeed79",
+		"repo": "palctl"
+	},
+	"urls": [
+		{ "url": "https://github.com/SteveWeed79/palctl/releases/download/{version}/palctl-setup.exe", "architecture": "x64" }
+	]
+}
