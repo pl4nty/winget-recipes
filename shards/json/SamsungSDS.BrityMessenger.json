@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": [{ "url": "https://pcdownload.britymessenger.com/pcclient/BrityMessenger_Setup.exe", "architecture": "x64" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://pcdownload.britymessenger.com/pcclient/BrityMessenger_Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
