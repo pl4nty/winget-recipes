@@ -6,6 +6,6 @@
 		"repo": "Windows-Maintenance-Tool"
 	},
 	"urls": [
-		"https://github.com/Chaython/Windows-Maintenance-Tool/releases/download/{github.rawTag}/WindowsMaintenanceTool.exe"
+		{ "url": "https://github.com/Chaython/Windows-Maintenance-Tool/releases/download/{github.rawTag}/WindowsMaintenanceTool.exe", "architecture": "x64" }
 	]
 }
