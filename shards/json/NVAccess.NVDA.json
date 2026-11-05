@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://api.nvaccess.org/nvdaUpdateCheck?versionType=stable",
+		"regex": "launcherUrl: https://download\\.nvaccess\\.org/releases/(\\d+(?:\\.\\d+)+)/nvda_"
+	},
+	"urls": ["https://download.nvaccess.org/releases/{version}/nvda_{version}.exe"],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "nvaccess",
+		"repo": "nvda",
+		"tag": "release-{version}"
+	}
+}
