@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://netbeans.apache.org/front/main/download/index.html",
+		"regex": "Apache NetBeans (\\d+(?:\\.\\d+)?)"
+	},
+	"urls": [
+		"https://github.com/Friends-of-Apache-NetBeans/netbeans-installers/releases/download/nb{version}/Apache-NetBeans-{version}.exe"
+	],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "apache",
+		"repo": "netbeans",
+		"tag": "{version}"
+	}
+}
