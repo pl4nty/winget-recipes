@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kil0bit-kb",
+		"repo": "scrcpy-gui"
+	},
+	"urls": [
+		"https://github.com/kil0bit-kb/scrcpy-gui/releases/download/{github.rawTag}/ScrcpyGUI_{version}_x64-setup.exe",
+		"https://github.com/kil0bit-kb/scrcpy-gui/releases/download/{github.rawTag}/ScrcpyGUI_{version}_x64_en-US.msi"
+	]
+}
