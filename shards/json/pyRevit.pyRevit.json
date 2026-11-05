@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pyrevitlabs",
+		"repo": "pyRevit",
+		"tagRegex": "\\+\\d+$"
+	},
+	"urls": [
+		"https://github.com/pyrevitlabs/pyRevit/releases/download/{github.rawTag}/pyRevit_{version}_admin_signed.exe",
+		"https://github.com/pyrevitlabs/pyRevit/releases/download/{github.rawTag}/pyRevit_{version}_signed.exe"
+	]
+}
