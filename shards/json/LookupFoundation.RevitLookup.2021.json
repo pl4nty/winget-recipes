@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "lookup-foundation",
+		"repo": "RevitLookup",
+		"method": "api-latest",
+		"assetRegex": "^(?:RevitLookup\\-\\d+\\.\\d+\\.\\d+\\-MultiUser\\.msi|RevitLookup\\-\\d+\\.\\d+\\.\\d+\\-SingleUser\\.msi)$"
+	}
+}
