@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "angryip",
+		"repo": "ipscan"
+	},
+	"urls": [
+		"https://github.com/angryip/ipscan/releases/download/{github.rawTag}/ipscan-{version}-setup.exe"
+	]
+}
