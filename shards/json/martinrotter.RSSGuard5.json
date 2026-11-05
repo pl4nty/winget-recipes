@@ -5,5 +5,7 @@
 		"owner": "martinrotter",
 		"repo": "rssguard"
 	},
-	"urls": ["https://github.com/martinrotter/rssguard/releases/download/{version}/rssguard-{version}-web-qt6-win10.exe"]
+	"urls": [
+		{ "url": "https://github.com/martinrotter/rssguard/releases/download/{version}/rssguard-{version}-web-qt6-win10.exe", "architecture": "x64" }
+	]
 }
