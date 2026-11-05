@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://static.cdesoftware.com/bls2026/MBD2026INSTALLER.EXE"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://downloads.cdesoftware.com/bls2026\\MBD2026VersionHistory.txt"
+	}
+}
