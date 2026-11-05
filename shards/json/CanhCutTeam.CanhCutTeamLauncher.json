@@ -5,6 +5,6 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://download.canhcutteam.com/Launcher/CanhCutTeam_Setup.msi"
+		{ "url": "https://download.canhcutteam.com/Launcher/CanhCutTeam_Setup.msi", "architecture": "x64" }
 	]
 }
