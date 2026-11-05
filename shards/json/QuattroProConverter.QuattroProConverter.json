@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://quattroproconverter.com/download",
+		"regex": "/download/QuattroProConverter-(?<version>\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": ["https://quattroproconverter.com/download/QuattroProConverter-{version}.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://quattroproconverter.com/release-notes"
+	}
+}
