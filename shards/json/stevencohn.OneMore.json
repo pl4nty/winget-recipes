@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "stevencohn", "repo": "OneMore" },
+	"urls": [
+		"https://github.com/stevencohn/OneMore/releases/download/{github.rawTag}/OneMore_{version}_Setupx86.msi",
+		"https://github.com/stevencohn/OneMore/releases/download/{github.rawTag}/OneMore_{version}_Setupx64.msi",
+		{
+			"url": "https://github.com/stevencohn/OneMore/releases/download/{github.rawTag}/OneMore_{version}_SetupARM64.exe",
+			"architecture": "arm64"
+		}
+	]
+}
