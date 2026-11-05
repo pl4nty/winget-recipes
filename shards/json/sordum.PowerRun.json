@@ -1,0 +1,24 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sordum.org/9416/",
+		"regex": "<title>PowerRun v(?<version>\\d+(?:\\.\\d+)+)[\\s\\S]*?<link rel=\"canonical\" href=\"(?<page>https://www\\.sordum\\.org/9416/powerrun-v[^\"]*)\""
+	},
+	"urls": [
+		{
+			"url": "https://www.sordum.org/files/download/power-run/PowerRun.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["PowerRun/PowerRun.exe"]
+		},
+		{
+			"url": "https://www.sordum.org/files/download/power-run/PowerRun.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["PowerRun/PowerRun_x64.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "{captures.page}"
+	},
+	"replace": true
+}
