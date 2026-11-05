@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://download-psplus.playstation.com/downloads/psplus/pc/latest"],
+		"regex": "/PlayStationPlus-(?<version>\\d+(?:\\.\\d+)+)\\.exe$"
+	}
+}
