@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "riyasy",
+		"repo": "FlyPhotos"
+	},
+	"urls": [
+		"https://github.com/riyasy/FlyPhotos/releases/download/v{version}/FlyPhotosInstaller_{version}_x64.msi",
+		"https://github.com/riyasy/FlyPhotos/releases/download/v{version}/FlyPhotosInstaller_{version}_ARM64.msi"
+	]
+}
