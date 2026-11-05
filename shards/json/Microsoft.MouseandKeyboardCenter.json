@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/c/3/5/c35ae8d6-d607-4095-8eb8-ca1860dc2175/MouseKeyboardCenter_64bit_ENG_14.41.exe",
+		"https://download.microsoft.com/download/c/3/5/c35ae8d6-d607-4095-8eb8-ca1860dc2175/MouseKeyboardCenter_32bit_ENG_14.41.exe",
+		"https://download.microsoft.com/download/c/3/5/c35ae8d6-d607-4095-8eb8-ca1860dc2175/MouseKeyboardCenter_ARM64_ENG_14.41.exe"
+	]
+}
