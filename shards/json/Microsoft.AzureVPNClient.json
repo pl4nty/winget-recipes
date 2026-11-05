@@ -3,5 +3,8 @@
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
 		"id": 108598
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/azure/vpn-gateway/azure-vpn-client-versions"
 	}
 }
