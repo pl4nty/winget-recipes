@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://app-pc.kakaocdn.net/talk/win32/KakaoTalk_Setup.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://app-pc.kakaocdn.net/talk/win32/x64/KakaoTalk_Setup.exe",
+			"architecture": "x64"
+		}
+	]
+}
