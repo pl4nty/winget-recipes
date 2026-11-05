@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sleepfiles.com/OSCAR/",
+		"regex": "https://www\\.sleepfiles\\.com/OSCAR/(?<dir>[^/\"]+)/OSCAR-(?<version>\\d+(?:\\.\\d+)+)-Win64\\.exe"
+	},
+	"urls": ["https://www.sleepfiles.com/OSCAR/{captures.dir}/OSCAR-{version}-Win64.exe"]
+}
