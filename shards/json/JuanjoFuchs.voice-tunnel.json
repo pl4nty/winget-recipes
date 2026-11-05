@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/JuanjoFuchs/voice-tunnel/releases/download/{github.rawTag}/voice-tunnel-{version}-windows-x64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/JuanjoFuchs/voice-tunnel/releases/tag/{github.rawTag}"
-	}
+	]
 }
