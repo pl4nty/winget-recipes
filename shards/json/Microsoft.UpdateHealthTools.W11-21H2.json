@@ -2,7 +2,6 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
-		"id": 103324,
-		"regex": "^(?:Expedite_packages\\.zip)$"
+		"id": 103324
 	}
 }
