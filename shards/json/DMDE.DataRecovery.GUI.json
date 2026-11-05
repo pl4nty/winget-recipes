@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://dmde.com/download/dmde-4-4-4-842-win32-gui.zip",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://dmde.com/download/dmde-4-4-4-842-win64-gui.zip",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://dmde.com/changelog.html#:~:text={version}.842"
+	}
+}
