@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "colliehq",
+		"repo": "collie"
+	},
+	"urls": [
+		"https://github.com/colliehq/collie/releases/download/{github.rawTag}/Collie-Setup.exe"
+	]
+}
