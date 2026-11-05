@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ImJustIvaan",
+		"repo": "Minimal-Clock-Desktop"
+	},
+	"urls": [
+		"https://github.com/ImJustIvaan/Minimal-Clock-Desktop/releases/download/{github.rawTag}/MinimalClock-arm64.exe",
+		"https://github.com/ImJustIvaan/Minimal-Clock-Desktop/releases/download/{github.rawTag}/MinimalClock-x64.exe"
+	]
+}
