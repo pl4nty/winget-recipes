@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lune-org",
+		"repo": "lune"
+	},
+	"urls": [
+		"https://github.com/lune-org/lune/releases/download/{github.rawTag}/lune-{version}-windows-x86_64.zip",
+		"https://github.com/lune-org/lune/releases/download/{github.rawTag}/lune-{version}-windows-aarch64.zip"
+	]
+}
