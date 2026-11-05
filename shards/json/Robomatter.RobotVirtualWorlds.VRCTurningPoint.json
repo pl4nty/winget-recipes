@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{ "url": "https://www.robotvirtualworlds.com/files/competition-worlds/RVW_VRC_Turning_Point_1.1.exe", "architecture": "neutral" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.robotvirtualworlds.com/files/competition-worlds/RVW_VRC_Turning_Point_1.1.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
