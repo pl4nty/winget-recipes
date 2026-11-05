@@ -6,6 +6,6 @@
 		"repo": "winget-pkgs"
 	},
 	"urls": [
-		"https://github.com/gvshemanth30034/winget-pkgs/releases/download/v{version}/VisualStudioSetup.exe"
+		{ "url": "https://github.com/gvshemanth30034/winget-pkgs/releases/download/v{version}/VisualStudioSetup.exe", "architecture": "x64" }
 	]
 }
