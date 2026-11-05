@@ -5,5 +5,7 @@
 		"owner": "oxygen-dioxide",
 		"repo": "hitsuboku-kumi-zh-deepvocal"
 	},
-	"urls": ["https://github.com/oxygen-dioxide/hitsuboku-kumi-zh-deepvocal/releases/download/v{version}/Hitsuboku-Kumi-Chinese-deepvocal-{version}-dvtb1.exe"]
+	"urls": [
+		{ "url": "https://github.com/oxygen-dioxide/hitsuboku-kumi-zh-deepvocal/releases/download/v{version}/Hitsuboku-Kumi-Chinese-deepvocal-{version}-dvtb1.exe", "architecture": "x64" }
+	]
 }
