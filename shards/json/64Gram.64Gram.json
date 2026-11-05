@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TDesktop-x64",
+		"repo": "tdesktop"
+	},
+	"urls": ["https://github.com/TDesktop-x64/tdesktop/releases/download/v{version}/64Gram-x64.{version}.exe"]
+}
