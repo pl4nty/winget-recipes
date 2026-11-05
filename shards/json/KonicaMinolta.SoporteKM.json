@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mrobirasm",
+		"repo": "soporteKM2-releases"
+	},
+	"urls": [
+		{ "url": "https://github.com/mrobirasm/soporteKM2-releases/releases/download/{github.rawTag}/soporteKM-Setup-{version}.exe", "architecture": "x64" }
+	]
+}
