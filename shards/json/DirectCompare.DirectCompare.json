@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://directcompare.dev/download",
+		"regex": "https://dl\\.directcompare\\.dev/DirectCompare\\-v(\\d+(?:\\.\\d+)+)\\-Windows\\.zip"
+	},
+	"urls": [
+		"https://dl.directcompare.dev/DirectCompare-v{version}-Windows.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/DirectCompare/DirectCompare/releases/tag/v{version}"
+	}
+}
