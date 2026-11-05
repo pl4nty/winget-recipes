@@ -2,7 +2,9 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": { "source": "product" },
-	"urls": ["https://fwupdater.dl.playstation.net/fwupdater/PlayStationAccessoriesInstaller.exe"],
+	"urls": [
+		{ "url": "https://fwupdater.dl.playstation.net/fwupdater/PlayStationAccessoriesInstaller.exe", "architecture": "x64" }
+	],
 	"state": {
 		"source": "response-header",
 		"url": "https://fwupdater.dl.playstation.net/fwupdater/PlayStationAccessoriesInstaller.exe",
