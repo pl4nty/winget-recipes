@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "limboprog",
+		"repo": "TaseDeck",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^(?:TaseDeck_\\d+\\.\\d+\\.\\d+_x64_en\\-US\\.msi|TaseDeck_\\d+\\.\\d+\\.\\d+_x64\\-setup\\.exe)$"
+	}
+}
