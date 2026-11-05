@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "8bit2qubit",
+		"repo": "OmniConsole"
+	},
+	"urls": [
+		"https://github.com/8bit2qubit/OmniConsole/releases/download/{github.rawTag}/OmniConsole_{version}_x64.zip",
+		"https://github.com/8bit2qubit/OmniConsole/releases/download/{github.rawTag}/OmniConsole_{version}_x64.msix"
+	]
+}
