@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Gridness",
+		"repo": "a365dt",
+		"method": "api-sort",
+		"assetRegex": "^(?:a\\d+dt\\-v\\d+\\.\\d+\\.\\d+\\-aarch64\\-pc\\-windows\\-msvc\\.zip|a\\d+dt\\-v\\d+\\.\\d+\\.\\d+\\-x86_64\\-pc\\-windows\\-msvc\\.zip)$"
+	}
+}
