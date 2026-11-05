@@ -20,8 +20,8 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/silence-remover.exe',
-			'https://files.vovsoft.com/silence-remover-portable.zip',
+			{ url: 'https://files.vovsoft.com/silence-remover.exe', architecture: 'x64' },
+			{ url: 'https://files.vovsoft.com/silence-remover-portable.zip', architecture: 'x64' },
 		],
 		releaseNotes: {
 			source: 'html',
