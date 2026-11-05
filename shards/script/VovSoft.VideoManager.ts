@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/video-manager.exe',
+			{ url: 'https://files.vovsoft.com/video-manager.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/video-manager-portable.zip',
 		],
 		releaseNotes: {
