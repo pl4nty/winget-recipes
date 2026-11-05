@@ -6,6 +6,6 @@
 		"repo": "music-pattern-generator"
 	},
 	"urls": [
-		"https://github.com/hisschemoller/music-pattern-generator/releases/download/{github.rawTag}/mpg_2_2_installer_win.exe"
+		{ "url": "https://github.com/hisschemoller/music-pattern-generator/releases/download/{github.rawTag}/mpg_2_2_installer_win.exe", "architecture": "x64" }
 	]
 }
