@@ -15,7 +15,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => ['https://ramensoftware.com/downloads/7tt_setup.exe'],
+		urls: () => [{ url: 'https://ramensoftware.com/downloads/7tt_setup.exe', architecture: 'x64' }],
 		releaseNotes: {
 			source: 'html',
 			sourceUrl: `data:text/html,${encodeURIComponent(entry)}`,
