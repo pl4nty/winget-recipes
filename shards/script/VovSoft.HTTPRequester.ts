@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/http-requester.exe',
+			{ url: 'https://files.vovsoft.com/http-requester.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/http-requester-portable.zip',
 		],
 		releaseNotes: {
