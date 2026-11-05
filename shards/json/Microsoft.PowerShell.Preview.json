@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "{version|0-preview.|}.0",
+	"github": {
+		"owner": "PowerShell",
+		"repo": "PowerShell",
+		"method": "api-list",
+		"kind": "prerelease",
+		"assetRegex": "^(?:PowerShellPreview\\-\\d+\\.\\d+\\.\\d+\\-preview\\.\\d+\\.msixbundle)$",
+		"tagRegex": "(?=-preview\\.)"
+	}
+}
