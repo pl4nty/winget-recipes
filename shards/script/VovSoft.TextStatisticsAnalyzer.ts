@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			'https://files.vovsoft.com/text-statistics-analyzer.exe',
+			{ url: 'https://files.vovsoft.com/text-statistics-analyzer.exe', architecture: 'x64' },
 			'https://files.vovsoft.com/text-statistics-analyzer-portable.zip',
 		],
 		releaseNotes: {
