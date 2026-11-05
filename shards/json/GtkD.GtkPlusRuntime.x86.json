@@ -6,6 +6,6 @@
 		"regex": "https://gtkd\\.org/Downloads/runtime/gtk3\\-runtime_(\\d+(?:\\.\\d+)+)_32bit\\.exe"
 	},
 	"urls": [
-		"https://gtkd.org/Downloads/runtime/gtk3-runtime_{version}_32bit.exe"
+		{ "url": "https://gtkd.org/Downloads/runtime/gtk3-runtime_{version}_32bit.exe", "architecture": "x64" }
 	]
 }
