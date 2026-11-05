@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ghchinoy",
+		"repo": "a2acli"
+	},
+	"urls": [
+		"https://github.com/ghchinoy/a2acli/releases/download/{github.rawTag}/a2acli_Windows_arm64.zip",
+		"https://github.com/ghchinoy/a2acli/releases/download/{github.rawTag}/a2acli_Windows_x86_64.zip"
+	]
+}
