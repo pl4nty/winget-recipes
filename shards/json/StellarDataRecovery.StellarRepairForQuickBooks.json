@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stellarinfo.com/file-repair/quickbooks-recovery/quickbooks-recovery.php",
+		"regex": "<strong>Version:</strong></td>\\s*<td>(\\d+(?:\\.\\d+)+)</td>"
+	},
+	"urls": [{ "url": "https://cloud.stellarinfo.com/StellarRepairforQuickBooksSoftware.exe", "architecture": "x64" }]
+}
