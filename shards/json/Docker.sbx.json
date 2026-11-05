@@ -6,7 +6,7 @@
 		"repo": "sbx-releases"
 	},
 	"urls": [
-		"https://github.com/docker/sbx-releases/releases/download/{github.rawTag}/DockerSandboxes.msi"
+		{ "url": "https://github.com/docker/sbx-releases/releases/download/{github.rawTag}/DockerSandboxes.msi", "architecture": "x64" }
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://github.com/docker/sbx-releases/releases/tag/{github.rawTag}"
