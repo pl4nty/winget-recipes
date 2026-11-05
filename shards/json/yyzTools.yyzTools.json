@@ -5,5 +5,7 @@
 		"owner": "jearry",
 		"repo": "yyzTools"
 	},
-	"urls": ["https://github.com/jearry/yyzTools/releases/download/v{version}/yyzTools-setup-{version}.exe"]
+	"urls": [
+		{ "url": "https://github.com/jearry/yyzTools/releases/download/v{version}/yyzTools-setup-{version}.exe", "architecture": "x64" }
+	]
 }
