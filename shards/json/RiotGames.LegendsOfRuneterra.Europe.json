@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://bacon.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.live.europe.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://bacon.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.live.europe.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://playruneterra.com/en-us/news/tags/patch-notes/"
+	},
+	"replace": true
+}
