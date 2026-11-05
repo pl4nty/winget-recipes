@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "redfireforge", "repo": "redfireforge-public" },
+	"urls": ["https://github.com/redfireforge/redfireforge-public/releases/download/v{version}/RedfireForge_{version}_x64-setup.exe"]
+}
