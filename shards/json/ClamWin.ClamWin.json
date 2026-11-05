@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "clamwin",
+		"file": "clamwin-{version}-setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/clamwin/files/clamwin/{version}/clamwin-{version}-setup.exe/download"
+	]
+}
