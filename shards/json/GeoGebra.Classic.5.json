@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download.geogebra.org/installers/5.4/version.txt",
+		"regex": "^(5-4-\\d+-\\d+)\\s*$"
+	},
+	"version": "{version|-|.}",
+	"urls": [
+		"https://download.geogebra.org/installers/5.4/GeoGebra-Windows-Installer-{version}.exe",
+		"https://download.geogebra.org/installers/5.4/GeoGebra-Windows-Installer-{version}.msi"
+	]
+}
