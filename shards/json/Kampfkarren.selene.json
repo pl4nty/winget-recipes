@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kampfkarren",
+		"repo": "selene"
+	},
+	"urls": [
+		"https://github.com/Kampfkarren/selene/releases/download/{github.rawTag}/selene-{version}-windows.zip"
+	]
+}
