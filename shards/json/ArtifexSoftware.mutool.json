@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://mupdf.com/downloads",
+		"regex": "/downloads/archive/mupdf\\-(\\d+(?:\\.\\d+)+)\\-windows\\.zip"
+	},
+	"urls": [
+		"https://mupdf.com/downloads/archive/mupdf-{version}-windows.zip"
+	]
+}
