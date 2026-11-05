@@ -6,6 +6,6 @@
 		"repo": "wsa_pacman"
 	},
 	"urls": [
-		"https://github.com/alesimula/wsa_pacman/releases/download/{github.rawTag}/WSA-pacman-v{version}-installer.exe"
+		{ "url": "https://github.com/alesimula/wsa_pacman/releases/download/{github.rawTag}/WSA-pacman-v{version}-installer.exe", "architecture": "x64" }
 	]
 }
