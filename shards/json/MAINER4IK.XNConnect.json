@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "MAINER4IK", "repo": "xn-connect-cli" },
+	"urls": [
+		"https://github.com/MAINER4IK/xn-connect-cli/releases/download/{version}/xn-connect-windows-amd64.exe",
+		"https://github.com/MAINER4IK/xn-connect-cli/releases/download/{version}/xn-connect-windows-arm64.exe"
+	]
+}
