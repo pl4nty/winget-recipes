@@ -6,6 +6,6 @@
 		"regex": "\"softwareVersion\": \"(?<version>\\d+(?:\\.\\d+)+) for Windows"
 	},
 	"urls": [
-		"https://cloud.stellarinfo.com/StellarRepairforPhoto.exe"
+		{ "url": "https://cloud.stellarinfo.com/StellarRepairforPhoto.exe", "architecture": "x64" }
 	]
 }
