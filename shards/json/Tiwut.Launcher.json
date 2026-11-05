@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tiwut",
+		"repo": "Tiwut-Launcher-Windows",
+		"method": "api-list",
+		"assetRegex": "\\.exe$"
+	}
+}
