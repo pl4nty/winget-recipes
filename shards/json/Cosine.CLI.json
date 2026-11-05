@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CosineAI",
+		"repo": "cli",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/CosineAI/cli/releases/download/{github.rawTag}/cos-windows-amd64.zip",
+		"https://github.com/CosineAI/cli/releases/download/{github.rawTag}/cos-windows-arm64.zip"
+	]
+}
