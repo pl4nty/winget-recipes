@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/gunnsticles/homebrew-postgunn/releases/download/{github.rawTag}/Postgunn-Setup-{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/gunnsticles/homebrew-postgunn/releases/tag/{github.rawTag}"
-	}
+	]
 }
