@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://krita.org/en/download/",
+		"regex": "https://download\\.kde\\.org/stable/krita/KritaShellExtension\\-v(\\d+(?:\\.\\d+)+)b\\-setup\\.exe"
+	},
+	"urls": [
+		{ "url": "https://download.kde.org/stable/krita/KritaShellExtension-v{version}b-setup.exe", "architecture": "x64" }
+	]
+}
