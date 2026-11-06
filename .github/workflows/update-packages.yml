@@ -52,3 +52,5 @@ jobs:
         env:
           KOMAC_FORK_OWNER: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.UPDATE_TOKEN }}
+          KOMAC_CREATED_WITH: Devicie
+          KOMAC_CREATED_WITH_URL: https://devicie.com
