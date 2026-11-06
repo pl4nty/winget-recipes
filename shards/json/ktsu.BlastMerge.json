@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ktsu-dev",
+		"repo": "BlastMerge"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/ktsu-dev/BlastMerge/releases/download/{github.rawTag}/BlastMerge.Cli-{version}-win-x64.zip",
+			"nestedInstallerMatches": [
+				"ktsu.BlastMerge.Cli.exe"
+			]
+		},
+		{
+			"url": "https://github.com/ktsu-dev/BlastMerge/releases/download/{github.rawTag}/BlastMerge.Cli-{version}-win-arm64.zip",
+			"nestedInstallerMatches": [
+				"ktsu.BlastMerge.Cli.exe"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/ktsu-dev/BlastMerge/releases/tag/{github.rawTag}"
+	}
+}
