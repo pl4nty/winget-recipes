@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DuckDuckStudio",
+		"repo": "Fufu_Tools"
+	},
+	"urls": ["https://github.com/DuckDuckStudio/Fufu_Tools/releases/download/{github.rawTag}/Fufu_Tools_Setup.{github.rawTag}.exe"]
+}
