@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rocq-prover",
+		"repo": "platform",
+		"method": "api-latest",
+		"assetRegex": "^signed_Rocq-Platform-release-[\\d.]+-version\\.[\\d.]+-Windows-x86_64\\.exe$"
+	}
+}
