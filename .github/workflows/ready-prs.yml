@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-26.04-arm
     timeout-minutes: 180
     permissions:
+      contents: write
       pull-requests: write
     steps:
       - name: Mark Ready
