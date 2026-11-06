@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cornradio",
+		"repo": "pausemygame",
+		"method": "api-list",
+		"tagRegex": "-wpf$"
+	},
+	"urls": [
+		"https://github.com/cornradio/pausemygame/releases/download/{github.rawTag}/wpf.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/cornradio/pausemygame/releases/tag/{github.rawTag}"
+	}
+}
