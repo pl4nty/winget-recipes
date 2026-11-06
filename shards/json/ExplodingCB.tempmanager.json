@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ExplodingCB",
+		"repo": "tempmanager"
+	},
+	"urls": [
+		"https://github.com/ExplodingCB/tempmanager/releases/download/{github.rawTag}/tempmanager-setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/ExplodingCB/tempmanager/releases/tag/{github.rawTag}"
+	}
+}
