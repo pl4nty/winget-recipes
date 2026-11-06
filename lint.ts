@@ -63,13 +63,11 @@ const githubReleaseNotes: Rule = async (shards, report) => {
 	for (const shard of shards.filter((shard) => shard.endsWith('.json'))) {
 		const { strategy, github, releaseNotes } = JSON.parse(await readFile(shard, 'utf8'));
 		if (strategy !== 'github-release' || !releaseNotes) continue;
-		const release = `https://github.com/${github.owner}/${github.repo}/releases/tag/`.toLowerCase();
 		if (
-			releaseNotes.source === 'github'
-				? Object.entries(releaseNotes).every(([key, value]) => key === 'source' || github[key] === value)
-				: !releaseNotes.source && releaseNotes.releaseNotesUrl.toLowerCase().startsWith(release)
+			releaseNotes.source !== 'github' ||
+			Object.entries(releaseNotes).every(([key, value]) => key === 'source' || github[key] === value)
 		)
-			report(shard, 'github-release shards get GitHub release notes by default, so remove releaseNotes');
+			report(shard, 'github-release shards get GitHub release notes by default, so set releaseNotes only for notes from another repo');
 	}
 };
 
