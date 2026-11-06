@@ -1,4 +1,5 @@
 PackageIdentifier,Maintainers
+0-don.clippy,0-don
 0x90d.VideoDuplicateFinder.CLI,spectopo
 0xsline.OpenChatCut,spectopo
 108thecitizen.DesktopTileLauncher,damn-good-b0t
@@ -50,8 +51,10 @@ PackageIdentifier,Maintainers
 8x8.QualityManagement,spectopo
 8x8.Work,spectopo
 9001.copyparty,spectopo
+990aa.Kivixa,990aa
 A2-Ai.rv,spectopo
 a9gent.MindFS,spectopo
+aaravmaloo.blob,aaravmaloo
 Aardappel.lobster,UnownBot
 Abacus.AbaClient,spectopo
 ABB.e-Design,spectopo
@@ -89,6 +92,7 @@ AcuityBrands.VisualLighting,spectopo
 AdaLang.Alire,UnownBot;damn-good-b0t
 AdaLang.Alire.Portable,damn-good-b0t
 Adamant.Messenger,damn-good-b0t
+adamtheturtle.literalizer-cli,adamtheturtle
 AdaptiveML.adpt,damn-good-b0t
 ADELA.Devmate,damn-good-b0t
 AdGuard.AdGuard,spectopo
@@ -413,6 +417,7 @@ ArcanaDevelopment.adTempus.5.Console,spectopo
 ArcBox.LinkCode,damn-good-b0t
 Archeb.OpenTrace,damn-good-b0t
 Archi.Archi,spectopo
+archisman-panigrahi.QuickBib,archisman-panigrahi
 archisvaze.ArcDLP,damn-good-b0t
 ArcticLine.JetScreenshot,spectopo
 Ardisk.Ardisk,spectopo
@@ -615,6 +620,7 @@ Baidu.KuKuAI,spectopo
 Baidu.SwanIDE,spectopo
 Baidu.TeraBox,spectopo
 BalanceBalls.Nekot,spectopo
+BaldBeardedBuilder.WeatherforCommandPalette,michaeljolley-ops
 BaldurKarlsson.RenderDoc,spectopo
 Balena.BalenaCLI,UnownBot
 Balena.Etcher,spectopo
@@ -1123,6 +1129,7 @@ CORPME.D2.2025,spectopo
 CORPME.Legalia,spectopo
 CorporateClashCrew.ToontownCorporateClash,damn-good-b0t
 Corsair.iCUE.5,spectopo
+Corsinvest.cv4pve.diag,franklupo
 CorsixTH.CorsixTH,UnownBot
 CortexKit.MagicContextDashboard,spectopo
 CoScreen.CoScreen,spectopo
@@ -1590,6 +1597,7 @@ EligianLabs.PIICrawler,spectopo
 EligianLabs.PIICrawlerCLI,spectopo
 Elitech.ElitechLogWin,spectopo
 Ellosoft.AWSCredentialsManager,damn-good-b0t
+eloston.ungoogled-chromium,Nifury
 Elsevier.MendeleyReferenceManager,spectopo
 elvirbrk.notehighlight2016,damn-good-b0t
 ElyPrismLauncher.ElyPrismLauncher.MinGW,damn-good-b0t
@@ -1657,6 +1665,7 @@ EShare.EShare.EXE,spectopo
 esignatur.esignaturByScrive,spectopo
 esignatur.esignaturPrint,spectopo
 Espanso.Espanso,spectopo
+Espressif.EIM-CLI,Hahihula
 EspressoDisplays.espressoFlow,spectopo
 Essenciary.Githical,damn-good-b0t
 Esubaalew.Run,damn-good-b0t
@@ -1765,6 +1774,7 @@ Fioooooooo.FylloCode,spectopo
 FireAlpaca.FireAlpaca,spectopo
 Fireflies.Fireflies,spectopo
 FirenzeLor.gemini-collector,damn-good-b0t
+Firezone.Client.Headless,firezone-bot
 Firstversionist.Polypane,damn-good-b0t
 Fishstrap.Fishstrap,UnownBot
 Fission.Fission.CLI,damn-good-b0t
@@ -1841,6 +1851,7 @@ Frnsys.Half_earth,damn-good-b0t
 FrontApp.Front,spectopo
 Froststrap.Froststrap,UnownBot
 fselect.fselect,damn-good-b0t
+fstubner.netscli,fstubner
 FujitsuClientComputingLimited.DeskUpdate,spectopo
 funnyzak.TTSNow,spectopo
 FunRoutine.WorkFlowy,spectopo
@@ -3848,6 +3859,7 @@ PowerSoftware.AnyBurn,spectopo
 PowerSoftware.AnyBurn.Pro,spectopo
 PPSSPPTeam.PPSSPP,UnownBot
 ppy.osu,UnownBot
+pratham15541.disktracker,pratham15541
 PredatH0r.ChanSort,UnownBot
 Predidit.Kazumi,spectopo
 presono.presono,spectopo
@@ -4004,6 +4016,7 @@ Rakuten.Viber,spectopo
 Rambox.Rambox,spectopo
 ramdor.Thetis,damn-good-b0t
 Ramplio.CatLight,spectopo
+randlee.agent-team-mail,randlee
 randlee.sc-compose,damn-good-b0t
 RandomEngy.VidCoder,spectopo
 RandyHollines.Objeck,damn-good-b0t
@@ -4016,6 +4029,7 @@ RaspberryPiFoundation.RaspberryPiImager,spectopo
 Ratta.SupernotePartner,spectopo
 RawTherapee.RawTherapee,spectopo
 Ray-lea.Argus,spectopo
+RClone-Manager.rclone-manager,Hakanbaban53
 ReactiveSearch.ABC,spectopo
 ReactOS.RosBE,damn-good-b0t
 ReadAI.ReadAI,spectopo
