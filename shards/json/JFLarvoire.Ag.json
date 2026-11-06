@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "JFLarvoire",
+		"repo": "the_silver_searcher",
+		"method": "api-latest",
+		"assetRegex": "^(?:ag\\-\\d+\\-\\d+\\-\\d+\\-\\d+\\.\\d+\\.\\d+\\-amd64\\.zip|ag\\-\\d+\\-\\d+\\-\\d+\\-\\d+\\.\\d+\\.\\d+\\-arm\\.zip|ag\\-\\d+\\-\\d+\\-\\d+\\-\\d+\\.\\d+\\.\\d+\\-arm64\\.zip|ag\\-\\d+\\-\\d+\\-\\d+\\-\\d+\\.\\d+\\.\\d+\\-x86\\.zip|ag_setup\\.exe)$"
+	}
+}
