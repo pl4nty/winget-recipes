@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "henrypp",
+		"repo": "freeshooter",
+		"method": "api-list",
+		"tagRegex": "^v?\\.",
+		"assetRegex": "-setup\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/henrypp/freeshooter/releases/tag/{github.rawTag}"
+	}
+}
