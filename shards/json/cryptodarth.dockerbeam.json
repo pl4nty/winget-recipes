@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DockerBeam",
+		"repo": "DockerBeam"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/DockerBeam/DockerBeam/releases/download/{github.rawTag}/DockerBeam_windows_x64.exe"
+	]
+}
