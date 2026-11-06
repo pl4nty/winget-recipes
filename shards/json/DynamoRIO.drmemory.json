@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DynamoRIO",
+		"repo": "drmemory",
+		"tagRegex": "^cronbuild\\-"
+	},
+	"urls": [
+		"https://github.com/DynamoRIO/drmemory/releases/download/{github.rawTag}/DrMemory-Windows-{version}.msi",
+		"https://github.com/DynamoRIO/drmemory/releases/download/{github.rawTag}/DrMemory-Windows-{version}.zip"
+	]
+}
