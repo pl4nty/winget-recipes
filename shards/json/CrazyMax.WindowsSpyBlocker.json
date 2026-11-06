@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "crazy-max",
+		"repo": "WindowsSpyBlocker"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/crazy-max/WindowsSpyBlocker/releases/download/{github.rawTag}/WindowsSpyBlocker.exe"
+	]
+}
