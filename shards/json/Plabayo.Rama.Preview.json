@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "plabayo",
+		"repo": "rama",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "^rama-(?=\\d+\\.\\d+\\.\\d+-)"
+	},
+	"urls": [
+		"https://github.com/plabayo/rama/releases/download/rama-{version}/rama.x86_64-pc-windows-msvc.zip",
+		"https://github.com/plabayo/rama/releases/download/rama-{version}/rama.aarch64-pc-windows-msvc.zip"
+	]
+}
