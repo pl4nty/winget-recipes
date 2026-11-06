@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Moosync",
+		"repo": "Moosync",
+		"tagRegex": "^Moosync-v"
+	},
+	"urls": [
+		"https://github.com/Moosync/Moosync/releases/download/{github.rawTag}/Moosync_{version}_x64-setup.exe",
+		"https://github.com/Moosync/Moosync/releases/download/{github.rawTag}/Moosync_{version}_x64_en-US.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Moosync/Moosync/releases/tag/{github.rawTag}"
+	}
+}
