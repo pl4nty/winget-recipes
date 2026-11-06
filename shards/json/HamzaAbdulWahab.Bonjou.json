@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kodolabs-hq",
+		"repo": "bonjou-cli"
+	},
+	"urls": [
+		"https://github.com/kodolabs-hq/bonjou-cli/releases/download/{github.rawTag}/bonjou.exe"
+	]
+}
