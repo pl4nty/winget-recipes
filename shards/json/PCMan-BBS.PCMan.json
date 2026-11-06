@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "pcman-bbs", "repo": "pcman-windows" },
+	"urls": [
+		"https://github.com/pcman-bbs/pcman-windows/releases/download/{github.rawTag}/PCManCB.exe",
+		"https://github.com/pcman-bbs/pcman-windows/releases/download/{github.rawTag}/PCMan.exe"
+	]
+}
