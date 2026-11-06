@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "veyon",
+		"repo": "veyon"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/veyon/veyon/releases/download/v{version}/veyon-{packageVersion}-win32-setup.exe",
+		"https://github.com/veyon/veyon/releases/download/v{version}/veyon-{packageVersion}-win64-setup.exe"
+	]
+}
