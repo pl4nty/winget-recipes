@@ -46,7 +46,10 @@ const statuses = new Map<string, string>();
 const queue = [...new Set(versions.flatMap((v) => v.urls))];
 await Promise.all(
 	Array.from({ length: CONCURRENCY }, async () => {
-		for (let url; (url = queue.pop()); ) statuses.set(url, await status(url));
+		for (let url; (url = queue.pop()); ) {
+			statuses.set(url, await status(url));
+			if (statuses.size % 10_000 === 0) console.error(`${statuses.size}/${statuses.size + queue.length} URLs`);
+		}
 	}),
 );
 
