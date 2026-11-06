@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zz85",
+		"repo": "space-radar",
+		"method": "api-sort",
+		"assetRegex": "-win-x64\\.zip$"
+	}
+}
