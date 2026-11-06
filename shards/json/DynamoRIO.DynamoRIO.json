@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DynamoRIO",
+		"repo": "dynamorio",
+		"tagRegex": "^cronbuild\\-"
+	},
+	"urls": [
+		"https://github.com/DynamoRIO/dynamorio/releases/download/{github.rawTag}/DynamoRIO-Windows-{version}.zip"
+	]
+}
