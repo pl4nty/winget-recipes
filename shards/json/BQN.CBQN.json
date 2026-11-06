@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vylsaz",
+		"repo": "cbqn-win-docker-build",
+		"tagRegex": "^cbqn\\-"
+	},
+	"urls": [
+		"https://github.com/vylsaz/cbqn-win-docker-build/releases/download/{github.rawTag}/cbqn-ucrt-x86_64.zip"
+	]
+}
