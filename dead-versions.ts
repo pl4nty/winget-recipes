@@ -11,7 +11,7 @@ const DEAD = new Set([404, 410]);
 
 const dir = await mkdtemp(join(tmpdir(), 'winget-pkgs-'));
 await $`git clone --quiet --depth 1 --filter=blob:none --sparse https://github.com/microsoft/winget-pkgs.git ${dir}`;
-await $`git -C ${dir} sparse-checkout set --no-cone /manifests/**/*.installer.yaml /fonts/**/*.installer.yaml`.quiet();
+await $`git -C ${dir} sparse-checkout set --no-cone ${['/manifests/**/*.installer.yaml', '/fonts/**/*.installer.yaml']}`.quiet();
 
 const versions: { id: string; version: string; font: boolean; urls: string[] }[] = [];
 for await (const path of glob('{manifests,fonts}/**/*.installer.yaml', { cwd: dir })) {
