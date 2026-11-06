@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "open-cli-collective",
+		"repo": "atlassian-cli",
+		"method": "api-list",
+		"tagRegex": "^cfl-v",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/open-cli-collective/atlassian-cli/releases/download/{github.rawTag}/cfl_{version}_windows_amd64.zip",
+		"https://github.com/open-cli-collective/atlassian-cli/releases/download/{github.rawTag}/cfl_{version}_windows_arm64.zip"
+	]
+}
