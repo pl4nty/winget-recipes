@@ -38,6 +38,10 @@ async function dumplings() {
 			].filter(Boolean),
 		);
 	}
+	for (const license of ['GPL', 'LGPL'])
+		for (const shared of ['', '.Shared'])
+			for (const branch of ['', '.8.1', '.9.0'])
+				ids.push(`BtbN.FFmpeg.${license}${shared}${branch}`);
 	return ids;
 }
 
