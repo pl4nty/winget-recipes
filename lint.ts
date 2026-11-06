@@ -62,8 +62,13 @@ const releaseNotesUrl: Rule = async (shards, report) => {
 const githubReleaseNotes: Rule = async (shards, report) => {
 	for (const shard of shards.filter((shard) => shard.endsWith('.json'))) {
 		const { strategy, github, releaseNotes } = JSON.parse(await readFile(shard, 'utf8'));
-		if (strategy !== 'github-release' || releaseNotes?.source !== 'github') continue;
-		if (Object.entries(releaseNotes).every(([key, value]) => key === 'source' || github[key] === value))
+		if (strategy !== 'github-release' || !releaseNotes) continue;
+		const release = `https://github.com/${github.owner}/${github.repo}/releases/tag/`.toLowerCase();
+		if (
+			releaseNotes.source === 'github'
+				? Object.entries(releaseNotes).every(([key, value]) => key === 'source' || github[key] === value)
+				: !releaseNotes.source && releaseNotes.releaseNotesUrl.toLowerCase().startsWith(release)
+		)
 			report(shard, 'github-release shards get GitHub release notes by default, so remove releaseNotes');
 	}
 };
@@ -258,6 +263,9 @@ const dryRuns = (shards: string[]) =>
 
 const droppedFields: Rule = async (shards, report) => {
 	for (const { shard, latest, raws, yamls } of await dryRuns(shards)) {
+		// komac writes ReleaseNotesUrl for a GitHub release only when the release has notes.
+		const { strategy, releaseNotes } = shard.endsWith('.json') ? JSON.parse(await readFile(shard, 'utf8')) : {};
+		const githubNotes = strategy === 'github-release' && !releaseNotes;
 		const [beforeArp, afterArp] = [raws, yamls].map((files) => {
 			const yaml = [...files.values()].find((yaml) => yaml && DEFAULT_LOCALE.test(yaml));
 			const { PackageName, Publisher } = (yaml ? Bun.YAML.parse(yaml) : {}) as Record<string, unknown>;
@@ -270,7 +278,12 @@ const droppedFields: Rule = async (shards, report) => {
 			const after = yaml === undefined ? new Map<string, number>() : fields(yaml, afterArp);
 			for (const [field, count] of before) {
 				const kept = after.get(field) ?? 0;
-				if (kept < count && !IGNORED.test(field) && (defaultLocale || !DEFAULT_LOCALE_ONLY.test(field)))
+				if (
+					kept < count &&
+					!IGNORED.test(field) &&
+					(defaultLocale || !DEFAULT_LOCALE_ONLY.test(field)) &&
+					!(githubNotes && field === 'ReleaseNotesUrl')
+				)
 					report(shard, `${name}: dry run drops ${field} (${count} in ${latest}, ${kept} in dry run)`);
 			}
 		}
