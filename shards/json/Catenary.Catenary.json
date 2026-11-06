@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/GioNicolas/catenary-releases/releases/download/{github.rawTag}/Catenary-Setup-{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/GioNicolas/catenary-releases/releases/tag/{github.rawTag}"
-	}
+	]
 }

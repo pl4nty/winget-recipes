@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/excelano/slipql/releases/download/{github.rawTag}/slipql-x86_64-pc-windows-msvc.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/excelano/slipql/releases/tag/{github.rawTag}"
-	}
+	]
 }

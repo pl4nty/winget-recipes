@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/AwesomeDog/infinite-rss-reader/releases/download/{github.rawTag}/infrss-server-windows.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/AwesomeDog/infinite-rss-reader/releases/tag/{github.rawTag}"
-	}
+	]
 }

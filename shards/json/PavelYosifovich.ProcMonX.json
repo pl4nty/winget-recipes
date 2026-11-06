@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/zodiacon/ProcMonXv2/releases/download/{github.rawTag}/ProcMonX.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/zodiacon/ProcMonXv2/releases/tag/{github.rawTag}"
-	}
+	]
 }
