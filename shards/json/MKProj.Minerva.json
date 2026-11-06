@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MKProj",
+		"repo": "Minerva",
+		"method": "api-list",
+		"tagRegex": "-win$"
+	},
+	"urls": [
+		"https://github.com/MKProj/Minerva/releases/download/{github.rawTag}/minerva-{version}.Setup.exe"
+	]
+}
