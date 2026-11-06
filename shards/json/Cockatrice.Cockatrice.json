@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Cockatrice",
+		"repo": "Cockatrice",
+		"method": "api-list",
+		"tagRegex": "^\\d{4}-\\d{2}-\\d{2}-Release-",
+		"assetRegex": "-Win10\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Cockatrice/Cockatrice/releases/tag/{github.rawTag}"
+	}
+}
