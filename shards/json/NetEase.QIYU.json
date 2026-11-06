@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://b.163.com/home/download",
+		"regex": "PC客服工作台</div><div class=\"txt version\">版本号：v(?<version>\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": [
+		{
+			"url": "https://ysf.qiyukf.net/QIYU_PC_Setup_v{version}.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://ysf.qiyukf.net/QIYU_PC_Setup_v{version}.exe",
+			"architecture": "x64"
+		}
+	]
+}
