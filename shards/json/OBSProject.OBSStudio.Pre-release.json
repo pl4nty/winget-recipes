@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "obsproject",
+		"repo": "obs-studio",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/obsproject/obs-studio/releases/download/{github.rawTag}/OBS-Studio-{github.rawTag}-Windows-x64-Installer.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/obsproject/obs-studio/releases/tag/{github.rawTag}"
+	}
+}
