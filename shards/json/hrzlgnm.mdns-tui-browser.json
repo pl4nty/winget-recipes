@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hrzlgnm",
+		"repo": "mdns-tui-browser"
+	},
+	"urls": [
+		"https://github.com/hrzlgnm/mdns-tui-browser/releases/download/{github.rawTag}/mdns-tui-browser-v{version}-Windows-x86_64.zip"
+	]
+}
