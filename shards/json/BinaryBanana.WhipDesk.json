@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BinaryBananaLLC",
+		"repo": "WhipDesk"
+	},
+	"urls": [
+		"https://github.com/BinaryBananaLLC/WhipDesk/releases/download/{github.rawTag}/whipdesk-{version}-windows-x64.zip",
+		"https://github.com/BinaryBananaLLC/WhipDesk/releases/download/{github.rawTag}/whipdesk-{version}-windows-x64-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/BinaryBananaLLC/WhipDesk/releases/tag/{github.rawTag}"
+	}
+}
