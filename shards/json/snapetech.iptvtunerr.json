@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "snapetech-org",
+		"repo": "iptvtunerr"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/snapetech-org/iptvtunerr/releases/download/v{version}/iptv-tunerr-v{version}-windows-amd64.zip",
+			"nestedInstallerMatches": ["/iptv-tunerr.exe"]
+		},
+		{
+			"url": "https://github.com/snapetech-org/iptvtunerr/releases/download/v{version}/iptv-tunerr-v{version}-windows-arm64.zip",
+			"nestedInstallerMatches": ["/iptv-tunerr.exe"]
+		}
+	]
+}
