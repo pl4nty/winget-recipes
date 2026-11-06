@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Fleex255",
+		"repo": "PolicyPlus"
+	},
+	"urls": [
+		"https://github.com/Fleex255/PolicyPlus/releases/download/{github.rawTag}/PolicyPlus.exe"
+	]
+}
