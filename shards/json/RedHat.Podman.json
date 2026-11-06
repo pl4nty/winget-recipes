@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "podman-container-tools",
+		"repo": "podman",
+		"method": "api-sort",
+		"tagRegex": "^v(?=5\\.)",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/podman-container-tools/podman/releases/download/v{version}/podman-installer-windows-amd64.exe",
+		"https://github.com/podman-container-tools/podman/releases/download/v{version}/podman-installer-windows-arm64.exe",
+		"https://github.com/podman-container-tools/podman/releases/download/v{version}/podman-installer-windows-amd64.msi",
+		"https://github.com/podman-container-tools/podman/releases/download/v{version}/podman-installer-windows-arm64.msi"
+	]
+}
