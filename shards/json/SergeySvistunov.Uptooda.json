@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zenden2k",
+		"repo": "uptooda",
+		"method": "api-latest",
+		"assetRegex": "^uptooda-.*-(x64|x86|arm64)-setup\\.exe$"
+	}
+}
