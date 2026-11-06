@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/anderix/lux/releases/download/{github.rawTag}/luxc-x86_64-pc-windows-msvc.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/anderix/lux/releases/tag/{github.rawTag}"
-	}
+	]
 }
