@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sirredbeard",
+		"repo": "determined-windows-cli",
+		"method": "api-sort",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/sirredbeard/determined-windows-cli/releases/download/{version}/determined-cli.zip",
+		"https://github.com/sirredbeard/determined-windows-cli/releases/download/{version}/det.exe"
+	]
+}
