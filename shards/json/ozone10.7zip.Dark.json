@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ozone10",
+		"repo": "7zip-Dark7zip"
+	},
+	"versionRemove": "v",
+	"urls": [
+		{
+			"url": "https://github.com/ozone10/7zip-Dark7zip/releases/download/{github.rawTag}/7z{github.version}-x64-fluent-installer.zip",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/ozone10/7zip-Dark7zip/releases/download/{github.rawTag}/7z{github.version}-arm64-fluent-installer.zip",
+			"architecture": "arm64"
+		}
+	]
+}
