@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "herm1t0",
+		"repo": "AutoLauncher"
+	},
+	"urls": [
+		"https://github.com/herm1t0/AutoLauncher/releases/download/{github.rawTag}/AutoLauncher.msi"
+	]
+}
