@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "UVAtlas",
+		"method": "api-latest",
+		"assetRegex": "^(?:uvatlastool\\.exe)$"
+	},
+	"version": {
+		"source": "product"
+	}
+}
