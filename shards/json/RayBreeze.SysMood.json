@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RayBreeze",
+		"repo": "SysMood"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/RayBreeze/SysMood/releases/download/{github.rawTag}/SysMood-Setup-v{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/RayBreeze/SysMood/releases/tag/{github.rawTag}"
+	}
+}
