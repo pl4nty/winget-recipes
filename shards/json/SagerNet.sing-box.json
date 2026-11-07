@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SagerNet",
+		"repo": "sing-box"
+	},
+	"urls": [
+		"https://github.com/SagerNet/sing-box/releases/download/v{version}/sing-box-{version}-windows-386.zip",
+		"https://github.com/SagerNet/sing-box/releases/download/v{version}/sing-box-{version}-windows-amd64.zip",
+		"https://github.com/SagerNet/sing-box/releases/download/v{version}/sing-box-{version}-windows-arm64.zip"
+	]
+}

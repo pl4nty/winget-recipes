@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "eliets2",
+		"repo": "glyph-pdf"
+	},
+	"urls": [
+		"https://github.com/eliets2/glyph-pdf/releases/download/{github.rawTag}/GlyphPDF-{version}-x64.msi"
+	]
+}
