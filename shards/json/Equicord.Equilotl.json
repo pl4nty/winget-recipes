@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Equicord",
+		"repo": "Equilotl"
+	},
+	"urls": [
+		"https://github.com/Equicord/Equilotl/releases/download/{github.rawTag}/EquilotlCli-arm64.exe",
+		"https://github.com/Equicord/Equilotl/releases/download/{github.rawTag}/EquilotlCli-x64.exe"
+	]
+}
