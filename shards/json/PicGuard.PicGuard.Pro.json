@@ -9,8 +9,6 @@
 		"https://github.com/picguard/picguard/releases/download/v{version}/picguard-pro-{version}-windows-x64-en-US.msi",
 		"https://github.com/picguard/picguard/releases/download/v{version}/picguard-pro-{version}-windows-arm64-en-US.msi",
 		"https://github.com/picguard/picguard/releases/download/v{version}/picguard-pro-{version}-windows-x64-zh-CN.msi",
-		"https://github.com/picguard/picguard/releases/download/v{version}/picguard-pro-{version}-windows-arm64-zh-CN.msi",
-		"https://github.com/picguard/picguard/releases/download/v{version}/picguard-pro-{version}-windows-x64.msix",
-		"https://github.com/picguard/picguard/releases/download/v{version}/picguard-pro-{version}-windows-arm64.msix"
+		"https://github.com/picguard/picguard/releases/download/v{version}/picguard-pro-{version}-windows-arm64-zh-CN.msi"
 	]
 }
