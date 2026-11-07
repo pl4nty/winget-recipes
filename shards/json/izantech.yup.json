@@ -5,7 +5,7 @@
 		"owner": "izantech",
 		"repo": "yup"
 	},
-	"version": "v{version}",
+	"version": "{github.rawTag}",
 	"urls": [
 		"https://github.com/izantech/yup/releases/download/{github.rawTag}/yup-aarch64-pc-windows-msvc.zip",
 		"https://github.com/izantech/yup/releases/download/{github.rawTag}/yup-x86_64-pc-windows-msvc.zip"
