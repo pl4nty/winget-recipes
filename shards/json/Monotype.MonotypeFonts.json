@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support.monotype.com/en/articles/9127915-installing-monotype-desktop-app",
+		"regex": "https://monotypeapp\\.monotype\\.com/release/(?<version>(?<a>\\d)(?<b>\\d)(?<c>\\d))/win/MTFInstallerWindows\\.zip"
+	},
+	"version": "{captures.a}.{captures.b}.{captures.c}.0",
+	"urls": ["https://monotypeapp.monotype.com/release/{captures.version}/win/MTFInstallerWindows.zip"],
+	"replace": true
+}
