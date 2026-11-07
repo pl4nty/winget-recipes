@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "display" },
+	"version": { "source": "product" },
 	"urls": ["https://nadeo-download.cdn.ubi.com/maniaplanet/Maniaplanet_Setup.exe"],
 	"state": {
 		"source": "response-header",
