@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "badboy",
+		"repo": "mdbook-toc"
+	},
+	"urls": [
+		"https://github.com/badboy/mdbook-toc/releases/download/{github.rawTag}/mdbook-toc-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
