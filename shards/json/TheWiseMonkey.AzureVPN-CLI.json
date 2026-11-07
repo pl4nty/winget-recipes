@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "1930-dev",
-		"repo": "azure-vpn-cli"
-	},
-	"urls": ["https://github.com/1930-dev/azure-vpn-cli/releases/download/v{version}/AzureVPN-CLI-{version}-setup.exe"]
+		"repo": "azure-vpn-cli",
+		"method": "api-sort",
+		"assetRegex": "^AzureVPN-CLI-[\\d.]+-setup\\.exe$"
+	}
 }
