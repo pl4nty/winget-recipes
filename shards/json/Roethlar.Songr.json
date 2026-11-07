@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "roethlar",
+		"repo": "songr"
+	},
+	"urls": [
+		"https://github.com/roethlar/songr/releases/download/v{version}/Songr.Setup.{version}.exe"
+	]
+}
