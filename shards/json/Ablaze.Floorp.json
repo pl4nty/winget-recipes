@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://github.com/Floorp-Projects/Floorp/releases/latest/download/win-meta.json",
+		"path": "version_display"
+	},
+	"urls": [
+		"https://github.com/Floorp-Projects/Floorp/releases/download/v{data.noraneko_version}/floorp-windows-x86_64.installer.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://blog.floorp.app/en/release/{data.noraneko_version}"
+	}
+}
