@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GitTools",
+		"repo": "GitVersion"
+	},
+	"urls": [
+		"https://github.com/GitTools/GitVersion/releases/download/{github.rawTag}/gitversion-win-arm64-{version}.zip",
+		"https://github.com/GitTools/GitVersion/releases/download/{github.rawTag}/gitversion-win-x64-{version}.zip"
+	]
+}
