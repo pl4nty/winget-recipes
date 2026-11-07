@@ -18,8 +18,5 @@
 				"ktsu.BlastMerge.Cli.exe"
 			]
 		}
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/ktsu-dev/BlastMerge/releases/tag/{github.rawTag}"
-	}
+	]
 }
