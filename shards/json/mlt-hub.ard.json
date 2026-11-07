@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mlt-hub",
+		"repo": "AI-Gen-Reimbursement-Docs-Release",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^ard-setup_[^/]+\\.exe$"
+	},
+	"version": "{github.rawTag}"
+}
