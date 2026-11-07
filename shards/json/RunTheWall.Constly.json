@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.constly.com/latest.json",
+		"regex": "^(?=[\\s\\S]*?\"version\":\\s*\"(?<version>[^\"]+)\")(?=[\\s\\S]*?\"windows-x86_64\":\\s*\\{\\s*\"url\":\\s*\"(?<url>[^\"]+)\")"
+	},
+	"urls": ["{captures.url}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/RunTheWall/constly-app/blob/main/CHANGELOG.md"
+	}
+}
