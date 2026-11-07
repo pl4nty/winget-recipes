@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.electronic.us/rss/en-usb-over-ethernet.rss",
+		"regex": "<item>[\\s\\S]*?<b>Build: (?<version>\\d+(?:\\.\\d+)+)</b>"
+	},
+	"urls": ["https://cdn.electronic.us/products/usb-over-ethernet/windows/download/usb_network_gate.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.electronic.us/rss/en-usb-over-ethernet.rss"
+	},
+	"replace": true
+}
