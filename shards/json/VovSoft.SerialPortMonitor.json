@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/serial-port-monitor/",
+		"regex": "<span class=\"notranslate\">Serial Port Monitor (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://files.vovsoft.com/serial-port-monitor.exe", "https://files.vovsoft.com/serial-port-monitor-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/serial-port-monitor/"
+	}
+}
