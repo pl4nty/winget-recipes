@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "charmbracelet",
+		"repo": "glow"
+	},
+	"urls": [
+		"https://github.com/charmbracelet/glow/releases/download/{github.rawTag}/glow_{version}_Windows_i386.zip",
+		"https://github.com/charmbracelet/glow/releases/download/{github.rawTag}/glow_{version}_Windows_x86_64.zip"
+	]
+}
