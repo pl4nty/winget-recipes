@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "imLinguin",
+		"repo": "nile"
+	},
+	"urls": [
+		"https://github.com/imLinguin/nile/releases/download/{github.rawTag}/nile_windows_x86_64.exe"
+	]
+}
