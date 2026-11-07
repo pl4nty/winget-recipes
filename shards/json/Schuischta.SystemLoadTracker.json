@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Schuischta",
+		"repo": "SystemLoadTracker",
+		"tagRegex": "^release[-_]v?"
+	},
+	"urls": [
+		"https://github.com/Schuischta/SystemLoadTracker/releases/download/{github.rawTag}/SystemLoadTracker.{version}.zip"
+	]
+}
