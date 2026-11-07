@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "d2phap", "repo": "ExifGlass" },
+	"urls": [
+		"https://github.com/d2phap/ExifGlass/releases/download/{version}/ExifGlass_{version}_win-x64.msix",
+		"https://github.com/d2phap/ExifGlass/releases/download/{version}/ExifGlass_{version}_win-x64.zip",
+		"https://github.com/d2phap/ExifGlass/releases/download/{version}/ExifGlass_{version}_win-arm64.msix",
+		"https://github.com/d2phap/ExifGlass/releases/download/{version}/ExifGlass_{version}_win-arm64.zip"
+	]
+}
