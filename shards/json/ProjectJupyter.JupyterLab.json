@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jupyterlab",
+		"repo": "jupyterlab-desktop"
+	},
+	"urls": ["https://github.com/jupyterlab/jupyterlab-desktop/releases/download/v{version}/JupyterLab-Setup-Windows-x64.exe"]
+}
