@@ -3,10 +3,11 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "microsoft",
-		"repo": "DxCapsViewer",
-		"method": "api-latest",
-		"assetRegex": "^(?:dxcapsviewer\\.exe)$"
+		"repo": "DxCapsViewer"
 	},
+	"urls": [
+		"https://github.com/microsoft/DxCapsViewer/releases/download/{github.rawTag}/dxcapsviewer.exe"
+	],
 	"version": {
 		"source": "product"
 	}
