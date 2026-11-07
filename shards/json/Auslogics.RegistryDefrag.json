@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://downloads.auslogics.com/en/registry-defrag/auslogics-registry-defrag-setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.auslogics.com/en/registry-defrag/auslogics-registry-defrag-setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
