@@ -1,10 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://stlviewer.org/",
+		"regex": "itemprop=\"softwareVersion\" content=\"(\\d+(?:\\.\\d+)+)\""
 	},
-	"urls": [
-		"https://stlviewer.org/download/stlviewersetup.exe"
-	]
+	"urls": ["https://stlviewer.org/download/stlviewersetup.exe"]
 }
