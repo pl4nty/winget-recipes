@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/Arcthesia/ArcCreate/releases/download/{github.rawTag}/StandaloneWindows64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Arcthesia/ArcCreate/releases/tag/{github.rawTag}"
-	}
+	]
 }
