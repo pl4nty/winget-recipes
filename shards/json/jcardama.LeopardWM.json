@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jcardama",
+		"repo": "LeopardWM"
+	},
+	"urls": [
+		"https://github.com/jcardama/LeopardWM/releases/download/{github.rawTag}/LeopardWM-{version}-x86_64.msi",
+		"https://github.com/jcardama/LeopardWM/releases/download/{github.rawTag}/LeopardWM-{version}-arm64.msi"
+	]
+}
