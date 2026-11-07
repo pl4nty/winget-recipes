@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ErnieBernie10",
+		"repo": "RDPilot"
+	},
+	"urls": ["https://github.com/ErnieBernie10/RDPilot/releases/download/v{version}/RDPilot-Setup-{version}-win-x64.exe"]
+}

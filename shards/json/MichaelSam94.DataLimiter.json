@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "michaelsam94",
+		"repo": "DataLimiter"
+	},
+	"urls": ["https://github.com/michaelsam94/DataLimiter/releases/download/v{version}/datalimiter-windows-amd64.exe"]
+}
