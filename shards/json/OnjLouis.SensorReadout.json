@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OnjLouis",
+		"repo": "accessible-sensor-readout"
+	},
+	"urls": ["https://github.com/OnjLouis/accessible-sensor-readout/releases/download/v{version}/SensorReadout-{version}.zip"]
+}
