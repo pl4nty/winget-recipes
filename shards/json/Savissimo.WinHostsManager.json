@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "savissimo",
+		"repo": "winhosts-manager",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "^v?\\."
+	},
+	"urls": [
+		"https://github.com/savissimo/winhosts-manager/releases/download/{github.rawTag}/Setup-WinHostsManager-{version}.exe"
+	]
+}
