@@ -9,8 +9,5 @@
 	"urls": [
 		"https://github.com/fosslife/truthy/releases/download/{github.rawTag}/truthy_{version}_x64_en-US.msi",
 		"https://github.com/fosslife/truthy/releases/download/{github.rawTag}/truthy_{version}_x64-setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/fosslife/truthy/releases/tag/{github.rawTag}"
-	}
+	]
 }
