@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Tsabo",
+		"repo": "ClipMate",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": ["https://github.com/Tsabo/ClipMate/releases/download/v{version}/ClipMate-Setup-{version}.exe"]
+}
