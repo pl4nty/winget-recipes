@@ -3,19 +3,41 @@ name: Update Packages
 on:
   workflow_dispatch:
   schedule:
-    - cron: 37 * * * *
+    - cron: 7,22,37,52 * * * *
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions: {}
 
 jobs:
+  batches:
+    name: Batches
+    runs-on: ubuntu-slim
+    outputs:
+      batches: ${{ steps.batches.outputs.batches }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Split Shards
+        id: batches
+        run: echo "batches=[$(seq -s, 0 $((($(find shards -type f | wc -l) - 1) / 512)))]" >> "$GITHUB_OUTPUT"
+
   update-packages:
     name: Update Packages
+    needs: batches
     runs-on: ubuntu-26.04-arm
-    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: ${{ fromJSON(needs.batches.outputs.batches) }}
+    timeout-minutes: 30
+    env:
+      NAPI_RS_NATIVE_LIBRARY_PATH: ${{ github.workspace }}/anthelion-komac.node
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -28,17 +50,31 @@ jobs:
           version: 2026.10.22
           install_args: bun
 
+      - name: Select Batch
+        run: find shards -type f | sort | awk -v batch="$BATCH" 'int((NR - 1) / 512) != batch' | xargs -r rm
+        env:
+          BATCH: ${{ matrix.batch }}
+
       - name: Install Dependencies
         run: bun ci --production
+
+      - name: Install komac
+        run: curl -fsSLo "$NAPI_RS_NATIVE_LIBRARY_PATH" https://github.com/devicie/Komac-anthelion/releases/latest/download/anthelion-komac.linux-arm64-gnu.node
 
       - name: Update Packages
         run: |
           status=0
           bun start || status=$?
+          retry() { for i in 1 2 3; do out=$("$@") && { printf '%s\n' "$out"; return; }; sleep 60; done; false; }
           sed -n 's|^Pull Request: \(https://.*\)$|\1|p' "$GITHUB_STEP_SUMMARY" | while read -r url; do
-            gh api graphql -f query='mutation($id: ID!) { updateSubscription(input: {subscribableId: $id, state: IGNORED}) { clientMutationId } }' -f id="$(gh pr view "$url" --json id --jq .id)"
+            pr=$(retry gh pr view "$url" --json title,body) || continue
+            id=$(jq -r '.title | capture("^New version: (?<id>\\S+) ").id' <<<"$pr")
+            resolves=$(retry gh api -X GET search/issues -f q="repo:microsoft/winget-pkgs is:issue is:open label:Package-Update \"$id\"" | jq -r --arg id "$id" '[.items[] | select(.body // "" | contains("A new version of an existing package")) | select(.body | capture("### Current Package Identifier\\s+`?(?<id>[^`\\s]+)").id | ascii_downcase == ($id | ascii_downcase)) | "#\(.number)"] | join(", ")')
+            [ -z "$resolves" ] || retry gh api -X PATCH "repos/microsoft/winget-pkgs/pulls/${url##*/}" -f body="$(jq -r .body <<<"$pr")"$'\n\n'"Resolves $resolves" --silent || true
           done
           exit "$status"
         env:
           KOMAC_FORK_OWNER: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.UPDATE_TOKEN }}
+          KOMAC_CREATED_WITH: Devicie
+          KOMAC_CREATED_WITH_URL: https://devicie.com

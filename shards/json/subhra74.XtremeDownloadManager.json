@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "subhra74",
+		"repo": "xdm"
+	},
+	"urls": [
+		"https://github.com/subhra74/xdm/releases/download/v{version}/xdm-{version}-x64.msi",
+		"https://github.com/subhra74/xdm/releases/download/v{version}/xdm-{version}-arm64.msi"
+	]
+}

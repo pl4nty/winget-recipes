@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AresValley",
+		"repo": "Artemis"
+	},
+	"urls": [
+		"https://github.com/AresValley/Artemis/releases/download/{github.rawTag}/Artemis-Windows-arm64-{version}.msi",
+		"https://github.com/AresValley/Artemis/releases/download/{github.rawTag}/Artemis-Windows-x86_64-{version}.msi"
+	]
+}
