@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "moatazhamada",
+		"repo": "ai-omni-skills",
+		"method": "api-latest",
+		"assetRegex": "^omni-skills-windows-(?:x64|arm64)\\.exe$"
+	}
+}
