@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ScymicX",
+		"repo": "Steam-Dock-Extension"
+	},
+	"urls": [
+		"https://github.com/ScymicX/Steam-Dock-Extension/releases/download/{github.rawTag}/SteamDockExtension-Setup-{version}-arm64.exe",
+		"https://github.com/ScymicX/Steam-Dock-Extension/releases/download/{github.rawTag}/SteamDockExtension-Setup-{version}-x64.exe"
+	]
+}
