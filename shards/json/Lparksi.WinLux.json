@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Lparksi",
+		"repo": "WinLux"
+	},
+	"urls": [
+		"https://github.com/Lparksi/WinLux/releases/download/{github.rawTag}/WinLux_{version}_x64-setup.exe"
+	]
+}
