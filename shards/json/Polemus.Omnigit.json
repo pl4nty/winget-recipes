@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Polemus", "repo": "Omnigit" },
+	"urls": [
+		"https://github.com/Polemus/Omnigit/releases/download/{github.rawTag}/Omnigit-{version}-win-x64-setup.exe"
+	]
+}
