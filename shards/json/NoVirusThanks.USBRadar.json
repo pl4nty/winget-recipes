@@ -6,7 +6,8 @@
 	"state": {
 		"source": "response-header",
 		"url": "https://downloads.usbradar.com/latest/usbradar-standard/setup",
-		"header": "etag"
+		"header": "etag",
+		"method": "get"
 	},
 	"releaseNotes": {
 		"source": "html",
