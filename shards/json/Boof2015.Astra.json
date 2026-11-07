@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Boof2015",
+		"repo": "astra"
+	},
+	"urls": [
+		"https://github.com/Boof2015/astra/releases/download/{github.rawTag}/Astra.Setup.{version}.Windows.exe"
+	]
+}
