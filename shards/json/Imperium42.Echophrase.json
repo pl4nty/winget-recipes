@@ -6,8 +6,9 @@
 	},
 	"github": {
 		"owner": "imperium42",
-		"repo": "echophrase-releases",
-		"method": "api-latest",
-		"assetRegex": "^(?:Echophrase_\\d+\\.\\d+\\.\\d+_x64\\-setup\\.exe)$"
-	}
+		"repo": "echophrase-releases"
+	},
+	"urls": [
+		"https://github.com/imperium42/echophrase-releases/releases/download/{github.rawTag}/Echophrase_{version}_x64-setup.exe"
+	]
 }
