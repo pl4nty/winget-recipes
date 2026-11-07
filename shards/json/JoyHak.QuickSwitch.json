@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JoyHak",
+		"repo": "QuickSwitch",
+		"method": "api-sort",
+		"assetRegex": "^(?:QuickSwitch\\-\\d+\\.\\d+\\-x\\d+\\.zip|QuickSwitch\\-\\d+\\.\\d+\\-x64\\.zip)$"
+	}
+}
