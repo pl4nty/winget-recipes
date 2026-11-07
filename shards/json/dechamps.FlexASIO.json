@@ -8,8 +8,5 @@
 	},
 	"urls": [
 		"https://github.com/dechamps/FlexASIO/releases/download/{github.rawTag}/FlexASIO-{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/dechamps/FlexASIO/releases/tag/{github.rawTag}"
-	}
+	]
 }
