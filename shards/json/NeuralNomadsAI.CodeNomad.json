@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NeuralNomadsAI",
+		"repo": "CodeNomad"
+	},
+	"urls": ["https://github.com/NeuralNomadsAI/CodeNomad/releases/download/v{version}/CodeNomad-Tauri-windows-x64-{version}.exe"]
+}
