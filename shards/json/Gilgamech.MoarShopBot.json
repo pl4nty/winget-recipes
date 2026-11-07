@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Gilgamech",
+		"repo": "MoarShopBot"
+	},
+	"urls": [
+		"https://github.com/Gilgamech/MoarShopBot/releases/download/{github.rawTag}/MoarShopBot.exe"
+	]
+}

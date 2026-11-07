@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "yiays", "repo": "AutoLogout" },
+	"urls": [
+		"https://github.com/yiays/AutoLogout/releases/download/v{version}/AutoLogoutSetup-x64.exe",
+		"https://github.com/yiays/AutoLogout/releases/download/v{version}/AutoLogoutSetup-arm64.exe"
+	]
+}
