@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "trypsynth",
+		"repo": "paperback"
+	},
+	"urls": [
+		"https://github.com/trypsynth/paperback/releases/download/{version}/paperback_setup-x64.exe",
+		"https://github.com/trypsynth/paperback/releases/download/{version}/paperback_setup-arm64.exe"
+	]
+}
