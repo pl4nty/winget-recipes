@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "due2-app",
 		"repo": "due2-releases",
-		"method": "api-list",
 		"tagRegex": "^due2-v"
 	},
 	"urls": [
