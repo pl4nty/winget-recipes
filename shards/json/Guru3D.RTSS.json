@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/",
+		"regex": "(?:\\[|%5B)Guru3D(?:\\]|%5D)-RTSSSetup(?<version>(?<major>\\d)(?<minor>\\d)(?<patch>\\d+))Build(?<build>\\d+)\\.zip"
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.patch}",
+	"urls": [
+		{
+			"url": "https://ftp.nluug.nl/pub/games/PC/guru3d/afterburner/[Guru3D]-RTSSSetup{captures.version}Build{captures.build}.zip",
+			"nestedInstallerMatches": ["RTSSSetup"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/"
+	}
+}
