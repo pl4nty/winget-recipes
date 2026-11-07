@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GOODJINC",
+		"repo": "CmdPalBrowserBookmarks"
+	},
+	"urls": [
+		"https://github.com/GOODJINC/CmdPalBrowserBookmarks/releases/download/{github.rawTag}/GOODJINC.BrowserBookmarksforCommandPalette_{version}.0.Msixbundle"
+	]
+}

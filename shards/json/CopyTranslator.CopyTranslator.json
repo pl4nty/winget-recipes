@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CopyTranslator",
+		"repo": "CopyTranslator"
+	},
+	"urls": [
+		"https://github.com/CopyTranslator/CopyTranslator/releases/download/{github.rawTag}/copytranslator-{version}-win.zip",
+		"https://github.com/CopyTranslator/CopyTranslator/releases/download/{github.rawTag}/copytranslator-setup-{version}.exe"
+	]
+}
