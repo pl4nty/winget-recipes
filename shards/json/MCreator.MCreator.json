@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MCreator",
+		"repo": "MCreator",
+		"method": "api-latest",
+		"assetRegex": "^MCreator\\.\\d+\\.\\d+\\.Windows\\.64bit\\.exe$"
+	}
+}
