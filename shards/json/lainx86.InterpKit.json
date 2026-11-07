@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lainx86",
+		"repo": "InterpKit"
+	},
+	"urls": [
+		"https://github.com/lainx86/InterpKit/releases/download/{github.rawTag}/InterpKit-v{version}-Windows-x64.zip"
+	]
+}
