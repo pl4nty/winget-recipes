@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://api.loadingbay.com/app/v1/download_client/windows/mkt-h55-official/url"],
+		"regex": "/(?<build>\\d+)/Identity_V_setup\\.exe$"
+	},
+	"version": { "source": "product" },
+	"state": {
+		"source": "value",
+		"value": "{captures.build}"
+	},
+	"replace": true
+}
