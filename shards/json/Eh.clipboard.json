@@ -6,6 +6,6 @@
 		"repo": "ehclipboard"
 	},
 	"urls": [
-		"https://github.com/huhuhuhuheh/ehclipboard/releases/download/{github.rawTag}/EhClipboardSetup.exe"
+		{ "url": "https://github.com/huhuhuhuheh/ehclipboard/releases/download/{github.rawTag}/EhClipboardSetup.exe", "architecture": "x64" }
 	]
 }
