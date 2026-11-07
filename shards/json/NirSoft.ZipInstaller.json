@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nirsoft.net/utils/zipinst.html",
+		"regex": "Versions History</h4>\\s*<table[^>]*>\\s*<tr class=\"utiltableheader\">[^\\n]*\\n\\s*<tr><td>[^<]*<td>(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.nirsoft.net/utils/zipinst.zip",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.nirsoft.net/utils/zipinst.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nirsoft.net/utils/zipinst.html#:~:text=Versions%20History"
+	},
+	"replace": true
+}
