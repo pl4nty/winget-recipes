@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://redeyenetworks.com/hopper",
+		"regex": "download\\.redeyenetworks\\.com/hopper/releases/(\\d+(?:\\.\\d+)+)/Hopper-win-x64-setup\\.exe"
+	},
+	"urls": ["https://download.redeyenetworks.com/hopper/releases/{version}/Hopper-win-x64-setup.exe"]
+}
