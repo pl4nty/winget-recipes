@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{ "url": "https://static.mailplug.com/messenger/setup/prod/MAILPLUG%20Messenger%20Desktop-Windows-Setup.exe", "architecture": "x86" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://static.mailplug.com/messenger/setup/prod/MAILPLUG%20Messenger%20Desktop-Windows-Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
