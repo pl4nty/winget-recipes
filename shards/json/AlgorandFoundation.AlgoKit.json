@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/algorandfoundation/algokit-cli/releases/download/{github.rawTag}/algokit-{version}-windows_x64-winget.msix"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/algorandfoundation/algokit-cli/releases/tag/{github.rawTag}"
-	}
+	]
 }
