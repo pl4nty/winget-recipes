@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nakaba-lab",
+		"repo": "ssh-manager-tui"
+	},
+	"urls": [
+		"https://github.com/nakaba-lab/ssh-manager-tui/releases/download/v{version}/sshm-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}

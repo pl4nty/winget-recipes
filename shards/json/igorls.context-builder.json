@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "igorls",
+		"repo": "context-builder"
+	},
+	"urls": [
+		"https://github.com/igorls/context-builder/releases/download/{github.rawTag}/context-builder-x86_64-pc-windows-msvc.zip"
+	]
+}
