@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ElJoshua08",
+		"repo": "keyforge"
+	},
+	"urls": [
+		"https://github.com/ElJoshua08/keyforge/releases/download/{github.rawTag}/keyforge-{version}-setup.exe"
+	]
+}
