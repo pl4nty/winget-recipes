@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Dman95",
+		"repo": "SASM",
+		"method": "api-sort",
+		"assetRegex": "^(?:SASMSetup\\d+\\.exe)$"
+	}
+}
