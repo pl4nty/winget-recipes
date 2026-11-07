@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "agateau",
+		"repo": "pixelwheels"
+	},
+	"urls": [
+		"https://github.com/agateau/pixelwheels/releases/download/{github.rawTag}/pixelwheels-{version}-windows64.zip"
+	]
+}
