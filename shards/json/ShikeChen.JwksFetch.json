@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ShikeChen-MS",
+		"repo": "JwtDecoder_local_cli"
+	},
+	"urls": [
+		"https://github.com/ShikeChen-MS/JwtDecoder_local_cli/releases/download/v{version}/jwksfetch-{version}-win-x64.exe",
+		"https://github.com/ShikeChen-MS/JwtDecoder_local_cli/releases/download/v{version}/jwksfetch-{version}-win-arm64.exe"
+	]
+}
