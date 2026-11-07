@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SabreTools",
+		"repo": "MPF"
+	},
+	"urls": [
+		"https://github.com/SabreTools/MPF/releases/download/{version}/MPF.UI_{version}_net10.0-windows_win-x86_release.zip",
+		"https://github.com/SabreTools/MPF/releases/download/{version}/MPF.UI_{version}_net10.0-windows_win-x64_release.zip"
+	]
+}
