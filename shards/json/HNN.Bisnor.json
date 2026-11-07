@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nikan48g",
+		"repo": "Bisnor"
+	},
+	"urls": [
+		"https://github.com/nikan48g/Bisnor/releases/download/{github.rawTag}/Bisnor-{version}-win-x64.exe"
+	]
+}
