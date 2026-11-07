@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://hilfe.34u.de/desktop/erste-schritte/installieren-und-aktivieren/herunterladen",
+		"regex": "releases/desktop/versions/(\\d+(?:\\.\\d+)+)/MultiBaseCS-Server-x64\\.zip"
+	},
+	"urls": [
+		"https://s3.multibasecs.de/releases/desktop/versions/{version}/MultiBaseCS-Server-x64.zip"
+	]
+}
