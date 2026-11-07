@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ooni",
+		"repo": "probe-multiplatform"
+	},
+	"urls": ["https://github.com/ooni/probe-multiplatform/releases/download/v{version}/OONI-Probe-{version}.exe"]
+}
