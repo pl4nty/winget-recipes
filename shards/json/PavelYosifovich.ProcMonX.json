@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zodiacon",
+		"repo": "ProcMonXv2"
+	},
+	"urls": [
+		"https://github.com/zodiacon/ProcMonXv2/releases/download/{github.rawTag}/ProcMonX.exe"
+	]
+}
