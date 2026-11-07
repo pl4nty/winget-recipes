@@ -10,9 +10,7 @@
 		"https://github.com/fafarunner/fafarunner/releases/download/{github.rawTag}/fafarunner-{version}-windows-arm64-zh-CN.msi",
 		"https://github.com/fafarunner/fafarunner/releases/download/{github.rawTag}/fafarunner-{version}-windows-x64-en-US.msi",
 		"https://github.com/fafarunner/fafarunner/releases/download/{github.rawTag}/fafarunner-{version}-windows-x64-zh-CN.msi",
-		"https://github.com/fafarunner/fafarunner/releases/download/{github.rawTag}/fafarunner-{version}-windows-arm64.msix",
 		"https://github.com/fafarunner/fafarunner/releases/download/{github.rawTag}/fafarunner-{version}-windows-setup-arm64.exe",
-		"https://github.com/fafarunner/fafarunner/releases/download/{github.rawTag}/fafarunner-{version}-windows-setup-x64.exe",
-		"https://github.com/fafarunner/fafarunner/releases/download/{github.rawTag}/fafarunner-{version}-windows-x64.msix"
+		"https://github.com/fafarunner/fafarunner/releases/download/{github.rawTag}/fafarunner-{version}-windows-setup-x64.exe"
 	]
 }
