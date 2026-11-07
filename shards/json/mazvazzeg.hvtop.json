@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mazvazzeg",
+		"repo": "hvtop",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/mazvazzeg/hvtop/releases/download/{github.rawTag}/hvtop-{version}-win-x64-portable.zip"
+	]
+}
