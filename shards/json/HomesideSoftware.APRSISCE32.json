@@ -1,10 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://aprsisce.wikidot.com/downloads",
+		"regex": "<p>(\\d{4}/\\d{2}/\\d{2}) Current Release"
 	},
+	"version": "{version|/|-}",
 	"urls": [
-		"https://aprsisce.wdfiles.com/local--files/downloads/APRSIS32.zip"
-	]
+		"https://aprsisce.wikidot.com/local--files/downloads/APRSIS32.zip"
+	],
+	"replace": true
 }
