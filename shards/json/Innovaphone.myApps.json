@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://store.innovaphone.com/release/1700300/innovaphone-appstore?filename=1611053myappswindowsmyAppsSetup32.msi&nameout=myAppsSetup32.msi&update=true",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://store.innovaphone.com/release/1700300/innovaphone-appstore?filename=1611053myappswindowsmyAppsSetup.msi&nameout=myAppsSetup.msi&update=true",
+			"architecture": "x64"
+		}
+	]
+}
