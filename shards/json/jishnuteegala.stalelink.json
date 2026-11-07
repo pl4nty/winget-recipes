@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jishnuteegala",
+		"repo": "stalelink"
+	},
+	"urls": [
+		"https://github.com/jishnuteegala/stalelink/releases/download/{github.rawTag}/stalelink-aarch64-pc-windows-msvc.zip",
+		"https://github.com/jishnuteegala/stalelink/releases/download/{github.rawTag}/stalelink-x86_64-pc-windows-msvc.zip"
+	]
+}
