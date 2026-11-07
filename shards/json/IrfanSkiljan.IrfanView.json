@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.irfanview.com/",
+		"regex": "Current version (\\d+\\.\\d+)"
+	},
+	"urls": [
+		"https://download.fileforum.com/download/967963863-1/iview{version|.|}_setup.exe",
+		"https://download.fileforum.com/download/967963863-1/iview{version|.|}_x64_setup.exe"
+	]
+}
