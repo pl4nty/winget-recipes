@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.diskpart.com/changelog.html",
+		"regex": "<dt>Version (\\d+(?:\\.\\d+)+)</dt>"
+	},
+	"urls": ["https://go.diskpart.com/dl/pa/PAssist_Std.exe"]
+}
