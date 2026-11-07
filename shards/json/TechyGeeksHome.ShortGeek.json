@@ -5,8 +5,5 @@
 		"owner": "techygeekshome",
 		"repo": "ShortGeek"
 	},
-	"urls": ["https://github.com/techygeekshome/ShortGeek/releases/download/v{version}/ShortGeekSetup.exe"],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/techygeekshome/ShortGeek/releases/tag/{github.rawTag}"
-	}
+	"urls": ["https://github.com/techygeekshome/ShortGeek/releases/download/v{version}/ShortGeekSetup.exe"]
 }
