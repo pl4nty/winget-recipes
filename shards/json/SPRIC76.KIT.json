@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "SPRIC76", "repo": "KIT" },
+	"urls": ["https://github.com/SPRIC76/KIT/releases/download/{github.rawTag}/KIT-Setup.exe"]
+}
