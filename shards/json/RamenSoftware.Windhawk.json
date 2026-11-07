@@ -2,5 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": { "owner": "ramensoftware", "repo": "windhawk" },
-	"urls": ["https://github.com/ramensoftware/windhawk/releases/download/v{version}/windhawk_setup.exe"]
+	"urls": [
+		{ "url": "https://github.com/ramensoftware/windhawk/releases/download/v{version}/windhawk_setup.exe", "architecture": "x86" }
+	]
 }
