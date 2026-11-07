@@ -4,8 +4,9 @@
 	"github": {
 		"owner": "starkSV",
 		"repo": "windows-iso-downloader",
-		"method": "api-list",
-		"tagRegex": "^cli/v",
-		"assetRegex": "^msdl-windows-amd64\\.exe$"
-	}
+		"tagRegex": "^cli/v"
+	},
+	"urls": [
+		"https://github.com/starkSV/windows-iso-downloader/releases/download/{github.rawTag}/msdl-windows-amd64.exe"
+	]
 }
