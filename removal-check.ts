@@ -1,7 +1,6 @@
 import { $ } from 'bun';
-for (const [repo, n] of [['microsoft/MIDI', 100], ['microsoft/tui-test', 5]] as const) {
-	const releases = await $`gh api repos/${repo}/releases?per_page=${n}`.json();
-	for (const r of releases)
-		console.log(`## ${repo} ${r.tag_name} prerelease=${r.prerelease} ${r.published_at} ${r.name}\n${r.assets.map((a: any) => `  ${a.browser_download_url} ${a.size} ${a.digest ?? ''}`).join('\n')}`);
-	console.log((await $`gh api repos/${repo}/releases/latest --jq .tag_name`.nothrow().text()).trim());
+for (const path of ['issues/471379/comments', 'issues/471379/timeline', 'pulls/471379/reviews', 'pulls/471379/comments']) {
+	console.log(`## ${path}`);
+	const items = await $`gh api --paginate --slurp repos/microsoft/winget-pkgs/${path}`.json();
+	for (const i of items.flat()) console.log(`- ${i.created_at ?? i.submitted_at} ${i.user?.login ?? i.actor?.login} ${i.event ?? ''} ${i.label?.name ?? ''} ${(i.body ?? '').slice(0, 3000)}`);
 }
