@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "opengeos",
+		"repo": "RustGIS"
+	},
+	"urls": [
+		"https://github.com/opengeos/RustGIS/releases/download/v{version}/RustGIS-{version}-windows-x86_64-setup.exe",
+		"https://github.com/opengeos/RustGIS/releases/download/v{version}/RustGIS-{version}-windows-x86_64.msi",
+		"https://github.com/opengeos/RustGIS/releases/download/v{version}/RustGIS-{version}-windows-aarch64-setup.exe",
+		"https://github.com/opengeos/RustGIS/releases/download/v{version}/RustGIS-{version}-windows-aarch64.msi"
+	]
+}
