@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jefuriiij",
+		"repo": "ping-meter"
+	},
+	"urls": [
+		"https://github.com/jefuriiij/ping-meter/releases/download/{github.rawTag}/PingMeter.exe"
+	]
+}

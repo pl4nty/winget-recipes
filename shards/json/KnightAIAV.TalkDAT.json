@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KNIGHT-AI-AV",
+		"repo": "talk-dat-releases"
+	},
+	"urls": [
+		"https://github.com/KNIGHT-AI-AV/talk-dat-releases/releases/download/{github.rawTag}/Talk-Dat-Setup.exe"
+	]
+}
