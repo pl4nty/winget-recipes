@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bgpworks",
+		"repo": "boxhero-electron"
+	},
+	"urls": [
+		"https://github.com/bgpworks/boxhero-electron/releases/download/{github.rawTag}/BoxHero-{version}.Setup.exe",
+		"https://github.com/bgpworks/boxhero-electron/releases/download/{github.rawTag}/BoxHero-win32-x64-{version}.zip"
+	]
+}
