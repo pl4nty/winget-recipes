@@ -9,8 +9,5 @@
 	},
 	"urls": [
 		"https://github.com/cozy-labs/cozy-desktop/releases/download/{github.rawTag}/Twake-Desktop-Setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/cozy-labs/cozy-desktop/releases/tag/{github.rawTag}"
-	}
+	]
 }
