@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "roob-p",
+		"repo": "ElevatedLauncher"
+	},
+	"urls": [
+		"https://github.com/roob-p/ElevatedLauncher/releases/download/v{version}/ElevatedLauncher.Installer_x64.exe",
+		"https://github.com/roob-p/ElevatedLauncher/releases/download/v{version}/ElevatedLauncher.Installer_x86.exe"
+	]
+}
