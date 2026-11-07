@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "amitkroutthedev",
+		"repo": "Columnar"
+	},
+	"urls": [
+		"https://github.com/amitkroutthedev/Columnar/releases/download/{github.rawTag}/Columnar_{version}_x64-setup.exe",
+		"https://github.com/amitkroutthedev/Columnar/releases/download/{github.rawTag}/Columnar_{version}_x64_en-US.msi"
+	]
+}

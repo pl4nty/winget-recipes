@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "turutupa",
+		"repo": "yames"
+	},
+	"urls": [
+		"https://github.com/turutupa/yames/releases/download/v{version}/Yames_{version}_x64-setup.exe",
+		"https://github.com/turutupa/yames/releases/download/v{version}/Yames_{version}_x64_en-US.msi"
+	]
+}
