@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://audient.com/products/audio-interfaces/evo-4/downloads/",
+		"regex": "https://d9w4fhj63j193\\.cloudfront\\.net/(?<path>[^\"']*?EVO%20Drivers/EVO-v(?<version>\\d+(?:\\.\\d+)+)[a-z]?\\.exe)"
+	},
+	"version": "{version}.0",
+	"urls": [{ "url": "https://d9w4fhj63j193.cloudfront.net/{captures.path}", "architecture": "x86" }]
+}
