@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download.tixati.com/",
+		"regex": "tixati-(?<version>\\d+\\.\\d+-\\d+)\\.portable\\.zip\"(?![\\s\\S]*tixati-\\d+\\.\\d+-\\d+\\.portable\\.zip\")"
+	},
+	"urls": [
+		{
+			"url": "https://download.tixati.com/tixati-{version}.portable.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["tixati_Windows32bit.exe"]
+		},
+		{
+			"url": "https://download.tixati.com/tixati-{version}.portable.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["tixati_Windows64bit.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.tixati.com/changes/"
+	}
+}
