@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "ciromattia",
-		"repo": "kcc",
-		"method": "api-latest",
-		"assetRegex": "^(?:KCC_\\d+\\.\\d+\\.\\d+\\.exe)$"
-	}
+		"repo": "kcc"
+	},
+	"urls": [
+		"https://github.com/ciromattia/kcc/releases/download/{github.rawTag}/KCC_{version}.exe"
+	]
 }
