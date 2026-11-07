@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.netradio.info/address/",
+		"regex": "sdm_download_version_value\">(?<version>\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": ["https://www.netradio.info/download/AdressenSetup.exe"]
+}
