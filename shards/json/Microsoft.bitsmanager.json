@@ -3,10 +3,11 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "microsoft",
-		"repo": "BITS-Manager",
-		"method": "api-latest",
-		"assetRegex": "^(?:BITSManager\\.msi)$"
+		"repo": "BITS-Manager"
 	},
+	"urls": [
+		"https://github.com/microsoft/BITS-Manager/releases/download/{github.rawTag}/BITSManager.msi"
+	],
 	"version": {
 		"source": "display"
 	}
