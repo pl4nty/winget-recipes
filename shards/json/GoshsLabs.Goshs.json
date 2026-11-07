@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "goshs-labs",
+		"repo": "goshs"
+	},
+	"urls": [
+		"https://github.com/goshs-labs/goshs/releases/download/v{version}/goshs_v{version}_windows_386.zip",
+		"https://github.com/goshs-labs/goshs/releases/download/v{version}/goshs_v{version}_windows_x86_64.zip",
+		"https://github.com/goshs-labs/goshs/releases/download/v{version}/goshs_v{version}_windows_arm64.zip"
+	]
+}
