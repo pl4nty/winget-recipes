@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bgreenwell",
+		"repo": "xleak"
+	},
+	"urls": [
+		"https://github.com/bgreenwell/xleak/releases/download/{github.rawTag}/xleak-x86_64-pc-windows-msvc.msi"
+	]
+}
