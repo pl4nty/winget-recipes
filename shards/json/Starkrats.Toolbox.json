@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "display" },
+	"version": { "source": "product" },
 	"urls": ["https://starkrats.de/x86_64_avx-win64/toolbox-installer.exe", "https://starkrats.de/i386-win32/toolbox-installer.exe"],
 	"state": {
 		"source": "response-header",
