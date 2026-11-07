@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://files.vovsoft.com/bulk-domain-appraisal.exe",
+		"https://files.vovsoft.com/bulk-domain-appraisal-portable.zip"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://files.vovsoft.com/bulk-domain-appraisal.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/bulk-domain-appraisal/"
+	},
+	"replace": true
+}
