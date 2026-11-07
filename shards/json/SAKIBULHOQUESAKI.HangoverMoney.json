@@ -6,6 +6,6 @@
 		"repo": "HangoverMoney"
 	},
 	"urls": [
-		"https://github.com/saki-saki09/HangoverMoney/releases/download/v{version}/HangoverMoney_Setup_v{version}.exe"
+		{ "url": "https://github.com/saki-saki09/HangoverMoney/releases/download/v{version}/HangoverMoney_Setup_v{version}.exe", "architecture": "neutral" }
 	]
 }
