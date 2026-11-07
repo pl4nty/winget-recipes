@@ -7,5 +7,6 @@
 		"source": "response-header",
 		"url": "https://postimages.org/setup.exe",
 		"header": "etag"
-	}
+	},
+	"replace": true
 }
