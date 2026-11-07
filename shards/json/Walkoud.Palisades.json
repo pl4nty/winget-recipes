@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Walkoud",
+		"repo": "Palisades"
+	},
+	"urls": [{ "url": "https://github.com/Walkoud/Palisades/releases/download/v{version}/Palisades_setup.exe", "architecture": "x64" }]
+}
