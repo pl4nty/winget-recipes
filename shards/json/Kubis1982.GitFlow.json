@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kubis1982",
+		"repo": "GitFlow"
+	},
+	"urls": [
+		"https://github.com/kubis1982/GitFlow/releases/download/{github.rawTag}/gitflow-win-x64-v{version}.zip"
+	]
+}
