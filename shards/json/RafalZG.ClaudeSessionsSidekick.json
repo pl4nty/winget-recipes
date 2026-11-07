@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RafalZG",
+		"repo": "claude-sessions-sidekick"
+	},
+	"urls": [
+		"https://github.com/RafalZG/claude-sessions-sidekick/releases/download/v{version}/ClaudeSessionsSidekick-win-Setup.exe"
+	]
+}
