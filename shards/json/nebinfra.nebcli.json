@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nebinfra",
+		"repo": "nebcli-dist"
+	},
+	"urls": [
+		"https://github.com/nebinfra/nebcli-dist/releases/download/v{version}/nebcli_{version}_windows_amd64.zip",
+		"https://github.com/nebinfra/nebcli-dist/releases/download/v{version}/nebcli_{version}_windows_arm64.zip"
+	]
+}

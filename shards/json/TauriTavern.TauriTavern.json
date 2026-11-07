@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Darkatse",
+		"repo": "TauriTavern"
+	},
+	"urls": [
+		"https://github.com/Darkatse/TauriTavern/releases/download/v{version}/TauriTavern-{version}-windows-x64-setup.exe",
+		"https://github.com/Darkatse/TauriTavern/releases/download/v{version}/TauriTavern-{version}-windows-x64.msi"
+	]
+}
