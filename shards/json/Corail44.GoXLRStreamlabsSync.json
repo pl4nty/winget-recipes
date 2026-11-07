@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Corail44",
+		"repo": "goxlr-streamlabs-sync"
+	},
+	"urls": [
+		"https://github.com/Corail44/goxlr-streamlabs-sync/releases/download/{github.rawTag}/goxlr-streamlabs-sync.exe"
+	]
+}

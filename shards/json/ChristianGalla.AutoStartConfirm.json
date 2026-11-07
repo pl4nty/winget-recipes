@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ChristianGalla",
+		"repo": "AutoStartConfirm"
+	},
+	"urls": [
+		"https://github.com/ChristianGalla/AutoStartConfirm/releases/download/{github.rawTag}/AutoStartConfirmSetup_Standalone.msi"
+	]
+}
