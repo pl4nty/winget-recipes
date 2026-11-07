@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "omniedgeio", "repo": "omniedge" },
+	"urls": [
+		"https://github.com/omniedgeio/omniedge/releases/download/v{version}/omniedge-cli-{version}-windows-x64.zip"
+	]
+}
