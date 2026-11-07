@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://s3.amazonaws.com/ddagent-windows-stable/installers_v2.json",
+		"regex": "\"(?<version>\\d+\\.\\d+\\.\\d+)-(?<build>\\d+)\":\\s*\\{\\s*\"x86_64\":\\s*\\{\\s*\"url\":\\s*\"(?<url>[^\"]+)\"\\s*\\}\\s*\\}\\s*\\}"
+	},
+	"version": "{version}.{captures.build}",
+	"urls": ["{captures.url}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/DataDog/datadog-agent/releases/tag/{version}"
+	}
+}
