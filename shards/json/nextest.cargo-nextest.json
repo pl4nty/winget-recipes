@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "nextest-rs",
 		"repo": "nextest",
-		"method": "api-list",
 		"tagRegex": "^cargo-nextest-"
 	},
 	"urls": [
