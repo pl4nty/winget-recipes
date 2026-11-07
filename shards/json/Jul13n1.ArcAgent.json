@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Jul13n1",
+		"repo": "arc-release",
+		"tagRegex": "^agent\\-v"
+	},
+	"urls": [
+		"https://github.com/Jul13n1/arc-release/releases/download/{github.rawTag}/Arc_Installer_v{version}_windows.exe"
+	]
+}
