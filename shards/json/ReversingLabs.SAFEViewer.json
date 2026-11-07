@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.secure.software/safe-viewer",
+		"regex": "Current version of the SAFE Viewer is <strong>(\\d+(?:\\.\\d+)+)</strong>"
+	},
+	"urls": [
+		{
+			"url": "https://downloads.secure.software/rlSAFE{version|.|}-Windows-x64.zip",
+			"nestedInstallerMatches": ["rl-safe-viewer-installer-win-x64.exe"]
+		},
+		{
+			"url": "https://downloads.secure.software/rlSAFE{version|.|}-Windows-arm64.zip",
+			"nestedInstallerMatches": ["rl-safe-viewer-installer-win-arm64.exe"]
+		}
+	]
+}
