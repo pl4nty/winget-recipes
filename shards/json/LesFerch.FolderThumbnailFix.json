@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LesFerch",
+		"repo": "FolderThumbnailFix"
+	},
+	"urls": [
+		"https://github.com/LesFerch/FolderThumbnailFix/releases/download/{github.rawTag}/FolderThumbnailFix.zip"
+	]
+}
