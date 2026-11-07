@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://xrecode.com/download/",
+		"regex": "setup_xrecode3_win_64bit_(\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": [
+		"https://xrecode.com/download/setup_xrecode3_win_32bit_{version}.exe",
+		"https://xrecode.com/download/setup_xrecode3_win_64bit_{version}.exe"
+	]
+}
