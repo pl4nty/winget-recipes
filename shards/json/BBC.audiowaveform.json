@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bbc",
+		"repo": "audiowaveform",
+		"method": "api-sort",
+		"assetRegex": "^(?:audiowaveform\\-\\d+\\.\\d+\\.\\d+\\-win32\\.zip|audiowaveform\\-\\d+\\.\\d+\\.\\d+\\-win64\\.zip)$"
+	}
+}
