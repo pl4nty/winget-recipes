@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kiloscheffer",
+		"repo": "dbxignore"
+	},
+	"urls": [
+		"https://github.com/kiloscheffer/dbxignore/releases/download/{github.rawTag}/dbxignore-setup.exe"
+	]
+}
