@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/vivictorg/vivictpp/releases/download/v{version}/vivictpp-v{version}.msi"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/vivictorg/vivictpp/releases/tag/{github.rawTag}"
-	}
+	]
 }
