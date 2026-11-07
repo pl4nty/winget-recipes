@@ -3,9 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "stoplightio",
-		"repo": "prism"
-	},
-	"urls": [
-		"https://github.com/stoplightio/prism/releases/download/v{version}/prism-cli-win.exe"
-	]
+		"repo": "prism",
+		"method": "api-sort",
+		"assetRegex": "^prism-cli-win\\.exe$"
+	}
 }
