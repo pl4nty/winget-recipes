@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "smallstep",
+		"repo": "cli"
+	},
+	"urls": [
+		"https://github.com/smallstep/cli/releases/download/v{version}/step_windows_{version}_amd64.zip",
+		"https://github.com/smallstep/cli/releases/download/v{version}/step_windows_{version}_arm64.zip"
+	]
+}
