@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Pawn-Appetit",
+		"repo": "pawn-appetit"
+	},
+	"urls": ["https://github.com/Pawn-Appetit/pawn-appetit/releases/download/v{version}/Pawn.Appetit_{version}_x64-setup.exe"]
+}
