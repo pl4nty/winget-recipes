@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Oksion",
-		"repo": "XiControl",
-		"method": "api-latest",
-		"assetRegex": "^XiControl-v[\\d.]+-win-(x64|arm64|x86)\\.exe$"
-	}
+		"repo": "XiControl"
+	},
+	"urls": [
+		"https://github.com/Oksion/XiControl/releases/download/{github.rawTag}/XiControl-{github.rawTag}-win-x64.exe"
+	]
 }
