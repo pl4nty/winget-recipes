@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ABowlOfEleven",
+		"repo": "NeonPrime"
+	},
+	"urls": [
+		"https://github.com/ABowlOfEleven/NeonPrime/releases/download/{github.rawTag}/NeonPrime-{version}-Setup.msi"
+	]
+}
