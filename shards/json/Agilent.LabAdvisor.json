@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://labadvisor.pl29.agilent.com/latest"],
+		"regex": "/files/la/(?<version>\\d+(?:\\.\\d+)+)/AgilentLabAdvisor\\.msi"
+	}
+}
