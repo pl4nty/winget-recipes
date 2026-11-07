@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "maze-mei",
+		"repo": "DX-Manager"
+	},
+	"urls": ["https://github.com/maze-mei/DX-Manager/releases/download/v{version}/DX-Manager-win-x64.zip"]
+}
