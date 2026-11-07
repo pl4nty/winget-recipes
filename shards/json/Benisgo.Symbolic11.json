@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Benisgo",
+		"repo": "Symbolic11"
+	},
+	"urls": [
+		"https://github.com/Benisgo/Symbolic11/releases/download/{github.rawTag}/Symbolic11_R{version}.zip"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dirloom",
+		"repo": "dirloom"
+	},
+	"urls": [
+		"https://github.com/dirloom/dirloom/releases/download/{github.rawTag}/dirloom_Windows_arm64.zip",
+		"https://github.com/dirloom/dirloom/releases/download/{github.rawTag}/dirloom_Windows_x86_64.zip"
+	]
+}
