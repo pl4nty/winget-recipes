@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/3d19e851-55ee-4da7-bece-584d719660ed/b425e611-f2db-4aa8-a4a9-ace4935f110e/aspnetcore-runtime-11.0.0-rc.3.26522.148-win-arm64.exe",
+		"https://download.microsoft.com/download/3d19e851-55ee-4da7-bece-584d719660ed/40f7f626-5ccf-439a-9d7b-17252ca3036f/aspnetcore-runtime-11.0.0-rc.3.26522.148-win-x64.exe",
+		"https://download.microsoft.com/download/3d19e851-55ee-4da7-bece-584d719660ed/f23c4e3a-a400-499d-ac05-b1159041b762/aspnetcore-runtime-11.0.0-rc.3.26522.148-win-x86.exe"
+	]
+}
