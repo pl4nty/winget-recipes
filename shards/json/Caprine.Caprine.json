@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sindresorhus",
+		"repo": "caprine"
+	},
+	"urls": [
+		"https://github.com/sindresorhus/caprine/releases/download/{github.rawTag}/Caprine-Setup-{version}.exe"
+	]
+}
