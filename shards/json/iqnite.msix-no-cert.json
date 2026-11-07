@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "iqnite",
+		"repo": "msix-no-cert"
+	},
+	"urls": [
+		"https://github.com/iqnite/msix-no-cert/releases/download/{github.rawTag}/msix-no-cert.exe"
+	]
+}
