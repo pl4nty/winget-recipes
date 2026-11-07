@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "var-gg", "repo": "gitwink" },
+	"urls": [
+		"https://github.com/var-gg/gitwink/releases/download/v{version}/gitwink_{version}_x64-setup.exe",
+		"https://github.com/var-gg/gitwink/releases/download/v{version}/gitwink_{version}_x64_en-US.msi"
+	]
+}
