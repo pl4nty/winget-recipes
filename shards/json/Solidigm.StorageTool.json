@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.solidigm.com/support-page/drivers-downloads/ka-00085.html",
+		"regex": "/sst--(?<version>\\d+(?:-\\d+)+)/sst-gui-cli-windows--"
+	},
+	"version": "{version|-|.}",
+	"urls": [
+		{
+			"url": "https://sdmsdfwdriver.blob.core.windows.net/files/kba-gcc/drivers-downloads/ka-00085/sst--{version|.|-}/sst-gui-cli-windows--{version|.|-}.zip",
+			"nestedInstallerMatches": ["Solidigm_Storage_Tool_"]
+		}
+	]
+}
