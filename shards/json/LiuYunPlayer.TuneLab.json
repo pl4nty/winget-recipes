@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LiuYunPlayer",
+		"repo": "TuneLab"
+	},
+	"urls": [
+		"https://github.com/LiuYunPlayer/TuneLab/releases/download/{github.rawTag}/TuneLab-win-x64-v{version}.zip",
+		"https://github.com/LiuYunPlayer/TuneLab/releases/download/{github.rawTag}/TuneLab-Setup-win-x64-v{version}.exe"
+	]
+}
