@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "platten",
+		"repo": "playlistforge"
+	},
+	"urls": [
+		"https://github.com/platten/playlistforge/releases/download/v{version}/playlist-forge-{version}-windows-amd64-setup.exe",
+		"https://github.com/platten/playlistforge/releases/download/v{version}/playlist-forge-{version}-windows-arm64-setup.exe"
+	]
+}
