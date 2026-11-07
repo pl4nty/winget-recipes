@@ -1,15 +1,20 @@
 import { defineShard } from 'anthelion';
-import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"150": ["microsoft", "MIDI"], "2697": ["AariyJP", "VRCXF"], "5112": ["SocioProphet", "Noetica"], "5883": ["miangee21", "Msgify-Lite"], "2197": ["Hybrid-Solutions-Cloud", "vault-prospector-releases"], "4150": ["webtorrent", "webtorrent-desktop"], "5751": ["Beep6581", "RawTherapee"], "4191": ["x86matthew", "WoWMIPS"], "5656": ["squigit-org", "squigit"]};
+const pages: Record<string, [string, RequestInit?]> = {
+	veecad: ['https://veecad.com/downloads.html'],
+	veecadHome: ['https://veecad.com/'],
+	omnissa: ['https://customerconnect.omnissa.com/channel/public/api/v1.0/products/getRelatedDLGList?locale=en_US&category=security_and_compliance&product=omnissa_workspace_one_tunnel&version=1_0&dlgType=PRODUCT_BINARY', { headers: { 'User-Agent': 'Mozilla/5.0' } }],
+	rpm: ['https://starkrats.de/x86_64_avx-linux/toolbox.x86_64_avx.rpm', { headers: { Range: 'bytes=0-95' } }],
+};
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
 	await Promise.all(
-		Object.entries(repos).map(async ([id, [owner, repo]]) => {
+		Object.entries(pages).map(async ([id, [url, init]]) => {
 			try {
-				const { data } = await githubClient.rest.repos.listReleases({ owner, repo, per_page: 100 });
-				out[id] = data.filter((r) => !r.draft).map((r) => ({ tag: r.tag_name, pre: r.prerelease, assets: r.assets.map((a) => a.name) }));
+				const response = await fetch(url, init);
+				const text = await response.text();
+				out[id] = { status: response.status, url: response.url, length: text.length, links: [...text.matchAll(/href=["']([^"']+)["']/gi)].map((m) => m[1]).slice(0, 200), head: text.slice(0, 1500) };
 			} catch (error) {
 				out[id] = String(error);
 			}
