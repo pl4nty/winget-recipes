@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Hiram-Wong",
+		"repo": "zyfun"
+	},
+	"urls": [
+		"https://github.com/Hiram-Wong/zyfun/releases/download/{github.rawTag}/zyfun-win-{version}-arm64-setup.exe",
+		"https://github.com/Hiram-Wong/zyfun/releases/download/{github.rawTag}/zyfun-win-{version}-x64-setup.exe"
+	]
+}
