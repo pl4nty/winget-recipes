@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "joncampbell123",
 		"repo": "dosbox-x",
-		"method": "api-list",
 		"tagRegex": "^dosbox-x-v(?=\\d+\\.\\d+\\.\\d+$)"
 	},
 	"urls": [
