@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "infiniact",
+		"repo": "homebrew-iaterm"
+	},
+	"urls": [
+		"https://github.com/infiniact/homebrew-iaterm/releases/download/{github.rawTag}/IATerm_{version}_x64-setup.exe"
+	]
+}
