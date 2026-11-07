@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "display" },
+	"version": { "source": "product" },
 	"urls": ["http://files.trackmaniaforever.com/tmunitedforever_setup.exe"],
 	"state": {
 		"source": "response-header",
