@@ -9,8 +9,5 @@
 		"https://github.com/wavelog/WaveLogGate/releases/download/{github.rawTag}/WavelogGate-windows-amd64-x64.exe",
 		"https://github.com/wavelog/WaveLogGate/releases/download/{github.rawTag}/WavelogGate-windows-arm64.exe",
 		"https://github.com/wavelog/WaveLogGate/releases/download/{github.rawTag}/WavelogGate-windows-i386-x86.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/wavelog/WaveLogGate/releases/tag/{github.rawTag}"
-	}
+	]
 }
