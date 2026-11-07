@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.todesk.com/download.html",
+		"regex": "win_link:\"[^\"]*?irrigation[^\"]*?ToDesk_(\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": ["https://dl.todesk.com/irrigation/ToDesk_{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://update.todesk.com/windows/uplog.html"
+	}
+}
