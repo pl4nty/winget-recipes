@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cuong21951",
+		"repo": "cron"
+	},
+	"urls": [
+		"https://github.com/cuong21951/cron/releases/download/{github.rawTag}/cron-{version}-x86_64-pc-windows-msvc.exe"
+	]
+}
