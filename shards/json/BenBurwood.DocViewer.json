@@ -8,8 +8,5 @@
 	"urls": [
 		"https://github.com/ben-burwood/window/releases/download/{github.rawTag}/doc-viewer_{version}_x64-setup.exe",
 		"https://github.com/ben-burwood/window/releases/download/{github.rawTag}/doc-viewer_{version}_x64_en-US.msi"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/ben-burwood/window/releases/tag/{github.rawTag}"
-	}
+	]
 }
