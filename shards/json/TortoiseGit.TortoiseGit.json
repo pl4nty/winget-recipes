@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://versioncheck.tortoisegit.org/version.txt",
+		"regex": "version=(?<version>\\d+(?:\\.\\d+){3})\\s+[\\s\\S]*?baseurl=https://updater\\.download\\.tortoisegit\\.org/tgit/(?<dir>\\d+(?:\\.\\d+){3})/"
+	},
+	"urls": [
+		"https://download.tortoisegit.org/tgit/{captures.dir}/TortoiseGit-{version}-32bit.msi",
+		"https://download.tortoisegit.org/tgit/{captures.dir}/TortoiseGit-{version}-64bit.msi",
+		"https://download.tortoisegit.org/tgit/{captures.dir}/TortoiseGit-{version}-arm64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tortoisegit.org/docs/releasenotes/#Release_{version}"
+	}
+}
