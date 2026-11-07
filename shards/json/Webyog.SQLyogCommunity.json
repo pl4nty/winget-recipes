@@ -1,6 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": { "owner": "webyog", "repo": "sqlyog-community" },
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://raw.githubusercontent.com/wiki/webyog/sqlyog-community/Downloads.md",
+		"regex": "SQLyog Community Edition - (\\d+(?:\\.\\d+)+) \\(64-Bit\\)"
+	},
 	"urls": ["https://s3.amazonaws.com/SQLyog_Community/SQLyog+{version}/SQLyog-{version}-0.x64Community.exe"]
 }
