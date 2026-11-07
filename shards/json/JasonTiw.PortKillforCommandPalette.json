@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jasontiw",
+		"repo": "PowerToysCommandPalettePortKill"
+	},
+	"urls": [
+		"https://github.com/jasontiw/PowerToysCommandPalettePortKill/releases/download/{github.rawTag}/JasonTiw.PortKillforCommandPalette_{version}_Bundle.Msixbundle"
+	]
+}
