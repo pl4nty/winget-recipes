@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "shreyam1008",
+		"repo": "markpad"
+	},
+	"urls": [
+		{ "url": "https://github.com/shreyam1008/markpad/releases/download/v{version}/markpad-setup.exe", "architecture": "x64" }
+	]
+}

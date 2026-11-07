@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Martchus",
+		"repo": "syncthingtray"
+	},
+	"urls": [
+		"https://github.com/Martchus/syncthingtray/releases/download/v{version}/syncthingtray-{version}-x86_64-w64-mingw32.exe.zip",
+		"https://github.com/Martchus/syncthingtray/releases/download/v{version}/syncthingtray-{version}-aarch64-w64-mingw32.exe.zip"
+	]
+}

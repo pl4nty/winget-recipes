@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pdfkiln",
+		"repo": "pdfkiln"
+	},
+	"urls": ["https://github.com/pdfkiln/pdfkiln/releases/download/{version}/pdfkiln-{version}-windows-x64-setup.exe"]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "platwa",
+		"repo": "KanjiWidget"
+	},
+	"urls": [
+		"https://github.com/platwa/KanjiWidget/releases/download/v{version}/KanjiWidget-{version}-x64.msi",
+		"https://github.com/platwa/KanjiWidget/releases/download/v{version}/KanjiWidget-{version}-x64-setup.exe"
+	]
+}
