@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Taiizor",
+		"repo": "Sucrose"
+	},
+	"urls": [
+		"https://github.com/Taiizor/Sucrose/releases/download/v{version}/Sucrose_Bundle_.NET_Framework_4.8_x86_{version}.exe",
+		"https://github.com/Taiizor/Sucrose/releases/download/v{version}/Sucrose_Bundle_.NET_Framework_4.8_x64_{version}.exe",
+		"https://github.com/Taiizor/Sucrose/releases/download/v{version}/Sucrose_Bundle_.NET_Framework_4.8_ARM64_{version}.exe"
+	]
+}

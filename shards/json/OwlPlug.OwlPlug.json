@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "DropSnorz", "repo": "OwlPlug" },
+	"urls": ["https://github.com/DropSnorz/OwlPlug/releases/download/{version}/OwlPlug-{version}-win-x64.msi"]
+}
