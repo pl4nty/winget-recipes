@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chomusuke-mk",
+		"repo": "vidra"
+	},
+	"urls": [
+		"https://github.com/chomusuke-mk/vidra/releases/download/{github.rawTag}/vidra-windows.exe"
+	]
+}
