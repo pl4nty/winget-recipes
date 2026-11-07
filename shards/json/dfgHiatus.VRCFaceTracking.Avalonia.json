@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dfgHiatus",
+		"repo": "VRCFaceTracking.Avalonia"
+	},
+	"urls": [
+		"https://github.com/dfgHiatus/VRCFaceTracking.Avalonia/releases/download/{github.rawTag}/VRCFaceTracking.Avalonia.v{version}.Setup.exe"
+	]
+}
