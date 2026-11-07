@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.geeks3d.com/furmark/kombustor/downloads/",
+		"regex": "MSI Kombustor (?<version>4\\.\\d+\\.\\d+) \\(setup\\)"
+	},
+	"urls": ["https://gpuscore.top/msi/MSI_Kombustor4_Setup_v{version}_x64.exe"]
+}
