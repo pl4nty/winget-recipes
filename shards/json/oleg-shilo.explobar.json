@@ -3,6 +3,6 @@
 	"strategy": "github-release",
 	"github": { "owner": "oleg-shilo", "repo": "explobar" },
 	"urls": [
-		"https://github.com/oleg-shilo/explobar/releases/download/v{version}/explobar.zip"
+		{ "url": "https://github.com/oleg-shilo/explobar/releases/download/v{version}/explobar.zip", "architecture": "neutral" }
 	]
 }
