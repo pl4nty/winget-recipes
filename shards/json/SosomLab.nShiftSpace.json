@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SosomLab",
+		"repo": "nexa-shortcut"
+	},
+	"urls": [
+		"https://github.com/SosomLab/nexa-shortcut/releases/download/v{version}/nShiftSpace-x64.zip",
+		"https://github.com/SosomLab/nexa-shortcut/releases/download/v{version}/nShiftSpace-x86.zip"
+	]
+}
