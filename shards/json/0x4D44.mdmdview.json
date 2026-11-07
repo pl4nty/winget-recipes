@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/0x4D44/mdmdview/releases/download/{github.rawTag}/mdmdview-v{version}-windows-x86_64.msi"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/0x4D44/mdmdview/releases/tag/{github.rawTag}"
-	}
+	]
 }
