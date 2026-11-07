@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "leduftw",
+		"repo": "dbird"
+	},
+	"urls": [
+		"https://github.com/leduftw/dbird/releases/download/{github.rawTag}/dbird-windows-arm64.zip",
+		"https://github.com/leduftw/dbird/releases/download/{github.rawTag}/dbird-windows-x64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Hoang-Long2012",
+		"repo": "DiskInfo"
+	},
+	"urls": [
+		"https://github.com/Hoang-Long2012/DiskInfo/releases/download/{github.rawTag}/DiskInfo.zip"
+	]
+}
