@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "coldhighsun",
+		"repo": "Sloc"
+	},
+	"urls": [
+		"https://github.com/coldhighsun/Sloc/releases/download/{github.rawTag}/sloc-{version}-win-x64.zip",
+		"https://github.com/coldhighsun/Sloc/releases/download/{github.rawTag}/sloc-{version}-win-arm64.zip"
+	]
+}

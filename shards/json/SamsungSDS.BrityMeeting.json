@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{ "url": "https://www.britymeeting.com/statics/client/windows/meeting/BrityMeeting_Install_net4.exe", "architecture": "x64" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.britymeeting.com/statics/client/windows/meeting/BrityMeeting_Install_net4.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
