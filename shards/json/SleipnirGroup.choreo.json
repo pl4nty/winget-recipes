@@ -3,8 +3,7 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "SleipnirGroup",
-		"repo": "Choreo",
-		"method": "api-latest"
+		"repo": "Choreo"
 	},
 	"urls": [
 		"https://github.com/SleipnirGroup/Choreo/releases/download/v{version}/Choreo-v{version}-Windows-x86_64-setup.exe",
