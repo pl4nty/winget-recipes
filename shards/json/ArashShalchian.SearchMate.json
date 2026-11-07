@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "A-Shalchian",
+		"repo": "SearchMate"
+	},
+	"urls": [
+		"https://github.com/A-Shalchian/SearchMate/releases/download/{github.rawTag}/SearchMate-Setup-{version}.exe"
+	]
+}
