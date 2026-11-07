@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JuanPRG",
+		"repo": "hirepilot-releases"
+	},
+	"urls": [
+		"https://github.com/JuanPRG/hirepilot-releases/releases/download/{github.rawTag}/HirePilot-Setup-v{version}.exe"
+	]
+}
