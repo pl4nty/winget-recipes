@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/merge-xml-files/",
+		"regex": "<span class=\"notranslate\">Merge XML Files (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		{
+			"url": "https://files.vovsoft.com/merge-xml-files.exe",
+			"architecture": "x64"
+		},
+		"https://files.vovsoft.com/merge-xml-files-portable.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/merge-xml-files/"
+	}
+}
