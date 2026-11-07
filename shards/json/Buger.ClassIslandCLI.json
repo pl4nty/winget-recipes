@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "QiBowen2008",
+		"owner": "Buger2008",
 		"repo": "ClassIslandCLI",
 		"tagRegex": "^CLI",
 		"method": "api-sort",
