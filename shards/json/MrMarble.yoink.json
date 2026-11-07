@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MrMarble",
+		"repo": "yoink"
+	},
+	"urls": ["https://github.com/MrMarble/yoink/releases/download/v{version}/yoink_windows_amd64.zip"]
+}
