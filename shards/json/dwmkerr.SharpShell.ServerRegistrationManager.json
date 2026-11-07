@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "dwmkerr",
+		"repo": "sharpshell"
+	},
+	"urls": [
+		"https://github.com/dwmkerr/sharpshell/releases/download/{github.rawTag}/ServerRegistrationManager.zip"
+	]
+}
