@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "neokapi",
+		"repo": "neokapi",
+		"method": "api-list",
+		"tagRegex": "^v(?=\\d+\\.\\d+\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/neokapi/neokapi/releases/download/{github.rawTag}/kapi-{version}-windows-amd64-setup.exe",
+		"https://github.com/neokapi/neokapi/releases/download/{github.rawTag}/kapi-{version}-windows-arm64-setup.exe"
+	]
+}
