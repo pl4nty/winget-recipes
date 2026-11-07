@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Yaksharo",
+		"repo": "appraisal-filler",
+		"method": "api-latest",
+		"assetRegex": "^AdviseeDocFiller-Setup-v?\\d+(?:\\.\\d+)*\\.exe$"
+	},
+	"version": "{github.rawTag}"
+}
