@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "scryer-media",
 		"repo": "weaver",
-		"method": "api-list",
 		"tagRegex": "^weaver-v"
 	},
 	"urls": [
