@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DeXP",
+		"repo": "EbookTalker"
+	},
+	"urls": [
+		"https://github.com/DeXP/EbookTalker/releases/download/{github.rawTag}/EbookTalker-{version}-Win64-Installer.exe"
+	]
+}
