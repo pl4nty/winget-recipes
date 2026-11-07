@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "cornradio",
 		"repo": "pausemygame",
-		"method": "api-list",
 		"tagRegex": "-wpf$"
 	},
 	"urls": [
