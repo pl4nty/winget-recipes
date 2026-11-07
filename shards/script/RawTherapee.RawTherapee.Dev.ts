@@ -9,12 +9,12 @@ const tag = 'nightly-github-actions';
 // latest stable tag, commits since it, and the abbreviated commit of the nightly tag.
 export default defineShard(async () => {
 	const nightly = await getReleaseByTag({ owner, repo, tag });
-	const asset = nightly.assets.find((a) => /^RawTherapee_dev_(?:.+_)?win64_release\.exe$/i.test(a.name));
+	const asset = nightly.assets.find((a) => /^RawTherapee_dev_(?:.+_)?win64_(?:x86_64_)?release\.exe$/i.test(a.name));
 	if (!asset) {
 		throw new Error('No win64 release installer in the nightly release');
 	}
 
-	const named = /^RawTherapee_dev_(\d+\.\d+(?:\.\d+)?-\d+-g[0-9a-f]+)_win64_release\.exe$/i.exec(asset.name)?.[1];
+	const named = /^RawTherapee_dev_(\d+\.\d+(?:\.\d+)?-\d+-g[0-9a-f]+)_win64_(?:x86_64_)?release\.exe$/i.exec(asset.name)?.[1];
 	let version = named;
 	if (!version) {
 		const { rawTag: base } = await getLatestRelease({ owner, repo, kind: 'stable' });
