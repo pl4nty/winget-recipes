@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": ["https://ta5.blob.core.windows.net/whoson10updates/WhosOnClient10.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://ta5.blob.core.windows.net/whoson10updates/WhosOnClient10.msi",
+		"header": "etag"
+	},
+	"replace": true
+}

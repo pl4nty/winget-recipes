@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jurplel",
+		"repo": "qView"
+	},
+	"urls": [
+		"https://github.com/jurplel/qView/releases/download/{github.rawTag}/qView-{version}-win32.exe",
+		"https://github.com/jurplel/qView/releases/download/{github.rawTag}/qView-{version}-win64.exe",
+		"https://github.com/jurplel/qView/releases/download/{github.rawTag}/qView-{version}-winarm64.exe"
+	]
+}
