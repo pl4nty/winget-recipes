@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Octonove",
+		"repo": "guiaclick"
+	},
+	"urls": [
+		"https://github.com/Octonove/guiaclick/releases/download/v{version}/GuiaClick-Setup.exe"
+	]
+}
