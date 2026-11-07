@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://s3.multibasecs.de/releases/desktop/latest/MultiBaseCS-Home-x64.msi"
+	]
+}
