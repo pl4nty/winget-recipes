@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "XueYeHuLabs",
+		"repo": "dogdouspec"
+	},
+	"urls": ["https://github.com/XueYeHuLabs/dogdouspec/releases/download/v{version}/dogdouspec-win-x64.zip"]
+}

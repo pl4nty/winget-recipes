@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elguala9",
+		"repo": "GitSearcher"
+	},
+	"urls": [
+		{ "url": "https://github.com/elguala9/GitSearcher/releases/download/v{version}/GitSearcher-Setup-{version}.exe", "architecture": "x64" }
+	]
+}
