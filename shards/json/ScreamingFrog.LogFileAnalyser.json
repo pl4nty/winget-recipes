@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.screamingfrog.co.uk/log-file-analyser/",
+		"regex": "/products/log-file-analyser/ScreamingFrogLogFileAnalyser-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://download.screamingfrog.co.uk/products/log-file-analyser/ScreamingFrogLogFileAnalyser-{version}.exe"]
+}
