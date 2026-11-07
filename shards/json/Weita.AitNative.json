@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "weita2026",
+		"repo": "ait-native"
+	},
+	"urls": [
+		"https://github.com/weita2026/ait-native/releases/download/v{version}/ait-native-{version}-aarch64-pc-windows-msvc.zip",
+		"https://github.com/weita2026/ait-native/releases/download/v{version}/ait-native-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
