@@ -7,5 +7,6 @@
 		"source": "response-header",
 		"url": "https://mattercontrol.appspot.com/downloads/mattercontrol-windows/release?ref=5NEP8W",
 		"header": "content-length"
-	}
+	},
+	"replace": true
 }
