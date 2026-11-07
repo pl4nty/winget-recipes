@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "reville", "repo": "lighttable-digital-darkroom" },
+	"urls": ["https://github.com/reville/lighttable-digital-darkroom/releases/download/{github.rawTag}/LightTable-{version}-windows-x64-setup.exe"]
+}
