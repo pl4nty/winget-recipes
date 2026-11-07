@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "VoidenHQ", "repo": "voiden" },
+	"urls": ["https://github.com/VoidenHQ/voiden/releases/download/v{version}/Voiden.Setup.{version}.exe"]
+}
