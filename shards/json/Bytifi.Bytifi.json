@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jpwcguy",
+		"repo": "Bytifi"
+	},
+	"urls": [
+		"https://github.com/jpwcguy/Bytifi/releases/download/{github.rawTag}/bytifi.exe"
+	]
+}

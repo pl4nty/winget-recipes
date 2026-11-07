@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xfurqan0",
+		"repo": "nazar-tray"
+	},
+	"urls": [
+		"https://github.com/xfurqan0/nazar-tray/releases/download/{github.rawTag}/nazar-tray_{version}_x64-setup.exe"
+	]
+}
