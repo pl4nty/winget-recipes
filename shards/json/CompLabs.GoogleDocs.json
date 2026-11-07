@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Comp-Labs",
+		"repo": "Google-Docs"
+	},
+	"urls": ["https://github.com/Comp-Labs/Google-Docs/releases/download/v{version}/Google-Docs-win-{version}.exe"]
+}

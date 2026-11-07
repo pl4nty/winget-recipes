@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ilpianista",
+		"repo": "winaskpass"
+	},
+	"urls": [
+		"https://github.com/ilpianista/winaskpass/releases/download/{github.rawTag}/winaskpass.exe"
+	]
+}
