@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BloretCrew",
+		"repo": "Bloret-Launcher"
+	},
+	"urls": [
+		"https://github.com/BloretCrew/Bloret-Launcher/releases/download/{github.rawTag}/Bloret-Launcher-Setup.exe"
+	]
+}
