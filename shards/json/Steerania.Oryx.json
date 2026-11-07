@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "wmahfoudh", "repo": "oryx" },
+	"urls": ["https://github.com/wmahfoudh/oryx/releases/download/v{version}/oryx-{version}-windows-x86_64.msi"]
+}
