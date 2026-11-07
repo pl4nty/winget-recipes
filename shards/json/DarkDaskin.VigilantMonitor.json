@@ -10,8 +10,5 @@
 		"https://github.com/DarkDaskin/VigilantMonitor/releases/download/{github.rawTag}/VigilantMonitorSetup_ARM64.msi",
 		"https://github.com/DarkDaskin/VigilantMonitor/releases/download/{github.rawTag}/VigilantMonitorSetup_x64.msi",
 		"https://github.com/DarkDaskin/VigilantMonitor/releases/download/{github.rawTag}/VigilantMonitorSetup_x86.msi"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/DarkDaskin/VigilantMonitor/releases/tag/{github.rawTag}"
-	}
+	]
 }
