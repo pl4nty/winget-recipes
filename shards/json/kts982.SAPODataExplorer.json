@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kts982",
+		"repo": "sap-odata-explorer"
+	},
+	"urls": [
+		"https://github.com/kts982/sap-odata-explorer/releases/download/{github.rawTag}/SAP-OData-Explorer_{version}_x64_en-US.msi",
+		"https://github.com/kts982/sap-odata-explorer/releases/download/{github.rawTag}/SAP-OData-Explorer_{version}_x64-setup.exe"
+	]
+}
