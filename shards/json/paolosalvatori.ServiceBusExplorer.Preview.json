@@ -13,8 +13,5 @@
 			"url": "https://github.com/paolosalvatori/ServiceBusExplorer/releases/download/{github.rawTag}/ServiceBusExplorer-{github.rawTag}.zip",
 			"architecture": "x64"
 		}
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/paolosalvatori/ServiceBusExplorer/releases/tag/{github.rawTag}"
-	}
+	]
 }
