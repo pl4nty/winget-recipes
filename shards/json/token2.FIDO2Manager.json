@@ -16,8 +16,5 @@
 			"architecture": "x86",
 			"nestedInstallerMatches": ["FIDO2.1 Manager.exe"]
 		}
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/token2/fido2-manage.cpp/releases/tag/{version}"
-	}
+	]
 }
