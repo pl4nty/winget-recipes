@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "no-faff",
+		"repo": "InstallerClean"
+	},
+	"urls": ["https://github.com/no-faff/InstallerClean/releases/download/v{version}/InstallerClean-{version}-setup.exe"]
+}
