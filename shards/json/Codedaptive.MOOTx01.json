@@ -8,8 +8,5 @@
 	"urls": [
 		"https://github.com/codedaptive/mootx01-ce/releases/download/{github.rawTag}/mootx01-{version}-windows-arm64-setup.exe",
 		"https://github.com/codedaptive/mootx01-ce/releases/download/{github.rawTag}/mootx01-{version}-windows-x86_64-setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/codedaptive/mootx01-ce/releases/tag/{github.rawTag}"
-	}
+	]
 }
