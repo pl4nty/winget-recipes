@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "standardnotes",
 		"repo": "app",
-		"method": "api-sort",
 		"tagRegex": "^@standardnotes/desktop@"
 	},
 	"urls": [
