@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "asciimoo",
+		"repo": "hister"
+	},
+	"urls": [
+		"https://github.com/asciimoo/hister/releases/download/{github.rawTag}/hister_{version}_windows_amd64.exe"
+	]
+}
