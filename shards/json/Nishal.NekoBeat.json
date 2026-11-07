@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "nishal21",
 		"repo": "NekoBeat",
-		"method": "api-list",
 		"tagRegex": "^app-v(?=\\d+(?:\\.\\d+)+$)"
 	},
 	"urls": [
