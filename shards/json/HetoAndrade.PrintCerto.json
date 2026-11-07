@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "hetoandrade",
 		"repo": "hetoandrade.github.io",
-		"method": "api-sort",
 		"tagRegex": "^printcerto\\-v"
 	},
 	"urls": [
