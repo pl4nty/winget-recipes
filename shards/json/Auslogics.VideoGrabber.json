@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://downloads.auslogics.com/en/video-grabber/auslogics-video-grabber-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.auslogics.com/en/software/video-grabber/ajax/history/"
+	}
+}
