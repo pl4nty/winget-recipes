@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jeffu231",
+		"repo": "Radio-Automation"
+	},
+	"urls": [
+		"https://github.com/jeffu231/Radio-Automation/releases/download/{github.rawTag}/Radio-Automation-v{version}-x64.msi"
+	]
+}
