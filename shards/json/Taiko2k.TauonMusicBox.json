@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Taiko2k",
+		"repo": "Tauon",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "^v\\d+(?:\\.\\d+)+$",
+		"assetRegex": "^TauonMusicBox-windows-installer\\.exe$"
+	}
+}
