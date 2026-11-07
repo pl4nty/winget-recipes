@@ -1,7 +1,8 @@
 import { defineShard } from 'anthelion';
 import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"3330": ["racemo-dev", "racemo-client"], "4070": ["ronnikols", "SNBT-AI-Localizer"], "4235": ["Yovancas", "claudebar-win"], "4253": ["stoplightio", "prism"], "5046": ["tbillington", "kondo"], "5076": ["RangS-1", "Ferminal"], "5220": ["MazeratorGame", "Mazerator"], "5339": ["u14app", "neo-chat"], "5434": ["zack-zzq", "skillmux"], "5498": ["Hyeonjun0527", "discord-ai-network-bot"], "5894": ["yazanmwk", "TypeSymbol"], "5919": ["RaphGL", "Tuckr"], "5938": ["objz", "rmcl"], "5989": ["1930-dev", "azure-vpn-cli"], "5997": ["product-noob", "launchpad-app"], "5843": ["Nbc66", "VTFEdit-Reloaded"], "5656": ["squigit-org", "squigit"]};
+const repos: Record<string, [string, string]> = {"5032": ["rayenghanmi", "RyTuneX"], "4220": ["kittech197718", "MCAD2026-releases"], "5255": ["ydbilgin", "windows-care-kit"], "5619": ["philberndt", "GPTranslate"], "5938": ["objz", "rmcl"], "2299": ["jazzdelightsme", "PowershellStub"], "4485": ["gsmitheidw", "iotop-w"], "3537": ["picguard", "picguard"], "4577": ["lucianbumb", "MarkdownViewer"], "2089": ["yyqh01", "reaper_yyqh_plugins"], "3511": ["diskuv", "dk"]};
+const users = ["kittech197718", "ydbilgin", "objz", "philberndt", "yyqh01"];
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
@@ -12,6 +13,16 @@ export default defineShard(async () => {
 				out[id] = data.filter((r) => !r.draft).map((r) => ({ tag: r.tag_name, pre: r.prerelease, assets: r.assets.map((a) => a.name) }));
 			} catch (error) {
 				out[id] = String(error);
+			}
+		}),
+	);
+	await Promise.all(
+		users.map(async (u) => {
+			try {
+				const { data } = await githubClient.rest.repos.listForUser({ username: u, per_page: 100 });
+				out['user:' + u] = data.map((r) => r.full_name);
+			} catch (error) {
+				out['user:' + u] = String(error);
 			}
 		}),
 	);
