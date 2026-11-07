@@ -10,8 +10,5 @@
 	},
 	"urls": [
 		"https://github.com/phw198/OutlookGoogleCalendarSync/releases/download/{github.rawTag}/OGCS_Setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/phw198/OutlookGoogleCalendarSync/releases/tag/{github.rawTag}"
-	}
+	]
 }
