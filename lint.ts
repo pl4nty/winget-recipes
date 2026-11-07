@@ -11,13 +11,15 @@ type Report = (file: string, message: string) => void;
 type Rule = (shards: string[], report: Report) => Promise<void>;
 
 const id = (shard: string) => basename(shard).replace(/\.(json|ts)$/, '');
+// Shards in shards/dry-run only show new versions: Anthelion submits only from shards/json and shards/script.
+const dryRunOnly = (shard: string) => shard.startsWith('shards/dry-run/');
 
 // Another bot already submits these packages, so a shard here would race it.
 const maintained: Rule = async (shards, report) => {
 	const rows = (await readFile('maintainers.csv', 'utf8')).trim().split('\n').slice(1);
 	const maintainers = new Map(rows.map((row) => [row.split(',')[0]!.toLowerCase(), row.split(',')[1] ?? '']));
 	const wildcards = [...maintainers].filter(([pattern]) => pattern.endsWith('.*'));
-	for (const shard of shards) {
+	for (const shard of shards.filter((shard) => !dryRunOnly(shard))) {
 		const key = id(shard).toLowerCase();
 		const others = [
 			maintainers.get(key) ?? '',
@@ -311,6 +313,7 @@ const dryRuns = (shards: string[]) =>
 
 const droppedFields: Rule = async (shards, report) => {
 	for (const { shard, latest, raws, yamls } of await dryRuns(shards)) {
+		if (dryRunOnly(shard)) continue;
 		// komac writes ReleaseNotesUrl for a GitHub release only when the release has notes.
 		const { strategy, releaseNotes } = shard.endsWith('.json') ? JSON.parse(await readFile(shard, 'utf8')) : {};
 		const githubNotes = strategy === 'github-release' && !releaseNotes;
@@ -451,7 +454,7 @@ const rules: Record<string, Rule> = process.argv.includes('--dry-run')
 const WARNINGS = new Set(['release-notes-url']);
 // GitHub shows only 10 warnings per step, so pull requests get warnings for their own shards only.
 const changed = process.env.BASE && (await $`git diff --name-only ${process.env.BASE} HEAD`.text()).split('\n');
-const shards = (await Array.fromAsync(glob('shards/{json,script}/*.{json,ts}'))).sort();
+const shards = (await Array.fromAsync(glob('shards/{json,script,dry-run/json,dry-run/script}/*.{json,ts}'))).sort();
 let errors = 0;
 for (const [name, rule] of Object.entries(rules)) {
 	await rule(shards, (file, message) => {
