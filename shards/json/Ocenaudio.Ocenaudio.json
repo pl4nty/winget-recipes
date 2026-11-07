@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ocenaudio.com/download",
+		"regex": "ocenaudio_windows64\\.exe</p>\\s*<p>Version (?<version>\\d+(?:\\.\\d+)+)</p>"
+	},
+	"urls": ["https://www.ocenaudio.com/downloads/index.php/ocenaudio_windows64.exe?version=v{version}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ocenaudio.com/changelog"
+	}
+}
