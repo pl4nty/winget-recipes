@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "flick9000",
+		"repo": "winscript"
+	},
+	"urls": ["https://github.com/flick9000/winscript/releases/download/v{version}/winscript-installer.exe"]
+}
