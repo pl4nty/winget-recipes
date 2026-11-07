@@ -10,8 +10,5 @@
 	},
 	"urls": [
 		"https://github.com/changepacks/changepacks/releases/download/{github.rawTag}/changepacks-windows-x86_64.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/changepacks/changepacks/releases/tag/{github.rawTag}"
-	}
+	]
 }
