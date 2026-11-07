@@ -6,6 +6,6 @@
 		"repo": "minecraft-insomnia"
 	},
 	"urls": [
-		"https://github.com/DanTheMan827/minecraft-insomnia/releases/download/{github.rawTag}/MinecraftInsomnia.exe"
+		{ "url": "https://github.com/DanTheMan827/minecraft-insomnia/releases/download/{github.rawTag}/MinecraftInsomnia.exe", "architecture": "neutral" }
 	]
 }
