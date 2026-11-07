@@ -1,9 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": {
-		"source": "display"
-	},
+	"version": "8.0.33",
 	"urls": [
 		"https://download.microsoft.com/download/ee69e3b0-0ec6-429a-82db-70c18a6a445b/5b11d1c2-2aec-48ed-b0dc-7ff4793201a6/dotnet-runtime-8.0.33-win-x64.exe",
 		"https://download.microsoft.com/download/ee69e3b0-0ec6-429a-82db-70c18a6a445b/220d5d9f-6542-485f-99c3-6038d885986f/dotnet-runtime-8.0.33-win-x86.exe",

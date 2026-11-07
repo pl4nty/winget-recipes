@@ -329,6 +329,9 @@ const dryRunValues: Rule = async (shards, report) => {
 			report(shard, `${name}: dry run version ${version} is ${latest} written differently`);
 		else if (/[\s()]/.test(version) && !/[\s()]/.test(latest))
 			report(shard, `${name}: dry run version ${version} has spaces or brackets, unlike ${latest}`);
+		const hashes = new Set(before.map((installer) => installer.InstallerSha256));
+		if (version !== latest && after.every((installer) => hashes.has(installer.InstallerSha256)))
+			report(shard, `${name}: dry run version ${version} has the same installers as ${latest}`);
 
 		const remaining = after.map((installer) => installer.Architecture);
 		const missing = before.filter((installer) => {

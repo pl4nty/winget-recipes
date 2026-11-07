@@ -1,9 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": {
-		"source": "display"
-	},
+	"version": "20.2.1",
 	"urls": [
 		{ "url": "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-DEU.exe", "architecture": "x64" },
 		{ "url": "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-ENU.exe", "architecture": "x64" },

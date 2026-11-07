@@ -1,9 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": {
-		"source": "display"
-	},
+	"version": "4.3",
 	"urls": [
 		"https://typescriptteam.gallerycdn.vsassets.io/extensions/typescriptteam/typescript-43/4.3/1622050134497/TypeScript_SDK_4.3.exe"
 	]

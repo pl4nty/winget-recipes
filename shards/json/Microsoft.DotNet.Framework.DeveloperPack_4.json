@@ -1,9 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": {
-		"source": "product"
-	},
+	"version": "4.8.1",
 	"urls": [
 		{
 			"url": "https://download.microsoft.com/download/8/1/8/81877d8b-a9b2-4153-9ad2-63a6441d11dd/NDP481-DevPack-ENU.exe",

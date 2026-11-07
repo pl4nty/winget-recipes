@@ -1,9 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": {
-		"source": "display"
-	},
+	"version": "3.0.3",
 	"urls": [
 		"https://www.ivifoundation.org/downloads/Shared%20Components/IviSharedComponents_303.exe"
 	]
