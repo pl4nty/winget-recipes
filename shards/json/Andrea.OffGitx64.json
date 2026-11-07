@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NuggiDev",
+		"repo": "OffGit"
+	},
+	"urls": [
+		"https://github.com/NuggiDev/OffGit/releases/download/{github.rawTag}/OffGitx64.exe"
+	]
+}

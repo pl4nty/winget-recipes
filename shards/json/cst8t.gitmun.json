@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cst8t",
+		"repo": "gitmun"
+	},
+	"urls": [
+		"https://github.com/cst8t/gitmun/releases/download/{github.rawTag}/Gitmun_{version}_x64-setup.exe",
+		"https://github.com/cst8t/gitmun/releases/download/{github.rawTag}/Gitmun_{version}_x64.msi"
+	]
+}

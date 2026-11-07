@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Der-Floh",
+		"repo": "Cursor-Installer-Creator"
+	},
+	"urls": [
+		"https://github.com/Der-Floh/Cursor-Installer-Creator/releases/download/{github.rawTag}/CursorInstallerCreator-win-arm64-Setup.exe",
+		"https://github.com/Der-Floh/Cursor-Installer-Creator/releases/download/{github.rawTag}/CursorInstallerCreator-win-x64-Setup.exe",
+		"https://github.com/Der-Floh/Cursor-Installer-Creator/releases/download/{github.rawTag}/CursorInstallerCreator-win-x86-Setup.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kanban-rs",
+		"repo": "kanban"
+	},
+	"urls": [
+		"https://github.com/kanban-rs/kanban/releases/download/{github.rawTag}/kanban-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
