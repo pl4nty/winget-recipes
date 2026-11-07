@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "celloza",
+		"repo": "porthole",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/celloza/porthole/releases/download/{github.rawTag}/Porthole-{version}-arm64.msi",
+		"https://github.com/celloza/porthole/releases/download/{github.rawTag}/Porthole-{version}-x64.msi"
+	]
+}
