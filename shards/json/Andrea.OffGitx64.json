@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/NuggiDev/OffGit/releases/download/{github.rawTag}/OffGitx64.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/NuggiDev/OffGit/releases/tag/{github.rawTag}"
-	}
+	]
 }
