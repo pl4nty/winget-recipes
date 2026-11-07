@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nirsoft.net/utils/shexview.html",
+		"regex": "Versions History</h4>\\s*<table[^>]*>\\s*<tr class=\"utiltableheader\">.*\\s*<tr><td>[^<]*<td>\\s*(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://www.nirsoft.net/utils/shexview_setup.exe",
+		{
+			"url": "https://www.nirsoft.net/utils/shexview.zip",
+			"architecture": "x86"
+		},
+		"https://www.nirsoft.net/utils/shexview-x64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nirsoft.net/utils/shexview.html#:~:text=Versions%20History"
+	},
+	"replace": true
+}
