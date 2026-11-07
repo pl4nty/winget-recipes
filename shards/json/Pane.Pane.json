@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ItsJazii",
+		"repo": "pane"
+	},
+	"urls": ["https://github.com/ItsJazii/pane/releases/download/v{version}/Pane_{version}_x64-setup.exe"]
+}
