@@ -8,8 +8,5 @@
 	"urls": [
 		"https://github.com/Asdmir786/HalalDL/releases/download/{github.rawTag}/HalalDL-Full-v{version}-win10%2B11-x64-setup.exe",
 		"https://github.com/Asdmir786/HalalDL/releases/download/{github.rawTag}/HalalDL-Full-v{version}-win10%2B11-x64.msi"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Asdmir786/HalalDL/releases/tag/{github.rawTag}"
-	}
+	]
 }
