@@ -4,8 +4,10 @@
 	"version": "v{version}",
 	"github": {
 		"owner": "gptscript-ai",
-		"repo": "gptscript",
-		"method": "api-latest",
-		"assetRegex": "^(?:gptscript\\-v\\d+\\.\\d+\\.\\d+\\-windows\\-amd64\\.zip|gptscript\\-v\\d+\\.\\d+\\.\\d+\\-windows\\-arm64\\.zip)$"
-	}
+		"repo": "gptscript"
+	},
+	"urls": [
+		"https://github.com/gptscript-ai/gptscript/releases/download/{github.rawTag}/gptscript-{github.rawTag}-windows-amd64.zip",
+		"https://github.com/gptscript-ai/gptscript/releases/download/{github.rawTag}/gptscript-{github.rawTag}-windows-arm64.zip"
+	]
 }
