@@ -9,8 +9,5 @@
 	},
 	"urls": [
 		"https://github.com/horihiro/runx/releases/download/{github.rawTag}/runx-windows-amd64-v{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/horihiro/runx/releases/tag/{github.rawTag}"
-	}
+	]
 }
