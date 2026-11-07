@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mitsoft.lt/lt/sprendimai/signa-desktop",
+		"regex": "(?<file>Signa_v(?<version>\\d+\\.\\d+)_(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})_lt_jre\\.msi)"
+	},
+	"version": "{version}.{captures.year}.{captures.month}{captures.day}",
+	"urls": ["https://www.mitsoft.lt/sites/mitsoft/files/{captures.file}"]
+}
