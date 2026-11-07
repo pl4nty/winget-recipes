@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/dzonder/sshells/releases/download/{github.rawTag}/sshells.exe-v{version}-x86_64-pc-windows-msvc.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/dzonder/sshells/releases/tag/{github.rawTag}"
-	}
+	]
 }
