@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "jackaudio", "repo": "jack2-releases" },
+	"urls": [
+		"https://github.com/jackaudio/jack2-releases/releases/download/v{version}/jack2-win64-v{version}.exe",
+		"https://github.com/jackaudio/jack2-releases/releases/download/v{version}/jack2-win32-v{version}.exe"
+	]
+}
