@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://channel.io/us/download/windows-64",
+			"https://channel.io/us/download/windows"
+		],
+		"regex": "/releases/download/v(\\d+(?:\\.\\d+)+)/ChannelSetup\\.exe$"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/channel-io/channel-desk-windows-x64/releases/download/v{version}/ChannelSetup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/channel-io/channel-desk-windows/releases/download/v{version}/ChannelSetup.exe",
+			"architecture": "x86"
+		}
+	]
+}
