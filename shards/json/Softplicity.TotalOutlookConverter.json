@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://www.coolutils.com/Downloads/TotalOutlookConverter.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.coolutils.com/Downloads/TotalOutlookConverter.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
