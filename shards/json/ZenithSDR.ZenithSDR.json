@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://zenithsdr.tech/download/trial"],
+		"regex": "/ZenithSDR_Setup_(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	}
+}
