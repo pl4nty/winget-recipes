@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "open-cli-collective",
 		"repo": "atlassian-cli",
-		"method": "api-list",
 		"tagRegex": "^jtk-v"
 	},
 	"urls": [
