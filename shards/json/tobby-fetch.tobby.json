@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tobby-fetch",
+		"repo": "tobby-fetch"
+	},
+	"urls": [
+		"https://github.com/tobby-fetch/tobby-fetch/releases/download/v{version}/tobby-windows-amd64.exe",
+		"https://github.com/tobby-fetch/tobby-fetch/releases/download/v{version}/tobby-windows-arm64.exe"
+	]
+}
