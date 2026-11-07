@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "AdoptOpenJDK",
+		"repo": "openjdk17-binaries",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^(?:OpenJDK\\-jdk_x64_windows_hotspot_\\d+\\-\\d+\\-\\d+\\-\\d+\\-\\d+\\.msi|OpenJDK\\-jdk_x86\\-\\d+_windows_hotspot_\\d+\\-\\d+\\-\\d+\\-\\d+\\-\\d+\\.msi)$"
+	}
+}
