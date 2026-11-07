@@ -15,8 +15,5 @@
 		"https://github.com/harungecit/IndepenDesk/releases/download/{github.rawTag}/IndepenDesk-{version}-x64.msix",
 		"https://github.com/harungecit/IndepenDesk/releases/download/{github.rawTag}/IndepenDesk-{version}-x86.msi",
 		"https://github.com/harungecit/IndepenDesk/releases/download/{github.rawTag}/IndepenDesk-{version}-x86.msix"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/harungecit/IndepenDesk/releases/tag/{github.rawTag}"
-	}
+	]
 }
