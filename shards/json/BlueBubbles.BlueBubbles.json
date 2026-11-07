@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "BlueBubblesApp",
 		"repo": "bluebubbles-app",
-		"method": "api-list",
 		"tagRegex": "\\+desktop\\..*$"
 	},
 	"urls": [
