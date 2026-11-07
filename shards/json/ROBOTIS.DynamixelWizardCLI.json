@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://apps.robotis.com/dxl_wizard2/cli/version.json", "path": "version" },
+	"urls": ["https://apps.robotis.com/dxl_wizard2/cli/wizard-cli-{version}-windows-x64.zip"]
+}
