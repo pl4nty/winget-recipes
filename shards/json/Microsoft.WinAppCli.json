@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "winappcli"
+	},
+	"urls": [
+		"https://github.com/microsoft/winappcli/releases/download/v{version}/winappcli_x64.msix",
+		"https://github.com/microsoft/winappcli/releases/download/v{version}/winappcli_arm64.msix",
+		"https://github.com/microsoft/winappcli/releases/download/v{version}/winappcli-x64.zip",
+		"https://github.com/microsoft/winappcli/releases/download/v{version}/winappcli-arm64.zip"
+	]
+}
