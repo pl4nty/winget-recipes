@@ -5,5 +5,7 @@
 		"owner": "hydrusnetwork",
 		"repo": "hydrus"
 	},
-	"urls": ["https://github.com/hydrusnetwork/hydrus/releases/download/v{version}/Hydrus.Network.{version}.-.Windows.-.Installer.exe"]
+	"urls": [
+		{ "url": "https://github.com/hydrusnetwork/hydrus/releases/download/v{version}/Hydrus.Network.{version}.-.Windows.-.Installer.exe", "architecture": "x64" }
+	]
 }
