@@ -2,5 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": { "owner": "Stremio", "repo": "stremio-service" },
-	"urls": ["https://github.com/Stremio/stremio-service/releases/download/v{version}/stremio-service-windows.zip"]
+	"urls": [
+		{ "url": "https://github.com/Stremio/stremio-service/releases/download/v{version}/stremio-service-windows.zip", "architecture": "neutral" }
+	]
 }
