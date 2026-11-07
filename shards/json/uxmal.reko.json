@@ -5,7 +5,8 @@
 		"owner": "uxmal",
 		"repo": "reko",
 		"method": "api-list",
-		"tagRegex": "^version-",
+		"tagRegex": "^v?ersion-",
 		"assetRegex": "^Reko-[\\d.]+-x(64|86)-[0-9a-f]+\\.msi$"
-	}
+	},
+	"version": "{version}.0"
 }
