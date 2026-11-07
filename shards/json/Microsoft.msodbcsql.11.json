@@ -1,0 +1,34 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/5/7/2/57249A3A-19D6-4901-ACCE-80924ABEB267/ENU/x86/msodbcsql.msi",
+		"https://download.microsoft.com/download/5/7/2/57249A3A-19D6-4901-ACCE-80924ABEB267/ENU/x64/msodbcsql.msi",
+		"https://download.microsoft.com/download/A/8/8/A88B2D14-DADF-4933-8E91-7E1A33DEBBE6/GER/x86/msodbcsql.msi",
+		"https://download.microsoft.com/download/A/8/8/A88B2D14-DADF-4933-8E91-7E1A33DEBBE6/GER/x64/msodbcsql.msi",
+		"https://download.microsoft.com/download/1/8/D/18D588C9-8F23-4111-B572-A5157B64F8A1/ESN/x86/msodbcsql.msi",
+		"https://download.microsoft.com/download/1/8/D/18D588C9-8F23-4111-B572-A5157B64F8A1/ESN/x64/msodbcsql.msi",
+		"https://download.microsoft.com/download/9/D/6/9D67B5AC-62D5-42FA-8069-B298197F9CD9/FRE/x86/msodbcsql.msi",
+		"https://download.microsoft.com/download/9/D/6/9D67B5AC-62D5-42FA-8069-B298197F9CD9/FRE/x64/msodbcsql.msi",
+		"https://download.microsoft.com/download/9/2/1/9215BABE-3617-4345-921F-33E411C58647/ITA/x86/msodbcsql.msi",
+		"https://download.microsoft.com/download/9/2/1/9215BABE-3617-4345-921F-33E411C58647/ITA/x64/msodbcsql.msi",
+		"https://download.microsoft.com/download/5/2/A/52A44C33-2CE0-4D29-9C96-EA87B12A97D1/JPN/x86/msodbcsql.msi",
+		"https://download.microsoft.com/download/5/2/A/52A44C33-2CE0-4D29-9C96-EA87B12A97D1/JPN/x64/msodbcsql.msi",
+		"https://download.microsoft.com/download/A/B/8/AB8B00F8-12F3-4F97-A5BE-6DAAF5A9682D/KOR/x86/msodbcsql.msi",
+		"https://download.microsoft.com/download/A/B/8/AB8B00F8-12F3-4F97-A5BE-6DAAF5A9682D/KOR/x64/msodbcsql.msi",
+		"https://download.microsoft.com/download/4/D/3/4D3B6B2E-19A1-40A8-8939-8A3643E4C27F/PTB/x86/msodbcsql.msi",
+		"https://download.microsoft.com/download/4/D/3/4D3B6B2E-19A1-40A8-8939-8A3643E4C27F/PTB/x64/msodbcsql.msi",
+		"https://download.microsoft.com/download/9/7/C/97C986D8-3B72-44E7-BCF7-D5CA96718D0C/RUS/x86/msodbcsql.msi",
+		"https://download.microsoft.com/download/9/7/C/97C986D8-3B72-44E7-BCF7-D5CA96718D0C/RUS/x64/msodbcsql.msi",
+		"https://download.microsoft.com/download/8/4/D/84DD73BF-93E9-4298-B54D-CB779F9D0EC9/CHS/x86/msodbcsql.msi",
+		"https://download.microsoft.com/download/8/4/D/84DD73BF-93E9-4298-B54D-CB779F9D0EC9/CHS/x64/msodbcsql.msi",
+		"https://download.microsoft.com/download/3/C/F/3CFF4278-D501-4FAF-8C37-B99066E534A5/CHT/x86/msodbcsql.msi",
+		"https://download.microsoft.com/download/3/C/F/3CFF4278-D501-4FAF-8C37-B99066E534A5/CHT/x64/msodbcsql.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/sql/connect/odbc/windows/release-notes-odbc-sql-server-windows"
+	}
+}
