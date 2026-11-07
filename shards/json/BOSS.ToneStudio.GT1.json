@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": {
-		"source": "product"
+		"source": "file"
 	},
 	"urls": [
 		"https://static.roland.com/assets/media/zip/bts_gt1_w102.zip"
