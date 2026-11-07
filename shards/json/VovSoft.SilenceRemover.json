@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/silence-remover/",
+		"regex": "<span class=\"notranslate\">Silence Remover (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		{
+			"url": "https://files.vovsoft.com/silence-remover.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://files.vovsoft.com/silence-remover-portable.zip",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/silence-remover/"
+	}
+}
