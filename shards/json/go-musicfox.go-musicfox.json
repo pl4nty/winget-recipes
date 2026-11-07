@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "go-musicfox",
+		"repo": "go-musicfox"
+	},
+	"urls": [
+		"https://github.com/go-musicfox/go-musicfox/releases/download/{github.rawTag}/go-musicfox_{version}_windows_amd64.zip",
+		"https://github.com/go-musicfox/go-musicfox/releases/download/{github.rawTag}/go-musicfox_{version}_windows_arm64.zip"
+	]
+}

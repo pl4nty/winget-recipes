@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "open-cli-collective",
+		"repo": "slack-chat-api"
+	},
+	"urls": [
+		"https://github.com/open-cli-collective/slack-chat-api/releases/download/v{version}/slck_v{version}_windows_amd64.zip",
+		"https://github.com/open-cli-collective/slack-chat-api/releases/download/v{version}/slck_v{version}_windows_arm64.zip"
+	]
+}
