@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AllanChain",
+		"repo": "sane-break"
+	},
+	"urls": [
+		"https://github.com/AllanChain/sane-break/releases/download/{github.rawTag}/sane-break-windows-installer.exe"
+	]
+}
