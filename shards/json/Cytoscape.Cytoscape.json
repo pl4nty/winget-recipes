@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cytoscape",
+		"repo": "cytoscape"
+	},
+	"urls": [
+		"https://github.com/cytoscape/cytoscape/releases/download/{github.rawTag}/Cytoscape_3_10_5_windows_64bit.exe"
+	]
+}
