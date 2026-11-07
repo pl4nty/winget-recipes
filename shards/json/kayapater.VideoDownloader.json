@@ -6,6 +6,6 @@
 		"repo": "video-downloader"
 	},
 	"urls": [
-		"https://github.com/Blackswan-Yazilim/video-downloader/releases/download/{github.rawTag}/VideoDownloader-{version}-Setup.msi"
+		{ "url": "https://github.com/Blackswan-Yazilim/video-downloader/releases/download/{github.rawTag}/VideoDownloader-{version}-Setup.msi", "architecture": "x64" }
 	]
 }
