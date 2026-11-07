@@ -5,5 +5,7 @@
 		"owner": "momocrackcorp",
 		"repo": "janus-windows"
 	},
-	"urls": ["https://github.com/momocrackcorp/janus-windows/releases/download/v{version}/Janus.exe"]
+	"urls": [
+		{ "url": "https://github.com/momocrackcorp/janus-windows/releases/download/v{version}/Janus.exe", "architecture": "neutral" }
+	]
 }
