@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "okixk",
+		"repo": "forcey"
+	},
+	"urls": [
+		"https://github.com/okixk/forcey/releases/download/v{version}/forcey-windows-x64.zip"
+	]
+}
