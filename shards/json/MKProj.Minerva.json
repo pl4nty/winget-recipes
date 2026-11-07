@@ -9,8 +9,5 @@
 	},
 	"urls": [
 		"https://github.com/MKProj/Minerva/releases/download/{github.rawTag}/minerva-{version}.Setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/MKProj/Minerva/releases/tag/{github.rawTag}"
-	}
+	]
 }
