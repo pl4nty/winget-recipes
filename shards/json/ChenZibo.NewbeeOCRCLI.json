@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zibo-chen",
+		"repo": "newbee-ocr-cli"
+	},
+	"urls": [
+		"https://github.com/zibo-chen/newbee-ocr-cli/releases/download/{github.rawTag}/newbee_ocr_cli-x86_64-pc-windows-msvc.msi"
+	]
+}
