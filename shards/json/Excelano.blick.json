@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "excelano",
+		"repo": "blick-cli"
+	},
+	"urls": [
+		"https://github.com/excelano/blick-cli/releases/download/{github.rawTag}/blick_{version}_windows_amd64.zip"
+	]
+}
