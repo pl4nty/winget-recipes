@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "myselfrxvi",
+		"repo": "sysfetchme"
+	},
+	"urls": ["https://github.com/myselfrxvi/sysfetchme/releases/download/v{version}/sysfetchme-windows-amd64.exe"]
+}

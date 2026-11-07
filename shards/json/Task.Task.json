@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "go-task",
+		"repo": "task"
+	},
+	"urls": [
+		"https://github.com/go-task/task/releases/download/v{version}/task_windows_386.zip",
+		"https://github.com/go-task/task/releases/download/v{version}/task_windows_arm64.zip",
+		"https://github.com/go-task/task/releases/download/v{version}/task_windows_amd64.zip"
+	]
+}
