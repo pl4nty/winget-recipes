@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "picguard",
+		"repo": "picguard",
+		"method": "api-sort",
+		"assetRegex": "^picguard-pro-\\d+(?:\\.\\d+)+-windows-x64-(?:en-US|zh-CN)\\.msi$"
+	}
+}
