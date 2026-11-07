@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "openscopeproject",
+		"repo": "TrguiNG"
+	},
+	"urls": [
+		"https://github.com/openscopeproject/TrguiNG/releases/download/v{version}/TrguiNG_{version}_x64_en-US.msi",
+		"https://github.com/openscopeproject/TrguiNG/releases/download/v{version}/TrguiNG_{version}_arm64_en-US.msi",
+		"https://github.com/openscopeproject/TrguiNG/releases/download/v{version}/TrguiNG_{version}_x64-setup.exe",
+		"https://github.com/openscopeproject/TrguiNG/releases/download/v{version}/TrguiNG_{version}_arm64-setup.exe"
+	]
+}

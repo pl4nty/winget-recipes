@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aethersdr",
+		"repo": "AetherSDR"
+	},
+	"urls": [
+		"https://github.com/aethersdr/AetherSDR/releases/download/{github.rawTag}/AetherSDR-v{version}-Windows-x64-setup.exe"
+	]
+}
