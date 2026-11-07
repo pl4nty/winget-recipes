@@ -1,10 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.lfs.net/downloads",
+		"regex": "title=\"Latest Version : \\d+\\.(\\d+[A-Z])\""
 	},
-	"urls": [
-		"https://nlrtm1-edge2.cdn.i3d.net/o6/brdzjj/LFS_S3_7G_setup.exe"
-	]
+	"version": { "source": "file" },
+	"urls": ["https://lfs-cdn.i3d.net/LFS_S3_{version}_setup.exe"],
+	"state": { "source": "value", "value": "{version}" }
 }
