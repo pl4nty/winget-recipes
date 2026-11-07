@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.nano-editor.org/dist/windows/",
+		"regex": "nano-v(\\d+(?:\\.\\d+)+)-x64\\.exe"
+	},
+	"urls": ["https://www.nano-editor.org/dist/windows/nano-v{version}-x64.exe"]
+}
