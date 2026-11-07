@@ -4,8 +4,10 @@
 	"github": {
 		"owner": "davidegiacometti",
 		"repo": "CmdPal-Extensions",
-		"tagRegex": "^ef\\-",
-		"method": "api-sort",
-		"assetRegex": "^(?:DavideGiacometti\\.EdgeFavoritesForCmdPal_\\d+\\.\\d+\\.\\d+\\.\\d+_arm64__vmjk\\d+v\\d+vswc\\d+e\\.msix|DavideGiacometti\\.EdgeFavoritesForCmdPal_\\d+\\.\\d+\\.\\d+\\.\\d+_x64__vmjk\\d+v\\d+vswc\\d+e\\.msix)$"
-	}
+		"tagRegex": "^ef\\-"
+	},
+	"urls": [
+		"https://github.com/davidegiacometti/CmdPal-Extensions/releases/download/{github.rawTag}/DavideGiacometti.EdgeFavoritesForCmdPal_{version}.0_arm64__vmjk9v3vswc4e.msix",
+		"https://github.com/davidegiacometti/CmdPal-Extensions/releases/download/{github.rawTag}/DavideGiacometti.EdgeFavoritesForCmdPal_{version}.0_x64__vmjk9v3vswc4e.msix"
+	]
 }
