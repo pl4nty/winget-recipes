@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support.winest.com/flarefiles/Content/Release%20Notes/Downloads.htm",
+		"regex": "(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)[\\s\\S]*?drive\\.(?:usercontent\\.)?google\\.com/(?:file/d/|uc\\?(?:export=download&(?:amp;)?)?id=|open\\?id=|download\\?id=)(?<fileid>[\\w-]{20,})"
+	},
+	"urls": [
+		"https://drive.usercontent.google.com/download?id={captures.fileid}&export=download&confirm=t"
+	]
+}
