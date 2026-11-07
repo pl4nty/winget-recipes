@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dmqj123",
+		"repo": "magic_box"
+	},
+	"urls": [
+		"https://github.com/dmqj123/magic_box/releases/download/{github.rawTag}/MagicBoxSetup.exe"
+	]
+}
