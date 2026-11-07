@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "yt-dlp", "repo": "yt-dlp-nightly-builds" },
+	"urls": [
+		"https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/{version}/yt-dlp_x86.exe",
+		"https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/{version}/yt-dlp.exe",
+		"https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/{version}/yt-dlp_arm64.exe"
+	]
+}
