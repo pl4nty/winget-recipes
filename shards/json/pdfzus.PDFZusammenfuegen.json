@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wsgtcyx",
+		"repo": "PDF-zusammenfuegen-winget"
+	},
+	"urls": ["https://github.com/wsgtcyx/PDF-zusammenfuegen-winget/releases/download/v{version}/PDF-Zusammenfuegen-Setup-{version}.exe"]
+}
