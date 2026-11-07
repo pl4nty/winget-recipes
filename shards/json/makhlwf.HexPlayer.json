@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "makhlwf",
+		"repo": "accessible_youtube_downloader_pro"
+	},
+	"urls": ["https://github.com/makhlwf/accessible_youtube_downloader_pro/releases/download/v{version}/HexPlayer.exe"]
+}
