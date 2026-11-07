@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rclone",
+		"repo": "rclone-ui"
+	},
+	"urls": [
+		"https://github.com/rclone/rclone-ui/releases/download/v{version}/Rclone.UI_x64.exe",
+		"https://github.com/rclone/rclone-ui/releases/download/v{version}/Rclone.UI_arm64.exe"
+	]
+}
