@@ -6,6 +6,6 @@
 		"repo": "VirtualDesktopSwitcher"
 	},
 	"urls": [
-		"https://github.com/choyy/VirtualDesktopSwitcher/releases/download/{github.rawTag}/VirtualDesktopSwitcher.exe"
+		{ "url": "https://github.com/choyy/VirtualDesktopSwitcher/releases/download/{github.rawTag}/VirtualDesktopSwitcher.exe", "architecture": "neutral" }
 	]
 }
