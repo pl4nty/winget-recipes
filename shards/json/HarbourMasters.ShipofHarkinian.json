@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HarbourMasters",
+		"repo": "Shipwright",
+		"method": "api-sort",
+		"assetRegex": "^(?:SoH\\-Ackbar\\-Delta\\-Win64\\.zip)$"
+	}
+}
