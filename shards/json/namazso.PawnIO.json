@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "namazso", "repo": "PawnIO.Setup" },
+	"urls": [
+		{ "url": "https://github.com/namazso/PawnIO.Setup/releases/download/{version}/PawnIO_setup.exe", "architecture": "x64" },
+		{ "url": "https://github.com/namazso/PawnIO.Setup/releases/download/{version}/PawnIO_setup.exe", "architecture": "arm64" }
+	]
+}
