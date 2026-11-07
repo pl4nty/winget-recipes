@@ -5,5 +5,7 @@
 		"owner": "Snapmaker",
 		"repo": "OrcaSlicer"
 	},
-	"urls": ["https://github.com/Snapmaker/OrcaSlicer/releases/download/v{version}/Snapmaker_Orca_Windows_Installer_V{version}.exe"]
+	"urls": [
+		{ "url": "https://github.com/Snapmaker/OrcaSlicer/releases/download/v{version}/Snapmaker_Orca_Windows_Installer_V{version}.exe", "architecture": "x86" }
+	]
 }
