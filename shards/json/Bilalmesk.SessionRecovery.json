@@ -6,6 +6,6 @@
 		"repo": "session-recovery"
 	},
 	"urls": [
-		"https://github.com/Bilalmesk/session-recovery/releases/download/{github.rawTag}/SessionRecovery-{version}.msi"
+		{ "url": "https://github.com/Bilalmesk/session-recovery/releases/download/{github.rawTag}/SessionRecovery-{version}.msi", "architecture": "x64" }
 	]
 }
