@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tjko",
+		"repo": "jpegoptim"
+	},
+	"urls": ["https://github.com/tjko/jpegoptim/releases/download/v{version}/jpegoptim-{version}-x64-windows.zip"]
+}

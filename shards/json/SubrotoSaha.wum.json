@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "isubroto", "repo": "wum" },
+	"urls": [
+		"https://github.com/isubroto/wum/releases/download/v{version}/wum-{version}.msi"
+	]
+}
