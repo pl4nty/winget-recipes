@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Guru-RF",
+		"repo": "ham-tools"
+	},
+	"urls": [
+		"https://github.com/Guru-RF/ham-tools/releases/download/{github.rawTag}/ham-tools-{version}-windows-arm64.zip",
+		"https://github.com/Guru-RF/ham-tools/releases/download/{github.rawTag}/ham-tools-{version}-windows-x64.zip"
+	]
+}
