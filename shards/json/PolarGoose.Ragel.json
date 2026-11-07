@@ -8,8 +8,5 @@
 	},
 	"urls": [
 		"https://github.com/PolarGoose/Ragel-for-Windows/releases/download/{github.rawTag}/Ragel.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/PolarGoose/Ragel-for-Windows/releases/tag/{github.rawTag}"
-	}
+	]
 }
