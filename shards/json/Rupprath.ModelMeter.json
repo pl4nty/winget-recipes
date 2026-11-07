@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rupprath",
+		"repo": "modelmeter"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/rupprath/modelmeter/releases/download/v{version}/modelmeter.exe"
+	]
+}
