@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://proxykit.net/download",
+		"regex": "release\\.proxykit\\.net/stable/latest/cli/windows-amd64/proxykit-cli-(?<version>\\d+(?:\\.\\d+)+)-windows-amd64\\.zip"
+	},
+	"urls": [
+		"https://release.proxykit.net/v{version}/cli/windows-amd64/proxykit-cli-{version}-windows-amd64.zip",
+		"https://release.proxykit.net/v{version}/cli/windows-arm64/proxykit-cli-{version}-windows-arm64.zip"
+	]
+}
