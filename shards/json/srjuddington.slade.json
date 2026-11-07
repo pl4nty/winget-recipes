@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "sirjuddington", "repo": "SLADE" },
+	"urls": [
+		"https://github.com/sirjuddington/SLADE/releases/download/{version}/SLADE_{version}_win_x86_setup.exe",
+		"https://github.com/sirjuddington/SLADE/releases/download/{version}/SLADE_{version}_win_x64_setup.exe"
+	]
+}
