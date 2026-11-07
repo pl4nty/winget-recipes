@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://www.osforensics.com/downloads/OSForensics.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.osforensics.com/downloads/OSForensics.exe",
+		"header": "etag"
+	},
+	"releaseNotes": { "releaseNotesUrl": "https://www.osforensics.com/whats-new.html" },
+	"replace": true
+}
