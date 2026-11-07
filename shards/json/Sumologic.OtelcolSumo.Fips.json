@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "SumoLogic", "repo": "sumologic-otel-collector-packaging" },
+	"version": "{version|-|.}",
+	"urls": [
+		"https://download-otel.sumologic.com/{version}/otelcol-sumo_{packageVersion}_en-US.x64-fips.msi"
+	]
+}
