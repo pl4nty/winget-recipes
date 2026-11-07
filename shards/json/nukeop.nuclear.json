@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nukeop",
+		"repo": "nuclear",
+		"method": "api-list",
+		"tagRegex": "^player@"
+	},
+	"urls": [
+		"https://github.com/nukeop/nuclear/releases/download/{github.rawTag}/Nuclear_{version}_x64-setup.exe",
+		"https://github.com/nukeop/nuclear/releases/download/{github.rawTag}/Nuclear_{version}_x64_en-US.msi"
+	]
+}
