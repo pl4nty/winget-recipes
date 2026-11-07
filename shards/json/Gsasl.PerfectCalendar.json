@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/Gsasl/WinOptimizer_exe/releases/download/{github.rawTag}/PerfectCalendar.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Gsasl/WinOptimizer_exe/releases/tag/{github.rawTag}"
-	}
+	]
 }
