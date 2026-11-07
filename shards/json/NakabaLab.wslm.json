@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nakaba-lab",
+		"repo": "wsl-manager-tui"
+	},
+	"urls": [
+		"https://github.com/nakaba-lab/wsl-manager-tui/releases/download/v{version}/wslm-x86_64-pc-windows-msvc.exe"
+	]
+}
