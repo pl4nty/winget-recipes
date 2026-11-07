@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bearlyplayz",
+		"repo": "windeskctl"
+	},
+	"urls": ["https://github.com/bearlyplayz/windeskctl/releases/download/v{version}/windeskctl.exe"],
+	"version": "{version}.0"
+}
