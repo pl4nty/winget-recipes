@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://sky.telia.no/desktop/download/windows/teliasky/release",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://sky.telia.no/desktop/download/windows/teliasky/release",
+		"header": "content-length"
+	},
+	"replace": true
+}

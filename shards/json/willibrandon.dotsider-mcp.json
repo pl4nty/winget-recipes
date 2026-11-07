@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "willibrandon", "repo": "dotsider" },
+	"urls": [
+		"https://github.com/willibrandon/dotsider/releases/download/{github.rawTag}/dotsider-mcp-win-x64.msi",
+		"https://github.com/willibrandon/dotsider/releases/download/{github.rawTag}/dotsider-mcp-win-arm64.msi"
+	]
+}

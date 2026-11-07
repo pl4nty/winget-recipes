@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nextdns",
+		"repo": "nextdns"
+	},
+	"urls": [
+		"https://github.com/nextdns/nextdns/releases/download/v{version}/nextdns_{version}_windows_386.zip",
+		"https://github.com/nextdns/nextdns/releases/download/v{version}/nextdns_{version}_windows_amd64.zip"
+	]
+}
