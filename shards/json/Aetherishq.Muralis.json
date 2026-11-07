@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aetherishq",
+		"repo": "muralis"
+	},
+	"urls": [
+		"https://github.com/aetherishq/muralis/releases/download/{github.rawTag}/Muralis-Setup-{version}.exe"
+	]
+}
