@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ossianericson",
+		"repo": "netsentinel"
+	},
+	"urls": [
+		{ "url": "https://github.com/ossianericson/netsentinel/releases/download/v{version}/NetSentinel-Setup-{version}.exe", "architecture": "x64" }
+	]
+}
