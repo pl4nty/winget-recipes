@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/9b53b153-e93a-4c89-8049-c7381505cf80/71f0a69e-a1d6-4a79-830a-f1fc950b4c60/windowsdesktop-runtime-10.0.14-win-arm64.exe",
+		"https://download.microsoft.com/download/9b53b153-e93a-4c89-8049-c7381505cf80/8de343c4-257a-40b1-9af3-3d7782328bc5/windowsdesktop-runtime-10.0.14-win-x64.exe",
+		"https://download.microsoft.com/download/9b53b153-e93a-4c89-8049-c7381505cf80/b6927599-c55d-49aa-aeda-2645116ed05e/windowsdesktop-runtime-10.0.14-win-x86.exe"
+	]
+}

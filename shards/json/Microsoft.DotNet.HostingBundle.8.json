@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/25fb490a-abdb-4cd5-bce1-b6fee0255996/5bb0516e-ed0a-445a-b68a-d0c4d71a64f2/dotnet-hosting-8.0.33-win.exe"
+	]
+}
