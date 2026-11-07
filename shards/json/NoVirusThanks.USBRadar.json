@@ -10,10 +10,7 @@
 		"method": "get"
 	},
 	"releaseNotes": {
-		"source": "html",
-		"sourceUrl": "https://www.usbradar.com/changelog/",
-		"releaseNotesUrl": "https://www.usbradar.com/changelog/",
-		"cleanup": false
+		"releaseNotesUrl": "https://www.usbradar.com/changelog/"
 	},
 	"replace": true
 }
