@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://prezi.com/download/",
+		"regex": "desktopassets\\.prezi\\.com/pitch/win/releases/Prezi-x64-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://desktopassets.prezi.com/pitch/win/releases/Prezi-x64-{version}.exe"]
+}
