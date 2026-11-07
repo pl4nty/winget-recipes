@@ -5,5 +5,7 @@
 		"owner": "ghdl",
 		"repo": "ghdl"
 	},
-	"urls": ["https://github.com/ghdl/ghdl/releases/download/v{version}/ghdl-mcode-{version}-ucrt64.zip"]
+	"urls": [
+		{ "url": "https://github.com/ghdl/ghdl/releases/download/v{version}/ghdl-mcode-{version}-ucrt64.zip", "architecture": "x86" }
+	]
 }
