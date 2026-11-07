@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "SkaLe3", "repo": "Blackjack" },
+	"urls": ["https://github.com/SkaLe3/Blackjack/releases/download/v{version}/Blackjack-v{version}-Windows.zip"]
+}

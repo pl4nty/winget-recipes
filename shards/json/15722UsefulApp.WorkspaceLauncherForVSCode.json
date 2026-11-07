@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tanchekwei",
+		"repo": "VisualStudioCodeForCommandPalette"
+	},
+	"urls": [
+		"https://github.com/tanchekwei/VisualStudioCodeForCommandPalette/releases/download/{github.rawTag}/15722UsefulApp.WorkspaceLauncherforVSCode_{version}_x64__s4b834ss2syh6.Msix",
+		"https://github.com/tanchekwei/VisualStudioCodeForCommandPalette/releases/download/{github.rawTag}/15722UsefulApp.WorkspaceLauncherforVSCode_{version}_arm64__s4b834ss2syh6.Msix"
+	]
+}

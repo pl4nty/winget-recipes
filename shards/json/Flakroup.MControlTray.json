@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Flakroup",
+		"repo": "MControlTray"
+	},
+	"urls": [
+		"https://github.com/Flakroup/MControlTray/releases/download/{github.rawTag}/MControlTray-win-x64.exe"
+	]
+}

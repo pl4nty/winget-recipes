@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GuoJikun",
+		"repo": "quicklook"
+	},
+	"urls": [
+		"https://github.com/GuoJikun/quicklook/releases/download/{github.rawTag}/quicklook_{version}_arm64-setup.exe",
+		"https://github.com/GuoJikun/quicklook/releases/download/{github.rawTag}/quicklook_{version}_x64-setup.exe"
+	]
+}
