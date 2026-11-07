@@ -1,0 +1,29 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.xlightftpd.com/whatsnew.htm",
+		"regex": "<strong>(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.xlightftpd.com/download/xlight.zip",
+			"architecture": "x86"
+		},
+		"https://www.xlightftpd.com/download/xlight-x64.zip",
+		{
+			"url": "https://www.xlightftpd.com/download/setup.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.xlightftpd.com/download/setup32.msi",
+			"architecture": "x86"
+		},
+		"https://www.xlightftpd.com/download/setup-x64.exe",
+		"https://www.xlightftpd.com/download/setup64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.xlightftpd.com/whatsnew.htm#:~:text={version}"
+	},
+	"replace": true
+}
