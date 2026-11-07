@@ -4,8 +4,9 @@
 	"github": {
 		"owner": "Cockatrice",
 		"repo": "Cockatrice",
-		"method": "api-list",
-		"tagRegex": "^\\d{4}-\\d{2}-\\d{2}-Release-",
-		"assetRegex": "-Win10\\.exe$"
-	}
+		"tagRegex": "^\\d{4}-\\d{2}-\\d{2}-Release-"
+	},
+	"urls": [
+		"https://github.com/Cockatrice/Cockatrice/releases/download/{github.rawTag}/Cockatrice-Reality-Check-{version}-Win10.exe"
+	]
 }
