@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mlcousek", "repo": "claude_trayapp" },
+	"urls": [
+		"https://github.com/mlcousek/claude_trayapp/releases/download/{github.rawTag}/ClaudeUsageTray-{version}-win-x64.zip",
+		"https://github.com/mlcousek/claude_trayapp/releases/download/{github.rawTag}/ClaudeUsageTray-{version}-win-arm64.zip"
+	]
+}
