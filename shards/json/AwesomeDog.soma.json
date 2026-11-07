@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/AwesomeDog/soma/releases/download/{github.rawTag}/soma-windows-x64.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/AwesomeDog/soma/releases/tag/{github.rawTag}"
-	}
+	]
 }
