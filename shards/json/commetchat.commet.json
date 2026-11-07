@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "commetchat",
+		"repo": "commet"
+	},
+	"urls": [
+		"https://github.com/commetchat/commet/releases/download/{github.rawTag}/commet-windows.zip"
+	]
+}
