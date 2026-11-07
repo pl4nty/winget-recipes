@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "spyder-ide",
+		"repo": "spyder"
+	},
+	"urls": ["https://github.com/spyder-ide/spyder/releases/download/v{version}/Spyder-Windows-x86_64.exe"]
+}
