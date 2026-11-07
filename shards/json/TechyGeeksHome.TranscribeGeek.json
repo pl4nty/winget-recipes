@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "techygeekshome", "repo": "TranscribeGeek" },
+	"urls": ["https://github.com/techygeekshome/TranscribeGeek/releases/download/{github.rawTag}/TranscribeGeekSetup.exe"]
+}
