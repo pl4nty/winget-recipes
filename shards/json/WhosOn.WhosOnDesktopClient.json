@@ -9,5 +9,6 @@
 		"source": "response-header",
 		"url": "https://ta5.blob.core.windows.net/whoson10updates/WhosOnClient10.msi",
 		"header": "etag"
-	}
+	},
+	"replace": true
 }
