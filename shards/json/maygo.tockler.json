@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MayGo",
+		"repo": "tockler"
+	},
+	"urls": [
+		"https://github.com/MayGo/tockler/releases/download/v{version}/tockler-{version}-setup-win-x64.exe",
+		"https://github.com/MayGo/tockler/releases/download/v{version}/tockler-{version}-setup-win-ia32.exe",
+		"https://github.com/MayGo/tockler/releases/download/v{version}/tockler-{version}-setup-win-arm64.exe"
+	]
+}
