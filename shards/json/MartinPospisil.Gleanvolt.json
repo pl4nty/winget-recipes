@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mpospisil", "repo": "gleanvolt" },
+	"urls": ["https://github.com/mpospisil/gleanvolt/releases/download/{github.rawTag}/gleanvolt-{version}-win-x64.zip"]
+}
