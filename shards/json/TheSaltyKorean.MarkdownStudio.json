@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TheSaltyKorean",
+		"repo": "md"
+	},
+	"urls": [
+		"https://github.com/TheSaltyKorean/md/releases/download/v{version}/markdown-studio-windows-x64.msi"
+	]
+}
