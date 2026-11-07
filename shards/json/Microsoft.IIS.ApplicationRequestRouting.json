@@ -1,6 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": { "source": "display" },
-	"urls": ["https://go.microsoft.com/fwlink/?LinkID=615135", "https://go.microsoft.com/fwlink/?LinkID=615136"]
-}
