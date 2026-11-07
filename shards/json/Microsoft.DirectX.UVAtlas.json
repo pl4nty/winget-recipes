@@ -3,10 +3,11 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "microsoft",
-		"repo": "UVAtlas",
-		"method": "api-latest",
-		"assetRegex": "^(?:uvatlastool\\.exe)$"
+		"repo": "UVAtlas"
 	},
+	"urls": [
+		"https://github.com/microsoft/UVAtlas/releases/download/{github.rawTag}/uvatlastool.exe"
+	],
 	"version": {
 		"source": "product"
 	}
