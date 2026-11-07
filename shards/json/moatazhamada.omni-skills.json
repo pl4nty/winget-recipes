@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "moatazhamada",
-		"repo": "ai-omni-skills",
-		"method": "api-latest",
-		"assetRegex": "^omni-skills-windows-(?:x64|arm64)\\.exe$"
-	}
+		"repo": "ai-omni-skills"
+	},
+	"urls": [
+		"https://github.com/moatazhamada/ai-omni-skills/releases/download/{github.rawTag}/omni-skills-windows-x64.exe"
+	]
 }
