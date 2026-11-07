@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "wolfgangwarehaus", "repo": "jellytoast" },
+	"urls": [
+		{
+			"url": "https://github.com/wolfgangwarehaus/jellytoast/releases/download/v{version}/jellytoast-{version}-windows-setup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/wolfgangwarehaus/jellytoast/releases/download/v{version}/jellytoast-{version}-windows-setup.exe",
+			"architecture": "arm64"
+		}
+	]
+}
