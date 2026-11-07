@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JohnBoek",
+		"repo": "boeksolutions.sheetseteditor-releases"
+	},
+	"urls": [
+		"https://github.com/JohnBoek/boeksolutions.sheetseteditor-releases/releases/download/{github.rawTag}/SheetSetEditor-Setup.exe"
+	]
+}
