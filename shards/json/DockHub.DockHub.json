@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sametgurtuna",
+		"repo": "DockHub"
+	},
+	"urls": [
+		"https://github.com/sametgurtuna/DockHub/releases/download/{github.rawTag}/DockHub-Setup-{version}-x64.exe",
+		"https://github.com/sametgurtuna/DockHub/releases/download/{github.rawTag}/DockHub-Setup-{version}-arm64.exe"
+	]
+}

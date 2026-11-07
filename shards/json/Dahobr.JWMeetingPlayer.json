@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Dahobr",
+		"repo": "jw-meeting-player"
+	},
+	"urls": [
+		"https://github.com/Dahobr/jw-meeting-player/releases/download/{github.rawTag}/jw-meeting-player-Setup-{version}.exe"
+	]
+}
