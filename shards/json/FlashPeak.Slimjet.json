@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		"https://www.slimjetbrowser.com/release/sjtsetup_x64.exe",
+		"https://www.slimjetbrowser.com/release/sjtsetup_x86.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.slimjetbrowser.com/release/sjtsetup_x64.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
