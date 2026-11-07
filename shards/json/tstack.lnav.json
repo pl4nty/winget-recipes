@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tstack", "repo": "lnav" },
+	"urls": [
+		"https://github.com/tstack/lnav/releases/download/{github.rawTag}/lnav-{version}-windows-x86_64.zip",
+		"https://github.com/tstack/lnav/releases/download/{github.rawTag}/lnav-{version}-windows-arm64.zip"
+	]
+}
