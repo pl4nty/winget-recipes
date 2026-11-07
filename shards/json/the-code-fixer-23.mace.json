@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "louiss0",
+		"repo": "mace",
+		"method": "api-sort"
+	},
+	"urls": [
+		"https://github.com/louiss0/mace/releases/download/v{version}/mace_{version}_windows_arm64.zip",
+		"https://github.com/louiss0/mace/releases/download/v{version}/mace_{version}_windows_amd64.zip"
+	]
+}
