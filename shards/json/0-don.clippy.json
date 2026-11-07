@@ -8,8 +8,5 @@
 	"urls": [
 		"https://github.com/0-don/clippy/releases/download/{github.rawTag}/clippy_{version}_arm64-setup.exe",
 		"https://github.com/0-don/clippy/releases/download/{github.rawTag}/clippy_{version}_x64-setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/0-don/clippy/releases/tag/{github.rawTag}"
-	}
+	]
 }
