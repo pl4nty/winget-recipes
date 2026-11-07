@@ -8,8 +8,5 @@
 	"urls": [
 		"https://github.com/elibroftw/music-caster/releases/download/{github.rawTag}/Music.Caster_{version}_x64_en-US.msi",
 		"https://github.com/elibroftw/music-caster/releases/download/{github.rawTag}/Music.Caster_{version}_arm64_en-US.msi"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/elibroftw/music-caster/releases/tag/{github.rawTag}"
-	}
+	]
 }
