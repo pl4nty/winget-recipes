@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "amule-project",
+		"repo": "amule"
+	},
+	"urls": [
+		"https://github.com/amule-project/amule/releases/download/{github.rawTag}/aMule-{version}-Windows-arm64.zip",
+		"https://github.com/amule-project/amule/releases/download/{github.rawTag}/aMule-{version}-Windows-x64.zip",
+		"https://github.com/amule-project/amule/releases/download/{github.rawTag}/aMule-{version}-Windows-Setup-arm64.exe",
+		"https://github.com/amule-project/amule/releases/download/{github.rawTag}/aMule-{version}-Windows-Setup-x64.exe"
+	]
+}

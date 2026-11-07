@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ipmhubio",
+		"repo": "ipm"
+	},
+	"urls": [
+		"https://github.com/ipmhubio/ipm/releases/download/{github.rawTag}/ipm-win-arm64-full.zip",
+		"https://github.com/ipmhubio/ipm/releases/download/{github.rawTag}/ipm-win-x64-full.zip",
+		"https://github.com/ipmhubio/ipm/releases/download/{github.rawTag}/ipm-win-x86-full.zip"
+	]
+}
