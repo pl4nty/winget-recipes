@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wilsonglasser",
+		"repo": "basemaster"
+	},
+	"urls": [
+		"https://github.com/wilsonglasser/basemaster/releases/download/v{version}/BaseMaster_{version}_x64-setup.exe"
+	]
+}
