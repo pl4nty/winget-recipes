@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Porzeraklon",
-		"repo": "blackjack",
-		"method": "api-latest",
-		"assetRegex": "^BlackJackCLI-win-[a-z0-9]+\\.zip$"
-	}
+		"repo": "blackjack"
+	},
+	"urls": [
+		"https://github.com/Porzeraklon/blackjack/releases/download/{github.rawTag}/BlackJackCLI-win-x64.zip"
+	]
 }
