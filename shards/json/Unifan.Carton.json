@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "821869798",
+		"repo": "carton"
+	},
+	"urls": [
+		"https://github.com/821869798/carton/releases/download/v{version}/carton-{version}-win-x64-Setup.exe",
+		"https://github.com/821869798/carton/releases/download/v{version}/carton-{version}-win-arm64-Setup.exe"
+	]
+}
