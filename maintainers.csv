@@ -3616,7 +3616,7 @@ Microsoft.Dynamics365ContactCenterDesktop,spectopo
 Microsoft.Edge.*,esrp-winget-prod[bot]
 Microsoft.EdgeDriver,spectopo
 Microsoft.EdgeWebView2Runtime,spectopo
-Microsoft.Edit,pl4nty
+Microsoft.Edit,consvc
 Microsoft.EnterpriseStateClassify,pl4nty
 Microsoft.ESRPWingetTest.*,esrp-winget-prod[bot]
 Microsoft.etl2pcapng,pl4nty
@@ -3716,6 +3716,7 @@ Microsoft.WindowsApp,spectopo
 Microsoft.WindowsBatteryLifeTool,pl4nty
 Microsoft.WindowsCloudIOProtectionDriver,spectopo
 Microsoft.WindowsInstallationAssistant,pl4nty
+Microsoft.WindowsTerminal,consvc
 Microsoft.WindowsTerminal.Preview,consvc
 Microsoft.winfile,pl4nty
 Microsoft.WingetCreate,pl4nty
