@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://downloads.spacedesk.net/downloads/spacedesk_driver_Win_10_32_v2234.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://downloads.spacedesk.net/downloads/spacedesk_driver_Win_11_64_v2234.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://downloads.spacedesk.net/downloads/spacedesk_driver_Win_11_ARM64_v2234.msi",
+			"architecture": "arm64"
+		}
+	]
+}
