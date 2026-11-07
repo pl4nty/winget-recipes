@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TraceCommons",
+		"repo": "trace-commons",
+		"method": "api-sort",
+		"tagRegex": "^contributor-v",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/TraceCommons/trace-commons/releases/download/contributor-v{version}/trace-commons-contributor-x86_64-pc-windows-msvc.zip"
+	]
+}
