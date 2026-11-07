@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dhtdht020",
+		"repo": "osc-dl"
+	},
+	"urls": ["https://github.com/dhtdht020/osc-dl/releases/download/{version}/oscdl-installer.exe"]
+}

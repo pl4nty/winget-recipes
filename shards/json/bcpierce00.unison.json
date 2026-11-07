@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bcpierce00",
+		"repo": "unison"
+	},
+	"urls": [
+		"https://github.com/bcpierce00/unison/releases/download/v{version}/unison-{version}-windows-i386.zip",
+		"https://github.com/bcpierce00/unison/releases/download/v{version}/unison-{version}-windows-x86_64.zip"
+	]
+}
