@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SteveTheKiller",
+		"repo": "KillerPDF"
+	},
+	"urls": [
+		"https://github.com/SteveTheKiller/KillerPDF/releases/download/v{version}/KillerPDF.exe"
+	]
+}
