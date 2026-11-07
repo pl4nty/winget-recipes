@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://vatis.app/updates/windows/releases.win.json",
+		"path": "Assets.0.Version"
+	},
+	"urls": ["https://hub.vatis.app/download/windows"]
+}
