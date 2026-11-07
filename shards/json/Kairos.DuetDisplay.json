@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://account.duetdisplay.com/api/download/windows"],
+		"regex": "duetdownload\\.com/Windows/v(?<version>\\d+(?:\\.\\d+)+)/DuetDisplay-[\\d-]+\\.exe"
+	},
+	"urls": [
+		"https://duetdownload.com/Windows/v{version}/DuetDisplay-{version|.|-}.msi",
+		"https://duetdownload.com/Windows/v{version}/DuetDisplay-{version|.|-}.exe"
+	]
+}
