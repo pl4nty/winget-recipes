@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cutechess",
+		"repo": "cutechess"
+	},
+	"urls": [
+		"https://github.com/cutechess/cutechess/releases/download/{github.rawTag}/cutechess-{version}-win64.exe",
+		"https://github.com/cutechess/cutechess/releases/download/{github.rawTag}/cutechess-{version}-win64.zip"
+	]
+}
