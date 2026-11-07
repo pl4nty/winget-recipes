@@ -1,7 +1,7 @@
 import { defineShard } from 'anthelion';
 import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"justquery": ["votinvv", "justquery"], "rytunex": ["rayenghanmi", "RyTuneX"], "cmdpal": ["davidegiacometti", "CmdPal-Extensions"], "due2": ["myiam-io", "homebrew-tap"], "makestar": ["makestarlab", "makestar-admin-cli-releases"], "tiwut": ["tiwut", "Tiwut-Launcher-Windows"]};
+const repos: Record<string, [string, string]> = {"quicreach": ["microsoft", "quicreach"]};
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
