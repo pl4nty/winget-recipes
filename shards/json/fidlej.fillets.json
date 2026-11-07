@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "fillets",
+		"file": "fillets-ng-all-win32-{version}.zip"
+	},
+	"urls": [
+		"https://prdownloads.sourceforge.net/fillets/fillets-ng-all-win32-{version}.zip?download"
+	]
+}
