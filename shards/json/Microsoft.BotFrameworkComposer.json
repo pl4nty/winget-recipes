@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "BotFramework-Composer"
+	},
+	"urls": [
+		"https://github.com/microsoft/BotFramework-Composer/releases/download/v{version}/BotFramework-Composer-{version}-windows-setup.exe"
+	]
+}
