@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.angusj.com/resourcehacker/",
+		"regex": "Version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.angusj.com/resourcehacker/reshacker_setup.exe"]
+}
