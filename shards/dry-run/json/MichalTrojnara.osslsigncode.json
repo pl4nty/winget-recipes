@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mtrojnar",
+		"repo": "osslsigncode",
+		"method": "api-sort",
+		"assetRegex": "-windows-x64-mingw\\.zip$"
+	}
+}
