@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [{ "url": "https://installer.studio-prod.pokemon.com/installer/PokemonTCGLiveInstaller.msi", "architecture": "neutral" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://installer.studio-prod.pokemon.com/installer/PokemonTCGLiveInstaller.msi",
+		"header": "etag"
+	},
+	"replace": true
+}

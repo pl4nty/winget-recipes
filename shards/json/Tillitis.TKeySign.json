@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tillitis", "repo": "tkey-sign-cli" },
+	"urls": [
+		"https://github.com/tillitis/tkey-sign-cli/releases/download/v{version}/tkey-sign_{version}_Windows_arm64.zip",
+		"https://github.com/tillitis/tkey-sign-cli/releases/download/v{version}/tkey-sign_{version}_Windows_amd64.zip"
+	]
+}

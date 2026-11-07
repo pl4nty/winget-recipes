@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Zzy-min",
+		"repo": "qling"
+	},
+	"urls": [
+		"https://github.com/Zzy-min/qling/releases/download/v{version}/qling-win-x64.zip"
+	]
+}
