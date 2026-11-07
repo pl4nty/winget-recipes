@@ -1,9 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://tgaviewer.com/",
+		"regex": "TGA Viewer (\\d+(?:\\.\\d+)+)"
 	},
+	"version": "{version}.0.0",
 	"urls": [
 		"https://tgaviewer.com/tgaviewersetup.exe"
 	]
