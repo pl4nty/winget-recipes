@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "CmdPalAzureExtension"
+	},
+	"urls": [
+		"https://github.com/microsoft/CmdPalAzureExtension/releases/download/v{version}/AzureExtension_release_v{version}_x64.msix",
+		"https://github.com/microsoft/CmdPalAzureExtension/releases/download/v{version}/AzureExtension_release_v{version}_arm64.msix"
+	]
+}
