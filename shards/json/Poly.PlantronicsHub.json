@@ -7,5 +7,6 @@
 		"source": "response-header",
 		"url": "https://downloads.poly.com/headsets/PlantronicsHubInstaller.exe",
 		"header": "etag"
-	}
+	},
+	"replace": true
 }
