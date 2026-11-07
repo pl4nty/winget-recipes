@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "winget-cli"
+	},
+	"urls": [
+		"https://github.com/microsoft/winget-cli/releases/download/v{version}/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
+	]
+}
