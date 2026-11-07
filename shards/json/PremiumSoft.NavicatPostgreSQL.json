@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.navicat.com/products/navicat-for-postgresql-release-note",
+		"regex": "Navicat for PostgreSQL \\(Windows\\) version (?<version>(?<major>17)\\.\\d+\\.\\d+)<"
+	},
+	"urls": [
+		"https://download3.navicat.com/download/navicat{captures.major}_pgsql_es_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_pgsql_en_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_pgsql_cs_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_pgsql_ct_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_pgsql_id_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_pgsql_jp_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_pgsql_de_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_pgsql_ru_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_pgsql_pl_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_pgsql_fr_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_pgsql_kr_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_pgsql_th_x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.navicat.com/products/navicat-for-postgresql-release-note"
+	}
+}
