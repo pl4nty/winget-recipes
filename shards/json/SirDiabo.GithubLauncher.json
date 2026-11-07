@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/SirDiabo/GithubLauncher/releases/download/v{version}/GitHubLauncher-v{version}-Windows.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/SirDiabo/GithubLauncher/releases/tag/{github.rawTag}"
-	}
+	]
 }
