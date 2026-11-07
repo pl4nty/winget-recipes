@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vcvrack.com/Rack",
+		"regex": "/downloads/RackFree-(\\d+(?:\\.\\d+)+)-win-x64\\.exe"
+	},
+	"urls": ["https://vcvrack.com/downloads/RackFree-{version}-win-x64.exe"]
+}
