@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "binance",
+		"repo": "desktop"
+	},
+	"urls": [
+		"https://github.com/binance/desktop/releases/download/{github.rawTag}/binance-setup-{version}.exe"
+	]
+}
