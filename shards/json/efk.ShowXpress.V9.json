@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://download.thelightingcontroller.com/software/V9/ShowXpress/ShowXpress_Win%2864bits%29.exe"
+	]
+}
