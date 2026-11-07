@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xcomart",
+		"repo": "jdbgen"
+	},
+	"urls": ["https://github.com/xcomart/jdbgen/releases/download/v{version}/jdbgen-{version}.msi"]
+}
