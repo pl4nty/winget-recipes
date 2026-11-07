@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "farion1231",
+		"repo": "cc-switch"
+	},
+	"urls": [
+		"https://github.com/farion1231/cc-switch/releases/download/{github.rawTag}/CC-Switch-v{version}-Windows-arm64.msi",
+		"https://github.com/farion1231/cc-switch/releases/download/{github.rawTag}/CC-Switch-v{version}-Windows.msi"
+	]
+}

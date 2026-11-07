@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "sibexico", "repo": "codemeter" },
+	"urls": [
+		"https://github.com/sibexico/codemeter/releases/download/v{version}/codemeter-windows-x86_64.exe",
+		"https://github.com/sibexico/codemeter/releases/download/v{version}/codemeter-windows-arm64.exe"
+	]
+}
