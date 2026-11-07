@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qarmin",
+		"repo": "czkawka"
+	},
+	"urls": ["https://github.com/qarmin/czkawka/releases/download/{version}/windows_krokiet_on_windows_skia_opengl.exe"]
+}
