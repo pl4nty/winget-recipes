@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MoltenPixelStudio",
+		"repo": "linkdrive"
+	},
+	"urls": ["https://github.com/MoltenPixelStudio/linkdrive/releases/download/v{version}/LinkDrive-Setup-{version}-win-x64.exe"]
+}
