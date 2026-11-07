@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KraXen72",
+		"repo": "crankshaft",
+		"method": "api-sort",
+		"assetRegex": "^(?:crankshaft\\-setup\\-win\\-x64\\.exe)$"
+	}
+}
