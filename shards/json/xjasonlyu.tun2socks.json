@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xjasonlyu",
+		"repo": "tun2socks"
+	},
+	"version": "{github.rawTag}",
+	"urls": [
+		"https://github.com/xjasonlyu/tun2socks/releases/download/{github.rawTag}/tun2socks-windows-386.zip",
+		"https://github.com/xjasonlyu/tun2socks/releases/download/{github.rawTag}/tun2socks-windows-amd64.zip",
+		"https://github.com/xjasonlyu/tun2socks/releases/download/{github.rawTag}/tun2socks-windows-arm64.zip"
+	]
+}
