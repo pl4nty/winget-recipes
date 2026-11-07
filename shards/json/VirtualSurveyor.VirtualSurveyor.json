@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://cdn.virtual-surveyor.com/installer/VirtualSurveyorInstaller.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.virtual-surveyor.com/installer/VirtualSurveyorInstaller.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
