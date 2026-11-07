@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+		"regex": "\"FIREFOX_ESR\":\\s*\"(?<release>(?<version>[^\"]+?)esr)\""
+	},
+	"urls": [
+		"https://download-installer.cdn.mozilla.net/pub/firefox/releases/{captures.release}/win32/sat/Firefox%20Setup%20{captures.release}.exe",
+		"https://download-installer.cdn.mozilla.net/pub/firefox/releases/{captures.release}/win64/sat/Firefox%20Setup%20{captures.release}.exe",
+		"https://download-installer.cdn.mozilla.net/pub/firefox/releases/{captures.release}/win64-aarch64/sat/Firefox%20Setup%20{captures.release}.exe",
+		"https://download-installer.cdn.mozilla.net/pub/firefox/releases/{captures.release}/win32/sat/Firefox%20Setup%20{captures.release}.msi",
+		"https://download-installer.cdn.mozilla.net/pub/firefox/releases/{captures.release}/win64/sat/Firefox%20Setup%20{captures.release}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.firefox.com/en-US/firefox/{version}/releasenotes/"
+	}
+}
