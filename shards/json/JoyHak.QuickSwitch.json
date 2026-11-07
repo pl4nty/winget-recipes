@@ -3,8 +3,10 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "JoyHak",
-		"repo": "QuickSwitch",
-		"method": "api-sort",
-		"assetRegex": "^(?:QuickSwitch\\-\\d+\\.\\d+\\-x\\d+\\.zip|QuickSwitch\\-\\d+\\.\\d+\\-x64\\.zip)$"
-	}
+		"repo": "QuickSwitch"
+	},
+	"urls": [
+		"https://github.com/JoyHak/QuickSwitch/releases/download/{github.rawTag}/QuickSwitch-{github.rawTag}-x32.zip",
+		"https://github.com/JoyHak/QuickSwitch/releases/download/{github.rawTag}/QuickSwitch-{github.rawTag}-x64.zip"
+	]
 }
