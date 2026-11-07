@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://codeberg.org/api/v1/repos/sox_ng/sox_ng/releases/latest",
+		"regex": "^(?=[\\s\\S]*?\"tag_name\":\"sox_ng-(?<version>[^\"]+)\")(?=[\\s\\S]*?\"browser_download_url\":\"(?<w32>[^\"]*/sox_ng-[\\d.]+-win32-exe\\.zip)\")(?=[\\s\\S]*?\"browser_download_url\":\"(?<w64>[^\"]*/sox_ng-[\\d.]+-win64-exe\\.zip)\")"
+	},
+	"urls": ["{captures.w32}", "{captures.w64}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://codeberg.org/sox_ng/sox_ng/releases/tag/sox_ng-{captures.version}"
+	}
+}
