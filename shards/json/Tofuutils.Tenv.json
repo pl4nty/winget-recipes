@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tofuutils",
+		"repo": "tenv"
+	},
+	"urls": [
+		"https://github.com/tofuutils/tenv/releases/download/v{version}/tenv_v{version}_Windows_i386.zip",
+		"https://github.com/tofuutils/tenv/releases/download/v{version}/tenv_v{version}_Windows_x86_64.zip",
+		"https://github.com/tofuutils/tenv/releases/download/v{version}/tenv_v{version}_Windows_arm64.zip"
+	]
+}
