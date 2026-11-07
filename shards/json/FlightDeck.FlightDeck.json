@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kpoineal",
+		"repo": "FlightDeck"
+	},
+	"urls": [
+		"https://github.com/kpoineal/FlightDeck/releases/download/{github.rawTag}/FlightDeck.{version}.msi"
+	]
+}
