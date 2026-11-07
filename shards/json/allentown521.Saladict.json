@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "allentown521",
+		"repo": "saladict"
+	},
+	"urls": [
+		"https://github.com/allentown521/saladict/releases/download/{github.rawTag}/saladict_{version}_arm64_fix_webview2_runtime-setup.exe",
+		"https://github.com/allentown521/saladict/releases/download/{github.rawTag}/saladict_{version}_x64_fix_webview2_runtime-setup.exe",
+		"https://github.com/allentown521/saladict/releases/download/{github.rawTag}/saladict_{version}_x86_fix_webview2_runtime-setup.exe"
+	]
+}
