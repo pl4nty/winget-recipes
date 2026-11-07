@@ -5,5 +5,7 @@
 		"owner": "openrails",
 		"repo": "openrails"
 	},
-	"urls": ["https://github.com/openrails/openrails/releases/download/{github.rawTag}/Open.Rails.{version}.Setup.exe"]
+	"urls": [
+		{ "url": "https://github.com/openrails/openrails/releases/download/{github.rawTag}/Open.Rails.{version}.Setup.exe", "architecture": "neutral" }
+	]
 }
