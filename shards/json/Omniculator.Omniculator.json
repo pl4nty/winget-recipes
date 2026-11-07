@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "turtle170",
+		"repo": "Omniculator"
+	},
+	"urls": ["https://github.com/turtle170/Omniculator/releases/download/v{version}/omniculator.exe"]
+}
