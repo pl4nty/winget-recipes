@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/httptoolkit/httptoolkit-desktop/releases/download/{github.rawTag}/HttpToolkit-{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/httptoolkit/httptoolkit-desktop/releases/tag/{github.rawTag}"
-	}
+	]
 }
