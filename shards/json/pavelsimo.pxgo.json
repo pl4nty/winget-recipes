@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pavelsimo",
+		"repo": "pxgo"
+	},
+	"urls": [
+		"https://github.com/pavelsimo/pxgo/releases/download/v{version}/pxgo_windows_arm64.zip",
+		"https://github.com/pavelsimo/pxgo/releases/download/v{version}/pxgo_windows_amd64.zip"
+	]
+}
