@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Psysonic",
+		"repo": "psysonic",
+		"tagRegex": "^app-v"
+	},
+	"urls": [
+		"https://github.com/Psysonic/psysonic/releases/download/{github.rawTag}/Psysonic_{version}_x64-setup.exe"
+	]
+}
