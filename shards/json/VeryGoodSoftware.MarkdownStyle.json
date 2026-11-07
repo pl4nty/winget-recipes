@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "very-good-software-ltd",
+		"repo": "markdown-style"
+	},
+	"urls": [
+		"https://github.com/very-good-software-ltd/markdown-style/releases/download/{version}/markdown-style-x86_64-pc-windows-msvc.zip"
+	]
+}

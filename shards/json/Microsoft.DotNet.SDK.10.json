@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/4a85064e-5a0f-43c9-85ea-a5a9d78047c5/69586988-741e-45cd-b271-fa9f5852f5b6/dotnet-sdk-10.0.403-win-arm64.exe",
+		"https://download.microsoft.com/download/4a85064e-5a0f-43c9-85ea-a5a9d78047c5/7a651622-ad57-4db0-8c1e-12771c93f513/dotnet-sdk-10.0.403-win-x64.exe",
+		"https://download.microsoft.com/download/4a85064e-5a0f-43c9-85ea-a5a9d78047c5/3f3b41cb-2de0-4c76-9fa3-419d054225c4/dotnet-sdk-10.0.403-win-x86.exe"
+	]
+}
