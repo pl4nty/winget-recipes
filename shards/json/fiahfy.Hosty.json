@@ -6,8 +6,9 @@
 	},
 	"github": {
 		"owner": "fiahfy",
-		"repo": "hosty",
-		"method": "api-latest",
-		"assetRegex": "^(?:hosty\\-setup\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
-	}
+		"repo": "hosty"
+	},
+	"urls": [
+		"https://github.com/fiahfy/hosty/releases/download/{github.rawTag}/hosty-setup-{version}.exe"
+	]
 }
