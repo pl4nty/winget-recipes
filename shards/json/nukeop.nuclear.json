@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "nukeop",
 		"repo": "nuclear",
-		"method": "api-list",
 		"tagRegex": "^player@"
 	},
 	"urls": [
