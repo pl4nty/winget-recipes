@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aiko-chan-ai",
+		"repo": "DiscordBotClient"
+	},
+	"urls": [
+		"https://github.com/aiko-chan-ai/DiscordBotClient/releases/download/{github.rawTag}/DiscordBotClient-win-x64.exe"
+	]
+}
