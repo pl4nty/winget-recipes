@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oschwartz10612",
+		"repo": "poppler-windows"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/oschwartz10612/poppler-windows/releases/download/v{version}/Release-{version}.zip",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/oschwartz10612/poppler-windows/releases/download/v{version}/Release-{version}.zip",
+			"architecture": "x86"
+		}
+	]
+}
