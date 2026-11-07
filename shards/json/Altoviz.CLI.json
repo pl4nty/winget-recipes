@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "altoviz",
+		"repo": "cli"
+	},
+	"urls": [
+		"https://github.com/altoviz/cli/releases/download/{github.rawTag}/altoviz-win-arm64.zip",
+		"https://github.com/altoviz/cli/releases/download/{github.rawTag}/altoviz-win-x64.zip"
+	]
+}
