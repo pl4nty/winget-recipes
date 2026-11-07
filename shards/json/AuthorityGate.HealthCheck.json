@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AuthorityGate",
+		"repo": "HorizonHealthCheck"
+	},
+	"urls": [
+		"https://github.com/AuthorityGate/HorizonHealthCheck/releases/download/{github.rawTag}/AuthorityGate-HealthCheck-Setup-{version}-x64.exe"
+	]
+}
