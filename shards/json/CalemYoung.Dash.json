@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		{ "url": "https://github.com/CalemYoung/Dash/releases/download/{github.rawTag}/DashSetup-{version}.exe", "architecture": "x64" }
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/CalemYoung/Dash/releases/tag/{github.rawTag}"
-	}
+	]
 }
