@@ -4,8 +4,10 @@
 	"github": {
 		"owner": "kubetail-org",
 		"repo": "kubetail",
-		"tagRegex": "^cli/v",
-		"method": "api-sort",
-		"assetRegex": "^(?:kubetail\\-windows\\-amd64\\.zip|kubetail\\-windows\\-arm64\\.zip)$"
-	}
+		"tagRegex": "^cli/v"
+	},
+	"urls": [
+		"https://github.com/kubetail-org/kubetail/releases/download/{github.rawTag}/kubetail-windows-amd64.zip",
+		"https://github.com/kubetail-org/kubetail/releases/download/{github.rawTag}/kubetail-windows-arm64.zip"
+	]
 }
