@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "stanley-projects",
-		"repo": "Insomnia",
-		"method": "api-latest",
-		"assetRegex": "^Insomnia[ .-]Setup[ .-]\\d+(?:\\.\\d+)+\\.exe$"
-	}
+		"repo": "Insomnia"
+	},
+	"urls": [
+		"https://github.com/stanley-projects/Insomnia/releases/download/{github.rawTag}/Insomnia.Setup.{version}.exe"
+	]
 }
