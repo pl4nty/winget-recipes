@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gcarmix",
+		"repo": "HexWalk"
+	},
+	"urls": [
+		"https://github.com/gcarmix/HexWalk/releases/download/{github.rawTag}/HexWalk_{version}_Windows_X64_Installer.exe"
+	]
+}
