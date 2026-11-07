@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JDE-Projects",
+		"repo": "Simple-UNA-Log-Viewer"
+	},
+	"urls": [
+		"https://github.com/JDE-Projects/Simple-UNA-Log-Viewer/releases/download/{github.rawTag}/SimpleUNALogViewer-v{version}-setup.exe"
+	]
+}

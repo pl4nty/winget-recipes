@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hidaba",
+		"repo": "HidaChat"
+	},
+	"urls": [
+		"https://github.com/hidaba/HidaChat/releases/download/{github.rawTag}/HidaChat-v{version}.zip"
+	]
+}
