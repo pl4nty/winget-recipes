@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "datamitsu",
+		"repo": "datamitsu"
+	},
+	"urls": [
+		"https://github.com/datamitsu/datamitsu/releases/download/{github.rawTag}/datamitsu_{version}_windows_amd64.zip",
+		"https://github.com/datamitsu/datamitsu/releases/download/{github.rawTag}/datamitsu_{version}_windows_arm64.zip"
+	]
+}
