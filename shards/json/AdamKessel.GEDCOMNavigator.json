@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "ajkessel",
+		"repo": "gedcom-navigator"
+	},
+	"urls": [
+		"https://github.com/ajkessel/gedcom-navigator/releases/download/{github.rawTag}/gedcom-navigator-windows-installer.exe"
+	]
+}
