@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "randlee", "repo": "claude-history" },
+	"urls": [
+		"https://github.com/randlee/claude-history/releases/download/v{version}/claude-history_{version}_windows_amd64.zip"
+	]
+}
