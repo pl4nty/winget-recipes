@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stellar",
+		"repo": "stellar-cli"
+	},
+	"urls": [
+		"https://github.com/stellar/stellar-cli/releases/download/{github.rawTag}/stellar-cli-installer-{version}-x86_64-pc-windows-msvc.exe"
+	]
+}
