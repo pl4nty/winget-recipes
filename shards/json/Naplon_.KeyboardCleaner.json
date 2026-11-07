@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "naplon74",
+		"repo": "CleanMe",
+		"tagRegex": "^V"
+	},
+	"urls": [
+		"https://github.com/naplon74/CleanMe/releases/download/V{version}/Keyboard_Cleaner-V{version}_Setup.exe"
+	]
+}
