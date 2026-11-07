@@ -4,8 +4,6 @@
 	"github": {
 		"owner": "orf",
 		"repo": "gping",
-		"method": "api-list",
-		"kind": "stable",
 		"tagRegex": "^gping-v"
 	},
 	"urls": [
