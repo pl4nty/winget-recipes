@@ -3,8 +3,7 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "srdjankotarlic",
-		"repo": "protimer",
-		"method": "api-latest"
+		"repo": "protimer"
 	},
 	"urls": ["https://github.com/srdjankotarlic/protimer/releases/download/v{version}/ProTimer-Setup-{version}.exe"]
 }
