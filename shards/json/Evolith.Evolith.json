@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/thulasiramk-2310/Evolith/releases/download/{github.rawTag}/evolith-windows-x64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/thulasiramk-2310/Evolith/releases/tag/{github.rawTag}"
-	}
+	]
 }
