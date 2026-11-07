@@ -38,6 +38,21 @@ const shardUrls: Rule = async (shards, report) => {
 	}
 };
 
+// Shards must resolve the latest version, so a version or a static URL must not be fixed.
+const hardcodedVersion: Rule = async (shards, report) => {
+	for (const shard of shards) {
+		const contents = await readFile(shard, 'utf8');
+		if (!shard.endsWith('.json')) {
+			if (/\bversion\s*:\s*['"`]\d[^'"`{$]*['"`]/.test(contents)) report(shard, 'shard hardcodes its version');
+			continue;
+		}
+		const { strategy, version, state } = JSON.parse(contents);
+		if (typeof version === 'string' && !version.includes('{')) report(shard, `shard hardcodes version ${version}`);
+		if (strategy === 'static' && !state)
+			report(shard, 'static shard without state can only resubmit the version at its URL');
+	}
+};
+
 // Anthelion reads version-state/<PackageIdentifier> before each update and fails when it is missing.
 const versionState: Rule = async (shards, report) => {
 	for (const shard of shards) {
@@ -382,6 +397,7 @@ const rules: Record<string, Rule> = process.argv.includes('--dry-run')
 	: {
 			maintained,
 			'shard-urls': shardUrls,
+			'hardcoded-version': hardcodedVersion,
 			'version-state': versionState,
 			'release-notes-url': releaseNotesUrl,
 			'github-release-notes': githubReleaseNotes,
