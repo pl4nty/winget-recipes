@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/3d-box-maker/",
+		"regex": "<span class=\"notranslate\">3D Box Maker (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://files.vovsoft.com/3d-box-maker.exe", "https://files.vovsoft.com/3d-box-maker-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/3d-box-maker/"
+	}
+}
