@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "pvolok", "repo": "dekit" },
+	"urls": ["https://github.com/pvolok/dekit/releases/download/v{version}/dekit-x86_64-pc-windows-msvc.zip"]
+}
