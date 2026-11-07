@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.maretron.com/products/n2kanalyzer-v3-nmea-2000-analysis-software/",
+		"regex": "files/N2KAnalyzer_(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://www.maretron.com/files/N2KAnalyzer_{version}.exe"]
+}
