@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "ClassicOldSong",
-		"repo": "Apollo",
-		"method": "api-sort",
-		"assetRegex": "^Apollo-\\d+(?:\\.\\d+)+\\.exe$"
-	}
+		"repo": "Apollo"
+	},
+	"urls": [
+		"https://github.com/ClassicOldSong/Apollo/releases/download/{github.rawTag}/Apollo-{version}.exe"
+	]
 }
