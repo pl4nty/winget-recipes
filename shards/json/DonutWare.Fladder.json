@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DonutWare",
+		"repo": "Fladder"
+	},
+	"urls": [
+		"https://github.com/DonutWare/Fladder/releases/download/{github.rawTag}/Fladder-Windows-{version}-Setup.exe"
+	]
+}
