@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": { "source": "product" },
-	"urls": ["https://www.jumpingbytes.com/down/ClipboardMasterInst.exe"],
+	"urls": ["https://dl.jumpingbytes.com/ClipboardMasterInst.exe"],
 	"state": {
 		"source": "response-header",
-		"url": "https://www.jumpingbytes.com/down/ClipboardMasterInst.exe",
+		"url": "https://dl.jumpingbytes.com/ClipboardMasterInst.exe",
 		"header": "etag"
 	},
 	"replace": true
