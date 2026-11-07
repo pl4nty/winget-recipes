@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.vectorstyler.com/releaselog/",
+		"regex": "<h3 id=\"build-\\d+\">Build (\\d+\\.\\d+\\.\\d+)</h3>"
+	},
+	"urls": [
+		"https://www.vectorstyler.com/release/release{version|.|_}/vectorstyler.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.vectorstyler.com/releaselog/#build-{version|.|}"
+	}
+}
