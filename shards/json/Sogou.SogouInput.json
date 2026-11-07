@@ -1,0 +1,33 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://shurufa.sogou.com/",
+		"regex": "\\\\?\"normal\\\\?\":\\\\?\"(?<url>https?://ime\\.gtimg\\.com/pc/sogou_pinyin_[\\d.]+\\.exe)\\\\?\",\\\\?\"name\\\\?\":\\\\?\"windows\\\\?\""
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "{captures.url|http:|https:}",
+			"architecture": "x86"
+		},
+		{
+			"url": "{captures.url|http:|https:}",
+			"architecture": "x64"
+		},
+		{
+			"url": "{captures.url|http:|https:}",
+			"architecture": "arm64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://pinyin.sogou.com/changelog.php"
+	},
+	"state": {
+		"source": "response-header",
+		"url": "{captures.url|http:|https:}",
+		"header": "etag"
+	}
+}
