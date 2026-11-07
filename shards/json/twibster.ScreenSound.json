@@ -6,6 +6,6 @@
 		"repo": "ScreenSound"
 	},
 	"urls": [
-		"https://github.com/twibster/ScreenSound/releases/download/v{version}/ScreenSound-Setup-{version}.exe"
+		{ "url": "https://github.com/twibster/ScreenSound/releases/download/v{version}/ScreenSound-Setup-{version}.exe", "architecture": "neutral" }
 	]
 }
