@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://www.osforensics.com/downloads/osfmount.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.osforensics.com/downloads/osfmount.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
