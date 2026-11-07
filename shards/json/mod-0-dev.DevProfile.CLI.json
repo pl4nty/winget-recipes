@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mod-0-dev",
+		"repo": "DevProfile"
+	},
+	"urls": [
+		"https://github.com/mod-0-dev/DevProfile/releases/download/v{version}/DevProfile-{version}-cli-win-x64.zip",
+		"https://github.com/mod-0-dev/DevProfile/releases/download/v{version}/DevProfile-{version}-cli-win-arm64.zip"
+	]
+}
