@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hrzlgnm",
+		"repo": "mdns-browser"
+	},
+	"urls": [
+		"https://github.com/hrzlgnm/mdns-browser/releases/download/{github.rawTag}/mdns-browser_{version}_x64-setup.exe",
+		"https://github.com/hrzlgnm/mdns-browser/releases/download/{github.rawTag}/mdns-browser_{version}_x64_en-US.msi"
+	]
+}

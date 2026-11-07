@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://download.quicken.com/windows/Quicken.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.quicken.com/windows/Quicken.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://info.quicken.com/win/windows-release-notes"
+	},
+	"replace": true
+}
