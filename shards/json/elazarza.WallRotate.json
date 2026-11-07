@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elazarza",
+		"repo": "wallrotate"
+	},
+	"urls": [
+		"https://github.com/elazarza/wallrotate/releases/download/{github.rawTag}/wallrotate.exe"
+	]
+}
