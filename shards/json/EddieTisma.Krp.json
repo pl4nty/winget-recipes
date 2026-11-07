@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "eddietisma",
+		"repo": "krp",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/eddietisma/krp/releases/download/{github.rawTag}/krp_{version}_win-arm64.zip",
+		"https://github.com/eddietisma/krp/releases/download/{github.rawTag}/krp_{version}_win-x64.zip"
+	]
+}
