@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "danielRadiceski",
+		"repo": "prose"
+	},
+	"urls": [
+		"https://github.com/danielRadiceski/prose/releases/download/{github.rawTag}/Prose-{version}-win64.zip"
+	]
+}

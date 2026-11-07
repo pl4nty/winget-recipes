@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NinjaCheetah",
+		"repo": "NUSGet"
+	},
+	"urls": [
+		"https://github.com/NinjaCheetah/NUSGet/releases/download/v{version}/NUSGet-Windows-x86_64-bin.zip"
+	]
+}
