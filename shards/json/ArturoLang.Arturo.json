@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "arturo-lang",
+		"repo": "arturo"
+	},
+	"urls": [
+		"https://github.com/arturo-lang/arturo/releases/download/{github.rawTag}/arturo-{version}-windows-amd64.zip"
+	]
+}
