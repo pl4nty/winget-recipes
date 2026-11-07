@@ -5,8 +5,5 @@
 		"owner": "yd-null",
 		"repo": "sbscraper"
 	},
-	"urls": ["https://github.com/yd-null/sbscraper/releases/download/v{version}/sbscraper-windows.zip"],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/yd-null/sbscraper/releases/tag/{github.rawTag}"
-	}
+	"urls": ["https://github.com/yd-null/sbscraper/releases/download/v{version}/sbscraper-windows.zip"]
 }
