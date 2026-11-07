@@ -5,6 +5,7 @@
 		"owner": "PowerShell",
 		"repo": "PowerShell"
 	},
+	"version": "{version}.0",
 	"urls": [
 		"https://github.com/PowerShell/PowerShell/releases/download/v{version}/PowerShell-{version}.msixbundle",
 		"https://github.com/PowerShell/PowerShell/releases/download/v{version}/PowerShell-{version}-win-x64.msi",
