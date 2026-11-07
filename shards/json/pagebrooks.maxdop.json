@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pagebrooks",
+		"repo": "maxdop"
+	},
+	"urls": [
+		"https://github.com/pagebrooks/maxdop/releases/download/{github.rawTag}/maxdop-{version}-win-x64.zip",
+		"https://github.com/pagebrooks/maxdop/releases/download/{github.rawTag}/maxdop-{version}-win-arm64.zip"
+	]
+}

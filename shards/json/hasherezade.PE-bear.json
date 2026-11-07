@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hasherezade",
+		"repo": "pe-bear"
+	},
+	"urls": [
+		"https://github.com/hasherezade/pe-bear/releases/download/{github.rawTag}/PE-bear_{version}_qt4_x86_win_vs10.zip",
+		"https://github.com/hasherezade/pe-bear/releases/download/{github.rawTag}/PE-bear_{version}_qt5_x64_win_vs17.zip",
+		"https://github.com/hasherezade/pe-bear/releases/download/{github.rawTag}/PE-bear_{version}_qt5_x86_win_vs17.zip",
+		"https://github.com/hasherezade/pe-bear/releases/download/{github.rawTag}/PE-bear_{version}_qt6_x64_win_vs22.zip"
+	]
+}
