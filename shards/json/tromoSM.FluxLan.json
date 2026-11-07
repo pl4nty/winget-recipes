@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tromoSM", "repo": "FluxLAN" },
+	"urls": [
+		"https://github.com/tromoSM/FluxLAN/releases/download/v{version}/FluxLAN-Windows.exe"
+	]
+}

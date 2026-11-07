@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kalink0",
+		"repo": "peach-forensics"
+	},
+	"urls": [
+		"https://github.com/kalink0/peach-forensics/releases/download/{github.rawTag}/peach-windows-v{version}.zip"
+	]
+}

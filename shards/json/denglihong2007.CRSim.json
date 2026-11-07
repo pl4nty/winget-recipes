@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "denglihong2007",
+		"repo": "CRSim"
+	},
+	"urls": [
+		"https://github.com/denglihong2007/CRSim/releases/download/{github.rawTag}/CRSim-release-{version}.zip"
+	]
+}
