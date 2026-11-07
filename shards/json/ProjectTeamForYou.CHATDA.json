@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "work517",
+		"repo": "chatda-releases"
+	},
+	"urls": [
+		"https://github.com/work517/chatda-releases/releases/download/{github.rawTag}/chatda-{version}-win-x64-setup.exe"
+	]
+}
