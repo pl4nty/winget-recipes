@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/placebo-cleaner/",
+		"regex": "<span class=\"notranslate\">Placebo Cleaner (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://files.vovsoft.com/placebo-cleaner.exe", "https://files.vovsoft.com/placebo-cleaner-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/placebo-cleaner/"
+	}
+}
