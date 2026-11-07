@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "TerraFaster", "repo": "scaf" },
+	"urls": [
+		"https://github.com/TerraFaster/scaf/releases/download/v{version}/scaf-windows-amd64.exe"
+	]
+}
