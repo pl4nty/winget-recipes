@@ -6,8 +6,9 @@
 	},
 	"github": {
 		"owner": "AdamAnomatik",
-		"repo": "Simpltask-Releases",
-		"method": "api-latest",
-		"assetRegex": "^(?:Simpltask\\-Setup\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
-	}
+		"repo": "Simpltask-Releases"
+	},
+	"urls": [
+		"https://github.com/AdamAnomatik/Simpltask-Releases/releases/download/{github.rawTag}/Simpltask-Setup-{version}.exe"
+	]
 }
