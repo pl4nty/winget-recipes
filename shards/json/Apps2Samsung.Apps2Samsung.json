@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Apps2Samsung",
+		"repo": "Apps2Samsung"
+	},
+	"urls": [
+		"https://github.com/Apps2Samsung/Apps2Samsung/releases/download/{github.rawTag}/Apps2Samsung-v{version}-win-x64.msi"
+	]
+}
