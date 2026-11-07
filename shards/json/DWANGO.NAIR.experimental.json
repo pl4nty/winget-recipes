@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://n-air-app.nicovideo.jp/download/windows-unstable"
+		],
+		"regex": "/n-air-app-setup\\.(\\d+\\.\\d+\\.\\d+-unstable\\.\\d+)\\.exe$"
+	}
+}
