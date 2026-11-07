@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "viorizz",
+		"repo": "diskutility"
+	},
+	"urls": [
+		"https://github.com/viorizz/diskutility/releases/download/v{version}/diskutility.exe"
+	]
+}
