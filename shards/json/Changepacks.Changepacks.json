@@ -4,9 +4,7 @@
 	"github": {
 		"owner": "changepacks",
 		"repo": "changepacks",
-		"method": "api-list",
-		"tagRegex": "^changepacks\\(crates/changepacks/Cargo\\.toml\\)@",
-		"perPage": 100
+		"tagRegex": "^changepacks\\(crates/changepacks/Cargo\\.toml\\)@"
 	},
 	"urls": [
 		"https://github.com/changepacks/changepacks/releases/download/{github.rawTag}/changepacks-windows-x86_64.exe"
