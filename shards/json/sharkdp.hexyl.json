@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sharkdp",
+		"repo": "hexyl"
+	},
+	"urls": [
+		"https://github.com/sharkdp/hexyl/releases/download/v{version}/hexyl-v{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/sharkdp/hexyl/releases/download/v{version}/hexyl-v{version}-i686-pc-windows-msvc.zip"
+	]
+}
