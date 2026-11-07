@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "manfred-mueller",
+		"repo": "NTPSync"
+	},
+	"urls": [
+		{ "url": "https://github.com/manfred-mueller/NTPSync/releases/download/{version}/NTPSync-Setup-{version}.exe", "architecture": "x64" },
+		{ "url": "https://github.com/manfred-mueller/NTPSync/releases/download/{version}/NTPSync.exe", "architecture": "x64" }
+	]
+}
