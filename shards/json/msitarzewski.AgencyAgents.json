@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "msitarzewski",
+		"repo": "agency-agents-app"
+	},
+	"urls": [
+		"https://github.com/msitarzewski/agency-agents-app/releases/download/v{version}/Agency_Agents_{version}_x64-setup.exe",
+		"https://github.com/msitarzewski/agency-agents-app/releases/download/v{version}/Agency_Agents_{version}_arm64-setup.exe"
+	]
+}
