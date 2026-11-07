@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "REALSIGNAL",
+		"repo": "packet-capture-pro-app"
+	},
+	"urls": ["https://github.com/REALSIGNAL/packet-capture-pro-app/releases/download/v{version}/PacketCapturePro_v{version}.exe"]
+}
