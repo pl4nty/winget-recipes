@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/Abyss116/IndexSearch/releases/download/{github.rawTag}/indexsearch-windows-x86_64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Abyss116/IndexSearch/releases/tag/{github.rawTag}"
-	}
+	]
 }
