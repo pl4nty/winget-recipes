@@ -9,8 +9,5 @@
 	"urls": [
 		"https://github.com/Daydreamer-riri/QRCode-CmdPal/releases/download/{github.rawTag}/Riri.QRCodeForCmdPal_{version}.0_arm64.msix",
 		"https://github.com/Daydreamer-riri/QRCode-CmdPal/releases/download/{github.rawTag}/Riri.QRCodeForCmdPal_{version}.0_x64.msix"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Daydreamer-riri/QRCode-CmdPal/releases/tag/{github.rawTag}"
-	}
+	]
 }
