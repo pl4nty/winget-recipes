@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "TP202610017",
-		"repo": "framework-llm-releases",
-		"method": "api-latest",
-		"assetRegex": "^isw_v[\\d.]+_windows_(?:x86_64|arm64)\\.zip$"
-	}
+		"repo": "framework-llm-releases"
+	},
+	"urls": [
+		"https://github.com/TP202610017/framework-llm-releases/releases/download/{github.rawTag}/isw_{github.rawTag}_windows_x86_64.zip"
+	]
 }
