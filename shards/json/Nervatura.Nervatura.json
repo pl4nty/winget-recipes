@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nervatura",
+		"repo": "nervatura"
+	},
+	"urls": ["https://github.com/nervatura/nervatura/releases/download/v{version}/nervatura_{version}_windows_x64.exe"]
+}
