@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "beeswaxpat",
+		"repo": "scrib-desktop"
+	},
+	"urls": [
+		"https://github.com/beeswaxpat/scrib-desktop/releases/download/{github.rawTag}/scrib-desktop-v{version}-windows-x64.zip"
+	]
+}

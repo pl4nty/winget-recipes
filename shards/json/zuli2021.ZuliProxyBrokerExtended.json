@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "zuli2021", "repo": "zuli-proxybroker-extended" },
+	"urls": [
+		"https://github.com/zuli2021/zuli-proxybroker-extended/releases/download/{github.rawTag}/proxybroker-{github.rawTag}-x86_64-pc-windows-msvc.zip"
+	]
+}
