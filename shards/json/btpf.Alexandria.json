@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "btpf",
+		"repo": "Alexandria"
+	},
+	"urls": [
+		"https://github.com/btpf/Alexandria/releases/download/{github.rawTag}/Alexandria_{version}_x64-Portable.exe",
+		"https://github.com/btpf/Alexandria/releases/download/{github.rawTag}/Alexandria_{version}_x64-setup.exe",
+		"https://github.com/btpf/Alexandria/releases/download/{github.rawTag}/Alexandria_{version}_x64_en-US.msi"
+	]
+}
