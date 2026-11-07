@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "wilsonglasser", "repo": "oryxis" },
+	"urls": [
+		"https://github.com/wilsonglasser/oryxis/releases/download/v{version}/oryxis-user-setup-x86_64.exe",
+		"https://github.com/wilsonglasser/oryxis/releases/download/v{version}/oryxis-setup-x86_64.exe",
+		"https://github.com/wilsonglasser/oryxis/releases/download/v{version}/oryxis-user-setup-aarch64.exe",
+		"https://github.com/wilsonglasser/oryxis/releases/download/v{version}/oryxis-setup-aarch64.exe"
+	]
+}
