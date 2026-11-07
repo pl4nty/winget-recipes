@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://epsviewer.org/",
+		"regex": "<title>EPS Viewer - FREE EPS File Viewer (\\d+(?:\\.\\d+)+)</title>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://epsviewer.org/epsviewersetup.exe"]
+}
