@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DataDog",
+		"repo": "datadog-agent-dev"
+	},
+	"urls": [
+		"https://github.com/DataDog/datadog-agent-dev/releases/download/{github.rawTag}/dda-x86_64-pc-windows-msvc.zip",
+		"https://github.com/DataDog/datadog-agent-dev/releases/download/{github.rawTag}/dda-i686-pc-windows-msvc.zip",
+		"https://github.com/DataDog/datadog-agent-dev/releases/download/{github.rawTag}/dda-x64.msi",
+		"https://github.com/DataDog/datadog-agent-dev/releases/download/{github.rawTag}/dda-x86.msi"
+	]
+}
