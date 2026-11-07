@@ -5,5 +5,7 @@
 		"owner": "Der-Floh",
 		"repo": "Video-To-Ascii"
 	},
-	"urls": ["https://github.com/Der-Floh/Video-To-Ascii/releases/download/v{version}/VideoToAscii-v{version}.zip"]
+	"urls": [
+		{ "url": "https://github.com/Der-Floh/Video-To-Ascii/releases/download/v{version}/VideoToAscii-v{version}.zip", "architecture": "neutral" }
+	]
 }
