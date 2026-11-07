@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HR",
+		"repo": "Crypter"
+	},
+	"urls": [
+		"https://github.com/HR/Crypter/releases/download/{github.rawTag}/Crypter-Setup-{version}.exe"
+	]
+}
