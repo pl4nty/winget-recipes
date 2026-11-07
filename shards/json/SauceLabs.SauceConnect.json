@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.us-west-1.saucelabs.com/rest/v1/public/tunnels/info/versions?client_os=windows",
+		"path": "latest_version"
+	},
+	"urls": [
+		"https://saucelabs.com/downloads/sauce-connect/{version}/sauce-connect-{version}_windows.aarch64.zip",
+		"https://saucelabs.com/downloads/sauce-connect/{version}/sauce-connect-{version}_windows.x86_64.zip"
+	]
+}
