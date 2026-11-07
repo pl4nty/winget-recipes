@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hec.usace.army.mil/software/hec-efm/download.aspx",
+		"regex": "downloads/HEC-EFM_(?<file>\\d+)_Setup\\.exe\"><span class=\"fas fa-download\"></span> Download</a> HEC-EFM (?<version>\\d+(?:\\.\\d+)+) \\(install package\\)"
+	},
+	"urls": ["https://www.hec.usace.army.mil/software/hec-efm/downloads/HEC-EFM_{captures.file}_Setup.exe"]
+}
