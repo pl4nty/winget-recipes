@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "techygeekshome",
+		"repo": "Ultimate-Settings-Panel"
+	},
+	"urls": ["https://github.com/techygeekshome/Ultimate-Settings-Panel/releases/download/v{version}/Ultimate-Settings-Panel.zip"]
+}

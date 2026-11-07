@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JalaU-Capstones",
+		"repo": "arcade-maze-chomper"
+	},
+	"urls": [
+		"https://github.com/JalaU-Capstones/arcade-maze-chomper/releases/download/{github.rawTag}/ArcadeMazeChomper-Windows-v{version}.zip"
+	]
+}
