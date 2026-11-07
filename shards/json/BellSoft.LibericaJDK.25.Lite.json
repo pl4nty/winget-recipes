@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://download.bell-sw.com/java/25.0.4+9/bellsoft-jdk25.0.4+9-windows-amd64-lite.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://download.bell-sw.com/java/25.0.4+9/bellsoft-jdk25.0.4+9-windows-aarch64-lite.msi",
+			"architecture": "arm64"
+		}
+	]
+}
