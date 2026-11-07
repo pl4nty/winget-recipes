@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "easy-install",
+		"repo": "easy-install"
+	},
+	"urls": [
+		"https://github.com/easy-install/easy-install/releases/download/{github.rawTag}/ei-x86_64-pc-windows-msvc.zip"
+	]
+}
