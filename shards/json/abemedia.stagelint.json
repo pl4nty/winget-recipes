@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "abemedia",
+		"repo": "stagelint"
+	},
+	"urls": [
+		"https://github.com/abemedia/stagelint/releases/download/{github.rawTag}/stagelint-{version}-aarch64-pc-windows-gnullvm.zip",
+		"https://github.com/abemedia/stagelint/releases/download/{github.rawTag}/stagelint-{version}-x86_64-pc-windows-gnu.zip"
+	]
+}
