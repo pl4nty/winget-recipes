@@ -15,11 +15,11 @@ export default defineShard(async () => {
 			}
 		}),
 	);
-	for (const url of ['https://www.passmark.com/products/fragger/', 'https://www.passmark.com/downloads/']) {
+	for (const url of ['https://tapatch.com/tools.json', 'https://tapatch.com/api/tools', 'https://tapatch.com/tools/tahub/', 'https://tapatch.com/downloads/TAHub-Setup-1.0.2.exe']) {
 		try {
 			const response = await fetch(url);
 			const text = await response.text();
-			out[url] = [response.status, ...(text.match(/[^<>]{0,80}(?:fragger|version|build)[^<>]{0,80}/gi) ?? []).filter((line) => /fragger|\d\.\d/i.test(line)).slice(0, 25)];
+			out[url] = [response.status, response.headers.get('content-type'), response.headers.get('server'), text.length, text.slice(0, 200), ...(text.match(/[^<>"]{0,60}(?:tahub|TAHub-Setup)[^<>"]{0,60}/gi) ?? []).slice(0, 10)];
 		} catch (error) {
 			out[url] = String(error);
 		}
