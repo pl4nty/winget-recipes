@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "quangnv13",
+		"repo": "nonstop-notify"
+	},
+	"urls": ["https://github.com/quangnv13/nonstop-notify/releases/download/v{version}/nonstop-notify.exe"]
+}
