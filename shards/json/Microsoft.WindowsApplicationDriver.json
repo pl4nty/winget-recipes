@@ -5,6 +5,7 @@
 		"owner": "microsoft",
 		"repo": "WinAppDriver"
 	},
+	"version": "{version}.0",
 	"urls": [
 		"https://github.com/microsoft/WinAppDriver/releases/download/v{version}/WindowsApplicationDriver_{version}.msi"
 	]
