@@ -1,7 +1,7 @@
 import { defineShard } from 'anthelion';
 import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"3330": ["racemo-dev", "racemo-client"], "4070": ["ronnikols", "SNBT-AI-Localizer"], "4235": ["Yovancas", "claudebar-win"], "4253": ["stoplightio", "prism"], "5046": ["tbillington", "kondo"], "5076": ["RangS-1", "Ferminal"], "5220": ["MazeratorGame", "Mazerator"], "5339": ["u14app", "neo-chat"], "5434": ["zack-zzq", "skillmux"], "5498": ["Hyeonjun0527", "discord-ai-network-bot"], "5894": ["yazanmwk", "TypeSymbol"], "5919": ["RaphGL", "Tuckr"], "5938": ["objz", "rmcl"], "5989": ["1930-dev", "azure-vpn-cli"], "5997": ["product-noob", "launchpad-app"], "5843": ["Nbc66", "VTFEdit-Reloaded"], "5656": ["squigit-org", "squigit"]};
+const repos: Record<string, [string, string]> = {"5748": ["openvpi", "OpenSvip"], "5146": ["Tinman-FP", "TinManX1"], "151": ["microsoft", "MIDI"], "4029": ["picguard", "picguard"], "2580": ["dpzxfuture", "dpzxgit1"], "2880": ["ghostersk", "ftp-server-gui"], "5212": ["SamarthAgrawal-002", "ShrinkIt"], "3512": ["geneb", "XREF"], "464": ["microsoft", "idfix"], "5748b": ["openvpi", "opensvip-converter"], "5146b": ["Tinman-FP", "TinManX1-Releases"]};
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
