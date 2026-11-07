@@ -8,8 +8,5 @@
 	"version": "{version}.0",
 	"urls": [
 		"https://github.com/mar10/stressor/releases/download/{github.rawTag}/stressor-{version}.0-win64.msi"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/mar10/stressor/releases/tag/{github.rawTag}"
-	}
+	]
 }
