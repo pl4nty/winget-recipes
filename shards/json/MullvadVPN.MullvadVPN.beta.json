@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mullvad",
+		"repo": "mullvadvpn-app",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "^(?=\\d{4}\\.\\d+-beta\\d+$)"
+	},
+	"urls": [
+		"https://github.com/mullvad/mullvadvpn-app/releases/download/{github.rawTag}/MullvadVPN-{github.rawTag}_x64.exe",
+		"https://github.com/mullvad/mullvadvpn-app/releases/download/{github.rawTag}/MullvadVPN-{github.rawTag}_arm64.exe"
+	]
+}
