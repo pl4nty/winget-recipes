@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "XiaTian-AC",
+		"repo": "faster-dooit"
+	},
+	"urls": [
+		"https://github.com/XiaTian-AC/faster-dooit/releases/download/v{version}/faster-dooit-windows-amd64.zip"
+	]
+}
