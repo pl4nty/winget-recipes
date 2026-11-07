@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zack-zzq",
+		"repo": "skillmux",
+		"method": "api-latest",
+		"assetRegex": "^skillmux-[\\d.]+-(?:x86_64|aarch64)-pc-windows-msvc\\.exe$"
+	}
+}
