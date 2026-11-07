@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "franciscoBSalgueiro",
+		"repo": "en-croissant"
+	},
+	"urls": [
+		"https://github.com/franciscoBSalgueiro/en-croissant/releases/download/{github.rawTag}/en-croissant_{version}_x64-setup.exe",
+		"https://github.com/franciscoBSalgueiro/en-croissant/releases/download/{github.rawTag}/en-croissant_{version}_x64-setup.nsis.zip"
+	]
+}

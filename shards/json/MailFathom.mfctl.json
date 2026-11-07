@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fathomise",
+		"repo": "MailFathom"
+	},
+	"urls": [
+		"https://github.com/fathomise/MailFathom/releases/download/v{version}/mfctl-{version}-win-x64.exe",
+		"https://github.com/fathomise/MailFathom/releases/download/v{version}/mfctl-{version}-win-arm64.exe"
+	]
+}
