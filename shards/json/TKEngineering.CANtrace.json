@@ -5,6 +5,7 @@
 		"url": "https://tkengineering.fi/product/cantrace-can-bus-analyzer-software",
 		"regex": "tketechnology\\.com/(?<path>wp-content/uploads/sites/\\d+/\\d{4}/\\d{2})/CANtrace-(?<version>\\d+(?:\\.\\d+)+)\\.zip"
 	},
+	"version": "{version}.0",
 	"urls": [
 		{
 			"url": "https://tketechnology.com/{captures.path}/CANtrace-{version}.zip",
