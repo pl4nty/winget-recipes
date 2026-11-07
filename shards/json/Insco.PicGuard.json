@@ -3,8 +3,11 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "picguard",
-		"repo": "picguard",
-		"method": "api-sort",
-		"assetRegex": "^(?:picguard\\-\\d+(?:\\.\\d+)+\\-windows\\-x64\\-en\\-US\\.msi|picguard\\-\\d+(?:\\.\\d+)+\\-windows\\-x64\\-zh\\-CN\\.msi|picguard\\-\\d+(?:\\.\\d+)+\\-windows\\-setup\\-x64\\.exe)$"
-	}
+		"repo": "picguard"
+	},
+	"urls": [
+		"https://github.com/picguard/picguard/releases/download/{github.rawTag}/picguard-{version}-windows-setup-x64.exe",
+		"https://github.com/picguard/picguard/releases/download/{github.rawTag}/picguard-{version}-windows-x64-en-US.msi",
+		"https://github.com/picguard/picguard/releases/download/{github.rawTag}/picguard-{version}-windows-x64-zh-CN.msi"
+	]
 }
