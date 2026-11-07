@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aryanbhosale",
+		"repo": "pick"
+	},
+	"urls": [
+		"https://github.com/aryanbhosale/pick/releases/download/{github.rawTag}/pick-v{version}-x86_64-pc-windows-gnu.zip"
+	]
+}
