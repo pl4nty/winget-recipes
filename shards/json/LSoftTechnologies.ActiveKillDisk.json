@@ -6,7 +6,7 @@
 	},
 	"urls": [
 		{
-			"url": "https://download2.lsoft.net/KillDisk-Freeware-Setup.exe",
+			"url": "https://download.lsoft.net/KillDisk-Freeware-Setup.exe",
 			"architecture": "x86"
 		}
 	],
@@ -15,7 +15,7 @@
 	},
 	"state": {
 		"source": "response-header",
-		"url": "https://download2.lsoft.net/KillDisk-Freeware-Setup.exe",
+		"url": "https://download.lsoft.net/KillDisk-Freeware-Setup.exe",
 		"header": "etag"
 	},
 	"replace": true
