@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "vzhd1701", "repo": "evernote-backup" },
+	"urls": [
+		"https://github.com/vzhd1701/evernote-backup/releases/download/{version}/bin_evernote_backup_{version}_win_x64.zip",
+		"https://github.com/vzhd1701/evernote-backup/releases/download/{version}/bin_evernote_backup_{version}_win_arm64.zip"
+	]
+}
