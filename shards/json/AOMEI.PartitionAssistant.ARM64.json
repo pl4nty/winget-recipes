@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://go.diskpart.com/dl/pa/arm64/PAssist_Std_ARM64.exe"
+	]
+}
