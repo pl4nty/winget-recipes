@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SatDump",
+		"repo": "SatDump"
+	},
+	"urls": [
+		"https://github.com/SatDump/SatDump/releases/download/{version}/SatDump-Windows_x64_Installer.exe",
+		"https://github.com/SatDump/SatDump/releases/download/{version}/SatDump-Windows_arm64_Installer.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GuardianEye-Official",
+		"repo": "Guardian.Eye"
+	},
+	"urls": [
+		"https://github.com/GuardianEye-Official/Guardian.Eye/releases/download/{github.rawTag}/GuardianEye-{version}-Setup.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ares-emulator",
+		"repo": "ares"
+	},
+	"urls": [
+		"https://github.com/ares-emulator/ares/releases/download/{github.rawTag}/ares-windows-clang-cl-arm64.zip",
+		"https://github.com/ares-emulator/ares/releases/download/{github.rawTag}/ares-windows-x64.zip"
+	]
+}
