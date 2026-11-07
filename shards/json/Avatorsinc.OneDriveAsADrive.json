@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Avatorsinc",
+		"repo": "OneDriveAsADrive"
+	},
+	"urls": [
+		"https://github.com/Avatorsinc/OneDriveAsADrive/releases/download/{github.rawTag}/OneDriveAsADrive-Setup-v{version}.exe"
+	]
+}
