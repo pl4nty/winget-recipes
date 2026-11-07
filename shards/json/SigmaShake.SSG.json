@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://download.sigmashake.com/cli/latest.json", "path": "version" },
+	"urls": ["https://download.sigmashake.com/cli/{version}/ssg-win32-x64.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sigmashake.com/pricing"
+	}
+}
