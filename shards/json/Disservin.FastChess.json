@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Disservin",
+		"repo": "fastchess"
+	},
+	"urls": [
+		"https://github.com/Disservin/fastchess/releases/download/{github.rawTag}/fastchess-windows-arm64.zip",
+		"https://github.com/Disservin/fastchess/releases/download/{github.rawTag}/fastchess-windows-x86-64.zip"
+	]
+}
