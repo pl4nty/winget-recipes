@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://cdn.systweak.com/setups/baps/aso3setup_systweak-default.exe?of=aso3setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.systweak.com/setups/baps/aso3setup_systweak-default.exe?of=aso3setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
