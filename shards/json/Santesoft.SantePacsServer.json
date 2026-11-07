@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.santesoft.com/win/sante-pacs-server/download.html",
+		"regex": "Sante PACS Server Version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{ "url": "https://www.santesoft.com/files/win/sante_pacs_server.zip", "architecture": "x64", "nestedInstallerMatches": ["sante_pacs_server.exe"] }
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.santesoft.com/win/sante-pacs-server/whats_new.html"
+	}
+}
