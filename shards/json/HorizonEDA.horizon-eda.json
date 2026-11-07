@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "horizon-eda",
+		"repo": "horizon"
+	},
+	"urls": [
+		"https://github.com/horizon-eda/horizon/releases/download/{github.rawTag}/horizon-eda-{version}-x64.msi"
+	]
+}
