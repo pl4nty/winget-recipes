@@ -1,7 +1,7 @@
 import { defineShard } from 'anthelion';
 import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"3330": ["racemo-dev", "racemo-client"], "4070": ["ronnikols", "SNBT-AI-Localizer"], "4235": ["Yovancas", "claudebar-win"], "4253": ["stoplightio", "prism"], "5046": ["tbillington", "kondo"], "5076": ["RangS-1", "Ferminal"], "5220": ["MazeratorGame", "Mazerator"], "5339": ["u14app", "neo-chat"], "5434": ["zack-zzq", "skillmux"], "5498": ["Hyeonjun0527", "discord-ai-network-bot"], "5894": ["yazanmwk", "TypeSymbol"], "5919": ["RaphGL", "Tuckr"], "5938": ["objz", "rmcl"], "5989": ["1930-dev", "azure-vpn-cli"], "5997": ["product-noob", "launchpad-app"], "5843": ["Nbc66", "VTFEdit-Reloaded"], "5656": ["squigit-org", "squigit"]};
+const repos: Record<string, [string, string]> = {"5113": ["nathanwijaya", "FileID"], "5393": ["sewandev", "Reverbic"], "5658": ["novafabric", "novavoice"], "5894": ["yazanmwk", "TypeSymbol"], "2776a": ["singularity", "singularity"], "2776b": ["singularity", "singularity-windows"], "5129": ["MaxyMaxTheDev", "clear-clipboard"], "2211": ["kanakkholwal", "recast"], "3974": ["KinectToVR", "Amethyst-Releases"], "3974b": ["KinectToVR", "Amethyst"], "3494": ["chidiwilliams", "buzz"]};
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
