@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://zim-wiki.org/downloads/",
+		"regex": "zim-desktop-wiki-(\\d+(?:\\.\\d+)+)-setup-w64_x86\\.exe\""
+	},
+	"urls": ["https://zim-wiki.org/downloads/zim-desktop-wiki-{version}-setup-w64_x86.exe"]
+}
