@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.navicat.com/products/navicat-premium-release-note",
+		"regex": "Navicat Premium \\(Windows\\) version (?<version>(?<major>17)\\.\\d+\\.\\d+)<"
+	},
+	"urls": [
+		"https://download3.navicat.com/download/navicat{captures.major}_premium_lite_es_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_premium_lite_en_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_premium_lite_cs_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_premium_lite_ct_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_premium_lite_id_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_premium_lite_jp_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_premium_lite_de_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_premium_lite_ru_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_premium_lite_pl_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_premium_lite_fr_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_premium_lite_kr_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_premium_lite_th_x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.navicat.com/products/navicat-premium-release-note"
+	}
+}
