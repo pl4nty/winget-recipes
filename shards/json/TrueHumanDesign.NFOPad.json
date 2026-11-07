@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://truehumandesign.se/s_nfopad.php",
+		"regex": "<b>Version:</b>\\s*(\\d+(?:\\.\\d+)+)<br"
+	},
+	"urls": ["https://truehumandesign.se/dl.php?file=nfopad{version|.|}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://truehumandesign.se/s_nfopad.php#versionhistory"
+	}
+}
