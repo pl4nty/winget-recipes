@@ -9,8 +9,5 @@
 	},
 	"urls": [
 		"https://github.com/cornradio/pausemygame/releases/download/{github.rawTag}/wpf.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/cornradio/pausemygame/releases/tag/{github.rawTag}"
-	}
+	]
 }
