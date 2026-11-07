@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/AariyJP/prime-video-tauri/releases/latest/download/prime-video-tauri_x64-setup.exe"
+	]
+}
