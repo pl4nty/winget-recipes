@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Heniokhos-Systems",
+		"repo": "KernRift"
+	},
+	"version": "{github.rawTag}",
+	"urls": [
+		"https://github.com/Heniokhos-Systems/KernRift/releases/download/{github.rawTag}/krc-windows-x86_64.zip",
+		"https://github.com/Heniokhos-Systems/KernRift/releases/download/{github.rawTag}/krc-windows-arm64.zip"
+	]
+}
