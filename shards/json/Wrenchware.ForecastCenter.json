@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wrenchware",
+		"repo": "forecast-center"
+	},
+	"urls": ["https://github.com/wrenchware/forecast-center/releases/download/v{version}/ForecastCenter-Setup-{version}-x64.exe"]
+}
