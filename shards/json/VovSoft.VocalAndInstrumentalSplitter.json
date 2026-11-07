@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/vocal-and-instrumental-splitter/",
+		"regex": "<span class=\"notranslate\">Vocal and Instrumental Splitter (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		"https://files.vovsoft.com/vocal-and-instrumental-splitter.exe",
+		"https://files.vovsoft.com/vocal-and-instrumental-splitter-portable.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/vocal-and-instrumental-splitter/"
+	}
+}
