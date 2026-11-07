@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "claw-sharp",
+		"repo": "ClawSharp",
+		"tagRegex": "^desktop\\-v"
+	},
+	"urls": [
+		"https://github.com/claw-sharp/ClawSharp/releases/download/{github.rawTag}/ClawSharp_{version}_windows_x64.msi",
+		"https://github.com/claw-sharp/ClawSharp/releases/download/{github.rawTag}/ClawSharp_{version}_windows_x64_setup.exe"
+	]
+}
