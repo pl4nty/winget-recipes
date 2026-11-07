@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/bulk-qr-code-generator/",
+		"regex": "<span class=\"notranslate\">Bulk QR Code Generator (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://files.vovsoft.com/bulk-qr-code-generator.exe", "https://files.vovsoft.com/bulk-qr-code-generator-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/bulk-qr-code-generator/"
+	}
+}
