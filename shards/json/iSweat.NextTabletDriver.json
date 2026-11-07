@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Next-Tablet-Driver",
+		"repo": "NextTabletDriver"
+	},
+	"urls": [
+		"https://github.com/Next-Tablet-Driver/NextTabletDriver/releases/download/{github.rawTag}/Next_Tablet_Driver_Setup_x64.exe"
+	]
+}
