@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kkamegawa",
+		"repo": "syncwingetlink"
+	},
+	"urls": [
+		"https://github.com/kkamegawa/syncwingetlink/releases/download/{github.rawTag}/syncwingetlink-{version}-arm64.zip",
+		"https://github.com/kkamegawa/syncwingetlink/releases/download/{github.rawTag}/syncwingetlink-{version}-x64.zip"
+	]
+}

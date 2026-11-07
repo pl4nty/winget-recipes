@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "goldjg",
+		"repo": "cARL"
+	},
+	"urls": [
+		"https://github.com/goldjg/cARL/releases/download/{github.rawTag}/carl_{version}_windows_amd64.zip"
+	]
+}
