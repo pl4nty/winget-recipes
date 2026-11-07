@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.luminescence-software.org/get_latest_version.php?software=echosync",
+		"path": "version"
+	},
+	"urls": ["https://api.luminescence-software.org/download.php?software=echosync&installer=msi&version={version|.|}"]
+}
