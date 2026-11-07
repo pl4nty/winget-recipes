@@ -4,8 +4,9 @@
 	"github": {
 		"owner": "prof18",
 		"repo": "feed-flow",
-		"method": "api-list",
 		"tagRegex": "-all$"
 	},
-	"urls": ["https://github.com/prof18/feed-flow/releases/download/{github.rawTag}/FeedFlow-{version}.msi"]
+	"urls": [
+		"https://github.com/prof18/feed-flow/releases/download/{github.rawTag}/FeedFlow-{version}.msi"
+	]
 }
