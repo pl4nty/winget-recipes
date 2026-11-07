@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": {
-		"source": "display"
+		"source": "product"
 	},
 	"urls": [
 		"https://files.rootsmagic.com/RM5/RM5Setup.exe"
