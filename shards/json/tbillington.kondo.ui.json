@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "tbillington",
-		"repo": "kondo"
-	},
-	"urls": ["https://github.com/tbillington/kondo/releases/download/v{version}/kondo-ui-x86_64-pc-windows-msvc.zip"]
+		"repo": "kondo",
+		"method": "api-sort",
+		"assetRegex": "^kondo-ui-x86_64-pc-windows-msvc\\.zip$"
+	}
 }
