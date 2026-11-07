@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": [
+		{ "url": "https://ninite.com/updater/download", "architecture": "x86" },
+		{ "url": "https://ninite.com/updater/download", "architecture": "neutral" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://ninite.com/updater/download",
+		"header": "etag"
+	}
+}
