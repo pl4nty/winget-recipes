@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wez",
+		"repo": "atomicparsley"
+	},
+	"urls": [
+		"https://github.com/wez/atomicparsley/releases/download/{version}/AtomicParsleyWindowsX86.zip",
+		"https://github.com/wez/atomicparsley/releases/download/{version}/AtomicParsleyWindows.zip"
+	]
+}
