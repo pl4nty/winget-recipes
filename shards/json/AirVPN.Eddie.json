@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://airvpn.org/windows/",
+		"regex": "id=\"eddie_download_box\"[^>]*data-version=\"(?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://eddie.website/repository/eddie/{version}/eddie-ui_{version}_windows_x64_installer.exe",
+		"https://eddie.website/repository/eddie/{version}/eddie-ui_{version}_windows_x86_installer.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://airvpn.org/windows/"
+	}
+}
