@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.uwe-sieber.de/usbtreeview_e.html",
+		"regex": "USB Device Tree Viewer V(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://www.uwe-sieber.de/files/UsbTreeView{version|.|}_Win32.zip",
+		"https://www.uwe-sieber.de/files/UsbTreeView{version|.|}_x64.zip",
+		"https://www.uwe-sieber.de/files/UsbTreeView{version|.|}_arm64.zip"
+	]
+}
