@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download.azerty.global/",
+		"regex": "https://download\\.azerty\\.global/AZERTY_Global_(\\d+(?:\\.\\d+)+)\\.msixbundle"
+	},
+	"urls": [
+		"https://download.azerty.global/AZERTY_Global_{version}.msixbundle"
+	]
+}
