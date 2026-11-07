@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "melianmiko",
+		"repo": "OpenFreebuds"
+	},
+	"urls": [
+		"https://github.com/melianmiko/OpenFreebuds/releases/download/v{version}/openfreebuds_{version}_x86_64_windows.exe",
+		"https://github.com/melianmiko/OpenFreebuds/releases/download/v{version}/openfreebuds_{version}_aarch64_windows.exe"
+	]
+}
