@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wgtunnel",
+		"repo": "desktop"
+	},
+	"urls": ["https://github.com/wgtunnel/desktop/releases/download/v{version}/wgtunnel-{version}-win-x64-nsis.exe"]
+}
