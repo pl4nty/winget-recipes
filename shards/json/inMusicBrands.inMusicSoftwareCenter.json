@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://inmusic.to/ISCPC"
+		],
+		"regex": "/inMusic%20Software%20Center-(\\d+(?:\\.\\d+)+)%20Setup\\.exe$"
+	}
+}
