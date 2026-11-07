@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tsduck",
+		"repo": "tsduck"
+	},
+	"urls": [
+		"https://github.com/tsduck/tsduck/releases/download/v{version}/TSDuck-Win64-{version}.exe",
+		"https://github.com/tsduck/tsduck/releases/download/v{version}/TSDuck-Arm64-{version}.exe"
+	]
+}
