@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "abooodbah",
+		"repo": "leandoc"
+	},
+	"urls": [
+		"https://github.com/abooodbah/leandoc/releases/download/{github.rawTag}/LeanDoc-v{version}-windows-x64.zip"
+	]
+}

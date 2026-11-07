@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lxc",
+		"repo": "incus"
+	},
+	"urls": [
+		"https://github.com/lxc/incus/releases/download/{github.rawTag}/bin.windows.incus.aarch64.exe",
+		"https://github.com/lxc/incus/releases/download/{github.rawTag}/bin.windows.incus.x86_64.exe"
+	]
+}
