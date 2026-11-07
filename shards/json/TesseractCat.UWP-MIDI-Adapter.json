@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "TesseractCat", "repo": "UWP-Midi-Adapter" },
+	"urls": ["https://github.com/TesseractCat/UWP-Midi-Adapter/releases/download/v{version}/uwp-midi-shim.exe"]
+}
