@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zyno-io",
+		"repo": "sp2p"
+	},
+	"urls": [
+		"https://github.com/zyno-io/sp2p/releases/download/v{version}/sp2p_windows_amd64.zip",
+		"https://github.com/zyno-io/sp2p/releases/download/v{version}/sp2p_windows_arm64.zip"
+	]
+}
