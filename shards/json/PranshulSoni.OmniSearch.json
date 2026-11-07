@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PranshulSoni",
+		"repo": "omnisearch",
+		"method": "api-sort",
+		"assetRegex": "^omnisearchsetup\\.exe$"
+	}
+}
