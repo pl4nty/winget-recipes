@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ArcadeRenegade",
+		"repo": "SidebarDiagnostics"
+	},
+	"urls": [
+		"https://github.com/ArcadeRenegade/SidebarDiagnostics/releases/download/{github.rawTag}/Setup.exe",
+		"https://github.com/ArcadeRenegade/SidebarDiagnostics/releases/download/{github.rawTag}/Setup.msi"
+	]
+}
