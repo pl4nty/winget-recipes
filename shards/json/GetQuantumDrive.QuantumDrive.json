@@ -6,8 +6,10 @@
 	},
 	"github": {
 		"owner": "GetQuantumDrive",
-		"repo": "QuantumDrive",
-		"method": "api-latest",
-		"assetRegex": "^(?:QuantumDrive\\-Setup\\-x64\\-\\d+\\.\\d+\\.\\d+\\.msi|QuantumDrive\\-Setup\\-x64\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\.exe)$"
-	}
+		"repo": "QuantumDrive"
+	},
+	"urls": [
+		"https://github.com/GetQuantumDrive/QuantumDrive/releases/download/{github.rawTag}/QuantumDrive-Setup-x64-{version}.0.exe",
+		"https://github.com/GetQuantumDrive/QuantumDrive/releases/download/{github.rawTag}/QuantumDrive-Setup-x64-{version}.msi"
+	]
 }
