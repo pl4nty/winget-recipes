@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LRGEX",
+		"repo": "Compress"
+	},
+	"urls": [
+		"https://github.com/LRGEX/Compress/releases/download/{github.rawTag}/LRGEX-Compress-v{version}-setup.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "grocy",
+		"repo": "grocy-desktop"
+	},
+	"urls": [
+		"https://github.com/grocy/grocy-desktop/releases/download/{github.rawTag}/grocy-desktop_{version}.msi"
+	]
+}
