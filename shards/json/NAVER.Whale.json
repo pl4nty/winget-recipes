@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://installer-whale.pstatic.net/downloads/sa_installers/WhaleSetupX86.exe",
+		"https://installer-whale.pstatic.net/downloads/sa_installers/WhaleSetupX64.exe",
+		"https://installer-whale.pstatic.net/downloads/sa_installers/WhaleSetupARM64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://installer-whale.pstatic.net/downloads/sa_installers/WhaleSetupX64.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
