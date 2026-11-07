@@ -9,8 +9,5 @@
 	},
 	"urls": [
 		"https://github.com/acai-lang/acai-language/releases/download/{github.rawTag}/Acai-windows-x64.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/acai-lang/acai-language/releases/tag/{github.rawTag}"
-	}
+	]
 }
