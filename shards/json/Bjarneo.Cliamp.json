@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bjarneo",
+		"repo": "cliamp"
+	},
+	"urls": [
+		"https://github.com/bjarneo/cliamp/releases/download/{github.rawTag}/cliamp-windows-amd64.zip"
+	]
+}
