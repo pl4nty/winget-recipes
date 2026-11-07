@@ -4,8 +4,9 @@
 	"github": {
 		"owner": "Azure",
 		"repo": "aks-engine-azurestack",
-		"method": "api-sort",
-		"assetRegex": "^aks-engine-azurestack-(?:release-)?v[\\d.]+-windows-amd64\\.zip$",
 		"tagRegex": "^(?:release-)?v"
-	}
+	},
+	"urls": [
+		"https://github.com/Azure/aks-engine-azurestack/releases/download/{github.rawTag}/aks-engine-azurestack-{github.rawTag}-windows-amd64.zip"
+	]
 }
