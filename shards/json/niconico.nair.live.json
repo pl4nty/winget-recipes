@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://n-air-app.nicovideo.jp/download/windows"],
+		"regex": "/n-air-app-setup\\.(\\d+\\.\\d+\\.\\d+-\\d+)\\.exe$",
+		"method": "get"
+	}
+}
