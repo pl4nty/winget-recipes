@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sowmiksudo",
+		"repo": "NetGlance"
+	},
+	"urls": ["https://github.com/sowmiksudo/NetGlance/releases/download/{version}/NetGlance-{version}-x64-Setup.exe"]
+}
