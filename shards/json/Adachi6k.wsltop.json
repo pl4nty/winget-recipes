@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "adachi6k",
+		"repo": "wsltop"
+	},
+	"urls": [
+		"https://github.com/adachi6k/wsltop/releases/download/{github.rawTag}/wsltop-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}

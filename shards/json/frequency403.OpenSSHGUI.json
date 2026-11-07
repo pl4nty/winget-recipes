@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "frequency403",
+		"repo": "OpenSSH-GUI"
+	},
+	"urls": [
+		"https://github.com/frequency403/OpenSSH-GUI/releases/download/{github.rawTag}/OpenSSH-GUI-{version}-Setup.exe"
+	]
+}
