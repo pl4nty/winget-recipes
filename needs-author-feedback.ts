@@ -6,7 +6,7 @@ import { $ } from 'bun';
 
 // `bun needs-author-feedback.ts [author]` triages the author's open winget-pkgs PRs labelled Needs-Author-Feedback.
 // Labels are unreliable (most Defender errors are the validation VM failing to run its own scan), so it reads the
-// validation results zip and the bot comments. Prints `<pr>\t<package>\t<verdict>\t<details>`. A push or an author
+// validation results zip and the bot comments. Prints `<pr url>\t<package>\t<verdict>\t<details>`. A push or an author
 // comment removes the label, so fixed PRs drop out without any state.
 const author = process.argv[2] ?? 'pl4nty';
 
@@ -102,7 +102,9 @@ for (const { number, title } of prs) {
 	if (!findings.length) findings.push(['needs fix', `no failure in ${zips ? 'results' : 'comments'}${comments.length ? '' : ', comments unreadable'}`]);
 
 	const verdict = VERDICTS.find((v) => findings.some(([f]) => f === v))!;
+	// Tom: a Defender scan that didn't start needs nothing from us.
+	if (verdict === 'validation VM problem') continue;
 	const details = [...new Set(findings.map(([, detail]) => detail))].join(' | ').replace(/\s+/g, ' ');
 	const pkg = title.replace(/^(New|Update|Remove) version: (\S+) version (\S+).*$/, '$2 $3');
-	console.log(`${number}\t${pkg}\t${verdict}\t${details}`);
+	console.log(`https://github.com/microsoft/winget-pkgs/pull/${number}\t${pkg}\t${verdict}\t${details}`);
 }
