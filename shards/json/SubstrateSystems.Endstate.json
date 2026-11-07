@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "Artexis10",
 		"repo": "endstate-gui",
-		"method": "api-list",
 		"tagRegex": "^gui-v"
 	},
 	"urls": [
