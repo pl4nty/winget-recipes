@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://us.laserpecker.net/pages/software",
+		"regex": "https://laserpecker\\-prod\\.oss\\-cn\\-hongkong\\.aliyuncs\\.com/apply/software/pc/LaserPecker\\-Design\\-Space\\-Windows\\-(\\d+(?:\\.\\d+)+)\\.exe\\?t=2"
+	},
+	"urls": [
+		"https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/pc/LaserPecker-Design-Space-Windows-{version}.exe?t=2"
+	]
+}
