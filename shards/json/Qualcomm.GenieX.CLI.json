@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qualcomm",
+		"repo": "GenieX"
+	},
+	"urls": ["https://github.com/qualcomm/GenieX/releases/download/v{version}/geniex-cli-setup-windows-arm64-v{version}.exe"]
+}
