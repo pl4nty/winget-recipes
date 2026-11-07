@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jpalaniselvam",
+		"repo": "myna"
+	},
+	"urls": [
+		"https://github.com/jpalaniselvam/myna/releases/download/{github.rawTag}/myna_Windows_arm64.zip",
+		"https://github.com/jpalaniselvam/myna/releases/download/{github.rawTag}/myna_Windows_i386.zip",
+		"https://github.com/jpalaniselvam/myna/releases/download/{github.rawTag}/myna_Windows_x86_64.zip"
+	]
+}

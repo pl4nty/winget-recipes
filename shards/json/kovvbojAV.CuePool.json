@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kovvbojAV",
+		"repo": "cuePool"
+	},
+	"urls": [
+		"https://github.com/kovvbojAV/cuePool/releases/download/{github.rawTag}/cuepool-windows-x86_64.msi"
+	]
+}
