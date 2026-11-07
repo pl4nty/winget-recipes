@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hegsie",
+		"repo": "gitnado"
+	},
+	"urls": [
+		"https://github.com/hegsie/gitnado/releases/download/{github.rawTag}/Gitnado_{version}_x64-setup.exe",
+		"https://github.com/hegsie/gitnado/releases/download/{github.rawTag}/Gitnado_{version}_x64_en-US.msi"
+	]
+}
