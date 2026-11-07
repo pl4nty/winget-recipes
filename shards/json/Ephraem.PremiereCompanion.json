@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BlessEphraem",
+		"repo": "Premiere-Companion"
+	},
+	"urls": [
+		"https://github.com/BlessEphraem/Premiere-Companion/releases/download/{github.rawTag}/Premiere_Companion_v{version}_Setup.exe"
+	]
+}
