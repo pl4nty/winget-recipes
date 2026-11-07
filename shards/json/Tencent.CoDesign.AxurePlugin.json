@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://static.codesign.qq.com/plugins/axure/CoDesign_Axure_latest.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://static.codesign.qq.com/plugins/axure/CoDesign_Axure_latest.exe",
+		"header": "etag"
+	},
+	"releaseNotes": { "releaseNotesUrl": "https://docs.qq.com/doc/DWWtZQWZXeFp0d2lG" },
+	"replace": true
+}

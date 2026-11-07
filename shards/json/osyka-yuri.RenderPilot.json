@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "osyka-yuri",
+		"repo": "renderpilot"
+	},
+	"urls": [
+		"https://github.com/osyka-yuri/renderpilot/releases/download/v{version}/RenderPilot_{version}_x64-setup.exe",
+		"https://github.com/osyka-yuri/renderpilot/releases/download/v{version}/RenderPilot_{version}_x64-setup.exe"
+	]
+}
