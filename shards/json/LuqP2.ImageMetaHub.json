@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LuqP2",
+		"repo": "Image-MetaHub"
+	},
+	"urls": [
+		"https://github.com/LuqP2/Image-MetaHub/releases/download/{github.rawTag}/ImageMetaHub-Setup-{version}.exe"
+	]
+}
