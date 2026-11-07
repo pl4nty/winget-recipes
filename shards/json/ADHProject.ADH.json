@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xuyw1997",
+		"repo": "agent-desktop-harness"
+	},
+	"urls": [
+		"https://github.com/xuyw1997/agent-desktop-harness/releases/download/{github.rawTag}/adh-windows-x64-installer.exe"
+	]
+}

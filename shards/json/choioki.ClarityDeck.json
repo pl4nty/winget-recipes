@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "choidz",
+		"repo": "clarity-deck"
+	},
+	"urls": [
+		"https://github.com/choidz/clarity-deck/releases/download/{github.rawTag}/Clarity.Deck-{version}-win-x64.exe"
+	]
+}

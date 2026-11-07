@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CostaFot",
+		"repo": "MarketExtension"
+	},
+	"urls": [
+		"https://github.com/CostaFot/MarketExtension/releases/download/{github.rawTag}/MarketExtension_{version}_Bundle.Msixbundle"
+	]
+}
