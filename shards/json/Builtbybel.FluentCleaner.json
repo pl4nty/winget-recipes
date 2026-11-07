@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "builtbybel",
+		"repo": "FluentCleaner"
+	},
+	"urls": [
+		"https://github.com/builtbybel/FluentCleaner/releases/download/{github.rawTag}/FluentCleaner-win-x64.zip"
+	]
+}
