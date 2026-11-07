@@ -8,7 +8,6 @@
 		"kind": "all"
 	},
 	"urls": [
-		"https://github.com/Hybrid-Solutions-Cloud/vault-prospector-releases/releases/download/{github.rawTag}/VaultProspector-{version}-win-x64.msi",
-		"https://github.com/Hybrid-Solutions-Cloud/vault-prospector-releases/releases/download/{github.rawTag}/VaultProspector-{version}-win-x64.msix"
+		"https://github.com/Hybrid-Solutions-Cloud/vault-prospector-releases/releases/download/{github.rawTag}/VaultProspector-{version}-win-x64.msi"
 	]
 }
