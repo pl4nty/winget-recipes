@@ -11,8 +11,5 @@
 			"url": "https://github.com/Audio-Arcade/Audio_Arcade/releases/download/{github.rawTag}/Audio_Arcade.msi",
 			"architecture": "x64"
 		}
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Audio-Arcade/Audio_Arcade/releases/tag/{github.rawTag}"
-	}
+	]
 }
