@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ramensoftware.com/downloads/7tt_setup.exe?changelog",
+		"regex": "<b>v(?<version>\\d+(?:\\.\\d+)+) \\("
+	},
+	"urls": [
+		{
+			"url": "https://ramensoftware.com/downloads/7tt_setup.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ramensoftware.com/downloads/7tt_setup.exe?changelog"
+	}
+}
