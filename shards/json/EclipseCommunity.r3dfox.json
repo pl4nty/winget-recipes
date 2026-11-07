@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "Eclipse-Community",
 		"repo": "r3dfox",
-		"method": "api-list",
 		"tagRegex": "-multi$"
 	},
 	"urls": [
