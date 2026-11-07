@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://download.epson-europe.com/pub/download/6741/epson674187eu.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://download.epson-europe.com/pub/download/6741/epson674184eu.exe",
+			"architecture": "x86"
+		}
+	]
+}
