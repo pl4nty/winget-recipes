@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "manfred-mueller",
+		"repo": "Wrok"
+	},
+	"urls": ["https://github.com/manfred-mueller/Wrok/releases/download/v{version}/Wrok-Setup-{version}.exe"]
+}
