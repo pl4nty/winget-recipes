@@ -1,9 +1,6 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
-	"version": {
-		"source": "file"
-	},
 	"github": {
 		"owner": "gsmitheidw",
 		"repo": "iotop-w"
