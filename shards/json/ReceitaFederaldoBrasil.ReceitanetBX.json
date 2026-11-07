@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/receitanetbx/download-do-programa-receitanetbx-windows",
+		"regex": "/ReceitanetBX/ReceitanetBX-(?<version>\\d+(?:\\.\\d+)+)-x64\\.exe"
+	},
+	"urls": [
+		"https://servicos.receita.fazenda.gov.br/publico/programas/ReceitanetBX/ReceitanetBX-{version}-x64.exe",
+		"https://servicos.receita.fazenda.gov.br/publico/programas/ReceitanetBX/ReceitanetBX-{version}-x86.exe"
+	]
+}
