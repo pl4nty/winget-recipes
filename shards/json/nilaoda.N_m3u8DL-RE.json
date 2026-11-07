@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nilaoda",
+		"repo": "N_m3u8DL-RE",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^N_m3u8DL-RE_.+_win-(?:x64|arm64|NT6\\.0-x86)_\\d+\\.zip$"
+	}
+}
