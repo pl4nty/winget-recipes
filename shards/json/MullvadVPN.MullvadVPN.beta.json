@@ -6,7 +6,7 @@
 		"repo": "mullvadvpn-app",
 		"method": "api-list",
 		"kind": "all",
-		"tagRegex": "^(?=\\d{4}\\.\\d+(?:-beta\\d+)?$)"
+		"tagRegex": "^(?=\\d{4}\\.\\d+-beta\\d+$)"
 	},
 	"urls": [
 		"https://github.com/mullvad/mullvadvpn-app/releases/download/{github.rawTag}/MullvadVPN-{github.rawTag}_x64.exe",
