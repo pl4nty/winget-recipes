@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "token2",
+		"repo": "fido2-manage.cpp"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/token2/fido2-manage.cpp/releases/download/{version}/FIDO2.1Manager{version}.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["FIDO2.1 Manager.exe"]
+		},
+		{
+			"url": "https://github.com/token2/fido2-manage.cpp/releases/download/{version}/FIDO2.1Manager{version}.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["FIDO2.1 Manager.exe"]
+		}
+	]
+}
