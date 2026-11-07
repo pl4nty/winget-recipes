@@ -1,4 +1,4 @@
-import { appendFile, glob, mkdtemp, readFile } from 'node:fs/promises';
+import { glob, mkdtemp, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
@@ -6,17 +6,9 @@ import { $ } from 'bun';
 
 // `bun needs-author-feedback.ts [author]` triages the author's open winget-pkgs PRs labelled Needs-Author-Feedback.
 // Labels are unreliable (most Defender errors are the validation VM failing to run its own scan), so it reads the
-// validation results zip and the bot comments. Prints `<pr>\t<attempt>\t<package>\t<verdict>\t<details>`.
-// needs-author-feedback.tsv holds handled PRs: a PR is skipped until it has a newer validation attempt. Rows that
-// need no manifest change are appended automatically; add `fixed` rows by hand after pushing a fix.
-const STATE = 'needs-author-feedback.tsv';
+// validation results zip and the bot comments. Prints `<pr>\t<package>\t<verdict>\t<details>`. A push or an author
+// comment removes the label, so fixed PRs drop out without any state.
 const author = process.argv[2] ?? 'pl4nty';
-
-const handled = new Map<number, number>();
-for (const row of (await readFile(STATE, 'utf8').catch(() => '')).trim().split('\n').slice(1)) {
-	const [pr, attempt] = row.split('\t');
-	if (pr) handled.set(Number(pr), Math.max(Number(attempt), handled.get(Number(pr)) ?? 0));
-}
 
 type Issue = { number: number; title: string };
 const prs: Issue[] = [];
@@ -43,13 +35,10 @@ for (const { number, title } of prs) {
 	// Comments need API access to microsoft/winget-pkgs; the results zips are public on the CDN.
 	const response = await $`gh api --paginate --slurp repos/microsoft/winget-pkgs/issues/${number}/comments`.nothrow().quiet();
 	const comments: Comment[] = response.exitCode ? [] : response.json().flat();
-	const errors = comments.filter((c) => c.body.includes('Template: msftbot/validationError/')).length;
 	const dir = await mkdtemp(join(tmpdir(), `naf-${number}-`));
 	let zips = 0;
 	while ((await $`curl -fsSLo ${dir}/${zips + 1}.zip ${`https://cdn.winget.microsoft.com/artifacts/WinGetSvc-Validation-${number}-${zips + 1}-artifacts.zip`}`.nothrow().quiet()).exitCode === 0)
 		zips++;
-	const attempt = Math.max(zips, errors);
-	if ((handled.get(number) ?? -1) >= attempt) continue;
 
 	const findings: [verdict: string, detail: string][] = [];
 	if (zips) {
@@ -86,7 +75,7 @@ for (const { number, title } of prs) {
 					const runs = AnalysisResults.filter((a: any) => a.AnalysisType === 'ExeRunInfo' && where(a) === at)
 						.flatMap((a: any) => Object.entries(a.Diagnostics ?? {}))
 						.filter(([path, run]: any) => run.ExecutionStatusResult !== 'Success' && path.includes('WinGet'))
-						.map(([path, run]: any) => `${path.split('\\').pop()} exit ${run.ExitCode}: ${(run.ErrorStream || run.OutputStream).split('\n')[0].trim()}`);
+						.map(([path, run]: any) => `${path.split('\\').pop()} exit ${run.ExitCode}: ${(run.ErrorStream || run.OutputStream).split(/\r?\n/)[0].trim().slice(0, 120)}`);
 					findings.push([plan.Result === 'ManualReview' ? 'manual review' : 'needs fix', `${at}: executable check ${plan.Result}: ${[...new Set(runs)].join('; ')}`]);
 				} else if (plan.TestPlan === 'Validation-Unattended-Failed') {
 					findings.push(['needs fix', `${at}: install waited for user input until timeout, screenshot ${log('ErrorScreenshot') ?? 'missing'}`]);
@@ -113,6 +102,5 @@ for (const { number, title } of prs) {
 	const verdict = VERDICTS.find((v) => findings.some(([f]) => f === v))!;
 	const details = [...new Set(findings.map(([, detail]) => detail))].join(' | ').replace(/\s+/g, ' ');
 	const pkg = title.replace(/^(New|Update|Remove) version: (\S+) version (\S+).*$/, '$2 $3');
-	console.log(`${number}\t${attempt}\t${pkg}\t${verdict}\t${details}`);
-	if (verdict !== 'needs fix') await appendFile(STATE, `${number}\t${attempt}\t${verdict}\t${pkg}\n`);
+	console.log(`${number}\t${pkg}\t${verdict}\t${details}`);
 }
