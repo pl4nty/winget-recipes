@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "narvinIR",
 		"repo": "shtil-vpn",
-		"method": "api-list",
 		"tagRegex": "^desktop-v"
 	},
 	"urls": [
