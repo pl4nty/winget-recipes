@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://cdn.crabnebula.app/update/cap/cap/windows-x86_64/0.0.0",
+		"regex": "\"version\":\"(?<version>[^\"]+)\"[\\s\\S]*?\"url\":\"(?<url>[^\"?]+)"
+	},
+	"urls": [
+		{
+			"url": "{captures.url}",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/CapSoftware/Cap/releases/tag/cap-v{version}"
+	}
+}
