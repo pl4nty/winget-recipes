@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OpenSC",
+		"repo": "OpenSC"
+	},
+	"urls": [
+		"https://github.com/OpenSC/OpenSC/releases/download/{github.rawTag}/OpenSC-{version}-Light_x86.msi",
+		"https://github.com/OpenSC/OpenSC/releases/download/{github.rawTag}/OpenSC-{version}-Light_x64.msi",
+		"https://github.com/OpenSC/OpenSC/releases/download/{github.rawTag}/OpenSC-{version}-Light_arm64.msi"
+	]
+}

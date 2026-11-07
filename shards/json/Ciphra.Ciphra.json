@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "miangee21",
+		"repo": "Ciphra"
+	},
+	"urls": [
+		"https://github.com/miangee21/Ciphra/releases/download/{github.rawTag}/Ciphra_{version}_x64_en-US.msi",
+		"https://github.com/miangee21/Ciphra/releases/download/{github.rawTag}/Ciphra_{version}_x64-setup.exe"
+	]
+}
