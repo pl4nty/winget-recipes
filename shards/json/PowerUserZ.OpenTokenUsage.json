@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "poweruserz",
+		"repo": "OpenTokenUsage"
+	},
+	"urls": [
+		"https://github.com/poweruserz/OpenTokenUsage/releases/download/v{version}/OpenTokenUsage_{version}_x64-setup.exe"
+	]
+}
