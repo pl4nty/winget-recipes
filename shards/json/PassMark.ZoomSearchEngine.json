@@ -8,5 +8,6 @@
 		"url": "https://www.zoomsearchengine.com/ftp/zoomsearch.exe",
 		"header": "etag"
 	},
-	"releaseNotes": { "releaseNotesUrl": "https://www.zoomsearchengine.com/zoom/whatsnew.html" }
+	"releaseNotes": { "releaseNotesUrl": "https://www.zoomsearchengine.com/zoom/whatsnew.html" },
+	"replace": true
 }
