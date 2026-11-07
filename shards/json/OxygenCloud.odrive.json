@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.odrive.com/downloaddesktop?platform=win"],
+		"regex": "/odrivesync\\.(?<version>\\d+)\\.exe$"
+	},
+	"version": "1.0.{version}"
+}
