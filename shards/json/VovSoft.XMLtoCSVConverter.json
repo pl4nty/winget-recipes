@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/xml-to-csv-converter/",
+		"regex": "<span class=\"notranslate\">XML to CSV Converter (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://files.vovsoft.com/xml-to-csv-converter.exe", "https://files.vovsoft.com/xml-to-csv-converter-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/xml-to-csv-converter/"
+	}
+}
