@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AybarsBarut",
+		"repo": "Archura-Windrop"
+	},
+	"urls": [
+		"https://github.com/AybarsBarut/Archura-Windrop/releases/download/{github.rawTag}/Archura-Windrop-Setup-v{version}-win-x64.exe"
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "nasiridrishi", "repo": "yank" },
+	"urls": ["https://github.com/nasiridrishi/yank/releases/download/v{version}/yank-windows.exe"]
+}
