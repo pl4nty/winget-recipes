@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/XxDoomsdayxX/GitPulse/releases/download/v{version}/GitPulse-Setup-{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/XxDoomsdayxX/GitPulse/releases/tag/{github.rawTag}"
-	}
+	]
 }
