@@ -6,6 +6,6 @@
 		"repo": "mk212-driveglow"
 	},
 	"urls": [
-		"https://github.com/emgeka/mk212-driveglow/releases/download/{github.rawTag}/MK212-DriveGlow-Setup-v{version}.exe"
+		{ "url": "https://github.com/emgeka/mk212-driveglow/releases/download/{github.rawTag}/MK212-DriveGlow-Setup-v{version}.exe", "architecture": "neutral" }
 	]
 }
