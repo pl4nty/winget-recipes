@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BlueBubblesApp",
+		"repo": "bluebubbles-app",
+		"method": "api-list",
+		"tagRegex": "\\+desktop\\..*$"
+	},
+	"urls": [
+		"https://github.com/BlueBubblesApp/bluebubbles-app/releases/download/{github.rawTag}/bluebubbles_installer.exe"
+	]
+}
