@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "control-theory",
+		"repo": "gonzo"
+	},
+	"urls": [
+		"https://github.com/control-theory/gonzo/releases/download/{github.rawTag}/gonzo-{version}-windows-amd64.zip"
+	]
+}

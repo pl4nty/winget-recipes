@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "4worlds4w-svg",
+		"repo": "inkwell"
+	},
+	"urls": [
+		"https://github.com/4worlds4w-svg/inkwell/releases/download/{github.rawTag}/inkwell-windows-x64-v{version}.zip",
+		"https://github.com/4worlds4w-svg/inkwell/releases/download/{github.rawTag}/inkwell.exe"
+	]
+}
