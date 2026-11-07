@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://data.services.jetbrains.com/products/releases?code=PCP&latest=true&type=release",
+		"path": "PCP.0.version"
+	},
+	"urls": [
+		"PCP.0.downloads.windows.link",
+		"PCP.0.downloads.windowsARM64.link"
+	],
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://data.services.jetbrains.com/products/releases?code=PCP&latest=true&type=release",
+		"path": "PCP.0.whatsnew",
+		"nestedSource": "html",
+		"releaseNotesUrl": "{data.PCP.0.notesLink}",
+		"cleanup": false
+	}
+}
