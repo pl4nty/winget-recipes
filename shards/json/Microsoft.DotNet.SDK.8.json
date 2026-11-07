@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/1c8c36ae-1e08-4005-b94c-ee0e9da9ba08/8d751af1-8c2a-4c90-b2b8-989b212d267b/dotnet-sdk-8.0.427-win-x64.exe",
+		"https://download.microsoft.com/download/1c8c36ae-1e08-4005-b94c-ee0e9da9ba08/f8c584f9-155e-4d0c-9937-49b03c893968/dotnet-sdk-8.0.427-win-arm64.exe",
+		"https://download.microsoft.com/download/1c8c36ae-1e08-4005-b94c-ee0e9da9ba08/a6c9f693-c6cb-47ae-af77-372de612acd1/dotnet-sdk-8.0.427-win-x86.exe"
+	]
+}
