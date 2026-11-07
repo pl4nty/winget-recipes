@@ -8,8 +8,5 @@
 	"urls": [
 		"https://github.com/cLLeB/gear/releases/download/{github.rawTag}/Gear_{version}_x64_en-US.msi",
 		"https://github.com/cLLeB/gear/releases/download/{github.rawTag}/Gear_{version}_x64-setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/cLLeB/gear/releases/tag/{github.rawTag}"
-	}
+	]
 }
