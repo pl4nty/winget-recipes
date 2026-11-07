@@ -7,5 +7,6 @@
 		"source": "response-header",
 		"url": "https://cdn.steamchina.eccdnx.com/client/installer/SteamChinaSetup.exe",
 		"header": "etag"
-	}
+	},
+	"replace": true
 }
