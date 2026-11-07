@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JoernBerkefeld",
+		"repo": "sfmc-dataloader-app"
+	},
+	"urls": [
+		"https://github.com/JoernBerkefeld/sfmc-dataloader-app/releases/download/{github.rawTag}/sfmc-dataloader-app-{version}-win-x64.exe"
+	]
+}
