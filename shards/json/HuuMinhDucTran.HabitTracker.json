@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HuuMinhDucTran",
+		"repo": "HabitTracker"
+	},
+	"urls": [
+		"https://github.com/HuuMinhDucTran/HabitTracker/releases/download/{github.rawTag}/HabitTrackerInstaller.msi"
+	]
+}
