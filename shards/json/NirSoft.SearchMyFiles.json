@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nirsoft.net/utils/search_my_files.html",
+		"regex": "Versions History</h4>\\s*<ul[^>]*>\\s*<li>Version (?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.nirsoft.net/utils/searchmyfiles.zip",
+			"architecture": "x86"
+		},
+		"https://www.nirsoft.net/utils/searchmyfiles-x64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nirsoft.net/utils/search_my_files.html#:~:text=Versions%20History"
+	},
+	"replace": true
+}
