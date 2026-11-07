@@ -3,12 +3,11 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "wendylabsinc",
-		"repo": "wendy-agent",
-		"method": "api-list",
+		"repo": "WendyOS",
 		"tagRegex": "^(?=\\d{4}\\.\\d{2}\\.\\d{2}-\\d+$)"
 	},
 	"urls": [
-		"https://github.com/wendylabsinc/wendy-agent/releases/download/{version}/wendy-cli-windows-amd64-{version}.msi",
-		"https://github.com/wendylabsinc/wendy-agent/releases/download/{version}/wendy-cli-windows-arm64-{version}.msi"
+		"https://github.com/wendylabsinc/WendyOS/releases/download/{version}/wendy-cli-windows-amd64-{version}.msi",
+		"https://github.com/wendylabsinc/WendyOS/releases/download/{version}/wendy-cli-windows-arm64-{version}.msi"
 	]
 }
