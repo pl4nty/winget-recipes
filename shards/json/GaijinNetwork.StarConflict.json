@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://yupmaster.gaijinent.com/launcher/current.php?id=StarConflictLauncher"],
+		"regex": "/starconf_launcher_(?<version>\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"urls": ["https://aws-yup-distr-01.gaijinent.com/starconf_launcher_{version}.exe"]
+}
