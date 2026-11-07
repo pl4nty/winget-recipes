@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jairslima",
+		"repo": "md2docx"
+	},
+	"urls": [
+		"https://github.com/jairslima/md2docx/releases/download/{github.rawTag}/md2docx.exe"
+	]
+}

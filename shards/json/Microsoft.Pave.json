@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "pave"
+	},
+	"urls": [
+		"https://github.com/microsoft/pave/releases/download/v{version}/pave-x86_64-pc-windows-msvc.zip",
+		"https://github.com/microsoft/pave/releases/download/v{version}/pave-aarch64-pc-windows-msvc.zip"
+	]
+}
