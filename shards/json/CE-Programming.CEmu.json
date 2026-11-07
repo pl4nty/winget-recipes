@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CE-Programming",
+		"repo": "CEmu"
+	},
+	"urls": [
+		"https://github.com/CE-Programming/CEmu/releases/download/v{version}/CEmu-v{version}_win64_Qt6.exe",
+		"https://github.com/CE-Programming/CEmu/releases/download/v{version}/CEmu-v{version}_win32_Qt5.exe"
+	]
+}
