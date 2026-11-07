@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "product-noob",
+		"repo": "launchpad-app",
+		"method": "api-sort",
+		"assetRegex": "^Launchpad\\.Setup\\.[\\d.]+\\.exe$"
+	}
+}
