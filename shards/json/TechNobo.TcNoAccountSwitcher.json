@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TCNOco",
+		"repo": "TcNo-Acc-Switcher"
+	},
+	"urls": [
+		"https://github.com/TCNOco/TcNo-Acc-Switcher/releases/download/{github.rawTag}/TcNo.Account.Switcher.-.Installer_{version}.exe"
+	]
+}
