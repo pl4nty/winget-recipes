@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		{ "url": "https://github.com/bl00mber/alarm-cron/releases/download/{github.rawTag}/AlarmCronInstaller.exe", "architecture": "x64" }
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/bl00mber/alarm-cron/releases/tag/{github.rawTag}"
-	}
+	]
 }
