@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.tabbit.com/api/v0/upgrade/latest?from=website",
+		"regex": "\"version\":\"(?<version>(?<short>\\d+\\.\\d+\\.\\d+)\\.\\d+)\",\"sparkle_version\":\\d+,\"download_url\":\"[^\"]*\",\"file_length\":\\d+,\"platform\":\"windows\""
+	},
+	"urls": ["https://releases.tabbit.com/upgrade/windows/stable_x64_cn/Tabbit%20Browser_stable_x64_cn_{captures.short}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.tabbit.com/docs/zh-CN/whats-new"
+	}
+}
