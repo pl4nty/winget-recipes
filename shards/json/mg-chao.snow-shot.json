@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "mg-chao",
 		"repo": "snow-apps",
-		"method": "api-list",
 		"tagRegex": "_snow-shot$"
 	},
 	"urls": [
