@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "beulea",
+		"repo": "eve-contracts-releases"
+	},
+	"urls": [
+		"https://github.com/beulea/eve-contracts-releases/releases/download/{github.rawTag}/Beulea.s.EVE.Contracts_{version}_x64-setup.exe"
+	]
+}
