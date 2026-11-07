@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "terminal"
+	},
+	"urls": [
+		"https://github.com/microsoft/terminal/releases/download/v{version}/Microsoft.WindowsTerminal_{version}_8wekyb3d8bbwe.msixbundle"
+	]
+}
