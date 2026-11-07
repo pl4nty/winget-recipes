@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OpenVR-Advanced-Settings",
+		"repo": "OpenVR-AdvancedSettings"
+	},
+	"urls": [
+		{ "url": "https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings/releases/download/{version}/AdvancedSettings-{version}-Installer.exe", "architecture": "x86" }
+	]
+}

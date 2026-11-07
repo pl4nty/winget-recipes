@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://download.xdiarys.com/windows/xdiarys-setup-v3.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.xdiarys.com/windows/xdiarys-setup-v3.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
