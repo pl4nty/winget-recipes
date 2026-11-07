@@ -12,8 +12,5 @@
 				"/Videomass.exe"
 			]
 		}
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/jeanslack/Videomass/releases/tag/{github.rawTag}"
-	}
+	]
 }
