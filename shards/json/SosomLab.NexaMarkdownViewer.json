@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "kiros33", "repo": "sosomlab-nexa-viewer" },
+	"urls": ["https://github.com/kiros33/sosomlab-nexa-viewer/releases/download/{github.rawTag}/NexaMarkdownViewer_{version}_x64-setup.exe"]
+}
