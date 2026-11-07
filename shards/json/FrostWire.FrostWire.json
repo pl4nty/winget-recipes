@@ -8,8 +8,5 @@
 		"tagRegex": "^frostwire-desktop-",
 		"assetRegex": "\\.windows\\.exe$"
 	},
-	"version": "{version|-build-|.}",
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/frostwire/frostwire/releases/tag/{github.rawTag}"
-	}
+	"version": "{version|-build-|.}"
 }
