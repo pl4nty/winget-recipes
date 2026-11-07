@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "choihunchul",
+		"repo": "lazyifconfig"
+	},
+	"urls": [
+		"https://github.com/choihunchul/lazyifconfig/releases/download/{github.rawTag}/lazyifconfig-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
