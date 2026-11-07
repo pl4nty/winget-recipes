@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TheRealJesusTheHacker",
+		"repo": "NitroCore"
+	},
+	"urls": [
+		"https://github.com/TheRealJesusTheHacker/NitroCore/releases/download/v{version}/NitroCoreOptimizer.exe",
+		{
+			"url": "https://github.com/TheRealJesusTheHacker/NitroCore/releases/download/v{version}/NitroCorePortable.zip",
+			"nestedInstallerMatches": ["NitroCoreOptimizer.exe"]
+		}
+	]
+}
