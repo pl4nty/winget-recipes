@@ -6,6 +6,6 @@
 		"repo": "ChaosRecipeEnhancer"
 	},
 	"urls": [
-		"https://github.com/ChaosRecipeEnhancer/ChaosRecipeEnhancer/releases/download/{github.rawTag}/ChaosRecipeEnhancer-win-Setup.exe"
+		{ "url": "https://github.com/ChaosRecipeEnhancer/ChaosRecipeEnhancer/releases/download/{github.rawTag}/ChaosRecipeEnhancer-win-Setup.exe", "architecture": "x86" }
 	]
 }
