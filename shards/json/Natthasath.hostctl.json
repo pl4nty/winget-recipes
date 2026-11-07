@@ -2,8 +2,5 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": { "owner": "natthasath", "repo": "hostctl" },
-	"urls": ["https://github.com/natthasath/hostctl/releases/download/v{version}/hostctl.exe"],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/natthasath/hostctl/releases/tag/{github.rawTag}"
-	}
+	"urls": ["https://github.com/natthasath/hostctl/releases/download/v{version}/hostctl.exe"]
 }
