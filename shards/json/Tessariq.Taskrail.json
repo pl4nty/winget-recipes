@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tessariq",
+		"repo": "taskrail"
+	},
+	"urls": [
+		"https://github.com/tessariq/taskrail/releases/download/v{version}/taskrail_{version}_windows_arm64.zip",
+		"https://github.com/tessariq/taskrail/releases/download/v{version}/taskrail_{version}_windows_amd64.zip"
+	]
+}
