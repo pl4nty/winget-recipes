@@ -3,9 +3,9 @@
 	"strategy": "static",
 	"version": { "source": "product" },
 	"urls": [
-		"http://www.drivesnapshot.de/download/snapshot64.exe",
-		"http://www.drivesnapshot.de/download/snapshot.exe",
-		"http://www.drivesnapshot.de/download/snapshotARM64.exe"
+		"https://www.drivesnapshot.de/download/snapshot64.exe",
+		"https://www.drivesnapshot.de/download/snapshot.exe",
+		"https://www.drivesnapshot.de/download/snapshotARM64.exe"
 	],
 	"state": {
 		"source": "response-header",
