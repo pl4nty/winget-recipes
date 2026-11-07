@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "garethgeorge",
+		"repo": "backrest"
+	},
+	"urls": [
+		"https://github.com/garethgeorge/backrest/releases/download/{github.rawTag}/BackrestSetup-x86_64.exe"
+	]
+}
