@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "NoRiskClient", "repo": "noriskclient-launcher" },
+	"urls": ["https://github.com/NoRiskClient/noriskclient-launcher/releases/download/v{version}/NoRiskClient-Windows-setup.exe"]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "raindropio",
+		"repo": "desktop"
+	},
+	"urls": ["https://github.com/raindropio/desktop/releases/download/v{version}/Raindrop.io-Setup-{version}.exe"]
+}
