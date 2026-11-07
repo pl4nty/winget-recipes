@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Pranav-Nexus", "repo": "omniget" },
+	"urls": [
+		"https://github.com/Pranav-Nexus/omniget/releases/download/{github.rawTag}/OmniGetSetup-x86.exe",
+		"https://github.com/Pranav-Nexus/omniget/releases/download/{github.rawTag}/OmniGetSetup.exe"
+	]
+}
