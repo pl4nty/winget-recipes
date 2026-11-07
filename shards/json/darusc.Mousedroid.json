@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "darusc",
+		"repo": "Mousedroid"
+	},
+	"urls": [
+		"https://github.com/darusc/Mousedroid/releases/download/{github.rawTag}/mousedroid_win64.zip"
+	]
+}
