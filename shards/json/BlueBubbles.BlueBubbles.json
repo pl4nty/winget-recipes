@@ -9,8 +9,5 @@
 	},
 	"urls": [
 		"https://github.com/BlueBubblesApp/bluebubbles-app/releases/download/{github.rawTag}/bluebubbles_installer.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/BlueBubblesApp/bluebubbles-app/releases/tag/{github.rawTag}"
-	}
+	]
 }
