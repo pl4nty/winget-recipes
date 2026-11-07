@@ -3,8 +3,10 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "martona",
-		"repo": "gig",
-		"method": "api-latest",
-		"assetRegex": "^gig-windows-(?:amd64|arm64)\\.msix$"
-	}
+		"repo": "gig"
+	},
+	"urls": [
+		"https://github.com/martona/gig/releases/download/{github.rawTag}/gig-windows-amd64.msix",
+		"https://github.com/martona/gig/releases/download/{github.rawTag}/gig-windows-arm64.msix"
+	]
 }
