@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Knarrly-LLC",
+		"repo": "armadillotv-download"
+	},
+	"urls": [
+		"https://github.com/Knarrly-LLC/armadillotv-download/releases/download/{github.rawTag}/ArmadilloTV-Setup-{version}.exe"
+	]
+}
