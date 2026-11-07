@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SadeghHayeri",
+		"repo": "GreenTunnel"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/SadeghHayeri/GreenTunnel/releases/download/v{version}/GreenTunnel.Setup.{version}.exe",
+			"architecture": "x86"
+		}
+	]
+}
