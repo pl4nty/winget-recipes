@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "abdalmoniem",
+		"repo": "pidcat",
+		"method": "api-sort",
+		"assetRegex": "^(?:PidCat_v\\d+\\.\\d+\\.\\d+_Tue_\\d+_Mar_\\d+_\\d+_\\d+_\\d+\\.\\d+_AM\\.exe)$"
+	}
+}
