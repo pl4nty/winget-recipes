@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xCompassionate",
+		"repo": "PageTurn"
+	},
+	"urls": [
+		"https://github.com/xCompassionate/PageTurn/releases/download/v{version}/PageTurn-win.zip"
+	]
+}
