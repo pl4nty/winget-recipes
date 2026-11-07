@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BRL-CAD",
+		"repo": "brlcad",
+		"method": "api-list",
+		"tagRegex": "^rel-",
+		"assetRegex": "^BRL-CAD_\\d+(?:\\.\\d+)+_win64\\.(?:exe|msi)$"
+	},
+	"version": "{version|-|.}"
+}
