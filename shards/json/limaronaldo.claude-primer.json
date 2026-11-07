@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aiconnai",
+		"repo": "primer",
+		"tagRegex": "^primer\\-v"
+	},
+	"urls": [
+		"https://github.com/aiconnai/primer/releases/download/{github.rawTag}/claude-primer-windows-x86_64.exe"
+	]
+}
