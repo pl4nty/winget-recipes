@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "daynix",
+		"repo": "UsbDk"
+	},
+	"version": "{version|.00-|.0.}",
+	"urls": [
+		"https://github.com/daynix/UsbDk/releases/download/{github.rawTag}/UsbDk_{version|.00-|.0.}_x86.msi",
+		"https://github.com/daynix/UsbDk/releases/download/{github.rawTag}/UsbDk_{version|.00-|.0.}_x64.msi"
+	]
+}
