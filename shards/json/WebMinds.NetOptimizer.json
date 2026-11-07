@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.netoptimizer.com/version-history/",
+		"regex": "Version (?<version>\\d+(?:\\.\\d+)+) &#8211;[^<]*<a href=\"(?<url>https://www\\.netoptimizer\\.com/files/NetOptimizer[\\d.]+\\.exe)\""
+	},
+	"urls": ["{captures.url}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.netoptimizer.com/version-history/"
+	}
+}
