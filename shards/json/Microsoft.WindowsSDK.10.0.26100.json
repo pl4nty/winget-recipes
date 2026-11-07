@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://learn.microsoft.com/en-us/windows/apps/windows-sdk/downloads",
+		"regex": "Windows SDK for Windows 11 \\((?<version>10\\.0\\.26100\\.\\d+)\\)</strong>[\\s\\S]*?linkid=(?<link>\\d+)"
+	},
+	"urls": [
+		"https://go.microsoft.com/fwlink/?linkid={captures.link}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/windows/apps/windows-sdk/release-notes#build-{version|.|}"
+	}
+}

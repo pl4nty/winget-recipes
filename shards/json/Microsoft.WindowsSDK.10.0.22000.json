@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://learn.microsoft.com/en-us/windows/apps/windows-sdk/downloads-archive",
+		"regex": "conjunction with Windows 11\\. Includes servicing update (?<version>10\\.0\\.22000\\.\\d+)[\\s\\S]*?linkid=(?<link>\\d+)"
+	},
+	"urls": [
+		"https://go.microsoft.com/fwlink/?linkid={captures.link}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/windows/apps/windows-sdk/downloads-archive"
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://learn.microsoft.com/en-us/ssms/release-notes-20",
+		"regex": "Download SSMS (?<version>20\\.\\d+\\.\\d+)[\\s\\S]*?linkid=(?<link>\\d+)"
+	},
+	"urls": [
+		{
+			"url": "https://go.microsoft.com/fwlink/?linkid={captures.link}&clcid=0x407",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://go.microsoft.com/fwlink/?linkid={captures.link}&clcid=0x409",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://go.microsoft.com/fwlink/?linkid={captures.link}&clcid=0x40a",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://go.microsoft.com/fwlink/?linkid={captures.link}&clcid=0x40c",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://go.microsoft.com/fwlink/?linkid={captures.link}&clcid=0x410",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://go.microsoft.com/fwlink/?linkid={captures.link}&clcid=0x411",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://go.microsoft.com/fwlink/?linkid={captures.link}&clcid=0x412",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://go.microsoft.com/fwlink/?linkid={captures.link}&clcid=0x416",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://go.microsoft.com/fwlink/?linkid={captures.link}&clcid=0x419",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://go.microsoft.com/fwlink/?linkid={captures.link}&clcid=0x804",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://go.microsoft.com/fwlink/?linkid={captures.link}&clcid=0x404",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/ssms/release-notes-20#{version|.|}"
+	}
+}
