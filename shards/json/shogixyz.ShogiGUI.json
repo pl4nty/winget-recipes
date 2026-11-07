@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://shogigui.siganus.com/",
+		"regex": "shogigui/ShogiGUIv(\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": ["https://shogigui.siganus.com/shogigui/ShogiGUIv{version}.exe"]
+}
