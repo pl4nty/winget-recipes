@@ -5,5 +5,7 @@
 		"owner": "techambient",
 		"repo": "F-dows"
 	},
-	"urls": ["https://github.com/techambient/F-dows/releases/download/v{version}/f-dows_v{version}.exe"]
+	"urls": [
+		{ "url": "https://github.com/techambient/F-dows/releases/download/v{version}/f-dows_v{version}.exe", "architecture": "neutral" }
+	]
 }
