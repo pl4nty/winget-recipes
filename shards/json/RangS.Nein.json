@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RangS-1",
+		"repo": "Nein"
+	},
+	"urls": [
+		{ "url": "https://github.com/RangS-1/Nein/releases/download/v{version}/nein.exe", "architecture": "neutral" }
+	]
+}
