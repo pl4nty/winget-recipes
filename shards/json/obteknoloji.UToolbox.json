@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "obteknoloji",
+		"repo": "u-toolbox"
+	},
+	"urls": ["https://github.com/obteknoloji/u-toolbox/releases/download/v{version}/u-toolbox-setup-{version}.exe"]
+}
