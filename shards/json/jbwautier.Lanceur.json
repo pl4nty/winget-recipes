@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jibedoubleve",
+		"repo": "lanceur-bis"
+	},
+	"urls": [
+		{ "url": "https://github.com/jibedoubleve/lanceur-bis/releases/download/{github.rawTag}/Lanceur.{version}.setup.exe", "architecture": "x64" }
+	]
+}
