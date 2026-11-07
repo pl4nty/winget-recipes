@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gilbertchen",
+		"repo": "duplicacy"
+	},
+	"urls": [
+		"https://github.com/gilbertchen/duplicacy/releases/download/{github.rawTag}/duplicacy_win_i386_{version}.exe",
+		"https://github.com/gilbertchen/duplicacy/releases/download/{github.rawTag}/duplicacy_win_x64_{version}.exe"
+	]
+}
