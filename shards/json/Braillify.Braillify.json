@@ -10,8 +10,5 @@
 	},
 	"urls": [
 		"https://github.com/dev-five-git/braillify/releases/download/{github.rawTag}/braillify-windows-x86_64.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/dev-five-git/braillify/releases/tag/{github.rawTag}"
-	}
+	]
 }
