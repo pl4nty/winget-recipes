@@ -6,5 +6,5 @@
 		"repo": "discord-ai-network-bot",
 		"tagRegex": "^agent-v"
 	},
-	"urls": ["https://github.com/Hyeonjun0527/discord-ai-network-bot/releases/download/agent-v{version}/discord-ai-network-bot-windows.exe"]
+	"urls": ["https://github.com/Hyeonjun0527/discord-ai-network-bot/releases/download/agent-v{version}/nexa-agent-windows.exe"]
 }
