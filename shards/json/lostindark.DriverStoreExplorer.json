@@ -5,5 +5,7 @@
 		"owner": "lostindark",
 		"repo": "DriverStoreExplorer"
 	},
-	"urls": ["https://github.com/lostindark/DriverStoreExplorer/releases/download/{github.rawTag}/DriverStoreExplorer-{github.rawTag}.zip"]
+	"urls": [
+		{ "url": "https://github.com/lostindark/DriverStoreExplorer/releases/download/{github.rawTag}/DriverStoreExplorer-{github.rawTag}.zip", "architecture": "neutral" }
+	]
 }
