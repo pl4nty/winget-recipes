@@ -9,8 +9,5 @@
 	"urls": [
 		"https://github.com/UnityExtractor-rs/UnityExtrator/releases/download/{github.rawTag}/UnityExtractor_{version}_x64-setup.exe",
 		"https://github.com/UnityExtractor-rs/UnityExtrator/releases/download/{github.rawTag}/UnityExtractor_{version}_x64_en-US.msi"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/UnityExtractor-rs/UnityExtrator/releases/tag/{github.rawTag}"
-	}
+	]
 }
