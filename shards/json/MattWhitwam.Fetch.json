@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "matt-dx",
+		"repo": "fetch"
+	},
+	"urls": ["https://github.com/matt-dx/fetch/releases/download/v{version}/fetch-windows-amd64.exe"]
+}
