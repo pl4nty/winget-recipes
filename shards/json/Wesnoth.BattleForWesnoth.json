@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/wesnoth/best_release.json",
+		"regex": "\"filename\": \"/(?<series>wesnoth-\\d+\\.\\d+)/wesnoth-(?<version>\\d+(?:\\.\\d+)+)/wesnoth-\\k<version>-win64\\.exe\""
+	},
+	"urls": [
+		"https://sourceforge.net/projects/wesnoth/files/{captures.series}/wesnoth-{version}/wesnoth-{version}-win64.exe/download"
+	]
+}
