@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "deltaforge-org",
+		"repo": "delta-forge-odbc"
+	},
+	"urls": [
+		"https://github.com/deltaforge-org/delta-forge-odbc/releases/download/{github.rawTag}/deltaforge-odbc-{version}-windows-x64.msi"
+	]
+}
