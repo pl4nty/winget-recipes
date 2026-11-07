@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "advancedfx",
+		"repo": "advancedfx"
+	},
+	"urls": [
+		"https://github.com/advancedfx/advancedfx/releases/download/{github.rawTag}/HLAE_Setup.exe"
+	]
+}
