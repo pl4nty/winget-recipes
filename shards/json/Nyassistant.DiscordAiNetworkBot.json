@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Hyeonjun0527",
+		"repo": "discord-ai-network-bot",
+		"tagRegex": "^agent-v"
+	},
+	"urls": ["https://github.com/Hyeonjun0527/discord-ai-network-bot/releases/download/agent-v{version}/nexa-agent-windows.exe"]
+}
