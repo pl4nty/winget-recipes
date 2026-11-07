@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://firmware.meethue.com/v1/checkupdate/?deviceTypeId=HueSyncWin&version=0",
+		"regex": "\"binaryUrl\":\"(?<url>[^\"]+)\",\"version\":\\d+,\"versionName\":\"(?<version>[^\"]+)\""
+	},
+	"urls": [
+		{
+			"url": "{captures.url}",
+			"architecture": "x64"
+		}
+	]
+}
