@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PintaProject",
+		"repo": "Pinta"
+	},
+	"urls": [
+		"https://github.com/PintaProject/Pinta/releases/download/{version}/Pinta-x86_64.exe",
+		"https://github.com/PintaProject/Pinta/releases/download/{version}/Pinta-arm64.exe"
+	]
+}
