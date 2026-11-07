@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "natthasath", "repo": "habitctl" },
+	"urls": ["https://github.com/natthasath/habitctl/releases/download/{github.rawTag}/habitctl.exe"]
+}
