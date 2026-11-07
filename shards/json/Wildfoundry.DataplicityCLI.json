@@ -5,8 +5,5 @@
 		"owner": "wildfoundry",
 		"repo": "dataplicity-cli"
 	},
-	"urls": ["https://github.com/wildfoundry/dataplicity-cli/releases/download/v{version}/dataplicity-cli-{version}-windows-x64.msi"],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/wildfoundry/dataplicity-cli/releases/tag/{github.rawTag}"
-	}
+	"urls": ["https://github.com/wildfoundry/dataplicity-cli/releases/download/v{version}/dataplicity-cli-{version}-windows-x64.msi"]
 }
