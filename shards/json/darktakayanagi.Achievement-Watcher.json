@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "darktakayanagi",
+		"repo": "Achievement-Watcher"
+	},
+	"urls": [
+		"https://github.com/darktakayanagi/Achievement-Watcher/releases/download/{github.rawTag}/Achievement.Watcher.Setup.{version}.exe"
+	]
+}
