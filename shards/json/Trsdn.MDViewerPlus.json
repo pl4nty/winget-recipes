@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "trsdn", "repo": "mdviewerplus-windows" },
+	"urls": [
+		"https://github.com/trsdn/mdviewerplus-windows/releases/download/v{version}/MDViewerPlus-Full-Windows-x64-Setup.exe",
+		"https://github.com/trsdn/mdviewerplus-windows/releases/download/v{version}/MDViewerPlus-Full-Windows-x64.msi"
+	]
+}
