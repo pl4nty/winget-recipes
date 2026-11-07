@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chienhaoc",
+		"repo": "WinMemoryOpt"
+	},
+	"urls": [
+		"https://github.com/chienhaoc/WinMemoryOpt/releases/download/v{version}/WinMemoryOpt-Setup-{version}.exe"
+	]
+}
