@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "MattJColes",
 		"repo": "lgtmaybe",
-		"method": "api-list",
 		"tagRegex": "^lgtmaybe-v"
 	},
 	"urls": [
