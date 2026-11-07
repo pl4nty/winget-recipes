@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "sagami121",
-		"repo": "DotVis",
-		"method": "api-latest",
-		"assetRegex": "^DotVis_[^_]+_[a-z0-9]+(_[a-z]{2}-[A-Z]{2}\\.msi|-setup\\.exe)$"
-	}
+		"repo": "DotVis"
+	},
+	"urls": [
+		"https://github.com/sagami121/DotVis/releases/download/{github.rawTag}/DotVis_{github.rawTag}_x64_ja-JP.msi"
+	]
 }
