@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "indiff",
+		"repo": "qttabbar"
+	},
+	"urls": ["https://github.com/indiff/qttabbar/releases/download/v{version}/QTTabBar.Setup.{version}.exe"]
+}
