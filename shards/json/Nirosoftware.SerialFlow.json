@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Nirosoftware", "repo": "serialflow-releases" },
+	"urls": ["https://github.com/Nirosoftware/serialflow-releases/releases/download/v{version}/serialflow-windows-x64.exe"]
+}
