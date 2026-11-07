@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aandrew-me",
+		"repo": "ytDownloader"
+	},
+	"urls": [
+		"https://github.com/aandrew-me/ytDownloader/releases/download/{github.rawTag}/YTDownloader_Win.msi"
+	]
+}
