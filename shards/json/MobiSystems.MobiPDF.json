@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mobisystems.com/en-us/mobipdf/download",
+		"regex": "com\\.mobisystems\\.windows\\.appx\\.mobipdf/(?<build>\\d+(?:\\.\\d+)+)/full/MobiPDF\\.Package_(?<version>\\d+(?:\\.\\d+)+)_x64\\.msix"
+	},
+	"urls": ["https://cfg.mobisystems.com/update/com.mobisystems.windows.appx.mobipdf/{captures.build}/full/MobiPDF.Package_{version}_x64.msix"]
+}
