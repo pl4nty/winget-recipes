@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bgreenwell",
+		"repo": "doxx"
+	},
+	"urls": [
+		"https://github.com/bgreenwell/doxx/releases/download/{github.rawTag}/doxx-x86_64-pc-windows-msvc.msi"
+	]
+}
