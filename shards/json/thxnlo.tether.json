@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "thxnlo",
+		"repo": "tether"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/thxnlo/tether/releases/download/v{version}/tether.exe",
+			"architecture": "neutral"
+		}
+	]
+}
