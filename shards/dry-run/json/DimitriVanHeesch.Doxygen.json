@@ -6,7 +6,10 @@
 		"regex": "doxygen-(\\d+\\.\\d+\\.\\d+)-setup\\.exe"
 	},
 	"urls": [
-		"https://www.doxygen.nl/files/doxygen-{version}-setup.exe"
+		{
+			"url": "https://www.doxygen.nl/files/doxygen-{version}-setup.exe",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.doxygen.nl/manual/changelog.html"
