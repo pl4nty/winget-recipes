@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GregTheDev",
+		"repo": "MinidumpExplorer"
+	},
+	"urls": [
+		"https://github.com/GregTheDev/MinidumpExplorer/releases/download/{github.rawTag}/MinidumpExplorer.v{version}_x64.zip",
+		"https://github.com/GregTheDev/MinidumpExplorer/releases/download/{github.rawTag}/MinidumpExplorer.v{version}_x86.zip"
+	]
+}
