@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zuboland",
+		"repo": "honjin"
+	},
+	"urls": ["https://github.com/zuboland/honjin/releases/download/v{version}/HONJIN-Setup-{version}.exe"]
+}

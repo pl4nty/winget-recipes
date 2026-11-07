@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AurelioAvila",
+		"repo": "redaxa"
+	},
+	"urls": [
+		"https://github.com/AurelioAvila/redaxa/releases/download/{github.rawTag}/Redaxa_{version}_x64-setup.exe",
+		"https://github.com/AurelioAvila/redaxa/releases/download/{github.rawTag}/Redaxa_{version}_x64_en-US.msi"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sikalabs",
+		"repo": "sikalabs-kubernetes-oidc-login"
+	},
+	"urls": [
+		"https://github.com/sikalabs/sikalabs-kubernetes-oidc-login/releases/download/v{version}/sikalabs-kubernetes-oidc-login.exe"
+	]
+}
