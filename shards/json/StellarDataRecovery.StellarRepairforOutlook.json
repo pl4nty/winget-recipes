@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [{ "url": "https://cloud.stellarinfo.com/StellarRepairforOutlook-Professional.exe", "architecture": "x64" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://cloud.stellarinfo.com/StellarRepairforOutlook-Professional.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
