@@ -1,14 +1,14 @@
 import { defineShard } from 'anthelion';
 import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"claudebar": ["Yovancas", "claudebar-win"], "prism": ["stoplightio", "prism"], "holdkey": ["Noxxider", "holdkey-releases"], "kondo": ["tbillington", "kondo"], "ferminal": ["RangS-1", "Ferminal"], "neochat": ["u14app", "neo-chat"], "skillmux": ["zack-zzq", "skillmux"], "dainb": ["Hyeonjun0527", "discord-ai-network-bot"], "openmw": ["OpenMW", "openmw"], "msixcmd": ["bergerpascal", "MSIX_Commander"], "typesymbol": ["yazanmwk", "TypeSymbol"], "tuckr": ["RaphGL", "Tuckr"], "sefirah": ["shrimqy", "Sefirah"], "whois": ["Akaere-NetWorks", "whois"], "yahb": ["asdfjkl", "yahb"], "smartsub": ["buxuku", "SmartSub"]};
+const repos: Record<string, [string, string]> = {"smapp": ["spacemeshos", "smapp"], "midi": ["microsoft", "MIDI"], "opensvip": ["SineStriker", "OpenSvip"], "sqlyog": ["webyog", "sqlyog-community"], "amass": ["owasp-amass", "amass"], "dolphin": ["dolphin-emu", "dolphin"], "miniforge": ["conda-forge", "miniforge"], "virtviewer": ["virt-manager", "virt-viewer"], "cubic": ["cjcliffe", "CubicSDR"], "devflow": ["daphnee-ovo", "dev-flow"], "aztfexport": ["Azure", "aztfexport"], "tuitest": ["microsoft", "tui-test"], "ams": ["Azure", "Azure-Media-Services-Explorer"]};
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
 	await Promise.all(
 		Object.entries(repos).map(async ([id, [owner, repo]]) => {
 			try {
-				const { data } = await githubClient.rest.repos.listReleases({ owner, repo, per_page: 30 });
+				const { data } = await githubClient.rest.repos.listReleases({ owner, repo, per_page: 100 });
 				out[id] = data.filter((r) => !r.draft).map((r) => ({ tag: r.tag_name, pre: r.prerelease, assets: r.assets.map((a) => a.name) }));
 			} catch (error) {
 				out[id] = String(error);
