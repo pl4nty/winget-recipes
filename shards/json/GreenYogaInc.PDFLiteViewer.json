@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "greenyogainc",
+		"repo": "pdf-lite-viewer"
+	},
+	"urls": [
+		"https://github.com/greenyogainc/pdf-lite-viewer/releases/download/{github.rawTag}/PdfLiteViewer-{version}-win-arm64.zip",
+		"https://github.com/greenyogainc/pdf-lite-viewer/releases/download/{github.rawTag}/PdfLiteViewer-{version}-win-x64.zip"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TX230",
+		"repo": "winproc-tui"
+	},
+	"urls": ["https://github.com/TX230/winproc-tui/releases/download/v{version}/winproc-tui-{version}-windows-x64.zip"]
+}

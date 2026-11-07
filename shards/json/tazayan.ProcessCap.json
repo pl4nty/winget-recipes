@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tazayan",
+		"repo": "ProcessCap"
+	},
+	"urls": [
+		"https://github.com/tazayan/ProcessCap/releases/download/v{version}/ProcessCap-{version}-win-x86.zip",
+		"https://github.com/tazayan/ProcessCap/releases/download/v{version}/ProcessCap-{version}-win-x64.zip",
+		"https://github.com/tazayan/ProcessCap/releases/download/v{version}/ProcessCap-{version}-win-arm64.zip"
+	]
+}

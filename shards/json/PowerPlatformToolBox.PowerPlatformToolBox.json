@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PowerPlatformToolBox",
+		"repo": "desktop-app"
+	},
+	"urls": [
+		"https://github.com/PowerPlatformToolBox/desktop-app/releases/download/v{version}/Power-Platform-ToolBox-{version}-x64-win.exe",
+		"https://github.com/PowerPlatformToolBox/desktop-app/releases/download/v{version}/Power-Platform-ToolBox-{version}-x64-win.msi",
+		"https://github.com/PowerPlatformToolBox/desktop-app/releases/download/v{version}/Power-Platform-ToolBox-{version}-arm64-win.exe",
+		"https://github.com/PowerPlatformToolBox/desktop-app/releases/download/v{version}/Power-Platform-ToolBox-{version}-arm64-win.msi"
+	]
+}
