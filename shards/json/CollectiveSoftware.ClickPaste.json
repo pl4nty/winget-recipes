@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Collective-Software",
+		"repo": "ClickPaste"
+	},
+	"urls": [
+		"https://github.com/Collective-Software/ClickPaste/releases/download/{github.rawTag}/ClickPaste-Setup.msi",
+		"https://github.com/Collective-Software/ClickPaste/releases/download/{github.rawTag}/ClickPaste_v{version}.zip"
+	]
+}

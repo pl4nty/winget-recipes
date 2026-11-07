@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Hashibutogarasu",
+		"repo": "FirewallConsoleApp"
+	},
+	"urls": [
+		"https://github.com/Hashibutogarasu/FirewallConsoleApp/releases/download/{github.rawTag}/fwall.zip"
+	]
+}
