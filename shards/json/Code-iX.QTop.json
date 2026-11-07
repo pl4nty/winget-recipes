@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Matt-17",
+		"repo": "QTop"
+	},
+	"urls": [
+		"https://github.com/Matt-17/QTop/releases/download/{github.rawTag}/QTop-{version}-x64.msi"
+	]
+}
