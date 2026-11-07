@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.navicat.com/en/products/navicat-data-modeler-release-note",
+		"regex": "Navicat Data Modeler \\(Windows\\) version (?<version>(?<major>\\d+)\\.\\d+\\.\\d+)<"
+	},
+	"urls": [
+		"https://download3.navicat.com/download/navicatdatamodeler0{captures.major}_lite_es_x64.exe",
+		"https://download3.navicat.com/download/navicatdatamodeler0{captures.major}_lite_en_x64.exe",
+		"https://download3.navicat.com/download/navicatdatamodeler0{captures.major}_lite_cs_x64.exe",
+		"https://download3.navicat.com/download/navicatdatamodeler0{captures.major}_lite_ct_x64.exe",
+		"https://download3.navicat.com/download/navicatdatamodeler0{captures.major}_lite_id_x64.exe",
+		"https://download3.navicat.com/download/navicatdatamodeler0{captures.major}_lite_jp_x64.exe",
+		"https://download3.navicat.com/download/navicatdatamodeler0{captures.major}_lite_de_x64.exe",
+		"https://download3.navicat.com/download/navicatdatamodeler0{captures.major}_lite_ru_x64.exe",
+		"https://download3.navicat.com/download/navicatdatamodeler0{captures.major}_lite_pl_x64.exe",
+		"https://download3.navicat.com/download/navicatdatamodeler0{captures.major}_lite_fr_x64.exe",
+		"https://download3.navicat.com/download/navicatdatamodeler0{captures.major}_lite_kr_x64.exe",
+		"https://download3.navicat.com/download/navicatdatamodeler0{captures.major}_lite_th_x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.navicat.com/products/navicat-data-modeler-release-note"
+	}
+}
