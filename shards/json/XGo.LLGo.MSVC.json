@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xgo-dev",
+		"repo": "llgo"
+	},
+	"urls": [
+		"https://github.com/xgo-dev/llgo/releases/download/v{version}/llgo{version}.windows-amd64-msvc.zip",
+		"https://github.com/xgo-dev/llgo/releases/download/v{version}/llgo{version}.windows-arm64-msvc.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "karlstav",
+		"repo": "cava"
+	},
+	"urls": [
+		"https://github.com/karlstav/cava/releases/download/{github.rawTag}/cava_win_x64_install.msi"
+	]
+}
