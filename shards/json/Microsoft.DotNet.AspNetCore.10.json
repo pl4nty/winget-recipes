@@ -1,7 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": "10.0.14",
+	"version": {
+		"source": "display"
+	},
 	"urls": [
 		"https://download.microsoft.com/download/70dcb3f8-de56-48ce-b20b-e7fa0266f1a8/df75877b-d787-4c42-9e24-2b366e02939c/aspnetcore-runtime-10.0.14-win-arm64.exe",
 		"https://download.microsoft.com/download/70dcb3f8-de56-48ce-b20b-e7fa0266f1a8/5eb3ece8-7955-4a65-aad8-bbb9371b5e70/aspnetcore-runtime-10.0.14-win-x64.exe",
