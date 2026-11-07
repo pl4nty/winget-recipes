@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ChrisLauinger77",
+		"repo": "toerings"
+	},
+	"urls": [
+		"https://github.com/ChrisLauinger77/toerings/releases/download/{github.rawTag}/ToeRings_{version}_x64-setup.exe"
+	]
+}
