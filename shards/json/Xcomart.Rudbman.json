@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "xcomart", "repo": "rudbman" },
+	"urls": [
+		"https://github.com/xcomart/rudbman/releases/download/v{version}/rudbman-v{version}-x86_64-pc-windows-msvc-setup.exe"
+	]
+}
