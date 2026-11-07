@@ -44,6 +44,21 @@ const shardUrls: Rule = async (shards, report) => {
 	}
 };
 
+// Shards must resolve the latest version, so a version or a static URL must not be fixed.
+const hardcodedVersion: Rule = async (shards, report) => {
+	for (const shard of shards) {
+		const contents = await readFile(shard, 'utf8');
+		if (!shard.endsWith('.json')) {
+			if (/\bversion\s*:\s*['"`]\d[^'"`{$]*['"`]/.test(contents)) report(shard, 'shard hardcodes its version');
+			continue;
+		}
+		const { strategy, version, state } = JSON.parse(contents);
+		if (typeof version === 'string' && !version.includes('{')) report(shard, `shard hardcodes version ${version}`);
+		if (strategy === 'static' && !state)
+			report(shard, 'static shard without state can only resubmit the version at its URL');
+	}
+};
+
 // Anthelion reads version-state/<PackageIdentifier> before each update and fails when it is missing.
 const versionState: Rule = async (shards, report) => {
 	for (const shard of shards) {
@@ -350,6 +365,21 @@ const dryRunValues: Rule = async (shards, report) => {
 			report(shard, `${name}: dry run version ${version} is ${latest} written differently`);
 		else if (/[\s()]/.test(version) && !/[\s()]/.test(latest))
 			report(shard, `${name}: dry run version ${version} has spaces or brackets, unlike ${latest}`);
+		const hashes = new Set(before.map((installer) => installer.InstallerSha256));
+		if (version !== latest && after.every((installer) => hashes.has(installer.InstallerSha256)))
+			report(shard, `${name}: dry run version ${version} has the same installers as ${latest}`);
+		// winget uses PackageVersion when an installer has no DisplayVersion.
+		const displayVersions = (list: Record<string, unknown>[], version: string) =>
+			list.flatMap(
+				(installer) =>
+					(installer.AppsAndFeaturesEntries as { DisplayVersion?: unknown }[] | undefined)?.map((entry) =>
+						String(entry.DisplayVersion ?? version),
+					) ?? [version],
+			);
+		const used = new Set(displayVersions(before, latest));
+		for (const displayVersion of new Set(displayVersions(after, version)))
+			if (version !== latest && used.has(displayVersion))
+				report(shard, `${name}: dry run DisplayVersion ${displayVersion} is already used by ${latest}`);
 
 		const remaining = after.map((installer) => installer.Architecture);
 		const missing = before.filter((installer) => {
@@ -394,6 +424,7 @@ const rules: Record<string, Rule> = process.argv.includes('--dry-run')
 	: {
 			maintained,
 			'shard-urls': shardUrls,
+			'hardcoded-version': hardcodedVersion,
 			'version-state': versionState,
 			'release-notes-url': releaseNotesUrl,
 			'github-release-notes': githubReleaseNotes,

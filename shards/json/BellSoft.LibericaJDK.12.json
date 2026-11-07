@@ -1,17 +1,15 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "json",
+	"json": {
+		"url": "https://api.bell-sw.com/v1/liberica/releases?version-feature=12&version-modifier=latest&os=windows&arch=x86&package-type=msi&bundle-type=jdk",
+		"path": "0.version"
 	},
 	"urls": [
-		{
-			"url": "https://download.bell-sw.com/java/12.0.2/bellsoft-jdk12.0.2-windows-i586.msi",
-			"architecture": "x86"
-		},
-		{
-			"url": "https://download.bell-sw.com/java/12.0.2/bellsoft-jdk12.0.2-windows-amd64.msi",
-			"architecture": "x64"
-		}
-	]
+		"https://download.bell-sw.com/java/{data.0.downloadUrl|https://github.com/bell-sw/Liberica/releases/download/|}",
+		"https://download.bell-sw.com/java/{data.1.downloadUrl|https://github.com/bell-sw/Liberica/releases/download/|}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://bell-sw.com/pages/liberica-release-notes-{version|+|-}/"
+	}
 }
