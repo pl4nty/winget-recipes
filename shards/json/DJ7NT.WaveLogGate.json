@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wavelog",
+		"repo": "WaveLogGate"
+	},
+	"urls": [
+		"https://github.com/wavelog/WaveLogGate/releases/download/{github.rawTag}/WavelogGate-windows-amd64-x64.exe",
+		"https://github.com/wavelog/WaveLogGate/releases/download/{github.rawTag}/WavelogGate-windows-arm64.exe",
+		"https://github.com/wavelog/WaveLogGate/releases/download/{github.rawTag}/WavelogGate-windows-i386-x86.exe"
+	]
+}
