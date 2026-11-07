@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": [
 		{ "url": "https://www.uniconta.com/download/uniconta-setup-msi/?wpdmdl=17651&masterkey=59ae3221bb580", "architecture": "x64", "scope": "user" },
 		{ "url": "https://www.uniconta.com/download/uniconta-setup-msi/?wpdmdl=17651&masterkey=59ae3221bb580", "architecture": "x64", "scope": "machine" }
