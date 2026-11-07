@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vx-org",
+		"repo": "vx"
+	},
+	"urls": [
+		"https://github.com/vx-org/vx/releases/download/{github.rawTag}/vx-x86_64-pc-windows-msvc.zip"
+	]
+}
