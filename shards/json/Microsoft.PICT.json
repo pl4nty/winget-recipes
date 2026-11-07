@@ -5,6 +5,7 @@
 		"owner": "microsoft",
 		"repo": "pict"
 	},
+	"version": "{version}.0",
 	"urls": [
 		"https://github.com/microsoft/pict/releases/download/v{version}/pict.exe"
 	]
