@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "n0-computer",
+		"repo": "sendme"
+	},
+	"urls": [
+		"https://github.com/n0-computer/sendme/releases/download/v{version}/sendme-v{version}-windows-x86_64.zip"
+	]
+}

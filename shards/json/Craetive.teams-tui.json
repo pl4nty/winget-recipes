@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "craetive-australia",
+		"repo": "teams-tui"
+	},
+	"urls": [
+		"https://github.com/craetive-australia/teams-tui/releases/download/{github.rawTag}/teams-tui-windows-amd64.exe.zip"
+	]
+}
