@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/ElCruncharino/neostego/releases/download/{github.rawTag}/NeoStego-{version}.msi"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/ElCruncharino/neostego/releases/tag/{github.rawTag}"
-	}
+	]
 }
