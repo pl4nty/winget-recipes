@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cube-soft.jp/cubepdfutility/releases.php",
+		"regex": "confirm2\\.php\\?ver=(\\d+(?:\\.\\d+)+)&mode=x64"
+	},
+	"urls": [
+		"https://dl.cube-soft.jp/archive/cubepdf-utility-{version}.exe",
+		"https://dl.cube-soft.jp/archive/cubepdf-utility-{version}-x64.exe",
+		"https://dl.cube-soft.jp/archive/cubepdf-utility-{version}-arm64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.cube-soft.jp/entry/2024/06/21/cubepdf-utility-4.0.0-or-later"
+	}
+}
