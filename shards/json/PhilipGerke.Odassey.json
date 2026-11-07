@@ -4,7 +4,7 @@
 	"github": {
 		"owner": "pgerke",
 		"repo": "get-odassey",
-		"method": "api-latest",
+		"method": "api-sort",
 		"assetRegex": "^Odassey_win_(?:x64|arm64)_v[\\d.]+\\.exe$"
 	}
 }
