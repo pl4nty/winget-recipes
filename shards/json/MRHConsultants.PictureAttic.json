@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://atticsuite.com/dl.php?p=pic&f=msi"],
+		"regex": "/downloads/PictureAttic-(\\d+(?:\\.\\d+)+)\\.msi$"
+	}
+}
