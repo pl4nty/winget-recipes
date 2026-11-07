@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JordanCoin",
+		"repo": "docmap"
+	},
+	"urls": [
+		"https://github.com/JordanCoin/docmap/releases/download/{github.rawTag}/docmap_{version}_windows_amd64.zip"
+	]
+}

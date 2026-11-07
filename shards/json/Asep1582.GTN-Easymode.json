@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "asep3192",
+		"repo": "GTN-Easy-winget-installer"
+	},
+	"urls": [
+		"https://github.com/asep3192/GTN-Easy-winget-installer/releases/download/{github.rawTag}/GTN-Setup-Easy-nonetwork.exe"
+	]
+}
