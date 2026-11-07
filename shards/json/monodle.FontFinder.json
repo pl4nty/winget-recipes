@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "monodle",
+		"repo": "fontfinder"
+	},
+	"urls": ["https://github.com/monodle/fontfinder/releases/download/v{version}/Font.Finder_{version}_x64-setup.exe"]
+}
