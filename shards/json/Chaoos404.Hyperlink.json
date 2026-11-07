@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Chaoos-404",
+		"repo": "HyperLink"
+	},
+	"urls": [
+		"https://github.com/Chaoos-404/HyperLink/releases/download/{github.rawTag}/Hyperlink-{version}-windows-x64.zip"
+	]
+}
