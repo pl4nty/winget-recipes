@@ -4,7 +4,7 @@
 	"github": {
 		"owner": "cjcliffe",
 		"repo": "CubicSDR",
-		"method": "api-latest",
+		"method": "api-sort",
 		"assetRegex": "win|\\.(exe|msi|zip)$"
 	}
 }
