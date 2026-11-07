@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fsantiago07044",
+		"repo": "filehasher"
+	},
+	"urls": [
+		"https://github.com/fsantiago07044/filehasher/releases/download/{github.rawTag}/FileHasher-{version}.msi"
+	]
+}
