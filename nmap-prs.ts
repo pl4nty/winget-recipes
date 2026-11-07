@@ -5,7 +5,7 @@ import { $ } from 'bun';
 const post = process.argv.includes('--post');
 const repo = 'microsoft/winget-pkgs';
 const issue = '#341747';
-const comment = `Insecure.NMap 7.90 and above doesn't support silent install and can't be added. See ${issue}`;
+const comment = `Thanks for your submission! Unfortunately new versions of this app don't support silent install, and can't be added. See ${issue}`;
 
 const unsupported = (version: string) => {
 	const [major = 0, minor = 0] = version.split('.').map(Number);
