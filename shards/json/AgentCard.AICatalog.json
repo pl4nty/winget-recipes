@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Agent-Card",
+		"repo": "ai-catalog-cli"
+	},
+	"urls": [
+		"https://github.com/Agent-Card/ai-catalog-cli/releases/download/{github.rawTag}/ai-catalog-windows-amd64.zip",
+		"https://github.com/Agent-Card/ai-catalog-cli/releases/download/{github.rawTag}/ai-catalog-windows-arm64.zip"
+	]
+}
