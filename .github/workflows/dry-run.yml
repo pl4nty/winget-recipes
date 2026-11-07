@@ -46,6 +46,7 @@ jobs:
       # Shards in shards/dry-run never submit: the scheduled update reads only shards/json and shards/script.
       - name: Find New Versions
         run: |
+          [ -d shards/dry-run ] || exit 0
           status=0
           bun test:shard all --dry-run || status=$?
           echo '### New versions' >> "$GITHUB_STEP_SUMMARY"
