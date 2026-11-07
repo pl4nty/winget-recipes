@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Hibbiki",
+		"repo": "chromium-win64",
+		"tagRegex": "-r\\d+$"
+	},
+	"urls": [
+		"https://github.com/Hibbiki/chromium-win64/releases/download/{github.rawTag}/mini_installer.exe",
+		"https://github.com/Hibbiki/chromium-win64/releases/download/{github.rawTag}/mini_installer.exe"
+	]
+}
