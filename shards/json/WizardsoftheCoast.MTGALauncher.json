@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://mtgarena.downloads.wizards.com/Live/Windows64/MTGAInstaller.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://mtgarena.downloads.wizards.com/Live/Windows64/MTGAInstaller.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
