@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
