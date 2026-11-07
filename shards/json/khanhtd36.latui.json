@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "khanhtd36",
+		"repo": "latui"
+	},
+	"urls": [
+		"https://github.com/khanhtd36/latui/releases/download/{github.rawTag}/latui_{version}_windows_arm64.zip",
+		"https://github.com/khanhtd36/latui/releases/download/{github.rawTag}/latui_{version}_windows_x86_64.zip"
+	]
+}

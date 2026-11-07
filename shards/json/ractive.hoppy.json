@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ractive",
+		"repo": "hoppy"
+	},
+	"urls": [
+		"https://github.com/ractive/hoppy/releases/download/v{version}/hoppy-v{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/ractive/hoppy/releases/download/v{version}/hoppy-v{version}-aarch64-pc-windows-msvc.zip"
+	]
+}
