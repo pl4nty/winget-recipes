@@ -4,7 +4,10 @@
 	"github": {
 		"owner": "Akaere-NetWorks",
 		"repo": "whois",
-		"method": "api-sort",
-		"assetRegex": "^(?:whois\\-cli\\-windows\\-\\d+\\-arm\\.exe|whois\\-cli\\-windows\\-\\d+\\.exe)$"
-	}
+		"method": "api-sort"
+	},
+	"urls": [
+		{ "url": "https://github.com/Akaere-NetWorks/whois/releases/download/{github.rawTag}/whois-cli-windows-2022.exe", "architecture": "x64" },
+		{ "url": "https://github.com/Akaere-NetWorks/whois/releases/download/{github.rawTag}/whois-cli-windows-11-arm.exe", "architecture": "arm64" }
+	]
 }
