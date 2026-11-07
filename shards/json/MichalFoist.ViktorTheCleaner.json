@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vtcleaner.cz/en/",
+		"regex": "ViktorSetup-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://vtcleaner.cz/ViktorSetup-{version}.exe",
+		"https://vtcleaner.cz/ViktorSetup-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vtcleaner.cz/en/novinky.html"
+	}
+}
