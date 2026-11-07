@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/mvpoftheleague/bgstats-companion/releases/download/v{version}/BgStatsCompanion.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/mvpoftheleague/bgstats-companion/releases/tag/{github.rawTag}"
-	}
+	]
 }
