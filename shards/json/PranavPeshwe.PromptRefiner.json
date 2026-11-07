@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "PranavPeshwe", "repo": "prompt-refiner" },
+	"urls": ["https://github.com/PranavPeshwe/prompt-refiner/releases/download/v{version}/PromptRefiner-win-x64.zip"]
+}
