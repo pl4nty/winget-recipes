@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "nymtech",
 		"repo": "nym-vpn-client",
-		"method": "api-sort",
 		"tagRegex": "^nym-vpn-v"
 	},
 	"urls": [
