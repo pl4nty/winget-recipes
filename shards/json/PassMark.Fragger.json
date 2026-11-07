@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "display" },
+	"version": { "source": "product" },
 	"urls": [{ "url": "https://www.passmark.com/downloads/fragger-setup.exe", "architecture": "x86" }],
 	"state": {
 		"source": "response-header",
