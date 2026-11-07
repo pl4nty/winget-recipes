@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.php.net/~windows/releases/releases.json",
+		"regex": "\"8\\.5\":\\s*\\{\\s*\"version\":\\s*\"(?<version>8\\.5\\.\\d+)(?<build>[^\"]*)\""
+	},
+	"urls": [
+		"https://downloads.php.net/~windows/releases/archives/php-{version}{captures.build}-Win32-vs17-x64.zip",
+		"https://downloads.php.net/~windows/releases/archives/php-{version}{captures.build}-Win32-vs17-x86.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.php.net/ChangeLog-8.php#{version}"
+	}
+}
