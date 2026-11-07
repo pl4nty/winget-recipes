@@ -3,8 +3,7 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "sjtaylor82",
-		"repo": "MapInABox",
-		"method": "api-latest"
+		"repo": "MapInABox"
 	},
 	"urls": [{ "url": "https://github.com/sjtaylor82/MapInABox/releases/download/{github.rawTag}/MapInABox-{version}-setup.exe", "architecture": "x64" }]
 }
