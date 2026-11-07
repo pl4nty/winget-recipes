@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wakatime",
+		"repo": "wakatime-cli"
+	},
+	"urls": [
+		"https://github.com/wakatime/wakatime-cli/releases/download/v{version}/wakatime-cli-windows-386.zip",
+		"https://github.com/wakatime/wakatime-cli/releases/download/v{version}/wakatime-cli-windows-amd64.zip",
+		"https://github.com/wakatime/wakatime-cli/releases/download/v{version}/wakatime-cli-windows-arm64.zip"
+	]
+}
