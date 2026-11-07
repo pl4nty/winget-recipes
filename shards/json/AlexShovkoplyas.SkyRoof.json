@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VE3NEA",
+		"repo": "SkyRoof",
+		"tagRegex": "^v?\\.",
+		"method": "api-sort",
+		"assetRegex": "^(?:SkyRoofSetup\\-v\\.\\d+\\.\\d+\\.zip)$"
+	}
+}
