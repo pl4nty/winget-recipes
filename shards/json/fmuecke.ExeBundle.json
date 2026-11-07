@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fmuecke",
+		"repo": "ExeBundle"
+	},
+	"urls": [
+		"https://github.com/fmuecke/ExeBundle/releases/download/{github.rawTag}/ExeBundle-{version}-x64.zip"
+	]
+}
