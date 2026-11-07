@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "TEN-framework", "repo": "ten-framework" },
+	"urls": ["https://github.com/TEN-framework/ten-framework/releases/download/{github.rawTag}/tman-win-release-x64.zip"]
+}
