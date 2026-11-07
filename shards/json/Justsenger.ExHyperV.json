@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "Justsenger",
 		"repo": "ExHyperV",
-		"method": "api-sort",
 		"tagRegex": "^V"
 	},
 	"urls": [
