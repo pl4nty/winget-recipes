@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://v4b.verizonwireless.com/onetalk/windows_download.html",
+		"regex": "One_Talk-(\\d+(?:\\.\\d+)+)-win64\\.msi"
+	},
+	"urls": ["https://v4b.verizonwireless.com/onetalk/One_Talk-{version}-win64.msi"]
+}
