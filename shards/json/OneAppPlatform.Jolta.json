@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "OneAppPlatform", "repo": "jolta" },
+	"urls": ["https://github.com/OneAppPlatform/jolta/releases/download/v{version}/jolta-x86_64-pc-windows-msvc.zip"]
+}
