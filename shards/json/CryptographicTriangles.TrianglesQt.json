@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SamiAhmed7777",
+		"repo": "triangles_v5"
+	},
+	"urls": [
+		"https://github.com/SamiAhmed7777/triangles_v5/releases/download/{github.rawTag}/Cryptographic-Triangles-{version}-win-x64-setup.exe"
+	]
+}
