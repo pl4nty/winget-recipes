@@ -6,8 +6,5 @@
 		"repo": "YTDown",
 		"method": "api-sort",
 		"assetRegex": "^(?:YTDown\\-\\d+\\.\\d+\\.\\d+\\-Windows\\-Setup\\.exe)$"
-	},
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/JustinNguyen9979/YTDown/releases/tag/{github.rawTag}"
 	}
 }
