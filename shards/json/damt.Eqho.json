@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "danielmevit",
+		"repo": "eqho"
+	},
+	"urls": [
+		"https://github.com/danielmevit/eqho/releases/download/{github.rawTag}/Eqho-Setup-{version}-win-x64.exe"
+	]
+}

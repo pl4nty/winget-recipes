@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TERMINATORmdel101",
+		"repo": "MAUS"
+	},
+	"urls": [
+		"https://github.com/TERMINATORmdel101/MAUS/releases/download/{version}/MAUS-{version}-installation.exe"
+	]
+}
