@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/DimonSmart/OllamaChat/releases/download/{github.rawTag}/ollama-chat-win-x64-{version}.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/DimonSmart/OllamaChat/releases/tag/{github.rawTag}"
-	}
+	]
 }
