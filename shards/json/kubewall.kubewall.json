@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kubewall",
+		"repo": "kubewall"
+	},
+	"urls": [
+		"https://github.com/kubewall/kubewall/releases/download/{github.rawTag}/kubewall_Windows_arm64.zip",
+		"https://github.com/kubewall/kubewall/releases/download/{github.rawTag}/kubewall_Windows_i386.zip",
+		"https://github.com/kubewall/kubewall/releases/download/{github.rawTag}/kubewall_Windows_x86_64.zip"
+	]
+}
