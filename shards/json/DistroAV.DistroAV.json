@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DistroAV",
+		"repo": "DistroAV"
+	},
+	"urls": [
+		"https://github.com/DistroAV/DistroAV/releases/download/{github.rawTag}/distroav-{version}-windows-x64-Installer.exe"
+	]
+}
