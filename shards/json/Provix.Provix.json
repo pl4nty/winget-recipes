@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/ryduxbsbdmc-eng/provix/releases/download/v{version}/Provix-Setup-{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/ryduxbsbdmc-eng/provix/releases/tag/{github.rawTag}"
-	}
+	]
 }
