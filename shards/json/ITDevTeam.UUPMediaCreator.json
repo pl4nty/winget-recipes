@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OSTooling",
+		"repo": "UUPMediaCreator"
+	},
+	"urls": [
+		"https://github.com/OSTooling/UUPMediaCreator/releases/download/{github.rawTag}/win-arm64-binaries.zip",
+		"https://github.com/OSTooling/UUPMediaCreator/releases/download/{github.rawTag}/win-x64-binaries.zip",
+		"https://github.com/OSTooling/UUPMediaCreator/releases/download/{github.rawTag}/win-x86-binaries.zip"
+	]
+}

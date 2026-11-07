@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "freifunkMUC",
+		"repo": "jitsi-meet-electron"
+	},
+	"urls": [
+		"https://github.com/freifunkMUC/jitsi-meet-electron/releases/download/{github.rawTag}/ffmuc-meet.exe"
+	]
+}
