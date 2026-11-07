@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "teradata-labs",
+		"repo": "loom"
+	},
+	"urls": ["https://github.com/teradata-labs/loom/releases/download/v{version}/loom-windows-x64.zip"]
+}
