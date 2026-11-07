@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "benmdg",
+		"repo": "vibes-releases"
+	},
+	"urls": [
+		"https://github.com/benmdg/vibes-releases/releases/download/{github.rawTag}/Vibes_{version}_x64-setup.exe"
+	]
+}

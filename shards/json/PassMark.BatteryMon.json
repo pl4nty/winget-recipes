@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.passmark.com/products/batmon/",
+		"regex": "Versions:</strong> V(\\d+\\.\\d+) build"
+	},
+	"urls": [{ "url": "https://www.passmark.com/downloads/batmon.exe", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.passmark.com/downloads/batmon.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
