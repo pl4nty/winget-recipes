@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Locaible",
+		"repo": "locaible-releases"
+	},
+	"urls": [
+		"https://github.com/Locaible/locaible-releases/releases/download/{github.rawTag}/Locaible_{version}_x64-setup.exe",
+		"https://github.com/Locaible/locaible-releases/releases/download/{github.rawTag}/Locaible_{version}_x64_en-US.msi"
+	]
+}
