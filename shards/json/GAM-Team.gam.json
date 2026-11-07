@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GAM-team",
+		"repo": "GAM"
+	},
+	"urls": [
+		"https://github.com/GAM-team/GAM/releases/download/{github.rawTag}/gam-{version}-windows-arm64.exe",
+		"https://github.com/GAM-team/GAM/releases/download/{github.rawTag}/gam-{version}-windows-x86_64.exe"
+	]
+}
