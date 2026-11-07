@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "NVIDIA", "repo": "vr-capture-replay" },
+	"urls": [
+		{
+			"url": "https://github.com/NVIDIA/vr-capture-replay/releases/download/v{version}/VCR_{version}.zip",
+			"nestedInstallerMatches": ["capture.exe", "convert.exe", "helper.exe", "sample.exe"]
+		}
+	]
+}
