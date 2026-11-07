@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Cinchoo",
+		"repo": "ChoEazyCopy"
+	},
+	"urls": [
+		"https://github.com/Cinchoo/ChoEazyCopy/releases/download/{github.rawTag}/ChoEazyCopy.zip"
+	]
+}

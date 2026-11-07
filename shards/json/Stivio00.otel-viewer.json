@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stivio00",
+		"repo": "otel-viewer"
+	},
+	"urls": ["https://github.com/stivio00/otel-viewer/releases/download/v{version}/otel-viewer_{version}_x64-setup.exe"]
+}
