@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ortux",
+		"repo": "own_browser",
+		"method": "api-latest",
+		"assetRegex": "^Zyphora-.*-win-(x64|arm64|ia32)-setup\\.exe$"
+	},
+	"version": { "source": "product" }
+}
