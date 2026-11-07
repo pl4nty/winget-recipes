@@ -1,10 +1,14 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://download.wtfast.com/product/wtfast/index.html"
+		],
+		"regex": "wtfastsetup\\.(\\d+(?:\\.\\d+)+)\\.exe$"
 	},
+	"version": "{version}.0",
 	"urls": [
-		"https://download.wtfast.com/product/wtfast/wtfastsetup.5.5.20.exe"
+		"https://download.wtfast.com/product/wtfast/wtfastsetup.{version}.exe"
 	]
 }
