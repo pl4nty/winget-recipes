@@ -332,6 +332,18 @@ const dryRunValues: Rule = async (shards, report) => {
 		const hashes = new Set(before.map((installer) => installer.InstallerSha256));
 		if (version !== latest && after.every((installer) => hashes.has(installer.InstallerSha256)))
 			report(shard, `${name}: dry run version ${version} has the same installers as ${latest}`);
+		// winget uses PackageVersion when an installer has no DisplayVersion.
+		const displayVersions = (list: Record<string, unknown>[], version: string) =>
+			list.flatMap(
+				(installer) =>
+					(installer.AppsAndFeaturesEntries as { DisplayVersion?: unknown }[] | undefined)?.map((entry) =>
+						String(entry.DisplayVersion ?? version),
+					) ?? [version],
+			);
+		const used = new Set(displayVersions(before, latest));
+		for (const displayVersion of new Set(displayVersions(after, version)))
+			if (version !== latest && used.has(displayVersion))
+				report(shard, `${name}: dry run DisplayVersion ${displayVersion} is already used by ${latest}`);
 
 		const remaining = after.map((installer) => installer.Architecture);
 		const missing = before.filter((installer) => {
