@@ -57,13 +57,16 @@ jobs:
 
       - name: Test Packages
         run: |
+          DRY_RUN_PACKAGES=''
           if [ -z "$PACKAGES" ]; then
             PACKAGES="$(git diff --name-only --diff-filter=AMR "$BASE" HEAD -- 'shards/json/*.json' 'shards/script/*.ts' | xargs -r -n1 basename | sed 's/\.[^.]*$//' | xargs)"
+            DRY_RUN_PACKAGES="$(git diff --name-only --diff-filter=AMR "$BASE" HEAD -- 'shards/dry-run/json/*.json' 'shards/dry-run/script/*.ts' | xargs -r -n1 basename | sed 's/\.[^.]*$//' | xargs)"
           fi
-          if [ -z "$PACKAGES" ]; then
+          if [ -z "$PACKAGES$DRY_RUN_PACKAGES" ]; then
             exit 0
           fi
-          bun test:shard "$PACKAGES" --dry-run
+          [ -z "$PACKAGES" ] || bun test:shard "$PACKAGES" --dry-run
+          [ -z "$DRY_RUN_PACKAGES" ] || ANTHELION_SHARDS_DIR=shards/dry-run bun test:shard "$DRY_RUN_PACKAGES" --dry-run
           bun lint.ts --dry-run
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
