@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.foobar2000.org/encoderpack",
+		"regex": "Free_Encoder_Pack-(?<version>\\d{4}-\\d{2}-\\d{2})\\.exe"
+	},
+	"urls": ["https://www.foobar2000.org/downloads/Free_Encoder_Pack-{version}.exe"]
+}
