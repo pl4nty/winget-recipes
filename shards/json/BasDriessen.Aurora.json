@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{ "url": "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", "architecture": "x64" }
+	]
+}
