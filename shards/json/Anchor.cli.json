@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "anchordotdev",
+		"repo": "cli"
+	},
+	"urls": [
+		"https://github.com/anchordotdev/cli/releases/download/{github.rawTag}/msi-builder-x64.msi",
+		"https://github.com/anchordotdev/cli/releases/download/{github.rawTag}/msi-builder-x86.msi"
+	]
+}
