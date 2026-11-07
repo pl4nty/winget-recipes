@@ -5,5 +5,5 @@
 		"url": "https://relic.space/latest.json",
 		"path": "platforms.windows.version"
 	},
-	"urls": ["https://relic.space/download/windows/relic-setup-{version}.exe"]
+	"urls": [{ "url": "https://relic.space/download/windows/relic-setup-{version}.exe", "architecture": "x64" }]
 }
