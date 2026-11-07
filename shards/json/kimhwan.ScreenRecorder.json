@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/akon47/ScreenRecorder/releases/download/{github.rawTag}/ScreenRecorder_Setup_v{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/akon47/ScreenRecorder/releases/tag/{github.rawTag}"
-	}
+	]
 }
