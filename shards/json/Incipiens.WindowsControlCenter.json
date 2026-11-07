@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Incipiens",
+		"repo": "WindowsControlCenter"
+	},
+	"urls": [
+		"https://github.com/Incipiens/WindowsControlCenter/releases/download/{github.rawTag}/WindowsControlCenter-{version}-win-x64.zip"
+	]
+}
