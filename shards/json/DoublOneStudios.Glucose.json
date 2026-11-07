@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rudi-q",
+		"repo": "glucose_media_player"
+	},
+	"urls": [
+		"https://github.com/rudi-q/glucose_media_player/releases/download/{github.rawTag}/Glucose_{version}_x64-setup.exe"
+	]
+}
