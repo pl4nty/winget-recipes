@@ -232,7 +232,16 @@ function compareVersions(a: string, b: string) {
 	return 0;
 }
 
-type DryRun = { shard: string; latest: string; raws: Map<string, string>; yamls: Map<string, string | undefined> };
+type DryRun = {
+	shard: string;
+	latest: string;
+	version: string;
+	stable: string[];
+	raws: Map<string, string>;
+	yamls: Map<string, string | undefined>;
+};
+// A package Id ending in one of these is a prerelease channel of the package without it.
+const CHANNEL = /\/(?:alpha|beta|canary|dev|experimental|insiders?|nightly|pre|prerelease|preview|rc)$/i;
 
 // Pairs each dry-run manifest from the step summary with the latest winget-pkgs manifest of the same name.
 let loaded: Promise<DryRun[]> | undefined;
@@ -247,7 +256,8 @@ const dryRuns = (shards: string[]) =>
 
 		const dir = await mkdtemp(join(tmpdir(), 'lint-'));
 		await $`git clone --quiet --depth 1 --filter=blob:none --sparse https://github.com/microsoft/winget-pkgs.git ${dir}`;
-		await $`git -C ${dir} sparse-checkout set --no-cone ${packages.map((pkg) => `/${pkg}/*/*.yaml`)}`.quiet();
+		const parents = packages.filter((pkg) => CHANNEL.test(pkg)).map(dirname);
+		await $`git -C ${dir} sparse-checkout set --no-cone ${[...packages, ...parents].map((pkg) => `/${pkg}/*/*.yaml`)}`.quiet();
 
 		return Promise.all(
 			packages.map(async (pkg) => {
@@ -255,12 +265,15 @@ const dryRuns = (shards: string[]) =>
 				const shard = shards.find((shard) => id(shard).toLowerCase() === identifier) ?? pkg;
 				const paths = await Array.fromAsync(glob(`${pkg}/*/*.yaml`, { cwd: dir }));
 				const latest = [...new Set(paths.map((path) => basename(dirname(path))))].sort(compareVersions).at(-1)!;
-				const version = [...generated.keys()].find((path) => dirname(dirname(path)) === pkg)!.split('/').at(-2);
+				const version = [...generated.keys()].find((path) => dirname(dirname(path)) === pkg)!.split('/').at(-2)!;
+				const stable = CHANNEL.test(pkg)
+					? [...new Set((await Array.fromAsync(glob(`${dirname(pkg)}/*/*.yaml`, { cwd: dir }))).map((path) => basename(dirname(path))))]
+					: [];
 				const raws = new Map<string, string>();
 				for (const path of paths.filter((path) => basename(dirname(path)) === latest))
 					raws.set(basename(path), await readFile(join(dir, path), 'utf8'));
 				const yamls = new Map([...raws.keys()].map((name) => [name, generated.get(`${pkg}/${version}/${name}`)]));
-				return { shard, latest, raws, yamls };
+				return { shard, latest, version, stable, raws, yamls };
 			}),
 		);
 	})());
@@ -368,8 +381,14 @@ const dryRunValues: Rule = async (shards, report) => {
 	}
 };
 
+// A prerelease channel should not get a version of its stable package.
+const prereleaseChannel: Rule = async (shards, report) => {
+	for (const { shard, version, stable } of await dryRuns(shards))
+		if (stable.includes(version)) report(shard, `dry run version ${version} is a release of the stable package`);
+};
+
 const rules: Record<string, Rule> = process.argv.includes('--dry-run')
-	? { 'dropped-fields': droppedFields, 'dry-run-values': dryRunValues }
+	? { 'dropped-fields': droppedFields, 'dry-run-values': dryRunValues, 'prerelease-channel': prereleaseChannel }
 	: {
 			maintained,
 			'shard-urls': shardUrls,
