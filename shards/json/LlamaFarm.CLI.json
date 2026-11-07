@@ -6,7 +6,6 @@
 		"repo": "llamafarm"
 	},
 	"urls": [
-		"https://github.com/llama-farm/llamafarm/releases/download/{github.rawTag}/lf-windows-amd64.exe",
-		"https://github.com/llama-farm/llamafarm/releases/download/{github.rawTag}/lf-windows-arm64.exe"
+		"https://github.com/llama-farm/llamafarm/releases/download/{github.rawTag}/lf-windows-amd64.exe"
 	]
 }
