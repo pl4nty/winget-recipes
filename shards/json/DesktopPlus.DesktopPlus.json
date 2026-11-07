@@ -6,8 +6,12 @@
 	},
 	"github": {
 		"owner": "desktop-plus",
-		"repo": "desktop-plus",
-		"method": "api-latest",
-		"assetRegex": "^(?:DesktopPlus\\-v\\d+\\.\\d+\\.\\d+\\.\\d+\\-windows\\-arm64\\.exe|DesktopPlus\\-v\\d+\\.\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\.exe|DesktopPlus\\-v\\d+\\.\\d+\\.\\d+\\.\\d+\\-windows\\-arm64\\.msi|DesktopPlus\\-v\\d+\\.\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\.msi)$"
-	}
+		"repo": "desktop-plus"
+	},
+	"urls": [
+		"https://github.com/desktop-plus/desktop-plus/releases/download/{github.rawTag}/DesktopPlus-{github.rawTag}-windows-arm64.exe",
+		"https://github.com/desktop-plus/desktop-plus/releases/download/{github.rawTag}/DesktopPlus-{github.rawTag}-windows-arm64.msi",
+		"https://github.com/desktop-plus/desktop-plus/releases/download/{github.rawTag}/DesktopPlus-{github.rawTag}-windows-x64.exe",
+		"https://github.com/desktop-plus/desktop-plus/releases/download/{github.rawTag}/DesktopPlus-{github.rawTag}-windows-x64.msi"
+	]
 }
