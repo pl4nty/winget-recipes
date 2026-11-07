@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://messenger.softros.com/downloads/",
+		"regex": "Version:\\s*(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://download.softros.com/SoftrosLANMessengerSetup.msi",
+		"https://download.softros.com/SoftrosLANMessengerSetup.exe"
+	]
+}
