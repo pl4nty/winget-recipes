@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "edjepaz",
+		"repo": "qr-code-generator"
+	},
+	"urls": [
+		"https://github.com/edjepaz/qr-code-generator/releases/download/{github.rawTag}/qr-code-generator.exe"
+	]
+}
