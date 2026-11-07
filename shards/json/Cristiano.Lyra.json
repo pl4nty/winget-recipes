@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cristianobleve",
+		"repo": "lyra"
+	},
+	"urls": [
+		"https://github.com/cristianobleve/lyra/releases/download/{github.rawTag}/lyra-windows-x64.exe"
+	]
+}

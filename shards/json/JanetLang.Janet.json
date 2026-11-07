@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "janet-lang",
+		"repo": "janet"
+	},
+	"urls": [
+		"https://github.com/janet-lang/janet/releases/download/{github.rawTag}/janet-{version}-windows-x64-installer.msi"
+	]
+}
