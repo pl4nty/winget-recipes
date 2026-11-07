@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://valentin-software.com/en/products/pvsol/",
+		"regex": "PV\\*SOL 2026 Release (\\d+)"
+	},
+	"version": "2026.{version}",
+	"urls": ["https://downloads.valentin.de/pvsol/setup_pvsol_2026_{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://valentin-software.com/en/products/pvsol/#release-notes"
+	}
+}
