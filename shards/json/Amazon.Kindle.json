@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.amazon.com/kindlepcdownload"],
+		"regex": "/(?<build>\\d+)/KindleForPC-installer-(?<version>\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"version": { "source": "product" }
+}
