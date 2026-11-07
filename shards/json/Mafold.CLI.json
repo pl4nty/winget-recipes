@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mafold-lab",
+		"repo": "mafold-cli"
+	},
+	"urls": [
+		"https://github.com/mafold-lab/mafold-cli/releases/download/v{version}/mafold-x86_64-pc-windows-msvc.exe"
+	]
+}
