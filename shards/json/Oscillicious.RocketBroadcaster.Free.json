@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://www.oscillicious.com/rocketbroadcaster/free/rocketbroadcaster_setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.oscillicious.com/rocketbroadcaster/free/rocketbroadcaster_setup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.rocketbroadcaster.com/streaming-audio-server/rocket-broadcaster-1.4-released.html"
+	},
+	"replace": true
+}
