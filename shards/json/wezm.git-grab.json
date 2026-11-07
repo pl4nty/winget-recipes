@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "wezm",
-		"repo": "git-grab",
-		"method": "api-latest",
-		"assetRegex": "^git-grab-[\\d.]+-(?:x86_64|aarch64)-pc-windows-msvc\\.zip$"
-	}
+		"repo": "git-grab"
+	},
+	"urls": [
+		"https://github.com/wezm/git-grab/releases/download/{github.rawTag}/git-grab-{github.rawTag}-x86_64-pc-windows-msvc.zip"
+	]
 }
