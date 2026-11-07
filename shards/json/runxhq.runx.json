@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "runxhq",
 		"repo": "runx",
-		"method": "api-list",
 		"tagRegex": "^cli-v"
 	},
 	"urls": [
