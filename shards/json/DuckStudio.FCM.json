@@ -6,6 +6,6 @@
 		"repo": "fcm"
 	},
 	"urls": [
-		"https://github.com/DuckDuckStudio/fcm/releases/download/{github.rawTag}/FunContentManager_Setup.exe"
+		{ "url": "https://github.com/DuckDuckStudio/fcm/releases/download/{github.rawTag}/FunContentManager_Setup.exe", "architecture": "neutral" }
 	]
 }
