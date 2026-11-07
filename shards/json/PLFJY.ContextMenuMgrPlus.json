@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PLFJY",
+		"repo": "ContextMenuMgr"
+	},
+	"urls": [
+		"https://github.com/PLFJY/ContextMenuMgr/releases/download/v{version}/ContextMenuMgrPlus-{version}-x64-self-contained-Setup.exe",
+		"https://github.com/PLFJY/ContextMenuMgr/releases/download/v{version}/ContextMenuMgrPlus-{version}-x86-self-contained-Setup.exe",
+		"https://github.com/PLFJY/ContextMenuMgr/releases/download/v{version}/ContextMenuMgrPlus-{version}-arm64-self-contained-Setup.exe"
+	]
+}
