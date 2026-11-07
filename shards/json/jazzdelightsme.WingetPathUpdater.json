@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "jazzdelightsme",
+		"repo": "PowershellStub"
+	},
+	"urls": [
+		"https://github.com/jazzdelightsme/PowershellStub/releases/download/{github.rawTag}/PowershellStub.exe"
+	]
+}
