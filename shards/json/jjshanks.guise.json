@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jjshanks",
+		"repo": "guise"
+	},
+	"urls": [
+		"https://github.com/jjshanks/guise/releases/download/{github.rawTag}/guise.exe"
+	]
+}

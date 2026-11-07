@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "repomedic", "repo": "repomedic" },
+	"urls": [
+		"https://github.com/repomedic/repomedic/releases/download/v{version}/repomedic_{version}_Windows_arm64.zip",
+		"https://github.com/repomedic/repomedic/releases/download/v{version}/repomedic_{version}_Windows_x86_64.zip"
+	]
+}
