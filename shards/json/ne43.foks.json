@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "foks-proj",
+		"repo": "go-foks"
+	},
+	"urls": [
+		"https://github.com/foks-proj/go-foks/releases/download/v{version}/foks-v{version}-win-winget-amd64.zip",
+		"https://github.com/foks-proj/go-foks/releases/download/v{version}/foks-v{version}-win-winget-x86.zip"
+	]
+}
