@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nirsoft.net/utils/ipnetinfo.html",
+		"regex": "Versions History</h4>\\s*<ul[^>]*>\\s*<li>Version (?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.nirsoft.net/utils/ipnetinfo_setup.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.nirsoft.net/utils/ipnetinfo.zip",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nirsoft.net/utils/ipnetinfo.html#:~:text=Versions%20History"
+	},
+	"replace": true
+}
