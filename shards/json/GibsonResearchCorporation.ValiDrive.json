@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.grc.com/validrive/version-history.htm",
+		"regex": "<li>\\s*<span class=\"pointy\">\\s*v(\\d+(?:\\.\\d+)+)\\s*</span>"
+	},
+	"urls": [
+		{
+			"url": "https://www.grc.com/files/validrive.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.grc.com/validrive/version-history.htm"
+	},
+	"replace": true
+}
