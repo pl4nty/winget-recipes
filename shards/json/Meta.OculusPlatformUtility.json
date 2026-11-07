@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://www.oculus.com/download_app/?id=1076686279105243"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.oculus.com/download_app/?id=1076686279105243",
+		"header": "etag"
+	}
+}
