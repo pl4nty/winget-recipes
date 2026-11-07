@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "build-cpp",
+		"repo": "cmkr"
+	},
+	"urls": [
+		"https://github.com/build-cpp/cmkr/releases/download/{github.rawTag}/cmkr-windows.zip"
+	]
+}
