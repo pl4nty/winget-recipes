@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "snakefoot", "repo": "snaketail-net" },
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/snakefoot/snaketail-net/releases/download/{version}/SnakeTail.v{version}.x64.msi",
+		"https://github.com/snakefoot/snaketail-net/releases/download/{version}/SnakeTail.v{version}.x86.msi"
+	]
+}
