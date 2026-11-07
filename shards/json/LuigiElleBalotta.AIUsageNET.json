@@ -6,6 +6,6 @@
 		"repo": "AIUsage.NET"
 	},
 	"urls": [
-		"https://github.com/LuigiElleBalotta/AIUsage.NET/releases/download/{github.rawTag}/AIUsage.NET-win-Setup.exe"
+		{ "url": "https://github.com/LuigiElleBalotta/AIUsage.NET/releases/download/{github.rawTag}/AIUsage.NET-win-Setup.exe", "architecture": "x64" }
 	]
 }
