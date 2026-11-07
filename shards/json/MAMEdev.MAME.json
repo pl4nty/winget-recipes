@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mamedev",
+		"repo": "mame",
+		"method": "api-list",
+		"tagRegex": "^mame0(?=\\d+$)"
+	},
+	"version": "0.{version}",
+	"urls": [
+		"https://github.com/mamedev/mame/releases/download/{github.rawTag}/{github.rawTag}b_x64.exe",
+		"https://github.com/mamedev/mame/releases/download/{github.rawTag}/{github.rawTag}b_arm64.exe"
+	]
+}
