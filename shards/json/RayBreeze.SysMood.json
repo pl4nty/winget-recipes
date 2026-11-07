@@ -11,8 +11,5 @@
 			"url": "https://github.com/RayBreeze/SysMood/releases/download/{github.rawTag}/SysMood-Setup-v{version}.exe",
 			"architecture": "x64"
 		}
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/RayBreeze/SysMood/releases/tag/{github.rawTag}"
-	}
+	]
 }
