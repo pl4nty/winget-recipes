@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "matt-dx",
+		"repo": "wahlberg"
+	},
+	"urls": ["https://github.com/matt-dx/wahlberg/releases/download/v{version}/Wahlberg-windows-x64.zip"]
+}
