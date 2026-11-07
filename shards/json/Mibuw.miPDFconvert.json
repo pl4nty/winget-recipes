@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Mibuw",
-		"repo": "miPDFconvert",
-		"method": "api-latest",
-		"assetRegex": "^miPDFconvertSetup_[\\d.]+\\.exe$"
-	}
+		"repo": "miPDFconvert"
+	},
+	"urls": [
+		"https://github.com/Mibuw/miPDFconvert/releases/download/{github.rawTag}/miPDFconvertSetup_{version}.exe"
+	]
 }
