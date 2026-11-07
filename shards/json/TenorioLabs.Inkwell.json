@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tenorio-labs", "repo": "inkwell-releases" },
+	"urls": [
+		"https://github.com/tenorio-labs/inkwell-releases/releases/download/v{version}/Inkwell_{version}_x64_en-US.msi",
+		"https://github.com/tenorio-labs/inkwell-releases/releases/download/v{version}/Inkwell_{version}_x64-setup.exe"
+	]
+}
