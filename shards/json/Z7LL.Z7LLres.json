@@ -8,8 +8,5 @@
 	},
 	"urls": [
 		"https://github.com/Z7LL/Z7LLres/releases/download/{github.rawTag}/Z7LLres.Setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Z7LL/Z7LLres/releases/tag/{github.rawTag}"
-	}
+	]
 }
