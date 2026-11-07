@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "heaths",
+		"repo": "akv-cli-rs"
+	},
+	"urls": [
+		"https://github.com/heaths/akv-cli-rs/releases/download/{github.rawTag}/akv-windows-amd64.zip",
+		"https://github.com/heaths/akv-cli-rs/releases/download/{github.rawTag}/akv-windows-arm64.zip"
+	]
+}
