@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "SecurityRonin", "repo": "sqlite-forensic" },
+	"urls": [
+		"https://github.com/SecurityRonin/sqlite-forensic/releases/download/v{version}/sqlite4n6-{version}-x86_64-pc-windows-msvc.msi"
+	]
+}
