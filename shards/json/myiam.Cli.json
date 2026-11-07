@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "myiam-io",
+		"repo": "homebrew-tap",
+		"method": "api-list",
+		"tagRegex": "^myiam-cli-v"
+	},
+	"urls": [
+		"https://github.com/myiam-io/homebrew-tap/releases/download/{github.rawTag}/myiam-cli-{version}-windows-x64.zip"
+	]
+}
