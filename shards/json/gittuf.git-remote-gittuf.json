@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gittuf",
+		"repo": "gittuf",
+		"method": "api-sort",
+		"assetRegex": "^(?:git\\-remote\\-gittuf_\\d+\\.\\d+\\.\\d+_windows_amd64\\.exe|git\\-remote\\-gittuf_\\d+\\.\\d+\\.\\d+_windows_arm64\\.exe)$"
+	}
+}
