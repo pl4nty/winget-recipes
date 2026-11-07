@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AINEsoekakiland",
+		"repo": "AINEPaint"
+	},
+	"urls": ["https://github.com/AINEsoekakiland/AINEPaint/releases/download/v{version}/AINEPaint-v{version}-Setup.exe"]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AmmaarBakshi",
+		"repo": "paimon"
+	},
+	"urls": [
+		"https://github.com/AmmaarBakshi/paimon/releases/download/{github.rawTag}/paimon.exe"
+	]
+}
