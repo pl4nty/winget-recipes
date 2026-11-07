@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/image-to-cartoon-converter/",
+		"regex": "<span class=\"notranslate\">Image to Cartoon Converter (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		{
+			"url": "https://files.vovsoft.com/image-to-cartoon-converter.exe",
+			"architecture": "x64"
+		},
+		"https://files.vovsoft.com/image-to-cartoon-converter-portable.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/image-to-cartoon-converter/"
+	}
+}
