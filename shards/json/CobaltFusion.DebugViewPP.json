@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CobaltFusion",
+		"repo": "DebugViewPP",
+		"method": "api-sort",
+		"assetRegex": "^(?:Debugviewpp\\.exe)$"
+	}
+}
