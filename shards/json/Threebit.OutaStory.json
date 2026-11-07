@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://download.outastory.com/windows/latest.json",
+		"path": "current.version"
+	},
+	"version": { "source": "display" },
+	"urls": [
+		"https://download.outastory.com/windows/{version}/OutaStory-{version}.msixbundle"
+	]
+}
