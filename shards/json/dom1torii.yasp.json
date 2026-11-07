@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dom1torii",
+		"repo": "yet-another-server-picker"
+	},
+	"urls": [
+		"https://github.com/dom1torii/yet-another-server-picker/releases/download/{github.rawTag}/yet-another-server-picker_Windows_x86_64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lovasoa",
+		"repo": "dezoomify-rs"
+	},
+	"urls": [
+		"https://github.com/lovasoa/dezoomify-rs/releases/download/{github.rawTag}/dezoomify-rs.exe"
+	]
+}

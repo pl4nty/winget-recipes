@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chenyuan99",
+		"repo": "FocusMode"
+	},
+	"urls": [
+		"https://github.com/chenyuan99/FocusMode/releases/download/{github.rawTag}/focusmode-windows-amd64.zip"
+	]
+}
