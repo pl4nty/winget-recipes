@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/davmail/rss?path=/davmail",
+		"regex": "/davmail/(?<release>\\d+(?:\\.\\d+)+)/davmail-(?<version>\\d+(?:\\.\\d+)+-\\d+)-setup64\\.exe"
+	},
+	"urls": ["https://sourceforge.net/projects/davmail/files/davmail/{captures.release}/davmail-{version}-setup64.exe/download"]
+}
