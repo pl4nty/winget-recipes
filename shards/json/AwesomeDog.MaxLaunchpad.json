@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/AwesomeDog/maxlaunchpad/releases/download/{github.rawTag}/MaxLaunchpad-{version}.Setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/AwesomeDog/maxlaunchpad/releases/tag/{github.rawTag}"
-	}
+	]
 }
