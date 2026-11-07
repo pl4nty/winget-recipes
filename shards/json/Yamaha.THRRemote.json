@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://europe.yamaha.com/en/support/updates/thr-remote-win.html",
+		"regex": "data-downloadid=\"(?<id>\\d+)\"[\\s\\S]{0,2000}?THR_Remote_(?<version>\\d+(?:\\.\\d+)+)_Win\\.zip"
+	},
+	"urls": ["https://europe.yamaha.com/en/download/files/{captures.id}/"]
+}
