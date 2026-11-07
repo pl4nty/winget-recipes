@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "winfile"
+	},
+	"urls": [
+		"https://github.com/microsoft/winfile/releases/download/v{version}/Winfile_v{version}.zip"
+	]
+}
