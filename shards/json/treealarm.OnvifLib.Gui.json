@@ -4,8 +4,9 @@
 	"github": {
 		"owner": "treealarm",
 		"repo": "OnvifLib",
-		"method": "api-list",
 		"tagRegex": "^gui-"
 	},
-	"urls": ["https://github.com/treealarm/OnvifLib/releases/download/{github.rawTag}/OnvifLib.Gui-win-x64.msi"]
+	"urls": [
+		"https://github.com/treealarm/OnvifLib/releases/download/{github.rawTag}/OnvifLib.Gui-win-x64.msi"
+	]
 }
