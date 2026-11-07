@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://www.smartbooth.com/download/winget/portalert.zip",
+			"nestedInstallerMatches": ["portalert.exe"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.smartbooth.com/download/winget/portalert.zip",
+		"header": "last-modified"
+	},
+	"replace": true
+}
