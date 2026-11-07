@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "megamega39",
-		"repo": "doujin-player",
-		"method": "api-latest",
-		"assetRegex": "_[^_]+_[a-z0-9]+(-setup\\.exe|_[a-z]{2}-[A-Z]{2}\\.msi)$"
-	}
+		"repo": "doujin-player"
+	},
+	"urls": [
+		"https://github.com/megamega39/doujin-player/releases/download/{github.rawTag}/_{version}_x64-setup.exe"
+	]
 }
