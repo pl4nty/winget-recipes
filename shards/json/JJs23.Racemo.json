@@ -3,7 +3,7 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "racemo-dev",
-		"repo": "racemo-client",
+		"repo": "racemo",
 		"method": "api-sort",
 		"assetRegex": "^Racemo_[\\d.]+_Windows_x64-setup\\.exe$"
 	}
