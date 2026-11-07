@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stellarinfo.com/convert-ost-to-pst.php",
+		"regex": "\"softwareVersion\":\\s*\"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [{ "url": "https://cloud.stellarinfo.com/StellarConverterforOST-Corporate.exe", "architecture": "x64" }]
+}
