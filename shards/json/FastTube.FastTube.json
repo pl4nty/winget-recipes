@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/visd2/Fasttube-desktop-application/releases/download/{github.rawTag}/FastTube_Setup_v{version}_x64.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/visd2/Fasttube-desktop-application/releases/tag/{github.rawTag}"
-	}
+	]
 }
