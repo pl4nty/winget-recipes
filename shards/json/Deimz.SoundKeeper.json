@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Deimz",
+		"repo": "SoundKeeper"
+	},
+	"urls": [
+		"https://github.com/Deimz/SoundKeeper/releases/download/{github.rawTag}/SoundKeeper.exe"
+	]
+}
