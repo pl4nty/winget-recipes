@@ -1,7 +1,7 @@
 import { defineShard } from 'anthelion';
 import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"3330": ["racemo-dev", "racemo-client"], "4070": ["ronnikols", "SNBT-AI-Localizer"], "4235": ["Yovancas", "claudebar-win"], "4253": ["stoplightio", "prism"], "5046": ["tbillington", "kondo"], "5076": ["RangS-1", "Ferminal"], "5220": ["MazeratorGame", "Mazerator"], "5339": ["u14app", "neo-chat"], "5434": ["zack-zzq", "skillmux"], "5498": ["Hyeonjun0527", "discord-ai-network-bot"], "5894": ["yazanmwk", "TypeSymbol"], "5919": ["RaphGL", "Tuckr"], "5938": ["objz", "rmcl"], "5989": ["1930-dev", "azure-vpn-cli"], "5997": ["product-noob", "launchpad-app"], "5843": ["Nbc66", "VTFEdit-Reloaded"], "5656": ["squigit-org", "squigit"]};
+const repos: Record<string, [string, string]> = {"150": ["microsoft", "MIDI"], "2697": ["AariyJP", "VRCXF"], "5112": ["SocioProphet", "Noetica"], "5883": ["miangee21", "Msgify-Lite"], "2197": ["Hybrid-Solutions-Cloud", "vault-prospector-releases"], "4150": ["webtorrent", "webtorrent-desktop"], "5751": ["Beep6581", "RawTherapee"], "4191": ["x86matthew", "WoWMIPS"], "5656": ["squigit-org", "squigit"]};
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
