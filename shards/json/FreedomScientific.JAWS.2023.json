@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support.freedomscientific.com/Downloads/JAWS/JAWSPreviousVersionDownloads",
+		"regex": "jaws2023\\.vfo\\.digital/(?<version>2023\\.\\d+\\.\\d+\\.\\d+)/(?<guid>[0-9A-Fa-f-]{36})/J2023\\.\\d+\\.\\d+\\.\\d+-any\\.exe"
+	},
+	"urls": ["https://jaws2023.vfo.digital/{version}/{captures.guid}/J{version}-any.exe"]
+}
