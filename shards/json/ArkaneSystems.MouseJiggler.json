@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "arkane-systems",
+		"repo": "mousejiggler"
+	},
+	"urls": [
+		"https://github.com/arkane-systems/mousejiggler/releases/download/{github.rawTag}/MouseJiggler-mainline-arm64.zip",
+		"https://github.com/arkane-systems/mousejiggler/releases/download/{github.rawTag}/MouseJiggler-mainline-x64.zip"
+	]
+}
