@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sacloud",
+		"repo": "usacloud"
+	},
+	"urls": [
+		"https://github.com/sacloud/usacloud/releases/download/v{version}/usacloud_windows-amd64.zip",
+		"https://github.com/sacloud/usacloud/releases/download/v{version}/usacloud_windows-arm64.zip",
+		"https://github.com/sacloud/usacloud/releases/download/v{version}/usacloud_windows-386.zip"
+	]
+}
