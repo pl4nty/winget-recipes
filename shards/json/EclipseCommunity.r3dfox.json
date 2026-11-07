@@ -10,8 +10,5 @@
 	"urls": [
 		"https://github.com/Eclipse-Community/r3dfox/releases/download/{github.rawTag}/r3dfox-v{version}.win32.installer.exe",
 		"https://github.com/Eclipse-Community/r3dfox/releases/download/{github.rawTag}/r3dfox-v{version}.win64.installer.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Eclipse-Community/r3dfox/releases/tag/{github.rawTag}"
-	}
+	]
 }
