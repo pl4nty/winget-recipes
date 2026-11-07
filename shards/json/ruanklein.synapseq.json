@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "synapseq-foundation",
+		"repo": "synapseq"
+	},
+	"urls": [
+		"https://github.com/synapseq-foundation/synapseq/releases/download/v{version}/synapseq-v{version}-windows-amd64.zip",
+		"https://github.com/synapseq-foundation/synapseq/releases/download/v{version}/synapseq-v{version}-windows-arm64.zip"
+	]
+}
