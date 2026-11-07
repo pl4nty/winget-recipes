@@ -16,8 +16,14 @@ const id = (shard: string) => basename(shard).replace(/\.(json|ts)$/, '');
 const maintained: Rule = async (shards, report) => {
 	const rows = (await readFile('maintainers.csv', 'utf8')).trim().split('\n').slice(1);
 	const maintainers = new Map(rows.map((row) => [row.split(',')[0]!.toLowerCase(), row.split(',')[1] ?? '']));
+	const wildcards = [...maintainers].filter(([pattern]) => pattern.endsWith('.*'));
 	for (const shard of shards) {
-		const others = (maintainers.get(id(shard).toLowerCase()) ?? '')
+		const key = id(shard).toLowerCase();
+		const others = [
+			maintainers.get(key) ?? '',
+			...wildcards.filter(([pattern]) => `${key}.`.startsWith(pattern.slice(0, -1))).map(([, logins]) => logins),
+		]
+			.join(';')
 			.split(';')
 			.filter((login) => login && login !== (process.env.GITHUB_REPOSITORY_OWNER ?? 'pl4nty'));
 		if (others.length) report(shard, `package is maintained by ${others.join(', ')}`);
