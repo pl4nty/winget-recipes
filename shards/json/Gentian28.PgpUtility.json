@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Gentian28",
+		"repo": "pgp-utility"
+	},
+	"urls": [
+		{ "url": "https://github.com/Gentian28/pgp-utility/releases/download/{github.rawTag}/PgpUtility-win-Setup.exe", "architecture": "x64" }
+	]
+}
