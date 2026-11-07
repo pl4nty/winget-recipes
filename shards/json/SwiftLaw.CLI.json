@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "SwiftLaw-Conductor",
 		"repo": "homebrew-tap",
-		"method": "api-list",
 		"tagRegex": "^cli-v"
 	},
 	"urls": [
