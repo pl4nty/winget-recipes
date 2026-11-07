@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://villagersandheroes.com/VHSetup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://villagersandheroes.com/VHSetup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://villagersandheroes.com/patchnotes/"
+	},
+	"replace": true
+}

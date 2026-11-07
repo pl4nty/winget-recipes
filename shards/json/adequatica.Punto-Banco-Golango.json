@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "adequatica",
+		"repo": "punto-banco-golango"
+	},
+	"urls": [
+		"https://github.com/adequatica/punto-banco-golango/releases/download/{github.rawTag}/punto-banco-windows-amd64.exe"
+	]
+}
