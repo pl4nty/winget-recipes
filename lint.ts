@@ -302,10 +302,16 @@ const source = (url: unknown) => {
 	const labels = hostname.split('.');
 	return labels.slice(/^(?:ac|co|com|gov|net|org)$/.test(labels.at(-2)!) && labels.at(-1)!.length === 2 ? -3 : -2).join('.');
 };
-// GitHub redirects downloads from a renamed or transferred repository to its new name, which is the same source.
-const moved = async (url: string) => {
-	const location = (await fetch(url, { method: 'HEAD', redirect: 'manual' }).catch(() => undefined))?.headers.get('location');
-	return location && new URL(location, url).hostname === 'github.com' ? source(new URL(location, url)) : undefined;
+// A download that redirects (a renamed GitHub repository, a vendor CDN) has the same source as each URL it redirects to.
+const redirects = async (url: string) => {
+	const sources = [source(url)];
+	for (let hop = 0; hop < 10; hop++) {
+		const location = (await fetch(url, { method: 'HEAD', redirect: 'manual' }).catch(() => undefined))?.headers.get('location');
+		if (!location) break;
+		url = new URL(location, url).href;
+		sources.push(source(url));
+	}
+	return sources;
 };
 // komac detects a more specific type than the one upstream declares.
 const REFINED = new Set(['msi>wix', 'wix>msi', 'exe>burn', 'exe>inno', 'exe>msi', 'exe>nullsoft', 'exe>wix']);
@@ -346,7 +352,7 @@ const dryRunValues: Rule = async (shards, report) => {
 		const sources = new Set(before.map((installer) => source(installer.InstallerUrl)));
 		if (after.some((installer) => !sources.has(source(installer.InstallerUrl))))
 			for (const url of new Set(before.map((installer) => String(installer.InstallerUrl))))
-				if (source(url).startsWith('github.com/')) sources.add((await moved(url)) ?? source(url));
+				for (const redirect of await redirects(url)) sources.add(redirect);
 		for (const url of new Set(after.map((installer) => String(installer.InstallerUrl)))) {
 			if (/^https:\/\/github\.com\/[^/]+\/winget-pkgs\//i.test(url))
 				report(shard, `${name}: dry run downloads from a winget-pkgs repository: ${url}`);
