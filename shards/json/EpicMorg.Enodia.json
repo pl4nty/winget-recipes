@@ -6,8 +6,11 @@
 	},
 	"github": {
 		"owner": "EpicMorg",
-		"repo": "enodia",
-		"method": "api-latest",
-		"assetRegex": "^(?:enodia_windows_\\d+\\.zip|enodia_windows_amd64\\.zip|enodia_windows_arm64\\.zip)$"
-	}
+		"repo": "enodia"
+	},
+	"urls": [
+		"https://github.com/EpicMorg/enodia/releases/download/{github.rawTag}/enodia_windows_386.zip",
+		"https://github.com/EpicMorg/enodia/releases/download/{github.rawTag}/enodia_windows_amd64.zip",
+		"https://github.com/EpicMorg/enodia/releases/download/{github.rawTag}/enodia_windows_arm64.zip"
+	]
 }
