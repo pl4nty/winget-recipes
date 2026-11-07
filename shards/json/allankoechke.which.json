@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "allankoechke",
+		"repo": "which-win"
+	},
+	"urls": [
+		"https://github.com/allankoechke/which-win/releases/download/{github.rawTag}/which-windows-x64.exe"
+	]
+}
