@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://publicwsldistros.blob.core.windows.net/wsldistrostorage/Ubuntu2204LTS-230518_x64.appx",
+		"https://publicwsldistros.blob.core.windows.net/wsldistrostorage/Ubuntu2204LTS-230518_ARM64.appx"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://publicwsldistros.blob.core.windows.net/wsldistrostorage/Ubuntu2204LTS-230518_x64.appx",
+		"header": "etag"
+	},
+	"releaseNotes": { "releaseNotesUrl": "https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668" }
+}
