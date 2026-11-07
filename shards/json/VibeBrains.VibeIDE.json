@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "VibeBrains",
 		"repo": "VibeIDE",
-		"method": "api-list",
 		"tagRegex": "^v(?=\\d)"
 	},
 	"urls": [
