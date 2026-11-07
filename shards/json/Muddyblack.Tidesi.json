@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Muddyblack",
-		"repo": "tidesi",
-		"method": "api-sort",
-		"assetRegex": "^tidesi-setup-\\d+(?:\\.\\d+)*\\.exe$"
-	}
+		"repo": "tidesi"
+	},
+	"urls": [
+		"https://github.com/Muddyblack/tidesi/releases/download/{github.rawTag}/tideSI-Setup-{version}.exe"
+	]
 }
