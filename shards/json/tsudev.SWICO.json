@@ -3,9 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "tsudev-tsudev",
-		"repo": "swico"
+		"repo": "tsudev-swico"
 	},
 	"urls": [
-		"https://github.com/tsudev-tsudev/swico/releases/download/v{version}/swico-setup-{version}.exe"
+		"https://github.com/tsudev-tsudev/tsudev-swico/releases/download/v{version}/swico-setup-{version}.exe"
 	]
 }
