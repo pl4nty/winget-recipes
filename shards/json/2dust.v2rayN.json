@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "2dust",
+		"repo": "v2rayN"
+	},
+	"urls": [
+		"https://github.com/2dust/v2rayN/releases/download/{version}/v2rayN-windows-arm64.zip",
+		"https://github.com/2dust/v2rayN/releases/download/{version}/v2rayN-windows-64.zip"
+	]
+}

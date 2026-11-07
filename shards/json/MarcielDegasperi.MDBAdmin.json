@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://sourceforge.net/projects/mdbadmin/files/MDBAdmin_Installer.exe/download"],
+	"state": {
+		"source": "response-header",
+		"url": "https://sourceforge.net/projects/mdbadmin/files/MDBAdmin_Installer.exe/download",
+		"header": "etag"
+	},
+	"replace": true
+}
