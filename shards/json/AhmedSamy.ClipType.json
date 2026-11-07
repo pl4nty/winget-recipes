@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ahmedthebest31",
+		"repo": "ClipType"
+	},
+	"urls": [
+		"https://github.com/ahmedthebest31/ClipType/releases/download/{github.rawTag}/ClipType-Windows-x64.exe"
+	]
+}
