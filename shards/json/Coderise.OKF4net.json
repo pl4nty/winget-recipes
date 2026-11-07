@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jchable",
+		"repo": "okf4net"
+	},
+	"urls": [
+		"https://github.com/jchable/okf4net/releases/download/{github.rawTag}/okf-{version}-win-arm64.zip",
+		"https://github.com/jchable/okf4net/releases/download/{github.rawTag}/okf-{version}-win-x64.zip"
+	]
+}
