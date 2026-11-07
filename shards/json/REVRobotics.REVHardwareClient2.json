@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://rhc2.revrobotics.com/download/rev-hardware-client-67pj6kdmb6vg6.appinstaller",
+		"regex": "/download/rev-hardware-client-(?<version>\\d+\\.\\d+\\.\\d+)\\.x64\\.msix"
+	},
+	"urls": ["https://rhc2.revrobotics.com/download/rev-hardware-client-{version}.x64.msix"]
+}
