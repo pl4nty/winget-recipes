@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/print-multiple-web-pages/",
+		"regex": "<span class=\"notranslate\">Print Multiple Web Pages (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://files.vovsoft.com/print-multiple-web-pages.exe", "https://files.vovsoft.com/print-multiple-web-pages-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/print-multiple-web-pages/"
+	}
+}
