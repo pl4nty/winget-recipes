@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kts982",
+		"repo": "wintui"
+	},
+	"urls": [
+		"https://github.com/kts982/wintui/releases/download/{github.rawTag}/wintui_{version}_windows_amd64.exe",
+		"https://github.com/kts982/wintui/releases/download/{github.rawTag}/wintui_{version}_windows_arm64.exe"
+	]
+}
