@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/duplicate-file-finder/",
+		"regex": "<span class=\"notranslate\">Duplicate File Finder (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://files.vovsoft.com/duplicate-file-finder.exe", "https://files.vovsoft.com/duplicate-file-finder-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/duplicate-file-finder/"
+	}
+}
