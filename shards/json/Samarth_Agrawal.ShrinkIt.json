@@ -1,17 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "github-release",
+	"github": {
+		"owner": "SamarthAgrawal-002",
+		"repo": "ShrinkIt"
 	},
-	"urls": ["https://github.com/SamarthAgrawal-002/ShrinkIt/releases/download/Download/ShrinkIt.exe"],
-	"state": {
-		"source": "response-header",
-		"url": "https://github.com/SamarthAgrawal-002/ShrinkIt/releases/download/Download/ShrinkIt.exe",
-		"header": "etag"
-	},
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/SamarthAgrawal-002/ShrinkIt/releases/tag/Download"
-	},
-	"replace": true
+	"urls": ["https://github.com/SamarthAgrawal-002/ShrinkIt/releases/download/v{version}/docshrink-windows-x64.exe"]
 }
