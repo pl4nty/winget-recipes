@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VSCodium",
+		"repo": "vscodium"
+	},
+	"urls": [
+		"https://github.com/VSCodium/vscodium/releases/download/{version}/VSCodiumUserSetup-x64-{version}.exe",
+		"https://github.com/VSCodium/vscodium/releases/download/{version}/VSCodiumSetup-x64-{version}.exe",
+		"https://github.com/VSCodium/vscodium/releases/download/{version}/VSCodiumUserSetup-arm64-{version}.exe",
+		"https://github.com/VSCodium/vscodium/releases/download/{version}/VSCodiumSetup-arm64-{version}.exe",
+		"https://github.com/VSCodium/vscodium/releases/download/{version}/VSCodium-x64-{version}.msi"
+	]
+}
