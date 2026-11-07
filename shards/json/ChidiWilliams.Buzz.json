@@ -2,8 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "sourceforge",
 	"sourceforge": {
-		"project": "buzz-captions",
-		"file": "Buzz-{version}-Windows-X64.zip"
+		"project": "buzz-captions"
 	},
 	"urls": [
 		"https://sourceforge.net/projects/buzz-captions/files/Buzz-{version}-Windows-X64.zip/download"
