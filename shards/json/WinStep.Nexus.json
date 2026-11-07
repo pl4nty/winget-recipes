@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.winstep.net/news.asp",
+		"regex": "/news/(?:nexus_dock|winstep_xtreme)_v(\\d+(?:\\.\\d+)+)_released\\.asp"
+	},
+	"urls": [
+		{
+			"url": "https://winstep.net/versions/v{version}/nexus.zip",
+			"nestedInstallerMatches": ["NexusSetup.exe"]
+		}
+	]
+}
