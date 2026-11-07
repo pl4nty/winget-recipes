@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/temp-cleaner-gui/rss?path=/",
+		"regex": "^(?=[\\s\\S]*?/v(?<version>\\d+(?:\\.\\d+)+-stable)/temp_cleaner_gui_v)(?=[\\s\\S]*?/v\\k<version>/(?<amd64>temp_cleaner_gui_v\\k<version>_amd64_[^/\\]<]*_mrx\\.exe))(?=[\\s\\S]*?/v\\k<version>/(?<x86>temp_cleaner_gui_v\\k<version>_x86_[^/\\]<]*_mrx\\.exe))"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/temp-cleaner-gui/files/v{version}/{captures.amd64}",
+		"https://sourceforge.net/projects/temp-cleaner-gui/files/v{version}/{captures.x86}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/InsertX2k/temp_cleaner_gui/releases/tag/v{captures.version}"
+	},
+	"replace": true
+}
