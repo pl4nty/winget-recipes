@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yukimemi",
+		"repo": "shun"
+	},
+	"urls": [
+		"https://github.com/yukimemi/shun/releases/download/v{version}/shun_{version}_x64-setup.exe",
+		"https://github.com/yukimemi/shun/releases/download/v{version}/shun_{version}_x64_en-US.msi"
+	]
+}
