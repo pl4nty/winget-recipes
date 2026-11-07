@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "karoterra",
+		"repo": "aviutl2-aulua"
+	},
+	"urls": [
+		"https://github.com/karoterra/aviutl2-aulua/releases/download/{github.rawTag}/aulua-v{version}-windows-x64.zip"
+	]
+}
