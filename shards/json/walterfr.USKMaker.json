@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "walterfr",
+		"repo": "UltraStarKaraokeMaker"
+	},
+	"urls": ["https://github.com/walterfr/UltraStarKaraokeMaker/releases/download/v{version}/USKMaker_{version}_x64-setup.exe"]
+}
