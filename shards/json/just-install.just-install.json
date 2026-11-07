@@ -6,8 +6,5 @@
 		"repo": "just-install",
 		"method": "api-sort",
 		"assetRegex": "^(?:just\\-install\\.exe|just\\-install\\.msi)$"
-	},
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/just-install/just-install/releases/tag/{github.rawTag}"
 	}
 }
