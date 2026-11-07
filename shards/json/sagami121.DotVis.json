@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sagami121",
+		"repo": "DotVis",
+		"method": "api-latest",
+		"assetRegex": "^DotVis_[^_]+_[a-z0-9]+(_[a-z]{2}-[A-Z]{2}\\.msi|-setup\\.exe)$"
+	}
+}
