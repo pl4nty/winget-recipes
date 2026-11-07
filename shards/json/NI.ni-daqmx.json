@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ni.com/en/support/downloads/drivers/download.ni-daqmx.html",
+		"regex": "/ni-daqmx/(?<short>\\d+\\.\\d+)/offline/ni-daqmx_(?<version>\\d+\\.\\d+\\.\\d+)_offline\\.iso(?![\\s\\S]*/ni-daqmx/\\d+\\.\\d+/offline/ni-daqmx_\\d)"
+	},
+	"urls": [
+		{
+			"url": "https://download.ni.com/support/nipkg/products/ni-d/ni-daqmx/{captures.short}/online/ni-daqmx_{captures.short}_online.exe",
+			"architecture": "x64"
+		}
+	]
+}
