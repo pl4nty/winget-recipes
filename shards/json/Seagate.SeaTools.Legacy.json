@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://www.seagate.com/files/old-support-files/seatools/SeaToolsforWindowsSetup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.seagate.com/files/old-support-files/seatools/SeaToolsforWindowsSetup.exe",
+		"header": "content-length"
+	},
+	"replace": true
+}
