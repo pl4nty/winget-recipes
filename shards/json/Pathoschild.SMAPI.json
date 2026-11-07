@@ -6,6 +6,6 @@
 		"repo": "SMAPI"
 	},
 	"urls": [
-		"https://github.com/Pathoschild/SMAPI/releases/download/{version}/SMAPI-{version}-installer.zip"
+		{ "url": "https://github.com/Pathoschild/SMAPI/releases/download/{version}/SMAPI-{version}-installer.zip", "architecture": "neutral" }
 	]
 }
