@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "M-Igashi",
+		"repo": "baken"
+	},
+	"urls": ["https://github.com/M-Igashi/baken/releases/download/v{version}/baken-v{version}-windows-x86_64.zip"]
+}
