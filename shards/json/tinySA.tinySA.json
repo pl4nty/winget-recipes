@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["http://dfu.tinydevices.org/tinySA/Windows/tinySA-App.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "http://dfu.tinydevices.org/tinySA/Windows/tinySA-App.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
