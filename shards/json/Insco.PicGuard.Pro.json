@@ -5,6 +5,6 @@
 		"owner": "picguard",
 		"repo": "picguard",
 		"method": "api-sort",
-		"assetRegex": "^(?:picguard\\-pro\\-\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\-en\\-US\\.msi|picguard\\-pro\\-\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\-zh\\-CN\\.msi|picguard\\-pro\\-\\d+\\.\\d+\\.\\d+\\-windows\\-setup\\-x64\\.exe|picguard\\-pro\\-\\d+\\.\\d+\\.\\d+\\-windows\\-store\\-x64\\.msix)$"
+		"assetRegex": "^picguard-pro-\\d+(?:\\.\\d+)+-windows-x64-(?:en-US|zh-CN)\\.msi$"
 	}
 }
