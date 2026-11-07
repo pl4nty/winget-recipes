@@ -1,10 +1,12 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.paludour.net/Barcode2Win.html",
-		"regex": "href=\"Barcode2WinPro(?<version>\\d+\\.\\d+)-x64\\.exe\""
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://www.paludour.net/Barcode2WinPro-x64.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.paludour.net/Barcode2WinPro-x64.exe",
+		"header": "last-modified"
 	},
-	"version": "{version}.0",
-	"urls": ["https://www.paludour.net/Barcode2WinPro{captures.version}-x64.exe"]
+	"replace": true
 }
