@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "techambient",
+		"repo": "F-dows"
+	},
+	"urls": [
+		{ "url": "https://github.com/techambient/F-dows/releases/download/v{version}/f-dows_v{version}.exe", "architecture": "neutral" }
+	]
+}
