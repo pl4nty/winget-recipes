@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Sandip124", "repo": "BatteryNotifier" },
+	"urls": [
+		"https://github.com/Sandip124/BatteryNotifier/releases/download/v{version}/BatteryNotifier-win-Setup-win-x64.exe",
+		"https://github.com/Sandip124/BatteryNotifier/releases/download/v{version}/BatteryNotifier-win-Setup-win-arm64.exe"
+	]
+}
