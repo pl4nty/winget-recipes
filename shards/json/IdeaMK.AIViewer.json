@@ -1,10 +1,10 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://aiviewer.com/downloadfinalstep.aspx",
+		"regex": "FREE Ai Viewer (\\d+(?:\\.\\d+)+)<"
 	},
-	"urls": [
-		"https://aiviewer.com/aiviewersetup.exe"
-	]
+	"version": "{version}.0.0",
+	"urls": ["https://aiviewer.com/aiviewersetup.exe"]
 }
