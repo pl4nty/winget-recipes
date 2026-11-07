@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xiSage",
+		"repo": "hitokoto-cli"
+	},
+	"urls": [
+		"https://github.com/xiSage/hitokoto-cli/releases/download/v{version}/hitokoto-win-x86.zip",
+		"https://github.com/xiSage/hitokoto-cli/releases/download/v{version}/hitokoto-win-x64.zip",
+		"https://github.com/xiSage/hitokoto-cli/releases/download/v{version}/hitokoto-win-arm64.zip"
+	]
+}
