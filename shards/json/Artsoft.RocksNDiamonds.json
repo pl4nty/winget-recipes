@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.artsoft.org/rocksndiamonds/download/",
+		"regex": "rocksndiamonds-(?<version>\\d+(?:\\.\\d+)+)-win64-setup\\.exe"
+	},
+	"urls": [
+		"https://www.artsoft.org/RELEASES/windows/rocksndiamonds/rocksndiamonds-{version}-win32-setup.exe",
+		"https://www.artsoft.org/RELEASES/windows/rocksndiamonds/rocksndiamonds-{version}-win64-setup.exe"
+	]
+}
