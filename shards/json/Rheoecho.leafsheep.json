@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://codeberg.org/api/v1/repos/RheoEcho_Studio/LeafSheep/releases/latest",
+		"regex": "^(?=[\\s\\S]*?\"tag_name\":\"(?<version>[^\"]+)\")(?=[\\s\\S]*?\"browser_download_url\":\"(?<url>[^\"]+_win64_installer\\.exe)\")"
+	},
+	"urls": ["{captures.url}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://codeberg.org/RheoEcho_Studio/LeafSheep/releases/tag/{version}"
+	}
+}
