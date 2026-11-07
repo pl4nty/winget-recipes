@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jftuga",
+		"repo": "less-Windows",
+		"tagRegex": "^less\\-v"
+	},
+	"urls": [
+		"https://github.com/jftuga/less-Windows/releases/download/{github.rawTag}/less-arm.zip",
+		"https://github.com/jftuga/less-Windows/releases/download/{github.rawTag}/less-arm64.zip",
+		"https://github.com/jftuga/less-Windows/releases/download/{github.rawTag}/less-x64.zip",
+		"https://github.com/jftuga/less-Windows/releases/download/{github.rawTag}/less-x86.zip"
+	]
+}
