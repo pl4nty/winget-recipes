@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oldj",
+		"repo": "SwitchHosts"
+	},
+	"urls": [
+		"https://github.com/oldj/SwitchHosts/releases/download/v{version}/SwitchHosts-{version}-windows-x86-setup.exe",
+		"https://github.com/oldj/SwitchHosts/releases/download/v{version}/SwitchHosts-{version}-windows-x64-setup.exe",
+		"https://github.com/oldj/SwitchHosts/releases/download/v{version}/SwitchHosts-{version}-windows-arm64-setup.exe"
+	]
+}

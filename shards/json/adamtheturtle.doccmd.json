@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "adamtheturtle",
+		"repo": "doccmd"
+	},
+	"urls": [
+		"https://github.com/adamtheturtle/doccmd/releases/download/{github.rawTag}/doccmd-windows.exe"
+	]
+}
