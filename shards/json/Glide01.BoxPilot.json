@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Glide01",
+		"repo": "BoxPilot"
+	},
+	"urls": [
+		"https://github.com/Glide01/BoxPilot/releases/download/{github.rawTag}/box_pilot_gui-{version}-x86_64.msi"
+	]
+}
