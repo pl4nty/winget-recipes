@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Benji377",
+		"repo": "tooka"
+	},
+	"urls": [
+		"https://github.com/Benji377/tooka/releases/download/{github.rawTag}/tooka_{version}_x64_en-US.msi",
+		"https://github.com/Benji377/tooka/releases/download/{github.rawTag}/tooka_{version}_x64-setup.exe"
+	]
+}
