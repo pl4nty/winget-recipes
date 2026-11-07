@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Bioruebe",
+		"repo": "godotdec"
+	},
+	"urls": [
+		"https://github.com/Bioruebe/godotdec/releases/download/{github.rawTag}/godotdec.zip"
+	]
+}
