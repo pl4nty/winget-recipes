@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lqdev",
+		"repo": "podcast-tui"
+	},
+	"urls": [
+		"https://github.com/lqdev/podcast-tui/releases/download/{github.rawTag}/podcast-tui-v{version}-windows-aarch64.zip",
+		"https://github.com/lqdev/podcast-tui/releases/download/{github.rawTag}/podcast-tui-v{version}-windows-x86_64.zip"
+	]
+}
