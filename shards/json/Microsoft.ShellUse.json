@@ -3,9 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "microsoft",
-		"repo": "PackageUploader"
+		"repo": "tui-test"
 	},
 	"urls": [
-		"https://github.com/microsoft/PackageUploader/releases/download/v{version}/PackageUploader.{version}.win-x64.zip"
+		"https://github.com/microsoft/tui-test/releases/download/{github.rawTag}/tui-test-x86_64-pc-windows-msvc.zip"
 	]
 }
