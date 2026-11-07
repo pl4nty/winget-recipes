@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [{ "url": "https://postimages.org/setup.exe", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://postimages.org/setup.exe",
+		"header": "etag"
+	}
+}
