@@ -3,8 +3,7 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "bceverly",
-		"repo": "sysmanage",
-		"method": "api-sort"
+		"repo": "sysmanage"
 	},
 	"urls": [
 		"https://github.com/bceverly/sysmanage/releases/download/{github.rawTag}/sysmanage-{version}-windows-x64.msi",
