@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/broken-link-detector/",
+		"regex": "<span class=\"notranslate\">Broken Link Detector (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://files.vovsoft.com/broken-link-detector.exe", "https://files.vovsoft.com/broken-link-detector-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/broken-link-detector/"
+	}
+}
