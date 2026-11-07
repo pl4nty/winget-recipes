@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CosmicPredator",
+		"repo": "chibi-cli"
+	},
+	"urls": [
+		"https://github.com/CosmicPredator/chibi-cli/releases/download/{github.rawTag}/chibi_{version}_installer.exe"
+	]
+}
