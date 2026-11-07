@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.newcloud.cn/downloads/",
+		"regex": "Setup\\.Screen\\.Capturer\\.Recorder\\.v(\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": [
+		{ "url": "https://www.newcloud.cn/downloads/Setup.Screen.Capturer.Recorder.v{version}.exe", "architecture": "x86" },
+		{ "url": "https://www.newcloud.cn/downloads/Setup.Screen.Capturer.Recorder.v{version}.exe", "architecture": "x64" }
+	]
+}
