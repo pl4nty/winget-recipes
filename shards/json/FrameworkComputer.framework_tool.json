@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FrameworkComputer",
+		"repo": "framework-system"
+	},
+	"urls": ["https://github.com/FrameworkComputer/framework-system/releases/download/v{version}/framework_tool.exe"]
+}
