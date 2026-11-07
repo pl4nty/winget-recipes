@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ransh2014",
+		"repo": "gt7telemtrace"
+	},
+	"urls": ["https://github.com/ransh2014/gt7telemtrace/releases/download/v{version}/gt7telem-windows.zip"]
+}
