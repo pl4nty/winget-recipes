@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "page-match",
 	"pageMatch": {
-		"url": "https://openvpi.github.io/",
+		"url": "https://raw.githubusercontent.com/openvpi/openvpi.github.io/HEAD/downloads.md",
 		"regex": "opensvip_converter_(\\d+(?:\\.\\d+)+)\\.zip"
 	},
 	"urls": [
