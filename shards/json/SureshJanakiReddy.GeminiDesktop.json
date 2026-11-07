@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sureshjsreddy",
+		"repo": "gemini-desktop"
+	},
+	"urls": [
+		"https://github.com/sureshjsreddy/gemini-desktop/releases/download/v{version}/Gemini.Desktop_{version}_x64_en-US.msi",
+		"https://github.com/sureshjsreddy/gemini-desktop/releases/download/v{version}/Gemini.Desktop_{version}_x64-setup.exe"
+	]
+}
