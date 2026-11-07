@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ganksoft",
+		"repo": "nanopad"
+	},
+	"urls": [
+		"https://github.com/ganksoft/nanopad/releases/download/{github.rawTag}/Nanopad-{version}-arm64.zip",
+		"https://github.com/ganksoft/nanopad/releases/download/{github.rawTag}/Nanopad-{version}-x64.zip"
+	]
+}
