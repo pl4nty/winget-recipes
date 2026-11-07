@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cvfile",
+		"repo": "cv"
+	},
+	"urls": [
+		"https://github.com/cvfile/cv/releases/download/{github.rawTag}/cv_{version}_windows_arm64.zip",
+		"https://github.com/cvfile/cv/releases/download/{github.rawTag}/cv_{version}_windows_x86_64.zip"
+	]
+}
