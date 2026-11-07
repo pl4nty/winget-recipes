@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ahsuu27488",
+		"repo": "taskvane"
+	},
+	"urls": [
+		"https://github.com/Ahsuu27488/taskvane/releases/download/{github.rawTag}/Taskvane-{version}-Setup.exe"
+	]
+}

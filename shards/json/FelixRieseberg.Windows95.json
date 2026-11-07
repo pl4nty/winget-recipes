@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "felixrieseberg",
+		"repo": "windows95"
+	},
+	"urls": [
+		"https://github.com/felixrieseberg/windows95/releases/download/{github.rawTag}/windows95-{version}-setup-ia32.exe",
+		"https://github.com/felixrieseberg/windows95/releases/download/{github.rawTag}/windows95-{version}-setup-x64.exe"
+	]
+}
