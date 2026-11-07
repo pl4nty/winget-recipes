@@ -1,7 +1,7 @@
 import { defineShard } from 'anthelion';
 import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"mcad": ["kittech197718", "MCAD2026-releases"], "jq": ["votinvv", "justquery"], "elpl": ["mujtabaishaq5", "homebrew-elpl"], "bt": ["peterandree", "BTChargeTrayWatcher"], "sq": ["squigit-org", "squigit"], "ascu": ["TechnicalSolutionsForBlind", "Advanced-System-Cleanup-Utility"], "cs": ["akasula09", "CodeSlimmer"], "sg": ["Xznder1984", "SpotGet"], "wf": ["wf-group", "wfview"], "ff": ["fafarunner", "fafarunner"], "df": ["daphnee-ovo", "dev-flow"], "d3": ["huxingyi", "dust3d"]};
+const repos: Record<string, [string, string]> = {"sqd": ["squigit-org", "distribution"], "sqh": ["squigit-org", "homebrew-tap"], "sqio": ["squigit-org", "squigit-org.github.io"], "e1": ["mujtabaishaq5", "ELPL"], "e2": ["mujtabaishaq5", "ELPL-Official"], "e3": ["mujtabaishaq5", "elpl-backend"]};
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
@@ -16,7 +16,7 @@ export default defineShard(async () => {
 		}),
 	);
 	await Promise.all(
-		["kittech197718", "votinvv", "mujtabaishaq5", "peterandree", "squigit-org", "TechnicalSolutionsForBlind", "daphnee-ovo"].map(async (owner) => {
+		["Xznder1984","akasula09"].map(async (owner) => {
 			try {
 				const { data } = await githubClient.rest.repos.listForUser({ username: owner, per_page: 100 });
 				out[`owner:${owner}`] = data.map((r) => r.name);
