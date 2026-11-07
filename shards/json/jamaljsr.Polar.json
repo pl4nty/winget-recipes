@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jamaljsr",
+		"repo": "polar"
+	},
+	"urls": [
+		"https://github.com/jamaljsr/polar/releases/download/{github.rawTag}/polar-win-arm64-v{version}.exe",
+		"https://github.com/jamaljsr/polar/releases/download/{github.rawTag}/polar-win-x64-v{version}.exe"
+	]
+}

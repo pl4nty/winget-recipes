@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "NoaSansH", "repo": "Thermalyn" },
+	"urls": ["https://github.com/NoaSansH/Thermalyn/releases/download/{github.rawTag}/Thermalyn-Setup-{version}.exe"]
+}
