@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "materializr-cad",
-		"repo": "materializr",
-		"method": "api-latest",
-		"assetRegex": "^Materializr-(?:\\d+(?:\\.\\d+)*-)?Setup\\.exe$"
-	}
+		"repo": "materializr"
+	},
+	"urls": [
+		"https://github.com/materializr-cad/materializr/releases/download/{github.rawTag}/Materializr-Setup.exe"
+	]
 }
