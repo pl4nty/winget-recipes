@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vma-broadcast.com/download/",
+		"regex": "/wp-content/uploads/(?<path>\\d{4}/\\d{2}/VMA Monitor Setup - (?<version>\\d{8})\\.exe)"
+	},
+	"urls": ["https://vma-broadcast.com/wp-content/uploads/{captures.path}"]
+}
