@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "smallstep",
+		"repo": "step-agent"
+	},
+	"urls": [
+		"https://github.com/smallstep/step-agent/releases/download/v{version}/step-desktop_amd64.msi",
+		"https://github.com/smallstep/step-agent/releases/download/v{version}/step-desktop_arm64.msi"
+	]
+}
