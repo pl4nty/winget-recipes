@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://secure.olex2.org/olex2-distro/olex2-installer.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://secure.olex2.org/olex2-distro/olex2-installer.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
