@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "bleriotnoguia",
-		"repo": "lockbox-local",
-		"method": "api-latest",
-		"assetRegex": "^Lockbox\\.Local_[\\d.]+_(?:x64|arm64)(?:_en-US\\.msi|-setup\\.exe)$"
-	}
+		"repo": "lockbox-local"
+	},
+	"urls": [
+		"https://github.com/bleriotnoguia/lockbox-local/releases/download/{github.rawTag}/Lockbox.Local_{version}_x64_en-US.msi"
+	]
 }
