@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "tiwut",
-		"repo": "Tiwut-Launcher-Windows",
-		"method": "api-list",
-		"assetRegex": "\\.exe$"
-	}
+		"repo": "Tiwut-Launcher-Windows"
+	},
+	"urls": [
+		"https://github.com/tiwut/Tiwut-Launcher-Windows/releases/download/{github.rawTag}/TiwutInstaller.exe"
+	]
 }
