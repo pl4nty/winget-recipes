@@ -1,0 +1,26 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://multidrive.io/download",
+		"regex": "https://dl\\.atola\\.com/multidrive/MultiDriveSetup_(?<setup>\\d+(?:\\.\\d+)+)\\.exe[\\s\\S]*?https://dl\\.atola\\.com/multidrive/MultiDrive_(?<version>\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://dl.atola.com/multidrive/MultiDriveSetup_{captures.setup}.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://dl.atola.com/multidrive/MultiDrive_{version}.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": [
+				"MultiDrive.exe",
+				"mdcli.exe",
+				"mdupdater.exe"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://multidrive.io/changelog"
+	}
+}
