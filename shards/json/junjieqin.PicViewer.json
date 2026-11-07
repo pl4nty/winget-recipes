@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "junjieqin97",
+		"repo": "PicViewer"
+	},
+	"urls": [
+		"https://github.com/junjieqin97/PicViewer/releases/download/{github.rawTag}/PicViewer-{version}.msi"
+	]
+}
