@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://software.pa7lim.nl/BlueDV/BETA/Windows/",
+		"regex": "href=\"BlueDV-(\\d+)-BETA\\.zip\""
+	},
+	"version": "1.0.0.{version}",
+	"urls": [
+		{
+			"url": "https://software.pa7lim.nl/BlueDV/BETA/Windows/BlueDV-{version}-BETA.zip",
+			"nestedInstallerMatches": [
+				".msi"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://software.pa7lim.nl/BlueDV/BETA/Windows/CHANGES.txt"
+	}
+}
