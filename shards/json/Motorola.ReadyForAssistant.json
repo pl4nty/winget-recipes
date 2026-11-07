@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://help.motorola.com/hc/apps/readyfor/rdp/index.php?os=win"],
+		"regex": "SmartConnect_setup_(?<version>(?<a>\\d)(?<b>\\d)(?<c>\\d)(?<d>\\d{3})(?<e>\\d{3}))\\.exe$"
+	},
+	"version": "{captures.a}.{captures.b}.{captures.c}.{captures.d}.{captures.e}"
+}
