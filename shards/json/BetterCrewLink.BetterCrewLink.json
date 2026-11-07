@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OhMyGuus",
+		"repo": "BetterCrewLink"
+	},
+	"urls": [
+		"https://github.com/OhMyGuus/BetterCrewLink/releases/download/{github.rawTag}/Better-CrewLink-Setup-{version}.exe"
+	]
+}
