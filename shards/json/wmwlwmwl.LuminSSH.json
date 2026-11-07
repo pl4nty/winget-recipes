@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wmwlwmwl",
+		"repo": "LumeTerm",
+		"method": "api-latest",
+		"assetRegex": "-amd64-installer\\.exe$"
+	}
+}
