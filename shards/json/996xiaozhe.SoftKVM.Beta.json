@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "996xiaozhe",
+		"repo": "softKVM",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/996xiaozhe/softKVM/releases/download/{github.rawTag}/SoftKVM_{version}_x64-setup.exe"
+	]
+}
