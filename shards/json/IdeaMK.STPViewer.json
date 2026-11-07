@@ -1,8 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://stpviewer.com/",
+		"regex": "STP Viewer (\\d+(?:\\.\\d+)+)\\s*</title>"
 	},
 	"urls": [
 		"https://stpviewer.com/download/stviewersetup.exe"
