@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://files.rootsmagic.com/RM5/RM5Setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://files.rootsmagic.com/RM5/RM5Setup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "http://blog.rootsmagic.com/?p=1172"
+	},
+	"replace": true
+}
