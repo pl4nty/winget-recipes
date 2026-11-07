@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tsudev-tsudev",
+		"repo": "tsudev-swico"
+	},
+	"urls": [
+		"https://github.com/tsudev-tsudev/tsudev-swico/releases/download/v{version}/swico-setup-{version}.exe"
+	]
+}

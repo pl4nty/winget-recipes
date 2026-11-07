@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jiripolasek",
+		"repo": "ColorsExtension"
+	},
+	"urls": [
+		"https://github.com/jiripolasek/ColorsExtension/releases/download/{github.rawTag}/JiriPolasek.ColorsforCommandPalette_{version}.0_arm64__15b1mzc2p8w76.Msix",
+		"https://github.com/jiripolasek/ColorsExtension/releases/download/{github.rawTag}/JiriPolasek.ColorsforCommandPalette_{version}.0_x64__15b1mzc2p8w76.Msix"
+	]
+}

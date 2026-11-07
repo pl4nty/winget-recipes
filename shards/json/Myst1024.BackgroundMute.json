@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Myst1024",
+		"repo": "BackgroundMute"
+	},
+	"urls": [
+		"https://github.com/Myst1024/BackgroundMute/releases/download/v{version}/BackgroundMute-Setup-{version}.exe"
+	]
+}
