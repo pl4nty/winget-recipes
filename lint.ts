@@ -236,7 +236,6 @@ type DryRun = {
 	shard: string;
 	latest: string;
 	version: string;
-	versions: string[];
 	stable: string[];
 	raws: Map<string, string>;
 	yamls: Map<string, string | undefined>;
@@ -265,8 +264,7 @@ const dryRuns = (shards: string[]) =>
 				const identifier = pkg.split('/').slice(2).join('.').toLowerCase();
 				const shard = shards.find((shard) => id(shard).toLowerCase() === identifier) ?? pkg;
 				const paths = await Array.fromAsync(glob(`${pkg}/*/*.yaml`, { cwd: dir }));
-				const versions = [...new Set(paths.map((path) => basename(dirname(path))))].sort(compareVersions);
-				const latest = versions.at(-1)!;
+				const latest = [...new Set(paths.map((path) => basename(dirname(path))))].sort(compareVersions).at(-1)!;
 				const version = [...generated.keys()].find((path) => dirname(dirname(path)) === pkg)!.split('/').at(-2)!;
 				const stable = CHANNEL.test(pkg)
 					? [...new Set((await Array.fromAsync(glob(`${dirname(pkg)}/*/*.yaml`, { cwd: dir }))).map((path) => basename(dirname(path))))]
@@ -275,7 +273,7 @@ const dryRuns = (shards: string[]) =>
 				for (const path of paths.filter((path) => basename(dirname(path)) === latest))
 					raws.set(basename(path), await readFile(join(dir, path), 'utf8'));
 				const yamls = new Map([...raws.keys()].map((name) => [name, generated.get(`${pkg}/${version}/${name}`)]));
-				return { shard, latest, version, versions, stable, raws, yamls };
+				return { shard, latest, version, stable, raws, yamls };
 			}),
 		);
 	})());
@@ -383,11 +381,10 @@ const dryRunValues: Rule = async (shards, report) => {
 	}
 };
 
-// A prerelease channel that never shared a version with its stable package should not get a stable release.
+// A prerelease channel should not get a version of its stable package.
 const prereleaseChannel: Rule = async (shards, report) => {
-	for (const { shard, version, versions, stable } of await dryRuns(shards))
-		if (stable.includes(version) && !versions.some((shared) => stable.includes(shared)))
-			report(shard, `dry run version ${version} is a release of the stable package, which this prerelease channel never shares`);
+	for (const { shard, version, stable } of await dryRuns(shards))
+		if (stable.includes(version)) report(shard, `dry run version ${version} is a release of the stable package`);
 };
 
 const rules: Record<string, Rule> = process.argv.includes('--dry-run')
