@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "ngris-edge", "repo": "ngris" },
+	"urls": [
+		"https://github.com/ngris-edge/ngris/releases/download/v{version}/ngris_windows_arm64.zip",
+		"https://github.com/ngris-edge/ngris/releases/download/v{version}/ngris_windows_amd64.zip"
+	]
+}
