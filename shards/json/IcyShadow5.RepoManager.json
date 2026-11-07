@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "IcyShadow5",
+		"repo": "RepoManager"
+	},
+	"urls": [
+		"https://github.com/IcyShadow5/RepoManager/releases/download/{github.rawTag}/RepoManager-{version}-windows-x64.zip"
+	]
+}
