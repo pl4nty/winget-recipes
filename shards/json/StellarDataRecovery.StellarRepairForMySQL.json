@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stellarinfo.com/mysql-repair.php",
+		"regex": "\"softwareVersion\": \"(?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [{ "url": "https://cloud.stellarinfo.com/StellarRepairforMySQL.exe", "architecture": "x64" }]
+}
