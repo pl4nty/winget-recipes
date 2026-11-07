@@ -1,7 +1,7 @@
 import { defineShard } from 'anthelion';
 import { githubClient } from 'anthelion/github';
 
-const repos: Record<string, [string, string]> = {"4301": ["bonnie-boni", "CLI_stream"], "4017a": ["mrenanpx", "yama-pdv"], "4017b": ["mrenanpx", "app-yama-print.js"], "4805": ["solnsu", "soln-installer-releases"], "5780": ["29thnight", "PrSM-for-Unity"], "4646": ["bsnes-emu", "bsnes"]};
+const repos: Record<string, [string, string]> = {};
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
@@ -15,6 +15,15 @@ export default defineShard(async () => {
 			}
 		}),
 	);
+	for (const url of ['https://www.passmark.com/products/fragger/', 'https://www.passmark.com/downloads/']) {
+		try {
+			const response = await fetch(url);
+			const text = await response.text();
+			out[url] = [response.status, ...(text.match(/[^<>]{0,80}(?:fragger|version|build)[^<>]{0,80}/gi) ?? []).filter((line) => /fragger|\d\.\d/i.test(line)).slice(0, 25)];
+		} catch (error) {
+			out[url] = String(error);
+		}
+	}
 	console.log('PROBE-BEGIN');
 	console.log(JSON.stringify(out));
 	console.log('PROBE-END');
