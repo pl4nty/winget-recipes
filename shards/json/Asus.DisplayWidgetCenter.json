@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		{
+			"url": "https://dlcdnets.asus.com/pub/ASUS/LCD%20Monitors/App/DisplayWidgetCenter/DisplayWidgetCenter.zip",
+			"nestedInstallerMatches": ["DisplayWidgetCenterSetup.msi"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dlcdnets.asus.com/pub/ASUS/LCD%20Monitors/App/DisplayWidgetCenter/DisplayWidgetCenter.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
