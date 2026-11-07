@@ -62,9 +62,12 @@ const releaseNotesUrl: Rule = async (shards, report) => {
 const githubReleaseNotes: Rule = async (shards, report) => {
 	for (const shard of shards.filter((shard) => shard.endsWith('.json'))) {
 		const { strategy, github, releaseNotes } = JSON.parse(await readFile(shard, 'utf8'));
-		if (strategy !== 'github-release' || releaseNotes?.source !== 'github') continue;
-		if (Object.entries(releaseNotes).every(([key, value]) => key === 'source' || github[key] === value))
-			report(shard, 'github-release shards get GitHub release notes by default, so remove releaseNotes');
+		if (strategy !== 'github-release' || !releaseNotes) continue;
+		if (
+			releaseNotes.source !== 'github' ||
+			Object.entries(releaseNotes).every(([key, value]) => key === 'source' || github[key] === value)
+		)
+			report(shard, 'github-release shards get GitHub release notes by default, so set releaseNotes only for notes from another repo');
 	}
 };
 
@@ -246,7 +249,7 @@ const dryRuns = (shards: string[]) =>
 				const shard = shards.find((shard) => id(shard).toLowerCase() === identifier) ?? pkg;
 				const paths = await Array.fromAsync(glob(`${pkg}/*/*.yaml`, { cwd: dir }));
 				const latest = [...new Set(paths.map((path) => basename(dirname(path))))].sort(compareVersions).at(-1)!;
-				const version = [...generated.keys()].find((path) => path.startsWith(`${pkg}/`))!.split('/').at(-2);
+				const version = [...generated.keys()].find((path) => dirname(dirname(path)) === pkg)!.split('/').at(-2);
 				const raws = new Map<string, string>();
 				for (const path of paths.filter((path) => basename(dirname(path)) === latest))
 					raws.set(basename(path), await readFile(join(dir, path), 'utf8'));
@@ -258,6 +261,9 @@ const dryRuns = (shards: string[]) =>
 
 const droppedFields: Rule = async (shards, report) => {
 	for (const { shard, latest, raws, yamls } of await dryRuns(shards)) {
+		// komac writes ReleaseNotesUrl for a GitHub release only when the release has notes.
+		const { strategy, releaseNotes } = shard.endsWith('.json') ? JSON.parse(await readFile(shard, 'utf8')) : {};
+		const githubNotes = strategy === 'github-release' && !releaseNotes;
 		const [beforeArp, afterArp] = [raws, yamls].map((files) => {
 			const yaml = [...files.values()].find((yaml) => yaml && DEFAULT_LOCALE.test(yaml));
 			const { PackageName, Publisher } = (yaml ? Bun.YAML.parse(yaml) : {}) as Record<string, unknown>;
@@ -270,7 +276,12 @@ const droppedFields: Rule = async (shards, report) => {
 			const after = yaml === undefined ? new Map<string, number>() : fields(yaml, afterArp);
 			for (const [field, count] of before) {
 				const kept = after.get(field) ?? 0;
-				if (kept < count && !IGNORED.test(field) && (defaultLocale || !DEFAULT_LOCALE_ONLY.test(field)))
+				if (
+					kept < count &&
+					!IGNORED.test(field) &&
+					(defaultLocale || !DEFAULT_LOCALE_ONLY.test(field)) &&
+					!(githubNotes && field === 'ReleaseNotesUrl')
+				)
 					report(shard, `${name}: dry run drops ${field} (${count} in ${latest}, ${kept} in dry run)`);
 			}
 		}
@@ -290,6 +301,11 @@ const source = (url: unknown) => {
 	if (hostname === 'github.com') return `github.com/${pathname.split('/').slice(1, 3).join('/')}`.toLowerCase();
 	const labels = hostname.split('.');
 	return labels.slice(/^(?:ac|co|com|gov|net|org)$/.test(labels.at(-2)!) && labels.at(-1)!.length === 2 ? -3 : -2).join('.');
+};
+// GitHub redirects downloads from a renamed or transferred repository to its new name, which is the same source.
+const moved = async (url: string) => {
+	const location = (await fetch(url, { method: 'HEAD', redirect: 'manual' }).catch(() => undefined))?.headers.get('location');
+	return location && new URL(location, url).hostname === 'github.com' ? source(new URL(location, url)) : undefined;
 };
 // komac detects a more specific type than the one upstream declares.
 const REFINED = new Set(['msi>wix', 'wix>msi', 'exe>burn', 'exe>inno', 'exe>msi', 'exe>nullsoft', 'exe>wix']);
@@ -328,6 +344,9 @@ const dryRunValues: Rule = async (shards, report) => {
 		}
 
 		const sources = new Set(before.map((installer) => source(installer.InstallerUrl)));
+		if (after.some((installer) => !sources.has(source(installer.InstallerUrl))))
+			for (const url of new Set(before.map((installer) => String(installer.InstallerUrl))))
+				if (source(url).startsWith('github.com/')) sources.add((await moved(url)) ?? source(url));
 		for (const url of new Set(after.map((installer) => String(installer.InstallerUrl)))) {
 			if (/^https:\/\/github\.com\/[^/]+\/winget-pkgs\//i.test(url))
 				report(shard, `${name}: dry run downloads from a winget-pkgs repository: ${url}`);
@@ -337,23 +356,28 @@ const dryRunValues: Rule = async (shards, report) => {
 	}
 };
 
-const rules: Record<string, Rule> = {
-	maintained,
-	'shard-urls': shardUrls,
-	'version-state': versionState,
-	'release-notes-url': releaseNotesUrl,
-	'github-release-notes': githubReleaseNotes,
-	...(process.argv.includes('--dry-run') && { 'dropped-fields': droppedFields, 'dry-run-values': dryRunValues }),
-};
+const rules: Record<string, Rule> = process.argv.includes('--dry-run')
+	? { 'dropped-fields': droppedFields, 'dry-run-values': dryRunValues }
+	: {
+			maintained,
+			'shard-urls': shardUrls,
+			'version-state': versionState,
+			'release-notes-url': releaseNotesUrl,
+			'github-release-notes': githubReleaseNotes,
+		};
 
 const WARNINGS = new Set(['release-notes-url']);
+// GitHub shows only 10 warnings per step, so pull requests get warnings for their own shards only.
+const changed = process.env.BASE && (await $`git diff --name-only ${process.env.BASE} HEAD`.text()).split('\n');
 const shards = (await Array.fromAsync(glob('shards/{json,script}/*.{json,ts}'))).sort();
 let errors = 0;
 for (const [name, rule] of Object.entries(rules)) {
 	await rule(shards, (file, message) => {
 		const level = WARNINGS.has(name) ? 'warning' : 'error';
+		if (level === 'warning' && changed && !changed.includes(file)) return;
 		if (level === 'error') errors++;
-		console.log(`::${level} file=${file},title=${name}::${message}`);
+		// Annotations without a line show only in the check run, not on the pull request's changed files.
+		console.log(`::${level} file=${file},line=1,title=${name}::${message}`);
 	});
 }
 if (errors > 0) process.exit(1);
