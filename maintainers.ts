@@ -43,10 +43,7 @@ async function dumplings() {
 			for (const [, locale] of locales.matchAll(/'([^']+)'/g))
 				if (locale !== 'en-US') ids.push(`${config.WinGetIdentifier}.${locale === 'multi' ? 'MSIX' : locale}`);
 	}
-	for (const license of ['GPL', 'LGPL'])
-		for (const shared of ['', '.Shared'])
-			for (const branch of ['', '.8.1', '.9.0'])
-				ids.push(`BtbN.FFmpeg.${license}${shared}${branch}`);
+	ids.push('BtbN.FFmpeg.*');
 	return ids;
 }
 
