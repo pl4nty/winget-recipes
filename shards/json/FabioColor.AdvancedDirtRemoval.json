@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fabiocolor",
+		"repo": "Advanced-Dirt-Removal"
+	},
+	"urls": [
+		{ "url": "https://github.com/fabiocolor/Advanced-Dirt-Removal/releases/download/{github.rawTag}/AdvancedDirtRemoval-Setup-{version}.exe", "architecture": "x64" }
+	]
+}
