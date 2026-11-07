@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qishibo",
+		"repo": "AnotherRedisDesktopManager"
+	},
+	"urls": [
+		"https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v{version}/Another-Redis-Desktop-Manager-win-{version}-x64.exe",
+		"https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v{version}/Another-Redis-Desktop-Manager-win-{version}-arm64.exe"
+	]
+}
