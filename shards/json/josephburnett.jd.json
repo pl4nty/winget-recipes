@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "josephburnett",
+		"repo": "jd"
+	},
+	"urls": [
+		"https://github.com/josephburnett/jd/releases/download/{github.rawTag}/jd-amd64-windows.exe",
+		"https://github.com/josephburnett/jd/releases/download/{github.rawTag}/jd-arm64-windows.exe"
+	]
+}
