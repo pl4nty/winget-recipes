@@ -4,6 +4,7 @@
 	"github": {
 		"owner": "davidegiacometti",
 		"repo": "CmdPal-Extensions",
+		"method": "api-sort",
 		"tagRegex": "^vs\\-"
 	},
 	"urls": [
