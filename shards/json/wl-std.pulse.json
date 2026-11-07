@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pooriyayt",
+		"repo": "pulse-system-monitor",
+		"method": "api-list",
+		"tagRegex": "^V"
+	},
+	"urls": [{ "url": "https://dl1.wl-std.com/Pulse-{version}-Setup.exe", "architecture": "x64" }]
+}
