@@ -3,10 +3,12 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "microsoft",
-		"repo": "git",
-		"method": "api-latest",
-		"assetRegex": "^(?:Git\\-\\d+\\.\\d+\\.\\d+\\.vfs\\.\\d+\\.\\d+\\-64\\-bit\\.exe|Git\\-\\d+\\.\\d+\\.\\d+\\.vfs\\.\\d+\\.\\d+\\-arm64\\.exe)$"
+		"repo": "git"
 	},
+	"urls": [
+		"https://github.com/microsoft/git/releases/download/{github.rawTag}/Git-{version}-64-bit.exe",
+		"https://github.com/microsoft/git/releases/download/{github.rawTag}/Git-{version}-arm64.exe"
+	],
 	"version": {
 		"source": "product"
 	}
