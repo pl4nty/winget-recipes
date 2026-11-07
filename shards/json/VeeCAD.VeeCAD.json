@@ -3,12 +3,11 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://veecad.com/downloads.html",
-		"regex": "VeeCAD_(?<version>\\d+_\\d+_\\d+)_(?<build>\\d+)\\.zip"
+		"regex": "downloadfree\\.zip</a> \\(V(?<version>\\d+\\.\\d+\\.\\d+)\\.(?<build>\\d+),"
 	},
-	"version": "{version|_|.}",
 	"urls": [
 		{
-			"url": "https://veecad.com/downloads/VeeCAD_{captures.version}_{captures.build}.zip",
+			"url": "https://veecad.com/downloads/VeeCAD_{version|.|_}_{captures.build}.zip",
 			"architecture": "x86"
 		}
 	]
