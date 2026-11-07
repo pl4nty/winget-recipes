@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "RykoTheDev", "repo": "GodotHub" },
+	"urls": [
+		"https://github.com/RykoTheDev/GodotHub/releases/download/v{version}/GodotHub-{version}-windows-x64.msi",
+		"https://github.com/RykoTheDev/GodotHub/releases/download/v{version}/GodotHub-{version}-windows-x64-setup.exe"
+	]
+}
