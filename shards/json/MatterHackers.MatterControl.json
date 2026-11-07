@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [{ "url": "https://mattercontrol.appspot.com/downloads/mattercontrol-windows/release?ref=5NEP8W", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://mattercontrol.appspot.com/downloads/mattercontrol-windows/release?ref=5NEP8W",
+		"header": "content-length"
+	},
+	"replace": true
+}
