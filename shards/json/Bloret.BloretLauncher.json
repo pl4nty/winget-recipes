@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/BloretCrew/Bloret-Launcher/releases/download/{github.rawTag}/Bloret-Launcher-Setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/BloretCrew/Bloret-Launcher/releases/tag/{github.rawTag}"
-	}
+	]
 }
