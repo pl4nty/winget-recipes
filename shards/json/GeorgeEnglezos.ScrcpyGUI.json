@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GeorgeEnglezos",
+		"repo": "Scrcpy-GUI"
+	},
+	"urls": [
+		"https://github.com/GeorgeEnglezos/Scrcpy-GUI/releases/download/{github.rawTag}/scrcpy-gui-setup-v{version}.exe"
+	]
+}

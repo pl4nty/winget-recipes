@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "adkurz",
+		"repo": "btText"
+	},
+	"urls": [
+		"https://github.com/adkurz/btText/releases/download/{github.rawTag}/btText-{version}-setup-windows.exe"
+	]
+}
