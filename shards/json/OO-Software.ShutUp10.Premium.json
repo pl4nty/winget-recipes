@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oo-software.com/en/download",
+		"regex": "/download/current/ooshutup10\"[^>]*>[^<]*</a></span><span class=\"dlbuild\">Version (\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": [
+		"https://package.oo-software.com/winget/shutup10/{version}/ooshutup10_{version}_premium_eng_x64.msi",
+		"https://package.oo-software.com/winget/shutup10/{version}/ooshutup10_{version}_premium_deu_x64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.oo-software.com/en/shutup10/changelog"
+	}
+}
