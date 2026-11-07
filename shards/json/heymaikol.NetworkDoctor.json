@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "heymaikol",
+		"repo": "network-doctor"
+	},
+	"urls": [
+		"https://github.com/heymaikol/network-doctor/releases/download/{github.rawTag}/netdoc_{version}_windows_amd64.zip",
+		"https://github.com/heymaikol/network-doctor/releases/download/{github.rawTag}/netdoc_{version}_windows_arm64.zip"
+	]
+}
