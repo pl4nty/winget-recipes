@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		{ "url": "https://github.com/AchiGever26/talktype/releases/download/{github.rawTag}/TalkType-Setup-{version}.exe", "architecture": "x64" }
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/AchiGever26/talktype/releases/tag/{github.rawTag}"
-	}
+	]
 }
