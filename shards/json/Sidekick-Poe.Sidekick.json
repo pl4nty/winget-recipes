@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Sidekick-Poe",
+		"repo": "Sidekick",
+		"method": "api-latest",
+		"assetRegex": "^Sidekick-windows-x64-Setup\\.exe$"
+	},
+	"version": "{github.rawTag}"
+}
