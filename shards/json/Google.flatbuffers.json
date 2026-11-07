@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/google/flatbuffers/releases/download/{github.rawTag}/Windows.flatc.binary.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/google/flatbuffers/releases/tag/{github.rawTag}"
-	}
+	]
 }
