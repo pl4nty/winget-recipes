@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://technology.a-sit.at/en/pdf-over",
+		"regex": "/wp-content/uploads/(?<path>\\d{4}/\\d{2})/PDF-Over-(?<version>\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": [{ "url": "https://technology.a-sit.at/wp-content/uploads/{captures.path}/PDF-Over-{version}.msi", "architecture": "x64" }]
+}
