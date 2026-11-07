@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CostaFot",
+		"repo": "agents-panel-extension"
+	},
+	"urls": [
+		"https://github.com/CostaFot/agents-panel-extension/releases/download/{github.rawTag}/AgentsPanelExtension_{version}_Bundle.Msixbundle"
+	]
+}

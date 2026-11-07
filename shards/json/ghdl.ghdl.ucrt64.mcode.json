@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ghdl",
+		"repo": "ghdl"
+	},
+	"urls": [
+		{ "url": "https://github.com/ghdl/ghdl/releases/download/v{version}/ghdl-mcode-{version}-ucrt64.zip", "architecture": "x86" }
+	]
+}
