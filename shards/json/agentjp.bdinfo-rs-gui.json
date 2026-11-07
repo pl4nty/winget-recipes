@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "agentjp",
+		"repo": "bdinfo-rs",
+		"tagRegex": "^gui\\-v",
+		"method": "api-sort",
+		"assetRegex": "^(?:bdinfo\\-rs\\-gui\\-aarch64\\-pc\\-windows\\-msvc\\.msi|bdinfo\\-rs\\-gui\\-x86_64\\-pc\\-windows\\-msvc\\.msi)$"
+	}
+}
