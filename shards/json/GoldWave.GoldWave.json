@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.goldwave.com/release.php",
+		"regex": "href=\"https://goldwave\\.com/download\\.php\\?file=gw\">\\s*<img[^>]*>\\s*GoldWave v(\\d+\\.\\d+)<br>"
+	},
+	"urls": ["https://goldwave.com/download.php?file=gw"]
+}
