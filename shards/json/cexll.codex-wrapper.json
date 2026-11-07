@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stellarlinkco",
+		"repo": "myclaude"
+	},
+	"urls": [
+		"https://github.com/stellarlinkco/myclaude/releases/download/{github.rawTag}/codeagent-wrapper-windows-amd64.exe",
+		"https://github.com/stellarlinkco/myclaude/releases/download/{github.rawTag}/codeagent-wrapper-windows-arm64.exe"
+	]
+}
