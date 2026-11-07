@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dandavison",
+		"repo": "delta"
+	},
+	"urls": [
+		"https://github.com/dandavison/delta/releases/download/{version}/delta-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}

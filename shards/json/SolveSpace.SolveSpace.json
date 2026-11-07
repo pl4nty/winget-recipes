@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "solvespace", "repo": "solvespace" },
+	"urls": [
+		"https://github.com/solvespace/solvespace/releases/download/v{version}/solvespace_x86.exe",
+		"https://github.com/solvespace/solvespace/releases/download/v{version}/solvespace_x64.exe"
+	]
+}
