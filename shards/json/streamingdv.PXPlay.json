@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "streamingdv",
 		"repo": "PSPlay-Application-Hosting",
-		"method": "api-list",
 		"tagRegex": "_v\\d+\\.\\d+\\.\\d+$"
 	},
 	"urls": [
