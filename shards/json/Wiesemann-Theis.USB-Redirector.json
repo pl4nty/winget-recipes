@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.wut.de/e-53641-15-inus-000.php",
+		"regex": "/download/tools/e-00109-ww-swww-\\d+\\.exe\"[^>]*\\bv(\\d+\\.\\d+)\""
+	},
+	"urls": [
+		"https://www.wut.de/download/tools/e-00109-ww-swde-{version|.|}.msi",
+		"https://www.wut.de/download/tools/e-00109-ww-swus-{version|.|}.msi"
+	]
+}
