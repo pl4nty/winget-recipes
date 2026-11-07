@@ -6,7 +6,6 @@
 		"repo": "Amethyst-Releases"
 	},
 	"urls": [
-		"https://github.com/KinectToVR/Amethyst-Releases/releases/download/{github.rawTag}/Amethyst_{version}_x64_Unpackaged.zip",
-		"https://github.com/KinectToVR/Amethyst-Releases/releases/download/{github.rawTag}/Amethyst_{version}_x64.msix"
+		"https://github.com/KinectToVR/Amethyst-Releases/releases/download/{github.rawTag}/Amethyst_{version}_x64_Unpackaged.zip"
 	]
 }
