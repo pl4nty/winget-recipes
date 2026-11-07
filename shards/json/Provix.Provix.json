@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ryduxbsbdmc-eng",
+		"repo": "provix"
+	},
+	"urls": [
+		"https://github.com/ryduxbsbdmc-eng/provix/releases/download/v{version}/Provix-Setup-{version}.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Nuu-maan",
+		"repo": "glowfetch"
+	},
+	"urls": [
+		"https://github.com/Nuu-maan/glowfetch/releases/download/v{version}/glowfetch-x86_64-pc-windows-msvc.zip"
+	]
+}
