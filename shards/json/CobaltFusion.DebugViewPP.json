@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "CobaltFusion",
-		"repo": "DebugViewPP",
-		"method": "api-sort",
-		"assetRegex": "^(?:Debugviewpp\\.exe)$"
-	}
+		"repo": "DebugViewPP"
+	},
+	"urls": [
+		"https://github.com/CobaltFusion/DebugViewPP/releases/download/{github.rawTag}/Debugviewpp.exe"
+	]
 }
