@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "shixinhuang99", "repo": "czkawka-tauri" },
+	"urls": ["https://github.com/shixinhuang99/czkawka-tauri/releases/download/{version}/CzkawkaTauri_{version}_x64-setup-ffmpeg.exe"]
+}
