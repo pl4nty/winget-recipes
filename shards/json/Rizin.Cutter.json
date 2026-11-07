@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rizinorg",
+		"repo": "cutter"
+	},
+	"urls": ["https://github.com/rizinorg/cutter/releases/download/v{version}/Cutter-v{version}-Windows-x86_64.zip"]
+}
