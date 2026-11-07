@@ -8,8 +8,5 @@
 	},
 	"urls": [
 		"https://github.com/syvaidya/openstego/releases/download/{github.rawTag}/Setup-OpenStego-{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/syvaidya/openstego/releases/tag/{github.rawTag}"
-	}
+	]
 }
