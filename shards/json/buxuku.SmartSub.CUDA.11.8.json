@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/buxuku/SmartSub/releases/download/v2.11.1/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/buxuku/SmartSub/releases/tag/v{version}"
+	}
+}
