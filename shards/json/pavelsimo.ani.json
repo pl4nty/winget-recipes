@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pavelsimo",
+		"repo": "ani"
+	},
+	"urls": [
+		"https://github.com/pavelsimo/ani/releases/download/v{version}/ani_windows_arm64.zip",
+		"https://github.com/pavelsimo/ani/releases/download/v{version}/ani_windows_amd64.zip"
+	]
+}
