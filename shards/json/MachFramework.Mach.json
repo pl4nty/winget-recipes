@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "machframework",
+		"repo": "mach"
+	},
+	"urls": ["https://github.com/machframework/mach/releases/download/v{version}/Mach-{version}-win64.msi"]
+}
