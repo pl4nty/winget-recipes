@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "ethereum", "repo": "remix-desktop" },
+	"urls": [
+		"https://github.com/ethereum/remix-desktop/releases/download/v{version}/Remix-IDE-Setup-{version}.exe",
+		"https://github.com/ethereum/remix-desktop/releases/download/v{version}/Remix-IDE-Setup-{version}.exe"
+	]
+}
