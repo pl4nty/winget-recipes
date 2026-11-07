@@ -7,7 +7,9 @@
 	"github": {
 		"owner": "lka",
 		"repo": "excel2zugferd",
-		"method": "api-latest",
-		"assetRegex": "^(?:setup_excel\\d+zugferd_x64\\d+_\\d+\\.\\d+\\.\\d+\\.\\d+\\.msi)$"
-	}
+		"method": "api-latest"
+	},
+	"urls": [
+		{ "url": "https://github.com/lka/excel2zugferd/releases/download/{github.rawTag}/setup_excel2zugferd_x6432_{github.rawTag}.0.msi", "architecture": "x64" }
+	]
 }
