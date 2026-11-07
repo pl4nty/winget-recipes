@@ -9,8 +9,5 @@
 	"urls": [
 		"https://github.com/baldbeardedbuilder/WeatherExtension/releases/download/{github.rawTag}/WeatherExtension_{version}.0_x64.msix",
 		"https://github.com/baldbeardedbuilder/WeatherExtension/releases/download/{github.rawTag}/WeatherExtension_{version}.0_arm64.msix"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/baldbeardedbuilder/WeatherExtension/releases/tag/{github.rawTag}"
-	}
+	]
 }
