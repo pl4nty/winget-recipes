@@ -4,6 +4,7 @@
 	"github": {
 		"owner": "Nubulizer",
 		"repo": "Command-Dictate-App",
+		"method": "api-sort",
 		"assetRegex": "^CommandDictateFree.*\\.exe$"
 	}
 }
