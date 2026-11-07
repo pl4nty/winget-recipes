@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		"https://ncl.pki.gov.kz/images/NCALayer/NCALayerInstall_x64.exe",
+		"https://ncl.pki.gov.kz/images/NCALayer/NCALayerInstall_x86.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://ncl.pki.gov.kz/images/NCALayer/NCALayerInstall_x64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
