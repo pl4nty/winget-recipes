@@ -5,6 +5,7 @@
 		"url": "https://imagesort.org/",
 		"regex": "https://github\\.com/Lolle2000la/Image\\-Sort/releases/download/v(\\d+(?:\\.\\d+)+)/ImageSort\\.x86\\.msi"
 	},
+	"version": "{version}.0",
 	"urls": [
 		{
 			"url": "https://github.com/Lolle2000la/Image-Sort/releases/download/v{version}/ImageSort.x86.msi",
