@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://rb-devops.com/products/hm-praxis",
+		"regex": "\"softwareVersion\":\"(?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://downloads.rb-devops.com/releases/hm-praxis/{version}/windows/x64/HM%20Praxis_{version}_x64-setup.exe",
+		"https://downloads.rb-devops.com/releases/hm-praxis/{version}/windows/x64/HM%20Praxis_{version}_x64_en-US.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://rb-devops.com/products/hm-praxis"
+	}
+}
