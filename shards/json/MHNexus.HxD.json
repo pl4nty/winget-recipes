@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://mh-nexus.de/en/hxd/changelog.php",
+		"regex": "id=\"v_(?<version>\\d+(?:\\.\\d+)*?)(?:\\.0)*\""
+	},
+	"urls": ["https://mh-nexus.de/downloads/HxDSetup.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://mh-nexus.de/en/hxd/changelog.php"
+	},
+	"replace": true
+}
