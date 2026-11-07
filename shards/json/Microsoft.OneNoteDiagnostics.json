@@ -3,5 +3,6 @@
 	"strategy": "ms-download-center",
 	"msDownloadCenter": {
 		"id": 53336
-	}
+	},
+	"version": "{version}.0.0"
 }
