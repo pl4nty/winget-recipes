@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "robgwalsh",
+		"repo": "bertbrowser"
+	},
+	"urls": ["https://github.com/robgwalsh/bertbrowser/releases/download/v{version}/BertBrowser-win-Setup.exe"]
+}
