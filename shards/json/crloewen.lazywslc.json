@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "craigloewen-msft",
+		"repo": "lazywslc"
+	},
+	"urls": [
+		"https://github.com/craigloewen-msft/lazywslc/releases/download/{github.rawTag}/lazywslc-{version}-aarch64.msi",
+		"https://github.com/craigloewen-msft/lazywslc/releases/download/{github.rawTag}/lazywslc-{version}-x86_64.msi"
+	]
+}
