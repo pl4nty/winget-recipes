@@ -3,7 +3,7 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "builtbybel",
-		"repo": "Winslopr",
+		"repo": "FluentTweaker",
 		"method": "api-sort",
 		"assetRegex": "^(?:Winslopr\\-\\d+\\.\\d+\\.\\d+\\-win\\-x64\\.zip)$"
 	}
