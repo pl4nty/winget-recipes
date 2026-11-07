@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yagnikpt",
+		"repo": "boomtypr"
+	},
+	"urls": [
+		"https://github.com/yagnikpt/boomtypr/releases/download/v{version}/boomtypr_Windows_x86_64.zip",
+		"https://github.com/yagnikpt/boomtypr/releases/download/v{version}/boomtypr_Windows_i386.zip",
+		"https://github.com/yagnikpt/boomtypr/releases/download/v{version}/boomtypr_Windows_arm64.zip"
+	]
+}
