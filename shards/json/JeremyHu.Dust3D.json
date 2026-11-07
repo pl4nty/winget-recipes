@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "huxingyi",
+		"repo": "dust3d"
+	},
+	"urls": [
+		"https://github.com/huxingyi/dust3d/releases/download/{github.rawTag}/dust3d-{version}.zip"
+	]
+}
