@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jNizM",
+		"repo": "HashCalc"
+	},
+	"urls": [
+		"https://github.com/jNizM/HashCalc/releases/download/{github.rawTag}/HashCalc.exe"
+	]
+}
