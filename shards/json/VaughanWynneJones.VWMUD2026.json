@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Vaughanwj",
+		"repo": "VWMUD2026"
+	},
+	"urls": [
+		"https://github.com/Vaughanwj/VWMUD2026/releases/download/v{version}/vwmud2026-{version}-win-x64.zip"
+	]
+}
