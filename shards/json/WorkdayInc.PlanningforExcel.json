@@ -7,5 +7,6 @@
 		"source": "response-header",
 		"url": "https://clickonce.adaptiveinsights.com/planning/latest/WorkdayAdaptivePlanningExcelSetup.exe",
 		"header": "etag"
-	}
+	},
+	"replace": true
 }
