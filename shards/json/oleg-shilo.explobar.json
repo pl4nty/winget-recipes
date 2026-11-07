@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "oleg-shilo", "repo": "explobar" },
+	"urls": [
+		{ "url": "https://github.com/oleg-shilo/explobar/releases/download/v{version}/explobar.zip", "architecture": "neutral" }
+	]
+}
