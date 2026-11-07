@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stenzek",
+		"repo": "duckstation",
+		"method": "api-sort",
+		"tagRegex": "^v(?=\\d+\\.\\d+-\\d+$)"
+	},
+	"version": "{version|-|.}",
+	"urls": [
+		"https://github.com/stenzek/duckstation/releases/download/{github.rawTag}/duckstation-windows-x64-release.zip",
+		"https://github.com/stenzek/duckstation/releases/download/{github.rawTag}/duckstation-windows-arm64-release.zip"
+	]
+}
