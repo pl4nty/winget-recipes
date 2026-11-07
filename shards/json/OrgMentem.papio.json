@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OrgMentem",
+		"repo": "papio"
+	},
+	"urls": [
+		"https://github.com/OrgMentem/papio/releases/download/v{version}/papio_{version}_windows_amd64.zip",
+		"https://github.com/OrgMentem/papio/releases/download/v{version}/papio_{version}_windows_arm64.zip"
+	]
+}
