@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "surge-synthesizer",
 		"repo": "releases-xt",
-		"method": "api-sort",
 		"tagRegex": "^(?=\\d+\\.\\d+\\.\\d+$)"
 	},
 	"urls": [
