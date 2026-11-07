@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "delphi-blocks",
+		"repo": "blocks"
+	},
+	"urls": [
+		"https://github.com/delphi-blocks/blocks/releases/download/{github.rawTag}/blocks-{version}-setup.exe"
+	]
+}
