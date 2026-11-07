@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Flow-Launcher",
+		"repo": "Flow.Launcher"
+	},
+	"urls": [
+		"https://github.com/Flow-Launcher/Flow.Launcher/releases/download/{github.rawTag}/Flow-Launcher-Setup.exe"
+	]
+}
