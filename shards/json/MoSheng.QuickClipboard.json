@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mosheng1",
+		"repo": "QuickClipboard"
+	},
+	"urls": [
+		"https://github.com/mosheng1/QuickClipboard/releases/download/v{version}/QuickClipboard_{version}_x64-setup.exe"
+	]
+}

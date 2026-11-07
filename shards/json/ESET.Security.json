@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://download.eset.com/com/eset/tools/installers/live_eis/latest/eset_internet_security_live_installer.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.eset.com/com/eset/tools/installers/live_eis/latest/eset_internet_security_live_installer.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
