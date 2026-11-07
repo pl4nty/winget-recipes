@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "wmwlwmwl",
-		"repo": "LumeTerm",
-		"method": "api-latest",
-		"assetRegex": "-amd64-installer\\.exe$"
-	}
+		"repo": "LumeTerm"
+	},
+	"urls": [
+		"https://github.com/wmwlwmwl/LumeTerm/releases/download/{github.rawTag}/LumeTerm-{version}-windows-amd64-installer.exe"
+	]
 }
