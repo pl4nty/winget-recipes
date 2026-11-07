@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "shizgnit",
+		"repo": "tachikoma"
+	},
+	"urls": ["https://github.com/shizgnit/tachikoma/releases/download/v{version}/tachikoma-{version}-windows-x64.zip"]
+}
