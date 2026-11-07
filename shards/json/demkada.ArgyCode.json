@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "demkada",
+		"repo": "argy-code"
+	},
+	"urls": [
+		"https://github.com/demkada/argy-code/releases/download/{github.rawTag}/argy-windows-x64.zip"
+	]
+}
