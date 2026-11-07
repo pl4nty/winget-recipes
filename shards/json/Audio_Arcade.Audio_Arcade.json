@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Audio-Arcade",
+		"repo": "Audio_Arcade",
+		"tagRegex": "\\.0$"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/Audio-Arcade/Audio_Arcade/releases/download/{github.rawTag}/Audio_Arcade.msi",
+			"architecture": "x64"
+		}
+	]
+}
