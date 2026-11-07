@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cadwal",
+		"repo": "BookDB"
+	},
+	"urls": [
+		"https://github.com/cadwal/BookDB/releases/download/{github.rawTag}/BookDB-v{version}-win-arm64-fdd.zip",
+		"https://github.com/cadwal/BookDB/releases/download/{github.rawTag}/BookDB-v{version}-win-x64-fdd.zip"
+	]
+}
