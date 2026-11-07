@@ -90,11 +90,13 @@ for (const { number, title } of prs) {
 			findings.push(['needs removal reason', 'removes the highest version; moderators want the reason']);
 		else if (body.includes('Template: msftbot/authorAssist/manifestValidation'))
 			findings.push(...body.split('\n').filter((line) => line.startsWith('> - ')).map((line) => ['needs fix', line.slice(4)] as [string, string]));
-		else if (body.includes('Template: msftbot/validationError/manifest') || body.includes('Template: msftbot/validationError/internalError'))
+		else if (body.includes('Template: msftbot/validationError/internalError'))
+			findings.push(['validation VM problem', 'validation pipeline internal error']);
+		else if (body.includes('Template: msftbot/validationError/manifest'))
 			findings.push(['needs fix', body.match(/Template: (\S+)/)![1]!]);
 		else if (user.login.startsWith('wingetvalidator'))
 			findings.push(['manual review', body.split('\n').filter(Boolean).join(' ')]);
-		else if (user.type === 'User' && user.login !== author && !body.includes('(Deterministic automation'))
+		else if (user.type === 'User' && user.login !== author && !/\(Deterministic automation|^@wingetbot run/.test(body))
 			findings.push(['needs fix', `${user.login}: ${body.split('\n').find(Boolean)}`]);
 	}
 	if (!findings.length) findings.push(['needs fix', `no failure in ${zips ? 'results' : 'comments'}${comments.length ? '' : ', comments unreadable'}`]);
