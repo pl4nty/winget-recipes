@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "willvelida", "repo": "code-minions" },
+	"urls": [
+		"https://github.com/willvelida/code-minions/releases/download/v{version}/code-minions_windows_arm64.zip",
+		"https://github.com/willvelida/code-minions/releases/download/v{version}/code-minions_windows_amd64.zip"
+	]
+}
