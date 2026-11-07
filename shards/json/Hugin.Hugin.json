@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/hugin/best_release.json",
+		"regex": "/hugin/hugin-(?<series>\\d+\\.\\d+)/Hugin-(?<version>\\d+(?:\\.\\d+)+)-win64\\.msi"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/hugin/files/hugin/hugin-{captures.series}/Hugin-{version}-win64.msi/download"
+	]
+}
