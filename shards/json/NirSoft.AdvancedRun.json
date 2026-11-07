@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nirsoft.net/utils/advanced_run.html",
+		"regex": "Versions History</h4>\\s*<ul[^>]*>\\s*<li>Version (?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.nirsoft.net/utils/advancedrun.zip",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.nirsoft.net/utils/advancedrun-x64.zip",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nirsoft.net/utils/advanced_run.html#:~:text=Versions%20History"
+	},
+	"replace": true
+}
