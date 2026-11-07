@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LinwoodDev",
+		"repo": "Flow",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/LinwoodDev/Flow/releases/download/{github.rawTag}/linwood-flow-windows-setup-x86_64.exe",
+		"https://github.com/LinwoodDev/Flow/releases/download/{github.rawTag}/linwood-flow-windows-setup-arm64.exe"
+	]
+}
