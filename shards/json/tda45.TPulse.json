@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tda45",
+		"repo": "TPulse"
+	},
+	"urls": [
+		{ "url": "https://github.com/tda45/TPulse/releases/download/{version}/TPulse_Windows_Setup.exe", "architecture": "x64" }
+	]
+}
