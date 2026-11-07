@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://cdn2.gomlab.com/gretech/player/edge/GOMPLAYERGLOBALSETUP_NEW.EXE"],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn2.gomlab.com/gretech/player/edge/GOMPLAYERGLOBALSETUP_NEW.EXE",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.gomlab.com/en/gomplayer-media-player/release-note"
+	},
+	"replace": true
+}
