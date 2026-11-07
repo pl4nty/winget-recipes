@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jumppad-labs",
+		"repo": "jumppad"
+	},
+	"urls": [
+		"https://github.com/jumppad-labs/jumppad/releases/download/{github.rawTag}/jumppad_{version}_windows_x86_64.zip"
+	]
+}
