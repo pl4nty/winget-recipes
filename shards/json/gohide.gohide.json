@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gohide",
+		"repo": "GoHide"
+	},
+	"urls": [
+		"https://github.com/gohide/GoHide/releases/download/{github.rawTag}/gohide-{version}-win-Setup.exe"
+	]
+}
