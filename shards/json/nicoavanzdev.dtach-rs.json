@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "NicoAvanzDev",
-		"repo": "dtach-rs",
-		"method": "api-latest",
-		"assetRegex": "^dtach-rs-(?:x86_64|aarch64)-pc-windows-msvc\\.zip$"
-	}
+		"repo": "dtach-rs"
+	},
+	"urls": [
+		"https://github.com/NicoAvanzDev/dtach-rs/releases/download/{github.rawTag}/dtach-rs-x86_64-pc-windows-msvc.zip"
+	]
 }
