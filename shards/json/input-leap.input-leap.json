@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "input-leap",
+		"repo": "input-leap",
+		"method": "api-sort"
+	},
+	"version": "{version}-release",
+	"urls": [
+		{
+			"url": "https://github.com/input-leap/input-leap/releases/download/{github.rawTag}/InputLeap_{version}_windows_qt6.exe",
+			"architecture": "x64"
+		}
+	]
+}
