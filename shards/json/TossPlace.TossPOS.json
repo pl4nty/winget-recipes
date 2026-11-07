@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "yaml",
+	"yaml": {
+		"url": "https://electron.tossplace.com/toss-pos/latest.yml",
+		"path": "version"
+	},
+	"urls": [
+		{
+			"url": "https://electron.tossplace.com/toss-pos/windows/download.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://electron.tossplace.com/toss-pos/windows/download_x64.exe",
+			"architecture": "x64"
+		}
+	]
+}
