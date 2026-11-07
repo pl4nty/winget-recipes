@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://releases.wildfiregames.com/",
+		"regex": "href=\"0ad-(\\d+\\.\\d+\\.\\d+)-win64\\.exe\""
+	},
+	"urls": ["https://releases.wildfiregames.com/0ad-{version}-win64.exe", "https://releases.wildfiregames.com/0ad-{version}-win32.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://play0ad.com/news/"
+	}
+}
