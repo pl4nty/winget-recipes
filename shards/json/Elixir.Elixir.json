@@ -5,9 +5,5 @@
 		"owner": "elixir-lang",
 		"repo": "elixir"
 	},
-	"urls": [
-		"https://github.com/elixir-lang/elixir/releases/download/{github.rawTag}/elixir-otp-27.exe",
-		"https://github.com/elixir-lang/elixir/releases/download/{github.rawTag}/elixir-otp-28.exe",
-		"https://github.com/elixir-lang/elixir/releases/download/{github.rawTag}/elixir-otp-29.exe"
-	]
+	"urls": ["https://github.com/elixir-lang/elixir/releases/download/{github.rawTag}/elixir-otp-29.exe"]
 }
