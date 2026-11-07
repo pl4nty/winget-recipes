@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HyperWorX",
+		"repo": "DopusWorX"
+	},
+	"urls": [
+		"https://github.com/HyperWorX/DopusWorX/releases/download/{github.rawTag}/DopusWorX_v{version}_Setup.exe"
+	]
+}
