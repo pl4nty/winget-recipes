@@ -4,7 +4,7 @@
 	"github": {
 		"owner": "PranshulSoni",
 		"repo": "omnisearch",
-		"method": "api-latest",
+		"method": "api-sort",
 		"assetRegex": "^omnisearchsetup\\.exe$"
 	}
 }
