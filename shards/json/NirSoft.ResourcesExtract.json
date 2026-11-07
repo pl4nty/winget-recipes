@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nirsoft.net/utils/resources_extract.html",
+		"regex": "Versions History</h4>\\s*<ul[^>]*>\\s*<li>Version (?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.nirsoft.net/utils/resourcesextract.zip",
+			"architecture": "x86"
+		},
+		"https://www.nirsoft.net/utils/resourcesextract-x64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nirsoft.net/utils/resources_extract.html#:~:text=Versions%20History"
+	},
+	"replace": true
+}
