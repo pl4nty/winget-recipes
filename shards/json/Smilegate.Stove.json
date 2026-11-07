@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://dl.onstove.com/game/lcs/STOVE.zip",
+			"nestedInstallerMatches": ["STOVE.exe"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.onstove.com/game/lcs/STOVE.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
