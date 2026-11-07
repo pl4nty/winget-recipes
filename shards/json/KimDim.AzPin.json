@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/lfmundim/AzPin/releases/download/{github.rawTag}/AzPin-Windows-{version}-Installer.msi"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/lfmundim/AzPin/releases/tag/{github.rawTag}"
-	}
+	]
 }
