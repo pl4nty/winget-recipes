@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "thumbrella-dev", "repo": "thumbrella" },
+	"urls": ["https://github.com/thumbrella-dev/thumbrella/releases/download/v{version}/thumbrella-v{version}-windows-x86_64.zip"]
+}
