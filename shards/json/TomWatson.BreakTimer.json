@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tom-james-watson",
+		"repo": "breaktimer-app"
+	},
+	"urls": [
+		"https://github.com/tom-james-watson/breaktimer-app/releases/download/v{version}/BreakTimer.exe"
+	]
+}

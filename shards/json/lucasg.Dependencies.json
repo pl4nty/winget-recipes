@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "himeshsameera",
+		"repo": "Dependencies"
+	},
+	"urls": [
+		"https://github.com/himeshsameera/Dependencies/releases/download/v{version}/dependencies_v{version}_x86.zip",
+		"https://github.com/himeshsameera/Dependencies/releases/download/v{version}/dependencies_v{version}_x64.zip",
+		"https://github.com/himeshsameera/Dependencies/releases/download/v{version}/dependencies_v{version}_ARM64.zip"
+	]
+}
