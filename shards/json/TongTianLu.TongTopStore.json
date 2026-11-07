@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "hencter", "repo": "tongtop-store" },
+	"urls": ["https://github.com/hencter/tongtop-store/releases/download/{github.rawTag}/tongtop-store_{version}_x64-setup.exe"]
+}
