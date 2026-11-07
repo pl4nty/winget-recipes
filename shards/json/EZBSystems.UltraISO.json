@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ultraiso.com/download.html",
+		"regex": "UltraISO (?<version>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)\\.\\d+ released"
+	},
+	"version": "{version}.{captures.minor}{captures.patch}",
+	"urls": ["https://www.ultraiso.com/uiso9_pe.exe"],
+	"replace": true
+}
