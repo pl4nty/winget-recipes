@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://upgrade.mikrotik.com/routeros/NEWESTa7.stable",
+		"regex": "^(\\d+(?:\\.\\d+)+)\\s"
+	},
+	"urls": ["https://download.mikrotik.com/routeros/{version}/dude-install-{version}.exe"]
+}
