@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "windirstat",
 		"repo": "windirstat",
-		"method": "api-list",
 		"tagRegex": "release/v"
 	},
 	"urls": [
