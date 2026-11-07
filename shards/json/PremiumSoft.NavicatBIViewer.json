@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.navicat.com/products/navicat-bi-release-note",
+		"regex": "Navicat BI \\(Windows\\) version (?<version>(?<major>2)\\.\\d+\\.\\d+)<"
+	},
+	"urls": [
+		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_es_x64.exe",
+		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_en_x64.exe",
+		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_cs_x64.exe",
+		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_ct_x64.exe",
+		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_id_x64.exe",
+		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_jp_x64.exe",
+		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_de_x64.exe",
+		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_ru_x64.exe",
+		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_pl_x64.exe",
+		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_fr_x64.exe",
+		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_kr_x64.exe",
+		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_th_x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.navicat.com/products/navicat-bi-release-note"
+	}
+}
