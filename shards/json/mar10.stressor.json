@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mar10",
+		"repo": "stressor"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/mar10/stressor/releases/download/{github.rawTag}/stressor-{version}.0-win64.msi"
+	]
+}
