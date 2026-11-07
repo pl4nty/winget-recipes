@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "itriumid",
+		"repo": "honk"
+	},
+	"urls": [
+		"https://github.com/itriumid/honk/releases/download/{github.rawTag}/Honk_{version}_arm64-setup.exe",
+		"https://github.com/itriumid/honk/releases/download/{github.rawTag}/Honk_{version}_x64-setup.exe",
+		"https://github.com/itriumid/honk/releases/download/{github.rawTag}/Honk_{version}_x86-setup.exe",
+		"https://github.com/itriumid/honk/releases/download/{github.rawTag}/Honk_{version}_x64_en-US.msi",
+		"https://github.com/itriumid/honk/releases/download/{github.rawTag}/Honk_{version}_x86_en-US.msi"
+	]
+}
