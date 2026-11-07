@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://reincubate.com/support/camo/release-notes/",
+		"regex": "<article id=\"(?<version>\\d+(?:\\.\\d+)+)\"(?:(?!<article id=\")[\\s\\S])*?</svg>Windows<"
+	},
+	"urls": [
+		{
+			"url": "https://releases.reincubate.com/camo/camo-windows-{version}.msi",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://reincubate.com/support/camo/release-notes/#{version}"
+	}
+}
