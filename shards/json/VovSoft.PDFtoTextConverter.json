@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/pdf-to-text-converter/",
+		"regex": "<span class=\"notranslate\">PDF to Text Converter (\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		"https://files.vovsoft.com/pdf-to-text-converter.exe",
+		"https://files.vovsoft.com/pdf-to-text-converter-portable.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/pdf-to-text-converter/"
+	}
+}
