@@ -85,8 +85,14 @@ const branches = new Set(
 		.map((line) => line.replace(/^.*refs\/heads\/claude\/project-thread-[a-z0-9]+-/, '')),
 );
 
+const wildcards = [...covered].filter((id) => id.endsWith('.*')).map((id) => id.slice(0, -1));
 const rows = [...requests]
-	.filter(([id]) => !covered.has(id.toLowerCase()) && !branches.has(id.toLowerCase().replace(/[^a-z0-9]+/g, '-')))
+	.filter(
+		([id]) =>
+			!covered.has(id.toLowerCase()) &&
+			!wildcards.some((prefix) => `${id.toLowerCase()}.`.startsWith(prefix)) &&
+			!branches.has(id.toLowerCase().replace(/[^a-z0-9]+/g, '-')),
+	)
 	.map(([id, list]) => ({
 		id,
 		latest: list[0]!.created_at.slice(0, 10),

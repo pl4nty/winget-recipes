@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "WizX20", "repo": "ActionsMonitor" },
+	"urls": ["https://github.com/WizX20/ActionsMonitor/releases/download/{github.rawTag}/ActionsMonitor.zip"]
+}
