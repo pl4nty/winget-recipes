@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OpenMW",
+		"repo": "openmw",
+		"tagRegex": "^openmw-"
+	},
+	"urls": ["https://github.com/OpenMW/openmw/releases/download/{github.rawTag}/OpenMW-{version}-Windows-x64.exe"]
+}
