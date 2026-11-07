@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "sergiusminsk", "repo": "light-downloader" },
+	"urls": [
+		"https://github.com/sergiusminsk/light-downloader/releases/download/v{version}/LightDownloader-x86.exe",
+		"https://github.com/sergiusminsk/light-downloader/releases/download/v{version}/LightDownloader-x64.exe",
+		"https://github.com/sergiusminsk/light-downloader/releases/download/v{version}/LightDownloader-ARM64.exe"
+	]
+}
