@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "EpicMorg",
+		"repo": "atlassian-downloader"
+	},
+	"urls": [
+		"https://github.com/EpicMorg/atlassian-downloader/releases/download/{github.rawTag}/atlassian-downloader-dotnet10.0-win-arm64.zip",
+		"https://github.com/EpicMorg/atlassian-downloader/releases/download/{github.rawTag}/atlassian-downloader-dotnet10.0-win-x64.zip",
+		"https://github.com/EpicMorg/atlassian-downloader/releases/download/{github.rawTag}/atlassian-downloader-dotnet10.0-win-x86.zip"
+	]
+}
