@@ -3,7 +3,7 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "PranshulSoni",
-		"repo": "omnisearch",
+		"repo": "protonsearch",
 		"method": "api-sort",
 		"assetRegex": "^omnisearchsetup\\.exe$"
 	}
