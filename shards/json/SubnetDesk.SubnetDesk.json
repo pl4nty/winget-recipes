@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zibo-chen",
+		"repo": "SubnetDesk"
+	},
+	"urls": [
+		"https://github.com/zibo-chen/SubnetDesk/releases/download/v{version}/subnetdesk-{version}-x86_64.msi",
+		"https://github.com/zibo-chen/SubnetDesk/releases/download/v{version}/subnetdesk-{version}-aarch64.msi"
+	]
+}
