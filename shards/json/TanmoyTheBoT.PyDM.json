@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "TanmoyTheBoT", "repo": "pydm" },
+	"urls": ["https://github.com/TanmoyTheBoT/pydm/releases/download/v{version}/PyDM-v{version}-Windows-x64-Installer.exe"]
+}
