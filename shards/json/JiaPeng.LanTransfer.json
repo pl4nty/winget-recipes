@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/hongjiapeng/LanTransfer/releases/download/{github.rawTag}/LanTransfer-{version}-win-x64-Setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/hongjiapeng/LanTransfer/releases/tag/{github.rawTag}"
-	}
+	]
 }
