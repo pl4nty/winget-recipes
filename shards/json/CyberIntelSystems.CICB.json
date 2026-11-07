@@ -6,6 +6,6 @@
 		"repo": "cicb"
 	},
 	"urls": [
-		"https://github.com/cyberintelsystems/cicb/releases/download/{github.rawTag}/CICBv2-Win-v{version}.msi"
+		{ "url": "https://github.com/cyberintelsystems/cicb/releases/download/{github.rawTag}/CICBv2-Win-v{version}.msi", "architecture": "x64" }
 	]
 }
