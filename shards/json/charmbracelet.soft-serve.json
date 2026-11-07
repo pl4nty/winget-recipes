@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "charmbracelet",
+		"repo": "soft-serve"
+	},
+	"urls": [
+		"https://github.com/charmbracelet/soft-serve/releases/download/{github.rawTag}/soft-serve_{version}_Windows_x86_64.zip"
+	]
+}

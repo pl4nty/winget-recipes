@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ailuntx",
+		"repo": "winmon"
+	},
+	"urls": [
+		"https://github.com/ailuntx/winmon/releases/download/{github.rawTag}/winmon-windows-x64.zip"
+	]
+}
