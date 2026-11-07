@@ -5,6 +5,6 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://app.testcontainers.cloud/download/testcontainers-desktop_windows_x86-64.msi"
+		"https://get.testcontainers.cloud/download/client/stable/testcontainers-desktop_windows_x86-64.msi"
 	]
 }
