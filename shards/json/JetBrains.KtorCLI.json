@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ktorio",
+		"repo": "ktor-cli"
+	},
+	"urls": [
+		"https://github.com/ktorio/ktor-cli/releases/download/{github.rawTag}/ktor_installer.msi"
+	]
+}
