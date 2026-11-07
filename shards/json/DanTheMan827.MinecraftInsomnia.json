@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/DanTheMan827/minecraft-insomnia/releases/download/{github.rawTag}/MinecraftInsomnia.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/DanTheMan827/minecraft-insomnia/releases/tag/{github.rawTag}"
-	}
+	]
 }
