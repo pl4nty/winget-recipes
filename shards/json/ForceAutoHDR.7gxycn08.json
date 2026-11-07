@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "7gxycn08",
+		"repo": "ForceAutoHDR"
+	},
+	"urls": [
+		"https://github.com/7gxycn08/ForceAutoHDR/releases/download/{github.rawTag}/ForceAutoHDR-win64-setup.exe"
+	]
+}
