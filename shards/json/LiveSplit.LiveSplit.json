@@ -6,6 +6,6 @@
 		"repo": "LiveSplit"
 	},
 	"urls": [
-		"https://github.com/LiveSplit/LiveSplit/releases/download/{github.rawTag}/LiveSplit_{version}.zip"
+		{ "url": "https://github.com/LiveSplit/LiveSplit/releases/download/{github.rawTag}/LiveSplit_{version}.zip", "architecture": "neutral" }
 	]
 }
