@@ -1,8 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://raw.githubusercontent.com/prodirt-llc/ntfs-folder-audit/HEAD/NTFSFolderAudit.csproj",
+		"regex": "<Version>([^<]+)</Version>"
 	},
 	"urls": [
 		"https://github.com/prodirt-llc/ntfs-folder-audit/releases/download/initial/NTFSFolderAudit.exe"
