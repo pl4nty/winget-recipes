@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Nbc66", "repo": "VTFEdit-Reloaded", "method": "api-list", "kind": "all" },
+	"urls": ["https://cdn.nbc66.dev/VTFEditReloaded_v{version}/setup.exe"]
+}
