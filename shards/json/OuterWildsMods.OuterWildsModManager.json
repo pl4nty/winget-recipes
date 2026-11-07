@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "ow-mods",
 		"repo": "ow-mod-man",
-		"method": "api-list",
 		"tagRegex": "^gui_v"
 	},
 	"urls": [
