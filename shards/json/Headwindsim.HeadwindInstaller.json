@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "headwindsim",
+		"repo": "installer"
+	},
+	"urls": [
+		"https://github.com/headwindsim/installer/releases/download/{github.rawTag}/Headwind_Installer_Setup.exe"
+	]
+}
