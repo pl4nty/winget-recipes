@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://api.symless.com/version/synergy3",
+		"regex": "^(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://symless.com/synergy/api/download/synergy-{version}-windows-x64.msi",
+		"https://symless.com/synergy/api/download/synergy-{version}-windows-arm64.msi"
+	]
+}
