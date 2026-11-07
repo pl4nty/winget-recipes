@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AmpScm",
+		"repo": "SharpSvn",
+		"tagRegex": "^SlikSVN-"
+	},
+	"urls": [
+		"https://github.com/AmpScm/SharpSvn/releases/download/{github.rawTag}/Slik-Subversion-{version}-win32.msi",
+		"https://github.com/AmpScm/SharpSvn/releases/download/{github.rawTag}/Slik-Subversion-{version}-x64.msi",
+		"https://github.com/AmpScm/SharpSvn/releases/download/{github.rawTag}/Slik-Subversion-{version}-ARM64.msi"
+	]
+}
