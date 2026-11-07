@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.epa.gov/system/files/other-files/2023-08/swmm524(x64)_setup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://www.epa.gov/system/files/other-files/2023-08/swmm524(x86)_setup.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/USEPA/Stormwater-Management-Model/releases"
+	}
+}
