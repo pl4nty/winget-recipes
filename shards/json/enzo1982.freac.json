@@ -3,8 +3,11 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "enzo1982",
-		"repo": "freac",
-		"method": "api-sort",
-		"assetRegex": "^(?:freac\\-\\d+\\.\\d+\\.\\d+\\-windows\\-arm64\\.zip|freac\\-\\d+\\.\\d+\\.\\d+\\-windows\\-i686\\.zip|freac\\-\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\.zip)$"
-	}
+		"repo": "freac"
+	},
+	"urls": [
+		"https://github.com/enzo1982/freac/releases/download/{github.rawTag}/freac-{version}-windows-arm64.zip",
+		"https://github.com/enzo1982/freac/releases/download/{github.rawTag}/freac-{version}-windows-i686.zip",
+		"https://github.com/enzo1982/freac/releases/download/{github.rawTag}/freac-{version}-windows-x64.zip"
+	]
 }
