@@ -255,6 +255,22 @@ type DryRun = {
 	raws: Map<string, string>;
 	yamls: Map<string, string | undefined>;
 };
+// Upstream versions keep one format, so a newer version must use the same prefix, separators, zero padding and part count.
+// Extra non-zero parts are a new version component, not a format change.
+function formatDifference(version: string, latest: string) {
+	const [ours, theirs] = [version, latest].map((value) => /^(\D*)(\d+(?:[.+_]\d+)*)/.exec(value));
+	if (!ours || !theirs) return;
+	if (ours[1]!.toLowerCase() !== theirs[1]!.toLowerCase()) return `prefix "${ours[1]}" instead of "${theirs[1]}"`;
+	const [a, b] = [ours[2]!, theirs[2]!].map((core) => core.split(/[.+_]/));
+	const [as, bs] = [ours[2]!, theirs[2]!].map((core) => core.replace(/\d/g, ''));
+	const shared = Math.min(as.length, bs.length);
+	if (as.slice(0, shared) !== bs.slice(0, shared)) return 'different separators';
+	const extra = a.length > b.length ? a.slice(b.length) : b.slice(a.length);
+	if (extra.length && extra.every((part) => /^0+$/.test(part))) return `${a.length} parts instead of ${b.length}`;
+	const padded = (part: string, other: string) => part.length > 1 && part.startsWith('0') && other.length < part.length;
+	if (a.some((part, i) => b[i] !== undefined && (padded(part, b[i]) || padded(b[i], part)))) return 'different zero padding';
+}
+
 // A package Id ending in one of these is a prerelease channel of the package without it.
 const CHANNEL = /\/(?:alpha|beta|canary|dev|experimental|insiders?|nightly|pre|prerelease|preview|rc)$/i;
 
@@ -365,6 +381,8 @@ const dryRunValues: Rule = async (shards, report) => {
 			report(shard, `${name}: dry run version ${version} is ${latest} written differently`);
 		else if (/[\s()]/.test(version) && !/[\s()]/.test(latest))
 			report(shard, `${name}: dry run version ${version} has spaces or brackets, unlike ${latest}`);
+		else if (formatDifference(version, latest))
+			report(shard, `${name}: dry run version ${version} is not written like ${latest}: ${formatDifference(version, latest)}`);
 		const hashes = new Set(before.map((installer) => installer.InstallerSha256));
 		if (version !== latest && after.every((installer) => hashes.has(installer.InstallerSha256)))
 			report(shard, `${name}: dry run version ${version} has the same installers as ${latest}`);
