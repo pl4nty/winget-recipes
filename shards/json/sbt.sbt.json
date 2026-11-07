@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sbt",
+		"repo": "sbt"
+	},
+	"urls": ["https://github.com/sbt/sbt/releases/download/v{version}/sbt-{version}.msi"]
+}
