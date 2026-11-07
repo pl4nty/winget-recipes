@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "neuron-workspace",
+		"repo": "Neuron"
+	},
+	"urls": [
+		"https://github.com/neuron-workspace/Neuron/releases/download/v{version}/Neuron-{version}-win-x64.exe"
+	]
+}
