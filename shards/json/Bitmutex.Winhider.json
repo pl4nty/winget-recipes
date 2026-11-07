@@ -6,6 +6,6 @@
 		"repo": "winhider"
 	},
 	"urls": [
-		"https://github.com/aamitn/winhider/releases/download/{github.rawTag}/WinhiderInstaller.exe"
+		{ "url": "https://github.com/aamitn/winhider/releases/download/{github.rawTag}/WinhiderInstaller.exe", "architecture": "x64" }
 	]
 }
