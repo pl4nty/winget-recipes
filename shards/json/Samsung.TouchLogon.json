@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "file" },
+	"version": { "source": "product" },
 	"urls": [
 		{
 			"url": "https://downloadcenter.samsung.com/content/SW/201201/20120105111636324/Touch_Logon_64bit_2.0.0.8.ZIP",
