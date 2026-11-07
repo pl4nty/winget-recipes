@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "myiam-io",
+		"repo": "homebrew-tap",
+		"method": "api-sort",
+		"tagRegex": "^due2-cli-v"
+	},
+	"urls": [
+		"https://github.com/myiam-io/homebrew-tap/releases/download/{github.rawTag}/due2-cli-{version}-windows-x64.zip"
+	]
+}
