@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.virtualhere.com/windows_server_software",
+		"regex": "version (\\d+(?:\\.\\d+)+) Changes"
+	},
+	"urls": [
+		"https://www.virtualhere.com/sites/default/files/usbserver/vhusbdwinw64.exe",
+		"https://www.virtualhere.com/sites/default/files/usbserver/vhusbdwinarmw64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.virtualhere.com/node/958#:~:text={version}"
+	}
+}
