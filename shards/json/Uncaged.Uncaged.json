@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "getuncaged",
+		"repo": "uncaged"
+	},
+	"urls": [
+		"https://github.com/getuncaged/uncaged/releases/download/v{version}/Uncaged-windows-x86_64-setup.exe",
+		"https://github.com/getuncaged/uncaged/releases/download/v{version}/Uncaged-windows-aarch64-setup.exe"
+	]
+}
