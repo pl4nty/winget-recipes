@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		{
+			"url": "https://update.rode.com/virtual_dev_driver/RODECasterDriver_WIN.zip",
+			"nestedInstallerMatches": ["RODECasterDriver ("]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://update.rode.com/virtual_dev_driver/RODECasterDriver_WIN.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
