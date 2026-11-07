@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "micro-editor",
+		"repo": "micro"
+	},
+	"urls": [
+		"https://github.com/micro-editor/micro/releases/download/v{version}/micro-{version}-win32.zip",
+		"https://github.com/micro-editor/micro/releases/download/v{version}/micro-{version}-win64.zip",
+		"https://github.com/micro-editor/micro/releases/download/v{version}/micro-{version}-win-arm64.zip"
+	]
+}

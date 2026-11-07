@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/5d7f9f58-9c8c-40c0-a1fd-a2342a3e073e/e495d7aa-5c51-4b12-83ef-5f833d8dc8fa/dotnet-hosting-9.0.22-win.exe"
+	]
+}

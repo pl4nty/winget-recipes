@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Skills-transfer-hub",
+		"repo": "sth-releases"
+	},
+	"urls": [
+		"https://github.com/Skills-transfer-hub/sth-releases/releases/download/{github.rawTag}/sth-windows-amd64.zip"
+	]
+}
