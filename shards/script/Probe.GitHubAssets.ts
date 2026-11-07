@@ -1,14 +1,14 @@
 import { defineShard } from 'anthelion';
 
-const urls = ['https://downloads.usbradar.com/latest/usbradar-standard/setup', 'https://www.usbradar.com/changelog/'];
+const urls = ['https://downloads.usbradar.com/latest/usbradar-standard/setup'];
 
 export default defineShard(async () => {
 	const out: Record<string, unknown> = {};
 	for (const url of urls) {
 		try {
-			const response = await fetch(url);
-			out[url] = { status: response.status, url: response.url, headers: Object.fromEntries(response.headers) };
-			await response.body?.cancel();
+			const response = await fetch(url, { signal: AbortSignal.timeout(60000) });
+			console.log('PROBE-HEADERS', response.status, response.url, JSON.stringify(Object.fromEntries(response.headers)));
+			out[url] = response.status;
 		} catch (error) {
 			out[url] = String(error);
 		}
