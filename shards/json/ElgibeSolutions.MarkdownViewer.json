@@ -6,7 +6,6 @@
 		"repo": "MarkdownViewer"
 	},
 	"urls": [
-		"https://github.com/lucianbumb/MarkdownViewer/releases/download/{github.rawTag}/Markdown.Viewer.Setup.{version}.exe",
-		"https://github.com/lucianbumb/MarkdownViewer/releases/download/{github.rawTag}/Markdown.Viewer.{version}.appx"
+		"https://github.com/lucianbumb/MarkdownViewer/releases/download/{github.rawTag}/Markdown.Viewer.Setup.{version}.exe"
 	]
 }
