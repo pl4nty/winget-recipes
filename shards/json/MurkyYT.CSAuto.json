@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "MurkyYT",
-		"repo": "CSAuto"
-	},
-	"urls": ["https://github.com/MurkyYT/CSAuto/releases/download/{version}/CSAuto_Installer.exe"]
-}
