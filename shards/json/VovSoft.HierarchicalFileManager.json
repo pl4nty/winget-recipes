@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/hierarchical-file-manager/",
+		"regex": "<span class=\"notranslate\">Hierarchical File Manager (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://files.vovsoft.com/hierarchical-file-manager.exe", "https://files.vovsoft.com/hierarchical-file-manager-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/hierarchical-file-manager/"
+	}
+}
