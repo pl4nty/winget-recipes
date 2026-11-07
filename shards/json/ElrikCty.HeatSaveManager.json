@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ElrikCty",
+		"repo": "heat-save-manager"
+	},
+	"urls": [
+		"https://github.com/ElrikCty/heat-save-manager/releases/download/{github.rawTag}/HeatSaveManager-v{version}-windows-x64-installer.exe",
+		"https://github.com/ElrikCty/heat-save-manager/releases/download/{github.rawTag}/HeatSaveManager-v{version}-windows-x64.exe",
+		"https://github.com/ElrikCty/heat-save-manager/releases/download/{github.rawTag}/HeatSaveManager-v{version}-windows-x64.zip"
+	]
+}
