@@ -6,6 +6,6 @@
 		"repo": "OpenVR-AdvancedSettings"
 	},
 	"urls": [
-		"https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings/releases/download/{version}/AdvancedSettings-{version}-Installer.exe"
+		{ "url": "https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings/releases/download/{version}/AdvancedSettings-{version}-Installer.exe", "architecture": "x86" }
 	]
 }
