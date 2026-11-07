@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DimisAIO",
+		"repo": "DindeGDPS-Launcher"
+	},
+	"urls": ["https://github.com/DimisAIO/DindeGDPS-Launcher/releases/download/{version}/DindeGDPS.exe"]
+}

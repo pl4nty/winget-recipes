@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RigsOfRods",
+		"repo": "rigs-of-rods"
+	},
+	"urls": ["https://github.com/RigsOfRods/rigs-of-rods/releases/download/{version}/rigs-of-rods-{version}.exe"]
+}
