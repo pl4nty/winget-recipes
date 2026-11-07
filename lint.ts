@@ -306,7 +306,9 @@ const source = (url: unknown) => {
 const redirects = async (url: string) => {
 	const sources = [source(url)];
 	for (let hop = 0; hop < 10; hop++) {
-		const location = (await fetch(url, { method: 'HEAD', redirect: 'manual' }).catch(() => undefined))?.headers.get('location');
+		const response = await fetch(url, { headers: { Range: 'bytes=0-0' }, redirect: 'manual' }).catch(() => undefined);
+		await response?.body?.cancel();
+		const location = response?.headers.get('location');
 		if (!location) break;
 		url = new URL(location, url).href;
 		sources.push(source(url));
