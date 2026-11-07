@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chaosforgeorg",
+		"repo": "drl"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://github.com/chaosforgeorg/drl/releases/download/{github.rawTag}/drl-{github.rawTag|_|}.exe"
+	]
+}
