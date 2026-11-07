@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pcpl2lab",
+		"repo": "sshforward"
+	},
+	"urls": [
+		"https://github.com/pcpl2lab/sshforward/releases/download/v{version}/sshforward_windows_arm64.zip",
+		"https://github.com/pcpl2lab/sshforward/releases/download/v{version}/sshforward_windows_amd64.zip",
+		"https://github.com/pcpl2lab/sshforward/releases/download/v{version}/sshforward_windows_386.zip"
+	]
+}
