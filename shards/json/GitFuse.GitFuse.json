@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VectorSolus",
+		"repo": "GitFuse"
+	},
+	"urls": [
+		"https://github.com/VectorSolus/GitFuse/releases/download/{github.rawTag}/gitfuse_{version}_windows_amd64.zip"
+	]
+}
