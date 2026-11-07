@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "ONLYOFFICE", "repo": "DesktopEditors" },
+	"urls": [
+		"https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v{version}/DesktopEditors_x86.exe",
+		"https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v{version}/DesktopEditors_x64.exe",
+		"https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v{version}/DesktopEditors_arm64.exe"
+	]
+}
