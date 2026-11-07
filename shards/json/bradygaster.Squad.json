@@ -2,11 +2,11 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "bradygaster",
+		"owner": "github",
 		"repo": "squad"
 	},
 	"urls": [
-		"https://github.com/bradygaster/squad/releases/download/{github.rawTag}/squad-win32-arm64.zip",
-		"https://github.com/bradygaster/squad/releases/download/{github.rawTag}/squad-win32-x64.zip"
+		"https://github.com/github/squad/releases/download/{github.rawTag}/squad-win32-arm64.zip",
+		"https://github.com/github/squad/releases/download/{github.rawTag}/squad-win32-x64.zip"
 	]
 }
