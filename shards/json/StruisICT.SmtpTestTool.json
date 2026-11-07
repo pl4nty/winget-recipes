@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "StruisICT",
+		"repo": "smtp-test-tool"
+	},
+	"urls": [
+		"https://github.com/StruisICT/smtp-test-tool/releases/download/v{version}/smtp-test-tool-x86_64-pc-windows-msvc.zip"
+	]
+}
