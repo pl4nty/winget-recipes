@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "GyanD",
 		"repo": "codexffmpeg",
-		"method": "api-list",
 		"tagRegex": "^(?=\\d+(?:\\.\\d+)+$)"
 	},
 	"urls": [
