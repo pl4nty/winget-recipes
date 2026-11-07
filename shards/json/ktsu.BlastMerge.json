@@ -13,6 +13,12 @@
 			]
 		},
 		{
+			"url": "https://github.com/ktsu-dev/BlastMerge/releases/download/{github.rawTag}/BlastMerge.Cli-{version}-win-x86.zip",
+			"nestedInstallerMatches": [
+				"ktsu.BlastMerge.Cli.exe"
+			]
+		},
+		{
 			"url": "https://github.com/ktsu-dev/BlastMerge/releases/download/{github.rawTag}/BlastMerge.Cli-{version}-win-arm64.zip",
 			"nestedInstallerMatches": [
 				"ktsu.BlastMerge.Cli.exe"
