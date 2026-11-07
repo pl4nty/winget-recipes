@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bluewhackadoo",
+		"repo": "RDPea"
+	},
+	"urls": [
+		"https://github.com/bluewhackadoo/RDPea/releases/download/{github.rawTag}/RDPea-Setup-{version}.exe"
+	]
+}
