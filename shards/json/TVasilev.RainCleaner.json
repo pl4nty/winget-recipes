@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "raincleaner",
+		"repo": "RainCleaner"
+	},
+	"urls": ["https://github.com/raincleaner/RainCleaner/releases/download/v{version}/RainCleaner-Setup-{version}.msi"]
+}
