@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kayapater",
+		"repo": "kayauth"
+	},
+	"urls": [
+		"https://github.com/kayapater/kayauth/releases/download/{github.rawTag}/Kayauth.msi"
+	]
+}
