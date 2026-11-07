@@ -7,6 +7,7 @@ export default defineShard(async () => {
 	const release = await getLatestRelease({
 		owner: 'Whiteknight',
 		repo: 'Mdq',
+		kind: 'all',
 	});
 
 	const parts = release.tag.split('.');
