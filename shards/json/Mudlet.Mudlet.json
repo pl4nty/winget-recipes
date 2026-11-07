@@ -4,8 +4,9 @@
 	"github": {
 		"owner": "Mudlet",
 		"repo": "Mudlet",
-		"method": "api-sort",
-		"tagRegex": "^Mudlet-(?=\\d+(?:\\.\\d+)+$)",
-		"assetRegex": "-windows-64-installer\\.exe$"
-	}
+		"tagRegex": "^Mudlet-(?=\\d+(?:\\.\\d+)+$)"
+	},
+	"urls": [
+		"https://github.com/Mudlet/Mudlet/releases/download/{github.rawTag}/{github.rawTag}-windows-64-installer.exe"
+	]
 }
