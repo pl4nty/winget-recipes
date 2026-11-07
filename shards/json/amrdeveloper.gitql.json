@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AmrDeveloper",
+		"repo": "GQL"
+	},
+	"urls": [
+		"https://github.com/AmrDeveloper/GQL/releases/download/{github.rawTag}/gql-x86-windows.exe",
+		"https://github.com/AmrDeveloper/GQL/releases/download/{github.rawTag}/gql-x86_64-windows.exe"
+	]
+}
