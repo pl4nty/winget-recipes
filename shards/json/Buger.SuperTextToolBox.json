@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Buger2008",
+		"repo": "SuperTextToolBox"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/Buger2008/SuperTextToolBox/releases/download/{github.rawTag}/Setup.exe"
+	]
+}
