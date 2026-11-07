@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PlotnikovDL",
+		"repo": "AdminConsoleFor1C"
+	},
+	"urls": [
+		"https://github.com/PlotnikovDL/AdminConsoleFor1C/releases/download/v{version}/AdminConsoleFor1C-{version}-win-x64-setup.exe"
+	]
+}
