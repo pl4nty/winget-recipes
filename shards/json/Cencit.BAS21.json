@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://bas21.no/download/",
+		"regex": "download\\.bas21\\.no/bas21/BAS21-(\\d+(?:\\.\\d+)+)-x64\\.msi"
+	},
+	"urls": ["https://download.bas21.no/bas21/BAS21-{version}-x64.msi"]
+}
