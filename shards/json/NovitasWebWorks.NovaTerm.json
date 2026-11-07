@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "novitaswebworks",
+		"repo": "novaterm"
+	},
+	"urls": [
+		"https://github.com/novitaswebworks/novaterm/releases/download/v{version}/NovaTerm_{version}_x64_en-US.msi",
+		"https://github.com/novitaswebworks/novaterm/releases/download/v{version}/NovaTerm_{version}_x64-setup.exe"
+	]
+}
