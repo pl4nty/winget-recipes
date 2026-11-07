@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "calendulish",
+		"repo": "steam-tools-ng"
+	},
+	"urls": [
+		"https://github.com/calendulish/steam-tools-ng/releases/download/{github.rawTag}/steam-tools-ng-setup.exe"
+	]
+}
