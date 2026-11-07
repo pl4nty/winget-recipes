@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rozsazoltan",
+		"repo": "messenger",
+		"method": "redirect",
+		"tagRegex": "(?:-\\d+)?$"
+	},
+	"urls": ["https://github.com/rozsazoltan/messenger/releases/download/{github.rawTag}/messenger-next.msi"]
+}
