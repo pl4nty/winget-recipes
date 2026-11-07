@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hazeliscoding",
+		"repo": "xiv-vault"
+	},
+	"urls": [
+		"https://github.com/hazeliscoding/xiv-vault/releases/download/{github.rawTag}/xiv-vault-cli-win-x64.zip"
+	]
+}
