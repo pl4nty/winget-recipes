@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "plum-221", "repo": "markeep-releases" },
+	"urls": ["https://github.com/plum-221/markeep-releases/releases/download/{github.rawTag}/Markeep-Setup-{version}.exe"]
+}

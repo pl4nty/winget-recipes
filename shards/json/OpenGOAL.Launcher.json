@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "open-goal",
+		"repo": "launcher"
+	},
+	"urls": [
+		"https://github.com/open-goal/launcher/releases/download/{github.rawTag}/OpenGOAL-Launcher_{version}_x64_en-US.msi"
+	]
+}
