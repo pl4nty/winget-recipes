@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/ItayCohen-Prog/CodexWinBar/releases/download/{github.rawTag}/CodexWinBar-win-Setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/ItayCohen-Prog/CodexWinBar/releases/tag/{github.rawTag}"
-	}
+	]
 }
