@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://www.mediafire.com/file_premium/yso5urd4nl22ing/AnyCam_Setup_x64.msi/file"
+	]
+}
