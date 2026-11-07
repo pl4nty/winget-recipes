@@ -1,10 +1,10 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
-	},
-	"urls": [
-		"https://inmusic.to/ISCPC"
-	]
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://inmusic.to/ISCPC"
+		],
+		"regex": "/inMusic%20Software%20Center-(\\d+(?:\\.\\d+)+)%20Setup\\.exe$"
+	}
 }
