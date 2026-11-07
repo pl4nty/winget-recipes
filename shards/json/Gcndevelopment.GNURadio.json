@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://www.gcndevelopment.com/gnuradio/downloads.htm",
+		"regex": "downloads/installers/v(?<version>\\d+(?:\\.\\d+)+)/(?<file>gnuradio_\\d+(?:\\.\\d+)+_win64\\.msi)"
+	},
+	"urls": ["http://www.gcndevelopment.com/gnuradio/downloads/installers/v{version}/{captures.file}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "http://www.gcndevelopment.com/gnuradio/change_log.htm"
+	}
+}
