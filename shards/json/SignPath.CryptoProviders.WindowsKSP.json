@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.signpath.io/changelog",
+		"regex": "/cryptoproviders/windows-ksp/(\\d+\\.\\d+\\.\\d+)/x64/SignPath\\.Windows\\.KSP\\.msi"
+	},
+	"urls": [
+		"https://download.signpath.io/cryptoproviders/windows-ksp/{version}/x64/SignPath.Windows.KSP.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.signpath.io/changelog"
+	}
+}
