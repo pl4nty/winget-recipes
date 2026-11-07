@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AbdulazizJHK",
+		"repo": "zoom-toolkit"
+	},
+	"urls": [
+		"https://github.com/AbdulazizJHK/zoom-toolkit/releases/download/{github.rawTag}/Zoom.Toolkit.exe"
+	]
+}
