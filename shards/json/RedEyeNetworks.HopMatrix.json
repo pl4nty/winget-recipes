@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://download.redeyenetworks.com/hopmatrix/releases/latest/HopMatrix-win-x64-setup.exe",
+		"https://download.redeyenetworks.com/hopmatrix/releases/latest/HopMatrix-win-x64-machine-setup.exe",
+		"https://download.redeyenetworks.com/hopmatrix/releases/latest/HopMatrix-win-arm64-setup.exe",
+		"https://download.redeyenetworks.com/hopmatrix/releases/latest/HopMatrix-win-arm64-machine-setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.redeyenetworks.com/hopmatrix/releases/latest/HopMatrix-win-x64-setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
