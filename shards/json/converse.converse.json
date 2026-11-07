@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "conversejs",
+		"repo": "converse-desktop"
+	},
+	"urls": [
+		"https://github.com/conversejs/converse-desktop/releases/download/{github.rawTag}/Converse.Desktop.Setup.{version}.exe"
+	]
+}
