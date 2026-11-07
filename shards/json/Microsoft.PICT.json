@@ -3,9 +3,10 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "microsoft",
-		"repo": "PackageUploader"
+		"repo": "pict"
 	},
+	"version": "{version}.0",
 	"urls": [
-		"https://github.com/microsoft/PackageUploader/releases/download/v{version}/PackageUploader.{version}.win-x64.zip"
+		"https://github.com/microsoft/pict/releases/download/v{version}/pict.exe"
 	]
 }

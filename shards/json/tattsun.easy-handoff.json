@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tattsun",
+		"repo": "easy-handoff"
+	},
+	"urls": [
+		"https://github.com/tattsun/easy-handoff/releases/download/v{version}/easy-handoff-setup-{version}.exe"
+	]
+}
