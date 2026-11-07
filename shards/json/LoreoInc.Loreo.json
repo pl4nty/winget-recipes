@@ -3,9 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "farrokh",
-		"repo": "loreo-releases"
-	},
-	"urls": [
-		"https://github.com/farrokh/loreo-releases/releases/download/{github.rawTag}/Loreo_{version}_x64-setup.exe"
-	]
+		"repo": "loreo-releases",
+		"method": "api-sort",
+		"assetRegex": "_x64-setup\\.exe$"
+	}
 }
