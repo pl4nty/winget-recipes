@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://pizzanbeer.net/droidstar/",
+		"regex": "DroidStar-([0-9a-f]{7,})-md380emu-win-x64\\.exe"
+	},
+	"urls": ["http://pizzanbeer.net/droidstar/DroidStar-{version}-md380emu-win-x64.exe"]
+}
