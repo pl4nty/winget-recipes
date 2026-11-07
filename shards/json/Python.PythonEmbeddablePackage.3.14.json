@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.python.org/downloads/windows/",
+		"regex": "/ftp/python/3\\.14\\.\\d+/python-(3\\.14\\.\\d+)-embed-amd64\\.zip\""
+	},
+	"urls": [
+		{
+			"url": "https://www.python.org/ftp/python/{version}/python-{version}-embed-amd64.zip",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://www.python.org/ftp/python/{version}/python-{version}-embed-win32.zip",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.python.org/ftp/python/{version}/python-{version}-embed-arm64.zip",
+			"architecture": "arm64"
+		}
+	]
+}
