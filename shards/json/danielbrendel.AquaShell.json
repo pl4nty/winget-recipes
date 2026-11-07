@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "danielbrendel",
+		"repo": "dnyAquaShell"
+	},
+	"urls": [
+		"https://github.com/danielbrendel/dnyAquaShell/releases/download/v{version}/AquaShell_v{version}.zip"
+	]
+}
