@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/auto-mouse-clicker/",
+		"regex": "<span class=\"notranslate\">Auto Mouse Clicker (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://files.vovsoft.com/auto-mouse-clicker.exe", "https://files.vovsoft.com/auto-mouse-clicker-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/auto-mouse-clicker/"
+	}
+}
