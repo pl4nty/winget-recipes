@@ -6,6 +6,6 @@
 		"repo": "OpenSpeedy"
 	},
 	"urls": [
-		"https://github.com/game1024/OpenSpeedy/releases/download/{github.rawTag}/OpenSpeedy-{version}-portable-signed.zip"
+		{ "url": "https://github.com/game1024/OpenSpeedy/releases/download/{github.rawTag}/OpenSpeedy-{version}-portable-signed.zip", "architecture": "neutral" }
 	]
 }
