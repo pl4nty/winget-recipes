@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JamesCJ60",
+		"repo": "Universal-x86-Tuning-Utility"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/JamesCJ60/Universal-x86-Tuning-Utility/releases/download/{github.rawTag}/Universal.x86.Tuning.Utility.msi",
+			"architecture": "x64"
+		}
+	]
+}
