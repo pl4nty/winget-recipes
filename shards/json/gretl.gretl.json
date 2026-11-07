@@ -1,9 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "sourceforge",
-	"sourceforge": {
-		"project": "gretl",
-		"file": "gretl-{version}-win64.zip"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://gretl.sourceforge.net/win32/",
+		"regex": "gretl-(\\d{4}[a-z])-win64\\.zip"
 	},
 	"urls": [
 		"https://prdownloads.sourceforge.net/gretl/gretl-{version}-win64.zip",
