@@ -7,6 +7,9 @@
 	},
 	"version": "{version}.0.0",
 	"urls": [
-		"https://ddsviewer.com/ddsviewersetup.exe"
+		{
+			"url": "https://ddsviewer.com/ddsviewersetup.exe",
+			"architecture": "x64"
+		}
 	]
 }
