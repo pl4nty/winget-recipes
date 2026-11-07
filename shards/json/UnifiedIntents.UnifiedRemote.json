@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.unifiedremote.com/download/windows-setup"],
+		"regex": "/static/builds/server/windows-x86/(?<build>\\d+)/ServerSetup-(?<version>\\d+\\.\\d+\\.\\d+)\\.\\d+\\.exe$"
+	},
+	"urls": [
+		{ "url": "https://www.unifiedremote.com/static/builds/server/windows-x86/{captures.build}/ServerSetup-{version}.{captures.build}.exe", "architecture": "x64" }
+	]
+}
