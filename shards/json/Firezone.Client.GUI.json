@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "firezone",
+		"repo": "firezone",
+		"tagRegex": "^gui\\-client\\-",
+		"method": "api-sort",
+		"assetRegex": "^(?:firezone\\-client\\-gui\\-windows_\\d+\\.\\d+\\.\\d+_aarch64\\.msi|firezone\\-client\\-gui\\-windows_\\d+\\.\\d+\\.\\d+_x86_64\\.msi)$"
+	}
+}
