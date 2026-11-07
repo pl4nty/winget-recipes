@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jm2",
+		"repo": "tributary"
+	},
+	"urls": [
+		"https://github.com/jm2/tributary/releases/download/{github.rawTag}/tributary-windows-aarch64-setup.exe",
+		"https://github.com/jm2/tributary/releases/download/{github.rawTag}/tributary-windows-x86_64-setup.exe"
+	]
+}
