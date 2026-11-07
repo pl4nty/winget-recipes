@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Xyneris-tech",
+		"repo": "ZNinja"
+	},
+	"urls": [
+		"https://github.com/Xyneris-tech/ZNinja/releases/download/{github.rawTag}/ZNinja-Setup-{version}.exe"
+	]
+}

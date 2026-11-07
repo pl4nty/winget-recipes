@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Wozzardman", "repo": "Fsize" },
+	"urls": ["https://github.com/Wozzardman/Fsize/releases/download/v{version}/fsize-v{version}-windows-x64-portable.zip"]
+}
