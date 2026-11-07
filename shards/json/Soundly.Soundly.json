@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": [{ "url": "https://storage.googleapis.com/soundlyapp/soundly-setup.exe", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://storage.googleapis.com/soundlyapp/soundly-setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
