@@ -6,8 +6,5 @@
 		"repo": "chromatix-release",
 		"method": "api-sort",
 		"assetRegex": "^(?:Chromatix\\-Setup\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
-	},
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/chromatix-app/chromatix-release/releases/tag/{github.rawTag}"
 	}
 }
