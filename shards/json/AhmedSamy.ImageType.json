@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/ahmedthebest31/ImageType/releases/download/{github.rawTag}/ImageType_Setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/ahmedthebest31/ImageType/releases/tag/{github.rawTag}"
-	}
+	]
 }
