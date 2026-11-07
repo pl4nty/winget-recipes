@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://git.silica.codes/api/v1/repos/Li/DumpDVD/releases/latest",
+		"regex": "\"tag_name\":\"(?<tag>[^\"]+)\"[\\s\\S]*?\"html_url\":\"(?<page>[^\"]+)\""
+	},
+	"version": {
+		"source": "file"
+	},
+	"urls": ["https://git.silica.codes/Li/DumpDVD/releases/download/{captures.tag}/DumpDVD.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "{captures.page}"
+	}
+}
