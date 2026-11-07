@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Bahaaio",
+		"repo": "pomo"
+	},
+	"urls": [
+		"https://github.com/Bahaaio/pomo/releases/download/{github.rawTag}/pomo_Windows_arm64.zip",
+		"https://github.com/Bahaaio/pomo/releases/download/{github.rawTag}/pomo_Windows_x86_64.zip"
+	]
+}
