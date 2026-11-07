@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ioninja.com/downloads/",
+		"regex": "ioninja-(\\d+(?:\\.\\d+)+)-windows-amd64-core\\.msi"
+	},
+	"urls": [
+		"https://ioninja.com/downloads/archive/ioninja/ioninja-{version}/ioninja-{version}-windows-amd64-core.msi",
+		"https://ioninja.com/downloads/archive/ioninja/ioninja-{version}/ioninja-{version}-windows-x86-core.msi",
+		"https://ioninja.com/downloads/archive/ioninja/ioninja-{version}/ioninja-{version}-windows-arm64-core.msi"
+	]
+}
