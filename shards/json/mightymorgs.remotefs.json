@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mightymorgs", "repo": "remote-fs-browser" },
+	"urls": ["https://github.com/mightymorgs/remote-fs-browser/releases/download/{github.rawTag}/remotefs-{version}-windows-x64.zip"]
+}
