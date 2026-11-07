@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ashishpatel26",
+		"repo": "RAMKeeper"
+	},
+	"urls": [
+		"https://github.com/ashishpatel26/RAMKeeper/releases/download/{github.rawTag}/RAMKeeper.exe"
+	]
+}
