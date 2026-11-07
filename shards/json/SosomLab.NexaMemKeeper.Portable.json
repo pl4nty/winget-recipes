@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SosomLab",
+		"repo": "nexa-memkeeper"
+	},
+	"urls": ["https://github.com/SosomLab/nexa-memkeeper/releases/download/{version}/NexaMemKeeper-{version}-portable.zip"]
+}
