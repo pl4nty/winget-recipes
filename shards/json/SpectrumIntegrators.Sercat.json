@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jonathan-spectrumintegrators",
+		"repo": "sercat"
+	},
+	"urls": [
+		"https://github.com/jonathan-spectrumintegrators/sercat/releases/download/v{version}/sercat-{version}-win-x64.zip"
+	]
+}
