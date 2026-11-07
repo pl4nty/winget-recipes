@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.comfortsoftware.com/download/ComfortClipboardSetup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.comfortsoftware.com/clipboard-manager/version-history/"
+	}
+}
