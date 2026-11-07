@@ -6,8 +6,9 @@
 	},
 	"github": {
 		"owner": "dmezhnov",
-		"repo": "knitcalc",
-		"method": "api-latest",
-		"assetRegex": "^(?:knitcalc\\-setup\\-x64\\-\\d+\\.\\d+\\.\\d+\\+\\d+\\.exe)$"
-	}
+		"repo": "knitcalc"
+	},
+	"urls": [
+		"https://github.com/dmezhnov/knitcalc/releases/download/{github.rawTag}/knitcalc-setup-x64-{version}.exe"
+	]
 }
