@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://bearware.dk/teamtalk/",
+		"regex": "href=\"v(5\\.\\d+(?:\\.\\d+)?)/\""
+	},
+	"urls": ["https://bearware.dk/teamtalk/v{version}/TeamTalk_v{version}_Setup.exe"]
+}
