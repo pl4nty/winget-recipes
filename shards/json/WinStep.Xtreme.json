@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.winstep.net/news.asp",
+		"regex": "/news/winstep_xtreme_v(\\d+(?:\\.\\d+)+)_released\\.asp"
+	},
+	"urls": [
+		{
+			"url": "https://winstep.net/versions/v{version}/xtreme.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["XtremeSetup.exe"]
+		}
+	]
+}
