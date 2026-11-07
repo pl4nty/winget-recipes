@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "thedangander", "repo": "Git-Repo-Manager" },
+	"urls": ["https://github.com/thedangander/Git-Repo-Manager/releases/download/v{version}/GitRepoManager-win-x64.zip"]
+}
