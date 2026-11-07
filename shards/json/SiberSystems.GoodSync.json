@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://services.goodsync.com/download/GoodSync-vsub-Setup.msi",
+		"https://services.goodsync.com/download/GoodSync-vsub-Setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://services.goodsync.com/download/GoodSync-vsub-Setup.msi",
+		"header": "etag"
+	}
+}
