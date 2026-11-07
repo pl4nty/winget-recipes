@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/c12714a7-9014-4889-ae73-04ded822c709/cd1bac00-c640-46ef-870d-75b5e60d702e/dotnet-hosting-10.0.14-win.exe"
+	]
+}

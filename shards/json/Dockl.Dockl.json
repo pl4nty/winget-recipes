@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ssawaki",
+		"repo": "dockl"
+	},
+	"urls": [
+		"https://github.com/ssawaki/dockl/releases/download/{github.rawTag}/Dockl_{version}_x64-setup.exe"
+	]
+}
