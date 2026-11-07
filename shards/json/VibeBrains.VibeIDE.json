@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VibeBrains",
+		"repo": "VibeIDE",
+		"method": "api-list",
+		"tagRegex": "^v(?=\\d)"
+	},
+	"urls": [
+		"https://github.com/VibeBrains/VibeIDE/releases/download/{github.rawTag}/VibeIDESetup.exe",
+		"https://github.com/VibeBrains/VibeIDE/releases/download/{github.rawTag}/VibeIDESetup-arm64.exe"
+	]
+}
