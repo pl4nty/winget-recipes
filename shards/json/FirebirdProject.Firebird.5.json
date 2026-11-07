@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FirebirdSQL",
+		"repo": "firebird",
+		"method": "api-sort",
+		"tagRegex": "^v(?=5\\.\\d+\\.\\d+$)",
+		"perPage": 100,
+		"assetRegex": "^Firebird-\\d+(?:\\.\\d+)+-\\d+-windows-(?:x86|x64)\\.exe$"
+	}
+}
