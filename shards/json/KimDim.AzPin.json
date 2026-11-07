@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lfmundim",
+		"repo": "AzPin"
+	},
+	"urls": [
+		"https://github.com/lfmundim/AzPin/releases/download/{github.rawTag}/AzPin-Windows-{version}-Installer.msi"
+	]
+}
