@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kunobi-ninja",
+		"repo": "kobe"
+	},
+	"urls": [
+		"https://github.com/kunobi-ninja/kobe/releases/download/{github.rawTag}/kobe-aarch64-pc-windows-msvc.exe",
+		"https://github.com/kunobi-ninja/kobe/releases/download/{github.rawTag}/kobe-x86_64-pc-windows-msvc.exe"
+	]
+}
