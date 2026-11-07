@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.sequencepublishing.com/cgi-bin/download.cgi?thesage"],
+		"regex": "/TheSage_Setup_(?<version>\\d+(?:-\\d+)+)\\.exe$"
+	},
+	"version": "{version|-|.}",
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sequencepublishing.com/1/thesage/thesage.html"
+	}
+}
