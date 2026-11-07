@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://developer.samsung.com/watch-face-studio/download.html",
+		"regex": "Watch Face Studio for Win (?<version>\\d+(?:\\.\\d+)+)[^<]*</span>[\\s\\S]*?href=\"/WatchFaceStudio/file/(?<id>[0-9a-f-]+)\""
+	},
+	"urls": ["https://developer.samsung.com/WatchFaceStudio/file/{captures.id}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://developer.samsung.com/watch-face-studio/release-note.html"
+	}
+}
