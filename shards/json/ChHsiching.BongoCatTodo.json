@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ChHsiching",
+		"repo": "bongocat-todo"
+	},
+	"urls": [
+		"https://github.com/ChHsiching/bongocat-todo/releases/download/{github.rawTag}/BongoCat.Todo_{version}_arm64-setup.exe",
+		"https://github.com/ChHsiching/bongocat-todo/releases/download/{github.rawTag}/BongoCat.Todo_{version}_x64-setup.exe",
+		"https://github.com/ChHsiching/bongocat-todo/releases/download/{github.rawTag}/BongoCat.Todo_{version}_x86-setup.exe"
+	]
+}
