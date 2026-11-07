@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/eeyzs1/DevWit/releases/download/{github.rawTag}/DevWit.Setup.{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/eeyzs1/DevWit/releases/tag/{github.rawTag}"
-	}
+	]
 }
