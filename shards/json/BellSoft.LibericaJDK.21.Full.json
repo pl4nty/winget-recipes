@@ -1,0 +1,24 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://download.bell-sw.com/java/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-windows-amd64-full.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://download.bell-sw.com/java/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-windows-i586-full.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://download.bell-sw.com/java/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-windows-aarch64-full.msi",
+			"architecture": "arm64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.bell-sw.com/liberica-jdk/21.0.13.0.3b5/general/release-notes/"
+	}
+}
