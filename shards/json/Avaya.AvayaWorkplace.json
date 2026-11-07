@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://workplace.lipinski.cloud/",
+		"regex": "/webdeployment/downloads/AvayaWorkplaceWindows-(\\d+(?:\\.\\d+){3})\\.(?<build>\\d+)\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://workplace.lipinski.cloud/webdeployment/downloads/AvayaWorkplaceWindows-{version}.{captures.build}.zip",
+			"nestedInstallerMatches": ["Avaya Workplace Setup"]
+		}
+	]
+}
