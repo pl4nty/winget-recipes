@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the.talyh.com/download",
+		"regex": "downloads\\.talyh\\.com/releases/(?<version>\\d+(?:\\.\\d+)+)/The-\\k<version>-setup\\.exe"
+	},
+	"urls": ["https://downloads.talyh.com/releases/{version}/The-{version}-setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the.talyh.com/changelog"
+	}
+}
