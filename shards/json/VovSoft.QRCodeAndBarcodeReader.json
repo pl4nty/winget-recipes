@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/qr-code-and-barcode-reader/",
+		"regex": "<span class=\"notranslate\">QR Code And Barcode Reader (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		"https://files.vovsoft.com/qr-code-and-barcode-reader.exe",
+		"https://files.vovsoft.com/qr-code-and-barcode-reader-portable.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/qr-code-and-barcode-reader/"
+	}
+}
