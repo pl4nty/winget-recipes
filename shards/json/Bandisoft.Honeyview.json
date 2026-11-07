@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://en.bandisoft.com/honeyview/history/",
+		"regex": "<h1>Honeyview Version History</h1>\\s*<h2>(?:<font[^>]*>)?v(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://bandisoft.app/honeyview/HONEYVIEW-SETUP.EXE", "https://bandisoft.app/honeyview.kr/HONEYVIEW-SETUP-KR.EXE"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://en.bandisoft.com/honeyview/history/"
+	},
+	"replace": true
+}
