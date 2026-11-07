@@ -6,6 +6,6 @@
 		"repo": "ArcCreate"
 	},
 	"urls": [
-		"https://github.com/Arcthesia/ArcCreate/releases/download/{github.rawTag}/StandaloneWindows64.zip"
+		{ "url": "https://github.com/Arcthesia/ArcCreate/releases/download/{github.rawTag}/StandaloneWindows64.zip", "architecture": "neutral" }
 	]
 }
