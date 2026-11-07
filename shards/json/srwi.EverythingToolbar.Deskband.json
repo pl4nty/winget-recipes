@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "srwi",
+		"repo": "EverythingToolbar"
+	},
+	"urls": [
+		"https://github.com/srwi/EverythingToolbar/releases/download/{version}/EverythingToolbar-{version}-x64.exe",
+		"https://github.com/srwi/EverythingToolbar/releases/download/{version}/EverythingToolbar-{version}-arm64.exe"
+	]
+}
