@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/AIDotNet/NextCoWork/releases/download/{github.rawTag}/nextcowork-{version}-setup.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/AIDotNet/NextCoWork/releases/tag/{github.rawTag}"
-	}
+	]
 }
