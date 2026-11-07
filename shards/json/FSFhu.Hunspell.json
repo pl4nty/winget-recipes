@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://raw.githubusercontent.com/mlt/hunspell/tst/configure.ac",
+		"regex": "AC_INIT\\(\\[hunspell\\],\\s*\\[(?<version>\\d+(?:\\.\\d+)+)\\]"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/mlt/hunspell/releases/download/tst/hunspell-msvc-Release-x64.zip",
+			"nestedInstallerMatches": ["hunspell.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/hunspell/hunspell/blob/master/NEWS"
+	},
+	"replace": true,
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/mlt/hunspell/releases/download/tst/hunspell-msvc-Release-x64.zip",
+		"header": "etag"
+	}
+}
