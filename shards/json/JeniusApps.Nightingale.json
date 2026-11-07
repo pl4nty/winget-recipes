@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jenius-apps",
+		"repo": "nightingale-rest-api-client"
+	},
+	"urls": [
+		"https://github.com/jenius-apps/nightingale-rest-api-client/releases/download/{github.rawTag}/Nightingale_{version}.0_x64_ARM64.msixbundle"
+	]
+}
