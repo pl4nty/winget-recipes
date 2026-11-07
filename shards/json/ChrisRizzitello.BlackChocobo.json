@@ -8,8 +8,5 @@
 	},
 	"urls": [
 		"https://github.com/sithlord48/blackchocobo/releases/download/{github.rawTag}/Black_Chocobo-v{version}-win64-installer.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/sithlord48/blackchocobo/releases/tag/{github.rawTag}"
-	}
+	]
 }
