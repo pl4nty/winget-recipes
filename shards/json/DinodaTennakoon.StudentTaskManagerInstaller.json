@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dinodatennakoon",
+		"repo": "StudentTaskManager"
+	},
+	"urls": [
+		"https://github.com/dinodatennakoon/StudentTaskManager/releases/download/{github.rawTag}/StudentTaskManagerInstaller.msi"
+	]
+}
