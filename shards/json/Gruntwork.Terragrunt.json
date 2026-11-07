@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gruntwork-io",
+		"repo": "terragrunt"
+	},
+	"urls": [
+		"https://github.com/gruntwork-io/terragrunt/releases/download/v{version}/terragrunt_windows_386.exe",
+		"https://github.com/gruntwork-io/terragrunt/releases/download/v{version}/terragrunt_windows_amd64.exe"
+	]
+}
