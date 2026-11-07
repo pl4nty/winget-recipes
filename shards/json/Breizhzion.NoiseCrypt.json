@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bzhzion",
+		"repo": "noisecrypt"
+	},
+	"urls": [
+		"https://github.com/bzhzion/noisecrypt/releases/download/{github.rawTag}/NoiseCrypt-{version}-amd64-setup.exe",
+		"https://github.com/bzhzion/noisecrypt/releases/download/{github.rawTag}/NoiseCrypt-{version}-arm64-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/bzhzion/noisecrypt/blob/main/CHANGELOG.md"
+	}
+}
