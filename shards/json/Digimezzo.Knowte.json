@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "digimezzo",
+		"repo": "knowte"
+	},
+	"urls": [
+		"https://github.com/digimezzo/knowte/releases/download/{github.rawTag}/Knowte-{version}.exe"
+	]
+}

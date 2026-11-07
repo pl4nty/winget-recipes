@@ -37,15 +37,27 @@ async function dumplings() {
 				...Object.values(config.WinGetIdentifierModules ?? {}),
 			].filter(Boolean),
 		);
+		// Mozilla tasks also submit <Id>.<locale> for each entry of $Locales ('multi' is <Id>.MSIX).
+		const locales = /^\$Locales = @\(([^)]*)\)/m.exec(script)?.[1];
+		if (locales && script.includes('"${WinGetIdentifierPrefix}.${Locale}"'))
+			for (const [, locale] of locales.matchAll(/'([^']+)'/g))
+				if (locale !== 'en-US') ids.push(`${config.WinGetIdentifier}.${locale === 'multi' ? 'MSIX' : locale}`);
 	}
+	for (const license of ['GPL', 'LGPL'])
+		for (const shared of ['', '.Shared'])
+			for (const branch of ['', '.8.1', '.9.0'])
+				ids.push(`BtbN.FFmpeg.${license}${shared}${branch}`);
 	return ids;
 }
 
-async function anthelion() {
-	const dir = await checkout('UnownPlain/anthelion', ['/shards/']);
+async function shards(dir: string) {
 	return (await files(dir, 'shards/{json,script}/*.{json,ts}')).map((path) =>
 		basename(path).replace(/\.(json|ts)$/, ''),
 	);
+}
+
+async function anthelion() {
+	return shards(await checkout('UnownPlain/anthelion', ['/shards/']));
 }
 
 async function b0t() {
@@ -67,7 +79,12 @@ async function b0t() {
 	return ids;
 }
 
-const bots = { spectopo: dumplings, UnownBot: anthelion, 'damn-good-b0t': b0t };
+const bots = {
+	spectopo: dumplings,
+	UnownBot: anthelion,
+	'damn-good-b0t': b0t,
+	[process.env.GITHUB_REPOSITORY_OWNER ?? 'pl4nty']: () => shards('.'),
+};
 
 const rows = new Map<string, { id: string; maintainers: Set<string> }>();
 const row = (id: string) => {
