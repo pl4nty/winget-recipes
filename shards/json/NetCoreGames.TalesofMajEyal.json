@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://te4.org/download",
+		"regex": "do-download/tome-(?<version>\\d+(?:\\.\\d+)+)/t-engine4-src-"
+	},
+	"urls": [{ "url": "https://te4.org/do-download/tome-{version}/t-engine4-windows-{version}.zip", "architecture": "neutral" }]
+}
