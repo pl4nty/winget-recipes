@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Londopy",
+		"repo": "HideDesktopApps"
+	},
+	"urls": [
+		"https://github.com/Londopy/HideDesktopApps/releases/download/{github.rawTag}/HideDesktopApps-v{version}-arm64-setup.exe",
+		"https://github.com/Londopy/HideDesktopApps/releases/download/{github.rawTag}/HideDesktopApps-v{version}-x64-setup.exe",
+		"https://github.com/Londopy/HideDesktopApps/releases/download/{github.rawTag}/HideDesktopApps-v{version}-x86-setup.exe"
+	]
+}
