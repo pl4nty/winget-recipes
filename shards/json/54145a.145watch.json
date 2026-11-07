@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/54145a/145watch/releases/download/{github.rawTag}/145watch.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/54145a/145watch/releases/tag/{github.rawTag}"
-	}
+	]
 }
