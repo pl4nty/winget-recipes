@@ -9,8 +9,5 @@
 	"urls": [
 		"https://github.com/derceg/explorerplusplus/releases/download/{github.rawTag}/explorerpp_x86.zip",
 		"https://github.com/derceg/explorerplusplus/releases/download/{github.rawTag}/explorerpp_x64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/derceg/explorerplusplus/releases/tag/{github.rawTag}"
-	}
+	]
 }
