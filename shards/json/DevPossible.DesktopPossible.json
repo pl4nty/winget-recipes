@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DevPossible",
+		"repo": "DesktopPossible"
+	},
+	"urls": [
+		"https://github.com/DevPossible/DesktopPossible/releases/download/{github.rawTag}/DesktopPossible-{version}-win-x64.msi"
+	]
+}
