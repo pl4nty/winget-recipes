@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sharpninja",
+		"repo": "vice-sharp"
+	},
+	"urls": ["https://github.com/sharpninja/vice-sharp/releases/download/v{version}/ViceSharp.msi"]
+}
