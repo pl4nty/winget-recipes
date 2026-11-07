@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/OldSaltFish/HarManager/releases/download/{github.rawTag}/HarManager.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/OldSaltFish/HarManager/releases/tag/{github.rawTag}"
-	}
+	]
 }
