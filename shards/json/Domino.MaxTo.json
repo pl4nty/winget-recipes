@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "domino-as",
+		"repo": "maxto"
+	},
+	"urls": [
+		"https://github.com/domino-as/maxto/releases/download/{github.rawTag}/MaxTo-win-arm64-stable-Setup.exe",
+		"https://github.com/domino-as/maxto/releases/download/{github.rawTag}/MaxTo-win-x64-stable-Setup.exe",
+		"https://github.com/domino-as/maxto/releases/download/{github.rawTag}/MaxTo-win-x86-stable-Setup.exe"
+	]
+}
