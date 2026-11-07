@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sdercolin",
+		"repo": "vlabeler"
+	},
+	"urls": ["https://github.com/sdercolin/vlabeler/releases/download/{version}/vlabeler-{version}-win64.zip"]
+}
