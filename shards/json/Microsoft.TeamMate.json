@@ -3,10 +3,11 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "microsoft",
-		"repo": "TeamMate",
-		"method": "api-latest",
-		"assetRegex": "^(?:Microsoft\\.Tools\\.TeamMate\\.msi)$"
+		"repo": "TeamMate"
 	},
+	"urls": [
+		"https://github.com/microsoft/TeamMate/releases/download/{github.rawTag}/Microsoft.Tools.TeamMate.msi"
+	],
 	"version": {
 		"source": "display"
 	}
