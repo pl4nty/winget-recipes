@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lippdev",
+		"repo": "consolemode"
+	},
+	"urls": [
+		"https://github.com/lippdev/consolemode/releases/download/{github.rawTag}/ConsoleMode-Setup-x64.exe"
+	]
+}
