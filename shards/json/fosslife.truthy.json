@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fosslife",
+		"repo": "truthy",
+		"tagRegex": "^app-v"
+	},
+	"urls": [
+		"https://github.com/fosslife/truthy/releases/download/{github.rawTag}/truthy_{version}_x64_en-US.msi",
+		"https://github.com/fosslife/truthy/releases/download/{github.rawTag}/truthy_{version}_x64-setup.exe"
+	]
+}
