@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AlexanderPro",
+		"repo": "SmartSystemMenu"
+	},
+	"urls": [
+		"https://github.com/AlexanderPro/SmartSystemMenu/releases/download/{github.rawTag}/SmartSystemMenu_v{version}.zip"
+	]
+}

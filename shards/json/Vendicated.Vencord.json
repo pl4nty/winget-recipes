@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Vencord",
+		"repo": "Installer"
+	},
+	"urls": ["https://github.com/Vencord/Installer/releases/download/v{version}/VencordInstallerCli.exe"]
+}
