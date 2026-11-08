@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Maki-Daisuke",
+		"repo": "restic-mount-win"
+	},
+	"urls": [
+		"https://github.com/Maki-Daisuke/restic-mount-win/releases/download/v{version}/restic-mount-v{version}-windows-amd64.zip"
+	]
+}
