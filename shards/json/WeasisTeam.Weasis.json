@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nroduit",
+		"repo": "Weasis"
+	},
+	"urls": [
+		"https://github.com/nroduit/Weasis/releases/download/v{version}/Weasis-{version}-x86-64.msi",
+		"https://github.com/nroduit/Weasis/releases/download/v{version}/Weasis-{version}-x86-64.msi"
+	]
+}

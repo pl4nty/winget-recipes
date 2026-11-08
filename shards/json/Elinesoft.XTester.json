@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "79231232393",
+		"repo": "XTester-releases"
+	},
+	"urls": [
+		"https://github.com/79231232393/XTester-releases/releases/download/{github.rawTag}/XTester-Studio-{version}-windows-x64-setup.exe"
+	]
+}
