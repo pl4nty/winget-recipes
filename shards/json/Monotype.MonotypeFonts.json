@@ -6,6 +6,6 @@
 		"regex": "https://monotypeapp\\.monotype\\.com/release/(?<version>(?<a>\\d)(?<b>\\d)(?<c>\\d))/win/MTFInstallerWindows\\.zip"
 	},
 	"version": "{captures.a}.{captures.b}.{captures.c}.0",
-	"urls": ["https://monotypeapp.monotype.com/release/{captures.version}/win/MTFInstallerWindows.zip"],
+	"urls": ["https://monotypeapp.monotype.com/release/{version}/win/MTFInstallerWindows.zip"],
 	"replace": true
 }
