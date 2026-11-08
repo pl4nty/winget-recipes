@@ -1,10 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
-	},
-	"urls": [
-		"https://static.kbs.co.kr/kong/KBSKongSetup.exe"
-	]
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://static.kbs.co.kr/kong/latest.yml"
+	}
 }
