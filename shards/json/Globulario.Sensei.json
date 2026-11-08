@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "globulario",
+		"repo": "sensei"
+	},
+	"urls": [
+		"https://github.com/globulario/sensei/releases/download/{github.rawTag}/sensei-windows-amd64.zip"
+	]
+}
