@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "PranavPeshwe", "repo": "cli-explainer" },
+	"urls": [
+		"https://github.com/PranavPeshwe/cli-explainer/releases/download/v{version}/cli-explainer-win-x64.zip"
+	]
+}
