@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://res.cdn.office.net/s01-officehomewindows/5mttl/prod/M365CopilotDesktopInstaller.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://res.cdn.office.net/s01-officehomewindows/5mttl/prod/M365CopilotDesktopInstaller.exe",
+		"header": "last-modified"
+	},
+	"replace": true
 }
