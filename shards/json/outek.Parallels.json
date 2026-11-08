@@ -1,13 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "xml",
-	"xml": {
+	"strategy": "page-match",
+	"pageMatch": {
 		"url": "https://download.parallels.com/ras/RASClient.xml",
-		"path": "Product.0.Win64.0.Version.0"
+		"regex": "download\\.parallels\\.com/ras/(?<dir>v\\d+/\\d+(?:\\.\\d+)+)/RASClient_Basic-x64-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
 	},
 	"urls": [
-		"{data.Product.0.Win64.0.BasicClient.0|.exe|.zip}",
-		"{data.Product.0.Win32.0.BasicClient.0|.exe|.zip}",
-		"{data.Product.0.WinARM64.0.BasicClient.0|.exe|.zip}"
+		"https://download.parallels.com/ras/{captures.dir}/RASClient_Basic-x64-{version}.zip",
+		"https://download.parallels.com/ras/{captures.dir}/RASClient_Basic-{version}.zip",
+		"https://download.parallels.com/ras/{captures.dir}/RASClient_Basic-ARM64-{version}.zip"
 	]
 }
