@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ractive",
+		"repo": "saturnus"
+	},
+	"urls": [
+		"https://github.com/ractive/saturnus/releases/download/v{version}/saturnus-v{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/ractive/saturnus/releases/download/v{version}/saturnus-v{version}-aarch64-pc-windows-msvc.zip"
+	]
+}

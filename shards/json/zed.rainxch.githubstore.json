@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "komi-store",
+		"repo": "komi-store"
+	},
+	"urls": [
+		"https://github.com/komi-store/komi-store/releases/download/v{version}/Komi-Store-{version}.msi",
+		"https://github.com/komi-store/komi-store/releases/download/v{version}/Komi-Store-{version}.exe"
+	]
+}
