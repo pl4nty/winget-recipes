@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "johnperky",
+		"repo": "ResolutionFileManager"
+	},
+	"urls": [
+		"https://github.com/johnperky/ResolutionFileManager/releases/download/{github.rawTag}/ResolutionFileManager-{version}.exe"
+	]
+}

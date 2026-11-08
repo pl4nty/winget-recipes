@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "machine-made",
+		"repo": "pdf-next"
+	},
+	"urls": [
+		"https://github.com/machine-made/pdf-next/releases/download/v{version}/pdf-next_{version}_x64-setup.exe",
+		"https://github.com/machine-made/pdf-next/releases/download/v{version}/pdf-next_{version}_x64_en-US.msi"
+	]
+}

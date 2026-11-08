@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 105289,
+		"regex": "^(?:msmpisetup\\.exe)$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/microsoft/Microsoft-MPI/releases"
+	}
+}
