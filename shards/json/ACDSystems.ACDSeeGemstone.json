@@ -5,9 +5,18 @@
 		"source": "product"
 	},
 	"urls": [
-		{ "url": "https://dl.acdsystems.com/acdsee/en/acdsee-gemstone-photo-editor-15-0-0-1449-win-en.exe", "architecture": "x64" }
+		{
+			"url": "https://dl.acdsystems.com/acdsee/en/acdsee-gemstone-photo-editor-15-0-0-1449-win-en.exe",
+			"architecture": "x64"
+		}
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.acdsystems.com/acdsee/en/acdsee-gemstone-photo-editor-15-0-0-1449-win-en.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.acdsee.com/en/support/gemstone-photo-editor/changelog/#:~:text=Version-,{version},-("
-	}
+	},
+	"replace": true
 }
