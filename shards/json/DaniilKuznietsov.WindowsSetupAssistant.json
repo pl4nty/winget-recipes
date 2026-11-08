@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dsegfahitw",
+		"repo": "windows-setup-assistant"
+	},
+	"urls": [
+		"https://github.com/dsegfahitw/windows-setup-assistant/releases/download/{github.rawTag}/Windows.Setup.Assistant.Setup.{version}.exe"
+	]
+}

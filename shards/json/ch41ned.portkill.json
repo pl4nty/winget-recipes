@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ch41ned",
+		"repo": "portkill"
+	},
+	"urls": [
+		"https://github.com/ch41ned/portkill/releases/download/{github.rawTag}/portkill.exe"
+	]
+}

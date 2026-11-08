@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "masa-kjm",
+		"repo": "shelfbox"
+	},
+	"urls": ["https://github.com/masa-kjm/shelfbox/releases/download/v{version}/shelfbox-v{version}-x86_64-pc-windows-msvc.zip"]
+}
