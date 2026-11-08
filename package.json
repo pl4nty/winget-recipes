@@ -7,5 +7,8 @@
 	},
 	"dependencies": {
 		"anthelion": "github:UnownPlain/anthelion-external#cbbd951bea6c2e2642470510494c4e576b9b940b"
+	},
+	"patchedDependencies": {
+		"anthelion@github:UnownPlain/anthelion-external#cbbd951": "patches/anthelion.patch"
 	}
 }

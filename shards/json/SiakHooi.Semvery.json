@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "siakhooi",
+		"repo": "semvery"
+	},
+	"urls": [
+		"https://github.com/siakhooi/semvery/releases/download/{github.rawTag}/semvery-{version}.msi"
+	]
+}

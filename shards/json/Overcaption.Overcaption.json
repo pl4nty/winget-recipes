@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "overcaption",
+		"repo": "overcaption"
+	},
+	"urls": ["https://github.com/overcaption/overcaption/releases/download/v{version}/Overcaption-{version}-win-x64.exe"]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "silviuk",
+		"repo": "Lunifier"
+	},
+	"urls": ["https://github.com/silviuk/Lunifier/releases/download/v{version}/Lunifier-Setup-{version}.exe"]
+}
