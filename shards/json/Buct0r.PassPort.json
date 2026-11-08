@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Buct0r",
+		"repo": "PassPort"
+	},
+	"urls": [
+		"https://github.com/Buct0r/PassPort/releases/download/{github.rawTag}/PassPort-GUI-CLI-setup.exe"
+	]
+}

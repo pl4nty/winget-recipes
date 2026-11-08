@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "linsmod",
+		"repo": "proxied"
+	},
+	"urls": [
+		"https://github.com/linsmod/proxied/releases/download/{github.rawTag}/proxied.exe"
+	]
+}
