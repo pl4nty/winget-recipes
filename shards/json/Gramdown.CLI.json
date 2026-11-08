@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tobysmith568",
+		"repo": "gramdown"
+	},
+	"urls": [
+		"https://github.com/tobysmith568/gramdown/releases/download/{github.rawTag}/gramdown-windows-x64.exe"
+	]
+}
