@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Rodrgwz", "repo": "Vulki" },
+	"urls": [
+		"https://github.com/Rodrgwz/Vulki/releases/download/v{version}/Vulkiinstaller.msi"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cathugger",
+		"repo": "mkp224o"
+	},
+	"urls": [
+		"https://github.com/cathugger/mkp224o/releases/download/{github.rawTag}/mkp224o-{version}-w32.zip",
+		"https://github.com/cathugger/mkp224o/releases/download/{github.rawTag}/mkp224o-{version}-w64.zip"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "calebrob6",
+		"repo": "vsrecent"
+	},
+	"urls": [
+		"https://github.com/calebrob6/vsrecent/releases/download/{github.rawTag}/vsrecent-win-arm64.exe",
+		"https://github.com/calebrob6/vsrecent/releases/download/{github.rawTag}/vsrecent-win-x64.exe"
+	]
+}

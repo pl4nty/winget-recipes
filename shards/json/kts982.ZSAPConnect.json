@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kts982",
+		"repo": "zsapconnect-releases"
+	},
+	"urls": [
+		"https://github.com/kts982/zsapconnect-releases/releases/download/{github.rawTag}/ZSAPConnect-Setup-{version}.exe"
+	]
+}

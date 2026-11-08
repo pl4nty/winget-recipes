@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JDE-Projects",
+		"repo": "Simple-Account-Balancer"
+	},
+	"urls": [
+		"https://github.com/JDE-Projects/Simple-Account-Balancer/releases/download/{github.rawTag}/SimpleAccountBalancer-v{version}-setup.exe"
+	]
+}
