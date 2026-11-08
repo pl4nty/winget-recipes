@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wmwlwmwl",
+		"repo": "LumeTerm"
+	},
+	"urls": [
+		"https://github.com/wmwlwmwl/LumeTerm/releases/download/{github.rawTag}/LumeTerm-{version}-windows-amd64-installer.exe"
+	]
+}
