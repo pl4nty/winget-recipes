@@ -6,7 +6,6 @@
 		"regex": "Treiber-Download Version (\\d+(?:\\.\\d+)+)"
 	},
 	"urls": [
-		{ "url": "https://dp.reiner-sct.com/downloads/dp/dp_{version|.|_}.exe", "architecture": "x64" },
-		{ "url": "https://dp.reiner-sct.com/downloads/dp/dp_{version|.|_}.exe", "architecture": "arm64" }
+		"https://dp.reiner-sct.com/downloads/dp/dp_{version|.|_}.exe"
 	]
 }
