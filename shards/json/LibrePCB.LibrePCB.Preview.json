@@ -3,12 +3,9 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://librepcb.org/download/",
-		"regex": "https://download\\.librepcb\\.org/releases/(\\d+(?:\\.\\d+)+)/librepcb\\-installer\\-\\1\\-windows\\-x86_64\\.exe"
+		"regex": "https://download\\.librepcb\\.org/releases/(\\d+(?:\\.\\d+)+-rc\\d+)/librepcb-installer-\\1-windows-x86_64\\.exe"
 	},
 	"urls": [
 		"https://download.librepcb.org/releases/{version}/librepcb-installer-{version}-windows-x86_64.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://librepcb.org/blog/2026-01-13_release_{version}/"
-	}
+	]
 }
