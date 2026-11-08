@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "olivierfriard",
+		"repo": "BORIS"
+	},
+	"urls": [
+		"https://github.com/olivierfriard/BORIS/releases/download/{github.rawTag}/boris-{version}-win64-setup.exe"
+	]
+}

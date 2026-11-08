@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ULT1MAT3-PC",
+		"repo": "PCManager-releases"
+	},
+	"urls": [
+		"https://github.com/ULT1MAT3-PC/PCManager-releases/releases/download/v{version}/PCManager-Setup-{version}.exe"
+	]
+}

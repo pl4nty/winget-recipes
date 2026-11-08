@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SiakHooi",
+		"repo": "Picsum"
+	},
+	"urls": [
+		"https://github.com/SiakHooi/Picsum/releases/download/v{version}/picsum_{version}_Windows_x86_64.zip",
+		"https://github.com/SiakHooi/Picsum/releases/download/v{version}/picsum_{version}_Windows_arm64.zip",
+		"https://github.com/SiakHooi/Picsum/releases/download/v{version}/picsum_{version}_Windows_i386.zip"
+	]
+}
