@@ -8,7 +8,7 @@
 		"owner": "fxsound2",
 		"repo": "fxsound-app",
 		"method": "api-list",
-		"kind": "all"
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/fxsound2/fxsound-app/releases/download/{github.rawTag}/fxsound_setup.arm64.exe",
