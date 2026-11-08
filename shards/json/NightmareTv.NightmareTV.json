@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zeze89",
+		"repo": "nightmare-tv-releases"
+	},
+	"urls": ["https://github.com/zeze89/nightmare-tv-releases/releases/download/v{version}/Nightmare-{version}-Setup.exe"]
+}
