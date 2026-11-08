@@ -1,12 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/lemueldls/mnemo/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
 		"owner": "lemueldls",
 		"repo": "mnemo",
-		"tagRegex": "^mnemo\\-v"
-	},
-	"urls": [
-		"https://github.com/lemueldls/mnemo/releases/download/{github.rawTag}/Mnemo_{version}_x64.exe"
-	]
+		"tag": "mnemo-v{version}"
+	}
 }
