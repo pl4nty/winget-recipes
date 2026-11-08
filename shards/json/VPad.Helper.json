@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "svolkancav",
+		"repo": "vpad-helper"
+	},
+	"urls": ["https://github.com/svolkancav/vpad-helper/releases/download/v{version}/V-Pad-Helper-Setup.exe"]
+}

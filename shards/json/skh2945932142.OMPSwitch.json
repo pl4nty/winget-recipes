@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "skh2945932142",
+		"repo": "omp-switch"
+	},
+	"urls": ["https://github.com/skh2945932142/omp-switch/releases/download/v{version}/OMP-Switch-Setup-{version}.exe"]
+}
