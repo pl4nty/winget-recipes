@@ -7,7 +7,13 @@
 	"urls": [
 		"https://static.adtidy.org/windows/beta/setup.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://static.adtidy.org/windows/beta/setup.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://github.com/AdguardTeam/AdguardForWindows/releases"
-	}
+	},
+	"replace": true
 }
