@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://valorant.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.live.kr.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://valorant.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.live.kr.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://playvalorant.com/en-us/news/tags/patch-notes/"
+	},
+	"replace": true
+}

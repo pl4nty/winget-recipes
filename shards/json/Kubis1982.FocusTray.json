@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kubis1982",
+		"repo": "FocusTray"
+	},
+	"urls": [
+		"https://github.com/kubis1982/FocusTray/releases/download/{github.rawTag}/focustray-win-x64-v{version}.zip"
+	]
+}

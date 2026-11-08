@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hawkthorne",
+		"repo": "hawkthorne-journey"
+	},
+	"urls": [
+		"https://github.com/hawkthorne/hawkthorne-journey/releases/download/{github.rawTag}/hawkthorne-win32.zip",
+		"https://github.com/hawkthorne/hawkthorne-journey/releases/download/{github.rawTag}/hawkthorne-win64.zip"
+	]
+}
