@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pear-devs",
+		"repo": "pear-desktop"
+	},
+	"urls": ["https://github.com/pear-devs/pear-desktop/releases/download/v{version}/YouTube-Music-Web-Setup-{version}.exe"]
+}
