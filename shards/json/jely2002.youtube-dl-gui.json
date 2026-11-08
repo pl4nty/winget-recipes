@@ -1,13 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/jely2002/youtube-dl-gui/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
 		"owner": "jely2002",
 		"repo": "youtube-dl-gui",
-		"tagRegex": "^app\\-v"
-	},
-	"urls": [
-		"https://github.com/jely2002/youtube-dl-gui/releases/download/{github.rawTag}/Open.Video.Downloader_{version}_arm64-setup.exe",
-		"https://github.com/jely2002/youtube-dl-gui/releases/download/{github.rawTag}/Open.Video.Downloader_{version}_x64-setup.exe"
-	]
+		"tag": "app-v{version}"
+	}
 }
