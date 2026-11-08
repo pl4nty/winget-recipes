@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "endy1328",
+		"repo": "simple-sync"
+	},
+	"urls": [
+		"https://github.com/endy1328/simple-sync/releases/download/{github.rawTag}/simple-sync-setup.exe"
+	]
+}

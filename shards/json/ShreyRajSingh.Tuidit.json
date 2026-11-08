@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Shrey-raj-singh", "repo": "tuidit" },
+	"urls": ["https://github.com/Shrey-raj-singh/tuidit/releases/download/v{version}/tuidit.exe"]
+}

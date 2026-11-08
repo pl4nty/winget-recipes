@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ArKT-7",
+		"repo": "QuickRotate"
+	},
+	"urls": [
+		"https://github.com/ArKT-7/QuickRotate/releases/download/{github.rawTag}/QuickRotate.exe"
+	]
+}
