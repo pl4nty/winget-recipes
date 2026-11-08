@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rugbedbugg",
+		"repo": "Retro-Tetris"
+	},
+	"urls": [
+		"https://github.com/rugbedbugg/Retro-Tetris/releases/download/v{version}/retro-tetris.exe"
+	]
+}
