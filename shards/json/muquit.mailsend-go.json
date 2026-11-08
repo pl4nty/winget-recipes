@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "muquit", "repo": "mailsend-go" },
+	"urls": [
+		"https://github.com/muquit/mailsend-go/releases/download/{github.rawTag}/mailsend-go-{github.rawTag}-windows-386.d.zip",
+		"https://github.com/muquit/mailsend-go/releases/download/{github.rawTag}/mailsend-go-{github.rawTag}-windows-amd64.d.zip"
+	]
+}
