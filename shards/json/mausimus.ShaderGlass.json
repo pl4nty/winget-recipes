@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mausimus",
+		"repo": "ShaderGlass"
+	},
+	"urls": [
+		"https://github.com/mausimus/ShaderGlass/releases/download/v{version}/ShaderGlass-{version}-win-x64.zip"
+	]
+}
