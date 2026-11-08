@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RazrFalcon",
+		"repo": "svgcleaner-gui"
+	},
+	"urls": ["https://github.com/RazrFalcon/svgcleaner-gui/releases/download/v{version}/svgcleaner_win32_{version}.exe"]
+}
