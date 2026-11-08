@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tsuchim",
+		"repo": "ime-keys-for-us"
+	},
+	"urls": [
+		"https://github.com/tsuchim/ime-keys-for-us/releases/download/v{version}/IME-Keys-for-US-{version}-x64.msi"
+	]
+}
