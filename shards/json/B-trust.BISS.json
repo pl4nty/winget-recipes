@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://d2rvjenoegxevc.cloudfront.net/b-trust-files/BISS.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://d2rvjenoegxevc.cloudfront.net/b-trust-files/BISS.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
