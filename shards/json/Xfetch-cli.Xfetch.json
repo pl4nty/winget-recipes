@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xfetch-cli",
+		"repo": "xfetch"
+	},
+	"urls": ["https://github.com/xfetch-cli/xfetch/releases/download/v{version}/xfetch-{version}-x86_64-pc-windows-msvc.zip"]
+}
