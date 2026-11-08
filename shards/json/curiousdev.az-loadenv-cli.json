@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "curiousdev",
+		"repo": "az-loadenv"
+	},
+	"urls": [
+		"https://github.com/curiousdev/az-loadenv/releases/download/{github.rawTag}/az-loadenv-windows-amd64.zip"
+	]
+}
