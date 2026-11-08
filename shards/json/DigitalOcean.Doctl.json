@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "digitalocean",
+		"repo": "doctl"
+	},
+	"urls": [
+		"https://github.com/digitalocean/doctl/releases/download/{github.rawTag}/doctl-{version}-windows-386.zip",
+		"https://github.com/digitalocean/doctl/releases/download/{github.rawTag}/doctl-{version}-windows-amd64.zip",
+		"https://github.com/digitalocean/doctl/releases/download/{github.rawTag}/doctl-{version}-windows-arm64.zip"
+	]
+}

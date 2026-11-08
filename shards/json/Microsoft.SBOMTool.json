@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "sbom-tool"
+	},
+	"urls": [
+		"https://github.com/microsoft/sbom-tool/releases/download/v{version}/sbom-tool-win-x64.exe"
+	]
+}
