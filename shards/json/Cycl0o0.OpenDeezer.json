@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Cycl0o0",
+		"repo": "OpenDeezer"
+	},
+	"urls": [
+		"https://github.com/Cycl0o0/OpenDeezer/releases/download/{github.rawTag}/opendeezer-tui-windows-amd64.exe"
+	]
+}
