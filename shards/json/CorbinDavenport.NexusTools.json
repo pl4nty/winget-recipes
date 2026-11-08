@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "corbindavenport",
+		"repo": "nexus-tools"
+	},
+	"urls": [
+		"https://github.com/corbindavenport/nexus-tools/releases/download/{github.rawTag}/nexustools-windows-x64.zip"
+	]
+}

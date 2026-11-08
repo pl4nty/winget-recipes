@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vim",
+		"repo": "vim-win32-installer"
+	},
+	"urls": [
+		"https://github.com/vim/vim-win32-installer/releases/download/v{version}/gvim_{version}_x86.exe",
+		"https://github.com/vim/vim-win32-installer/releases/download/v{version}/gvim_{version}_x64.exe",
+		"https://github.com/vim/vim-win32-installer/releases/download/v{version}/gvim_{version}_arm64.exe"
+	]
+}

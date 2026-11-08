@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "calvinchengx",
+		"repo": "fabric-emulator"
+	},
+	"urls": [
+		"https://github.com/calvinchengx/fabric-emulator/releases/download/{github.rawTag}/fabric-emulator_{version}_windows_amd64.zip",
+		"https://github.com/calvinchengx/fabric-emulator/releases/download/{github.rawTag}/fabric-emulator_{version}_windows_arm64.zip"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://www.bluemangolearning.com/download/screensteps/4_0/release/ScreenSteps.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.bluemangolearning.com/download/screensteps/4_0/release/ScreenSteps.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
