@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OnlyXianzo",
+		"repo": "Grablytic"
+	},
+	"urls": [
+		"https://github.com/OnlyXianzo/Grablytic/releases/download/v{version}/grablytic-windows-x64.zip"
+	]
+}

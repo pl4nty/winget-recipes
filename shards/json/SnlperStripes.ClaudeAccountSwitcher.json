@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SnlperStripes",
+		"repo": "claude-account-switcher"
+	},
+	"urls": ["https://github.com/SnlperStripes/claude-account-switcher/releases/download/v{version}/claude-account-switcher-windows-amd64.exe"]
+}
