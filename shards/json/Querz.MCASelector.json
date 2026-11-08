@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Querz",
+		"repo": "mcaselector"
+	},
+	"urls": [
+		{ "url": "https://github.com/Querz/mcaselector/releases/download/{version}/mcaselector-{version}-setup.exe", "architecture": "x64" }
+	]
+}

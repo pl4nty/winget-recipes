@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "appinstaller",
+	"appinstaller": {
+		"url": "https://tvd-packages.tradingview.com/stable/latest/win32/TradingView.appinstaller"
+	}
+}

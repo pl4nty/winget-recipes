@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aleksey-hoffman",
+		"repo": "sigma-file-manager"
+	},
+	"urls": [
+		"https://github.com/aleksey-hoffman/sigma-file-manager/releases/download/{github.rawTag}/Sigma-File-Manager-{version}-windows-setup.exe"
+	]
+}
