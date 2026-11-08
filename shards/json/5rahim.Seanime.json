@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "5rahim",
+		"repo": "seanime"
+	},
+	"urls": [
+		"https://github.com/5rahim/seanime/releases/download/{github.rawTag}/seanime-denshi-{version}_Windows_x64.exe"
+	]
+}

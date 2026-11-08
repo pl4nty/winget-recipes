@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OwenMcGirr",
+		"repo": "useful-topmost"
+	},
+	"urls": [
+		"https://github.com/OwenMcGirr/useful-topmost/releases/download/v{version}/useful-topmost-{version}-win-x64.exe"
+	]
+}
