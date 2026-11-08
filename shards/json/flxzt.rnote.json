@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "flxzt",
+		"repo": "rnote"
+	},
+	"urls": [
+		"https://github.com/flxzt/rnote/releases/download/{github.rawTag}/rnote-win-installer-{version}-x86_64.exe"
+	]
+}

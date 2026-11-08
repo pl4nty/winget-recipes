@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://taskslinger.net/",
+		"regex": "/download/v(\\d+(?:\\.\\d+)+)/"
+	},
+	"urls": [
+		"https://taskslinger.net/download/v{version}/winget/x64.exe",
+		"https://taskslinger.net/download/v{version}/winget/arm64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://taskslinger.net/changelog/"
+	}
+}
