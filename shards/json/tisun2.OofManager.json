@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tisun2", "repo": "OofManager" },
+	"urls": ["https://github.com/tisun2/OofManager/releases/download/v{version}/OofManagerSetup.exe"]
+}
