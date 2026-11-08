@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stoplightio",
+		"repo": "spectral",
+		"tagRegex": "^v(?=\\d)"
+	},
+	"urls": [
+		"https://github.com/stoplightio/spectral/releases/download/v{version}/spectral.exe"
+	]
+}
