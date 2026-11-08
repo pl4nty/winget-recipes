@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "namidaco", "repo": "namida" },
+	"urls": [
+		"https://github.com/namidaco/namida/releases/download/v{version}/Namida-x86_64-{version}-Installer.exe"
+	]
+}

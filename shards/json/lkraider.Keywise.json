@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lkraider",
+		"repo": "keywise"
+	},
+	"urls": [
+		"https://github.com/lkraider/keywise/releases/download/{github.rawTag}/Keywise-{version}-windows-arm64.zip",
+		"https://github.com/lkraider/keywise/releases/download/{github.rawTag}/Keywise-{version}-windows-x86_64.zip"
+	]
+}
