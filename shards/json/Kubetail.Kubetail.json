@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kubetail-org",
+		"repo": "kubetail",
+		"tagRegex": "^cli/v"
+	},
+	"urls": [
+		"https://github.com/kubetail-org/kubetail/releases/download/{github.rawTag}/kubetail-windows-amd64.zip",
+		"https://github.com/kubetail-org/kubetail/releases/download/{github.rawTag}/kubetail-windows-arm64.zip"
+	]
+}
