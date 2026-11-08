@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nikolapeja6",
+		"repo": "WhatSprintIsItWallpaper"
+	},
+	"urls": [
+		"https://github.com/nikolapeja6/WhatSprintIsItWallpaper/releases/download/v{version}/WhatSprintIsItWallpaper-{version}.msi"
+	]
+}

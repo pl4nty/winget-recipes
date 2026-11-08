@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Jeric-X",
+		"repo": "SyncClipboard"
+	},
+	"urls": [
+		"https://github.com/Jeric-X/SyncClipboard/releases/download/{github.rawTag}/SyncClipboard_win_arm64_installer.exe",
+		"https://github.com/Jeric-X/SyncClipboard/releases/download/{github.rawTag}/SyncClipboard_win_x64_installer.exe"
+	]
+}
