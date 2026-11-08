@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JanusMael",
+		"repo": "ClaudeForge"
+	},
+	"urls": [
+		"https://github.com/JanusMael/ClaudeForge/releases/download/{github.rawTag}/ClaudeForge-win-arm64.zip",
+		"https://github.com/JanusMael/ClaudeForge/releases/download/{github.rawTag}/ClaudeForge-win-x64.zip"
+	]
+}

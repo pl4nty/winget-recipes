@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Gabriel-faustino-lab",
+		"repo": "Atena-multi-agent"
+	},
+	"urls": [
+		"https://github.com/Gabriel-faustino-lab/Atena-multi-agent/releases/download/{github.rawTag}/Atena_{version}_x64-setup.exe"
+	]
+}
