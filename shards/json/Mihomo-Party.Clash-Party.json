@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mihomo-party-org",
+		"repo": "clash-party"
+	},
+	"urls": [
+		"https://github.com/mihomo-party-org/clash-party/releases/download/v{version}/clash-party-windows-{version}-ia32-setup.exe",
+		"https://github.com/mihomo-party-org/clash-party/releases/download/v{version}/clash-party-windows-{version}-x64-setup.exe",
+		"https://github.com/mihomo-party-org/clash-party/releases/download/v{version}/clash-party-windows-{version}-arm64-setup.exe"
+	]
+}

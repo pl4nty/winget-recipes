@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ShortArrow",
+		"repo": "gitreant"
+	},
+	"urls": [
+		"https://github.com/ShortArrow/gitreant/releases/download/v{version}/gitreant-x86_64-pc-windows-msvc.zip",
+		"https://github.com/ShortArrow/gitreant/releases/download/v{version}/gitreant-aarch64-pc-windows-msvc.zip"
+	]
+}
