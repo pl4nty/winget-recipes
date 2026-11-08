@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "XiaoYouChR", "repo": "Ghost-Downloader-3" },
+	"urls": [
+		"https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v{version}/Ghost-Downloader-v{version}-Windows-x86_64-Setup.exe",
+		"https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v{version}/Ghost-Downloader-v{version}-Windows-arm64-Setup.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Orbit-Studios",
+		"repo": "hd2arsenal-release"
+	},
+	"urls": [
+		"https://github.com/Orbit-Studios/hd2arsenal-release/releases/download/{github.rawTag}/HD2Arsenal-Setup-{version}.exe"
+	]
+}
