@@ -7,7 +7,13 @@
 	"urls": [
 		"https://www.comfortsoftware.com/download/ComfortKeysSetup.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.comfortsoftware.com/download/ComfortKeysSetup.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.comfortsoftware.com/comfort-keys/version-history/"
-	}
+	},
+	"replace": true
 }
