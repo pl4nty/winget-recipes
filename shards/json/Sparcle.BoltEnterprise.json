@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SparcleHQ",
+		"repo": "sparcle.app"
+	},
+	"urls": [
+		"https://github.com/SparcleHQ/sparcle.app/releases/download/{github.rawTag}/Bolt-Enterprise-{version}-x86_64-pc-windows-msvc.exe",
+		"https://github.com/SparcleHQ/sparcle.app/releases/download/{github.rawTag}/Bolt-Enterprise-{version}-x86_64-pc-windows-msvc.msi"
+	]
+}
