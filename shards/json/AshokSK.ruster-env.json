@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ashoksk029",
+		"repo": "ruster-env"
+	},
+	"urls": [
+		"https://github.com/Ashoksk029/ruster-env/releases/download/{github.rawTag}/ruster-env-windows-x64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Huerte",
+		"repo": "GitGo"
+	},
+	"urls": [
+		"https://github.com/Huerte/GitGo/releases/download/{github.rawTag}/gitgo.exe"
+	]
+}

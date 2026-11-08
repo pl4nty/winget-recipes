@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AILight",
+		"repo": "AILZ80ASM"
+	},
+	"urls": [
+		"https://github.com/AILight/AILZ80ASM/releases/download/{github.rawTag}/AILZ80ASM.win-x64.v{version}.zip"
+	]
+}

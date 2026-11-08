@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "clawsoftware",
+		"repo": "clawPDF"
+	},
+	"urls": ["https://github.com/clawsoftware/clawPDF/releases/download/{github.rawTag}/clawPDF_{version}_setup.msi"]
+}
