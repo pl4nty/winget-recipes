@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://raw.githubusercontent.com/microsoft/win-dev-skills/f1028dd5bb19af59df400cb4a2ab867e40a40a4a/plugins/winui/skills/winui-design/winui-search.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://raw.githubusercontent.com/microsoft/win-dev-skills/f1028dd5bb19af59df400cb4a2ab867e40a40a4a/plugins/winui/skills/winui-design/winui-search.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
