@@ -7,14 +7,7 @@
 	},
 	"version": "{version}.{captures.b}.{captures.c}.{captures.d}",
 	"urls": [
-		{
-			"url": "{captures.url}",
-			"architecture": "x64"
-		},
-		{
-			"url": "{captures.url}",
-			"architecture": "x86"
-		}
+		"{captures.url}"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://vb-audio.com/Voicemeeter/banana.htm"
