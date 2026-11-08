@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "build2",
+		"repo": "build2-toolchain"
+	},
+	"urls": [
+		"https://github.com/build2/build2-toolchain/releases/download/{github.rawTag}/build2-toolchain-{version}-x86_64-windows10-msvc17.zip"
+	]
+}
