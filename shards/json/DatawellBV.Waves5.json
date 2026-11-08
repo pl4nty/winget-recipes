@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://datawell.nl/downloads/datawell_waves5_installer.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://datawell.nl/downloads/datawell_waves5_installer.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
