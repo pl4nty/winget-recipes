@@ -1,13 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/aburousan/hilbert-editor/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
 		"owner": "aburousan",
 		"repo": "hilbert-editor",
-		"tagRegex": "^tauri\\-v"
-	},
-	"urls": [
-		"https://github.com/aburousan/hilbert-editor/releases/download/{github.rawTag}/Hilbert_{version}_x64-setup.exe",
-		"https://github.com/aburousan/hilbert-editor/releases/download/{github.rawTag}/Hilbert_{version}_x64_en-US.msi"
-	]
+		"tag": "tauri-v{version}"
+	}
 }
