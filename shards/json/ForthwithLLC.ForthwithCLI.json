@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Forthwith-LLC",
+		"repo": "forthwith-releases"
+	},
+	"urls": [
+		"https://github.com/Forthwith-LLC/forthwith-releases/releases/download/{github.rawTag}/forthwith_{version}_windows_amd64.zip",
+		"https://github.com/Forthwith-LLC/forthwith-releases/releases/download/{github.rawTag}/forthwith_{version}_windows_arm64.zip"
+	]
+}
