@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Abhisek571",
+		"repo": "openresume-builder"
+	},
+	"urls": [
+		"https://github.com/Abhisek571/openresume-builder/releases/download/{github.rawTag}/OpenResume-Builder-Setup-{version}.exe"
+	]
+}
