@@ -1,13 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "electron-builder",
-	"electronBuilder": {
-		"url": "https://github.com/wexond/browser-base/releases/latest/download/latest.yml"
-	},
-	"releaseNotes": {
-		"source": "github",
+	"strategy": "github-release",
+	"github": {
 		"owner": "wexond",
-		"repo": "browser-base",
-		"tag": "v{version}"
-	}
+		"repo": "browser-base"
+	},
+	"urls": [
+		{ "url": "https://github.com/wexond/browser-base/releases/download/v{version}/Wexond-Web-Setup-{version}.exe", "architecture": "x64" },
+		{ "url": "https://github.com/wexond/browser-base/releases/download/v{version}/Wexond-{version}-win.zip" },
+		{ "url": "https://github.com/wexond/browser-base/releases/download/v{version}/Wexond-{version}-ia32-win.zip" }
+	]
 }
