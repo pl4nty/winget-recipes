@@ -1,9 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
+	"strategy": "xml",
+	"xml": {
 		"url": "https://download.mediathekview.de/stabil/updates-win.xml",
-		"regex": "newVersion=\"(?<version>\\d+(?:\\.\\d+)+)\""
+		"path": "updateDescriptor.0.entry.0._attributes.newVersion"
 	},
 	"urls": [
 		"https://download.mediathekview.de/stabil/MediathekView-{version}-win.exe",
