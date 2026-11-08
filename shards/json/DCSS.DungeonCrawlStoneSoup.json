@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "crawl",
+		"repo": "crawl"
+	},
+	"urls": [
+		"https://github.com/crawl/crawl/releases/download/{github.rawTag}/dcss-{version}-win32-installer.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://akamaicdn.webex.com/client/webexapp.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://akamaicdn.webex.com/client/webexapp.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
