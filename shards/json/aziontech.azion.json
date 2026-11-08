@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aziontech",
+		"repo": "azion"
+	},
+	"urls": [
+		"https://github.com/aziontech/azion/releases/download/{github.rawTag}/azion_{github.rawTag}_windows_386.zip",
+		"https://github.com/aziontech/azion/releases/download/{github.rawTag}/azion_{github.rawTag}_windows_amd64.zip",
+		"https://github.com/aziontech/azion/releases/download/{github.rawTag}/azion_{github.rawTag}_windows_arm64.zip"
+	]
+}
