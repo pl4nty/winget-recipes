@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "flowdevs-io",
+		"repo": "PrimeDictate"
+	},
+	"urls": [
+		"https://github.com/flowdevs-io/PrimeDictate/releases/download/{github.rawTag}/PrimeDictate-Setup-v{version}-arm64.msi",
+		"https://github.com/flowdevs-io/PrimeDictate/releases/download/{github.rawTag}/PrimeDictate-Setup-v{version}-x64.msi"
+	]
+}

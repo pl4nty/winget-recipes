@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "brunoleocam",
+		"repo": "ZPL2PDF"
+	},
+	"urls": [
+		"https://github.com/brunoleocam/ZPL2PDF/releases/download/{github.rawTag}/ZPL2PDF-Setup-{version}.exe"
+	]
+}

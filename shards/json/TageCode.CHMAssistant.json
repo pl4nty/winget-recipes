@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tagecode",
+		"repo": "chm-assistant"
+	},
+	"urls": [
+		"https://github.com/tagecode/chm-assistant/releases/download/v{version}/CHM-Assistant-v{version}-win-x64.exe"
+	]
+}
