@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "GetQuantumDrive",
+		"repo": "QuantumDrive"
+	},
+	"urls": [
+		"https://github.com/GetQuantumDrive/QuantumDrive/releases/download/{github.rawTag}/QuantumDrive-Setup-x64-{version}.0.exe",
+		"https://github.com/GetQuantumDrive/QuantumDrive/releases/download/{github.rawTag}/QuantumDrive-Setup-x64-{version}.msi"
+	]
+}
