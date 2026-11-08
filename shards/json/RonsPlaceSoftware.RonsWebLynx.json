@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ronsplace.ca/staticlink/product/linkr/download",
+		"regex": "Rons WebLynx<br/><small>(\\d+(?:\\.\\d+)+)</small>"
+	},
+	"urls": ["https://www.ronsplace.ca/contentproduct/linkr/setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ronsplace.ca/staticlink/product/linkr/history"
+	}
+}
