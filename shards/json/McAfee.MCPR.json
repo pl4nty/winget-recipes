@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://download.mcafee.com/molbin/iss-loc/SupportTools/MCPR/MCPR.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.mcafee.com/molbin/iss-loc/SupportTools/MCPR/MCPR.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
