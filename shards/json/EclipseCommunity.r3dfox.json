@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Eclipse-Community",
+		"repo": "r3dfox",
+		"tagRegex": "-multi$"
+	},
+	"urls": [
+		"https://github.com/Eclipse-Community/r3dfox/releases/download/{github.rawTag}/r3dfox-v{version}.win32.installer.exe",
+		"https://github.com/Eclipse-Community/r3dfox/releases/download/{github.rawTag}/r3dfox-v{version}.win64.installer.exe"
+	]
+}
