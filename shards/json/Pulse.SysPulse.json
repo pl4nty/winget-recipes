@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "johnslva", "repo": "syspulse" },
+	"urls": ["https://github.com/johnslva/syspulse/releases/download/v{version}/SysPulse_{version}_setup.exe"]
+}
