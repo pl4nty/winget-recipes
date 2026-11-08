@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "saransh121", "repo": "flowChart" },
+	"urls": ["https://github.com/saransh121/flowChart/releases/download/v{version}/flowChart-{version}-win-x64.exe"]
+}

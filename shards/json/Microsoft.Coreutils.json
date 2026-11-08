@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "coreutils"
+	},
+	"urls": [
+		"https://github.com/microsoft/coreutils/releases/download/v{version}/coreutils-{version}-arm64.exe",
+		"https://github.com/microsoft/coreutils/releases/download/v{version}/coreutils-{version}-x64.exe"
+	]
+}
