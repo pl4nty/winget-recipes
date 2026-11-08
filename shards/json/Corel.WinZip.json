@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.winzip.com/winzip290-64.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.winzip.com/winzip290-64.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
