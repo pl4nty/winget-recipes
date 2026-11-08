@@ -1,13 +1,10 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "electron-builder",
-	"electronBuilder": {
-		"url": "https://github.com/chromatix-app/chromatix-release/releases/latest/download/latest.yml"
-	},
-	"releaseNotes": {
-		"source": "github",
+	"strategy": "github-release",
+	"github": {
 		"owner": "chromatix-app",
 		"repo": "chromatix-release",
-		"tag": "v{version}"
+		"method": "api-sort",
+		"assetRegex": "^(?:Chromatix\\-Setup\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
 	}
 }
