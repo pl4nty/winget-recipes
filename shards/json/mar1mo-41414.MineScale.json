@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mar1mo-41414", "repo": "MineScale" },
+	"urls": ["https://github.com/mar1mo-41414/MineScale/releases/download/v{version}/mc-share-gui-windows-x64.exe"]
+}

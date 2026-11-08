@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "daonware-it",
+		"repo": "OpenClean"
+	},
+	"urls": [
+		"https://github.com/daonware-it/OpenClean/releases/download/{github.rawTag}/OpenClean-Setup-{version}.exe"
+	]
+}

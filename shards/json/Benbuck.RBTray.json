@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "benbuck",
+		"repo": "rbtray"
+	},
+	"urls": [
+		"https://github.com/benbuck/rbtray/releases/download/{github.rawTag}/x64.zip",
+		"https://github.com/benbuck/rbtray/releases/download/{github.rawTag}/x86.zip"
+	]
+}
