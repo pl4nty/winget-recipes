@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mgpeter", "repo": "spec-watcher" },
+	"urls": [
+		"https://github.com/mgpeter/spec-watcher/releases/download/v{version}/spec-watcher-{version}-win-x64.zip",
+		"https://github.com/mgpeter/spec-watcher/releases/download/v{version}/spec-watcher-{version}-win-arm64.zip"
+	]
+}

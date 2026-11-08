@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://download.smallpdf.com/desktop-windows/Smallpdf.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.smallpdf.com/desktop-windows/Smallpdf.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
