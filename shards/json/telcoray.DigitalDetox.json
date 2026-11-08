@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "telcoray",
+		"repo": "DigitalDetox"
+	},
+	"urls": [
+		"https://github.com/telcoray/DigitalDetox/releases/download/v{version}/DigitalDetox-v{version}-setup-x64.exe"
+	]
+}
