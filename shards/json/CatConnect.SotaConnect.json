@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://storage.sota.ac/api/v1/public/storage/sotaconnect_setup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://storage.sota.ac/api/v1/public/storage/sotaconnect_setup.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
