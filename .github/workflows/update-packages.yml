@@ -12,9 +12,29 @@ concurrency:
 permissions: {}
 
 jobs:
+  batches:
+    name: Batches
+    runs-on: ubuntu-slim
+    outputs:
+      batches: ${{ steps.batches.outputs.batches }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Split Shards
+        id: batches
+        run: echo "batches=[$(seq -s, 0 $((($(find shards -type f | wc -l) - 1) / 512)))]" >> "$GITHUB_OUTPUT"
+
   update-packages:
     name: Update Packages
+    needs: batches
     runs-on: ubuntu-26.04-arm
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: ${{ fromJSON(needs.batches.outputs.batches) }}
     timeout-minutes: 30
     env:
       NAPI_RS_NATIVE_LIBRARY_PATH: ${{ github.workspace }}/anthelion-komac.node
@@ -29,6 +49,11 @@ jobs:
         with:
           version: 2026.10.22
           install_args: bun
+
+      - name: Select Batch
+        run: find shards -type f | sort | awk -v batch="$BATCH" 'int((NR - 1) / 512) != batch' | xargs -r rm
+        env:
+          BATCH: ${{ matrix.batch }}
 
       - name: Install Dependencies
         run: bun ci --production

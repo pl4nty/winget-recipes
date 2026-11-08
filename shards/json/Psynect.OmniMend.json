@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://crashpro-inference.psynect.workers.dev/releases/latest-installer.json",
+		"path": "version"
+	},
+	"urls": [
+		"installer_url"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://omnimend.com/changelog"
+	}
+}

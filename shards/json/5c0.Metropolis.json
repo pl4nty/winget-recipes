@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "5c0",
+		"repo": "metropolis"
+	},
+	"urls": [
+		"https://github.com/5c0/metropolis/releases/download/{github.rawTag}/metropolis.exe"
+	]
+}
