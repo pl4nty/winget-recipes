@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "logisim-evolution",
+		"repo": "logisim-evolution"
+	},
+	"urls": [
+		"https://github.com/logisim-evolution/logisim-evolution/releases/download/v{version}/logisim-evolution-{version}-amd64.msi",
+		"https://github.com/logisim-evolution/logisim-evolution/releases/download/v{version}/logisim-evolution-{version}-aarch64.msi"
+	]
+}

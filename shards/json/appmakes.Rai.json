@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "appmakes",
+		"repo": "Rai"
+	},
+	"urls": [
+		"https://github.com/appmakes/Rai/releases/download/{github.rawTag}/rai-aarch64-pc-windows-msvc.zip",
+		"https://github.com/appmakes/Rai/releases/download/{github.rawTag}/rai-x86_64-pc-windows-msvc.zip"
+	]
+}
