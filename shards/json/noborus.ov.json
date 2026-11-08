@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "noborus", "repo": "ov" },
+	"urls": [
+		"https://github.com/noborus/ov/releases/download/{github.rawTag}/ov_{version}_windows_arm64.zip",
+		"https://github.com/noborus/ov/releases/download/{github.rawTag}/ov_{version}_windows_amd64.zip",
+		"https://github.com/noborus/ov/releases/download/{github.rawTag}/ov_{version}_windows_386.zip"
+	]
+}

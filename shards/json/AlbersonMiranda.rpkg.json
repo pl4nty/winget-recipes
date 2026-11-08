@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "albersonmiranda",
+		"repo": "rpkg-rs"
+	},
+	"urls": [
+		"https://github.com/albersonmiranda/rpkg-rs/releases/download/{github.rawTag}/rpkg-x86_64-pc-windows-msvc.msi"
+	]
+}

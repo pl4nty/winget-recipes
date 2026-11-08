@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "XPLassal", "repo": "simple-go-snake" },
+	"urls": [
+		"https://github.com/XPLassal/simple-go-snake/releases/download/v{version}/snake-windows-amd64.exe"
+	]
+}
