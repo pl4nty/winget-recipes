@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ingcreators",
+		"repo": "tesseraql"
+	},
+	"urls": [
+		"https://github.com/ingcreators/tesseraql/releases/download/{github.rawTag}/tesseraql-{version}-windows-x86_64.zip"
+	]
+}

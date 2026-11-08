@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "MasuRii", "repo": "PureLink" },
+	"urls": [
+		"https://github.com/MasuRii/PureLink/releases/download/v{version}/purelink_{version}_windows_arm64.zip",
+		"https://github.com/MasuRii/PureLink/releases/download/v{version}/purelink_{version}_windows_amd64.zip"
+	]
+}

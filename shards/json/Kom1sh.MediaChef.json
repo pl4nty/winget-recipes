@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kom1sh",
+		"repo": "mediachef"
+	},
+	"urls": [
+		"https://github.com/Kom1sh/mediachef/releases/download/{github.rawTag}/MediaChef_{version}_x64-setup.exe"
+	]
+}
