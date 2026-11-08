@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://nateondownload.nate.com/download/NATEON70.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://nateondownload.nate.com/download/NATEON70.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}

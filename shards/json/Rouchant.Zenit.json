@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Rouchant",
+		"repo": "Zenit-Tauri"
+	},
+	"urls": ["https://github.com/Rouchant/Zenit-Tauri/releases/download/v{version}/Zenit_{version}_x64-setup.exe"]
+}

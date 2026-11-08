@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "daruyanagi",
+		"repo": "XTimelineViewer"
+	},
+	"urls": [
+		"https://github.com/daruyanagi/XTimelineViewer/releases/download/{github.rawTag}/XTimelineViewer-v{version}-win-arm64.zip",
+		"https://github.com/daruyanagi/XTimelineViewer/releases/download/{github.rawTag}/XTimelineViewer-v{version}-win-x64.zip"
+	]
+}
