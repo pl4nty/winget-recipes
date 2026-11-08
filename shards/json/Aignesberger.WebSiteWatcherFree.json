@@ -7,7 +7,13 @@
 	"urls": [
 		"https://www.aignes.com/download/wswfreesetup.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.aignes.com/download/wswfreesetup.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.aignes.com/wsw_history.htm"
-	}
+	},
+	"replace": true
 }
