@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://privadovpn.com/apps/win/Setup_PrivadoVPN_latest.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://privadovpn.com/apps/win/Setup_PrivadoVPN_latest.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

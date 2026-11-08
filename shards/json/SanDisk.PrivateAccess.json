@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://downloads.sandisk.com/downloads/privateaccess-win.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.sandisk.com/downloads/privateaccess-win.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

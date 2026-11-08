@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "abhimanyu003",
+		"repo": "pttr"
+	},
+	"urls": [
+		"https://github.com/abhimanyu003/pttr/releases/download/{github.rawTag}/pttr_Windows_arm64.zip",
+		"https://github.com/abhimanyu003/pttr/releases/download/{github.rawTag}/pttr_Windows_i386.zip",
+		"https://github.com/abhimanyu003/pttr/releases/download/{github.rawTag}/pttr_Windows_x86_64.zip"
+	]
+}
