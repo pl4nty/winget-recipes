@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.epson-europe.com/pub/download/6680/epson668053eu.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.epson-europe.com/pub/download/6680/epson668053eu.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
