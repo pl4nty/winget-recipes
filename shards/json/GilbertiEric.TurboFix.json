@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://turbofix.it/TurboFix-Setup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://turbofix.it/TurboFix-Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
