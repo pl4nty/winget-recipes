@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gregordadera",
+		"repo": "aicb-roslyn-mcp"
+	},
+	"urls": [
+		"https://github.com/gregordadera/aicb-roslyn-mcp/releases/download/{github.rawTag}/AIContextBuilder-Setup-{version}.exe"
+	]
+}

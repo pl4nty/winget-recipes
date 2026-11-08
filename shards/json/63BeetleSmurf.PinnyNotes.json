@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "63BeetleSmurf",
+		"repo": "PinnyNotes"
+	},
+	"urls": [
+		"https://github.com/63BeetleSmurf/PinnyNotes/releases/download/{github.rawTag}/PinnyNotes-Portable-{version}-x64.zip",
+		"https://github.com/63BeetleSmurf/PinnyNotes/releases/download/{github.rawTag}/PinnyNotes-Setup-{version}-x64.msi"
+	]
+}

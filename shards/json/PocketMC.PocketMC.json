@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PocketMC",
+		"repo": "pocket-mc-windows"
+	},
+	"urls": ["https://github.com/PocketMC/pocket-mc-windows/releases/download/v{version}/PocketMC-win-Setup.exe"]
+}
