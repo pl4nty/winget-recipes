@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "monkey1wizard",
+		"repo": "ccync"
+	},
+	"urls": [
+		"https://github.com/monkey1wizard/ccync/releases/download/v{version}/ccync-v{version}-windows-x64.zip",
+		"https://github.com/monkey1wizard/ccync/releases/download/v{version}/ccync-v{version}-windows-arm64.zip"
+	]
+}

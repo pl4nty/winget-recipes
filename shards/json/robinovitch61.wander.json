@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "robinovitch61", "repo": "wander" },
+	"urls": [
+		"https://github.com/robinovitch61/wander/releases/download/{github.rawTag}/wander_{version}_Windows_i386.zip",
+		"https://github.com/robinovitch61/wander/releases/download/{github.rawTag}/wander_{version}_Windows_arm64.zip",
+		"https://github.com/robinovitch61/wander/releases/download/{github.rawTag}/wander_{version}_Windows_x86_64.zip"
+	]
+}

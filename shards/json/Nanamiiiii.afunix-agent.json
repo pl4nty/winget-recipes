@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Nanamiiiii",
+		"repo": "afunix-agent"
+	},
+	"urls": ["https://github.com/Nanamiiiii/afunix-agent/releases/download/v{version}/afunix-agent-x86_64-pc-windows-msvc.exe"]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elwina",
+		"repo": "VibeArk"
+	},
+	"urls": [
+		"https://github.com/elwina/VibeArk/releases/download/{github.rawTag}/vibeark.exe"
+	]
+}
