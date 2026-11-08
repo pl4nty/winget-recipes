@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "phw198",
+		"repo": "OutlookGoogleCalendarSync"
+	},
+	"urls": ["https://github.com/phw198/OutlookGoogleCalendarSync/releases/download/{github.rawTag}/OGCS_Setup.exe"]
+}

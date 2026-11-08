@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "riveredgeventures",
+		"repo": "softspoken-releases"
+	},
+	"urls": [
+		"https://github.com/riveredgeventures/softspoken-releases/releases/download/v{version}/Softspoken_{version}_x64-setup.exe"
+	]
+}
