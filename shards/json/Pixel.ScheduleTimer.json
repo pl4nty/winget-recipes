@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PixxxeL",
+		"repo": "win-gui-tabata"
+	},
+	"urls": [
+		"https://github.com/PixxxeL/win-gui-tabata/releases/download/v{version}/ScheduleTimer-{version}-win-x64.zip"
+	]
+}

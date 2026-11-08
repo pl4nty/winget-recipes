@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ahmedthebest31",
+		"repo": "PureLink"
+	},
+	"urls": [
+		"https://github.com/ahmedthebest31/PureLink/releases/download/{github.rawTag}/PureLink-v{version}-windows-amd64.exe"
+	]
+}
