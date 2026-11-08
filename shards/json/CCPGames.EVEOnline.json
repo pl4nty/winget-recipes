@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://launcher.ccpgames.com/eve-online/release/win32/x64/eve-online-latest+Setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://launcher.ccpgames.com/eve-online/release/win32/x64/eve-online-latest+Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
