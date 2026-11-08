@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Blur009",
+		"repo": "Blur-AutoClicker"
+	},
+	"urls": [
+		"https://github.com/Blur009/Blur-AutoClicker/releases/download/{github.rawTag}/BlurAutoClicker_{version}_x64-setup.exe"
+	]
+}

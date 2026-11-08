@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "taygunsavas", "repo": "git-tangle" },
+	"urls": ["https://github.com/taygunsavas/git-tangle/releases/download/{version}/git-tangle_{version}_windows_x64.zip"]
+}

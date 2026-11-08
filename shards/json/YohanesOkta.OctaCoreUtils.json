@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "yohanesokta", "repo": "octa_core_utils" },
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/yohanesokta/octa_core_utils/releases/download/{github.rawTag}/octacore-portable.zip"
+	]
+}
