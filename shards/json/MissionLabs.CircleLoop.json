@@ -1,0 +1,5 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": { "url": "https://desktop-circleloop-prd.s3.eu-west-2.amazonaws.com/latest.yml" }
+}

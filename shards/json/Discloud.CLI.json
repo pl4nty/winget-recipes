@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "discloud",
+		"repo": "cli-dart"
+	},
+	"urls": [
+		"https://github.com/discloud/cli-dart/releases/download/{github.rawTag}/discloud-cli-x64-setup.exe"
+	]
+}
