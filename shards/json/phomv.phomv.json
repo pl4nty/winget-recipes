@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "chinny-labs", "repo": "phomv" },
+	"urls": ["https://github.com/chinny-labs/phomv/releases/download/v{version}/phomv-{version}-windows-amd64.zip"]
+}

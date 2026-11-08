@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "APImetrics",
+		"repo": "APImetrics-cli"
+	},
+	"urls": [
+		"https://github.com/APImetrics/APImetrics-cli/releases/download/{github.rawTag}/apimetrics-{version}-windows-amd64.zip"
+	]
+}
