@@ -6,6 +6,7 @@
 		"repo": "YUView"
 	},
 	"urls": [
-		"https://github.com/IENT/YUView/releases/download/{github.rawTag}/YUViewSetup.msi"
+		"https://github.com/IENT/YUView/releases/download/{github.rawTag}/YUViewSetup-windows-2022.exe",
+		{ "url": "https://github.com/IENT/YUView/releases/download/{github.rawTag}/YUViewSetup-windows-11-vs2026-arm.exe", "architecture": "arm64" }
 	]
 }

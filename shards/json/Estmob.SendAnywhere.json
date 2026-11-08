@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "yaml",
+	"yaml": {
+		"url": "https://update.send-anywhere.com/downloads/x64/latest.yml",
+		"path": "version"
+	},
+	"urls": [
+		{
+			"url": "https://update.send-anywhere.com/downloads/x64/{data.files.0.url}",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://update.send-anywhere.com/downloads/{data.files.0.url}",
+			"architecture": "x86"
+		}
+	]
+}

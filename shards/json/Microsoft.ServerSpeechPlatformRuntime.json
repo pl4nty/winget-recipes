@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"version": {
+		"source": "display"
+	},
+	"msDownloadCenter": {
+		"id": 27225,
+		"regex": "^(?:SpeechPlatformRuntime\\.msi)$"
+	}
+}
