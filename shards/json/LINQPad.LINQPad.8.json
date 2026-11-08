@@ -6,13 +6,6 @@
 		"regex": "lblLINQPad8Version\">(\\d+(?:\\.\\d+)+)<"
 	},
 	"urls": [
-		{
-			"url": "https://cdn.linqpad.net/public/LINQPad8Setup.exe",
-			"architecture": "x64"
-		},
-		{
-			"url": "https://cdn.linqpad.net/public/LINQPad8Setup.exe",
-			"architecture": "x86"
-		}
+		"https://cdn.linqpad.net/public/LINQPad8Setup.exe"
 	]
 }
