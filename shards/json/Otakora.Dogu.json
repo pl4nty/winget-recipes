@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Otakora",
+		"repo": "dogu"
+	},
+	"urls": ["https://github.com/Otakora/dogu/releases/download/v{version}/dogu-windows-x64-{version}-setup.exe"]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "freelensapp",
+		"repo": "freelens"
+	},
+	"urls": [
+		"https://github.com/freelensapp/freelens/releases/download/v{version}/Freelens-{version}-windows-amd64.exe",
+		"https://github.com/freelensapp/freelens/releases/download/v{version}/Freelens-{version}-windows-arm64.exe",
+		"https://github.com/freelensapp/freelens/releases/download/v{version}/Freelens-{version}-windows-amd64.msi",
+		"https://github.com/freelensapp/freelens/releases/download/v{version}/Freelens-{version}-windows-arm64.msi"
+	]
+}
