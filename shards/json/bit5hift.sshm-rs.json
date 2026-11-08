@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bit5hift",
+		"repo": "sshm-rs"
+	},
+	"urls": [
+		"https://github.com/bit5hift/sshm-rs/releases/download/{github.rawTag}/sshm-rs-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
