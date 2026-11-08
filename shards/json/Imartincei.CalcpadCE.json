@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "imartincei",
+		"repo": "CalcpadCE"
+	},
+	"urls": [
+		"https://github.com/imartincei/CalcpadCE/releases/download/{github.rawTag}/CalcpadCE-setup-{version}.exe"
+	]
+}
