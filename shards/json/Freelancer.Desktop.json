@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://s3.amazonaws.com/desktop-production.freelancer.com/latest/installers/freelancer-desktop-app_windows-installer.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://s3.amazonaws.com/desktop-production.freelancer.com/latest/installers/freelancer-desktop-app_windows-installer.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
