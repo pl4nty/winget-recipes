@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Pathoschild",
+		"repo": "SMAPI"
+	},
+	"urls": [
+		{ "url": "https://github.com/Pathoschild/SMAPI/releases/download/{version}/SMAPI-{version}-installer.zip", "architecture": "neutral" }
+	]
+}

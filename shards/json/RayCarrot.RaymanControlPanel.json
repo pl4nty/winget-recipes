@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "RayCarrot", "repo": "RaymanControlPanel" },
+	"urls": ["https://github.com/RayCarrot/RaymanControlPanel/releases/download/{version}/RaymanControlPanel.exe"]
+}
