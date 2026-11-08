@@ -5,7 +5,7 @@
 		"owner": "Aldaviva",
 		"repo": "AuthenticatorChooser",
 		"method": "api-list",
-		"kind": "all"
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/Aldaviva/AuthenticatorChooser/releases/download/{github.rawTag}/AuthenticatorChooser-win-arm64.zip",
