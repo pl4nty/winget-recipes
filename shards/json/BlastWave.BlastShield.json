@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://dl.blastwave.io/client/BlastShield.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.blastwave.io/client/BlastShield.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
