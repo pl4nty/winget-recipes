@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cytificlabs",
+		"repo": "tr2rl"
+	},
+	"urls": [
+		"https://github.com/cytificlabs/tr2rl/releases/download/{github.rawTag}/tr2rl_{version}_Windows_x86_64.zip",
+		"https://github.com/cytificlabs/tr2rl/releases/download/{github.rawTag}/tr2rl_{version}_Windows_arm64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Londopy",
+		"repo": "nexium"
+	},
+	"urls": [
+		"https://github.com/Londopy/nexium/releases/download/{github.rawTag}/nexium-{version}-setup-x64.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fasterinnerlooper",
+		"repo": "mdterm"
+	},
+	"urls": [
+		"https://github.com/fasterinnerlooper/mdterm/releases/download/{github.rawTag}/mdterm-win-x64.zip"
+	]
+}

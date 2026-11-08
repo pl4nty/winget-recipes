@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "teras",
+		"repo": "Jubler"
+	},
+	"urls": [
+		"https://github.com/teras/Jubler/releases/download/{github.rawTag}/Jubler-{version}-x64.exe"
+	]
+}
