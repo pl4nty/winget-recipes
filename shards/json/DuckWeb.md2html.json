@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ScorpioNov2",
+		"repo": "md2html"
+	},
+	"urls": [
+		"https://github.com/ScorpioNov2/md2html/releases/download/{github.rawTag}/md2html.zip"
+	]
+}
