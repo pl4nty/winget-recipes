@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xyproto",
+		"repo": "algernon"
+	},
+	"urls": [
+		"https://github.com/xyproto/algernon/releases/download/v{version}/algernon-{version}-windows_x86_64_static.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HSU-YU-MING",
+		"repo": "PDFUnlocker"
+	},
+	"urls": [
+		"https://github.com/HSU-YU-MING/PDFUnlocker/releases/download/v{version}/PDFUnlocker.exe"
+	]
+}

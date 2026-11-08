@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://updater.linkly.ai/v3/latest.json"
+	},
+	"urls": [
+		"https://updater.linkly.ai/v3/v{version}/Linkly%20AI_{version}_x64-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://linkly.ai/docs/en/changelog#2026-08-14"
+	}
+}
