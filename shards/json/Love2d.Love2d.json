@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "love2d",
+		"repo": "love"
+	},
+	"urls": [
+		"https://github.com/love2d/love/releases/download/{version}/love-{version}-win32.exe",
+		"https://github.com/love2d/love/releases/download/{version}/love-{version}-win64.exe"
+	]
+}
