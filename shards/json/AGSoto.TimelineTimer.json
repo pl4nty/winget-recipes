@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "agsoto",
+		"repo": "timeline-timer"
+	},
+	"urls": [
+		"https://github.com/agsoto/timeline-timer/releases/download/{github.rawTag}/Timeline.Timer_{version}_x64_en-US.msi",
+		"https://github.com/agsoto/timeline-timer/releases/download/{github.rawTag}/Timeline.Timer_{version}_x64-setup.exe"
+	]
+}

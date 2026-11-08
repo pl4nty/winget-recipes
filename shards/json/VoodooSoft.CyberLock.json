@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [{ "url": "https://cyberlock.global/downloads/InstallCyberLock.exe", "architecture": "x64" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://cyberlock.global/downloads/InstallCyberLock.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ChrisLauinger77",
+		"repo": "stream-gui-rs"
+	},
+	"urls": [
+		"https://github.com/ChrisLauinger77/stream-gui-rs/releases/download/{github.rawTag}/Stream-GUI-RS_{version}_windows_x86_64-setup.exe"
+	]
+}
