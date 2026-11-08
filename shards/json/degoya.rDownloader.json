@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "degoya",
+		"repo": "rDownloader"
+	},
+	"urls": [
+		"https://github.com/degoya/rDownloader/releases/download/{github.rawTag}/rdownloader-windows-x86_64.zip",
+		"https://github.com/degoya/rDownloader/releases/download/{github.rawTag}/rdownloader-windows-x86_64.msi"
+	]
+}

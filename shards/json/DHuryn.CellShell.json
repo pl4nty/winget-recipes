@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DHuryn",
+		"repo": "CellShell"
+	},
+	"urls": [
+		"https://github.com/DHuryn/CellShell/releases/download/{github.rawTag}/CellShell.exe"
+	]
+}

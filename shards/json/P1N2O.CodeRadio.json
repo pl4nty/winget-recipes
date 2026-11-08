@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "P1N2O", "repo": "coderadio" },
+	"urls": [
+		"https://github.com/P1N2O/coderadio/releases/download/v{version}/coderadio-windows-x86_64.exe",
+		"https://github.com/P1N2O/coderadio/releases/download/v{version}/coderadio-windows-arm64.exe"
+	]
+}
