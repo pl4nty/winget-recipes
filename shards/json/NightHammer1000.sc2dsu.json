@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KillerPixelCrew",
+		"repo": "sc2dsu"
+	},
+	"urls": [
+		"https://github.com/KillerPixelCrew/sc2dsu/releases/download/v{version}/sc2dsu-v{version}-windows-x86_64.exe"
+	]
+}
