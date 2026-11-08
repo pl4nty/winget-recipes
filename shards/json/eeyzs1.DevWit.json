@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "eeyzs1",
+		"repo": "DevWit"
+	},
+	"urls": [
+		"https://github.com/eeyzs1/DevWit/releases/download/{github.rawTag}/DevWit.Setup.{version}.exe"
+	]
+}
