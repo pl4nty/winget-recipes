@@ -5,6 +5,6 @@
 		"url": "https://cdn.proma.cool/releases/win-x64/latest.yml"
 	},
 	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/ErlichLiu/Proma/releases/tag/v{version}"
+		"releaseNotesUrl": "https://proma.cool/changelog"
 	}
 }
