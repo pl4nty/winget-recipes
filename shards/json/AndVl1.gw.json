@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AndVl1",
+		"repo": "gw"
+	},
+	"urls": [
+		"https://github.com/AndVl1/gw/releases/download/{github.rawTag}/gw-{version}-aarch64-pc-windows-msvc-winget.zip",
+		"https://github.com/AndVl1/gw/releases/download/{github.rawTag}/gw-{version}-x86_64-pc-windows-msvc-winget.zip"
+	]
+}
