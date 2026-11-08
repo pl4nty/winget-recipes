@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.microsoft.com/download/eb29e759-d7ad-4541-b60c-e9774ad8c593/KIT_BUNDLE_WDK_MEDIACREATION/wdksetup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.microsoft.com/download/eb29e759-d7ad-4541-b60c-e9774ad8c593/KIT_BUNDLE_WDK_MEDIACREATION/wdksetup.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
