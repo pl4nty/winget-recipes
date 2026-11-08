@@ -8,7 +8,7 @@
 		"owner": "CodingWonders",
 		"repo": "DISMTools",
 		"method": "api-list",
-		"kind": "all"
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/CodingWonders/DISMTools/releases/download/{github.rawTag}/dt_setup.exe"
