@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://static.adguard-vpn.com/windows/beta/installer.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://static.adguard-vpn.com/windows/beta/installer.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
