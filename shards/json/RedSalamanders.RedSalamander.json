@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "RedSalamanders", "repo": "RedSalamander" },
+	"urls": [
+		"https://github.com/RedSalamanders/RedSalamander/releases/download/v{version}/RedSalamander-{version}-x64-Portable.zip",
+		"https://github.com/RedSalamanders/RedSalamander/releases/download/v{version}/RedSalamander-{version}-ARM64-Portable.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "svenstaro",
+		"repo": "genact"
+	},
+	"urls": [
+		"https://github.com/svenstaro/genact/releases/download/{github.rawTag}/genact-{version}-x86_64-pc-windows-msvc.exe"
+	]
+}

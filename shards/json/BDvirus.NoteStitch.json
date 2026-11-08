@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BDvirus",
+		"repo": "NoteStitch"
+	},
+	"urls": [
+		"https://github.com/BDvirus/NoteStitch/releases/download/{github.rawTag}/NoteStitch-Setup.exe"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://downloads.wolfvision.com/vSolutionAppSetup_x64.msi",
+		"https://downloads.wolfvision.com/vSolutionAppSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.wolfvision.com/vSolutionAppSetup_x64.msi",
+		"header": "etag"
+	},
+	"replace": true,
+	"releaseNotes": {
+		"releaseNotesUrl": "https://wolfvision.com/en/support/vsolution-app"
+	}
+}

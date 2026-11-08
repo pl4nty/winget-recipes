@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "genishs",
+		"repo": "dh2-py-editor"
+	},
+	"urls": [
+		"https://github.com/genishs/dh2-py-editor/releases/download/{github.rawTag}/koukai2_editor.exe"
+	]
+}
