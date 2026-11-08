@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "losbiw",
+		"repo": "erin"
+	},
+	"urls": [
+		"https://github.com/losbiw/erin/releases/download/{github.rawTag}/erin.exe"
+	]
+}
