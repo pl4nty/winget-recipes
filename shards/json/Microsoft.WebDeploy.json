@@ -33,5 +33,11 @@
 		"https://download.microsoft.com/download/webdeploy_amd64_de-DE.msi",
 		"https://download.microsoft.com/download/webdeploy_amd64_en-US.msi",
 		"https://download.microsoft.com/download/webdeploy_amd64_cs-CZ.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.microsoft.com/download/WebDeploy_x86_zh-TW.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
