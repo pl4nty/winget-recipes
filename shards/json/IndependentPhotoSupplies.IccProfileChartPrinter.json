@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://incontrolphoto.com/download/IccProfileChartPrinterInstaller101.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://incontrolphoto.com/download/IccProfileChartPrinterInstaller101.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
