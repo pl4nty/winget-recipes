@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://eu.diskinternals.com/download/Mail_Recovery_Express.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://eu.diskinternals.com/download/Mail_Recovery_Express.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
