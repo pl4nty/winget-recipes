@@ -6,6 +6,6 @@
 		"repo": "DaxStudio"
 	},
 	"urls": [
-		"https://github.com/DaxStudio/DaxStudio/releases/download/{github.rawTag}/DaxStudio_3_6_1_setup.exe"
+		"https://github.com/DaxStudio/DaxStudio/releases/download/{github.rawTag}/DaxStudio_{version|.|_}_setup.exe"
 	]
 }

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "YanMing-lxb",
+		"repo": "PyTeXMK"
+	},
+	"urls": ["https://github.com/YanMing-lxb/PyTeXMK/releases/download/v{version}/pytexmk-{version}-windows-x64.zip"]
+}

@@ -6,6 +6,6 @@
 		"repo": "envoy"
 	},
 	"urls": [
-		"https://github.com/LXBStudioLLC/envoy/releases/download/{github.rawTag}/Envoy-v{version}-setup.exe"
+		{ "url": "https://github.com/LXBStudioLLC/envoy/releases/download/{github.rawTag}/Envoy-v{version}-setup.exe", "architecture": "x64" }
 	]
 }
