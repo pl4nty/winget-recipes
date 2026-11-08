@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "54145a",
+		"repo": "145watch"
+	},
+	"urls": [
+		"https://github.com/54145a/145watch/releases/download/{github.rawTag}/145watch.exe"
+	]
+}

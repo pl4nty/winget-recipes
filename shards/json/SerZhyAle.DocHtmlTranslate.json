@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SerZhyAle",
+		"repo": "doc-html-translate"
+	},
+	"urls": [
+		"https://github.com/SerZhyAle/doc-html-translate/releases/download/v{version}/doc-html-translate-{version}-windows-x64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "houmain",
+		"repo": "spright"
+	},
+	"urls": [
+		"https://github.com/houmain/spright/releases/download/{github.rawTag}/spright-{version}-win64.zip"
+	]
+}
