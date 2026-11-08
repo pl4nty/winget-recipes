@@ -4,6 +4,5 @@
 	"electronBuilder": {
 		"url": "https://static.codesign.qq.com/plugins/axure/latest.yml"
 	},
-	"releaseNotes": { "releaseNotesUrl": "https://docs.qq.com/doc/DWWtZQWZXeFp0d2lG" },
-	"replace": true
+	"releaseNotes": { "releaseNotesUrl": "https://docs.qq.com/doc/DWWtZQWZXeFp0d2lG" }
 }
