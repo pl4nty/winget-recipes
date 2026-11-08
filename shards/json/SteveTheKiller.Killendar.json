@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SteveTheKiller",
+		"repo": "Killendar"
+	},
+	"urls": ["https://github.com/SteveTheKiller/Killendar/releases/download/v{version}/Killendar.exe"]
+}
