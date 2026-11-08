@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "ransome1", "repo": "sleek" },
+	"urls": [
+		"https://github.com/ransome1/sleek/releases/download/v{version}/sleek-{version}-win-Setup.exe",
+		"https://github.com/ransome1/sleek/releases/download/v{version}/sleek-{version}-win.exe"
+	]
+}
