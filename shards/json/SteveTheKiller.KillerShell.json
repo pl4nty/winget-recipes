@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SteveTheKiller",
+		"repo": "KillerShell"
+	},
+	"urls": ["https://github.com/SteveTheKiller/KillerShell/releases/download/v{version}/KillerShell.exe"]
+}
