@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "slonopotamus",
+		"repo": "stevedore"
+	},
+	"urls": [
+		"https://github.com/slonopotamus/stevedore/releases/download/{version}/stevedore-{version}-x86_64.msi"
+	]
+}
