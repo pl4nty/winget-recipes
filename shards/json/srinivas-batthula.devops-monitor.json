@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "srinivas-batthula",
+		"repo": "devops-monitor"
+	},
+	"urls": [
+		"https://github.com/srinivas-batthula/devops-monitor/releases/download/v{version}/devops-monitor-windows-amd64.exe"
+	]
+}

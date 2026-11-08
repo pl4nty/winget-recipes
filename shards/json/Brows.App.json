@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "brows-app",
+		"repo": "brows"
+	},
+	"urls": [
+		"https://github.com/brows-app/brows/releases/download/{github.rawTag}/brows-x64-{version}.msi"
+	]
+}
