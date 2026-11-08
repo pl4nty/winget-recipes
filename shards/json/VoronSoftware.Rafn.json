@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "voron-software",
+		"repo": "rafn"
+	},
+	"urls": [
+		"https://github.com/voron-software/rafn/releases/download/v{version}/rafn-x86_64-pc-windows-msvc.zip"
+	]
+}

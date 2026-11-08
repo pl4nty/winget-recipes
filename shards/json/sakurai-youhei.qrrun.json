@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sakurai-youhei",
+		"repo": "qrrun"
+	},
+	"urls": [
+		"https://github.com/sakurai-youhei/qrrun/releases/download/v{version}/qrrun_v{version}_windows_amd64.msi",
+		"https://github.com/sakurai-youhei/qrrun/releases/download/v{version}/qrrun_v{version}_windows_arm64.msi"
+	]
+}
