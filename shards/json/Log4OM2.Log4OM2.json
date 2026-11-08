@@ -8,7 +8,7 @@
 	"version": "{version|_|.}",
 	"urls": [
 		{
-			"url": "https://www.log4om.com/l4ong/release/Log4OM2_{captures.version}.zip",
+			"url": "https://www.log4om.com/l4ong/release/Log4OM2_{version}.zip",
 			"nestedInstallerMatches": ["Log4OM2_"]
 		}
 	],
