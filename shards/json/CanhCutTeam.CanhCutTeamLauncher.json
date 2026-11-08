@@ -5,6 +5,15 @@
 		"source": "display"
 	},
 	"urls": [
-		{ "url": "https://download.canhcutteam.com/Launcher/CanhCutTeam_Setup.msi", "architecture": "x64" }
-	]
+		{
+			"url": "https://download.canhcutteam.com/Launcher/CanhCutTeam_Setup.msi",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.canhcutteam.com/Launcher/CanhCutTeam_Setup.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
