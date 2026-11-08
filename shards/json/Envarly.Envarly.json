@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "iray-tno",
+		"repo": "envarly"
+	},
+	"urls": [
+		"https://github.com/iray-tno/envarly/releases/download/{github.rawTag}/Envarly_{version}_x64_en-US.msi",
+		"https://github.com/iray-tno/envarly/releases/download/{github.rawTag}/Envarly_{version}_x64-setup.exe"
+	]
+}
