@@ -1,12 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/GitStudioHQ/gitstudio/releases/latest/download/latest.yml"
+	},
+	"releaseNotes": {
+		"source": "github",
 		"owner": "GitStudioHQ",
 		"repo": "gitstudio",
-		"tagRegex": "^app\\-v"
-	},
-	"urls": [
-		"https://github.com/GitStudioHQ/gitstudio/releases/download/{github.rawTag}/GitStudio-Setup-{version}.exe"
-	]
+		"tag": "app-v{version}"
+	}
 }
