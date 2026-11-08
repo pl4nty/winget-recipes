@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.circleback.ai/windows/nsis/x64"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.circleback.ai/windows/nsis/x64",
+		"header": "etag"
+	},
+	"replace": true
 }
