@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://defaultprogramseditor.com/files/DefaultProgramsEditor.zip"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://defaultprogramseditor.com/files/DefaultProgramsEditor.zip",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://defaultprogramseditor.com/changelog"
+	},
+	"replace": true
+}
