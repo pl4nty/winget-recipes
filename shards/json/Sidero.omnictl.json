@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "siderolabs",
+		"repo": "omni"
+	},
+	"urls": ["https://github.com/siderolabs/omni/releases/download/v{version}/omnictl-windows-amd64.exe"]
+}

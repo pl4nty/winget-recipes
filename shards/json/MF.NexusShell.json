@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mohammedkhaled96",
+		"repo": "NexusShell"
+	},
+	"urls": ["https://github.com/Mohammedkhaled96/NexusShell/releases/download/v{version}/NexusShell_Silent_Setup.exe"]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sftwrdotdev",
+		"repo": "Markpad"
+	},
+	"urls": [
+		"https://github.com/sftwrdotdev/Markpad/releases/download/{github.rawTag}/Markpad_{version}_arm64-setup.exe",
+		"https://github.com/sftwrdotdev/Markpad/releases/download/{github.rawTag}/Markpad_{version}_x64-setup.exe"
+	]
+}
