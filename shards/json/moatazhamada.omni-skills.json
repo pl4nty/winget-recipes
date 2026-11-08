@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "moatazhamada",
+		"repo": "ai-omni-skills"
+	},
+	"urls": [
+		"https://github.com/moatazhamada/ai-omni-skills/releases/download/{github.rawTag}/omni-skills-windows-x64.exe"
+	]
+}
