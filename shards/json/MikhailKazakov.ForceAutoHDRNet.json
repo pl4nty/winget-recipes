@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Phoenix-",
+		"repo": "ForceAutoHDR.Net"
+	},
+	"urls": ["https://github.com/Phoenix-/ForceAutoHDR.Net/releases/download/v{version}/ForceAutoHDR-{version}-win-x64.msi"]
+}
