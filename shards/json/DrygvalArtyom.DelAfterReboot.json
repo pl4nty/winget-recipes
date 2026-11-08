@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Artyomka628",
+		"repo": "DelAfterReboot"
+	},
+	"urls": [
+		"https://github.com/Artyomka628/DelAfterReboot/releases/download/{github.rawTag}/DelAfterReboot-arm64.msi",
+		"https://github.com/Artyomka628/DelAfterReboot/releases/download/{github.rawTag}/DelAfterReboot-x64.msi",
+		"https://github.com/Artyomka628/DelAfterReboot/releases/download/{github.rawTag}/DelAfterReboot-x86.msi"
+	]
+}
