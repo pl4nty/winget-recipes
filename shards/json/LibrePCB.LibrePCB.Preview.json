@@ -1,11 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://librepcb.org/download/",
-		"regex": "https://download\\.librepcb\\.org/releases/(\\d+(?:\\.\\d+)+-rc\\d+)/librepcb-installer-\\1-windows-x86_64\\.exe"
+	"strategy": "github-release",
+	"github": {
+		"owner": "LibrePCB",
+		"repo": "LibrePCB",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
-	"urls": [
-		"https://download.librepcb.org/releases/{version}/librepcb-installer-{version}-windows-x86_64.exe"
-	]
+	"urls": ["https://download.librepcb.org/releases/{version}/librepcb-installer-{version}-windows-x86_64.exe"]
 }
