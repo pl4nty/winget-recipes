@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dyad-sh",
+		"repo": "dyad"
+	},
+	"urls": [
+		{ "url": "https://github.com/dyad-sh/dyad/releases/download/{github.rawTag}/dyad-{version}.Setup.exe", "architecture": "x86" }
+	]
+}

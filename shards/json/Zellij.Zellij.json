@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zellij-org",
+		"repo": "zellij"
+	},
+	"urls": [
+		"https://github.com/zellij-org/zellij/releases/download/v{version}/zellij-x86_64-pc-windows-msvc-installer.msi"
+	]
+}
