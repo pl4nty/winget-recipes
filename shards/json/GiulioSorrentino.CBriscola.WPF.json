@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GiulianoSpaghetti",
+		"repo": "CBriscola.WPF"
+	},
+	"urls": [
+		"https://github.com/GiulianoSpaghetti/CBriscola.WPF/releases/download/{github.rawTag}/CBriscolaWPF-{version}-amd64.msi"
+	]
+}

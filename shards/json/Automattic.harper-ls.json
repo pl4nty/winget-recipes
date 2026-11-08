@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Automattic",
+		"repo": "harper"
+	},
+	"urls": [
+		"https://github.com/Automattic/harper/releases/download/{github.rawTag}/harper-ls-x86_64-pc-windows-msvc.zip"
+	]
+}
