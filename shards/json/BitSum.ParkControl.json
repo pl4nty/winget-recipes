@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://dl.bitsum.com/files/parkcontrolsetup64.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.bitsum.com/files/parkcontrolsetup64.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
