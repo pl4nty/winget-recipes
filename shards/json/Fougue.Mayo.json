@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fougue",
+		"repo": "mayo"
+	},
+	"urls": [
+		"https://github.com/fougue/mayo/releases/download/{github.rawTag}/Mayo-{version}-win64-installer.exe"
+	]
+}
