@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "xcomart", "repo": "rulogman" },
+	"urls": [
+		"https://github.com/xcomart/rulogman/releases/download/v{version}/rulogman-v{version}-x86_64-pc-windows-msvc-setup.exe"
+	]
+}

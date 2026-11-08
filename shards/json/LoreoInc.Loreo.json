@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "farrokh",
+		"repo": "loreo-releases",
+		"method": "api-sort",
+		"assetRegex": "_x64-setup\\.exe$"
+	}
+}

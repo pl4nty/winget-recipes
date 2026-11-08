@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mihovilrak",
+		"repo": "photorg"
+	},
+	"urls": [
+		"https://github.com/mihovilrak/photorg/releases/download/v{version}/photorg-x86_64-pc-windows-msvc.zip",
+		"https://github.com/mihovilrak/photorg/releases/download/v{version}/photorg-aarch64-pc-windows-msvc.zip"
+	]
+}
