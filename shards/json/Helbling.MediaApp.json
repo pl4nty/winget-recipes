@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://mediaapp.helbling.com/downloads/OU34DJKB/latest/HELBLING%20Media%20App%20Setup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://mediaapp.helbling.com/downloads/OU34DJKB/latest/HELBLING%20Media%20App%20Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
