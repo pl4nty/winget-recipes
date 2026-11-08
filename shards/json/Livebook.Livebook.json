@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "livebook-dev",
+		"repo": "livebook"
+	},
+	"urls": [
+		"https://github.com/livebook-dev/livebook/releases/download/{github.rawTag}/Livebook-windows-x64.exe"
+	]
+}

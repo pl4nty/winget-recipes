@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MicrosoftDocs",
+		"repo": "WDAC-Toolkit"
+	},
+	"urls": [
+		"https://github.com/MicrosoftDocs/WDAC-Toolkit/releases/download/v{version}/AppLockerPolicyConverter.zip"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "goptics",
+		"repo": "vizb"
+	},
+	"urls": [
+		"https://github.com/goptics/vizb/releases/download/{github.rawTag}/vizb@{version}-windows-amd64.zip",
+		"https://github.com/goptics/vizb/releases/download/{github.rawTag}/vizb@{version}-windows-arm64.zip"
+	]
+}

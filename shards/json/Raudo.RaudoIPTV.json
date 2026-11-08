@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "realpdro",
+		"repo": "raudo-iptv-releases"
+	},
+	"urls": [
+		"https://github.com/realpdro/raudo-iptv-releases/releases/download/v{version}/Raudo-IPTV-Setup.exe"
+	]
+}
