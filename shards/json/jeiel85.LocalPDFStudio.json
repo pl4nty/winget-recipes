@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jeiel85",
+		"repo": "localpdf-studio-desktop"
+	},
+	"urls": [
+		"https://github.com/jeiel85/localpdf-studio-desktop/releases/download/{github.rawTag}/LocalPDF.Studio_{version}_x64-setup.exe",
+		"https://github.com/jeiel85/localpdf-studio-desktop/releases/download/{github.rawTag}/LocalPDF.Studio_{version}_x64_en-US.msi"
+	]
+}

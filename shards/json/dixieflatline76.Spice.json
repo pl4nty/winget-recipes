@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dixieflatline76",
+		"repo": "Spice"
+	},
+	"urls": [
+		"https://github.com/dixieflatline76/Spice/releases/download/{github.rawTag}/Spice-Setup-{version}-windows-amd64.exe"
+	]
+}

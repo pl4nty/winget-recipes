@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "barun-saha",
+		"repo": "drive-sonar"
+	},
+	"urls": [
+		"https://github.com/barun-saha/drive-sonar/releases/download/{github.rawTag}/Drive.Sonar_{version}_x64-setup.exe"
+	]
+}
