@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://desktop.circle.so/latest.yml"
+	},
+	"urls": ["https://desktop.circle.so/Circle-{version}.exe"]
+}

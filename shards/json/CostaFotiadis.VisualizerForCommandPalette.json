@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CostaFot",
+		"repo": "visualizer-extension"
+	},
+	"urls": [
+		"https://github.com/CostaFot/visualizer-extension/releases/download/{github.rawTag}/VisualizerExtension_{version}_Bundle.Msixbundle"
+	]
+}
