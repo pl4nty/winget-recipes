@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bleriotnoguia",
+		"repo": "lockbox-local"
+	},
+	"urls": [
+		"https://github.com/bleriotnoguia/lockbox-local/releases/download/{github.rawTag}/Lockbox.Local_{version}_x64_en-US.msi"
+	]
+}
