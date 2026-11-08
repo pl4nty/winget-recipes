@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Buffer124",
+		"repo": "WindowsTimeSync"
+	},
+	"urls": [
+		"https://github.com/Buffer124/WindowsTimeSync/releases/download/{github.rawTag}/WindowsTimeSync.exe"
+	]
+}
