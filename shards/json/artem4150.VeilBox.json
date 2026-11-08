@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "artem4150",
+		"repo": "VeilBox"
+	},
+	"urls": [
+		"https://github.com/artem4150/VeilBox/releases/download/{github.rawTag}/VeilBox_{version}_x64-setup.exe"
+	]
+}

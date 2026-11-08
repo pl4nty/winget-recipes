@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dotenvx",
+		"repo": "dotenvx"
+	},
+	"urls": [
+		"https://github.com/dotenvx/dotenvx/releases/download/{github.rawTag}/dotenvx-{version}-windows-x86_64.zip",
+		"https://github.com/dotenvx/dotenvx/releases/download/{github.rawTag}/dotenvx-{version}-windows-amd64.zip"
+	]
+}

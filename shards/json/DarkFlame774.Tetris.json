@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DarkFlame774",
+		"repo": "Tetris"
+	},
+	"urls": [
+		"https://github.com/DarkFlame774/Tetris/releases/download/{github.rawTag}/Tetris-{version}.exe"
+	]
+}

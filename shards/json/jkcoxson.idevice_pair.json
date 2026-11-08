@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jkcoxson",
+		"repo": "idevice_pair"
+	},
+	"urls": [
+		"https://github.com/jkcoxson/idevice_pair/releases/download/{github.rawTag}/idevice_pair--windows-x86_64.exe"
+	]
+}
