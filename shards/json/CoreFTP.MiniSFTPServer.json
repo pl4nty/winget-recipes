@@ -14,7 +14,13 @@
 			"architecture": "x86"
 		}
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.coreftp.com/server/download/mini-sftp-server.x64.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.coreftp.com/forums/viewtopic.php?t=4064705"
-	}
+	},
+	"replace": true
 }
