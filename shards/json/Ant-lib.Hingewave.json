@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ant-lib",
+		"repo": "hingewave"
+	},
+	"urls": [
+		"https://github.com/Ant-lib/hingewave/releases/download/{github.rawTag}/hingewave-arm64.exe",
+		"https://github.com/Ant-lib/hingewave/releases/download/{github.rawTag}/hingewave-x64.exe"
+	]
+}

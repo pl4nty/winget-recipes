@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Elof-com", "repo": "SDXC-copy" },
+	"urls": [
+		"https://github.com/Elof-com/SDXC-copy/releases/download/v{version}/SDXC-copy-v{version}-win-x64.zip"
+	]
+}
