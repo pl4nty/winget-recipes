@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "IIS.ServiceMonitor"
+	},
+	"urls": [
+		"https://github.com/microsoft/IIS.ServiceMonitor/releases/download/v{version}/ServiceMonitor.exe"
+	]
+}

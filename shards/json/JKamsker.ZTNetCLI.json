@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JKamsker",
+		"repo": "ztnet-cli"
+	},
+	"urls": [
+		"https://github.com/JKamsker/ztnet-cli/releases/download/{github.rawTag}/ztnet-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
