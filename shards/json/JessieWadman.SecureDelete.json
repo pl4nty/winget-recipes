@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JessieWadman",
+		"repo": "SecureDelete"
+	},
+	"urls": [
+		"https://github.com/JessieWadman/SecureDelete/releases/download/{github.rawTag}/SecureDelete-{version}-Setup.exe"
+	]
+}
