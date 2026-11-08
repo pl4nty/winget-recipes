@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "caribouHY",
+		"repo": "exaterm"
+	},
+	"urls": [
+		"https://github.com/caribouHY/exaterm/releases/download/{github.rawTag}/ExaTerm_{version}_x64_en-US.msi",
+		"https://github.com/caribouHY/exaterm/releases/download/{github.rawTag}/ExaTerm_{version}_x64-setup.exe"
+	]
+}

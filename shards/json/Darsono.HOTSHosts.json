@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "darsono6",
+		"repo": "HOTS"
+	},
+	"urls": [
+		"https://github.com/darsono6/HOTS/releases/download/{github.rawTag}/HOTS_Hosts_setup.exe"
+	]
+}
