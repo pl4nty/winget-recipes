@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "deltaforge-org",
+		"repo": "delta-forge"
+	},
+	"urls": [
+		"https://github.com/deltaforge-org/delta-forge/releases/download/{github.rawTag}/deltaforge-cli-{version}-windows-x64.msi"
+	]
+}
