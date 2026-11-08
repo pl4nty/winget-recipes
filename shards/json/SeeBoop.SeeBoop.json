@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alexreich",
+		"repo": "SeeBoop-releases"
+	},
+	"urls": ["https://github.com/alexreich/SeeBoop-releases/releases/download/v{version}/SeeBoop-Setup-{version}.exe"]
+}

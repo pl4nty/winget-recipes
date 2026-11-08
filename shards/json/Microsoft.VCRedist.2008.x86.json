@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"version": {
+		"source": "display"
+	},
+	"msDownloadCenter": {
+		"id": 26368,
+		"regex": "^(?:vcredist_x86\\.exe)$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.microsoft.com/en-us/servicing/visual-studio/update/2017/04/ms11-025-description-of-the-security-update-for-visual-c-2008-sp1-redistributable-package-june-14-20"
+	}
+}
