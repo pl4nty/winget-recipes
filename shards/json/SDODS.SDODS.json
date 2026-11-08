@@ -1,9 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": { "owner": "YarlisAISolutions", "repo": "sdods-releases", "tagRegex": "^desktop-v" },
-	"urls": [
-		"https://github.com/YarlisAISolutions/sdods-releases/releases/download/{github.rawTag}/SDODS-Setup-{version}-win-x64.exe",
-		"https://github.com/YarlisAISolutions/sdods-releases/releases/download/{github.rawTag}/SDODS-Setup-{version}-win-arm64.exe"
-	]
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/YarlisAISolutions/sdods-releases/releases/latest/download/latest.yml"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "YarlisAISolutions",
+		"repo": "sdods-releases",
+		"tag": "desktop-v{version}"
+	}
 }
