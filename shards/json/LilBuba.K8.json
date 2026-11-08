@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jopublic",
+		"repo": "lilbubba-site"
+	},
+	"urls": [
+		"https://github.com/jopublic/lilbubba-site/releases/download/{github.rawTag}/K8_Setup_{version}.exe"
+	]
+}

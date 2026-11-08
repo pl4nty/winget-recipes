@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ivifoundation.org/Shared-Components/default.html",
+		"regex": "IVI Shared Components (\\d+(?:\\.\\d+)+) [^<]*source code"
+	},
+	"urls": [
+		"https://www.ivifoundation.org/downloads/Shared%20Components/IviSharedComponents_{version|.|}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ivifoundation.org/Shared-Components/default.html"
+	}
+}
