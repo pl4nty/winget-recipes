@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "StormShynn",
+		"repo": "devfinder-releases"
+	},
+	"urls": ["https://github.com/StormShynn/devfinder-releases/releases/download/v{version}/DevFinder-Setup-{version}.exe"]
+}

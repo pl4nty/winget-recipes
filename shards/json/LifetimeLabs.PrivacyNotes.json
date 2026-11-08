@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://releases.privacynotes.app/latest.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://releases.privacynotes.app/{version}/PrivacyNotes_x64-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://privacynotes.app/changelog"
+	}
+}

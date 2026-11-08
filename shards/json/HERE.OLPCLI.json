@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "heremaps",
+		"repo": "homebrew-olp-cli"
+	},
+	"urls": [
+		"https://github.com/heremaps/homebrew-olp-cli/releases/download/{github.rawTag}/cli_2.13-{version}-installer.msi"
+	]
+}
