@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://tunnelsassetsprod.blob.core.windows.net/cli/devtunnel.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://tunnelsassetsprod.blob.core.windows.net/cli/devtunnel.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
