@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "peco", "repo": "peco" },
+	"urls": [
+		"https://github.com/peco/peco/releases/download/v{version}/peco_{version}_windows_amd64.zip"
+	]
+}
