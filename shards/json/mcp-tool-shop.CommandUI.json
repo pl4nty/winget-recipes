@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mcp-tool-shop-org", "repo": "commandui" },
+	"urls": [
+		"https://github.com/mcp-tool-shop-org/commandui/releases/download/v{version}/CommandUI_{version}_x64_en-US.msi",
+		"https://github.com/mcp-tool-shop-org/commandui/releases/download/v{version}/CommandUI_{version}_x64-setup.exe"
+	]
+}
