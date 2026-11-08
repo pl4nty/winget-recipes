@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kulkamKakarot",
+		"repo": "drivelens"
+	},
+	"urls": [
+		"https://github.com/kulkamKakarot/drivelens/releases/download/{github.rawTag}/DriveLens.Setup.{version}.exe"
+	]
+}

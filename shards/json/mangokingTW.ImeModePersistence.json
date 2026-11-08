@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mangokingTW", "repo": "ImeModePersistence" },
+	"urls": ["https://github.com/mangokingTW/ImeModePersistence/releases/download/{github.rawTag}/ImeModePersistence-{version}-setup.exe"]
+}
