@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hhktony",
+		"repo": "rust-iproute2"
+	},
+	"urls": [
+		"https://github.com/hhktony/rust-iproute2/releases/download/{github.rawTag}/rust-iproute2-{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/hhktony/rust-iproute2/releases/download/{github.rawTag}/rust-iproute2-{version}-aarch64-pc-windows-msvc.zip"
+	]
+}

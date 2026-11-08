@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TanvirAnjumApurbo",
+		"repo": "skiagram"
+	},
+	"urls": ["https://github.com/TanvirAnjumApurbo/skiagram/releases/download/v{version}/skiagram-x86_64-pc-windows-msvc.zip"]
+}
