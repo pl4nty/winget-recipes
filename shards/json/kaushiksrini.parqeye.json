@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kaushiksrini",
+		"repo": "parqeye"
+	},
+	"urls": [
+		"https://github.com/kaushiksrini/parqeye/releases/download/{github.rawTag}/parqeye-x86_64-pc-windows-msvc.zip"
+	]
+}
