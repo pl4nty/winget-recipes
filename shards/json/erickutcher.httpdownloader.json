@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "erickutcher", "repo": "httpdownloader" },
+	"urls": [
+		"https://github.com/erickutcher/httpdownloader/releases/download/v{version}/HTTP_Downloader_32.zip",
+		"https://github.com/erickutcher/httpdownloader/releases/download/v{version}/HTTP_Downloader_64.zip"
+	]
+}

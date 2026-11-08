@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "utkuozdemir",
+		"repo": "nvidia_gpu_exporter"
+	},
+	"urls": [
+		"https://github.com/utkuozdemir/nvidia_gpu_exporter/releases/download/v{version}/nvidia_gpu_exporter_{version}_windows_x86_64.zip"
+	]
+}

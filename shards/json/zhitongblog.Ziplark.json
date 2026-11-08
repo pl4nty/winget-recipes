@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zhitongblog",
+		"repo": "ziplark"
+	},
+	"urls": [
+		"https://github.com/zhitongblog/ziplark/releases/download/v{version}/Ziplark_{version}_x64-setup.exe",
+		"https://github.com/zhitongblog/ziplark/releases/download/v{version}/Ziplark_{version}_x64_en-US.msi"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://cdn2.minitool.com/download-center/release/products/pw/current-release/pw-free-offline.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn2.minitool.com/download-center/release/products/pw/current-release/pw-free-offline.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
