@@ -1,10 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/rozsazoltan/messenger/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
 		"owner": "rozsazoltan",
 		"repo": "messenger",
-		"tagRegex": "(?:-\\d+)?$"
-	},
-	"urls": ["https://github.com/rozsazoltan/messenger/releases/download/{github.rawTag}/messenger-next.msi"]
+		"tag": "v{version}"
+	}
 }
