@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Tichau",
+		"repo": "FileConverter"
+	},
+	"urls": [
+		"https://github.com/Tichau/FileConverter/releases/download/{github.rawTag}/FileConverter-{version}-x64-setup.msi"
+	]
+}

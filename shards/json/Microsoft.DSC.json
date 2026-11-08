@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PowerShell",
+		"repo": "DSC"
+	},
+	"urls": [
+		"https://github.com/PowerShell/DSC/releases/download/v{version}/DSC-{version}-Win.msixbundle",
+		"https://github.com/PowerShell/DSC/releases/download/v{version}/DSC-{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/PowerShell/DSC/releases/download/v{version}/DSC-{version}-aarch64-pc-windows-msvc.zip"
+	]
+}
