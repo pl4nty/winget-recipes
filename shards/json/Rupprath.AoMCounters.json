@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rupprath",
+		"repo": "aom-counters"
+	},
+	"urls": [
+		"https://github.com/rupprath/aom-counters/releases/download/v{version}/AoM.Counters_{version}_x64-setup.exe",
+		"https://github.com/rupprath/aom-counters/releases/download/v{version}/AoM.Counters_{version}_x64_en-US.msi"
+	]
+}
