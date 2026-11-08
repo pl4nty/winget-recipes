@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GUI-for-Cores",
+		"repo": "GUI.for.Clash"
+	},
+	"urls": [
+		"https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/{github.rawTag}/GUI.for.Clash-windows-386.zip",
+		"https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/{github.rawTag}/GUI.for.Clash-windows-amd64.zip",
+		"https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/{github.rawTag}/GUI.for.Clash-windows-arm64.zip"
+	]
+}
