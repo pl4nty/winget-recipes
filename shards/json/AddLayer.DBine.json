@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "addlayer-io",
+		"repo": "dbine"
+	},
+	"urls": [
+		"https://github.com/addlayer-io/dbine/releases/download/{github.rawTag}/DBine_{version}_x64-setup.exe",
+		"https://github.com/addlayer-io/dbine/releases/download/{github.rawTag}/DBine_{version}_x64_en-US.msi"
+	]
+}
