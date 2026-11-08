@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hydrogen-music",
+		"repo": "hydrogen"
+	},
+	"urls": ["https://github.com/hydrogen-music/hydrogen/releases/download/{version}/Hydrogen-{version}-win64.exe"]
+}
