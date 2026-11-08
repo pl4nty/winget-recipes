@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JordanTX21",
+		"repo": "llama-forge-manager"
+	},
+	"urls": [
+		"https://github.com/JordanTX21/llama-forge-manager/releases/download/{github.rawTag}/llama-forge-manager.exe"
+	]
+}

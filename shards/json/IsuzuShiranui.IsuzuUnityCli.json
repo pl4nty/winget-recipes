@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "isuzu-shiranui",
+		"repo": "UnityMCP"
+	},
+	"urls": [
+		"https://github.com/isuzu-shiranui/UnityMCP/releases/download/{github.rawTag}/isuzu-unity-cli-win-x64.exe"
+	]
+}
