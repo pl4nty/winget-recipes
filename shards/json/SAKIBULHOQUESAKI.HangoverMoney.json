@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "saki-saki09",
+		"repo": "HangoverMoney"
+	},
+	"urls": [
+		{ "url": "https://github.com/saki-saki09/HangoverMoney/releases/download/v{version}/HangoverMoney_Setup_v{version}.exe", "architecture": "neutral" }
+	]
+}

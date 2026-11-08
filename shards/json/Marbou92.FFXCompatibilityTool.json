@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "marbou92", "repo": "FFX-Compatibility-Tool" },
+	"urls": ["https://github.com/marbou92/FFX-Compatibility-Tool/releases/download/v{version}/FFXCompatibilityTool-{version}.exe"]
+}

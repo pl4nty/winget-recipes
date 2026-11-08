@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "divyangchauhan",
+		"repo": "Mushak"
+	},
+	"urls": [
+		"https://github.com/divyangchauhan/Mushak/releases/download/{github.rawTag}/mushak.exe",
+		"https://github.com/divyangchauhan/Mushak/releases/download/{github.rawTag}/mushak-{version}-x64.msi"
+	]
+}
