@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Chatterino",
+		"repo": "chatterino2"
+	},
+	"urls": [
+		"https://github.com/Chatterino/chatterino2/releases/download/{github.rawTag}/Chatterino.Installer.exe"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tokalang", "repo": "trg" },
+	"urls": [
+		"https://github.com/tokalang/trg/releases/download/{github.rawTag}/trg-{github.rawTag}-windows-x64.zip",
+		"https://github.com/tokalang/trg/releases/download/{github.rawTag}/trg-{github.rawTag}-windows-arm64.zip"
+	]
+}
