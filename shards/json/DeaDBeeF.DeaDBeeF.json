@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/deadbeef/rss?path=/travis/windows",
+		"regex": "/travis/windows/(\\d+(?:\\.\\d+)+)/deadbeef-\\d+(?:\\.\\d+)+-windows-x86_64\\.exe/"
+	},
+	"urls": ["https://sourceforge.net/projects/deadbeef/files/travis/windows/{version}/deadbeef-{version}-windows-x86_64.exe/download"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/DeaDBeeF-Player/deadbeef/blob/master/ChangeLog"
+	}
+}
