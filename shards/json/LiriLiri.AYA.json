@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "liriliri",
+		"repo": "aya"
+	},
+	"urls": [
+		"https://github.com/liriliri/aya/releases/download/{github.rawTag}/AYA-{version}-win-x64.exe"
+	]
+}

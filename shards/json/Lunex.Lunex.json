@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "miangee21",
+		"repo": "Lunex"
+	},
+	"urls": [
+		"https://github.com/miangee21/Lunex/releases/download/{github.rawTag}/Lunex_{version}_x64_en-US.msi",
+		"https://github.com/miangee21/Lunex/releases/download/{github.rawTag}/Lunex_{version}_x64-setup.exe"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.bell-sw.com/v1/liberica/releases?version-feature=12&version-modifier=latest&os=windows&arch=x86&package-type=msi&bundle-type=jdk",
+		"path": "0.version"
+	},
+	"urls": [
+		"https://download.bell-sw.com/java/{data.0.downloadUrl|https://github.com/bell-sw/Liberica/releases/download/|}",
+		"https://download.bell-sw.com/java/{data.1.downloadUrl|https://github.com/bell-sw/Liberica/releases/download/|}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://bell-sw.com/pages/liberica-release-notes-{version|+|-}/"
+	}
+}

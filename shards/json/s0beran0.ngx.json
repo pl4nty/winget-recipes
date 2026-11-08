@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "s0beran0",
+		"repo": "ngx"
+	},
+	"urls": [
+		"https://github.com/s0beran0/ngx/releases/download/{github.rawTag}/ngx_{version}_windows_arm64_winget.zip",
+		"https://github.com/s0beran0/ngx/releases/download/{github.rawTag}/ngx_{version}_windows_amd64_winget.zip"
+	]
+}
