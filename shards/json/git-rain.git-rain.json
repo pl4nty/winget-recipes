@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "git-fire",
+		"repo": "git-rain"
+	},
+	"urls": [
+		"https://github.com/git-fire/git-rain/releases/download/{github.rawTag}/git-rain_{version}_windows_386.zip",
+		"https://github.com/git-fire/git-rain/releases/download/{github.rawTag}/git-rain_{version}_windows_amd64.zip",
+		"https://github.com/git-fire/git-rain/releases/download/{github.rawTag}/git-rain_{version}_windows_arm64.zip"
+	]
+}
