@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LunarWerxs",
+		"repo": "SageThumbs-2k"
+	},
+	"urls": [
+		"https://github.com/LunarWerxs/SageThumbs-2k/releases/download/{github.rawTag}/SageThumbs2K-Setup-{version}-arm64.exe",
+		"https://github.com/LunarWerxs/SageThumbs-2k/releases/download/{github.rawTag}/SageThumbs2K-Setup-{version}.exe",
+		"https://github.com/LunarWerxs/SageThumbs-2k/releases/download/{github.rawTag}/SageThumbs2K-Setup-{version}-amd64.exe"
+	]
+}

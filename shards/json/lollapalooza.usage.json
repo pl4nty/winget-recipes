@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aqua5230",
+		"repo": "usage"
+	},
+	"urls": [
+		"https://github.com/aqua5230/usage/releases/download/{github.rawTag}/usage-windows.zip"
+	]
+}
