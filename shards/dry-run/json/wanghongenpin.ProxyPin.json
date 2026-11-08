@@ -3,10 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "wanghongenpin",
-		"repo": "proxypin",
-		"method": "api-sort",
-		"perPage": 100,
-		"assetRegex": "windows-[\\d.]+\\.exe$"
+		"repo": "proxypin"
 	},
+	"urls": ["https://github.com/wanghongenpin/proxypin/releases/download/{github.rawTag}/proxypin-windows-{version}.exe"],
 	"version": { "source": "display" }
 }

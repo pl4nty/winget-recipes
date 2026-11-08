@@ -2,9 +2,12 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "TensoRaws",
-		"repo": "Final2x",
-		"assetRegex": "-windows-(x64|arm64)-setup\\.exe$"
+		"owner": "EutropicAI",
+		"repo": "Final2x"
 	},
+	"urls": [
+		"https://github.com/EutropicAI/Final2x/releases/download/{github.rawTag}/Final2x-windows-x64-setup.exe",
+		"https://github.com/EutropicAI/Final2x/releases/download/{github.rawTag}/Final2x-windows-arm64-setup.exe"
+	],
 	"version": { "source": "display" }
 }
