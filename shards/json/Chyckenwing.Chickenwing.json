@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chyckenwing",
+		"repo": "chickenwing"
+	},
+	"urls": [
+		"https://github.com/chyckenwing/chickenwing/releases/download/{github.rawTag}/chickenwing-windows-x64-v{version}.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AurelioAvila",
+		"repo": "Tweaky-Driver-Releases"
+	},
+	"urls": [
+		"https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/{github.rawTag}/Tweaky-Driver-{version}-x64-setup.exe"
+	]
+}

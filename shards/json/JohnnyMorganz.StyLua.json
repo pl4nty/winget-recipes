@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JohnnyMorganz",
+		"repo": "StyLua"
+	},
+	"urls": [
+		"https://github.com/JohnnyMorganz/StyLua/releases/download/{github.rawTag}/stylua-windows-x86_64.zip"
+	]
+}
