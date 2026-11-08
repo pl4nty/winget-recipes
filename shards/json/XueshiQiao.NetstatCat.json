@@ -1,13 +1,10 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "tauri",
-	"tauri": {
-		"url": "https://github.com/XueshiQiao/netstat-cat/releases/latest/download/latest.json"
-	},
-	"releaseNotes": {
-		"source": "github",
+	"strategy": "github-release",
+	"github": {
 		"owner": "XueshiQiao",
 		"repo": "netstat-cat",
-		"tag": "v{version}"
+		"method": "api-sort",
+		"assetRegex": "^Netstat\\.Cat_.*_(x64_en-US\\.msi|x64-setup\\.exe|arm64_en-US\\.msi|arm64-setup\\.exe)$"
 	}
 }
