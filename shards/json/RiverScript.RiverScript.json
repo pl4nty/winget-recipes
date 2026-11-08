@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://downloads.riverscript.com/latest.json"
+	}
+}
