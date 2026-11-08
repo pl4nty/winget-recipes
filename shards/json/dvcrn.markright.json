@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dvcrn",
+		"repo": "markright"
+	},
+	"urls": [
+		"https://github.com/dvcrn/markright/releases/download/{github.rawTag}/MarkRight_{version}_x64-setup.exe",
+		"https://github.com/dvcrn/markright/releases/download/{github.rawTag}/MarkRight_{version}_x64_en-US.msi"
+	]
+}

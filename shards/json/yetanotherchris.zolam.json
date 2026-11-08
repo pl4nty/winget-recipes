@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yetanotherchris",
+		"repo": "zolam"
+	},
+	"urls": ["https://github.com/yetanotherchris/zolam/releases/download/v{version}/zolam-windows-amd64.zip"]
+}

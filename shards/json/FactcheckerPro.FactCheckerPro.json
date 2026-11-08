@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OchanP",
+		"repo": "FactCheckerPro-Desktop"
+	},
+	"urls": [
+		"https://github.com/OchanP/FactCheckerPro-Desktop/releases/download/{github.rawTag}/FactCheckerPro-Setup-arm64.exe",
+		"https://github.com/OchanP/FactCheckerPro-Desktop/releases/download/{github.rawTag}/FactCheckerPro-Setup-x64.exe"
+	]
+}

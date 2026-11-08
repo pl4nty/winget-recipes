@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "game1024",
+		"repo": "OpenSpeedy"
+	},
+	"urls": [
+		{ "url": "https://github.com/game1024/OpenSpeedy/releases/download/{github.rawTag}/OpenSpeedy-{version}-portable-signed.zip", "architecture": "neutral" }
+	]
+}

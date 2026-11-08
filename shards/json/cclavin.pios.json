@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cclavin",
+		"repo": "pios"
+	},
+	"urls": [
+		"https://github.com/cclavin/pios/releases/download/{github.rawTag}/pios_Windows_arm64.zip",
+		"https://github.com/cclavin/pios/releases/download/{github.rawTag}/pios_Windows_x86_64.zip"
+	]
+}

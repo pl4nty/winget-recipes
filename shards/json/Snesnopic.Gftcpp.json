@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Snesnopic",
+		"repo": "gftcpp"
+	},
+	"urls": [
+		"https://github.com/Snesnopic/gftcpp/releases/download/v{version}/gftcpp-windows-x64.zip",
+		"https://github.com/Snesnopic/gftcpp/releases/download/v{version}/gftcpp-windows-x86.zip",
+		"https://github.com/Snesnopic/gftcpp/releases/download/v{version}/gftcpp-windows-arm64.zip"
+	]
+}
