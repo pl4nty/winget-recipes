@@ -1,28 +1,21 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "xml",
-	"xml": {
+	"strategy": "page-match",
+	"pageMatch": {
 		"url": "https://www.mitec.cz/wp/xml/vh_exe.xml",
-		"path": "VH.0.RECORD.0.VERSION.0"
+		"regex": "<VERSION>(\\d+(?:\\.\\d+)+)</VERSION>"
 	},
 	"urls": [
 		{
 			"url": "https://www.mitec.cz/wp/files/EXE.zip",
 			"architecture": "x64",
-			"nestedInstallerMatches": [
-				"EXE64.exe",
-				"EXE.exe"
-			]
+			"nestedInstallerMatches": ["EXE64.exe", "EXE.exe"]
 		},
 		{
 			"url": "https://www.mitec.cz/wp/files/EXE.zip",
 			"architecture": "x86",
-			"nestedInstallerMatches": [
-				"EXE.exe"
-			]
+			"nestedInstallerMatches": ["EXE.exe"]
 		}
 	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://www.mitec.cz/wp/xml/vh_exe.xml"
-	}
+	"releaseNotes": { "releaseNotesUrl": "https://www.mitec.cz/wp/xml/vh_exe.xml" }
 }
