@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zhugecaomao",
+		"repo": "ALTRun"
+	},
+	"urls": ["https://github.com/zhugecaomao/ALTRun/releases/download/{version}/ALTRun_v{version}.zip"]
+}
