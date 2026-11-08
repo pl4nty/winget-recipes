@@ -1,13 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "electron-builder",
-	"electronBuilder": {
-		"url": "https://github.com/bholmesdev/hubble.md/releases/latest/download/latest.yml"
-	},
-	"releaseNotes": {
-		"source": "github",
+	"strategy": "github-release",
+	"github": {
 		"owner": "bholmesdev",
 		"repo": "hubble.md",
-		"tag": "desktop-v{version}"
-	}
+		"tagRegex": "^desktop\\-v"
+	},
+	"urls": [
+		"https://github.com/bholmesdev/hubble.md/releases/download/{github.rawTag}/hubble_{version}_arm64.exe",
+		"https://github.com/bholmesdev/hubble.md/releases/download/{github.rawTag}/hubble_{version}_x64.exe"
+	]
 }
