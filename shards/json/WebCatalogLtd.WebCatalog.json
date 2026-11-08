@@ -1,0 +1,5 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": { "url": "https://cdn-2.webcatalog.io/webcatalog/latest.yml" }
+}

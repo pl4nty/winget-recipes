@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HawkSP",
+		"repo": "dedai-bridge"
+	},
+	"urls": [
+		"https://github.com/HawkSP/dedai-bridge/releases/download/{github.rawTag}/DedAI-Bridge-Simple-windows-x86_64.exe"
+	]
+}
