@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://bibigpt-apps.oss-cn-beijing.aliyuncs.com/desktop-releases/latest.json"
+	},
+	"urls": [
+		"https://bibigpt-apps.oss-cn-beijing.aliyuncs.com/desktop-releases/BibiGPT-{version}-windows-x86_64.exe"
+	]
+}

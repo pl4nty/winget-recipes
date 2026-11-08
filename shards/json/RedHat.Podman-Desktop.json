@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "podman-desktop",
+		"repo": "podman-desktop"
+	},
+	"urls": [
+		"https://github.com/podman-desktop/podman-desktop/releases/download/v{version}/podman-desktop-{version}-setup-x64.exe",
+		"https://github.com/podman-desktop/podman-desktop/releases/download/v{version}/podman-desktop-{version}-setup-arm64.exe"
+	]
+}
