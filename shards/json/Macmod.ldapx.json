@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Macmod",
+		"repo": "ldapx"
+	},
+	"urls": [
+		"https://github.com/Macmod/ldapx/releases/download/v{version}/ldapx-v{version}-windows-amd64.zip"
+	]
+}

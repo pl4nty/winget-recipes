@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "StephanOrgiazzi",
+		"repo": "EverythingNext"
+	},
+	"urls": ["https://github.com/StephanOrgiazzi/EverythingNext/releases/download/v{version}/Everything.Next_{version}_x64-setup.exe"]
+}
