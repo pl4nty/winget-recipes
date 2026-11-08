@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mapeditor", "repo": "tiled" },
+	"urls": [
+		"https://github.com/mapeditor/tiled/releases/download/v{version}/Tiled-{version}_Windows-7-8_x86.msi",
+		"https://github.com/mapeditor/tiled/releases/download/v{version}/Tiled-{version}_Windows-10%2B_x86_64.msi"
+	]
+}

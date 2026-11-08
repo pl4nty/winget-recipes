@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MS-Teja",
+		"repo": "clean-mind"
+	},
+	"urls": [
+		"https://github.com/MS-Teja/clean-mind/releases/download/v{version}/CleanMind-{version}-windows-x64.zip",
+		"https://github.com/MS-Teja/clean-mind/releases/download/v{version}/CleanMind-{version}-windows-arm64.zip"
+	]
+}
