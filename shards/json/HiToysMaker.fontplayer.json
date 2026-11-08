@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HiToysMaker",
+		"repo": "fontplayer"
+	},
+	"urls": [
+		"https://github.com/HiToysMaker/fontplayer/releases/download/{github.rawTag}/fontplayer_{version}_x64-setup.exe"
+	]
+}
