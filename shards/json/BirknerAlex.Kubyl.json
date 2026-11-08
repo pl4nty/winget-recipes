@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BirknerAlex",
+		"repo": "kubyl"
+	},
+	"urls": [
+		"https://github.com/BirknerAlex/kubyl/releases/download/{github.rawTag}/kubyl-{version}-windows-aarch64.zip",
+		"https://github.com/BirknerAlex/kubyl/releases/download/{github.rawTag}/kubyl-{version}-windows-x86_64.zip"
+	]
+}
