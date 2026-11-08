@@ -14,7 +14,13 @@
 			"architecture": "x64"
 		}
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dmde.com/download/dmde-4-4-4-842-win32-gui.zip",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://dmde.com/changelog.html#:~:text={version}.842"
-	}
+	},
+	"replace": true
 }
