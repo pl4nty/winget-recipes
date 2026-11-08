@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "0x4D44",
+		"repo": "mdmdview"
+	},
+	"urls": [
+		"https://github.com/0x4D44/mdmdview/releases/download/{github.rawTag}/mdmdview-v{version}-windows-x86_64.msi"
+	]
+}

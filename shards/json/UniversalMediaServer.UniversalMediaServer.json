@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "UniversalMediaServer",
+		"repo": "UniversalMediaServer"
+	},
+	"urls": [
+		"https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/{version}/UMS-Windows-{version}-x86_64.exe",
+		"https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/{version}/UMS-Windows-{version}-x86.exe"
+	]
+}
