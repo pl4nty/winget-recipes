@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "leandrofariasldf",
+		"repo": "die-cli"
+	},
+	"urls": [
+		"https://github.com/leandrofariasldf/die-cli/releases/download/{github.rawTag}/die-cli-{version}-win-x64.zip"
+	]
+}

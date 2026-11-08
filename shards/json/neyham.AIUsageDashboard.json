@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "neyham",
+		"repo": "ai-usage-dashboard"
+	},
+	"urls": [
+		"https://github.com/neyham/ai-usage-dashboard/releases/download/v{version}/AI-Usage-Dashboard_{version}_x64-setup.exe",
+		"https://github.com/neyham/ai-usage-dashboard/releases/download/v{version}/AI-Usage-Dashboard_{version}_x64_en-US.msi"
+	]
+}

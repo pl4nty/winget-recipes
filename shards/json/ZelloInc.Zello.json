@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://zello-apps-public.s3.amazonaws.com/releases/dispatch/latest.yml"
+	}
+}

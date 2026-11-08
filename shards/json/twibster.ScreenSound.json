@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "twibster",
+		"repo": "ScreenSound"
+	},
+	"urls": [
+		{ "url": "https://github.com/twibster/ScreenSound/releases/download/v{version}/ScreenSound-Setup-{version}.exe", "architecture": "neutral" }
+	]
+}
