@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.microsoft.com/download/266c0370-a6b6-4a49-ac55-6cb2e086b14c/wdrt-hl1.zip"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.microsoft.com/download/266c0370-a6b6-4a49-ac55-6cb2e086b14c/wdrt-hl1.zip",
+		"header": "etag"
+	},
+	"replace": true
 }
