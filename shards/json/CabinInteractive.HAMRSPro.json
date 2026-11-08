@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://hamrs-dist.s3.amazonaws.com/latest.yml"
+	},
+	"urls": [
+		"https://hamrs-dist.s3.amazonaws.com/hamrs-pro-{version}-win-ia32.exe",
+		"https://hamrs-dist.s3.amazonaws.com/hamrs-pro-{version}-win-x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hamrs.app/announcements"
+	}
+}

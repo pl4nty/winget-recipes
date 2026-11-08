@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "algorandfoundation",
+		"repo": "algokit-cli"
+	},
+	"urls": [
+		"https://github.com/algorandfoundation/algokit-cli/releases/download/{github.rawTag}/algokit-{version}-windows_x64-winget.msix"
+	]
+}

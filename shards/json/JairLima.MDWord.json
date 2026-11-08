@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jairslima",
+		"repo": "mdword-by-jair-lima"
+	},
+	"urls": [
+		"https://github.com/jairslima/mdword-by-jair-lima/releases/download/{github.rawTag}/MDWord-{version}-Setup.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nuwanwimalasena",
+		"repo": "dynamore"
+	},
+	"urls": [
+		"https://github.com/nuwanwimalasena/dynamore/releases/download/v{version}/dynamore_{version}_x64-setup.exe",
+		"https://github.com/nuwanwimalasena/dynamore/releases/download/v{version}/dynamore_{version}_x64_en-US.msi"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "djmattyg007",
+		"repo": "hr-zig"
+	},
+	"urls": [
+		"https://github.com/djmattyg007/hr-zig/releases/download/{github.rawTag}/hr-zig_Windows_arm64.zip",
+		"https://github.com/djmattyg007/hr-zig/releases/download/{github.rawTag}/hr-zig_Windows_x86_64.zip"
+	]
+}
