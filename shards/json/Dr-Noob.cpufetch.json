@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Dr-Noob",
+		"repo": "cpufetch"
+	},
+	"urls": [
+		"https://github.com/Dr-Noob/cpufetch/releases/download/{github.rawTag}/cpufetch_x86-64_windows.exe"
+	]
+}

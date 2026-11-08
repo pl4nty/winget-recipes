@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tibold",
+		"repo": "svg-explorer-extension"
+	},
+	"urls": [
+		"https://github.com/tibold/svg-explorer-extension/releases/download/v{version}/svg_see_x64.exe",
+		"https://github.com/tibold/svg-explorer-extension/releases/download/v{version}/svg_see_x86.exe"
+	]
+}
