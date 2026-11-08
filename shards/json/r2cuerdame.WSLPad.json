@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "r2cuerdame",
+		"repo": "WSLPad"
+	},
+	"urls": ["https://github.com/r2cuerdame/WSLPad/releases/download/v{version}/WSLPad-Setup-{version}.exe"]
+}

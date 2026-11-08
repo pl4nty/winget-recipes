@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ja7ad",
+		"repo": "hydra"
+	},
+	"urls": [
+		"https://github.com/ja7ad/hydra/releases/download/{github.rawTag}/hydra-{version}-windows-arm64-setup.exe",
+		"https://github.com/ja7ad/hydra/releases/download/{github.rawTag}/hydra-{version}-windows-x64-setup.exe"
+	]
+}

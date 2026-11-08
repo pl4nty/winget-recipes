@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://rl5gkllrg.toastcdn.net/cherryforce/static/setup/KCPPosplusSetup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://rl5gkllrg.toastcdn.net/cherryforce/static/setup/KCPPosplusSetup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
