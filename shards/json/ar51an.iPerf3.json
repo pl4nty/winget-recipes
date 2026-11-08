@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ar51an",
+		"repo": "iperf3-win-builds"
+	},
+	"urls": ["https://github.com/ar51an/iperf3-win-builds/releases/download/{version}/iperf-{version}-win64.zip"],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "esnet",
+		"repo": "iperf",
+		"tag": "{version}"
+	}
+}

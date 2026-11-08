@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "auscaster",
+		"repo": "scafld"
+	},
+	"urls": [
+		"https://github.com/auscaster/scafld/releases/download/{github.rawTag}/scafld_{version}_windows_amd64.exe",
+		"https://github.com/auscaster/scafld/releases/download/{github.rawTag}/scafld_{version}_windows_arm64.exe"
+	]
+}

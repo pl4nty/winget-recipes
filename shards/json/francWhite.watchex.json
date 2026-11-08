@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kevinboss",
+		"repo": "watchex"
+	},
+	"urls": [
+		"https://github.com/kevinboss/watchex/releases/download/{github.rawTag}/watchex-v{version}-win-x64.zip"
+	]
+}

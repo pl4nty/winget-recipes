@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "boy1690",
+		"repo": "keeply-releases"
+	},
+	"urls": [
+		"https://github.com/boy1690/keeply-releases/releases/download/{github.rawTag}/Keeply_{version}_x64-setup.exe",
+		"https://github.com/boy1690/keeply-releases/releases/download/{github.rawTag}/Keeply_{version}_x64_en-US.msi"
+	]
+}

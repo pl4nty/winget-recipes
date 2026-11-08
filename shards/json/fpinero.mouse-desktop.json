@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fpinero",
+		"repo": "mouse-desktop"
+	},
+	"urls": [
+		"https://github.com/fpinero/mouse-desktop/releases/download/{github.rawTag}/mouse-desktop-arm64.exe",
+		"https://github.com/fpinero/mouse-desktop/releases/download/{github.rawTag}/mouse-desktop-x64.exe"
+	]
+}
