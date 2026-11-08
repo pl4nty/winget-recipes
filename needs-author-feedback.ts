@@ -89,7 +89,7 @@ for (const { number, title, labels } of prs.values()) {
 				} else if (plan.TestPlan === 'Validation-Unattended-Failed') {
 					findings.push(['needs fix', `${at}: install waited for user input until timeout, screenshot ${log('ErrorScreenshot') ?? 'missing'}`]);
 				} else {
-					findings.push(['needs fix', `${at}: ${plan.TestPlan} ${plan.Result}`]);
+					findings.push([plan.Result === 'ManualReview' ? 'manual review' : 'needs fix', `${at}: ${plan.TestPlan} ${plan.Result}`]);
 				}
 			}
 		}
