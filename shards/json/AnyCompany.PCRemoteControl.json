@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "I-develop-bugs-for-a-living",
+		"repo": "Windows-Remote-Control"
+	},
+	"urls": [
+		"https://github.com/I-develop-bugs-for-a-living/Windows-Remote-Control/releases/download/{github.rawTag}/RemoteControlBridge-windows-x64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Inukollu",
+		"repo": "screenmirror-site"
+	},
+	"urls": [
+		"https://github.com/Inukollu/screenmirror-site/releases/download/{github.rawTag}/ScreenMirror-{version}-win-x64.msi"
+	]
+}
