@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "EazyHood",
+		"repo": "AppCloner"
+	},
+	"urls": [
+		"https://github.com/EazyHood/AppCloner/releases/download/{github.rawTag}/AppCloner.exe"
+	]
+}
