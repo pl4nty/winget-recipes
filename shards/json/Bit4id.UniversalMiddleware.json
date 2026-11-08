@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://cdn.bit4id.com/es/soporte/downloads/middleware/Bit4id_Middleware.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.bit4id.com/es/soporte/downloads/middleware/Bit4id_Middleware.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
