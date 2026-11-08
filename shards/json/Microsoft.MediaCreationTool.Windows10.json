@@ -7,7 +7,13 @@
 	"urls": [
 		"https://download.microsoft.com/download/9/e/a/9eac306f-d134-4609-9c58-35d1638c2363/MediaCreationTool_22H2.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.microsoft.com/download/9/e/a/9eac306f-d134-4609-9c58-35d1638c2363/MediaCreationTool_22H2.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://learn.microsoft.com/en-us/windows/release-health/status-windows-10-22h2"
-	}
+	},
+	"replace": true
 }
