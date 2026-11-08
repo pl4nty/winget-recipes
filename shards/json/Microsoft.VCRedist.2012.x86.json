@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"version": {
+		"source": "product"
+	},
+	"msDownloadCenter": {
+		"id": 30679,
+		"regex": "^(?:vcredist_x86\\.exe)$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/visualstudio/releases/2012/vs2012-update4-vs#-visual-studio-2012-update-4"
+	}
+}
