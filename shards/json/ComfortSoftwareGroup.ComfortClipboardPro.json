@@ -7,7 +7,13 @@
 	"urls": [
 		"https://www.comfortsoftware.com/download/ComfortClipboardSetup.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.comfortsoftware.com/download/ComfortClipboardSetup.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.comfortsoftware.com/clipboard-manager/version-history/"
-	}
+	},
+	"replace": true
 }
