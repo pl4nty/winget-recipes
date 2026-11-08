@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "sdercolin", "repo": "recstar" },
+	"urls": ["https://github.com/sdercolin/recstar/releases/download/{version}/recstar-{version}-win64.zip"]
+}

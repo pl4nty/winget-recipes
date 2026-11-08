@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ludo-technologies",
+		"repo": "hiroba"
+	},
+	"urls": [
+		"https://github.com/ludo-technologies/hiroba/releases/download/{github.rawTag}/Hiroba_{version}_x64_en-US.msi",
+		"https://github.com/ludo-technologies/hiroba/releases/download/{github.rawTag}/Hiroba_{version}_x64-setup.exe"
+	]
+}
