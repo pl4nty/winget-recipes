@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xioTechnologies",
+		"repo": "x-IMU3-Software"
+	},
+	"urls": [
+		"https://github.com/xioTechnologies/x-IMU3-Software/releases/download/v{version}/x-IMU3-GUI-Setup-x64.exe",
+		"https://github.com/xioTechnologies/x-IMU3-Software/releases/download/v{version}/x-IMU3-GUI-Setup-ARM64.exe"
+	]
+}
