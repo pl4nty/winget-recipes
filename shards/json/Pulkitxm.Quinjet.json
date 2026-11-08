@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pulkitxm",
+		"repo": "quinjet"
+	},
+	"urls": ["https://github.com/pulkitxm/quinjet/releases/download/v{version}/quinjet-windows-x86_64.zip"]
+}
