@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "amir1376",
+		"repo": "ab-download-manager"
+	},
+	"urls": [
+		"https://github.com/amir1376/ab-download-manager/releases/download/{github.rawTag}/ABDownloadManager_{version}_windows_x64.exe",
+		"https://github.com/amir1376/ab-download-manager/releases/download/{github.rawTag}/ABDownloadManager_{version}_windows_arm64.exe"
+	]
+}
