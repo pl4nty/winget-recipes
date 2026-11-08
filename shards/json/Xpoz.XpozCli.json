@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "XPOZpublic",
+		"repo": "xpoz-cli"
+	},
+	"urls": [
+		"https://github.com/XPOZpublic/xpoz-cli/releases/download/v{version}/xpoz-cli-windows-amd64.exe"
+	]
+}

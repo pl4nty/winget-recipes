@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "casablanque-code",
+		"repo": "cfzt"
+	},
+	"urls": [
+		"https://github.com/casablanque-code/cfzt/releases/download/{github.rawTag}/zt-windows-amd64.exe"
+	]
+}
