@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "NortheBridge", "repo": "luminalshine" },
+	"urls": ["https://github.com/NortheBridge/luminalshine/releases/download/{version}/LuminalShine_x64-installer.exe"]
+}
