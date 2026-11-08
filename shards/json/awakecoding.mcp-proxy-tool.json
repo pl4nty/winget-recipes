@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "awakecoding",
+		"repo": "mcp-proxy-tool"
+	},
+	"urls": [
+		"https://github.com/awakecoding/mcp-proxy-tool/releases/download/{github.rawTag}/mcp-proxy-tool-windows-arm64.zip",
+		"https://github.com/awakecoding/mcp-proxy-tool/releases/download/{github.rawTag}/mcp-proxy-tool-windows-x64.zip"
+	]
+}
