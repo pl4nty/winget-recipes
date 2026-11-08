@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.visualstudio.microsoft.com/download/pr/10912113/5da66ddebb0ad32ebd4b922fd82e8e25/vcredist_x86.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.visualstudio.microsoft.com/download/pr/10912113/5da66ddebb0ad32ebd4b922fd82e8e25/vcredist_x86.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
