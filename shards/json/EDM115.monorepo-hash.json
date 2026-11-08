@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "EDM115",
+		"repo": "monorepo-hash"
+	},
+	"urls": [
+		"https://github.com/EDM115/monorepo-hash/releases/download/{github.rawTag}/monorepo-hash-windows-arm64.exe",
+		"https://github.com/EDM115/monorepo-hash/releases/download/{github.rawTag}/monorepo-hash-windows-x64.exe"
+	]
+}
