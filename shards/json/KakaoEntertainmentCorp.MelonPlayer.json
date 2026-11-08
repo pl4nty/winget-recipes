@@ -1,10 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
-	},
-	"urls": [
-		"https://cdnimg.melon.co.kr/svc/pcp/apps/MelonSetup.exe"
-	]
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://cdnimg.melon.co.kr/svc/pcp/apps/latest.yml"
+	}
 }
