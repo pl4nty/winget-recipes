@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 46899,
+		"regex": "^(?:LAPS\\.arm64\\.msi|LAPS\\.x64\\.msi|LAPS\\.x86\\.msi)$"
+	},
+	"version": "{version}.0.0"
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dev-alt",
+		"repo": "PortGhost"
+	},
+	"urls": ["https://github.com/dev-alt/PortGhost/releases/download/v{version}/PortGhost.exe"]
+}
