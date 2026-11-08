@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dasimon",
+		"repo": "CubeScope"
+	},
+	"urls": [
+		"https://github.com/dasimon/CubeScope/releases/download/{github.rawTag}/cubescope.exe"
+	]
+}

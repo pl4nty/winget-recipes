@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cdxgen",
+		"repo": "cdxgen"
+	},
+	"urls": [
+		"https://github.com/cdxgen/cdxgen/releases/download/{github.rawTag}/cdxgen-windows-amd64.exe",
+		"https://github.com/cdxgen/cdxgen/releases/download/{github.rawTag}/cdxgen-windows-arm64.exe"
+	]
+}
