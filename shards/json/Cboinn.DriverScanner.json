@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "iisletme593-droid",
+		"repo": "cboinn-driver-scanner"
+	},
+	"urls": [
+		"https://github.com/iisletme593-droid/cboinn-driver-scanner/releases/download/{github.rawTag}/Cboinn-Driver-Scanner-Setup-{version}.exe"
+	]
+}
