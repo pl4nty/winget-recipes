@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Qalculate", "repo": "libqalculate" },
+	"urls": ["https://github.com/Qalculate/libqalculate/releases/download/v{version}/qalculate-{version}-x64.msi"]
+}

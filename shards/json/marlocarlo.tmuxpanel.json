@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "psmux", "repo": "Tmux-Plugin-Panel" },
+	"urls": [
+		"https://github.com/psmux/Tmux-Plugin-Panel/releases/download/v{version}/tmuxpanel-v{version}-windows-x64.zip",
+		"https://github.com/psmux/Tmux-Plugin-Panel/releases/download/v{version}/tmuxpanel-v{version}-windows-x86.zip",
+		"https://github.com/psmux/Tmux-Plugin-Panel/releases/download/v{version}/tmuxpanel-v{version}-windows-arm64.zip"
+	]
+}

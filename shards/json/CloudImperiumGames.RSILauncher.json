@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://install.robertsspaceindustries.com/rel/2/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://robertsspaceindustries.com/spectrum/community/SC/forum/1"
+	}
+}
