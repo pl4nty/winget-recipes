@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Blinue",
+		"repo": "Magpie"
+	},
+	"urls": [
+		"https://github.com/Blinue/Magpie/releases/download/v{version}/Magpie-v{version}-x64.zip",
+		"https://github.com/Blinue/Magpie/releases/download/v{version}/Magpie-v{version}-ARM64.zip"
+	]
+}

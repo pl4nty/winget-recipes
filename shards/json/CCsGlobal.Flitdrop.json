@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MrFrosas",
+		"repo": "flitdrop"
+	},
+	"urls": [
+		"https://github.com/MrFrosas/flitdrop/releases/download/{github.rawTag}/Flitdrop-Setup-{version}.exe"
+	]
+}
