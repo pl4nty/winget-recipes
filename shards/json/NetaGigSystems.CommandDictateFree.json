@@ -1,10 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/Nubulizer/Command-Dictate-App/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
 		"owner": "Nubulizer",
 		"repo": "Command-Dictate-App",
-		"method": "api-sort",
-		"assetRegex": "^CommandDictateFree.*\\.exe$"
+		"tag": "v{version}"
 	}
 }
