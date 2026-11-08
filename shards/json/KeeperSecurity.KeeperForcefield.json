@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://download.keepersecurity.com/forcefield/keeperforcefield.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://download.keepersecurity.com/forcefield/arm64/keeperforcefield.msi",
+			"architecture": "arm64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.keepersecurity.com/forcefield/keeperforcefield.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
