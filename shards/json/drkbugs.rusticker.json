@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "drkblog",
+		"repo": "rusticker"
+	},
+	"urls": [
+		"https://github.com/drkblog/rusticker/releases/download/{github.rawTag}/rusticker-v{version}-windows-x64.zip"
+	]
+}

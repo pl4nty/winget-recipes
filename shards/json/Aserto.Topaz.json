@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aserto-dev",
+		"repo": "topaz"
+	},
+	"urls": [
+		"https://github.com/aserto-dev/topaz/releases/download/{github.rawTag}/topaz_windows_amd64.zip",
+		"https://github.com/aserto-dev/topaz/releases/download/{github.rawTag}/topaz_windows_amd64.msi"
+	]
+}

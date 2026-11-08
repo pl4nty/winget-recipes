@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "htacg",
+		"repo": "tidy-html5"
+	},
+	"urls": [
+		"https://github.com/htacg/tidy-html5/releases/download/{github.rawTag}/tidy-{version}-win64.exe",
+		"https://github.com/htacg/tidy-html5/releases/download/{github.rawTag}/tidy-{version}-win64.msi"
+	]
+}
