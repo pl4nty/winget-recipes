@@ -17,5 +17,11 @@
 			"url": "https://download.visualstudio.microsoft.com/download/pr/6ad63323-a427-4c58-8464-9f1f19f62359/a7a52fed02b0c309c72f8b76896cc386ef95db1fc0d70216ef377297ee1f1fe1/onecore.msvsmon.amd64.zip",
 			"architecture": "x64"
 		}
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.visualstudio.microsoft.com/download/pr/6ad63323-a427-4c58-8464-9f1f19f62359/d0e16a534b58d8500e970e782a324a0bb8d01b719eb01162a9cfc893265bf8f3/onecore.msvsmon.x86.zip",
+		"header": "etag"
+	},
+	"replace": true
 }
