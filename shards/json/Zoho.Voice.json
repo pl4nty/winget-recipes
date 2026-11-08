@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://downloads.zohocdn.com/voice-desktop/windows/latest.yml"
+	},
+	"urls": [
+		"https://downloads.zohocdn.com/voice-desktop/windows/zoho-voice-desktop-installer-ia32-v{version}.exe",
+		"https://downloads.zohocdn.com/voice-desktop/windows/zoho-voice-desktop-installer-x64-v{version}.exe"
+	]
+}
