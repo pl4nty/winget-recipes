@@ -21,5 +21,11 @@
 			"url": "https://flawlesswidescreen.org/fws/flawlesswidescreen.zip",
 			"architecture": "x86"
 		}
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.flawlesswidescreen.org/fws/fws_setup_x64.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
