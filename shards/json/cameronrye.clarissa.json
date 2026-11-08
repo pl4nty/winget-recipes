@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cameronrye",
+		"repo": "clarissa"
+	},
+	"urls": [
+		"https://github.com/cameronrye/clarissa/releases/download/{github.rawTag}/clarissa-windows-x64.exe"
+	]
+}
