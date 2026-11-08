@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "shader-slang",
+		"repo": "slang"
+	},
+	"urls": [
+		"https://github.com/shader-slang/slang/releases/download/v{version}/slang-{version}-windows-x86_64.zip",
+		"https://github.com/shader-slang/slang/releases/download/v{version}/slang-{version}-windows-aarch64.zip"
+	]
+}

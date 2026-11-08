@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "StefanKasamakov",
+		"repo": "radialdeck-releases"
+	},
+	"urls": [
+		"https://github.com/StefanKasamakov/radialdeck-releases/releases/download/v{version}/RadialDeck-{version}-Setup.exe"
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "songlim327", "repo": "mpwt" },
+	"urls": ["https://github.com/songlim327/mpwt/releases/download/{version}/mpwt_Windows_x86_64.zip"]
+}
