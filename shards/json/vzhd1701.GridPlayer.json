@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vzhd1701",
+		"repo": "gridplayer"
+	},
+	"urls": [
+		"https://github.com/vzhd1701/gridplayer/releases/download/v{version}/GridPlayer-{version}-win64-install.exe",
+		"https://github.com/vzhd1701/gridplayer/releases/download/v{version}/GridPlayer-{version}-win32-install.exe"
+	]
+}
