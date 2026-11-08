@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "flowscripter",
+		"repo": "flowscripter-io-cli"
+	},
+	"urls": [
+		"https://github.com/flowscripter/flowscripter-io-cli/releases/download/{github.rawTag}/flowscripter-io-cli_Windows_arm64.zip",
+		"https://github.com/flowscripter/flowscripter-io-cli/releases/download/{github.rawTag}/flowscripter-io-cli_Windows_x64.zip"
+	]
+}

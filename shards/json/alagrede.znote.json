@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alagrede",
+		"repo": "znote-app"
+	},
+	"urls": [
+		"https://github.com/alagrede/znote-app/releases/download/{github.rawTag}/znote-Setup-{version}.exe"
+	]
+}
