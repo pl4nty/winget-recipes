@@ -3,7 +3,7 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://www.navicat.com/products/navicat-for-mariadb-release-note",
-		"regex": "Navicat for MariaDB \\(Windows\\) version (?<version>(?<major>17)\\.\\d+\\.\\d+)<"
+		"regex": "Navicat for MariaDB \\(Windows\\) version (?<version>(?<major>\\d+)\\.\\d+\\.\\d+)<"
 	},
 	"urls": [
 		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_es_x64.exe",
