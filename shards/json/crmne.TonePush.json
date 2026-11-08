@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "crmne",
+		"repo": "tonepush"
+	},
+	"urls": [
+		"https://github.com/crmne/tonepush/releases/download/{github.rawTag}/tonepush-v{version}-aarch64-pc-windows-msvc.msi",
+		"https://github.com/crmne/tonepush/releases/download/{github.rawTag}/tonepush-v{version}-x86_64-pc-windows-msvc.msi"
+	]
+}

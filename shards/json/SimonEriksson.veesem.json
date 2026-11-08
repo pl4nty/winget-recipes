@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sp1187",
+		"repo": "veesem"
+	},
+	"urls": ["https://github.com/sp1187/veesem/releases/download/v{version}/veesem-{version}-windows.zip"]
+}
