@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nesvet",
+		"repo": "fln"
+	},
+	"urls": [
+		"https://github.com/nesvet/fln/releases/download/{version}/fln-windows-x64.zip",
+		"https://github.com/nesvet/fln/releases/download/{version}/fln-windows-arm64.zip"
+	]
+}

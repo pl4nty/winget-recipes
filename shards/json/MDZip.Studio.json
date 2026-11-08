@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mdzip-project",
+		"repo": "mdzip-studio"
+	},
+	"urls": [
+		"https://github.com/mdzip-project/mdzip-studio/releases/download/v{version}/MDZip-Studio-Setup-{version}.exe",
+		"https://github.com/mdzip-project/mdzip-studio/releases/download/v{version}/MDZip-Studio-Setup-{version}.exe"
+	]
+}

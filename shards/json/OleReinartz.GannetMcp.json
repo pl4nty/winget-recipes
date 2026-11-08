@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "reinartz", "repo": "gannet-mcp" },
+	"urls": [
+		"https://github.com/reinartz/gannet-mcp/releases/download/v{version}/gannet-mcp-x86_64-pc-windows-msvc.msi",
+		"https://github.com/reinartz/gannet-mcp/releases/download/v{version}/gannet-mcp-aarch64-pc-windows-msvc.msi"
+	]
+}
