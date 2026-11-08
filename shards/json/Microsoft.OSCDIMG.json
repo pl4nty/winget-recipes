@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://msdl.microsoft.com/download/symbols/oscdimg.exe/688CABB065000/oscdimg.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://msdl.microsoft.com/download/symbols/oscdimg.exe/688CABB065000/oscdimg.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
