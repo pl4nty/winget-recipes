@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Advaith3600",
+		"repo": "Command-Palette-Currency-Converter"
+	},
+	"urls": [
+		"https://github.com/Advaith3600/Command-Palette-Currency-Converter/releases/download/{github.rawTag}/AdvaithAJ.CurrencyConverterforCommandPalette_{version}.0_arm64__v0yv46xh6p59a.1.Msix",
+		"https://github.com/Advaith3600/Command-Palette-Currency-Converter/releases/download/{github.rawTag}/AdvaithAJ.CurrencyConverterforCommandPalette_{version}.0_x64__v0yv46xh6p59a.1.Msix"
+	]
+}
