@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "supertuxkart",
+		"repo": "stk-code"
+	},
+	"urls": [
+		"https://github.com/supertuxkart/stk-code/releases/download/{version}/SuperTuxKart-{version}-installer-x86_64.exe",
+		"https://github.com/supertuxkart/stk-code/releases/download/{version}/SuperTuxKart-{version}-installer-i686.exe",
+		"https://github.com/supertuxkart/stk-code/releases/download/{version}/SuperTuxKart-{version}-installer-aarch64.exe"
+	]
+}

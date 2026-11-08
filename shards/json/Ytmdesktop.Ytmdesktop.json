@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ytmdesktop",
+		"repo": "ytmdesktop"
+	},
+	"urls": [
+		{ "url": "https://github.com/ytmdesktop/ytmdesktop/releases/download/v{version}/YouTube.Music.Desktop.App-{version}.Setup.exe", "architecture": "x64" }
+	]
+}
