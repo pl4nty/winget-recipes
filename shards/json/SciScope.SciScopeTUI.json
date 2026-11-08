@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Timcai06", "repo": "SciScope" },
+	"urls": [
+		"https://github.com/Timcai06/SciScope/releases/download/v{version}/sciscope-tui_windows_amd64.zip",
+		"https://github.com/Timcai06/SciScope/releases/download/v{version}/sciscope-tui_windows_arm64.zip"
+	]
+}

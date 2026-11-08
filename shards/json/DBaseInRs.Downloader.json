@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DBase-In-Rs",
+		"repo": "Downloader"
+	},
+	"urls": [
+		"https://github.com/DBase-In-Rs/Downloader/releases/download/{github.rawTag}/dbase-downloader-v{version}-windows-x64-setup.exe"
+	]
+}
