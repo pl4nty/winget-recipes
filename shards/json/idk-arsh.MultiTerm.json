@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "idk-arsh",
+		"repo": "multiterm"
+	},
+	"urls": [
+		"https://github.com/idk-arsh/multiterm/releases/download/{github.rawTag}/MultiTerm.exe"
+	]
+}
