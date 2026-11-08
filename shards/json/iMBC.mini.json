@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://img.imbc.com/mini/install/Win/MBC%20mini%20Setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://img.imbc.com/mini/install/Win/MBC%20mini%20Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
