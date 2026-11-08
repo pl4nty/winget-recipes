@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://anticheat-client.faceit-cdn.net/FACEITInstaller_64.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://anticheat-client.faceit-cdn.net/FACEITInstaller_64.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
