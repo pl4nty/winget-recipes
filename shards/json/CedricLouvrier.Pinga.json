@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://css-ig.net/bin/pinga.zip"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://css-ig.net/bin/pinga.zip",
+		"header": "last-modified"
+	},
+	"replace": true
 }
