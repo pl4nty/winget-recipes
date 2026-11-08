@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://downloads.billevo.de/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://billevo.de/updates"
+	}
+}
