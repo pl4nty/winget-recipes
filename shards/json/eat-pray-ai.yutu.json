@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "eat-pray-ai",
+		"repo": "yutu"
+	},
+	"urls": [
+		"https://github.com/eat-pray-ai/yutu/releases/download/{github.rawTag}/yutu-windows-amd64.exe",
+		"https://github.com/eat-pray-ai/yutu/releases/download/{github.rawTag}/yutu-windows-arm64.exe"
+	]
+}

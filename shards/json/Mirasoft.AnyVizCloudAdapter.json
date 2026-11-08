@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://download.anyviz.io/AnyVizUniversalCloudAdapter.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.anyviz.io/AnyVizUniversalCloudAdapter.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
