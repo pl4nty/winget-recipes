@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dlnilsson",
+		"repo": "dygmate"
+	},
+	"urls": [
+		"https://github.com/dlnilsson/dygmate/releases/download/{github.rawTag}/dygmate-{version}-windows-x86_64.zip"
+	]
+}
