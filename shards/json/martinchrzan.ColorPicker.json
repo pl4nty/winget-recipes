@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "martinchrzan", "repo": "ColorPicker" },
+	"urls": [
+		"https://github.com/martinchrzan/ColorPicker/releases/download/{github.rawTag}/Setup.msi"
+	]
+}

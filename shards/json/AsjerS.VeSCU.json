@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AsjerS",
+		"repo": "VeSCU"
+	},
+	"urls": [
+		"https://github.com/AsjerS/VeSCU/releases/download/{github.rawTag}/VeSCU-win-arm64-installer.exe",
+		"https://github.com/AsjerS/VeSCU/releases/download/{github.rawTag}/VeSCU-win-x64-installer.exe"
+	]
+}

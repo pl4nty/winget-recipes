@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ChangemakerStudios",
+		"repo": "Papercut-SMTP"
+	},
+	"urls": [
+		"https://github.com/ChangemakerStudios/Papercut-SMTP/releases/download/{github.rawTag}/PapercutSMTP-win-arm64-stable-Setup.exe",
+		"https://github.com/ChangemakerStudios/Papercut-SMTP/releases/download/{github.rawTag}/PapercutSMTP-win-x64-stable-Setup.exe",
+		"https://github.com/ChangemakerStudios/Papercut-SMTP/releases/download/{github.rawTag}/PapercutSMTP-win-x86-stable-Setup.exe"
+	]
+}
