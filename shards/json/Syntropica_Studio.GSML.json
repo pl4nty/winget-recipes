@@ -8,6 +8,5 @@
 	"urls": [
 		{ "url": "https://github.com/C-S-E-C/gsml/releases/download/{version}/win_setup.msi" },
 		{ "url": "https://github.com/C-S-E-C/gsml/releases/download/{version}/win_setup.exe", "architecture": "x64" }
-	],
-	"version": "{version|_| }"
+	]
 }
