@@ -7,7 +7,13 @@
 	"urls": [
 		"https://dlcdnets.asus.com/pub/ASUS/Graphic%20Card/Unique_Applications/GPU-Tweak-III-v2180.zip"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dlcdnets.asus.com/pub/ASUS/Graphic%20Card/Unique_Applications/GPU-Tweak-III-v2180.zip",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.asus.com/campaign/GPU-Tweak-III/us/index.php#download"
-	}
+	},
+	"replace": true
 }
