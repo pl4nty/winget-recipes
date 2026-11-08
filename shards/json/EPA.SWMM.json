@@ -14,7 +14,13 @@
 			"architecture": "x86"
 		}
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.epa.gov/system/files/other-files/2023-08/swmm524(x64)_setup.exe",
+		"header": "last-modified"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://github.com/USEPA/Stormwater-Management-Model/releases"
-	}
+	},
+	"replace": true
 }
