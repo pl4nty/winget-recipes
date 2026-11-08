@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "PowerToys"
+	},
+	"urls": [
+		"https://github.com/microsoft/PowerToys/releases/download/v{version}/PowerToysUserSetup-{version}.0-x64.exe",
+		"https://github.com/microsoft/PowerToys/releases/download/v{version}/PowerToysSetup-{version}.0-x64.exe",
+		"https://github.com/microsoft/PowerToys/releases/download/v{version}/PowerToysUserSetup-{version}.0-arm64.exe",
+		"https://github.com/microsoft/PowerToys/releases/download/v{version}/PowerToysSetup-{version}.0-arm64.exe"
+	]
+}
