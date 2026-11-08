@@ -1,14 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.ensoanalytics.com/",
-		"regex": "https://github\\.com/enso\\-org/enso/releases/download/(\\d+(?:\\.\\d+)+)/enso\\-win\\-x64\\-\\1\\.exe"
+	"strategy": "github-release",
+	"github": {
+		"owner": "enso-org",
+		"repo": "enso"
 	},
 	"urls": [
-		"https://github.com/enso-org/enso/releases/download/{version}/enso-win-x64-{version}.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/enso-org/enso/releases/tag/{version}"
-	}
+		"https://github.com/enso-org/enso/releases/download/{github.rawTag}/enso-win-x64-{github.rawTag}.exe"
+	]
 }
