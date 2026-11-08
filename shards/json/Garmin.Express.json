@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.garmin.com/omt/express/GarminExpress.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.garmin.com/omt/express/GarminExpress.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
