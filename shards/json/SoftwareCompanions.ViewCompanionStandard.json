@@ -5,6 +5,7 @@
 		"url": "https://www.softwarecompanions.com/standardupdate.html",
 		"regex": "Download ViewCompanion Standard version (?<version>(?<major>\\d+)\\.\\d+) 32-bit"
 	},
+	"version": { "source": "product" },
 	"urls": [
 		{ "url": "https://www.softwarecompanions.no/vc{captures.major}/vc{version|.|}.exe", "architecture": "x86" },
 		{ "url": "https://www.softwarecompanions.no/vc{captures.major}/vc{version|.|}x64.exe", "architecture": "x64" }
