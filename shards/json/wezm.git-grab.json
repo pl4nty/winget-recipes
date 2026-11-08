@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wezm",
+		"repo": "git-grab"
+	},
+	"urls": [
+		"https://github.com/wezm/git-grab/releases/download/{github.rawTag}/git-grab-{github.rawTag}-x86_64-pc-windows-msvc.zip"
+	]
+}
