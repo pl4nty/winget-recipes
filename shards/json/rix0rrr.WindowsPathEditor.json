@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "rix0rrr", "repo": "WindowsPathEditor" },
+	"urls": [
+		"https://github.com/rix0rrr/WindowsPathEditor/releases/download/{github.rawTag}/windowspatheditor-{version}.zip"
+	]
+}

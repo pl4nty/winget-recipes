@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aome510",
+		"repo": "spotify-player"
+	},
+	"urls": [
+		"https://github.com/aome510/spotify-player/releases/download/{github.rawTag}/spotify_player-x86_64-pc-windows-msvc.zip"
+	]
+}
