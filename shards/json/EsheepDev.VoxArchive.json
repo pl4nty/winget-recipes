@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ovis",
+		"repo": "VoxArchive"
+	},
+	"urls": [
+		"https://github.com/Ovis/VoxArchive/releases/download/{github.rawTag}/VoxArchive-setup-{version}-sc.exe"
+	]
+}
