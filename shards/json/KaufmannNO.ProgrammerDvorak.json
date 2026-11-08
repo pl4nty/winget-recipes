@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rolkau",
+		"repo": "kbddvp-winnt"
+	},
+	"urls": [
+		"https://github.com/rolkau/kbddvp-winnt/releases/download/{github.rawTag}/kbddvp-{version}-arm64.msi",
+		"https://github.com/rolkau/kbddvp-winnt/releases/download/{github.rawTag}/kbddvp-{version}-x64.msi",
+		"https://github.com/rolkau/kbddvp-winnt/releases/download/{github.rawTag}/kbddvp-{version}-x86.msi"
+	]
+}
