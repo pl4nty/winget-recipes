@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Azure",
+		"repo": "azure-iot-explorer"
+	},
+	"urls": [
+		"https://github.com/Azure/azure-iot-explorer/releases/download/v{version}/Azure.IoT.Explorer.Preview.{version}.msi"
+	]
+}

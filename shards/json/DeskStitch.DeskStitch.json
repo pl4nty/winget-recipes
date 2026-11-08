@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jonseoane",
+		"repo": "deskstitch-releases"
+	},
+	"urls": [
+		"https://github.com/jonseoane/deskstitch-releases/releases/download/{github.rawTag}/DeskStitch-Setup-{version}-arm64.exe",
+		"https://github.com/jonseoane/deskstitch-releases/releases/download/{github.rawTag}/DeskStitch-Setup-{version}-x64.exe"
+	]
+}

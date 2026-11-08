@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "szTheory",
+		"repo": "exifcleaner"
+	},
+	"urls": [
+		"https://github.com/szTheory/exifcleaner/releases/download/v{version}/ExifCleaner.Setup.{version}.exe",
+		"https://github.com/szTheory/exifcleaner/releases/download/v{version}/ExifCleaner.{version}.portable.exe"
+	]
+}
