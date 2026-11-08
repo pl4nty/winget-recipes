@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Echostorm44",
+		"repo": "RipShout"
+	},
+	"urls": [
+		"https://github.com/Echostorm44/RipShout/releases/download/{github.rawTag}/installer.exe"
+	]
+}
