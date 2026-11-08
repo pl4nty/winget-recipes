@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"http://jacquelin.potier.free.fr/exe/AllDllDeps_bin.zip"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "http://jacquelin.potier.free.fr/exe/AllDllDeps_bin.zip",
+		"header": "etag"
+	},
+	"replace": true
 }
