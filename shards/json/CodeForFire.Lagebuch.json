@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CodeForFire",
+		"repo": "lagebuch"
+	},
+	"urls": [
+		"https://github.com/CodeForFire/lagebuch/releases/download/{github.rawTag}/lagebuch-{version}-x64.msi"
+	]
+}
