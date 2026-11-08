@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "betyourluck",
+		"repo": "Fuseforks"
+	},
+	"urls": [
+		"https://github.com/betyourluck/Fuseforks/releases/download/v{version}/fuseforks_{version}_x64_en-US.msi",
+		"https://github.com/betyourluck/Fuseforks/releases/download/v{version}/fuseforks_{version}_x64-setup.exe"
+	]
+}

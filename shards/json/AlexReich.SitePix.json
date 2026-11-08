@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alexreich",
+		"repo": "SitePix"
+	},
+	"urls": [
+		"https://github.com/alexreich/SitePix/releases/download/{github.rawTag}/SitePix-Setup-{version}.exe"
+	]
+}
