@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://www.deskshare.com/download/fml/FTPManagerLite.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.deskshare.com/download/fml/FTPManagerLite.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
