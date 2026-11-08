@@ -5,9 +5,18 @@
 		"source": "product"
 	},
 	"urls": [
-		{ "url": "https://www.axis.com/ftp/pub_soft/cam_srv/IPUtility/latest/AxisIPUtilitySetup.exe", "architecture": "x64" }
+		{
+			"url": "https://www.axis.com/ftp/pub_soft/cam_srv/IPUtility/latest/AxisIPUtilitySetup.exe",
+			"architecture": "x64"
+		}
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.axis.com/ftp/pub_soft/cam_srv/IPUtility/latest/AxisIPUtilitySetup.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.axis.com/ftp/pub_soft/cam_srv/IPUtility/latest/relnote.txt"
-	}
+	},
+	"replace": true
 }
