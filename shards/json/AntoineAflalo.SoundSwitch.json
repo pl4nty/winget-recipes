@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Belphemur",
+		"repo": "SoundSwitch"
+	},
+	"urls": [
+		"https://github.com/Belphemur/SoundSwitch/releases/download/{github.rawTag}/SoundSwitch_v{version}.0_Release_Installer.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hooosberg",
+		"repo": "WitNote"
+	},
+	"urls": [
+		"https://github.com/hooosberg/WitNote/releases/download/{github.rawTag}/WitNote-{version}-setup-arm64.exe",
+		"https://github.com/hooosberg/WitNote/releases/download/{github.rawTag}/WitNote-{version}-setup-x64.exe"
+	]
+}

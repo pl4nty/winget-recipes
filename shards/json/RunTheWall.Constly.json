@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://downloads.constly.com/latest.json",
+		"platforms": [
+			"windows-x86_64"
+		]
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/RunTheWall/constly-app/blob/main/CHANGELOG.md"
+	}
+}
