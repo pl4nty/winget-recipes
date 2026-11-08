@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Citadel5-JP",
+		"repo": "GS-Calc"
+	},
+	"urls": [
+		"https://github.com/Citadel5-JP/GS-Calc/releases/download/{github.rawTag}/gscalc24.3_x64.exe"
+	]
+}

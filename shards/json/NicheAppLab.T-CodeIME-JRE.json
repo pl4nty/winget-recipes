@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NicheAppLab",
+		"repo": "T-Code-IME-for-Win"
+	},
+	"urls": [
+		"https://github.com/NicheAppLab/T-Code-IME-for-Win/releases/download/{version}/NicheAppLab.TCodeIME_{version}_x64_jre.exe"
+	]
+}
