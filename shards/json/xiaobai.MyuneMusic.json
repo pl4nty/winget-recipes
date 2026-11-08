@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "xiaobaimc", "repo": "myune_music" },
+	"urls": [
+		"https://github.com/xiaobaimc/myune_music/releases/download/v{version}/MyuneMusic_v{version}_setup_windows-x64.exe",
+		"https://github.com/xiaobaimc/myune_music/releases/download/v{version}/MyuneMusic_v{version}_windows-x64.zip"
+	]
+}
