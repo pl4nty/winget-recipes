@@ -7,7 +7,13 @@
 	"urls": [
 		"https://downloads.auslogics.com/en/video-grabber/auslogics-video-grabber-setup.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.auslogics.com/en/video-grabber/auslogics-video-grabber-setup.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.auslogics.com/en/software/video-grabber/ajax/history/"
-	}
+	},
+	"replace": true
 }
