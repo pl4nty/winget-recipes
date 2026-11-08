@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.icecreamapps.com/ebook_reader_setup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.icecreamapps.com/ebook_reader_setup.exe",
+		"header": "last-modified"
+	},
+	"replace": true
 }
