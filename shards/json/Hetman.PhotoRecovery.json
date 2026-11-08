@@ -7,7 +7,13 @@
 	"urls": [
 		"https://hetmanrecovery.com/download/hetman_photo_recovery.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://hetmanrecovery.com/download/hetman_photo_recovery.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://hetmanrecovery.com/hetman_photo_recovery_version_history.htm"
-	}
+	},
+	"replace": true
 }
