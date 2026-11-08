@@ -7,7 +7,7 @@
 	},
 	"urls": [
 		{
-			"url": "{data.0.assets.links.1.url}",
+			"url": "https://{data.0.assets.links.1.url|https://|}",
 			"architecture": "x64"
 		}
 	],
