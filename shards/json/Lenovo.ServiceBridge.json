@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.lenovo.com/lsbv5/LSBSetup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.lenovo.com/lsbv5/LSBSetup.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
