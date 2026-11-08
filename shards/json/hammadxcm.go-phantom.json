@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hammadxcm",
+		"repo": "go-phantom"
+	},
+	"urls": [
+		"https://github.com/hammadxcm/go-phantom/releases/download/{github.rawTag}/phantom-windows.exe"
+	]
+}

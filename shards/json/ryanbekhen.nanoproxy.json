@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ryanbekhen",
+		"repo": "nanoproxy"
+	},
+	"urls": ["https://github.com/ryanbekhen/nanoproxy/releases/download/v{version}/nanoproxy_Windows_x86_64.zip"]
+}
