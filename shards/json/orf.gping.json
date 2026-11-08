@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "orf",
+		"repo": "gping",
+		"tagRegex": "^gping-v"
+	},
+	"urls": [
+		"https://github.com/orf/gping/releases/download/{github.rawTag}/gping-Windows-msvc-x86_64.zip"
+	]
+}
