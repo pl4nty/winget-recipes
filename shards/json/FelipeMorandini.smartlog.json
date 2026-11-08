@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "felipemorandini",
+		"repo": "smartlog"
+	},
+	"urls": [
+		"https://github.com/felipemorandini/smartlog/releases/download/{github.rawTag}/smartlog-aarch64-pc-windows-msvc.zip",
+		"https://github.com/felipemorandini/smartlog/releases/download/{github.rawTag}/smartlog-x86_64-pc-windows-msvc.zip"
+	]
+}
