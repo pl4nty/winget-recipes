@@ -7,7 +7,13 @@
 	"urls": [
 		"https://jpegclub.org/jpegcrop.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://jpegclub.org/jpegcrop.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://jpegclub.org/preview/jpegcrop.txt"
-	}
+	},
+	"replace": true
 }
