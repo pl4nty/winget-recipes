@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pencil2d",
+		"repo": "pencil"
+	},
+	"urls": [
+		"https://github.com/pencil2d/pencil/releases/download/v{version}/pencil2d-win32-v{version}.zip",
+		"https://github.com/pencil2d/pencil/releases/download/v{version}/pencil2d-win64-v{version}.zip"
+	]
+}

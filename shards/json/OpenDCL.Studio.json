@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "opendcl",
+		"repo": "OpenDCL"
+	},
+	"urls": [
+		"https://github.com/opendcl/OpenDCL/releases/download/v{version}/OpenDCL.Studio.ENU.{version}.msi",
+		"https://github.com/opendcl/OpenDCL/releases/download/v{version}/OpenDCL.Studio.DEU.{version}.msi",
+		"https://github.com/opendcl/OpenDCL/releases/download/v{version}/OpenDCL.Studio.ESM.{version}.msi",
+		"https://github.com/opendcl/OpenDCL/releases/download/v{version}/OpenDCL.Studio.FRA.{version}.msi",
+		"https://github.com/opendcl/OpenDCL/releases/download/v{version}/OpenDCL.Studio.RUS.{version}.msi",
+		"https://github.com/opendcl/OpenDCL/releases/download/v{version}/OpenDCL.Studio.CHS.{version}.msi",
+		"https://github.com/opendcl/OpenDCL/releases/download/v{version}/OpenDCL.Studio.CHT.{version}.msi"
+	]
+}
