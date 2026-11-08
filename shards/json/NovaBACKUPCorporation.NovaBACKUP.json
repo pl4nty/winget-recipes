@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{ "url": "https://filestore.novabackup.com/Downloads/NovaBACKUP/Current/Setup-NB-Server-Agent.exe", "architecture": "x64" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://filestore.novabackup.com/Downloads/NovaBACKUP/Current/Setup-NB-Server-Agent.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

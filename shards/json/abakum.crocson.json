@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "abakum",
+		"repo": "crocson"
+	},
+	"urls": [
+		"https://github.com/abakum/crocson/releases/download/{github.rawTag}/crocson.exe",
+		"https://github.com/abakum/crocson/releases/download/{github.rawTag}/crocson.appx"
+	]
+}
