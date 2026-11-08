@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FrodeHus",
+		"repo": "elevate",
+		"tagRegex": "^v(?=\\d)"
+	},
+	"urls": [
+		"https://github.com/FrodeHus/elevate/releases/download/v{version}/elevate-cli-{version}-win-x64.zip",
+		"https://github.com/FrodeHus/elevate/releases/download/v{version}/elevate-cli-{version}-win-arm64.zip"
+	]
+}
