@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://gitlab.com/api/v4/projects/virt-viewer%2Fvirt-viewer/releases/permalink/latest",
+		"path": "tag_name"
+	},
+	"version": { "source": "display" },
+	"state": { "source": "value", "value": "{data.tag_name}" },
+	"urls": ["assets.links.1.direct_asset_url", "assets.links.3.direct_asset_url"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gitlab.com/virt-viewer/virt-viewer/-/releases/{data.tag_name}"
+	}
+}
