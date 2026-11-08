@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "axeprpr",
+		"repo": "ssh-copy-id-windows"
+	},
+	"urls": [
+		"https://github.com/axeprpr/ssh-copy-id-windows/releases/download/{github.rawTag}/ssh-copy-id.exe"
+	]
+}
