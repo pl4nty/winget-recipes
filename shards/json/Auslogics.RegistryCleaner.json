@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://downloads.auslogics.com/en/registry-cleaner/auslogics-registry-cleaner-setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.auslogics.com/en/registry-cleaner/auslogics-registry-cleaner-setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

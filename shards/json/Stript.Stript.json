@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://downloads.stript.io/latest.json",
+		"platforms": ["windows-x86_64"]
+	}
+}

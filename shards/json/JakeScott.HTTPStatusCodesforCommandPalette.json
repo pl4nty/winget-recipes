@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JRScott812",
+		"repo": "HTTPSResponseCodesExtension"
+	},
+	"urls": [
+		"https://github.com/JRScott812/HTTPSResponseCodesExtension/releases/download/{github.rawTag}/HTTPSResponseCodesExtension-Setup-{version}-arm64.exe",
+		"https://github.com/JRScott812/HTTPSResponseCodesExtension/releases/download/{github.rawTag}/HTTPSResponseCodesExtension-Setup-{version}-x64.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GuMengYu",
+		"repo": "music-you"
+	},
+	"urls": [
+		"https://github.com/GuMengYu/music-you/releases/download/{github.rawTag}/music-you.Setup.{version}.exe"
+	]
+}

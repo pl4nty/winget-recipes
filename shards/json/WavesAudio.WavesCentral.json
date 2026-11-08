@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://cf-installers.waves.com/WavesCentral/Install_Waves_Central.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://cf-installers.waves.com/WavesCentral/Install_Waves_Central.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AwesomeDog",
+		"repo": "infinite-rss-reader"
+	},
+	"urls": [
+		"https://github.com/AwesomeDog/infinite-rss-reader/releases/download/{github.rawTag}/infrss-server-windows.exe"
+	]
+}
