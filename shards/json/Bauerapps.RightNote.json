@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://bauerapps.com/files/RightNoteSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://bauerapps.com/files/RightNoteSetup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.bauerapps.com/rightnote-release-history/#:~:text=6.6.0"
+	},
+	"replace": true
+}

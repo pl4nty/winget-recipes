@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "megamega39",
+		"repo": "doujin-player"
+	},
+	"urls": [
+		"https://github.com/megamega39/doujin-player/releases/download/{github.rawTag}/_{version}_x64-setup.exe"
+	]
+}

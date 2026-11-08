@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nishal21",
+		"repo": "NekoBeat",
+		"tagRegex": "^app-v(?=\\d+(?:\\.\\d+)+$)"
+	},
+	"urls": [
+		"https://github.com/nishal21/NekoBeat/releases/download/{github.rawTag}/NekoBeat_{version}_x64-setup.exe",
+		"https://github.com/nishal21/NekoBeat/releases/download/{github.rawTag}/NekoBeat_{version}_x64_en-US.msi"
+	]
+}

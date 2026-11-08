@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Porzeraklon",
+		"repo": "blackjack"
+	},
+	"urls": [
+		"https://github.com/Porzeraklon/blackjack/releases/download/{github.rawTag}/BlackJackCLI-win-x64.zip"
+	]
+}

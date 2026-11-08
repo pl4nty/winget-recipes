@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "narvinIR",
+		"repo": "shtil-vpn",
+		"tagRegex": "^desktop-v"
+	},
+	"urls": [
+		"https://github.com/narvinIR/shtil-vpn/releases/download/{github.rawTag}/ShtilVPN_{version}_x64-setup.exe"
+	]
+}

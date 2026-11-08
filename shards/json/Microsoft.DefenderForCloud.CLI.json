@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cli.dfd.security.azure.com/public/latest/Defender_win-x64.exe",
+		"https://cli.dfd.security.azure.com/public/latest/Defender_win-x86.exe",
+		"https://cli.dfd.security.azure.com/public/latest/Defender_win-arm64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cli.dfd.security.azure.com/public/latest/Defender_win-x64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

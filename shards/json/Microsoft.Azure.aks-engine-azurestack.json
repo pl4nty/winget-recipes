@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Azure",
+		"repo": "aks-engine-azurestack",
+		"tagRegex": "^(?:release-)?v"
+	},
+	"urls": [
+		"https://github.com/Azure/aks-engine-azurestack/releases/download/{github.rawTag}/aks-engine-azurestack-{github.rawTag}-windows-amd64.zip"
+	]
+}

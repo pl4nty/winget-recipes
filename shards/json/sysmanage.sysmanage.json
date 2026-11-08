@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bceverly",
+		"repo": "sysmanage"
+	},
+	"urls": [
+		"https://github.com/bceverly/sysmanage/releases/download/{github.rawTag}/sysmanage-{version}-windows-x64.msi",
+		"https://github.com/bceverly/sysmanage/releases/download/{github.rawTag}/sysmanage-{version}-windows-arm64.msi"
+	]
+}

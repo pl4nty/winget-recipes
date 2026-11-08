@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ClassicOldSong",
+		"repo": "Apollo"
+	},
+	"urls": [
+		"https://github.com/ClassicOldSong/Apollo/releases/download/{github.rawTag}/Apollo-{version}.exe"
+	]
+}

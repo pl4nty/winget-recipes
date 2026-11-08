@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FrodeHus",
+		"repo": "elevate",
+		"tagRegex": "^v(?=\\d)"
+	},
+	"urls": [
+		"https://github.com/FrodeHus/elevate/releases/download/v{version}/Elevate-{version}-x64.msi",
+		"https://github.com/FrodeHus/elevate/releases/download/v{version}/Elevate-{version}-arm64.msi"
+	]
+}

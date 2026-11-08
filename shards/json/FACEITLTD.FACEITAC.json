@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://anticheat-client.faceit-cdn.net/FACEITInstaller_64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://anticheat-client.faceit-cdn.net/FACEITInstaller_64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

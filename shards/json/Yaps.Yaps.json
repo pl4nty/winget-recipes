@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "richawo",
+		"repo": "yaps-releases",
+		"tagRegex": "^v(?=\\d)"
+	},
+	"urls": [
+		"https://downloads.yaps.ai/releases/v{version}/Yaps_{version}_x64-setup.exe"
+	]
+}

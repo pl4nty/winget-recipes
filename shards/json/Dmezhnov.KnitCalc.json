@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "dmezhnov",
+		"repo": "knitcalc"
+	},
+	"urls": [
+		"https://github.com/dmezhnov/knitcalc/releases/download/{github.rawTag}/knitcalc-setup-x64-{version}.exe"
+	]
+}

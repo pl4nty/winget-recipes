@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stanley-projects",
+		"repo": "Insomnia"
+	},
+	"urls": [
+		"https://github.com/stanley-projects/Insomnia/releases/download/{github.rawTag}/Insomnia.Setup.{version}.exe"
+	]
+}

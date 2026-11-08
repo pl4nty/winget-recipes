@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://cdn.console.gotoassist.com/dtc/G2AAgentDesktopConsole-x64.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://cdn.console.gotoassist.com/dtc/G2AAgentDesktopConsole-x86.msi",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.console.gotoassist.com/dtc/G2AAgentDesktopConsole-x64.msi",
+		"header": "etag"
+	},
+	"replace": true
+}

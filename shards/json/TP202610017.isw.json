@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TP202610017",
+		"repo": "framework-llm-releases"
+	},
+	"urls": [
+		"https://github.com/TP202610017/framework-llm-releases/releases/download/{github.rawTag}/isw_{github.rawTag}_windows_x86_64.zip"
+	]
+}

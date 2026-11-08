@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ThioJoe",
+		"repo": "Dynamic-Lighting-Key-Indicator"
+	},
+	"urls": [
+		"https://github.com/ThioJoe/Dynamic-Lighting-Key-Indicator/releases/download/{github.rawTag}/Dynamic-Lighting-Key-Indicator_{version}.0_x64.msix"
+	]
+}

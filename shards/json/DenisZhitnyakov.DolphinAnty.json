@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dolphin-anty-cdn.com/anty-app/dolphin-anty-win-latest.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dolphin-anty-cdn.com/anty-app/dolphin-anty-win-latest.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

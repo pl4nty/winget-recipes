@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JoyHak",
+		"repo": "QuickSwitch"
+	},
+	"urls": [
+		"https://github.com/JoyHak/QuickSwitch/releases/download/{github.rawTag}/QuickSwitch-{github.rawTag}-x32.zip",
+		"https://github.com/JoyHak/QuickSwitch/releases/download/{github.rawTag}/QuickSwitch-{github.rawTag}-x64.zip"
+	]
+}

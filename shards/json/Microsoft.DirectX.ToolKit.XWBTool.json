@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "DirectXTK"
+	},
+	"urls": [
+		"https://github.com/microsoft/DirectXTK/releases/download/{github.rawTag}/XWBTool.exe",
+		"https://github.com/microsoft/DirectXTK/releases/download/{github.rawTag}/XWBTool_arm64.exe"
+	],
+	"version": {
+		"source": "product"
+	}
+}

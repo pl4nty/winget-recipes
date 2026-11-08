@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "standardnotes",
+		"repo": "app",
+		"tagRegex": "^@standardnotes/desktop@"
+	},
+	"urls": [
+		"https://github.com/standardnotes/app/releases/download/{github.rawTag}/standard-notes-{version}-win-ia32.exe",
+		"https://github.com/standardnotes/app/releases/download/{github.rawTag}/standard-notes-{version}-win-x64.exe"
+	]
+}

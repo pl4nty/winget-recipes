@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "runxhq",
+		"repo": "runx",
+		"tagRegex": "^cli-v"
+	},
+	"urls": [
+		"https://github.com/runxhq/runx/releases/download/{github.rawTag}/runx-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}

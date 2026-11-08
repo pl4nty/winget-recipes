@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mustafif",
+		"repo": "Minerva2",
+		"tagRegex": "-win$"
+	},
+	"urls": [
+		"https://github.com/Mustafif/Minerva2/releases/download/{github.rawTag}/minerva-{version}.Setup.exe"
+	]
+}

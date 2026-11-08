@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://hetmanrecovery.com/download/hetman_partition_recovery.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://hetmanrecovery.com/download/hetman_partition_recovery.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hetmanrecovery.com/hetman_partition_recovery_version_history.htm"
+	},
+	"replace": true
+}

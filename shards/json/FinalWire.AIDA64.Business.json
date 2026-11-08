@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.aida64.com/aida64business770.zip"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.aida64.com/aida64business770.zip",
+		"header": "etag"
+	},
+	"replace": true
+}

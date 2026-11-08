@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://aka.ms/azdata-msi"],
+		"regex": "/(?<dir>[0-9a-f]/[0-9a-f]/[0-9a-f]/[0-9a-f-]+)/azdata-cli-(?<version>\\d+(?:\\.\\d+)+)\\.msi$"
+	},
+	"urls": [{ "url": "https://download.microsoft.com/download/{captures.dir}/azdata-cli-{version}.msi", "architecture": "x64" }]
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://demo.wd.microsoft.com/Content/ASRtool.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://demo.wd.microsoft.com/Content/ASRtool.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

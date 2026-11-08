@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Cockatrice",
+		"repo": "Cockatrice",
+		"tagRegex": "^\\d{4}-\\d{2}-\\d{2}-Release-"
+	},
+	"urls": [
+		"https://github.com/Cockatrice/Cockatrice/releases/download/{github.rawTag}/Cockatrice-Reality-Check-{version}-Win10.exe"
+	]
+}

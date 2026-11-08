@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/updt/2026/08/remotehelpinstaller_352585ff62fefee63615d6b743b6567817fff464.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/updt/2026/08/remotehelpinstaller_352585ff62fefee63615d6b743b6567817fff464.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

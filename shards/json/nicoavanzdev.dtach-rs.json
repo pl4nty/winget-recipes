@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NicoAvanzDev",
+		"repo": "dtach-rs"
+	},
+	"urls": [
+		"https://github.com/NicoAvanzDev/dtach-rs/releases/download/{github.rawTag}/dtach-rs-x86_64-pc-windows-msvc.zip"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tsutsu3",
+		"repo": "pi-hole-client",
+		"tagRegex": "_\\(\\d+\\)$"
+	},
+	"urls": [
+		"https://github.com/tsutsu3/pi-hole-client/releases/download/{github.rawTag}/PiHoleClient_{version}_Windows_x64.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SleipnirGroup",
+		"repo": "Choreo"
+	},
+	"urls": [
+		"https://github.com/SleipnirGroup/Choreo/releases/download/v{version}/Choreo-v{version}-Windows-x86_64-setup.exe",
+		"https://github.com/SleipnirGroup/Choreo/releases/download/v{version}/Choreo-v{version}-Windows-aarch64-setup.exe"
+	]
+}

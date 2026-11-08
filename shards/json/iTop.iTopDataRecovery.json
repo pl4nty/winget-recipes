@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.itopupdate.com/dl/itop-data-recovery-setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.itopupdate.com/dl/itop-data-recovery-setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

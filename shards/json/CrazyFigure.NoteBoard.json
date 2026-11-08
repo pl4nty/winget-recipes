@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CrazyFigure",
+		"repo": "NoteBoard"
+	},
+	"urls": [
+		"https://github.com/CrazyFigure/NoteBoard/releases/download/{github.rawTag}/NoteBoard_{version}_windows_x64-setup.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Buger2008",
+		"repo": "ClassIslandCLI",
+		"tagRegex": "^CLI",
+		"method": "api-sort",
+		"assetRegex": "^(?:ClassIslandCLI\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\-win\\-arm64\\.zip|ClassIslandCLI\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\-win\\-x64\\.zip|ClassIslandCLI\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\-win\\-x86\\.zip)$"
+	}
+}

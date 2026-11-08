@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://static.jiocloud.com/dclient/windows/JioAICloud.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://static.jiocloud.com/dclient/windows/JioAICloud.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

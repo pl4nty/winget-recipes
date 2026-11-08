@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "surge-synthesizer",
+		"repo": "releases-xt",
+		"tagRegex": "^(?=\\d+\\.\\d+\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/surge-synthesizer/releases-xt/releases/download/{version}/surge-xt-win64-{version}-setup.exe",
+		"https://github.com/surge-synthesizer/releases-xt/releases/download/{version}/surge-xt-win32-{version}-setup.exe"
+	]
+}

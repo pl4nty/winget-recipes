@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.passmark.com/downloads/soundchk.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.passmark.com/downloads/soundchk.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

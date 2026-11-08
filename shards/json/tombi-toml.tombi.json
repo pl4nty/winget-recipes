@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tombi-toml",
+		"repo": "tombi",
+		"tagRegex": "^v"
+	},
+	"urls": [
+		"https://github.com/tombi-toml/tombi/releases/download/v{version}/tombi-cli-{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/tombi-toml/tombi/releases/download/v{version}/tombi-cli-{version}-aarch64-pc-windows-msvc.zip"
+	]
+}

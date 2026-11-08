@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Axeia",
+		"repo": "qBittorrentCompanion",
+		"tagRegex": "^v(?=\\d+\\.\\d+\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/Axeia/qBittorrentCompanion/releases/download/{github.rawTag}/qBittorrentCompanion-{github.rawTag}-win-installer-x64.exe"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.bruker.com/en/products-and-solutions/infrared-and-raman/opus-spectroscopy-software/downloads/_jcr_content/root/sections/features/sectionpar/linklist/contentpar-1/calltoaction.download-asset.zip/links/item0/OPUS_viewer.zip"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.bruker.com/en/products-and-solutions/infrared-and-raman/opus-spectroscopy-software/downloads/_jcr_content/root/sections/features/sectionpar/linklist/contentpar-1/calltoaction.download-asset.zip/links/item0/OPUS_viewer.zip",
+		"header": "etag"
+	},
+	"replace": true
+}

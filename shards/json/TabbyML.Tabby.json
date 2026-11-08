@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TabbyML",
+		"repo": "tabby",
+		"tagRegex": "^v(?=0\\.\\d+\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/TabbyML/tabby/releases/download/v{version}/tabby_x86_64-windows-msvc-cuda124.zip"
+	]
+}

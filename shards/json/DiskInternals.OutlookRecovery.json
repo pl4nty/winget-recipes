@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://eu.diskinternals.com/download/Outlook_Recovery.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://eu.diskinternals.com/download/Outlook_Recovery.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

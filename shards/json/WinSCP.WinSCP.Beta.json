@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "winscp",
+		"file": "WinSCP-{version}.beta-Setup.exe"
+	},
+	"version": "{version}.beta",
+	"urls": [
+		"https://sourceforge.net/projects/winscp/files/WinSCP/{version}%20beta/WinSCP-{version}.beta-Setup.exe/download",
+		"https://sourceforge.net/projects/winscp/files/WinSCP/{version}%20beta/WinSCP-{version}.beta.msi/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://winscp.net/eng/docs/history#{version}"
+	}
+}

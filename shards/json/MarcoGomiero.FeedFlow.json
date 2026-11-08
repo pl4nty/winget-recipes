@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "prof18",
+		"repo": "feed-flow",
+		"tagRegex": "-all$"
+	},
+	"urls": [
+		"https://github.com/prof18/feed-flow/releases/download/{github.rawTag}/FeedFlow-{version}.msi"
+	]
+}
