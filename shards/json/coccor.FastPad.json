@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "coccor",
+		"repo": "FastPad"
+	},
+	"urls": [
+		"https://github.com/coccor/FastPad/releases/download/{github.rawTag}/FastPad-{version}-windows-x64-setup.exe"
+	]
+}
