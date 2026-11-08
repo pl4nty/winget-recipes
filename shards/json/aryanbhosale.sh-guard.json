@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aryanbhosale",
+		"repo": "sh-guard"
+	},
+	"urls": [
+		"https://github.com/aryanbhosale/sh-guard/releases/download/{github.rawTag}/sh-guard-x86_64-pc-windows-msvc.zip"
+	]
+}
