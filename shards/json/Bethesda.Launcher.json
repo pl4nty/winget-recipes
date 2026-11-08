@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
