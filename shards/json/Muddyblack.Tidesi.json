@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Muddyblack",
+		"repo": "tidesi"
+	},
+	"urls": [
+		"https://github.com/Muddyblack/tidesi/releases/download/{github.rawTag}/tideSI-Setup-{version}.exe"
+	]
+}
