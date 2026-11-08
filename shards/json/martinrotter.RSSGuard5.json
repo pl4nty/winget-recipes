@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "martinrotter",
-		"repo": "rssguard"
+		"repo": "rssguard",
+		"method": "api-list",
+		"tagRegex": "^(?=5\\.)"
 	},
 	"urls": [
 		{ "url": "https://github.com/martinrotter/rssguard/releases/download/{version}/rssguard-{version}-web-qt6-win10.exe", "architecture": "x64" }
