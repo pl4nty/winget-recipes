@@ -6,8 +6,7 @@
 		"regex": "CloseAll_(?<version>\\d+(?:\\.\\d+)+)-setup\\.exe"
 	},
 	"urls": [
-		{ "url": "https://www.ntwind.com/files/CloseAll_{version}-setup.exe", "architecture": "x86" },
-		{ "url": "https://www.ntwind.com/files/CloseAll_{version}-setup.exe", "architecture": "x64" }
+		"https://www.ntwind.com/files/CloseAll_{version}-setup.exe"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.ntwind.com/software/closeall/what-is-new.html"
