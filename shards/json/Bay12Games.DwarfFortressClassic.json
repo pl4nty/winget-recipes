@@ -6,7 +6,7 @@
 		"regex": "df_(?<version>\\d+_\\d+)_win\\.zip"
 	},
 	"version": "{version|_|.}",
-	"urls": ["https://www.bay12games.com/dwarves/df_{captures.version}_win.zip"],
+	"urls": ["https://www.bay12games.com/dwarves/df_{version}_win.zip"],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.bay12games.com/dwarves/"
 	}
