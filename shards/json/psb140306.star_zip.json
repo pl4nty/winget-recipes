@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "psb140306-cloud",
+		"repo": "star-zip-releases"
+	},
+	"urls": ["https://github.com/psb140306-cloud/star-zip-releases/releases/download/v{version}/star_zip-{version}-setup.exe"]
+}

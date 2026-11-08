@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "moonlight-os", "repo": "helios" },
+	"urls": ["https://github.com/moonlight-os/helios/releases/download/{github.rawTag}/Helios.exe"]
+}
