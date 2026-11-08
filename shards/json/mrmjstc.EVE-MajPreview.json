@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mrmjstc", "repo": "eve-maj-preview" },
+	"urls": ["https://github.com/mrmjstc/eve-maj-preview/releases/download/v{version}/eve-maj-preview-v{version}-setup.exe"]
+}
