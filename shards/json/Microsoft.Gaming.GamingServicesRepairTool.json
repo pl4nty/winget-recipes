@@ -13,5 +13,11 @@
 			"url": "https://dlassets-ssl.xboxlive.com/public/content/XboxInstaller/GamingRepairTool.exe",
 			"architecture": "neutral"
 		}
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dlassets-ssl.xboxlive.com/public/content/XboxInstaller/GamingRepairTool.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
