@@ -1,10 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://aka.ms/azdata-msi"],
+		"regex": "/(?<dir>[0-9a-f]/[0-9a-f]/[0-9a-f]/[0-9a-f-]+)/azdata-cli-(?<version>\\d+(?:\\.\\d+)+)\\.msi$"
 	},
-	"urls": [
-		{ "url": "https://download.microsoft.com/download/f/f/f/fffaa914-d4f7-4885-89c7-696bbfe7670a/azdata-cli-20.3.14.msi", "architecture": "x64" }
-	]
+	"urls": [{ "url": "https://download.microsoft.com/download/{captures.dir}/azdata-cli-{version}.msi", "architecture": "x64" }]
 }
