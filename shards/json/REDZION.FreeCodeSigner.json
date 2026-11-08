@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "varnaPot",
+		"repo": "FreeCodeSigner"
+	},
+	"urls": ["https://github.com/varnaPot/FreeCodeSigner/releases/download/v{version}/FreeCodeSigner-Setup-{version}-x64.exe"]
+}
