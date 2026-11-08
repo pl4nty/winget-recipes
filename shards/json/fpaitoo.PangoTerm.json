@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fpaitoo",
+		"repo": "pangoterm-releases"
+	},
+	"urls": [
+		"https://github.com/fpaitoo/pangoterm-releases/releases/download/{github.rawTag}/PangoTerm_{version}_x64-setup.exe",
+		"https://github.com/fpaitoo/pangoterm-releases/releases/download/{github.rawTag}/PangoTerm_{version}_x64_en-US.msi"
+	]
+}

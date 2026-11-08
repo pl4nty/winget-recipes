@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mchiappinam",
+		"repo": "SafeShot"
+	},
+	"urls": [
+		"https://github.com/mchiappinam/SafeShot/releases/download/{github.rawTag}/SafeShot-{version}-Windows-x64.exe"
+	]
+}

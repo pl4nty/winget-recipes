@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AnimeKaizoku",
+		"repo": "Windows-Service-Manager"
+	},
+	"urls": [
+		"https://github.com/AnimeKaizoku/Windows-Service-Manager/releases/download/{github.rawTag}/KaizokuServiceManager-installer.exe"
+	]
+}
