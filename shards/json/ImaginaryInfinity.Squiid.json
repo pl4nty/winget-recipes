@@ -1,17 +1,17 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "json",
-	"json": {
+	"strategy": "page-match",
+	"pageMatch": {
 		"url": "https://gitlab.com/api/v4/projects/ImaginaryInfinity%2Fsquiid-calculator%2Fsquiid/releases?per_page=1",
-		"path": "0.tag_name"
+		"regex": "\"tag_name\":\"(?<tag>v?(?<version>[^\"]+))\"[\\s\\S]*?\"url\":\"(?<url>[^\"]*/squiid-installer\\.exe)\""
 	},
 	"urls": [
 		{
-			"url": "https://{data.0.assets.links.1.url|https://|}",
+			"url": "{captures.url}",
 			"architecture": "x64"
 		}
 	],
 	"releaseNotes": {
-		"releaseNotesUrl": "https://gitlab.com/ImaginaryInfinity/squiid-calculator/squiid/-/releases/{data.0.tag_name}"
+		"releaseNotesUrl": "https://gitlab.com/ImaginaryInfinity/squiid-calculator/squiid/-/releases/{captures.tag}"
 	}
 }
