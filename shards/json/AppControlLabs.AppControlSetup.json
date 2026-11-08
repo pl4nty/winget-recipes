@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://www.appcontrol.com/files/AppControlSetup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.appcontrol.com/files/AppControlSetup.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
