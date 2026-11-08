@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dramxx",
+		"repo": "dMeter"
+	},
+	"urls": [
+		"https://github.com/dramxx/dMeter/releases/download/{github.rawTag}/dmeter-{version}-windows-x64.zip"
+	]
+}
