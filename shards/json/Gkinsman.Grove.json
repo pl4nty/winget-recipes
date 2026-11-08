@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gkinsman",
+		"repo": "Grove"
+	},
+	"urls": [
+		"https://github.com/gkinsman/Grove/releases/download/{github.rawTag}/Grove-{version}-win-x64-setup.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FireFox2000000",
+		"repo": "Moonscraper-Chart-Editor"
+	},
+	"urls": [
+		"https://github.com/FireFox2000000/Moonscraper-Chart-Editor/releases/download/{github.rawTag}/MSCE.{version}.Installer.Win32.exe",
+		"https://github.com/FireFox2000000/Moonscraper-Chart-Editor/releases/download/{github.rawTag}/MSCE.{version}.Installer.Win64.exe"
+	]
+}

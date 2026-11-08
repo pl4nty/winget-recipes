@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "remcostoeten",
+		"repo": "dora"
+	},
+	"urls": ["https://github.com/remcostoeten/dora/releases/download/v{version}/Dora_{version}_x64-setup.exe"]
+}

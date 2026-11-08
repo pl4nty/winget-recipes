@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "audiorouterdev",
+		"repo": "audio-router"
+	},
+	"urls": [
+		"https://github.com/audiorouterdev/audio-router/releases/download/{github.rawTag}/AudioRouter-{version}-32bit.zip",
+		"https://github.com/audiorouterdev/audio-router/releases/download/{github.rawTag}/AudioRouter-{version}.zip"
+	]
+}
