@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Jabe",
+		"repo": "yolomover"
+	},
+	"urls": [
+		"https://github.com/Jabe/yolomover/releases/download/{github.rawTag}/yolomover-v{version}-x86_64-pc-windows-msvc.exe"
+	]
+}

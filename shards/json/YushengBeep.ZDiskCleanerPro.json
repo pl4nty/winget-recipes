@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/yusheng266186-beep/zdisk-cleaner-pro/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "yusheng266186-beep",
+		"repo": "zdisk-cleaner-pro",
+		"tag": "v{version}"
+	}
+}
