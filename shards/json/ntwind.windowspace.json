@@ -6,8 +6,9 @@
 		"regex": "WindowSpace_(\\d+(?:\\.\\d+)+)-setup\\.exe"
 	},
 	"urls": [
-		{ "url": "https://www.ntwind.com/files/WindowSpace_{version}-setup.exe", "architecture": "x86" },
-		{ "url": "https://www.ntwind.com/files/WindowSpace_{version}-setup.exe", "architecture": "x64" }
+		"https://www.ntwind.com/files/WindowSpace_{version}-setup.exe"
 	],
-	"releaseNotes": { "releaseNotesUrl": "https://www.ntwind.com/software/windowspace/what-is-new.html" }
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ntwind.com/software/windowspace/what-is-new.html"
+	}
 }
