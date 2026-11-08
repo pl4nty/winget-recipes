@@ -3,5 +3,8 @@
 	"strategy": "electron-builder",
 	"electronBuilder": {
 		"url": "https://objectstorage.us-ashburn-1.oraclecloud.com/p/RsWsHgHy8iQ3Zc_-iycTcyjRjyLbaQzjQPohwQSMX2sqMBG-Omm5gr8hd8gZ_cS1/n/id47ojk2gwll/b/app-storage/o/latest.yml"
-	}
+	},
+	"urls": [
+		"https://objectstorage.us-ashburn-1.oraclecloud.com/p/RsWsHgHy8iQ3Zc_-iycTcyjRjyLbaQzjQPohwQSMX2sqMBG-Omm5gr8hd8gZ_cS1/n/id47ojk2gwll/b/app-storage/o/RoGold.Ultimate.App-{version}.exe"
+	]
 }
