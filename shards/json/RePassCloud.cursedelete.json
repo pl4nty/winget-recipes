@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "repasscloud", "repo": "cursedelete-2" },
+	"urls": [
+		"https://github.com/repasscloud/cursedelete-2/releases/download/v{version}/cursdel-{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/repasscloud/cursedelete-2/releases/download/v{version}/cursdel-{version}-aarch64-pc-windows-msvc.zip"
+	]
+}
