@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "copy4ai",
+		"repo": "copy4ai-cli"
+	},
+	"urls": [
+		"https://github.com/copy4ai/copy4ai-cli/releases/download/{github.rawTag}/copy4ai-windows-x86_64.zip"
+	]
+}
