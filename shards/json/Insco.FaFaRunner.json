@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fafarunner",
+		"repo": "fafarunner"
+	},
+	"urls": [
+		"https://github.com/fafarunner/fafarunner/releases/download/{github.rawTag}/fafarunner-{version}-windows-x64-en-US.msi",
+		"https://github.com/fafarunner/fafarunner/releases/download/{github.rawTag}/fafarunner-{version}-windows-x64-zh-CN.msi"
+	]
+}
