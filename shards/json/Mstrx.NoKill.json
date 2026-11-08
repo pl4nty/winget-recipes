@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MstrxDev",
+		"repo": "NoKill"
+	},
+	"urls": ["https://github.com/MstrxDev/NoKill/releases/download/v{version}/NoKill-{version}-win-x64.msi"]
+}

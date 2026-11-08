@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "excelano",
+		"repo": "xfiles"
+	},
+	"urls": [
+		"https://github.com/excelano/xfiles/releases/download/{github.rawTag}/xtree_{version}_windows_amd64.zip"
+	]
+}

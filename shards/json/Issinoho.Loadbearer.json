@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "issinoho",
+		"repo": "loadbearer"
+	},
+	"urls": [
+		"https://github.com/issinoho/loadbearer/releases/download/{github.rawTag}/loadbearer-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
