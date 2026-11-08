@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://plugin.fileopen.com/current/FileOpenInstaller64.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://plugin.fileopen.com/current/FileOpenInstaller64.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
