@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "vybraan", "repo": "vyai" },
+	"urls": [
+		"https://github.com/vybraan/vyai/releases/download/v{version}/vyai_Windows_x86_64.zip",
+		"https://github.com/vybraan/vyai/releases/download/v{version}/vyai_Windows_arm64.zip",
+		"https://github.com/vybraan/vyai/releases/download/v{version}/vyai_Windows_i386.zip"
+	]
+}

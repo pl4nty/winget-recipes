@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://download.reemo.io/reemo.setup.x64.exe", "https://download.reemo.io/reemo.setup.arm64.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.reemo.io/reemo.setup.x64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
