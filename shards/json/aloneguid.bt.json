@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aloneguid",
+		"repo": "bt"
+	},
+	"urls": [
+		"https://github.com/aloneguid/bt/releases/download/{github.rawTag}/BrowserTamer-{version}-win64.msi",
+		"https://github.com/aloneguid/bt/releases/download/{github.rawTag}/BrowserTamer-{version}-win-arm64.msi"
+	]
+}
