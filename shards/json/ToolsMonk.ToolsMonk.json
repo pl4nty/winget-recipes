@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vksingh5995",
+		"repo": "toolsmonk-releases"
+	},
+	"urls": [
+		"https://github.com/vksingh5995/toolsmonk-releases/releases/download/v{version}/ToolsMonk-Setup-{version}.exe"
+	]
+}
