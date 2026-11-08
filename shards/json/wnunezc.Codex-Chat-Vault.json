@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wnunezc",
+		"repo": "codex-chat-vault"
+	},
+	"urls": [
+		"https://github.com/wnunezc/codex-chat-vault/releases/download/v{version}/codex-chat-vault-{version}-x86_64.msi"
+	]
+}

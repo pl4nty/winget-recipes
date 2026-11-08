@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "adryledo",
+		"repo": "arca-cli"
+	},
+	"urls": [
+		"https://github.com/adryledo/arca-cli/releases/download/{github.rawTag}/arca-windows-amd64.zip",
+		"https://github.com/adryledo/arca-cli/releases/download/{github.rawTag}/arca-windows-arm64.zip"
+	]
+}
