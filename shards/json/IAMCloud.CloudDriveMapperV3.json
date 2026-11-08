@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://downloads.iamcloud.net/cdm/v3/releases-latest/x64/CloudDriveMapper.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.iamcloud.net/cdm/v3/releases-latest/x64/CloudDriveMapper.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
