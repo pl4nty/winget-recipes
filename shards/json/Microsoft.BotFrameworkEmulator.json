@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "BotFramework-Emulator"
+	},
+	"urls": [
+		"https://github.com/microsoft/BotFramework-Emulator/releases/download/v{version}/BotFramework-Emulator-{version}-windows-setup.exe"
+	]
+}

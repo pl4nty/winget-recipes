@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chawyehsu",
+		"repo": "moonup"
+	},
+	"urls": [
+		"https://github.com/chawyehsu/moonup/releases/download/{github.rawTag}/moonup-x86_64-pc-windows-msvc.zip"
+	]
+}

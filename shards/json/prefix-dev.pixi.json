@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "prefix-dev",
+		"repo": "pixi"
+	},
+	"urls": [
+		"https://github.com/prefix-dev/pixi/releases/download/v{version}/pixi-x86_64-pc-windows-msvc.msi",
+		"https://github.com/prefix-dev/pixi/releases/download/v{version}/pixi-aarch64-pc-windows-msvc.msi"
+	]
+}

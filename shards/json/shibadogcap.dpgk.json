@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "shibadogcap",
+		"repo": "dpgk"
+	},
+	"urls": [
+		"https://github.com/shibadogcap/dpgk/releases/download/v{version}/dpgk-windows-amd64.zip",
+		"https://github.com/shibadogcap/dpgk/releases/download/v{version}/dpgk-windows-arm64.zip"
+	]
+}
