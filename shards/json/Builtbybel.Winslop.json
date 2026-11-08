@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "builtbybel",
+		"repo": "FluentTweaker",
+		"method": "api-sort",
+		"assetRegex": "^(?:Winslopr\\-\\d+\\.\\d+\\.\\d+\\-win\\-x64\\.zip)$"
+	}
+}
