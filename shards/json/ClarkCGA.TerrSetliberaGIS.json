@@ -1,14 +1,12 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
-	"version": {
-		"source": "product"
-	},
+	"version": "{version|.0|.0.}",
 	"github": {
 		"owner": "ClarkCGA",
 		"repo": "TerrSet"
 	},
 	"urls": [
-		{ "url": "https://github.com/ClarkCGA/TerrSet/releases/download/{github.rawTag}/setup_TerrSet_liberaGIS_v20_06.exe", "architecture": "x64" }
+		{ "url": "https://github.com/ClarkCGA/TerrSet/releases/download/{github.rawTag}/setup_TerrSet_liberaGIS_{github.rawTag|.|_}.exe", "architecture": "x64" }
 	]
 }

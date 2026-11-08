@@ -1,25 +1,24 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.naps2.com/download",
-		"regex": "https://github\\.com/cyanfish/naps2/releases/download/v(\\d+(?:\\.\\d+)+)/naps2\\-\\1\\-win\\-x64\\.zip"
+	"strategy": "github-release",
+	"github": {
+		"owner": "cyanfish",
+		"repo": "naps2",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
 	"urls": [
 		{
-			"url": "https://github.com/cyanfish/naps2/releases/download/v{version}/naps2-{version}-win-x64.zip",
+			"url": "https://github.com/cyanfish/naps2/releases/download/{github.rawTag}/naps2-{version}-win-x64.zip",
 			"architecture": "x64"
 		},
 		{
-			"url": "https://github.com/cyanfish/naps2/releases/download/v{version}/naps2-{version}-win-x64.exe",
+			"url": "https://github.com/cyanfish/naps2/releases/download/{github.rawTag}/naps2-{version}-win-x64.exe",
 			"architecture": "x64"
 		},
 		{
-			"url": "https://github.com/cyanfish/naps2/releases/download/v{version}/naps2-{version}-win-x64.msi",
+			"url": "https://github.com/cyanfish/naps2/releases/download/{github.rawTag}/naps2-{version}-win-x64.msi",
 			"architecture": "x64"
 		}
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/cyanfish/naps2/releases/tag/v{version}"
-	}
+	]
 }
