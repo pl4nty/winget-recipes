@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stefanocaronia",
+		"repo": "qr2l"
+	},
+	"urls": ["https://github.com/stefanocaronia/qr2l/releases/download/{version}/qr2l-v{version}-win-x64-setup.exe"]
+}
