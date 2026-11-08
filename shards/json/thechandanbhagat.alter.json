@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "thechandanbhagat",
+		"repo": "alter-pm"
+	},
+	"urls": ["https://github.com/thechandanbhagat/alter-pm/releases/download/v{version}/alter-{version}-windows-x64-setup.exe"]
+}
