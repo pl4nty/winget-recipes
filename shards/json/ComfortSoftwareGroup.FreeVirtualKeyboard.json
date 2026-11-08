@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://freevirtualkeyboard.com/FreeVKSetup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://freevirtualkeyboard.com/FreeVKSetup.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
