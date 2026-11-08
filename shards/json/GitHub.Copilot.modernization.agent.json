@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "modernize-cli"
+	},
+	"urls": [
+		"https://github.com/microsoft/modernize-cli/releases/download/{github.rawTag}/modernize_{version}_windows_arm64.msi",
+		"https://github.com/microsoft/modernize-cli/releases/download/{github.rawTag}/modernize_{version}_windows_x64.msi"
+	]
+}
