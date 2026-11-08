@@ -29,6 +29,10 @@ jobs:
     name: Test
     runs-on: ubuntu-26.04-arm
     timeout-minutes: 10
+    env:
+      NAPI_RS_NATIVE_LIBRARY_PATH: ${{ github.workspace }}/anthelion-komac.node
+      # The merge commit's first parent is the base branch, which pull_request.base.sha can lag behind.
+      BASE: ${{ github.event.pull_request && 'HEAD^1' || '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -45,20 +49,25 @@ jobs:
       - name: Install Dependencies
         run: bun ci --production
 
+      - name: Install komac
+        run: curl -fsSLo "$NAPI_RS_NATIVE_LIBRARY_PATH" https://github.com/devicie/Komac-anthelion/releases/latest/download/anthelion-komac.linux-arm64-gnu.node
+
       - name: Lint Shards
         run: bun lint.ts
 
       - name: Test Packages
         run: |
+          DRY_RUN_PACKAGES=''
           if [ -z "$PACKAGES" ]; then
-            PACKAGES="$(git diff --name-only --diff-filter=AMR "$BASE_SHA" HEAD -- 'shards/json/*.json' 'shards/script/*.ts' | xargs -r -n1 basename | sed 's/\.[^.]*$//' | xargs)"
+            PACKAGES="$(git diff --name-only --diff-filter=AMR "$BASE" HEAD -- 'shards/json/*.json' 'shards/script/*.ts' | xargs -r -n1 basename | sed 's/\.[^.]*$//' | xargs)"
+            DRY_RUN_PACKAGES="$(git diff --name-only --diff-filter=AMR "$BASE" HEAD -- 'shards/dry-run/json/*.json' 'shards/dry-run/script/*.ts' | xargs -r -n1 basename | sed 's/\.[^.]*$//' | xargs)"
           fi
-          if [ -z "$PACKAGES" ]; then
+          if [ -z "$PACKAGES$DRY_RUN_PACKAGES" ]; then
             exit 0
           fi
-          bun test:shard "$PACKAGES" --dry-run
+          [ -z "$PACKAGES" ] || bun test:shard "$PACKAGES" --dry-run
+          [ -z "$DRY_RUN_PACKAGES" ] || ANTHELION_SHARDS_DIR=shards/dry-run bun test:shard "$DRY_RUN_PACKAGES" --dry-run
           bun lint.ts --dry-run
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
           PACKAGES: ${{ inputs.packages }}

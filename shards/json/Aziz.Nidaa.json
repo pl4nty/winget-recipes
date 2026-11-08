@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "A-Faqihi",
+		"repo": "Nidaa"
+	},
+	"urls": [
+		{ "url": "https://github.com/A-Faqihi/Nidaa/releases/download/{github.rawTag}/NidaaSetup_{version}.exe", "architecture": "x86" }
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "get-it-simple",
+		"repo": "Windows-Sound-Mixer"
+	},
+	"urls": [
+		"https://github.com/get-it-simple/Windows-Sound-Mixer/releases/download/{github.rawTag}/SoundMixer-{version}-x64-machine-setup.exe"
+	]
+}

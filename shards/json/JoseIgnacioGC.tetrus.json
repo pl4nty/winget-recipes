@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JoseIgnacioGC",
+		"repo": "tetrus"
+	},
+	"urls": [
+		"https://github.com/JoseIgnacioGC/tetrus/releases/download/{github.rawTag}/tetrus-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
