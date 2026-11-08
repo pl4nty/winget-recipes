@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "naodEthiop", "repo": "lalibela-cli" },
+	"urls": ["https://github.com/naodEthiop/lalibela-cli/releases/download/v{version}/lalibela_{version}_windows_amd64.zip"]
+}

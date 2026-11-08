@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://static.okx.com/upgradeapp/OKX_Setup_Win10.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://static.okx.com/upgradeapp/OKX_Setup_Win10.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
