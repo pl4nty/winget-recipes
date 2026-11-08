@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.microsoft.com/download/c/6/3/c63d8695-cef2-43c3-af0a-4989507e429b/DataMigrationAssistant.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.microsoft.com/download/c/6/3/c63d8695-cef2-43c3-af0a-4989507e429b/DataMigrationAssistant.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
