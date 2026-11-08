@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Syngnat",
+		"repo": "GoNavi"
+	},
+	"urls": [
+		"https://github.com/Syngnat/GoNavi/releases/download/v{version}/GoNavi-{version}-Windows-Amd64-Portable.zip",
+		"https://github.com/Syngnat/GoNavi/releases/download/v{version}/GoNavi-{version}-Windows-Arm64-Portable.zip",
+		"https://github.com/Syngnat/GoNavi/releases/download/v{version}/GoNavi-{version}-Windows-Amd64-Installer.msi",
+		"https://github.com/Syngnat/GoNavi/releases/download/v{version}/GoNavi-{version}-Windows-Arm64-Installer.msi"
+	]
+}
