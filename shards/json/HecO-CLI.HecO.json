@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "heco-cli",
+		"repo": "HecO"
+	},
+	"urls": [
+		"https://github.com/heco-cli/HecO/releases/download/{github.rawTag}/heco-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}

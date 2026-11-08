@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "analogdevicesinc",
+		"repo": "iio-oscilloscope"
+	},
+	"urls": [
+		"https://github.com/analogdevicesinc/iio-oscilloscope/releases/download/{github.rawTag}/adi-osc-setup.exe"
+	]
+}
