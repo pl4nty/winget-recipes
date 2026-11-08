@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MetanoicArmor",
+		"repo": "I2PChat-ng"
+	},
+	"urls": ["https://github.com/MetanoicArmor/I2PChat-ng/releases/download/v{version}/I2PChat-windows-x64-winget-v{version}.zip"]
+}
