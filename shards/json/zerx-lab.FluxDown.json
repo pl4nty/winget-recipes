@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zerx-lab",
+		"repo": "FluxDown",
+		"tagRegex": "^(?=v\\d)"
+	},
+	"urls": [
+		"https://github.com/zerx-lab/FluxDown/releases/download/v{version}/FluxDown-{version}-windows-x64-setup.exe",
+		"https://github.com/zerx-lab/FluxDown/releases/download/v{version}/FluxDown-{version}-windows-arm64-setup.exe"
+	]
+}
