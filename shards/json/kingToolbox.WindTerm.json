@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kingToolbox",
+		"repo": "WindTerm"
+	},
+	"urls": [
+		"https://github.com/kingToolbox/WindTerm/releases/download/{github.rawTag}/WindTerm_{version}_Windows_Portable_x86_32.zip",
+		"https://github.com/kingToolbox/WindTerm/releases/download/{github.rawTag}/WindTerm_{version}_Windows_Portable_x86_64.zip"
+	]
+}

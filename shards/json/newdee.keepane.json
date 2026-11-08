@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "newdee",
+		"repo": "keepane"
+	},
+	"urls": [
+		"https://github.com/newdee/keepane/releases/download/v{version}/keepane-{version}-windows-x86_64.msi",
+		"https://github.com/newdee/keepane/releases/download/v{version}/keepane-{version}-windows-x86_64-user.msi"
+	]
+}
