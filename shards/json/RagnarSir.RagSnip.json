@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RagnarSir",
+		"repo": "ragsnip"
+	},
+	"urls": ["https://github.com/RagnarSir/ragsnip/releases/download/v{version}/RagSnip-Setup-{version}.exe"]
+}
