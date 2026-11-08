@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SamarthAgrawal-002",
+		"repo": "ShrinkIt"
+	},
+	"urls": ["https://github.com/SamarthAgrawal-002/ShrinkIt/releases/download/v{version}/docshrink-windows-x64.exe"]
+}
