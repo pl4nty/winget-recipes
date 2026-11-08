@@ -3,12 +3,8 @@
 	"strategy": "redirect-match",
 	"redirectMatch": {
 		"url": ["https://aka.ms/GlobalSecureAccess-windows", "https://aka.ms/GlobalSecureAccess-WindowsOnArm"],
-		"regex": "/installers/preview/GlobalSecureAccessInstaller_(?:arm64_)?(?<version>\\d+(?:\\.\\d+)+)\\.exe$"
+		"regex": "GlobalSecureAccessInstaller_(?:arm64_)?(\\d+(?:\\.\\d+)+)\\.exe$"
 	},
-	"urls": [
-		{ "url": "https://gsa-installers-prod-ehchedbkcjeqg3hp.b01.azurefd.net/installers/preview/GlobalSecureAccessInstaller_{version}.exe", "architecture": "x64" },
-		{ "url": "https://gsa-installers-prod-ehchedbkcjeqg3hp.b01.azurefd.net/installers/preview/GlobalSecureAccessInstaller_arm64_{version}.exe", "architecture": "arm64" }
-	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://learn.microsoft.com/en-us/entra/global-secure-access/reference-windows-client-release-history#version-{version|.|}"
 	}
