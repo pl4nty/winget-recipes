@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rexenv",
+		"repo": "rexenv"
+	},
+	"urls": ["https://github.com/rexenv/rexenv/releases/download/v{version}/rexenv_{version}_x64-setup.exe"]
+}
