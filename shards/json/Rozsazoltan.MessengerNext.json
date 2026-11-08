@@ -4,7 +4,6 @@
 	"github": {
 		"owner": "rozsazoltan",
 		"repo": "messenger",
-		"method": "redirect",
 		"tagRegex": "(?:-\\d+)?$"
 	},
 	"urls": ["https://github.com/rozsazoltan/messenger/releases/download/{github.rawTag}/messenger-next.msi"]
