@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://filemailprod.blob.core.windows.net/downloads/Apps/Filemail_Desktop_Setup_win64.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://filemailprod.blob.core.windows.net/downloads/Apps/Filemail_Desktop_Setup_win64.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
