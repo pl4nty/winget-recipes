@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "piotrzielinski1994",
+		"repo": "purerequest"
+	},
+	"urls": [
+		"https://github.com/piotrzielinski1994/purerequest/releases/download/v{version}/purerequest_{version}_x64-setup.exe",
+		"https://github.com/piotrzielinski1994/purerequest/releases/download/v{version}/purerequest_{version}_x64_en-US.msi"
+	]
+}

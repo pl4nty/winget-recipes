@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "design-ninja",
+		"repo": "zush-windows-releases"
+	},
+	"urls": [
+		"https://github.com/design-ninja/zush-windows-releases/releases/download/{github.rawTag}/zush-{version}-win-arm64.zip",
+		"https://github.com/design-ninja/zush-windows-releases/releases/download/{github.rawTag}/zush-{version}-win-x64.zip"
+	]
+}
