@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://downloadc.icecreamapps.com/pdfcandy_setup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloadc.icecreamapps.com/pdfcandy_setup.exe",
+		"header": "last-modified"
+	},
+	"replace": true
 }
