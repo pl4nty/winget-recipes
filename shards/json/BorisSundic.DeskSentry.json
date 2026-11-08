@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "borissundic",
+		"repo": "DeskSentry-Releases"
+	},
+	"urls": [
+		"https://github.com/borissundic/DeskSentry-Releases/releases/download/{github.rawTag}/DeskSentry-{version}-Setup.exe"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "SourceBox-LLC", "repo": "SearchBox" },
+	"urls": [
+		"https://github.com/SourceBox-LLC/SearchBox/releases/download/v{version}/SearchBox-{version}-x86_64.msi",
+		"https://github.com/SourceBox-LLC/SearchBox/releases/download/v{version}/SearchBox-{version}-aarch64.msi"
+	]
+}
