@@ -8,7 +8,7 @@
 		"owner": "LGUG2Z",
 		"repo": "komorebi",
 		"method": "api-list",
-		"kind": "all"
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/LGUG2Z/komorebi/releases/download/{github.rawTag}/komorebi-nightly-x86_64.msi",
