@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DaxStudio",
+		"repo": "DaxStudio"
+	},
+	"urls": [
+		"https://github.com/DaxStudio/DaxStudio/releases/download/{github.rawTag}/DaxStudio_{version|.|_}_setup.exe"
+	]
+}

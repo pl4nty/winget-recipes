@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jschell",
+		"repo": "HEIC-convert"
+	},
+	"urls": [
+		"https://github.com/jschell/HEIC-convert/releases/download/{github.rawTag}/HEICAutoConverter-v{version}-win-x64.zip",
+		"https://github.com/jschell/HEIC-convert/releases/download/{github.rawTag}/HEICAutoConverter.exe"
+	]
+}

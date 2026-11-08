@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ghostshadowplays",
+		"repo": "GhostTune-Converter"
+	},
+	"urls": [
+		"https://github.com/Ghostshadowplays/GhostTune-Converter/releases/download/{github.rawTag}/GhostTuneConverter.exe"
+	]
+}

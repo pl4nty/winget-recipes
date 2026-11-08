@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Coding-Kiwi",
+		"repo": "graSSHopper"
+	},
+	"urls": [
+		"https://github.com/Coding-Kiwi/graSSHopper/releases/download/{github.rawTag}/graSSHopper.Setup.{version}.exe"
+	]
+}
