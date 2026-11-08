@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "axon-hub",
+		"repo": "axon-releases"
+	},
+	"urls": [
+		"https://github.com/axon-hub/axon-releases/releases/download/{github.rawTag}/axon_{version}_windows_amd64.zip"
+	]
+}
