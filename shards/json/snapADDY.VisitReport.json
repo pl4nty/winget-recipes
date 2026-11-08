@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://downloads.snapaddy.com/visitreport/windows/snapAddy%20VisitReport%20Setup.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.snapaddy.com/visitreport/windows/snapAddy%20VisitReport%20Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

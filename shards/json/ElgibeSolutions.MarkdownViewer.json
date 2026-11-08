@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lucianbumb",
+		"repo": "MarkdownViewer"
+	},
+	"urls": [
+		"https://github.com/lucianbumb/MarkdownViewer/releases/download/{github.rawTag}/Markdown.Viewer.Setup.{version}.exe"
+	]
+}
