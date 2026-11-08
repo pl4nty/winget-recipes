@@ -7,7 +7,7 @@
 	},
 	"version": "{version}.0",
 	"urls": [
-		"https://download.oracle.com/java/20/archive/jdk-{captures.version}_windows-x64_bin.msi",
-		"https://download.oracle.com/java/20/archive/jdk-{captures.version}_windows-x64_bin.exe"
+		"https://download.oracle.com/java/20/archive/jdk-{version}_windows-x64_bin.msi",
+		"https://download.oracle.com/java/20/archive/jdk-{version}_windows-x64_bin.exe"
 	]
 }
