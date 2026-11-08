@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chen-qingyu",
+		"repo": "bf"
+	},
+	"urls": [
+		"https://github.com/chen-qingyu/bf/releases/download/{github.rawTag}/bf-{version}-win64.exe"
+	]
+}
