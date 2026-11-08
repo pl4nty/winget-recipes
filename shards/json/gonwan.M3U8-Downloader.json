@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gonwan",
+		"repo": "m3u8-downloader"
+	},
+	"urls": [
+		"https://github.com/gonwan/m3u8-downloader/releases/download/{github.rawTag}/m3u8downloader-v{version}-win32-x64.zip"
+	]
+}

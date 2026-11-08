@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "shloop",
+		"repo": "google-book-scraper"
+	},
+	"urls": [
+		"https://github.com/shloop/google-book-scraper/releases/download/v{version}/google-book-scraper-{version}-windows-x86-installer.exe",
+		"https://github.com/shloop/google-book-scraper/releases/download/v{version}/google-book-scraper-{version}-windows-x64-installer.exe",
+		"https://github.com/shloop/google-book-scraper/releases/download/v{version}/google-book-scraper-{version}-windows-arm64-installer.exe"
+	]
+}

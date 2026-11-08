@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lamteteeow",
+		"repo": "PowerTranslate"
+	},
+	"urls": [
+		"https://github.com/lamteteeow/PowerTranslate/releases/download/{github.rawTag}/PowerTranslateExtension_{version}_x64.msix"
+	]
+}

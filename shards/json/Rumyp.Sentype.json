@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Rumyp",
+		"repo": "sentype"
+	},
+	"urls": ["https://github.com/Rumyp/sentype/releases/download/{github.rawTag}/sentype-{version}-windows-x64.exe"]
+}
