@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "changepacks",
+		"repo": "changepacks",
+		"tagRegex": "^changepacks\\(crates/changepacks/Cargo\\.toml\\)@"
+	},
+	"urls": [
+		"https://github.com/changepacks/changepacks/releases/download/{github.rawTag}/changepacks-windows-x86_64.exe"
+	]
+}
