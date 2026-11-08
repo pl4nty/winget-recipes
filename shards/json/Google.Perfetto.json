@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "google",
+		"repo": "perfetto"
+	},
+	"urls": [
+		"https://github.com/google/perfetto/releases/download/{github.rawTag}/windows-amd64.zip"
+	]
+}

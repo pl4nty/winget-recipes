@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "psmux", "repo": "omp-manager" },
+	"urls": [
+		"https://github.com/psmux/omp-manager/releases/download/v{version}/omp-manager-x86_64-pc-windows-msvc.zip"
+	]
+}
