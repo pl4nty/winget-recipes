@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/4/8/3/483976ae-b4b1-490d-bd5f-74fdc44bb84e/Windows10Upgrade9252.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.microsoft.com/download/4/8/3/483976ae-b4b1-490d-bd5f-74fdc44bb84e/Windows10Upgrade9252.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-10-version-22h2"
+	},
+	"replace": true
+}
