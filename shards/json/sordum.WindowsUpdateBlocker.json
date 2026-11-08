@@ -6,7 +6,6 @@
 		"regex": "<title>Windows Update Blocker v(\\d+(?:\\.\\d+)+)"
 	},
 	"urls": [
-		"https://www.sordum.org/files/downloads.php?st-windows-update-blocker",
 		"https://www.sordum.org/files/downloads.php?st-windows-update-blocker"
 	],
 	"releaseNotes": {
