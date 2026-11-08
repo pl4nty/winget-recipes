@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "idleberg",
+		"repo": "go-hashman"
+	},
+	"urls": [
+		"https://github.com/idleberg/go-hashman/releases/download/{github.rawTag}/hashman-{version}-Windows-arm64.zip",
+		"https://github.com/idleberg/go-hashman/releases/download/{github.rawTag}/hashman-{version}-Windows-i386.zip",
+		"https://github.com/idleberg/go-hashman/releases/download/{github.rawTag}/hashman-{version}-Windows-x86_64.zip"
+	]
+}

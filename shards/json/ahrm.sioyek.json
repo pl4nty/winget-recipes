@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ahrm",
+		"repo": "sioyek"
+	},
+	"urls": ["https://github.com/ahrm/sioyek/releases/download/v{version}/sioyek-release-windows.zip"]
+}

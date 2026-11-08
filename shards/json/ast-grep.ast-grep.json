@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ast-grep",
+		"repo": "ast-grep"
+	},
+	"urls": [
+		"https://github.com/ast-grep/ast-grep/releases/download/{github.rawTag}/app-x86_64-pc-windows-msvc.zip",
+		"https://github.com/ast-grep/ast-grep/releases/download/{github.rawTag}/app-aarch64-pc-windows-msvc.zip",
+		"https://github.com/ast-grep/ast-grep/releases/download/{github.rawTag}/app-i686-pc-windows-msvc.zip"
+	]
+}
