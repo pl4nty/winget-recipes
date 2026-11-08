@@ -1,10 +1,8 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://cdn.filen.io/@filen/desktop/release/latest/latest.yml"
 	},
-	"urls": [
-		"https://cdn.filen.io/@filen/desktop/release/latest/Filen_win_x64.exe"
-	]
+	"urls": ["https://cdn.filen.io/@filen/desktop/release/latest/Filen_win_x64.exe"]
 }
