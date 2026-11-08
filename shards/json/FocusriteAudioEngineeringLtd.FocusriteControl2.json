@@ -5,6 +5,15 @@
 		"source": "product"
 	},
 	"urls": [
-		{ "url": "https://releases.focusrite.com/com.focusrite.focusrite-control/latest/Focusrite-Control-2.exe", "architecture": "x64" }
-	]
+		{
+			"url": "https://releases.focusrite.com/com.focusrite.focusrite-control/latest/Focusrite-Control-2.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://releases.focusrite.com/com.focusrite.focusrite-control/latest/Focusrite-Control-2.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
