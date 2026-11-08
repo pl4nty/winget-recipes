@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DineshSolanki",
+		"repo": "FoliCon",
+		"tagRegex": "^V"
+	},
+	"urls": [
+		"https://github.com/DineshSolanki/FoliCon/releases/download/{github.rawTag}/FoliCon-v{version}-x64.zip"
+	]
+}
