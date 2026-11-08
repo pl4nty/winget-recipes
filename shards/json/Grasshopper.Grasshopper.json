@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://dl.grasshopper.com/Grasshopper.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.grasshopper.com/Grasshopper.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
