@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "treealarm",
+		"repo": "OnvifLib",
+		"tagRegex": "^gui-"
+	},
+	"urls": [
+		"https://github.com/treealarm/OnvifLib/releases/download/{github.rawTag}/OnvifLib.Gui-win-x64.msi"
+	]
+}
