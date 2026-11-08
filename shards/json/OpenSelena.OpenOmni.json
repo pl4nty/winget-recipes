@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OpenSelena",
+		"repo": "openomni"
+	},
+	"urls": [
+		"https://github.com/OpenSelena/openomni/releases/download/v{version}/open-omni-windows-x64.zip"
+	]
+}
