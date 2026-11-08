@@ -1,24 +1,28 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.bell-sw.com/v1/liberica/releases?version-feature=21&version-modifier=latest&os=windows&package-type=msi&bundle-type=jdk",
+		"path": "0.version"
+	},
 	"version": {
 		"source": "display"
 	},
 	"urls": [
 		{
-			"url": "https://download.bell-sw.com/java/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-windows-amd64.msi",
+			"url": "https://download.bell-sw.com/java/{version}/bellsoft-jdk{version}-windows-amd64.msi",
 			"architecture": "x64"
 		},
 		{
-			"url": "https://download.bell-sw.com/java/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-windows-i586.msi",
+			"url": "https://download.bell-sw.com/java/{version}/bellsoft-jdk{version}-windows-i586.msi",
 			"architecture": "x86"
 		},
 		{
-			"url": "https://download.bell-sw.com/java/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-windows-aarch64.msi",
+			"url": "https://download.bell-sw.com/java/{version}/bellsoft-jdk{version}-windows-aarch64.msi",
 			"architecture": "arm64"
 		}
 	],
 	"releaseNotes": {
-		"releaseNotesUrl": "https://docs.bell-sw.com/liberica-jdk/21.0.13.0.3b5/general/release-notes/"
+		"releaseNotesUrl": "https://bell-sw.com/pages/liberica-release-notes-{version|+|-}/"
 	}
 }
