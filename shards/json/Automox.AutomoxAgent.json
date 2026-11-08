@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://console.automox.com/installers/Automox_Installer-latest.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://console.automox.com/installers/Automox_Installer-latest.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
