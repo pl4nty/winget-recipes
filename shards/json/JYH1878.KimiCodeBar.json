@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JYH1878",
+		"repo": "KimiCodeBar-Windows"
+	},
+	"urls": [
+		"https://github.com/JYH1878/KimiCodeBar-Windows/releases/download/{github.rawTag}/KimiCodeBar_{version}_x64-setup.exe"
+	]
+}

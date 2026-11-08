@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AlbrechtL",
+		"repo": "welle.io"
+	},
+	"urls": [
+		"https://github.com/AlbrechtL/welle.io/releases/download/{github.rawTag}/welle.io-{version}-Windows_setup-x86_x64.exe"
+	]
+}
