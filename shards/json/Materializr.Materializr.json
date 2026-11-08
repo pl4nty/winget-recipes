@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "materializr-cad",
+		"repo": "materializr"
+	},
+	"urls": [
+		"https://github.com/materializr-cad/materializr/releases/download/{github.rawTag}/Materializr-Setup.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://releases.prisment.io/latest.yml"
+	},
+	"urls": [
+		"https://releases.prisment.io/v{version}/Prisment-{version}-win-x64.exe",
+		"https://releases.prisment.io/v{version}/Prisment-{version}-win-arm64.exe"
+	]
+}
