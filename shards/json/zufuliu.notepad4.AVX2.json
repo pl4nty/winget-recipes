@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zufuliu",
+		"repo": "notepad4"
+	},
+	"urls": [
+		"https://github.com/zufuliu/notepad4/releases/download/v{version}/Notepad4_HD_de_AVX2_v{version}.zip",
+		"https://github.com/zufuliu/notepad4/releases/download/v{version}/Notepad4_HD_en_AVX2_v{version}.zip",
+		"https://github.com/zufuliu/notepad4/releases/download/v{version}/Notepad4_HD_fr_AVX2_v{version}.zip",
+		"https://github.com/zufuliu/notepad4/releases/download/v{version}/Notepad4_HD_it_AVX2_v{version}.zip",
+		"https://github.com/zufuliu/notepad4/releases/download/v{version}/Notepad4_HD_ja_AVX2_v{version}.zip",
+		"https://github.com/zufuliu/notepad4/releases/download/v{version}/Notepad4_HD_ko_AVX2_v{version}.zip",
+		"https://github.com/zufuliu/notepad4/releases/download/v{version}/Notepad4_HD_pl_AVX2_v{version}.zip",
+		"https://github.com/zufuliu/notepad4/releases/download/v{version}/Notepad4_HD_pt-BR_AVX2_v{version}.zip",
+		"https://github.com/zufuliu/notepad4/releases/download/v{version}/Notepad4_HD_ru_AVX2_v{version}.zip",
+		"https://github.com/zufuliu/notepad4/releases/download/v{version}/Notepad4_HD_zh-Hans_AVX2_v{version}.zip",
+		"https://github.com/zufuliu/notepad4/releases/download/v{version}/Notepad4_HD_zh-Hant_AVX2_v{version}.zip",
+		"https://github.com/zufuliu/notepad4/releases/download/v{version}/Notepad4_HD_i18n_AVX2_v{version}.zip"
+	]
+}
