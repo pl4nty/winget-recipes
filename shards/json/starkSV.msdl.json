@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "starkSV",
+		"repo": "windows-iso-downloader",
+		"tagRegex": "^cli/v"
+	},
+	"urls": [
+		"https://github.com/starkSV/windows-iso-downloader/releases/download/{github.rawTag}/msdl-windows-amd64.exe"
+	]
+}
