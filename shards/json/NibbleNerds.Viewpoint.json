@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://nibblenerds.com/static/viewpoint_setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://nibblenerds.com/static/viewpoint_setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ubidzz",
+		"repo": "Synix-Control-Panel"
+	},
+	"urls": ["https://github.com/ubidzz/Synix-Control-Panel/releases/download/v{version}/SynixSetup.msi"]
+}
