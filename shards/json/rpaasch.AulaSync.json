@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "rpaasch", "repo": "AulaSync" },
+	"urls": [
+		"https://github.com/rpaasch/AulaSync/releases/download/v{version}/AulaSync-Setup.exe",
+		"https://github.com/rpaasch/AulaSync/releases/download/v{version}/AulaSync.exe"
+	]
+}

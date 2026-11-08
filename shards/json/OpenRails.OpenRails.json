@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "openrails",
+		"repo": "openrails"
+	},
+	"urls": [
+		{ "url": "https://github.com/openrails/openrails/releases/download/{github.rawTag}/Open.Rails.{version}.Setup.exe", "architecture": "neutral" }
+	]
+}
