@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "monzer15",
+		"repo": "yalla-video-releases"
+	},
+	"urls": [
+		"https://github.com/monzer15/yalla-video-releases/releases/download/v{version}/Yalla-Video-Setup-{version}.exe"
+	]
+}
