@@ -1,22 +1,22 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "Lolle2000la",
-		"repo": "Image-Sort"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://imagesort.org/",
+		"regex": "https://github\\.com/Lolle2000la/Image\\-Sort/releases/download/v(\\d+(?:\\.\\d+)+)/ImageSort\\.x86\\.msi"
 	},
 	"version": "{version}.0",
 	"urls": [
 		{
-			"url": "https://github.com/Lolle2000la/Image-Sort/releases/download/{github.rawTag}/ImageSort.x86.msi",
+			"url": "https://github.com/Lolle2000la/Image-Sort/releases/download/v{version}/ImageSort.x86.msi",
 			"architecture": "x86"
 		},
 		{
-			"url": "https://github.com/Lolle2000la/Image-Sort/releases/download/{github.rawTag}/ImageSort.x64.msi",
+			"url": "https://github.com/Lolle2000la/Image-Sort/releases/download/v{version}/ImageSort.x64.msi",
 			"architecture": "x64"
 		},
 		{
-			"url": "https://github.com/Lolle2000la/Image-Sort/releases/download/{github.rawTag}/ImageSort.ARM64.msi",
+			"url": "https://github.com/Lolle2000la/Image-Sort/releases/download/v{version}/ImageSort.ARM64.msi",
 			"architecture": "arm64"
 		}
 	]
