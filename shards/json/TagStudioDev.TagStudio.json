@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TagStudioDev",
+		"repo": "TagStudio"
+	},
+	"urls": [
+		"https://github.com/TagStudioDev/TagStudio/releases/download/v{version}/tagstudio_v{version}_windows_x86_64_portable.zip"
+	]
+}
