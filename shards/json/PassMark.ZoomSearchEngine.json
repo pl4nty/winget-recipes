@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://www.zoomsearchengine.com/ftp/zoomsearch.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.zoomsearchengine.com/ftp/zoomsearch.exe",
+		"header": "etag"
+	},
+	"releaseNotes": { "releaseNotesUrl": "https://www.zoomsearchengine.com/zoom/whatsnew.html" },
+	"replace": true
+}
