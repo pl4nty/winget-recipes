@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://hetmanrecovery.com/download/hetman_data_recovery_pack.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://hetmanrecovery.com/download/hetman_data_recovery_pack.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hetmanrecovery.com/version_history.htm"
+	},
+	"replace": true
+}
