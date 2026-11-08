@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "appinstaller",
+	"appinstaller": {
+		"url": "https://packages.streamwithmeld.com/MeldStudio.appinstaller"
+	},
+	"urls": [
+		"https://packages.streamwithmeld.com/MeldStudio-{version}.msix",
+		"https://packages.streamwithmeld.com/MeldStudio-{version}.msix?p"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://meldstudio.co/blog/tag/changelog/"
+	}
+}
