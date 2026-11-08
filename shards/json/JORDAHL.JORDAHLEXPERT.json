@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://pohlcon.com/fileadmin/crossbase/SOF/PRO/SOF_PRO_JTA-JDA-EXPERT_%23SALL_%23AING.zip"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://pohlcon.com/fileadmin/crossbase/SOF/PRO/SOF_PRO_JTA-JDA-EXPERT_%23SALL_%23AING.zip",
+		"header": "last-modified"
+	},
+	"replace": true
 }
