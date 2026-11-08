@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://s3.multibasecs.de/releases/desktop/latest/MultiBaseCS-Professional-x64.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://s3.multibasecs.de/releases/desktop/latest/MultiBaseCS-Professional-x64.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
