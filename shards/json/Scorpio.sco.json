@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qingfeng346",
+		"repo": "Scorpio-CSharp"
+	},
+	"urls": [
+		"https://github.com/qingfeng346/Scorpio-CSharp/releases/download/v{version}/sco-{version}-win-x86.zip",
+		"https://github.com/qingfeng346/Scorpio-CSharp/releases/download/v{version}/sco-{version}-win-x64.zip",
+		"https://github.com/qingfeng346/Scorpio-CSharp/releases/download/v{version}/sco-{version}-win-arm.zip",
+		"https://github.com/qingfeng346/Scorpio-CSharp/releases/download/v{version}/sco-{version}-win-arm64.zip"
+	]
+}
