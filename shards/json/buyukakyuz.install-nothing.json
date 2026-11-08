@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "buyukakyuz",
+		"repo": "install-nothing"
+	},
+	"urls": [
+		"https://github.com/buyukakyuz/install-nothing/releases/download/{github.rawTag}/install-nothing-windows-x86_64.exe"
+	]
+}
