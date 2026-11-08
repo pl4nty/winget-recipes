@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://content.cfx.re/mirrors/client_download/RedM.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://content.cfx.re/mirrors/client_download/RedM.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
