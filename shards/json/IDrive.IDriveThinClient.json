@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://static.idriveonlinebackup.com/downloads/idrivethin/082925/IDriveWinSetup.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://static.idriveonlinebackup.com/downloads/idrivethin/073025/IDriveWinSetup.exe",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://static.idriveonlinebackup.com/downloads/idrivethin/082925/IDriveWinSetup.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
