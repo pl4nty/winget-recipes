@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://cdn.iobit.com/dl/IObit-Undelete.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.iobit.com/dl/IObit-Undelete.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
