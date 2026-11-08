@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "joyint",
+		"repo": "joy"
+	},
+	"urls": [
+		"https://github.com/joyint/joy/releases/download/{github.rawTag}/joy-cli-x86_64-pc-windows-msvc.zip"
+	]
+}

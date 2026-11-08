@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lazyshrey",
+		"repo": "melofy"
+	},
+	"urls": [
+		"https://github.com/lazyshrey/melofy/releases/download/{github.rawTag}/Melofy_x64-setup.exe"
+	]
+}
