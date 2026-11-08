@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://rinnovofirma.infocert.it/infocertsign/download/win32/latest"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://rinnovofirma.infocert.it/infocertsign/download/win32/latest",
+		"header": "etag"
+	},
+	"replace": true
 }
