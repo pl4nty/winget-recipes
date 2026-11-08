@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ovh",
+		"repo": "okms-cli"
+	},
+	"urls": [
+		"https://github.com/ovh/okms-cli/releases/download/v{version}/okms-cli-windows-x86_64.zip",
+		"https://github.com/ovh/okms-cli/releases/download/v{version}/okms-cli-windows-arm64.zip"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "yaml",
+	"yaml": {
+		"url": "https://eew.earthquake.tw/releases/win/x64/latest.yml",
+		"path": "version"
+	},
+	"urls": [
+		{
+			"url": "https://eew.earthquake.tw/releases/win/x64/{data.files.0.url}",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://eew.earthquake.tw/releases/win/ia32/{data.files.0.url|x64|ia32}",
+			"architecture": "x86"
+		}
+	]
+}
