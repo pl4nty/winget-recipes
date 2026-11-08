@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vulongvy",
+		"repo": "fixprinter"
+	},
+	"urls": [
+		"https://github.com/vulongvy/fixprinter/releases/download/v{version}/Fixprinter_Setup_v{version}.exe"
+	]
+}
