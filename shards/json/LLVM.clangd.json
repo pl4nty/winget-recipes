@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "clangd",
+		"repo": "clangd"
+	},
+	"urls": [
+		"https://github.com/clangd/clangd/releases/download/{github.rawTag}/clangd-windows-{version}.zip"
+	]
+}

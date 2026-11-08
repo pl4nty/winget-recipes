@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "molqzone", "repo": "pxlobster" },
+	"urls": ["https://github.com/molqzone/pxlobster/releases/download/v{version}/pxlobster-windows-x86_64.zip"]
+}
