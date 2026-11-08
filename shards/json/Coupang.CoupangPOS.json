@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://pos-api.coupang.com/api/v1/app/download/installer"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://pos-api.coupang.com/api/v1/app/download/installer",
+		"header": "content-disposition"
+	},
+	"replace": true
 }
