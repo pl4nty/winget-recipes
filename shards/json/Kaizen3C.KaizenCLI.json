@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kaizen-3C",
+		"repo": "kaizen-cli"
+	},
+	"urls": [
+		"https://github.com/Kaizen-3C/kaizen-cli/releases/download/{github.rawTag}/kaizen-windows-x64.exe"
+	]
+}

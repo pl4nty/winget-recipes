@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rushabhpasad",
+		"repo": "md-editor"
+	},
+	"urls": [
+		"https://github.com/rushabhpasad/md-editor/releases/download/v{version}/MD.Editor_{version}_x64_en-US.msi",
+		"https://github.com/rushabhpasad/md-editor/releases/download/v{version}/MD.Editor_{version}_x64-setup.exe"
+	]
+}
