@@ -22,7 +22,13 @@
 			"architecture": "x64"
 		}
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.coreftp.com/download/setupp.msi",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.coreftp.com/forums/viewtopic.php?t=4023051"
-	}
+	},
+	"replace": true
 }
