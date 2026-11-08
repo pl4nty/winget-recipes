@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://cdn.proma.cool/releases/win-x64/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/ErlichLiu/Proma/releases/tag/v{version}"
+	}
+}
