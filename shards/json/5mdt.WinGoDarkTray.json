@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "5mdt",
+		"repo": "WinGoDarkTray"
+	},
+	"urls": [
+		"https://github.com/5mdt/WinGoDarkTray/releases/download/{github.rawTag}/WinGoDarkTray-x32.exe",
+		"https://github.com/5mdt/WinGoDarkTray/releases/download/{github.rawTag}/WinGoDarkTray-x64.exe",
+		"https://github.com/5mdt/WinGoDarkTray/releases/download/{github.rawTag}/WinGoDarkTray-arm64.exe"
+	]
+}

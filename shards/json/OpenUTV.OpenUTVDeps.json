@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OpenUTV",
+		"repo": "utv-dependencies"
+	},
+	"urls": [
+		"https://github.com/OpenUTV/utv-dependencies/releases/download/{github.rawTag}/OpenUTVDeps-{version}-win64.msi"
+	]
+}

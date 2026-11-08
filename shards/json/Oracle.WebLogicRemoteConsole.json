@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oracle",
+		"repo": "weblogic-remote-console"
+	},
+	"urls": [
+		"https://github.com/oracle/weblogic-remote-console/releases/download/v{version}/WebLogic-Remote-Console-{version}-win.exe"
+	]
+}
