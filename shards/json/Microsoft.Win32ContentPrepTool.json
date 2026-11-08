@@ -1,10 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "Microsoft-Win32-Content-Prep-Tool"
 	},
-	"urls": [
-		"https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool/archive/refs/tags/v1.8.7.zip"
-	]
+	"urls": ["https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool/archive/refs/tags/{github.rawTag}.zip"]
 }
