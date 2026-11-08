@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "doanduc",
+		"repo": "multi-screen-recorder"
+	},
+	"urls": [
+		"https://github.com/doanduc/multi-screen-recorder/releases/download/{github.rawTag}/Multi.Screen.Recorder_{version}_x64-setup.exe"
+	]
+}
