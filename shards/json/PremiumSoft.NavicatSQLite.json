@@ -3,7 +3,7 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://www.navicat.com/products/navicat-for-sqlite-release-note",
-		"regex": "Navicat for SQLite \\(Windows\\) version (?<version>(?<major>17)\\.\\d+\\.\\d+)<"
+		"regex": "Navicat for SQLite \\(Windows\\) version (?<version>(?<major>\\d+)\\.\\d+\\.\\d+)<"
 	},
 	"urls": [
 		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_es_x64.exe",
