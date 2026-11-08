@@ -8,7 +8,7 @@
 		"owner": "DonutWare",
 		"repo": "Fladder",
 		"method": "api-list",
-		"kind": "all",
+		"kind": "prerelease",
 		"assetRegex": "^(?:Fladder\\-Windows\\-\\d+\\.\\d+\\.\\d+\\-nightly\\-Setup\\.exe)$"
 	}
 }
