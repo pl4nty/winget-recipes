@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cmi.ch/lo/dateien/easy/lo_desktop_windows.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cmi.ch/lo/dateien/easy/lo_desktop_windows.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
