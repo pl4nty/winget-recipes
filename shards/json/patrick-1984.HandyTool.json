@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/patrick-1984/handy-tool/releases/latest/download/latest.json"
+	},
+	"releaseNotes": { "source": "github", "owner": "patrick-1984", "repo": "handy-tool", "tag": "v{version}" }
+}
