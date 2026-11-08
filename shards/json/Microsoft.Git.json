@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "git"
+	},
+	"urls": [
+		"https://github.com/microsoft/git/releases/download/{github.rawTag}/Git-{version}-64-bit.exe",
+		"https://github.com/microsoft/git/releases/download/{github.rawTag}/Git-{version}-arm64.exe"
+	],
+	"version": {
+		"source": "product"
+	}
+}
