@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Linus-Shyu",
+		"repo": "StarFetch_Core"
+	},
+	"urls": [
+		"https://github.com/Linus-Shyu/StarFetch_Core/releases/download/{github.rawTag}/starfetch-x86_64-pc-windows-msvc.zip"
+	]
+}
