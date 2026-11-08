@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "memstechtips",
+		"repo": "Winhance"
+	},
+	"urls": [
+		"https://github.com/memstechtips/Winhance/releases/download/v{version}/Winhance.Installer.exe",
+		"https://github.com/memstechtips/Winhance/releases/download/v{version}/Winhance.Installer.exe"
+	]
+}

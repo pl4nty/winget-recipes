@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AurelioAvila",
+		"repo": "pc-tweaker-app"
+	},
+	"urls": [
+		"https://github.com/AurelioAvila/pc-tweaker-app/releases/download/{github.rawTag}/pc-tweaker-app_{version}_x64-setup.exe",
+		"https://github.com/AurelioAvila/pc-tweaker-app/releases/download/{github.rawTag}/pc-tweaker-app_{version}_x64_en-US.msi"
+	]
+}

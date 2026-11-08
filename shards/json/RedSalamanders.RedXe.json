@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RedSalamanders",
+		"repo": "RedXe"
+	},
+	"urls": [
+		"https://github.com/RedSalamanders/RedXe/releases/download/v{version}/RedXe-{version}-x64-Portable.zip",
+		"https://github.com/RedSalamanders/RedXe/releases/download/v{version}/RedXe-{version}-ARM64-Portable.zip"
+	]
+}
