@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ridocompany",
+		"repo": "ridoguard-releases"
+	},
+	"urls": [
+		"https://github.com/Ridocompany/ridoguard-releases/releases/download/v{version}/RidoGuard-Setup-{version}.exe",
+		"https://github.com/Ridocompany/ridoguard-releases/releases/download/v{version}/RidoGuard-Portable-{version}.zip"
+	]
+}

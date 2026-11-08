@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FAI-Solutions",
+		"repo": "move-window-between-desktops"
+	},
+	"urls": [
+		"https://github.com/FAI-Solutions/move-window-between-desktops/releases/download/{github.rawTag}/move-window-between-desktops-setup.exe"
+	]
+}

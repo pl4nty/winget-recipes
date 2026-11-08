@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Oryan-Hassidim",
+		"repo": "BingWallpaperDesktop"
+	},
+	"urls": ["https://github.com/Oryan-Hassidim/BingWallpaperDesktop/releases/download/v{version}/BingWallpaperDesktop.exe"]
+}
