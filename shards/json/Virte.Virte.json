@@ -3,5 +3,11 @@
 	"strategy": "electron-builder",
 	"electronBuilder": {
 		"url": "https://virte.app/downloads/desktop/latest.yml"
-	}
+	},
+	"urls": [
+		{
+			"url": "https://virte.app/downloads/desktop/Virte-Setup-{version}.exe",
+			"architecture": "x64"
+		}
+	]
 }
