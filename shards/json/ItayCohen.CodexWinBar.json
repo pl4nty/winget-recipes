@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ItayCohen-Prog",
+		"repo": "CodexWinBar"
+	},
+	"urls": [
+		"https://github.com/ItayCohen-Prog/CodexWinBar/releases/download/{github.rawTag}/CodexWinBar-win-Setup.exe"
+	]
+}

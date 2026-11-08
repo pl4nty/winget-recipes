@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Yortw",
+		"repo": "winix"
+	},
+	"urls": [
+		"https://github.com/Yortw/winix/releases/download/v{version}/files-win-x64.zip"
+	]
+}
