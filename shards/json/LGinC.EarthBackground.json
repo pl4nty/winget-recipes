@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LGinC",
+		"repo": "EarthBackground"
+	},
+	"urls": [
+		"https://github.com/LGinC/EarthBackground/releases/download/{github.rawTag}/EarthBackground-v{version}-win-x64.zip"
+	]
+}

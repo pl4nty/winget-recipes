@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FelixdelasPozas",
+		"repo": "TrayWeather"
+	},
+	"urls": [
+		"https://github.com/FelixdelasPozas/TrayWeather/releases/download/{github.rawTag}/TrayWeather_v{version}_Setup.exe"
+	]
+}
