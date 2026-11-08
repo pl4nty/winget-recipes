@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://downloads.videosoftdev.com/video_tools/video_editor_x64.exe"],
+	"releaseNotes": { "releaseNotesUrl": "https://www.videosoftdev.com/news" },
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.videosoftdev.com/video_tools/video_editor_x64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
