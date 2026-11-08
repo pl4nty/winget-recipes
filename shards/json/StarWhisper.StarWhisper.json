@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://starwhisper.ai/downloads/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://starwhisper.ai/changelog"
+	}
+}

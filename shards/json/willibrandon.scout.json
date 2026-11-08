@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "willibrandon", "repo": "scout" },
+	"urls": [
+		"https://github.com/willibrandon/scout/releases/download/v{version}/scout-win-x64.msi",
+		"https://github.com/willibrandon/scout/releases/download/v{version}/scout-win-arm64.msi"
+	]
+}

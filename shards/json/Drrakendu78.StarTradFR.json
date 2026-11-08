@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "drrakendu78",
+		"repo": "TradSC"
+	},
+	"urls": [
+		"https://github.com/drrakendu78/TradSC/releases/download/{github.rawTag}/StarTrad.FR_{version}_x64-setup.exe"
+	]
+}
