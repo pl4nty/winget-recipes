@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Moonfin-Client",
+		"repo": "Moonfin-Core"
+	},
+	"urls": [
+		"https://github.com/Moonfin-Client/Moonfin-Core/releases/download/{version}/Moonfin_Windows_v{version}.exe",
+		"https://github.com/Moonfin-Client/Moonfin-Core/releases/download/{version}/Moonfin_WindowsARM64_v{version}.exe"
+	]
+}
