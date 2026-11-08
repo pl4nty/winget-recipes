@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://gbl.his.arc.azure.com/azcmagent/latest/AzureConnectedMachineAgent.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://gbl.his.arc.azure.com/azcmagent/latest/AzureConnectedMachineAgent.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
