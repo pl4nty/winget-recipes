@@ -1,8 +1,3 @@
-import { defineShard } from 'anthelion';
+import { adinstrumentsApp } from '../lib/ADInstruments.ts';
 
-import { adinstrumentsApp, labChartApps } from '../lib/ADInstruments.ts';
-
-export default defineShard(async () => {
-	const app = await adinstrumentsApp(labChartApps, 'TrignoWirelessSystem');
-	return { version: { source: 'display' }, urls: () => [new URL(app.DownloadURL!, 'https://cdn.adinstruments.com/').href] };
-});
+export default adinstrumentsApp('TrignoWirelessSystem');
