@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "0GMou", "repo": "mpv2winget" },
+	"urls": [
+		"https://github.com/0GMou/mpv2winget/releases/download/v{version}/mpv_installer_x64.exe"
+	]
+}
