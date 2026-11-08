@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "megamega39", "repo": "karikari" },
+	"urls": ["https://github.com/megamega39/karikari/releases/download/v{version}/karikari-{version}-setup.exe"]
+}
