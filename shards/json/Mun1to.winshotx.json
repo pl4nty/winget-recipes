@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mun1to",
+		"repo": "winshotx"
+	},
+	"urls": ["https://github.com/Mun1to/winshotx/releases/download/v{version}/winshotx_{version}_x64-setup.exe"]
+}
