@@ -104,6 +104,8 @@ for (const { number, title, labels } of prs.values()) {
 			findings.push(['validation VM problem', 'validation pipeline internal error']);
 		else if (body.includes('Template: msftbot/validationError/manifest'))
 			findings.push(['needs fix', body.match(/Template: (\S+)/)![1]!]);
+		// Tom: metadata consistency findings are usually fine.
+		else if (body.includes('Inconsistencies detected in package')) continue;
 		else if (user.login.startsWith('wingetvalidator'))
 			findings.push(['manual review', body.split('\n').filter(Boolean).join(' ')]);
 		else if (user.type === 'User' && user.login !== author && !/\(Deterministic automation|^@wingetbot run/.test(body))
