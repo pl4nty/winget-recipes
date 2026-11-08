@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "martona",
+		"repo": "gig"
+	},
+	"urls": [
+		"https://github.com/martona/gig/releases/download/{github.rawTag}/gig-windows-amd64.msix",
+		"https://github.com/martona/gig/releases/download/{github.rawTag}/gig-windows-arm64.msix"
+	]
+}
