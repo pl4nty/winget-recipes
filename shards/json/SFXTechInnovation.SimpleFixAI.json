@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://updates.simplefixai.com/latest.json"
+	},
+	"urls": ["https://updates.simplefixai.com/SimpleFixAI_{version}_x64-setup.exe"]
+}

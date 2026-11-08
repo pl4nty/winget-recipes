@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wanghongyu666qiang",
+		"repo": "AskBridge"
+	},
+	"urls": [
+		"https://github.com/wanghongyu666qiang/AskBridge/releases/download/v{version}/AskBridge-{version}-windows-x64.zip"
+	]
+}
