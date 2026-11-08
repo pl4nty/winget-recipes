@@ -6,14 +6,7 @@
 		"regex": "<b>Switch Off (?<version>\\d+(?:\\.\\d+)+)</b>[\\s\\S]*?<a href=\"(?<path>/files/[^\"]+\\.exe)\""
 	},
 	"urls": [
-		{
-			"url": "https://www.airytec.com{captures.path}",
-			"architecture": "x64"
-		},
-		{
-			"url": "https://www.airytec.com{captures.path}",
-			"architecture": "x86"
-		}
+		"https://www.airytec.com{captures.path}"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.airytec.com/switch-off/history.aspx"
