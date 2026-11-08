@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "7gxycn08",
+		"repo": "PyAutoActions"
+	},
+	"urls": [
+		"https://github.com/7gxycn08/PyAutoActions/releases/download/{github.rawTag}/PyAutoActions-win64-setup.exe"
+	]
+}

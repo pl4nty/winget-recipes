@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "qwerprog", "repo": "bili-tools" },
+	"urls": [
+		"https://github.com/qwerprog/bili-tools/releases/download/v{version}/bt-x86_64-windows.zip",
+		"https://github.com/qwerprog/bili-tools/releases/download/v{version}/bt-arm64-windows.zip"
+	]
+}
