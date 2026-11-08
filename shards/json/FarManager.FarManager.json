@@ -1,21 +1,14 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.farmanager.com/download.php",
+		"regex": "files/Far30b(?<version>\\d+)\\.x64\\.(?<date>\\d+)\\.msi"
 	},
+	"version": "3.0.{version}",
 	"urls": [
-		{
-			"url": "https://www.farmanager.com/files/Far30b6699.x64.20260614.msi",
-			"architecture": "x64"
-		},
-		{
-			"url": "https://www.farmanager.com/files/Far30b6699.x86.20260614.msi",
-			"architecture": "x86"
-		},
-		{
-			"url": "https://www.farmanager.com/files/Far30b6699.ARM64.20260614.msi",
-			"architecture": "arm64"
-		}
+		{ "url": "https://www.farmanager.com/files/Far30b{version}.x64.{captures.date}.msi", "architecture": "x64" },
+		{ "url": "https://www.farmanager.com/files/Far30b{version}.x86.{captures.date}.msi", "architecture": "x86" },
+		{ "url": "https://www.farmanager.com/files/Far30b{version}.ARM64.{captures.date}.msi", "architecture": "arm64" }
 	]
 }
