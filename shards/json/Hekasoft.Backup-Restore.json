@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://hekasoft.com/download/download-hekasoft-backup-restore/?wpdmdl=1261&masterkey=XdB0Cktf-b2svT1kEhkYkdrQPi9_ffCYWgrODRykQfWI9SCIA_hzuy1a0YY4AvrCrwHCZCFpmECAxihh1kbyQWQdrsQpgShbdCvJB5BZ4SY"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://hekasoft.com/download/download-hekasoft-backup-restore/?wpdmdl=1261&masterkey=XdB0Cktf-b2svT1kEhkYkdrQPi9_ffCYWgrODRykQfWI9SCIA_hzuy1a0YY4AvrCrwHCZCFpmECAxihh1kbyQWQdrsQpgShbdCvJB5BZ4SY",
+		"header": "content-disposition"
+	},
+	"replace": true
 }
