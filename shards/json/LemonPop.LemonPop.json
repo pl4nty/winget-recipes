@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://lemonpop.es/descargas/lemonpop-setup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://lemonpop.es/descargas/lemonpop-setup.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
