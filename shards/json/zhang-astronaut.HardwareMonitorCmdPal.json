@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "zhang-astronaut", "repo": "HardwareMonitorCmdPal" },
+	"urls": [
+		"https://github.com/zhang-astronaut/HardwareMonitorCmdPal/releases/download/v{version}/HardwareMonitorExtension-Setup-{version}-x64.exe"
+	]
+}

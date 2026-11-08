@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BlazekWasTaken",
+		"repo": "timesheet-tray-net"
+	},
+	"urls": [
+		"https://github.com/BlazekWasTaken/timesheet-tray-net/releases/download/{github.rawTag}/timesheet-tray-net.msi"
+	]
+}
