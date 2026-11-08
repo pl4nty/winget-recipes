@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "stepmania", "repo": "stepmania" },
+	"urls": ["https://github.com/stepmania/stepmania/releases/download/v{version}/StepMania-{version}-win32.exe"]
+}

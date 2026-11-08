@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Roman-Cuisset",
+		"repo": "octet-ledger"
+	},
+	"urls": [
+		"https://github.com/Roman-Cuisset/octet-ledger/releases/download/v{version}/OctetLedger-{version}-win-x64.zip",
+		"https://github.com/Roman-Cuisset/octet-ledger/releases/download/v{version}/OctetLedger-{version}-win-arm64.zip"
+	]
+}

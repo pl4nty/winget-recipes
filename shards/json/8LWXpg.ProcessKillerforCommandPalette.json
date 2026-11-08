@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "8LWXpg",
+		"repo": "CmdPal-ProcessKiller"
+	},
+	"urls": [
+		"https://github.com/8LWXpg/CmdPal-ProcessKiller/releases/download/{github.rawTag}/8LWXpg.ProcessKillerforCommandPalette_{version}.0.Msixbundle"
+	]
+}
