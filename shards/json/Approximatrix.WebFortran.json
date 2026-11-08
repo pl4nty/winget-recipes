@@ -6,7 +6,7 @@
 		"regex": "WebFortran-CLI-Windows-x86-(?<version>\\d+\\.\\d+\\.\\d+)-(?<build>\\d+)\\.msix"
 	},
 	"version": "{version}.0",
-	"urls": ["https://download.simplyfortran.com/webfortran/WebFortran-CLI-Windows-x86-{captures.version}-{captures.build}.msix"],
+	"urls": ["https://download.simplyfortran.com/webfortran/WebFortran-CLI-Windows-x86-{version}-{captures.build}.msix"],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://web.simplyfortran.com/cli/download"
 	}
