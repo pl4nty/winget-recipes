@@ -37,7 +37,13 @@ async function dumplings() {
 				...Object.values(config.WinGetIdentifierModules ?? {}),
 			].filter(Boolean),
 		);
+		// Mozilla tasks also submit <Id>.<locale> for each entry of $Locales ('multi' is <Id>.MSIX).
+		const locales = /^\$Locales = @\(([^)]*)\)/m.exec(script)?.[1];
+		if (locales && script.includes('"${WinGetIdentifierPrefix}.${Locale}"'))
+			for (const [, locale] of locales.matchAll(/'([^']+)'/g))
+				if (locale !== 'en-US') ids.push(`${config.WinGetIdentifier}.${locale === 'multi' ? 'MSIX' : locale}`);
 	}
+	ids.push('BtbN.FFmpeg.*');
 	return ids;
 }
 
@@ -70,7 +76,20 @@ async function b0t() {
 	return ids;
 }
 
+// A winget-pkgs .package file reserves its folder for its owners, so `<folder Id>.*` covers the folder Id too.
+async function owners() {
+	const dir = await checkout('microsoft/winget-pkgs', ['/manifests/**/.package']);
+	const ids: Record<string, string[]> = {};
+	for (const path of await files(dir, 'manifests/**/.package')) {
+		const id = dirname(path).split('/').slice(2).join('.');
+		for (const { login } of JSON.parse(await readFile(join(dir, path), 'utf8')).owners)
+			(ids[login] ??= []).push(`${id}.*`);
+	}
+	return ids;
+}
+
 const bots = {
+	...Object.fromEntries(Object.entries(await owners()).map(([login, ids]) => [login, async () => ids])),
 	spectopo: dumplings,
 	UnownBot: anthelion,
 	'damn-good-b0t': b0t,
