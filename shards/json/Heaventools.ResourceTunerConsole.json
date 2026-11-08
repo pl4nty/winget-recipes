@@ -13,5 +13,11 @@
 			"url": "https://www.heaventools.com/files/iM6JweUe7IBKC/ResTunerConsole_setup.exe",
 			"architecture": "x64"
 		}
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.heaventools.com/files/iM6JweUe7IBKC/ResTunerConsole_setup.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
