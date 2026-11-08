@@ -7,7 +7,13 @@
 	"urls": [
 		"https://www.easyuefi.com/backup-software/downloads/Hasleo_Backup_Suite_Free.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.easyuefi.com/backup-software/downloads/Hasleo_Backup_Suite_Free.exe",
+		"header": "last-modified"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.easyuefi.com/backup-software/tech-spec.html"
-	}
+	},
+	"replace": true
 }
