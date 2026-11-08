@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.rutoken.ru/Rutoken/Drivers/Current/rtDrivers.x64.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.rutoken.ru/Rutoken/Drivers/Current/rtDrivers.x64.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
