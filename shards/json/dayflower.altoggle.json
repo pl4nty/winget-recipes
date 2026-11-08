@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dayflower",
+		"repo": "altoggle"
+	},
+	"urls": [
+		"https://github.com/dayflower/altoggle/releases/download/{github.rawTag}/altoggle.exe"
+	]
+}
