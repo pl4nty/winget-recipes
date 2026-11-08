@@ -7,6 +7,6 @@
 	},
 	"versionRemove": "V",
 	"urls": [
-		"https://github.com/Cognirush-Labs-LLP/icompress-win/releases/download/{github.rawTag}/MassImageCompressorInstallerV4_2_2.exe"
+		"https://github.com/Cognirush-Labs-LLP/icompress-win/releases/download/{github.rawTag}/MassImageCompressorInstaller{github.rawTag|.|_}.exe"
 	]
 }

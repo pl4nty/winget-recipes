@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": [
+		{
+			"url": "https://setup.rbxcdn.com/RobloxStudioInstaller.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://setup.rbxcdn.com/RobloxStudioInstaller.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
