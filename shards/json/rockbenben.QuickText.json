@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rockbenben",
+		"repo": "QuickText"
+	},
+	"urls": ["https://github.com/rockbenben/QuickText/releases/download/v{version}/QuickText-v{version}-win-x64.zip"]
+}

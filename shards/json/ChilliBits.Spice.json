@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "spicelang",
+		"repo": "spice"
+	},
+	"urls": [
+		"https://github.com/spicelang/spice/releases/download/{github.rawTag}/spice_x64_setup.msi"
+	]
+}
