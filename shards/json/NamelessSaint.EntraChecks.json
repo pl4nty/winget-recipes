@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NamelessSaint8",
+		"repo": "AzurePAM"
+	},
+	"urls": [
+		"https://github.com/NamelessSaint8/AzurePAM/releases/download/v{version}/EntraChecks_{version}_x64-setup.exe"
+	]
+}

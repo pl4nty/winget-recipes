@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "louiss0", "repo": "go-toolkit" },
+	"urls": [
+		"https://github.com/louiss0/go-toolkit/releases/download/v{version}/go-toolkit_{version}_windows_arm64.zip",
+		"https://github.com/louiss0/go-toolkit/releases/download/v{version}/go-toolkit_{version}_windows_amd64.zip"
+	]
+}

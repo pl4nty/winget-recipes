@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CatBraaain",
+		"repo": "wintasks"
+	},
+	"urls": [
+		"https://github.com/CatBraaain/wintasks/releases/download/{github.rawTag}/wintasks.exe"
+	]
+}
