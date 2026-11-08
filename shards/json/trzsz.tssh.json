@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "trzsz",
+		"repo": "trzsz-ssh"
+	},
+	"urls": [
+		"https://github.com/trzsz/trzsz-ssh/releases/download/v{version}/tssh_{version}_windows_x86_64.zip",
+		"https://github.com/trzsz/trzsz-ssh/releases/download/v{version}/tssh_{version}_windows_aarch64.zip",
+		"https://github.com/trzsz/trzsz-ssh/releases/download/v{version}/tssh_{version}_windows_i386.zip"
+	]
+}
