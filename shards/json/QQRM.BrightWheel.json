@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "qqrm", "repo": "brightwheel" },
+	"urls": ["https://github.com/qqrm/brightwheel/releases/download/v{version}/brightwheel.exe"]
+}

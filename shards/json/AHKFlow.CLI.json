@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "s205109",
+		"repo": "AHKFlowApp"
+	},
+	"urls": [
+		"https://github.com/s205109/AHKFlowApp/releases/download/{github.rawTag}/ahkflow-win-x64.zip"
+	]
+}
