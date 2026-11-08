@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "haxllo",
+		"repo": "partboot"
+	},
+	"urls": [
+		"https://github.com/haxllo/partboot/releases/download/{github.rawTag}/partboot.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://www.tubedigger.com/TubeDigger_Install.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.tubedigger.com/TubeDigger_Install.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

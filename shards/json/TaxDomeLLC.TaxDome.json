@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [{ "url": "https://taxdome-public.s3.amazonaws.com/Windows+App/TaxDome_Setup.exe", "architecture": "x64" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://taxdome-public.s3.amazonaws.com/Windows+App/TaxDome_Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
