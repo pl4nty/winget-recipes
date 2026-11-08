@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"version": {
+		"source": "display"
+	},
+	"msDownloadCenter": {
+		"id": 52210,
+		"regex": "^(?:SurfaceHub_Recovery_v\\d+\\.\\d+\\.\\d+\\.\\d+\\.msi)$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://learn.microsoft.com/en-us/surface-hub/surface-hub-recovery-tool#version-history"
+	}
+}
