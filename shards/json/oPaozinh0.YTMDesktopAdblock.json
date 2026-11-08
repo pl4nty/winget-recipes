@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "oPaozinh0", "repo": "ytmdesktop" },
+	"urls": [
+		"https://github.com/oPaozinh0/ytmdesktop/releases/download/v{version}/YTMDesktop-Adblock-{version}-Setup.exe"
+	]
+}

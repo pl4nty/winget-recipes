@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Neurogis44",
+		"repo": "aurora-mises-a-jour"
+	},
+	"urls": ["https://github.com/Neurogis44/aurora-mises-a-jour/releases/download/v{version}/Aurora-Setup-{version}-winget.exe"]
+}

@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mulaRahul", "repo": "keyviz" },
+	"urls": ["https://github.com/mulaRahul/keyviz/releases/download/v{version}/keyviz_{version}_windows.msi"]
+}
