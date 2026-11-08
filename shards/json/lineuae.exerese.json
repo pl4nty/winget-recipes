@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lineuae",
+		"repo": "exerese"
+	},
+	"urls": [
+		"https://github.com/lineuae/exerese/releases/download/{github.rawTag}/exerese_{version}_x64-setup.exe"
+	]
+}
