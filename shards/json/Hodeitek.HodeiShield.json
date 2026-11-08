@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Hodeitek",
+		"repo": "hodeishield-cli"
+	},
+	"urls": [
+		"https://github.com/Hodeitek/hodeishield-cli/releases/download/{github.rawTag}/hodeishield-{version}-x86_64-pc-windows-msvc.msi"
+	]
+}

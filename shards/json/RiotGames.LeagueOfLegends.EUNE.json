@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.eune.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.eune.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
+	},
+	"replace": true
+}

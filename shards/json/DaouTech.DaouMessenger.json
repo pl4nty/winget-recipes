@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://storage.googleapis.com/prod-portal-update-center-repo?prefix=4.&delimiter=/",
+		"regex": "<Prefix>(\\d+(?:\\.\\d+)+)/</Prefix>"
+	},
+	"urls": ["https://storage.googleapis.com/prod-portal-update-center-repo/{version}/DaouMessenger%204.0%20Setup%20{version}.exe"]
+}

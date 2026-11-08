@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fredemmott",
+		"repo": "HTCC"
+	},
+	"urls": [
+		"https://github.com/fredemmott/HTCC/releases/download/{github.rawTag}/HTCC-v{version}.msi"
+	]
+}
