@@ -9,6 +9,7 @@
 		"repo": "winsw",
 		"method": "api-list",
 		"kind": "all",
+		"tagRegex": "^v?(?=3\\.)",
 		"assetRegex": "^(?:WinSW\\-net\\d+\\.exe)$"
 	}
 }
