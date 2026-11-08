@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "open-cli-collective",
+		"repo": "Retune"
+	},
+	"urls": [
+		"https://github.com/open-cli-collective/Retune/releases/download/v{version}/Retune-{version}-windows-x64-setup.exe",
+		"https://github.com/open-cli-collective/Retune/releases/download/v{version}/Retune-{version}-windows-arm64-setup.exe"
+	]
+}
