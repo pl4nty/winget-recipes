@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "deliro",
+		"repo": "mt"
+	},
+	"urls": [
+		"https://github.com/deliro/mt/releases/download/{github.rawTag}/mt-x86_64-pc-windows-msvc.exe"
+	]
+}
