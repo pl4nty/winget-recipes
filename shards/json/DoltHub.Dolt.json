@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dolthub",
+		"repo": "dolt"
+	},
+	"urls": [
+		"https://github.com/dolthub/dolt/releases/download/{github.rawTag}/dolt-windows-amd64.msi"
+	]
+}

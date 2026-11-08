@@ -1,0 +1,49 @@
+name: Ready PRs
+
+on:
+  workflow_dispatch:
+    inputs:
+      prs:
+        description: Space-separated PR numbers to mark ready for review
+        required: true
+
+permissions: {}
+
+defaults:
+  run:
+    shell: bash -euo pipefail {0}
+
+jobs:
+  ready-prs:
+    name: Ready PRs
+    runs-on: ubuntu-26.04-arm
+    timeout-minutes: 180
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Mark Ready
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OWNER: ${{ github.repository_owner }}
+          NAME: ${{ github.event.repository.name }}
+          PRS: ${{ inputs.prs }}
+        run: |
+          gh api graphql --paginate -F owner="$OWNER" -F name="$NAME" -f query='
+            query($owner: String!, $name: String!, $endCursor: String) {
+              repository(owner: $owner, name: $name) {
+                pullRequests(states: OPEN, first: 100, after: $endCursor) {
+                  nodes { number id isDraft }
+                  pageInfo { hasNextPage endCursor }
+                }
+              }
+            }' --jq '.data.repository.pullRequests.nodes[] | select(.isDraft) | "\(.number) \(.id)"' > drafts.txt
+          for n in $PRS; do
+            id=$(awk -v n="$n" '$1 == n { print $2 }' drafts.txt)
+            [ -n "$id" ] || continue
+            gh api graphql -F id="$id" -f query='
+              mutation($id: ID!) {
+                markPullRequestReadyForReview(input: { pullRequestId: $id }) { clientMutationId }
+              }' > /dev/null || echo "::warning::#$n failed"
+            sleep 7
+          done

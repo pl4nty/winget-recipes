@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WiiLink24",
+		"repo": "WiiLink-Patcher-GUI"
+	},
+	"urls": ["https://github.com/WiiLink24/WiiLink-Patcher-GUI/releases/download/v{version}/WiiLinkPatcherGUI-Windows-onefile-x64.exe"]
+}
