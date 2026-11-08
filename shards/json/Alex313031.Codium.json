@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Alex313031",
+		"repo": "codium"
+	},
+	"urls": [
+		"https://github.com/Alex313031/codium/releases/download/{github.rawTag}/Codium_Setup_{version}_win32.exe",
+		"https://github.com/Alex313031/codium/releases/download/{github.rawTag}/Codium_Setup_{version}_win64.exe",
+		"https://github.com/Alex313031/codium/releases/download/{github.rawTag}/Codium_User_Setup_{version}_win32.exe",
+		"https://github.com/Alex313031/codium/releases/download/{github.rawTag}/Codium_User_Setup_{version}_win64.exe",
+		"https://github.com/Alex313031/codium/releases/download/{github.rawTag}/Codium_win32_{version}.zip",
+		"https://github.com/Alex313031/codium/releases/download/{github.rawTag}/Codium_win64_{version}.zip"
+	]
+}
