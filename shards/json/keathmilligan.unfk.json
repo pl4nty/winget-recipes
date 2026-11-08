@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "keathmilligan",
+		"repo": "unfk"
+	},
+	"urls": [
+		"https://github.com/keathmilligan/unfk/releases/download/{github.rawTag}/unfk-{version}-aarch64-pc-windows-msvc.zip",
+		"https://github.com/keathmilligan/unfk/releases/download/{github.rawTag}/unfk-{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/keathmilligan/unfk/releases/download/{github.rawTag}/unfk-{version}-x86_64.msi"
+	]
+}
