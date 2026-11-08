@@ -7,7 +7,13 @@
 	"urls": [
 		"https://www.harddisksentinel.com/hdsentinel_setup.zip"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.harddisksentinel.com/hdsentinel_setup.zip",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.hdsentinel.com/revision.php"
-	}
+	},
+	"replace": true
 }
