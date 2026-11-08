@@ -5,7 +5,6 @@
 		"owner": "RobRich999",
 		"repo": "Chromium_Clang",
 		"method": "api-list",
-		"kind": "all",
 		"perPage": 100,
 		"tagRegex": "-r\\d+-win64-avx2$"
 	},
