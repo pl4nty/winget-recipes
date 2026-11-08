@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Dygmalab",
+		"repo": "Bazecor"
+	},
+	"urls": [
+		"https://github.com/Dygmalab/Bazecor/releases/download/{github.rawTag}/Bazecor-{version}-Setup.exe"
+	]
+}
