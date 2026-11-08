@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://download.genea.ca/opentranscribe/latest.json"
+	},
+	"urls": [
+		{
+			"url": "https://download.genea.ca/opentranscribe/OpenTranscribe_{version}_x64-setup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://download.genea.ca/opentranscribe/OpenTranscribe_{version}_arm64-setup.exe",
+			"architecture": "arm64"
+		}
+	]
+}

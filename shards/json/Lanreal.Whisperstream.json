@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://releases.whisperstream.io/latest.json"
+	},
+	"urls": [
+		"https://releases.whisperstream.io/Whisperstream_{version}_x64-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://whisperstream.io/changelog"
+	}
+}
