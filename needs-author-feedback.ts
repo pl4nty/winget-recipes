@@ -94,6 +94,7 @@ for (const { number, title, labels } of prs.values()) {
 			}
 		}
 	}
+	const reviews: [verdict: string, detail: string][] = [];
 	for (const { user, body } of comments) {
 		if (body.includes('Template: msftbot/highestVersionRemoval'))
 			findings.push(['needs removal reason', 'removes the highest version; moderators want the reason']);
@@ -106,7 +107,13 @@ for (const { number, title, labels } of prs.values()) {
 		else if (user.login.startsWith('wingetvalidator'))
 			findings.push(['manual review', body.split('\n').filter(Boolean).join(' ')]);
 		else if (user.type === 'User' && user.login !== author && !/\(Deterministic automation|^@wingetbot run/.test(body))
-			findings.push(['needs fix', `${user.login}: ${body.split('\n').find(Boolean)}`]);
+			reviews.push(['needs fix', `${user.login}: ${body.split('\n').find(Boolean)}`]);
+	}
+	findings.push(...reviews);
+	// Tom: Manifest-Metadata-Consistency alone is usually fine, so only a reviewer's comment needs us there.
+	if (!labels.some(({ name }) => name === 'Needs-Author-Feedback')) {
+		if (!reviews.length) continue;
+		findings.splice(0, findings.length, ...reviews);
 	}
 	if (!findings.length) findings.push(['needs fix', `no failure in ${zips ? 'results' : 'comments'}${comments.length ? '' : ', comments unreadable'}`]);
 
