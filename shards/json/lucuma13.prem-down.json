@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lucuma13",
+		"repo": "prem-down"
+	},
+	"urls": [
+		"https://github.com/lucuma13/prem-down/releases/download/{github.rawTag}/prem-down_installer_windows.msi"
+	]
+}

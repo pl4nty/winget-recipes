@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ahadulla",
+		"repo": "yoz"
+	},
+	"urls": [
+		"https://github.com/ahadulla/yoz/releases/download/{github.rawTag}/yoz-{version}-x86_64.msi"
+	]
+}

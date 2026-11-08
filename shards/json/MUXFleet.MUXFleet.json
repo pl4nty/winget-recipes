@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sandeberger",
+		"repo": "MUXFleet-releases"
+	},
+	"urls": [
+		"https://github.com/sandeberger/MUXFleet-releases/releases/download/v{version}/MUXFleet-{version}-x64.zip"
+	]
+}
