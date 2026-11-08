@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "arduino",
+		"repo": "arduino-cli"
+	},
+	"urls": [
+		"https://github.com/arduino/arduino-cli/releases/download/{github.rawTag}/arduino-cli_{version}_Windows_64bit.msi"
+	]
+}

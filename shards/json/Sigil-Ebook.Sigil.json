@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Sigil-Ebook",
+		"repo": "Sigil"
+	},
+	"urls": [
+		"https://github.com/Sigil-Ebook/Sigil/releases/download/{version}/Sigil-{version}-Windows-x64-Setup.exe"
+	]
+}
