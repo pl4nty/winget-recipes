@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mdzip-project", "repo": "mdzip-cli" },
+	"urls": [
+		"https://github.com/mdzip-project/mdzip-cli/releases/download/{github.rawTag}/mdz-{github.rawTag}-win-x64.zip",
+		"https://github.com/mdzip-project/mdzip-cli/releases/download/{github.rawTag}/mdz-{github.rawTag}-win-arm64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "3667808244",
+		"repo": "EazyMake"
+	},
+	"urls": [
+		"https://github.com/3667808244/EazyMake/releases/download/{github.rawTag}/ezmk-windows-x64.zip"
+	]
+}

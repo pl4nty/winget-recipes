@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "MoaidHathot", "repo": "Shubbak" },
+	"urls": [
+		"https://github.com/MoaidHathot/Shubbak/releases/download/{github.rawTag}/shubbak-{version}-win-x64.msi",
+		"https://github.com/MoaidHathot/Shubbak/releases/download/{github.rawTag}/shubbak-{version}-win-x64.zip",
+		"https://github.com/MoaidHathot/Shubbak/releases/download/{github.rawTag}/shubbak-{version}-win-arm64.msi",
+		"https://github.com/MoaidHathot/Shubbak/releases/download/{github.rawTag}/shubbak-{version}-win-arm64.zip"
+	]
+}
