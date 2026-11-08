@@ -1,16 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "electron-builder",
-	"electronBuilder": {
-		"url": "https://github.com/ortux/own_browser/releases/latest/download/latest.yml"
-	},
-	"version": {
-		"source": "product"
-	},
-	"releaseNotes": {
-		"source": "github",
+	"strategy": "github-release",
+	"github": {
 		"owner": "ortux",
 		"repo": "own_browser",
-		"tag": "v{version}"
-	}
+		"method": "api-latest",
+		"assetRegex": "^Zyphora-.*-win-(x64|arm64|ia32)-setup\\.exe$"
+	},
+	"version": { "source": "product" }
 }
