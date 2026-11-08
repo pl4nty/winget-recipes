@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "strayge",
+		"repo": "tray-monitor"
+	},
+	"urls": ["https://github.com/strayge/tray-monitor/releases/download/v{version}/tray_monitor_{version}.exe"]
+}

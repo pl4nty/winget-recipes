@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "idleberg",
+		"repo": "krampus"
+	},
+	"urls": [
+		"https://github.com/idleberg/krampus/releases/download/{github.rawTag}/krampus-{version}-Windows-arm64.zip",
+		"https://github.com/idleberg/krampus/releases/download/{github.rawTag}/krampus-{version}-Windows-i386.zip",
+		"https://github.com/idleberg/krampus/releases/download/{github.rawTag}/krampus-{version}-Windows-x86_64.zip"
+	]
+}
