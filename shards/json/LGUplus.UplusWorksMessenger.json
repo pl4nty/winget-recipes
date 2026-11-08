@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://chatfile.onnet21.com/msngv3/latest.yml"
+	},
+	"urls": [
+		{
+			"url": "https://chatfile.onnet21.com/msngv3/U+Works%20Messenger%20Setup%20{version}-x64.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://chatfile.onnet21.com/msngv3/x86/U+Works%20Messenger%20Setup%20{version}-x86.exe",
+			"architecture": "x86"
+		}
+	]
+}

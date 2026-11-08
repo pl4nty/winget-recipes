@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TurboWarp",
+		"repo": "desktop"
+	},
+	"urls": [
+		"https://github.com/TurboWarp/desktop/releases/download/v{version}/TurboWarp-Setup-{version}-ia32.exe",
+		"https://github.com/TurboWarp/desktop/releases/download/v{version}/TurboWarp-Setup-{version}-x64.exe",
+		"https://github.com/TurboWarp/desktop/releases/download/v{version}/TurboWarp-Setup-{version}-arm64.exe"
+	]
+}
