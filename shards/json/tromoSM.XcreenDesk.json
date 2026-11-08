@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tromoSM", "repo": "xcreenDesk" },
+	"urls": ["https://github.com/tromoSM/xcreenDesk/releases/download/v{version}/XcreenDesk-windows-installer.exe"]
+}
