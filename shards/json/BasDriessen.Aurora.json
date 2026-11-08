@@ -5,6 +5,15 @@
 		"source": "display"
 	},
 	"urls": [
-		{ "url": "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", "architecture": "x64" }
-	]
+		{
+			"url": "https://aurorabuilder.com/downloads/Aurora%20Setup.zip",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://aurorabuilder.com/downloads/Aurora%20Setup.zip",
+		"header": "etag"
+	},
+	"replace": true
 }
