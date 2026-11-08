@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "int128",
+		"repo": "kubelogin"
+	},
+	"urls": [
+		"https://github.com/int128/kubelogin/releases/download/{github.rawTag}/kubelogin_windows_amd64.zip",
+		"https://github.com/int128/kubelogin/releases/download/{github.rawTag}/kubelogin_windows_arm64.zip"
+	]
+}
