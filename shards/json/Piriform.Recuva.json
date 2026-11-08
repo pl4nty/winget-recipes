@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": [
+		{ "url": "https://download.ccleaner.com/rcsetup.exe", "architecture": "x86" },
+		{ "url": "https://download.ccleaner.com/rcsetup.exe", "architecture": "x64" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.ccleaner.com/rcsetup.exe",
+		"header": "etag"
+	}
+}

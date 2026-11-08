@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HellterEnjoy",
+		"repo": "Lilo"
+	},
+	"urls": [
+		"https://github.com/HellterEnjoy/Lilo/releases/download/{github.rawTag}/Lilo-{version}-windows-x64-setup.exe"
+	]
+}

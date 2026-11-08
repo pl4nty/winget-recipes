@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "skyjake", "repo": "lagrange" },
+	"urls": [
+		"https://github.com/skyjake/lagrange/releases/download/v{version}/lagrange_v{version}_windows-x64_setup.exe"
+	]
+}
