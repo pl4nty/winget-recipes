@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "combostrap",
+		"repo": "doc-exec"
+	},
+	"urls": [
+		"https://github.com/combostrap/doc-exec/releases/download/{github.rawTag}/combostrap-doc-exec-{version}-jre-x64.msi"
+	]
+}

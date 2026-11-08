@@ -1,0 +1,5 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "appinstaller",
+	"appinstaller": { "url": "https://aka.ms/windbg/download" }
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hexajohnny",
+		"repo": "rusty"
+	},
+	"urls": [
+		"https://github.com/hexajohnny/rusty/releases/download/{github.rawTag}/Rusty-{version}-setup.exe",
+		"https://github.com/hexajohnny/rusty/releases/download/{github.rawTag}/Rusty-{version}-x64.msi",
+		"https://github.com/hexajohnny/rusty/releases/download/{github.rawTag}/Rusty-{version}-x86.msi"
+	]
+}
