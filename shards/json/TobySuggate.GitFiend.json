@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "GitFiend", "repo": "Support" },
+	"urls": ["https://github.com/GitFiend/Support/releases/download/v{version}/GitFiend.Setup.{version}.exe"]
+}

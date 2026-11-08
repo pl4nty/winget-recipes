@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "streamlink",
+		"repo": "streamlink-twitch-gui"
+	},
+	"urls": [
+		"https://github.com/streamlink/streamlink-twitch-gui/releases/download/v{version}/streamlink-twitch-gui-v{version}-win32-installer.exe",
+		"https://github.com/streamlink/streamlink-twitch-gui/releases/download/v{version}/streamlink-twitch-gui-v{version}-win64-installer.exe"
+	]
+}
