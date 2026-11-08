@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kkaminsk",
+		"repo": "FileCommand"
+	},
+	"urls": [
+		"https://github.com/kkaminsk/FileCommand/releases/download/{github.rawTag}/FileCommandSetup.exe"
+	]
+}
