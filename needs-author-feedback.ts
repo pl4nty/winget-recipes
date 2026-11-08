@@ -4,21 +4,23 @@ import { join } from 'node:path';
 
 import { $ } from 'bun';
 
-// `bun needs-author-feedback.ts [author]` triages the author's open winget-pkgs PRs labelled Needs-Author-Feedback.
+// `bun needs-author-feedback.ts [author]` triages the author's open winget-pkgs PRs labelled Needs-Author-Feedback or
+// Manifest-Metadata-Consistency.
 // Labels are unreliable (most Defender errors are the validation VM failing to run its own scan), so it reads the
-// validation results zip and the bot comments. Prints `<pr url>\t<package>\t<verdict>\t<details>`. A push or an author
+// validation results zip and the bot comments. Prints `<pr url>\t<package>\t<labels>\t<verdict>\t<details>`. A push or an author
 // comment removes the label, so fixed PRs drop out without any state.
 const author = process.argv[2] ?? 'pl4nty';
 
-type Issue = { number: number; title: string };
-const prs: Issue[] = [];
-for (let page = 1; ; page++) {
-	const q = `repo:microsoft/winget-pkgs is:pr is:open author:${author} label:Needs-Author-Feedback`;
-	const { items }: { items: Issue[] } =
-		await $`gh api -X GET search/issues -f q=${q} -f per_page=100 -f page=${page}`.json();
-	prs.push(...items);
-	if (items.length < 100) break;
-}
+type Issue = { number: number; title: string; labels: { name: string }[] };
+const prs = new Map<number, Issue>();
+for (const label of ['Needs-Author-Feedback', 'Manifest-Metadata-Consistency'])
+	for (let page = 1; ; page++) {
+		const q = `repo:microsoft/winget-pkgs is:pr is:open author:${author} label:${label}`;
+		const { items }: { items: Issue[] } =
+			await $`gh api -X GET search/issues -f q=${q} -f per_page=100 -f page=${page}`.json();
+		for (const item of items) prs.set(item.number, item);
+		if (items.length < 100) break;
+	}
 
 type Comment = { user: { login: string; type: string }; body: string };
 type Fields = { FieldsMetadata?: { Field: string; Message?: string }[] };
@@ -31,7 +33,7 @@ const text = (bytes: Buffer) =>
 	(bytes[1] === 0 ? new TextDecoder('utf-16le').decode(bytes) : bytes.toString('utf8')).replace(/^﻿/, '');
 const VERDICTS = ['needs fix', 'needs removal reason', 'manual review', 'validation VM problem'];
 
-for (const { number, title } of prs) {
+for (const { number, title, labels } of prs.values()) {
 	// Comments need API access to microsoft/winget-pkgs; the results zips are public on the CDN.
 	const response = await $`gh api --paginate --slurp repos/microsoft/winget-pkgs/issues/${number}/comments`.nothrow().quiet();
 	const comments: Comment[] = response.exitCode ? [] : response.json().flat();
@@ -106,5 +108,6 @@ for (const { number, title } of prs) {
 	if (verdict === 'validation VM problem') continue;
 	const details = [...new Set(findings.map(([, detail]) => detail))].join(' | ').replace(/\s+/g, ' ');
 	const pkg = title.replace(/^(New|Update|Remove) version: (\S+) version (\S+).*$/, '$2 $3');
-	console.log(`https://github.com/microsoft/winget-pkgs/pull/${number}\t${pkg}\t${verdict}\t${details}`);
+	const names = labels.map(({ name }) => name).join(',');
+	console.log(`https://github.com/microsoft/winget-pkgs/pull/${number}\t${pkg}\t${names}\t${verdict}\t${details}`);
 }
