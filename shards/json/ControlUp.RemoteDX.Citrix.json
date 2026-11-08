@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://downloads.controlup.com/RemoteDX/citrix/windows/curdx-windows-citrix.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.controlup.com/RemoteDX/citrix/windows/curdx-windows-citrix.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
