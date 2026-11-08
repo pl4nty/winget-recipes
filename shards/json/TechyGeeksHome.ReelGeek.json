@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "techygeekshome",
+		"repo": "ReelGeek"
+	},
+	"urls": ["https://github.com/techygeekshome/ReelGeek/releases/download/v{version}/ReelGeekSetup.exe"]
+}

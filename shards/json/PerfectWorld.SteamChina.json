@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://cdn.steamchina.eccdnx.com/client/installer/SteamChinaSetup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.steamchina.eccdnx.com/client/installer/SteamChinaSetup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

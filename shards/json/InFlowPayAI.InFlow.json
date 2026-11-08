@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "inflowpayai",
+		"repo": "inflow-cli"
+	},
+	"urls": [
+		"https://github.com/inflowpayai/inflow-cli/releases/download/{github.rawTag}/inflow-{version}-windows-arm64.msi",
+		"https://github.com/inflowpayai/inflow-cli/releases/download/{github.rawTag}/inflow-{version}-windows-x64.msi"
+	]
+}
