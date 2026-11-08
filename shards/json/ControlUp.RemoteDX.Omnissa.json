@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://downloads.controlup.com/RemoteDX/vmware/windows/curdx-windows-vmware.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.controlup.com/RemoteDX/vmware/windows/curdx-windows-vmware.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
