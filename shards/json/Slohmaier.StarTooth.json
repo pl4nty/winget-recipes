@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "slohmaier", "repo": "StarTooth" },
+	"urls": [
+		"https://github.com/slohmaier/StarTooth/releases/download/{version}/StarTooth-Setup-{version}.exe"
+	]
+}
