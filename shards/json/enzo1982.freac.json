@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "enzo1982",
+		"repo": "freac"
+	},
+	"urls": [
+		"https://github.com/enzo1982/freac/releases/download/{github.rawTag}/freac-{version}-windows-arm64.zip",
+		"https://github.com/enzo1982/freac/releases/download/{github.rawTag}/freac-{version}-windows-i686.zip",
+		"https://github.com/enzo1982/freac/releases/download/{github.rawTag}/freac-{version}-windows-x64.zip"
+	]
+}
