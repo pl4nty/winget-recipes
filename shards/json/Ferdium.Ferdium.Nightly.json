@@ -5,7 +5,7 @@
 		"owner": "ferdium",
 		"repo": "ferdium-app",
 		"method": "api-list",
-		"kind": "all"
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/ferdium/ferdium-app/releases/download/{github.rawTag}/Ferdium-win-AutoSetup-{version}-arm64.exe",
