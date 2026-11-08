@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mtkennerly",
+		"repo": "madamiru"
+	},
+	"urls": [
+		"https://github.com/mtkennerly/madamiru/releases/download/v{version}/madamiru-v{version}-win64.zip",
+		"https://github.com/mtkennerly/madamiru/releases/download/v{version}/madamiru-v{version}-win32.zip"
+	]
+}

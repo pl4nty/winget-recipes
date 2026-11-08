@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tadis174",
+		"repo": "ILens"
+	},
+	"urls": ["https://github.com/tadis174/ILens/releases/download/v{version}/ILens-windows-x64.zip"]
+}

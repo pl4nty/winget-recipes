@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://emsfs.autodesk.com/utility/access/1/installer/latest/AdAccess-installer.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://emsfs.autodesk.com/utility/access/1/installer/latest/AdAccess-installer.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
