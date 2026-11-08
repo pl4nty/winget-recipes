@@ -1,11 +1,12 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://wpdconverter.com/",
-		"regex": "WPDConverter-(\\d+(?:\\.\\d+)+)\\.msi"
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://wpdconverter.com/api/download"
+		],
+		"regex": "/WPDConverter-(?<version>\\d+(?:\\.\\d+)+)\\.msi$"
 	},
-	"urls": ["https://wpdconverter.com/downloads/WPDConverter-{version}.msi"],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://wpdconverter.com/release-notes"
 	}
