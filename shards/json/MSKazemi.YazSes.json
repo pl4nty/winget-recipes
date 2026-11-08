@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MSKazemi",
+		"repo": "yazses"
+	},
+	"urls": [
+		"https://github.com/MSKazemi/yazses/releases/download/v{version}/YazSes-{version}-windows-x64.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DORON177",
+		"repo": "battery-hub"
+	},
+	"urls": [
+		"https://github.com/DORON177/battery-hub/releases/download/{github.rawTag}/Battery-Hub-Setup-{version}.exe"
+	]
+}
