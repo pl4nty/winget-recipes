@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Sigil-Ebook",
+		"repo": "PageEdit"
+	},
+	"urls": ["https://github.com/Sigil-Ebook/PageEdit/releases/download/{version}/PageEdit-{version}-Windows-x64-Setup.exe"]
+}
