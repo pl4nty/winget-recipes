@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aalex954",
+		"repo": "applocate"
+	},
+	"urls": [
+		"https://github.com/aalex954/applocate/releases/download/{github.rawTag}/applocate-win-arm64.zip",
+		"https://github.com/aalex954/applocate/releases/download/{github.rawTag}/applocate-win-x64.zip"
+	]
+}
