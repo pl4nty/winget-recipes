@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xpipe-io",
+		"repo": "xpipe"
+	},
+	"urls": [
+		"https://github.com/xpipe-io/xpipe/releases/download/{version}/xpipe-installer-windows-x86_64.msi",
+		"https://github.com/xpipe-io/xpipe/releases/download/{version}/xpipe-installer-windows-arm64.msi"
+	]
+}

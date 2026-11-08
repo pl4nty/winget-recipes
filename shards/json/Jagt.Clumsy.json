@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jagt",
+		"repo": "clumsy"
+	},
+	"urls": [
+		"https://github.com/jagt/clumsy/releases/download/{github.rawTag}/clumsy-{version}-win32-a.zip",
+		"https://github.com/jagt/clumsy/releases/download/{github.rawTag}/clumsy-{version}-win64-a.zip"
+	]
+}
