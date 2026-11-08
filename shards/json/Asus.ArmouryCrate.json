@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://dlcdnets.asus.com/pub/ASUS/mb/14Utilities/ArmouryCrateInstallTool.zip"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dlcdnets.asus.com/pub/ASUS/mb/14Utilities/ArmouryCrateInstallTool.zip",
+		"header": "etag"
+	},
+	"replace": true
 }
