@@ -1,8 +1,8 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://update.send-anywhere.com/downloads/x64/latest.yml"
 	},
 	"urls": [
 		{
