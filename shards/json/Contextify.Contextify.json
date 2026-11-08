@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PeterPym",
+		"repo": "contextify"
+	},
+	"urls": [
+		"https://github.com/PeterPym/contextify/releases/download/{github.rawTag}/ContextifyDesktop-win-arm64-stable-Setup.exe",
+		"https://github.com/PeterPym/contextify/releases/download/{github.rawTag}/ContextifyDesktop-win-x64-stable-Setup.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LinkaiQi",
+		"repo": "NitTray"
+	},
+	"urls": [
+		"https://github.com/LinkaiQi/NitTray/releases/download/{github.rawTag}/NitTray-installer-arm64.exe",
+		"https://github.com/LinkaiQi/NitTray/releases/download/{github.rawTag}/NitTray-installer-x64.exe"
+	]
+}

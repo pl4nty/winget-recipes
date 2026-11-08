@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "0xf005ba11",
+		"repo": "vmplex-ws"
+	},
+	"urls": [
+		{ "url": "https://github.com/0xf005ba11/vmplex-ws/releases/download/v{version}/VMPlex.exe", "architecture": "neutral" }
+	]
+}

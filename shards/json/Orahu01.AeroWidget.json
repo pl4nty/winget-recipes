@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Orahu01",
+		"repo": "aerowidget"
+	},
+	"urls": [
+		"https://github.com/Orahu01/aerowidget/releases/download/v{version}/AeroWidget-Setup-{version}.exe"
+	]
+}
