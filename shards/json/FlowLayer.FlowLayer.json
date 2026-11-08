@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FlowLayer",
+		"repo": "flowlayer"
+	},
+	"urls": [
+		"https://github.com/FlowLayer/flowlayer/releases/download/{github.rawTag}/flowlayer-{version}-windows-amd64.zip",
+		"https://github.com/FlowLayer/flowlayer/releases/download/{github.rawTag}/flowlayer-{version}-windows-arm64.zip"
+	]
+}

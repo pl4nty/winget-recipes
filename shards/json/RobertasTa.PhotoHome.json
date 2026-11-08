@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RobertasTa",
+		"repo": "foto-namai"
+	},
+	"urls": [
+		"https://github.com/RobertasTa/foto-namai/releases/download/v{version}/PhotoHome-{version}-win64.zip",
+		"https://github.com/RobertasTa/foto-namai/releases/download/v{version}/PhotoHome-{version}-setup.exe"
+	]
+}
