@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DaikiSuganuma",
+		"repo": "winremap"
+	},
+	"urls": [
+		"https://github.com/DaikiSuganuma/winremap/releases/download/{github.rawTag}/winremap-setup.exe"
+	]
+}

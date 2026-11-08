@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AlisterT",
+		"repo": "openjazz"
+	},
+	"urls": [
+		"https://github.com/AlisterT/openjazz/releases/download/{github.rawTag}/openjazz-windows-mingw-x86_64.zip"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "actualbudget",
+		"repo": "actual"
+	},
+	"urls": [
+		"https://github.com/actualbudget/actual/releases/download/{github.rawTag}/Actual-windows-arm64.exe",
+		"https://github.com/actualbudget/actual/releases/download/{github.rawTag}/Actual-windows-ia32.exe",
+		"https://github.com/actualbudget/actual/releases/download/{github.rawTag}/Actual-windows-x64.exe"
+	]
+}

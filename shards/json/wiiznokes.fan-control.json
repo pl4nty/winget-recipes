@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wiiznokes",
+		"repo": "fan-control",
+		"method": "api-latest",
+		"assetRegex": "^fan-control_.*_x64-setup\\.exe$"
+	}
+}
