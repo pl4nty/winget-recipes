@@ -1,9 +1,15 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "display" },
+	"version": {
+		"source": "display"
+	},
 	"urls": [
-		{ "url": "https://cjwdev.com/Software/FilePermissions/FilePermissionsCheckInstaller.zip", "architecture": "x86", "nestedInstallerMatches": ["FilePermissionsCheckInstaller.exe"] },
-		{ "url": "https://cjwdev.com/Software/FilePermissions/FilePermissionsCheckInstaller.zip", "architecture": "x64", "nestedInstallerMatches": ["FilePermissionsCheckInstaller.exe"] }
+		{
+			"url": "https://cjwdev.com/Software/FilePermissions/FilePermissionsCheckInstaller.zip",
+			"nestedInstallerMatches": [
+				"FilePermissionsCheckInstaller.exe"
+			]
+		}
 	]
 }

@@ -1,9 +1,15 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "display" },
+	"version": {
+		"source": "display"
+	},
 	"urls": [
-		{ "url": "https://cjwdev-pub.s3.amazonaws.com/AdPermissionsReporter/ADPermissionsReporter.zip", "architecture": "x86", "nestedInstallerMatches": ["ADPermissionsReporter.exe"] },
-		{ "url": "https://cjwdev-pub.s3.amazonaws.com/AdPermissionsReporter/ADPermissionsReporter.zip", "architecture": "x64", "nestedInstallerMatches": ["ADPermissionsReporter.exe"] }
+		{
+			"url": "https://cjwdev-pub.s3.amazonaws.com/AdPermissionsReporter/ADPermissionsReporter.zip",
+			"nestedInstallerMatches": [
+				"ADPermissionsReporter.exe"
+			]
+		}
 	]
 }
