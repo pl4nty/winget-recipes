@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rugbedbugg",
+		"repo": "ResonanceID-cli"
+	},
+	"urls": [
+		"https://github.com/rugbedbugg/ResonanceID-cli/releases/download/v{version}/resonanceid-cli-v{version}-windows-x86_64.exe"
+	]
+}

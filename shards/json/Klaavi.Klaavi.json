@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://assets.klaavi.app/releases/klaavi-win32-x64/1.2.18/e84823f777533bbe38f441bbeb2f086a200acab5d4ca289bda327f87ba738947/latest.yml"
+	}
+}
