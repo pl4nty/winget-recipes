@@ -7,7 +7,13 @@
 	"urls": [
 		"https://freealarmapp.com/FreeAlarmClockSetup.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://freealarmapp.com/FreeAlarmClockSetup.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://free-alarm-clock.blogspot.com/2025/01/free-alarm-clock-53-has-been-released.html"
-	}
+	},
+	"replace": true
 }
