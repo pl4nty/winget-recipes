@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "v2matosevic",
+		"repo": "WinSnipper"
+	},
+	"urls": [
+		"https://github.com/v2matosevic/WinSnipper/releases/download/{github.rawTag}/WinSnipper.exe"
+	]
+}
