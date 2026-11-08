@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tarunharitas", "repo": "crypto-vault" },
+	"urls": ["https://github.com/tarunharitas/crypto-vault/releases/download/v{version}/CryptoVault.exe"]
+}
