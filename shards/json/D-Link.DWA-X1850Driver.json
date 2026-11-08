@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://media.dlink.eu/support/products/dwa/DWA-X1850/driver_software/dwa-x1850_sw_reva1_1-05_eu_multi_20231127.zip"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://media.dlink.eu/support/products/dwa/DWA-X1850/driver_software/dwa-x1850_sw_reva1_1-05_eu_multi_20231127.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
