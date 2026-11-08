@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mvpoftheleague",
+		"repo": "bgstats-companion"
+	},
+	"urls": [
+		"https://github.com/mvpoftheleague/bgstats-companion/releases/download/v{version}/BgStatsCompanion.exe"
+	]
+}
