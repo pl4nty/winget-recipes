@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "owu",
+		"repo": "wsl-dashboard"
+	},
+	"urls": [
+		"https://github.com/owu/wsl-dashboard/releases/download/v{version}/WSLDashboard.{version}.Setup.x64.exe",
+		"https://github.com/owu/wsl-dashboard/releases/download/v{version}/WSLDashboard.{version}.Setup.arm64.exe"
+	]
+}

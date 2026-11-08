@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "OpenCLOn12"
+	},
+	"urls": [
+		"https://github.com/microsoft/OpenCLOn12/releases/download/v{version}/Universal_D3DMappingLayers_{version}_x64.appx",
+		"https://github.com/microsoft/OpenCLOn12/releases/download/v{version}/Universal_D3DMappingLayers_{version}_arm64.appx"
+	]
+}

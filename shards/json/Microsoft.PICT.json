@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "pict"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/microsoft/pict/releases/download/v{version}/pict.exe"
+	]
+}
