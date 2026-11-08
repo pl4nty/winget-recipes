@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BuildIso",
+		"repo": "BuildIso"
+	},
+	"urls": [
+		"https://github.com/BuildIso/BuildIso/releases/download/{github.rawTag}/BuildIso.exe"
+	]
+}

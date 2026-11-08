@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sarub0b0",
+		"repo": "kubetui"
+	},
+	"urls": [
+		"https://github.com/sarub0b0/kubetui/releases/download/{github.rawTag}/kubetui-x86_64-pc-windows-msvc.exe"
+	]
+}

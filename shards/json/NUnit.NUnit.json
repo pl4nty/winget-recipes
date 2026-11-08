@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nunit",
+		"repo": "nunit"
+	},
+	"urls": [
+		"https://github.com/nunit/nunit/releases/download/v{version}/NUnit.Framework-{version}.zip",
+		"https://github.com/nunit/nunit/releases/download/v{version}/NUnit.Framework-{version}.zip"
+	]
+}
