@@ -3,7 +3,7 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://www.navicat.com/products/navicat-for-redis-release-note",
-		"regex": "Navicat for Redis \\(Windows\\) version (?<version>(?<major>17)\\.\\d+\\.\\d+)<"
+		"regex": "Navicat for Redis \\(Windows\\) version (?<version>(?<major>\\d+)\\.\\d+\\.\\d+)<"
 	},
 	"urls": [
 		"https://download3.navicat.com/download/navicat{captures.major}_redis_es_x64.exe",
