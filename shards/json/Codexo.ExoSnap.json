@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Exoridus",
+		"repo": "exosnap"
+	},
+	"urls": [
+		"https://github.com/Exoridus/exosnap/releases/download/{github.rawTag}/ExoSnap-{version}-windows-x64.msi",
+		"https://github.com/Exoridus/exosnap/releases/download/{github.rawTag}/ExoSnap-{version}-Setup.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "luqiangbo",
+		"repo": "dock-mapper"
+	},
+	"urls": [
+		"https://github.com/luqiangbo/dock-mapper/releases/download/{github.rawTag}/DockMapper_{version}_x64-setup.exe"
+	]
+}
