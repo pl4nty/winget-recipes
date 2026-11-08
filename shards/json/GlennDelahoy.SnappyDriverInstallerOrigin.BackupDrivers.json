@@ -6,7 +6,6 @@
 		"regex": "href=\"/downloads/sdio/(?<file>SDIOBackupDrivers\\d+\\.zip)\"[^>]*>SDIO Backup Drivers v(?<version>\\d+(?:\\.\\d+)+)<"
 	},
 	"urls": [
-		{ "url": "https://www.glenn.delahoy.com/downloads/sdio/{captures.file}", "architecture": "x64" },
-		{ "url": "https://www.glenn.delahoy.com/downloads/sdio/{captures.file}", "architecture": "x86" }
+		"https://www.glenn.delahoy.com/downloads/sdio/{captures.file}"
 	]
 }
