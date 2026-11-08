@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": ["https://multiping.com/downloads/mping_3.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://multiping.com/history.html"
+	},
+	"replace": true,
+	"state": {
+		"source": "response-header",
+		"url": "https://multiping.com/downloads/mping_3.exe",
+		"header": "etag"
+	}
+}

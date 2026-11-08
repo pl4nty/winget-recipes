@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "robyberre-code",
+		"repo": "sussurro-ia"
+	},
+	"urls": [
+		"https://github.com/robyberre-code/sussurro-ia/releases/download/v{version}/Sussurro.IA_{version}_x64_it-IT.msi",
+		"https://github.com/robyberre-code/sussurro-ia/releases/download/v{version}/Sussurro.IA_{version}_x64-setup.exe"
+	]
+}

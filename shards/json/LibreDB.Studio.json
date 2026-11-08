@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "libredb",
+		"repo": "libredb-studio"
+	},
+	"urls": [
+		"https://github.com/libredb/libredb-studio/releases/download/{github.rawTag}/libredb-studio-standalone-{version}-win32-x64.zip"
+	]
+}
