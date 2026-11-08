@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jrkhasky-code",
+		"repo": "SteamLibraryLauncher"
+	},
+	"urls": [
+		"https://github.com/jrkhasky-code/SteamLibraryLauncher/releases/download/{github.rawTag}/SteamLibraryLauncher.zip"
+	]
+}

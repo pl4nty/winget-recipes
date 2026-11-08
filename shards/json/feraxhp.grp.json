@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "feraxhp",
+		"repo": "grp"
+	},
+	"urls": [
+		"https://github.com/feraxhp/grp/releases/download/{github.rawTag}/grp-{version}-x86_64.msi"
+	]
+}
