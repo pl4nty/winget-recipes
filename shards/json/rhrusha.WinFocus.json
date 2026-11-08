@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rhrusha",
+		"repo": "winfocus"
+	},
+	"urls": ["https://github.com/rhrusha/winfocus/releases/download/v{version}/winfocus.exe"]
+}
