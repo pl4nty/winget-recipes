@@ -3,9 +3,8 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://css-ig.net/pingo",
-		"regex": "changelog\">v(\\d+(?:\\.\\d+)+(?: rc\\d+)?)</a>"
+		"regex": "changelog\">v(\\d+(?:\\.\\d+)+)</a>"
 	},
-	"version": "{version| |-}",
 	"urls": [
 		"https://css-ig.net/bin/pingo.zip"
 	]
