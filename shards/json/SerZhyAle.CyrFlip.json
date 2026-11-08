@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "SerZhyAle", "repo": "CyrFlip" },
+	"urls": ["https://github.com/SerZhyAle/CyrFlip/releases/download/v{version}/CyrFlip-{version}-windows-x64.zip"]
+}
