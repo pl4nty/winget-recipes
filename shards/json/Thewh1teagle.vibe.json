@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "thewh1teagle",
+		"repo": "vibe"
+	},
+	"urls": ["https://github.com/thewh1teagle/vibe/releases/download/v{version}/vibe_{version}_x64-setup.exe"]
+}
