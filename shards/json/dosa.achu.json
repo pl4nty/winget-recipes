@@ -1,13 +1,16 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/QAInsights/achu/releases/latest/download/latest.yml"
+	},
 	"version": {
 		"source": "product"
 	},
-	"github": {
+	"releaseNotes": {
+		"source": "github",
 		"owner": "QAInsights",
 		"repo": "achu",
-		"method": "api-latest",
-		"assetRegex": "^(?:achu\\-Setup\\-arm64\\-\\d+\\.\\d+\\.\\d+\\.exe|achu\\-Setup\\-x64\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
+		"tag": "v{version}"
 	}
 }
