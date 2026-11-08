@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://desktime.com/updates/win/install/"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://desktime.com/updates/win/install/",
+		"header": "last-modified"
+	},
+	"replace": true
+}
