@@ -14,7 +14,7 @@
 	},
 	"urls": [
 		{
-			"url": "{data.InformationFile.0.ApplyConditions.0.ApplyCondition.0.Distributions.0.Distribution.0._attributes.URI}",
+			"url": "https://{data.InformationFile.0.ApplyConditions.0.ApplyCondition.0.Distributions.0.Distribution.0._attributes.URI|https://|}",
 			"architecture": "x86"
 		}
 	],
