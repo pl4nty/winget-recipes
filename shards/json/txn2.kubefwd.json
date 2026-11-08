@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "txn2",
+		"repo": "kubefwd"
+	},
+	"urls": [
+		"https://github.com/txn2/kubefwd/releases/download/v{version}/kubefwd_Windows_i386.zip",
+		"https://github.com/txn2/kubefwd/releases/download/v{version}/kubefwd_Windows_x86_64.zip"
+	]
+}

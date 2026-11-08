@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "biondi53",
+		"repo": "GUITwitchTauri"
+	},
+	"urls": [
+		"https://github.com/biondi53/GUITwitchTauri/releases/download/{github.rawTag}/Twitch.Ultralight_{version}_x64-setup.exe"
+	]
+}

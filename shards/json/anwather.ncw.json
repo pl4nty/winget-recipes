@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "anwather",
+		"repo": "ncw"
+	},
+	"urls": [
+		"https://github.com/anwather/ncw/releases/download/{github.rawTag}/ncw_windows_amd64.zip",
+		"https://github.com/anwather/ncw/releases/download/{github.rawTag}/ncw_windows_arm64.zip"
+	]
+}
