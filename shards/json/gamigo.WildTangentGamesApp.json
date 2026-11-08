@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://stackpathdownload.wildgames.com/Gamesapp/TouchPointInstallers/wildgames/Setup-wildgames.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://stackpathdownload.wildgames.com/Gamesapp/TouchPointInstallers/wildgames/Setup-wildgames.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
