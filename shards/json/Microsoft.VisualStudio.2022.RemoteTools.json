@@ -17,5 +17,11 @@
 			"url": "https://download.visualstudio.microsoft.com/download/pr/dc0b3d6b-94c9-484d-9094-f04f34bdc2cd/7144fc5a192919aef9452cdb466231307c537ac8ff5ba97812064283a12513fa/VS_RemoteTools.exe",
 			"architecture": "arm64"
 		}
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.visualstudio.microsoft.com/download/pr/dc0b3d6b-94c9-484d-9094-f04f34bdc2cd/3ba774e8b8304d97a2a7ccbf7cf269fa55c8782e72b3e3c51fa47abcb2a98ca3/VS_RemoteTools.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
