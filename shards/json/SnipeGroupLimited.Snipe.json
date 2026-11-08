@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "snipe-browser",
+		"repo": "scoop-bucket"
+	},
+	"urls": [
+		"https://github.com/snipe-browser/scoop-bucket/releases/download/v{version}/SnipeBrowser-{version}-win-x64-setup.exe",
+		"https://github.com/snipe-browser/scoop-bucket/releases/download/v{version}/SnipeBrowser-{version}-win-x86-setup.exe"
+	]
+}
