@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "confold",
+		"repo": "confold"
+	},
+	"urls": [
+		"https://github.com/confold/confold/releases/download/{github.rawTag}/Confold_{version}_x64_en-US.msi",
+		"https://github.com/confold/confold/releases/download/{github.rawTag}/Confold_{version}_x64-setup.exe"
+	]
+}

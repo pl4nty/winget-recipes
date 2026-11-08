@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vincent-uden",
+		"repo": "miro"
+	},
+	"urls": ["https://github.com/vincent-uden/miro/releases/download/v{version}/miro-pdf.exe"]
+}
