@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alexpasmantier",
+		"repo": "television"
+	},
+	"urls": [
+		"https://github.com/alexpasmantier/television/releases/download/{github.rawTag}/tv-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
