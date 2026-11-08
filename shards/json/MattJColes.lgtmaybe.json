@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MattJColes",
+		"repo": "lgtmaybe",
+		"tagRegex": "^lgtmaybe-v"
+	},
+	"urls": [
+		"https://github.com/MattJColes/lgtmaybe/releases/download/{github.rawTag}/lgtmaybe-{version}-windows-x86_64.exe"
+	]
+}
