@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hclivess",
+		"repo": "diskmaster"
+	},
+	"urls": [
+		"https://github.com/hclivess/diskmaster/releases/download/{github.rawTag}/diskmaster-{version}-windows-x64.zip"
+	]
+}

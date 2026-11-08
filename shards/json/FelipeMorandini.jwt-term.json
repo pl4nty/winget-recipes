@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FelipeMorandini",
+		"repo": "jwt-term"
+	},
+	"urls": [
+		"https://github.com/FelipeMorandini/jwt-term/releases/download/{github.rawTag}/jwt-term-aarch64-pc-windows-msvc.zip",
+		"https://github.com/FelipeMorandini/jwt-term/releases/download/{github.rawTag}/jwt-term-x86_64-pc-windows-msvc.zip"
+	]
+}

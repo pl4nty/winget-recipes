@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "IENT",
+		"repo": "YUView"
+	},
+	"urls": [
+		"https://github.com/IENT/YUView/releases/download/{github.rawTag}/YUViewSetup-windows-2022.exe",
+		{ "url": "https://github.com/IENT/YUView/releases/download/{github.rawTag}/YUViewSetup-windows-11-vs2026-arm.exe", "architecture": "arm64" }
+	]
+}
