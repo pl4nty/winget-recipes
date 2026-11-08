@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Blockworked",
+		"repo": "Blockwork"
+	},
+	"urls": [
+		"https://github.com/Blockworked/Blockwork/releases/download/{github.rawTag}/blockwork-windows-arm64-setup.exe",
+		"https://github.com/Blockworked/Blockwork/releases/download/{github.rawTag}/blockwork-windows-x86_64-setup.exe"
+	]
+}

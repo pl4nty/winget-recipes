@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rymcu",
+		"repo": "RYCOM"
+	},
+	"urls": ["https://github.com/rymcu/RYCOM/releases/download/{version}/RYCOM-{version}-Setup.exe"]
+}
