@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "nanana03", "repo": "picofiler-release" },
+	"urls": ["https://github.com/nanana03/picofiler-release/releases/download/v{version}/PicoFiler-{version}-setup.exe"]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://setup.c.robloxdev.cn/cjv/RobloxStudioInstallerCJV.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://setup.c.robloxdev.cn/cjv/RobloxStudioInstallerCJV.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
