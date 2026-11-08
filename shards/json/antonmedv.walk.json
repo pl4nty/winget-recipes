@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "antonmedv",
+		"repo": "walk"
+	},
+	"urls": [
+		"https://github.com/antonmedv/walk/releases/download/{github.rawTag}/walk_windows_amd64.exe",
+		"https://github.com/antonmedv/walk/releases/download/{github.rawTag}/walk_windows_arm64.exe"
+	]
+}
