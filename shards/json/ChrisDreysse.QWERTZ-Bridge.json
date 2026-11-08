@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dreyssechris",
+		"repo": "qwertz-bridge"
+	},
+	"urls": [
+		"https://github.com/dreyssechris/qwertz-bridge/releases/download/{github.rawTag}/QwertzBridge.exe"
+	]
+}

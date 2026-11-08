@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AdventDevInc",
+		"repo": "kudu"
+	},
+	"urls": [
+		"https://github.com/AdventDevInc/kudu/releases/download/{github.rawTag}/Kudu-Setup-{version}.exe"
+	]
+}
