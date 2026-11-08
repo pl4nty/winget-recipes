@@ -3,10 +3,10 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://www.jtl-software.de/download",
-		"regex": "https://downloads\\.jtl\\-software\\.de/setup\\-jtl\\-wawi_(\\d+(?:\\.\\d+)+)_2026\\-03\\-06_20\\-00_e01a5a0\\.exe"
+		"regex": "https://downloads\\.jtl-software\\.de/setup-jtl-wawi_(?<version>\\d+(?:\\.\\d+)+)_(?<build>[\\w-]+)\\.exe"
 	},
 	"urls": [
-		"https://downloads.jtl-software.de/setup-jtl-wawi_{version}_2026-03-06_20-00_e01a5a0.exe"
+		"https://downloads.jtl-software.de/setup-jtl-wawi_{version}_{captures.build}.exe"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://guide.jtl-software.de/changelog/"
