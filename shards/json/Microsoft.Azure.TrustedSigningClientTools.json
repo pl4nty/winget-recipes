@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.microsoft.com/download/6d9cb638-4d5f-438d-9f21-23f0f4405944/TrustedSigningClientTools.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.microsoft.com/download/6d9cb638-4d5f-438d-9f21-23f0f4405944/TrustedSigningClientTools.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
