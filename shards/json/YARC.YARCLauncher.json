@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "YARC-Official",
+		"repo": "YARC-Launcher"
+	},
+	"urls": [
+		"https://github.com/YARC-Official/YARC-Launcher/releases/download/v{version}/YARC.Launcher_{version}_x64_en-US.msi",
+		"https://github.com/YARC-Official/YARC-Launcher/releases/download/v{version}/YARC.Launcher_{version}_x64_en-US.msi.zip"
+	]
+}
