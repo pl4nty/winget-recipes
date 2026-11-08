@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{ "url": "https://download.drivereasy.com/DriverEasy_Setup.exe", "architecture": "x86" },
+		{ "url": "https://download.drivereasy.com/DriverEasy_Setup.exe", "architecture": "x64" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.drivereasy.com/DriverEasy_Setup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.drivereasy.com/blog/"
+	},
+	"replace": true
+}

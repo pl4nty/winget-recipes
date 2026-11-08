@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TalviFox",
+		"repo": "WireFox"
+	},
+	"urls": [
+		"https://github.com/TalviFox/WireFox/releases/download/{github.rawTag}/WireFox.exe"
+	]
+}
