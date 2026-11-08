@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.epson-europe.com/pub/download/6770/epson677004eu.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.epson-europe.com/pub/download/6770/epson677004eu.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
