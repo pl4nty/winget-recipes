@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Janne6565",
+		"repo": "wharf-tui"
+	},
+	"urls": [
+		"https://github.com/Janne6565/wharf-tui/releases/download/{github.rawTag}/wharf_{version}_windows_amd64.zip",
+		"https://github.com/Janne6565/wharf-tui/releases/download/{github.rawTag}/wharf_{version}_windows_arm64.zip"
+	]
+}

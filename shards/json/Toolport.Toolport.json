@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "btsouth",
+		"repo": "toolport"
+	},
+	"urls": ["https://github.com/btsouth/toolport/releases/download/v{version}/Toolport_{version}_x64-setup.exe"]
+}
