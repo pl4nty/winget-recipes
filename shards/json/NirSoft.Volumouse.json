@@ -1,9 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.nirsoft.net/utils/volumouse.html",
-		"regex": "Versions History</h4>\\s*<ul[^>]*>\\s*<li>Version (?<version>\\d+(?:\\.\\d+)+)"
+	"strategy": "xml",
+	"xml": {
+		"url": "https://www.nirsoft.net/pad/volumouse.xml",
+		"path": "XML_DIZ_INFO.0.Program_Info.0.Program_Version.0"
 	},
 	"urls": [
 		"https://www.nirsoft.net/utils/volumouse_setup.exe",
