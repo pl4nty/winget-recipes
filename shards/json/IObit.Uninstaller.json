@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": [{ "url": "https://cdn.iobit.com/dl/iobituninstaller.exe", "architecture": "x64" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.iobit.com/dl/iobituninstaller.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

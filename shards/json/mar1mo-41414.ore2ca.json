@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mar1mo-41414",
+		"repo": "ore2ca"
+	},
+	"urls": [
+		"https://github.com/mar1mo-41414/ore2ca/releases/download/v{version}/ore2ca_v{version}_windows_amd64.zip",
+		"https://github.com/mar1mo-41414/ore2ca/releases/download/v{version}/ore2ca_v{version}_windows_arm64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LargeModGames",
+		"repo": "steamie"
+	},
+	"urls": [
+		"https://github.com/LargeModGames/steamie/releases/download/{github.rawTag}/steamie-windows-x86_64.zip"
+	]
+}

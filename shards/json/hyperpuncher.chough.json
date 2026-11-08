@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hyperpuncher",
+		"repo": "chough"
+	},
+	"urls": [
+		"https://github.com/hyperpuncher/chough/releases/download/{github.rawTag}/chough_v{version}_windows_x86_64.zip"
+	]
+}
