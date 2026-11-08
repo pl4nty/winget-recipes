@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "i2van",
+		"repo": "WinNumTip"
+	},
+	"urls": [
+		"https://github.com/i2van/WinNumTip/releases/download/{github.rawTag}/WinNumTip-ARM64.zip",
+		"https://github.com/i2van/WinNumTip/releases/download/{github.rawTag}/WinNumTip-Win32.zip",
+		"https://github.com/i2van/WinNumTip/releases/download/{github.rawTag}/WinNumTip-x64.zip"
+	]
+}

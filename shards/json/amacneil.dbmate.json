@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "amacneil",
+		"repo": "dbmate"
+	},
+	"urls": [
+		"https://github.com/amacneil/dbmate/releases/download/{github.rawTag}/dbmate-windows-amd64.exe"
+	]
+}

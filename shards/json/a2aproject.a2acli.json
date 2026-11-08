@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "a2aproject",
+		"repo": "a2a-cli"
+	},
+	"urls": [
+		"https://github.com/a2aproject/a2a-cli/releases/download/{github.rawTag}/a2a_{version}_windows_amd64.zip",
+		"https://github.com/a2aproject/a2a-cli/releases/download/{github.rawTag}/a2a_{version}_windows_arm64.zip"
+	]
+}
