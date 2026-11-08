@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://dl.waveterm.dev/releases-w2/latest.yml"
+	},
+	"urls": ["https://dl.waveterm.dev/releases-w2/Wave-win32-x64-{version}.msi"]
+}

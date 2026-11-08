@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zumoshi",
+		"repo": "BrowserSelect"
+	},
+	"urls": [
+		"https://github.com/zumoshi/BrowserSelect/releases/download/{version}/BrowserSelect.exe"
+	]
+}
