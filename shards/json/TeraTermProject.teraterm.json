@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TeraTermProject",
+		"repo": "teraterm"
+	},
+	"urls": [
+		"https://github.com/TeraTermProject/teraterm/releases/download/v{version}/teraterm-{version}-x86.exe",
+		"https://github.com/TeraTermProject/teraterm/releases/download/v{version}/teraterm-{version}-x86.exe",
+		"https://github.com/TeraTermProject/teraterm/releases/download/v{version}/teraterm-{version}-x64.exe",
+		"https://github.com/TeraTermProject/teraterm/releases/download/v{version}/teraterm-{version}-x64.exe",
+		"https://github.com/TeraTermProject/teraterm/releases/download/v{version}/teraterm-{version}-arm64.exe",
+		"https://github.com/TeraTermProject/teraterm/releases/download/v{version}/teraterm-{version}-arm64.exe"
+	]
+}
