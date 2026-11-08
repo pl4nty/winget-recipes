@@ -1,13 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "tauri",
-	"tauri": {
-		"url": "https://github.com/vergil-lai/print-bridge/releases/latest/download/latest.json"
-	},
-	"releaseNotes": {
-		"source": "github",
+	"strategy": "github-release",
+	"github": {
 		"owner": "vergil-lai",
 		"repo": "print-bridge",
-		"tag": "printbridge-v{version}"
-	}
+		"tagRegex": "^printbridge-v"
+	},
+	"urls": [
+		"https://github.com/vergil-lai/print-bridge/releases/download/printbridge-v{version}/PrintBridge_{version}_x64_en-US.msi",
+		"https://github.com/vergil-lai/print-bridge/releases/download/printbridge-v{version}/PrintBridge_{version}_x64-setup.exe"
+	]
 }
