@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sigoden",
+		"repo": "window-switcher"
+	},
+	"urls": [
+		"https://github.com/sigoden/window-switcher/releases/download/v{version}/window-switcher-v{version}-windows-arm64.zip",
+		"https://github.com/sigoden/window-switcher/releases/download/v{version}/window-switcher-v{version}-windows-64.zip"
+	]
+}
