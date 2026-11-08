@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://pub-7e43a56b93cd4288b6ac1300fa1cc5b0.r2.dev/releases/v1.0.0/latest.yml"
+	}
+}
