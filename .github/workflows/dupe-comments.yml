@@ -1,9 +1,9 @@
-name: Unattended Comments
+name: Dupe Comments
 
 on:
   push:
     branches:
-      - claude/project-thread-r5tdfj-comments
+      - claude/project-thread-w6z1c4-dupes
 
 permissions: {}
 
@@ -13,7 +13,7 @@ defaults:
 
 jobs:
   comments:
-    name: Unattended Comments
+    name: Dupe Comments
     runs-on: ubuntu-26.04-arm
     timeout-minutes: 120
     steps:
@@ -31,10 +31,10 @@ jobs:
       - name: Fetch Comments
         env:
           GH_TOKEN: ${{ github.token }}
-        run: bun unattended-comments.ts
+        run: bun dupe-comments.ts
 
       - name: Upload Comments
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
-          name: unattended-comments
-          path: unattended-comments.json
+          name: dupe-comments
+          path: dupe-comments.json
