@@ -46,7 +46,13 @@
 			"architecture": "x64"
 		}
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.sw.altova.com/v2026r2/en/DiffDogEnt2026rel2.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.altova.com/support/release-notes"
-	}
+	},
+	"replace": true
 }
