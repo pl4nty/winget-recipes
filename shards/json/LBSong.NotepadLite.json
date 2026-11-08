@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lbsong01",
+		"repo": "notepadlite"
+	},
+	"urls": [
+		"https://github.com/lbsong01/notepadlite/releases/download/{github.rawTag}/NotepadLite-{version}-win-x64.zip"
+	]
+}

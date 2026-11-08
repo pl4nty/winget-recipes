@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "halloffame12",
+		"repo": "CTX"
+	},
+	"urls": [
+		"https://github.com/halloffame12/CTX/releases/download/{github.rawTag}/ctx-windows-aarch64.exe",
+		"https://github.com/halloffame12/CTX/releases/download/{github.rawTag}/ctx-windows-x86_64.exe"
+	]
+}
