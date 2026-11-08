@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "M-Abozaid",
+		"repo": "airusb-releases"
+	},
+	"urls": [
+		"https://github.com/M-Abozaid/airusb-releases/releases/download/{github.rawTag}/UsbAirSetup-{version}.exe"
+	]
+}
