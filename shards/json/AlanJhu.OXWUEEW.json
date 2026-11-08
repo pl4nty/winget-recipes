@@ -1,8 +1,8 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "electron-builder",
-	"electronBuilder": {
-		"url": "https://eew.earthquake.tw/releases/win/x64/latest.yml"
+	"strategy": "static",
+	"version": {
+		"source": "product"
 	},
 	"urls": [
 		{
