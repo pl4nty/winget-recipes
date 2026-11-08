@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tickstep", "repo": "aliyunpan" },
+	"urls": [
+		"https://file.tickstep.com/winget/pkgs/aliyunpan/v{version}/aliyunpan-installer-{version}-x86.exe",
+		"https://file.tickstep.com/winget/pkgs/aliyunpan/v{version}/aliyunpan-installer-{version}-x64.exe"
+	]
+}
