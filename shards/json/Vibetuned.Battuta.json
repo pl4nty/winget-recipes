@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vibetuned",
+		"repo": "battuta"
+	},
+	"urls": ["https://github.com/vibetuned/battuta/releases/download/v{version}/battuta_{version}_x64-setup.exe"]
+}

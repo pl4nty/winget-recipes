@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "martinrotter", "repo": "rssguard" },
+	"urls": [
+		{ "url": "https://github.com/martinrotter/rssguard/releases/download/{version}/rssguard-{version}-web-qt6-win10.exe", "architecture": "x64" }
+	]
+}

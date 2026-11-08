@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "rcmaehl", "repo": "WhyNotWin11" },
+	"urls": [
+		"https://github.com/rcmaehl/WhyNotWin11/releases/download/{github.rawTag}/WhyNotWin11_x86.exe",
+		"https://github.com/rcmaehl/WhyNotWin11/releases/download/{github.rawTag}/WhyNotWin11.exe"
+	]
+}
