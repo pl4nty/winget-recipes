@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://dl.razerzone.com/drivers/Synapse4/RazerSynapseInstaller.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.razerzone.com/drivers/Synapse4/RazerSynapseInstaller.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
