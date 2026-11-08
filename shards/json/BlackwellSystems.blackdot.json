@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "blackwell-systems",
+		"repo": "blackdot"
+	},
+	"urls": [
+		"https://github.com/blackwell-systems/blackdot/releases/download/{github.rawTag}/blackdot_{version}_Windows_x86_64.zip",
+		"https://github.com/blackwell-systems/blackdot/releases/download/{github.rawTag}/blackdot_{version}_Windows_arm64.zip"
+	]
+}

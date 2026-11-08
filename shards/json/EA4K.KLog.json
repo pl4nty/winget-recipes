@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ea4k",
+		"repo": "klog"
+	},
+	"urls": ["https://github.com/ea4k/klog/releases/download/{version}/KLog-{version}-win64.exe"]
+}
