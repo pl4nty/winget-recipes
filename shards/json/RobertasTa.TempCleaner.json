@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "RobertasTa", "repo": "temp-cleaner" },
+	"urls": [
+		"https://github.com/RobertasTa/temp-cleaner/releases/download/v{version}/TempCleaner.exe"
+	]
+}
