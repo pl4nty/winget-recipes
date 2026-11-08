@@ -5,6 +5,15 @@
 		"source": "product"
 	},
 	"urls": [
-		{ "url": "https://download.microsoft.com/download/9d8c7f34-4647-4b1e-9b71-a67472ea1912/MDEClientAnalyzer.zip", "architecture": "x64" }
-	]
+		{
+			"url": "https://download.microsoft.com/download/9d8c7f34-4647-4b1e-9b71-a67472ea1912/MDEClientAnalyzer.zip",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.microsoft.com/download/9d8c7f34-4647-4b1e-9b71-a67472ea1912/MDEClientAnalyzer.zip",
+		"header": "etag"
+	},
+	"replace": true
 }
