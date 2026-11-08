@@ -13,5 +13,11 @@
 			"url": "https://s3.us-west-1.amazonaws.com/downloads.outlook-integration.com/software/ImplicitForOutlookIOSetup(x64).msi",
 			"architecture": "x64"
 		}
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://s3.us-west-1.amazonaws.com/downloads.outlook-integration.com/software/ImplicitForOutlookIOSetup(x86).msi",
+		"header": "etag"
+	},
+	"replace": true
 }
