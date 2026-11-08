@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "havurgiray",
+		"repo": "agent-history-tether"
+	},
+	"urls": [
+		"https://github.com/havurgiray/agent-history-tether/releases/download/{github.rawTag}/aht-{version}-windows-arm64.zip",
+		"https://github.com/havurgiray/agent-history-tether/releases/download/{github.rawTag}/aht-{version}-windows-x64.zip",
+		"https://github.com/havurgiray/agent-history-tether/releases/download/{github.rawTag}/aht-setup-{version}-windows-arm64.exe",
+		"https://github.com/havurgiray/agent-history-tether/releases/download/{github.rawTag}/aht-setup-{version}-windows-x64.exe"
+	]
+}

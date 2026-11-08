@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "browserpass",
+		"repo": "browserpass-native"
+	},
+	"urls": [
+		"https://github.com/browserpass/browserpass-native/releases/download/{github.rawTag}/browserpass-windows64-{version}.msi"
+	]
+}

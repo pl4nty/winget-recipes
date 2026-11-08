@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nicotine-plus",
+		"repo": "nicotine-plus"
+	},
+	"urls": [
+		"https://github.com/nicotine-plus/nicotine-plus/releases/download/{version}/windows-x86_64-installer.zip",
+		"https://github.com/nicotine-plus/nicotine-plus/releases/download/{version}/windows-arm64-installer.zip"
+	]
+}

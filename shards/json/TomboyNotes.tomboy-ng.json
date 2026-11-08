@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tomboy-notes", "repo": "tomboy-ng" },
+	"urls": [
+		"https://github.com/tomboy-notes/tomboy-ng/releases/download/v{version}/tomboy-ng-setup-{version}.exe"
+	]
+}
