@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Cleobury",
+		"repo": "AudioWindowTracker"
+	},
+	"urls": [
+		"https://github.com/Cleobury/AudioWindowTracker/releases/download/{github.rawTag}/AudioWindowTracker.exe"
+	]
+}
