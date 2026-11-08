@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SecureCloudGroup",
+		"repo": "SmartBrain_3000"
+	},
+	"urls": [
+		"https://github.com/SecureCloudGroup/SmartBrain_3000/releases/download/v{version}/SmartBrain-windows.zip"
+	]
+}

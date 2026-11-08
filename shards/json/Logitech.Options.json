@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
