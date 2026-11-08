@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wudaming00",
+		"repo": "vocalcode-docs"
+	},
+	"urls": [
+		"https://github.com/wudaming00/vocalcode-docs/releases/download/{github.rawTag}/VocalCodeSetup-{version}.exe"
+	]
+}

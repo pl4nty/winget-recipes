@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Pitan76",
+		"repo": "ModParks-CLI"
+	},
+	"urls": [
+		"https://github.com/Pitan76/ModParks-CLI/releases/download/v{version}/modparks-cli-v{version}-windows-x86_64.zip"
+	]
+}
