@@ -1,9 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.nirsoft.net/utils/usb_log_view.html",
-		"regex": "Versions History</h4>\\s*<ul[^>]*>\\s*<li>Version (?<version>\\d+(?:\\.\\d+)+)"
+	"strategy": "xml",
+	"xml": {
+		"url": "https://www.nirsoft.net/pad/usblogview.xml",
+		"path": "XML_DIZ_INFO.0.Program_Info.0.Program_Version.0"
 	},
 	"urls": [
 		{
