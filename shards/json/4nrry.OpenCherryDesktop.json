@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "4nrry",
+		"repo": "opencherry"
+	},
+	"urls": [
+		"https://github.com/4nrry/opencherry/releases/download/{github.rawTag}/OpenCherry_{version}_x64-setup.exe"
+	]
+}
