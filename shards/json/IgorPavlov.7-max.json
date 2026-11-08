@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://7-max.com/a/7max2401.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://7-max.com/a/7max2401.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
