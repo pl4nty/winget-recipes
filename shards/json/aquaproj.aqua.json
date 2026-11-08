@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aquaproj",
+		"repo": "aqua"
+	},
+	"urls": [
+		"https://github.com/aquaproj/aqua/releases/download/{github.rawTag}/aqua_windows_amd64.zip",
+		"https://github.com/aquaproj/aqua/releases/download/{github.rawTag}/aqua_windows_arm64.zip"
+	]
+}
