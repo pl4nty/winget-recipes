@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "matt-dx",
+		"repo": "diffthis"
+	},
+	"urls": [
+		"https://github.com/matt-dx/diffthis/releases/download/v{version}/DiffThis-windows-x64.zip"
+	]
+}

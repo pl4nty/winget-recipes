@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elclaudioabierto",
+		"repo": "rapido-fs"
+	},
+	"urls": [
+		"https://github.com/elclaudioabierto/rapido-fs/releases/download/{github.rawTag}/rao-windows-x64.zip"
+	]
+}

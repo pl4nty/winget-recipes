@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "roblillack",
+		"repo": "tdoc"
+	},
+	"urls": [
+		"https://github.com/roblillack/tdoc/releases/download/v{version}/tdoc-windows-x86_64.exe",
+		"https://github.com/roblillack/tdoc/releases/download/v{version}/tdoc-windows-aarch64.exe"
+	]
+}
