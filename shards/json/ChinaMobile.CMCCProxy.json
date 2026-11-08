@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://aifast.komect.com/portal/pc/downloadPcClient/1852100238471585872"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://aifast.komect.com/portal/pc/downloadPcClient/1852100238471585872",
+		"header": "etag"
+	},
+	"replace": true
 }
