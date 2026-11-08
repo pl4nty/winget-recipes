@@ -3,11 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "EutropicAI",
-		"repo": "Final2x"
+		"repo": "Final2x",
+		"method": "api-sort",
+		"assetRegex": "-windows-(x64|arm64)-setup\\.exe$"
 	},
-	"urls": [
-		"https://github.com/EutropicAI/Final2x/releases/download/{github.rawTag}/Final2x-windows-x64-setup.exe",
-		"https://github.com/EutropicAI/Final2x/releases/download/{github.rawTag}/Final2x-windows-arm64-setup.exe"
-	],
 	"version": { "source": "display" }
 }
