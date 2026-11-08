@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "v2fly", "repo": "v2ray-core" },
+	"urls": [
+		"https://github.com/v2fly/v2ray-core/releases/download/v{version}/v2ray-windows-32.zip",
+		"https://github.com/v2fly/v2ray-core/releases/download/v{version}/v2ray-windows-64.zip",
+		"https://github.com/v2fly/v2ray-core/releases/download/v{version}/v2ray-windows-arm64-v8a.zip"
+	]
+}

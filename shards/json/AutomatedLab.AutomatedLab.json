@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AutomatedLab",
+		"repo": "AutomatedLab"
+	},
+	"urls": [
+		"https://github.com/AutomatedLab/AutomatedLab/releases/download/{github.rawTag}/AutomatedLab.msi"
+	]
+}
