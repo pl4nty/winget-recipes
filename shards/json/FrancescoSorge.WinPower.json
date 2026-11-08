@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sorge13248",
+		"repo": "winpower"
+	},
+	"urls": [
+		"https://github.com/sorge13248/winpower/releases/download/{github.rawTag}/winpower-setup.exe"
+	]
+}

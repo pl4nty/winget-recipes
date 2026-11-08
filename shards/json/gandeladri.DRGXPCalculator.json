@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gandeladri",
+		"repo": "drg-xp-calculator"
+	},
+	"urls": [
+		"https://github.com/gandeladri/drg-xp-calculator/releases/download/{github.rawTag}/drg-xp-calculator.exe"
+	]
+}
