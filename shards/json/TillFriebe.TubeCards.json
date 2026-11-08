@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "friebetill", "repo": "TubeCards" },
+	"urls": [
+		{ "url": "https://github.com/friebetill/TubeCards/releases/download/{version}/space_{version}.msix", "architecture": "x86" }
+	]
+}
