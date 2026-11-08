@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://cdnone.aerosoft.com/client/installers/Aerosoft%20One%20Setup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdnone.aerosoft.com/client/installers/Aerosoft%20One%20Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
