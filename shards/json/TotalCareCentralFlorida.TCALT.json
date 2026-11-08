@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TotalCare-Orlando",
+		"repo": "TCALT"
+	},
+	"urls": [
+		"https://github.com/TotalCare-Orlando/TCALT/releases/download/v{version}/TCALT.Windows.Setup.v{version}.exe"
+	]
+}

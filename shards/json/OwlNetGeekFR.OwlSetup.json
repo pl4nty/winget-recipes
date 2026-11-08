@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "OwlNetGeekFR", "repo": "OwlSetup" },
+	"urls": ["https://github.com/OwlNetGeekFR/OwlSetup/releases/download/{github.rawTag}/OwlSetup-Setup.exe"]
+}

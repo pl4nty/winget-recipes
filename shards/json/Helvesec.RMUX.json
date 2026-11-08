@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Helvesec",
+		"repo": "rmux"
+	},
+	"urls": [
+		"https://github.com/Helvesec/rmux/releases/download/{github.rawTag}/rmux-{version}-windows-x86_64.zip"
+	]
+}
