@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "RitvikDayal", "repo": "featherwall" },
+	"urls": [
+		"https://github.com/RitvikDayal/featherwall/releases/download/v{version}/featherwall-v{version}-win-x64.zip"
+	]
+}

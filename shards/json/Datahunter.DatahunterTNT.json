@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "matkaise",
+		"repo": "datahunter_tnt-releases"
+	},
+	"urls": [
+		"https://github.com/matkaise/datahunter_tnt-releases/releases/download/{github.rawTag}/DatahunterTNT-{version}-win64.msi"
+	]
+}
