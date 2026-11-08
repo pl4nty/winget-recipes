@@ -17,5 +17,11 @@
 			"url": "https://downloads.spacedesk.net/downloads/spacedesk_driver_Win_11_ARM64_v2234.msi",
 			"architecture": "arm64"
 		}
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.spacedesk.net/downloads/spacedesk_driver_Win_10_32_v2234.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
