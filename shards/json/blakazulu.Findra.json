@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "blakazulu",
+		"repo": "findra"
+	},
+	"urls": [
+		"https://github.com/blakazulu/findra/releases/download/{github.rawTag}/findra-setup-arm64.exe",
+		"https://github.com/blakazulu/findra/releases/download/{github.rawTag}/findra-setup-x64.exe"
+	]
+}
