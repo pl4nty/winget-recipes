@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sufone",
+		"repo": "qawl"
+	},
+	"urls": ["https://github.com/sufone/qawl/releases/download/v{version}/Qawl-Windows-Setup-{version}.exe"]
+}
