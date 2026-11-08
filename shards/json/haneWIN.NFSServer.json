@@ -7,7 +7,13 @@
 	"urls": [
 		"https://r.hanewin.net/nfs1268.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://r.hanewin.net/nfs1268.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.hanewin.net/doc/nfs/update.txt"
-	}
+	},
+	"replace": true
 }
