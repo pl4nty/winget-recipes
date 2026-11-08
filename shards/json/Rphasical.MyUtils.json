@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Rphasical",
+		"repo": "MyUtils"
+	},
+	"urls": [
+		"https://github.com/Rphasical/MyUtils/releases/download/v{version}/myutils.exe"
+	]
+}

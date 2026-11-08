@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Braeth",
+		"repo": "RAD"
+	},
+	"urls": [
+		"https://github.com/Braeth/RAD/releases/download/{github.rawTag}/rad-win-arm64.exe",
+		"https://github.com/Braeth/RAD/releases/download/{github.rawTag}/rad-win-x86_64.exe"
+	]
+}

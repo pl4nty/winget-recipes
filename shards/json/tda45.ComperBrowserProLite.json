@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tda45",
+		"repo": "Comper-Browser-Pro-Lite"
+	},
+	"urls": [
+		"https://github.com/tda45/Comper-Browser-Pro-Lite/releases/download/v{version}/Comper-{version}.en-US.win64.installer.exe"
+	]
+}
