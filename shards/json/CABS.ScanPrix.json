@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://www.scanprix.de/Setup/Setup_ScanPrix.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.scanprix.de/Setup/Setup_ScanPrix.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
