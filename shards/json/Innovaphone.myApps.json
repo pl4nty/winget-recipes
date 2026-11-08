@@ -13,5 +13,11 @@
 			"url": "https://store.innovaphone.com/release/1700300/innovaphone-appstore?filename=1611053myappswindowsmyAppsSetup.msi&nameout=myAppsSetup.msi&update=true",
 			"architecture": "x64"
 		}
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://store.innovaphone.com/release/1700300/innovaphone-appstore?filename=1611053myappswindowsmyAppsSetup32.msi&nameout=myAppsSetup32.msi&update=true",
+		"header": "content-disposition"
+	},
+	"replace": true
 }
