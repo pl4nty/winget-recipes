@@ -62,7 +62,7 @@ for (const { number, title, labels } of prs.values()) {
 		for (const json of await read('ValidationResult/*/*/*_Result.json')) {
 			const { TestPlansResults = [], AnalysisResults = [] } = JSON.parse(json);
 			for (const plan of TestPlansResults) {
-				if (plan.Result === 'Success') continue;
+				if (plan.Result === 'Success' || plan.Result === 'Waived') continue;
 				const at = where(plan.ResultMetadata);
 				const prefix = `${field(plan.ResultMetadata, 'Architecture')}-${field(plan.ResultMetadata, 'Scope') ?? 'Scope_Undefined'}-${field(plan.ResultMetadata, 'Locale') ?? 'Locale_Undefined'}-`;
 				const log = (suffix: string) => [...logs].find(([name]) => name.startsWith(prefix) && name.includes(suffix))?.[1];
@@ -79,6 +79,13 @@ for (const { number, title, labels } of prs.values()) {
 						.filter(([path, run]: any) => run.ExecutionStatusResult !== 'Success' && path.includes('WinGet'))
 						.map(([path, run]: any) => `${path.split('\\').pop()} exit ${run.ExitCode}: ${(run.ErrorStream || run.OutputStream).split(/\r?\n/)[0].trim().slice(0, 120)}`);
 					findings.push([plan.Result === 'ManualReview' ? 'manual review' : 'needs fix', `${at}: executable check ${plan.Result}: ${[...new Set(runs)].join('; ')}`]);
+				} else if (plan.TestPlan === 'Validation-Installation-Error') {
+					// 0x8019xxxx is winget's HTTP status error, so a 5xx or 429 is the download failing, not the installer.
+					const code = Number(field(plan.ResultMetadata, 'Exit Code')) >>> 0;
+					const status = code >>> 16 === 0x8019 ? code & 0xffff : 0;
+					if (status >= 500 || status === 429)
+						findings.push(['validation VM problem', `${at}: installer download failed with HTTP ${status}`]);
+					else findings.push(['needs fix', `${at}: install failed, exit 0x${code.toString(16)}${status ? ` (HTTP ${status})` : ''}`]);
 				} else if (plan.TestPlan === 'Validation-Unattended-Failed') {
 					findings.push(['needs fix', `${at}: install waited for user input until timeout, screenshot ${log('ErrorScreenshot') ?? 'missing'}`]);
 				} else {
