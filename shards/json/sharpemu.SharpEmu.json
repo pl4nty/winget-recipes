@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sharpemu",
+		"repo": "sharpemu",
+		"tagRegex": "(?<=^v\\d+(?:\\.\\d+)*)(?:-[a-z][a-z0-9.-]*)?$"
+	},
+	"urls": [
+		"https://github.com/sharpemu/sharpemu/releases/download/{github.rawTag}/sharpemu-{github.tag}-win-x64.zip"
+	]
+}
