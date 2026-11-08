@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://ftp.hp.com/pub/softpaq/sp172001-172500/sp172460.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://ftp.hp.com/pub/softpaq/sp172001-172500/sp172460.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
