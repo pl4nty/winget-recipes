@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "szv",
+		"repo": "git-shadowtree"
+	},
+	"urls": [
+		"https://github.com/szv/git-shadowtree/releases/download/v{version}/git-shadowtree-{version}-win-x64.zip"
+	]
+}
