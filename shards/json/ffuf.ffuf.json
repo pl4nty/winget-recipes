@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ffuf",
+		"repo": "ffuf"
+	},
+	"urls": [
+		"https://github.com/ffuf/ffuf/releases/download/{github.rawTag}/ffuf_{version}_windows_386.zip",
+		"https://github.com/ffuf/ffuf/releases/download/{github.rawTag}/ffuf_{version}_windows_amd64.zip",
+		"https://github.com/ffuf/ffuf/releases/download/{github.rawTag}/ffuf_{version}_windows_arm64.zip"
+	]
+}

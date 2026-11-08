@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JohnPitter",
+		"repo": "againstme-oficial"
+	},
+	"urls": [
+		"https://github.com/JohnPitter/againstme-oficial/releases/download/{github.rawTag}/againstme-app.exe"
+	]
+}

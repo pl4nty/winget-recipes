@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Warzone2100",
+		"repo": "warzone2100"
+	},
+	"urls": ["https://github.com/Warzone2100/warzone2100/releases/download/{version}/warzone2100_win_installer.exe"]
+}
