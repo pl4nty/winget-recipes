@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "silviuk",
+		"repo": "Luminark"
+	},
+	"urls": [{ "url": "https://github.com/silviuk/Luminark/releases/download/v{version}/Luminark-Setup-v{version}.exe", "architecture": "x64" }]
+}

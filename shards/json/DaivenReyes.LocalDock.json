@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rdaiven",
+		"repo": "localdock"
+	},
+	"urls": [
+		"https://github.com/rdaiven/localdock/releases/download/{github.rawTag}/LocalDock_{version}_x64-setup.exe"
+	]
+}
