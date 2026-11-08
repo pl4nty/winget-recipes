@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "feci",
+		"repo": "parley-deck-skill"
+	},
+	"urls": [
+		"https://github.com/feci/parley-deck-skill/releases/download/{github.rawTag}/parley-deck-skill-v{version}-windows-arm64.exe",
+		"https://github.com/feci/parley-deck-skill/releases/download/{github.rawTag}/parley-deck-skill-v{version}-windows-x64.exe"
+	]
+}
