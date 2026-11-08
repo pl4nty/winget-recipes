@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dontcallmejames",
+		"repo": "CodexBar-Windows"
+	},
+	"urls": [
+		"https://github.com/dontcallmejames/CodexBar-Windows/releases/download/{github.rawTag}/CodexBar-Windows-{version}-win-x64.installer.exe"
+	]
+}
