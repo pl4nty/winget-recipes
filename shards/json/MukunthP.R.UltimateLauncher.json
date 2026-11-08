@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mukunthpr", "repo": "UltimateLauncher" },
+	"urls": ["https://github.com/mukunthpr/UltimateLauncher/releases/download/v{version}/UltimateLauncher-Windows-x64-Setup.exe"]
+}
