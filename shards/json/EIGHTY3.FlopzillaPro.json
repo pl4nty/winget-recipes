@@ -5,9 +5,18 @@
 		"source": "display"
 	},
 	"urls": [
-		{ "url": "https://londongto.s3-accelerate.amazonaws.com/FlopzillaPro217.msi", "architecture": "x64" }
+		{
+			"url": "https://londongto.s3-accelerate.amazonaws.com/FlopzillaPro217.msi",
+			"architecture": "x64"
+		}
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://londongto.s3-accelerate.amazonaws.com/FlopzillaPro217.msi",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.flopzilla.com/download/"
-	}
+	},
+	"replace": true
 }
