@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dokan-dev",
+		"repo": "dokany"
+	},
+	"urls": [
+		"https://github.com/dokan-dev/dokany/releases/download/v{version}/Dokan_x86.msi",
+		"https://github.com/dokan-dev/dokany/releases/download/v{version}/Dokan_x64.msi",
+		"https://github.com/dokan-dev/dokany/releases/download/v{version}/Dokan_ARM64.msi",
+		"https://github.com/dokan-dev/dokany/releases/download/v{version}/DokanSetup.exe"
+	]
+}
