@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HasNate618",
+		"repo": "Glyph"
+	},
+	"urls": [
+		"https://github.com/HasNate618/Glyph/releases/download/{github.rawTag}/Glyph-win-arm64-v{version}.zip",
+		"https://github.com/HasNate618/Glyph/releases/download/{github.rawTag}/Glyph-win-x64-v{version}.zip"
+	]
+}
