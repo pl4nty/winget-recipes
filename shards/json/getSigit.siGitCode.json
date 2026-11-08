@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "getsigit",
+		"repo": "sigit"
+	},
+	"urls": [
+		"https://github.com/getsigit/sigit/releases/download/{github.rawTag}/sigit-win-amd64.exe",
+		"https://github.com/getsigit/sigit/releases/download/{github.rawTag}/sigit-win-arm64.exe"
+	]
+}

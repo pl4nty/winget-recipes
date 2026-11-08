@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "nosoogja", "repo": "reg-macros" },
+	"urls": ["https://github.com/nosoogja/reg-macros/releases/download/v{version}/reg-macros.exe"]
+}

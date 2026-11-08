@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hestudio-community",
+		"repo": "apksigner-gui"
+	},
+	"urls": [
+		"https://github.com/hestudio-community/apksigner-gui/releases/download/{github.rawTag}/apksignergui_{version}_amd64.msi",
+		"https://github.com/hestudio-community/apksigner-gui/releases/download/{github.rawTag}/apksignergui_{version}_arm64.msi"
+	]
+}

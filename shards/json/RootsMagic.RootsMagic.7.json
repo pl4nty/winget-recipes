@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://files.rootsmagic.com/RM7/RM7Setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://files.rootsmagic.com/RM7/RM7Setup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://community.rootsmagic.com/t/rootsmagic-7-7-0-and-update-history/1077"
+	},
+	"replace": true
+}
