@@ -1,11 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
+	"strategy": "json",
+	"json": {
 		"url": "https://crashpro-inference.psynect.workers.dev/releases/latest-installer.json",
-		"regex": "^(?=[\\s\\S]*?\"version\":\\s*\"(?<version>[^\"]+)\")(?=[\\s\\S]*?\"installer_url\":\\s*\"(?<url>[^\"]+)\")"
+		"path": "version"
 	},
-	"urls": ["{captures.url}"],
+	"urls": [
+		"installer_url"
+	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://omnimend.com/changelog"
 	}
