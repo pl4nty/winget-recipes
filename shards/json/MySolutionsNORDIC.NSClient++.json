@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mickem",
+		"repo": "nscp"
+	},
+	"urls": [
+		"https://github.com/mickem/nscp/releases/download/{version}/NSCP-{version}-Win32-legacy-xp.msi",
+		"https://github.com/mickem/nscp/releases/download/{version}/NSCP-{version}-x64.msi",
+		"https://github.com/mickem/nscp/releases/download/{version}/NSCP-{version}-ARM64.msi"
+	]
+}
