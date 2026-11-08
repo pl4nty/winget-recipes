@@ -3,7 +3,7 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://www.navicat.com/products/navicat-bi-release-note",
-		"regex": "Navicat BI \\(Windows\\) version (?<version>(?<major>2)\\.\\d+\\.\\d+)<"
+		"regex": "Navicat BI \\(Windows\\) version (?<version>(?<major>\\d+)\\.\\d+\\.\\d+)<"
 	},
 	"urls": [
 		"https://download3.navicat.com/download/navicatbiviewer0{captures.major}_es_x64.exe",
