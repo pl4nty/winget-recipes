@@ -86,7 +86,13 @@
 			"architecture": "x64"
 		}
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.visualstudio.microsoft.com/download/pr/8ecf849d-e339-4e05-8460-7e8ee340a5f4/a2e8d66523b624f0ee27fc50e2a919c4/azuredevops_inttooloffice2019_enu.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://learn.microsoft.com/zh-cn/visualstudio/releases/2019/release-notes"
-	}
+	},
+	"replace": true
 }
