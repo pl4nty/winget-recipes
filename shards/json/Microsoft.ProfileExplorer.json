@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "profile-explorer"
+	},
+	"urls": [
+		"https://github.com/microsoft/profile-explorer/releases/download/v{version}/profile_explorer_installer_{version}_x64.exe",
+		"https://github.com/microsoft/profile-explorer/releases/download/v{version}/profile_explorer_installer_{version}_arm64.exe"
+	]
+}

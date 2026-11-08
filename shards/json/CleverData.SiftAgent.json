@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cleverdatagr",
+		"repo": "sift-agent"
+	},
+	"urls": [
+		"https://github.com/cleverdatagr/sift-agent/releases/download/{github.rawTag}/sift.exe"
+	]
+}
