@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qqrm",
+		"repo": "rust-switcher-rs"
+	},
+	"urls": ["https://github.com/qqrm/rust-switcher-rs/releases/download/v{version}/rust-switcher.exe"]
+}

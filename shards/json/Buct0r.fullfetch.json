@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Buct0r",
+		"repo": "fullfetch"
+	},
+	"urls": [
+		"https://github.com/Buct0r/fullfetch/releases/download/{github.rawTag}/fullfetch_installer_amd64.exe",
+		"https://github.com/Buct0r/fullfetch/releases/download/{github.rawTag}/fullfetch_installer_arm64.exe"
+	]
+}
