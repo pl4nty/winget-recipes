@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rishabh3354",
+		"repo": "4KWALL"
+	},
+	"urls": [
+		"https://github.com/rishabh3354/4KWALL/releases/download/v{version}/4kWall-{version}-x86_64.exe"
+	]
+}

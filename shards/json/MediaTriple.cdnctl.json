@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/mediatriple/cdnctl/releases/download/{github.rawTag}/cdnctl-{version}-windows-amd64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/mediatriple/cdnctl/releases/tag/v{version}"
-	}
+	]
 }

@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/JuanjoFuchs/ccburn/releases/download/{github.rawTag}/ccburn-{version}-windows-x64.exe"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/JuanjoFuchs/ccburn/releases/tag/{github.rawTag}"
-	}
+	]
 }

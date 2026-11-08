@@ -5,8 +5,5 @@
 		"owner": "Nanamiiiii",
 		"repo": "afunix-agent"
 	},
-	"urls": ["https://github.com/Nanamiiiii/afunix-agent/releases/download/v{version}/afunix-agent-x86_64-pc-windows-msvc.exe"],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/Nanamiiiii/afunix-agent/releases/tag/{github.rawTag}"
-	}
+	"urls": ["https://github.com/Nanamiiiii/afunix-agent/releases/download/v{version}/afunix-agent-x86_64-pc-windows-msvc.exe"]
 }

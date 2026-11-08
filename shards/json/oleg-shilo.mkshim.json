@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "oleg-shilo", "repo": "mkshim" },
+	"urls": ["https://github.com/oleg-shilo/mkshim/releases/download/v{version}/mkshim.zip"]
+}

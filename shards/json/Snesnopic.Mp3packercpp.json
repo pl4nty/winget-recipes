@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Snesnopic",
+		"repo": "mp3packercpp"
+	},
+	"urls": [
+		"https://github.com/Snesnopic/mp3packercpp/releases/download/v{version}/mp3packercpp-windows-x64.zip",
+		"https://github.com/Snesnopic/mp3packercpp/releases/download/v{version}/mp3packercpp-windows-x86.zip",
+		"https://github.com/Snesnopic/mp3packercpp/releases/download/v{version}/mp3packercpp-windows-arm64.zip"
+	]
+}
