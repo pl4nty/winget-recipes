@@ -6,14 +6,7 @@
 		"regex": "Hstart_(?<version>\\d+(?:\\.\\d+)+)-setup\\.exe"
 	},
 	"urls": [
-		{
-			"url": "https://hstart.s3.amazonaws.com/Hstart_{version}-setup.exe",
-			"architecture": "x86"
-		},
-		{
-			"url": "https://hstart.s3.amazonaws.com/Hstart_{version}-setup.exe",
-			"architecture": "x64"
-		}
+		"https://hstart.s3.amazonaws.com/Hstart_{version}-setup.exe"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.ntwind.com/software/hstart/what-is-new.html"
