@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "PolarGoose", "repo": "clang-format-for-Windows" },
+	"urls": ["https://github.com/PolarGoose/clang-format-for-Windows/releases/download/{github.rawTag}/clang-format.zip"]
+}
