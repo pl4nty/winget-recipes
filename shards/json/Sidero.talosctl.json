@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "siderolabs",
+		"repo": "talos"
+	},
+	"urls": [
+		"https://github.com/siderolabs/talos/releases/download/v{version}/talosctl-windows-amd64.exe",
+		"https://github.com/siderolabs/talos/releases/download/v{version}/talosctl-windows-arm64.exe"
+	]
+}
