@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "xml",
+	"xml": {
+		"url": "https://www.nirsoft.net/pad/bluetoothview.xml",
+		"path": "XML_DIZ_INFO.0.Program_Info.0.Program_Version.0"
+	},
+	"urls": [
+		{
+			"url": "https://www.nirsoft.net/utils/bluetoothview.zip",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nirsoft.net/utils/bluetooth_viewer.html#:~:text=Versions%20History"
+	},
+	"replace": true
+}
