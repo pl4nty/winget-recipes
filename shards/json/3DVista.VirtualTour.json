@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.3dvista.com/current/show/3DVVirtualTour_x64.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.3dvista.com/current/show/3DVVirtualTour_x64.exe",
+		"header": "last-modified"
+	},
+	"replace": true
 }
