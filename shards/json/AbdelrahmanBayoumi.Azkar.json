@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AbdelrahmanBayoumi",
+		"repo": "Azkar-App"
+	},
+	"urls": [
+		"https://github.com/AbdelrahmanBayoumi/Azkar-App/releases/download/{github.rawTag}/Azkar_windows-x32.exe",
+		"https://github.com/AbdelrahmanBayoumi/Azkar-App/releases/download/{github.rawTag}/Azkar_windows-x64.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rootMonsteR",
+		"repo": "holdtospeak"
+	},
+	"urls": [
+		"https://github.com/rootMonsteR/holdtospeak/releases/download/v{version}/HoldToSpeak-{version}-x64-setup.exe"
+	]
+}

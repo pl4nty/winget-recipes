@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "i-snyder",
+		"repo": "unbramble"
+	},
+	"urls": [
+		"https://github.com/i-snyder/unbramble/releases/download/{github.rawTag}/unbramble-win-x64.zip"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ideocentric",
+		"repo": "iconsmaker"
+	},
+	"urls": [
+		"https://github.com/ideocentric/iconsmaker/releases/download/{github.rawTag}/iconsmaker-{version}-arm64.msi",
+		"https://github.com/ideocentric/iconsmaker/releases/download/{github.rawTag}/iconsmaker-{version}-x86_64.msi"
+	]
+}

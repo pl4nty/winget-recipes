@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Devolvio-B-V",
+		"repo": "cloudflare-dlp-forensic-copy-decoder"
+	},
+	"urls": [
+		"https://github.com/Devolvio-B-V/cloudflare-dlp-forensic-copy-decoder/releases/download/{github.rawTag}/cf-dlp-decode-windows-amd64.exe",
+		"https://github.com/Devolvio-B-V/cloudflare-dlp-forensic-copy-decoder/releases/download/{github.rawTag}/cf-dlp-decode-windows-arm64.exe"
+	]
+}

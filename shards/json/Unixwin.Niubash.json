@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "unixwin",
+		"repo": "niubash"
+	},
+	"urls": [
+		"https://github.com/unixwin/niubash/releases/download/v{version}/niubash-v{version}-win-x64-setup.exe",
+		"https://github.com/unixwin/niubash/releases/download/v{version}/niubash-v{version}-win-arm64-setup.exe"
+	]
+}
