@@ -1,6 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "ms-download-center",
+	"version": {
+		"source": "display"
+	},
 	"msDownloadCenter": {
 		"id": 52210,
 		"regex": "^(?:SurfaceHub_Recovery_v\\d+\\.\\d+\\.\\d+\\.\\d+\\.msi)$"
