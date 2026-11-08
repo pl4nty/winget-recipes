@@ -9,18 +9,7 @@
 		"source": "product"
 	},
 	"urls": [
-		{
-			"url": "{captures.url|http:|https:}",
-			"architecture": "x86"
-		},
-		{
-			"url": "{captures.url|http:|https:}",
-			"architecture": "x64"
-		},
-		{
-			"url": "{captures.url|http:|https:}",
-			"architecture": "arm64"
-		}
+		"{captures.url|http:|https:}"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://pinyin.sogou.com/changelog.php"
