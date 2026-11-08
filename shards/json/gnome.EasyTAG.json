@@ -3,9 +3,9 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://wiki.gnome.org/Apps/EasyTAG",
-		"regex": "https://download\\.gnome\\.org/binaries/win32/easytag/2\\.4/easytag\\-(\\d+(?:\\.\\d+)+)\\-setup\\.exe"
+		"regex": "https://download\\.gnome\\.org/binaries/win32/easytag/(?<minor>\\d+\\.\\d+)/easytag-(?<version>\\d+(?:\\.\\d+)+)-setup\\.exe"
 	},
 	"urls": [
-		"https://download.gnome.org/binaries/win32/easytag/2.4/easytag-{version}-setup.exe"
+		"https://download.gnome.org/binaries/win32/easytag/{captures.minor}/easytag-{version}-setup.exe"
 	]
 }
