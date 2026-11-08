@@ -6,14 +6,7 @@
 		"regex": "news/jmmg-text-file-editor-v(\\d+(?:\\.\\d+)+)\\.php"
 	},
 	"urls": [
-		{
-			"url": "https://www.jmmgc.com/downloads/Text_File_Editor_Standalone.exe",
-			"architecture": "x86"
-		},
-		{
-			"url": "https://www.jmmgc.com/downloads/Text_File_Editor_Standalone.exe",
-			"architecture": "x64"
-		},
+		"https://www.jmmgc.com/downloads/Text_File_Editor_Standalone.exe",
 		{
 			"url": "https://www.jmmgc.com/downloads/Text_File_Editor_Standalone_ARM64.exe",
 			"architecture": "arm64"
