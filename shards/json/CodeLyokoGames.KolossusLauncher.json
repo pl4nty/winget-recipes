@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://ifscl.b-cdn.net/kolossus/Kolossus_200_8_Win.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://ifscl.b-cdn.net/kolossus/Kolossus_200_8_Win.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
