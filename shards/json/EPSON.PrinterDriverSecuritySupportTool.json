@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.epson-europe.com/pub/download/6728/epson672879eu.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.epson-europe.com/pub/download/6728/epson672879eu.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
