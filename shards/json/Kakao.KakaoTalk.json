@@ -13,5 +13,11 @@
 			"url": "https://app-pc.kakaocdn.net/talk/win32/x64/KakaoTalk_Setup.exe",
 			"architecture": "x64"
 		}
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://app-pc.kakaocdn.net/talk/win32/KakaoTalk_Setup.exe",
+		"header": "last-modified"
+	},
+	"replace": true
 }
