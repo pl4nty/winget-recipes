@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "socialmediatvtweet-tech",
+		"repo": "osltxt-format"
+	},
+	"urls": [
+		"https://github.com/socialmediatvtweet-tech/osltxt-format/releases/download/{github.rawTag}/osltxt.exe"
+	]
+}
