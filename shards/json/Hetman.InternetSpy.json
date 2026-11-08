@@ -7,7 +7,13 @@
 	"urls": [
 		"https://hetmanrecovery.com/download/hetman_internet_spy.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://hetmanrecovery.com/download/hetman_internet_spy.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://hetmanrecovery.com/hetman_internet_spy_version_history.htm"
-	}
+	},
+	"replace": true
 }
