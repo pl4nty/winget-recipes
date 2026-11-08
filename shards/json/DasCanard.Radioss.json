@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DasCanard",
+		"repo": "radioss"
+	},
+	"urls": [
+		"https://github.com/DasCanard/radioss/releases/download/{github.rawTag}/Radioss.{version}.msi"
+	]
+}
