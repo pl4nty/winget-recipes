@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fifty-six",
+		"repo": "Scarab"
+	},
+	"urls": [
+		"https://github.com/fifty-six/Scarab/releases/download/{github.rawTag}/windows.zip"
+	]
+}
