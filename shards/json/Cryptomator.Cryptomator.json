@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cryptomator",
+		"repo": "cryptomator"
+	},
+	"urls": ["https://github.com/cryptomator/cryptomator/releases/download/{version}/Cryptomator-{version}-x64.msi"]
+}

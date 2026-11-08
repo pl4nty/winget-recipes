@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mehmetali011",
+		"repo": "LocalCargo"
+	},
+	"urls": ["https://github.com/mehmetali011/LocalCargo/releases/download/v{version}/LocalCargo-windows.zip"]
+}

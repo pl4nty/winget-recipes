@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dev-centr",
+		"repo": "ibex-install-builder"
+	},
+	"urls": [
+		"https://github.com/dev-centr/ibex-install-builder/releases/download/{github.rawTag}/ibex-windows-amd64.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ajunior",
+		"repo": "qub"
+	},
+	"urls": [
+		"https://github.com/ajunior/qub/releases/download/{github.rawTag}/qub-{version}-setup.exe"
+	]
+}

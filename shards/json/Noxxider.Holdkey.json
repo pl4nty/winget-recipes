@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Noxxider", "repo": "holdkey-releases" },
+	"urls": ["https://github.com/Noxxider/holdkey-releases/releases/download/{github.rawTag}/Holdkey.Dictation_{version}_x64-setup.exe"]
+}
