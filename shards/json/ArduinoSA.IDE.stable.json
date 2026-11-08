@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "arduino",
+		"repo": "arduino-ide"
+	},
+	"urls": [
+		"https://github.com/arduino/arduino-ide/releases/download/{version}/arduino-ide_{version}_Windows_64bit.zip",
+		"https://github.com/arduino/arduino-ide/releases/download/{version}/arduino-ide_{version}_Windows_64bit.exe",
+		"https://github.com/arduino/arduino-ide/releases/download/{version}/arduino-ide_{version}_Windows_64bit.msi"
+	]
+}

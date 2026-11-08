@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "YuanDevTeam",
+		"repo": "OneXray"
+	},
+	"urls": [
+		"https://github.com/YuanDevTeam/OneXray/releases/download/v{version}/OneXray-windows-amd64.exe",
+		"https://github.com/YuanDevTeam/OneXray/releases/download/v{version}/OneXray-windows-arm64.exe"
+	]
+}

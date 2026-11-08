@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "danielfoord",
+		"repo": "claude-usage-tray"
+	},
+	"urls": [
+		"https://github.com/danielfoord/claude-usage-tray/releases/download/{github.rawTag}/claude-monitor.exe"
+	]
+}

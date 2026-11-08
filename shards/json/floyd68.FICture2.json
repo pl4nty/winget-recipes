@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "floyd68",
+		"repo": "FICture2",
+		"method": "api-sort",
+		"assetRegex": "^(?:FICture\\d+\\-Setup\\-\\d+\\.\\d+\\.exe)$"
+	}
+}
