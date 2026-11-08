@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+		"path": "FIREFOX_ESR"
+	},
+	"versionRemove": "esr",
+	"urls": [
+		"https://download-installer.cdn.mozilla.net/pub/firefox/releases/{data.FIREFOX_ESR}/win32/skr/Firefox%20Setup%20{data.FIREFOX_ESR}.exe",
+		"https://download-installer.cdn.mozilla.net/pub/firefox/releases/{data.FIREFOX_ESR}/win64/skr/Firefox%20Setup%20{data.FIREFOX_ESR}.exe",
+		"https://download-installer.cdn.mozilla.net/pub/firefox/releases/{data.FIREFOX_ESR}/win64-aarch64/skr/Firefox%20Setup%20{data.FIREFOX_ESR}.exe",
+		"https://download-installer.cdn.mozilla.net/pub/firefox/releases/{data.FIREFOX_ESR}/win32/skr/Firefox%20Setup%20{data.FIREFOX_ESR}.msi",
+		"https://download-installer.cdn.mozilla.net/pub/firefox/releases/{data.FIREFOX_ESR}/win64/skr/Firefox%20Setup%20{data.FIREFOX_ESR}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.firefox.com/en-US/firefox/{version}/releasenotes/"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://product-details.mozilla.org/1.0/thunderbird_versions.json",
+		"regex": "\"LATEST_THUNDERBIRD_DEVEL_VERSION\":\\s*\"(?<beta>(?<version>\\d+(?:\\.\\d+)*)b(?<build>\\d+))\""
+	},
+	"version": "{version}.{captures.build}",
+	"urls": [
+		"https://archive.mozilla.org/pub/thunderbird/releases/{captures.beta}/win64/multi/Thunderbird%20Setup%20{captures.beta}.msix",
+		"https://archive.mozilla.org/pub/thunderbird/releases/{captures.beta}/win32/multi/Thunderbird%20Setup%20{captures.beta}.msix"
+	]
+}
