@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "libvips",
+		"repo": "build-win64-mxe"
+	},
+	"urls": [
+		"https://github.com/libvips/build-win64-mxe/releases/download/{github.rawTag}/vips-dev-arm64-all-{version}.zip",
+		"https://github.com/libvips/build-win64-mxe/releases/download/{github.rawTag}/vips-dev-x64-all-{version}.zip",
+		"https://github.com/libvips/build-win64-mxe/releases/download/{github.rawTag}/vips-dev-x86-all-{version}.zip"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "martona", "repo": "yo" },
+	"urls": [
+		"https://github.com/martona/yo/releases/download/v{version}/yo-windows-amd64.zip",
+		"https://github.com/martona/yo/releases/download/v{version}/yo-windows-arm64.zip"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jopohl",
+		"repo": "urh"
+	},
+	"urls": ["https://github.com/jopohl/urh/releases/download/v{version}/Universal.Radio.Hacker-{version}-x64.exe"]
+}
