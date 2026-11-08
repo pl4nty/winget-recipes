@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "saki-saki09", "repo": "GraphGenerator" },
+	"urls": [
+		{ "url": "https://github.com/saki-saki09/GraphGenerator/releases/download/v{version}/GraphGenerator_v{version}_Setup.exe", "architecture": "neutral" }
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "saturn9studio",
+		"repo": "flow-cli"
+	},
+	"urls": [
+		"https://github.com/saturn9studio/flow-cli/releases/download/v{version}/flow-cli-v{version}-win32-x64.zip"
+	]
+}
