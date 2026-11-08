@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "0xErwin1",
+		"repo": "dbflux"
+	},
+	"urls": [
+		"https://github.com/0xErwin1/dbflux/releases/download/{github.rawTag}/dbflux-windows-amd64-setup.exe",
+		"https://github.com/0xErwin1/dbflux/releases/download/{github.rawTag}/dbflux-windows-amd64.zip"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elixir-lang",
+		"repo": "elixir"
+	},
+	"urls": ["https://github.com/elixir-lang/elixir/releases/download/{github.rawTag}/elixir-otp-29.exe"]
+}
