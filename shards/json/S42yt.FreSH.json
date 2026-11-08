@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "S42yt",
+		"repo": "FreSH"
+	},
+	"urls": ["https://github.com/S42yt/FreSH/releases/download/v{version}/FreSH-Setup.exe"]
+}

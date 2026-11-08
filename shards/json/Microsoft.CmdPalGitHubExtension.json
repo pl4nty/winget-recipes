@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "CmdPalGitHubExtension"
+	},
+	"urls": [
+		"https://github.com/microsoft/CmdPalGitHubExtension/releases/download/v{version}/GitHubExtension_release_v{version}_x64.msix",
+		"https://github.com/microsoft/CmdPalGitHubExtension/releases/download/v{version}/GitHubExtension_release_v{version}_arm64.msix"
+	]
+}

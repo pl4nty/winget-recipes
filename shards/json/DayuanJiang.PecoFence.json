@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DayuanJiang",
+		"repo": "PecoFence"
+	},
+	"urls": [
+		"https://github.com/DayuanJiang/PecoFence/releases/download/{github.rawTag}/pecofence-v{version}-x64-portable.zip",
+		"https://github.com/DayuanJiang/PecoFence/releases/download/{github.rawTag}/pecofence-v{version}-x64-setup.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "shahriyardx",
+		"repo": "brightctrl"
+	},
+	"urls": [
+		"https://github.com/shahriyardx/brightctrl/releases/download/v{version}/brightctrl.exe"
+	]
+}
