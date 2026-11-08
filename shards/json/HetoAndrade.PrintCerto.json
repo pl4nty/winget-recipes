@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hetoandrade",
+		"repo": "hetoandrade.github.io",
+		"tagRegex": "^printcerto\\-v"
+	},
+	"urls": [
+		"https://github.com/hetoandrade/hetoandrade.github.io/releases/download/{github.rawTag}/PrintCerto_Setup_v{version}.exe"
+	]
+}
