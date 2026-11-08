@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SerZhyAle",
+		"repo": "FastMediaSorter_Lite"
+	},
+	"urls": [
+		"https://github.com/SerZhyAle/FastMediaSorter_Lite/releases/download/v{version}/FastMediaSorter-{version}-windows-x64-setup.exe"
+	]
+}
