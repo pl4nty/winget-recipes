@@ -7,7 +7,13 @@
 	"urls": [
 		"https://www.4t-niagara.com/files/4t-min.exe"
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.4t-niagara.com/files/4t-min.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.4t-niagara.com/tray_history.html"
-	}
+	},
+	"replace": true
 }
