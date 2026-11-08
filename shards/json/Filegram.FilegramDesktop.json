@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "filegram",
+		"repo": "filegram-desktop"
+	},
+	"urls": [
+		"https://github.com/filegram/filegram-desktop/releases/download/{github.rawTag}/filegram-windows-i686-setup.exe",
+		"https://github.com/filegram/filegram-desktop/releases/download/{github.rawTag}/filegram-windows-x86_64-setup.exe"
+	]
+}

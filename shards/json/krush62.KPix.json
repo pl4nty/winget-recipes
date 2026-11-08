@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "krush62",
+		"repo": "KPix"
+	},
+	"urls": [
+		"https://github.com/krush62/KPix/releases/download/{github.rawTag}/KPix-windows-installer-v{version}.exe"
+	]
+}
