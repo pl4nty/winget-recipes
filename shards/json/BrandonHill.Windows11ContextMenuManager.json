@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "branhill",
+		"repo": "windows-11-context-menu-manager"
+	},
+	"urls": [
+		"https://github.com/branhill/windows-11-context-menu-manager/releases/download/{github.rawTag}/release_win-arm64.zip",
+		"https://github.com/branhill/windows-11-context-menu-manager/releases/download/{github.rawTag}/release_win-x64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SethColeman",
+		"repo": "oddmon"
+	},
+	"urls": [
+		"https://github.com/SethColeman/oddmon/releases/download/v{version}/oddmon-{version}-win-x64.zip"
+	]
+}

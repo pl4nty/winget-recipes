@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dbkangaroo",
+		"repo": "kangaroo"
+	},
+	"urls": ["https://github.com/dbkangaroo/kangaroo/releases/download/v{version}/Kangaroo-MariaDB-{version}-x86_64.exe"]
+}
