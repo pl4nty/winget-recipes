@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zhoel-sherk",
+		"repo": "VALVET"
+	},
+	"urls": [
+		"https://github.com/zhoel-sherk/VALVET/releases/download/{github.rawTag}/VALVET-{version}-windows-x64.zip"
+	]
+}

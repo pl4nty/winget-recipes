@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sharafutdinovdi",
+		"repo": "revit-devloader"
+	},
+	"urls": [
+		"https://github.com/sharafutdinovdi/revit-devloader/releases/download/v{version}/revit-devloader-{version}-user-setup.exe",
+		"https://github.com/sharafutdinovdi/revit-devloader/releases/download/v{version}/revit-devloader-{version}-admin-setup.exe"
+	]
+}
