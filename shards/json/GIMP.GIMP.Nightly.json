@@ -6,8 +6,6 @@
 		"regex": "\"DEVELOPMENT\":\\s*\\[\\s*\\{\\s*\"version\":\\s*\"(?<version>(?<major>\\d+)\\.(?<minor>\\d+)\\.[^\"]+)\"[\\s\\S]*?\"windows\":\\s*\\[\\s*\\{[\\s\\S]*?\"filename\":\\s*\"(?<file>[^\"]+\\.exe)\""
 	},
 	"urls": [
-		{ "url": "https://download.gimp.org/gimp/v{captures.major}.{captures.minor}/windows/{captures.file}", "architecture": "x86" },
-		{ "url": "https://download.gimp.org/gimp/v{captures.major}.{captures.minor}/windows/{captures.file}", "architecture": "x64" },
-		{ "url": "https://download.gimp.org/gimp/v{captures.major}.{captures.minor}/windows/{captures.file}", "architecture": "arm64" }
+		"https://download.gimp.org/gimp/v{captures.major}.{captures.minor}/windows/{captures.file}"
 	]
 }
