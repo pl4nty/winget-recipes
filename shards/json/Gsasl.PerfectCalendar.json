@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Gsasl",
+		"repo": "WinOptimizer_exe"
+	},
+	"urls": [
+		"https://github.com/Gsasl/WinOptimizer_exe/releases/download/{github.rawTag}/PerfectCalendar.exe"
+	]
+}

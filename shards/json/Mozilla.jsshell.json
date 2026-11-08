@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+		"path": "LATEST_FIREFOX_VERSION"
+	},
+	"urls": [
+		"https://archive.mozilla.org/pub/firefox/releases/{version}/jsshell/jsshell-win64.zip",
+		"https://archive.mozilla.org/pub/firefox/releases/{version}/jsshell/jsshell-win32.zip",
+		"https://archive.mozilla.org/pub/firefox/releases/{version}/jsshell/jsshell-win64-aarch64.zip"
+	]
+}

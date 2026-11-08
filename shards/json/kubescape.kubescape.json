@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kubescape",
+		"repo": "kubescape"
+	},
+	"urls": [
+		"https://github.com/kubescape/kubescape/releases/download/{github.rawTag}/kubescape_{version}_windows_amd64.exe",
+		"https://github.com/kubescape/kubescape/releases/download/{github.rawTag}/kubescape_{version}_windows_arm64.exe"
+	]
+}
