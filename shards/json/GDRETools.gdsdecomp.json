@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GDRETools",
+		"repo": "gdsdecomp"
+	},
+	"urls": [
+		"https://github.com/GDRETools/gdsdecomp/releases/download/{github.rawTag}/GDRE_tools-v{version}-windows.zip"
+	]
+}
