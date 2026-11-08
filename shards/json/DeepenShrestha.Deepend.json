@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "deepen-stha",
+		"repo": "deepend-releases"
+	},
+	"urls": [
+		"https://github.com/deepen-stha/deepend-releases/releases/download/{github.rawTag}/Deepend_{version}_x64-setup.exe",
+		"https://github.com/deepen-stha/deepend-releases/releases/download/{github.rawTag}/Deepend_{version}_x64_en-US.msi"
+	]
+}

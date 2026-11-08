@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cxong",
+		"repo": "cdogs-sdl"
+	},
+	"urls": [
+		"https://github.com/cxong/cdogs-sdl/releases/download/{github.rawTag}/C-Dogs.SDL-{version}-win32.exe",
+		"https://github.com/cxong/cdogs-sdl/releases/download/{github.rawTag}/C-Dogs.SDL-{version}-win32.zip"
+	]
+}
