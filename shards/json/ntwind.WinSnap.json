@@ -6,14 +6,7 @@
 		"regex": "/download/WinSnap_(?<version>\\d+(?:\\.\\d+)+)-setup\\.exe"
 	},
 	"urls": [
-		{
-			"url": "https://www.ntwind.com/files/WinSnap_{version}-setup.exe",
-			"architecture": "x86"
-		},
-		{
-			"url": "https://www.ntwind.com/files/WinSnap_{version}-setup.exe",
-			"architecture": "x64"
-		}
+		"https://www.ntwind.com/files/WinSnap_{version}-setup.exe"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.ntwind.com/software/winsnap/what-is-new.html"
