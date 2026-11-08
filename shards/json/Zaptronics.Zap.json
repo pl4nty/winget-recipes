@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Zaptronics",
+		"repo": "zap"
+	},
+	"urls": [
+		"https://github.com/Zaptronics/zap/releases/download/v{version}/zap_windows_amd64.zip",
+		"https://github.com/Zaptronics/zap/releases/download/v{version}/zap_windows_arm64.zip"
+	]
+}

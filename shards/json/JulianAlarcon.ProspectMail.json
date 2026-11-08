@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "julian-alarcon",
+		"repo": "prospect-mail"
+	},
+	"urls": [
+		"https://github.com/julian-alarcon/prospect-mail/releases/download/{github.rawTag}/Prospect-Mail-{version}-arm64.msi",
+		"https://github.com/julian-alarcon/prospect-mail/releases/download/{github.rawTag}/Prospect-Mail-{version}.msi",
+		"https://github.com/julian-alarcon/prospect-mail/releases/download/{github.rawTag}/Prospect-Mail-Setup-{version}.exe"
+	]
+}
