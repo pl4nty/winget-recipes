@@ -5,9 +5,18 @@
 		"source": "display"
 	},
 	"urls": [
-		{ "url": "https://www.argusmonitor.com/downloads/ArgusMonitor_Setup.exe", "architecture": "x64" }
+		{
+			"url": "https://www.argusmonitor.com/downloads/ArgusMonitor_Setup.exe",
+			"architecture": "x64"
+		}
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.argusmonitor.com/downloads/ArgusMonitor_Setup.exe",
+		"header": "last-modified"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.argusmonitor.com/history.php"
-	}
+	},
+	"replace": true
 }
