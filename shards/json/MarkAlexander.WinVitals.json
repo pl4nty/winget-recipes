@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mark-alexander-hub",
+		"repo": "winvitals"
+	},
+	"urls": [
+		"https://github.com/mark-alexander-hub/winvitals/releases/download/{github.rawTag}/WinVitals.exe"
+	]
+}

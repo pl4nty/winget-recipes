@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "seameet-ai", "repo": "SeaMeet-Releases" },
+	"urls": ["https://github.com/seameet-ai/SeaMeet-Releases/releases/download/v{version}/SeaMeet-AudioScreenRecorder-Windows-x64-Setup-{version}.exe"]
+}

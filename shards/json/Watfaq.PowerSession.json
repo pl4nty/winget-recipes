@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Watfaq-legacy", "repo": "PowerSession-rs" },
+	"urls": [
+		"https://github.com/Watfaq-legacy/PowerSession-rs/releases/download/v{version}/PowerSession.exe"
+	]
+}
