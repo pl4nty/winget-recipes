@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://www.airesoft.co.uk/files/disasm.zip"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.airesoft.co.uk/files/disasm.zip",
+		"header": "etag"
+	},
+	"replace": true
 }
