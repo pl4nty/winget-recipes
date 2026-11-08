@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "nosistech", "repo": "nosis-harness" },
+	"urls": ["https://github.com/nosistech/nosis-harness/releases/download/v{version}/nh-{version}-windows-x64.zip"]
+}

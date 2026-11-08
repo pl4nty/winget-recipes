@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LuaLS",
+		"repo": "lua-language-server"
+	},
+	"urls": [
+		"https://github.com/LuaLS/lua-language-server/releases/download/{github.rawTag}/lua-language-server-{version}-win32-ia32.zip",
+		"https://github.com/LuaLS/lua-language-server/releases/download/{github.rawTag}/lua-language-server-{version}-win32-x64.zip"
+	]
+}

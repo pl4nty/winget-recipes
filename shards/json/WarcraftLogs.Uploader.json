@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RPGLogs",
+		"repo": "Uploaders-warcraftlogs"
+	},
+	"urls": ["https://github.com/RPGLogs/Uploaders-warcraftlogs/releases/download/v{version}/warcraftlogs-v{version}.exe"]
+}

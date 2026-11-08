@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "eaglespirittech",
+		"repo": "perch"
+	},
+	"urls": [
+		"https://github.com/eaglespirittech/perch/releases/download/{github.rawTag}/Perch-{version}-setup.exe"
+	]
+}
