@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://getpdfstudio.xodo.com/xodopdfreader/XodoPDFReader_win64.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://getpdfstudio.xodo.com/xodopdfreader/XodoPDFReader_win64.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
