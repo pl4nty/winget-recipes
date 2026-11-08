@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "paimonchan", "repo": "paimon-mcp-fetch" },
+	"urls": [
+		"https://github.com/paimonchan/paimon-mcp-fetch/releases/download/v{version}/paimon-mcp-fetch-windows-amd64.exe"
+	]
+}

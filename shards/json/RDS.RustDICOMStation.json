@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alexprotom",
+		"repo": "rust-dicom-station"
+	},
+	"urls": [
+		"https://github.com/alexprotom/rust-dicom-station/releases/download/v{version}/rust-dicom-station-{version}-windows-x86_64.exe",
+		"https://github.com/alexprotom/rust-dicom-station/releases/download/v{version}/rust-dicom-station-{version}-windows-x86_64.exe"
+	]
+}

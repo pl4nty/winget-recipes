@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "smallstep",
+		"repo": "certificates"
+	},
+	"urls": ["https://github.com/smallstep/certificates/releases/download/v{version}/step-ca_windows_{version}_amd64.zip"]
+}
