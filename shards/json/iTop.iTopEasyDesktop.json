@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://download.itopupdate.com/dl/itop-easy-desktop-setup.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.itopupdate.com/dl/itop-easy-desktop-setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
