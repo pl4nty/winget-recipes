@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://cdn.electronic.us/products/spm/windows/download/serial_port_monitor.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.electronic.us/products/spm/windows/download/serial_port_monitor.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
