@@ -5,6 +5,15 @@
 		"source": "product"
 	},
 	"urls": [
-		{ "url": "https://download.microsoft.com/download/77dc60d3-0139-4dad-83c8-bb52ab22db01/SQL2025-SSEI-StdDev.exe", "architecture": "x64" }
-	]
+		{
+			"url": "https://download.microsoft.com/download/77dc60d3-0139-4dad-83c8-bb52ab22db01/SQL2025-SSEI-StdDev.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.microsoft.com/download/77dc60d3-0139-4dad-83c8-bb52ab22db01/SQL2025-SSEI-StdDev.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
