@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "antnsn",
+		"repo": "Lexorium"
+	},
+	"urls": [
+		"https://github.com/antnsn/Lexorium/releases/download/{github.rawTag}/Lexorium_{version}_x64-setup.exe",
+		"https://github.com/antnsn/Lexorium/releases/download/{github.rawTag}/Lexorium_{version}_x64_en-US.msi"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Jabba-Team",
+		"repo": "jabba"
+	},
+	"urls": [
+		"https://github.com/Jabba-Team/jabba/releases/download/{github.rawTag}/jabba-{version}-windows-386.exe",
+		"https://github.com/Jabba-Team/jabba/releases/download/{github.rawTag}/jabba-{version}-windows-amd64.exe"
+	]
+}
