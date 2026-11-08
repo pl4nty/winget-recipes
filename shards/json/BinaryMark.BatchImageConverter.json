@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://download.binarymark.com/packages/pid0050506t.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.binarymark.com/packages/pid0050506t.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
