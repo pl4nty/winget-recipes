@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ryan-AI-Studios",
+		"repo": "Snap-Fork",
+		"tagRegex": "^zr-(?=\\d+(?:\\.\\d+)+$)"
+	},
+	"urls": [
+		"https://github.com/Ryan-AI-Studios/Snap-Fork/releases/download/{github.rawTag}/ZRSpectrum_Windows_Installer_{version}_x64.exe"
+	]
+}
