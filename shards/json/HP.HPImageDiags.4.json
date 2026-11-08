@@ -5,9 +5,18 @@
 		"source": "product"
 	},
 	"urls": [
-		{ "url": "https://ftp.hp.com/pub/idr/ImageDiags4/ImageDiags.exe", "architecture": "x64" }
+		{
+			"url": "https://ftp.hp.com/pub/idr/ImageDiags4/ImageDiags.exe",
+			"architecture": "x64"
+		}
 	],
+	"state": {
+		"source": "response-header",
+		"url": "https://ftp.hp.com/pub/idr/ImageDiags4/ImageDiags.exe",
+		"header": "etag"
+	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://ftp.hp.com/pub/caps-softpaq/cmit/support/HP_ImageDiags.html#:~:text=VERSION-,4.0.1.02,-Release"
-	}
+	},
+	"replace": true
 }
