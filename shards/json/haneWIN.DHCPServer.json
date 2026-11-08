@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://r.hanewin.net/dhcp3128.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://r.hanewin.net/dhcp3128.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.hanewin.net/doc/dhcp/update.txt"
+	},
+	"replace": true
+}
