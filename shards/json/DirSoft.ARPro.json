@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://www.dirigosoftware.com/dlfiles/ARSuite/arpro-setup.exe"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.dirigosoftware.com/dlfiles/ARSuite/arpro-setup.exe",
+		"header": "etag"
+	},
+	"replace": true
 }
