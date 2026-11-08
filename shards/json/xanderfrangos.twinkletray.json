@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xanderfrangos",
+		"repo": "twinkle-tray"
+	},
+	"urls": ["https://github.com/xanderfrangos/twinkle-tray/releases/download/v{version}/Twinkle.Tray.v{version}.exe"]
+}
