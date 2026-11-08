@@ -6,5 +6,11 @@
 	},
 	"urls": [
 		"https://binaries.webex.com/Webex-Desktop-Windows-x64-Combined-Gold/WebexBundle.msi"
-	]
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://binaries.webex.com/Webex-Desktop-Windows-x64-Combined-Gold/WebexBundle.msi",
+		"header": "etag"
+	},
+	"replace": true
 }
