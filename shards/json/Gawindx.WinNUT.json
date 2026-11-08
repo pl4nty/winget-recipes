@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gawindx",
+		"repo": "WinNUT-Client",
+		"tagRegex": "^v?(?=\\d+\\.\\d+\\.\\d{4}\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/gawindx/WinNUT-Client/releases/download/{github.rawTag}/WinNUT-Setup.msi"
+	]
+}
