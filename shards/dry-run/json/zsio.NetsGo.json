@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zsio",
+		"repo": "netsgo",
+		"method": "api-sort",
+		"perPage": 100,
+		"assetRegex": "_windows_x64(-setup\\.exe|_en-US\\.msi)$",
+		"kind": "all"
+	}
+}

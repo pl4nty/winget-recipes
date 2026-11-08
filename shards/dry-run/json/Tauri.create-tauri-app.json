@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tauri-apps",
+		"repo": "create-tauri-app",
+		"method": "api-sort",
+		"perPage": 100,
+		"assetRegex": "-pc-windows-msvc\\.exe$",
+		"tagRegex": "^create-tauri-app-v"
+	}
+}

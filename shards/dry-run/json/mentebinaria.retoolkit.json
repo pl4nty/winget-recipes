@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mentebinaria",
+		"repo": "retoolkit",
+		"method": "api-sort",
+		"assetRegex": "_setup\\.exe$"
+	},
+	"urls": [{ "url": "https://github.com/mentebinaria/retoolkit/releases/download/{github.rawTag}/retoolkit_{version}_setup.exe", "architecture": "x64" }]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wanghongenpin",
+		"repo": "proxypin",
+		"method": "api-sort",
+		"perPage": 100,
+		"assetRegex": "windows-[\\d.]+\\.exe$"
+	},
+	"version": { "source": "display" }
+}

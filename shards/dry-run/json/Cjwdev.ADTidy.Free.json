@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		{ "url": "https://cjwdev.com/Software/ADTidy/ADTidyInstaller.zip", "architecture": "x86", "nestedInstallerMatches": ["ADTidyClient.exe"] },
+		{ "url": "https://cjwdev.com/Software/ADTidy/ADTidyInstaller.zip", "architecture": "x64", "nestedInstallerMatches": ["ADTidyClient.exe"] }
+	]
+}

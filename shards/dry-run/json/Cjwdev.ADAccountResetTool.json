@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		{ "url": "https://cjwdev.com/Software/AccountReset/AccountResetInstaller.zip", "architecture": "x86", "nestedInstallerMatches": ["AccountResetInstaller.exe"] },
+		{ "url": "https://cjwdev.com/Software/AccountReset/AccountResetInstaller.zip", "architecture": "x64", "nestedInstallerMatches": ["AccountResetInstaller.exe"] }
+	]
+}
