@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DavidXanatos",
+		"repo": "TaskExplorer"
+	},
+	"urls": [
+		"https://github.com/DavidXanatos/TaskExplorer/releases/download/{github.rawTag}/TaskExplorer-v{version}.exe"
+	]
+}

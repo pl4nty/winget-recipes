@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TobseF",
+		"repo": "SVGPaw"
+	},
+	"urls": ["https://github.com/TobseF/SVGPaw/releases/download/v{version}/svgpaw-{version}-win-x64.msi"]
+}

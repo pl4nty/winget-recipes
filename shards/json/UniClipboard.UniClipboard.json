@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "UniClipboard",
+		"repo": "UniClipboard"
+	},
+	"urls": [
+		"https://github.com/UniClipboard/UniClipboard/releases/download/v{version}/UniClipboard_{version}_x64-setup.exe",
+		"https://github.com/UniClipboard/UniClipboard/releases/download/v{version}/UniClipboard_{version}_arm64-setup.exe"
+	]
+}
