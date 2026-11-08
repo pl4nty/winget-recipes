@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ctron",
+		"repo": "oidc-cli"
+	},
+	"urls": [
+		"https://github.com/ctron/oidc-cli/releases/download/{github.rawTag}/oidc-aarch64-pc-windows-msvc.exe",
+		"https://github.com/ctron/oidc-cli/releases/download/{github.rawTag}/oidc-x86_64-pc-windows-msvc.exe"
+	]
+}
