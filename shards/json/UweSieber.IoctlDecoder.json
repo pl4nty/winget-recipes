@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.uwe-sieber.de/files/IoctlDecoder.zip",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.uwe-sieber.de/files/IoctlDecoder.zip",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.uwe-sieber.de/misc_tools_e.html#deviceiocontrolcodedecoder"
+	},
+	"replace": true
+}

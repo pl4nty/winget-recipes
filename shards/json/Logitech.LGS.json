@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://support.logi.com/api/v2/help_center/en-us/articles.json?label_names=webcontent=productdownload,websoftware=edcb513d-8e0b-11e9-a62b-0d759f921175",
+		"regex": "gaming/LGS_(\\d+(?:\\.\\d+)+)_x64_Logitech\\.exe"
+	},
+	"urls": [
+		{ "url": "https://download01.logi.com/web/ftp/pub/techsupport/gaming/LGS_{version}_x64_Logitech.exe", "architecture": "x64" },
+		{ "url": "https://download01.logi.com/web/ftp/pub/techsupport/gaming/LGS_{version}_x86_Logitech.exe", "architecture": "x86" }
+	]
+}
