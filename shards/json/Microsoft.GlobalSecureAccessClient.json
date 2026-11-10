@@ -2,13 +2,9 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "redirect-match",
 	"redirectMatch": {
-		"url": ["https://aka.ms/GlobalSecureAccess-windows", "https://aka.ms/GlobalSecureAccess-WindowsOnArm"],
-		"regex": "GlobalSecureAccessInstaller_(?:arm64_)?(\\d+(?:\\.\\d+)+)\\.exe$"
+		"url": ["https://aka.ms/GlobalSecureAccess-WindowsOnArm"],
+		"regex": "GlobalSecureAccessInstaller_arm64_(\\d+(?:\\.\\d+)+)\\.exe$"
 	},
-	"urls": [
-		{ "url": "https://gsa-installers-prod-ehchedbkcjeqg3hp.b01.azurefd.net/installers/preview/GlobalSecureAccessInstaller_{version}.exe", "architecture": "x64" },
-		"https://gsa-installers-prod-ehchedbkcjeqg3hp.b01.azurefd.net/installers/preview/GlobalSecureAccessInstaller_arm64_{version}.exe"
-	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://learn.microsoft.com/en-us/entra/global-secure-access/reference-windows-client-release-history#version-{version|.|}"
 	}
