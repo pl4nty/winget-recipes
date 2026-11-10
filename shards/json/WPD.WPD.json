@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://wpd.app/",
+		"regex": "<span id=\"version\">(?<version>\\d[^<]*)</span>"
+	},
+	"urls": [{ "url": "https://wpd.app/get/latest.zip", "architecture": "x64" }]
+}

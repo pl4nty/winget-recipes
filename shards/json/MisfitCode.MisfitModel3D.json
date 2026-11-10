@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/misfitmodel3d/rss?path=/misfitmodel3d-stable",
+		"regex": "/files/misfitmodel3d-stable/mm3d-(?<version>\\d+(?:\\.\\d+)+)/(?<file>mm3d-\\w+-win32-installer\\.exe)/download"
+	},
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/misfitmodel3d/files/misfitmodel3d-stable/mm3d-{version}/{captures.file}/download",
+			"architecture": "x86"
+		}
+	]
+}

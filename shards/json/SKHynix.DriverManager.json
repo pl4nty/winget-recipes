@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ssd.skhynix.com/download/",
+		"regex": "/download/driver_manager/DriveManager-C(?<version>\\d+(?:\\.\\d+)+)-windows-installer-x64\\.exe"
+	},
+	"urls": [{ "url": "https://ssd.skhynix.com/download/driver_manager/DriveManager-C{version}-windows-installer-x64.exe", "architecture": "x64" }]
+}

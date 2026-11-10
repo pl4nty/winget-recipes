@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://neverball.org/download",
+		"regex": "href=\"neverball-(?<version>\\d+(?:\\.\\d+)+)\\.zip\""
+	},
+	"urls": [{ "url": "https://neverball.org/neverball-{version}.zip", "architecture": "x86" }]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://mion.yosei.fi/BES/",
+		"regex": "href=\"/archive/BES/bes_(?<version>\\d+(?:\\.\\d+)+)\\.zip\""
+	},
+	"urls": [{ "url": "https://mion.yosei.fi/archive/BES/bes_{version}.zip", "architecture": "x86" }]
+}

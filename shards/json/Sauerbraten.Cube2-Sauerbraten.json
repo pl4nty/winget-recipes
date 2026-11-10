@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/sauerbraten/rss?path=/sauerbraten",
+		"regex": "/files/sauerbraten/(?<dir>[^/<]+)/sauerbraten_(?<version>\\d{4}_\\d\\d_\\d\\d)_windows\\.exe/download"
+	},
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/sauerbraten/files/sauerbraten/{captures.dir}/sauerbraten_{version}_windows.exe",
+			"architecture": "x86"
+		}
+	]
+}
