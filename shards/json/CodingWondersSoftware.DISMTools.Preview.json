@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "CodingWonders",
+		"repo": "DISMTools",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/CodingWonders/DISMTools/releases/download/{github.rawTag}/dt_setup.exe"
+	]
+}
