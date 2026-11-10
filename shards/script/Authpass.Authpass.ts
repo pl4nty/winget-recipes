@@ -10,7 +10,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [asset.browser_download_url],
+		urls: () => [{ url: asset.browser_download_url, architecture: 'x64' }],
 		releaseNotes: { source: 'github', owner: 'authpass', repo: 'authpass', tag: release.rawTag, cleanup: false },
 	};
 });
