@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"github": {
 		"owner": "Jadquir",
