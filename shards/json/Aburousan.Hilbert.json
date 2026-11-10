@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/aburousan/hilbert-editor/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "aburousan",
+		"repo": "hilbert-editor",
+		"tag": "tauri-v{version}"
+	}
+}
