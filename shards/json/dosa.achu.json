@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/QAInsights/achu/releases/latest/download/latest.yml"
+	},
+	"version": {
+		"source": "product"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "QAInsights",
+		"repo": "achu",
+		"tag": "v{version}"
+	}
+}
