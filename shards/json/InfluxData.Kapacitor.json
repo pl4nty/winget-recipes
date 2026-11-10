@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "influxdata",
-		"repo": "kapacitor"
-	},
-	"urls": [{ "url": "https://dl.influxdata.com/kapacitor/releases/kapacitor-{version}_windows_amd64.zip", "architecture": "x64" }]
-}
