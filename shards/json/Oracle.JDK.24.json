@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oracle.com/java/technologies/javase/jdk24-archive-downloads.html",
+		"regex": "download\\.oracle\\.com/java/24/archive/jdk-(\\d+(?:\\.\\d+)+)_windows-x64_bin\\.msi"
+	},
+	"version": "{version}.0",
+	"urls": [{ "url": "https://download.oracle.com/java/24/archive/jdk-{version}_windows-x64_bin.msi", "architecture": "x64" }],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.oracle.com/java/technologies/javase/24-relnote-issues.html"
+	}
+}

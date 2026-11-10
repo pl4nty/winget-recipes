@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oracle.com/java/technologies/javase/jdk23-archive-downloads.html",
+		"regex": "download\\.oracle\\.com/java/23/archive/jdk-(\\d+(?:\\.\\d+)+)_windows-x64_bin\\.msi"
+	},
+	"version": "{version}.0",
+	"urls": [{ "url": "https://download.oracle.com/java/23/archive/jdk-{version}_windows-x64_bin.msi", "architecture": "x64" }]
+}
