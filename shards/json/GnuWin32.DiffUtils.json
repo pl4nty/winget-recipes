@@ -1,9 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "sourceforge",
-	"sourceforge": {
-		"project": "gnuwin32",
-		"file": "diffutils-{version}.exe"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/diffutils",
+		"regex": "/files/diffutils/(\\d+(?:[.-]\\d+)+)/diffutils-\\1\\.exe/download"
 	},
 	"urls": [
 		"https://sourceforge.net/projects/gnuwin32/files/diffutils/{version}/diffutils-{version}.exe/download"

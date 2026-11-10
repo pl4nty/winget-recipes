@@ -1,8 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.greatis.com/security/edge-reset-button.htm",
+		"regex": "The latest version:\\s*<br>\\s*<b>(\\d+(?:\\.\\d+)+)\\s"
 	},
 	"urls": [
 		{
@@ -10,11 +11,6 @@
 			"architecture": "x86"
 		}
 	],
-	"state": {
-		"source": "response-header",
-		"url": "https://www.greatissoftware.com/edge_reset_button_setup.zip",
-		"header": "last-modified"
-	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.greatis.com/security/edge-reset-button.htm"
 	},

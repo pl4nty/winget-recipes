@@ -1,9 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "sourceforge",
-	"sourceforge": {
-		"project": "gnuwin32",
-		"file": "which-{version}-bin.zip"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/which",
+		"regex": "/files/which/(\\d+(?:[.-]\\d+)+)/which-\\1-bin\\.zip/download"
 	},
 	"urls": [
 		"https://sourceforge.net/projects/gnuwin32/files/which/{version}/which-{version}-bin.zip/download"
