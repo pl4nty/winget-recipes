@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dl.cbackup.com/CBackupSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.cbackup.com/CBackupSetup.exe",
+		"header": "content-length"
+	},
+	"replace": true
+}

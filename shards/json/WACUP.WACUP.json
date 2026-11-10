@@ -6,5 +6,10 @@
 		"regex": "WACUP_Preview_v(?<file>\\d+(?:_\\d+)+)_x86\\.exe"
 	},
 	"version": "{captures.file|_|.}",
-	"urls": ["https://getwacup.com/preview/WACUP_Preview_v{captures.file}_x86.exe"]
+	"urls": [
+		"https://getwacup.com/preview/WACUP_Preview_v{captures.file}_x86.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://getwacup.com/preview/preview_{captures.file}_x86.html"
+	}
 }

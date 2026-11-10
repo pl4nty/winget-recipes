@@ -5,5 +5,14 @@
 		"url": "https://sourceforge.net/projects/freepascal/rss?path=/Win32",
 		"regex": "/Win32/(\\d+(?:\\.\\d+)+)/fpc-\\d+(?:\\.\\d+)+\\.win32\\.and\\.win64\\.exe/"
 	},
-	"urls": ["https://sourceforge.net/projects/freepascal/files/Win32/{version}/fpc-{version}.win32.and.win64.exe/download"]
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/freepascal/files/Win32/{version}/fpc-{version}.win32.and.win64.exe/download",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://sourceforge.net/projects/freepascal/files/Win32/{version}/fpc-{version}.win32.and.win64.exe/download",
+			"architecture": "x64"
+		}
+	]
 }

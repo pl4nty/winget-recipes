@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://en.akkogear.com/download/",
+		"regex": "https://file\\.akkogear\\.com/(?<file>Akko_Cloud(?:_v\\d+)?_setup_(?<version>\\d+(?:\\.\\d+)+)[_(]WIN\\d+\\)?\\.zip)"
+	},
+	"urls": ["https://file.akkogear.com/{captures.file}"]
+}

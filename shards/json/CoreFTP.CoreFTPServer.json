@@ -7,8 +7,17 @@
 	},
 	"version": "{captures.major}.0.{version}",
 	"urls": [
-		{ "url": "https://www.coreftp.com/server/download/CoreFTPServer.exe", "architecture": "x86" },
-		{ "url": "https://www.coreftp.com/server/download/CoreFTPServer64.exe", "architecture": "x64" }
+		{
+			"url": "https://www.coreftp.com/server/download/CoreFTPServer.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.coreftp.com/server/download/CoreFTPServer64.exe",
+			"architecture": "x64"
+		}
 	],
-	"replace": true
+	"replace": true,
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.coreftp.com/forums/viewtopic.php?f=15&t=4022509"
+	}
 }

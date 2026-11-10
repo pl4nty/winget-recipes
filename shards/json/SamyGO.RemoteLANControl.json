@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "http://download.samygo.tv/PC%20Applications/",
+		"regex": "href=\"Remote%20LAN%20Control%20\\(v(\\d+(?:\\.\\d+)+)\\)\\.zip\""
+	},
+	"urls": [
+		"http://download.samygo.tv/PC%20Applications/Remote%20LAN%20Control%20(v{version}).zip"
+	]
+}

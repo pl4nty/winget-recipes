@@ -4,10 +4,15 @@
 	"github": {
 		"owner": "bonsai-rx",
 		"repo": "bonsai",
-		"method": "api-sort",
-		"assetRegex": "^Bonsai-[\\d.]+\\.exe$"
+		"method": "api-sort"
 	},
 	"version": {
 		"source": "product"
-	}
+	},
+	"urls": [
+		{
+			"url": "https://github.com/bonsai-rx/bonsai/releases/download/{github.rawTag}/Bonsai-{github.rawTag}.exe",
+			"architecture": "neutral"
+		}
+	]
 }

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://api.bitbucket.org/2.0/repositories/gaubert/gmvault-official-download/downloads",
+		"regex": "gmvault_installer_v(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://bitbucket.org/gaubert/gmvault-official-download/downloads/gmvault_installer_v{version}.exe"]
+}

@@ -5,5 +5,13 @@
 		"url": "https://dxlog.net/sw/files/download/old/",
 		"regex": "href=\"DXLog\\.net-(\\d+(?:\\.\\d+)+)\\.msi\""
 	},
-	"urls": ["https://dxlog.net/sw/files/download/old/DXLog.net-{version}.msi"]
+	"urls": [
+		{
+			"url": "https://dxlog.net/sw/files/download/old/DXLog.net-{version}.msi",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://dxlog.net/sw/files/release_notes.txt"
+	}
 }

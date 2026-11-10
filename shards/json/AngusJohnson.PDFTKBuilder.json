@@ -5,6 +5,11 @@
 		"url": "https://www.angusj.com/pdftkb/",
 		"regex": "Version (?<version>\\d+(?:\\.\\d+)+)"
 	},
-	"urls": ["https://www.angusj.com/pdftkb/pdftkb_setup.exe"],
-	"replace": true
+	"urls": [
+		"https://www.angusj.com/pdftkb/pdftkb_setup.exe"
+	],
+	"replace": true,
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.angusj.com/pdftkb/"
+	}
 }
