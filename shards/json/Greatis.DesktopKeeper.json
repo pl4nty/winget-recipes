@@ -1,20 +1,16 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "file"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.greatis.com/utilities/desktopkeeper/download.htm",
+		"regex": "Version (?<version>\\d+(?:\\.\\d+)+) has been released[\\s\\S]*?href=\"(?<url>https://www\\.greatis\\.com/DesktopKeeper\\w*\\.exe)\""
 	},
 	"urls": [
 		{
-			"url": "https://www.greatis.com/DesktopKeeper410b.exe",
+			"url": "{captures.url}",
 			"architecture": "x64"
 		}
 	],
-	"state": {
-		"source": "response-header",
-		"url": "https://www.greatis.com/DesktopKeeper410b.exe",
-		"header": "etag"
-	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.greatis.com/utilities/desktopkeeper/download.htm"
 	},
