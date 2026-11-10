@@ -7,8 +7,5 @@
 	},
 	"urls": [
 		"https://github.com/HelloZeroNet/ZeroNet-win/archive/dist-win64/ZeroNet-win-dist-win64.zip"
-	],
-	"releaseNotes": {
-		"releaseNotesUrl": "https://github.com/HelloZeroNet/ZeroNet/releases/tag/v{version}"
-	}
+	]
 }
