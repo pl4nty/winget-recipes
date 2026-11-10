@@ -6,6 +6,13 @@
 		"repo": "RcloneBrowser"
 	},
 	"urls": [
-		"https://github.com/kapitainsky/RcloneBrowser/releases/download/{github.rawTag}/rclone-browser-{version}-a0b66c6-windows-64-bit.exe"
+		{
+			"url": "https://github.com/kapitainsky/RcloneBrowser/releases/download/{github.rawTag}/rclone-browser-{version}-a0b66c6-windows-64-bit.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://github.com/kapitainsky/RcloneBrowser/releases/download/{github.rawTag}/rclone-browser-{version}-a0b66c6-windows-64-bit.exe",
+			"architecture": "x64"
+		}
 	]
 }

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Marekkon5",
+		"repo": "onetagger"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/Marekkon5/onetagger/releases/download/{github.rawTag}/OneTagger-windows-setup.exe",
+			"architecture": "x64"
+		}
+	]
+}

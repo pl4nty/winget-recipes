@@ -6,6 +6,9 @@
 		"repo": "NTop"
 	},
 	"urls": [
-		"https://github.com/gsass1/NTop/releases/download/{github.rawTag}/ntop.exe"
+		{
+			"url": "https://github.com/gsass1/NTop/releases/download/{github.rawTag}/ntop.exe",
+			"architecture": "neutral"
+		}
 	]
 }
