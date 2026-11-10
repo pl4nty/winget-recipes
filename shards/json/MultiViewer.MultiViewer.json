@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.multiviewer.app/api/v1/releases/latest",
+		"path": "version"
+	},
+	"urls": [
+		{ "url": "{data.downloads.2.url}", "architecture": "x64" },
+		{ "url": "{data.downloads.9.url}", "architecture": "x64" }
+	]
+}
