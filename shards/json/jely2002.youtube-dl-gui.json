@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/jely2002/youtube-dl-gui/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "jely2002",
+		"repo": "youtube-dl-gui",
+		"tag": "app-v{version}"
+	}
+}
