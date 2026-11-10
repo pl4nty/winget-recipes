@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download.gisinternals.com/release.php",
+		"regex": "release-(?<msc>\\d+)-x64-gdal-(?<a>\\d+)-(?<b>\\d+)-(?<c>\\d+)-mapserver-(?<ms>\\d+-\\d+-\\d+)(?![\\s\\S]*release-\\d+-x64-gdal-)"
+	},
+	"version": "{captures.a}.{captures.b}.{captures.c}",
+	"urls": [
+		{
+			"url": "https://download.gisinternals.com/sdk/downloads/release-{captures.msc}-x64-gdal-{captures.a}-{captures.b}-{captures.c}-mapserver-{captures.ms}/gdal-{captures.a}.{captures.b}.{captures.c}-{captures.msc}-x64-core.msi",
+			"architecture": "x64"
+		}
+	]
+}

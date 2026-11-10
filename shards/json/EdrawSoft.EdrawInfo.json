@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [{ "url": "https://download.edrawsoft.com/cbs_down/edrawinfographic_full5432.exe", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.edrawsoft.com/cbs_down/edrawinfographic_full5432.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

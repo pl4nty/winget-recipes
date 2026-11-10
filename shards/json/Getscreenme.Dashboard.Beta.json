@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://download.getscreen.me/dashboard/Getscreen.me%20Dashboard%20%28beta%29%20Setup.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.getscreen.me/dashboard/Getscreen.me%20Dashboard%20%28beta%29%20Setup.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}

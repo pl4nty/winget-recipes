@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.glarysoft.com/file-recovery-free/",
+		"regex": "<span class=\"gu_ver\">(\\d+(?:\\.\\d+)+)</span>"
+	},
+	"urls": [{ "url": "https://download.glarysoft.com/FileRecovery_Free.exe", "architecture": "x86" }]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "influxdata",
+		"repo": "chronograf"
+	},
+	"urls": [{ "url": "https://dl.influxdata.com/chronograf/releases/chronograf-{version}_windows_amd64.zip", "architecture": "x64" }]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://anim8or.com/download/",
+		"regex": "href=\"files/animv(?<a>\\d)(?<b>\\d)(?<c>\\d+)\\.zip\""
+	},
+	"version": "{captures.a}.{captures.b}.{captures.c}",
+	"urls": [
+		{
+			"url": "https://anim8or.com/download/files/animv{captures.a}{captures.b}{captures.c}.zip",
+			"architecture": "x86"
+		}
+	]
+}

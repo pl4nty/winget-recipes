@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://buildbot.libretro.com/stable/",
+		"regex": "href=\"/stable/(\\d+\\.\\d+\\.\\d+)/\""
+	},
+	"urls": [
+		{ "url": "https://buildbot.libretro.com/stable/{version}/windows/x86/RetroArch-Win32-setup.exe", "architecture": "x86" },
+		{ "url": "https://buildbot.libretro.com/stable/{version}/windows/x86_64/RetroArch-Win64-setup.exe", "architecture": "x64" }
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://cdn-us-1.comaps.app/windows/?C=M;O=D",
+		"regex": "href=\"(\\d{4}\\.\\d{2}\\.\\d{2}(?:-[0-9a-z-]+)?)/\""
+	},
+	"urls": [{ "url": "https://cdn-us-1.comaps.app/windows/{version}/CoMaps-windows-x64-setup.exe", "architecture": "x64" }],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://comaps.app/latest/"
+	}
+}

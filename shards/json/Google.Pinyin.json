@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [{ "url": "https://dl.google.com/pinyin/v2/GooglePinyinInstaller.exe", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.google.com/pinyin/v2/GooglePinyinInstaller.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

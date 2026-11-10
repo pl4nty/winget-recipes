@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://airspy.com/downloads/airspy_adsb_win32.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["airspy_adsb.exe"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://airspy.com/downloads/airspy_adsb_win32.zip",
+		"header": "etag"
+	},
+	"replace": true
+}

@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		{
+			"url": "https://dxatlas.com/HamVna/Files/HamVna.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["HamVnaSetup.exe"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dxatlas.com/HamVna/Files/HamVna.zip",
+		"header": "last-modified"
+	},
+	"replace": true
+}

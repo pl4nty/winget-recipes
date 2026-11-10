@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "yaml",
+	"yaml": {
+		"url": "https://downloads.code.org/maker/latest.yml",
+		"path": "version"
+	},
+	"version": "{version}.0",
+	"urls": [{ "url": "https://downloads.code.org/maker/Code.org%20Maker%20App-{version}-win.msi", "architecture": "neutral" }]
+}
