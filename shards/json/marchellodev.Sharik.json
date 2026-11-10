@@ -7,6 +7,9 @@
 	},
 	"version": "{version}.0",
 	"urls": [
-		"https://github.com/marchellodev/sharik/releases/download/{github.rawTag}/sharik_v{version}_windows.msi"
+		{
+			"url": "https://github.com/marchellodev/sharik/releases/download/{github.rawTag}/sharik_v{version}_windows.msi",
+			"architecture": "x64"
+		}
 	]
 }
