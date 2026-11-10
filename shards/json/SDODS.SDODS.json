@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/YarlisAISolutions/sdods-releases/releases/latest/download/latest.yml"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "YarlisAISolutions",
+		"repo": "sdods-releases",
+		"tag": "desktop-v{version}"
+	}
+}
