@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "iterate-ch",
+		"repo": "cyberduck",
+		"tagRegex": "^release-",
+		"method": "api-list",
+		"assetRegex": "^duck-\\d+(?:\\.\\d+)+(?:-(?:x64|arm64)\\.msi|\\.exe)$"
+	},
+	"version": {
+		"source": "product"
+	}
+}
