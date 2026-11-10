@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "DonutWare",
+		"repo": "Fladder",
+		"method": "api-list",
+		"kind": "prerelease",
+		"assetRegex": "^(?:Fladder\\-Windows\\-\\d+\\.\\d+\\.\\d+\\-nightly\\-Setup\\.exe)$"
+	}
+}
