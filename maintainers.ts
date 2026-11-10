@@ -96,7 +96,7 @@ const bots = {
 	[process.env.GITHUB_REPOSITORY_OWNER ?? 'pl4nty']: () => shards('.'),
 };
 
-const rows = new Map<string, { id: string; maintainers: Set<string> }>();
+const rows = new Map<string, { id: string; maintainers: Set<string>; evidence?: string }>();
 const row = (id: string) => {
 	const key = id.toLowerCase();
 	if (!rows.has(key)) rows.set(key, { id, maintainers: new Set() });
@@ -111,13 +111,14 @@ await Promise.all(
 
 const previous = await readFile(CSV, 'utf8').catch(() => '');
 for (const line of previous.split('\n').slice(1)) {
-	const [id, maintainers = ''] = line.trim().split(',');
+	const [id, maintainers = '', evidence] = line.trim().split(',');
 	for (const login of maintainers.split(';')) {
 		if (id && login && !(login in bots)) row(id).maintainers.add(login);
 	}
+	if (id && evidence) row(id).evidence = evidence;
 }
 
 const lines = [...rows.values()]
 	.sort((a, b) => a.id.toLowerCase().localeCompare(b.id.toLowerCase()))
-	.map((r) => [r.id, [...r.maintainers].sort().join(';')].join(','));
-await writeFile(CSV, ['PackageIdentifier,Maintainers', ...lines].join('\n') + '\n');
+	.map((r) => [r.id, [...r.maintainers].sort().join(';'), r.evidence ?? ''].join(','));
+await writeFile(CSV, ['PackageIdentifier,Maintainers,Evidence', ...lines].join('\n') + '\n');
