@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "scidvspc",
+		"file": "Scid vs PC-{version}.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/scidvspc/files/windows/Scid%20vs%20PC-{version}.exe/download",
+		"https://sourceforge.net/projects/scidvspc/files/windows-64bit/Scid%20vs%20PC-{version}.x64.exe/download"
+	]
+}

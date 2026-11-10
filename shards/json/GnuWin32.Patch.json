@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "gnuwin32",
+		"file": "patch-{version}-bin.zip"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnuwin32/files/patch/{version}/patch-{version}-bin.zip/download"
+	]
+}

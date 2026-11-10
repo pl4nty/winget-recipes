@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "omegat",
+		"file": "OmegaT_{version}_Windows_signed.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/omegat/files/OmegaT%20-%20Standard/OmegaT%20{version}/OmegaT_{version}_Windows_signed.exe/download"
+	]
+}

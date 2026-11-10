@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "robomirror",
+		"file": "RoboMirror {version} Setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/robomirror/files/RoboMirror/RoboMirror%20{version}%20Setup.exe/download"
+	]
+}

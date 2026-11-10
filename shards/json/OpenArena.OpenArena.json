@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "oarena",
+		"file": "openarena-{version}.zip"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/oarena/files/openarena-{version}.zip/download"
+	]
+}

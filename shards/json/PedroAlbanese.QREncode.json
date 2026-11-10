@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "qrencode-for-windows",
+		"file": "QREncode-{version}_Win32(static).zip"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/qrencode-for-windows/files/QREncode-{version}_Win32(static).zip/download"
+	]
+}

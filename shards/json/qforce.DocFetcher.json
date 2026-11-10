@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "docfetcher",
+		"file": "docfetcher_{version}_win32_setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/docfetcher/files/docfetcher/{version}/docfetcher_{version}_win32_setup.exe/download"
+	]
+}

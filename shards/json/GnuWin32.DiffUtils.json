@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "gnuwin32",
+		"file": "diffutils-{version}.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnuwin32/files/diffutils/{version}/diffutils-{version}.exe/download"
+	]
+}

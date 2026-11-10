@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "gnuwin32",
+		"file": "flex-{version}-1.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnuwin32/files/flex/{version}-1/flex-{version}-1.exe/download"
+	]
+}

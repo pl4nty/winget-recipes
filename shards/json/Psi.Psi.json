@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "psi",
+		"file": "psi-{version}-win64-setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/psi/files/Psi/{version}/psi-{version}-win64-setup.exe/download"
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.virtualradarserver.co.uk/Download.aspx",
+		"regex": "Version (\\d+\\.\\d+\\.\\d+)<br"
+	},
+	"urls": [
+		{
+			"url": "https://www.virtualradarserver.co.uk/Files/VirtualRadarSetup-x64.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://www.virtualradarserver.co.uk/Files/VirtualRadarSetup.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.virtualradarserver.co.uk/Download.aspx"
+	}
+}
