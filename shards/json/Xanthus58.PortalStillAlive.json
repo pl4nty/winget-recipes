@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zephiowl",
+		"repo": "Portal-Still-Alive"
+	},
+	"urls": [
+		"https://github.com/zephiowl/Portal-Still-Alive/releases/download/{github.rawTag}/Still.Alive.exe"
+	]
+}

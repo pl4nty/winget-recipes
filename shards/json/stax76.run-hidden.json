@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stax76",
+		"repo": "run-hidden"
+	},
+	"urls": [
+		{ "url": "https://github.com/stax76/run-hidden/releases/download/{github.rawTag}/run-hidden64.exe", "architecture": "x64" }
+	]
+}
