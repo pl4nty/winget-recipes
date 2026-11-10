@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.carifred.com/cleardiskinfo/",
-		"regex": "Current version: (?<version>\\d+(?:\\.\\d+)+)"
-	},
-	"urls": [{ "url": "https://www.carifred.com/cleardiskinfo/ClearDiskInfo.exe", "architecture": "x86" }]
-}
