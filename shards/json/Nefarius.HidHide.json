@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nefarius",
+		"repo": "HidHide",
+		"tagRegex": "\\.0$",
+		"method": "api-sort",
+		"assetRegex": "^HidHide_[\\d.]+_x64\\.exe$"
+	}
+}

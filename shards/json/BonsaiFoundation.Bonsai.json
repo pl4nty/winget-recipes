@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bonsai-rx",
+		"repo": "bonsai",
+		"method": "api-sort",
+		"assetRegex": "^Bonsai-[\\d.]+\\.exe$"
+	},
+	"version": {
+		"source": "product"
+	}
+}

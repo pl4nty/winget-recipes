@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zokugun",
+		"repo": "MrCode",
+		"method": "api-sort",
+		"assetRegex": "^MrCode(?:User)?Setup-(?:x64|arm64)-[\\d.]+\\.exe$"
+	}
+}

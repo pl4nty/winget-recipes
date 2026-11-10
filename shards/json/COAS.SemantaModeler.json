@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://semantamodeler.z6.web.core.windows.net/stable/",
+		"regex": "SemmodSetup-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://semantamodeler.z6.web.core.windows.net/stable/SemmodSetup-{version}.exe"]
+}
