@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://onyxweb.mykonicaminolta.com/OneStopProductSupport/Search/GetProductCategoryResults?categoryId=1&productId=1801&isPublic=true",
+		"regex": "\"Version\":\"(?<version>\\d+(?:\\.\\d+)+)_PCL_PS_FAX\"[^{}]*?fileversionid=(?<id>\\d+)&productid=1801\",\"FileName\":\"KM_UniversalDriver_PS_PCL_FAX_"
+	},
+	"urls": [
+		{
+			"url": "https://cscsupportftp.mykonicaminolta.com/DownloadFile/Download.ashx?fileversionid={captures.id}&productid=1801",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["Driver/PCL/UPDSetup.exe"]
+		},
+		{
+			"url": "https://cscsupportftp.mykonicaminolta.com/DownloadFile/Download.ashx?fileversionid={captures.id}&productid=1801",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["Driver/PCL/UPDSetup64.exe"]
+		}
+	]
+}
