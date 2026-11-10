@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CoatiSoftware",
+		"repo": "Sourcetrail"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/CoatiSoftware/Sourcetrail/releases/download/{github.rawTag}/Sourcetrail_2021_4_19_Windows_64bit_Installer.zip",
+			"architecture": "x64"
+		}
+	]
+}

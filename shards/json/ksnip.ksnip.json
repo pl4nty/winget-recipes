@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ksnip",
+		"repo": "ksnip"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/ksnip/ksnip/releases/download/{github.rawTag}/ksnip-{version}.msi",
+			"architecture": "x64"
+		}
+	]
+}

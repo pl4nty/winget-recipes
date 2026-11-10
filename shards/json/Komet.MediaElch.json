@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Komet",
+		"repo": "MediaElch"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/Komet/MediaElch/releases/download/{github.rawTag}/MediaElch_win_10_or_later_Qt6_{version}_2024-10-13_git-80324653.zip",
+			"architecture": "x64"
+		}
+	]
+}

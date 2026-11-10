@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "maplemedia",
+		"repo": "pulse-sms-desktop"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/maplemedia/pulse-sms-desktop/releases/download/{github.rawTag}/pulse-sms-{version}.exe",
+			"architecture": "x86"
+		}
+	]
+}

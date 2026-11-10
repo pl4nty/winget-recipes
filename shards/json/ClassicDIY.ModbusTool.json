@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ClassicDIY",
+		"repo": "ModbusTool"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/ClassicDIY/ModbusTool/releases/download/{github.rawTag}/ModbusTool.msi",
+			"architecture": "x86"
+		}
+	]
+}

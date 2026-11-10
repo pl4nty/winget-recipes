@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vgmstream",
+		"repo": "vgmstream"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/vgmstream/vgmstream/releases/download/{github.rawTag}/vgmstream-win.zip",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://github.com/vgmstream/vgmstream/releases/download/{github.rawTag}/vgmstream-win64.zip",
+			"architecture": "x64"
+		}
+	]
+}
