@@ -4,8 +4,10 @@
 	"github": {
 		"owner": "nymtech",
 		"repo": "nym-vpn-client",
-		"tagRegex": "^nym-vpn-v",
-		"method": "api-sort",
-		"assetRegex": "^NymVPN_[\\d.]+_(?:x64|arm64)-setup\\.exe$"
-	}
+		"tagRegex": "^nym-vpn-v"
+	},
+	"urls": [
+		"https://github.com/nymtech/nym-vpn-client/releases/download/{github.rawTag}/NymVPN_{version}_x64-setup.exe",
+		"https://github.com/nymtech/nym-vpn-client/releases/download/{github.rawTag}/NymVPN_{version}_arm64-setup.exe"
+	]
 }
