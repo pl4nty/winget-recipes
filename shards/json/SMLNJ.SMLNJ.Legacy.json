@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "sort-versions",
-	"sortVersions": {
-		"url": "https://github.com/smlnj/legacy/tags",
-		"regex": "/smlnj/legacy/releases/tag/v(\\d+(?:\\.\\d+)+)\""
-	},
-	"urls": [{ "url": "https://smlnj.cs.uchicago.edu/dist/working/{version}/smlnj-{version}.msi", "architecture": "x64" }]
-}
