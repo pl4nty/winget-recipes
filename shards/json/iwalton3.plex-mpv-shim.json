@@ -6,6 +6,9 @@
 		"repo": "plex-mpv-shim"
 	},
 	"urls": [
-		"https://github.com/iwalton3/plex-mpv-shim/releases/download/{github.rawTag}/plex-mpv-shim_{version}_installer.exe"
+		{
+			"url": "https://github.com/iwalton3/plex-mpv-shim/releases/download/{github.rawTag}/plex-mpv-shim_{version}_installer.exe",
+			"architecture": "x64"
+		}
 	]
 }

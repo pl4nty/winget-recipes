@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Sophia-Community",
+		"repo": "SophiApp"
+	},
+	"urls": [
+		"https://github.com/Sophia-Community/SophiApp/releases/download/{github.rawTag}/SophiApp.zip"
+	]
+}

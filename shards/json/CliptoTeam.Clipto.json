@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "clipto-pro",
+		"repo": "Desktop"
+	},
+	"urls": [
+		"https://github.com/clipto-pro/Desktop/releases/download/{github.rawTag}/clipto-{version}.exe"
+	]
+}

@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "mtrojnar",
-		"repo": "torget"
+		"owner": "gsass1",
+		"repo": "NTop"
 	},
 	"urls": [
-		"https://github.com/mtrojnar/torget/releases/download/{github.rawTag}/torget.exe"
+		"https://github.com/gsass1/NTop/releases/download/{github.rawTag}/ntop.exe"
 	]
 }

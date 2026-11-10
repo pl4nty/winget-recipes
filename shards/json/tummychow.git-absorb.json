@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tummychow",
+		"repo": "git-absorb"
+	},
+	"urls": [
+		"https://github.com/tummychow/git-absorb/releases/download/{github.rawTag}/git-absorb-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}

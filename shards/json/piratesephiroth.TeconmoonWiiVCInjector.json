@@ -6,6 +6,9 @@
 		"repo": "TeconmoonWiiVCInjector"
 	},
 	"urls": [
-		"https://github.com/piratesephiroth/TeconmoonWiiVCInjector/releases/download/{github.rawTag}/TeconMoon.s.WiiVC.Injector.zip"
+		{
+			"url": "https://github.com/piratesephiroth/TeconmoonWiiVCInjector/releases/download/{github.rawTag}/TeconMoon.s.WiiVC.Injector.zip",
+			"architecture": "neutral"
+		}
 	]
 }

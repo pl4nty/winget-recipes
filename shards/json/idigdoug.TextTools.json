@@ -6,8 +6,17 @@
 		"repo": "TextTools"
 	},
 	"urls": [
-		"https://github.com/idigdoug/TextTools/releases/download/{github.rawTag}/TextUtils-X86-64.zip",
-		"https://github.com/idigdoug/TextTools/releases/download/{github.rawTag}/TextUtils-X86-32.zip",
-		"https://github.com/idigdoug/TextTools/releases/download/{github.rawTag}/TextUtils-ARM-64.zip"
+		{
+			"url": "https://github.com/idigdoug/TextTools/releases/download/{github.rawTag}/TextUtils-X86-64.zip",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/idigdoug/TextTools/releases/download/{github.rawTag}/TextUtils-X86-32.zip",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://github.com/idigdoug/TextTools/releases/download/{github.rawTag}/TextUtils-ARM-64.zip",
+			"architecture": "arm64"
+		}
 	]
 }

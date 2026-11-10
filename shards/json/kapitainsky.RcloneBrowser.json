@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kapitainsky",
+		"repo": "RcloneBrowser"
+	},
+	"urls": [
+		"https://github.com/kapitainsky/RcloneBrowser/releases/download/{github.rawTag}/rclone-browser-{version}-a0b66c6-windows-64-bit.exe"
+	]
+}

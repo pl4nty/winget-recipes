@@ -6,6 +6,9 @@
 		"repo": "worldofpadman"
 	},
 	"urls": [
-		"https://github.com/PadWorld-Entertainment/worldofpadman/releases/download/{github.rawTag}/wop-{version}-installer.exe"
+		{
+			"url": "https://github.com/PadWorld-Entertainment/worldofpadman/releases/download/{github.rawTag}/wop-{version}-installer.exe",
+			"architecture": "x64"
+		}
 	]
 }
