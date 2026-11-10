@@ -3,17 +3,13 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://sourceforge.net/projects/deng/rss?path=/Doomsday%20Engine/Builds",
-		"regex": "Builds/doomsday_(?<version>\\d+\\.\\d+\\.\\d+)-build(?<build>\\d+)_x64\\.msi"
+		"regex": "Builds/doomsday_(?<version>\\d+\\.\\d+\\.\\d+)-build(?<build>\\d+)_x86\\.msi/download"
 	},
 	"version": "{version}.{captures.build}",
 	"urls": [
 		{
 			"url": "https://sourceforge.net/projects/deng/files/Doomsday%20Engine/Builds/doomsday_{version}-build{captures.build}_x86.msi/download",
 			"architecture": "x86"
-		},
-		{
-			"url": "https://sourceforge.net/projects/deng/files/Doomsday%20Engine/Builds/doomsday_{version}-build{captures.build}_x64.msi/download",
-			"architecture": "x64"
 		}
 	]
 }
