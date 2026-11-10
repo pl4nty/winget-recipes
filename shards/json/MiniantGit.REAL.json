@@ -1,14 +1,17 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"version": {
-		"source": "product"
-	},
-	"github": {
-		"owner": "miniant-git",
-		"repo": "REAL"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://github.com/miniant-git/REAL/releases.atom",
+		"regex": "/releases/tag/(?<tag>[^\"]+)\"/>\\s*<title>REAL v(?<version>\\d+(?:\\.\\d+)+)</title>"
 	},
 	"urls": [
-		{ "url": "https://github.com/miniant-git/REAL/releases/download/{github.rawTag}/REAL.exe", "architecture": "x64" }
-	]
+		{
+			"url": "https://github.com/miniant-git/REAL/releases/download/{captures.tag}/REAL.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/miniant-git/REAL/releases"
+	}
 }
