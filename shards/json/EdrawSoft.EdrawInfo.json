@@ -6,7 +6,7 @@
 	"state": {
 		"source": "response-header",
 		"url": "https://download.edrawsoft.com/cbs_down/edrawinfographic_full5432.exe",
-		"header": "last-modified"
+		"header": "content-length"
 	},
 	"replace": true
 }
