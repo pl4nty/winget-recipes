@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jpmens",
+		"repo": "jo"
+	},
+	"urls": [
+		"https://github.com/jpmens/jo/releases/download/{github.rawTag}/jo-{version}.exe"
+	]
+}

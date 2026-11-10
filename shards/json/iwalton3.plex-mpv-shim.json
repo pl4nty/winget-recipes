@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "iwalton3",
+		"repo": "plex-mpv-shim"
+	},
+	"urls": [
+		"https://github.com/iwalton3/plex-mpv-shim/releases/download/{github.rawTag}/plex-mpv-shim_{version}_installer.exe"
+	]
+}

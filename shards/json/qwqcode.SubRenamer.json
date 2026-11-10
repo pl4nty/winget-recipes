@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qwqcode",
+		"repo": "SubRenamer"
+	},
+	"urls": [
+		"https://github.com/qwqcode/SubRenamer/releases/download/{github.rawTag}/SubRenamer_windows_amd64.zip"
+	]
+}

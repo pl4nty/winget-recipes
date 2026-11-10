@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gchudov",
+		"repo": "cuetools.net"
+	},
+	"urls": [
+		"https://github.com/gchudov/cuetools.net/releases/download/{github.rawTag}/CUETools_{version}.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lexxmark",
+		"repo": "winflexbison"
+	},
+	"urls": [
+		"https://github.com/lexxmark/winflexbison/releases/download/{github.rawTag}/win_flex_bison-{version}.zip"
+	]
+}

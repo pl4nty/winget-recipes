@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "idigdoug",
+		"repo": "TextTools"
+	},
+	"urls": [
+		"https://github.com/idigdoug/TextTools/releases/download/{github.rawTag}/TextUtils-X86-64.zip",
+		"https://github.com/idigdoug/TextTools/releases/download/{github.rawTag}/TextUtils-X86-32.zip",
+		"https://github.com/idigdoug/TextTools/releases/download/{github.rawTag}/TextUtils-ARM-64.zip"
+	]
+}

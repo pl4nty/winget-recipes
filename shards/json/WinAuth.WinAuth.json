@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "winauth",
+		"repo": "winauth"
+	},
+	"urls": [
+		"https://github.com/winauth/winauth/releases/download/{github.rawTag}/WinAuth-{version}.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tuyenvm",
+		"repo": "OpenKey"
+	},
+	"urls": [
+		"https://github.com/tuyenvm/OpenKey/releases/download/{github.rawTag}/OpenKey64-Windows-{version}-RC.zip"
+	]
+}

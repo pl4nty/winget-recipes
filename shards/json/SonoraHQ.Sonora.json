@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sonorahq",
+		"repo": "sonora"
+	},
+	"urls": [
+		"https://github.com/sonorahq/sonora/releases/download/{github.rawTag}/Sonora-Setup.exe",
+		"https://github.com/sonorahq/sonora/releases/download/{github.rawTag}/Sonora-Setup-arm64.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WixEdit",
+		"repo": "WixEdit"
+	},
+	"urls": [
+		"https://github.com/WixEdit/WixEdit/releases/download/{github.rawTag}/WixEdit-{version}.msi"
+	]
+}

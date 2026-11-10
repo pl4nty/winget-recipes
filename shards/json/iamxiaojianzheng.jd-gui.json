@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "iamxiaojianzheng",
+		"repo": "jd-gui"
+	},
+	"urls": [
+		"https://github.com/iamxiaojianzheng/jd-gui/releases/download/{github.rawTag}/jd-gui-windows-{version}.zip"
+	]
+}
