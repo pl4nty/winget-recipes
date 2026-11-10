@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.dk1tb.de/downloadeng.htm",
+		"regex": "satpcsetup_eng_(?<raw>\\d+_\\d+)\\.ZIP"
+	},
+	"version": "{captures.raw|_|.}",
+	"urls": [
+		{
+			"url": "https://www.dk1tb.de/satpcsetup_eng_{captures.raw}.ZIP",
+			"architecture": "neutral"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.dk1tb.de/downloadeng.htm"
+	}
+}
