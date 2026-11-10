@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/JPmbagwu/mbason-copilot-downloads/releases/latest/download/latest.yml"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "JPmbagwu",
+		"repo": "mbason-copilot-downloads",
+		"tag": "copilot-v{version}"
+	}
+}
