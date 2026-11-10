@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "xml",
+	"xml": {
+		"url": "https://www.rainlendar.net/download/Rainlendar-Lite.xml",
+		"path": "XML_DIZ_INFO.0.Program_Info.0.Program_Version.0"
+	},
+	"urls": [
+		{
+			"url": "https://www.rainlendar.net/download/{version}/Rainlendar-Lite-{version}-64bit.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.rainlendar.net/download/Changes.txt"
+	}
+}

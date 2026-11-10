@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.rarewares.org/mp3-lame-bundle.php",
+		"regex": "files/mp3/lame-(\\d+(?:\\.\\d+)+)-x64\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://www.rarewares.org/files/mp3/lame-{version}-x86.zip",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.rarewares.org/files/mp3/lame-{version}-x64.zip",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.rarewares.org/mp3-lame-bundle.php"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://x-diesel.com/?download",
+		"regex": "Unreal Commander (?<major>\\d+)\\.(?<minor>\\d)(?<patch>\\d+) beta \\d+ \\(build (?<version>\\d+)\\)"
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.patch}.{version}",
+	"urls": [
+		{
+			"url": "https://x-diesel.com/download/uncomsetup.exe?32",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://x-diesel.com/download/uncomsetup.exe?64",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://x-diesel.com/download/uncomsetup.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://x-diesel.com/download/uncomsetup.msi",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://x-diesel.com/?whatsnew"
+	}
+}

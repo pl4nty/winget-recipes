@@ -1,0 +1,26 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.hibitsoft.ir/HibitStartup/HiBitStartupManager-setup.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.hibitsoft.ir/HibitStartup/HiBitStartupManager-setup.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.hibitsoft.ir/HibitStartup/HiBitStartupManager-setup.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "http://www.hibitsoft.ir/HibitStartup/Changelog.txt"
+	},
+	"replace": true
+}

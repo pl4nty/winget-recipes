@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.weblakes.com/software/freeware/screen-view/",
+		"regex": "Lakes_Environmental_SCREEN_View_V\\.(\\d+(?:\\.\\d+)+)_Install\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://www.weblakes.com/products/screen/update/Lakes_Environmental_SCREEN_View_V.{version}_Install.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.weblakes.com/products/screen/resources/lakes_screen_view_release_notes.pdf"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.myskyaccess.com/Download/Application",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.myskyaccess.com/Download/Application",
+		"header": "content-length"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.myskyaccess.com/"
+	},
+	"replace": true
+}

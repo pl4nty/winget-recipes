@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.srcbox.net/projects/gkrellm/",
+		"regex": "downloads/(\\d+(?:\\.\\d+)+)/gkrellm-\\d+(?:\\.\\d+)+-win64-setup\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://www.srcbox.net/projects/gkrellm/downloads/{version}/gkrellm-{version}-win64-setup.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.srcbox.net/projects/gkrellm/"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.greatis.com/delphicb/freedownload/wdsetup.exe",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.greatis.com/delphicb/freedownload/wdsetup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.greatis.com/delphicb/windowse/"
+	},
+	"replace": true
+}

@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.lw-sdc.com/?page_id=79",
+		"regex": "uploads/SDC_(\\d+\\.\\d+)x64_setup\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://www.lw-sdc.com/wp-content/uploads/SDC_{version}x64_setup.zip",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.lw-sdc.com/?page_id=79"
+	}
+}

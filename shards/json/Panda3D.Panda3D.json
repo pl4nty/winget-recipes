@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "panda3d",
+		"repo": "panda3d"
+	},
+	"urls": [
+		{
+			"url": "https://www.panda3d.org/download/panda3d-{version}/Panda3D-SDK-{version}.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.panda3d.org/download/panda3d-{version}/Panda3D-SDK-{version}-x64.exe",
+			"architecture": "x64"
+		}
+	]
+}

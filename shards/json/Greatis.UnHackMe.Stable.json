@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://greatis.com/unhackme/download.htm",
+		"regex": "unhackme\\.zip\"\\s+class=\"ds-color-red\">(\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": [
+		{
+			"url": "https://www.greatissoftware.com/unhackme.zip",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://greatis.com/unhackme/news.htm"
+	}
+}
