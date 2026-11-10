@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "awthwathje",
+		"repo": "SteaScree"
+	},
+	"urls": [{ "url": "https://steascree.download/steascree-{version}-windows.exe", "architecture": "x86" }]
+}

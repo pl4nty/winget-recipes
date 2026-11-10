@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hmatuschek",
+		"repo": "kochmorse"
+	},
+	"urls": [
+		"https://github.com/hmatuschek/kochmorse/releases/download/{github.rawTag}/kochmorse-{version}-setup.exe"
+	]
+}

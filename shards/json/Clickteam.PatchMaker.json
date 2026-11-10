@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [{ "url": "https://www.clickteam.com/webftp/files/9/5/pminst.exe", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.clickteam.com/webftp/files/9/5/pminst.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/msi2xml/rss?path=/msi2xml",
+		"regex": "/files/msi2xml/(?<dir>[\\d.]+)/msi2xml-(?<version>\\d+(?:\\.\\d+)+)\\.msi/download"
+	},
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/msi2xml/files/msi2xml/{captures.dir}/msi2xml-{version}.msi/download",
+			"architecture": "x86"
+		}
+	]
+}

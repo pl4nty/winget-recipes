@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/extremetuxracer/rss?path=/releases",
+		"regex": "/files/releases/(?<version>\\d+(?:\\.\\d+)+)/(?<file>[^/<]*\\.msi)/download"
+	},
+	"version": "{version}.0",
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/extremetuxracer/files/releases/{version}/{captures.file}/download",
+			"architecture": "x64"
+		}
+	]
+}

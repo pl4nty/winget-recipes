@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "Jadquir",
+		"repo": "mra-files",
+		"method": "api-sort",
+		"assetRegex": "^MRA_Setup(?:_x64)?\\.msi$"
+	}
+}
