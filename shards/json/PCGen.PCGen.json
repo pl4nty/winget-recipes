@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PCGen",
+		"repo": "pcgen",
+		"tagRegex": "RC\\d+$"
+	},
+	"urls": [
+		{ "url": "https://github.com/PCGen/pcgen/releases/download/{github.rawTag}/pcgen-{github.rawTag}_win_install.exe", "architecture": "x86" }
+	]
+}

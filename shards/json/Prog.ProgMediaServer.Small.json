@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.progdvb.com/media_cs.html",
+		"regex": "pms_small\\.(\\d+(?:\\.\\d+)+)\\.x64\\.exe"
+	},
+	"urls": [
+		{ "url": "https://files.progdvb.com/server/pms_small.{version}.exe", "architecture": "x86" },
+		{ "url": "https://files.progdvb.com/server/pms_small.{version}.x64.exe", "architecture": "x64" }
+	]
+}

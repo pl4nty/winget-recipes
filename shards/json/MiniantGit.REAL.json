@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "miniant-git",
+		"repo": "REAL"
+	},
+	"urls": [
+		{ "url": "https://github.com/miniant-git/REAL/releases/download/{github.rawTag}/REAL.exe", "architecture": "x64" }
+	]
+}

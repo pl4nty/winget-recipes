@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HelloZeroNet",
+		"repo": "ZeroNet"
+	},
+	"urls": [
+		"https://github.com/HelloZeroNet/ZeroNet-win/archive/dist-win64/ZeroNet-win-dist-win64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/HelloZeroNet/ZeroNet/releases/tag/v{version}"
+	}
+}
