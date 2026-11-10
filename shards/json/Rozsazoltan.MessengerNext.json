@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/rozsazoltan/messenger/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "rozsazoltan",
+		"repo": "messenger",
+		"tag": "v{version}"
+	}
+}
