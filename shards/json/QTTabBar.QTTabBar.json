@@ -6,7 +6,7 @@
 		"regex": "/files/(?<dir>[^/<]+)/qttabbar-v(?<version>[^/<]+)\\.msi/download"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
 		{
