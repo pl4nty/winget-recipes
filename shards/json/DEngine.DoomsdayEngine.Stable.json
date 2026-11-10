@@ -1,14 +1,17 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://dengine.net/windows",
-		"regex": "doomsday_(?<version>\\d+(?:\\.\\d+)+)_x64\\.msi"
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/deng/rss?path=/Doomsday%20Engine",
+		"regex": "/Doomsday%20Engine/(\\d+(?:\\.\\d+)+)/doomsday_\\d+(?:\\.\\d+)+_x64\\.msi/"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
-		"https://api.dengine.net/1/builds?dl=doomsday_{version}_x64.msi"
+		{
+			"url": "https://sourceforge.net/projects/deng/files/Doomsday%20Engine/{version}/doomsday_{version}_x64.msi/download",
+			"architecture": "x64"
+		}
 	]
 }
