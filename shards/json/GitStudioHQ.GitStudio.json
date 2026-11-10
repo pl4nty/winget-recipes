@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/GitStudioHQ/gitstudio/releases/latest/download/latest.yml"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "GitStudioHQ",
+		"repo": "gitstudio",
+		"tag": "app-v{version}"
+	}
+}
