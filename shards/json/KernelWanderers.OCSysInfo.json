@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KernelWanderers",
+		"repo": "OCSysInfo"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/KernelWanderers/OCSysInfo/releases/download/{github.rawTag}/ocsysinfo_win_x86_64-RELEASE.exe",
+			"architecture": "x64"
+		}
+	]
+}

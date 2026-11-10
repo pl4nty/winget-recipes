@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Enyium",
+		"repo": "sem-reg-rs"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/Enyium/sem-reg-rs/releases/download/{github.rawTag}/night-light.exe",
+			"architecture": "x64"
+		}
+	]
+}
