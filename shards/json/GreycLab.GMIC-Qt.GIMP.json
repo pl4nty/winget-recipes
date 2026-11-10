@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://gmic.eu/download.html",
-		"regex": "windows/gmic_(?<version>\\d+(?:\\.\\d+)+)_gimp(?<gimp>3[\\d.]*)_win64\\.exe"
-	},
-	"urls": [{ "url": "https://gmic.eu/get_file.php?file=windows/gmic_{version}_gimp{captures.gimp}_win64.exe", "architecture": "x64" }]
-}

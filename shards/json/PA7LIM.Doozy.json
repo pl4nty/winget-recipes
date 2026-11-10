@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "sort-versions",
-	"sortVersions": {
-		"url": "https://software.pa7lim.nl/Doozy/beta/",
-		"regex": "href=\"Doozy-(\\d+(?:\\.\\d+)+)\\.zip\""
-	},
-	"urls": [{ "url": "https://software.pa7lim.nl/Doozy/beta/Doozy-{version}.zip", "architecture": "x86" }]
-}

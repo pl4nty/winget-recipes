@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "json",
-	"json": {
-		"url": "https://gitlab.com/api/v4/projects/jwestman%2Fhourglass/repository/tags?per_page=1",
-		"path": "0.name"
-	},
-	"urls": [{ "url": "https://jwestman.gitlab.io/hourglass/hourglass-windows.zip", "architecture": "x64" }]
-}

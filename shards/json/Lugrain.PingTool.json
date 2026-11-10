@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "sort-versions",
-	"sortVersions": {
-		"url": "https://ping-tool.com/",
-		"regex": "download/PingTool-english-(\\d+(?:\\.\\d+)+)\\.zip"
-	},
-	"urls": [{ "url": "https://ping-tool.com/download/PingTool-english-{version}.zip", "architecture": "neutral" }]
-}
