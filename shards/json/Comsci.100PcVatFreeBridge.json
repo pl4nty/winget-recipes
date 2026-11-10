@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.comsci.co.uk/100PcVatFreeBridge.html",
-		"regex": "app\\.comsci\\.co\\.uk/doc/100PcVatFreeBridge-(\\d+(?:\\.\\d+)+)\\.msi"
-	},
-	"urls": [{ "url": "https://app.comsci.co.uk/doc/100PcVatFreeBridge-{version}.msi", "architecture": "x64" }]
-}
