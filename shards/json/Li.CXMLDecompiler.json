@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://git.silica.codes/api/v1/repos/Li/cxml-decompiler/releases/latest",
+		"path": "tag_name"
+	},
+	"urls": [{ "url": "https://git.silica.codes/Li/cxml-decompiler/releases/download/{data.tag_name}/CXMLDecompiler{data.tag_name}.zip", "architecture": "x86" }],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://git.silica.codes/Li/cxml-decompiler/releases/tag/{data.tag_name}"
+	}
+}
