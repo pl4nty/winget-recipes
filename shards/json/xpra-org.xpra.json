@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Xpra-org",
+		"repo": "xpra"
+	},
+	"urls": [
+		{
+			"url": "https://xpra.org/stable/MSWindows/x86_64/Xpra-x86_64_Setup.exe",
+			"architecture": "x64"
+		}
+	]
+}

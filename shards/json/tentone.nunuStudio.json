@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tentone",
+		"repo": "nunuStudio",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/tentone/nunuStudio/releases/download/{github.rawTag}/nunuStudio_{version}_win_x64.zip"
+	]
+}

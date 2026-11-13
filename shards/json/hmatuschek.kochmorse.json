@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hmatuschek",
+		"repo": "kochmorse",
+		"method": "api-sort",
+		"assetRegex": "^kochmorse-\\d+(?:\\.\\d+)+-setup\\.exe$"
+	}
+}

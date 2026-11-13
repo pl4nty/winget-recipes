@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://www.visualgps.net/VisualGPSView/Download/VisualGPSViewInstall.msi",
+			"architecture": "neutral"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.visualgps.net/VisualGPSView/Download/VisualGPSViewInstall.msi",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.visualgps.net/#visualgpsview-content"
+	},
+	"replace": true
+}
