@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [{ "url": "https://sourceforge.net/projects/wixtool2/files/WixTool%20-%20Red%20Edition/WixTool%20-%20Red%20Edition%20-%20Alpha%20pre-release/WixToolSetupMSI.zip/download", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://sourceforge.net/projects/wixtool2/files/WixTool%20-%20Red%20Edition/WixTool%20-%20Red%20Edition%20-%20Alpha%20pre-release/WixToolSetupMSI.zip/download",
+		"header": "etag"
+	},
+	"replace": true
+}

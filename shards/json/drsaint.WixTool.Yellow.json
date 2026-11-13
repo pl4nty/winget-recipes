@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [{ "url": "https://sourceforge.net/projects/wixtool2/files/WixTool%20-%20Yellow%20Edition/WixTool%20-%20Yellow%20(binary%20and%20source)/WixToolSetup.msi/download", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://sourceforge.net/projects/wixtool2/files/WixTool%20-%20Yellow%20Edition/WixTool%20-%20Yellow%20(binary%20and%20source)/WixToolSetup.msi/download",
+		"header": "etag"
+	},
+	"replace": true
+}
