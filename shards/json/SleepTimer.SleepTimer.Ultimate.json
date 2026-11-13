@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sleeptimer.net/en/download/sleeptimer-2-installer/",
+		"regex": "<h1 class=\"mt-0\">SleepTimer (\\d+(?:\\.\\d+)+) Install</h1>"
+	},
+	"urls": [
+		{
+			"url": "https://www.sleeptimer.net/download/sleeptimer-2-installer/?wpdmdl=486",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sleeptimer.net/en/version-{version|.|-}/"
+	}
+}

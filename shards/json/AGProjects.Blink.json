@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://icanblink.com/changelog-windows/",
+		"regex": "<h2>Version (\\d+(?:\\.\\d+)+)</h2>"
+	},
+	"urls": [{ "url": "https://blink.sipthor.net/download.phtml?download&os=nt", "architecture": "x86" }],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://icanblink.com/changelog-windows/"
+	}
+}
