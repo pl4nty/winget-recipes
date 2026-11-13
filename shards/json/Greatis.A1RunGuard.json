@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://greatis.com/a1runguard/news.htm",
+		"regex": "<h2 class=\"has-text-black\">Version: (\\d+(?:\\.\\d+)+) -"
+	},
+	"urls": [
+		{
+			"url": "https://www.greatissoftware.com/a1runguard.zip",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://greatis.com/a1runguard/news.htm"
+	}
+}

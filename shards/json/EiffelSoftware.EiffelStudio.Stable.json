@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://account.eiffel.com/downloads/channel/stable",
+		"regex": "/cdn/EiffelStudio/(?<version>\\d+\\.\\d+)/(?<rev>\\d+)/Eiffel_\\d+\\.\\d+_rev_\\d+-win64\\.msi"
+	},
+	"urls": [
+		{
+			"url": "https://www.eiffel.com/cdn/EiffelStudio/{version}/{captures.rev}/Eiffel_{version}_rev_{captures.rev}-win64.msi",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.eiffel.org/doc/eiffelstudio/Release_notes_for_EiffelStudio_{version}"
+	}
+}
