@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.leap.se/RiseupVPN/windows/lastver",
+		"regex": "(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [{ "url": "https://downloads.leap.se/RiseupVPN/windows/RiseupVPN-installer-{version}.exe", "architecture": "x64" }]
+}

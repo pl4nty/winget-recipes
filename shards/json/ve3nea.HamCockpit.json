@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ve3nea.github.io/HamCockpit/users_guide/version_history.html",
+		"regex": "<h2 id=\"v\\d+[^\"]*\">V\\.(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [{ "url": "https://ve3nea.github.io/HamCockpit/downloads/HamCockpitSetup.zip", "architecture": "x86" }],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ve3nea.github.io/HamCockpit/users_guide/version_history.html"
+	}
+}

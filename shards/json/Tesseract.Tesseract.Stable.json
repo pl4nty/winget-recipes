@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://download.tuxfamily.org/tesseract/",
+		"regex": "tesseract_(?<y>\\d{4})_(?<m>\\d{2})_(?<d>\\d{2})_first_edition_windows\\.exe"
+	},
+	"version": "{captures.y}.{captures.m}.{captures.d}",
+	"urls": [
+		{
+			"url": "http://download.tuxfamily.org/tesseract/tesseract_{captures.y}_{captures.m}_{captures.d}_first_edition_windows.exe",
+			"architecture": "x86"
+		}
+	]
+}
