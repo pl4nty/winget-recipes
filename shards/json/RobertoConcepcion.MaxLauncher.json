@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "maxlauncher",
+		"file": "maxlauncher_{version}_setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/maxlauncher/files/MaxLauncher/{version}/maxlauncher_{version}_setup.exe/download"
+	]
+}

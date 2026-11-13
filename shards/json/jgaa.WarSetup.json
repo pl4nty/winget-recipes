@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "warsetup",
+		"file": "WarSetup-{version}.msi"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/warsetup/files/warsetup/{version}/WarSetup-{version}.msi/download"
+	]
+}

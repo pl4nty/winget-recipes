@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [{ "url": "https://qsl.net/4nec2/4nec2.zip", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://qsl.net/4nec2/4nec2.zip",
+		"header": "etag"
+	},
+	"replace": true
+}

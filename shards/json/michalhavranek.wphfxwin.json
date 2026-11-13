@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://michalhavranek.bitbucket.io/wphfx/index.html",
+		"regex": "wphfxwin/downloads/wphfxwin_inst-update_(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://bitbucket.org/michalhavranek/wphfxwin/downloads/wphfxwin_inst-update_{version}.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://bitbucket.org/michalhavranek/wphfxwin/src/master/readme.md"
+	}
+}
