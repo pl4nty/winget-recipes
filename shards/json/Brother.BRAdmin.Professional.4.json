@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support.brother.com/g/b/downloadend.aspx?c=us&lang=en&prod=mfcj6935dw_us_eu&os=10068&dlid=dlf106405_000&flang=4&type3=10456",
+		"regex": "<dt>Version (\\d+\\.\\d+\\.\\d+)</dt>"
+	},
+	"urls": [{ "url": "https://download.brother.com/welcome/dlf106405/Setup_BRAdminPro4_{version}.exe", "architecture": "x86" }],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.brother.com/g/b/downloadend.aspx?c=us&lang=en&prod=mfcj6935dw_us_eu&os=10068&dlid=dlf106405_000&flang=4&type3=10456#pane1"
+	}
+}

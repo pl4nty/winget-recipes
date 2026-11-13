@@ -281,6 +281,7 @@ ajeetdsouza.zoxide,ajeetdsouza,https://github.com/ajeetdsouza/zoxide/blob/main/.
 Ajunior.Qub,pl4nty,
 Akaere.whois,pl4nty,
 Akiflow.Akiflow,spectopo,
+Akka.AkkaCli,kalix-bot,https://github.com/microsoft/winget-pkgs/pull/336083
 AkshayNikhare.RealtimeClipboard,pl4nty,
 AktivCo.RutokenDrivers,pl4nty,
 Alacritty.Alacritty,UnownBot,
@@ -1531,6 +1532,7 @@ ClawWork.ClawWork,spectopo,
 Clement.bottom,ClementTsang,https://github.com/microsoft/winget-pkgs/pull/467385
 ClementSam.Compozify,spectopo,
 Cleobury.AudioWindowTracker,pl4nty,
+CleverCloud.CleverTools,clevercloud-ci,https://github.com/CleverCloud/clever-tools/blob/master/.github/workflows/release.yml
 CleverCloud.mdr,pl4nty,
 CleverData.SiftAgent,pl4nty,
 CleverFiles.DiskDrill,pl4nty,

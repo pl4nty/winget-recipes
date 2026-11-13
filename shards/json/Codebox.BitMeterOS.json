@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://codebox.net/downloads/bitmeteros/windows"],
+		"regex": "/bitmeteros/(?<a>\\d)(?<b>\\d)(?<c>\\d)/BitMeterOSInstaller\\.zip$"
+	},
+	"version": "{captures.a}.{captures.b}.{captures.c}",
+	"urls": [
+		{
+			"url": "https://codebox.net/downloads/bitmeteros/{captures.a}{captures.b}{captures.c}/BitMeterOSInstaller.zip",
+			"architecture": "x86"
+		}
+	]
+}
