@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "scanoss",
+		"repo": "sbom-workbench"
+	},
+	"urls": [
+		"https://github.com/scanoss/sbom-workbench/releases/download/{github.rawTag}/sbom-workbench-{version}-win-x64-installer.exe"
+	]
+}

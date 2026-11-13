@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DNSCrypt",
+		"repo": "SimpleDnsCrypt"
+	},
+	"urls": [
+		"https://github.com/DNSCrypt/SimpleDnsCrypt/releases/download/{github.rawTag}/SimpleDNSCrypt64.msi",
+		"https://github.com/DNSCrypt/SimpleDnsCrypt/releases/download/{github.rawTag}/SimpleDNSCrypt.msi"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bitscoper",
+		"repo": "bitscoper_cyberkit",
+		"tagRegex": "\\+\\d+$"
+	},
+	"urls": [
+		{ "url": "https://github.com/bitscoper/bitscoper_cyberkit/releases/download/{github.rawTag}/Windows_x64_Executable.zip", "architecture": "x64" }
+	]
+}

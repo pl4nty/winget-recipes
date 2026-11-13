@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "elbereth",
+		"repo": "DragonUnPACKer",
+		"method": "api-list",
+		"assetRegex": "^dup\\d+\\w*-setup\\.exe$"
+	}
+}
