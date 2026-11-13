@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "litecoin-project",
+		"repo": "litecoin"
+	},
+	"urls": [
+		"https://github.com/litecoin-project/litecoin/releases/download/{github.rawTag}/litecoin-{version}-win64-setup.exe"
+	]
+}

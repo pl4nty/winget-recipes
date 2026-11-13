@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PadWorld-Entertainment",
+		"repo": "worldofpadman"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/PadWorld-Entertainment/worldofpadman/releases/download/{github.rawTag}/wop-{version}-installer.exe",
+			"architecture": "x64"
+		}
+	]
+}

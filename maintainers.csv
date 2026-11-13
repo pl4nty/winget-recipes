@@ -207,6 +207,7 @@ AdrienAllard.FileConverter,pl4nty,
 adryledo.ArcaCLI,pl4nty,
 AdsPower.AdsPower,spectopo,
 advaith.CurrencyConverterCommandPalette,pl4nty,
+advaith.CurrencyConverterPowerToys,Advaith3600,https://github.com/Advaith3600/PowerToys-Run-Currency-Converter/blob/HEAD/.github/workflows/publish.yml
 advancedfx.HLAE,pl4nty,
 AdventDevelopmentInc.Kudu,pl4nty,
 aead.minisign,spectopo,
@@ -4380,6 +4381,7 @@ Logseq.Logseq,spectopo,
 LogTag.LogTagAnalyzer,spectopo,
 LogTag.LogTagXpress,spectopo,
 Logtalk.Logtalk,spectopo,
+Loickal.NewsletterCLI,loickal,https://github.com/loickal/newsletter-cli/blob/HEAD/.goreleaser.yml
 LokCo.Wysely,pl4nty,
 lollapalooza.usage,pl4nty,
 lollipopkit.serverbox,spectopo,
@@ -4684,6 +4686,7 @@ MetanoicArmor.I2PChat,pl4nty,
 MetanoicArmor.I2PChat.TUI,pl4nty,
 Metanorma.Metanorma,damn-good-b0t,
 metasequoiaime.MetasequoiaIME,spectopo,
+MevLyshkin.uec,Leinnan,https://github.com/Leinnan/uec/blob/HEAD/.github/workflows/release.yml
 Mew.Wrec,damn-good-b0t,
 MF.NexusShell,pl4nty,
 mfontanini.presenterm,pl4nty,
@@ -6171,6 +6174,7 @@ oxygendioxide.utaformatix,damn-good-b0t,
 P-StSoftware.WinSSHTerm,damn-good-b0t;spectopo,
 P1N2O.CodeRadio,pl4nty,
 P403n1x87.austin,pl4nty,
+pa001024.dna-builder,pa001024,https://github.com/pa001024/dna-builder/blob/HEAD/.github/workflows/winget.yml
 PACE.iLokLicenseManager,spectopo,
 packetThrower.Baudrun,packetThrower,https://github.com/packetThrower/Baudrun/blob/main/.github/workflows/after_release.yml
 packetThrower.PortFinder,packetThrower,https://github.com/packetThrower/PortFinder/blob/main/.github/workflows/after_release.yml
@@ -7955,6 +7959,7 @@ Th0rgal.ShardLauncher,damn-good-b0t,
 ThaddeusMcCleary.Seatsmart,damn-good-b0t,
 ThanhLe.RefiApp,spectopo,
 the-code-fixer-23.go-toolkit,pl4nty,
+the-code-fixer-23.javascript-package-delegator,louiss0,https://github.com/louiss0/javascript-package-delegator/blob/HEAD/goreleaser.yaml
 the-code-fixer-23.mace,louiss0,https://github.com/louiss0/mace/blob/main/.goreleaser.yaml
 TheBlind.T-Shell,spectopo,
 TheBrain.TheBrain,spectopo,
@@ -8813,6 +8818,7 @@ XimilalaXiang.DeLive,spectopo,
 xingkongliang.SkillsManager,spectopo,
 xingranya.GitHub-Stars-AI-Tools,spectopo,
 Xink.XinkClientAD,spectopo,
+xinnjie.onekeymap-cli,xinnjie,https://github.com/xinnjie/onekeymap-cli/blob/HEAD/.goreleaser.yaml
 XinTaoFei.Codeg,spectopo,
 xioTechnologies.x-IMU3GUI,pl4nty,
 Xiph.FLAC,spectopo,

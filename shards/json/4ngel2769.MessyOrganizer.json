@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "4ngel2769",
+		"repo": "messy-file-organizer"
+	},
+	"urls": [
+		"https://github.com/4ngel2769/messy-file-organizer/releases/download/{github.rawTag}/MessyFileOrganizer-setup-x64.exe"
+	]
+}

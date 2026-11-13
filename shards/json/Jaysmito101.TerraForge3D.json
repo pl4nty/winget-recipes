@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Jaysmito101",
+		"repo": "TerraForge3D"
+	},
+	"urls": [
+		"https://github.com/Jaysmito101/TerraForge3D/releases/download/{github.rawTag}/TerraForge3D.Win64.zip"
+	]
+}

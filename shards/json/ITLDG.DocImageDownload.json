@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "itldg",
+		"repo": "DocImageDownload"
+	},
+	"urls": [
+		"https://github.com/itldg/DocImageDownload/releases/download/{github.rawTag}/DocImageDownload.zip"
+	]
+}

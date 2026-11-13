@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kefir500",
+		"repo": "apk-icon-editor"
+	},
+	"urls": [
+		"https://github.com/kefir500/apk-icon-editor/releases/download/{github.rawTag}/apk-icon-editor_{version}.exe"
+	]
+}

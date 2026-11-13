@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mh-cbon",
+		"repo": "go-msi"
+	},
+	"urls": [
+		"https://github.com/mh-cbon/go-msi/releases/download/{github.rawTag}/go-msi-386.msi",
+		"https://github.com/mh-cbon/go-msi/releases/download/{github.rawTag}/go-msi-amd64.msi"
+	]
+}
