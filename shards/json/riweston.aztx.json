@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "riweston",
+		"repo": "aztx"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/riweston/aztx/releases/download/{github.rawTag}/aztx_{version}_windows_arm64.zip",
+			"architecture": "arm64"
+		},
+		{
+			"url": "https://github.com/riweston/aztx/releases/download/{github.rawTag}/aztx_{version}_windows_386.zip",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://github.com/riweston/aztx/releases/download/{github.rawTag}/aztx_{version}_windows_amd64.zip",
+			"architecture": "x64"
+		}
+	]
+}

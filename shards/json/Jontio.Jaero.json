@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jontio",
+		"repo": "JAERO"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/jontio/JAERO/releases/download/{github.rawTag}/jaero_{version}-dirty-1_win_x86_64.zip",
+			"architecture": "x64"
+		}
+	]
+}

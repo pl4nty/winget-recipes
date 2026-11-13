@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.greatis.com/utilities/desktopkeeper/download.htm",
+		"regex": "Version (?<version>\\d+(?:\\.\\d+)+) has been released[\\s\\S]*?href=\"(?<url>https://www\\.greatis\\.com/DesktopKeeper\\w*\\.exe)\""
+	},
+	"urls": [
+		{
+			"url": "{captures.url}",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.greatis.com/utilities/desktopkeeper/download.htm"
+	},
+	"replace": true
+}
