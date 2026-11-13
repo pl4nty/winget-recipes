@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nch.com.au/wavepad/versions.html",
+		"regex": "<h2>Version (\\d+\\.\\d+)</h2>\\s*Windows Release"
+	},
+	"urls": [
+		{
+			"url": "https://www.nch.com.au/components/wpsetup.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nch.com.au/wavepad/versions.html"
+	}
+}

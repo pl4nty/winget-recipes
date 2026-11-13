@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.myvoipapp.com/minisipphone/index.html",
+		"regex": "/download/msp/msp_v(\\d+)_setup\\.exe"
+	},
+	"version": "V{version}",
+	"urls": [
+		{
+			"url": "https://www.myvoipapp.com/download/msp/msp_v{version}_setup.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.myvoipapp.com/minisipphone/index.html"
+	}
+}

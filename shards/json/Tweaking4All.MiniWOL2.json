@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.tweaking4all.com/network-internet/miniwol2/",
+		"regex": "downloads/network/miniWOL-v(\\d+(?:\\.\\d+)+)-win32setup\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://www.tweaking4all.com/downloads/network/miniWOL-v{version}-win32setup.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.tweaking4all.com/network-internet/miniwol2/#Versions"
+	}
+}

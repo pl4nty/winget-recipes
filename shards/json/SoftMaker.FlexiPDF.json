@@ -1,0 +1,26 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://www.softmaker.net/down/flexipdf2025_32.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.softmaker.net/down/flexipdf2025_64.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.softmaker.net/down/flexipdf2025_64.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.softmaker.com/en/products/flexipdf"
+	},
+	"replace": true
+}

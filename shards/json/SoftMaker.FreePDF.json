@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://www.softmaker.net/down/freepdf2025.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.softmaker.net/down/freepdf2025.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.getfreepdf.com/en/download"
+	},
+	"replace": true
+}

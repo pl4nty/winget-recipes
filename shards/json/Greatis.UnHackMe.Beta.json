@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.greatissoftware.com/unhackme-beta.zip",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.greatissoftware.com/unhackme-beta.zip",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://greatis.com/unhackme/news.htm"
+	},
+	"replace": true
+}
