@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yanlearn2",
+		"repo": "rustic-backup-rs"
+	},
+	"urls": [
+		{ "url": "https://github.com/yanlearn2/rustic-backup-rs/releases/download/v{version}/RusticBackup-Setup.exe", "architecture": "x64" }
+	]
+}
