@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://icd.who.int/docs/doris/en/doris-desktop-download-installation/",
+		"regex": "icdcdn\\.who\\.int/doris/DorisDesktop_(?<version>\\d+\\.\\d+\\.\\d+)(?<rev>\\.\\d+)_x64\\.msix"
+	},
+	"urls": [
+		"https://icdcdn.who.int/doris/DorisDesktop_{version}{captures.rev}_x64.msix",
+		"https://icdcdn.who.int/doris/DorisDesktop_{version}{captures.rev}_x64.msix?p",
+		"https://icdcdn.who.int/doris/DorisDesktop_{version}{captures.rev}_arm64.msix"
+	]
+}
