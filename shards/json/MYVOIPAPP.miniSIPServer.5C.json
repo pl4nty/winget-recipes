@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.myvoipapp.com/download/index.html",
+		"regex": "miniSIPServer V(?<major>\\d+) \\(build (?<build>\\d{8})\\)"
+	},
+	"version": "{captures.major}.0.{captures.build}",
+	"urls": ["https://www.myvoipapp.com/download/mss_v{captures.major}/mss_v{captures.major}_u5.exe"]
+}
