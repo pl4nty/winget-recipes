@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ShrimpBrime",
+		"repo": "SB-SSD-Temps-Releases",
+		"method": "api-sort",
+		"assetRegex": "^(?:SB_SSD_Temps_v\\d+\\.\\d+\\.exe)$"
+	}
+}
