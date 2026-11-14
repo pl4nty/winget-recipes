@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mibuw",
+		"repo": "miPDFconvert"
+	},
+	"urls": [
+		"https://github.com/Mibuw/miPDFconvert/releases/download/{github.rawTag}/miPDFconvertSetup_{version}.exe"
+	]
+}
