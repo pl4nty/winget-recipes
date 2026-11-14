@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://igsviewer.com/",
+		"regex": "IGS Viewer (\\d+(?:\\.\\d+)+)\\s*</title>"
+	},
+	"urls": ["https://igsviewer.com/download/igsviewersetup.exe"]
+}
