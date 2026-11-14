@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JvanKatwijk",
+		"repo": "qt-dab",
+		"method": "api-sort",
+		"assetRegex": "^(?:setup\\-qt\\-dab\\d+\\-\\d+\\.\\d+\\-scalar\\.exe)$"
+	}
+}
