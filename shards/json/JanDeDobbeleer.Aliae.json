@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JanDeDobbeleer",
+		"repo": "aliae"
+	},
+	"urls": [
+		"https://github.com/JanDeDobbeleer/aliae/releases/download/{github.rawTag}/install-arm64.msix",
+		"https://github.com/JanDeDobbeleer/aliae/releases/download/{github.rawTag}/install-x64.msix"
+	]
+}
