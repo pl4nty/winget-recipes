@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.robotvirtualworlds.com/",
+		"regex": "href=\"(?<path>files/games/RVWLevelPack_VEX_Highrise(?<version>\\d)(?<minor>\\d)(?<patch>\\d+)[a-z]?\\.exe)\""
+	},
+	"version": "{version}.{captures.minor}.{captures.patch}",
+	"urls": [
+		{
+			"url": "https://www.robotvirtualworlds.com/{captures.path}",
+			"architecture": "neutral"
+		}
+	],
+	"replace": true
+}
