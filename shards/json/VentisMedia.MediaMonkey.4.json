@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.mediamonkey.com/MediaMonkey-4_Setup.exe"],
+		"regex": "/sw/MediaMonkey_(?<version>4(?:\\.\\d+)+)\\.exe"
+	}
+}
