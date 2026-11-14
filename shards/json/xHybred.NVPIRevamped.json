@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "xHybred", "repo": "NvidiaProfileInspectorRevamped" },
+	"urls": [
+		{ "url": "https://github.com/xHybred/NvidiaProfileInspectorRevamped/releases/download/v{version}/NVPI-R.zip", "architecture": "x64" }
+	]
+}
