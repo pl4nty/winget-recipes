@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.epson-europe.com/pub/download/6733/epson673308eu.zip"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.epson-europe.com/pub/download/6733/epson673308eu.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
