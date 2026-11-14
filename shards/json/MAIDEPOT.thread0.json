@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://storage.googleapis.com/gendistrict-agentdeck-updates/windows/x64/update.json",
+		"path": "version"
+	},
+	"urls": ["https://thread0.ai/releases/{version}/windows/x64/thread0%20Setup%20{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/GenDistrict/thread0/releases"
+	}
+}
