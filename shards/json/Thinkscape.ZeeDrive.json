@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://thinkscapestorage.blob.core.windows.net/zeedrive?restype=container&comp=list&prefix=Version-",
+		"regex": "<Name>Version-(\\d+(?:\\.\\d+)+)/ZeeDrive\\.msi</Name>"
+	},
+	"urls": [
+		{
+			"url": "https://thinkscapestorage.blob.core.windows.net/zeedrive/Version-{version}/ZeeDrive.msi",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.zeedrive.com/resources/download#version-history"
+	}
+}
