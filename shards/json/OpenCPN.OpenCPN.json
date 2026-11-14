@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OpenCPN",
+		"repo": "OpenCPN",
+		"method": "api-list",
+		"tagRegex": "^Release_",
+		"assetRegex": "^opencpn_.*_setup\\.exe$"
+	}
+}
