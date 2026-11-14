@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://voicenote.au/download",
+		"regex": "voicenote-(?<version>\\d+(?:\\.\\d+)+)-windows-x64\\.exe"
+	},
+	"urls": [
+		"https://voicenote.au/download/voicenote-{version}-windows-x64.exe",
+		"https://voicenote.au/download/voicenote-{version}-windows-arm64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://voicenote.au/changelog"
+	}
+}
