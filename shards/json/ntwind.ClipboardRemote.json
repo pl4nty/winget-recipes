@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ntwind.com/remote/clipboard.html",
+		"regex": "/download/ClipboardRemote_(?<version>\\d+(?:\\.\\d+)+)-win-x64\\.exe"
+	},
+	"urls": ["https://www.ntwind.com/files/ClipboardRemote_{version}-win-x64.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ntwind.com/remote/clipboard/what-is-new.html"
+	}
+}
