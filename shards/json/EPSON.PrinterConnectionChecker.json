@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		{
+			"url": "https://download.epson-europe.com/pub/download/6777/epson677705eu.exe",
+			"nestedInstallerMatches": ["Data/Setup.msi"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.epson-europe.com/pub/download/6777/epson677705eu.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
