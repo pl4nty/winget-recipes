@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://secammo.ru/",
+		"regex": "downloads/local-resolver/(?<version>\\d+(?:\\.\\d+)+)/SecAmmo\\.LocalResolver\\.Setup_"
+	},
+	"urls": ["https://secammo.ru/downloads/local-resolver/{version}/SecAmmo.LocalResolver.Setup_{version}.exe"]
+}
