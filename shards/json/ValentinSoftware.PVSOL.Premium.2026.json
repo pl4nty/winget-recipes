@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://valentin-software.com/en/products/pvsol-premium/",
+		"regex": "<h4 class=\"title\">Release Notes</h4>[\\s\\S]*?PV\\*SOL premium 2026 Release (?<version>\\d+)</div>"
+	},
+	"version": "2026.{version}",
+	"urls": ["https://downloads.valentin.de/pvsol/setup_pvsolpremium_2026_{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://valentin-software.com/en/products/pvsol-premium/#release-notes"
+	}
+}
