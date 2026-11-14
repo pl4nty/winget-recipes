@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "webtorrent", "repo": "webtorrent-desktop" },
+	"urls": [
+		"https://github.com/webtorrent/webtorrent-desktop/releases/download/v{version}/WebTorrent-{version}-full.nupkg",
+		"https://github.com/webtorrent/webtorrent-desktop/releases/download/v{version}/WebTorrentSetup-v{version}.exe"
+	]
+}
