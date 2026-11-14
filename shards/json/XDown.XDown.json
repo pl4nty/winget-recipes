@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://xdown.org/",
+		"regex": "https://dl\\.xdown\\.org/windows/i386/xdown-(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": ["https://dl.xdown.org/windows/i386/xdown-{version}.zip"]
+}
