@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://tier1settings.com/tier1suite/",
+		"regex": "\"softwareVersion\":\"(\\d+\\.\\d+\\.\\d+)\""
+	},
+	"urls": ["https://downloads.tier1settings.com/tier1suite/downloads/Tier1Suite-{version}-x64.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tier1settings.com/tier1suite/"
+	}
+}
