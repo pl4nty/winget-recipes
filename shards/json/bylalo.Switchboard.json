@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://switchboard.bylalo.dev/version.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://files.bylalo.dev/Switchboard-{version}-setup.exe"
+	]
+}
