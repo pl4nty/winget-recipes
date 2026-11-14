@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "leapbtw",
+		"repo": "uxplay-windows"
+	},
+	"urls": [
+		"https://github.com/leapbtw/uxplay-windows/releases/download/{github.rawTag}/uxplay-windows-arm64-UNTESTED.zip",
+		"https://github.com/leapbtw/uxplay-windows/releases/download/{github.rawTag}/uxplay-windows.zip",
+		"https://github.com/leapbtw/uxplay-windows/releases/download/{github.rawTag}/uxplaywindows-installer-arm64-UNTESTED.msi",
+		"https://github.com/leapbtw/uxplay-windows/releases/download/{github.rawTag}/uxplaywindows-installer.msi"
+	]
+}
