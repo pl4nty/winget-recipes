@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Quorthon13",
+		"repo": "OLED-Sleeper"
+	},
+	"urls": [
+		"https://github.com/Quorthon13/OLED-Sleeper/releases/download/v{version}/OLED-Sleeper-{version}-Setup.exe"
+	]
+}
