@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "zint",
+		"file": "zint-{version}-win32.zip"
+	},
+	"urls": ["https://sourceforge.net/projects/zint/files/zint/{version}/zint-{version}-win32.zip/download"]
+}
