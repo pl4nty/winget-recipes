@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://motu.com/en-us/download/product/507/",
+		"regex": "fa-windows\"></i>\\s*</span>\\s*<span class=\"vnum nobreak\">PC v(?<version>\\d+(?:\\.\\d+)+)\\+\\w+</span>[\\s\\S]*?/download-center/download/(?<id>\\d+)"
+	},
+	"urls": ["https://motu.com/en-us/download-center/download/{captures.id}"]
+}
