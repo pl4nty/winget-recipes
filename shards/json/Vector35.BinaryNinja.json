@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://binary.ninja/js/hashes.js",
+		"path": "version"
+	},
+	"urls": ["https://github.com/Vector35/binaryninja-api/releases/download/stable/{version}/binaryninja_free_win64.exe"],
+	"releaseNotes": { "releaseNotesUrl": "https://binary.ninja/changelog/#{version|.|-}" }
+}
