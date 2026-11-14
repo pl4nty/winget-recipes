@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://gtkd.org/download.html",
+		"regex": "https://gtkd\\.org/Downloads/runtime/gtk3\\-runtime_(\\d+(?:\\.\\d+)+)_64bit\\.exe"
+	},
+	"urls": [
+		"https://gtkd.org/Downloads/runtime/gtk3-runtime_{version}_64bit.exe"
+	]
+}
