@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "adoptium",
+		"repo": "temurin19-binaries",
+		"method": "api-latest",
+		"assetRegex": "^(?:OpenJDK\\d+U\\-jre_x86\\-\\d+_windows_hotspot_\\d+\\.\\d+\\.\\d+_\\d+\\.msi)$"
+	}
+}
