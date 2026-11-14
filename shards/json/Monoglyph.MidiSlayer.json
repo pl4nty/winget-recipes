@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://download.midislayer.com/latest.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://download.midislayer.com/v{version}/MidiSlayer_{version}_x64_en-US.msi",
+		"https://download.midislayer.com/v{version}/MidiSlayer_{version}_x64-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://midislayer.com/download"
+	}
+}
