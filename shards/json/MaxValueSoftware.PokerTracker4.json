@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.pokertracker.com/products/PT4/download.php",
+		"regex": "\\?file=PokerTracker4-Install-x64-v(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.pokertracker.com/products/PT4/download.php?file=PokerTracker4-Install-x64-v{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.pokertracker.com/products/PT4/download.php"
+	}
+}
