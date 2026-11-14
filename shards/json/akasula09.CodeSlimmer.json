@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "file"
+	},
+	"github": {
+		"owner": "akasula09",
+		"repo": "CodeSlimmer"
+	},
+	"urls": [
+		"https://github.com/akasula09/CodeSlimmer/releases/download/{github.rawTag}/codeslimmer.exe"
+	]
+}
