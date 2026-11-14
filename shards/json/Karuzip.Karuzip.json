@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AAAAAnson",
+		"repo": "karuzip"
+	},
+	"urls": [
+		"https://github.com/AAAAAnson/karuzip/releases/download/{github.rawTag}/Karuzip_{version}_x64-setup.exe"
+	]
+}
