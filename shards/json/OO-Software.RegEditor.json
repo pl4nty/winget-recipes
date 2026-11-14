@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oo-software.com/en/ooregeditor",
+		"regex": "\"softwareVersion\":\"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://package.oo-software.com/winget/regeditor/{version}/ooregeditor_{version}_x86.exe"
+	]
+}
