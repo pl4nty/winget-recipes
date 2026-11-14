@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://git.markembling.info/api/v1/repos/markembling/palette-picker/releases/latest",
+		"path": "tag_name"
+	},
+	"urls": [
+		{
+			"url": "https://git.markembling.info/markembling/palette-picker/releases/download/v{version}/PalettePicker-{version}-Setup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://git.markembling.info/markembling/palette-picker/releases/download/v{version}/PalettePicker-{version}-Setup.exe",
+			"architecture": "arm64"
+		}
+	]
+}
