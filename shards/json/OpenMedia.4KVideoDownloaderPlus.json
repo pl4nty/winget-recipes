@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.4kdownload.com/downloads",
+		"regex": "dl\\.4kdownload\\.com/app/4kvideodownloaderplus_(\\d+(?:\\.\\d+)+)_x64_offline\\.exe"
+	},
+	"version": { "source": "product" },
+	"state": { "source": "value", "value": "{version}" },
+	"urls": [
+		"https://dl.4kdownload.com/app/4kvideodownloaderplus_{version}_x64_offline.exe?source=winget",
+		"https://dl.4kdownload.com/app/4kvideodownloaderplus_{version}_x64.msi"
+	]
+}
