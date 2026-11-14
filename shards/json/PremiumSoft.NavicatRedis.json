@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.navicat.com/products/navicat-for-redis-release-note",
+		"regex": "Navicat for Redis \\(Windows\\) version (?<version>(?<major>\\d+)\\.\\d+\\.\\d+)<"
+	},
+	"urls": [
+		"https://download3.navicat.com/download/navicat{captures.major}_redis_es_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_redis_en_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_redis_cs_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_redis_ct_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_redis_id_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_redis_jp_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_redis_de_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_redis_ru_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_redis_pl_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_redis_fr_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_redis_kr_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_redis_th_x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.navicat.com/products/navicat-for-redis-release-note"
+	}
+}
