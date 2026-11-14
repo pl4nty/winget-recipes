@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "zaidbharde", "repo": "devsetup" },
+	"urls": [{ "url": "https://github.com/zaidbharde/devsetup/releases/download/v{version}/devsetup.exe", "architecture": "x64" }]
+}
