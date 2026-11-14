@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "C-S-E-C",
+		"repo": "gsml"
+	},
+	"urls": [
+		{ "url": "https://github.com/C-S-E-C/gsml/releases/download/{version}/win_setup.msi" },
+		{ "url": "https://github.com/C-S-E-C/gsml/releases/download/{version}/win_setup.exe", "architecture": "x64" }
+	]
+}
