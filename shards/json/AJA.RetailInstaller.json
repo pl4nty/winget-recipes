@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.aja.com/products/aja-control-room",
+		"regex": "https://www\\.aja\\.com/support/item\\-download/10199/AJA\\-Software\\-Installer_Windows_v(\\d+(?:\\.\\d+)+)_Release\\.zip"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://www.aja.com/support/item-download/10199/AJA-Software-Installer_Windows_v{version}_Release.zip"
+	]
+}
