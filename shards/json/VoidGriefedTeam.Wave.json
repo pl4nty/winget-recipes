@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VoidGriefedTeam",
+		"repo": "Hyper-Photon"
+	},
+	"urls": [
+		{ "url": "https://github.com/VoidGriefedTeam/Hyper-Photon/releases/download/v{version}/WaveSetup.exe", "architecture": "x64" }
+	]
+}
