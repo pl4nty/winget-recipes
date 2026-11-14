@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cli-assets.heroku.com/channels/stable/heroku-x64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cli-assets.heroku.com/channels/stable/heroku-x64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
