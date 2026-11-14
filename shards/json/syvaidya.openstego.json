@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "syvaidya",
+		"repo": "openstego",
+		"tagRegex": "^openstego-"
+	},
+	"urls": [
+		"https://github.com/syvaidya/openstego/releases/download/{github.rawTag}/Setup-OpenStego-{version}.exe"
+	]
+}
