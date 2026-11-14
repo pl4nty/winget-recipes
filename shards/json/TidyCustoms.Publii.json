@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://getpublii.com/download/",
+		"regex": "href=\"/download/Publii-(?<version>\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": ["https://getpublii.com/download/Publii-{version}.exe"]
+}
