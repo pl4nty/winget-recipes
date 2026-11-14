@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://pdf.wondershare.com/whats-new.html",
+		"regex": "^(?=[\\s\\S]*?download\\.wondershare\\.com/pdfelement-pro_full(?<pid>\\d+)\\.exe)(?=[\\s\\S]*?<h2 class=\"mb-3\">Version (?<version>12\\.\\d+\\.\\d+)</h2>)"
+	},
+	"urls": [
+		{
+			"url": "https://download.wondershare.com/cbs_down/pdfelement-pro_64bit_{version}_full{captures.pid}.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://download.wondershare.com/cbs_down/pdfelement-pro_{version}_full{captures.pid}.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://pdf.wondershare.com/whats-new.html"
+	}
+}
