@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rink-turksma",
+		"repo": "IntunePrepTool",
+		"tagRegex": "^IntunePrepTool-"
+	},
+	"urls": [
+		"https://github.com/rink-turksma/IntunePrepTool/releases/download/{github.rawTag}/IntunePrepTool-{version}.msi"
+	]
+}
