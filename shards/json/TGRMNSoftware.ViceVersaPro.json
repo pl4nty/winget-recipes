@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.tgrmn.com/web/download.htm",
+		"regex": "ViceVersa PRO <span[^>]*>v(?<version>\\d+)</span> <span[^>]*>build \\k<version>(?<a>\\d)(?<b>\\d)(?<c>\\d)</span>"
+	},
+	"version": "{version}.{captures.a}.{captures.b}.{captures.c}",
+	"urls": [
+		"https://www.tgrmn.com/web/downloads/vvpro{captures.version}.exe",
+		"https://www.tgrmn.com/web/downloads/vvpro{captures.version}-64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.tgrmn.com/web/download.htm"
+	}
+}
