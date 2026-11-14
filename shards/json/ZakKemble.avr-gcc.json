@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ZakKemble",
+		"repo": "avr-gcc-build",
+		"tagRegex": "-\\d+$"
+	},
+	"urls": [
+		"https://github.com/ZakKemble/avr-gcc-build/releases/download/{github.rawTag}/avr-gcc-{version}-x64-windows.zip",
+		"https://github.com/ZakKemble/avr-gcc-build/releases/download/{github.rawTag}/avr-gcc-{version}-x86-windows.zip"
+	]
+}
