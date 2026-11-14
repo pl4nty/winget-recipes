@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://promark.partex.pl/download/latest",
+		"regex": "(?<version>\\d+(?:\\.\\d+){3})\\thttps://promark\\.partex\\.pl/download/latest/(?<path>\\d+(?:\\.\\d+)+)/en-US/Promark_Creator_Setup\\.msi"
+	},
+	"urls": ["https://promark.partex.pl/download/latest/{captures.path}/en-US/Promark_Creator_Setup.msi"]
+}
