@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "shrayky",
+		"repo": "FMU-API"
+	},
+	"urls": [
+		"https://github.com/shrayky/FMU-API/releases/download/{github.rawTag}/12-3-x64-win.zip",
+		"https://github.com/shrayky/FMU-API/releases/download/{github.rawTag}/12-3-x86-win.zip"
+	]
+}
