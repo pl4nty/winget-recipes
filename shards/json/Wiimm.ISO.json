@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://wit.wiimm.de/download.html",
+		"regex": "download/wit-v(?<version>\\d+\\.\\d+[a-z]?)-r(?<rev>\\d+)-cygwin64\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://wit.wiimm.de/download/wit-v{version}-r{captures.rev}-cygwin64.zip",
+			"nestedInstallerMatches": ["windows-install.exe"]
+		},
+		{
+			"url": "https://wit.wiimm.de/download/wit-v{version}-r{captures.rev}-cygwin32.zip",
+			"nestedInstallerMatches": ["windows-install.exe"]
+		}
+	],
+	"releaseNotes": { "releaseNotesUrl": "https://wit.wiimm.de/changelog.html" }
+}
