@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ntwind.com/software/visual-subst.html",
+		"regex": "/VSubst_(?<version>\\d+(?:\\.\\d+)+)-setup\\.exe"
+	},
+	"urls": [
+		"https://www.ntwind.com/files/VSubst_{version}-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ntwind.com/software/visual-subst/what-is-new.html"
+	}
+}
