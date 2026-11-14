@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bnxxx",
+		"repo": "Image-Paster"
+	},
+	"urls": [
+		{ "url": "https://github.com/bnxxx/Image-Paster/releases/download/{github.rawTag}/ClipboardPaster.exe", "architecture": "x64" }
+	]
+}
