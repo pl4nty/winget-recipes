@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gu-sean",
+		"repo": "Time-Manager"
+	},
+	"urls": [
+		{ "url": "https://github.com/gu-sean/Time-Manager/releases/download/{github.rawTag}/TimeManager-Setup-{version}.exe", "architecture": "x64" }
+	]
+}
