@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://rvgl.org/downloads/rvgl_launcher.json", "path": "version" },
+	"urls": [
+		{ "url": "https://rvgl.org/downloads/rvgl_launcher_win64.zip", "architecture": "x64" },
+		{ "url": "https://rvgl.org/downloads/rvgl_launcher_win32.zip", "architecture": "x86" }
+	]
+}
