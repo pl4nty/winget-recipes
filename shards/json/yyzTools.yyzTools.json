@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jearry",
+		"repo": "yyzTools"
+	},
+	"urls": [
+		{ "url": "https://github.com/jearry/yyzTools/releases/download/v{version}/yyzTools-setup-{version}.exe", "architecture": "x64" }
+	]
+}
