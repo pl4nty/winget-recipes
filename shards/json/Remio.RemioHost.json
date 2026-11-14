@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "remioapp",
+		"repo": "releases",
+		"method": "api-list",
+		"tagRegex": "^v?(?=\\d+(?:\\.\\d+)+$)"
+	},
+	"urls": ["https://github.com/remioapp/releases/releases/download/v{version}/Remio-Host-Windows-x64-Setup.exe"]
+}
