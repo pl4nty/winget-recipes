@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://embrava.com/pages/software",
+		"regex": "EmbravaConnectForWindows/EmbravaConnect_v(?<version>\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": ["https://embrava.github.io/embrava/EmbravaConnectForWindows/EmbravaConnect_v{version}.zip"]
+}
