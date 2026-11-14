@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://downloads.rune-launcher.com/latest.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://downloads.rune-launcher.com/releases/{version}/windows/Rune_{version}_x64_en-US.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://rune-launcher.com/release-notes#version-{version|.|-}"
+	}
+}
