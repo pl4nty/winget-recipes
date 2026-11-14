@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Azure",
+		"repo": "BatchExplorer"
+	},
+	"urls": [
+		"https://github.com/Azure/BatchExplorer/releases/download/{github.rawTag}/BatchExplorer.Setup.{version}.exe"
+	],
+	"version": {
+		"source": "product"
+	}
+}
