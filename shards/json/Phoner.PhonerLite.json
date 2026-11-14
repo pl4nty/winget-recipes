@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://lite.phoner.de/download_en.htm",
+		"regex": "class=\"version-title\">Version (?<version>(?<major>\\d+)\\.(?<minor>\\d+))<"
+	},
+	"urls": [
+		"https://www.phoner.de/PhonerLiteSetup_{captures.major}{captures.minor}.exe",
+		"https://www.phoner.de/PhonerLiteSetup64_{captures.major}{captures.minor}.exe"
+	]
+}
