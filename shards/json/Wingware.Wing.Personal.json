@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://wingware.com/downloads/wing-personal",
+		"regex": "pub/wing-personal/(?<version>\\d+(?:\\.\\d+)+)/wing-personal-\\k<version>\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://wingware.com/pub/wing-personal/{version}/wing-personal-{version}.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://wingware.com/pub/wing-personal/{captures.version}/CHANGELOG.txt"
+	}
+}
