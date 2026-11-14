@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://kisenon.com/dl/latest/manifest.json", "path": "cli_version" },
+	"urls": ["https://kisenon.com/dl/v{version}/keon-win-x64.exe"]
+}
