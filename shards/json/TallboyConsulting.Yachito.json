@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://dl.yachito.com/latest.json", "path": "windows.version" },
+	"urls": ["https://dl.yachito.com/Yachito_{version}_x64-setup.exe"]
+}
