@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nexdm2026",
+		"repo": "NexDM-Releases",
+		"tagRegex": "^V"
+	},
+	"urls": ["https://github.com/nexdm2026/NexDM-Releases/releases/download/{github.rawTag}/NexDM_x64-setup.exe"]
+}
