@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gopasspw",
+		"repo": "gopass"
+	},
+	"urls": [
+		"https://github.com/gopasspw/gopass/releases/download/{github.rawTag}/gopass-{version}-windows-amd64.zip",
+		"https://github.com/gopasspw/gopass/releases/download/{github.rawTag}/gopass-{version}-windows-arm64.zip"
+	]
+}
