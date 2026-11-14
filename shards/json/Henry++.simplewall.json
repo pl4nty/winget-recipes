@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "henrypp",
+		"repo": "simplewall",
+		"tagRegex": "^v?\\."
+	},
+	"urls": [
+		"https://github.com/henrypp/simplewall/releases/download/{github.rawTag}/simplewall-{version}-setup.exe"
+	]
+}
