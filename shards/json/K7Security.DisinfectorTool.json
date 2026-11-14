@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://apps1.k7computing.com/Tools/dl/free-tools/K7Disinfector.zip"
+	]
+}
