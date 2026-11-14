@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": [
+		{
+			"url": "https://airspy.com/downloads/spyserver_x64.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["spyserver.exe"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://airspy.com/downloads/spyserver_x64.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
