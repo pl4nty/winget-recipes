@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "portableapps",
+		"file": "PortableApps.com_Platform_Setup_{version}.paf.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/portableapps/files/PortableApps.com%20Platform/PortableApps.com_Platform_Setup_{version}.paf.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://portableapps.com/news"
+	}
+}
