@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lively-community",
+		"repo": "lively"
+	},
+	"urls": [
+		{ "url": "https://github.com/lively-community/lively/releases/download/v{version}/lively_setup_x86_full_v{version|.|}.exe", "architecture": "x64" }
+	]
+}
