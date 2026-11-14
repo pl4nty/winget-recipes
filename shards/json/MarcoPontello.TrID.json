@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mark0.net/soft-trid-e.html",
+		"regex": "TrID v(\\d+\\.\\d+),\\s*<!-- MKHP SIZE /homepage-mark0/download/trid_win64\\.zip"
+	},
+	"urls": ["https://www.mark0.net/download/trid_win64.zip"]
+}
