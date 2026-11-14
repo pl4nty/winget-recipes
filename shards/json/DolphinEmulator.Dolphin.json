@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://github.com/dolphin-emu/dolphin/tags.atom",
+		"regex": "releases/tag/(\\d{4}[a-z]?)\""
+	},
+	"urls": [
+		"https://dl.dolphin-emu.org/releases/{version}/dolphin-{version}-x64.7z",
+		"https://dl.dolphin-emu.org/releases/{version}/dolphin-{version}-arm64.7z"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://dolphin-emu.org/download/release/{version}/"
+	}
+}
