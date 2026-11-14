@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mulhamna",
+		"repo": "jira-commands",
+		"method": "api-list",
+		"tagRegex": "^jira-mcp-v"
+	},
+	"urls": [
+		"https://github.com/mulhamna/jira-commands/releases/download/{github.rawTag}/jirac-mcp-windows-x86_64.zip",
+		{
+			"url": "https://github.com/mulhamna/jira-commands/releases/download/{github.rawTag}/jirac-mcp-windows-aarch64.zip",
+			"architecture": "arm64",
+			"nestedInstallerMatches": ["jirac-mcp-windows-aarch64.exe"]
+		}
+	]
+}
