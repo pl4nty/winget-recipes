@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.adiirc.com/download.php",
+		"regex": "href=\"/AdiIRC64\\.(\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": [
+		"https://www.adiirc.com/AdiIRC64.{version}.exe",
+		"https://www.adiirc.com/AdiIRC.{version}.exe"
+	]
+}
