@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "toevi",
+		"repo": "WinMD"
+	},
+	"urls": [
+		{ "url": "https://github.com/toevi/WinMD/releases/download/{github.rawTag}/WinMD-Setup.exe", "architecture": "x64" }
+	]
+}
