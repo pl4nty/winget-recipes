@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bibletime",
+		"repo": "bibletime",
+		"method": "api-sort",
+		"assetRegex": "win64\\.exe$"
+	}
+}
