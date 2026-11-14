@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "heldercorreia",
+		"repo": "speedcrunch",
+		"tagRegex": "\\.0$"
+	},
+	"urls": [
+		"https://github.com/heldercorreia/speedcrunch/releases/download/{github.rawTag}/SpeedCrunch-{version}-windows-x64.exe"
+	]
+}
