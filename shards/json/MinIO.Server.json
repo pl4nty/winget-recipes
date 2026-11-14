@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://dl.min.io/server/minio/release/windows-amd64/archive/",
+		"regex": "minio\\.RELEASE\\.(?<stamp>(?<version>\\d{4}-\\d{2}-\\d{2})T\\d{2}-\\d{2}-\\d{2}Z)(?=[\"<])(?![\\s\\S]*minio\\.RELEASE\\.\\d{4})"
+	},
+	"version": "{version|-|.}",
+	"urls": ["https://dl.min.io/server/minio/release/windows-amd64/archive/minio.RELEASE.{captures.stamp}"]
+}
