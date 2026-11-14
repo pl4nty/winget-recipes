@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cyberintelsystems",
+		"repo": "cicb"
+	},
+	"urls": [
+		{ "url": "https://github.com/cyberintelsystems/cicb/releases/download/{github.rawTag}/CICBv2-Win-v{version}.msi", "architecture": "x64" }
+	]
+}
