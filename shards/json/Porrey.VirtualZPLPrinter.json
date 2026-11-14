@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-commit",
+	"github": {
+		"owner": "porrey",
+		"repo": "Virtual-ZPL-Printer",
+		"branch": "main",
+		"path": "Installer/Virtual ZPL Printer Setup.msi"
+	},
+	"version": { "source": "display" },
+	"urls": ["https://github.com/porrey/Virtual-ZPL-Printer/raw/{github.commit}/Installer/Virtual%20ZPL%20Printer%20Setup.msi"],
+	"state": { "source": "value", "value": "{github.commit}" },
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/porrey/Virtual-ZPL-Printer?tab=readme-ov-file#history"
+	}
+}
