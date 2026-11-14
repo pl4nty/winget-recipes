@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.pdfgear.com/download/",
+		"regex": "/releases/windows/pdfgear_setup_v(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v{version}.exe"]
+}
