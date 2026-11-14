@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oeclassic.com/download",
+		"regex": "https://www\\.oeclassic\\.com/ws/download/oec-(?<version>\\d+\\.\\d+\\.\\d+)\\.exe"
+	},
+	"version": "{version}.0",
+	"urls": ["https://www.oeclassic.com/ws/download/oec-{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.oeclassic.com/news"
+	}
+}
