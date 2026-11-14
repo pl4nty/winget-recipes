@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "git-for-windows",
+		"repo": "git"
+	},
+	"version": "{version|.windows.|.}",
+	"urls": [
+		"https://github.com/git-for-windows/git/releases/download/{github.rawTag}/MinGit-{packageVersion}-busybox-32-bit.zip",
+		"https://github.com/git-for-windows/git/releases/download/{github.rawTag}/MinGit-{packageVersion}-busybox-64-bit.zip"
+	],
+	"versionRemove": ".windows.1"
+}
