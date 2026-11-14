@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ktgw0316",
+		"repo": "LightZone",
+		"method": "api-latest",
+		"assetRegex": "^LightZone-.*-windows-[^.]+\\.msi$"
+	}
+}
