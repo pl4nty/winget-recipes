@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "emoacht",
+		"repo": "RawInput.Touchpad",
+		"method": "api-sort",
+		"assetRegex": "^(?:RawInput\\-Touchpad\\d+\\.zip)$"
+	}
+}
