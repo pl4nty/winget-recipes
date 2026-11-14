@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BrocatScript",
+		"repo": "PowerSetSetup"
+	},
+	"urls": [
+		{ "url": "https://github.com/BrocatScript/PowerSetSetup/releases/download/{github.rawTag}/PowerSetSetup_Installer-{version}.exe", "architecture": "x64" }
+	]
+}
