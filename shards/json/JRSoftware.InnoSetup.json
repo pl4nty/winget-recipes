@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jrsoftware",
+		"repo": "issrc",
+		"method": "api-list",
+		"tagRegex": "^is-(?=6_)",
+		"perPage": 50
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://github.com/jrsoftware/issrc/releases/download/{github.rawTag}/innosetup-{packageVersion}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://jrsoftware.org/files/is6-whatsnew.htm#:~:text={packageVersion}"
+	}
+}
