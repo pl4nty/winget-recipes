@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://globalcdn.nuget.org/packages/microsoft.visualstudio.slngen.tool.12.0.32.nupkg",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://globalcdn.nuget.org/packages/microsoft.visualstudio.slngen.tool.12.0.32.nupkg",
+			"architecture": "x86"
+		}
+	]
+}
