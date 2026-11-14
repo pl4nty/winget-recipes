@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://download.bomist.app/dist/windows/latest.yml"
+	},
+	"urls": ["https://download.bomist.app/dist/windows/BOMIST+Setup+{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.bomist.com/changelog"
+	}
+}
