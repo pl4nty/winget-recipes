@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": { "source": "display" },
+	"github": {
+		"owner": "29thnight",
+		"repo": "PrSM-for-Unity",
+		"method": "api-latest",
+		"assetRegex": "^refraction-[\\d.]+-x86_64\\.msi$"
+	}
+}
