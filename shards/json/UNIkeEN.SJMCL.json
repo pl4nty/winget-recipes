@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://mc.sjtu.cn/api-sjmcl/releases/latest",
+		"path": "version"
+	},
+	"urls": [
+		"https://mc.sjtu.cn/sjmcl/releases/SJMCL_{version}_windows_i686_setup.exe",
+		"https://mc.sjtu.cn/sjmcl/releases/SJMCL_{version}_windows_x86_64_setup.exe",
+		"https://mc.sjtu.cn/sjmcl/releases/SJMCL_{version}_windows_aarch64_setup.exe"
+	],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "UNIkeEN",
+		"repo": "SJMCL",
+		"tag": "v{version}"
+	}
+}
