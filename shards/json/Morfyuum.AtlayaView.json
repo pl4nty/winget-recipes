@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://atlaya.capecter.com/atlayaview/en/updates.html",
+		"regex": "atlayaview/(?<version>\\d+(?:\\.\\d+)+)/AtlayaView-Setup-\\d+(?:\\.\\d+)+-full\\.exe"
+	},
+	"urls": ["https://atlaya.capecter.com/downloads/atlayaview/{version}/AtlayaView-Setup-{version}-full.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://atlaya.capecter.com/atlayaview/en/updates.html"
+	}
+}
