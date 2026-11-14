@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": "23.200",
+	"urls": [
+		{
+			"url": "https://installer.maxon.net/cinebench/CinebenchR23.zip",
+			"nestedInstallerMatches": ["Cinebench.exe"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://installer.maxon.net/cinebench/CinebenchR23.zip",
+		"header": "etag"
+	}
+}
