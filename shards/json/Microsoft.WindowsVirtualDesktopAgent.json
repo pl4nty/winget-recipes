@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://go.microsoft.com/fwlink/?linkid=2310011"
+		],
+		"regex": "/Microsoft\\.RDInfra\\.RDAgent\\.Installer-x64-(\\d+(?:\\.\\d+)+)\\.msi$"
+	}
+}
