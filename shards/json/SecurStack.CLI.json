@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.securstack.io/cli/latest.txt",
+		"regex": "^(?<version>\\d+(?:\\.\\d+)+)\\s*$"
+	},
+	"urls": ["https://downloads.securstack.io/cli/v{version}/securstack-windows-x64.exe"]
+}
