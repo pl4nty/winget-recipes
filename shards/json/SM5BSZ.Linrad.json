@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sm5bsz.com/linuxdsp/linrad.htm",
+		"regex": "archive/setup-linrad-(?<version>\\d+\\.\\d+)\\.exe"
+	},
+	"urls": ["https://www.sm5bsz.com/linuxdsp/archive/setup-linrad-{version}.exe"]
+}
