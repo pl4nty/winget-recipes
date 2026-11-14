@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SerZhyAle",
+		"repo": "StreamsPlayer"
+	},
+	"urls": ["https://github.com/SerZhyAle/StreamsPlayer/releases/download/v{version}/StreamsPlayer-{version}-windows-x64-setup.exe"]
+}
