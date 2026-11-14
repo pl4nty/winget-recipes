@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://page.dingtalk.com/wow/z/dingtalk/default/dddownload-index",
+		"regex": "\"winAccessibilityDownloadLink\":\"(?<url>https://[^\"]+/DingTalk_v(?<version>\\d+(?:\\.\\d+){2})\\.(?<build>\\d+)\\.exe)\""
+	},
+	"version": "{version}-Release.{captures.build}",
+	"urls": [
+		"{captures.url}"
+	]
+}
