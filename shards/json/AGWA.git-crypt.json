@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AGWA",
+		"repo": "git-crypt",
+		"method": "api-sort",
+		"assetRegex": "^(?:git\\-crypt\\-\\d+\\.\\d+\\.\\d+\\-x86_64\\.exe)$"
+	}
+}
