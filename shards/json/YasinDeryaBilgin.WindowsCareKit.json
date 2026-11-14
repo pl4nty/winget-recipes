@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ydbilgin",
+		"repo": "windows-care-kit",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/ydbilgin/windows-care-kit/releases/download/{github.rawTag}/WindowsCareKit-Setup-{github.rawTag}-win-x64.exe"
+	]
+}
