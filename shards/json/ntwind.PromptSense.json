@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ntwind.com/cross-platform/promptsense.html",
+		"regex": "PromptSense_(\\d+(?:\\.\\d+)+)-win-x64\\.exe"
+	},
+	"urls": ["https://www.ntwind.com/files/PromptSense_{version}-win-x64.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ntwind.com/cross-platform/promptsense/what-is-new.html"
+	}
+}
