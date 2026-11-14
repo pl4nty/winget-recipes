@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KeyPuncher",
+		"repo": "WiinUPro",
+		"tagRegex": "^WiinUPro"
+	},
+	"urls": [
+		"https://github.com/KeyPuncher/WiinUPro/releases/download/{github.rawTag}/WiinUPro.{version}.zip",
+		"https://github.com/KeyPuncher/WiinUPro/releases/download/{github.rawTag}/WiinUPro_{version}_setup.exe"
+	]
+}
