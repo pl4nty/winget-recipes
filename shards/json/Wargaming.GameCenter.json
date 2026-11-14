@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://redirect.wargaming.net/WGC/internal/Wargaming_Game_Center_Install_EU.exe"],
+		"regex": "/wgc/(?<dir>releases_\\w+)/wgc_(?<version>\\d+(?:\\.\\d+)+)_eu/wargaming_game_center_install_eu\\.exe"
+	},
+	"urls": ["https://wds.wargaming.net/wgc/{captures.dir}/wgc_{version}_eu/wargaming_game_center_install_eu.exe"]
+}
