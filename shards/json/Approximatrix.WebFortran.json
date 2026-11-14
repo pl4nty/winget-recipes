@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://web.simplyfortran.com/cli/download",
+		"regex": "WebFortran-CLI-Windows-x86-(?<version>\\d+\\.\\d+\\.\\d+)-(?<build>\\d+)\\.msix"
+	},
+	"version": "{version}.0",
+	"urls": ["https://download.simplyfortran.com/webfortran/WebFortran-CLI-Windows-x86-{version}-{captures.build}.msix"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://web.simplyfortran.com/cli/download"
+	}
+}
