@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tristan666666",
+		"repo": "agent-island"
+	},
+	"urls": [
+		"https://github.com/tristan666666/agent-island/releases/download/v{version}/AgentIsland-{version}-win-x64.zip"
+	]
+}
