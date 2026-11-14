@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://videoconverter.wondershare.com/what-is-new.html",
+		"regex": "cbs_down/uniconverter_64bit_(?<version>17\\.\\d+\\.\\d+)_full(?<product>\\d+)\\.exe\""
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": ["https://download.wondershare.com/cbs_down/uniconverter_64bit_{version}_full{captures.product}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://videoconverter.wondershare.com/what-is-new.html"
+	}
+}
