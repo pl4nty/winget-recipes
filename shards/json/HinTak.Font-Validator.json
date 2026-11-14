@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HinTak",
+		"repo": "Font-Validator",
+		"tagRegex": "^FontVal-"
+	},
+	"urls": [
+		"https://github.com/HinTak/Font-Validator/releases/download/{github.rawTag}/FontVal-{version}-win32%2B64.zip"
+	]
+}
