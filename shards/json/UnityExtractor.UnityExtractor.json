@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "UnityExtractor-rs",
+		"repo": "UnityExtrator",
+		"tagRegex": "^app-v"
+	},
+	"urls": [
+		"https://github.com/UnityExtractor-rs/UnityExtrator/releases/download/{github.rawTag}/UnityExtractor_{version}_x64-setup.exe",
+		"https://github.com/UnityExtractor-rs/UnityExtrator/releases/download/{github.rawTag}/UnityExtractor_{version}_x64_en-US.msi"
+	]
+}
