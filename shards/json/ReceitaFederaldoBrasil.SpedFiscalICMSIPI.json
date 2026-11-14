@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdi",
+		"regex": "/publico/programas/Sped/SpedFiscal/SpedEFD_w64-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://servicos.receita.fazenda.gov.br/publico/programas/Sped/SpedFiscal/SpedEFD_w64-{version}.exe",
+		"https://servicos.receita.fazenda.gov.br/publico/programas/Sped/SpedFiscal/SpedEFD_w32-{version}.exe"
+	]
+}
