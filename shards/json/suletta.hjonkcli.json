@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "seulleta",
+		"repo": "hjonkcli",
+		"tagRegex": "^v(?=\\d)"
+	},
+	"urls": [
+		"https://github.com/seulleta/hjonkcli/releases/download/{github.rawTag}/hjonkcli.exe"
+	]
+}
