@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.xnview.com/en/xnshell/",
+		"regex": "<span class=\"text-muted\">Version (?<version>\\d+(?:\\.\\d+)+)</span>"
+	},
+	"urls": [
+		"https://download.xnview.com/old_versions/XnShellEx/XnShellEx64-{version}.exe",
+		"https://download.xnview.com/old_versions/XnShellEx/XnShellEx-{version}.exe"
+	],
+	"releaseNotes": { "releaseNotesUrl": "https://newsgroup.xnview.com/viewtopic.php?f=35&t=19027" }
+}
