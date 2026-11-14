@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.auslogics.com/en/software/driver-updater/",
+		"regex": "Version (\\d+(?:\\.\\d+)+) \\|"
+	},
+	"urls": ["https://downloads.auslogics.com/en/driver-updater/auslogics-driver-updater-setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.auslogics.com/en/software/driver-updater/ajax/history/"
+	},
+	"replace": true
+}
