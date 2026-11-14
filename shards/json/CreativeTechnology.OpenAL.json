@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://openal.org/downloads/oalinst.zip"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://openal.org/downloads/oalinst.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
