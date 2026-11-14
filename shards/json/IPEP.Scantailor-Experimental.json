@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ImageProcessing-ElectronicPublications",
+		"repo": "scantailor-experimental"
+	},
+	"urls": [
+		"https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/{github.rawTag}/scantailor-experimental-{version}-X86-64-install.exe"
+	]
+}
