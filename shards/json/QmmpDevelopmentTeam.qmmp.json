@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://qmmp.ylsoftware.com/downloads.php",
+		"regex": "files/windows/(?<dir>\\d+\\.\\d+)/qmmp-(?<version>\\d+(?:\\.\\d+)+)-win32\\.exe"
+	},
+	"urls": [
+		"https://qmmp.ylsoftware.com/files/windows/{captures.dir}/qmmp-{version}-win32.exe",
+		"https://qmmp.ylsoftware.com/files/windows-64/{captures.dir}/qmmp-{version}-win64.exe"
+	]
+}
