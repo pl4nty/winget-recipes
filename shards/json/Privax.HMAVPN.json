@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://bits.avcdn.net/productfamily_HMA/insttype_PRO/platform_WIN/installertype_ONLINE/build_RELEASE/cookie_mmm_hma_998_999_000_m?alt=en-ww"],
+	"state": {
+		"source": "response-header",
+		"url": "https://bits.avcdn.net/productfamily_HMA/insttype_PRO/platform_WIN/installertype_ONLINE/build_RELEASE/cookie_mmm_hma_998_999_000_m?alt=en-ww",
+		"header": "content-length"
+	},
+	"replace": true
+}
