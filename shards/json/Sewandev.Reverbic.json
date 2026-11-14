@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sewandev",
+		"repo": "Reverbic"
+	},
+	"urls": [
+		"https://github.com/sewandev/Reverbic/releases/download/v{version}/reverbic-v{version}-x86_64-windows.exe"
+	]
+}
