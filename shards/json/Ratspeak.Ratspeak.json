@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ratspeak",
+		"repo": "Ratspeak"
+	},
+	"version": "v{version}",
+	"urls": [
+		"https://github.com/ratspeak/Ratspeak/releases/download/{github.rawTag}/Ratspeak-{github.rawTag}-windows-x64.msi",
+		"https://github.com/ratspeak/Ratspeak/releases/download/{github.rawTag}/Ratspeak-{github.rawTag}-windows-x64-setup.exe"
+	]
+}
