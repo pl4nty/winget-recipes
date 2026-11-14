@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stellarinfo.com/access-database-repair.php",
+		"regex": "<strong>Version:</strong></td>\\s*<td>(\\d+(?:\\.\\d+)+)</td>"
+	},
+	"urls": [{ "url": "https://cloud.stellarinfo.com/StellarRepairforAccess.exe", "architecture": "x64" }]
+}
