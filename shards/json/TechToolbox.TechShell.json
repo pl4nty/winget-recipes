@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dan-damit",
+		"repo": "TechToolbox",
+		"method": "api-list",
+		"tagRegex": "^techshell-v"
+	},
+	"urls": ["https://github.com/dan-damit/TechToolbox/releases/download/{github.rawTag}/TechShell.msix"]
+}
