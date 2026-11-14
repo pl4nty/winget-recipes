@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://accoblobstorageus.blob.core.windows.net/software/5464fcfa-e401-41ec-95ae-e16b3e27c78a.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://accoblobstorageus.blob.core.windows.net/software/5464fcfa-e401-41ec-95ae-e16b3e27c78a.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
