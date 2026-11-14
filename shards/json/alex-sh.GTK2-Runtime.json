@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "gtk-win",
+		"file": "gtk2-runtime-{version}-2012-10-10-ash.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gtk-win/files/GTK%2B%20Runtime%20Environment/GTK%2B%202.24/gtk2-runtime-{version}-2012-10-10-ash.exe/download"
+	]
+}
