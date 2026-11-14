@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "owasp-amass",
+		"repo": "amass"
+	},
+	"urls": ["https://github.com/owasp-amass/amass/releases/download/v{version}/amass_windows_amd64.tar.gz"]
+}
