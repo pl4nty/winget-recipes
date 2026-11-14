@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://melonds.kuribo64.net/downloads.php",
+		"regex": "downloads/melonDS-(?<version>\\d+(?:\\.\\d+)+)-windows-aarch64(?<arm>[^\"/]*)\\.zip"
+	},
+	"urls": [
+		"https://melonds.kuribo64.net/downloads/melonDS-{version}-windows-x86_64.zip",
+		"https://melonds.kuribo64.net/downloads/melonDS-{version}-windows-aarch64{captures.arm}.zip"
+	],
+	"releaseNotes": { "source": "github", "owner": "melonDS-emu", "repo": "melonDS", "tag": "{version}", "cleanup": false }
+}
