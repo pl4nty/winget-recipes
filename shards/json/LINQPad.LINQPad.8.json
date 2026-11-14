@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.linqpad.net/Download.aspx",
+		"regex": "lblLINQPad8Version\">(\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": [
+		"https://cdn.linqpad.net/public/LINQPad8Setup.exe"
+	]
+}
