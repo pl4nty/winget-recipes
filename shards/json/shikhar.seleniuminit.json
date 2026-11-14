@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "shikhar-batham", "repo": "selenium-init-cli" },
+	"urls": [
+		{ "url": "https://github.com/shikhar-batham/selenium-init-cli/releases/download/v{version}/selenium-init-installer.exe", "architecture": "x64" }
+	]
+}
