@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mucommander", "repo": "mucommander", "tagRegex": "-\\d+$" },
+	"urls": [
+		"https://github.com/mucommander/mucommander/releases/download/{github.rawTag}/mucommander-{version}-aarch64.msi",
+		"https://github.com/mucommander/mucommander/releases/download/{github.rawTag}/mucommander-{version}-x86_64.msi"
+	]
+}
