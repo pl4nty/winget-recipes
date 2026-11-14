@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "macchrome",
+		"repo": "winchrome",
+		"method": "api-list",
+		"tagRegex": "^(?=.*-Win64$)",
+		"assetRegex": "_ungoogled_mini_installer\\.exe$"
+	},
+	"version": { "source": "product" }
+}
