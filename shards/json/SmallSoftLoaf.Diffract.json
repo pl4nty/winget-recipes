@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://releases.getdiffract.com/latest.json",
+		"path": "version"
+	},
+	"urls": ["https://releases.getdiffract.com/diffract-{version}-windows-setup.exe"],
+	"releaseNotes": {
+		"source": "markdown",
+		"sourceUrl": "https://releases.getdiffract.com/changelog-{version}.md",
+		"releaseNotesUrl": "https://releases.getdiffract.com/changelog-{version}.md",
+		"cleanup": false
+	}
+}
