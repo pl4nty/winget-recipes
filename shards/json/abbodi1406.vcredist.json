@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://github.com/abbodi1406/vcredist/releases.atom",
+		"regex": "/releases/tag/v(?<version>0\\.(?<build>\\d+)\\.\\d+)"
+	},
+	"urls": [
+		"https://github.com/abbodi1406/vcredist/releases/download/v{version}/VisualCppRedist_AIO_x86only.exe",
+		"https://github.com/abbodi1406/vcredist/releases/download/v{version}/VisualCppRedist_AIO_x86_x64.exe",
+		"https://github.com/abbodi1406/vcredist/releases/download/v{version}/VisualCppRedist_AIO_x86_x64_{captures.build}.zip",
+		"https://github.com/abbodi1406/vcredist/releases/download/v{version}/VisualCppRedist_AIO-arm64.exe"
+	],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "abbodi1406",
+		"repo": "vcredist",
+		"tag": "v{version}"
+	}
+}
