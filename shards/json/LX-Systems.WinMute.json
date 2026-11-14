@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lx-s",
+		"repo": "WinMute"
+	},
+	"urls": [
+		{ "url": "https://github.com/lx-s/WinMute/releases/download/{github.rawTag}/WinMute-{version}-Setup.exe", "architecture": "x64" }
+	]
+}
