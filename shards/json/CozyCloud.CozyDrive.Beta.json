@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cozy-labs",
+		"repo": "cozy-desktop",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/cozy-labs/cozy-desktop/releases/download/{github.rawTag}/Twake-Desktop-Setup.exe"
+	]
+}
