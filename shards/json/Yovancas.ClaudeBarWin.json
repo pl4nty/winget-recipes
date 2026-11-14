@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Yovancas",
+		"repo": "claudebar-win",
+		"method": "api-sort",
+		"assetRegex": "^ClaudeBarWin-Setup-[\\d.]+\\.exe$"
+	}
+}
