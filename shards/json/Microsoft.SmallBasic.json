@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{ "url": "https://smallbasic-publicwebsite.azurewebsites.net/assets/SmallBasic_v1.2.msi", "architecture": "x64" }
+	]
+}
