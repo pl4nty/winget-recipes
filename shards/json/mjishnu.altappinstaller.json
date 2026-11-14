@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mjishnu", "repo": "alt-app-installer" },
+	"urls": [
+		{
+			"url": "https://github.com/mjishnu/alt-app-installer/releases/download/v{version}/altappinstaller-v{version}.zip",
+			"architecture": "neutral"
+		}
+	]
+}
