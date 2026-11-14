@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.squadratechnologies.com/Products/secRMM/secRMMReleaseNotes.aspx",
+		"regex": "<li>\\s*<strong>\\d{2}/\\d{2}/\\d{4} - (?<version>(?<major>\\d+)\\.(?<minor>\\d+)\\.\\d+\\.\\d+)</strong>"
+	},
+	"urls": [
+		"https://www.squadratechnologies.com/StaticContent/ProductDownload/secRMM/{captures.major}.{captures.minor}.0.0/secRMMInstallx86.zip",
+		"https://www.squadratechnologies.com/StaticContent/ProductDownload/secRMM/{captures.major}.{captures.minor}.0.0/secRMMInstallx64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.squadratechnologies.com/Products/secRMM/secRMMReleaseNotes.aspx"
+	}
+}
