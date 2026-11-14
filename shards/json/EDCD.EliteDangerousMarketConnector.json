@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "EDCD",
+		"repo": "EDMarketConnector",
+		"tagRegex": "^Release/"
+	},
+	"urls": [
+		"https://github.com/EDCD/EDMarketConnector/releases/download/{github.rawTag}/EDMarketConnector_Installer_{version}_x86.exe",
+		"https://github.com/EDCD/EDMarketConnector/releases/download/{github.rawTag}/EDMarketConnector_Installer_{version}_x64.exe"
+	]
+}
