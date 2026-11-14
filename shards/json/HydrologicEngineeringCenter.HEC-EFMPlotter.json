@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hec.usace.army.mil/software/hec-efm-plotter/download.aspx",
+		"regex": "href=\"downloads/(?<file>HEC-EFM_Plotter_\\d+_Setup\\.exe)\"><span class=\"fas fa-download\"></span> Download</a> HEC-EFM Plotter\\s+(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.hec.usace.army.mil/software/hec-efm-plotter/downloads/{captures.file}"]
+}
