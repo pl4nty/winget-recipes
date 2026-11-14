@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["http://smsng.co/easy"],
+		"regex": "downloadcenter\\.samsung\\.com/content/(?<path>SW/\\d+/\\d+/Easy_Connection_to_Screen-(?<version>\\d+(?:\\.\\d+)+)-win64\\.msi)"
+	},
+	"urls": [
+		{
+			"url": "https://downloadcenter.samsung.com/content/{captures.path}",
+			"architecture": "x64"
+		}
+	]
+}
