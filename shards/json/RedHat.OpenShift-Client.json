@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/stable/release.txt",
+		"regex": "Name:\\s+(?<version>\\d+\\.\\d+\\.\\d+)\\s"
+	},
+	"urls": ["https://mirror.openshift.com/pub/openshift-v4/clients/ocp/{version}/openshift-client-windows.zip"]
+}
