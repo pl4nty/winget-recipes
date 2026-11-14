@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.teamviewer.com/en/download/windows/",
+		"regex": "TeamViewerQuickSupport\\W+operatingSystem\\W+targetItem\\W+name\\W+Windows\\W+versionNumber\\W+value\\W+(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://download.teamviewer.com/download/TeamViewerQS.exe",
+		"https://download.teamviewer.com/download/TeamViewerQS_x64.exe"
+	]
+}
