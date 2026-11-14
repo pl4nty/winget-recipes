@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://valentin-software.com/en/products/geotsol/",
+		"regex": "GeoT\\*SOL 2026 Release (\\d+)<"
+	},
+	"urls": [{ "url": "https://downloads.valentin.de/geotsol/setup_geotsol_2026_{version}.exe", "architecture": "x64" }],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://valentin-software.com/en/products/geotsol/#release-notes"
+	}
+}
