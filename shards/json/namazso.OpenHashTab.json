@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://oht.namazso.eu/releases/",
+		"regex": "href=\"\\./(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": [
+		"https://oht.namazso.eu/releases/{version}/OpenHashTab_User_x86.msi",
+		"https://oht.namazso.eu/releases/{version}/OpenHashTab_Machine_x86.msi",
+		"https://oht.namazso.eu/releases/{version}/OpenHashTab_User_x64.msi",
+		"https://oht.namazso.eu/releases/{version}/OpenHashTab_Machine_x64.msi",
+		"https://oht.namazso.eu/releases/{version}/OpenHashTab_User_ARM64.msi",
+		"https://oht.namazso.eu/releases/{version}/OpenHashTab_Machine_ARM64.msi"
+	]
+}
