@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://clientsettingscdn.roblox.com/v2/client-version/WindowsPlayer",
+		"regex": "\"version\":\"(?<version>\\d+\\.\\d+)\\.\\d+\\.\\d+\",\"clientVersionUpload\":\"(?<upload>version-[0-9a-f]+)\""
+	},
+	"urls": ["https://setup.rbxcdn.com/{captures.upload}-RobloxPlayerInstaller.exe"]
+}
