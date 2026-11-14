@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cardpresso.com/id-all-software/latest-release/",
+		"regex": "id-all-releases/windows/ID-ALL-(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://www.cardpressodownloads.com/downloads/id-all-releases/windows/ID-ALL-{version}.zip",
+			"nestedInstallerMatches": ["ID-ALL-"]
+		},
+		"https://www.cardpressodownloads.com/downloads/id-all-releases/windows/ID-ALL-{version}.exe"
+	]
+}
