@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://mooveo-cdn-dev.s3.fr-par.scw.cloud/launcher/latest.json", "path": "version" },
+	"urls": [
+		"https://mooveo-cdn-dev.s3.fr-par.scw.cloud/launcher/v{version}/Mooveo_{version}_x64-setup.exe",
+		"https://mooveo-cdn-dev.s3.fr-par.scw.cloud/launcher/v{version}/Mooveo_{version}_x86-setup.exe"
+	]
+}
