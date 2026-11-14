@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ti.com/tool/FUSION_DIGITAL_POWER_DESIGNER",
+		"regex": "<span>Version: (?<version>\\d+\\.\\d+\\.\\d+)</span>"
+	},
+	"urls": [
+		{
+			"url": "https://software-dl.ti.com/analog/analog_public_sw/fusion/TI-Fusion-Digital-Power-Designer-{version}.zip",
+			"nestedInstallerMatches": ["TI-Fusion-Digital-Power-Designer-"]
+		}
+	]
+}
