@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://s3.multibasecs.de/releases/desktop/latest/MultiBaseCS-BirdBase-x64.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://s3.multibasecs.de/releases/desktop/latest/MultiBaseCS-BirdBase-x64.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
