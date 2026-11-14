@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "busiotools",
+		"tagRegex": "^bt"
+	},
+	"urls": [
+		"https://github.com/microsoft/busiotools/releases/download/bt{version}/busestracing-win-x64.zip",
+		"https://github.com/microsoft/busiotools/releases/download/bt{version}/busestracing-win-arm64.zip"
+	]
+}
