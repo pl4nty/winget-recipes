@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://tortoisesvn.net/downloads.html",
+		"regex": "files/(?<dir>\\d+(?:\\.\\d+)+)/Application/TortoiseSVN-(?<version>\\d+(?:\\.\\d+)+)-x64-svn-(?<svn>\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/tortoisesvn/files/{captures.dir}/Application/TortoiseSVN-{version}-win32-svn-{captures.svn}.msi",
+		"https://sourceforge.net/projects/tortoisesvn/files/{captures.dir}/Application/TortoiseSVN-{version}-x64-svn-{captures.svn}.msi",
+		"https://sourceforge.net/projects/tortoisesvn/files/{captures.dir}/Application/TortoiseSVN-{version}-ARM64-svn-{captures.svn}.msi"
+	]
+}
