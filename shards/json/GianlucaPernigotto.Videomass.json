@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jeanslack",
+		"repo": "Videomass"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/jeanslack/Videomass/releases/download/{github.rawTag}/Videomass-{version}-win64-portable.zip",
+			"nestedInstallerMatches": [
+				"/Videomass.exe"
+			]
+		}
+	]
+}
