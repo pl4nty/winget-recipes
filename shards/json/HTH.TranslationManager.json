@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://hebrew-translation-hub.com/",
+		"regex": "https://mods\\.hebrew\\-translation\\-hub\\.com/launcher/download/v(\\d+(?:\\.\\d+)+)\\-beta/TranslationManager\\-Setup\\-\\1\\.exe"
+	},
+	"urls": [
+		"https://mods.hebrew-translation-hub.com/launcher/download/v{version}-beta/TranslationManager-Setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hebrew-translation-hub.com/"
+	}
+}
