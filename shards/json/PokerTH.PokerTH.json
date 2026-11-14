@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pokerth",
+		"repo": "pokerth",
+		"method": "api-latest",
+		"assetRegex": "^PokerTH-Combined-.*-Setup\\.exe$"
+	}
+}
