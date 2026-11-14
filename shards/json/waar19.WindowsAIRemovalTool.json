@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "waar19",
+		"repo": "win-ai-tools"
+	},
+	"urls": [
+		"https://github.com/waar19/win-ai-tools/releases/download/v{version}/WinAIRemovalTool_v{version}_win_x64_Setup.exe",
+		"https://github.com/waar19/win-ai-tools/releases/download/v{version}/WinAIRemovalTool.exe"
+	]
+}
