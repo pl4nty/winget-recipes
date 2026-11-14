@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.wagnardsoft.com/forums/viewtopic.php?t=1256",
+		"regex": "href=\"(?:https?://www\\.wagnardsoft\\.com)?/(?<dir>[^\"]*?)/ISLC(?:%20| )v(?<version>\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": ["https://www.wagnardsoft.com/{captures.dir}/ISLC%20v{version}.exe"]
+}
