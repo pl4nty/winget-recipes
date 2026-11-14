@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ni.com/en/support/downloads/drivers/download.ni-serial.html",
+		"regex": "/ni-serial/(?<short>\\d+\\.\\d+)/offline/ni-serial_(?<version>\\d+\\.\\d+\\.\\d+)_offline\\.iso(?![\\s\\S]*/ni-serial/\\d+\\.\\d+/offline/ni-serial_\\d)"
+	},
+	"urls": [
+		{
+			"url": "https://download.ni.com/support/nipkg/products/ni-s/ni-serial/{captures.short}/online/ni-serial_{captures.short}_online.exe",
+			"architecture": "x64"
+		}
+	]
+}
