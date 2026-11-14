@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://dl-voice.croppick.com/latest.json",
+		"path": "version"
+	},
+	"urls": [
+		{
+			"url": "https://dl-voice.croppick.com/v{version}/CroppickVoice-windows-setup.exe",
+			"architecture": "x64"
+		}
+	]
+}
