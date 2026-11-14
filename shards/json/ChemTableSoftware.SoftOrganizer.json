@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.chemtable.com/soft-organizer.htm",
+		"regex": "<title>Soft Organizer (?<version>\\d+\\.\\d+)\\b"
+	},
+	"urls": ["https://files.chemtable.com/older/SO/SO{version|.|}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.chemtable.com/version-history.htm?prod_id=SoftOrganizer"
+	}
+}
