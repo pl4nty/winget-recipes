@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Halfblood-Prince",
+		"repo": "trustcheck",
+		"method": "api-sort",
+		"assetRegex": "^(?:trustcheck\\-\\d+\\.\\d+\\.\\d+\\-windows\\-x86_64\\.exe)$"
+	}
+}
