@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.aescrypt.com/download/",
+		"regex": "aescrypt_gui-(\\d+(?:\\.\\d+)+)-Windows-x86_64\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://www.aescrypt.com/download/v4/windows/aescrypt_gui-{version}-Windows-x86_64.zip",
+			"nestedInstallerMatches": ["aescrypt_gui-"]
+		},
+		{
+			"url": "https://www.aescrypt.com/download/v4/windows/aescrypt_gui-{version}-Windows-arm64.zip",
+			"nestedInstallerMatches": ["aescrypt_gui-"]
+		}
+	]
+}
