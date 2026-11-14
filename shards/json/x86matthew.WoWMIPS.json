@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-commit",
+	"github": {
+		"owner": "x86matthew",
+		"repo": "WoWMIPS",
+		"branch": "main",
+		"path": "Release/WoWMIPS.exe"
+	},
+	"version": { "source": "file" },
+	"urls": ["https://raw.githubusercontent.com/x86matthew/WoWMIPS/{github.commit}/Release/WoWMIPS.exe"],
+	"state": { "source": "value", "value": "{github.commit}" },
+	"replace": true
+}
