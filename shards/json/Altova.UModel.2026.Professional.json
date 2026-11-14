@@ -1,0 +1,58 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/en/UModelProf2026rel2.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/en/UModelProf2026rel2_x64.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/de/UModelProf2026rel2_DE.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/de/UModelProf2026rel2_x64_DE.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/es/UModelProf2026rel2_ES.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/es/UModelProf2026rel2_x64_ES.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/fr/UModelProf2026rel2_FR.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/fr/UModelProf2026rel2_x64_FR.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/jp/UModelProf2026rel2_JP.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/jp/UModelProf2026rel2_x64_JP.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.sw.altova.com/v2026r2/en/UModelProf2026rel2.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.altova.com/support/release-notes"
+	},
+	"replace": true
+}
