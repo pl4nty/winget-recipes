@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pgerke",
+		"repo": "get-odassey",
+		"method": "api-sort",
+		"assetRegex": "^Odassey_win_(?:x64|arm64)_v[\\d.]+\\.exe$"
+	}
+}
