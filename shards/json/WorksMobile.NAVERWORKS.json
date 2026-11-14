@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": [
+		{
+			"url": "https://download.worksmobile.com/k/wminst/r/naverworks/deploy_pcmsgapp_win32_exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://download.worksmobile.com/k/wminst/r/naverworks/deploy_pcmsgapp_win64_exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.worksmobile.com/k/wminst/r/naverworks/deploy_pcmsgapp_win64_exe",
+		"header": "last-modified"
+	}
+}
