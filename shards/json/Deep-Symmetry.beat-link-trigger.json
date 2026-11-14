@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Deep-Symmetry",
+		"repo": "beat-link-trigger"
+	},
+	"urls": [
+		"https://github.com/Deep-Symmetry/beat-link-trigger/releases/download/{github.rawTag}/Beat-Link-Trigger-{version}-Win64.msi"
+	]
+}
