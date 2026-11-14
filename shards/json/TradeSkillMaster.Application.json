@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://app-cdn.tradeskillmaster.xyz/legacyDesktopApp/setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://app-cdn.tradeskillmaster.xyz/legacyDesktopApp/setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
