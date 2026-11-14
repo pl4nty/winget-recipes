@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "derceg",
+		"repo": "explorerplusplus",
+		"tagRegex": "^ersion-"
+	},
+	"urls": [
+		"https://github.com/derceg/explorerplusplus/releases/download/{github.rawTag}/explorerpp_x86.zip",
+		"https://github.com/derceg/explorerplusplus/releases/download/{github.rawTag}/explorerpp_x64.zip"
+	]
+}
