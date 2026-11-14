@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.rebex.net/drive/download/",
+		"regex": "(?<url>https://www\\.rebex\\.net/getfile/[0-9a-f]{32}/RebexDrive-(?<version>\\d+(?:\\.\\d+)+)\\.msi/direct)"
+	},
+	"urls": [
+		{
+			"url": "{captures.url}",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.rebex.net/drive/release-notes/#{version}"
+	}
+}
