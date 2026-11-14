@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hamradiodeluxe.com/downloads/",
+		"regex": "setupHRD_(?<raw>(?<major>\\d)(?<minor>\\d)(?<patch>\\d)(?<build>\\d{4,}))\\.exe"
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.patch}.{captures.build}",
+	"urls": ["https://downloads.hamradiodeluxe.com/setupHRD_{captures.raw}.exe"]
+}
