@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MudabbirulSaad",
+		"repo": "NetPulse"
+	},
+	"urls": ["https://github.com/MudabbirulSaad/NetPulse/releases/download/v{version}/NetPulseSetup.msi"]
+}
