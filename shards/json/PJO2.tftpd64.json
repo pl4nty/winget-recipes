@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PJO2",
+		"repo": "tftpd64",
+		"method": "api-sort",
+		"assetRegex": "(?:^|-)Tftpd64_Installer_v[\\d.]+\\.exe$"
+	}
+}

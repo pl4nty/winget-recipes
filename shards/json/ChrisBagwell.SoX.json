@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/sox/rss?path=/sox",
+		"regex": "/sox/(\\d+(?:\\.\\d+)+)/sox-\\d+(?:\\.\\d+)+-win32\\.zip/"
+	},
+	"urls": ["https://sourceforge.net/projects/sox/files/sox/{version}/sox-{version}-win32.zip/download"]
+}

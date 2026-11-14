@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "appinstaller",
+	"appinstaller": {
+		"url": "https://its-deployment.bitmedia.at/data/itsr3/itsr3.appinstaller"
+	}
+}

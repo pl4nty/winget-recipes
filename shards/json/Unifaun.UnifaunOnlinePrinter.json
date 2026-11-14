@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [{ "url": "https://delivery-clientinstall.s3.eu-north-1.amazonaws.com/installs/WIN/UnifaunOnlinePrinter64.msi", "architecture": "x64" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://delivery-clientinstall.s3.eu-north-1.amazonaws.com/installs/WIN/UnifaunOnlinePrinter64.msi",
+		"header": "etag"
+	},
+	"replace": true
+}

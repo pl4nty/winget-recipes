@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "http://download.samygo.tv/PC%20Applications/",
+		"regex": "href=\"SammyWidgets_v(\\d+(?:\\.\\d+)+)\\.zip\""
+	},
+	"urls": [
+		"http://download.samygo.tv/PC%20Applications/SammyWidgets_v{version}.zip"
+	]
+}

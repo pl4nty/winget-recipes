@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.geekbench.com/legacy/",
+		"regex": "Geekbench-(?<version>2(?:\\.\\d+)+)-WindowsSetup\\.exe"
+	},
+	"urls": [
+		"https://cdn.geekbench.com/Geekbench-{version}-WindowsSetup.exe"
+	]
+}

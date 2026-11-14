@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "anomalyco",
+		"repo": "opencode",
+		"tagRegex": "^v(?=\\d)",
+		"method": "api-sort",
+		"assetRegex": "^opencode-windows-(?:x64-baseline|arm64)\\.zip$"
+	}
+}
