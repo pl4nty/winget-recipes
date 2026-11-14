@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://audacious-media-player.org/download",
+		"regex": "distfiles\\.audacious-media-player\\.org/audacious-(?<version>\\d+(?:\\.\\d+)+)-win32\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://distfiles.audacious-media-player.org/audacious-{version}-win32.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "audacious-media-player",
+		"repo": "audacious",
+		"tag": "audacious-{version}"
+	}
+}
