@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 105763
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.microsoft.com/en-us/servicing/os/windows/2023/12/kb5034510-microsoft-printer-metadata-troubleshooter-tool-december-2023"
+	}
+}
