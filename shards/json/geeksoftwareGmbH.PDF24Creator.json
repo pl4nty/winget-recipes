@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://tools.pdf24.org/en/creator",
+		"regex": "\"softwareVersion\":\\s*\"(?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://download.pdf24.org/pdf24-creator-{version}-x64.msi",
+		"https://download.pdf24.org/pdf24-creator-{version}-x64.exe",
+		"https://download.pdf24.org/pdf24-creator-{version}-x86.msi",
+		"https://download.pdf24.org/pdf24-creator-{version}-x86.exe",
+		"https://download.pdf24.org/pdf24-creator-{version}-arm64.msi",
+		"https://download.pdf24.org/pdf24-creator-{version}-arm64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://creator.pdf24.org/changelog/#v{captures.version}"
+	}
+}
