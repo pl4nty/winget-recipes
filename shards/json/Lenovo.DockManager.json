@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download.lenovo.com/consumer/options/dock_manager_readme.txt",
+		"regex": "Version:\\s+(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{ "url": "https://download.lenovo.com/consumer/options/dockmanager_{version}_setup.exe", "architecture": "x64" }
+	]
+}
