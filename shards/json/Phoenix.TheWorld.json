@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.theworld.cn/v7/",
+		"regex": "class=\"redown\" href=\"https?://download\\.theworld\\.cn/ver/TWInst_(\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": ["http://download.theworld.cn/ver/TWInst_{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.theworld.cn/v7/notes.html"
+	}
+}
