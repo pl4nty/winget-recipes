@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "trigger-segfault", "repo": "WiimoteLib.Net", "method": "api-list", "kind": "all" },
+	"urls": [
+		"https://github.com/trigger-segfault/WiimoteLib.Net/releases/download/{version}/WiimoteAudioPlayer.zip"
+	]
+}
