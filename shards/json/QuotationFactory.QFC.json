@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "quotationfactory",
+		"repo": "qf_cli",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^qfc-win-(?:x64|arm64)\\.zip$"
+	}
+}
