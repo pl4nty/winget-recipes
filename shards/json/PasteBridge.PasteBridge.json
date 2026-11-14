@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://updates.pastebridge.com/RELEASES",
+		"regex": "pastebridge-(\\d+(?:\\.\\d+)+)-full\\.nupkg"
+	},
+	"urls": ["https://updates.pastebridge.com/PasteBridge-{version}-Setup.exe"]
+}
