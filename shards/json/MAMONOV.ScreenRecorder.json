@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "evgeniymamonov1988z-creator",
+		"repo": "Zapis-ekrana",
+		"tagRegex": "^v(?=\\d)"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/evgeniymamonov1988z-creator/Zapis-ekrana/releases/download/{github.rawTag}/Ekrannik-Setup.exe",
+			"architecture": "x64"
+		}
+	]
+}
