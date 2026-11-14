@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "QuintinShaw",
+		"repo": "openasr",
+		"tagRegex": "^desktop\\-v",
+		"method": "api-sort",
+		"assetRegex": "^(?:OpenASR\\-Desktop\\-\\d+\\.\\d+\\.\\d+\\-x64\\-setup\\.exe)$"
+	}
+}
