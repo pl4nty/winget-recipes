@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://timesynctool.com/",
+		"regex": "Version (?<version>\\d+(?:\\.\\d+)+) - Current Stable Version:\\s*<ul>\\s*<li>Installer: <a href=\"(?<file>NetTimeSetup-[^\"]+\\.exe)\""
+	},
+	"urls": ["https://timesynctool.com/{captures.file}"]
+}
