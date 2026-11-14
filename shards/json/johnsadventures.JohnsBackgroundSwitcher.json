@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://johnsad.ventures/software/backgroundswitcher/windows/",
+		"regex": "\\(Version (\\d+(?:\\.\\d+)+) &#8211; [\\d.]+MB\\)"
+	},
+	"urls": ["https://dl.johnsadventures.com/SwitcherSetup{version|.|}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://johnsad.ventures/software/backgroundswitcher/johns-background-switcher-{version|.|-}-release-notes/"
+	}
+}
