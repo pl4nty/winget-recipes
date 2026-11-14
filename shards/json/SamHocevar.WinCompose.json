@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "samhocevar", "repo": "wincompose" },
+	"urls": [
+		{ "url": "https://github.com/samhocevar/wincompose/releases/download/v{version}/WinCompose-Setup-{version}.exe", "architecture": "neutral" }
+	]
+}
