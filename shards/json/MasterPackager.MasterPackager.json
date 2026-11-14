@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.masterpackager.com/download",
+		"regex": "/installer/mp/(?<version>\\d+(?:\\.\\d+)+)/master_packager_suite_\\k<version>\\.msi"
+	},
+	"urls": ["https://www.masterpackager.com/installer/mp/{version}/master_packager_suite_{version}.msi"]
+}
