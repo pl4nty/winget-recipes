@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/8/f/9/8f93dbbd-896b-4760-ac81-646f61363a6d/WcfDataServices.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.microsoft.com/download/8/f/9/8f93dbbd-896b-4760-ac81-646f61363a6d/WcfDataServices.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
