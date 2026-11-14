@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.routeconverter.com/downloads/",
+		"regex": "<p class=\"dlc-facts\">RouteConverter (?<version>\\d+(?:\\.\\d+)+) "
+	},
+	"urls": [
+		{
+			"url": "https://releases.routeconverter.com/previous-releases/{version}/RouteConverterWindows.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "cpesch",
+		"repo": "RouteConverter",
+		"tag": "{version}",
+		"cleanup": false
+	}
+}
