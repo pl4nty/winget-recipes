@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "dev-fYnn",
+		"repo": "Winget-Repo-Client"
+	},
+	"urls": [
+		"https://github.com/dev-fYnn/Winget-Repo-Client/releases/download/{github.rawTag}/Winget-Repo_Client.msi"
+	]
+}
