@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kittech197718",
+		"repo": "MCAD2026-releases",
+		"method": "api-list",
+		"tagRegex": "^v(?=\\d)"
+	},
+	"urls": ["https://github.com/kittech197718/MCAD2026-releases/releases/download/{github.rawTag}/MCAD2026-Setup-2026.exe"]
+}
