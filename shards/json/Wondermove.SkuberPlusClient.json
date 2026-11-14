@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.skuberplus.com/",
+		"regex": "SkuberPlusClient-(?<version>\\d+(?:\\.\\d+)+)-x64\\.exe"
+	},
+	"urls": ["https://skuberplus-client-downloads.s3.us-east-1.amazonaws.com/SkuberPlusClient-{version}-x64.exe"]
+}
