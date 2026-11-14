@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://puredata.info/downloads/pure-data",
+		"regex": "releases/(\\d+\\.\\d+-\\d+)-pd64\""
+	},
+	"urls": [
+		{
+			"url": "https://puredata.info/downloads/pure-data/releases/{version}-pd64/Pd64-{version}.windows-installer.exe",
+			"architecture": "x64"
+		}
+	]
+}
