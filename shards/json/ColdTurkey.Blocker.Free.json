@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://getcoldturkey.com/files/Cold_Turkey_Installer.exe?v=19Mar26"
+	]
+}
