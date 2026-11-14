@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://duplicacy.com/download.html",
+		"regex": "duplicacy_web_installer_win64_(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://acrosync.com/duplicacy-web/duplicacy_web_installer_win64_{version}.exe"]
+}
