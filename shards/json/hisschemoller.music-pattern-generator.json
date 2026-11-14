@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hisschemoller",
+		"repo": "music-pattern-generator"
+	},
+	"urls": [
+		{ "url": "https://github.com/hisschemoller/music-pattern-generator/releases/download/{github.rawTag}/mpg_2_2_installer_win.exe", "architecture": "x64" }
+	]
+}
