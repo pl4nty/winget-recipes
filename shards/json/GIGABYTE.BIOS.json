@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.gigabyte.com/FileList/Utility/mb_utility_atbios_B26.0930.1.zip?v=265a74f4bbc2f5f2ceb225d047b4bc9c"
+	]
+}
