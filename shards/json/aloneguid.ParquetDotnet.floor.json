@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aloneguid",
+		"repo": "parquet-dotnet",
+		"method": "api-sort",
+		"perPage": 50,
+		"assetRegex": "^floor-win-x64-[\\d.]+\\.zip$"
+	}
+}
