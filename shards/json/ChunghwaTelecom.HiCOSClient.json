@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://api-hisecurecdn.cdn.hinet.net/HiCOS_Client.zip"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://api-hisecurecdn.cdn.hinet.net/HiCOS_Client.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
