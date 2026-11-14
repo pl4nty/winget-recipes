@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "osconfig",
+		"method": "api-list",
+		"kind": "prerelease",
+		"assetRegex": "^(?:Microsoft\\.OSConfig-[\\d.]+(?:-(?:arm64|x64)\\.msix|\\.msixbundle)|oscfg-[\\d.]+-preview\\d+-(?:aarch64|x86_64)_pc_windows_msvc\\.zip)$"
+	},
+	"version": "{version|-preview|.}"
+}
