@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SocioProphet",
+		"repo": "Noetica"
+	},
+	"urls": [
+		"https://github.com/SocioProphet/Noetica/releases/download/v{version}/Noetica_{version}_x64-setup.exe"
+	]
+}
