@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "4thOffice",
+		"repo": "loopinupdater",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/4thOffice/loopinupdater/releases/download/{github.rawTag}/Loop-Email-Setup-{version}.exe"
+	]
+}
