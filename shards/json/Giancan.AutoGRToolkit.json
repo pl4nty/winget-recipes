@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "giancan",
+		"repo": "AutoGR-Toolkit",
+		"method": "api-sort",
+		"assetRegex": "^(?:AutoGRT\\-Setup_v\\d+\\.\\d+_win\\-x64\\.exe|AutoGRT\\-Setup_v\\d+\\.\\d+_win\\-x86\\.exe)$"
+	}
+}
