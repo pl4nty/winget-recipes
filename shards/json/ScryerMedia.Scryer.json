@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "scryer-media",
+		"repo": "scryer",
+		"tagRegex": "^scryer-v"
+	},
+	"urls": [
+		"https://github.com/scryer-media/scryer/releases/download/{github.rawTag}/scryer-windows-x86_64-winget.msi",
+		"https://github.com/scryer-media/scryer/releases/download/{github.rawTag}/scryer-windows-arm64-winget.msi"
+	]
+}
