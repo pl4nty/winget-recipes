@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": "4.0",
+	"urls": [
+		{
+			"url": "https://www.altap.cz/ftp/salamand/as40x64.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://www.altap.cz/ftp/salamand/as40x86.exe",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.altap.cz/ftp/salamand/as40x64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
