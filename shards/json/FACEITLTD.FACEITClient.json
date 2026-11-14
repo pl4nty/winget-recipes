@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://faceit-client.faceit-cdn.net/release/FACEIT-setup-latest.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://faceit-client.faceit-cdn.net/release/FACEIT-setup-latest.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
