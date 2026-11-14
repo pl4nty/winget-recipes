@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://srift.app/",
+		"regex": "\"softwareVersion\":\"(\\d+\\.\\d+\\.\\d+)\""
+	},
+	"urls": ["https://srift.app/dl/{version}/win-x64/srift.exe"]
+}
