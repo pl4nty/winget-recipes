@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "asdfjkl",
+		"repo": "yahb"
+	},
+	"urls": [
+		"https://github.com/asdfjkl/yahb/releases/download/{github.rawTag}/yahb_setup.exe"
+	]
+}
