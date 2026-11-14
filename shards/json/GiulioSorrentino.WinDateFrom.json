@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "GiulianoSpaghetti",
+		"repo": "WinDateFrom.avalonia",
+		"method": "api-latest",
+		"assetRegex": "^(?:WinDateFrom\\.Avalonia\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\-amd64\\.msi|WinDateFrom\\.Avalonia\\-\\d+\\.\\d+\\.\\d+\\.\\d+\\-arm64\\.msi)$"
+	}
+}
