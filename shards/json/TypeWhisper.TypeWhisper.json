@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TypeWhisper",
+		"repo": "typewhisper-win"
+	},
+	"urls": [
+		"https://github.com/TypeWhisper/typewhisper-win/releases/download/v{version}/TypeWhisper-win-x64-Setup.exe"
+	]
+}
