@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://desktop.docker.com/win/main/amd64/appcast.xml",
+		"regex": "[\\s\\S]*<title>Version (?<version>\\d+(?:\\.\\d+)+) \\((?<build>\\d+)\\)</title>"
+	},
+	"urls": [
+		"https://desktop.docker.com/win/main/amd64/{captures.build}/Docker%20Desktop%20Installer.exe",
+		"https://desktop.docker.com/win/main/arm64/{captures.build}/Docker%20Desktop%20Installer.exe",
+		"https://desktop.docker.com/win/main/amd64/{captures.build}/DockerDesktop.msi",
+		"https://desktop.docker.com/win/main/arm64/{captures.build}/DockerDesktop.msi"
+	]
+}
