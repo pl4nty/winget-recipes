@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "v{version}",
+	"github": {
+		"owner": "Buffer124",
+		"repo": "netscan-pro"
+	},
+	"urls": [
+		"https://github.com/Buffer124/netscan-pro/releases/download/{github.rawTag}/NetScanPro.exe"
+	]
+}
