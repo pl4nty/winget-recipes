@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "AdamAnomatik",
+		"repo": "SimplNote-Releases"
+	},
+	"urls": [
+		"https://github.com/AdamAnomatik/SimplNote-Releases/releases/download/{github.rawTag}/SimplNote-{version}-win-x64-setup.exe"
+	]
+}
