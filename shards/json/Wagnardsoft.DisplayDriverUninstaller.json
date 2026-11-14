@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.wagnardsoft.com/display-driver-uninstaller-ddu",
+		"regex": "<a href=\"/content/Download-Display-Driver-Uninstaller-DDU-\\d+\">Download Display Driver Uninstaller \\(DDU\\) (\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": [
+		"https://download.wagnardsoft.com/DDU/DDU%20v{version}_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.wagnardsoft.com/content/Download-Display-Driver-Uninstaller-DDU-{version|.|}"
+	}
+}
