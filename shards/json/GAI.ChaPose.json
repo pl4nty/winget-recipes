@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "huanguan1978",
+		"repo": "chacrypt",
+		"tagRegex": "^chapose\\-v",
+		"method": "api-sort",
+		"assetRegex": "^(?:chapose\\-windows\\-x64\\-\\d+\\.\\d+\\.\\d+\\.zip)$"
+	}
+}
