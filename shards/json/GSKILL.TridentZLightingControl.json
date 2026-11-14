@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.gskill.com/download/1502180912/1551690847/Trident-Z--Trident-Z5--Ripjaws-M5-RGB-Family",
+		"regex": "https://www\\.gskill\\.com/gskill\\-device/memory/G\\.SKILL\\-Trident\\-Z\\-Lighting\\-Control\\-v(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		"https://www.gskill.com/gskill-device/memory/G.SKILL-Trident-Z-Lighting-Control-v{version}.zip"
+	]
+}
