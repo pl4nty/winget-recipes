@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "squigit-org",
+		"repo": "squigit",
+		"method": "api-list",
+		"tagRegex": "^ocr-v"
+	},
+	"urls": [
+		"https://github.com/squigit-org/squigit/releases/download/ocr-v{version}/squigit-ocr-win-x64.zip"
+	]
+}
