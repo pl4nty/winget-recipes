@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "bergerpascal", "repo": "MSIX_Commander", "tagRegex": "^V" },
+	"urls": [
+		{ "url": "https://github.com/bergerpascal/MSIX_Commander/releases/download/V{version}/MSIX.Commander_{version}-x64.msix", "architecture": "x64" },
+		{ "url": "https://github.com/bergerpascal/MSIX_Commander/releases/download/V{version}/MSIX_Commander.exe", "architecture": "x64" }
+	]
+}
