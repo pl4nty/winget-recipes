@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Valyreon", "repo": "Subloader" },
+	"urls": [
+		{ "url": "https://github.com/Valyreon/Subloader/releases/download/v{version}/SubloaderV{version|.|}Installer.exe", "architecture": "x64" }
+	]
+}
