@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "flacsquisher",
+		"file": "FlacSquisher-{version}-Win10-Installer.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/flacsquisher/files/flacsquisher/{version}/FlacSquisher-{version}-Win10-Installer.exe/download"
+	]
+}
