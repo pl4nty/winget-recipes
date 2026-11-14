@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://anywhere.webrootcloudav.com/zerol/wsainstall.msi",
+		"https://anywhere.webrootcloudav.com/zerol/wsainstall.exe"
+	],
+	"releaseNotes": { "releaseNotesUrl": "https://answers.webroot.com/Webroot/ukp.aspx?pid=12&vw=1&solutionid=857" },
+	"state": {
+		"source": "response-header",
+		"url": "https://anywhere.webrootcloudav.com/zerol/wsainstall.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
