@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jitwxs",
+		"repo": "163MusicLyrics",
+		"method": "api-sort",
+		"assetRegex": "^(?:MusicLyricApp\\-v\\d+\\.\\d+\\-win\\-x64\\.zip|MusicLyricApp\\-v\\d+\\.\\d+\\-win\\-x86\\.zip)$"
+	}
+}
