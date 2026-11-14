@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.raimersoft.com/php/downloads.php",
+		"regex": "RarmaRadio Installer Package[\\s\\S]*?Version</td><td class=\"dl\">\\s*(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.raimersoft.com/downloads/rarmaradio_setup.exe"],
+	"releaseNotes": {
+		"source": "html",
+		"sourceUrl": "https://www.raimersoft.com/php/rarmaradio_release.php",
+		"releaseNotesUrl": "https://www.raimersoft.com/php/rarmaradio_release.php",
+		"cleanup": false
+	}
+}
