@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "duckdb",
+		"repo": "duckdb",
+		"method": "api-sort",
+		"assetRegex": "^duckdb_cli-windows-(?:amd64|arm64)\\.zip$"
+	}
+}
