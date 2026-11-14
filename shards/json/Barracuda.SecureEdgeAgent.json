@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://d.barracuda.com/SEA/SecureEdgeAgent_3.1.0-78_x64.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://d.barracuda.com/SEA/SecureEdgeAgent_3.1.0-78_arm64.msi",
+			"architecture": "arm64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://documentation.campus.barracuda.com/wiki/spaces/SEPPI/pages/60457192/SecureEdge+Access+Agent"
+	}
+}
