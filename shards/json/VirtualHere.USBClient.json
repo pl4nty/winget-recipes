@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.virtualhere.com/usb_client_software",
+		"regex": "<strong>Version (\\d+(?:\\.\\d+)+)\\s*</strong>"
+	},
+	"urls": [
+		"https://www.virtualhere.com/sites/default/files/usbclient/vhui64.exe",
+		"https://www.virtualhere.com/sites/default/files/usbclient/vhuiarm64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.virtualhere.com/node/955"
+	}
+}
