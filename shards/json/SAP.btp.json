@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://tools.hana.ondemand.com/",
+		"regex": "btp-cli-windows-amd64-(\\d+(?:\\.\\d+)+)\\.tar\\.gz\""
+	},
+	"urls": [
+		"https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-{version}.zip?acceptEula=eula_3_2_agreed:tools.hana.ondemand.com/developer-license-3_2.txt"
+	]
+}
