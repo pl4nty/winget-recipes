@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://res.cdn.office.net/nativehost/5mttl/installer/v2/1.2026.812.100/Microsoft.OutlookForWindows_x64.msix",
+		"https://res.cdn.office.net/nativehost/5mttl/installer/v2/1.2026.812.100/Microsoft.OutlookForWindows_x86.msix",
+		"https://res.cdn.office.net/nativehost/5mttl/installer/v2/1.2026.812.100/Microsoft.OutlookForWindows_arm64.msix"
+	]
+}
