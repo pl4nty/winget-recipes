@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oxidecomputer",
+		"repo": "oxide.rs",
+		"tagRegex": "\\+.*$"
+	},
+	"urls": ["https://github.com/oxidecomputer/oxide.rs/releases/download/{github.rawTag}/oxide-cli-x86_64-pc-windows-msvc.zip"]
+}
