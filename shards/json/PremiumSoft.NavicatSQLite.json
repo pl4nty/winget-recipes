@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.navicat.com/products/navicat-for-sqlite-release-note",
+		"regex": "Navicat for SQLite \\(Windows\\) version (?<version>(?<major>\\d+)\\.\\d+\\.\\d+)<"
+	},
+	"urls": [
+		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_es_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_en_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_cs_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_ct_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_id_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_jp_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_de_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_ru_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_pl_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_fr_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_kr_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_sqlite_th_x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.navicat.com/products/navicat-for-sqlite-release-note"
+	}
+}
