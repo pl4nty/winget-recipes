@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stellarinfo.com/edb-exchange-server-recovery.htm",
+		"regex": "\"softwareVersion\":\\s*\"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [{ "url": "https://cloud.stellarinfo.com/StellarRepairforExchange.exe", "architecture": "x64" }]
+}
