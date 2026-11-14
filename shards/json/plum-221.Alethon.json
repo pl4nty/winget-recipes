@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "plum-221", "repo": "alethon-releases" },
+	"urls": [
+		{ "url": "https://github.com/plum-221/alethon-releases/releases/download/v{version}/Alethon-Setup-{version}.exe", "architecture": "x64" }
+	]
+}
