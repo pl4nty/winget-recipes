@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://net-secondary.web.minecraft-services.net/api/v1.0/download/links",
+		"regex": "/bin-win/bedrock-server-(?<version>\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": ["https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-{version}.zip"]
+}
