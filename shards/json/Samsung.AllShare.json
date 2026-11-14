@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://downloadcenter.samsung.com/content/SW/201204/20120402145339253/AllShare_2.1.0.12031_10.exe",
+			"architecture": "neutral"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloadcenter.samsung.com/content/SW/201204/20120402145339253/AllShare_2.1.0.12031_10.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
