@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download-cdn.app.ultra.io/prod/electron-client/latest/win32/x64/RELEASES",
+		"regex": "Ultra-(\\d+(?:\\.\\d+)+)-full\\.nupkg"
+	},
+	"urls": ["https://download-cdn.app.ultra.io/prod/electron-client/latest/win32/x64/Ultra_installer.exe"]
+}
