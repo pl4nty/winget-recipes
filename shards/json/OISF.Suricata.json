@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://suricata.io/download/",
+		"regex": "/download/windows/Suricata-(?<version>\\d+(?:\\.\\d+)+)-(?<build>\\d+)-64bit\\.msi"
+	},
+	"urls": [
+		"https://www.openinfosecfoundation.org/download/windows/Suricata-{version}-{captures.build}-64bit.msi"
+	]
+}
