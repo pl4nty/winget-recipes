@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.wps.cn/platformUrlsv3",
+		"regex": "\"productButtonUrl\":\"(?<url>[^\"]*/WPS_Setup_x64_\\d+\\.exe)\",\"productVcode\":\"(?<version>[^\"]+)\""
+	},
+	"urls": ["{captures.url}"]
+}
