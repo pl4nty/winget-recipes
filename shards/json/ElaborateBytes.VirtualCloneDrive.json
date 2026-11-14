@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.elby.ch/download/changes_vcd.txt",
+		"regex": "Virtual CloneDrive (?<version>\\d+(?:\\.\\d+)+): "
+	},
+	"urls": [
+		{
+			"url": "https://www.elby.ch/download/SetupVirtualCloneDrive{version|.|}.exe",
+			"architecture": "neutral"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.elby.ch/download/changes_vcd.txt"
+	}
+}
