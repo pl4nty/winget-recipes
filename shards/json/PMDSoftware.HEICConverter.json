@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://heic-converters.com/api/download?force=1"],
+		"regex": "HEICConverter-(\\d+(?:\\.\\d+)+)\\.msi",
+		"method": "head"
+	},
+	"urls": ["https://heic-converters.com/downloads/HEICConverter-{version}.msi"]
+}
