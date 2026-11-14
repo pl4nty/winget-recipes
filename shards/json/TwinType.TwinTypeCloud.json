@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://cloud-api.twintype.co/api/downloads/latest", "path": "windows.version" },
+	"urls": [
+		{ "url": "https://cloud-api.twintype.co/api/downloads/version/windows/{version}", "architecture": "x64" },
+		{ "url": "https://cloud-api.twintype.co/api/downloads/blob/windows", "architecture": "x64" }
+	]
+}
