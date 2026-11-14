@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "enso-org",
+		"repo": "enso"
+	},
+	"urls": [
+		"https://github.com/enso-org/enso/releases/download/{github.rawTag}/enso-win-x64-{github.rawTag}.exe"
+	]
+}
