@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tuanle96",
+		"repo": "devclean"
+	},
+	"urls": [
+		"https://github.com/tuanle96/devclean/releases/download/v{version}/devclean-windows-x86_64.zip"
+	]
+}
