@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Orbmu2k",
+		"repo": "nvidiaProfileInspector"
+	},
+	"urls": [
+		{ "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v{version}/nvidiaProfileInspector.zip", "architecture": "x64" }
+	]
+}
