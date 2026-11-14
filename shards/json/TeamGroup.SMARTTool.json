@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support.teamgroupinc.com/en/support/download.php",
+		"regex": "<td class=\"info\">SSD S\\.M\\.A\\.R\\.T\\. TOOL</td>\\s*<td class=\"version\">v(\\d+(?:\\.\\d+)+)</td>[\\s\\S]*?act\\.php\\?act=1&(?:amp;)?index_id=35\""
+	},
+	"urls": [
+		{
+			"url": "https://support.teamgroupinc.com/en/support/act.php?act=1&index_id=35",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["SMART_Tool_TG_"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.teamgroupinc.com/en/support/download.php"
+	}
+}
