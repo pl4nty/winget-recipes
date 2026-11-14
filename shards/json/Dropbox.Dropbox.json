@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.dropbox.com/download?full=1&plat=win&arch=x64"],
+		"regex": "/Dropbox%20(\\d+(?:\\.\\d+)+)%20Offline%20Installer\\.x64\\.exe"
+	},
+	"urls": [
+		"https://edge.dropboxstatic.com/dbx-releng/client/omaha4/Dropbox%20{version}%20Offline%20Installer.x86.exe",
+		"https://edge.dropboxstatic.com/dbx-releng/client/omaha4/Dropbox%20{version}%20Offline%20Installer.x64.exe",
+		"https://edge.dropboxstatic.com/dbx-releng/client/omaha4/Dropbox%20{version}%20Offline%20Installer.arm64.exe",
+		"https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20{version}%20Enterprise%20Installer.x86.msi",
+		"https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20{version}%20Enterprise%20Installer.x64.msi",
+		"https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20{version}%20Enterprise%20Installer.arm64.msi"
+	]
+}
