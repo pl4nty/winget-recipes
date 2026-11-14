@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://down.aimoogh.com/downloads/win/stable/",
+		"regex": "Current version: <code>(\\d+\\.\\d+\\.\\d+-\\d+)</code>"
+	},
+	"urls": ["https://down.aimoogh.com/downloads/win/stable/{version}/moogh-win-x64-{version}.exe"]
+}
