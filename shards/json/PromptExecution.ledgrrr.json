@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elasticdotventures",
+		"repo": "_b00t_",
+		"method": "api-list",
+		"tagRegex": "^ledgrrr-desktop-v"
+	},
+	"urls": [
+		"https://github.com/elasticdotventures/_b00t_/releases/download/{github.rawTag}/ledgrrr_{version}_x64_en-US.msi",
+		"https://github.com/elasticdotventures/_b00t_/releases/download/{github.rawTag}/ledgrrr_{version}_x64-setup.exe"
+	]
+}
