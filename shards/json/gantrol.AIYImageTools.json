@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gantrol",
+		"repo": "aiy-desktop",
+		"method": "api-sort",
+		"assetRegex": "^(?:AIY\\-Image\\-Tools\\-\\d+\\.\\d+\\.\\d+\\-win\\-x64\\.exe)$"
+	}
+}
