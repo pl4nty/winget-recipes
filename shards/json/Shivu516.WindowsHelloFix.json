@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Shivu516", "repo": "Windows-Hello-Fix" },
+	"urls": ["https://github.com/Shivu516/Windows-Hello-Fix/releases/download/v{version}/Windows_Hello_Fix_Setup.exe"]
+}
