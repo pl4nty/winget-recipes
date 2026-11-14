@@ -1,0 +1,27 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://download.visualstudio.microsoft.com/download/pr/6ad63323-a427-4c58-8464-9f1f19f62359/d0e16a534b58d8500e970e782a324a0bb8d01b719eb01162a9cfc893265bf8f3/onecore.msvsmon.x86.zip",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://download.visualstudio.microsoft.com/download/pr/6ad63323-a427-4c58-8464-9f1f19f62359/8e6faab5aaa52ac10a9a3350a54ec26662b697b1d98ca2a3dd444b54be7f4b2d/onecore.msvsmon.arm64.zip",
+			"architecture": "arm64"
+		},
+		{
+			"url": "https://download.visualstudio.microsoft.com/download/pr/6ad63323-a427-4c58-8464-9f1f19f62359/a7a52fed02b0c309c72f8b76896cc386ef95db1fc0d70216ef377297ee1f1fe1/onecore.msvsmon.amd64.zip",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.visualstudio.microsoft.com/download/pr/6ad63323-a427-4c58-8464-9f1f19f62359/d0e16a534b58d8500e970e782a324a0bb8d01b719eb01162a9cfc893265bf8f3/onecore.msvsmon.x86.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
