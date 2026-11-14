@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.smartsvn.com/download/",
+		"regex": "smartsvn-windows-setup-(\\d+(?:_\\d+)+)\\.zip"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		{
+			"url": "https://downloads.smartsvn.com/downloads/smartsvn/smartsvn-windows-setup-{version}.zip",
+			"nestedInstallerMatches": ["setup-"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.smartsvn.com/documents/smartsvn/changelog.txt"
+	}
+}
