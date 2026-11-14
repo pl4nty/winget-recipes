@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "agentserver",
+		"repo": "codex",
+		"tagRegex": "^agentx\\-v"
+	},
+	"urls": [
+		"https://github.com/agentserver/codex/releases/download/{github.rawTag}/agentx-x86_64-pc-windows-msvc.exe.zip"
+	]
+}
