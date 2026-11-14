@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jindrapetrik",
+		"repo": "jpexs-decompiler",
+		"tagRegex": "^v?ersion"
+	},
+	"urls": [
+		"https://github.com/jindrapetrik/jpexs-decompiler/releases/download/{github.rawTag}/ffdec_{version}.msi"
+	]
+}
