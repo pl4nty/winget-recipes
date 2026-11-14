@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://rcloneview.com/",
+		"regex": "https://downloads\\.bdrive\\.com/rclone_view/builds/setup_rclone_view\\-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://downloads.bdrive.com/rclone_view/builds/setup_rclone_view-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://rcloneview.com/src/download.html"
+	}
+}
