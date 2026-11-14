@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://openvpi.github.io/",
+		"regex": "opensvip_converter_(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		"https://openvpi-1307911855.cos.ap-beijing.myqcloud.com/converter/opensvip_converter_{version}.zip"
+	]
+}
