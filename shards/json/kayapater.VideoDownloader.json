@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Blackswan-Yazilim",
+		"repo": "video-downloader"
+	},
+	"urls": [
+		{ "url": "https://github.com/Blackswan-Yazilim/video-downloader/releases/download/{github.rawTag}/VideoDownloader-{version}-Setup.msi", "architecture": "x64" }
+	]
+}
