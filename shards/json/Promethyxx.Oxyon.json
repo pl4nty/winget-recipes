@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Promethyxx", "repo": "oxyon" },
+	"urls": ["https://github.com/Promethyxx/oxyon/releases/download/{version}/Oxyon_Win_X64.exe"]
+}
