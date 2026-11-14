@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.ni.com/en/support/downloads/software-products/download.package-manager.html",
+		"regex": "NIPackageManager(\\d+\\.\\d+\\.\\d+)\\.exe"
+	},
+	"urls": [{ "url": "https://download.ni.com/support/nipkg/products/ni-package-manager/installers/NIPackageManager{version}_online.exe", "architecture": "x64" }]
+}
