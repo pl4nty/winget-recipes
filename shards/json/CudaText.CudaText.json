@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "cudatext",
+		"file": "cudatext-windows-amd64-{version}.zip"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/cudatext/files/release/{version}/cudatext-windows-amd64-{version}.zip/download",
+		"https://sourceforge.net/projects/cudatext/files/release/{version}/cudatext-windows-i386-{version}.zip/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Alexey-T/CudaText/releases/tag/{version}"
+	}
+}
