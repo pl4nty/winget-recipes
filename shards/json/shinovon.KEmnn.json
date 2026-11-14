@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "shinovon", "repo": "KEmulator" },
+	"urls": [
+		{
+			"url": "https://github.com/shinovon/KEmulator/releases/download/{github.rawTag}/kemnnmod.{github.rawTag}.nojre.zip",
+			"architecture": "x86"
+		}
+	]
+}
