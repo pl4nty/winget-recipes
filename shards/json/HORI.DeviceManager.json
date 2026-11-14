@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://hori.co.uk/pages/hori-device-manager",
+		"regex": "href=\"https://drive\\.google\\.com/file/d/(?<id>[\\w-]+)/view[^\"]*\"[^>]*>\\s*HORI Device Manager V(?<version>\\d+(?:\\.\\d+)+)\\s*<"
+	},
+	"urls": ["https://drive.usercontent.google.com/download?id={captures.id}&export=download&confirm=t"]
+}
