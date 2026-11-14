@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.jtl-software.de/download",
+		"regex": "https://downloads\\.jtl-software\\.de/setup-jtl-wawi_(?<version>\\d+(?:\\.\\d+)+)_(?<build>[\\w-]+)\\.exe"
+	},
+	"urls": [
+		"https://downloads.jtl-software.de/setup-jtl-wawi_{version}_{captures.build}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://guide.jtl-software.de/changelog/"
+	}
+}
