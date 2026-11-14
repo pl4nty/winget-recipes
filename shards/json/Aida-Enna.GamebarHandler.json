@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "Aida-Enna",
+		"repo": "GamebarHandler"
+	},
+	"urls": [
+		"https://github.com/Aida-Enna/GamebarHandler/releases/download/{github.rawTag}/GamebarHandler.zip"
+	]
+}
