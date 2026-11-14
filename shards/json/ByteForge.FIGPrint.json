@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ByteForgeBiz",
+		"repo": "figlet-suite",
+		"tagRegex": "^figprint\\-v",
+		"method": "api-sort",
+		"assetRegex": "^(?:FIGPrint\\-\\d+\\.\\d+\\.\\d+\\-win\\-arm64\\.zip|FIGPrint\\-\\d+\\.\\d+\\.\\d+\\-win\\-x64\\.zip)$"
+	}
+}
