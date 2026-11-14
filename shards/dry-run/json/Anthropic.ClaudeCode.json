@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.claude.ai/claude-code-releases/stable",
+		"regex": "^\\s*(\\d+\\.\\d+\\.\\d+)"
+	},
+	"urls": [
+		{
+			"url": "https://downloads.claude.ai/claude-code-releases/{version}/win32-x64/claude.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://downloads.claude.ai/claude-code-releases/{version}/win32-arm64/claude.exe",
+			"architecture": "arm64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+	}
+}

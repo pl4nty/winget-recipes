@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		{ "url": "https://cjwdev.com/Software/ADPhotoEdit/ADPhotoEditSetup.zip", "architecture": "x86", "nestedInstallerMatches": ["ADPhotoEditFreeSetup.exe"] }
+	]
+}

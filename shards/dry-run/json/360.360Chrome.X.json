@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://browser.360.cn/browser_download_link.js",
+		"regex": "EEX:\\s*'(?<url>[^']*_(?<version>\\d+(?:\\.\\d+){3})[_.][^']*)'"
+	},
+	"urls": [
+		"{captures.url}"
+	]
+}

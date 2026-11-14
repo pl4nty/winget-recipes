@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.axure.com/update-check/CheckForUpdate?info=%7B%22ClientVersion%22%3A%2211.0.0.0000%22%2C%22ClientOS%22%3A%22Windows%7C64bit%22%7D",
+		"regex": "version=(?<version>(?<major>\\d+)\\.(?<minor>\\d+)\\.\\d+\\.(?<build>\\d+))"
+	},
+	"version": "{captures.version}",
+	"urls": ["https://axure.cachefly.net/versions/{captures.major}-{captures.minor}/AxureRP-Setup-{captures.build}.exe"]
+}

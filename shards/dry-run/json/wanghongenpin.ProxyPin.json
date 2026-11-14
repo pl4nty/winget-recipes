@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wanghongenpin",
+		"repo": "proxypin"
+	},
+	"urls": ["https://github.com/wanghongenpin/proxypin/releases/download/{github.rawTag}/proxypin-windows-{version}.exe"],
+	"version": { "source": "display" }
+}

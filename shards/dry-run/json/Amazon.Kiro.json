@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://kiro.dev/downloads/",
+		"regex": "kiro-ide-(\\d+(?:\\.\\d+)+)-stable-win32-x64\\.exe"
+	},
+	"urls": [
+		"https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/{version}/kiro-ide-{version}-stable-win32-x64.exe",
+		"https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/{version}/kiro-ide-{version}-stable-win32-x64-system.exe",
+		"https://prod.download.desktop.kiro.dev/releases/stable/win32-arm64/signed/{version}/kiro-ide-{version}-stable-win32-arm64.exe",
+		"https://prod.download.desktop.kiro.dev/releases/stable/win32-arm64/signed/{version}/kiro-ide-{version}-stable-win32-arm64-system.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://kiro.dev/changelog/"
+	}
+}

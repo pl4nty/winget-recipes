@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "openzfsonwindows",
+		"repo": "openzfs",
+		"tagRegex": "^zfswin-"
+	},
+	"urls": ["https://github.com/openzfsonwindows/openzfs/releases/download/{github.rawTag}/OpenZFSOnWindows-debug-{version}.exe"]
+}

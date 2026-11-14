@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "serverless",
+		"repo": "serverless",
+		"method": "api-sort",
+		"perPage": 100,
+		"assetRegex": "-win-x64\\.exe$"
+	}
+}

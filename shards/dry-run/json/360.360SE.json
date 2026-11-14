@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://browser.360.cn/",
+		"regex": "se_main_btn_ver[^>]*>[^<]*?(\\d+\\.\\d+\\.\\d+\\.\\d+)"
+	},
+	"urls": [
+		"https://down.360safe.com/se/360se{version}.exe"
+	]
+}

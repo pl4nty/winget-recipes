@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://3dconnexion.com/us/drivers/",
+		"regex": "href=\\\"(?<url>https://[^\\\"]*/3DxWare64_v(?<a>\\d+)-(?<b>\\d+)-(?<c>\\d+)_b(?<d>\\d+)\\.exe)\\\""
+	},
+	"urls": [
+		"{captures.url}"
+	],
+	"version": "{captures.a}.{captures.b}.{captures.c}.{captures.d}",
+	"releaseNotes": {
+		"releaseNotesUrl": "https://3dconnexion.com/us/drivers/"
+	}
+}

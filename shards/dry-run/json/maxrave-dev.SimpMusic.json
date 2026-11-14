@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "maxrave-dev",
+		"repo": "SimpMusic",
+		"method": "api-sort",
+		"perPage": 100,
+		"assetRegex": "\\.msi$"
+	}
+}

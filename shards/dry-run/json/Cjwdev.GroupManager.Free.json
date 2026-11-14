@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		{ "url": "https://cjwdev.com/Software/GroupMan/GroupManagerFreeInstaller.zip", "architecture": "x64", "nestedInstallerMatches": ["GroupManagerFreeSetup.exe"] }
+	]
+}

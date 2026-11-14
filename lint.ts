@@ -56,7 +56,8 @@ const hardcodedVersion: Rule = async (shards, report) => {
 		}
 		const { strategy, version, state } = JSON.parse(contents);
 		if (typeof version === 'string' && !version.includes('{')) report(shard, `shard hardcodes version ${version}`);
-		if (strategy === 'static' && !state)
+		// Dry runs read the version from the file each time, so dry-run shards need no state.
+		if (strategy === 'static' && !state && !dryRunOnly(shard))
 			report(shard, 'static shard without state can only resubmit the version at its URL');
 	}
 };
