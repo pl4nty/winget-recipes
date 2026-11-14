@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.slsknet.org/news/node/1",
+		"regex": "https://f004\\.backblazeb2\\.com/file/SoulseekQt/SoulseekQt-(?<version>\\d+-\\d+-\\d+)-64bit\\.exe"
+	},
+	"urls": ["https://f004.backblazeb2.com/file/SoulseekQt/SoulseekQt-{version}-64bit.exe"],
+	"version": "{version|-|.}"
+}
