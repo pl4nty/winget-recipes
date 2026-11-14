@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://zalo.me/download/zalo-pc?utm=90000"],
+		"regex": "/ZaloSetup-(\\d+(?:\\.\\d+)+)\\.exe"
+	}
+}
