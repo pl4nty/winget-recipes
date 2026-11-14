@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "meirochun",
+		"repo": "UUID_CLI"
+	},
+	"version": { "source": "product" },
+	"urls": ["https://github.com/meirochun/UUID_CLI/releases/download/{github.rawTag}/uuid-windows.exe"],
+	"state": { "source": "value", "value": "{github.rawTag}" }
+}
