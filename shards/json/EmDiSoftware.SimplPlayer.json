@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "AdamAnomatik",
+		"repo": "SimplPlayer-Releases"
+	},
+	"urls": [
+		"https://github.com/AdamAnomatik/SimplPlayer-Releases/releases/download/{github.rawTag}/SimplPlayer-{version}-win-x64-setup.exe"
+	]
+}
