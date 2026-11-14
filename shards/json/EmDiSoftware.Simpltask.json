@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "AdamAnomatik",
+		"repo": "Simpltask-Releases"
+	},
+	"urls": [
+		"https://github.com/AdamAnomatik/Simpltask-Releases/releases/download/{github.rawTag}/Simpltask-Setup-{version}.exe"
+	]
+}
