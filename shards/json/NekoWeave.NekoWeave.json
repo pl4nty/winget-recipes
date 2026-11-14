@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "nekoweave", "repo": "app" },
+	"version": "{version}.0.0",
+	"urls": [
+		"https://github.com/nekoweave/app/releases/download/v{version}/NekoWEAVE.exe"
+	]
+}
