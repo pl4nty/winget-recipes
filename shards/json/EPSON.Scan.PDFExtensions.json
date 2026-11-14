@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download-center.epson.com/f/module/4eb43a23-df63-48ce-b51a-44ae2f803bad/ESENC_WW_WIN_10322_41.exe"
+	]
+}
