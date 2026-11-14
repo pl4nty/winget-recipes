@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.banyanops.com/app/windows/v3/latest"],
+		"regex": "/sonicwallcse-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.banyanops.com/app/releases/sonicwallcse-{version}.exe",
+		"https://www.banyanops.com/app/releases/sonicwallcse-{version}.msi",
+		"https://www.banyanops.com/app/releases/sonicwallcse-{version}-arm64.exe",
+		"https://www.banyanops.com/app/releases/sonicwallcse-{version}-arm64.msi"
+	]
+}
