@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://opensees.berkeley.edu/OpenSees/user/download.php",
+		"regex": "version='(?<version>\\d+\\.\\d+\\.\\d+)';\\s*location\\.href = \"/OpenSees/code/OpenSees\"\\+version\\+\"-x64\\.exe\\.zip\""
+	},
+	"urls": ["https://opensees.berkeley.edu/OpenSees/code/OpenSees{version}-x64.exe.zip"],
+	"releaseNotes": { "source": "github", "owner": "OpenSees", "repo": "OpenSees", "tag": "v{version}" }
+}
