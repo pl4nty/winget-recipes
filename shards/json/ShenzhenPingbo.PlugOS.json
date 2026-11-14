@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://plugos.net/docs/",
+		"regex": "/static/apps/PlugOS-V(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://plugos.net/static/apps/PlugOS-V{version}.exe"]
+}
