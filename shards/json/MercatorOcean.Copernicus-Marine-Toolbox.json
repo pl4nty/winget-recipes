@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mercator-ocean",
+		"repo": "copernicus-marine-toolbox",
+		"method": "api-list",
+		"tagRegex": "^v(?=\\d+\\.\\d+\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/mercator-ocean/copernicus-marine-toolbox/releases/download/{github.rawTag}/copernicusmarine.exe"
+	]
+}
