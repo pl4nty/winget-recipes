@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://download.ccleaner.com/spsetup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.ccleaner.com/spsetup.exe",
+		"header": "etag"
+	}
+}
