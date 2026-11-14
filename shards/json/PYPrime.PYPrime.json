@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mbntr",
+		"repo": "PYPrime-2.x",
+		"method": "api-sort"
+	},
+	"urls": [
+		{ "url": "https://github.com/mbntr/PYPrime-2.x/releases/download/{github.rawTag}/PYPrime.{github.rawTag}.Installer.exe", "architecture": "x64" }
+	]
+}
