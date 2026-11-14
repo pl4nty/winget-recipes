@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.thermofisher.com/software-em-3d-vis/customerportal/download-center/",
+		"regex": "download\\.amira-avizo-software\\.com/private/MASTERS/AmiraAvizo3D/(?<version>\\d{4}\\.\\d+)/(?<hash>[0-9a-f]+)/AmiraAvizo3D-(?<compact>\\d+)-Windows64-(?<vc>VC\\d+)\\.exe"
+	},
+	"urls": [
+		"https://download.amira-avizo-software.com/private/MASTERS/AmiraAvizo3D/{version}/{captures.hash}/AmiraAvizo3D-{captures.compact}-Windows64-{captures.vc}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/software-em-3d-vis/3d-visualization-analysis-software/whats-new.html"
+	}
+}
