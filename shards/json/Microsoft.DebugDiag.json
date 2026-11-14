@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 58210
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://techcommunity.microsoft.com/t5/IIS-Support-Blog/DebugDiag-2-Update-3-RTW/ba-p/457874"
+	}
+}
