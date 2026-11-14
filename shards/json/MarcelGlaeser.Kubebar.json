@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://kubebar.app/",
+		"regex": "/download/Kubebar-Setup-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://kubebar.app/download/Kubebar-Setup-{version}.exe"]
+}
