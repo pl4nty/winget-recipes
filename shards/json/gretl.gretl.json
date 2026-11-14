@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://gretl.sourceforge.net/win32/",
+		"regex": "gretl-(\\d{4}[a-z])-win64\\.zip"
+	},
+	"urls": [
+		"https://prdownloads.sourceforge.net/gretl/gretl-{version}-win64.zip",
+		"https://prdownloads.sourceforge.net/gretl/gretl-{version}-64.exe",
+		"https://prdownloads.sourceforge.net/gretl/gretl-{version}-arm64.exe"
+	]
+}
