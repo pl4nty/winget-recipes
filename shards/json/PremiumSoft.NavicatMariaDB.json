@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.navicat.com/products/navicat-for-mariadb-release-note",
+		"regex": "Navicat for MariaDB \\(Windows\\) version (?<version>(?<major>\\d+)\\.\\d+\\.\\d+)<"
+	},
+	"urls": [
+		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_es_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_en_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_cs_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_ct_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_id_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_jp_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_de_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_ru_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_pl_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_fr_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_kr_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_mariadb_th_x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.navicat.com/products/navicat-for-mariadb-release-note"
+	}
+}
