@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sam.nlr.gov/download.html",
+		"regex": "href=\"/download/(?<id>\\d+)-sam-(?<version>\\d+-\\d+-\\d+)-for-windows/file\\.html\""
+	},
+	"version": "{version|-|.}",
+	"urls": ["https://sam.nlr.gov/download/{captures.id}-sam-{captures.version}-for-windows/file.html"]
+}
