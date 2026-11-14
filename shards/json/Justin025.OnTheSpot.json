@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ots-downloader",
+		"repo": "onthespot",
+		"method": "api-sort",
+		"assetRegex": "^(?:OnTheSpot\\-x86_64\\.exe)$"
+	}
+}
