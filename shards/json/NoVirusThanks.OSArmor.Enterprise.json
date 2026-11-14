@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.osarmor.com/changelog/",
+		"regex": "</i> v(\\d+(?:\\.\\d+)+)"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.osarmor.com/changelog/"
+	},
+	"urls": [
+		"https://downloads.osarmor.com/latest/osarmor-enterprise/setup"
+	],
+	"replace": true
+}
