@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Project-Vid-dl",
+		"repo": "vid-dl"
+	},
+	"urls": [
+		"https://github.com/Project-Vid-dl/vid-dl/releases/download/v{version}/Video.Downloader_{version}_x64-setup.exe",
+		"https://github.com/Project-Vid-dl/vid-dl/releases/download/v{version}/Video.Downloader_{version}_x64_en-US.msi"
+	]
+}
