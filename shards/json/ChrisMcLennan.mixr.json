@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chris-mclennan",
+		"repo": "mixr"
+	},
+	"urls": [
+		"https://github.com/chris-mclennan/mixr/releases/download/{github.rawTag}/mixr-rs-x86_64-pc-windows-msvc.msi"
+	]
+}
