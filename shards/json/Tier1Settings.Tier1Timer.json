@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://tier1settings.com/tier1timer/",
+		"regex": "\"softwareVersion\":\"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://tier1settings.com/tier1timer/downloads/Tier1Timer-{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tier1settings.com/tier1timer/"
+	}
+}
