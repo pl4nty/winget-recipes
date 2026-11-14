@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://followframe.com/updates/",
+		"regex": "<h2>Current release</h2>\\s*<p>Version <strong>(?<version>\\d+(?:\\.\\d+)+)</strong>"
+	},
+	"urls": ["https://followframe.com/downloads/FollowFrame-Single-Exe-{version}-win32-x64.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://followframe.com/updates/"
+	}
+}
