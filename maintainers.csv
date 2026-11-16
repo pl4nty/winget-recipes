@@ -8147,7 +8147,7 @@ token2.fido2-manage,spectopo,
 tolgamorf.env2op-cli,tolgamorf,https://github.com/tolgamorf/env2op-cli/blob/main/.github/workflows/winget.yml
 Tom94.tev,pl4nty,
 TomasBruckner.dbc,pl4nty,
-tombi-toml.tombi,pl4nty,
+tombi-toml.tombi,ya7010,https://github.com/tombi-toml/tombi/blob/main/.github/actions/submit-winget-manifest/action.yml
 TomboyNotes.tomboy-ng,pl4nty,
 Tomclanc.GestureSignV2,damn-good-b0t,
 tomcoolpxl.CoolWSL,damn-good-b0t,
