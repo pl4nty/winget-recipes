@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/Kilerd/anystorage-release/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "Kilerd",
+		"repo": "anystorage-release",
+		"tag": "v{version}"
+	}
+}
