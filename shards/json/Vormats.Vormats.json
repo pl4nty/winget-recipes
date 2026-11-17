@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://download.vormats.com/windows-desktop-app-latest-msi-enterprise.msi"],
 	"state": {
 		"source": "response-header",

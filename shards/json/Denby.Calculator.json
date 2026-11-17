@@ -3,9 +3,13 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "palermostest25",
-		"repo": "Calculator",
-		"method": "api-list",
-		"tagRegex": "^Calculator(?=\\d)",
-		"assetRegex": "\\.exe$"
+		"repo": "Calculator"
+	},
+	"version": { "source": "product" },
+	"urls": ["https://github.com/palermostest25/Calculator/releases/download/{github.rawTag}/Installer.Requires.Python.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/palermostest25/Calculator/releases/download/{github.rawTag}/Installer.Requires.Python.exe",
+		"header": "etag"
 	}
 }
