@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BrowserWorks",
+		"repo": "Waterfox-Classic",
+		"tagRegex": "-classic$"
+	},
+	"urls": [
+		"https://github.com/BrowserWorks/Waterfox-Classic/releases/download/{github.rawTag}/WaterfoxClassic{version}.exe"
+	]
+}
