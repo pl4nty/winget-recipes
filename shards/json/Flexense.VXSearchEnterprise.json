@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.vxsearch.com/downloads.html",
+		"regex": "setups/vxsearchent_setup_v(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.vxsearch.com/setups/vxsearchent_setup_v{version}.exe",
+		"https://www.vxsearch.com/setups_x64/vxsearchent_setup_v{version}_x64.exe"
+	]
+}
