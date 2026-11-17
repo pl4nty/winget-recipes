@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://www.driverscloud.com/api/v1.0/StartDetection/InstallApp?lancurrent=en&isdctools=false&browserid=",
+		"path": "m_configversionstr"
+	},
+	"urls": [
+		"https://dcdrivers.driverscloud.com/applis/DriversCloud_{version|.|_}.exe",
+		"https://dcdrivers.driverscloud.com/applis/DriversCloudx64_{version|.|_}.exe",
+		"https://dcdrivers.driverscloud.com/applis/DriversCloud_{version|.|_}.msi",
+		"https://dcdrivers.driverscloud.com/applis/DriversCloudx64_{version|.|_}.msi"
+	]
+}
