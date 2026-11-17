@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Soneliem",
+		"repo": "WAIUA"
+	},
+	"urls": [
+		"https://github.com/Soneliem/WAIUA/releases/download/{github.rawTag}/WAIUA.exe"
+	]
+}
