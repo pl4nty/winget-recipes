@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Hinaser",
+		"repo": "is-ime-on"
+	},
+	"urls": [
+		"https://github.com/Hinaser/is-ime-on/releases/download/{github.rawTag}/IsImeOn-{version}-win-x64.zip"
+	]
+}
