@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://hotalarmclock.com/download/",
+		"regex": "<th>Version (\\d+(?:\\.\\d+)+)</th>[\\s\\S]*?/files/(?<dir>\\d+)/HotAlarmClockSetup\\.exe"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://hotalarmclock.com/files/{captures.dir}/HotAlarmClockSetup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hotalarmclock.com/version-history/"
+	}
+}
