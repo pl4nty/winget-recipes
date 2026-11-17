@@ -8,13 +8,13 @@
 	"urls": [
 		{
 			"url": "https://www.softperfect.com/download/freeware/cacherelocator_portable.zip",
-			"architecture": "x86",
-			"nestedInstallerMatches": ["32-bit/cacherelocator.exe"]
+			"architecture": "x64",
+			"nestedInstallerMatches": ["x64/cacherelocator.exe"]
 		},
 		{
 			"url": "https://www.softperfect.com/download/freeware/cacherelocator_portable.zip",
-			"architecture": "x64",
-			"nestedInstallerMatches": ["64-bit/cacherelocator.exe"]
+			"architecture": "arm64",
+			"nestedInstallerMatches": ["arm64/cacherelocator.exe"]
 		}
 	],
 	"releaseNotes": {
