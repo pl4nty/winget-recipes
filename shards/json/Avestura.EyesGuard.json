@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "avestura",
+		"repo": "EyesGuard"
+	},
+	"urls": [
+		"https://github.com/avestura/EyesGuard/releases/download/{github.rawTag}/EyesGuard-Setup-{version}-x64.exe",
+		"https://github.com/avestura/EyesGuard/releases/download/{github.rawTag}/EyesGuard-Setup-{version}-x86.exe"
+	]
+}
