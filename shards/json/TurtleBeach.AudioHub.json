@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://acpv.prod.turtlebeach.com/support/software/us/270/Audio-Hub.msi"
+		],
+		"regex": "/audio-hub_\\d+-(\\d+(?:\\.\\d+)+)-[^/]*\\.msi$"
+	},
+	"version": {
+		"source": "product"
+	},
+	"state": {
+		"source": "value",
+		"value": "{version}"
+	}
+}
