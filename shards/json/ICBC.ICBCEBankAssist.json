@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": ["https://www.icbc.com.cn/ICBC/html/download/EbankToolsSoftware/ICBCSetupIntegration.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.icbc.com.cn/ICBC/html/download/EbankToolsSoftware/ICBCSetupIntegration.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
