@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.wavemetrics.net/Downloads/Win/setupIgor8.exe",
+		"https://www.wavemetrics.net/Downloads/Win/setupIgor8J.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.wavemetrics.net/Downloads/Win/setupIgor8.exe",
+		"header": "etag"
+	}
+}
