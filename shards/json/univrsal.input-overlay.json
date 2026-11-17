@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "univrsal",
+		"repo": "input-overlay"
+	},
+	"urls": [
+		"https://github.com/univrsal/input-overlay/releases/download/{github.rawTag}/input-overlay-{version}-windows-x64-Installer.exe"
+	]
+}
