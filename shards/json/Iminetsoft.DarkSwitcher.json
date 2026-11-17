@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "iminet",
+		"repo": "DarkSwitcher"
+	},
+	"urls": ["https://github.com/iminet/DarkSwitcher/releases/download/{github.rawTag}/DarkSwitcher.{version}.setup.exe"]
+}
