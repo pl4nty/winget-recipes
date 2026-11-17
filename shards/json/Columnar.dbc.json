@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "columnar-tech",
+		"repo": "dbc"
+	},
+	"urls": [
+		"https://github.com/columnar-tech/dbc/releases/download/{github.rawTag}/dbc-windows-amd64-{version}.zip"
+	]
+}
