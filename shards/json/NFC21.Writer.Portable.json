@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{ "url": "https://files.nfc-tag-shop.de/NFC21%20Tools/Tools/Tools.zip", "nestedInstallerMatches": ["NFC21-Tool.exe"] }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://files.nfc-tag-shop.de/NFC21%20Tools/Tools/Tools.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
