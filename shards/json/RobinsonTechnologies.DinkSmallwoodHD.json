@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.dinknetwork.com/file/dink_smallwood_hd/",
+		"regex": "download/dink_smallwood_hd-(?<major>\\d+)_(?<minor>\\d+)\\.exe"
+	},
+	"version": "{captures.major}.{captures.minor}",
+	"urls": [
+		"https://www.dinknetwork.com/download/dink_smallwood_hd-{captures.major}_{captures.minor}.exe"
+	]
+}
