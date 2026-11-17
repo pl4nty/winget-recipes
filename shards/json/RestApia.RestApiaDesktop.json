@@ -7,6 +7,9 @@
 		"tagRegex": "-win-stable$"
 	},
 	"urls": [
-		"https://github.com/RestApia/Releases.Win.Stable/releases/download/{github.rawTag}/RestApia-win-stable-Setup.exe"
+		{
+			"url": "https://github.com/RestApia/Releases.Win.Stable/releases/download/{github.rawTag}/RestApia-win-stable-Setup.exe",
+			"architecture": "x64"
+		}
 	]
 }
