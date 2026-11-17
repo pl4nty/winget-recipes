@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Stiven-Gjekaj",
+		"repo": "burnout"
+	},
+	"urls": [
+		"https://github.com/Stiven-Gjekaj/burnout/releases/download/{github.rawTag}/burnout-{version}-x86_64-pc-windows-msvc.exe",
+		"https://github.com/Stiven-Gjekaj/burnout/releases/download/{github.rawTag}/burnout-{version}-aarch64-pc-windows-msvc.exe"
+	]
+}
