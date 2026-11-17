@@ -7,6 +7,6 @@
 	},
 	"version": "{captures.major}.{captures.minor}.{captures.patch}.{captures.build}",
 	"urls": [
-		"https://unrealcommander.org/download/evolution/uncomsetup{captures.raw}.exe"
+		{ "url": "https://unrealcommander.org/download/evolution/uncomsetup{captures.raw}.exe", "architecture": "neutral" }
 	]
 }

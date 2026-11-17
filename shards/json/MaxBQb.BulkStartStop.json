@@ -6,6 +6,6 @@
 		"repo": "BulkStartStop"
 	},
 	"urls": [
-		"https://github.com/MBQbUtils/BulkStartStop/releases/download/{github.rawTag}/BulkStartStop_setup.exe"
+		{ "url": "https://github.com/MBQbUtils/BulkStartStop/releases/download/{github.rawTag}/BulkStartStop_setup.exe", "architecture": "x64" }
 	]
 }
