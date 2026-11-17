@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "afractal",
+		"repo": "twittertron-app"
+	},
+	"urls": [
+		"https://github.com/afractal/twittertron-app/releases/download/{github.rawTag}/twittertron-setup-win-v{version}.exe"
+	]
+}
