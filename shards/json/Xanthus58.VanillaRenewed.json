@@ -2,11 +2,11 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "Xanthus58",
+		"owner": "zephiowl",
 		"repo": "Vanilla-Renewed",
 		"tagRegex": "^\\d+(?:\\.\\d+)*-"
 	},
 	"urls": [
-		"https://github.com/Xanthus58/Vanilla-Renewed/releases/download/{github.rawTag}/INSTALLER_Vanilla_Renewed_{github.rawTag}.exe"
+		"https://github.com/zephiowl/Vanilla-Renewed/releases/download/{github.rawTag}/INSTALLER_Vanilla_Renewed_{github.rawTag}.exe"
 	]
 }

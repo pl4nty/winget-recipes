@@ -5,7 +5,8 @@
 		"owner": "WowUp",
 		"repo": "WowUp.CF",
 		"method": "api-list",
-		"kind": "prerelease"
+		"kind": "prerelease",
+		"tagRegex": "^v(?=\\d+(?:\\.\\d+)+-beta\\.\\d+$)"
 	},
 	"urls": [
 		"https://github.com/WowUp/WowUp.CF/releases/download/{github.rawTag}/WowUp-CF-Setup-{version}.exe"

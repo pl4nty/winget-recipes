@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "Xanthus58",
+		"owner": "zephiowl",
 		"repo": "Stanlys_Terminal"
 	},
 	"urls": [
-		"https://github.com/Xanthus58/Stanlys_Terminal/releases/download/{github.rawTag}/Installer_StanlysTerminal_{version}.exe"
+		"https://github.com/zephiowl/Stanlys_Terminal/releases/download/{github.rawTag}/Installer_StanlysTerminal_{version}.exe"
 	]
 }

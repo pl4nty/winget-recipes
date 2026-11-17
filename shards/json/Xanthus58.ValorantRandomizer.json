@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "Xanthus58",
+		"owner": "zephiowl",
 		"repo": "Valorant-Randomizer"
 	},
 	"urls": [
-		"https://github.com/Xanthus58/Valorant-Randomizer/releases/download/{github.rawTag}/INSTALLER_ValorantRandomizer_{version}.exe"
+		"https://github.com/zephiowl/Valorant-Randomizer/releases/download/{github.rawTag}/INSTALLER_ValorantRandomizer_{version}.exe"
 	]
 }

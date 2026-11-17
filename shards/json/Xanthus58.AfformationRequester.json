@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "Xanthus58",
+		"owner": "zephiowl",
 		"repo": "Affirmation-Requester"
 	},
 	"urls": [
-		"https://github.com/Xanthus58/Affirmation-Requester/releases/download/{github.rawTag}/AfformationRequester.exe"
+		"https://github.com/zephiowl/Affirmation-Requester/releases/download/{github.rawTag}/AfformationRequester.exe"
 	]
 }
