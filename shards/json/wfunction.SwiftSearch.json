@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/swiftsearch/rss",
+		"regex": "/files/Version%20(?<version>\\d+(?:\\.\\d+)+)/SwiftSearch64\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/swiftsearch/files/Version%20{version}/SwiftSearch64.exe/download",
+		"https://sourceforge.net/projects/swiftsearch/files/Version%20{version}/SwiftSearch32.exe/download"
+	]
+}
