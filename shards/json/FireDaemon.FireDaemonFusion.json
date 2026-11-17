@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.firedaemon.com/download-firedaemon-fusion",
+		"regex": ">Version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://download.firedaemon.com/FireDaemon-Fusion/{version}/FireDaemon-Fusion-x64-{version}.exe"
+	]
+}
