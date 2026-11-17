@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.greatis.com/iqiyi-remover-setup.zip",
+			"nestedInstallerMatches": [
+				"iqiyi-remover-setup.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.greatis.com/iqiyi-remover-setup.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
