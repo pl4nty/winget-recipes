@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "glyphr-studio",
-		"repo": "Glyphr-Studio-Desktop",
-		"method": "api-latest"
-	}
+		"repo": "Glyphr-Studio-Desktop"
+	},
+	"urls": [
+		"https://github.com/glyphr-studio/Glyphr-Studio-Desktop/releases/download/{github.rawTag}/Glyphr.Studio.Setup.{version}-x64.exe"
+	]
 }
