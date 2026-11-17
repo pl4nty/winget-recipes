@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.romexsoftware.com/en-us/primo-ramdisk/download.html",
+		"regex": "/download/primo-ramdisk/PrimoRamdisk_Mui_Setup_(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://www.romexsoftware.com/download/primo-ramdisk/PrimoRamdisk_Mui_Setup_{version}.exe"]
+}
