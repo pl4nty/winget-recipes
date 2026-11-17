@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "shadowsocks",
+		"repo": "shadowsocks-windows"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/shadowsocks/shadowsocks-windows/releases/download/{github.rawTag}/Shadowsocks-{version}.zip",
+			"nestedInstallerMatches": [
+				"Shadowsocks.exe"
+			]
+		}
+	]
+}
