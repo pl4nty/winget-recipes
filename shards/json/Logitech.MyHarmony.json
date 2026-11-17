@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://app.myharmony.com/prod/win/1.0/MyHarmony-App.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://app.myharmony.com/prod/win/1.0/MyHarmony-App.msi",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.myharmony.com/download"
+	},
+	"replace": true
+}
