@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://kn-cdn.codemao.cn/kitten4/application/kitten4_update_info.json",
+		"path": "new_version"
+	},
+	"urls": [
+		"https://kn-cdn.codemao.cn/kitten4/application/%E6%BA%90%E7%A0%81%E7%BC%96%E8%BE%91%E5%99%A84.0-x32-{version}.exe"
+	]
+}
