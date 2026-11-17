@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "avarwand",
+		"repo": "ANE",
+		"method": "api-latest",
+		"assetRegex": "^ANE-[\\d.]+-Setup-x64\\.msi$"
+	},
+	"version": {
+		"source": "product"
+	}
+}
