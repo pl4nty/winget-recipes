@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "blupi-games",
+		"repo": "planetblupi-dev"
+	},
+	"urls": [
+		"https://github.com/blupi-games/planetblupi-dev/releases/download/{github.rawTag}/planetblupi-{version}.exe"
+	]
+}
