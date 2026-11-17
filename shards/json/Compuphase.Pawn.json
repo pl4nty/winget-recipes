@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.compuphase.com/pawn/pawn.htm",
+		"regex": "pawn-(\\d+\\.\\d+\\.\\d+)\\.exe"
+	},
+	"urls": [
+		"https://www.compuphase.com/pawn/pawn-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.compuphase.com/pawn/pawnhistory.htm"
+	}
+}
