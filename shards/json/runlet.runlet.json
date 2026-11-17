@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "runletapp",
+		"repo": "runlet"
+	},
+	"urls": [
+		"https://github.com/runletapp/runlet/releases/download/{github.rawTag}/runlet_{version}_amd64.exe"
+	]
+}
