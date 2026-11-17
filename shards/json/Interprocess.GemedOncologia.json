@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"http://update.interprocess.com.br/install/GemedOncologia.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "http://update.interprocess.com.br/install/GemedOncologia.exe",
+		"header": "last-modified"
+	}
+}
