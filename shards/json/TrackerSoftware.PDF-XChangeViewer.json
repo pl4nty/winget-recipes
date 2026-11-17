@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://downloads.pdf-xchange.com/PXCViewer_x64.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.pdf-xchange.com/PXCViewer_x64.msi",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.pdf-xchange.com/product/pdf-xchange-viewer"
+	},
+	"replace": true
+}
