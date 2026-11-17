@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "evsar3",
+		"repo": "sshfs-win-manager"
+	},
+	"urls": [
+		"https://github.com/evsar3/sshfs-win-manager/releases/download/{github.rawTag}/sshfs-win-manager-setup-v{version}.exe"
+	]
+}
