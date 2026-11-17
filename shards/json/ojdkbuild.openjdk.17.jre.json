@@ -10,6 +10,6 @@
 		"tagRegex": "^java-17-openjdk-(?=\\d)"
 	},
 	"urls": [
-		"https://github.com/ojdkbuild/ojdkbuild/releases/download/{github.rawTag}/{github.rawTag}.jre.win.x86_64.msi"
+		"https://github.com/ojdkbuild/ojdkbuild/releases/download/{github.rawTag|-debug-|-}/{github.rawTag|-debug-|-}.jre.win.x86_64.msi"
 	]
 }
