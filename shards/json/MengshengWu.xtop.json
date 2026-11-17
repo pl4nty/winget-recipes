@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mengshengwu",
+		"repo": "xtop"
+	},
+	"urls": [
+		"https://github.com/mengshengwu/xtop/releases/download/{github.rawTag}/xtop-x86_64-pc-windows-msvc.zip",
+		"https://github.com/mengshengwu/xtop/releases/download/{github.rawTag}/xtop-aarch64-pc-windows-msvc.zip"
+	]
+}
