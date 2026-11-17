@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cteamx",
+		"repo": "Thief"
+	},
+	"urls": [
+		"https://github.com/cteamx/Thief/releases/download/{github.rawTag}/thief-{version}-win32.exe",
+		"https://github.com/cteamx/Thief/releases/download/{github.rawTag}/thief-{version}-win64.exe"
+	]
+}
