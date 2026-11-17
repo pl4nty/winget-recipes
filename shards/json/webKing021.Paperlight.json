@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/webKing021/paperlight/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "webKing021",
+		"repo": "paperlight",
+		"tag": "v{version}"
+	}
+}
