@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.music-flo.com/external/v1/electron/release",
+		"path": "data.latestVersion"
+	},
+	"urls": [
+		"https://cdn.music-flo.com/poc/p/misc/player/latest/FLO_v{version}_win_release.exe"
+	],
+	"cleanup": false
+}
