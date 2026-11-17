@@ -8,5 +8,8 @@
 	"urls": [
 		"https://products.lablicate.com/openchrom/{version}/OpenChrom_{version}_setup_x64.exe",
 		"https://products.lablicate.com/openchrom/{version}/OpenChrom_{version}_setup_ARM64.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/openchrom/openchrom/wiki/changelog#{version}"
+	}
 }
