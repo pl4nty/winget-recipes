@@ -2,8 +2,8 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "page-match",
 	"pageMatch": {
-		"url": "https://www.atlantiswordprocessor.com/en/news/release_notes.php",
-		"regex": "<a href=\"(?<version>(?<major>\\d+)_(?<minor>\\d+)_(?<patch>\\d+)_0*(?<build>\\d+))\\.htm\"><b>"
+		"url": "https://www.atlantiswordprocessor.com/en/",
+		"regex": "<a href=\"news/(?<version>(?<major>\\d+)_(?<minor>\\d+)_(?<patch>\\d+)_0*(?<build>\\d+))\\.htm\">Release of version <b>"
 	},
 	"version": "{captures.major}.{captures.minor}.{captures.patch}.{captures.build}",
 	"urls": [
