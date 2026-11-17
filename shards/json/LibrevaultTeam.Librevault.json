@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "librevault",
+		"repo": "librevault"
+	},
+	"urls": [
+		"https://github.com/librevault/librevault/releases/download/v{version}/librevault_v{version}.exe"
+	]
+}
