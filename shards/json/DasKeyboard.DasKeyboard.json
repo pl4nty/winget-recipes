@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.daskeyboard.io/",
+		"regex": "das-keyboard-q/win32/x64/das-keyboard-q-(?<version>\\d+(?:\\.\\d+)+)\\+Setup\\.exe"
+	},
+	"urls": [
+		"https://das-keyboard-q-releases.s3.us-east-2.amazonaws.com/das-keyboard-q/win32/x64/das-keyboard-q-{version}+Setup.exe"
+	]
+}
