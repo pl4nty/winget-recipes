@@ -8,7 +8,7 @@
 		"regex": "/bin/Volume_Lock_(\\d+(?:\\.\\d+)+)\\.exe$"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"state": {
 		"source": "value",

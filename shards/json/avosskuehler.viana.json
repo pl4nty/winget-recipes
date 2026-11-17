@@ -6,7 +6,7 @@
 		"repo": "viana"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
 		"https://github.com/avosskuehler/viana/releases/download/{github.rawTag}/VianaNETSetup{github.rawTag|.|}.msi"
