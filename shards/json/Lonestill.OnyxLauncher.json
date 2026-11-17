@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lonestill",
+		"repo": "scope-launcher"
+	},
+	"urls": [
+		"https://github.com/lonestill/scope-launcher/releases/download/{github.rawTag}/Scope.Launcher.Setup.{version}.exe"
+	]
+}
