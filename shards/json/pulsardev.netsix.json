@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pulsardev",
+		"repo": "netsix"
+	},
+	"urls": [
+		"https://github.com/pulsardev/netsix/releases/download/{github.rawTag}/Netsix-Setup-{version}.exe"
+	]
+}
