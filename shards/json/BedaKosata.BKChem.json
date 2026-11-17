@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://bkchem.zirael.org/download/",
+		"regex": "bkchem-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://bkchem.zirael.org/download/bkchem-{version}.exe"
+	],
+	"cleanup": false
+}
