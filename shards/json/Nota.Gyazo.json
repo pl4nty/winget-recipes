@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "json",
-	"json": {
-		"url": "https://gyazo.com/api/gy_win.json",
-		"path": "version"
-	},
-	"urls": ["file"]
-}
