@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "M-Rajabi-Dev",
+		"repo": "AudioShelf"
+	},
+	"urls": [
+		"https://github.com/M-Rajabi-Dev/AudioShelf/releases/download/{github.rawTag}/AudioShelf-{version}-Win64-Setup.exe"
+	]
+}
