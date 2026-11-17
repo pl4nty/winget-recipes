@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://lizardsystems.com/terminal-services-manager/",
+		"regex": "product-hero__version[^>]*>v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://lizardsystems.com/files/releases/terminal-services-manager/tsmanager_setup_{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://lizardsystems.com/terminal-services-manager/releases/{version}/"
+	}
+}
