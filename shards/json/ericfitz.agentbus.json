@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ericfitz",
+		"repo": "agentbus"
+	},
+	"urls": [
+		"https://github.com/ericfitz/agentbus/releases/download/{github.rawTag}/agentbus-v{version}-windows-amd64.zip",
+		"https://github.com/ericfitz/agentbus/releases/download/{github.rawTag}/agentbus-v{version}-windows-arm64.zip"
+	]
+}
