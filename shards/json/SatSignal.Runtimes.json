@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.satsignal.eu/software/runtime.html",
+		"regex": "runtimes-setup-(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": ["https://www.satsignal.eu/software/runtimes-setup-{version}.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.satsignal.eu/software/runtime.html"
+	}
+}
