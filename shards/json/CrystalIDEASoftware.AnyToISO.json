@@ -1,9 +1,12 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "crystalidea",
-		"repo": "anytoiso-public"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://crystalidea.com/anytoiso/release-notes",
+		"regex": "Version <u>(\\d+(?:\\.\\d+)+)</u>"
 	},
-	"urls": ["https://github.com/crystalidea/anytoiso-public/releases/download/v{version}/anytoiso_setup.exe"]
+	"urls": ["https://crystalidea.com/downloads/anytoiso_setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://crystalidea.com/anytoiso/release-notes"
+	}
 }
