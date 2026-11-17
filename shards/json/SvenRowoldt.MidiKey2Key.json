@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://midikey2key.de/download.php?lang=en",
+		"regex": "Latest versions</b>\\s*<br>\\s*<a href=\"getfile\\.php\\?file=(?<file>\\d+)\">MidiKey2Key v(?<version>\\d+(?:\\.\\d+)+) 64Bit"
+	},
+	"urls": [
+		"https://midikey2key.de/getfile.php?file={captures.file}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://midikey2key.de/download.php?lang=en"
+	}
+}
