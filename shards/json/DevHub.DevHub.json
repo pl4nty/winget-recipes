@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "devhubapp",
+		"repo": "devhub"
+	},
+	"urls": [
+		"https://github.com/devhubapp/devhub/releases/download/{github.rawTag}/DevHub-Setup-{version}.exe"
+	]
+}
