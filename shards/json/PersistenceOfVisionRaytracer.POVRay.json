@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.povray.org/ftp/pub/povray/Official/",
+		"regex": "href=\"povwin-(\\d+\\.\\d+(?:\\.\\d+)*)-agpl3-setup\\.exe\""
+	},
+	"urls": [
+		"https://www.povray.org/ftp/pub/povray/Official/povwin-{version}-agpl3-setup.exe"
+	]
+}
