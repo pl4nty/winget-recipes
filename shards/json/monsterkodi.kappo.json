@@ -6,6 +6,9 @@
 		"repo": "kappo"
 	},
 	"urls": [
-		"https://github.com/monsterkodi/kappo/releases/download/{github.rawTag}/kappo-{version}-setup.exe"
+		{
+			"url": "https://github.com/monsterkodi/kappo/releases/download/{github.rawTag}/kappo-{version}-setup.exe",
+			"architecture": "x64"
+		}
 	]
 }

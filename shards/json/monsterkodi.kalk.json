@@ -6,6 +6,9 @@
 		"repo": "kalk"
 	},
 	"urls": [
-		"https://github.com/monsterkodi/kalk/releases/download/{github.rawTag}/kalk-{version}-setup.exe"
+		{
+			"url": "https://github.com/monsterkodi/kalk/releases/download/{github.rawTag}/kalk-{version}-setup.exe",
+			"architecture": "x64"
+		}
 	]
 }
