@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "lite-xl",
-		"repo": "lite-xl-plugin-manager"
+		"repo": "lite-xl-plugin-manager",
+		"method": "api-sort"
 	},
 	"urls": [
 		"https://github.com/lite-xl/lite-xl-plugin-manager/releases/download/{github.rawTag}/lpm.x86_64-windows.exe"

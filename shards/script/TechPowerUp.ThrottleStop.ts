@@ -10,24 +10,25 @@ export default defineShard(async () => {
 	const {
 		captures: { version },
 	} = match(page, /ThrottleStop_(?<version>\d+(?:\.\d+)+)\.zip/i, 'No ThrottleStop version found');
-	const {
-		captures: { id },
-	} = match(page, /<input[^>]*name="id"[^>]*value="(?<id>\d+)"/i, 'No ThrottleStop download id found');
-	const {
-		captures: { server },
-	} = match(page, /name="server_id"[^>]*value="(?<server>\d+)"/i, 'No TechPowerUp mirror found');
+	const form = /<form[^>]*method="post"[\s\S]*?<\/form>/i.exec(page)?.[0];
+	if (!form) throw new Error(`No ThrottleStop download form: ${page.slice(0, 2000)}`);
+	const fields = Object.fromEntries(
+		[...form.matchAll(/<input[^>]*name="(?<name>[^"]+)"[^>]*value="(?<value>[^"]*)"/gi)].map((m) => [m.groups!.name, m.groups!.value]),
+	);
+	const server = /<button[^>]*name="(?<name>[^"]+)"[^>]*value="(?<value>[^"]+)"/i.exec(form)?.groups;
+	if (!server) throw new Error(`No TechPowerUp mirror in form: ${form.slice(0, 2000)}`);
 
 	return {
 		version,
 		urls: async () => {
 			const response = await fetch(PAGE, {
 				method: 'POST',
-				body: new URLSearchParams({ id, server_id: server }),
+				body: new URLSearchParams({ ...fields, [server.name]: server.value }),
 				redirect: 'manual',
 			});
 			const url = response.headers.get('location');
-			if (!url) throw new Error(`No ThrottleStop ${version} download redirect (HTTP ${response.status})`);
-			return [url];
+			if (!url) throw new Error(`No ThrottleStop ${version} download redirect (HTTP ${response.status}); form: ${form.slice(0, 2000)}`);
+			return [new URL(url, PAGE).href];
 		},
 		releaseNotes: { releaseNotesUrl: PAGE },
 	};
