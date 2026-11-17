@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Zettersten",
+		"repo": "shhnap"
+	},
+	"urls": [
+		"https://github.com/Zettersten/shhnap/releases/download/{github.rawTag}/Shnapp-win-x64.zip",
+		"https://github.com/Zettersten/shhnap/releases/download/{github.rawTag}/Shnapp-win-arm64.zip"
+	]
+}
