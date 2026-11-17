@@ -8,6 +8,9 @@
 		"kind": "prerelease"
 	},
 	"urls": [
-		"https://github.com/7room/aya/releases/download/{github.rawTag}/Aya.Setup.{version}.exe"
+		{
+			"url": "https://github.com/7room/aya/releases/download/{github.rawTag}/Aya.Setup.{version}.exe",
+			"architecture": "neutral"
+		}
 	]
 }

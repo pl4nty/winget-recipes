@@ -9,7 +9,7 @@
 		{
 			"url": "https://charruasoft.com/products/downloads/cws.zip",
 			"nestedInstallerMatches": [
-				"cws_lic_install.exe"
+				"cws_install.exe"
 			]
 		}
 	],

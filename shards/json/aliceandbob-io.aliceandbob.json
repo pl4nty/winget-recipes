@@ -5,7 +5,7 @@
 		"owner": "aliceandbob-io",
 		"repo": "aliceandbob-desktop",
 		"method": "api-list",
-		"kind": "all"
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/aliceandbob-io/aliceandbob-desktop/releases/download/{github.rawTag}/aliceandbob.io-{version|-beta.|-Beta.}_x32.Setup.exe",
