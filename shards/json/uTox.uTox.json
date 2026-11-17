@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "uTox",
+		"repo": "uTox"
+	},
+	"urls": [
+		"https://github.com/uTox/uTox/releases/download/{github.rawTag}/utox_x86_64.exe"
+	]
+}
