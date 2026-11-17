@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "kvakulo",
+		"repo": "Switcheroo"
+	},
+	"urls": [
+		"https://github.com/kvakulo/Switcheroo/releases/download/{github.rawTag}/switcheroo-setup.exe"
+	]
+}
