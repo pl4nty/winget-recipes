@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://cdn.systweak.com/setups/baps/dmfsetup.exe"
+		{
+			"url": "https://cdn.systweak.com/setups/baps/dmfsetup.exe",
+			"architecture": "x86"
+		}
 	],
 	"state": {
 		"source": "response-header",

@@ -6,6 +6,7 @@ import { match } from 'anthelion/helpers';
 const page = 'https://downloads.teradata.com/download/connectivity/odbc-driver/windows';
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
+// The 32-bit TTUSuiteSilent.exe bootstrapper installs the x64 MSIs (x64/TDODBC-64bit) on 64-bit Windows
 export default defineShard(async () => {
 	const html = await fetch(page).then((response) => response.text());
 	const {
@@ -36,7 +37,7 @@ export default defineShard(async () => {
 
 	return {
 		version: `${version}.00`,
-		urls: () => [url],
+		urls: () => [{ url, architecture: 'x64' }],
 		releaseNotes: { releaseNotesUrl: page },
 	};
 });
