@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sdk.play.date/changelog/",
+		"regex": "<h2 id=\"_[\\d_]+\">(\\d+(?:\\.\\d+)+)</h2>"
+	},
+	"urls": [
+		"https://download.panic.com/playdate_sdk/Windows/PlaydateSDK-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sdk.play.date/changelog/#_{version|.|_}"
+	}
+}
