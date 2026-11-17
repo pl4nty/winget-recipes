@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LPGhatguy",
+		"repo": "aftman"
+	},
+	"urls": [
+		"https://github.com/LPGhatguy/aftman/releases/download/{github.rawTag}/aftman-{version}-windows-x86_64.zip"
+	]
+}
