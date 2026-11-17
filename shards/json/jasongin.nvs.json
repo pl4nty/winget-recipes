@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jasongin",
+		"repo": "nvs"
+	},
+	"urls": [
+		"https://github.com/jasongin/nvs/releases/download/{github.rawTag}/nvs-{version}.msi"
+	]
+}
