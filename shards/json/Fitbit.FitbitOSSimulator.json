@@ -4,5 +4,8 @@
 	"electronBuilder": {
 		"url": "https://simulator-updates.fitbit.com/stable.yml"
 	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://dev.fitbit.com/release-notes/fitbit-os-simulator/"
+	},
 	"cleanup": false
 }
