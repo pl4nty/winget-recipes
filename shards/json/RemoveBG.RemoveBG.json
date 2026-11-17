@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.remove.bg/windows-mac-linux/download/windows",
+		"regex": "/download/removebg-for-windows-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://static.remove.bg/download/removebg-for-windows-{version}.exe"
+	]
+}
