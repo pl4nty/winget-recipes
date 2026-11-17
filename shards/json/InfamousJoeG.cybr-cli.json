@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "infamousjoeg",
+		"repo": "cybr-cli"
+	},
+	"version": "{version|-release|}",
+	"urls": [
+		"https://github.com/infamousjoeg/cybr-cli/releases/download/{github.rawTag}/cybr-cli_{github.tag}_windows_amd64.zip",
+		"https://github.com/infamousjoeg/cybr-cli/releases/download/{github.rawTag}/cybr-cli_{github.tag}_windows_arm64.zip"
+	]
+}
