@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://d.hearty.app/win/latest"
+		],
+		"regex": "/win/(?<version>\\d+(?:\\.\\d+)+)/Hearty%20Journal\\.exe$"
+	},
+	"urls": [
+		"https://d.hearty.app/win/{version}/Hearty%20Journal.exe"
+	]
+}
