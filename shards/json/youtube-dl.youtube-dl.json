@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ytdl-org",
+		"repo": "youtube-dl"
+	},
+	"urls": [
+		"https://github.com/ytdl-org/youtube-dl/releases/download/{github.rawTag}/youtube-dl.exe"
+	]
+}
