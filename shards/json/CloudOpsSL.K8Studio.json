@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://k8studio.io/",
+		"regex": "releases\\.k8studio\\.io/K8Studio-Setup-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://releases.k8studio.io/K8Studio-Setup-{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/K8Studio/K8studio/releases/tag/v{version}"
+	}
+}
