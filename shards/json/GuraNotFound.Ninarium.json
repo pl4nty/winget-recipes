@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "guranotfound",
+		"repo": "Ninarium",
+		"method": "api-list",
+		"tagRegex": "^(?=\\d+\\.\\d+\\.\\d+\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/guranotfound/Ninarium/releases/download/{github.rawTag}/mini_installer_sync.exe",
+		"https://github.com/guranotfound/Ninarium/releases/download/{github.rawTag}/mini_installer_sync.exe"
+	]
+}
