@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.perfectgymcdn.com/di/DeviceIntegrator.Installer.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.perfectgymcdn.com/di/DeviceIntegrator.Installer.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
