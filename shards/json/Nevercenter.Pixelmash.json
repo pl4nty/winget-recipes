@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://nevercenter.com/pixelmash/download/",
+		"regex": "Pixelmash (\\d+(?:\\.\\d+)+) \\(Win x64\\)"
+	},
+	"urls": ["https://nevercenter.com/pixelmash/download/filearchive/Install_Pixelmash_{version|.|_}_win.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://nevercenter.com/pixelmash/release_notes/"
+	}
+}
