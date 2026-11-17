@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qingfeng346",
+		"repo": "ScorpioConversion"
+	},
+	"urls": [
+		"https://github.com/qingfeng346/ScorpioConversion/releases/download/{github.rawTag}/scov-{version}-win-x64.msi"
+	]
+}
