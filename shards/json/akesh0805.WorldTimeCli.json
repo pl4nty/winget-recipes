@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "akesh0805",
+		"repo": "WorldTimeCli"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/akesh0805/WorldTimeCli/releases/download/{github.rawTag}/WorldTimeCli.exe"
+	]
+}
