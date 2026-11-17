@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://cubism.live2d.com/editor/js/download.js",
+		"regex": "LATEST_VERSION_WIN = \"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://cubism.live2d.com/editor/bin/Live2D_Cubism_Setup_{version}.exe"
+	]
+}
