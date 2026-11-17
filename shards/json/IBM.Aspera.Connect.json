@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://connectinstallers.s3.amazonaws.com/downloads/connect/latest/references.json",
+		"path": "entries.0.version"
+	},
+	"urls": [
+		"https://connectinstallers.s3.amazonaws.com/downloads/connect/latest/bin/ibm-aspera-connect_{version}_win32_AMD64.msi"
+	]
+}
