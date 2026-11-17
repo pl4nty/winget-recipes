@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.creality.com/pages/download-software",
+		"regex": "file2-cdn\\.creality\\.com/file/(?<hash>[0-9a-f]{32})/CrealityScan_win_(?<version>\\d+(?:\\.\\d+)+(?:-\\d+)?)\\.exe"
+	},
+	"urls": [
+		"https://file2-cdn.creality.com/file/{captures.hash}/CrealityScan_win_{version}.exe",
+		"https://file-cdn.creality.com/file/{captures.hash}/CrealityScan_win_{version}.exe"
+	]
+}
