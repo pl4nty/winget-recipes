@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "taisei-project",
+		"repo": "taisei"
+	},
+	"urls": [
+		"https://github.com/taisei-project/taisei/releases/download/{github.rawTag}/Taisei-{version}-setup-x86_64.exe"
+	]
+}

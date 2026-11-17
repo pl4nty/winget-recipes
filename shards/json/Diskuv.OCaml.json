@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://gitlab.com/api/v4/projects/dkml%2Fdistributions%2Fdkml/releases/permalink/latest",
+		"path": "tag_name"
+	},
+	"urls": ["https://gitlab.com/api/v4/projects/dkml%2Fdistributions%2Fdkml/packages/generic/release/{version}/setup64nu.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gitlab.com/dkml/distributions/dkml/-/releases/{version}"
+	}
+}

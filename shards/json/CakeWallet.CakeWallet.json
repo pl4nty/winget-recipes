@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cake-tech",
+		"repo": "cake_wallet"
+	},
+	"urls": [
+		"https://github.com/cake-tech/cake_wallet/releases/download/{github.rawTag}/Cake_Wallet_{github.rawTag}_Windows.exe"
+	]
+}

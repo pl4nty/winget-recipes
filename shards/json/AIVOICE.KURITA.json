@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://aivoice.jp/member/downloads/character/KuritaMaron",
+		"regex": "/downloads/data/kurita-maron/(\\d+(?:\\.\\d+)+)/windows"
+	},
+	"urls": [
+		"https://aivoice.jp/member/downloads/data/kurita-maron/{version}/windows"
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.grzsoftware.com/dl/",
+		"regex": "href=\"/files/v(?<major>\\d+)/(?<version>\\d+)/MeshCAM\\d+-Build\\d+\\.exe\" class=\"black-70\" onclick"
+	},
+	"version": "{captures.major}.{version}",
+	"urls": ["https://www.grzsoftware.com/files/v{captures.major}/{version}/MeshCAM{captures.major}-Build{version}.exe"]
+}

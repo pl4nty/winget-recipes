@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WgeorgeAssistantIA",
+		"repo": "Voxcut-downloads"
+	},
+	"urls": [
+		"https://github.com/WgeorgeAssistantIA/Voxcut-downloads/releases/download/{github.rawTag}/VoxCut-Setup-{version}.exe"
+	]
+}
