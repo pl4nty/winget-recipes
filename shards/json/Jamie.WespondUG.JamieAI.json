@@ -4,6 +4,7 @@
 	"github": {
 		"owner": "meetjamie",
 		"repo": "releases",
+		"method": "api-sort",
 		"tagRegex": "^app-v"
 	},
 	"urls": [

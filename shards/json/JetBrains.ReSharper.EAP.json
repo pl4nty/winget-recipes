@@ -7,7 +7,7 @@
 	},
 	"version": "{version|.EAP| EAP }",
 	"urls": [
-		"https://download.jetbrains.com/resharper/dotUltimate.{data.RSU.0.version}/JetBrains.dotUltimate.{data.RSU.0.version}.Checked.exe"
+		"RSU.0.downloads.windowsWeb.link"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.jetbrains.com/resharper/nextversion/"
