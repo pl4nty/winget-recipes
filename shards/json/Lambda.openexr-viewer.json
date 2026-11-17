@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "afichet",
+		"repo": "openexr-viewer"
+	},
+	"urls": [
+		"https://github.com/afichet/openexr-viewer/releases/download/{github.rawTag}/openexr-viewer-{version}-win64-install.exe"
+	]
+}
