@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "secana",
+		"repo": "CertDump"
+	},
+	"urls": [
+		"https://github.com/secana/CertDump/releases/download/{github.rawTag}/CertDump.msi"
+	]
+}
