@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/pass-simple/rss?path=/",
+		"regex": "/files/pass-simple-(\\d+(?:\\.\\d+)+)-win64\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/pass-simple/files/pass-simple-{version}-win64.exe/download",
+		"https://sourceforge.net/projects/pass-simple/files/pass-simple-{version}-win64-ARM.exe/download"
+	]
+}
