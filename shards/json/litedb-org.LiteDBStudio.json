@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "litedb-org",
+		"repo": "LiteDB.Studio"
+	},
+	"urls": [
+		"https://github.com/litedb-org/LiteDB.Studio/releases/download/{github.rawTag}/LiteDB.Studio.exe"
+	]
+}
