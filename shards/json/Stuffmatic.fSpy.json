@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stuffmatic",
+		"repo": "fSpy"
+	},
+	"urls": [
+		"https://github.com/stuffmatic/fSpy/releases/download/v{version}/fspy-setup-{version}.exe"
+	]
+}
