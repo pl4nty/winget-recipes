@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "saxobroko",
+		"repo": "Saxo_Brokoapp"
+	},
+	"urls": [
+		"https://github.com/saxobroko/Saxo_Brokoapp/releases/download/{github.rawTag}/setup.exe"
+	]
+}
