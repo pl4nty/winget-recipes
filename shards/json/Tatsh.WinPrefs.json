@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Tatsh",
+		"repo": "winprefs"
+	},
+	"urls": [
+		"https://github.com/Tatsh/winprefs/releases/download/{github.rawTag}/winprefs-{version}-win64-Release.zip",
+		"https://github.com/Tatsh/winprefs/releases/download/{github.rawTag}/winprefs-{version}-win32-Release.zip",
+		"https://github.com/Tatsh/winprefs/releases/download/{github.rawTag}/winprefs-{version}-winarm64-Release.zip",
+		"https://github.com/Tatsh/winprefs/releases/download/{github.rawTag}/winprefs-{version}-win64-Release.exe",
+		"https://github.com/Tatsh/winprefs/releases/download/{github.rawTag}/winprefs-{version}-win32-Release.exe",
+		"https://github.com/Tatsh/winprefs/releases/download/{github.rawTag}/winprefs-{version}-winarm64-Release.exe"
+	]
+}
