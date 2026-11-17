@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ImageMagick",
+		"repo": "ImageMagick"
+	},
+	"version": "{version|-|.}",
+	"urls": [
+		"https://github.com/ImageMagick/ImageMagick/releases/download/{github.rawTag}/ImageMagick.Q16.msixbundle"
+	]
+}
