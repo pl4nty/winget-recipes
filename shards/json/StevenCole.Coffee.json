@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/coffee-sc/rss",
+		"regex": "coffee-sc/files/Coffee%20(\\d+(?:\\.\\d+)+)%20x64%20"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/coffee-sc/files/Coffee%20{version}%20x64%20(64%20bit).msi/download",
+		"https://sourceforge.net/projects/coffee-sc/files/Coffee%20{version}%20x86%20(32%20bit).msi/download"
+	]
+}
