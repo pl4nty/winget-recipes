@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://www.nero.com/download.php?id=nerocore_full_installer"
+		],
+		"regex": "NeroCore-(?<build>\\d+(?:\\.\\d+)+)-Setup\\.exe$"
+	},
+	"version": {
+		"source": "product"
+	},
+	"state": {
+		"source": "value",
+		"value": "{captures.build}"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nero.com/eng/products/nero-core/"
+	}
+}
