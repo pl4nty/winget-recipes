@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://gamebanana.com/apiv11/Tool/6321/ProfilePage",
+		"regex": "\"_sDownloadUrl\": \"https:\\\\/\\\\/gamebanana\\.com\\\\/dl\\\\/(?<id>\\d+)\"[^}]*?\"_sDescription\": \"Modboy Installer v(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://gamebanana.com/dl/{captures.id}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gamebanana.com/tools/6321"
+	},
+	"cleanup": false
+}
