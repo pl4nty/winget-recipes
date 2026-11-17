@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.bome.com/products/sendsx",
+		"regex": "href=\"https://download\\.bome\\.com/SendSX_(\\d+\\.\\d+)\\.(?<build>\\d+)\\.exe\""
+	},
+	"urls": ["https://download.bome.com/SendSX_{version}.{captures.build}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.bome.com/products/sendsx"
+	}
+}
