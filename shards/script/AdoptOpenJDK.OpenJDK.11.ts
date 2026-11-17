@@ -12,8 +12,13 @@ export default defineShard(async () => {
 	});
 	const latest = releases
 		.filter((release) => !release.draft && !release.prerelease && /^jdk-\d+(?:\.\d+)*\+\d+$/.test(release.tag_name))
-		.map((release) => ({ tag: release.tag_name, version: release.tag_name.slice(4).replace('+', '.') }))
-		.sort((a, b) => compareVersions(a.version, b.version))
+		.map((release) => {
+			const [feature = '', build = ''] = release.tag_name.slice(4).split('+');
+			// Pad the feature version (jdk-11+28 is 11.0.0) so the build number is not compared as a minor version.
+			const key = [...feature.split('.'), '0', '0'].slice(0, Math.max(3, feature.split('.').length)).join('.');
+			return { tag: release.tag_name, version: `${feature}.${build}`, key: `${key}.${build}` };
+		})
+		.sort((a, b) => compareVersions(a.key, b.key))
 		.at(-1);
 	if (!latest) throw new Error('No HotSpot GA release found');
 	const file = `OpenJDK11U-jdk_x64_windows_hotspot_${latest.tag.slice(4).replace('+', '_')}.msi`;
