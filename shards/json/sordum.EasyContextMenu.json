@@ -5,7 +5,7 @@
 		"url": "https://www.sordum.org/7615/",
 		"regex": "Easy Context Menu v(\\d+(?:\\.\\d+)+)"
 	},
-	"urls": [{ "url": "https://www.sordum.org/files/easy-context-menu/ec_menu.zip", "architecture": "neutral" }],
+	"urls": ["https://www.sordum.org/files/easy-context-menu/ec_menu.zip"],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.sordum.org/7615/"
 	}
