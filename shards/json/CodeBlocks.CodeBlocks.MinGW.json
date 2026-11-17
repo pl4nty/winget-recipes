@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "codeblocks",
+		"file": "codeblocks-{version}mingw-setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/codeblocks/files/Binaries/{version}/Windows/32bit/codeblocks-{version}mingw-32bit-nosetup.zip/download",
+		"https://sourceforge.net/projects/codeblocks/files/Binaries/{version}/Windows/codeblocks-{version}mingw-nosetup.zip/download",
+		"https://sourceforge.net/projects/codeblocks/files/Binaries/{version}/Windows/32bit/codeblocks-{version}mingw-32bit-setup.exe/download",
+		"https://sourceforge.net/projects/codeblocks/files/Binaries/{version}/Windows/codeblocks-{version}mingw-setup.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.codeblocks.org/changelogs/{version}/"
+	}
+}

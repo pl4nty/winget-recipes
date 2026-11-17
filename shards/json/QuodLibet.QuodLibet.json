@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "quodlibet",
+		"repo": "quodlibet",
+		"method": "api-list",
+		"tagRegex": "^release-"
+	},
+	"urls": [
+		"https://github.com/quodlibet/quodlibet/releases/download/{github.rawTag}/quodlibet-{version}-installer.exe"
+	]
+}
