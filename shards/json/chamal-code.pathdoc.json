@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chamal-code",
+		"repo": "pathdoc"
+	},
+	"urls": [
+		"https://github.com/chamal-code/pathdoc/releases/download/v{version}/pathdoc-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
