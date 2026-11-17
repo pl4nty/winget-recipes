@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "basaba",
+		"repo": "kusto-terminal"
+	},
+	"urls": [
+		"https://github.com/basaba/kusto-terminal/releases/download/{github.rawTag}/KustoTerminal-win-x64-winget.zip"
+	]
+}
