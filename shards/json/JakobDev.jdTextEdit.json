@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "jdtextedit",
+		"file": "jdTextEdit-{version}-WindowsInstaller.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/jdtextedit/files/{version}/jdTextEdit-{version}-WindowsInstaller.exe/download",
+		"https://sourceforge.net/projects/jdtextedit/files/{version}/jdTextEdit-{version}-WindowsInstaller.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://codeberg.org/JakobDev/jdTextEdit/releases/tag/{version}"
+	}
+}
