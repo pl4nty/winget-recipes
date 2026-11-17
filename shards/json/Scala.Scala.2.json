@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "scala",
+		"repo": "scala",
+		"method": "api-sort",
+		"tagRegex": "^v(?=2\\.13\\.\\d+$)"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/scala/scala/releases/download/{github.rawTag}/scala-{github.version}.msi"
+	]
+}
