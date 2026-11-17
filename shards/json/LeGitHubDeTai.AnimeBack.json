@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LeGitHubDeTai",
+		"repo": "AnimeBack"
+	},
+	"urls": [
+		"https://github.com/LeGitHubDeTai/AnimeBack/releases/download/{github.rawTag}/AnimeBack.Setup.{version}.exe"
+	]
+}
