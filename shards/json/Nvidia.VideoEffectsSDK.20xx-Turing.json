@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-sdk/resources/",
+		"regex": "/sdk/VFX/nvidia_video_effects_sdk_installer_v(\\d+(?:\\.\\d+)+)_turing\\.exe"
+	},
+	"urls": ["https://international.download.nvidia.com/Windows/broadcast/sdk/VFX/nvidia_video_effects_sdk_installer_v{version}_turing.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-sdk/resources/"
+	}
+}
