@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "svr2kos2",
+		"repo": "TaskmgrPlayer",
+		"method": "api-list",
+		"tagRegex": "^release$"
+	},
+	"urls": [
+		"https://github.com/svr2kos2/TaskmgrPlayer/releases/download/{github.rawTag}/TaskmgrPlayer.zip"
+	]
+}
