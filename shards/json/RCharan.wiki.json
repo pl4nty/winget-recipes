@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "charanravi-online",
+		"repo": "wiki"
+	},
+	"urls": [
+		"https://github.com/charanravi-online/wiki/releases/download/{github.rawTag}/install_wiki.exe"
+	]
+}
