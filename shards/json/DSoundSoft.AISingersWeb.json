@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://aisingers.com/ai/aiseditor/",
+		"regex": "/img/soft/AISingers-Studio-Web_v(?<version>\\d+(?:\\.\\d+)+)(?<suffix>[^_\"']*)_(?<date>\\d{8})\\.zip"
+	},
+	"urls": ["http://aisingers.com/img/soft/AISingers-Studio-Web_v{version}{captures.suffix}_{captures.date}.zip"]
+}
