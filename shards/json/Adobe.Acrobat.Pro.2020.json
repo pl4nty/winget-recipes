@@ -7,7 +7,6 @@
 	"urls": [
 		{
 			"url": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/win32/Acrobat_2020_Web_WWMUI.zip",
-			"architecture": "x64",
 			"nestedInstallerMatches": ["Adobe Acrobat/Setup.exe"]
 		}
 	],
