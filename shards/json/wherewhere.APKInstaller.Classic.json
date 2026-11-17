@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Paving-Base",
+		"repo": "APK-Installer-Classic"
+	},
+	"urls": [
+		"https://github.com/Paving-Base/APK-Installer-Classic/releases/download/{github.rawTag}/APKInstaller.Installer_{version}.0_neutral.exe"
+	]
+}
