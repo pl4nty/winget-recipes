@@ -5,7 +5,10 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://content.soulframe.com/dl/Soulframe.msi"
+		{
+			"url": "https://content.soulframe.com/dl/Soulframe.msi",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",

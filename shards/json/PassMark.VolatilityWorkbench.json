@@ -7,7 +7,10 @@
 	},
 	"version": "{captures.major}.{captures.build}",
 	"urls": [
-		"https://www.osforensics.com/downloads/VolatilityWorkbench.zip"
+		{
+			"url": "https://www.osforensics.com/downloads/VolatilityWorkbench.zip",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",
