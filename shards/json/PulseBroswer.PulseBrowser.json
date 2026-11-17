@@ -1,0 +1,5 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "pulse-browser", "repo": "browser", "method": "api-list", "kind": "prerelease", "assetRegex": "^pulse-browser\\.installer\\.exe$" }
+}
