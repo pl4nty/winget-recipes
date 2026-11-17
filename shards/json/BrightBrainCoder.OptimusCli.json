@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "brightbraincoder",
+		"repo": "optimus-releases"
+	},
+	"urls": [
+		"https://github.com/brightbraincoder/optimus-releases/releases/download/{github.rawTag}/optimus-cli-v{version}-windows-x64.exe",
+		"https://github.com/brightbraincoder/optimus-releases/releases/download/{github.rawTag}/optimus-cli-v{version}-windows-arm64.exe"
+	]
+}
