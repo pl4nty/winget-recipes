@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "r12f",
+		"repo": "divoom"
+	},
+	"urls": [
+		"https://github.com/r12f/divoom/releases/download/{github.rawTag}/divoom-cli.{version}.windows.x86.msix",
+		"https://github.com/r12f/divoom/releases/download/{github.rawTag}/divoom-cli.{version}.windows.x64.msix",
+		"https://github.com/r12f/divoom/releases/download/{github.rawTag}/divoom-cli.{version}.windows.arm64.msix"
+	]
+}
