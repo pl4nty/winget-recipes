@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TheOneCodes",
+		"repo": "Wii-Balance-Board-GUI",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		"https://github.com/TheOneCodes/Wii-Balance-Board-GUI/releases/download/{github.rawTag}/WBBGUI.exe"
+	]
+}
