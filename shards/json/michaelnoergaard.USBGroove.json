@@ -7,6 +7,9 @@
 	},
 	"urls": [
 		"https://github.com/michaelnoergaard/USB-Groove/releases/download/{github.rawTag}/USBGroove.exe",
-		"https://github.com/michaelnoergaard/USB-Groove/releases/download/{github.rawTag}/USBGroove_Setup_{github.rawTag}.exe"
+		{
+			"url": "https://github.com/michaelnoergaard/USB-Groove/releases/download/{github.rawTag}/USBGroove_Setup_{github.rawTag}.exe",
+			"architecture": "x64"
+		}
 	]
 }
