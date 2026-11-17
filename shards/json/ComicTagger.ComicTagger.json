@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "comictagger",
+		"repo": "comictagger"
+	},
+	"urls": [
+		"https://github.com/comictagger/comictagger/releases/download/{github.rawTag}/ComicTagger-{version}-Windows-AMD64.zip"
+	]
+}
