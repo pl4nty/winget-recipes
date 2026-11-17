@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://foldr-downloads-us.us-east-1.linodeobjects.com/?prefix=clients/win/x64/winget/&delimiter=/",
+		"regex": "<Prefix>clients/win/x64/winget/(\\d+\\.\\d+\\.\\d+)/</Prefix>"
+	},
+	"urls": [
+		"https://foldr-downloads-us.us-east-1.linodeobjects.com/clients/win/x64/winget/{version}/FoldrSetup-x64-v{version}.msi",
+		"https://foldr-downloads-us.us-east-1.linodeobjects.com/clients/win/arm64/winget/{version}/FoldrSetup-arm64-v{version}.msi"
+	]
+}
