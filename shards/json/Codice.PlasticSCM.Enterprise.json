@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.plasticscm.com/download",
+		"regex": "release-notes/(?<notes>\\d+/\\d{4})#[\\d.]+\"[\\s\\S]*?Enterprise Edition installer for version (?<version>\\d+(?:\\.\\d+){3}), Windows"
+	},
+	"urls": [
+		"https://d26z97tczqnlef.cloudfront.net/releases/{version}/plasticscm/windows/unity-vcs-on-prem-full-{version}-win.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.unity.com/en-us/unity-version-control/release-notes/{captures.notes}#{version}"
+	},
+	"cleanup": false
+}
