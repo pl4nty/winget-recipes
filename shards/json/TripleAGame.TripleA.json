@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "triplea-game",
+		"repo": "triplea"
+	},
+	"urls": [
+		"https://github.com/triplea-game/triplea/releases/download/{github.rawTag}/TripleA_{version}_windows-64bit.exe"
+	]
+}
