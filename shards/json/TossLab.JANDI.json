@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdn.jandi.com/jandi-pc/download/JANDI.exe",
+		"https://cdn.jandi.com/jandi-pc/download/JANDI32.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.jandi.com/jandi-pc/download/JANDI.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.jandi.com/landing/kr/download"
+	},
+	"replace": true
+}
