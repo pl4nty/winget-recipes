@@ -6,6 +6,9 @@
 		"repo": "mymonero-app-js"
 	},
 	"urls": [
-		"https://github.com/mymonero/mymonero-app-js/releases/download/{github.rawTag}/MyMonero-Setup-{version}.exe"
+		{
+			"url": "https://github.com/mymonero/mymonero-app-js/releases/download/{github.rawTag}/MyMonero-Setup-{version}.exe",
+			"architecture": "neutral"
+		}
 	]
 }

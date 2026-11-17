@@ -2,6 +2,7 @@ import { defineShard } from 'anthelion';
 import { getLatestRelease } from 'anthelion/github';
 
 // MuseScore 3 is the legacy 3.x line of musescore/MuseScore, and its MSI names carry the 4-part build version.
+// MuseScore serves the same MSIs from its jsDelivr endpoint, which the manifests use.
 export default defineShard(async () => {
 	const release = await getLatestRelease({
 		owner: 'musescore',
@@ -19,7 +20,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [x64.browser_download_url, x86.browser_download_url],
+		urls: () => [x64, x86].map((a) => `https://cdn.jsdelivr.net/musescore/${release.rawTag}/${a.name}`),
 		releaseNotes: { releaseNotesUrl: `https://github.com/musescore/MuseScore/releases/tag/${release.rawTag}` },
 	};
 });

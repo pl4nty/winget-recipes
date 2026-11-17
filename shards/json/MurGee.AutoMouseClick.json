@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://www.murgee.com/auto-mouse-click/download/setup.exe"
+		{
+			"url": "https://www.murgee.com/auto-mouse-click/download/setup.exe",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",
