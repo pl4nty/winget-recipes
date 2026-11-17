@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "prusa3d",
+		"repo": "PrusaSlicer",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "^version_",
+		"assetRegex": "^PrusaSlicer-\\d+(?:\\.\\d+)+-[a-z]+\\d+\\.zip$"
+	}
+}
