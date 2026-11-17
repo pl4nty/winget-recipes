@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.batronix.com/versand/software/prog-express/index.html",
+		"regex": "/prog-express-(\\d+(?:\\.\\d+){3})-net48-ReleaseLibUSB\\.msi"
+	},
+	"urls": [
+		"https://www.batronix.com/exe/Batronix/Prog-Express/prog-express-{version}-net48-ReleaseLibUSB.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.batronix.com/versand/software/prog-express/index.html"
+	}
+}
