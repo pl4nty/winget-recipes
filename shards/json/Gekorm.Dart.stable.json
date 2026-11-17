@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GeKorm",
+		"repo": "dart-windows",
+		"method": "api-sort",
+		"tagRegex": "^v",
+		"assetRegex": "^Dart_(?:32|x64)\\.stable\\.setup\\.exe$"
+	}
+}
