@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "influxdata",
+		"repo": "influxdb",
+		"method": "api-sort",
+		"tagRegex": "^v(?=3\\.)",
+		"perPage": 50
+	},
+	"urls": [
+		"https://dl.influxdata.com/influxdb/releases/influxdb3-enterprise-{version}-windows_amd64.zip"
+	]
+}

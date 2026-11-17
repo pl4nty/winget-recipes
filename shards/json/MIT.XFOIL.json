@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://web.mit.edu/drela/Public/web/xfoil/",
+		"regex": "href=\"XFOIL(\\d+\\.\\d+)\\.zip\""
+	},
+	"urls": [
+		"https://web.mit.edu/drela/Public/web/xfoil/XFOIL{version}.zip"
+	]
+}
