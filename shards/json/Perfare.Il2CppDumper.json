@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Perfare",
+		"repo": "Il2CppDumper"
+	},
+	"urls": [
+		"https://github.com/Perfare/Il2CppDumper/releases/download/v{version}/Il2CppDumper-win-v{version}.zip"
+	]
+}
