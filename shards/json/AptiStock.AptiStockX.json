@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://aptistock.com/download/file/windows"],
+		"regex": "/AptiStockX-(\\d+(?:\\.\\d+)+)-Windows-x64-Setup\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://aptistock.com/changelog.html"
+	}
+}
