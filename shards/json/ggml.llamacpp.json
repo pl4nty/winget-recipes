@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ggml-org",
+		"repo": "llama.cpp",
+		"method": "api-list",
+		"tagRegex": "(?=^b\\d+$)"
+	},
+	"urls": [
+		"https://github.com/ggml-org/llama.cpp/releases/download/{github.rawTag}/llama-{version}-bin-win-vulkan-x64.zip"
+	]
+}
