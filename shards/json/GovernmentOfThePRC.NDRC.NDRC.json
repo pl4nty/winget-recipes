@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://zbxt.ndrc.gov.cn/download",
+		"regex": "fgw-download/ndrc-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://devcdn.xylink.com/fgw-download/ndrc-{version}.exe"]
+}
