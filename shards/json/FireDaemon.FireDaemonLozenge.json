@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.firedaemon.com/firedaemon-lozenge",
+		"regex": "Version (\\d+\\.\\d+\\.\\d+) 64-bit / x64 MSIX"
+	},
+	"urls": [
+		"https://download.firedaemon.com/FireDaemon-Lozenge/{version}/FireDaemon-Lozenge-{version}.0-x64.msixbundle"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://kb.firedaemon.com/support/solutions/articles/4000191143"
+	}
+}
