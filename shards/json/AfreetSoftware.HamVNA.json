@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://dxatlas.com/HamVna/",
+		"regex": ">Ham VNA (?<version>\\d+\\.\\d+)</font>"
+	},
+	"urls": [
+		"https://dxatlas.com/HamVna/Files/HamVna.zip"
+	]
+}
