@@ -6,6 +6,9 @@
 		"repo": "si-builds"
 	},
 	"urls": [
-		"https://github.com/winsiderss/si-builds/releases/download/{github.rawTag}/systeminformer-build-canary-setup.exe"
+		{
+			"url": "https://github.com/winsiderss/si-builds/releases/download/{github.rawTag}/systeminformer-build-canary-setup.exe",
+			"architecture": "neutral"
+		}
 	]
 }
