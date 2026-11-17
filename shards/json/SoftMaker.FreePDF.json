@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.getfreepdf.com/en/download",
+		"regex": "Get FreePDF (?<year>\\d{4}) now[\\s\\S]*?Revision (?<rev>\\d+) \\|"
+	},
+	"version": "{captures.year}.{captures.rev}",
+	"urls": [
+		"https://www.softmaker.net/down/freepdf{captures.year}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.getfreepdf.com/en/download/servicepacks"
+	}
+}
