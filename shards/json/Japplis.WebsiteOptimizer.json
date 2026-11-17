@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.japplis.com/website-optimizer/version.txt",
+		"regex": "^(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.japplis.com/website-optimizer/versions/WebsiteOptimizer-{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.japplis.com/website-optimizer/changes.txt"
+	}
+}
