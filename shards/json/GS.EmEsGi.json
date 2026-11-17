@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elGiova",
+		"repo": "EmEsGi",
+		"method": "api-list",
+		"tagRegex": "-self-contained$",
+		"assetRegex": "_self-contained\\.exe$"
+	},
+	"version": "{version}.0"
+}

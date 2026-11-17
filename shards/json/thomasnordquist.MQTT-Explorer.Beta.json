@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "thomasnordquist",
+		"repo": "MQTT-Explorer",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/thomasnordquist/MQTT-Explorer/releases/download/{github.rawTag}/MQTT-Explorer-Setup-{version}.exe"
+	]
+}

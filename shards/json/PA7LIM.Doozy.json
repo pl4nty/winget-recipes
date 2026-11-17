@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://software.pa7lim.nl/Doozy/beta/",
+		"regex": "href=\"Doozy-(?<version>\\d+(?:\\.\\d+)+)\\.zip\""
+	},
+	"urls": [
+		"https://software.pa7lim.nl/Doozy/beta/Doozy-{version}.zip"
+	]
+}
