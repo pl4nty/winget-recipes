@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://gimespace.com/GMSRAMPro.exe", "https://gimespace.com/GMSRAMProX64.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://gimespace.com/GMSRAMProX64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
