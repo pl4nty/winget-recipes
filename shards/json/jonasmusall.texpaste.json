@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/jonasmusall/texpaste/releases/latest/download/latest.yml"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "jonasmusall",
+		"repo": "texpaste",
+		"tag": "v{version}"
+	}
+}
