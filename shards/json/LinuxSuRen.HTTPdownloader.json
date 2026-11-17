@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LinuxSuRen",
+		"repo": "http-downloader"
+	},
+	"urls": [
+		"https://github.com/LinuxSuRen/http-downloader/releases/download/{github.rawTag}/hd-windows-amd64.msi"
+	]
+}
