@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "anshppatel4-crypto",
+		"repo": "recallos"
+	},
+	"urls": [
+		"https://github.com/anshppatel4-crypto/recallos/releases/download/{github.rawTag}/RecallOS-Setup.exe"
+	]
+}
