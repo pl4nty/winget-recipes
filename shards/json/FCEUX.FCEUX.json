@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TASEmulators",
+		"repo": "fceux"
+	},
+	"urls": [
+		"https://github.com/TASEmulators/fceux/releases/download/{github.rawTag}/fceux-{version}-win32.zip",
+		"https://github.com/TASEmulators/fceux/releases/download/{github.rawTag}/fceux-{version}-win64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://fceux.com/web/pressrelease-{version}.html"
+	}
+}
