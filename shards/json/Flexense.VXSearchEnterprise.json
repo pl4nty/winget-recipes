@@ -8,5 +8,8 @@
 	"urls": [
 		"https://www.vxsearch.com/setups/vxsearchent_setup_v{version}.exe",
 		"https://www.vxsearch.com/setups_x64/vxsearchent_setup_v{version}_x64.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.vxsearch.com/news.html"
+	}
 }

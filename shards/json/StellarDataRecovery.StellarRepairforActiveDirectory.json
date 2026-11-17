@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://cloud.stellarinfo.com/StellarRepairforActiveDirectory.exe"
+		{
+			"url": "https://cloud.stellarinfo.com/StellarRepairforActiveDirectory.exe",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",

@@ -8,5 +8,8 @@
 	"urls": [
 		"https://www.disksorter.com/setups/disksorterent_setup_v{version}.exe",
 		"https://www.disksorter.com/setups_x64/disksorterent_setup_v{version}_x64.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.disksorter.com/news.html"
+	}
 }

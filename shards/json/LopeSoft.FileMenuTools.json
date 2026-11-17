@@ -5,12 +5,18 @@
 		"source": "file"
 	},
 	"urls": [
-		"https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe"
+		{
+			"url": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
+			"architecture": "neutral"
+		}
 	],
 	"state": {
 		"source": "response-header",
 		"url": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
 		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.lopesoft.com/index.php/en/filemenutools/changelog"
 	},
 	"replace": true
 }

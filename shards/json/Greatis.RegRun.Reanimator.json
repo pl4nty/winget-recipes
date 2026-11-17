@@ -17,5 +17,8 @@
 		"url": "https://www.greatissoftware.com/reanimator.zip",
 		"header": "last-modified"
 	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://greatis.com/security/news.htm"
+	},
 	"replace": true
 }

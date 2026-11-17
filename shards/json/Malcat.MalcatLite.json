@@ -17,5 +17,8 @@
 		"url": "https://malcat.fr/latest/malcat_win313_lite.zip",
 		"header": "etag"
 	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://malcat.fr/blog.html"
+	},
 	"replace": true
 }

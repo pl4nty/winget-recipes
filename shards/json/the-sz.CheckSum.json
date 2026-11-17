@@ -17,5 +17,8 @@
 		"url": "https://the-sz.com/products/checksum/CheckSum.zip",
 		"header": "etag"
 	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=checksum"
+	},
 	"replace": true
 }
