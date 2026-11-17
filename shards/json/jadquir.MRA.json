@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://mra.jadquir.com/",
+		"regex": "https://downloads\\.mra\\.jadquir\\.com/downloads/(?<dir>[^\"\\\\]+?)/MRA_Setup_x64_v(?<version>\\d+(?:_\\d+)+)\\.msi"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://downloads.mra.jadquir.com/downloads/{captures.dir}/MRA_Setup_x64_v{captures.version}.msi"
+	]
+}
