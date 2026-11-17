@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.crucial.com/support/ssd-support",
+		"regex": "assets\\.micron\\.com/adobe/assets/(?<urn>urn:aaid:aem:[0-9a-f-]+)/renditions/original/as/Crucial-Portable-SSD-Utility-Setup-(?<version>\\d+(?:\\.\\d+)+)-(?<date>\\d{8})-Language-Pack\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://assets.micron.com/adobe/assets/{captures.urn}/renditions/original/as/Crucial-Portable-SSD-Utility-Setup-{version}-{captures.date}-Language-Pack.zip",
+			"nestedInstallerMatches": ["Crucial Portable SSD Utility Setup "]
+		}
+	]
+}
