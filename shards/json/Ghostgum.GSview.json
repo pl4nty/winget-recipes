@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://www.ghostgum.com.au/software/gsview.htm",
+		"regex": "<title>Obtaining GSview (?<version>\\d+(?:\\.\\d+)+)</title>"
+	},
+	"urls": [
+		"http://www.ghostgum.com.au/download/gsv{version|.|}w64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "http://www.ghostgum.com.au/software/gsview.htm"
+	}
+}
