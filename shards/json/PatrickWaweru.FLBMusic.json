@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FLB-Music",
+		"repo": "FLB-Music-Player"
+	},
+	"urls": [
+		"https://github.com/FLB-Music/FLB-Music-Player/releases/download/{github.rawTag}/FLB-Music-Setup-{version}.exe"
+	]
+}
