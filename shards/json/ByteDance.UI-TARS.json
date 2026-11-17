@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bytedance",
+		"repo": "UI-TARS-desktop",
+		"method": "api-sort",
+		"perPage": 100,
+		"assetRegex": "^UI-TARS-\\d+(?:\\.\\d+)+-Setup\\.exe$"
+	}
+}

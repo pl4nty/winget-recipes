@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chiaki-ng",
+		"repo": "chiaki-ng"
+	},
+	"urls": [
+		"https://github.com/chiaki-ng/chiaki-ng/releases/download/{github.rawTag}/chiaki-ng-win_x64-MSYS2-installer.exe",
+		"https://github.com/chiaki-ng/chiaki-ng/releases/download/{github.rawTag}/chiaki-ng-win_arm64-MSYS2-installer.exe"
+	]
+}
