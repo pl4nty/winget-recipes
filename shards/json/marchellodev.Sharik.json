@@ -9,6 +9,6 @@
 		"https://github.com/marchellodev/sharik/releases/download/{github.rawTag}/sharik_{github.rawTag}_windows.msi"
 	],
 	"version": {
-		"source": "product"
+		"source": "display"
 	}
 }

@@ -8,6 +8,6 @@
 		"assetRegex": "^pyftpsync-[\\d.]+-win64\\.msi$"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	}
 }
