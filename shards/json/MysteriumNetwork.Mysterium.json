@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mysteriumnetwork",
+		"repo": "mysterium-vpn-desktop"
+	},
+	"urls": [
+		"https://github.com/mysteriumnetwork/mysterium-vpn-desktop/releases/download/{github.rawTag}/MysteriumDark-Setup-{version}.exe"
+	]
+}
