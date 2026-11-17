@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.netbsd.org/~martin/rawrite32/download.html",
+		"regex": "rw32-setup-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.netbsd.org/~martin/download/rw32-setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.netbsd.org/~martin/rawrite32/download.html"
+	}
+}
