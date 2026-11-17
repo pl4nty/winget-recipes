@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "sims3tools",
+		"file": "s3pe_{version}.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/sims3tools/files/s3pe/{version}/s3pe_{version}.exe/download"
+	]
+}
