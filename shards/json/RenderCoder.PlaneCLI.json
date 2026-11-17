@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RenderCoder",
+		"repo": "plane-cli",
+		"tagRegex": "^plane-cli-v"
+	},
+	"urls": [
+		"https://github.com/RenderCoder/plane-cli/releases/download/{github.rawTag}/plane-cli-windows-x64.zip"
+	]
+}
