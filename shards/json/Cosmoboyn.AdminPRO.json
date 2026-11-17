@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Cosmoboyn",
+		"repo": "AdminPRO",
+		"method": "api-sort"
+	},
+	"urls": [
+		"https://github.com/Cosmoboyn/AdminPRO/releases/download/{github.rawTag}/AdminPRO_Setup.exe"
+	]
+}
