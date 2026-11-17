@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Xanthus58",
+		"repo": "Rock-Paper-Scissors-CLI"
+	},
+	"urls": [
+		"https://github.com/Xanthus58/Rock-Paper-Scissors-CLI/releases/download/{github.rawTag}/Rock.Paper.Scissors.CLI.exe"
+	]
+}
