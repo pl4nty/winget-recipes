@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sciencefair-land",
+		"repo": "sciencefair"
+	},
+	"urls": ["https://github.com/sciencefair-land/sciencefair/releases/download/{github.rawTag}/sciencefair-setup-{version}.exe"]
+}
