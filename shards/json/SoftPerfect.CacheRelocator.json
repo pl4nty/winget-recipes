@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.softperfect.com/products/changelog.php?product_id=18",
+		"regex": "white-space:nowrap;\">(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.softperfect.com/download/freeware/cacherelocator_portable.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["32-bit/cacherelocator.exe"]
+		},
+		{
+			"url": "https://www.softperfect.com/download/freeware/cacherelocator_portable.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["64-bit/cacherelocator.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.softperfect.com/products/changelog.php?product_id=18"
+	}
+}
