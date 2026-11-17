@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gama-platform",
+		"repo": "gama",
+		"method": "api-latest",
+		"assetRegex": "^GAMA_[\\d.]+_Windows_with_JDK.*\\.exe$"
+	}
+}
