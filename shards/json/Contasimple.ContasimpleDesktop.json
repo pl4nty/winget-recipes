@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/Contasimple/contasimple-desktop/releases/latest/download/latest.yml"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "Contasimple",
+		"repo": "contasimple-desktop",
+		"tag": "v{version}"
+	}
+}
