@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ykhwong",
+		"repo": "dosbox-svn-daum"
+	},
+	"urls": [
+		"https://github.com/ykhwong/dosbox-svn-daum/releases/download/{github.rawTag}/setup_win.exe"
+	]
+}
