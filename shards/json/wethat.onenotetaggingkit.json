@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WetHat",
+		"repo": "OnenoteTaggingKit"
+	},
+	"urls": [
+		"https://github.com/WetHat/OnenoteTaggingKit/releases/download/{github.rawTag}/SetupTaggingKitWiX.{version}.msi"
+	]
+}
