@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.resplendence.com/registrar",
+		"regex": "Latest version: v ?(\\d+\\.\\d+)"
+	},
+	"urls": [
+		"https://www.resplendence.com/download/RegistrarHomeV9.exe"
+	],
+	"replace": true,
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.resplendence.com/registrar"
+	}
+}
