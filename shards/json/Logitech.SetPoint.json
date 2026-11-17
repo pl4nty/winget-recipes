@@ -6,7 +6,10 @@
 		"regex": "Software Version: </span></b>(?<version>\\d+(?:\\.\\d+)+)</li>"
 	},
 	"urls": [
-		"https://download01.logi.com/web/ftp/pub/techsupport/mouse/SetPoint{version}_64.exe"
+		{
+			"url": "https://download01.logi.com/web/ftp/pub/techsupport/mouse/SetPoint{version}_64.exe",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://support.logi.com/hc/en-us/articles/11754226373015"
