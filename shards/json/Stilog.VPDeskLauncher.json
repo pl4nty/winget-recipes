@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.visual-planning.com/en/support-portal/vpdesk-new-launcher",
+		"regex": "/mediavp/VPDeskLauncher-(\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": [
+		"https://www.visual-planning.com/mediavp/VPDeskLauncher-{version}.msi"
+	]
+}
