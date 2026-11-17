@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://renewedvision.com/propresenter/download/",
+		"regex": "propresenter/win/ProPresenter_?(\\d+(?:\\.\\d+)*_\\d+)-Setup\\.exe"
+	},
+	"urls": [
+		"https://renewedvision.com/downloads/propresenter/win/ProPresenter_{version}-Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://renewedvision.com/propresenter/release-notes/"
+	}
+}
