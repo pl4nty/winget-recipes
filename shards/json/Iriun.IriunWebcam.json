@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://iriun.com/",
+		"regex": "href=\"IriunWebcam-(?<version>\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": [
+		"https://iriun.com/IriunWebcam-{version}.exe"
+	]
+}
