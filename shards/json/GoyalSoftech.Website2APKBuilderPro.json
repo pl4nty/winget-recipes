@@ -1,11 +1,14 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "redirect-match",
-	"redirectMatch": {
-		"url": [
-			"https://websitetoapk.com/get_installer.php"
-		],
-		"regex": "/Website\\.2\\.APK\\.Builder\\.v(\\d+(?:\\.\\d+)+)\\.Installer\\.exe$",
-		"method": "get"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://websitetoapk.com/download.html",
+		"regex": "<h3>Download v(?<version>\\d+(?:\\.\\d+)+) \\(Latest Release"
+	},
+	"urls": [
+		"https://download.websitetoapk.com/Website.2.APK.Builder.v{version}.Installer.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://websitetoapk.com/download.html"
 	}
 }

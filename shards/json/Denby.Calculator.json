@@ -5,11 +5,6 @@
 		"owner": "palermostest25",
 		"repo": "Calculator"
 	},
-	"version": { "source": "file" },
-	"urls": ["https://github.com/palermostest25/Calculator/releases/download/{github.rawTag}/Installer.Requires.Python.exe"],
-	"state": {
-		"source": "response-header",
-		"url": "https://github.com/palermostest25/Calculator/releases/download/{github.rawTag}/Installer.Requires.Python.exe",
-		"header": "etag"
-	}
+	"versionRemove": "Calculator",
+	"urls": ["https://github.com/palermostest25/Calculator/releases/download/{github.rawTag}/Installer.Requires.Python.exe"]
 }

@@ -3,7 +3,7 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://www.passmark.com/products/sleeper/",
-		"regex": "V(?<major>\\d+\\.\\d+)\\s+build\\s+(?<build>\\d+)"
+		"regex": "[Vv](?<major>\\d+\\.\\d+)(?:\\.|[\\s\\S]{0,60}?[Bb]uild\\s*)(?<build>\\d+)"
 	},
 	"version": "{captures.major}.{captures.build}",
 	"urls": [
