@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "klatexformula",
+		"file": "klatexformula-{version}-win32.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/klatexformula/files/klatexformula/klatexformula-{version}/klatexformula-{version}-win32.exe/download"
+	]
+}
