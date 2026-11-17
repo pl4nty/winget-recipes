@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.python.org/ftp/python/",
+		"regex": "href=\"(2\\.\\d+\\.\\d+)/\""
+	},
+	"version": "{version}150",
+	"urls": [
+		"https://www.python.org/ftp/python/{version}/python-{version}.msi",
+		"https://www.python.org/ftp/python/{version}/python-{version}.amd64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.python.org/downloads/release/python-{version|.|}/"
+	}
+}
