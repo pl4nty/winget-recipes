@@ -7,11 +7,7 @@
 	"urls": [
 		{
 			"url": "https://cf-dl.datto.com/cc4pc/DattoCloudContinuityInstaller.exe",
-			"architecture": "x86"
-		},
-		{
-			"url": "https://cf-dl.datto.com/cc4pc/DattoCloudContinuityInstaller.exe",
-			"architecture": "x64"
+			"architecture": "neutral"
 		}
 	],
 	"state": {
