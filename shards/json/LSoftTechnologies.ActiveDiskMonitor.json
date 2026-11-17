@@ -5,5 +5,8 @@
 		"url": "https://www.disk-monitor.com/index.html",
 		"regex": "class=\"version\">Version (\\d+(?:\\.\\d+)+)<"
 	},
-	"urls": ["https://download.lsoft.net/DiskMonitorFree.exe"]
+	"urls": ["https://download.lsoft.net/DiskMonitorFree.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.disk-monitor.com/history/"
+	}
 }

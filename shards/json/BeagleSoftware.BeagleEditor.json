@@ -6,6 +6,9 @@
 		"repo": "legacy"
 	},
 	"urls": [
-		"https://github.com/beagleeditor/legacy/releases/download/v{version}/BeagleEditor-{version}-Installer.exe"
+		{
+			"url": "https://github.com/beagleeditor/legacy/releases/download/v{version}/BeagleEditor-{version}-Installer.exe",
+			"architecture": "x64"
+		}
 	]
 }
