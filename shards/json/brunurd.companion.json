@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "brunurd",
+		"repo": "companion"
+	},
+	"urls": [
+		"https://github.com/brunurd/companion/releases/download/{github.rawTag}/Companion.{version}.exe"
+	]
+}
