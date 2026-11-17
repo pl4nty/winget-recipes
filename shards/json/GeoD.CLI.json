@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gaopengbin",
+		"repo": "geo-downloader",
+		"tagRegex": "^geod-cli-v",
+		"method": "api-sort"
+	},
+	"urls": [
+		"https://github.com/gaopengbin/geo-downloader/releases/download/{github.rawTag}/geod-cli-{version}-windows-x64-setup.exe"
+	]
+}
