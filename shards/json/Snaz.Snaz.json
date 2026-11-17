@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JimmyAppelt",
+		"repo": "Snaz"
+	},
+	"urls": [
+		"https://github.com/JimmyAppelt/Snaz/releases/download/{github.rawTag}/SnazSetup.exe"
+	]
+}

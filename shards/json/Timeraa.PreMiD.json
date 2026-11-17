@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PreMiD",
+		"repo": "PreMiD",
+		"tagRegex": "^app-v"
+	},
+	"urls": [
+		"https://dl.premid.app/PreMiD-installer.exe"
+	]
+}

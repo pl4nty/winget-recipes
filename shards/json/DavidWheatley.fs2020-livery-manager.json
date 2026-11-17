@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MSFS-Mega-Pack",
+		"repo": "MSFS2020-livery-manager"
+	},
+	"urls": [
+		"https://github.com/MSFS-Mega-Pack/MSFS2020-livery-manager/releases/download/{github.rawTag}/Liveries_Mega_Pack_Manager-{version}-setup.exe",
+		"https://github.com/MSFS-Mega-Pack/MSFS2020-livery-manager/releases/download/{github.rawTag}/Liveries_Mega_Pack_Manager-{version}-setup.msi"
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://github.com/Rawns/Reddit-Wallpaper-Changer/releases/download/release/Reddit.Wallpaper.Changer.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/Rawns/Reddit-Wallpaper-Changer/releases/download/release/Reddit.Wallpaper.Changer.msi",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Rawns/Reddit-Wallpaper-Changer/releases/tag/release"
+	},
+	"replace": true
+}
