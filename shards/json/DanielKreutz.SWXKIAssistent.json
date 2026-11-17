@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://kreutzweb.de/ki-assistent.html",
+		"regex": "<strong>Datei:</strong>\\s*KI-Assistent-Setup-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://kreutzweb.de/dl/KI-Assistent-Setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://kreutzweb.de/ki-assistent.html"
+	}
+}
