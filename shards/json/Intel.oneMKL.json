@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.intel.com/libs/apps/intel/idz/productsinfo?downloadId=a0b1faab-0400-414f-beac-5c8673b9e9ca&pagepath=/content/www/us/en/developer/tools/oneapi/onemkl-download",
-		"regex": "IRC_NAS\\\\?/(?<id>[0-9a-f-]+)\\\\?/intel-onemkl-(?<version>\\d+\\.\\d+\\.\\d+)\\.(?<build>\\d+)_offline\\.exe"
-	},
-	"urls": ["https://registrationcenter-download.intel.com/akdlm/IRC_NAS/{captures.id}/intel-onemkl-{version}.{captures.build}_offline.exe"]
-}
