@@ -6,5 +6,10 @@
 		"regex": "href=\"/files/v(?<major>\\d+)/(?<version>\\d+)/MeshCAM\\d+-Build\\d+\\.exe\" class=\"black-70\" onclick"
 	},
 	"version": "{captures.major}.{version}",
-	"urls": ["https://www.grzsoftware.com/files/v{captures.major}/{version}/MeshCAM{captures.major}-Build{version}.exe"]
+	"urls": [
+		"https://www.grzsoftware.com/files/v{captures.major}/{version}/MeshCAM{captures.major}-Build{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.grzsoftware.com/dl/"
+	}
 }
