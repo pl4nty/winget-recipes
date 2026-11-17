@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://git.openprivacy.ca/api/v1/repos/cwtch.im/cwtch-ui/releases/latest",
+		"path": "tag_name"
+	},
+	"urls": ["https://git.openprivacy.ca/cwtch.im/cwtch-ui/releases/download/v{version}/cwtch-installer-v{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://git.openprivacy.ca/cwtch.im/cwtch-ui/releases/tag/v{version}"
+	}
+}
