@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MarshallChang",
+		"repo": "Manyi-transformer"
+	},
+	"urls": [
+		"https://github.com/MarshallChang/Manyi-transformer/releases/download/{github.rawTag}/Manyi-Transformer-Setup-{version}.exe"
+	]
+}
