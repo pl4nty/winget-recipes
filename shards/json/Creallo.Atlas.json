@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.creallo.com/CrealloAtlas-Setup-latest.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.creallo.com/CrealloAtlas-Setup-latest.exe",
+		"header": "etag"
+	}
+}
