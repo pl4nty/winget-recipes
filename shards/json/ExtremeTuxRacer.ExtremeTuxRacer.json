@@ -6,7 +6,7 @@
 		"file": "{version}/ExtremeTuxRacer.msi"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
 		"https://sourceforge.net/projects/extremetuxracer/files/releases/{version}/ExtremeTuxRacer.msi/download"

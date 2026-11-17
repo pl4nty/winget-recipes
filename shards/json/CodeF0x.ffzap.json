@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "CodeF0x",
-		"repo": "ffzap"
+		"repo": "ffzap",
+		"method": "api-sort",
+		"tagRegex": "^(?=[1-9]\\d*\\.\\d+\\.\\d+$)"
 	},
 	"urls": [
 		"https://github.com/CodeF0x/ffzap/releases/download/{github.rawTag}/ffzap.exe"
