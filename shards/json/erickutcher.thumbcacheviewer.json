@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "thumbcacheviewer",
+		"repo": "thumbcacheviewer",
+		"method": "api-sort",
+		"assetRegex": "^thumbcache_viewer_(?:32|64)\\.zip$"
+	},
+	"urls": [
+		"https://github.com/thumbcacheviewer/thumbcacheviewer/releases/download/{github.rawTag}/thumbcache_viewer_32.zip",
+		"https://github.com/thumbcacheviewer/thumbcacheviewer/releases/download/{github.rawTag}/thumbcache_viewer_64.zip"
+	]
+}
