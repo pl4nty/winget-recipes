@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Riqqqque",
+		"repo": "Flashback-Releases"
+	},
+	"urls": [
+		"https://github.com/Riqqqque/Flashback-Releases/releases/download/v{version}/Flashback-Setup-{version}.exe"
+	]
+}
