@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "json",
-	"json": {
-		"url": "https://dl.justmakeq.com/latest.json",
-		"path": "version"
-	},
-	"urls": ["https://dl.justmakeq.com/JustMakeQ-Setup-x64-{version}.exe"]
-}
