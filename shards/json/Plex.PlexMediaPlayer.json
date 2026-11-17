@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://plex.tv/api/downloads/3.json",
+		"regex": "downloads\\.plex\\.tv/plexmediaplayer/(\\d+\\.\\d+\\.\\d+)\\.(?<build>\\d+-[0-9a-f]+)/PlexMediaPlayer-[^\"/]+-windows-x64\\.exe"
+	},
+	"urls": [
+		"https://downloads.plex.tv/plexmediaplayer/{version}.{captures.build}/PlexMediaPlayer-{version}.{captures.build}-windows-x64.exe"
+	]
+}
