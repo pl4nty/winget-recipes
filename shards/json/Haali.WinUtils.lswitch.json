@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://haali.net/winutils/lswitch.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://haali.net/winutils/lswitch.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

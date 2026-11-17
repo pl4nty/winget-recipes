@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Nheko-Reborn",
+		"repo": "nheko"
+	},
+	"urls": [
+		"https://github.com/Nheko-Reborn/nheko/releases/download/{github.rawTag}/nheko-{github.rawTag}.msix"
+	]
+}

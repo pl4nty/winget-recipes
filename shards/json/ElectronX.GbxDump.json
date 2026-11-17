@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "Electron-x",
+		"repo": "GbxDump"
+	},
+	"urls": [
+		{ "url": "https://github.com/Electron-x/GbxDump/releases/download/{github.rawTag}/gbxdump.zip", "nestedInstallerMatches": ["Setup/x64/GbxDump64.msi"] },
+		{ "url": "https://github.com/Electron-x/GbxDump/releases/download/{github.rawTag}/gbxdump.zip", "nestedInstallerMatches": ["Setup/x86/GbxDump.msi"] }
+	]
+}

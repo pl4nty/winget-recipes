@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": [
+		{
+			"url": "https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip",
+			"nestedInstallerMatches": ["steamcmd.exe"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
