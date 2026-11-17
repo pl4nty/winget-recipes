@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "deck-app",
+		"repo": "stable-releases"
+	},
+	"urls": [
+		"https://github.com/deck-app/stable-releases/releases/download/{github.rawTag}/DECK-{version}-win-x64.exe"
+	]
+}
