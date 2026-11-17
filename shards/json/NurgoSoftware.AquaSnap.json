@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://www.nurgo-software.com/download/AquaSnap.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.nurgo-software.com/download/AquaSnap.msi",
+		"header": "last-modified"
+	},
+	"replace": true
+}
