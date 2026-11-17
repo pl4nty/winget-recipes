@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.mirc.com/get.php"],
+		"regex": "downloads/mirc/(?<dir>\\d+)/mirc(?<major>\\d)(?<minor>\\d+)\\.exe$"
+	},
+	"version": "{captures.major}.{captures.minor}",
+	"urls": ["https://www.mirc.com/downloads/mirc/{captures.dir}/mirc{captures.major}{captures.minor}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.mirc.com/news.html"
+	}
+}
