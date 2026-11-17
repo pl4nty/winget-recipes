@@ -4,7 +4,7 @@
 	"github": {
 		"owner": "npackd",
 		"repo": "npackd-cpp",
-		"tagRegex": "^version_"
+		"tagRegex": "^v?ersion_"
 	},
 	"urls": [
 		"https://github.com/npackd/npackd-cpp/releases/download/{github.rawTag}/Npackd64-{version}.msi",

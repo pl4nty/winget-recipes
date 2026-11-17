@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "the-via",
-		"repo": "releases"
+		"repo": "releases",
+		"method": "api-latest"
 	},
 	"version": "{version}.0",
 	"urls": [
