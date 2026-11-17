@@ -6,6 +6,6 @@
 		"regex": "/download/removebg-for-windows-(\\d+(?:\\.\\d+)+)\\.exe"
 	},
 	"urls": [
-		"https://static.remove.bg/download/removebg-for-windows-{version}.exe"
+		"https://storage.googleapis.com/removebg-static/download/removebg-for-windows-{version}.exe"
 	]
 }

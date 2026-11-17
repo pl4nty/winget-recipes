@@ -13,5 +13,8 @@
 	"state": {
 		"source": "value",
 		"value": "{version}"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.turtlebeach.com/s/downloads?language=en_US#/341/Audio-Hub"
 	}
 }
