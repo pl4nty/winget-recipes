@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stardock.com/products/curtains/history",
+		"regex": "Curtains (\\d+(?:\\.\\d+)+) \\(Released"
+	},
+	"urls": [
+		"https://cdn.stardock.us/downloads/public/software/curtains/Curtains_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.stardock.com/products/curtains/history"
+	}
+}

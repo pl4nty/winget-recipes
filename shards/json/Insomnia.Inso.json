@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kong",
+		"repo": "insomnia",
+		"tagRegex": "^core@"
+	},
+	"urls": ["https://github.com/Kong/insomnia/releases/download/{github.rawTag}/inso-windows-{version}.zip"]
+}
