@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/findutils",
+		"regex": "/gnuwin32/files/findutils/(?<version>\\d+(?:\\.\\d+)+(?:-\\d+)?)/findutils-\\k<version>\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnuwin32/files/findutils/{version}/findutils-{version}.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gnuwin32.sourceforge.net/packages/findutils.htm"
+	}
+}
