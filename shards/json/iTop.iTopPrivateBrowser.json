@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.itopvpn.com/dl/itop-private-browser-setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.itopvpn.com/dl/itop-private-browser-setup.exe",
+		"header": "etag"
+	},
+	"replace": true,
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.itopvpn.com/vpn-browser"
+	}
+}
