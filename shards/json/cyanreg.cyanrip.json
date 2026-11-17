@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cyanreg",
+		"repo": "cyanrip"
+	},
+	"urls": [
+		"https://github.com/cyanreg/cyanrip/releases/download/{github.rawTag}/cyanrip-win64.exe"
+	]
+}
