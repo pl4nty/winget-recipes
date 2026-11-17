@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "project-gauntlet", "repo": "gauntlet" },
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/project-gauntlet/gauntlet/releases/download/v{version}/gauntlet-x86_64-windows.msi"
+	]
+}
