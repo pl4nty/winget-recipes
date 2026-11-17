@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vcync",
+		"repo": "modV"
+	},
+	"urls": [
+		"https://github.com/vcync/modV/releases/download/{github.rawTag}/modV.Setup.{version}.exe"
+	]
+}
