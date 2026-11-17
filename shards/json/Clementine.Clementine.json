@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "clementine-player",
+		"repo": "Clementine",
+		"tagRegex": "-.*$"
+	},
+	"urls": [
+		"https://github.com/clementine-player/Clementine/releases/download/{github.rawTag}/ClementineSetup-{github.rawTag}.exe"
+	]
+}
