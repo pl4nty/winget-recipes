@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://www.quickpar.org.uk/",
+		"regex": "QuickPar version (?<version>\\d+(?:\\.\\d+)+) has now been released"
+	},
+	"urls": [
+		"http://download.quickpar.org.uk/download.php/QuickPar-{version}.0.exe"
+	],
+	"cleanup": false
+}
