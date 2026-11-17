@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "skyline69",
+		"repo": "balatro-mod-manager"
+	},
+	"urls": [
+		"https://github.com/skyline69/balatro-mod-manager/releases/download/{github.rawTag}/Balatro.Mod.Manager_{version}_x64_en-US.msi"
+	]
+}
