@@ -8,7 +8,7 @@
 		"regex": "/audio-hub_\\d+-(\\d+(?:\\.\\d+)+)-[^/]*\\.msi$"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"state": {
 		"source": "value",

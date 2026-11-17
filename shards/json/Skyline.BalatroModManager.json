@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "skyline69",
-		"repo": "balatro-mod-manager"
+		"repo": "balatro-mod-manager",
+		"method": "api-list"
 	},
 	"urls": [
 		"https://github.com/skyline69/balatro-mod-manager/releases/download/{github.rawTag}/Balatro.Mod.Manager_{version}_x64_en-US.msi"
