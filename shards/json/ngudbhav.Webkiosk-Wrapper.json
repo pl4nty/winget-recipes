@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ngudbhav",
+		"repo": "Webkiosk-Wrapper"
+	},
+	"urls": [
+		"https://github.com/ngudbhav/Webkiosk-Wrapper/releases/download/{github.rawTag}/Setup-x64.exe",
+		"https://github.com/ngudbhav/Webkiosk-Wrapper/releases/download/{github.rawTag}/Setup-x86.exe"
+	]
+}
