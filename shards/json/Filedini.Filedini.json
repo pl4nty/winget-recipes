@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://filedini.app/download",
+		"regex": "installer\\.filedini\\.app/Filedini-(\\d+(?:\\.\\d+)+)-Installer\\.exe"
+	},
+	"urls": [
+		"https://installer.filedini.app/Filedini-{version}-Installer.exe"
+	]
+}
