@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "buddhi1980",
+		"repo": "mandelbulber2"
+	},
+	"urls": [
+		"https://github.com/buddhi1980/mandelbulber2/releases/download/{github.rawTag}/Mandelbulber2-v{version}-Setup.exe"
+	]
+}
