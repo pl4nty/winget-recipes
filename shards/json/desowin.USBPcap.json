@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "desowin",
+		"repo": "usbpcap"
+	},
+	"urls": [
+		"https://github.com/desowin/usbpcap/releases/download/{github.rawTag}/USBPcapSetup-{version}.exe"
+	]
+}
