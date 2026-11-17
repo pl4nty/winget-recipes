@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "skevy",
+		"repo": "graphiql-app"
+	},
+	"urls": [
+		"https://github.com/skevy/graphiql-app/releases/download/{github.rawTag}/graphiql-app-setup-{version}.exe"
+	]
+}
