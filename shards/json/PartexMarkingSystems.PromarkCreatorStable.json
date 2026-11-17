@@ -6,6 +6,9 @@
 		"regex": "(?<version>\\d+(?:\\.\\d+)+)\\thttps://promark\\.partex\\.pl/download/stable-v3/(?<dir>[\\d.]+)/en-US/Promark_Creator_Setup\\.msi"
 	},
 	"urls": [
-		"https://promark.partex.pl/download/stable-v3/{captures.dir}/en-US/Promark_Creator_Setup.msi"
+		{
+			"url": "https://promark.partex.pl/download/stable-v3/{captures.dir}/en-US/Promark_Creator_Setup.msi",
+			"architecture": "neutral"
+		}
 	]
 }
