@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "M336G",
+		"repo": "video-recorder"
+	},
+	"urls": [
+		"https://github.com/M336G/video-recorder/releases/download/{github.rawTag}/Video.Recorder_{version}_x64-setup.exe"
+	]
+}
