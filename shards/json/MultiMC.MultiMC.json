@@ -17,5 +17,8 @@
 		"url": "https://files.multimc.org/downloads/mmc-develop-win32.zip",
 		"header": "etag"
 	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://multimc.org/posts/index.html"
+	},
 	"replace": true
 }
