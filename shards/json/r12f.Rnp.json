@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "r12f",
+		"repo": "rnp"
+	},
+	"urls": [
+		"https://github.com/r12f/rnp/releases/download/{github.rawTag}/rnp.{version}.windows.x86.msix",
+		"https://github.com/r12f/rnp/releases/download/{github.rawTag}/rnp.{version}.windows.x64.msix",
+		"https://github.com/r12f/rnp/releases/download/{github.rawTag}/rnp.{version}.windows.arm64.msix"
+	]
+}
