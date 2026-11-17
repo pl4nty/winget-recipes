@@ -5,7 +5,7 @@
 		"owner": "arduino",
 		"repo": "arduino-ide",
 		"method": "api-list",
-		"kind": "prerelease",
+		"kind": "all",
 		"tagRegex": "^(?=\\d+\\.\\d+\\.\\d+-rc\\d)",
 		"perPage": 100
 	},

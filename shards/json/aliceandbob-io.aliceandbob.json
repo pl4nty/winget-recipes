@@ -3,10 +3,13 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "aliceandbob-io",
-		"repo": "aliceandbob-desktop"
+		"repo": "aliceandbob-desktop",
+		"method": "api-list",
+		"kind": "all"
 	},
 	"urls": [
-		"https://github.com/aliceandbob-io/aliceandbob-desktop/releases/download/{github.rawTag}/aliceandbob.io-{version}_x32.Setup.exe",
-		"https://github.com/aliceandbob-io/aliceandbob-desktop/releases/download/{github.rawTag}/aliceandbob.io-{version}_x64.Setup.exe"
-	]
+		"https://github.com/aliceandbob-io/aliceandbob-desktop/releases/download/{github.rawTag}/aliceandbob.io-{version|-beta.|-Beta.}_x32.Setup.exe",
+		"https://github.com/aliceandbob-io/aliceandbob-desktop/releases/download/{github.rawTag}/aliceandbob.io-{version|-beta.|-Beta.}_x64.Setup.exe"
+	],
+	"version": "{version|-beta.|-Beta}"
 }

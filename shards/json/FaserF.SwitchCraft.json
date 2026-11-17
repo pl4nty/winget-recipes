@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "FaserF",
-		"repo": "SwitchCraft"
+		"repo": "SwitchCraft",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/FaserF/SwitchCraft/releases/download/{github.rawTag}/SwitchCraft-Setup.exe",

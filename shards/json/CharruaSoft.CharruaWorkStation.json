@@ -1,8 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.charruasoft.com/versions/",
+		"regex": "Charrua Workstation</span><span class=\"ver-ed\"[^>]*>CWS</span></td><td class=\"ver-num\"[^>]*><span class=\"ver-badge\"[^>]*>(?<version>\\d+(?:\\.\\d+)+)<"
 	},
 	"urls": [
 		{
@@ -12,10 +13,5 @@
 			]
 		}
 	],
-	"state": {
-		"source": "response-header",
-		"url": "https://charruasoft.com/products/downloads/cws.zip",
-		"header": "last-modified"
-	},
 	"replace": true
 }

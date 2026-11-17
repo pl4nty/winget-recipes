@@ -3,9 +3,11 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "comictagger",
-		"repo": "comictagger"
+		"repo": "comictagger",
+		"method": "api-list",
+		"kind": "all"
 	},
 	"urls": [
-		"https://github.com/comictagger/comictagger/releases/download/{github.rawTag}/ComicTagger-{version}-Windows-AMD64.zip"
+		"https://github.com/comictagger/comictagger/releases/download/{github.rawTag}/ComicTagger-{version|-beta.|b}-Windows-AMD64.zip"
 	]
 }

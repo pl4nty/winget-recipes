@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "forecaster-cyber",
-		"repo": "Picaso_open-source"
+		"repo": "Picaso_open-source",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/forecaster-cyber/Picaso_open-source/releases/download/{github.rawTag}/Picaso.exe"
