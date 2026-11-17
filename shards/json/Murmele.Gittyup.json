@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Murmele",
+		"repo": "Gittyup",
+		"tagRegex": "^gittyup_v"
+	},
+	"urls": [
+		"https://github.com/Murmele/Gittyup/releases/download/{github.rawTag}/Gittyup-win32-{version}.exe",
+		"https://github.com/Murmele/Gittyup/releases/download/{github.rawTag}/Gittyup-win64-{version}.exe"
+	]
+}
