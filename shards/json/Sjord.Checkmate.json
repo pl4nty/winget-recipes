@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Sjord",
+		"repo": "checkmate"
+	},
+	"urls": [
+		"https://github.com/Sjord/checkmate/releases/download/{github.rawTag}/mp3checker.exe"
+	]
+}
