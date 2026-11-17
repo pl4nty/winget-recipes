@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Bottleneckonline",
+		"repo": "Bottleneck-downloads"
+	},
+	"urls": [
+		"https://github.com/Bottleneckonline/Bottleneck-downloads/releases/download/{github.rawTag}/Bottleneck-{version}-Setup.exe"
+	]
+}
