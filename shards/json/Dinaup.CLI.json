@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://dinaupcdn.com/dl/latest/version.txt",
+		"regex": "^\\s*(\\d+(?:\\.\\d+)+)\\s*$"
+	},
+	"version": "{version}.0",
+	"urls": ["https://dinaupcdn.com/dl/v{version}/DinaupLauncher.exe"]
+}
