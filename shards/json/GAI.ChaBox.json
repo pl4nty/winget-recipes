@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://webpath.iche2.com/app/chabox/download.json",
+		"path": "windows.Official.ver"
+	},
+	"urls": [
+		"https://webpath.iche2.com/release/ChaBox-{version}-Setup.exe"
+	]
+}
