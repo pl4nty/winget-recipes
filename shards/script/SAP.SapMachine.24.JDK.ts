@@ -29,5 +29,6 @@ export default defineShard(async () => {
 	return {
 		version: latest.version,
 		urls: () => [latest.url],
+		releaseNotes: { releaseNotesUrl: `https://github.com/SAP/SapMachine/releases/tag/sapmachine-${latest.version}` },
 	};
 });
