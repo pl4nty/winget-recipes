@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ilastik.org/download",
+		"regex": "files\\.ilastik\\.org/ilastik-(\\d+(?:\\.\\d+)+(?:\\.?post\\d+)?)-win64\\.exe"
+	},
+	"urls": [
+		"https://files.ilastik.org/ilastik-{version}-win64.exe"
+	]
+}
