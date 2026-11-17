@@ -4,9 +4,8 @@
 	"github": {
 		"owner": "thatislg",
 		"repo": "BambooMintKey",
-		"tagRegex": "^windows-v"
-	},
-	"urls": [
-		"https://github.com/thatislg/BambooMintKey/releases/download/{github.rawTag}/BambooMintKey-Setup.exe"
-	]
+		"method": "api-list",
+		"tagRegex": "^windows-v",
+		"assetRegex": "^BambooMintKey-Setup\\.exe$"
+	}
 }
