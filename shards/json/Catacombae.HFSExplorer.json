@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "catacombae",
+		"file": "hfsexplorer-{version}-setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/catacombae/files/HFSExplorer/{version}/hfsexplorer-{version}-setup.exe/download"
+	]
+}
