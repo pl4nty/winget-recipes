@@ -7,7 +7,10 @@
 	},
 	"version": "{version|.EAP| EAP }",
 	"urls": [
-		"RSU.0.downloads.windowsWeb.link"
+		{
+			"url": "RSU.0.downloads.windowsWeb.link",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.jetbrains.com/resharper/nextversion/"

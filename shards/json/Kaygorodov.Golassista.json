@@ -6,7 +6,10 @@
 		"path": "version"
 	},
 	"urls": [
-		"https://llmcase.ru/dl/Golassista-Setup-{version}.exe"
+		{
+			"url": "https://llmcase.ru/dl/Golassista-Setup-{version}.exe",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://llmcase.ru/golassista"
