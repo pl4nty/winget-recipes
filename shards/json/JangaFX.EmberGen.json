@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://jangafx.com/software/embergen/download/",
+		"regex": "embergen/installers/windows/embergen_(\\d+(?:_\\d+)+)_installer\\.exe"
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://jangafx-software-files.s3.amazonaws.com/embergen/installers/windows/embergen_{version}_installer.exe"]
+}
