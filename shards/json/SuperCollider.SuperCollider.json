@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "supercollider",
+		"repo": "supercollider",
+		"method": "api-list",
+		"tagRegex": "^Version-",
+		"assetRegex": "^SuperCollider-\\d+(?:\\.\\d+)+_Release-x64-VS-[0-9a-f]+\\.exe$"
+	}
+}
