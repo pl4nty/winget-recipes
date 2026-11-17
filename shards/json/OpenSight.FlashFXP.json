@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.flashfxp.com/download",
+		"regex": "FlashFXP(?<major>\\d)(?<minor>\\d)_(?<version>\\d+)_Setup\\.exe"
+	},
+	"version": "{captures.major}.{captures.minor}.0.{version}",
+	"urls": [
+		"https://get.flashfxp.com/ftp/client/download/FlashFXP{captures.major}{captures.minor}_{version}_Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.flashfxp.com/history"
+	}
+}
