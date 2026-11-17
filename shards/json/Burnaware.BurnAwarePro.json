@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.burnaware.com/download.html",
+		"regex": "downloads/burnaware_pro_(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.burnaware.com/downloads/burnaware_pro_{version}.exe",
+		"https://www.burnaware.com/downloads/burnaware_pro_{version}_x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.burnaware.com/whats-new.html"
+	}
+}
