@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.wisdom-soft.com/downloads/downloadfiles.htm",
+		"regex": "Version:?\\s*(\\d+(?:\\.\\d+)+)(?:(?!Version)[\\s\\S])*?href=\"setupautoscreenrecorder\\.exe\""
+	},
+	"urls": [
+		"https://www.wisdom-soft.com/downloads/setupautoscreenrecorder.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.wisdom-soft.com/info/version_history.htm"
+	}
+}
