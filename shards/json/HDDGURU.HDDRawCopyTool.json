@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://hddguru.com/software/HDD-Raw-Copy-Tool/",
+		"regex": "HDDRawCopy(\\d+\\.\\d+)Setup\\.exe"
+	},
+	"urls": [
+		"https://hddguru.com/software/HDD-Raw-Copy-Tool/HDDRawCopy{version}Setup.exe"
+	]
+}
