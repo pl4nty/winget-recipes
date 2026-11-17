@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GameGodS3",
+		"repo": "DropPoint"
+	},
+	"urls": [
+		"https://github.com/GameGodS3/DropPoint/releases/download/{github.rawTag}/DropPoint-Setup-{version}.exe"
+	]
+}
