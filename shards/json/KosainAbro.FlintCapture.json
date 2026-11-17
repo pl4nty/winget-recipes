@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kos256",
+		"repo": "FlintCapture2",
+		"tagRegex": "^FlintCapture-v"
+	},
+	"urls": [
+		"https://github.com/Kos256/FlintCapture2/releases/download/{github.rawTag}/FlintCapture-{version}.exe"
+	]
+}
