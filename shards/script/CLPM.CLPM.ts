@@ -32,7 +32,7 @@ export default defineShard(async () => {
 		urls: () => [
 			{
 				url: `https://files.clpm.dev/clpm/clpm-${version}-windows-amd64.zip`,
-				nestedInstallerMatches: [`clpm-${version}-windows-amd64\\bin\\clpm.exe`],
+				nestedInstallerMatches: [`clpm-${version}-windows-amd64/bin/clpm.exe`],
 			},
 		],
 	};

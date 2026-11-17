@@ -5,7 +5,7 @@
 		"owner": "Eta06",
 		"repo": "deezerelectron",
 		"method": "api-list",
-		"kind": "prerelease",
+		"kind": "all",
 		"tagRegex": "-(?:alpha|beta)$"
 	},
 	"urls": [
