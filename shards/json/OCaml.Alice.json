@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "alicecaml",
-		"repo": "alice"
+		"repo": "alice",
+		"method": "api-sort"
 	},
 	"urls": [
 		"https://github.com/alicecaml/alice/releases/download/{github.rawTag}/alice-{version}-x86_64-windows.zip"

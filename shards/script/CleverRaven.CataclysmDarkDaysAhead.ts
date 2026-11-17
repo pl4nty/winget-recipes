@@ -1,15 +1,21 @@
 import { defineShard } from 'anthelion';
-import { getLatestReleaseFromRedirect, getReleaseByTag } from 'anthelion/github';
-import { match } from 'anthelion/helpers';
+import { getReleaseByTag, githubClient } from 'anthelion/github';
+import { compareVersions } from 'anthelion/helpers';
 
-// Stable releases are tagged "<version>-RELEASE" (0.H-RELEASE) next to daily experimental
-// prereleases, and the asset names carry a build timestamp instead of the version.
+// Stable releases are tagged "<version>-RELEASE" (0.H-RELEASE) among thousands of daily
+// experimental tags, and the asset names carry a build timestamp instead of the version.
 export default defineShard(async () => {
-	const { rawTag } = await getLatestReleaseFromRedirect({ owner: 'CleverRaven', repo: 'Cataclysm-DDA' });
-	const version = match(rawTag, /^(\d+\.[A-Z])-RELEASE$/).groups[0];
-	const release = await getReleaseByTag({ owner: 'CleverRaven', repo: 'Cataclysm-DDA', tag: rawTag });
+	const owner = 'CleverRaven';
+	const repo = 'Cataclysm-DDA';
+	const { data: refs } = await githubClient.rest.git.listMatchingRefs({ owner, repo, ref: 'tags/0.' });
+	const version = refs
+		.flatMap((ref) => /^refs\/tags\/(\d+\.[A-Z])-RELEASE$/.exec(ref.ref)?.[1] ?? [])
+		.sort(compareVersions)
+		.at(-1);
+	if (!version) throw new Error('No <version>-RELEASE tag found');
+	const release = await getReleaseByTag({ owner, repo, tag: `${version}-RELEASE` });
 	const asset = release.assets.find((a) => /^cdda-windows-with-graphics-and-sounds-x64-[\d-]+\.zip$/.test(a.name));
-	if (!asset) throw new Error(`No cdda-windows-with-graphics-and-sounds-x64 asset on ${rawTag}`);
+	if (!asset) throw new Error(`No cdda-windows-with-graphics-and-sounds-x64 asset on ${version}-RELEASE`);
 
 	return {
 		version,

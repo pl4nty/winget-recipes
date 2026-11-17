@@ -20,7 +20,7 @@ export default defineShard(async () => {
 	if (!build) throw new Error(`No Kasts sideload AppX in release-${branch}`);
 
 	return {
-		version: { source: 'display' },
+		version: { source: 'file' },
 		state: `${branch}-${build}`,
 		urls: () => [
 			`${base}/release-${branch}/windows/kasts-release_${branch}-${build}-windows-cl-msvc2022-x86_64-sideload.appx`,
