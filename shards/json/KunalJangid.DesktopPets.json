@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kunal-jangid",
+		"repo": "Creature"
+	},
+	"urls": [
+		"https://github.com/kunal-jangid/Creature/releases/download/{github.rawTag}/DesktopPets-Setup-{github.rawTag}.exe"
+	]
+}
