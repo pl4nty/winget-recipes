@@ -8,6 +8,7 @@
 	"urls": [
 		{
 			"url": "https://www.santesoft.com/files/win/sante_pacs_server_pg.zip",
+			"architecture": "x64",
 			"nestedInstallerMatches": [
 				"sante_pacs_server_pg.exe"
 			]

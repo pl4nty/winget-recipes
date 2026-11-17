@@ -7,6 +7,9 @@
 	},
 	"version": "{captures.major}.{captures.minor}",
 	"urls": [
-		"https://www.dinknetwork.com/download/dink_smallwood_hd-{captures.major}_{captures.minor}.exe"
+		{
+			"url": "https://www.dinknetwork.com/download/dink_smallwood_hd-{captures.major}_{captures.minor}.exe",
+			"architecture": "x64"
+		}
 	]
 }

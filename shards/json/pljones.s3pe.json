@@ -6,6 +6,9 @@
 		"file": "s3pe_{version}.exe"
 	},
 	"urls": [
-		"https://sourceforge.net/projects/sims3tools/files/s3pe/{version}/s3pe_{version}.exe/download"
+		{
+			"url": "https://sourceforge.net/projects/sims3tools/files/s3pe/{version}/s3pe_{version}.exe/download",
+			"architecture": "neutral"
+		}
 	]
 }
