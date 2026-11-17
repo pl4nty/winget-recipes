@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "beebeep",
+		"file": "beebeep-setup-{version}.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/beebeep/files/Windows/beebeep-setup-{version}.exe/download"
+	]
+}
