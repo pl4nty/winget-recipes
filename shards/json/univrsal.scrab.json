@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "univrsal",
+		"repo": "scrab"
+	},
+	"urls": [
+		"https://github.com/univrsal/scrab/releases/download/{github.rawTag}/scrab-{version}-windows-x86-Installer.exe",
+		"https://github.com/univrsal/scrab/releases/download/{github.rawTag}/scrab-{version}-windows-x64-Installer.exe"
+	]
+}
