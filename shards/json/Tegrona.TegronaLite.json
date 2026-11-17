@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://tegrona.com/download/",
+		"regex": "/Tegrona-Lite-(?<version>\\d+(?:\\.\\d+)+)-win-x64-setup\\.exe"
+	},
+	"urls": [
+		"https://tegrona.com/Tegrona-Lite-{version}-win-x64-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tegrona.com/lite/"
+	}
+}
