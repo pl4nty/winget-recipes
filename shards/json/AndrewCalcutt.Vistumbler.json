@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "acalcutt",
+		"repo": "Vistumbler"
+	},
+	"urls": [
+		"https://github.com/acalcutt/Vistumbler/releases/download/v{version}/Vistumbler_v{version|.|-}.exe"
+	]
+}
