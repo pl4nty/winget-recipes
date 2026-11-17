@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.beyondatc.net/download-batc",
+		"regex": "download\\.beyondatc\\.app/BATC_(?<version>\\d+(?:\\.\\d+)+)\\.EA_Installer\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://download.beyondatc.app/BATC_{version}.EA_Installer.zip",
+			"nestedInstallerMatches": [
+				"BeyondATCInstaller.exe"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.beyondatc.net/changelog"
+	}
+}
