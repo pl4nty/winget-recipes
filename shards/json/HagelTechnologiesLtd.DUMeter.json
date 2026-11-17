@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dl.hageltech.com/DUMeter-Install.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.hageltech.com/DUMeter-Install.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
