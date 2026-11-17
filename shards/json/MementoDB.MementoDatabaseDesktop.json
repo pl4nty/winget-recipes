@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://mementodatabase.com/download/",
+		"regex": "mementodb-(\\d+(?:\\.\\d+)+)-win64\\.exe"
+	},
+	"urls": [
+		"https://mementodatabase.com/download/mementodb-{version}-win64.exe",
+		"https://mementodatabase.com/download/mementodb-{version}-win.exe"
+	]
+}
