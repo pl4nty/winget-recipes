@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://griddock.superdavelab.com/downloads/electron/version.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://griddock.superdavelab.com/downloads/electron/GridDock.Setup.{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://griddock.superdavelab.com/"
+	}
+}
