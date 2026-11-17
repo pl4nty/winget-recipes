@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mati-caliz",
+		"repo": "gastronova-print-agent"
+	},
+	"urls": [
+		"https://github.com/mati-caliz/gastronova-print-agent/releases/download/{github.rawTag}/gastronova-impresion.exe"
+	]
+}
