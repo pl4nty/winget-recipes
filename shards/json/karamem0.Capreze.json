@@ -5,5 +5,10 @@
 		"owner": "karamem0",
 		"repo": "capreze"
 	},
-	"urls": ["https://stcapreze9b75e7.blob.core.windows.net/msi/capreze_{version}.msi"]
+	"urls": [
+		{
+			"url": "https://stcapreze9b75e7.blob.core.windows.net/msi/capreze_{version}.msi",
+			"architecture": "neutral"
+		}
+	]
 }

@@ -6,6 +6,9 @@
 		"repo": "BrightnessSync"
 	},
 	"urls": [
-		"https://github.com/Yukhnevich/BrightnessSync/releases/download/{github.rawTag}/BrightnessSync.exe"
+		{
+			"url": "https://github.com/Yukhnevich/BrightnessSync/releases/download/{github.rawTag}/BrightnessSync.exe",
+			"architecture": "neutral"
+		}
 	]
 }

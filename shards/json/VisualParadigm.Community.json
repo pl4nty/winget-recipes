@@ -1,8 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "redirect-match",
-	"redirectMatch": {
-		"url": ["https://www.visual-paradigm.com/downloads/vpce/Visual_Paradigm_CE_Win64.exe"],
-		"regex": "/vpce(?<version>\\d+(?:\\.\\d+)+)/\\d+/Visual_Paradigm_CE_[\\d_]+_Win64\\.exe$"
-	}
-}

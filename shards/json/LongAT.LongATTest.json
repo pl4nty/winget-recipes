@@ -6,6 +6,9 @@
 		"repo": "LongATTest"
 	},
 	"urls": [
-		"https://github.com/vulongvy/LongATTest/releases/download/{github.rawTag}/LongATTest-Setup-{version}.exe"
+		{
+			"url": "https://github.com/vulongvy/LongATTest/releases/download/{github.rawTag}/LongATTest-Setup-{version}.exe",
+			"architecture": "x64"
+		}
 	]
 }
