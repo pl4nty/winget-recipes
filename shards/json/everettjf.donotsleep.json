@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "everettjf",
+		"repo": "donotsleep"
+	},
+	"urls": [
+		"https://github.com/everettjf/donotsleep/releases/download/{github.rawTag}/donotsleep-windows-x86_64.zip"
+	]
+}
