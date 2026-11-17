@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "flowersauce",
+		"repo": "EQAPO-Profile-Manager"
+	},
+	"urls": [
+		"https://github.com/flowersauce/EQAPO-Profile-Manager/releases/download/{github.rawTag}/EQM-{version}-windows-x64.msi"
+	]
+}
