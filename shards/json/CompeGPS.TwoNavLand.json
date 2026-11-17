@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.twonav.com/en/software/land",
+		"regex": "/download/setup_LAND_(?<version>(?<major>\\d{2})(?<minor>\\d)(?<patch>\\d))\\.exe"
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.patch}",
+	"urls": [
+		"https://statics.twonav.com/download/setup_LAND_{version}.exe"
+	]
+}
