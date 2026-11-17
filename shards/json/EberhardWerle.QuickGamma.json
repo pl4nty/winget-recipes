@@ -8,5 +8,8 @@
 	"version": "{captures.a}.{captures.b}.{captures.c}.{captures.d}",
 	"urls": [
 		"https://quickgamma.de/QuickGammaV{captures.a}{captures.b}{captures.c}{captures.d}EN.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://quickgamma.de/indexen.html"
+	}
 }

@@ -6,11 +6,9 @@
 		"regex": "title=\"Version (\\d+\\.\\d+) &middot;"
 	},
 	"urls": [
-		{
-			"url": "https://the-sz.com/products/redwood/history/{version}/Redwood.zip",
-			"nestedInstallerMatches": [
-				"Redwood.exe"
-			]
-		}
-	]
+		"https://the-sz.com/products/redwood/history/{version}/Redwood.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=redwood"
+	}
 }

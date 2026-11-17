@@ -6,11 +6,9 @@
 		"regex": "title=\"Version (\\d+\\.\\d+) &middot;"
 	},
 	"urls": [
-		{
-			"url": "https://the-sz.com/products/nassau/history/{version}/Nassau.zip",
-			"nestedInstallerMatches": [
-				"Nassau.exe"
-			]
-		}
-	]
+		"https://the-sz.com/products/nassau/history/{version}/Nassau.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=nassau"
+	}
 }

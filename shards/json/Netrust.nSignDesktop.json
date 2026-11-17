@@ -6,11 +6,6 @@
 		"regex": "/downloads/public/nSign/InstallnSign(\\d+(?:\\.\\d+)+)\\.zip"
 	},
 	"urls": [
-		{
-			"url": "https://www.netrust.net/downloads/public/nSign/InstallnSign{version}.zip",
-			"nestedInstallerMatches": [
-				"InstallnSign{version}.exe"
-			]
-		}
+		"https://www.netrust.net/downloads/public/nSign/InstallnSign{version}.zip"
 	]
 }

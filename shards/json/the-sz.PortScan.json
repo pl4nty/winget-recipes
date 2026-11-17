@@ -6,11 +6,9 @@
 		"regex": "title=\"Version (\\d+\\.\\d+) &middot;"
 	},
 	"urls": [
-		{
-			"url": "https://the-sz.com/products/portscan/history/{version}/PortScan.zip",
-			"nestedInstallerMatches": [
-				"PortScan.exe"
-			]
-		}
-	]
+		"https://the-sz.com/products/portscan/history/{version}/PortScan.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=portscan"
+	}
 }

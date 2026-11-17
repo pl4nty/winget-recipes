@@ -7,5 +7,8 @@
 	},
 	"urls": [
 		"https://www.arrl.org/files/file/LoTW%20Instructions/tqsl-{version}.msi"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.arrl.org/files/file/LoTW%20Instructions/TrustedQSL-{version|.|-}-release.pdf"
+	}
 }

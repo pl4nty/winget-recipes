@@ -6,11 +6,9 @@
 		"regex": "title=\"Version (\\d+\\.\\d+) &middot;"
 	},
 	"urls": [
-		{
-			"url": "https://the-sz.com/products/palos/history/{version}/Palos.zip",
-			"nestedInstallerMatches": [
-				"Palos.exe"
-			]
-		}
-	]
+		"https://the-sz.com/products/palos/history/{version}/Palos.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=palos"
+	}
 }
