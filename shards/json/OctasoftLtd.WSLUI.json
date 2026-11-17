@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "octasoft-ltd",
+		"repo": "wsl-ui"
+	},
+	"urls": [
+		"https://github.com/octasoft-ltd/wsl-ui/releases/download/{github.rawTag}/WSL.UI_{version}_x64-setup.exe",
+		"https://github.com/octasoft-ltd/wsl-ui/releases/download/{github.rawTag}/WSL.UI_{version}_arm64-setup.exe"
+	]
+}
