@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://downloads.winupdatestop.com/latest/winupdatestop-standard/setup"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.winupdatestop.com/latest/winupdatestop-standard/setup",
+		"header": "etag"
+	},
+	"replace": true
+}
