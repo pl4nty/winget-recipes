@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://www.tweaking.com/files/setups/tweaking.com_windows_repair_aio_setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.tweaking.com/files/setups/tweaking.com_windows_repair_aio_setup.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
