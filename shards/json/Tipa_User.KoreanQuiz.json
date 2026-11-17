@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GitUser6910",
+		"repo": "korean_learnPY"
+	},
+	"urls": [
+		"https://github.com/GitUser6910/korean_learnPY/releases/download/{github.rawTag}/main.exe"
+	]
+}
