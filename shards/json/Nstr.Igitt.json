@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nstr-dev",
+		"repo": "igitt"
+	},
+	"version": "v{version}",
+	"urls": [
+		"https://github.com/nstr-dev/igitt/releases/download/{github.rawTag}/igitt-setup-windows-amd64-{github.rawTag}.exe"
+	]
+}
