@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "nepnep39",
-		"repo": "neofetch-win"
-	},
-	"urls": ["https://github.com/nepnep39/neofetch-win/releases/download/{github.rawTag}/neofetch{version|.|}.msi"]
-}
