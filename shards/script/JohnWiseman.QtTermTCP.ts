@@ -3,7 +3,7 @@ import { match } from 'anthelion/helpers';
 import { inflateRawSync } from 'node:zlib';
 
 // The vendor ships only an unversioned zip and the exe's version resource is 0.0.0.0, so the version comes from the string embedded in the exe.
-// Only the 32-bit zip is still linked from the product page; QtTermTCP64.zip is a stale 2022 build.
+// QtTermTCP64.zip is no longer linked from the product page and still holds an older build; it is kept because upstream lists it.
 const URL = 'https://www.cantab.net/users/john.wiseman/Downloads/QtTermTCP.zip';
 const ENTRY = 'Release/QtTermTCP.exe';
 
@@ -40,7 +40,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [URL],
+		urls: () => ['https://www.cantab.net/users/john.wiseman/Downloads/QtTermTCP64.zip', URL],
 		state,
 	};
 });

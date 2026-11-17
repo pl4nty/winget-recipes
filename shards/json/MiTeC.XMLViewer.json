@@ -8,14 +8,12 @@
 	"urls": [
 		{
 			"url": "https://www.mitec.cz/wp/files/XMLView.zip",
-			"architecture": "x86",
 			"nestedInstallerMatches": [
 				"XMLView.exe"
 			]
 		},
 		{
 			"url": "https://www.mitec.cz/wp/files/XMLView.zip",
-			"architecture": "x64",
 			"nestedInstallerMatches": [
 				"XMLView64.exe"
 			]
