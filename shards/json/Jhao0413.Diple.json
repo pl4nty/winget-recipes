@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jhao0413",
+		"repo": "diple"
+	},
+	"urls": [
+		"https://github.com/jhao0413/diple/releases/download/{github.rawTag}/diple-x86_64-pc-windows-msvc.zip"
+	]
+}
