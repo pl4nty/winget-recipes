@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lemonade-command",
+		"repo": "lemonade"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/lemonade-command/lemonade/releases/download/{github.rawTag}/lemonade_windows_amd64.zip",
+			"nestedInstallerMatches": [
+				"lemonade.exe"
+			]
+		}
+	]
+}
