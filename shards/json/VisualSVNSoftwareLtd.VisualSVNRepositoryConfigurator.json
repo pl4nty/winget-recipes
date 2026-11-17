@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.visualsvn.com/server/download/",
+		"regex": "/files/VisualSVN-Repository-Configurator-(\\d+(?:\\.\\d+)+)-x64\\.msi"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://www.visualsvn.com/files/VisualSVN-Repository-Configurator-{version}-x64.msi"
+	]
+}
