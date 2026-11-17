@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Molunerfinn",
+		"repo": "PicGo",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/Molunerfinn/PicGo/releases/download/{github.rawTag}/PicGo-{version}-ia32.exe",
+		"https://github.com/Molunerfinn/PicGo/releases/download/{github.rawTag}/PicGo-{version}-x64.exe",
+		"https://github.com/Molunerfinn/PicGo/releases/download/{github.rawTag}/PicGo-{version}-arm64.exe"
+	]
+}
