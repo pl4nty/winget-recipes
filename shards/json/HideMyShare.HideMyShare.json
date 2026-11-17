@@ -1,8 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "redirect-match",
-	"redirectMatch": {
-		"url": ["https://hidemyshare.site/download"],
-		"regex": "/HideMyShare-Setup-(\\d+(?:\\.\\d+)+)\\.exe$"
-	}
-}
