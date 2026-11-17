@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://downloads.dmxcore.com/velopack/win/RELEASES-stable",
+		"regex": "DMXCore100App-(\\d+(?:\\.\\d+)+)-stable-full\\.nupkg"
+	},
+	"urls": ["https://downloads.dmxcore.com/velopack/win/DMXCore100App-{version}-stable-Setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.dmxcore.com/dmx-core-100/release-notes/"
+	}
+}
