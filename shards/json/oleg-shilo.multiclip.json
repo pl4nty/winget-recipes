@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oleg-shilo",
+		"repo": "multiclip"
+	},
+	"urls": [
+		"https://github.com/oleg-shilo/multiclip/releases/download/{github.rawTag}/multiclip.{github.rawTag}.zip"
+	]
+}
