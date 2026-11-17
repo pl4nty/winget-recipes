@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ncyxie",
+		"repo": "Notepad-DOT-Qt"
+	},
+	"urls": [
+		"https://github.com/ncyxie/Notepad-DOT-Qt/releases/download/{github.rawTag}/Notepad_DOT_Qt_{github.rawTag}_Setup.exe"
+	]
+}
