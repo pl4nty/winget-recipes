@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Clipteam",
+		"repo": "clipcc-desktop"
+	},
+	"urls": [
+		"https://github.com/Clipteam/clipcc-desktop/releases/download/{github.rawTag}/clipcc-{version}-win-x64.exe",
+		"https://github.com/Clipteam/clipcc-desktop/releases/download/{github.rawTag}/clipcc-{version}-win-ia32.exe"
+	]
+}
