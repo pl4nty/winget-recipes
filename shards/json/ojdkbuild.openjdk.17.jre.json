@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "ojdkbuild",
+		"repo": "ojdkbuild",
+		"method": "api-sort",
+		"tagRegex": "^java-17-openjdk-(?=\\d)"
+	},
+	"urls": [
+		"https://github.com/ojdkbuild/ojdkbuild/releases/download/{github.rawTag}/{github.rawTag}.jre.win.x86_64.msi"
+	]
+}
