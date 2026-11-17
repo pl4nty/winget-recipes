@@ -5,6 +5,6 @@
 		"owner": "fstl-app",
 		"repo": "fstl",
 		"method": "api-latest",
-		"assetRegex": "win64\\.exe$"
+		"assetRegex": "win.*\\.exe$"
 	}
 }
