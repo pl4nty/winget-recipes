@@ -3,10 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "dchapyshev",
-		"repo": "aspia"
-	},
-	"urls": [
-		"https://github.com/dchapyshev/aspia/releases/download/{github.rawTag}/aspia-console-{version}-x86.msi",
-		"https://github.com/dchapyshev/aspia/releases/download/{github.rawTag}/aspia-console-{version}-x86_64.msi"
-	]
+		"repo": "aspia",
+		"method": "api-latest",
+		"assetRegex": "^aspia-console-\\d+(?:\\.\\d+)+-x86(?:_64)?\\.msi$"
+	}
 }

@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "RibShark",
-		"repo": "SafeDiscShim"
+		"repo": "SafeDiscShim",
+		"method": "api-list",
+		"kind": "all"
 	},
 	"urls": [
 		"https://github.com/RibShark/SafeDiscShim/releases/download/{github.rawTag}/SafeDiscShim_Setup_{version}.exe"
