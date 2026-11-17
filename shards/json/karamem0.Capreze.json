@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "karamem0",
+		"repo": "capreze"
+	},
+	"urls": ["https://stcapreze9b75e7.blob.core.windows.net/msi/capreze_{version}.msi"]
+}
