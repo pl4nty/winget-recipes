@@ -1,8 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "redirect-match",
-	"redirectMatch": {
-		"url": ["https://down.easeus.com/product/ebc_trial"],
-		"regex": "/EaseUS_Backup_Center_(\\d+(?:\\.\\d+)+)\\.exe$"
-	}
-}
