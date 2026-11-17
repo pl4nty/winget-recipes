@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jstarks",
+		"repo": "npiperelay"
+	},
+	"urls": [
+		"https://github.com/jstarks/npiperelay/releases/download/{github.rawTag}/npiperelay_windows_386.zip",
+		"https://github.com/jstarks/npiperelay/releases/download/{github.rawTag}/npiperelay_windows_amd64.zip"
+	]
+}
