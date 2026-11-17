@@ -6,7 +6,10 @@
 		"regex": "(\\d+\\.\\d+\\.\\d{4}) \\(64-bit"
 	},
 	"urls": [
-		"https://www.xyplorer.com/download/xyplorer64_{version}_noinstall.zip"
+		{
+			"url": "https://www.xyplorer.com/download/xyplorer64_{version}_noinstall.zip",
+			"architecture": "neutral"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.xyplorer.com/whatsnew.php"
