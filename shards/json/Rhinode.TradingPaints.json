@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.tradingpaints.com/page/Install",
+		"regex": "downloader/tp_setup_(\\d+_\\d+_\\d+)\\.msi"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://www.tradingpaints.com/downloader/tp_setup_{version}.msi"
+	]
+}
