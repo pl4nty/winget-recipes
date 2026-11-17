@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://ability.com/ab8/msi/AbilitySTD8_EN.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://ability.com/ab8/msi/AbilitySTD8_EN.msi",
+		"header": "etag"
+	}
+}
