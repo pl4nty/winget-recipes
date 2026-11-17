@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.dxatlas.com/CwSkimmer/Files/CwSkimmer.zip",
+			"nestedInstallerMatches": [
+				"Setup.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.dxatlas.com/CwSkimmer/Files/CwSkimmer.zip",
+		"header": "last-modified"
+	},
+	"replace": true
+}
