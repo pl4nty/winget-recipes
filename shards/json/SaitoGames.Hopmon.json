@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"http://www.saitogames.com/_download/hopmon_setup.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "http://www.saitogames.com/_download/hopmon_setup.msi",
+		"header": "last-modified"
+	},
+	"replace": true
+}
