@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TaiStudio",
+		"repo": "Sofia"
+	},
+	"urls": [
+		"https://github.com/TaiStudio/Sofia/releases/download/{github.rawTag}/Sofia.Setup.{version}.exe"
+	]
+}
