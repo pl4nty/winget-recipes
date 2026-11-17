@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.disksorter.com/downloads.html",
+		"regex": "setups/disksorterent_setup_v(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.disksorter.com/setups/disksorterent_setup_v{version}.exe",
+		"https://www.disksorter.com/setups_x64/disksorterent_setup_v{version}_x64.exe"
+	]
+}
