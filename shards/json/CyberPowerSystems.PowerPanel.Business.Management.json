@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cyberpower.com/global/en/product/sku/powerpanel_business_for_windows",
+		"regex": "\"DocumentId\":\"SU-20040001-02\",\"Name\":\"PowerPanel Business Management for Windows\"[^{}]*?\"Version\":\"v(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://dl4jz3rbrsfum.cloudfront.net/software/PPB_Mgt_Windows_v{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.cyberpower.com/global/en/File/GetFileSampleByType?fileId=SU-20040001-02&fileSubType=FileReleaseNote"
+	}
+}
