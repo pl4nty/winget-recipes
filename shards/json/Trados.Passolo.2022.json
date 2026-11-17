@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RWS",
+		"repo": "Passolo"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/RWS/Passolo/releases/download/{github.rawTag}/Passolo2022.zip",
+			"nestedInstallerMatches": [
+				"Passolo2022.exe"
+			]
+		}
+	]
+}
