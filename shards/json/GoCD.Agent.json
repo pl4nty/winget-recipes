@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download.gocd.org/releases.json",
+		"regex": "\"go_full_version\":\"(?<version>\\d+(?:\\.\\d+)+-\\d+)\"(?![\\s\\S]*\"go_full_version\")"
+	},
+	"urls": [
+		"https://download.gocd.org/binaries/{version}/win/go-agent-{version}-jre-64bit-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.gocd.org/releases/"
+	}
+}
