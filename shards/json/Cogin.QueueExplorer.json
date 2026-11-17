@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cogin.com/mq/download.php",
+		"regex": "download\\.php\\?file=(\\d+(?:\\.\\d+)+)%2FQueueExplorer"
+	},
+	"urls": [
+		{
+			"url": "https://www.cogin.com/download/mq/download.php?file={version}%2FQueueExplorer{version}.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.cogin.com/mq/qehistory.php"
+	}
+}
