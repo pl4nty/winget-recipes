@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "p6laris",
+		"repo": "Void"
+	},
+	"urls": [
+		"https://github.com/p6laris/Void/releases/download/{github.rawTag}/void-windows-amd64.zip"
+	]
+}
