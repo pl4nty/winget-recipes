@@ -7,5 +7,11 @@
 		"method": "api-sort",
 		"perPage": 100,
 		"assetRegex": "^UI-TARS-\\d+(?:\\.\\d+)+-Setup\\.exe$"
-	}
+	},
+	"urls": [
+		{
+			"url": "https://github.com/bytedance/UI-TARS-desktop/releases/download/{github.rawTag}/UI-TARS-{version}-Setup.exe",
+			"architecture": "x64"
+		}
+	]
 }

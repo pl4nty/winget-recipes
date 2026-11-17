@@ -5,7 +5,12 @@
 		"url": "https://clipify.net/",
 		"regex": "item-left\">Version</div>\\s*<div class=\"tech-details__item-right\">(\\d+(?:\\.\\d+)+)<"
 	},
-	"urls": ["https://ams-photo-software.com/install/ClipifyAMS.exe"],
+	"urls": [
+		{
+			"url": "https://ams-photo-software.com/install/ClipifyAMS.exe",
+			"architecture": "x64"
+		}
+	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://clipify.net/"
 	}

@@ -6,7 +6,10 @@
 		"regex": "downloads\\.incredibuild\\.com/incredibuild(?<version>\\d+\\.\\d+\\.\\d+)_(?<build>\\d+)-cmd\\.exe"
 	},
 	"urls": [
-		"https://downloads.incredibuild.com/incredibuild{version}_{captures.build}-cmd.exe"
+		{
+			"url": "https://downloads.incredibuild.com/incredibuild{version}_{captures.build}-cmd.exe",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://docs.incredibuild.com/windows/release-notes"

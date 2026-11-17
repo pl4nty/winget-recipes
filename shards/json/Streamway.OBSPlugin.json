@@ -8,6 +8,9 @@
 		"tagRegex": "^(?=\\d+(?:\\.\\d+)+$)"
 	},
 	"urls": [
-		"https://github.com/streamwayin/obs-multistream/releases/download/{github.rawTag}/Streamway_multistreaming_plugin.exe"
+		{
+			"url": "https://github.com/streamwayin/obs-multistream/releases/download/{github.rawTag}/Streamway_multistreaming_plugin.exe",
+			"architecture": "x64"
+		}
 	]
 }

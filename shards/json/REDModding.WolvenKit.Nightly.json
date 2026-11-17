@@ -6,5 +6,11 @@
 		"repo": "WolvenKit-nightly-releases",
 		"method": "api-latest",
 		"assetRegex": "^WolvenKit\\.NightlySetup-.+\\.exe$"
-	}
+	},
+	"urls": [
+		{
+			"url": "https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/download/{github.rawTag}/WolvenKit.NightlySetup-{github.rawTag}.exe",
+			"architecture": "x64"
+		}
+	]
 }

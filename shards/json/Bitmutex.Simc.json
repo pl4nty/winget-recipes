@@ -6,6 +6,9 @@
 		"repo": "simc"
 	},
 	"urls": [
-		"https://github.com/aamitn/simc/releases/download/{github.rawTag}/SimC.msi"
+		{
+			"url": "https://github.com/aamitn/simc/releases/download/{github.rawTag}/SimC.msi",
+			"architecture": "x64"
+		}
 	]
 }

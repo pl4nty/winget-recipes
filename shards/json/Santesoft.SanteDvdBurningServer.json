@@ -8,7 +8,10 @@
 	"urls": [
 		{
 			"url": "https://www.santesoft.com/files/win/sante_dvd_burning_server.zip",
-			"nestedInstallerMatches": ["sante_dvd_burning_server.exe"]
+			"nestedInstallerMatches": [
+				"sante_dvd_burning_server.exe"
+			],
+			"architecture": "x64"
 		}
 	]
 }

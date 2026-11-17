@@ -6,7 +6,10 @@
 		"regex": "On-Prem Server version (?<version>(?<major>\\d+)\\.\\d+\\.\\d+)"
 	},
 	"urls": [
-		"https://download3.navicat.com/onpremsvr{captures.major}-download/windows/navicatonpremserver{version}.exe"
+		{
+			"url": "https://download3.navicat.com/onpremsvr{captures.major}-download/windows/navicatonpremserver{version}.exe",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.navicat.com/en/products/navicat-on-prem-server-release-note"

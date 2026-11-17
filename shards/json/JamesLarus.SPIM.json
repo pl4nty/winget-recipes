@@ -5,7 +5,10 @@
 		"project": "spimsimulator"
 	},
 	"urls": [
-		"https://sourceforge.net/projects/spimsimulator/files/QtSpim_{version}_Windows.msi/download"
+		{
+			"url": "https://sourceforge.net/projects/spimsimulator/files/QtSpim_{version}_Windows.msi/download",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://spimsimulator.sourceforge.net/"
