@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sunzongzheng",
+		"repo": "music"
+	},
+	"urls": [
+		"https://github.com/sunzongzheng/music/releases/download/{github.rawTag}/player-{version}-win.exe"
+	]
+}
