@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-commit",
+	"github": {
+		"owner": "superofficial",
+		"repo": "Flying-Cube",
+		"path": "Flying Cube/Game/Installer/Flying Cube setup.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/superofficial/Flying-Cube/raw/{github.commit}/Flying%20Cube/Game/Installer/Flying%20Cube%20setup.exe"
+	],
+	"state": {
+		"source": "value",
+		"value": "{github.commit}"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/superofficial/Flying-Cube/commits/{github.commit}"
+	}
+}
