@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://appdown.pstatic.net/naver/mybox/installer/MYBOXInstaller.exe",
+		"https://appdown.pstatic.net/naver/mybox/installer/MYBOXInstaller_ARM64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://appdown.pstatic.net/naver/mybox/installer/MYBOXInstaller.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://mybox.naver.com/"
+	}
+}
