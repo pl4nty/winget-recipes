@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xanderfrangos",
+		"repo": "crushee"
+	},
+	"urls": [
+		"https://github.com/xanderfrangos/crushee/releases/download/{github.rawTag}/Crushee-v{version}-win-setup.exe"
+	]
+}
