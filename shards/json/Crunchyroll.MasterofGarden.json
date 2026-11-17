@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://us-prd-launcher-cdn-shadow-garden-mog.akamaized.net/launcher/mogInstaller.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://us-prd-launcher-cdn-shadow-garden-mog.akamaized.net/launcher/mogInstaller.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
