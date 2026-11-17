@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://bingo.flock.co/download.php"
+		],
+		"regex": "/fl_win_electron/Flock-setup-(\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"cleanup": false
+}
