@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "http://www.newcloud.cn/downloads/",
+		"regex": "setup_newss_win_x64_student_v(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["http://www.newcloud.cn/downloads/setup_newss_win_x64_student_v{version}.exe"]
+}
