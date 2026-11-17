@@ -6,7 +6,10 @@
 		"path": "values.0.name"
 	},
 	"urls": [
-		"https://bitbucket.org/AshleyStone/sitdownmw/downloads/SitdownMW-{version}.msi"
+		{
+			"url": "https://bitbucket.org/AshleyStone/sitdownmw/downloads/SitdownMW-{version}.msi",
+			"architecture": "neutral"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://bitbucket.org/AshleyStone/sitdownmw/src/{version}/"

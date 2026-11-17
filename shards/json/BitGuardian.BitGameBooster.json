@@ -8,7 +8,12 @@
 	"version": {
 		"source": "product"
 	},
-	"urls": ["https://webcf.bitgamebooster.com/bitgamebooster/instlr/build/{version}/bitgbstsetup.exe"],
+	"urls": [
+		{
+			"url": "https://webcf.bitgamebooster.com/bitgamebooster/instlr/build/{version}/bitgbstsetup.exe",
+			"architecture": "neutral"
+		}
+	],
 	"state": {
 		"source": "value",
 		"value": "{version}"

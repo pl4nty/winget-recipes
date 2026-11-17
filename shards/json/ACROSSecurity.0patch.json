@@ -5,7 +5,10 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://dist.0patch.com/download/latestagent"
+		{
+			"url": "https://dist.0patch.com/download/latestagent",
+			"architecture": "neutral"
+		}
 	],
 	"state": {
 		"source": "response-header",
