@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "theIYD",
+		"repo": "coursehunt"
+	},
+	"urls": [
+		"https://github.com/theIYD/coursehunt/releases/download/{github.rawTag}/course-hunt-setup-{version}.exe"
+	]
+}
