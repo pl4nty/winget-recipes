@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-commit",
+	"github": {
+		"owner": "krishisrani61",
+		"repo": "exestorage",
+		"path": "Appel/setup.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://raw.githubusercontent.com/krishisrani61/exestorage/{github.commit}/Appel/setup.exe"
+	],
+	"state": {
+		"source": "value",
+		"value": "{github.commit}"
+	}
+}
