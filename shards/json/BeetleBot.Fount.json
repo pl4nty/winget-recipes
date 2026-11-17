@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BeetleBot",
+		"repo": "FountTUI"
+	},
+	"urls": [
+		"https://github.com/BeetleBot/FountTUI/releases/download/{github.rawTag}/Fount-{version}.msix"
+	]
+}
