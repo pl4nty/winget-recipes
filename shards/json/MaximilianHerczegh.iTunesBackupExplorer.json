@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MaxiHuHe04",
+		"repo": "iTunes-Backup-Explorer"
+	},
+	"urls": [
+		"https://github.com/MaxiHuHe04/iTunes-Backup-Explorer/releases/download/{github.rawTag}/iTunes_Backup_Explorer-{version}_win_x64.msi"
+	]
+}
