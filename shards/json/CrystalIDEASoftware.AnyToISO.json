@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "crystalidea",
+		"repo": "anytoiso-public"
+	},
+	"urls": ["https://github.com/crystalidea/anytoiso-public/releases/download/v{version}/anytoiso_setup.exe"]
+}
