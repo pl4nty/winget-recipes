@@ -6,6 +6,9 @@
 		"regex": "'(\\d+(?:\\.\\d+)+)':\\s*\\{\\s*'x64'"
 	},
 	"urls": [
-		"https://s3.ap-northeast-2.amazonaws.com/net.xiles.public/download/nexusfont_setup_{version}.exe"
+		{
+			"url": "https://s3.ap-northeast-2.amazonaws.com/net.xiles.public/download/nexusfont_setup_{version}.exe",
+			"architecture": "x64"
+		}
 	]
 }

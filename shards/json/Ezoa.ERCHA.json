@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "ezoa-page",
-		"repo": "ERCHA"
-	},
-	"urls": ["https://github.com/ezoa-page/ERCHA/releases/download/{github.rawTag}/ERCHA.msi"]
-}

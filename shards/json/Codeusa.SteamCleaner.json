@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "Codeusa",
-		"repo": "SteamCleaner"
-	},
-	"urls": ["https://github.com/Codeusa/SteamCleaner/releases/download/{github.rawTag}/SteamCleaner.exe"]
-}
