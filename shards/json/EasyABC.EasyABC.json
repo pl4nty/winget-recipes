@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/easyabc/rss?path=/EasyABC",
+		"regex": "files/EasyABC/(?<dir>[^/\"]+)/EasyABC-(?<version>\\d+(?:\\.\\d+)+)\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/easyabc/files/EasyABC/{captures.dir}/EasyABC-{version}.exe/download"
+	]
+}
