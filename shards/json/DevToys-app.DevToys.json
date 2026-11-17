@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DevToys-app",
+		"repo": "DevToys"
+	},
+	"urls": [
+		"https://github.com/DevToys-app/DevToys/releases/download/{github.rawTag}/devtoys_win_arm64.exe",
+		"https://github.com/DevToys-app/DevToys/releases/download/{github.rawTag}/devtoys_win_x64.exe",
+		"https://github.com/DevToys-app/DevToys/releases/download/{github.rawTag}/devtoys_win_x86.exe"
+	]
+}
