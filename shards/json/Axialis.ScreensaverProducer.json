@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.axialis.com/download/ssp.html",
+		"regex": "var s3v = \"(\\d+\\.\\d+)\""
+	},
+	"urls": [
+		{
+			"url": "https://www.axialis.com/downloads/ScreensaverProducer-Pro.exe",
+			"architecture": "x86"
+		}
+	]
+}
