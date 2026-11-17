@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AdoptOpenJDK",
+		"repo": "openjdk17-binaries",
+		"method": "api-latest",
+		"assetRegex": "^OpenJDK-jdk_x64_windows_openj9_[\\d-]+\\.msi$"
+	},
+	"version": {
+		"source": "product"
+	}
+}
