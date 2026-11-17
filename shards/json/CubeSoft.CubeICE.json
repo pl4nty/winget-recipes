@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cube-soft.jp/cubeice/confirm.php?mode=x64",
+		"regex": "dl\\.cube-soft\\.jp/archive/cubeice-(\\d+(?:\\.\\d+)+)-x64\\.exe"
+	},
+	"urls": [
+		"https://dl.cube-soft.jp/archive/cubeice-{version}-x86.exe",
+		"https://dl.cube-soft.jp/archive/cubeice-{version}-x64.exe"
+	]
+}
