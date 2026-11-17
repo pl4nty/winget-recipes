@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://plazmaburst2.com/pb2/Plazma%20Burst%202%20installer%20by%20Lin.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://plazmaburst2.com/pb2/Plazma%20Burst%202%20installer%20by%20Lin.msi",
+		"header": "etag"
+	}
+}
