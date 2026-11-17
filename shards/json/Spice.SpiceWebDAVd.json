@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.spice-space.org/download/windows/spice-webdavd/",
+		"regex": "href=\"spice-webdavd-x64-(\\d+(?:\\.\\d+)+)\\.msi\""
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://www.spice-space.org/download/windows/spice-webdavd/spice-webdavd-x64-{version}.msi",
+		"https://www.spice-space.org/download/windows/spice-webdavd/spice-webdavd-x86-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gitlab.gnome.org/GNOME/phodav/-/blob/master/NEWS"
+	}
+}
