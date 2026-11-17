@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://cavemansoft.com/CaveButler/",
+		"regex": "href=[\"']releases/(\\d+(?:\\.\\d+)+)/CaveButler-\\1-setup\\.exe[\"']"
+	},
+	"urls": ["https://cavemansoft.com/CaveButler/releases/{version}/CaveButler-{version}-setup.exe"]
+}
