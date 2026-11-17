@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://gitlab.com/api/v4/projects/jwestman%2Fhourglass/repository/tags?order_by=version",
+		"path": "0.name"
+	},
+	"urls": ["https://jwestman.gitlab.io/hourglass/hourglass-windows.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gitlab.com/jwestman/hourglass/-/tags/{version}"
+	}
+}
