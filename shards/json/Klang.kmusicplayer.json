@@ -8,7 +8,7 @@
 		"kind": "all"
 	},
 	"version": {
-		"source": "product"
+		"source": "file"
 	},
 	"urls": [
 		"https://github.com/Abbaskhurram255/hindCPlusPlus/releases/download/{github.rawTag}/kMusicPlayer.exe"
