@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mbelgin",
+		"repo": "PivBO"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/mbelgin/PivBO/releases/download/v{version}/PivBO-windows.zip",
+			"architecture": "neutral"
+		}
+	]
+}
