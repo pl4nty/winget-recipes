@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://tapatch.com/dl/clickmeter"],
+		"regex": "/downloads/ClickMeter-Setup-(?<version>\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tapatch.com/tools/clickmeter/"
+	}
+}
