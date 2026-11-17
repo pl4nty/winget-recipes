@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.edrawsoft.com/download/EDOfficeSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.edrawsoft.com/download/EDOfficeSetup.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
