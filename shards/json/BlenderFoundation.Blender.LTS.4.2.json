@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://download.blender.org/release/Blender4.2/",
+		"regex": "href=\"blender-(4\\.2\\.\\d+)-windows-x64\\.msi\""
+	},
+	"urls": ["https://download.blender.org/release/Blender4.2/blender-{version}-windows-x64.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.blender.org/download/lts/4-2/"
+	}
+}
