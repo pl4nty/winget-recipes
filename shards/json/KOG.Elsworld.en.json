@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://elsword-us.dn.playkog.com/Download/Downloader/ElswordInstaller_NA(64bit).exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://elsword-us.dn.playkog.com/Download/Downloader/ElswordInstaller_NA(64bit).exe",
+		"header": "etag"
+	},
+	"replace": true
+}
