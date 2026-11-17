@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VerySleepy",
+		"repo": "verysleepy"
+	},
+	"urls": [
+		"https://github.com/VerySleepy/verysleepy/releases/download/{github.rawTag}/verysleepy-{version}.exe"
+	]
+}

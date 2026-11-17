@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qmk",
+		"repo": "qmk_toolbox"
+	},
+	"urls": [
+		"https://github.com/qmk/qmk_toolbox/releases/download/{github.rawTag}/qmk_toolbox_install.exe"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://github.com/nodchip/tanuki-/releases/download/tanuki-dr4/tanuki-dr4.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/nodchip/tanuki-/releases/download/tanuki-dr4/tanuki-dr4.msi",
+		"header": "etag"
+	},
+	"replace": true
+}

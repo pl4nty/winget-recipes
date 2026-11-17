@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "libusbdotnet",
+		"file": "LibUsbDotNet_Setup.{version}.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/libusbdotnet/files/LibUsbDotNet/LibUsbDotNet%20v{version}/LibUsbDotNet_Setup.{version}.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/projects/libusbdotnet/files/LibUsbDotNet/LibUsbDotNet%20v{version}/Release_Notes.{version}.txt/download"
+	}
+}
