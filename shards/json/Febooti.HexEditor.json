@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://x.febooti.com/downloads/files/ftweak-hex.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://x.febooti.com/downloads/files/ftweak-hex-x64.msi",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://x.febooti.com/downloads/files/ftweak-hex.msi",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.febooti.com/products/filetweak/members/hex-editor/history/"
+	}
+}
