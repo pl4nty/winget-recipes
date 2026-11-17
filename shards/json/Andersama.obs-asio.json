@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Andersama",
+		"repo": "obs-asio",
+		"method": "api-latest",
+		"assetRegex": "-windows-x64-Installer\\.exe$"
+	}
+}
