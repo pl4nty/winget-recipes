@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://s3.eu-central-1.wasabisys.com/astiga-dist/latest.yml"
+	}
+}
