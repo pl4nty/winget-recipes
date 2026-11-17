@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "josephdadams",
+		"repo": "screendeck",
+		"method": "api-latest",
+		"assetRegex": "\\.exe$"
+	}
+}
