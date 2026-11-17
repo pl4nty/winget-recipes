@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "paologiua",
+		"repo": "tilde"
+	},
+	"urls": [
+		"https://github.com/paologiua/tilde/releases/download/{github.rawTag}/Tilde.Setup.{version}.exe",
+		"https://github.com/paologiua/tilde/releases/download/{github.rawTag}/Tilde.{version}.msi"
+	]
+}
