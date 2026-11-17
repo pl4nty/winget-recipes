@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://dl.snipaste.com/win-x86", "https://dl.snipaste.com/win-x64", "https://dl.snipaste.com/win-arm64"],
+		"regex": "/Snipaste-(\\d+(?:\\.\\d+)+)-(?:x86|x64|arm64)\\.zip$"
+	}
+}
