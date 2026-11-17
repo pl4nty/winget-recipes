@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jasperapp",
+		"repo": "jasper",
+		"method": "api-latest",
+		"assetRegex": "\\.exe$"
+	}
+}
