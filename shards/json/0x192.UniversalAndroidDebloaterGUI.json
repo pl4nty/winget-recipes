@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "0x192",
+		"repo": "universal-android-debloater"
+	},
+	"urls": [
+		"https://github.com/0x192/universal-android-debloater/releases/download/{github.rawTag}/uad_gui-windows.exe"
+	]
+}
