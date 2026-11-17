@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://go.microsoft.com/fwlink/?linkid=2248541"
+		],
+		"regex": "/amd-software-cloud-edition-(?<version>\\d+)\\.q(?<quarter>\\d)-[^/]*\\.exe$"
+	},
+	"version": "{version}.Q{captures.quarter}"
+}
