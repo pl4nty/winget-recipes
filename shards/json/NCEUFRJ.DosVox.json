@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://intervox.nce.ufrj.br/dosvox/download.htm",
+		"regex": "Baixe o Dosvox (\\d+(?:\\.\\d+)+) completo para Windows"
+	},
+	"urls": ["https://intervox.nce.ufrj.br/dosvox/programas/dv{version|.|}-setup.exe"]
+}
