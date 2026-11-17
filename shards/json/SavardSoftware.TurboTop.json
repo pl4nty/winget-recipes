@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.savardsoftware.com/downloads/ttsetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.savardsoftware.com/downloads/ttsetup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.savardsoftware.com/whatsnew.asp"
+	},
+	"cleanup": false,
+	"replace": true
+}
