@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DozenPartsOfTheKing",
+		"repo": "glo"
+	},
+	"urls": [
+		"https://github.com/DozenPartsOfTheKing/glo/releases/download/v{version}/Glo.exe"
+	]
+}
