@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.influxdata.com/downloads/",
+		"regex": "chronograf/releases/chronograf-(\\d+(?:\\.\\d+)+)_windows_amd64\\.zip"
+	},
+	"urls": [
+		"https://dl.influxdata.com/chronograf/releases/chronograf-{version}_windows_amd64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.influxdata.com/chronograf/v1/about_the_project/release-notes/#v{version|.|}"
+	}
+}
