@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "wixtool2",
+		"file": "sources_{version}.zip"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/wixtool2/files/WixTool%20-%20Yellow%20Edition/WixTool%20-%20Yellow%20(binary%20and%20source)/WixToolSetup.msi/download"
+	]
+}
