@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mr1cecream",
+		"repo": "Modbreeze"
+	},
+	"urls": [
+		"https://github.com/Mr1cecream/Modbreeze/releases/download/{github.rawTag}/modbreeze-windows-x86_64.zip"
+	]
+}
