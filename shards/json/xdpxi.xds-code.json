@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "XDPXI",
+		"repo": "XDs-Code"
+	},
+	"urls": [
+		"https://github.com/XDPXI/XDs-Code/releases/download/{github.rawTag}/xds-code_{version}_windows-x64.msi"
+	]
+}
