@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://ams-photo-software.com/install/ClipifyAMS.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://ams-photo-software.com/install/ClipifyAMS.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://clipify.net/"
+	}
+}
