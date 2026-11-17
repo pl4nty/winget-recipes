@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GoogleCloudPlatform",
+		"repo": "terraformer"
+	},
+	"urls": [
+		"https://github.com/GoogleCloudPlatform/terraformer/releases/download/{github.rawTag}/terraformer-all-windows-amd64"
+	]
+}
