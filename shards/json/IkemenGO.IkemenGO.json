@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ikemen-engine",
+		"repo": "Ikemen-GO"
+	},
+	"urls": [
+		"https://github.com/ikemen-engine/Ikemen-GO/releases/download/{github.rawTag}/Ikemen_GO-v{version}-windows.zip"
+	]
+}
