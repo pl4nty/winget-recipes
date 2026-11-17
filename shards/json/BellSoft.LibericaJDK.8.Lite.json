@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.bell-sw.com/v1/liberica/releases?version-feature=8&version-modifier=latest&update-type=psu&os=windows&package-type=msi&bundle-type=jdk-lite&bitness=64",
+		"path": "0.version"
+	},
+	"urls": [
+		{
+			"url": "https://download.bell-sw.com/java/{version}/bellsoft-jdk{version}-windows-i586-lite.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://download.bell-sw.com/java/{version}/bellsoft-jdk{version}-windows-amd64-lite.msi",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/bell-sw/Liberica/releases/tag/{version}"
+	}
+}
