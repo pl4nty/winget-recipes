@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://antibody-software.com/web/software/software/wizmouse-makes-your-mouse-wheel-work-on-the-window-under-the-mouse/",
+		"regex": "/files/wizmouse_(\\d+(?:_\\d+)+)_setup\\.exe"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://antibody-software.com/files/wizmouse_{version|.|_}_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://antibody-software.com/web/software/software/wizmouse-makes-your-mouse-wheel-work-on-the-window-under-the-mouse/"
+	}
+}
