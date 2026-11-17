@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://pstrotator.com/ANT/PstRotator.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://pstrotator.com/ANT/PstRotator.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
