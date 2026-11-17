@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://hobbyistsoftware.com/Downloads/BonjourBrowser/BonjourBrowserSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://hobbyistsoftware.com/Downloads/BonjourBrowser/BonjourBrowserSetup.exe",
+		"header": "etag"
+	}
+}
