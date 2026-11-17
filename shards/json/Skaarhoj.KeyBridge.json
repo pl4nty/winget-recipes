@@ -5,7 +5,7 @@
 		"owner": "SKAARHOJ",
 		"repo": "keybridge-releases",
 		"method": "api-list",
-		"kind": "prerelease",
+		"kind": "all",
 		"tagRegex": "-(?:alpha|beta|rc)(?:\\.\\d+)?$"
 	},
 	"urls": [
