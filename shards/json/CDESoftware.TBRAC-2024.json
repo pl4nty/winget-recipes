@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://static.cdesoftware.com/tbrac2024/TBRAC2024INSTALLER.EXE"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://static.cdesoftware.com/tbrac2024/TBRAC2024INSTALLER.EXE",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://downloads.cdesoftware.com/tbrac2024/VersionHistory.txt"
+	},
+	"replace": true
+}
