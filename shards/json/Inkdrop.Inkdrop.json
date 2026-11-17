@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://dist.inkdrop.app/releases/latest.yml"
+	},
+	"urls": [
+		"https://dist.inkdrop.app/releases/inkdrop-{version}-windows.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.inkdrop.app/releases"
+	}
+}
