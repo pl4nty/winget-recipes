@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://octopus.com/downloads/tentacle",
+		"regex": "Octopus\\.Tentacle\\.(\\d+(?:\\.\\d+)+)-x64\\.msi"
+	},
+	"urls": [
+		"https://download.octopusdeploy.com/octopus/Octopus.Tentacle.{version}.msi",
+		"https://download.octopusdeploy.com/octopus/Octopus.Tentacle.{version}-x64.msi"
+	]
+}
