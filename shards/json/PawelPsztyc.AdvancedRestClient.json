@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "advanced-rest-client",
+		"repo": "arc-electron"
+	},
+	"urls": [
+		"https://github.com/advanced-rest-client/arc-electron/releases/download/v{version}/arc-setup.exe"
+	]
+}
