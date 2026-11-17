@@ -6,7 +6,10 @@
 		"regex": "href=\"/files/VATSpy-Setup-(\\d+(?:\\.\\d+)+)\\.exe\""
 	},
 	"urls": [
-		"https://vatspy.rosscarlson.dev/files/VATSpy-Setup-{version}.exe"
+		{
+			"url": "https://vatspy.rosscarlson.dev/files/VATSpy-Setup-{version}.exe",
+			"architecture": "neutral"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://vatspy.rosscarlson.dev/#history"
