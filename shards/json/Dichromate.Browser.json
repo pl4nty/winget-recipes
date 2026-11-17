@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NuclearDevelopers",
+		"repo": "Dichromate"
+	},
+	"urls": [
+		"https://github.com/NuclearDevelopers/Dichromate/releases/download/{github.rawTag}/dichromate-{version}.exe"
+	]
+}
