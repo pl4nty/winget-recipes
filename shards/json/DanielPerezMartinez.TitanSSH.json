@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "danielperezmartinez",
+		"repo": "titan-ssh"
+	},
+	"urls": [
+		"https://github.com/danielperezmartinez/titan-ssh/releases/download/{github.rawTag}/titan-ssh-{version}-windows-x64.msi"
+	]
+}
