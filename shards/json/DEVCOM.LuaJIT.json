@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DevelopersCommunity",
+		"repo": "cmake-luajit"
+	},
+	"urls": [
+		"https://github.com/DevelopersCommunity/cmake-luajit/releases/download/{github.rawTag}/LuaJIT-{version}-win64.msi"
+	]
+}
