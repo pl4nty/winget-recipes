@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "tuxpaint",
+		"file": "tuxpaint-{version}-windows-i686-installer.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/tuxpaint/files/tuxpaint/{version}/tuxpaint-{version}-windows-x86_64-installer.exe/download",
+		"https://sourceforge.net/projects/tuxpaint/files/tuxpaint/{version}/tuxpaint-{version}-windows-i686-installer.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tuxpaint.org/latest/tuxpaint-{version}-press-release.php"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "randomascii",
+		"repo": "UIforETW"
+	},
+	"urls": [
+		"https://github.com/randomascii/UIforETW/releases/download/{github.rawTag}/etwpackage{version}.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "giosali",
+		"repo": "reginald"
+	},
+	"urls": [
+		"https://github.com/giosali/reginald/releases/download/{github.rawTag}/Reginald-{version}.msi"
+	]
+}
