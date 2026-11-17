@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "iamscottxu",
+		"repo": "obs-rtspserver"
+	},
+	"urls": [
+		"https://github.com/iamscottxu/obs-rtspserver/releases/download/{github.rawTag}/obs-rtspserver-{github.rawTag}-windows-installer.exe"
+	]
+}
