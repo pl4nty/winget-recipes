@@ -5,7 +5,8 @@
 		"owner": "hetoandrade",
 		"repo": "hetoandrade.github.io",
 		"method": "api-sort",
-		"tagRegex": "^copieecole-v"
+		"tagRegex": "^copieecole-v",
+		"perPage": 100
 	},
 	"urls": [
 		"https://github.com/hetoandrade/hetoandrade.github.io/releases/download/{github.rawTag}/CopieECole_Setup_v{version}.exe"

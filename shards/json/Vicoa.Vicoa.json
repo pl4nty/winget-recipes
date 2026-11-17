@@ -8,8 +8,5 @@
 		"tagRegex": "^v(?=\\d)",
 		"assetRegex": "^Vicoa-Setup-.*\\.exe$",
 		"perPage": 100
-	},
-	"urls": [
-		"https://github.com/vicoa-ai/vicoa/releases/download/{github.rawTag}/Vicoa-Setup-{version}.exe"
-	]
+	}
 }
