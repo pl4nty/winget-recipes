@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://kawork.kakaoicdn.net/cspcdn/kakaowork/win/prod/release/KakaoWork_Setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://kawork.kakaoicdn.net/cspcdn/kakaowork/win/prod/release/KakaoWork_Setup.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
