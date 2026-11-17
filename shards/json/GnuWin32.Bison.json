@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/bison",
+		"regex": "files/bison/(\\d+(?:\\.\\d+)+)/bison-[\\d.]+-setup\\.exe"
+	},
+	"version": "{version}.0",
+	"urls": ["https://sourceforge.net/projects/gnuwin32/files/bison/{version}/bison-{version}-setup.exe/download"]
+}
