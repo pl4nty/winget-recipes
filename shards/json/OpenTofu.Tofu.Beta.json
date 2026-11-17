@@ -6,7 +6,7 @@
 		"repo": "opentofu",
 		"method": "api-list",
 		"kind": "prerelease",
-		"tagRegex": "-beta\\d+$"
+		"tagRegex": "^v(?=.*-beta\\d+$)"
 	},
 	"urls": [
 		"https://github.com/opentofu/opentofu/releases/download/{github.rawTag}/tofu_{version}_windows_386.zip",

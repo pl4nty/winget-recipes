@@ -5,11 +5,11 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://download_us.elcomsoft.com/upd_setup_en.msi"
+		"http://download_us.elcomsoft.com/upd_setup_en.msi"
 	],
 	"state": {
 		"source": "response-header",
-		"url": "https://download_us.elcomsoft.com/upd_setup_en.msi",
+		"url": "http://download_us.elcomsoft.com/upd_setup_en.msi",
 		"header": "etag"
 	},
 	"replace": true,
