@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Taron-art",
+		"repo": "Processes-Priority-Manager"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/Taron-art/Processes-Priority-Manager/releases/download/{github.rawTag}/PPM_Setup-x64.exe"
+	]
+}
