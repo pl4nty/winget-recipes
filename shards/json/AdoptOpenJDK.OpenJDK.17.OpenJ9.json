@@ -4,7 +4,8 @@
 	"github": {
 		"owner": "AdoptOpenJDK",
 		"repo": "openjdk17-binaries",
-		"method": "api-latest",
+		"method": "api-list",
+		"kind": "prerelease",
 		"assetRegex": "^OpenJDK-jdk_x64_windows_openj9_[\\d-]+\\.msi$"
 	},
 	"version": {
