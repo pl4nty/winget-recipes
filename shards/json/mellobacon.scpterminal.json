@@ -10,7 +10,5 @@
 	"urls": [
 		"https://github.com/mellobacon/scp-terminal/releases/download/{github.rawTag}/scpterminal.{version}.msi"
 	],
-	"version": {
-		"source": "product"
-	}
+	"version": "{version}.0"
 }
