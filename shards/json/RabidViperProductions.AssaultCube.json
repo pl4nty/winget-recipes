@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "assaultcube",
+		"repo": "AC"
+	},
+	"urls": [
+		"https://github.com/assaultcube/AC/releases/download/{github.rawTag}/AssaultCube_v{version}_LockdownEdition.exe"
+	]
+}

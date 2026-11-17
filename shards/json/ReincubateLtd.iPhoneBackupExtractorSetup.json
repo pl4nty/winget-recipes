@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://releases.reincubate.com/iphonebackupextractor-latest.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://releases.reincubate.com/iphonebackupextractor-latest.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
