@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ESCANOR-001",
+		"repo": "remodex-releases"
+	},
+	"urls": [
+		"https://github.com/ESCANOR-001/remodex-releases/releases/download/{github.rawTag}/windows-x64-Remodex_{version}_x64-setup.exe",
+		"https://github.com/ESCANOR-001/remodex-releases/releases/download/{github.rawTag}/windows-arm64-Remodex_{version}_arm64-setup.exe",
+		"https://github.com/ESCANOR-001/remodex-releases/releases/download/{github.rawTag}/windows-x64-Remodex_{version}_x64_en-US.msi"
+	]
+}
