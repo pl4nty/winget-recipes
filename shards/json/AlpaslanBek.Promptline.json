@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bekalpaslan",
+		"repo": "promptline"
+	},
+	"urls": [
+		"https://github.com/bekalpaslan/promptline/releases/download/{github.rawTag}/Promptline_{version}_x64-setup.exe",
+		"https://github.com/bekalpaslan/promptline/releases/download/{github.rawTag}/Promptline_{version}_x64_en-US.msi"
+	]
+}
