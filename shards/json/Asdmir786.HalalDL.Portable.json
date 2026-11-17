@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Asdmir786",
+		"repo": "HalalDL"
+	},
+	"urls": [
+		"https://github.com/Asdmir786/HalalDL/releases/download/{github.rawTag}/HalalDL-Portable-v{version}-win10%2B11-x64.zip"
+	]
+}
