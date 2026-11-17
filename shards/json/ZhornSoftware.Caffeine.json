@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.zhornsoftware.co.uk/caffeine/",
+		"regex": "class=\"versionheading\">v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://www.zhornsoftware.co.uk/caffeine/caffeine.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.zhornsoftware.co.uk/caffeine/"
+	},
+	"replace": true
+}
