@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://otp.landian.vip/redirect/download.php?type=normal&arch=x64"],
+		"regex": "/Office_Tool_v(\\d+(?:\\.\\d+)+)_x64\\.zip$"
+	},
+	"urls": [
+		"https://otp.landian.vip/redirect/download.php?type=normal&arch=x64&version={version}",
+		"https://otp.landian.vip/redirect/download.php?type=normal&arch=arm64&version={version}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/YerongAI/Office-Tool/releases/tag/v{version}"
+	}
+}
