@@ -6,7 +6,7 @@
 		"regex": "href=\"Barcode2WinSetup(\\d+)\\.exe\""
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
 		"https://www.paludour.net/Barcode2WinSetup{version}.exe"

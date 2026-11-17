@@ -8,6 +8,6 @@
 		"regex": "Passcovery_Suite_(\\d+(?:\\.\\d+)+)_x64\\.msi"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	}
 }
