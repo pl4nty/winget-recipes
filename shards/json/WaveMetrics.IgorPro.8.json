@@ -12,5 +12,8 @@
 		"source": "response-header",
 		"url": "https://www.wavemetrics.net/Downloads/Win/setupIgor8.exe",
 		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.wavemetrics.com/news"
 	}
 }

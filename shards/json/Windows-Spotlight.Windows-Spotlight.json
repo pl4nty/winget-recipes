@@ -6,6 +6,9 @@
 		"repo": "Windows_Spotlight"
 	},
 	"urls": [
-		"https://github.com/krishna-santosh/Windows_Spotlight/releases/download/{github.rawTag}/Windows-Spotlight.exe"
+		{
+			"url": "https://github.com/krishna-santosh/Windows_Spotlight/releases/download/{github.rawTag}/Windows-Spotlight.exe",
+			"architecture": "neutral"
+		}
 	]
 }
