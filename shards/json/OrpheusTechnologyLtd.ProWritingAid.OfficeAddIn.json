@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdn.prowritingaid.com/officeaddon/releasev3/ProWritingAidSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.prowritingaid.com/officeaddon/releasev3/ProWritingAidSetup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
