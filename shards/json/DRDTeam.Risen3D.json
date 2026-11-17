@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://risen3d.drdteam.org/downloads.htm",
+		"regex": "downloads/risen3d/r3dv(\\d+(?:\\.\\d+)+)-setup\\.exe"
+	},
+	"urls": [
+		"https://risen3d.drdteam.org/downloads/risen3d/r3dv{version}-setup.exe"
+	]
+}
