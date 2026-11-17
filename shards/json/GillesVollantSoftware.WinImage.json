@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.winimage.com/download.htm",
+		"regex": "WinImage (\\d+\\.\\d) is compatible"
+	},
+	"urls": [
+		"https://www.winimage.com/download/winima{version|.|}.zip",
+		"https://www.winimage.com/download/wima64{version|.|}.zip",
+		"https://www.winimage.com/download/wima64{version|.|}_arm64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.winimage.com/winimage.htm"
+	}
+}
