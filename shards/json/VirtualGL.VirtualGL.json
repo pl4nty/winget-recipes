@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VirtualGL",
+		"repo": "virtualgl"
+	},
+	"urls": [
+		"https://github.com/VirtualGL/virtualgl/releases/download/{github.rawTag}/VirtualGL-Utils-{version}-x64.exe",
+		"https://github.com/VirtualGL/virtualgl/releases/download/{github.rawTag}/VirtualGL-Utils-{version}-x86.exe"
+	]
+}

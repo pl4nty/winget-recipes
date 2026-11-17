@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://hdd.by/victoria/",
+		"regex": "kcccount=https://hdd\\.by/Victoria/Victoria(?<a>\\d)(?<b>\\d+)\\.zip"
+	},
+	"version": "{captures.a}.{captures.b}",
+	"urls": [
+		"https://hdd.by/Victoria/Victoria{captures.a}{captures.b}.zip"
+	]
+}
