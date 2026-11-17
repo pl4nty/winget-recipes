@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TeamShinkansen",
+		"repo": "Hakchi2-CE"
+	},
+	"urls": [
+		"https://github.com/TeamShinkansen/Hakchi2-CE/releases/download/{github.rawTag}/hakchi2-ce-{version}-installer.exe"
+	]
+}
