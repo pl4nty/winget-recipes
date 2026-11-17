@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sysnucleus.com/usbtrace_download.html",
+		"regex": "Version Info: v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.sysnucleus.com/usbtrace-x86.zip",
+			"nestedInstallerMatches": ["Installer.exe"]
+		},
+		{
+			"url": "https://www.sysnucleus.com/usbtrace-x64.zip",
+			"nestedInstallerMatches": ["Installer.exe"]
+		}
+	]
+}
