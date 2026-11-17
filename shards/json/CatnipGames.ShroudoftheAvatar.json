@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://d2sx9mrt4zumaq.cloudfront.net/Installers/SotAInstaller.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://d2sx9mrt4zumaq.cloudfront.net/Installers/SotAInstaller.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
