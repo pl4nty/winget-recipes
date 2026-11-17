@@ -11,7 +11,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://raw.githubusercontent.com/RickStrahl/DocumentationMonster/{github.commit}/Releases/DocumentationMonsterSetup.exe"
+		{
+			"url": "https://raw.githubusercontent.com/RickStrahl/DocumentationMonster/{github.commit}/Releases/DocumentationMonsterSetup.exe",
+			"architecture": "neutral"
+		}
 	],
 	"state": {
 		"source": "value",

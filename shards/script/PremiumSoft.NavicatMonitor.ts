@@ -18,6 +18,6 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [data.download_link],
+		urls: () => [{ url: data.download_link, architecture: 'x64' as const }],
 	};
 });

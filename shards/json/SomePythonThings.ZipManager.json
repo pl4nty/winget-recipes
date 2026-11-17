@@ -6,6 +6,9 @@
 		"repo": "SomePythonThings-Zip-Manager"
 	},
 	"urls": [
-		"https://github.com/marticliment/SomePythonThings-Zip-Manager/releases/download/{github.rawTag}/SomePythonThings.Zip.Manager.WinAll.exe"
+		{
+			"url": "https://github.com/marticliment/SomePythonThings-Zip-Manager/releases/download/{github.rawTag}/SomePythonThings.Zip.Manager.WinAll.exe",
+			"architecture": "x64"
+		}
 	]
 }

@@ -6,7 +6,10 @@
 		"regex": "releases\\.ideagenthub\\.com/IDEAgentHub-(\\d+(?:\\.\\d+)+)-Setup\\.exe"
 	},
 	"urls": [
-		"https://releases.ideagenthub.com/IDEAgentHub-{version}-Setup.exe"
+		{
+			"url": "https://releases.ideagenthub.com/IDEAgentHub-{version}-Setup.exe",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.ideagenthub.com/changelog"

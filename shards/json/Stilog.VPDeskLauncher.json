@@ -6,6 +6,9 @@
 		"regex": "/mediavp/VPDeskLauncher-(\\d+(?:\\.\\d+)+)\\.msi"
 	},
 	"urls": [
-		"https://www.visual-planning.com/mediavp/VPDeskLauncher-{version}.msi"
+		{
+			"url": "https://www.visual-planning.com/mediavp/VPDeskLauncher-{version}.msi",
+			"architecture": "x64"
+		}
 	]
 }

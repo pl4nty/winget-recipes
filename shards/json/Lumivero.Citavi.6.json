@@ -5,7 +5,10 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://citavibackoffice.blob.core.windows.net/setup/Citavi6Setup.msi"
+		{
+			"url": "https://citavibackoffice.blob.core.windows.net/setup/Citavi6Setup.msi",
+			"architecture": "neutral"
+		}
 	],
 	"state": {
 		"source": "response-header",

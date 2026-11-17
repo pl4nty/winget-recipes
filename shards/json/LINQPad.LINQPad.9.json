@@ -5,8 +5,14 @@
 		"url": [
 			"https://www.linqpad.net/GetFile.aspx?LINQPad9Setup.exe"
 		],
-		"regex": "/LINQPad9Setup\\.exe\\?cache=(\\d+\\.\\d+\\.\\d+)\\.\\d+$"
+		"regex": "/LINQPad9Setup\\.exe\\?cache=(?<version>\\d+\\.\\d+\\.\\d+)\\.(?<build>\\d+)$"
 	},
+	"urls": [
+		{
+			"url": "https://cdn.linqpad.net/public/LINQPad9Setup.exe?cache={version}.{captures.build}",
+			"architecture": "neutral"
+		}
+	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.linqpad.net/LINQPad9.aspx"
 	}

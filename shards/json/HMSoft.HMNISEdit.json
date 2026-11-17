@@ -6,6 +6,9 @@
 		"file": "nisedit{version}.exe"
 	},
 	"urls": [
-		"https://sourceforge.net/projects/hmne/files/HM%20NIS%20Edit/{version}/nisedit{version}.exe/download"
+		{
+			"url": "https://sourceforge.net/projects/hmne/files/HM%20NIS%20Edit/{version}/nisedit{version}.exe/download",
+			"architecture": "x86"
+		}
 	]
 }

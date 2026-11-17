@@ -5,7 +5,10 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://remotedeckapp.com/download/RemoteDeck-Setup-latest.exe"
+		{
+			"url": "https://remotedeckapp.com/download/RemoteDeck-Setup-latest.exe",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",

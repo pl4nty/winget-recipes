@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://www.resplendence.com/download/undeluxehome.exe"
+		{
+			"url": "https://www.resplendence.com/download/undeluxehome.exe",
+			"architecture": "neutral"
+		}
 	],
 	"state": {
 		"source": "response-header",

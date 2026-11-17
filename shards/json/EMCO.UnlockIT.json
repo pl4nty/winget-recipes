@@ -6,7 +6,10 @@
 		"regex": "Version\\s+(?<version>7\\.\\d+\\.\\d+)"
 	},
 	"urls": [
-		"https://storage.emcosoftware.com/download/archive/unlockit/v7/UnLockITSetup-{version}.exe"
+		{
+			"url": "https://storage.emcosoftware.com/download/archive/unlockit/v7/UnLockITSetup-{version}.exe",
+			"architecture": "neutral"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://emcosoftware.com/unlock-it/whats-new"

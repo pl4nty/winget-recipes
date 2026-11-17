@@ -6,7 +6,10 @@
 		"regex": "Version (\\d+(?:\\.\\d+)+)"
 	},
 	"urls": [
-		"https://assets.jpegmini.com/downloads/pro/win/JPEGminiPro_installer_{version|.|_}.msi"
+		{
+			"url": "https://assets.jpegmini.com/downloads/pro/win/JPEGminiPro_installer_{version|.|_}.msi",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://jpegmini.com/downloads/windows"
