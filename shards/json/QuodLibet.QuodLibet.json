@@ -4,7 +4,7 @@
 	"github": {
 		"owner": "quodlibet",
 		"repo": "quodlibet",
-		"method": "api-latest",
+		"method": "api-list",
 		"tagRegex": "^release-"
 	},
 	"urls": [
