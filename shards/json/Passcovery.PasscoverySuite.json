@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://passcovery.com/download/passcoverysuite64.exe"
+		],
+		"regex": "Passcovery_Suite_(\\d+(?:\\.\\d+)+)_x64\\.msi"
+	},
+	"version": {
+		"source": "product"
+	}
+}
