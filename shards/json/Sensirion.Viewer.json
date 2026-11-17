@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sensirion.com/products/catalog/EK-P5",
+		"regex": "media/documents/(?<path>[0-9A-F]+/[0-9A-F]+)/Sensirion_Software_USB_RS485_Sensor_Viewer_V(?<version>\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://sensirion.com/media/documents/{captures.path}/Sensirion_Software_USB_RS485_Sensor_Viewer_V{captures.version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sensirion.com/products/catalog/EK-P5"
+	}
+}
