@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://downloads.smarttech.com/software/education/25.0/win/25.0.322.1/smart25-0admin.zip",
+			"nestedInstallerMatches": ["SMARTEducationSoftware.msi"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.smarttech.com/software/education/25.0/win/25.0.322.1/smart25-0admin.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
