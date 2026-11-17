@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://gc-updates.elgato.com/windows/drivers/4k60-pro-mk2/download.php"],
+		"regex": "/Game_Capture_4K60_Pro_MK2_(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)(?:\\.\\d+)*\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://help.elgato.com/hc/en-us/articles/360027961152-Elgato-Hardware-Drivers"
+	},
+	"cleanup": false
+}
