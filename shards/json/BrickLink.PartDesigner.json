@@ -5,8 +5,14 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://studio.download.bricklink.info/PartDesigner/PartDesigner.exe",
-		"https://studio.download.bricklink.info/PartDesigner/PartDesigner_32.exe"
+		{
+			"url": "https://studio.download.bricklink.info/PartDesigner/PartDesigner.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://studio.download.bricklink.info/PartDesigner/PartDesigner_32.exe",
+			"architecture": "x86"
+		}
 	],
 	"state": {
 		"source": "response-header",
