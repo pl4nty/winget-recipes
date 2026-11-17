@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ableton.com/en/release-notes/live-10/",
+		"regex": "<h2 class=\"\">\\s*(10(?:\\.\\d+)+)\\s*Release Notes"
+	},
+	"urls": [
+		{
+			"url": "https://cdn-downloads.ableton.com/channels/{version}/ableton_live_suite_{version}_64.zip",
+			"nestedInstallerMatches": ["Setup.msi"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ableton.com/en/release-notes/live-10/#live-{version|.|}"
+	}
+}
