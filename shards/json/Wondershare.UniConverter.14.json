@@ -12,5 +12,8 @@
 		"url": "https://download.wondershare.com/cbs_down/uniconverter14_64bit_full14204.exe",
 		"header": "etag"
 	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://videoconverter.wondershare.com/what-is-new.html"
+	},
 	"replace": true
 }

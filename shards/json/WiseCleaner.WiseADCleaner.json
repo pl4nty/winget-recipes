@@ -12,5 +12,8 @@
 			"url": "https://downloads.wisecleaner.com/soft/WADCleanerSetup_{version}.{captures.build}.exe",
 			"architecture": "x86"
 		}
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.wisecleaner.com/blog_sort_24.html"
+	}
 }

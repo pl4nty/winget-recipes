@@ -6,6 +6,9 @@
 		"repo": "Valorant-Randomizer"
 	},
 	"urls": [
-		"https://github.com/zephiowl/Valorant-Randomizer/releases/download/{github.rawTag}/INSTALLER_ValorantRandomizer_{version}.exe"
+		{
+			"url": "https://github.com/zephiowl/Valorant-Randomizer/releases/download/{github.rawTag}/INSTALLER_ValorantRandomizer_{version}.exe",
+			"architecture": "x64"
+		}
 	]
 }

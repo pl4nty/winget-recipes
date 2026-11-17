@@ -6,6 +6,9 @@
 		"repo": "Affirmation-Requester"
 	},
 	"urls": [
-		"https://github.com/zephiowl/Affirmation-Requester/releases/download/{github.rawTag}/AfformationRequester.exe"
+		{
+			"url": "https://github.com/zephiowl/Affirmation-Requester/releases/download/{github.rawTag}/AfformationRequester.exe",
+			"architecture": "x64"
+		}
 	]
 }

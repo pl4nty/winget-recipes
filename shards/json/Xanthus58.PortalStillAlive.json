@@ -6,6 +6,9 @@
 		"repo": "Portal-Still-Alive"
 	},
 	"urls": [
-		"https://github.com/zephiowl/Portal-Still-Alive/releases/download/{github.rawTag}/Still.Alive.exe"
+		{
+			"url": "https://github.com/zephiowl/Portal-Still-Alive/releases/download/{github.rawTag}/Still.Alive.exe",
+			"architecture": "x64"
+		}
 	]
 }

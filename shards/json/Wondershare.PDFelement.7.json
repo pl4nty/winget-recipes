@@ -12,5 +12,8 @@
 		"url": "https://download.wondershare.com/pdfelement7_en.exe",
 		"header": "etag"
 	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://pdf.wondershare.com/whats-new.html"
+	},
 	"replace": true
 }
