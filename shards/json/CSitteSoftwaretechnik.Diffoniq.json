@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://diffoniq.com/download/",
+		"regex": "Diffoniq-(\\d+(?:\\.\\d+)+)-x64\\.msi"
+	},
+	"urls": [
+		"https://diffoniq.com/files/Diffoniq-{version}-x64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://diffoniq.com/changelog/"
+	}
+}
