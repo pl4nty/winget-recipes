@@ -6,6 +6,9 @@
 		"repo": "Keylegend"
 	},
 	"urls": [
-		"https://github.com/Eistee82/Keylegend/releases/download/{github.rawTag}/Keylegend-{version}-setup.exe"
+		{
+			"url": "https://github.com/Eistee82/Keylegend/releases/download/{github.rawTag}/Keylegend-{version}-setup.exe",
+			"architecture": "x64"
+		}
 	]
 }

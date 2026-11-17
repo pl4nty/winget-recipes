@@ -6,6 +6,9 @@
 		"repo": "WinMemoryCleaner"
 	},
 	"urls": [
-		"https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/{github.rawTag}/WinMemoryCleaner.exe"
+		{
+			"url": "https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/{github.rawTag}/WinMemoryCleaner.exe",
+			"architecture": "neutral"
+		}
 	]
 }

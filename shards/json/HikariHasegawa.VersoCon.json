@@ -6,6 +6,9 @@
 		"repo": "versocon"
 	},
 	"urls": [
-		"https://github.com/lupanostefano/versocon/releases/download/{github.rawTag}/versocon-setup-{version}.exe"
+		{
+			"url": "https://github.com/lupanostefano/versocon/releases/download/{github.rawTag}/versocon-setup-{version}.exe",
+			"architecture": "x64"
+		}
 	]
 }

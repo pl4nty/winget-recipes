@@ -3,5 +3,8 @@
 	"strategy": "tauri",
 	"tauri": {
 		"url": "https://downloads.talktotype.com/updates/latest.json"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://talktotype.com"
 	}
 }

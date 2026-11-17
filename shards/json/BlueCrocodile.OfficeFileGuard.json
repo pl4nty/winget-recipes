@@ -6,6 +6,9 @@
 		"regex": "OfficeFileGuard_Setup_v(?<version>\\d+(?:\\.\\d+)+)\\.zip"
 	},
 	"urls": [
-		"https://officefileguard.com/download/OfficeFileGuard_Setup_v{version}.zip"
+		{
+			"url": "https://officefileguard.com/download/OfficeFileGuard_Setup_v{version}.zip",
+			"architecture": "x64"
+		}
 	]
 }
