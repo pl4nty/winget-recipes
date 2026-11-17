@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sodirasdr.de/",
+		"regex": "/download/sodiraSDR_(\\d+(?:_\\d+)+)\\.zip"
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://www.sodirasdr.de/download/sodiraSDR_{version}.zip"]
+}
