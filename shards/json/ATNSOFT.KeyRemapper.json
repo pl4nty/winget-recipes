@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.atnsoft.com/keyremapper/versions/",
+		"regex": "<h3>(\\d+\\.\\d+) build (?<build>\\d+)<em>"
+	},
+	"version": "{version}.0.{captures.build}",
+	"urls": [
+		"https://atnsoft.com/downloads/keyremapper_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.atnsoft.com/keyremapper/versions/"
+	}
+}
