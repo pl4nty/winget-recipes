@@ -2,8 +2,8 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "page-match",
 	"pageMatch": {
-		"url": "https://git.sr.ht/~thestr4ng3r/chiaki/refs",
-		"regex": "refs/download/v(?<version>\\d+(?:\\.\\d+)+)/Chiaki-v\\d+(?:\\.\\d+)+-Windows-x86_64\\.zip"
+		"url": "https://git.sr.ht/~thestr4ng3r/chiaki/refs/rss.xml",
+		"regex": "<title>v(?<version>\\d+(?:\\.\\d+)+)</title>"
 	},
 	"urls": [
 		"https://git.sr.ht/~thestr4ng3r/chiaki/refs/download/v{version}/Chiaki-v{version}-Windows-x86_64.zip"

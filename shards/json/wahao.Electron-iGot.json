@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "wahao",
+		"owner": "HellyW",
 		"repo": "Electron-iGot"
 	},
 	"urls": [
-		"https://github.com/wahao/Electron-iGot/releases/download/{github.rawTag}/iGot.Setup.{version}.exe"
+		"https://github.com/HellyW/Electron-iGot/releases/download/{github.rawTag}/iGot.Setup.{version}.exe"
 	]
 }
