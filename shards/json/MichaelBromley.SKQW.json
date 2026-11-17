@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "michaelbromley",
+		"repo": "skqw"
+	},
+	"urls": [
+		"https://github.com/michaelbromley/skqw/releases/download/{github.rawTag}/SKQW.Setup.{version}-win64.exe"
+	]
+}
