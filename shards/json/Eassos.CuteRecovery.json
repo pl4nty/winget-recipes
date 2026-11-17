@@ -5,5 +5,5 @@
 		"url": "https://www.eassos.com/cute-recovery-free.php",
 		"regex": "(?<version>\\d+\\.\\d+\\.\\d+)\\.(?<build>\\d+) updated on"
 	},
-	"urls": ["https://download.eassos.com/CRFreeSetup{version|.|}{captures.build}_eng.exe"]
+	"urls": [{ "url": "https://download.eassos.com/CRFreeSetup{version|.|}{captures.build}_eng.exe", "architecture": "x64" }]
 }

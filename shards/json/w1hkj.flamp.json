@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "sort-versions",
-	"sortVersions": {
-		"url": "https://sourceforge.net/projects/fldigi/rss?path=/flamp",
-		"regex": "/flamp/flamp-(\\d+(?:\\.\\d+)+)_setup\\.exe/"
-	},
-	"urls": ["https://www.w1hkj.org/files/flamp/flamp-{version}_setup.exe"]
-}
