@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.plogue.com/products/alter-ego.html",
+		"regex": "WIN_AlterEgo_v(\\d+\\.\\d+)\\.exe"
+	},
+	"version": "v{version}",
+	"urls": [
+		"https://s3.amazonaws.com/palterego/WIN_AlterEgo_v{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.plogue.com/products/alter-ego.html"
+	}
+}
