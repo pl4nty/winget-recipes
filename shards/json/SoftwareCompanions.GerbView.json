@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.gerbview.com/download/gv11x86.exe",
+		"https://www.gerbview.com/download/gv11x64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.gerbview.com/download/gv11x64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

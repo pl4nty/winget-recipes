@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.xenserver.com/downloads",
+		"regex": "vm-tools-windows/(?<version>\\d+\\.\\d+\\.\\d+)(?<build>\\.\\d+)/managementagentx64-"
+	},
+	"urls": [
+		"https://downloads.xenserver.com/vm-tools-windows/{version}{captures.build}/managementagentx64-{version}{captures.build}.msi"
+	]
+}
