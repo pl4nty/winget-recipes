@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rejetto",
+		"repo": "hfs",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/rejetto/hfs/releases/download/{github.rawTag}/hfs-windows-x64-{version}.zip"
+	]
+}
