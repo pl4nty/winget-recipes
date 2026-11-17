@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bmatzelle",
+		"repo": "gow"
+	},
+	"urls": [
+		"https://github.com/bmatzelle/gow/releases/download/{github.rawTag}/Gow-{version}.exe"
+	]
+}

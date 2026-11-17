@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "benyblack",
+		"repo": "ntilde"
+	},
+	"urls": [
+		"https://github.com/benyblack/ntilde/releases/download/{github.rawTag}/ntilde-win-x64-v{version}.zip"
+	]
+}
