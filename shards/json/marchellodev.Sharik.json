@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "marchellodev",
+		"repo": "sharik"
+	},
+	"urls": [
+		"https://github.com/marchellodev/sharik/releases/download/{github.rawTag}/sharik_{github.rawTag}_windows.msi"
+	],
+	"version": {
+		"source": "display"
+	}
+}

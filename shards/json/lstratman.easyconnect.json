@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lstratman",
+		"repo": "EasyConnect"
+	},
+	"urls": [
+		"https://github.com/lstratman/EasyConnect/releases/download/{github.rawTag}/EasyConnect-{version}.msi"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "makew0rld",
+		"repo": "didder"
+	},
+	"urls": [
+		"https://github.com/makew0rld/didder/releases/download/{github.rawTag}/didder_{version}_windows_32-bit.exe",
+		"https://github.com/makew0rld/didder/releases/download/{github.rawTag}/didder_{version}_windows_64-bit.exe",
+		"https://github.com/makew0rld/didder/releases/download/{github.rawTag}/didder_{version}_windows_armv7.exe",
+		"https://github.com/makew0rld/didder/releases/download/{github.rawTag}/didder_{version}_windows_arm64.exe"
+	]
+}
