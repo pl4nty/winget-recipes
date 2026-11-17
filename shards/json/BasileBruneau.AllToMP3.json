@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/AllToMP3/alltomp3-app/releases/latest/download/latest.yml"
+	},
+	"version": {
+		"source": "file"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "AllToMP3",
+		"repo": "alltomp3-app",
+		"tag": "v{version}"
+	}
+}
