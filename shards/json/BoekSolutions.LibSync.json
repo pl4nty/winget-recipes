@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JohnBoek",
+		"repo": "boeksolutions.libsync-releases"
+	},
+	"urls": [
+		"https://github.com/JohnBoek/boeksolutions.libsync-releases/releases/download/{github.rawTag}/LibSync-Setup.exe"
+	]
+}
