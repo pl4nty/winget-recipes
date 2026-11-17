@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "evexi",
+		"repo": "evexi-cli"
+	},
+	"urls": [
+		"https://github.com/evexi/evexi-cli/releases/download/{github.rawTag}/evexi-cli_Windows_i386.zip",
+		"https://github.com/evexi/evexi-cli/releases/download/{github.rawTag}/evexi-cli_Windows_arm64.zip",
+		"https://github.com/evexi/evexi-cli/releases/download/{github.rawTag}/evexi-cli_Windows_x86_64.zip"
+	]
+}
