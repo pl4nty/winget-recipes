@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://clownfish-translator.com/voicechanger/download/download64f.php"
+		],
+		"regex": "VoiceChanger64f\\((\\d+(?:\\.\\d+)+)\\)\\.exe$"
+	},
+	"version": "{version}.0.0",
+	"releaseNotes": {
+		"releaseNotesUrl": "https://clownfish-translator.com/voicechanger/"
+	}
+}
