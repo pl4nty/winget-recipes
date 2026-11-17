@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://jeskola.net/buzz/",
+		"regex": "files/setup/BuzzSetup(\\d+)\\.exe"
+	},
+	"urls": [
+		"https://jeskola.net/buzz/beta/files/setup/BuzzSetup{version}.exe",
+		"https://jeskola.net/buzz/beta/files/setup_x64/BuzzSetup_x64_{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://jeskola.net/buzz/beta/files/changelog.txt"
+	}
+}
