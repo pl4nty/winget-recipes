@@ -12,7 +12,8 @@ export default defineShard(async () => {
 
 	return {
 		version: tag,
-		urls: () => [`https://github.com/Timber1900/WebDL/releases/download/${tag}/WebDL.exe`],
+		// Inno setup is a 32-bit stub; payload app/WebDL.exe is PE32+ x86-64.
+		urls: () => [{ url: `https://github.com/Timber1900/WebDL/releases/download/${tag}/WebDL.exe`, architecture: 'x64' }],
 		releaseNotes: { source: 'github', owner: 'Timber1900', repo: 'WebDL', tag, cleanup: false },
 	};
 });
