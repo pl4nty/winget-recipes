@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://docs.chemaxon.com/latest/instant-jchem_history-of-changes.html",
+		"regex": "\\d{4}: (\\d+(?:\\.\\d+)+) "
+	},
+	"urls": [
+		"https://dl.chemaxon.com/instant-jchem/{version}/instantjchem-{version}-windows-x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.chemaxon.com/latest/instant-jchem_history-of-changes.html"
+	}
+}
