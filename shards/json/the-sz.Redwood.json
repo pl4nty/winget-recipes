@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/products/redwood/",
+		"regex": "title=\"Version (\\d+\\.\\d+) &middot;"
+	},
+	"urls": [
+		{
+			"url": "https://the-sz.com/products/redwood/history/{version}/Redwood.zip",
+			"nestedInstallerMatches": [
+				"Redwood.exe"
+			]
+		}
+	]
+}
