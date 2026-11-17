@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "colobot",
+		"repo": "colobot",
+		"tagRegex": "^colobot-gold-"
+	},
+	"urls": [
+		"https://colobot.info/files/releases/{version}/colobot-gold-{version}-win-installer.exe"
+	]
+}
