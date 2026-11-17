@@ -3,7 +3,10 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "ChromaControl",
-		"repo": "ChromaControl"
+		"repo": "ChromaControl",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "^\\d+(?:\\.\\d+)+$"
 	},
 	"version": "{version}.0",
 	"urls": [

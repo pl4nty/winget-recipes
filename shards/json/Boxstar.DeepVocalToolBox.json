@@ -5,6 +5,7 @@
 		"url": "https://api.deep-vocal.com/api/toolbox/version",
 		"path": "version"
 	},
+	"version": "{version|beta_|}",
 	"urls": [
 		{
 			"url": "https://dl.deep-vocal.com/toolbox/Setup_DeepVocalToolBox_{version}.zip",

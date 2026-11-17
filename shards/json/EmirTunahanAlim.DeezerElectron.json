@@ -3,7 +3,10 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Eta06",
-		"repo": "deezerelectron"
+		"repo": "deezerelectron",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "-(?:alpha|beta)$"
 	},
 	"urls": [
 		"https://github.com/Eta06/deezerelectron/releases/download/{github.rawTag}/DeezerElectronSetup.exe"

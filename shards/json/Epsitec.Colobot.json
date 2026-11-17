@@ -6,6 +6,7 @@
 		"repo": "colobot",
 		"tagRegex": "^colobot-gold-"
 	},
+	"version": "alpha-{version|-alpha|}",
 	"urls": [
 		"https://colobot.info/files/releases/{version}/colobot-gold-{version}-win-installer.exe"
 	]

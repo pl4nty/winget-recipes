@@ -3,7 +3,10 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "DrewNaylor",
-		"repo": "guinget"
+		"repo": "guinget",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "-(?:alpha|beta)$"
 	},
 	"urls": [
 		"https://github.com/DrewNaylor/guinget/releases/download/{github.rawTag}/guinget_{github.rawTag}.exe"
