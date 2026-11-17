@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FreeFem",
+		"repo": "FreeFem-sources"
+	},
+	"urls": [
+		"https://github.com/FreeFem/FreeFem-sources/releases/download/{github.rawTag}/FreeFem++-{version}-win64.exe"
+	]
+}
