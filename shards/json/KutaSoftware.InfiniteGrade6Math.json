@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.kutasoftware.com/trial/ig6dl.html",
+		"regex": "/trial/win/IG6-Trial-(\\d+(?:\\.\\d+)+)-x64\\.msi"
+	},
+	"urls": [
+		"https://cdn.kutasoftware.com/trial/win/IG6-Trial-{version}-x64.msi",
+		"https://cdn.kutasoftware.com/trial/win/IG6-Trial-{version}-ARM64.msi"
+	]
+}
