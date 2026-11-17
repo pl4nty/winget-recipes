@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nuttyartist",
+		"repo": "notes"
+	},
+	"urls": [
+		"https://github.com/nuttyartist/notes/releases/download/{github.rawTag}/NotesSetup_{version}.exe"
+	]
+}
