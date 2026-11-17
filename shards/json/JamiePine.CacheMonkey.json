@@ -6,6 +6,6 @@
 		"repo": "cache-monkey"
 	},
 	"urls": [
-		"https://github.com/jamiepine/cache-monkey/releases/download/{github.rawTag}/cache-monkey-setup-{version}.exe"
+		{ "url": "https://github.com/jamiepine/cache-monkey/releases/download/{github.rawTag}/cache-monkey-setup-{version}.exe", "architecture": "neutral" }
 	]
 }
