@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KushChandak",
+		"repo": "jumpboot"
+	},
+	"urls": [
+		"https://github.com/KushChandak/jumpboot/releases/download/{github.rawTag}/jumpboot.zip"
+	]
+}
