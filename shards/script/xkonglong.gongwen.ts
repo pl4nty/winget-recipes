@@ -3,7 +3,8 @@ import { getLatestRelease } from 'anthelion/github';
 import { match } from 'anthelion/helpers';
 
 // Tags drop the dots (3800), so the version comes from the release title
-// (小恐龙公文排版助手Ver 3.8.0.0); the MSI is inside the release zip.
+// (小恐龙公文排版助手Ver 3.8.0.0); the MSI is inside the release zip, whose GBK entry
+// names are not UTF-8 flagged, so it is matched by extension only.
 export default defineShard(async () => {
 	const release = await getLatestRelease({ owner: 'xkonglong', repo: 'gw', useLatestEndpoint: true });
 	const {
@@ -14,7 +15,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [{ url, nestedInstallerMatches: [`小恐龙公文助手${version}低权限安装版.msi`] }],
+		urls: () => [{ url, nestedInstallerMatches: ['.msi'] }],
 		releaseNotes: { source: 'github', owner: 'xkonglong', repo: 'gw', tag: release.rawTag },
 	};
 });

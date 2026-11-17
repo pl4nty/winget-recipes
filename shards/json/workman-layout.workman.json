@@ -7,7 +7,7 @@
 		"path": "windows/installer/workman-us"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
 		{
