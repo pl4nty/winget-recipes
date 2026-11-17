@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://cdn.kde.org/ci-builds/network/tokodon/master/windows/",
+		"regex": "tokodon-master-(?<version>\\d+)-windows-cl-msvc2022-x86_64\\.exe\""
+	},
+	"urls": [
+		"https://cdn.kde.org/ci-builds/network/tokodon/master/windows/tokodon-master-{version}-windows-cl-msvc2022-x86_64.exe"
+	]
+}
