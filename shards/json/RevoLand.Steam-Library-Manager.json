@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "RevoLand",
+		"owner": "mertcreates",
 		"repo": "Steam-Library-Manager"
 	},
 	"urls": [
-		"https://github.com/RevoLand/Steam-Library-Manager/releases/download/{github.rawTag}/Steam.Library.Manager.zip"
+		"https://github.com/mertcreates/Steam-Library-Manager/releases/download/{github.rawTag}/Steam.Library.Manager.zip"
 	]
 }
