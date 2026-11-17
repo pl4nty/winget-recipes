@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.karenware.com/powertools/karens-replicator-backup-utility",
+		"regex": "/d/Karens-Replicator-v(\\d+(?:\\.\\d+)+)-Setup\\.exe"
+	},
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://www.karenware.com/d/Karens-Replicator-v{version}-Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.karenware.com/powertools/karens-replicator-backup-utility"
+	}
+}
