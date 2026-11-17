@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://app.eduvpn.org/windows/",
+		"regex": "eduVPNClient_(\\d+(?:\\.\\d+)+)_x64\\.msi"
+	},
+	"urls": [
+		"https://app.eduvpn.org/windows/eduVPNClient_{version}_ARM64.msi",
+		"https://app.eduvpn.org/windows/eduVPNClient_{version}_x64.msi",
+		"https://app.eduvpn.org/windows/eduVPNClient_{version}_x86.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://codeberg.org/eduVPN/windows/releases/tag/{version}"
+	}
+}
