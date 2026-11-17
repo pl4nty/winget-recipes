@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AdoptOpenJDK",
+		"repo": "openjdk14-binaries",
+		"method": "api-list",
+		"tagRegex": "^jdk-(?=\\d+(?:\\.\\d+)*\\+\\d+$)",
+		"perPage": 100
+	},
+	"version": "{version|+|.}",
+	"urls": [
+		"https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/{github.rawTag}/OpenJDK14U-jdk_x64_windows_hotspot_{version|+|_}.msi"
+	]
+}
