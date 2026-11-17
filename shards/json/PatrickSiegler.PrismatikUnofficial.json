@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "psieg",
+		"repo": "Lightpack"
+	},
+	"urls": [
+		"https://github.com/psieg/Lightpack/releases/download/{github.rawTag}/Prismatik.unofficial.64bit.Setup.{version}.exe"
+	]
+}
