@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "sagethumbs"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/sagethumbs/files/sagethumbs_{version}_setup.exe/download"
+	]
+}
