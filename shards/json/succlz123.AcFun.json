@@ -5,6 +5,6 @@
 		"owner": "succlz123",
 		"repo": "AcFun-Client-Multiplatform",
 		"method": "api-latest",
-		"assetRegex": "\\.msi$"
+		"assetRegex": ".*"
 	}
 }

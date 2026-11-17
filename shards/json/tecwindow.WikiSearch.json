@@ -5,6 +5,7 @@
 		"owner": "tecwindow",
 		"repo": "WikiSearch"
 	},
+	"version": "{version|V|}",
 	"urls": [
 		"https://github.com/tecwindow/WikiSearch/releases/download/{github.rawTag}/WikiSearch{github.rawTag}.exe"
 	]

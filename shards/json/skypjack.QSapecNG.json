@@ -3,9 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "skypjack",
-		"repo": "qsapecng"
-	},
-	"urls": [
-		"https://github.com/skypjack/qsapecng/releases/download/{github.rawTag}/QSapecNG-{version}-win32.exe"
-	]
+		"repo": "qsapecng",
+		"method": "api-latest",
+		"assetRegex": ".*"
+	}
 }

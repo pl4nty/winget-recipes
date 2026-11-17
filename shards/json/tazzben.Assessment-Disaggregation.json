@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "tazzben",
-		"repo": "Assessment-Disaggregation",
-		"method": "api-latest",
-		"assetRegex": "\\.exe$"
-	}
+		"repo": "Assessment-Disaggregation"
+	},
+	"urls": [
+		"https://github.com/tazzben/Assessment-Disaggregation/releases/download/{github.rawTag}/Assessment_Disaggregation-win32-x64-{version}.Setup.exe"
+	]
 }

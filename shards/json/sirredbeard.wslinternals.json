@@ -6,6 +6,9 @@
 		"repo": "wslinternals"
 	},
 	"urls": [
-		"https://github.com/sirredbeard/wslinternals/releases/download/{github.rawTag}/{github.rawTag}.zip"
+		{
+			"url": "https://github.com/sirredbeard/wslinternals/releases/download/{github.rawTag}/{github.rawTag}.zip",
+			"architecture": "x86"
+		}
 	]
 }
