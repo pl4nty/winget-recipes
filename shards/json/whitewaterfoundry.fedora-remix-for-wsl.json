@@ -4,6 +4,7 @@
 	"github": {
 		"owner": "WhitewaterFoundry",
 		"repo": "Fedora-Remix-for-WSL",
+		"method": "api-latest",
 		"assetRegex": "\\.msixbundle$"
 	},
 	"version": "{version}.0"
