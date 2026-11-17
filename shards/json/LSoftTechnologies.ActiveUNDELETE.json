@@ -1,16 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.active-undelete.com/",
+		"regex": "New version (\\d+(?:\\.\\d+)+) released"
 	},
 	"urls": [
 		"https://download.lsoft.net/undelete-demo.exe"
-	],
-	"state": {
-		"source": "response-header",
-		"url": "https://download.lsoft.net/undelete-demo.exe",
-		"header": "etag"
-	},
-	"replace": true
+	]
 }

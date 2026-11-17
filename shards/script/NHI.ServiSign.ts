@@ -1,24 +1,24 @@
 import { defineShard } from 'anthelion';
 import { match } from 'anthelion/helpers';
 
-// The NHI download page lists the ServiSign component with an opaque file id
-// and a ROC-calendar date but no version, so read the version from the
-// installer and track the file id and date as state.
+// The NHI download page lists the ServiSign component under an opaque file id
+// with no version; the version is only in the name of the installer inside
+// the zip (NHIServiSignAdapterSetup_<version>.exe), so read it from there.
 export default defineShard(async () => {
 	const page = await fetch('https://med.nhi.gov.tw/iwse5000/IWSE5050S02.aspx?bc=CMS').then((response) =>
 		response.text(),
 	);
 	const {
-		captures: { seq, date },
-	} = match(
-		page,
-		/ServiSign Windows 多元瀏覽器安裝元件<\/td><td><a [^>]*funDownload\(&#39;(?<seq>[0-9A-F]+)&#39;\)[\s\S]*?<td>(?<date>\d+\.\d+\.\d+)<\/td>/,
-	);
+		captures: { seq },
+	} = match(page, /ServiSign Windows 多元瀏覽器安裝元件<\/td><td><a [^>]*funDownload\(&#39;(?<seq>[0-9A-F]+)&#39;\)/);
+	const url = `https://med.nhi.gov.tw/iwse5000/IWSE5050S03.aspx?AttSeq=${seq}`;
+	const zip = Buffer.from(await fetch(url).then((response) => response.arrayBuffer())).toString('latin1');
+	const {
+		captures: { version },
+	} = match(zip, /NHIServiSignAdapterSetup_(?<version>\d+(?:\.\d+)+)\.exe/);
 
 	return {
-		version: { source: 'product' },
-		state: `${seq} ${date}`,
-		urls: () => [`https://med.nhi.gov.tw/iwse5000/IWSE5050S03.aspx?AttSeq=${seq}`],
-		replace: true,
+		version,
+		urls: () => [url],
 	};
 });
