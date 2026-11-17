@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gluonhq",
+		"repo": "scenebuilder",
+		"method": "api-sort",
+		"tagRegex": "^(?=18\\.)"
+	},
+	"urls": [
+		"https://download2.gluonhq.com/scenebuilder/{version}/install/win/SceneBuilder-{version}.msi"
+	]
+}
