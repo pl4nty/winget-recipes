@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bozbez",
+		"repo": "win-capture-audio",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "-beta$"
+	},
+	"urls": [
+		"https://github.com/bozbez/win-capture-audio/releases/download/{github.rawTag}/win-capture-audio-{github.tag}-setup.exe"
+	]
+}
