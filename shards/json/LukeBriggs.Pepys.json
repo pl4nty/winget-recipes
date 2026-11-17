@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LukeBriggsDev",
+		"repo": "Pepys",
+		"method": "api-latest",
+		"assetRegex": "win.*installer\\.exe$"
+	}
+}
