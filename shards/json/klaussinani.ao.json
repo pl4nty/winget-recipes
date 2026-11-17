@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "klaudiosinani",
+		"repo": "ao"
+	},
+	"urls": [
+		"https://github.com/klaudiosinani/ao/releases/download/{github.rawTag}/ao-setup-{version}.exe"
+	]
+}
