@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.softsea.com/software/CR2-Converter.html",
+		"regex": "<li>Version: (\\d+(?:[.-]\\d+)*)</li>"
+	},
+	"urls": ["https://file1.softsea.com/get.php?file=cr2converter_setup.exe"]
+}
