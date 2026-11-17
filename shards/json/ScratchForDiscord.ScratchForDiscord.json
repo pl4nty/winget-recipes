@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "skdhg",
+		"repo": "scratch-for-discord"
+	},
+	"urls": [
+		"https://github.com/skdhg/scratch-for-discord/releases/download/{github.rawTag}/Scratch-For-Discord-Setup-{version}.exe"
+	]
+}
