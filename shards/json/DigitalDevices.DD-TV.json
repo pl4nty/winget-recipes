@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.digital-devices.eu/tools",
+		"regex": "/downloads-www/tools/DD_TV_setup_(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://www.digital-devices.eu/downloads-www/tools/DD_TV_setup_{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.digital-devices.eu/tools"
+	}
+}
