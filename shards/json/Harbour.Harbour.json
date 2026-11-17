@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "harbour-project",
+		"file": "harbour-{version}-win.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/harbour-project/files/binaries-windows/{version}/harbour-{version}-win.exe/download"
+	]
+}
