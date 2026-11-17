@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html",
+		"regex": "download\\.oracle\\.com/java/(?<major>\\d+)/archive/jdk-(?<version>\\d+\\.\\d+\\.\\d+)_windows-x64_bin\\.msi"
+	},
+	"version": "{captures.version}.0",
+	"urls": [
+		"https://download.oracle.com/java/{captures.major}/archive/jdk-{captures.version}_windows-x64_bin.msi",
+		"https://download.oracle.com/java/{captures.major}/archive/jdk-{captures.version}_windows-x64_bin.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.oracle.com/java/technologies/javase/{captures.version|.|-}-relnotes.html"
+	}
+}
