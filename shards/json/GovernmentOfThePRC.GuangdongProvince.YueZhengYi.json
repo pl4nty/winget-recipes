@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://work.weixin.qq.com/wework_admin/local_download/realdownload?corpkey=o0CkEv4IalOvf9I2JK-zLHU4kyPVIAWiR1Koscv2has&from=&platform=win_x86&abm_code="
+		],
+		"regex": "/WXWorkLocal_(\\d+(?:\\.\\d+)+)_x86\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://yzy.gdzwfw.gov.cn/download.html"
+	}
+}
