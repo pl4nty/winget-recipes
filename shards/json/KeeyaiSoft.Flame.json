@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "keeyai-flame",
+		"file": "Flame_{version}.msi"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/keeyai-flame/files/keeyai-flame/Flame%20{version}/Flame_{version}.msi/download"
+	]
+}
