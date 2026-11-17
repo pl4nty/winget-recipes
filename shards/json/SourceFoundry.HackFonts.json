@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "source-foundry",
+		"repo": "Hack-windows-installer"
+	},
+	"urls": [
+		"https://github.com/source-foundry/Hack-windows-installer/releases/download/v{version}/HackFontsWindowsInstaller.exe"
+	]
+}
