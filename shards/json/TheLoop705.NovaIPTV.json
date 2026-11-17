@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TheLoop705",
+		"repo": "nova-iptv"
+	},
+	"urls": [
+		"https://github.com/TheLoop705/nova-iptv/releases/download/{github.rawTag}/Nova-windows-x64-Setup.exe"
+	]
+}
