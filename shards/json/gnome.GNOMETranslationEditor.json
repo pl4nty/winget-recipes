@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://download.gnome.org/binaries/win32/gtranslator/",
+		"regex": "href=\"(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": [
+		"https://download.gnome.org/binaries/win32/gtranslator/{version}/setup-gtranslator-win32-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gitlab.gnome.org/GNOME/gtranslator/-/blob/main/NEWS"
+	}
+}
