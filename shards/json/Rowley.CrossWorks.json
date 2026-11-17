@@ -3,11 +3,11 @@
 	"strategy": "page-match",
 	"pageMatch": {
 		"url": "https://www.rowley.co.uk/arm/index.htm",
-		"regex": "arm_crossworks_(\\d+_\\d+_\\d+)_win_x64_setup\\.exe"
+		"regex": "arm_crossworks_(?<version>\\d+_\\d+)_(?<patch>\\d+)_win_x64_setup\\.exe"
 	},
 	"version": "{version|_|.}",
 	"urls": [
-		"https://cdn.rowleydownload.co.uk/arm/releases/arm_crossworks_{version}_win_x64_setup.exe"
+		"https://cdn.rowleydownload.co.uk/arm/releases/arm_crossworks_{version}_{captures.patch}_win_x64_setup.exe"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.rowleydownload.co.uk/arm/documentation/arm_release_notes.htm"
