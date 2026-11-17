@@ -1,6 +1,5 @@
 import { defineShard } from 'anthelion';
-import { komac } from 'anthelion/config';
-import { isStateMatching } from 'anthelion/helpers';
+import { isStateMatching, komac } from 'anthelion/helpers';
 import ky from 'ky';
 
 const url =
