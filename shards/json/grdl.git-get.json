@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "grdl",
+		"repo": "git-get"
+	},
+	"urls": [
+		"https://github.com/grdl/git-get/releases/download/{github.rawTag}/git-get_{version}_windows_amd64vv1.zip"
+	]
+}
