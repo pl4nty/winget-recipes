@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "thumbsviewer",
+		"repo": "thumbsviewer"
+	},
+	"urls": [
+		"https://github.com/thumbsviewer/thumbsviewer/releases/download/{github.rawTag}/thumbs_viewer_32.zip",
+		"https://github.com/thumbsviewer/thumbsviewer/releases/download/{github.rawTag}/thumbs_viewer_64.zip"
+	]
+}
