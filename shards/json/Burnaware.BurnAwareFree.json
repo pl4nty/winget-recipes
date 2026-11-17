@@ -6,8 +6,7 @@
 		"regex": "downloads/burnaware_free_(\\d+(?:\\.\\d+)+)\\.exe"
 	},
 	"urls": [
-		"https://www.burnaware.com/downloads/burnaware_free_{version}.exe",
-		"https://www.burnaware.com/downloads/burnaware_free_{version}_x64.exe"
+		"https://www.burnaware.com/downloads/burnaware_free_{version}.exe"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.burnaware.com/whats-new.html"
