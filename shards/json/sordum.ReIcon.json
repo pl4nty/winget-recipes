@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sordum.org/8366/",
+		"regex": "<title>ReIcon v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.sordum.org/files/download/restore-desktop-icon-layouts/ReIcon.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sordum.org/8366/"
+	}
+}
