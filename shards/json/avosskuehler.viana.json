@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "avosskuehler",
+		"repo": "viana"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/avosskuehler/viana/releases/download/{github.rawTag}/VianaNETSetup{github.rawTag|.|}.msi"
+	],
+	"state": {
+		"source": "value",
+		"value": "{github.rawTag}"
+	}
+}
