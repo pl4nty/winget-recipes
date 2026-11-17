@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Nethercap",
+		"repo": "truck-companion"
+	},
+	"urls": [
+		"https://github.com/Nethercap/truck-companion/releases/download/{github.rawTag}/TruckDash-windows.zip"
+	]
+}
