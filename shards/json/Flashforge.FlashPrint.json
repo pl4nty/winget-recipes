@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.flashforge.com/blogs/download-software/guider-3-ultra",
+		"regex": "software/(?<hash>[0-9a-f]{32})\\.zip\"(?:(?!href=)[\\s\\S]){0,1000}?>FlashPrint(?<version>\\d+(?:\\.\\d+)+) Windows64<"
+	},
+	"urls": [
+		{
+			"url": "https://en.fss.flashforge.com/10000/software/{captures.hash}.zip",
+			"nestedInstallerMatches": [
+				"FlashPrint 5_"
+			]
+		}
+	]
+}

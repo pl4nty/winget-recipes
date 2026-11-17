@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Toxblh",
+		"repo": "WinToLinux"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/Toxblh/WinToLinux/releases/download/{github.rawTag}/WinToLinux_x86.zip",
+			"nestedInstallerMatches": [
+				"publish/WinToLinux.exe"
+			]
+		}
+	]
+}
