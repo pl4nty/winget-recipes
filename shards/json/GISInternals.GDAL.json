@@ -9,5 +9,8 @@
 	"urls": [
 		"https://download.gisinternals.com/sdk/downloads/release-{captures.msc}-x64-gdal-{captures.a}-{captures.b}-{captures.c}-mapserver-{captures.ms}/gdal-{captures.a}.{captures.b}.{captures.c}-{captures.msc}-x64-core.msi",
 		"https://download.gisinternals.com/sdk/downloads/release-{captures.msc}-gdal-{captures.a}-{captures.b}-{captures.c}-mapserver-{captures.ms}/gdal-{captures.a}.{captures.b}.{captures.c}-{captures.msc}-core.msi"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/OSGeo/gdal/blob/v{captures.a}.{captures.b}.{captures.c}/NEWS.md"
+	}
 }

@@ -21,6 +21,7 @@ export default defineShard(async () => {
 
 	return {
 		version: latest.version,
+		releaseNotes: { releaseNotesUrl: `https://github.com/${owner}/${repo}#update-history` },
 		urls: () => [`https://github.com/${owner}/${repo}/raw/${commit}/${latest.path.replaceAll(' ', '%20')}`],
 	};
 });

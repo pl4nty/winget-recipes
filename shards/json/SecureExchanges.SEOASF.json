@@ -7,5 +7,8 @@
 	},
 	"urls": [
 		"https://www.secure-exchanges.com/installer/SEOASF/SecureExchangesOASF-{version}.msi"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.secure-exchanges.com/digital-signature.aspx"
+	}
 }
