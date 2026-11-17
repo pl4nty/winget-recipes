@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.allen-heath.com/avantis-home/software",
+		"regex": "content/uploads/(?<path>\\d{4}/\\d{2})/Avantis-Director-V(?<version>\\d+\\.\\d+)-Installer\\.exe_\\.zip"
+	},
+	"version": "V{version}",
+	"urls": [
+		"https://www.allen-heath.com/content/uploads/{captures.path}/Avantis-Director-V{version}-Installer.exe_.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.allen-heath.com/avantis-home/software"
+	}
+}
