@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://dennisbareis.com/makemsi.htm",
+		"regex": "MAKEMSI \\(v(\\d+(?:\\.\\d+)+)\\)"
+	},
+	"urls": [
+		"https://dennisbareis.com/zips_fw/makemsi.zip"
+	]
+}
