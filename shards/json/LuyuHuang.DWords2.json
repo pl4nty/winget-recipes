@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "luyuhuang",
+		"repo": "DWords2"
+	},
+	"urls": [
+		"https://github.com/luyuhuang/DWords2/releases/download/{github.rawTag}/DWords.Setup.{version}.exe"
+	]
+}
