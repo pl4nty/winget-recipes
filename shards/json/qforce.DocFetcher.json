@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "docfetcher",
+		"file": "DocFetcher-{version}-Windows-64bit-Setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/docfetcher/files/docfetcher/{version}/DocFetcher-{version}-Windows-64bit-Setup.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docfetcher.sourceforge.io/en/changelog.html"
+	}
+}

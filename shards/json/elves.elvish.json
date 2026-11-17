@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elves",
+		"repo": "elvish"
+	},
+	"urls": [
+		"https://dl.elv.sh/windows-amd64/elvish-{github.rawTag}.zip",
+		"https://dl.elv.sh/windows-386/elvish-{github.rawTag}.zip"
+	]
+}
