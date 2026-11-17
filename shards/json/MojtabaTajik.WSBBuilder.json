@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MojtabaTajik",
+		"repo": "WSBBuilder"
+	},
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://github.com/MojtabaTajik/WSBBuilder/releases/download/{github.rawTag}/WSBBuilder.exe"
+	],
+	"state": {
+		"source": "value",
+		"value": "{github.rawTag}"
+	}
+}
