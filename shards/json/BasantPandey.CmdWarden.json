@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BasantPandey",
+		"repo": "CmdWarden"
+	},
+	"urls": [
+		"https://github.com/BasantPandey/CmdWarden/releases/download/{github.rawTag}/CmdWarden.{version}-win-x64.zip"
+	]
+}

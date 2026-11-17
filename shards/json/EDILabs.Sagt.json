@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://downloads.sagt.ai/Sagt.ai-setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.sagt.ai/Sagt.ai-setup.exe",
+		"header": "etag"
+	}
+}
