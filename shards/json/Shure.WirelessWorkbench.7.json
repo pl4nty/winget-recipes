@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.shure.com/en-US/sw/wwb-win"],
+		"regex": "ShureWWBSetup_x64-win\\.(\\d+\\.\\d+\\.\\d+)\\.\\d+\\.exe$"
+	}
+}
