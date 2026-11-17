@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nosqlbooster.com/downloads",
+		"regex": "/download/releasesv(?<major>\\d+)/nosqlbooster4mongo-(?<version>\\d+(?:\\.\\d+)+)-x64\\.exe"
+	},
+	"urls": ["https://s3.nosqlbooster.com/download/releasesv{captures.major}/nosqlbooster4mongo-{version}-x64.exe"]
+}
