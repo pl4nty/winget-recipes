@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "typefaster",
+		"file": "TypeFaster-v{version}-install.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/typefaster/files/typefaster/{version}/TypeFaster-v{version}-install.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/projects/typefaster/files/typefaster/{version}/"
+	}
+}
