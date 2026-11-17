@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sumitdas76",
+		"repo": "talkative"
+	},
+	"urls": [
+		"https://github.com/sumitdas76/talkative/releases/download/v{version}/TalkativeSetup.exe"
+	]
+}
