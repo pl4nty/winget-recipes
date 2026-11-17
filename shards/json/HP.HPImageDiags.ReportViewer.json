@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ftp.hp.com/pub/caps-softpaq/cmit/support/HP_ImageDiags.html",
+		"regex": "<td>(\\d+(?:\\.\\d+)+)</td>\\s*<td>[^<]*</td>\\s*<td>[^<]*</td>\\s*<td>ImageDiags Report Viewer</td>"
+	},
+	"urls": ["https://ftp.hp.com/pub/idr/IDRViewer/IDRViewer.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ftp.hp.com/pub/caps-softpaq/cmit/support/HP_ImageDiags.html"
+	}
+}
