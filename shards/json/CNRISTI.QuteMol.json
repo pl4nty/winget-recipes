@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "qutemol",
+		"file": "QuteMol.V{version}.setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/qutemol/files/qutemol/QuteMol%20V{version}/QuteMol.V{version}.setup.exe/download"
+	]
+}
