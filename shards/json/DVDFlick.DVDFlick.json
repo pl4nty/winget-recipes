@@ -7,5 +7,8 @@
 	},
 	"urls": [
 		"https://sourceforge.net/projects/dvdflick/files/dvdflick/DVD%20Flick%20{version}/dvdflick_setup_{version}.exe/download"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.dvdflick.net/changelog.php"
+	}
 }
