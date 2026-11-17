@@ -6,6 +6,9 @@
 		"repo": "threema-for-desktop"
 	},
 	"urls": [
-		"https://github.com/GeekCornerGH/threema-for-desktop/releases/download/{github.rawTag}/Threema-For-Desktop-setup-{version}.exe"
+		{
+			"url": "https://github.com/GeekCornerGH/threema-for-desktop/releases/download/{github.rawTag}/Threema-For-Desktop-setup-{version}.exe",
+			"architecture": "x86"
+		}
 	]
 }
