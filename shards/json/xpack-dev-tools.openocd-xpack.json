@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xpack-dev-tools",
+		"repo": "openocd-xpack"
+	},
+	"urls": [
+		"https://github.com/xpack-dev-tools/openocd-xpack/releases/download/{github.rawTag}/xpack-openocd-{version}-win32-x64.zip"
+	]
+}
