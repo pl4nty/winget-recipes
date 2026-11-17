@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jaquadro",
+		"repo": "NBTExplorer"
+	},
+	"urls": [
+		"https://github.com/jaquadro/NBTExplorer/releases/download/{github.rawTag}/NBTExplorer-{version|-win|}.msi"
+	]
+}

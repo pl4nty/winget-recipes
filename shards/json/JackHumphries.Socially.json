@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JackHumphries9",
+		"repo": "Socially"
+	},
+	"urls": [
+		"https://github.com/JackHumphries9/Socially/releases/download/{github.rawTag}/Socially-Windows_{version}.0-amd64.exe"
+	]
+}
