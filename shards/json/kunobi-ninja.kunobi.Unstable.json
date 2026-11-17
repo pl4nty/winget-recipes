@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://raw.githubusercontent.com/kunobi-ninja/kunobi/HEAD/releases/unstable/assets.json",
+		"path": "version"
+	},
+	"urls": ["https://r2.kunobi.com/v{version}/Kunobi_{version}_windows_x86_64.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://kunobi.com/changelog/v{version}"
+	}
+}
