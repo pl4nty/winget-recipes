@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": ["https://www.heaventools.com/download/rtsetup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.heaventools.com/download/rtsetup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.heaventools.com/resource-tuner-news.htm"
+	},
+	"replace": true
+}
