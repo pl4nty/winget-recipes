@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://cf-dl.datto.com/dwa/DattoWindowsAgent.exe"
+		{
+			"url": "https://cf-dl.datto.com/dwa/DattoWindowsAgent.exe",
+			"architecture": "x86"
+		}
 	],
 	"state": {
 		"source": "response-header",

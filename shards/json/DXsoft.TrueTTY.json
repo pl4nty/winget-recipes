@@ -8,7 +8,7 @@
 		"regex": "/download/trtty(?<build>\\d+)\\.zip$"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
 		{
