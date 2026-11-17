@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "display" },
+	"version": { "source": "file" },
 	"urls": ["https://www.radiohobbyist.org/pair-download/AtomicPCSetup.exe"],
 	"state": {
 		"source": "response-header",
