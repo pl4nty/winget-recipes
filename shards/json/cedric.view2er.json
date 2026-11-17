@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ce-dric",
+		"repo": "pruebas-de-validacion"
+	},
+	"urls": [
+		"https://github.com/ce-dric/pruebas-de-validacion/releases/download/{github.rawTag}/installer.exe"
+	]
+}
