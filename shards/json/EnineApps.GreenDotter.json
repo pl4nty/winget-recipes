@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://green-dotter.com/",
+		"regex": "class=\"app-version\">v(?<version>\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": [
+		"https://pub-1b4deb96fb394e94b8475c2142a4fa88.r2.dev/releases/green-dotter-windows-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://green-dotter.com/blog/"
+	}
+}
