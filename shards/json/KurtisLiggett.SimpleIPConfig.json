@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KurtisLiggett",
+		"repo": "Simple-IP-Config"
+	},
+	"urls": [
+		"https://github.com/KurtisLiggett/Simple-IP-Config/releases/download/{github.rawTag}/Simple.IP.Config.Setup.{version}.exe"
+	]
+}
