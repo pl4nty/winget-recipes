@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://charruasoft.com/products/downloads/printscp.zip",
+			"nestedInstallerMatches": [
+				"printscp_install.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://charruasoft.com/products/downloads/printscp.zip",
+		"header": "last-modified"
+	},
+	"replace": true
+}
