@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xmikos",
+		"repo": "qspectrumanalyzer"
+	},
+	"urls": [
+		"https://github.com/xmikos/qspectrumanalyzer/releases/download/{github.rawTag}/QSpectrumAnalyzer-{version}-win-x64.msi"
+	]
+}
