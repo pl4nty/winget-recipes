@@ -1,8 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "redirect-match",
-	"redirectMatch": {
-		"url": ["https://www.firedaemon.com/download-certify-one-x64"],
-		"regex": "/FireDaemon-Certify-One/(\\d+(?:\\.\\d+)+)/Certify-One-x64-\\d+(?:\\.\\d+)+\\.exe$"
-	}
-}

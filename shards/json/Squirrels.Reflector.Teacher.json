@@ -9,5 +9,8 @@
 	"urls": [
 		"https://download.airsquirrels.com/ReflectorTeacher/Windows/ReflectorTeacher{version}-32.msi",
 		"https://download.airsquirrels.com/ReflectorTeacher/Windows/ReflectorTeacher{version}-64.msi"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.airsquirrels.com/reflector/release-notes/windows"
+	}
 }
