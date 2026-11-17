@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mypaint",
+		"repo": "mypaint"
+	},
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://github.com/mypaint/mypaint/releases/download/{github.rawTag}/mypaint-w64-{version}-installer.exe",
+		"https://github.com/mypaint/mypaint/releases/download/{github.rawTag}/mypaint-w32-{version}-installer.exe"
+	]
+}
