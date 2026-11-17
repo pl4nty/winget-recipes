@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://vda-global.lilisi.com/pc_dl/com.lilithgames.rok.pc.int/ff5a7e4128320b4b392ab0f84ab433ca.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://vda-global.lilisi.com/pc_dl/com.lilithgames.rok.pc.int/ff5a7e4128320b4b392ab0f84ab433ca.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
