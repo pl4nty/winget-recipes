@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ieinspector.com/httpanalyzer/versionhistory.html",
+		"regex": "Version (?<version>\\d+\\.\\d+\\.\\d+)"
+	},
+	"urls": ["https://scaleway.ieinspector.com/download/HttpAnalyzerFull_V7.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ieinspector.com/httpanalyzer/versionhistory.html"
+	}
+}
