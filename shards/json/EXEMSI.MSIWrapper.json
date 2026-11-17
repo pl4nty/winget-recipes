@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.exemsi.com/download/",
+		"regex": "MSI_Wrapper_(?<version>\\d+_\\d+_\\d+_\\d+)\\.msi"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://www.exemsi.com/downloads/msi_wrapper/MSI_Wrapper_{version}.msi"
+	]
+}
