@@ -4,7 +4,7 @@
 	"github": {
 		"owner": "vookimedlo",
 		"repo": "vooki-image-viewer",
-		"tagRegex": "^v20"
+		"tagRegex": "^20"
 	},
 	"urls": [
 		"https://github.com/vookimedlo/vooki-image-viewer/releases/download/{github.rawTag}/VookiImageViewer-{github.tag}-win64-x64.msi",
