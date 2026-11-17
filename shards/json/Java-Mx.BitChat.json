@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Java-Mx",
+		"repo": "bitchat-rustpy"
+	},
+	"urls": [
+		"https://github.com/Java-Mx/bitchat-rustpy/releases/download/{github.rawTag}/BitChat-{version}-windows-x64.exe"
+	]
+}
