@@ -3,9 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "sentinel-official",
-		"repo": "sentinel-dvpncli"
-	},
-	"urls": [
-		"https://github.com/sentinel-official/sentinel-dvpncli/releases/download/{github.rawTag}/sentinelcli.exe"
-	]
+		"repo": "sentinel-dvpncli",
+		"method": "api-latest",
+		"assetRegex": "\\.exe$"
+	}
 }

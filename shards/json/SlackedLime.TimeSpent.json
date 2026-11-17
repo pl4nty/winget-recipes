@@ -3,9 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "i-program-stuff",
-		"repo": "TimeSpent"
-	},
-	"urls": [
-		"https://github.com/i-program-stuff/TimeSpent/releases/download/{github.rawTag}/TimeSpent.Setup.v{version}.exe"
-	]
+		"repo": "TimeSpent",
+		"method": "api-latest",
+		"assetRegex": "\\.exe$"
+	}
 }
