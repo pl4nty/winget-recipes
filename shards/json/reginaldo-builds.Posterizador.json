@@ -6,6 +6,9 @@
 		"repo": "posterizador.py"
 	},
 	"urls": [
-		"https://github.com/reginaldo-builds/posterizador.py/releases/download/{github.rawTag}/Posterizador-Setup.exe"
+		{
+			"url": "https://github.com/reginaldo-builds/posterizador.py/releases/download/{github.rawTag}/Posterizador-Setup.exe",
+			"architecture": "x86"
+		}
 	]
 }

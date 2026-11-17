@@ -6,6 +6,9 @@
 		"repo": "shock-convert"
 	},
 	"urls": [
-		"https://github.com/suleyman-kara/shock-convert/releases/download/{github.rawTag}/shock-convert-setup-{version}.exe"
+		{
+			"url": "https://github.com/suleyman-kara/shock-convert/releases/download/{github.rawTag}/shock-convert-setup-{version}.exe",
+			"architecture": "x64"
+		}
 	]
 }
