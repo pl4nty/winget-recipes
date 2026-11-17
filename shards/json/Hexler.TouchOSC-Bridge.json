@@ -10,5 +10,8 @@
 			"url": "https://downloads.hexler.net/touchosc/touchosc-bridge-{version}-win32.exe",
 			"architecture": "x86"
 		}
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hexler.net/touchosc/bridge-releases"
+	}
 }

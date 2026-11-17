@@ -7,7 +7,7 @@
 	},
 	"urls": [
 		{
-			"url": "https://pub-d9470c28f4194af890b4083132c00ed2.r2.dev/{version}/QueueExplorer{version}.exe",
+			"url": "https://www.cogin.com/download/mq/download.php?file={version}%2FQueueExplorer{version}.exe",
 			"architecture": "x86"
 		}
 	],

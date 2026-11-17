@@ -9,7 +9,12 @@
 		{
 			"url": "https://neverball.org/neverball-{version}.zip",
 			"architecture": "x86",
-			"nestedInstallerMatches": ["/neverball.exe"]
+			"nestedInstallerMatches": [
+				"/neverball.exe"
+			]
 		}
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://neverball.org/"
+	}
 }

@@ -15,5 +15,8 @@
 			"url": "https://www.axialis.com/downloads/IconWorkshop-Pro.exe",
 			"architecture": "x64"
 		}
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.axialis.com/iconworkshop/"
+	}
 }
