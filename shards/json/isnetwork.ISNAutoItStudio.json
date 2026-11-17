@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.isnetwork.at/isn-downloads/",
+		"regex": "ISN AutoIt Studios in der Version (\\d+\\.\\d+)"
+	},
+	"urls": [
+		"https://www.isnetwork.at/phocadownload/isnautoitstudio/ISN_Autoit_Studio_v{version|.|_}_SETUP.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.isnetwork.at/isn-aenderungen-sprachdateien/"
+	}
+}
