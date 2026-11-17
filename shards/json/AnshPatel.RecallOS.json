@@ -6,7 +6,6 @@
 		"repo": "recallos"
 	},
 	"urls": [
-		"https://github.com/anshppatel4-crypto/recallos/releases/download/{github.rawTag}/RecallOS-Setup.exe",
-		"https://github.com/anshppatel4-crypto/recallos/releases/download/{github.rawTag}/RecallOS-Setup.msi"
+		"https://github.com/anshppatel4-crypto/recallos/releases/download/{github.rawTag}/RecallOS-Setup.exe"
 	]
 }
