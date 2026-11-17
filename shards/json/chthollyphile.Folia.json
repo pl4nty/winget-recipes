@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chthollyphile",
+		"repo": "folia-major"
+	},
+	"urls": [
+		"https://github.com/chthollyphile/folia-major/releases/download/{github.rawTag}/Folia-Setup-{version}.exe"
+	]
+}
