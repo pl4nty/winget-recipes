@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kimmknight",
+		"repo": "remoteapptool"
+	},
+	"urls": [
+		"https://github.com/kimmknight/remoteapptool/releases/download/{github.rawTag}/RemoteApp.Tool.{version|.|}.msi"
+	]
+}
