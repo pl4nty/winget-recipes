@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.pstwalker.com/pstwalker.html",
+		"regex": "Version (\\d+\\.\\d+)"
+	},
+	"urls": [
+		"https://downloads.pstwalker.com/pstwalker{version|.|}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.pstwalker.com/pstwalker.html"
+	}
+}
