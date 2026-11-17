@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "donislawdev",
+		"repo": "TestingFilesGenerator"
+	},
+	"urls": [
+		"https://github.com/donislawdev/TestingFilesGenerator/releases/download/{github.rawTag}/tfg-gui_{version}_windows_amd64.zip",
+		"https://github.com/donislawdev/TestingFilesGenerator/releases/download/{github.rawTag}/tfg-setup_{version}_windows_amd64.msi"
+	]
+}
