@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://downloads.remote.it/desktop/latest/Remote.It-Installer-x64.exe"],
+		"regex": "/desktop/v(?<version>\\d+(?:\\.\\d+)+)/Remote\\.It-Installer-x64\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/remoteit/desktop/releases/tag/v{version}"
+	}
+}
