@@ -1,13 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": { "source": "product" },
-	"urls": ["https://www.greatissoftware.com/unhackme-beta.zip"],
-	"state": {
-		"source": "response-header",
-		"url": "https://www.greatissoftware.com/unhackme-beta.zip",
-		"header": "last-modified"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://greatis.com/unhackme/news.htm",
+		"regex": "Version: (\\d+\\.\\d+\\.\\d{4}\\.\\d{4}) - "
 	},
+	"urls": ["https://www.greatissoftware.com/unhackme-beta.zip"],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://greatis.com/unhackme/news.htm"
 	}

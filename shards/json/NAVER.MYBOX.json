@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": [
 		"https://appdown.pstatic.net/naver/mybox/installer/MYBOXInstaller.exe",
 		"https://appdown.pstatic.net/naver/mybox/installer/MYBOXInstaller_ARM64.exe"

@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://saas15.kaseya.net/ManagedFiles/VSAHiddenFiles/KaseyaLiveConnect/win64/LiveConnect.exe"],
 	"state": {
 		"source": "response-header",

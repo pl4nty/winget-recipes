@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://swdlcdn.eastmoney.com/swc8_free_high/dfcfw_high.exe"],
 	"state": {
 		"source": "response-header",

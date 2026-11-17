@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": { "source": "display" },
 	"urls": ["https://downloads.lynxcloud.app/lynx-whiteboard/releases/win64/lynx-whiteboard.msi"],
 	"state": {
 		"source": "response-header",
