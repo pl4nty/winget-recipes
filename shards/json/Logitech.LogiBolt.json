@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://download01.logi.com/web/ftp/pub/techsupport/logibolt/LogiBoltInstaller.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download01.logi.com/web/ftp/pub/techsupport/logibolt/LogiBoltInstaller.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.logi.com/hc/en-us/articles/4418089470103"
+	},
+	"replace": true
+}
