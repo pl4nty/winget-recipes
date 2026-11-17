@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Rohit978",
+		"repo": "potato-browser"
+	},
+	"urls": [
+		"https://github.com/Rohit978/potato-browser/releases/download/v{version}/POTATO.Browser.Setup.{version}.exe"
+	]
+}
