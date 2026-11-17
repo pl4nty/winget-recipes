@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jerrod-lankford",
+		"repo": "google-voice-desktop-app"
+	},
+	"urls": [
+		"https://github.com/jerrod-lankford/google-voice-desktop-app/releases/download/{github.rawTag}/Voice-Desktop-Setup-{version}-WindowsX64.exe"
+	]
+}
