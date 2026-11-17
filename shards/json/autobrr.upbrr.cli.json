@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "autobrr",
+		"repo": "upbrr"
+	},
+	"urls": [
+		"https://github.com/autobrr/upbrr/releases/download/{github.rawTag}/upbrr-cli-v{version}-windows-amd64.zip",
+		"https://github.com/autobrr/upbrr/releases/download/{github.rawTag}/upbrr-cli-v{version}-windows-arm64.zip"
+	]
+}

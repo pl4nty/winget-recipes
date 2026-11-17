@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "XmlNotepad"
+	},
+	"urls": [
+		"https://github.com/microsoft/XmlNotepad/releases/download/{github.rawTag}/XmlNotepadPackage_{version}_AnyCPU.msixbundle",
+		"https://github.com/microsoft/XmlNotepad/releases/download/{github.rawTag}/XmlNotepadSetup.zip"
+	]
+}
