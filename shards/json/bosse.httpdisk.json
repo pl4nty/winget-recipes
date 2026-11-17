@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.accum.se/~bosse/httpdisk/",
+		"regex": "href=\"httpdisk-(\\d+(?:\\.\\d+)*)\\.zip\""
+	},
+	"urls": [
+		{
+			"url": "https://www.accum.se/~bosse/httpdisk/httpdisk-{version}.zip",
+			"nestedInstallerMatches": [
+				"httpdisk-{version}/exe/Release/x64/httpdisk.exe"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.accum.se/~bosse/"
+	}
+}
