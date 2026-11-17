@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://nssm.cc/download",
+		"regex": "/ci/nssm-(?<version>[0-9][^\"/]*?)\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://nssm.cc/ci/nssm-{version}.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": [
+				"nssm-{version}\\win64\\nssm.exe"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://nssm.cc/changelog"
+	},
+	"cleanup": false
+}
