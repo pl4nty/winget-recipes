@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "M336G",
+		"repo": "music-library-player-app"
+	},
+	"urls": [
+		"https://github.com/M336G/music-library-player-app/releases/download/{github.rawTag}/music-library-player-app_{version}_x64-setup.exe",
+		"https://github.com/M336G/music-library-player-app/releases/download/{github.rawTag}/music-library-player-app_{version}_arm64-setup.exe"
+	]
+}
