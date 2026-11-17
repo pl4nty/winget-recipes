@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alcyone-systems",
+		"repo": "tester-releases"
+	},
+	"urls": [
+		"https://github.com/alcyone-systems/tester-releases/releases/download/{github.rawTag}/Tester-{version}-windows-x64.exe"
+	]
+}
