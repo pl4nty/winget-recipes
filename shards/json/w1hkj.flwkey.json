@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.w1hkj.org/files/flwkey/",
+		"regex": "flwkey-(\\d+(?:\\.\\d+)+)_setup\\.exe"
+	},
+	"urls": [
+		"https://www.w1hkj.org/files/flwkey/flwkey-{version}_setup.exe"
+	]
+}
