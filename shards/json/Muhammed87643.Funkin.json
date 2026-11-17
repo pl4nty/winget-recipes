@@ -6,7 +6,7 @@
 		"repo": "Friday-Night-Funkin-Silent-Installer"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
 		"https://github.com/Muhammed87643/Friday-Night-Funkin-Silent-Installer/releases/download/{github.rawTag}/Funkin.msi"

@@ -6,7 +6,7 @@
 		"repo": "MndpTray"
 	},
 	"version": {
-		"source": "product"
+		"source": "file"
 	},
 	"urls": [
 		"https://github.com/xmegz/MndpTray/releases/download/{github.rawTag}/MndpTray.Core.Full.exe"
