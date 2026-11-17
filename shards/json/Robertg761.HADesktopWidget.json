@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Robertg761",
+		"repo": "HA-Desktop-Widget"
+	},
+	"urls": [
+		"https://github.com/Robertg761/HA-Desktop-Widget/releases/download/{github.rawTag}/HA-Desktop-Widget-{version}-win-x64-Setup.exe"
+	]
+}

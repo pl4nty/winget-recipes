@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alymurtza",
+		"repo": "mascot"
+	},
+	"urls": [
+		"https://github.com/alymurtza/mascot/releases/download/{github.rawTag}/Mascot-Downloader-Setup.exe"
+	]
+}

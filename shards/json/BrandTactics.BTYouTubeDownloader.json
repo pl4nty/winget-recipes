@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sagive",
+		"repo": "bt-youtube-downloader",
+		"method": "api-list",
+		"assetRegex": "^BT-YouTube-Downloader-.*Windows.*\\.zip$"
+	}
+}

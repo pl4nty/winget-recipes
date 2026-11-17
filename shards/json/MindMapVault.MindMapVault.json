@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://mindmapvault.com/download/",
+		"regex": "downloads\\.mindmapvault\\.com/windows/(?<version>\\d+(?:\\.\\d+)+)/MindMapVault_\\d+(?:\\.\\d+)+_x64-setup\\.exe"
+	},
+	"urls": [
+		"https://downloads.mindmapvault.com/windows/{version}/MindMapVault_{version}_x64-setup.exe",
+		"https://downloads.mindmapvault.com/windows/{version}/MindMapVault_{version}_x64_en-US.msi",
+		"https://downloads.mindmapvault.com/windows/{version}/MindMapVault_{version}_x64.msix"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://mindmapvault.com/changelog/"
+	}
+}

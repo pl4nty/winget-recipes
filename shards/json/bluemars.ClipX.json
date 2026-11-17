@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://clipx.org/installer.php?arch=x86&v=stable",
+			"https://clipx.org/installer.php?arch=x64&v=stable"
+		],
+		"regex": "/clipx-(\\d+(?:\\.\\d+)+)-setup-x(?:86|64)\\.exe"
+	},
+	"urls": [
+		"https://clipx.org/dist/stable32/clipx-{version}-setup-x86.exe",
+		"https://clipx.org/dist/stable64/clipx-{version}-setup-x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://clipx.org/changelog.php"
+	}
+}
