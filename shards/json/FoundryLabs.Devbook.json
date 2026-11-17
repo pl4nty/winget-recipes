@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://download.todesktop.com/2102273jsy18baz/latest.yml"
+	},
+	"cleanup": false
+}
