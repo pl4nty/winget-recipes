@@ -5,9 +5,6 @@
 		"url": "https://github.com/azure06/clips/releases/latest/download/latest.yml"
 	},
 	"releaseNotes": {
-		"source": "github",
-		"owner": "azure06",
-		"repo": "clips",
-		"tag": "v{version}"
+		"releaseNotesUrl": "https://github.com/azure06/clips/releases/tag/v{version}"
 	}
 }

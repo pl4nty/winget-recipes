@@ -13,5 +13,8 @@
 	"state": {
 		"source": "value",
 		"value": "{version}"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.actualsolution.com/volume-lock/whats-new/"
 	}
 }
