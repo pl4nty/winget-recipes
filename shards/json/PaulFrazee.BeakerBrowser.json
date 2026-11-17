@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "beakerbrowser",
+		"repo": "beaker"
+	},
+	"urls": [
+		"https://github.com/beakerbrowser/beaker/releases/download/{github.rawTag}/beaker-browser-setup-{version}.exe"
+	]
+}
