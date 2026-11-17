@@ -1,19 +1,14 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.lexicool.com/lexibar-greek-special-keyboard-characters.asp",
+		"regex": "\\(Version (?<version>\\d+\\.\\d+[a-z]?) \\("
 	},
 	"urls": [
 		"https://downloads.lexicool.com/InstallLexibarEL.exe"
 	],
-	"state": {
-		"source": "response-header",
-		"url": "https://downloads.lexicool.com/InstallLexibarEL.exe",
-		"header": "etag"
-	},
 	"releaseNotes": {
-		"releaseNotesUrl": "https://www.lexicool.com/lexibar_special_keyboard_characters.asp"
-	},
-	"replace": true
+		"releaseNotesUrl": "https://www.lexicool.com/lexibar-greek-special-keyboard-characters.asp"
+	}
 }
