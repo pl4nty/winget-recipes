@@ -1,18 +1,24 @@
 import { defineShard } from 'anthelion';
 import { getLatestRelease } from 'anthelion/github';
-import { match } from 'anthelion/helpers';
+import { compareVersions } from 'anthelion/helpers';
 
-// The release tag does not follow the package version: the MSI attached to the
-// latest release is replaced in place and its file name carries the version.
+// The release tag does not follow the package version: MSIs for newer builds are
+// added to the same release and their file names carry the version, so take the highest.
+const assetRegex = /\/ilfortunedinumeronezefiro-(\d+(?:\.\d+)+)-zafiro-amd64\.msi$/i;
+
 export default defineShard(async () => {
 	const release = await getLatestRelease({ owner: 'GiulianoSpaghetti', repo: 'ZefiroFortune', useLatestEndpoint: true });
-	const url = release.urls().find((url) => /\/ilfortunedinumeronezefiro-(\d+(?:\.\d+)+)-zafiro-amd64\.msi$/i.test(url));
-	const {
-		groups: [version],
-	} = match(url, /\/ilfortunedinumeronezefiro-(\d+(?:\.\d+)+)-zafiro-amd64\.msi$/i);
+	const [latest] = release
+		.urls()
+		.flatMap((url) => {
+			const version = assetRegex.exec(url)?.[1];
+			return version ? [{ url, version }] : [];
+		})
+		.sort((a, b) => compareVersions(b.version, a.version));
+	if (!latest) throw new Error('No ilfortunedinumeronezefiro MSI found in the latest release');
 
 	return {
-		version,
-		urls: () => [url],
+		version: latest.version,
+		urls: () => [latest.url],
 	};
 });
