@@ -7,6 +7,9 @@
 		"method": "api-sort"
 	},
 	"urls": [
-		"https://github.com/Cosmoboyn/AdminPRO/releases/download/{github.rawTag}/AdminPRO_Setup.exe"
+		{
+			"url": "https://github.com/Cosmoboyn/AdminPRO/releases/download/{github.rawTag}/AdminPRO_Setup.exe",
+			"architecture": "x64"
+		}
 	]
 }

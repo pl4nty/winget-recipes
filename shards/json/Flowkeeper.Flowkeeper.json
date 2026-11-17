@@ -6,6 +6,9 @@
 		"repo": "fk-desktop"
 	},
 	"urls": [
-		"https://github.com/flowkeeper-org/fk-desktop/releases/download/{github.rawTag}/flowkeeper-{version}-windows-2022-nuitka-installer.exe"
+		{
+			"url": "https://github.com/flowkeeper-org/fk-desktop/releases/download/{github.rawTag}/flowkeeper-{version}-windows-2022-nuitka-installer.exe",
+			"architecture": "x64"
+		}
 	]
 }
