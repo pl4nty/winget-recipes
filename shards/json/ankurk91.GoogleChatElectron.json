@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ankurk91",
+		"repo": "google-chat-electron"
+	},
+	"urls": [
+		"https://github.com/ankurk91/google-chat-electron/releases/download/{github.rawTag}/google-chat-electron-setup-win-x64-{version}.exe"
+	]
+}
