@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://prenos-amebis.b-cdn.net/Besana/",
+		"regex": "href=\"(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": [
+		"https://prenos-amebis.b-cdn.net/Besana/{version}/Besana.Win32.msi",
+		"https://prenos-amebis.b-cdn.net/Besana/{version}/Besana.x64.msi",
+		"https://prenos-amebis.b-cdn.net/Besana/{version}/Besana.ARM64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.amebis.si/besana"
+	}
+}
