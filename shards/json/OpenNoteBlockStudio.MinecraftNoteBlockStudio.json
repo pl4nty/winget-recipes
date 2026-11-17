@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OpenNBS",
+		"repo": "NoteBlockStudio"
+	},
+	"urls": [
+		"https://github.com/OpenNBS/NoteBlockStudio/releases/download/v{version}/Minecraft.Note.Block.Studio.exe"
+	]
+}
