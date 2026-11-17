@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.gadwin.com/download/DiagramStudio_Setup.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.gadwin.com/download/DiagramStudio_Setup.msi",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.gadwin.com/ds/"
+	}
+}
