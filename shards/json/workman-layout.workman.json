@@ -1,0 +1,29 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-commit",
+	"github": {
+		"owner": "workman-layout",
+		"repo": "Workman",
+		"path": "windows/installer/workman-us"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/workman-layout/Workman/raw/{github.commit}/windows/installer/workman-us/wm-us_amd64.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/workman-layout/Workman/raw/{github.commit}/windows/installer/workman-us/wm-us_i386.msi",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "value",
+		"value": "{github.commit}"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/workman-layout/Workman/commits/{github.commit}/windows/installer/workman-us"
+	}
+}
