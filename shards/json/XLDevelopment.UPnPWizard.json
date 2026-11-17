@@ -12,5 +12,8 @@
 		"url": "https://www.xldevelopment.net/downloads/UpnpWizardSetup.exe",
 		"header": "etag"
 	},
-	"replace": true
+	"replace": true,
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.xldevelopment.net/help/upnpwiz/release_notes.htm"
+	}
 }

@@ -13,9 +13,15 @@ export default defineShard(async () => {
 	const {
 		captures: { version },
 	} = match(release.version, /^(?<version>\d+(?:\.\d+)+)\+\d+$/);
+	const {
+		captures: { tag },
+	} = match(release.downloadUrl, /\/releases\/download\/(?<tag>[^/]+)\//);
 
 	return {
 		version,
-		urls: () => [{ url: release.downloadUrl, architecture: 'x64' as const }],
+		urls: () => [release.downloadUrl],
+		releaseNotes: {
+			releaseNotesUrl: `https://docs.bell-sw.com/liberica-nik/${tag.replaceAll('+', 'b')}/general/release-notes/`,
+		},
 	};
 });

@@ -8,5 +8,8 @@
 	"urls": [
 		"https://www.flos-freeware.ch/zip/Notepad2_{version}_x86.exe",
 		"https://www.flos-freeware.ch/zip/Notepad2_{version}_x64.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.flos-freeware.ch/doc/Notepad2.txt"
+	}
 }

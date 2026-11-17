@@ -20,5 +20,6 @@ export default defineShard(async () => {
 	return {
 		version: version.replaceAll('-', '.'),
 		urls: () => [`https://www.pj64-emu.com${path}`],
+		releaseNotes: { releaseNotesUrl: 'https://github.com/project64/project64/blob/develop/Docs/CHANGELOG.md' },
 	};
 });
