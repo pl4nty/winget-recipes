@@ -3,9 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "fstl-app",
-		"repo": "fstl"
-	},
-	"urls": [
-		"https://github.com/fstl-app/fstl/releases/download/{github.rawTag}/fstl-{version}-win64.exe"
-	]
+		"repo": "fstl",
+		"method": "api-latest",
+		"assetRegex": "win64\\.exe$"
+	}
 }

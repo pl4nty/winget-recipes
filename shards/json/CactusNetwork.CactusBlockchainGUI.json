@@ -3,9 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Cactus-Network",
-		"repo": "cactus-blockchain"
-	},
-	"urls": [
-		"https://github.com/Cactus-Network/cactus-blockchain/releases/download/{github.rawTag}/CactusSetup-{version}.exe"
-	]
+		"repo": "cactus-blockchain",
+		"method": "api-latest",
+		"assetRegex": "Setup.*\\.exe$"
+	}
 }

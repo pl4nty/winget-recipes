@@ -3,9 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "FreeFem",
-		"repo": "FreeFem-sources"
-	},
-	"urls": [
-		"https://github.com/FreeFem/FreeFem-sources/releases/download/{github.rawTag}/FreeFem++-{version}-win64.exe"
-	]
+		"repo": "FreeFem-sources",
+		"method": "api-latest",
+		"assetRegex": "win64\\.exe$"
+	}
 }
