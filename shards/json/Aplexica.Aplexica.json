@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Aplexica",
+		"repo": "Aplexica"
+	},
+	"urls": [
+		"https://github.com/Aplexica/Aplexica/releases/download/{github.rawTag}/aplexica-{version}-windows-amd64.zip",
+		"https://github.com/Aplexica/Aplexica/releases/download/{github.rawTag}/aplexica-{version}-windows-arm64.zip"
+	]
+}
