@@ -1,24 +1,13 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "file"
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://ridgecrop.co.uk/fat32format.htm",
+		"regex": "<b>(\\d+\\.\\d+)</b><br>"
 	},
-	"urls": [
-		{
-			"url": "https://ridgecrop.co.uk/download/fat32format.zip",
-			"nestedInstallerMatches": [
-				"fat32format.exe"
-			]
-		}
-	],
-	"state": {
-		"source": "response-header",
-		"url": "https://ridgecrop.co.uk/download/fat32format.zip",
-		"header": "etag"
-	},
+	"urls": ["https://ridgecrop.co.uk/download/fat32format.zip"],
 	"releaseNotes": {
-		"releaseNotesUrl": "http://ridgecrop.co.uk/index.htm?fat32format.htm"
+		"releaseNotesUrl": "https://ridgecrop.co.uk/fat32format.htm"
 	},
 	"replace": true
 }
