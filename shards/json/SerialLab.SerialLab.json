@@ -4,6 +4,8 @@
 	"github": {
 		"owner": "ahsayde",
 		"repo": "Serial-Lab",
+		"method": "api-list",
+		"kind": "all",
 		"tagRegex": "^V"
 	},
 	"urls": [

@@ -6,7 +6,7 @@
 		"repo": "png2ico"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
 		"https://github.com/kbralten/png2ico/releases/download/{github.rawTag}/Png2Ico-{github.rawTag}-installer.msi"
