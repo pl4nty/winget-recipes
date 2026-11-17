@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "kmeleon",
+		"file": "K-Meleon{version}.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/kmeleon/files/k-meleon/{version}/K-Meleon{version}.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "http://kmeleonbrowser.org/wiki/ReleaseNotes"
+	}
+}
