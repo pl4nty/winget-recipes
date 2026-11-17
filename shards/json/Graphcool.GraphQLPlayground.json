@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "graphql",
+		"repo": "graphql-playground"
+	},
+	"urls": [
+		"https://github.com/graphql/graphql-playground/releases/download/{github.rawTag}/graphql-playground-electron-setup-{version}.exe"
+	]
+}
