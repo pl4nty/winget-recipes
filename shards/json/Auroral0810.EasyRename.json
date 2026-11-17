@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "Auroral0810",
+		"owner": "yunforis",
 		"repo": "EasyRename"
 	},
 	"urls": [
-		"https://github.com/Auroral0810/EasyRename/releases/download/{github.rawTag}/EasyRename_{version}_x64_zh-CN.msi"
+		"https://github.com/yunforis/EasyRename/releases/download/{github.rawTag}/EasyRename_{version}_x64_zh-CN.msi"
 	]
 }

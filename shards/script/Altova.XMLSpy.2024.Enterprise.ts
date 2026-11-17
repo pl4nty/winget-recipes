@@ -1,5 +1,4 @@
 import { defineShard } from 'anthelion';
-import { match } from 'anthelion/helpers';
 
 const YEAR = '2024';
 const LANGUAGES = [
@@ -13,9 +12,9 @@ const LANGUAGES = [
 // The archive lists each release code (2024, 2024r2, 2024r2sp1, ...) newest first.
 export default defineShard(async () => {
 	const page = await fetch('https://www.altova.com/xmlspy-xml-editor/download').then((response) => response.text());
-	const {
-		captures: { release, r = '0', sp = '0' },
-	} = match(page, new RegExp(`<option value="(?<release>${YEAR}(?:r(?<r>\\d+))?(?:sp(?<sp>\\d+))?)"`), `No XMLSpy ${YEAR} release found`);
+	const found = new RegExp(`<option value="(?<release>${YEAR}(?:r(?<r>\\d+))?(?:sp(?<sp>\\d+))?)"`).exec(page)?.groups;
+	if (!found?.release) throw new Error(`No XMLSpy ${YEAR} release found`);
+	const { release, r = '0', sp = '0' } = found;
 	const file = `XMLSpyEnt${release.replace(/^(\d{4})r/, '$1rel')}`;
 
 	return {
