@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jie17",
+		"repo": "electronic-gmail"
+	},
+	"urls": [
+		"https://github.com/jie17/electronic-gmail/releases/download/{github.rawTag}/electronic-gmail-setup-{version}.exe"
+	]
+}
