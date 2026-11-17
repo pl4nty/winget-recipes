@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GuiOttoni",
+		"repo": "ottorice"
+	},
+	"urls": [
+		"https://github.com/GuiOttoni/ottorice/releases/download/{github.rawTag}/OttoRice-Setup-{version}.exe"
+	]
+}
