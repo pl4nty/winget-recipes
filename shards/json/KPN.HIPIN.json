@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://download.voipit.nl/HIPIN/HIPIN.exe"
+		{
+			"url": "https://download.voipit.nl/HIPIN/HIPIN.exe",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",
