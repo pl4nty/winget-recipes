@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "simonsystem609",
+		"repo": "ExcelsisHelper",
+		"tagRegex": "^excelsis-helper-v"
+	},
+	"urls": [
+		"https://github.com/simonsystem609/ExcelsisHelper/releases/download/{github.rawTag}/ExcelsisHelper-{version}-Setup.exe"
+	]
+}
