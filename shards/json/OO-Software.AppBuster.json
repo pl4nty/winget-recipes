@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oo-software.com/en/ooappbuster",
+		"regex": "data-update-version=\"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://package.oo-software.com/winget/appbuster/{version}/ooappbuster_{version}_x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.oo-software.com/en/ooappbuster/changelog"
+	}
+}
