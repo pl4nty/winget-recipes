@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fcusson",
+		"repo": "srt-align",
+		"method": "api-list",
+		"tagRegex": "^v"
+	},
+	"urls": [
+		"https://github.com/fcusson/srt-align/releases/download/{github.rawTag}/srt-align.exe"
+	]
+}
