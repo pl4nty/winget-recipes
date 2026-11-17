@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "WowUp", "repo": "WowUp", "method": "api-list", "kind": "prerelease" },
+	"urls": [
+		"https://github.com/WowUp/WowUp/releases/download/v{version}/WowUp-Setup-{version}.exe"
+	]
+}
