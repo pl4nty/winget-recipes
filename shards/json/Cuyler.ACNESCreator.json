@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Cuyler36",
+		"repo": "ACNESCreator"
+	},
+	"urls": [
+		"https://github.com/Cuyler36/ACNESCreator/releases/download/{github.rawTag}/ACNESCreator.zip"
+	]
+}
