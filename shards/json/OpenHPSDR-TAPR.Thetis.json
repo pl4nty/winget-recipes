@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TAPR",
+		"repo": "OpenHPSDR-Thetis",
+		"method": "api-latest",
+		"assetRegex": "^Thetis-v\\d+(?:\\.\\d+)+\\.x64\\.msi$"
+	}
+}
