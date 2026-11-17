@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "adileo",
-		"repo": "squirreldisk",
-		"method": "api-latest",
-		"assetRegex": ".*"
-	}
+		"repo": "squirreldisk"
+	},
+	"urls": [
+		"https://github.com/adileo/squirreldisk/releases/download/{github.rawTag}/SquirrelDisk-Windows.msi"
+	]
 }
