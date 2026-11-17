@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tickstep",
+		"repo": "cloudpan189-go"
+	},
+	"urls": [
+		"https://file.tickstep.com/winget/pkgs/cloudpan189-go/{github.rawTag}/cloudpan189-go-installer-{version}-x64.exe",
+		"https://file.tickstep.com/winget/pkgs/cloudpan189-go/{github.rawTag}/cloudpan189-go-installer-{version}-x86.exe"
+	]
+}
