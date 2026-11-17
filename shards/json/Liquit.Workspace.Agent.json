@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download.liquit.com/updates/liquitworkspace/production.json",
+		"regex": "[\\s\\S]*release/3\\.9/(?<build>\\d+)/Liquit-Workspace-Server-(?<version>3\\.9\\.\\d+\\.\\d+)\\.zip"
+	},
+	"urls": ["https://download.liquit.com/release/3.9/{captures.build}/Liquit-Workspace-Agent-{version}.msi"]
+}
