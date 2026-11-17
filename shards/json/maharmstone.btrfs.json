@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "maharmstone", "repo": "btrfs" },
+	"urls": [
+		"https://github.com/maharmstone/btrfs/releases/download/v{version}/btrfs-{version}.zip"
+	]
+}
