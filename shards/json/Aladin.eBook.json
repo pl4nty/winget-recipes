@@ -8,11 +8,7 @@
 	"urls": [
 		{
 			"url": "https://softcdn.ebook.aladin.co.kr/viewer/{version}/setup.exe",
-			"architecture": "x86"
-		},
-		{
-			"url": "https://softcdn.ebook.aladin.co.kr/viewer/{version}/setup.exe",
-			"architecture": "x64"
+			"architecture": "neutral"
 		}
 	]
 }
