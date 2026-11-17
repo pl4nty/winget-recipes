@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pit-ray",
+		"repo": "win-vind"
+	},
+	"urls": [
+		"https://github.com/pit-ray/win-vind/releases/download/{github.rawTag}/setup_win-vind_{version}_32bit.exe",
+		"https://github.com/pit-ray/win-vind/releases/download/{github.rawTag}/setup_win-vind_{version}_64bit.exe"
+	]
+}
