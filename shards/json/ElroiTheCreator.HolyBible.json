@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Elroi-thecreator",
+		"repo": "bibleweb"
+	},
+	"urls": [
+		"https://github.com/Elroi-thecreator/bibleweb/releases/download/v{version}/HolyBible-Portable.exe"
+	]
+}
