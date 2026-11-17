@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "surrealdb",
+		"repo": "surrealist",
+		"tagRegex": "^surrealist-v"
+	},
+	"urls": [
+		"https://github.com/surrealdb/surrealist/releases/download/{github.rawTag}/Surrealist_{version}_x64-setup.exe"
+	]
+}

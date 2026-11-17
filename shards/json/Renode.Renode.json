@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "renode",
+		"repo": "renode"
+	},
+	"urls": [
+		"https://github.com/renode/renode/releases/download/{github.rawTag}/renode-{version}.setup.exe"
+	]
+}

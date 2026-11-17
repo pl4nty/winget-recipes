@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "makr-code",
+		"repo": "ThemisDB"
+	},
+	"urls": [
+		"https://github.com/makr-code/ThemisDB/releases/download/{github.rawTag}/ThemisDB-COMMUNITY-{version}-windows-x64.zip"
+	]
+}

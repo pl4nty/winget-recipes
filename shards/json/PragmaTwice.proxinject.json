@@ -1,0 +1,5 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "PragmaTwice", "repo": "proxinject", "method": "api-list", "kind": "prerelease", "assetRegex": "^proxinjectSetup-v[\\d.]+-pre-x64\\.exe$" }
+}

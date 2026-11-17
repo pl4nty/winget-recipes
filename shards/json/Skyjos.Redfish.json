@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "skyjos-com",
+		"repo": "Redfish",
+		"method": "api-latest",
+		"assetRegex": "^RedfishSetup-\\d+(?:\\.\\d+)+\\.exe$"
+	}
+}
