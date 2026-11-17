@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DevelopersCommunity",
+		"repo": "cmake-jmeter"
+	},
+	"urls": [
+		"https://github.com/DevelopersCommunity/cmake-jmeter/releases/download/{github.rawTag}/JMeter-{version}-win32.msi"
+	]
+}
