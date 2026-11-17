@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kbralten",
+		"repo": "umdt"
+	},
+	"urls": [
+		"https://github.com/kbralten/umdt/releases/download/{github.rawTag}/UMDT_Setup.exe"
+	]
+}
