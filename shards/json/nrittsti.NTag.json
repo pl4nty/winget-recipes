@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nrittsti",
+		"repo": "ntag"
+	},
+	"urls": [
+		"https://github.com/nrittsti/ntag/releases/download/{github.rawTag}/ntag-{version}-win-setup.exe"
+	]
+}
