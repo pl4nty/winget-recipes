@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ahoy-cli",
+		"repo": "ahoy"
+	},
+	"urls": [
+		"https://github.com/ahoy-cli/ahoy/releases/download/{github.rawTag}/ahoy-bin-windows-amd64.exe",
+		"https://github.com/ahoy-cli/ahoy/releases/download/{github.rawTag}/ahoy-bin-windows-arm64.exe"
+	]
+}
