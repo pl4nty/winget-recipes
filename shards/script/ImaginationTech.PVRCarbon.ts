@@ -19,7 +19,7 @@ export default defineShard(async () => {
 		if (response.ok) {
 			const etag = response.headers.get('etag') ?? response.headers.get('last-modified') ?? '';
 			return {
-				version: { source: 'product' },
+				version: { source: 'display' },
 				urls: () => [url],
 				state: `${url} ${etag}`,
 				releaseNotes: {

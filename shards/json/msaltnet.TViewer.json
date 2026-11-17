@@ -4,7 +4,7 @@
 	"github": {
 		"owner": "msaltnet",
 		"repo": "T.Viewer",
-		"tagRegex": "^ver"
+		"tagRegex": "^v?er(?=\\d)"
 	},
 	"urls": ["https://github.com/msaltnet/T.Viewer/releases/download/{github.rawTag}/tviewer-setup-{version}.exe"]
 }

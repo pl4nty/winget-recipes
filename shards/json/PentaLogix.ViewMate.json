@@ -5,7 +5,7 @@
 	"urls": [
 		{
 			"url": "https://downloads.pentalogix.com/ViewMate_Setup.zip",
-			"nestedInstallerMatches": ["ViewMate_Setup.exe"]
+			"nestedInstallerMatches": ["Setup.exe"]
 		}
 	],
 	"state": {

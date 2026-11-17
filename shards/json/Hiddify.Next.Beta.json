@@ -5,7 +5,8 @@
 		"owner": "hiddify",
 		"repo": "hiddify-app",
 		"method": "api-list",
-		"kind": "prerelease"
+		"kind": "prerelease",
+		"tagRegex": "^v(?=\\d)"
 	},
 	"urls": [
 		"https://github.com/hiddify/hiddify-app/releases/download/{github.rawTag}/Hiddify-Windows-Setup-x64.exe"

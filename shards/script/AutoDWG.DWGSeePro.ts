@@ -2,7 +2,7 @@ import { defineShard } from 'anthelion';
 import { match } from 'anthelion/helpers';
 
 // The download page only names the yearly MSI (DWGSeePro<year>.msi) and never shows
-// the product version, so the version is read from the MSI and the URL plus its ETag
+// the product version, so the version is read from the MSI (DisplayVersion) and the URL plus its ETag
 // is kept as state.
 export default defineShard(async () => {
 	const page = await (await fetch('https://www.autodwg.com/dwg-viewer/')).text();
@@ -14,7 +14,7 @@ export default defineShard(async () => {
 	const etag = response.headers.get('etag') ?? response.headers.get('last-modified') ?? '';
 
 	return {
-		version: { source: 'product' },
+		version: { source: 'display' },
 		urls: () => [url],
 		state: `${url} ${etag}`,
 		replace: true,
