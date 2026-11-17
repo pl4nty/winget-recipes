@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://web.mit.edu/kerberos/dist/index.html",
+		"regex": "href=\"kfw/(\\d+(?:\\.\\d+)+)/kfw-\\1\\.msi\""
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://kerberos.org/dist/kfw/{version}/kfw-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://web.mit.edu/kerberos/kfw-{version}/kfw-{version}.html"
+	}
+}

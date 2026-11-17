@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://mathpix.com/win_app/version.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://download.mathpix.com/windows/mathpix_snipping_tool_setup.v{version}.exe"
+	]
+}

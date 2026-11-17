@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://citavibackoffice.blob.core.windows.net/setup/Citavi6Setup.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://citavibackoffice.blob.core.windows.net/setup/Citavi6Setup.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
