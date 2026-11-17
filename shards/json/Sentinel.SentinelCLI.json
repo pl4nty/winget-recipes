@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sentinel-official",
+		"repo": "cli-client"
+	},
+	"urls": [
+		"https://github.com/sentinel-official/cli-client/releases/download/{github.rawTag}/sentinelcli.exe"
+	]
+}
