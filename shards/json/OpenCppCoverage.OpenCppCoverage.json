@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OpenCppCoverage",
+		"repo": "OpenCppCoverage",
+		"tagRegex": "^release-"
+	},
+	"urls": [
+		"https://github.com/OpenCppCoverage/OpenCppCoverage/releases/download/{github.rawTag}/OpenCppCoverageSetup-x64-{version}.exe",
+		"https://github.com/OpenCppCoverage/OpenCppCoverage/releases/download/{github.rawTag}/OpenCppCoverageSetup-x86-{version}.exe"
+	]
+}
