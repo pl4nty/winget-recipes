@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dduan",
+		"repo": "tre",
+		"method": "api-latest",
+		"assetRegex": "^tre-v\\d+(?:\\.\\d+)+-x86_64-pc-windows-msvc\\.msi$"
+	}
+}
