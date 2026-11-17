@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-commit",
+	"github": {
+		"owner": "SagMeinenNamen",
+		"repo": "TypingTest",
+		"path": "TypingTest.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://raw.githubusercontent.com/SagMeinenNamen/TypingTest/{github.commit}/TypingTest.exe"
+	],
+	"state": {
+		"source": "value",
+		"value": "{github.commit}"
+	}
+}
