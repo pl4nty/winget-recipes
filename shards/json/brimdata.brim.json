@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "brimdata",
+		"repo": "zui"
+	},
+	"urls": [
+		"https://github.com/brimdata/zui/releases/download/{github.rawTag}/Zui-Setup-{version}.exe"
+	]
+}
