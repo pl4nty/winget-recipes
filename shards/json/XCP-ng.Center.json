@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xcp-ng",
+		"repo": "xenadmin",
+		"method": "api-list",
+		"tagRegex": "^v(?=\\d+\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/xcp-ng/xenadmin/releases/download/{github.rawTag}/XCP-ng.Center.msi"
+	]
+}
