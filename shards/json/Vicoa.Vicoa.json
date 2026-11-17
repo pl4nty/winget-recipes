@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vicoa-ai",
+		"repo": "vicoa",
+		"method": "api-sort",
+		"tagRegex": "^v(?=\\d)",
+		"assetRegex": "^Vicoa-Setup-.*\\.exe$",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/vicoa-ai/vicoa/releases/download/{github.rawTag}/Vicoa-Setup-{version}.exe"
+	]
+}
