@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://photodiva.net/PhotoDiva.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://photodiva.net/PhotoDiva.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
