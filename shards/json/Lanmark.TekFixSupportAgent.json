@@ -6,6 +6,9 @@
 		"repo": "tekfix-releases"
 	},
 	"urls": [
-		"https://github.com/Tekfixai/tekfix-releases/releases/download/{github.rawTag}/LanmarkTekFixSetup_v{version}_Silent.exe"
+		{
+			"url": "https://github.com/Tekfixai/tekfix-releases/releases/download/{github.rawTag}/LanmarkTekFixSetup_v{version}_Silent.exe",
+			"architecture": "x64"
+		}
 	]
 }

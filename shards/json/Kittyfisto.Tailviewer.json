@@ -5,7 +5,6 @@
 		"owner": "Kittyfisto",
 		"repo": "Tailviewer",
 		"method": "api-list",
-		"kind": "prerelease",
 		"assetRegex": "^Tailviewer-setup-[\\d.]+\\.exe$"
 	},
 	"version": {

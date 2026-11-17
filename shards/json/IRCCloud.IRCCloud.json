@@ -8,6 +8,9 @@
 		"kind": "prerelease"
 	},
 	"urls": [
-		"https://github.com/irccloud/irccloud-desktop/releases/download/{github.rawTag}/IRCCloud.exe"
+		{
+			"url": "https://github.com/irccloud/irccloud-desktop/releases/download/{github.rawTag}/IRCCloud.exe",
+			"architecture": "x64"
+		}
 	]
 }
