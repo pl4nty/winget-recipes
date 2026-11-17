@@ -5,5 +5,8 @@
 		"url": "https://arundaleais.github.io/docs/ais/ais_decoder_v3_downloads.html",
 		"regex": "AisDecoder_setup_(\\d+(?:\\.\\d+)+)\\.exe"
 	},
-	"urls": ["https://arundaleais.github.io/docs/ais/AisDecoder_setup_{version}.exe"]
+	"urls": ["https://arundaleais.github.io/docs/ais/AisDecoder_setup_{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://arundaleais.github.io/docs/ais/ais_decoder_v3_updates.html"
+	}
 }
