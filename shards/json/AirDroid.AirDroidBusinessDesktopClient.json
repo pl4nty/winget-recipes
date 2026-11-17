@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dl.airdroid.com/AirDroid_Business_Desktop_Client.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.airdroid.com/AirDroid_Business_Desktop_Client.exe",
+		"header": "etag"
+	}
+}
