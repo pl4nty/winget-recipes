@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://www.easy2convert.com/dlnmabb/png2dds.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.easy2convert.com/dlnmabb/png2dds.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.easy2convert.com/png2dds/"
+	},
+	"replace": true
+}
