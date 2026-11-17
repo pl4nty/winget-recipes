@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://apreltech.com/SilentInstallBuilder/Doc/Introduction/Versions",
+		"regex": "<h2>v(\\d+\\.\\d+\\.\\d+)</h2>"
+	},
+	"version": "{version}.0",
+	"urls": ["https://apreltech.com/Downloads/SibSetup.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://apreltech.com/SilentInstallBuilder/Doc/Introduction/Versions"
+	}
+}
