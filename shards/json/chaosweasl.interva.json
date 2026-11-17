@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chaosweasl",
+		"repo": "interva"
+	},
+	"urls": [
+		"https://github.com/chaosweasl/interva/releases/download/{github.rawTag}/interva_{version}_x64_en-US.msi"
+	]
+}
