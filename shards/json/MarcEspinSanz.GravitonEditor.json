@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Graviton-Code-Editor",
+		"repo": "Graviton-App"
+	},
+	"urls": [
+		"https://github.com/Graviton-Code-Editor/Graviton-App/releases/download/{github.rawTag}/Graviton-Editor_Installer_{version}_win.exe"
+	]
+}
