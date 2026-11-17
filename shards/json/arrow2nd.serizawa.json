@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "arrow2nd",
+		"repo": "serizawa"
+	},
+	"urls": [
+		"https://github.com/arrow2nd/serizawa/releases/download/{github.rawTag}/serizawa-{version}.exe"
+	]
+}
