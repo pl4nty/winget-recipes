@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://wwwnaturalreaderscom.s3.amazonaws.com/software/naturalreader16.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://wwwnaturalreaderscom.s3.amazonaws.com/software/naturalreader16.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
