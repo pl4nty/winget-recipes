@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://llmcase.ru/dl/version.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://llmcase.ru/dl/Golassista-Setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://llmcase.ru/golassista"
+	}
+}
