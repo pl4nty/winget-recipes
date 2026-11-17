@@ -9,6 +9,9 @@
 		"tagRegex": "-beta$"
 	},
 	"urls": [
-		"https://github.com/bozbez/win-capture-audio/releases/download/{github.rawTag}/win-capture-audio-{github.tag}-setup.exe"
+		{
+			"url": "https://github.com/bozbez/win-capture-audio/releases/download/{github.rawTag}/win-capture-audio-{github.tag}-setup.exe",
+			"architecture": "x64"
+		}
 	]
 }

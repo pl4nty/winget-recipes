@@ -12,7 +12,14 @@ export default defineShard(async () => {
 
 	return {
 		version: `${year}.${month}.${day}`,
-		urls: () => [`https://github.com/opentoonz/opentoonz_nightlies/releases/download/${release.rawTag}/OpenToonzSetup.exe`],
-		releaseNotes: { source: 'github', owner: 'opentoonz', repo: 'opentoonz_nightlies', tag: release.rawTag, cleanup: false },
+		// The Inno bootstrapper is 32-bit, but its payload (OpenToonz.exe and the tools) is AMD64 only.
+		urls: () => [
+			{
+				url: `https://github.com/opentoonz/opentoonz_nightlies/releases/download/${release.rawTag}/OpenToonzSetup.exe`,
+				architecture: 'x64',
+			},
+		],
+		// Nightly releases have no body, so link the release page.
+		releaseNotes: { releaseNotesUrl: `https://github.com/opentoonz/opentoonz_nightlies/releases/tag/${release.rawTag}` },
 	};
 });
