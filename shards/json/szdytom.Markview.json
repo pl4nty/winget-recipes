@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "szdytom",
+		"repo": "markview"
+	},
+	"urls": [
+		"https://github.com/szdytom/markview/releases/download/{github.rawTag}/markview-x86_64-pc-windows-msvc.msi",
+		"https://github.com/szdytom/markview/releases/download/{github.rawTag}/markview-aarch64-pc-windows-msvc.msi"
+	]
+}
