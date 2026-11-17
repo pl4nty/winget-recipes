@@ -6,7 +6,7 @@
 		"repo": "adb.clockworkmod.com"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": ["https://github.com/koush/adb.clockworkmod.com/releases/download/{github.rawTag}/UniversalAdbDriverSetup.msi"]
 }

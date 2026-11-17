@@ -6,7 +6,7 @@
 		"regex": "Couchbase Server (\\d+\\.\\d+\\.\\d+) was released"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": ["https://packages.couchbase.com/releases/{version}/couchbase-server-enterprise_{version}-windows_amd64.msi"],
 	"releaseNotes": {
