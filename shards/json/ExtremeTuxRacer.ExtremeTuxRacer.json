@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "extremetuxracer",
+		"file": "{version}/ExtremeTuxRacer.msi"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/extremetuxracer/files/releases/{version}/ExtremeTuxRacer.msi/download"
+	]
+}
