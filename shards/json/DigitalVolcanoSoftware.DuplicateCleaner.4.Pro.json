@@ -12,5 +12,8 @@
 		"url": "https://www.digitalvolcano.co.uk/download/DuplicateCleanerPro4_setup.exe",
 		"header": "last-modified"
 	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.digitalvolcano.co.uk/dcchangelog.html"
+	},
 	"replace": true
 }
