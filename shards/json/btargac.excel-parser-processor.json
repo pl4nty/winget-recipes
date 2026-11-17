@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "btargac",
+		"repo": "excel-parser-processor"
+	},
+	"urls": [
+		"https://github.com/btargac/excel-parser-processor/releases/download/{github.rawTag}/Excel-Parser-Processor-Web-Setup-{version}.exe"
+	]
+}

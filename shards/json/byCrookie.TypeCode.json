@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "byCrookie",
+		"repo": "TypeCode"
+	},
+	"urls": [
+		"https://github.com/byCrookie/TypeCode/releases/download/{github.rawTag}/TypeCode.Wpf.Setup.msi"
+	]
+}
