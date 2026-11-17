@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "joe-editor",
+		"file": "joewin-{version}.msi"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/joe-editor/files/JOE%20for%20Windows/{version}/joewin-{version}.msi/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/p/joe-editor/mercurial/ci/default/tree/NEWS.md"
+	}
+}
