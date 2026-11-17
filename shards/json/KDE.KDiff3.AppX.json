@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://cdn.kde.org/ci-builds/sdk/kdiff3/master/windows/",
+		"regex": "href=\"kdiff3-master-(\\d+)-windows-cl-msvc2022-x86_64-sideload\\.appx\""
+	},
+	"version": {
+		"source": "product"
+	},
+	"state": {
+		"source": "value",
+		"value": "{version}"
+	},
+	"urls": [
+		"https://cdn.kde.org/ci-builds/sdk/kdiff3/master/windows/kdiff3-master-{version}-windows-cl-msvc2022-x86_64-sideload.appx"
+	]
+}
