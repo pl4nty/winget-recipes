@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.teamspeak.com/en/downloads/",
+		"regex": "/releases/client/(?<version>3\\.\\d+(?:\\.\\d+)*)/TeamSpeak3-Client-win64-"
+	},
+	"urls": [
+		"https://files.teamspeak-services.com/releases/client/{version}/TeamSpeak3-Client-win64-{version}.exe",
+		"https://files.teamspeak-services.com/releases/client/{version}/TeamSpeak3-Client-win32-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.teamspeak.com/en/downloads/"
+	}
+}
