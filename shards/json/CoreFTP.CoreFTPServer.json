@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.coreftp.com/forums/viewtopic.php?f=15&t=4022509",
+		"regex": "<title>Server v(?<version>\\d+) build (?<build>\\d+) "
+	},
+	"version": "{version}.0.{captures.build}",
+	"urls": [
+		"https://www.coreftp.com/server/download/CoreFTPServer.exe",
+		"https://www.coreftp.com/server/download/CoreFTPServer64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.coreftp.com/forums/viewtopic.php?f=15&t=4022509"
+	}
+}
