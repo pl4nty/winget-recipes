@@ -6,6 +6,9 @@
 		"repo": "visualvm"
 	},
 	"urls": [
-		"https://github.com/oracle/visualvm/releases/download/{github.rawTag}/visualvm_{version|.|}.zip"
+		{
+			"url": "https://github.com/oracle/visualvm/releases/download/{github.rawTag}/visualvm_{version|.|}.zip",
+			"architecture": "x86"
+		}
 	]
 }
