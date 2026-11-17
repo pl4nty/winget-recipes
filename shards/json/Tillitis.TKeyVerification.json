@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tillitis",
+		"repo": "tkey-verification",
+		"method": "api-list",
+		"tagRegex": "^v(?=\\d+(?:\\.\\d+)+$)"
+	},
+	"urls": [
+		"https://github.com/tillitis/tkey-verification/releases/download/{github.rawTag}/tkey-verification_{version}_Windows_arm64.zip",
+		"https://github.com/tillitis/tkey-verification/releases/download/{github.rawTag}/tkey-verification_{version}_Windows_amd64.zip"
+	]
+}
