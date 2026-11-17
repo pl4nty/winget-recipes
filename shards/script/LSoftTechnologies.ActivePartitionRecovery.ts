@@ -16,5 +16,6 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [url],
+		releaseNotes: { releaseNotesUrl: 'https://www.partition-recovery.com/versions.html' },
 	};
 });

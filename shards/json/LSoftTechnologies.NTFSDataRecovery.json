@@ -8,5 +8,8 @@
 		"url": "https://download.lsoft.net/NtfsRecoveryToolkit.exe",
 		"header": "etag"
 	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ntfs.com/recovery-toolkit-history.htm"
+	},
 	"replace": true
 }

@@ -16,5 +16,6 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [url],
+		releaseNotes: { releaseNotesUrl: 'https://www.ntfs.com/DVD_data_burner.htm' },
 	};
 });

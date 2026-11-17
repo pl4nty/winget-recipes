@@ -16,5 +16,6 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [url],
+		releaseNotes: { releaseNotesUrl: 'https://www.file-recovery.com/versions.htm' },
 	};
 });

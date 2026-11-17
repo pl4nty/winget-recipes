@@ -16,5 +16,6 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [url],
+		releaseNotes: { releaseNotesUrl: 'https://www.ntfs.com/iso_file_manager_history.htm' },
 	};
 });

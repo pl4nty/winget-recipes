@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.wisecleaner.com/download.html",
-		"regex": "downloads\\.wisecleaner\\.com/soft/WRCFree_(?<version>\\d+(?:\\.\\d+){2})\\.(?<build>\\d+)\\.zip"
-	},
-	"urls": ["https://downloads.wisecleaner.com/soft/WRCFree_{version}.{captures.build}.zip"]
-}
