@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "redcode-labs",
+		"repo": "easyWSL",
+		"method": "api-latest",
+		"assetRegex": "_x64_.*\\.msix$"
+	}
+}
