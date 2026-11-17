@@ -3,9 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "BeetleBot",
-		"repo": "FountCLI"
+		"repo": "FountTUI"
 	},
 	"urls": [
-		"https://github.com/BeetleBot/FountCLI/releases/download/{github.rawTag}/Fount-{version}.msix"
+		"https://github.com/BeetleBot/FountTUI/releases/download/{github.rawTag}/Fount-{version}.msix"
 	]
 }

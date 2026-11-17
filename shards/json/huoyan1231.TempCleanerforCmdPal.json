@@ -4,8 +4,9 @@
 	"github": {
 		"owner": "huoyan1231",
 		"repo": "CmdpalTempCleaner",
-		"tagRegex": "_ms$",
-		"method": "api-latest"
+		"method": "api-list",
+		"kind": "stable",
+		"tagRegex": "(?:_ms)?$"
 	},
 	"version": "{version}.0"
 }
