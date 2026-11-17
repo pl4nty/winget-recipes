@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "toyobayashi",
+		"repo": "mishiro"
+	},
+	"urls": [
+		"https://github.com/toyobayashi/mishiro/releases/download/{github.rawTag}/mishiro-v{version}-win32-ia32-setup.exe",
+		"https://github.com/toyobayashi/mishiro/releases/download/{github.rawTag}/mishiro-v{version}-win32-x64-setup.exe"
+	]
+}
