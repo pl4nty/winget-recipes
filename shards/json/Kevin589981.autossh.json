@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kevin589981",
+		"repo": "autossh-windows"
+	},
+	"urls": [
+		"https://github.com/Kevin589981/autossh-windows/releases/download/{github.rawTag}/autossh-windows-amd64.exe"
+	]
+}
