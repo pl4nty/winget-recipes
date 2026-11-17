@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://snipset.belajarcarabelajar.com/api/updater",
+		"platforms": [
+			"windows-x86_64"
+		]
+	},
+	"version": {
+		"source": "product"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://snipset.belajarcarabelajar.com/changelog"
+	}
+}
