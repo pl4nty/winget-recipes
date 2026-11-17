@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "manfred-mueller",
+		"repo": "ShowDesktop"
+	},
+	"urls": [
+		"https://github.com/manfred-mueller/ShowDesktop/releases/download/{github.rawTag}/ShowDesktop-Setup-{version}.exe"
+	]
+}
