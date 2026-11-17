@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/mp3gain/rss?path=/MP3Gain-Windows%20(Stable)",
+		"regex": "/MP3Gain-Windows%20%28Stable%29/(?<version>\\d+(?:\\.\\d+)+)/mp3gain-win-full-[\\d_]+\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/mp3gain/files/MP3Gain-Windows%20(Stable)/{version}/mp3gain-win-full-{version|.|_}.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://mp3gain.sourceforge.net/"
+	}
+}
