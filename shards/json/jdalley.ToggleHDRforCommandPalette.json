@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jdalley",
+		"repo": "command-palette-toggle-hdr",
+		"method": "api-latest",
+		"assetRegex": "^jdalley\\.ToggleHDRExtensionforCommandPalette_[\\d.]+_x64__ygjv9tpcda3x6\\.msix$"
+	}
+}
