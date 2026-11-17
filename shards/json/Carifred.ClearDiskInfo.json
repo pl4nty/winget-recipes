@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.carifred.com/cleardiskinfo/",
+		"regex": "Current version: (\\d+(?:\\.\\d+)+)\\."
+	},
+	"urls": [
+		"https://www.carifred.com/cleardiskinfo/ClearDiskInfo.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.carifred.com/cleardiskinfo/about.php#changelog"
+	}
+}
