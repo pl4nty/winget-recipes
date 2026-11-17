@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RandomEngy",
+		"repo": "VidCoder",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "-beta$"
+	},
+	"urls": [
+		"https://github.com/RandomEngy/VidCoder/releases/download/{github.rawTag}/VidCoder-{version}-Beta-x64.exe"
+	]
+}
