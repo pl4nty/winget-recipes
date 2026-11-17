@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "G0rocks",
+		"repo": "cab"
+	},
+	"urls": [
+		"https://github.com/G0rocks/cab/releases/download/{github.rawTag}/cab.exe"
+	]
+}
