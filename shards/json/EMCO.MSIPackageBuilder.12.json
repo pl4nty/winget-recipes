@@ -6,7 +6,10 @@
 		"regex": "Version\\s+(?<version>12\\.\\d+\\.\\d+)"
 	},
 	"urls": [
-		"https://storage.emcosoftware.com/download/archive/msipackagebuilder/v12/MSIPackageBuilderSetup-{version}.exe"
+		{
+			"url": "https://storage.emcosoftware.com/download/archive/msipackagebuilder/v12/MSIPackageBuilderSetup-{version}.exe",
+			"architecture": "neutral"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://emcosoftware.com/msi-package-builder/whats-new"

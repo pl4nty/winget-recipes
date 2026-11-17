@@ -5,7 +5,12 @@
 		"url": "https://gitlab.com/api/v4/projects/dkml%2Fdistributions%2Fdkml/releases/permalink/latest",
 		"path": "tag_name"
 	},
-	"urls": ["https://gitlab.com/api/v4/projects/dkml%2Fdistributions%2Fdkml/packages/generic/release/{version}/setup64nu.exe"],
+	"urls": [
+		{
+			"url": "https://gitlab.com/api/v4/projects/dkml%2Fdistributions%2Fdkml/packages/generic/release/{version}/setup64nu.exe",
+			"architecture": "x64"
+		}
+	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://gitlab.com/dkml/distributions/dkml/-/releases/{version}"
 	}

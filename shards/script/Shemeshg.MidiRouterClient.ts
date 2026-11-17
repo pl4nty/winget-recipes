@@ -14,7 +14,7 @@ export default defineShard(async () => {
 		version,
 		urls: () => [
 			`https://sourceforge.net/projects/midi-router-client/files/midi-router-client-${version}-win64.exe/download`,
-			`https://sourceforge.net/projects/midi-router-client/files/midi-router-client-${version}-win64-ARM.exe/download`,
+			{ url: `https://sourceforge.net/projects/midi-router-client/files/midi-router-client-${version}-win64-ARM.exe/download`, architecture: 'arm64' },
 		],
 	};
 });

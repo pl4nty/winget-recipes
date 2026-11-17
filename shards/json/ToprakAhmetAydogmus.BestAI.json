@@ -6,6 +6,9 @@
 		"repo": "BEST-AI"
 	},
 	"urls": [
-		"https://github.com/toprakahmetaydogmus/BEST-AI/releases/download/{github.rawTag}/BestAI_Setup.exe"
+		{
+			"url": "https://github.com/toprakahmetaydogmus/BEST-AI/releases/download/{github.rawTag}/BestAI_Setup.exe",
+			"architecture": "neutral"
+		}
 	]
 }

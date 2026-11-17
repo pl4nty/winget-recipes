@@ -10,7 +10,8 @@
 			"url": "https://download.beyondatc.app/BATC_{version}.EA_Installer.zip",
 			"nestedInstallerMatches": [
 				"BeyondATCInstaller.exe"
-			]
+			],
+			"architecture": "x64"
 		}
 	],
 	"releaseNotes": {

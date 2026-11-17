@@ -23,6 +23,10 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [installer.browser_download_url, portable.browser_download_url],
+		// CapFrameX.exe in the same release's portable archive is x64 (PE32+); the bootstrapper is x86.
+		urls: () => [
+			{ url: installer.browser_download_url, architecture: 'x64' },
+			{ url: portable.browser_download_url, architecture: 'x64' },
+		],
 	};
 });

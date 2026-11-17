@@ -6,6 +6,9 @@
 		"repo": "soplang"
 	},
 	"urls": [
-		"https://github.com/soplang/soplang/releases/download/v{version}/soplang-setup.exe"
+		{
+			"url": "https://github.com/soplang/soplang/releases/download/v{version}/soplang-setup.exe",
+			"architecture": "x64"
+		}
 	]
 }

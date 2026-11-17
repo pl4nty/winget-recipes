@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://west-wind.com/files/WebSurgeSetup.exe"
+		{
+			"url": "https://west-wind.com/files/WebSurgeSetup.exe",
+			"architecture": "neutral"
+		}
 	],
 	"state": {
 		"source": "response-header",

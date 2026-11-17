@@ -5,5 +5,10 @@
 		"owner": "seird",
 		"repo": "gotify-tray"
 	},
-	"urls": ["https://github.com/seird/gotify-tray/releases/download/{github.rawTag}/gotify-tray-installer-win.exe"]
+	"urls": [
+		{
+			"url": "https://github.com/seird/gotify-tray/releases/download/{github.rawTag}/gotify-tray-installer-win.exe",
+			"architecture": "x64"
+		}
+	]
 }

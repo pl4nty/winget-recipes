@@ -5,7 +5,10 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://appsdistributionstorage.blob.core.windows.net/msi/Narula/NLock/Narula.File.NLock.Setup.msi"
+		{
+			"url": "https://appsdistributionstorage.blob.core.windows.net/msi/Narula/NLock/Narula.File.NLock.Setup.msi",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",

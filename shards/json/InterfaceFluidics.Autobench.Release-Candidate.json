@@ -3,5 +3,11 @@
 	"strategy": "appinstaller",
 	"appinstaller": {
 		"url": "https://apps.interfacefluidics.com/autobench/release-candidate/autobench-installer-release-candidate.appinstaller"
-	}
+	},
+	"urls": [
+		{
+			"url": "https://apps.interfacefluidics.com/autobench/release-candidate/{version}/autobench-{version}.msix",
+			"architecture": "x64"
+		}
+	]
 }

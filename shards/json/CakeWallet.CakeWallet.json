@@ -6,6 +6,9 @@
 		"repo": "cake_wallet"
 	},
 	"urls": [
-		"https://github.com/cake-tech/cake_wallet/releases/download/{github.rawTag}/Cake_Wallet_{github.rawTag}_Windows.exe"
+		{
+			"url": "https://github.com/cake-tech/cake_wallet/releases/download/{github.rawTag}/Cake_Wallet_{github.rawTag}_Windows.exe",
+			"architecture": "x64"
+		}
 	]
 }

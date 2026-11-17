@@ -6,7 +6,10 @@
 		"regex": "Latest version: v ?(\\d+\\.\\d+)"
 	},
 	"urls": [
-		"https://www.resplendence.com/download/WhySoSlowSetup.exe"
+		{
+			"url": "https://www.resplendence.com/download/WhySoSlowSetup.exe",
+			"architecture": "x86"
+		}
 	],
 	"replace": true,
 	"releaseNotes": {

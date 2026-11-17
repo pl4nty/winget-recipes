@@ -6,7 +6,10 @@
 		"regex": "Latest version: v ?(\\d+\\.\\d+)"
 	},
 	"urls": [
-		"https://www.resplendence.com/download/RegistrarHomeV9.exe"
+		{
+			"url": "https://www.resplendence.com/download/RegistrarHomeV9.exe",
+			"architecture": "x86"
+		}
 	],
 	"replace": true,
 	"releaseNotes": {

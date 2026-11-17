@@ -7,7 +7,10 @@
 	},
 	"version": "{captures.major}.{version}",
 	"urls": [
-		"https://www.grzsoftware.com/files/v{captures.major}/{version}/MeshCAM{captures.major}-Build{version}.exe"
+		{
+			"url": "https://www.grzsoftware.com/files/v{captures.major}/{version}/MeshCAM{captures.major}-Build{version}.exe",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.grzsoftware.com/dl/"

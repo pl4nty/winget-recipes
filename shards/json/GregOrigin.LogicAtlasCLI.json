@@ -6,6 +6,9 @@
 		"repo": "LogicAtlas-CLI"
 	},
 	"urls": [
-		"https://github.com/gregorik/LogicAtlas-CLI/releases/download/{github.rawTag}/LogicAtlas-CLI_{github.rawTag}.zip"
+		{
+			"url": "https://github.com/gregorik/LogicAtlas-CLI/releases/download/{github.rawTag}/LogicAtlas-CLI_{github.rawTag}.zip",
+			"architecture": "neutral"
+		}
 	]
 }

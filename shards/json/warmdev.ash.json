@@ -6,6 +6,9 @@
 		"repo": "ash"
 	},
 	"urls": [
-		"https://github.com/warmdev17/ash/releases/download/{github.rawTag}/ash-installer.exe"
+		{
+			"url": "https://github.com/warmdev17/ash/releases/download/{github.rawTag}/ash-installer.exe",
+			"architecture": "x64"
+		}
 	]
 }

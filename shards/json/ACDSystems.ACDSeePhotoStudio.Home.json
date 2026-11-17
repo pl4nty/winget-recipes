@@ -6,7 +6,10 @@
 		"regex": "fusion-toggle-heading>(\\d+(?:\\.\\d+)+)<[\\s\\S]*?href=https://dl\\.acdsystems\\.com/acdsee/en/(?<file>acdsee-photo-studio-home-\\d+(?:-\\d+)+-win-en\\.exe)"
 	},
 	"urls": [
-		"https://dl.acdsystems.com/acdsee/en/{captures.file}"
+		{
+			"url": "https://dl.acdsystems.com/acdsee/en/{captures.file}",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.acdsee.com/en/support/photo-studio-home/changelog/"
