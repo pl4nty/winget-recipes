@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wipedlifepotato",
+		"repo": "Kekulen-I2P-Messanger"
+	},
+	"version": "alpha-v{version|a|}",
+	"urls": [
+		{
+			"url": "https://github.com/wipedlifepotato/Kekulen-I2P-Messanger/releases/download/{github.rawTag}/kekulen-windows-xp-i686.zip",
+			"nestedInstallerMatches": [
+				"i686-pc-windows-msvc/release/kekulen.exe"
+			]
+		},
+		{
+			"url": "https://github.com/wipedlifepotato/Kekulen-I2P-Messanger/releases/download/{github.rawTag}/kekulen-windows-x64.zip",
+			"nestedInstallerMatches": [
+				"kekulen.exe"
+			]
+		}
+	]
+}
