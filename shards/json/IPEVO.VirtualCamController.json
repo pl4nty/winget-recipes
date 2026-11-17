@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://us.ipevo.com/pages/software",
+		"regex": "/virtualCam_controller/IPEVO_VirtualCam_Controller_win10_v(?<version>\\d+(?:\\.\\d+)+)\\.msi\\.zip"
+	},
+	"urls": ["https://s3-us-west-1.amazonaws.com/files.ipevo.com/download/driver/virtualCam_controller/IPEVO_VirtualCam_Controller_win10_v{version}.msi.zip"]
+}
