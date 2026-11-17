@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://flat-storage.oss-accelerate.aliyuncs.com/versions/latest/stable/win/latest.yml"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "netless-io",
+		"repo": "flat",
+		"tag": "v{version}"
+	}
+}
