@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aamitn",
+		"repo": "simc"
+	},
+	"urls": [
+		"https://github.com/aamitn/simc/releases/download/{github.rawTag}/SimC.msi"
+	]
+}
