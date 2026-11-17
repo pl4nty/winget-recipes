@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://downloads.lexicool.com/InstallLexibarFR.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.lexicool.com/InstallLexibarFR.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.lexicool.com/lexibar_special_keyboard_characters.asp"
+	},
+	"replace": true
+}
