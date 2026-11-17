@@ -5,7 +5,10 @@
 		"source": "file"
 	},
 	"urls": [
-		"https://cdn.ravensburger.de/db/Installer/tiptoi_Manager_Installer.exe"
+		{
+			"url": "https://cdn.ravensburger.de/db/Installer/tiptoi_Manager_Installer.exe",
+			"architecture": "neutral"
+		}
 	],
 	"state": {
 		"source": "response-header",
