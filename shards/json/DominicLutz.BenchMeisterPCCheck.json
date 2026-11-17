@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Dominic-Lutz85",
+		"repo": "benchmeister-pc-check"
+	},
+	"urls": [
+		"https://github.com/Dominic-Lutz85/benchmeister-pc-check/releases/download/{github.rawTag}/BenchMeister-PC-Check.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AmariahAK",
+		"repo": "atlarix-releases"
+	},
+	"urls": [
+		"https://github.com/AmariahAK/atlarix-releases/releases/download/{github.rawTag}/atlarix-cli-windows-x64.zip"
+	]
+}
