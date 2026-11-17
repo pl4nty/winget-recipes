@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "fjord79",
-		"repo": "SkyNotepad"
+		"repo": "SkyNotepad",
+		"method": "api-list"
 	},
 	"urls": [
 		"https://github.com/fjord79/SkyNotepad/releases/download/{github.rawTag}/AlperAkca79.SkyNotepad_{version}_cp7832jw38n0r.msixbundle"

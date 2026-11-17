@@ -5,6 +5,6 @@
 		"owner": "google",
 		"repo": "UIforETW",
 		"method": "api-list",
-		"assetRegex": "^etwpackage\\d+(?:\\.\\d+)+\\.zip$"
+		"assetRegex": "^etwpackage.*\\.zip$"
 	}
 }
