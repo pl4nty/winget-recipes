@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.progdvb.com/media_cs.html",
+		"regex": "files\\.progdvb\\.com/server/pms_small\\.(\\d+\\.\\d+)\\.x64\\.exe"
+	},
+	"urls": [
+		"https://files.progdvb.com/server/pms_small.{version}.exe",
+		"https://files.progdvb.com/server/pms_small.{version}.x64.exe"
+	]
+}
