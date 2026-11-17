@@ -5,6 +5,9 @@
 		"url": "http://www.quickpar.org.uk/",
 		"regex": "QuickPar version (?<version>\\d+(?:\\.\\d+)+) has now been released"
 	},
+	"version": {
+		"source": "display"
+	},
 	"urls": [
 		"http://download.quickpar.org.uk/download.php/QuickPar-{version}.0.exe"
 	],

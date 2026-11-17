@@ -12,6 +12,13 @@
 			"nestedInstallerMatches": [
 				"nssm-{version}\\win64\\nssm.exe"
 			]
+		},
+		{
+			"url": "https://nssm.cc/ci/nssm-{version}.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": [
+				"nssm-{version}\\win32\\nssm.exe"
+			]
 		}
 	],
 	"releaseNotes": {

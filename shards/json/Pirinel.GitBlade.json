@@ -5,6 +5,9 @@
 		"url": "https://gitblade.com/",
 		"regex": "/dl/gitblade-(?<version>\\d+(?:\\.\\d+)+)-win32-x64\\.exe"
 	},
+	"version": {
+		"source": "display"
+	},
 	"urls": [
 		"https://gitblade.com/dl/gitblade-{version}-win32-x64.exe"
 	],

@@ -3,7 +3,10 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "SKAARHOJ",
-		"repo": "keybridge-releases"
+		"repo": "keybridge-releases",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "-(?:alpha|beta|rc)(?:\\.\\d+)?$"
 	},
 	"urls": [
 		"https://github.com/SKAARHOJ/keybridge-releases/releases/download/{github.rawTag}/KeyBridge.exe"
