@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://openelement.uk/Download.htm",
+		"regex": ">(?<version>\\d+\\.\\d+) R(?<release>\\d+) \\| \\d+ Mb"
+	},
+	"version": "{version}.{captures.release}",
+	"urls": [
+		"https://openelement.uk/Files/Other/openElement.exe"
+	]
+}
