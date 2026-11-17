@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.softsea.com/software/Backup-Thunderbird.html",
+		"regex": "<li>Version: (\\d+(?:[.-]\\d+)*)</li>"
+	},
+	"urls": ["https://file1.softsea.com/get.php?file=backupthunderbird_setup.exe"]
+}
