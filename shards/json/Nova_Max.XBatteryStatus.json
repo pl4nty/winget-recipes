@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tommaier123",
+		"repo": "XBatteryStatus",
+		"tagRegex": "^V"
+	},
+	"urls": [
+		"https://github.com/tommaier123/XBatteryStatus/releases/download/{github.rawTag}/XBatteryStatus.msi"
+	]
+}
