@@ -1,7 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": {
+		"source": "display"
+	},
 	"urls": [
 		"https://www.chadsoft.co.uk/ctools/setup/ctoolssetup.msi"
 	],

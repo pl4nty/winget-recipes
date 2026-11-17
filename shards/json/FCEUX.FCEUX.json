@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "TASEmulators",
-		"repo": "fceux"
+		"repo": "fceux",
+		"tagRegex": "^fceux-"
 	},
 	"urls": [
 		"https://github.com/TASEmulators/fceux/releases/download/{github.rawTag}/fceux-{version}-win32.zip",

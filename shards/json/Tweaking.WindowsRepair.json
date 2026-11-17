@@ -1,7 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "product" },
+	"version": {
+		"source": "display"
+	},
 	"urls": [
 		"https://www.tweaking.com/files/setups/tweaking.com_windows_repair_aio_setup.exe"
 	],

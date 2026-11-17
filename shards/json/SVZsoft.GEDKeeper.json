@@ -3,9 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Serg-Norseman",
-		"repo": "GEDKeeper"
-	},
-	"urls": [
-		"https://github.com/Serg-Norseman/GEDKeeper/releases/download/{github.rawTag}/gedkeeper_{version}_win64.zip"
-	]
+		"repo": "GEDKeeper",
+		"method": "api-latest",
+		"assetRegex": "win64.*\\.zip$"
+	}
 }

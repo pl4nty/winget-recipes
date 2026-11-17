@@ -4,9 +4,7 @@
 	"github": {
 		"owner": "theubusu",
 		"repo": "sddl_dec",
-		"tagRegex": "^release_?"
-	},
-	"urls": [
-		"https://github.com/theubusu/sddl_dec/releases/download/{github.rawTag}/windows_64.zip"
-	]
+		"method": "api-latest",
+		"assetRegex": "windows.*\\.zip$"
+	}
 }
