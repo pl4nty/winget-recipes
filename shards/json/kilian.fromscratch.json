@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kilian",
+		"repo": "fromscratch"
+	},
+	"urls": [
+		"https://github.com/Kilian/fromscratch/releases/download/{github.rawTag}/FromScratch.Setup.{version}.exe"
+	]
+}
