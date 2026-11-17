@@ -4,7 +4,7 @@
 	"github": {
 		"owner": "yermak",
 		"repo": "AudioBookConverter",
-		"tagRegex": "^version_"
+		"tagRegex": "^v?ersion_"
 	},
 	"urls": [
 		"https://github.com/yermak/AudioBookConverter/releases/download/{github.rawTag}/AudioBookConverter-All-Users-{version}.msi",
