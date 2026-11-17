@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://regedix.webrox.fr/",
+		"regex": "download\\.php\\?v=(?<version>\\d+(?:\\.\\d+)+)&file=\\k<version>/Regedix-(?<short>\\d+(?:\\.\\d+)+)-x86\\.exe"
+	},
+	"urls": [
+		"https://regedix.webrox.fr/download.php?v={version}&file={version}/Regedix-{captures.short}-x86.exe",
+		"https://regedix.webrox.fr/download.php?v={version}&file={version}/Regedix-{captures.short}-x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://regedix.webrox.fr/"
+	}
+}
