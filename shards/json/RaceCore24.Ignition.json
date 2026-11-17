@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.racecore24.net/",
+		"regex": "download/Ignition/(\\d+(?:\\.\\d+)+)/RaceCore24\\.Ignition\\.Setup\\.msi"
+	},
+	"urls": [
+		"https://www.racecore24.net/download/Ignition/{version}/RaceCore24.Ignition.Setup.msi"
+	]
+}
