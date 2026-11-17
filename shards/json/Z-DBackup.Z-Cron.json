@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://z-download.de/down4711/zcron.zip",
+			"nestedInstallerMatches": [
+				"zcron.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://z-download.de/down4711/zcron.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
