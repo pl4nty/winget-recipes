@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "misitebao",
+		"repo": "misitebao"
+	},
+	"urls": [
+		"https://github.com/misitebao/misitebao/releases/download/{github.rawTag}/MisiteBao_{version}_windows_386.zip",
+		"https://github.com/misitebao/misitebao/releases/download/{github.rawTag}/MisiteBao_{version}_windows_amd64.zip",
+		"https://github.com/misitebao/misitebao/releases/download/{github.rawTag}/MisiteBao_{version}_windows_arm64.zip"
+	]
+}
