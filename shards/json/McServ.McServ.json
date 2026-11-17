@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DRSchlaubi",
+		"repo": "mcserv"
+	},
+	"urls": [
+		"https://github.com/DRSchlaubi/mcserv/releases/download/{github.rawTag}/mcserv-{version}.msi"
+	]
+}
