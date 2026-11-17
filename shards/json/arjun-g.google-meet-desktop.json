@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "arjun-g",
+		"repo": "google-meet-desktop"
+	},
+	"urls": [
+		"https://github.com/arjun-g/google-meet-desktop/releases/download/{github.rawTag}/Google.Meet.Setup.{version}.exe"
+	]
+}
