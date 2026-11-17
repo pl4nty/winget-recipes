@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.quicksfv.org/quicksfv-setup64.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.quicksfv.org/quicksfv-setup64.msi",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.quicksfv.org/"
+	},
+	"replace": true
+}
