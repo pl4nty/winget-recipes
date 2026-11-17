@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vadimkholodilo",
+		"repo": "git-switch-branch",
+		"tagRegex": "^V"
+	},
+	"urls": [
+		"https://github.com/vadimkholodilo/git-switch-branch/releases/download/{github.rawTag}/git-switch-branch-{github.rawTag}-win-x64.zip",
+		"https://github.com/vadimkholodilo/git-switch-branch/releases/download/{github.rawTag}/git-switch-branch-{github.rawTag}-win-arm64.zip"
+	]
+}
