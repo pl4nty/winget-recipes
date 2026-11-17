@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Muhammed87643",
+		"repo": "Friday-Night-Funkin-Silent-Installer"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/Muhammed87643/Friday-Night-Funkin-Silent-Installer/releases/download/{github.rawTag}/Funkin.msi"
+	]
+}
