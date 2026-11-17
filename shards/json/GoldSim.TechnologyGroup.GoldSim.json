@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.goldsim.com/Web/Customers/Downloads/GoldSim/",
+		"regex": "rackcdn\\.com/(?<file>GoldSim_[^\"/]+_Setup\\.exe)[\\s\\S]*?Latest Revision \\((?<version>\\d+)[^,]*, Build #(?<build>\\d+)\\)"
+	},
+	"version": "{version}.0.{captures.build}",
+	"urls": ["https://29f47c9f939381a973ca-12e283108c711e866765bf13c6d170c2.ssl.cf1.rackcdn.com/{captures.file}"]
+}
