@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "syncterm",
+		"file": "SyncTERM-{version}-setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/syncterm/files/syncterm/syncterm-{version}/SyncTERM-{version}-setup.exe/download"
+	]
+}
