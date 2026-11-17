@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NBISweden",
+		"repo": "MrBayes"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/NBISweden/MrBayes/releases/download/{github.rawTag}/MrBayes-{version}-WIN.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": [
+				"MrBayes-{version}-WIN\\bin\\mb.{version}-win64.exe"
+			]
+		}
+	]
+}
