@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nicerloop",
+		"repo": "ivanti-self-elevate"
+	},
+	"urls": [
+		"https://github.com/nicerloop/ivanti-self-elevate/releases/download/{github.rawTag}/gsudo.exe"
+	]
+}
