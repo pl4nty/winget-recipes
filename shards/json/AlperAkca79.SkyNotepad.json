@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "lnxwizard",
+		"owner": "fjord79",
 		"repo": "SkyNotepad"
 	},
 	"urls": [
-		"https://github.com/lnxwizard/SkyNotepad/releases/download/{github.rawTag}/AlperAkca79.SkyNotepad_{version}_cp7832jw38n0r.msixbundle"
+		"https://github.com/fjord79/SkyNotepad/releases/download/{github.rawTag}/AlperAkca79.SkyNotepad_{version}_cp7832jw38n0r.msixbundle"
 	]
 }

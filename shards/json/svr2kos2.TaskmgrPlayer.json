@@ -11,6 +11,11 @@
 		"tagRegex": "^release$"
 	},
 	"urls": [
-		"https://github.com/svr2kos2/TaskmgrPlayer/releases/download/{github.rawTag}/TaskmgrPlayer.zip"
+		{
+			"url": "https://github.com/svr2kos2/TaskmgrPlayer/releases/download/{github.rawTag}/TaskmgrPlayer.zip",
+			"nestedInstallerMatches": [
+				"TaskmgrPlayer.exe"
+			]
+		}
 	]
 }

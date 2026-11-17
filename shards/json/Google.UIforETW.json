@@ -3,9 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "google",
-		"repo": "UIforETW"
-	},
-	"urls": [
-		"https://github.com/google/UIforETW/releases/download/{github.rawTag}/etwpackage{version}.zip"
-	]
+		"repo": "UIforETW",
+		"method": "api-list",
+		"assetRegex": "^etwpackage\\d+(?:\\.\\d+)+\\.zip$"
+	}
 }

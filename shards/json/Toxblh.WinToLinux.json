@@ -6,6 +6,11 @@
 		"repo": "WinToLinux"
 	},
 	"urls": [
-		"https://github.com/Toxblh/WinToLinux/releases/download/{github.rawTag}/WinToLinux.zip"
+		{
+			"url": "https://github.com/Toxblh/WinToLinux/releases/download/{github.rawTag}/WinToLinux_x86.zip",
+			"nestedInstallerMatches": [
+				"publish/WinToLinux.exe"
+			]
+		}
 	]
 }

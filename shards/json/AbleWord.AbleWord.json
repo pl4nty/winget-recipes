@@ -1,15 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://www.ableword.net/downloads.html",
+		"regex": "Version (\\d+(?:\\.\\d+)+)"
 	},
 	"urls": [
 		"http://www.ableword.net/ableword.exe"
-	],
-	"state": {
-		"source": "response-header",
-		"url": "http://www.ableword.net/ableword.exe",
-		"header": "etag"
-	}
+	]
 }
