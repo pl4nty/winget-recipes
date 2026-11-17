@@ -6,6 +6,9 @@
 		"regex": "setups/windows/audiorelay-(\\d+(?:\\.\\d+)+)\\.exe"
 	},
 	"urls": [
-		"https://dl.audiorelay.net/setups/windows/audiorelay-{version}.exe"
+		{
+			"url": "https://dl.audiorelay.net/setups/windows/audiorelay-{version}.exe",
+			"architecture": "x64"
+		}
 	]
 }
