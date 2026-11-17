@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://files.freeciv.org/packages/windows/",
+		"regex": "href=\"Freeciv-(\\d+(?:\\.\\d+)+)-msys2-win64-10-gtk3\\.22-setup\\.exe\""
+	},
+	"urls": [
+		"https://files.freeciv.org/packages/windows/Freeciv-{version}-msys2-win64-10-gtk3.22-setup.exe",
+		"https://files.freeciv.org/packages/windows/Freeciv-{version}-msys2-win64-10-gtk3.22-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.freeciv.org/wiki/NEWS-{version}"
+	}
+}

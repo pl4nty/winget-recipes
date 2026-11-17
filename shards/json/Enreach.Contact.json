@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://desktop.coligo.com/binaries/cdc_enreach/download.php",
+		"path": "current"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://desktop.coligo.com/binaries/cdc_enreach/{version}/EnreachContact.msi"
+	],
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://desktop.coligo.com/binaries/cdc_enreach/download.php",
+		"path": "notes.en",
+		"nestedSource": "plain-text",
+		"cleanup": false
+	}
+}

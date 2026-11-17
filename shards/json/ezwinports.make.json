@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/ezwinports/rss",
+		"regex": "/files/make-(\\d+(?:\\.\\d+)+)-without-guile-w32-bin\\.zip/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/ezwinports/files/make-{version}-without-guile-w32-bin.zip/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/projects/ezwinports/files/"
+	}
+}
