@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.airsquirrels.com/reflector/download",
+		"regex": "download\\.airsquirrels\\.com/Reflector3/Windows/Reflector(\\d+\\.\\d+\\.\\d+)-64\\.msi"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://download.airsquirrels.com/Reflector3/Windows/Reflector{version}-32.msi",
+		"https://download.airsquirrels.com/Reflector3/Windows/Reflector{version}-64.msi"
+	]
+}
