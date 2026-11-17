@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "trustcrypto",
+		"repo": "OnlyKey-App"
+	},
+	"urls": ["https://github.com/trustcrypto/OnlyKey-App/releases/download/{github.rawTag}/OnlyKey_{version}.exe"]
+}

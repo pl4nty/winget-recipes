@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aliceandbob-io",
+		"repo": "aliceandbob-desktop"
+	},
+	"urls": [
+		"https://github.com/aliceandbob-io/aliceandbob-desktop/releases/download/{github.rawTag}/aliceandbob.io-{version}_x32.Setup.exe",
+		"https://github.com/aliceandbob-io/aliceandbob-desktop/releases/download/{github.rawTag}/aliceandbob.io-{version}_x64.Setup.exe"
+	]
+}

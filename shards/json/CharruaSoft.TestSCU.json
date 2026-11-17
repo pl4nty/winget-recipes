@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://charruasoft.com/products/downloads/testscu.zip",
+			"nestedInstallerMatches": [
+				"TestSCU.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://charruasoft.com/products/downloads/testscu.zip",
+		"header": "last-modified"
+	},
+	"replace": true
+}

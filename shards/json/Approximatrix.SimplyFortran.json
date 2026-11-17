@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://simplyfortran.com/download/",
+		"regex": "download\\.simplyfortran\\.com/(?<dir>[\\d.]+)/windows/simplyfortran-(?<version>\\d+(?:\\.\\d+)+)\\.msix"
+	},
+	"urls": ["https://download.simplyfortran.com/{captures.dir}/windows/simplyfortran-{version}.msix"]
+}
