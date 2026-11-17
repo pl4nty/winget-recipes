@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.santesoft.com/win/sante-dicom-editor/download.html",
+		"regex": "sante_dicom_editor\\.zip\">\\s*Version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://www.santesoft.com/files/win/sante_dicom_editor.zip"
+	]
+}

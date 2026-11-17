@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.gamani.com/download/MovieGear4.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.gamani.com/download/MovieGear4.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
