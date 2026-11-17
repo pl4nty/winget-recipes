@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "{version}.0.0",
+	"github": {
+		"owner": "tcobbs",
+		"repo": "ldview",
+		"method": "api-latest",
+		"assetRegex": "^LDView(?:64)?-\\d+\\.exe$"
+	}
+}
