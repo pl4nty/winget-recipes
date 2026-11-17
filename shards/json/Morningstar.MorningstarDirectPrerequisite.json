@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://directserverside-static.do41368.eas.morningstar.com/dwsv2/direct/prerequisite.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://directserverside-static.do41368.eas.morningstar.com/dwsv2/direct/prerequisite.msi",
+		"header": "etag"
+	}
+}
