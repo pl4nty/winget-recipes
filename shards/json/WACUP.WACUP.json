@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://getwacup.com/preview/",
+		"regex": "WACUP_Preview_v(?<file>(?<version>\\d+(?:_\\d+){3}))_x86\\.exe"
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://getwacup.com/preview/WACUP_Preview_v{captures.file}_x86.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://getwacup.com/changelog/"
+	}
+}
