@@ -14,13 +14,13 @@ export default defineShard(async () => {
 		captures: { tag, gettext, iconv, rebuild },
 	} = match(
 		location,
-		/\/releases\/tag\/(?<tag>v(?<gettext>\d+(?:\.\d+)+)-v(?<iconv>\d+(?:\.\d+)+)(?:-(?<rebuild>r\d+))?)$/,
+		/\/releases\/tag\/(?<tag>v(?<gettext>\d+(?:\.\d+)+)-v(?<iconv>\d+(?:\.\d+)+)(?<rebuild>(?:-r\d+)?))$/,
 		'No stable gettext-iconv-windows release found',
 	);
 	const base = `https://github.com/mlocati/gettext-iconv-windows/releases/download/${tag}`;
 
 	return {
-		version: rebuild ? `${gettext}+${iconv}+${rebuild}` : `${gettext}+${iconv}`,
+		version: `${gettext}+${iconv}${rebuild.replace('-', '+')}`,
 		urls: () => [
 			`${base}/gettext${gettext}-iconv${iconv}-shared-32.exe`,
 			`${base}/gettext${gettext}-iconv${iconv}-shared-64.exe`,
