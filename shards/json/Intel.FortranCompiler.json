@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.intel.com/libs/apps/intel/idz/productsinfo?downloadId=3832921c-b0e1-49ea-aacc-78f355c09180&pagepath=/content/www/us/en/developer/tools/oneapi/fortran-compiler-download",
+		"regex": "IRC_NAS\\\\?/(?<id>[0-9a-f-]+)\\\\?/intel-fortran-compiler-(?<version>\\d+\\.\\d+\\.\\d+)\\.(?<build>\\d+)_offline\\.exe"
+	},
+	"urls": ["https://registrationcenter-download.intel.com/akdlm/IRC_NAS/{captures.id}/intel-fortran-compiler-{version}.{captures.build}_offline.exe"]
+}

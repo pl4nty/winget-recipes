@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.intel.com/content/www/us/en/download/17881/intel-extreme-tuning-utility-intel-xtu.html",
+		"regex": "https://downloadmirror\\.intel\\.com/(?<id>\\d+)/XTUSetup_(?<version>\\d+(?:\\.\\d+){3})\\.exe"
+	},
+	"urls": ["https://downloadmirror.intel.com/{captures.id}/XTUSetup_{version}.exe"]
+}
