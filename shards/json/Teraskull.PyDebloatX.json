@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Teraskull",
+		"repo": "PyDebloatX"
+	},
+	"urls": [
+		"https://github.com/Teraskull/PyDebloatX/releases/download/{github.rawTag}/PyDebloatX_setup.exe"
+	]
+}
