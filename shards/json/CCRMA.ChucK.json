@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://chuck.stanford.edu/release/",
+		"regex": "href=\"files/exe/chuck-(\\d+(?:\\.\\d+)+)\\.msi\""
+	},
+	"urls": ["https://chuck.stanford.edu/release/files/exe/chuck-{version}.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://chuck.stanford.edu/release/VERSIONS"
+	}
+}
