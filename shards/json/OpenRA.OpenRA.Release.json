@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.openra.net/download/",
+		"regex": "/releases/download/release-(?<version>(?<y>\\d{4})(?<m>\\d{2})(?<d>\\d{2}))/"
+	},
+	"version": "{captures.y}.{captures.m}.{captures.d}",
+	"urls": [
+		"https://github.com/OpenRA/OpenRA/releases/download/release-{captures.version}/OpenRA-release-{captures.version}-x86.exe",
+		"https://github.com/OpenRA/OpenRA/releases/download/release-{captures.version}/OpenRA-release-{captures.version}-x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/OpenRA/OpenRA/releases/tag/release-{captures.version}"
+	}
+}
