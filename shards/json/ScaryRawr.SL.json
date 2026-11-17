@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "scaryrawr",
+		"repo": "sl",
+		"method": "api-list",
+		"tagRegex": "^sl-",
+		"assetRegex": "^sl-\\d+(?:\\.\\d+)+-(?:win64|woa64)\\.exe$"
+	}
+}
