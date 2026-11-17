@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CodeF0x",
+		"repo": "ffzap"
+	},
+	"urls": [
+		"https://github.com/CodeF0x/ffzap/releases/download/{github.rawTag}/ffzap.exe"
+	]
+}
