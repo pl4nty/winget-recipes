@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "okkosh",
+		"repo": "FN-key-lock"
+	},
+	"urls": [
+		"https://github.com/okkosh/FN-key-lock/releases/download/{github.rawTag}/fnlock.exe"
+	]
+}
