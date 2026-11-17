@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gridcoin-community",
+		"repo": "Gridcoin-Research",
+		"tagRegex": "\\.0$"
+	},
+	"urls": [
+		"https://github.com/gridcoin-community/Gridcoin-Research/releases/download/{github.rawTag}/gridcoin-{version}-win32-setup.exe",
+		"https://github.com/gridcoin-community/Gridcoin-Research/releases/download/{github.rawTag}/gridcoin-{version}-win64-setup.exe"
+	]
+}
