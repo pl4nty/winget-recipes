@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://cdn.systweak.com/setups/baps/adug_systweak-default.exe?of=adug.exe"
+		{
+			"url": "https://cdn.systweak.com/setups/baps/adug_systweak-default.exe?of=adug.exe",
+			"architecture": "x86"
+		}
 	],
 	"state": {
 		"source": "response-header",

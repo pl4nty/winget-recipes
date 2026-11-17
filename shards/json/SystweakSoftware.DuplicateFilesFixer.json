@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://cdn.systweak.com/setups/dffw/baps/dffsetupg_dffw-site.exe?of=dffsetupg_.exe"
+		{
+			"url": "https://cdn.systweak.com/setups/dffw/baps/dffsetupg_dffw-site.exe?of=dffsetupg_.exe",
+			"architecture": "x86"
+		}
 	],
 	"state": {
 		"source": "response-header",

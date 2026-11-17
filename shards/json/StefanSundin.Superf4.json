@@ -6,6 +6,9 @@
 		"repo": "superf4"
 	},
 	"urls": [
-		"https://github.com/stefansundin/superf4/releases/download/v{version}/SuperF4-{version}.exe"
+		{
+			"url": "https://github.com/stefansundin/superf4/releases/download/v{version}/SuperF4-{version}.exe",
+			"architecture": "neutral"
+		}
 	]
 }
