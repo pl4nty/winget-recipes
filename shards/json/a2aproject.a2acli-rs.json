@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "a2aproject",
+		"repo": "a2a-rs",
+		"method": "api-list",
+		"tagRegex": "^a2a-cli-v"
+	},
+	"urls": [
+		"https://github.com/a2aproject/a2a-rs/releases/download/{github.rawTag}/a2acli-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
