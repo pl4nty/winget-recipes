@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://pencil.evolus.vn/Downloads.html",
+		"regex": "/dl/V(?<version>\\d+(?:\\.\\d+)+)\\.ga/Pencil-\\d+(?:\\.\\d+)+\\.ga\\.exe"
+	},
+	"urls": ["https://pencil.evolus.vn/dl/V{version}.ga/Pencil-{version}.ga.exe"]
+}
