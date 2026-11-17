@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "MrErrorSan",
-		"repo": "thinkvision-control"
+		"repo": "thinkvision-control",
+		"method": "api-list",
+		"kind": "all"
 	},
 	"urls": [
 		"https://github.com/MrErrorSan/thinkvision-control/releases/download/v{version}/ThinkVisionControl-Setup-{version}.exe",
