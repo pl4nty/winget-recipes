@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://gitblade.com/",
+		"regex": "/dl/gitblade-(?<version>\\d+(?:\\.\\d+)+)-win32-x64\\.exe"
+	},
+	"urls": [
+		"https://gitblade.com/dl/gitblade-{version}-win32-x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gitblade.com/releases"
+	},
+	"cleanup": false
+}
