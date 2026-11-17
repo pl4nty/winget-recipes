@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://alpha.gnu.org/gnu/solfege/",
+		"regex": "solfege-win32-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://alpha.gnu.org/gnu/solfege/solfege-win32-{version}.exe"
+	],
+	"cleanup": false
+}
