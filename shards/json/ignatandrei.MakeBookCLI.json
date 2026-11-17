@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ignatandrei",
+		"repo": "makeBook"
+	},
+	"urls": [
+		"https://github.com/ignatandrei/makeBook/releases/download/{github.rawTag}/MakeBookCLI.exe"
+	]
+}
