@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.justcat.it/releases/",
+		"regex": "/releases/cat-cli-(?<version>\\d+(?:\\.\\d+)+)-setup\\.exe"
+	},
+	"urls": ["https://docs.justcat.it/releases/cat-cli-{version}-setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.justcat.it/releases/"
+	}
+}
