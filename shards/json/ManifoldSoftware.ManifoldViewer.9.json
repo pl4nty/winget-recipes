@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://manifold.net/updates/downloads.shtml",
+		"regex": "manifold-viewer-(9\\.\\d+\\.\\d+(?:\\.\\d+)?)\\.exe"
+	},
+	"urls": ["https://manifold.net/updates/manifold-viewer-{version}.exe"]
+}
