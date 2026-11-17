@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dl.minecodes.de/4zur3-Setup.exe",
+		"https://dl.minecodes.de/4zur3-Setup.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.minecodes.de/4zur3-Setup.exe",
+		"header": "etag"
+	}
+}
