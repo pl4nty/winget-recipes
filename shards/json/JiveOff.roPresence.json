@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JiveOff",
+		"repo": "roPresence"
+	},
+	"urls": [
+		"https://github.com/JiveOff/roPresence/releases/download/{github.rawTag}/Setup.exe"
+	]
+}
