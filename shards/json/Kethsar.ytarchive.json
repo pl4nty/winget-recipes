@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kethsar",
+		"repo": "ytarchive"
+	},
+	"urls": [
+		"https://github.com/Kethsar/ytarchive/releases/download/{github.rawTag}/ytarchive_windows_amd64.zip"
+	]
+}
