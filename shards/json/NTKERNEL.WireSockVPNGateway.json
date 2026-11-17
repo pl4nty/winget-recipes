@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://wiresock.net/wiresock-vpn-gateway/download/",
+		"regex": "sdc_download/(?<x64>\\d+)/\\?key=(?<x64key>[a-z0-9]+)\"> Download x64 Version[\\s\\S]*?sdc_download/(?<x86>\\d+)/\\?key=(?<x86key>[a-z0-9]+)\"> Download x86 Version[\\s\\S]*?sdc_download/(?<arm64>\\d+)/\\?key=(?<arm64key>[a-z0-9]+)\"> Download ARM64 Version[\\s\\S]*?id=\"ws-gateway-release-v(?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://wp.wiresock.net/sdc_download/{captures.x86}/?key={captures.x86key}",
+		"https://wp.wiresock.net/sdc_download/{captures.x64}/?key={captures.x64key}",
+		"https://wp.wiresock.net/sdc_download/{captures.arm64}/?key={captures.arm64key}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://wiresock.net/wiresock-vpn-gateway/download/#ws-gateway-release-v{version}"
+	}
+}
