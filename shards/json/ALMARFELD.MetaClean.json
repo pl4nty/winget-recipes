@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AlinTibi",
+		"repo": "MetaClean"
+	},
+	"urls": [
+		"https://github.com/AlinTibi/MetaClean/releases/download/{github.rawTag}/MetaClean-v{version}-win-x64.zip"
+	]
+}
