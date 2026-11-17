@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pikcube",
+		"repo": "5e-Spell-Viewer"
+	},
+	"urls": [
+		"https://github.com/pikcube/5e-Spell-Viewer/releases/download/{github.rawTag}/5eSetup.exe"
+	]
+}
