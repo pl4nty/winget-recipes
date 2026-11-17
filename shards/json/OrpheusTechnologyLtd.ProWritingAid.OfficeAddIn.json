@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://cdn.prowritingaid.com/officeaddon/releasev3/ProWritingAidSetup.exe"
+		{
+			"url": "https://cdn.prowritingaid.com/officeaddon/releasev3/ProWritingAidSetup.exe",
+			"architecture": "neutral"
+		}
 	],
 	"state": {
 		"source": "response-header",

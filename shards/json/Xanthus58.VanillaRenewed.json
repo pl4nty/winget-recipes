@@ -7,6 +7,9 @@
 		"tagRegex": "^\\d+(?:\\.\\d+)*-"
 	},
 	"urls": [
-		"https://github.com/zephiowl/Vanilla-Renewed/releases/download/{github.rawTag}/INSTALLER_Vanilla_Renewed_{github.rawTag}.exe"
+		{
+			"url": "https://github.com/zephiowl/Vanilla-Renewed/releases/download/{github.rawTag}/INSTALLER_Vanilla_Renewed_{github.rawTag}.exe",
+			"architecture": "neutral"
+		}
 	]
 }

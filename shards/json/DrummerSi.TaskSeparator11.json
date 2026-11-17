@@ -6,6 +6,9 @@
 		"repo": "TaskSeparator11"
 	},
 	"urls": [
-		"https://github.com/DrummerSi/TaskSeparator11/releases/download/{github.rawTag}/TaskSplitter11.zip"
+		{
+			"url": "https://github.com/DrummerSi/TaskSeparator11/releases/download/{github.rawTag}/TaskSplitter11.zip",
+			"architecture": "x64"
+		}
 	]
 }

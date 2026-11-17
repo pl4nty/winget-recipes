@@ -6,7 +6,10 @@
 		"regex": "downloads/sniptool/v(\\d+(?:\\.\\d+)+)/Sniptool_Setup\\.msi"
 	},
 	"urls": [
-		"https://www.reasyze.com/downloads/sniptool/v{version}/Sniptool_Setup.msi"
+		{
+			"url": "https://www.reasyze.com/downloads/sniptool/v{version}/Sniptool_Setup.msi",
+			"architecture": "neutral"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.reasyze.com/sniptool/"

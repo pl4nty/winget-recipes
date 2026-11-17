@@ -6,6 +6,9 @@
 		"repo": "SmartTaskbar"
 	},
 	"urls": [
-		"https://github.com/Oliviaophia/SmartTaskbar/releases/download/{github.rawTag}/SmartTaskbar_Setup.exe"
+		{
+			"url": "https://github.com/Oliviaophia/SmartTaskbar/releases/download/{github.rawTag}/SmartTaskbar_Setup.exe",
+			"architecture": "neutral"
+		}
 	]
 }

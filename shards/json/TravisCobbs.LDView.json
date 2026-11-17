@@ -5,7 +5,16 @@
 	"github": {
 		"owner": "tcobbs",
 		"repo": "ldview",
-		"method": "api-latest",
-		"assetRegex": "^LDView(?:64)?-\\d+\\.exe$"
-	}
+		"method": "api-latest"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/tcobbs/ldview/releases/download/{github.rawTag}/LDView-{version|.|}00.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://github.com/tcobbs/ldview/releases/download/{github.rawTag}/LDView64-{version|.|}00.exe",
+			"architecture": "x64"
+		}
+	]
 }

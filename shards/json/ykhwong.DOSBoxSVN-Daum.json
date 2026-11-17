@@ -6,6 +6,13 @@
 		"repo": "dosbox-svn-daum"
 	},
 	"urls": [
-		"https://github.com/ykhwong/dosbox-svn-daum/releases/download/{github.rawTag}/setup_win.exe"
+		{
+			"url": "https://github.com/ykhwong/dosbox-svn-daum/releases/download/{github.rawTag}/setup_win.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://github.com/ykhwong/dosbox-svn-daum/releases/download/{github.rawTag}/setup_win.exe",
+			"architecture": "x64"
+		}
 	]
 }

@@ -7,6 +7,9 @@
 	},
 	"version": "{version}.0",
 	"urls": [
-		"https://github.com/WereDev/Wu10Man/releases/download/{github.rawTag}/Wu10Man_Installer.msi"
+		{
+			"url": "https://github.com/WereDev/Wu10Man/releases/download/{github.rawTag}/Wu10Man_Installer.msi",
+			"architecture": "neutral"
+		}
 	]
 }

@@ -6,7 +6,10 @@
 		"path": "0.tag_name"
 	},
 	"urls": [
-		"0.assets.links.0.direct_asset_url"
+		{
+			"url": "0.assets.links.0.direct_asset_url",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://gitlab.com/kevinberger/safe-pdf-viewer/-/releases/v{version}"

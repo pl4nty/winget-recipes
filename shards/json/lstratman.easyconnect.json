@@ -6,6 +6,9 @@
 		"repo": "EasyConnect"
 	},
 	"urls": [
-		"https://github.com/lstratman/EasyConnect/releases/download/{github.rawTag}/EasyConnect-{version}.msi"
+		{
+			"url": "https://github.com/lstratman/EasyConnect/releases/download/{github.rawTag}/EasyConnect-{version}.msi",
+			"architecture": "neutral"
+		}
 	]
 }

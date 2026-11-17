@@ -6,6 +6,9 @@
 		"repo": "Pext"
 	},
 	"urls": [
-		"https://github.com/Pext/Pext/releases/download/v{version}/Pext.exe"
+		{
+			"url": "https://github.com/Pext/Pext/releases/download/v{version}/Pext.exe",
+			"architecture": "x64"
+		}
 	]
 }

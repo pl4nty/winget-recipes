@@ -19,7 +19,7 @@ export default defineShard(async () => {
 
 		return {
 			version: { source: 'product' },
-			urls: () => [url],
+			urls: () => [{ url, architecture: 'x64' }],
 			state: `r${release} ${etag}`,
 			releaseNotes: {
 				releaseNotesUrl: `https://cdist2.perforce.com/perforce/r${release}/doc/user/p4vnotes.txt`,
