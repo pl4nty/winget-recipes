@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gilmarsquinelato",
+		"repo": "i18n-manager"
+	},
+	"urls": [
+		"https://github.com/gilmarsquinelato/i18n-manager/releases/download/{github.rawTag}/i18n-Manager-Setup-{version}.exe"
+	]
+}
