@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/freemat/rss?path=/",
+		"regex": "/projects/freemat/files/(?<dir>FreeMat\\d+)/FreeMat-(?<version>\\d+(?:\\.\\d+)+)-Setup\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/freemat/files/{captures.dir}/FreeMat-{version}-Setup.exe/download",
+		"https://sourceforge.net/projects/freemat/files/{captures.dir}/FreeMat-{version}-Setup32bit.exe/download"
+	],
+	"cleanup": false
+}
