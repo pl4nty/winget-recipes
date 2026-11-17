@@ -5,6 +5,6 @@
 		"owner": "theubusu",
 		"repo": "sddl_dec",
 		"method": "api-latest",
-		"assetRegex": "windows.*\\.zip$"
+		"assetRegex": "win"
 	}
 }

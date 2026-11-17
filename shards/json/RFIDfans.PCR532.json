@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": {
-		"source": "file"
+		"source": "display"
 	},
 	"urls": [
 		"http://120.24.245.232/app/pcr532.exe"
