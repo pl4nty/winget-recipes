@@ -6,8 +6,14 @@ import { getLatestRelease } from 'anthelion/github';
 export default defineShard(async () => {
 	const owner = 'A-Star100';
 	const repo = 'simpliplay-desktop';
-	const release = await getLatestRelease({ owner, repo, tagRegex: '^release-(?=\\d+(?:\\.\\d+){3}$)' });
-	const winget = await getLatestRelease({ owner, repo, tagRegex: '^winget-(?=\\d+$)' });
+	const release = await getLatestRelease({ owner, repo, tagRegex: '^release-(?=\\d+(?:\\.\\d+){3}$)', perPage: 100 }).catch(
+		(error: unknown) => {
+			throw new Error(`No stable release-<version> release: ${error}`);
+		},
+	);
+	const winget = await getLatestRelease({ owner, repo, tagRegex: '^winget-(?=\\d+$)', perPage: 100 }).catch((error: unknown) => {
+		throw new Error(`No stable winget-<n> release: ${error}`);
+	});
 	const version = release.version;
 
 	const titleVersion = `${winget.title ?? ''}`.match(/\d+(?:\.\d+)+/)?.[0];

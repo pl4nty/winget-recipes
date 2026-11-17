@@ -5,7 +5,8 @@
 		"owner": "marticliment",
 		"repo": "UniGetUI",
 		"method": "api-list",
-		"kind": "prerelease"
+		"kind": "prerelease",
+		"perPage": 100
 	},
 	"urls": [
 		"https://github.com/marticliment/UniGetUI/releases/download/{github.rawTag}/UniGetUI.Installer.exe",
