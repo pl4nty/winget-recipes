@@ -6,6 +6,9 @@
 		"repo": "jirastopwatch"
 	},
 	"urls": [
-		"https://github.com/tulleuchen/jirastopwatch/releases/download/{github.rawTag}/jirastopwatch-setup-{version}.msi"
+		{
+			"url": "https://github.com/tulleuchen/jirastopwatch/releases/download/{github.rawTag}/jirastopwatch-setup-{version}.msi",
+			"architecture": "x86"
+		}
 	]
 }
