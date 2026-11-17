@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Twistedst",
+		"repo": "scale-serial-reader"
+	},
+	"urls": [
+		"https://github.com/Twistedst/scale-serial-reader/releases/download/v{version}/Weigh-Station-Setup-{version}.exe"
+	]
+}
