@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/products/pr3y/",
+		"regex": "Product: 'pr3y', Link[^>]*title=\"Version (\\d+(?:\\.\\d+)+) &middot;"
+	},
+	"urls": [
+		"https://the-sz.com/products/pr3y/history/{version}/Pr3y.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=pr3y"
+	},
+	"cleanup": false
+}
