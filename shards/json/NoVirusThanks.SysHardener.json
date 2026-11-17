@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://downloads.syshardener.com/latest/syshardener/setup"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.syshardener.com/latest/syshardener/setup",
+		"header": "etag"
+	},
+	"replace": true
+}
