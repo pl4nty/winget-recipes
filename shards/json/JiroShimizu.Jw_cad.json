@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.jwcad.net/download.htm",
+		"regex": "https://www\\.jwcad\\.net/download/jww(?<build>\\d+)\\.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": ["https://www.jwcad.net/download/jww{captures.build}.exe"],
+	"state": { "source": "value", "value": "{captures.build}" }
+}
