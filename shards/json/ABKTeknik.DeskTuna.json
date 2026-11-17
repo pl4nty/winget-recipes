@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "json",
-	"json": {
-		"url": "https://desktuna.com/updates/releases.win.json",
-		"path": "Assets.0.Version"
-	},
-	"urls": ["https://desktuna.com/DeskTuna-win-Setup-{version}.exe"]
-}
