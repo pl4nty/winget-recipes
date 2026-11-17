@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "huoyan1231",
+		"repo": "CmdpalTempCleaner",
+		"tagRegex": "_ms$",
+		"method": "api-latest"
+	},
+	"version": "{version}.0"
+}
