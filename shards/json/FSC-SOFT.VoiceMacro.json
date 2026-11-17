@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.voicemacro.net/download/",
+		"regex": "href=\"VoiceMacro_(?<version>\\d+(?:\\.\\d+)+)_Setup\\.msi\""
+	},
+	"urls": ["https://www.voicemacro.net/download/VoiceMacro_{version}_Setup.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.voicemacro.net/ForumVM/discussion/2/voicemacro-changelog"
+	}
+}
