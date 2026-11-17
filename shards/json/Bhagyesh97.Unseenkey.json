@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/Bhagyesh97/unseenkey/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "Bhagyesh97",
+		"repo": "unseenkey",
+		"tag": "v{version}"
+	}
+}
