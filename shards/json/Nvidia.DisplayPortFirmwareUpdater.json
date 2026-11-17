@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nvidia.com/en-us/drivers/nv-uefi-update-x64/",
+		"regex": "url=/Windows/uefi/firmware/(?<dir>\\d+(?:\\.\\d+)*)/NVIDIA_DisplayPort_Firmware_Updater_(?<version>\\d+(?:\\.\\d+)+)-x64\\.exe"
+	},
+	"urls": [
+		"https://us.download.nvidia.com/Windows/uefi/firmware/{captures.dir}/NVIDIA_DisplayPort_Firmware_Updater_{version}-x64.exe"
+	]
+}
