@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.byte-physics.de/ipt/",
+		"regex": "_static/binary/v(\\d+(?:\\.\\d+)+)/windows/ipt-installer-v"
+	},
+	"urls": [
+		"https://docs.byte-physics.de/ipt/_static/binary/v{version}/windows/ipt-installer-v{version}-win64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.byte-physics.de/ipt/changelog.html"
+	}
+}

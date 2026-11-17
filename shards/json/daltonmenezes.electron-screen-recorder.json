@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "daltonmenezes",
+		"repo": "electron-screen-recorder"
+	},
+	"urls": [
+		"https://github.com/daltonmenezes/electron-screen-recorder/releases/download/{github.rawTag}/Electron-Screen-Recorder-{version}.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "clanmonsterxd-cmd",
+		"repo": "Game-Menu"
+	},
+	"urls": [
+		"https://github.com/clanmonsterxd-cmd/Game-Menu/releases/download/{github.rawTag}/setup_game_menu.exe"
+	]
+}
