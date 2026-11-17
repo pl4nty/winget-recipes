@@ -7,5 +7,11 @@
 		"method": "api-list",
 		"kind": "prerelease",
 		"assetRegex": "^Arc_Setup\\.exe$"
-	}
+	},
+	"urls": [
+		{
+			"url": "https://github.com/quadren/arc/releases/download/{github.rawTag}/Arc_Setup.exe",
+			"architecture": "x64"
+		}
+	]
 }

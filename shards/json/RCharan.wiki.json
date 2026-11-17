@@ -6,6 +6,9 @@
 		"repo": "wiki"
 	},
 	"urls": [
-		"https://github.com/charanravi-online/wiki/releases/download/{github.rawTag}/install_wiki.exe"
+		{
+			"url": "https://github.com/charanravi-online/wiki/releases/download/{github.rawTag}/install_wiki.exe",
+			"architecture": "x64"
+		}
 	]
 }

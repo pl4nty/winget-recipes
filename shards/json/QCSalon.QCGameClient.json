@@ -5,12 +5,18 @@
 		"source": "product"
 	},
 	"urls": [
-		"http://qcsalon.net/autodl/qcgc-setup.exe"
+		{
+			"url": "http://qcsalon.net/autodl/qcgc-setup.exe",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",
 		"url": "http://qcsalon.net/autodl/qcgc-setup.exe",
 		"header": "etag"
 	},
-	"replace": true
+	"replace": true,
+	"releaseNotes": {
+		"releaseNotesUrl": "https://qcsalon.net/"
+	}
 }
