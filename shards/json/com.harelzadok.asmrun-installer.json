@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-commit",
+	"github": {
+		"owner": "harelzadok",
+		"repo": "asmrun",
+		"path": "asmrun Installer.exe"
+	},
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://raw.githubusercontent.com/harelzadok/asmrun/{github.commit}/asmrun%20Installer.exe"
+	],
+	"state": {
+		"source": "value",
+		"value": "{github.commit}"
+	}
+}
