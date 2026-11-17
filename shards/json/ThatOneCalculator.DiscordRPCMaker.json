@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ThatOneCalculator",
+		"repo": "DiscordRPCMaker"
+	},
+	"urls": [
+		"https://github.com/ThatOneCalculator/DiscordRPCMaker/releases/download/{github.rawTag}/discordrpcmaker-windows.exe"
+	]
+}
