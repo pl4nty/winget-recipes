@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Serg-Norseman",
+		"repo": "GEDKeeper"
+	},
+	"urls": [
+		"https://github.com/Serg-Norseman/GEDKeeper/releases/download/{github.rawTag}/gedkeeper_{version}_win64.zip"
+	]
+}
