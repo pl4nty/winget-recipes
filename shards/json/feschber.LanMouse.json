@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "feschber",
+		"repo": "lan-mouse"
+	},
+	"urls": [
+		"https://github.com/feschber/lan-mouse/releases/download/{github.rawTag}/lan-mouse-windows-x86_64.zip"
+	]
+}
