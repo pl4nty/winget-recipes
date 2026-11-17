@@ -11,7 +11,10 @@
 	"urls": [
 		{
 			"url": "https://github.com/sam-astro/Z-Sharp/releases/download/{github.rawTag}/ZSharp-Win-Installer.zip",
-			"nestedInstallerMatches": ["ZSharp-Win-Installer/ZSharp-Setup.exe"]
+			"nestedInstallerMatches": [
+				"ZSharp-Win-Installer/ZSharp-Setup.exe"
+			],
+			"architecture": "x64"
 		}
 	]
 }

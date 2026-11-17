@@ -10,7 +10,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://github.com/superofficial/Flying-Cube/raw/{github.commit}/Flying%20Cube/Game/Installer/Flying%20Cube%20setup.exe"
+		{
+			"url": "https://github.com/superofficial/Flying-Cube/raw/{github.commit}/Flying%20Cube/Game/Installer/Flying%20Cube%20setup.exe",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "value",
