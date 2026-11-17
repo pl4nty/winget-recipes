@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KDE",
+		"repo": "ghostwriter"
+	},
+	"urls": [
+		"https://github.com/KDE/ghostwriter/releases/download/{github.rawTag}/ghostwriter_{version}_win64_portable.zip"
+	]
+}
