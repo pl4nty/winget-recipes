@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/zip",
+		"regex": "/gnuwin32/files/zip/(?<version>\\d+(?:\\.\\d+)+(?:-\\d+)?)/zip-\\k<version>-setup\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnuwin32/files/zip/{version}/zip-{version}-setup.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gnuwin32.sourceforge.net/packages/zip.htm"
+	}
+}
