@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "abrignoni",
+		"repo": "ALEAPP"
+	},
+	"urls": [
+		"https://github.com/abrignoni/ALEAPP/releases/download/{github.rawTag}/ALEAPP-{version}-windows-x64-portable.zip",
+		"https://github.com/abrignoni/ALEAPP/releases/download/{github.rawTag}/ALEAPP-{version}-windows-arm64-portable.zip"
+	]
+}
