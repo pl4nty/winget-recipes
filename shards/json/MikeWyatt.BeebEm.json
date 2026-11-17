@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stardot",
+		"repo": "beebem-windows"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/stardot/beebem-windows/releases/download/{github.rawTag}/BeebEm{version|.|}.exe"
+	]
+}
