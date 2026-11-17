@@ -8,7 +8,7 @@
 		"tagRegex": "^v(?=2\\.13\\.\\d+$)"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
 		"https://github.com/scala/scala/releases/download/{github.rawTag}/scala-{github.version}.msi"
