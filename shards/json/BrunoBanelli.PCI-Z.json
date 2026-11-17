@@ -1,18 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.pci-z.com/",
+		"regex": "Download PCI-Z (\\d+(?:\\.\\d+)+) \\([\\d.,]+ kB\\)"
 	},
-	"urls": [
-		"https://www.pci-z.com/current/x64/PCI-Z.exe",
-		"https://www.pci-z.com/current/PCI-Z.exe"
-	],
-	"state": {
-		"source": "response-header",
-		"url": "https://www.pci-z.com/current/x64/PCI-Z.exe",
-		"header": "last-modified"
-	},
+	"urls": ["https://www.pci-z.com/current/x64/PCI-Z.exe", "https://www.pci-z.com/current/PCI-Z.exe"],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.pci-z.com/"
 	}
