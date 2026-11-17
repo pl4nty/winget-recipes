@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ssesetup.com/download.html",
+		"regex": "SSESetup[\\d-]+\\.exe\">[^<]*</a>\\s*<i>Version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://www.ssesetup.com/downloads/SSESetup{version|.|-}.exe"
+	]
+}
