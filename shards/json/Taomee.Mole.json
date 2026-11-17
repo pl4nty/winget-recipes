@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dl.61.com/mole/Mole.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.61.com/mole/Mole.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
