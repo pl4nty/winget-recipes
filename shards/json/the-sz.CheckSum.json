@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://the-sz.com/products/checksum/CheckSum.zip",
+			"nestedInstallerMatches": [
+				"CheckSum.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://the-sz.com/products/checksum/CheckSum.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
