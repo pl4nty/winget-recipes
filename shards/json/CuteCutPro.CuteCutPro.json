@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MDIsmatullah",
+		"repo": "CuteCut-Pro"
+	},
+	"urls": [
+		"https://github.com/MDIsmatullah/CuteCut-Pro/releases/download/{github.rawTag}/CuteCut.Pro.Setup.{version}.exe"
+	]
+}
