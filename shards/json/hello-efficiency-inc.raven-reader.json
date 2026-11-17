@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hello-efficiency-inc",
+		"repo": "raven-reader"
+	},
+	"urls": [
+		"https://github.com/hello-efficiency-inc/raven-reader/releases/download/{github.rawTag}/Raven-Reader-Setup-{version}.exe"
+	]
+}
