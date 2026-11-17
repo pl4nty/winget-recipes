@@ -13,5 +13,8 @@
 		"url": "https://download.eset.com/special/avremover/avremover_nt64_enu.exe",
 		"header": "etag"
 	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.eset.com/int/support/av-remover/"
+	},
 	"replace": true
 }
