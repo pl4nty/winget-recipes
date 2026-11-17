@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://launcher.paradoxinteractive.com/v2/paradox-launcher-installer-windows"
+		],
+		"regex": "/v2/paradox-launcher-installer-(?<build>\\d+_\\d+)\\.exe$"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://launcher.paradoxinteractive.com/v2/paradox-launcher-installer-{captures.build}.exe"
+	],
+	"state": {
+		"source": "value",
+		"value": "{captures.build}"
+	}
+}

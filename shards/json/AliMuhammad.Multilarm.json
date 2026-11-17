@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://multilarm.com/multilarm/windows_installer/MultilarmSetup.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://multilarm.com/multilarm/windows_installer/MultilarmSetup.msi",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://multilarm.com/downloads.html"
+	}
+}

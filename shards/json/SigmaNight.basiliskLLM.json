@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SigmaNight",
+		"repo": "basiliskLLM",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/SigmaNight/basiliskLLM/releases/download/{github.rawTag}/setup_basiliskLLM_{version}_x64.exe",
+		"https://github.com/SigmaNight/basiliskLLM/releases/download/{github.rawTag}/setup_basiliskLLM_{version}_x64.exe",
+		"https://github.com/SigmaNight/basiliskLLM/releases/download/{github.rawTag}/setup_basiliskLLM_{version}_x86.exe",
+		"https://github.com/SigmaNight/basiliskLLM/releases/download/{github.rawTag}/setup_basiliskLLM_{version}_x86.exe"
+	]
+}
