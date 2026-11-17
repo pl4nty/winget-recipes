@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pi-node",
+		"repo": "pi-node"
+	},
+	"urls": [
+		"https://github.com/pi-node/pi-node/releases/download/{github.rawTag}/Pi.Network.Setup.{version}.exe"
+	]
+}
