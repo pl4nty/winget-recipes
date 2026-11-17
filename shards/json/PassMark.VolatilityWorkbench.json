@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.osforensics.com/downloads/VolatilityWorkbench.zip",
+			"nestedInstallerMatches": [
+				"VolatilityWorkbench.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.osforensics.com/downloads/VolatilityWorkbench.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
