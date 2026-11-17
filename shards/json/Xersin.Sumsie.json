@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/sumsie/files/Bin/Sumsie.msi/download"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://sourceforge.net/projects/sumsie/files/Bin/Sumsie.msi/download",
+		"header": "last-modified"
+	},
+	"replace": true
+}
