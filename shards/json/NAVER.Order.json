@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		"https://booking.pstatic.net/pos-agent/latest/NaverPosAgentInstall_win32.exe",
+		"https://booking.pstatic.net/pos-agent/latest/NaverPosAgentInstall_win64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://booking.pstatic.net/pos-agent/latest/NaverPosAgentInstall_win64.exe",
+		"header": "etag"
+	}
+}
