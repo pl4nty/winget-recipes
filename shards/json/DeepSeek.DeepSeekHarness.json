@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://download.deepseek.com/dsh-desk/feeds/win-x64/nightly.yml"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "deepseek-ai",
+		"repo": "deepseek-harness",
+		"tag": "dsh-v{version}"
+	}
+}
