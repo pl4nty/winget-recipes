@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.noip.com/download/windows/latest"],
+		"regex": "/DUCSetup_v(\\d+(?:_\\d+)+)\\.exe$"
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://www.noip.com/client/DUCSetup_v{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.noip.com/download?page=win"
+	}
+}
