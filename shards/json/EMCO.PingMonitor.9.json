@@ -6,7 +6,7 @@
 		"regex": "Version (?<version>9\\.\\d+(?:\\.\\d+)*)"
 	},
 	"urls": [
-		"https://storage.emcosoftware.com/download/archive/pingmonitor/v9/PingMonitorSetup-{version}.exe"
+		"https://storage.emcosoftware.com/download/pingmonitor/PingMonitorSetup.exe"
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://emcosoftware.com/ping-monitor/whats-new/9"

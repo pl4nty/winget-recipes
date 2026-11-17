@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "mgoeppner",
-		"repo": "evemon"
+		"repo": "evemon",
+		"method": "api-list",
+		"tagRegex": "^v(?=\\d)"
 	},
 	"urls": [
 		"https://github.com/mgoeppner/evemon/releases/download/{github.rawTag}/EVEMon-install-{version}.exe"
