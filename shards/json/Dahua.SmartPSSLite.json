@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://dahuawiki.com/SmartPSS_Lite",
+		"regex": "/images/Files/Software/SmartPSS_Lite/SmartPSSLite_V(?<version>\\d+(?:\\.\\d+)+)\\.(?<build>R\\.\\d+)\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://dahuawiki.com/images/Files/Software/SmartPSS_Lite/SmartPSSLite_V{version}.{captures.build}.zip",
+			"nestedInstallerMatches": ["SmartPSSLite_V"]
+		}
+	]
+}
