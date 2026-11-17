@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.dnielectronico.es/descargas/CSP_para_Sistemas_Windows/Windows_32_bits/Instalador_Tarjetas_DNIe_x86.exe",
+		"https://www.dnielectronico.es/descargas/CSP_para_Sistemas_Windows/Windows_64_bits/Instalador_Tarjetas_DNIe_x64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.dnielectronico.es/descargas/CSP_para_Sistemas_Windows/Windows_64_bits/Instalador_Tarjetas_DNIe_x64.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_1101&id_menu=66"
+	},
+	"replace": true
+}
