@@ -1,7 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "appinstaller",
-	"appinstaller": {
-		"url": "https://apps.interfacefluidics.com/autobench/beta/autobench-installer-beta.appinstaller"
-	}
-}

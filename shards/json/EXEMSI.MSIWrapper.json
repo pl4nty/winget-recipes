@@ -8,5 +8,8 @@
 	"version": "{version|_|.}",
 	"urls": [
 		"https://www.exemsi.com/downloads/msi_wrapper/MSI_Wrapper_{version}.msi"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.exemsi.com/version-history/"
+	}
 }
