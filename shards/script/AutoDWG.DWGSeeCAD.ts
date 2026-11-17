@@ -13,7 +13,7 @@ export default defineShard(async () => {
 	const response = await fetch(url, { method: 'HEAD' });
 
 	return {
-		version: { source: 'product' },
+		version: { source: 'display' },
 		urls: () => [url],
 		state: response.headers.get('last-modified') ?? '',
 		replace: true,

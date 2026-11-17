@@ -1,8 +1,9 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://greatis.com/blog/what-is-gwx-gwx-exe",
+		"regex": "GWX Stopper version: (?<version>\\d+(?:\\.\\d+)+)"
 	},
 	"urls": [
 		{
@@ -12,10 +13,5 @@
 			]
 		}
 	],
-	"state": {
-		"source": "response-header",
-		"url": "https://www.greatis.com/stop-gwx-from-startup.zip",
-		"header": "etag"
-	},
 	"replace": true
 }
