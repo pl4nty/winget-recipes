@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SaturninTheAlien",
+		"repo": "pk2_greta"
+	},
+	"urls": [
+		"https://github.com/SaturninTheAlien/pk2_greta/releases/download/{github.rawTag}/Pekka-Kana-2_{version}_Windows_x86_64_portable.zip",
+		"https://github.com/SaturninTheAlien/pk2_greta/releases/download/{github.rawTag}/Pekka-Kana-2_{version}_Windows_x86_64_setup.msi"
+	]
+}
