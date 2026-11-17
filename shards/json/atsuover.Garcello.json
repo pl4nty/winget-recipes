@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://gamebanana.com/apiv11/Mod/166531/ProfilePage",
+		"regex": "\"_sFile\":\\s*\"fnfseos_([0-9a-z]+)\\.zip\""
+	},
+	"urls": [
+		"https://files.gamebanana.com/mods/fnfseos_{version}.zip"
+	]
+}
