@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "umezawatakeshi",
+		"repo": "utvideo",
+		"tagRegex": "^utvideo-"
+	},
+	"urls": [
+		"https://github.com/umezawatakeshi/utvideo/releases/download/{github.rawTag}/utvideo-{version}-win.exe"
+	]
+}
