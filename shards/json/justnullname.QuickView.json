@@ -3,10 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "justnullname",
-		"repo": "QuickView"
-	},
-	"urls": [
-		"https://github.com/justnullname/QuickView/releases/download/{github.rawTag}/QuickView_Installer_{github.rawTag}_X64.exe",
-		"https://github.com/justnullname/QuickView/releases/download/{github.rawTag}/QuickView_Installer_{github.rawTag}_ARM64.exe"
-	]
+		"repo": "QuickView",
+		"method": "api-latest",
+		"assetRegex": "^QuickView_Installer_.*\\.exe$"
+	}
 }

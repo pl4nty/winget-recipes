@@ -3,9 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "cpys",
-		"repo": "codex-quota-overlay"
-	},
-	"urls": [
-		"https://github.com/cpys/codex-quota-overlay/releases/download/{github.rawTag}/CodexQuotaOverlay-Setup-{version}.exe"
-	]
+		"repo": "codex-quota-overlay",
+		"method": "api-latest",
+		"assetRegex": "setup.*\\.exe$"
+	}
 }

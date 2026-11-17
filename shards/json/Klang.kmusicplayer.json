@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Abbaskhurram255",
-		"repo": "hindCPlusPlus"
+		"repo": "hindCPlusPlus",
+		"method": "api-list",
+		"kind": "all"
 	},
 	"version": {
 		"source": "product"
