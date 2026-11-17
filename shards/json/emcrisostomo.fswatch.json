@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PolarGoose",
+		"repo": "fswatch-for-Windows"
+	},
+	"urls": [
+		"https://github.com/PolarGoose/fswatch-for-Windows/releases/download/{github.rawTag}/fswatch-cygwin-x64.zip"
+	]
+}
