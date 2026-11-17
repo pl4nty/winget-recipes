@@ -6,6 +6,9 @@
 		"file": "mnemosyne-{version}-setup.exe"
 	},
 	"urls": [
-		"https://sourceforge.net/projects/mnemosyne-proj/files/mnemosyne/mnemosyne-{version}/mnemosyne-{version}-setup.exe/download"
+		{
+			"url": "https://sourceforge.net/projects/mnemosyne-proj/files/mnemosyne/mnemosyne-{version}/mnemosyne-{version}-setup.exe/download",
+			"architecture": "x64"
+		}
 	]
 }

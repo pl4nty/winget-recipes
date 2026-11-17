@@ -6,6 +6,9 @@
 		"regex": "href=\"povwin-(\\d+\\.\\d+(?:\\.\\d+)*)-agpl3-setup\\.exe\""
 	},
 	"urls": [
-		"https://www.povray.org/ftp/pub/povray/Official/povwin-{version}-agpl3-setup.exe"
+		{
+			"url": "https://www.povray.org/ftp/pub/povray/Official/povwin-{version}-agpl3-setup.exe",
+			"architecture": "neutral"
+		}
 	]
 }
