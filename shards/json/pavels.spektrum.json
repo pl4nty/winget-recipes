@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pavels",
+		"repo": "spektrum"
+	},
+	"urls": [
+		"https://github.com/pavels/spektrum/releases/download/{github.rawTag}/spektrum-win64.zip"
+	]
+}
