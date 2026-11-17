@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://my.splashtop.com/stp-src/win"],
+		"method": "get",
+		"regex": "/Splashtop_Personal_Win_v(\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"version": { "source": "product" }
+}
