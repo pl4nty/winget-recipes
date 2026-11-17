@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://dwstprd001.blob.core.windows.net/downloads/DiscoverWorthy-Scratchpad-Setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://dwstprd001.blob.core.windows.net/downloads/DiscoverWorthy-Scratchpad-Setup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://discoverworthy.com/scratchpad"
+	}
+}
