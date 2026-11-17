@@ -6,6 +6,9 @@
 		"repo": "Hack-windows-installer"
 	},
 	"urls": [
-		"https://github.com/source-foundry/Hack-windows-installer/releases/download/v{version}/HackFontsWindowsInstaller.exe"
+		{
+			"url": "https://github.com/source-foundry/Hack-windows-installer/releases/download/v{version}/HackFontsWindowsInstaller.exe",
+			"architecture": "neutral"
+		}
 	]
 }

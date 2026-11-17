@@ -10,7 +10,14 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://github.com/RickStrahl/MarkdownMonsterReleases/raw/{github.commit}/CurrentRelease/MarkdownMonsterSetup.exe"
+		{
+			"url": "https://github.com/RickStrahl/MarkdownMonsterReleases/raw/{github.commit}/CurrentRelease/MarkdownMonsterSetup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/RickStrahl/MarkdownMonsterReleases/raw/{github.commit}/CurrentRelease/MarkdownMonsterSetup.exe",
+			"architecture": "arm64"
+		}
 	],
 	"state": {
 		"source": "value",

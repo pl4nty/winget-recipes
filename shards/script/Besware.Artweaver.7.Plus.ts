@@ -11,7 +11,7 @@ export default defineShard(async () => {
 
 	return {
 		version: { source: 'product' },
-		urls: () => ['https://www.artweaver.de/direct/ArtweaverPlus7x.exe'],
+		urls: () => [{ url: 'https://www.artweaver.de/direct/ArtweaverPlus7x.exe', architecture: 'x64' }],
 		state: release,
 		replace: true,
 		releaseNotes: { releaseNotesUrl: 'https://www.artweaver.de/en/changelog' },

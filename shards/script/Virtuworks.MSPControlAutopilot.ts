@@ -32,7 +32,7 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [
-			`${base}/${version}/${file}.exe`,
+			{ url: `${base}/${version}/${file}.exe`, architecture: 'neutral' },
 			`${base}/${version}/${file}-x86.msi`,
 			`${base}/${version}/${file}-x64.msi`,
 		],

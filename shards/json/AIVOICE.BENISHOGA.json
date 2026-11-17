@@ -6,6 +6,9 @@
 		"regex": "/downloads/data/benizakura-syoga/(\\d+(?:\\.\\d+)+)/windows"
 	},
 	"urls": [
-		"https://aivoice.jp/member/downloads/data/benizakura-syoga/{version}/windows"
+		{
+			"url": "https://aivoice.jp/member/downloads/data/benizakura-syoga/{version}/windows",
+			"architecture": "x64"
+		}
 	]
 }

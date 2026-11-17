@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://www.resplendence.com/download/sanitySetup.exe"
+		{
+			"url": "https://www.resplendence.com/download/sanitySetup.exe",
+			"architecture": "x86"
+		}
 	],
 	"state": {
 		"source": "response-header",

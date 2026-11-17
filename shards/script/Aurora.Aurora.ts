@@ -8,7 +8,9 @@ export default defineShard(async () => {
 
 	return {
 		version: rawTag,
-		urls: () => [`https://github.com/antonpup/Aurora/releases/download/${rawTag}/Aurora-setup-${rawTag}.exe`],
+		urls: () => [
+			{ url: `https://github.com/antonpup/Aurora/releases/download/${rawTag}/Aurora-setup-${rawTag}.exe`, architecture: 'x64' },
+		],
 		releaseNotes: { source: 'github', owner: 'antonpup', repo: 'Aurora', tag: rawTag },
 	};
 });

@@ -6,7 +6,10 @@
 		"regex": "Version\\s+(?<version>7\\.\\d+\\.\\d+)"
 	},
 	"urls": [
-		"https://storage.emcosoftware.com/download/archive/remoteshutdown/v7/RemoteShutdownSetup-{version}.exe"
+		{
+			"url": "https://storage.emcosoftware.com/download/archive/remoteshutdown/v7/RemoteShutdownSetup-{version}.exe",
+			"architecture": "neutral"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://emcosoftware.com/remote-shutdown/whats-new"

@@ -6,6 +6,9 @@
 		"repo": "Cat"
 	},
 	"urls": [
-		"https://github.com/Gilgamech/Cat/releases/download/{github.rawTag}/Cat.exe"
+		{
+			"url": "https://github.com/Gilgamech/Cat/releases/download/{github.rawTag}/Cat.exe",
+			"architecture": "neutral"
+		}
 	]
 }

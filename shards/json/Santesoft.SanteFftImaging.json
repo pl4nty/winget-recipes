@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://www.santesoft.com/files/win/sante_fft_imaging.zip"
+		{
+			"url": "https://www.santesoft.com/files/win/sante_fft_imaging.zip",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",
