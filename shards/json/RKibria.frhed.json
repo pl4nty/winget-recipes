@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/frhed/rss?path=/1.%20Stable%20Releases",
+		"regex": "/1\\.%20Stable%20Releases/(\\d+(?:\\.\\d+)+)/Frhed-\\d+(?:\\.\\d+)+-Setup\\.exe/"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/frhed/files/1.%20Stable%20Releases/{version}/Frhed-{version}-Setup.exe/download"
+	],
+	"cleanup": false
+}
