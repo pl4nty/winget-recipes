@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://drhell.web.fc2.com/pocket/index.html",
+		"regex": "pk201_(?<version>\\d+)\\.zip"
+	},
+	"urls": [
+		"https://drhell.web.fc2.com/pocket/pk201_{version}.zip"
+	]
+}
