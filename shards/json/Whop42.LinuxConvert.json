@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Whop42",
+		"repo": "LinuxConvert"
+	},
+	"urls": [
+		"https://github.com/Whop42/LinuxConvert/releases/download/{github.rawTag}/LinuxConvert.exe"
+	]
+}
