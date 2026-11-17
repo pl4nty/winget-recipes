@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BESTSELLER",
+		"repo": "harpocrates"
+	},
+	"urls": [
+		"https://github.com/BESTSELLER/harpocrates/releases/download/{github.rawTag}/harpocrates_Windows_i386.zip",
+		"https://github.com/BESTSELLER/harpocrates/releases/download/{github.rawTag}/harpocrates_Windows_arm64.zip",
+		"https://github.com/BESTSELLER/harpocrates/releases/download/{github.rawTag}/harpocrates_Windows_x86_64.zip"
+	]
+}

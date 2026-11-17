@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://dl.breizhzion.com/hublot/latest.json",
+		"path": "files.windows_x64.version"
+	},
+	"urls": [
+		"files.windows_x64.versioned_url"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/bzhzion/hublot/blob/main/CHANGELOG.md"
+	}
+}

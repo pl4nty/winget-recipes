@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Atticus64",
+		"repo": "juice"
+	},
+	"urls": [
+		"https://github.com/Atticus64/juice/releases/download/{github.rawTag}/juice.exe"
+	]
+}
