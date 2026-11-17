@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "llmmanorg",
+		"repo": "llmman"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/llmmanorg/llmman/releases/download/{github.rawTag}/llmman-x86_64-pc-windows-msvc.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/llmmanorg/llmman/releases/download/{github.rawTag}/llmman-aarch64-pc-windows-msvc.exe",
+			"architecture": "arm64"
+		}
+	]
+}
