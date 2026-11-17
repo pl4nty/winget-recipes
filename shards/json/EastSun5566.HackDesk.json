@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "EastSun5566",
+		"repo": "hackdesk"
+	},
+	"urls": [
+		"https://github.com/EastSun5566/hackdesk/releases/download/{github.rawTag}/HackDesk_{version}_x64_en-US.msi"
+	]
+}
