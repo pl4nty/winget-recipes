@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "NyCodeGHG",
-		"repo": "omsi-launcher"
+		"repo": "omsi-launcher",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/NyCodeGHG/omsi-launcher/releases/download/{github.rawTag}/omsi-launcher-{version}.msi"

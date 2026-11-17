@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "LuanRoger",
-		"repo": "WorkOffice"
+		"repo": "WorkOffice",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/LuanRoger/WorkOffice/releases/download/{github.rawTag}/workoffice-{version}-x86_64.msi"

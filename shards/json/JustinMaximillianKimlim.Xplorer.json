@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "kimlimjustin",
-		"repo": "xplorer"
+		"repo": "xplorer",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/kimlimjustin/xplorer/releases/download/{github.rawTag}/Xplorer_{version}_x64.msi"

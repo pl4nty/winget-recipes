@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "longsightedfilms",
-		"repo": "meshhouse"
+		"repo": "meshhouse",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/longsightedfilms/meshhouse/releases/download/{github.rawTag}/MeshHouse-Setup-{version}.exe"

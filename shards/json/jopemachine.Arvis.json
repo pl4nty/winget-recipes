@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "jopemachine-arvis",
-		"repo": "arvis"
+		"repo": "arvis",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/jopemachine-arvis/arvis/releases/download/{github.rawTag}/Arvis-Setup-{version}.exe"

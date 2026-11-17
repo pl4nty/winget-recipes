@@ -1,9 +1,10 @@
 import { defineShard } from 'anthelion';
-import { getLatestReleaseFromRedirect, githubClient } from 'anthelion/github';
+import { getLatestRelease, githubClient } from 'anthelion/github';
 
 // The vendor site names each Windows build after the short hash of the release tag's commit.
 export default defineShard(async () => {
-	const release = await getLatestReleaseFromRedirect({ owner: 'olive-editor', repo: 'olive' });
+	// Every olive-editor/olive release is a prerelease; take the highest numeric tag.
+	const release = await getLatestRelease({ owner: 'olive-editor', repo: 'olive', kind: 'all', sortByVersion: true });
 	const { data: commit } = await githubClient.rest.repos.getCommit({
 		owner: 'olive-editor',
 		repo: 'olive',

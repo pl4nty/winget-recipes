@@ -3,9 +3,12 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "mellobacon",
-		"repo": "scp-terminal"
+		"repo": "scp-terminal",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/mellobacon/scp-terminal/releases/download/{github.rawTag}/scpterminal.{version}.msi"
-	]
+	],
+	"version": "{version}.0"
 }

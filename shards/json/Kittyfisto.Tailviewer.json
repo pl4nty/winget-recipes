@@ -3,9 +3,12 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Kittyfisto",
-		"repo": "Tailviewer"
+		"repo": "Tailviewer",
+		"method": "api-list",
+		"kind": "prerelease",
+		"assetRegex": "^Tailviewer-setup-[\\d.]+\\.exe$"
 	},
-	"urls": [
-		"https://github.com/Kittyfisto/Tailviewer/releases/download/{github.rawTag}/Tailviewer-setup-{version}.exe"
-	]
+	"version": {
+		"source": "product"
+	}
 }

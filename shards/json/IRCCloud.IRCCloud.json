@@ -3,7 +3,11 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "irccloud",
-		"repo": "irccloud-desktop"
+		"repo": "irccloud-desktop",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
-	"urls": ["https://github.com/irccloud/irccloud-desktop/releases/download/{github.rawTag}/IRCCloud.exe"]
+	"urls": [
+		"https://github.com/irccloud/irccloud-desktop/releases/download/{github.rawTag}/IRCCloud.exe"
+	]
 }
