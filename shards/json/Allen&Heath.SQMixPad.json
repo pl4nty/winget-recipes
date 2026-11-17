@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "page-match",
-	"pageMatch": {
-		"url": "https://www.allen-heath.com/hardware/sq/sq-mixpad/",
-		"regex": "content/uploads/(?<path>\\d{4}/\\d{2})/SQ-MixPad-(?<version>\\d+(?:\\.\\d+)+)-Installer\\.zip"
-	},
-	"urls": ["https://www.allen-heath.com/content/uploads/{captures.path}/SQ-MixPad-{version}-Installer.zip"]
-}

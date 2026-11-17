@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "beaglesoftware",
-		"repo": "editor"
+		"owner": "beagleeditor",
+		"repo": "legacy"
 	},
 	"urls": [
-		"https://github.com/beaglesoftware/editor/releases/download/v{version}/BeagleEditor-{version}-Installer.exe"
+		"https://github.com/beagleeditor/legacy/releases/download/v{version}/BeagleEditor-{version}-Installer.exe"
 	]
 }
