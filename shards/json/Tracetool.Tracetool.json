@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "capslock66",
+		"repo": "Tracetool"
+	},
+	"urls": [
+		"https://github.com/capslock66/Tracetool/releases/download/{github.rawTag}/Setup32.exe",
+		"https://github.com/capslock66/Tracetool/releases/download/{github.rawTag}/Setup64.exe"
+	]
+}
