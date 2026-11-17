@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hanewin.net/dns-e.htm",
+		"regex": "https://r\\.hanewin\\.net/dns(\\d+)\\.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": ["https://r.hanewin.net/dns{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.hanewin.net/doc/dns/update.txt"
+	}
+}
