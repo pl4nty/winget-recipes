@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.acdsee.com/en/products/photo-studio-ultimate/",
+		"regex": "dl\\.acdsystems\\.com/acdsee/en/(?<file>acdsee-photo-studio-ultimate-(?<version>\\d+(?:-\\d+)+)-win-en\\.exe)"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dl.acdsystems.com/acdsee/en/{captures.file}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.acdsee.com/en/support/photo-studio-ultimate/changelog/#:~:text=Version-,{version},-("
+	}
+}
