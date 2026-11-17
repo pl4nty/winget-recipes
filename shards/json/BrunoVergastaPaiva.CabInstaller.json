@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "brunopaiva15",
+		"repo": "CabInstaller"
+	},
+	"urls": [
+		"https://github.com/brunopaiva15/CabInstaller/releases/download/{github.rawTag}/CabInstaller.exe"
+	]
+}
