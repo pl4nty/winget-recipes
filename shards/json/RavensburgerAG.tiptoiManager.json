@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://cdn.ravensburger.de/db/Installer/tiptoi_Manager_Installer.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.ravensburger.de/db/Installer/tiptoi_Manager_Installer.exe",
+		"header": "last-modified"
+	}
+}
