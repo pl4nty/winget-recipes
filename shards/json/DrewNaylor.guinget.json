@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DrewNaylor",
+		"repo": "guinget"
+	},
+	"urls": [
+		"https://github.com/DrewNaylor/guinget/releases/download/{github.rawTag}/guinget_{github.rawTag}.exe"
+	]
+}
