@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "neroist",
+		"repo": "Nova"
+	},
+	"urls": [
+		"https://github.com/neroist/Nova/releases/download/{github.rawTag}/nova-installer.exe"
+	]
+}
