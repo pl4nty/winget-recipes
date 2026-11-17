@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lin-ycv",
+		"repo": "EverythingCommandPalette"
+	},
+	"urls": [
+		"https://github.com/lin-ycv/EverythingCommandPalette/releases/download/{github.rawTag}/VictorLin.EverythingCP_{version}_x64__yazqh14evg2ve.Msix"
+	]
+}
