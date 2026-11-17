@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/teispace/teitunnel/releases/latest/download/latest.json",
+		"platforms": ["windows-x86_64", "windows-aarch64"]
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "teispace",
+		"repo": "teitunnel",
+		"tag": "v{version}"
+	}
+}
