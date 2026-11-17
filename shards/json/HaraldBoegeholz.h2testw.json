@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.heise.de/ct/artikel/c-t-Systeminfo-2859100.html",
+		"regex": "/ctsi/h2testw_(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		"https://ftp.heise.de/ct/ctsi/h2testw_{version}.zip"
+	]
+}
