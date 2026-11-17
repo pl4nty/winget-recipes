@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://s3-us-west-1.amazonaws.com/v7-cf-cli-releases?prefix=releases/v7",
+		"regex": "releases/v(\\d+(?:\\.\\d+)+)/cf7-cli_[\\d.]+_winx64\\.zip"
+	},
+	"urls": [
+		"https://s3-us-west-1.amazonaws.com/v7-cf-cli-releases/releases/v{version}/cf7-cli_{version}_winx64.zip",
+		"https://s3-us-west-1.amazonaws.com/v7-cf-cli-releases/releases/v{version}/cf7-cli_{version}_win32.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/cloudfoundry/cli/releases/tag/v{version}"
+	}
+}
