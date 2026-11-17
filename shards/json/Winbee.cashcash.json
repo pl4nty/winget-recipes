@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Winbee",
+		"repo": "cashcash-desktop"
+	},
+	"urls": [
+		"https://github.com/Winbee/cashcash-desktop/releases/download/{github.rawTag}/Cashcash.Setup.{version}.exe"
+	]
+}
