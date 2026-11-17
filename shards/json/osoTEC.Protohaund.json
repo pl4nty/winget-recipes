@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://osotec.com/protohaund/",
+		"regex": "/protohaund/releases/(?<version>\\d+(?:\\.\\d+)+)/Protohaund\\.Setup\\.exe"
+	},
+	"urls": ["https://osotec.com/protohaund/releases/{version}/Protohaund.Setup.exe"]
+}
