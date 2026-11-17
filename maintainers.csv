@@ -221,7 +221,7 @@ Aetherishq.Muralis,pl4nty,
 AetherSDR.AetherSDR,pl4nty,
 AFAS.ProfitCommunicationCenter.7,spectopo,
 AFAS.ProfitCommunicationCenter.8,spectopo,
-afonsojramos.discrakt,afonsojramos,https://github.com/microsoft/winget-pkgs/pull/446640
+afonsojramos.discrakt,afonsojramos,https://github.com/afonsojramos/discrakt/blob/main/.github/workflows/release.yml
 agateau.PixelWheels,pl4nty,
 agavra.tuicr,pl4nty,
 agent-rt.arc-runner,damn-good-b0t,
@@ -275,7 +275,7 @@ airSlate.pdfFiller,spectopo,
 Airtame.Airtame,spectopo,
 AirUSB.Client,pl4nty,
 Airzone.Ductzone,spectopo,
-ais7896-hue.KyteShelf,ais7896-hue,https://github.com/microsoft/winget-pkgs/pull/478036
+ais7896-hue.KyteShelf,ais7896-hue,https://github.com/ais7896-hue/KyteShelf/blob/main/.github/workflows/winget.yml
 aislx.FlameLauncher,damn-good-b0t,
 AivarAnnamaa.Thonny,UnownBot,
 Aixbox.DesktopGo,spectopo,
@@ -510,7 +510,6 @@ angryziber.AngryIPScanner,pl4nty,
 AnimeKaizoku.KaizokuServiceManager,pl4nty,
 AnInsomniacy.Aria2Next,damn-good-b0t,
 AnInsomniacy.Rayburst,spectopo,
-AnirudhSevugan.SimpliPlay,anirudhsevugan-bot,https://github.com/microsoft/winget-pkgs/pull/461018
 Anjok07.UltimateVocalRemover,spectopo,
 Anker.AnkerWork,spectopo,
 Anki.Anki,damn-good-b0t,
@@ -574,7 +573,7 @@ AppDynamic.AirServer,spectopo,
 Appest.Dida,spectopo,
 Appest.TickTick,spectopo,
 AppFlowy.AppFlowy,damn-good-b0t,
-APPIT.VideoDownloader,askowron,https://github.com/microsoft/winget-pkgs/pull/479895
+APPIT.VideoDownloader,askowron,https://github.com/askowron/VideoDownloader/blob/main/.github/workflows/winget-release.yml
 AppiumDevelopers.AppiumInspector,damn-good-b0t,
 Apple.AppleApplicationSupport.x64,spectopo,
 Apple.AppleApplicationSupport.x86,spectopo,
@@ -634,7 +633,7 @@ Argente.SystemManager,spectopo,
 Argente.SystemRepair,spectopo,
 Argente.UninstallManager,spectopo,
 Argente.Utilities,spectopo,
-arghena.katharsis,arghena-bot,https://github.com/microsoft/winget-pkgs/pull/283460
+arghena.katharsis,arghena-bot,https://github.com/arghena/katharsis/blob/canary/.github/workflows/cd.yml
 argoproj.argocd,damn-good-b0t,
 Argotronic.ArgusMonitor,pl4nty,
 aria2.aria2,spectopo,
@@ -642,7 +641,7 @@ ArianesLine.Ariane,pl4nty,
 Aries-Sciences-LLC.AI-Chess,damn-good-b0t,
 AriesOxO.piz,spectopo,
 Arihant25.Chargle,damn-good-b0t,
-arika0093.console2svg,arika0093,https://github.com/microsoft/winget-pkgs/pull/479248
+arika0093.console2svg,arika0093,https://github.com/arika0093/console2svg/blob/main/.github/workflows/release.yaml
 aristocratos.btop4win,UnownBot,
 Arixcel.ArixcelExplorer,spectopo,
 ArkaneSystems.MouseJiggler,pl4nty,
@@ -654,7 +653,7 @@ Arnica.DepsGuard,damn-good-b0t,
 ArnobPaul.SymlinkCreator,pl4nty,
 ArnsteinSkara.AppCenter,pl4nty,
 ArobasMusic.GuitarPro.8,spectopo,
-aroum.che,aroum,https://github.com/microsoft/winget-pkgs/pull/450983
+aroum.che,aroum,https://github.com/aroum/che/blob/main/.github/workflows/release.yml
 ART.ART,UnownBot,
 ArtCraft.AniCraft,spectopo,
 ArtCraft.ArtCraft,spectopo,
@@ -834,7 +833,7 @@ Axure.AxureRP.9,pl4nty,
 ayangweb.BongoCat,spectopo,
 Ayideyia.GUI-for-Clash,pl4nty,
 Ayideyia.GUI-for-SingBox,pl4nty,
-ayoisaiah.f2,ayoisaiah,https://github.com/microsoft/winget-pkgs/pull/311460
+ayoisaiah.f2,ayoisaiah,https://github.com/ayoisaiah/f2/blob/master/.goreleaser.yml
 AyoubTadlaoui.logx,damn-good-b0t,
 AzaharEmu.Azahar,pl4nty,
 AzaharEmu.Azahar.MSYS2,UnownBot,
@@ -992,7 +991,7 @@ Benji377.Tooka,Benji377,https://github.com/Benji377/tooka/blob/main/.github/work
 BenjiButten.MicMixer,benjibutten,https://github.com/benjibutten/MicMixer/blob/main/.github/workflows/release.yml
 BenModigell.Vibes,pl4nty,
 Bennewitz.Ninja.ClaudeForge,pl4nty,
-benny93.kafui,Benny93,https://github.com/microsoft/winget-pkgs/pull/453525
+benny93.kafui,Benny93,https://github.com/Benny93/kafui/blob/main/.goreleaser.yaml
 BenQ.InstaShare2,spectopo,
 bensadeh.tailspin,damn-good-b0t,
 BenthicSoftware.Golden.8,spectopo,
@@ -1076,7 +1075,7 @@ BirdBrain.BlueBirdConnector,spectopo,
 BirdNETTeam.BirdNETLive,damn-good-b0t,
 BirknerAlex.Kubyl,pl4nty,
 Biscuit.Biscuit,UnownBot,
-BishwaSaha.Koncentro,kun-codes,https://github.com/microsoft/winget-pkgs/pull/300746
+BishwaSaha.Koncentro,kun-codes,https://github.com/kun-codes/Koncentro/blob/main/.github/workflows/publish-winget.yml
 Bisq.Bisq,UnownBot,
 Bit4id.Firma4ng.InfoCamere,spectopo,
 Bit4id.SignDesktop.InfoCamere,spectopo,
@@ -1149,7 +1148,7 @@ Bochs.Bochs,spectopo,
 bodaay.hfdownloader,spectopo,
 BoekSolutions.SheetSetEditor,pl4nty,
 BogdanCalapod.pdq-cli,damn-good-b0t,
-BohdanKoudelka.FileSearchManager,KoudelkaB,https://github.com/microsoft/winget-pkgs/pull/441112
+BohdanKoudelka.FileSearchManager,KoudelkaB,https://github.com/KoudelkaB/win-search/blob/main/.github/workflows/release.yml
 Boof2015.Astra,Boof2015,https://github.com/Boof2015/astra/blob/dev/.github/workflows/publish-packages.yml
 BookStairs.bookhunter,spectopo,
 BookxSoftware.BookxNotePro,spectopo,
@@ -1319,7 +1318,7 @@ CABS.SalesPrix,pl4nty,
 CABS.ScanPrix,pl4nty,
 CaddyServer.Caddy,UnownBot,
 cadwal.BookDB,pl4nty,
-Cairo.Cairo,dremin,https://github.com/microsoft/winget-pkgs/pull/312342
+Cairo.Cairo,dremin,https://github.com/cairoshell/cairoshell/blob/master/.github/workflows/winget.yml
 Cal.Cal,spectopo,
 Calamitus.Launch,pl4nty,
 calebrob6.VSRecent,pl4nty,
@@ -1370,7 +1369,7 @@ Casey.Just,UnownBot,
 CastAI.Kimchi,spectopo,
 Castr.Castr,spectopo,
 cat-forgor.ap,pl4nty,
-cataggar.ghr,cataggar,https://github.com/microsoft/winget-pkgs/pull/478773
+cataggar.ghr,cataggar,https://github.com/cataggar/ghr/blob/main/.github/workflows/winget.yml
 cataggar.wamr,pl4nty,
 CatalystDevOrg.CatalystBrowser,pl4nty,
 CatBraaain.runx,pl4nty,
@@ -1390,16 +1389,13 @@ CCF.CCFLink,spectopo,
 CCGnomes.VaultFlasher,damn-good-b0t,
 CCL.NetLogo,spectopo,
 cclavin.pios,pl4nty,
-ccmb.ccmb,jonas-lesage-be,https://github.com/microsoft/winget-pkgs/pull/446292
+ccmb.ccmb,jonas-lesage-be,https://github.com/jonas-lesage-be/ccmb/blob/main/.goreleaser.yaml
 ccoors.Valeronoi,damn-good-b0t,
 CCPGames.EVEOnline,pl4nty,
 CCsGlobal.Flitdrop,pl4nty,
 CDESoftware.BLS-2025,cdesoftware-buildbot,https://github.com/microsoft/winget-pkgs/pull/416085
-CDESoftware.BLS-2026,cdesoftware-buildbot,https://github.com/microsoft/winget-pkgs/pull/439619
 CDESoftware.BTM-2023,cdesoftware-buildbot,https://github.com/microsoft/winget-pkgs/pull/373730
-CDESoftware.BTM-2026,cdesoftware-buildbot,https://github.com/microsoft/winget-pkgs/pull/448988
 CDESoftware.MBD-2026,cdesoftware-buildbot,https://github.com/microsoft/winget-pkgs/pull/416068
-CDESoftware.TBRAC-2024,cdesoftware-buildbot,https://github.com/microsoft/winget-pkgs/pull/431464
 CE-Programming.CEmu,pl4nty,
 cebby2420.VIADesktop,spectopo,
 CedricLouvrier.Pinga,pl4nty,
@@ -1432,13 +1428,9 @@ ChaosForge.DRL,pl4nty,
 ChaosRecipeEnhancer.ChaosRecipeEnhancer,pl4nty,
 CharlesMilette.TranslucentTB,damn-good-b0t;spectopo,
 charmbracelet.glow,pl4nty,
-charmbracelet.gum,charmcli,https://github.com/microsoft/winget-pkgs/pull/440333
-charmbracelet.mods,charmcli,https://github.com/microsoft/winget-pkgs/pull/273268
 charmbracelet.pop,pl4nty,
 charmbracelet.skate,pl4nty,
 charmbracelet.soft-serve,pl4nty,
-charmbracelet.vhs,charmcli,https://github.com/microsoft/winget-pkgs/pull/440352
-charmbracelet.wishlist,charmcli,https://github.com/microsoft/winget-pkgs/pull/267732
 ChatterinoTeam.Chatterino,pl4nty,
 Chatty.Chatty,UnownBot,
 ChawyeHsu.Hok,spectopo,
@@ -1485,7 +1477,7 @@ ChrisLauinger77.QontrolPanel,ChrisLauinger77,https://github.com/ChrisLauinger77/
 ChrisLauinger77.Stream-GUI-RS,pl4nty,
 ChrisLauinger77.ToeRings,pl4nty,
 chrismaltby.gb-studio,damn-good-b0t,
-ChrisMcLennan.mnml,chris-mclennan,https://github.com/microsoft/winget-pkgs/pull/447989
+ChrisMcLennan.mnml,chris-mclennan,https://github.com/chris-mclennan/mnml/blob/main/.github/workflows/winget-releaser.yml
 ChristianGalla.AutoStartConfirm,pl4nty,
 ChristianThoeing.PasswordTech,spectopo,
 ChristianWade.PowerBIALMToolkit,spectopo,
@@ -1495,7 +1487,7 @@ Chromium.ChromeDriver,UnownBot,
 Chronosphere.FluentBit,spectopo,
 chrox.Readest,spectopo,
 chuccp.win-sshpass,damn-good-b0t,
-ChuckleheadDev.a1s,casselc,https://github.com/microsoft/winget-pkgs/pull/388086
+ChuckleheadDev.a1s,casselc,https://github.com/chucklehead-dev/a1s/blob/main/.goreleaser.yaml
 ChurchApps.FreeShow,vassbo,https://github.com/ChurchApps/FreeShow/blob/main/.github/workflows/winget.yml
 chuthree.BrewGuide,damn-good-b0t,
 ChuxinNeko.NekoCodeDesktop,spectopo,
@@ -1626,11 +1618,9 @@ CodeMiracle.MagicBox,pl4nty,
 Coder.Coder,cdrci,https://github.com/coder/coder/blob/main/.github/workflows/release.yaml
 Coder.CoderDesktop,cdrci,https://github.com/coder/coder-desktop-windows/blob/main/.github/workflows/release.yaml
 CoderBag.QuickCPUx64,spectopo,
-Coderise.gpx-analyzer,jchable,https://github.com/microsoft/winget-pkgs/pull/428100
 Coderise.OKF4net,pl4nty,
 CoderKinley.Musik,damn-good-b0t,
 CodeSector.TeraCopy,spectopo,
-Codesomelabs.trau,RomkaLTU,https://github.com/microsoft/winget-pkgs/pull/421783
 CodeStory.Aide,spectopo,
 CodeSystems.Turbo,spectopo,
 CodeSystems.TurboStudio,spectopo,
@@ -1674,12 +1664,11 @@ Comix.FastMeetingLauncher,spectopo,
 CommandCode.CommandCodeDesktop,spectopo,
 CommandLine.Wave,pl4nty,
 commercialhaskell.stack,damn-good-b0t,
-Commitlint.Commitlint,jurienhamaker,https://github.com/microsoft/winget-pkgs/pull/272777
+Commitlint.Commitlint,jurienhamaker,https://github.com/jurienhamaker/commitlint/blob/main/.github/workflows/release.yml
 Commitly.Commitly,damn-good-b0t,
 CommunicationPlatform.MAX,spectopo,
 CompLabs.GoogleDocs,pl4nty,
 compusophy.localharness,spectopo,
-CompuTec.AppEngine,computec-bot,https://github.com/microsoft/winget-pkgs/pull/479287
 Comtrya.Comtrya,pl4nty,
 Concourse.Fly,damn-good-b0t,
 CondaForge.Miniforge3,spectopo,
@@ -1740,13 +1729,8 @@ CorporateClashCrew.ToontownCorporateClash,damn-good-b0t,
 Corsair.iCUE.5,spectopo,
 Corsinvest.cv4pve.autosnap,pl4nty,
 Corsinvest.cv4pve.botgram,pl4nty,
-Corsinvest.cv4pve.cli,franklupo,https://github.com/microsoft/winget-pkgs/pull/444400
 Corsinvest.cv4pve.diag,franklupo,https://github.com/microsoft/winget-pkgs/pull/448197
-Corsinvest.cv4pve.metrics-exporter,franklupo,https://github.com/microsoft/winget-pkgs/pull/444404
-Corsinvest.cv4pve.nodeprotect,franklupo,https://github.com/microsoft/winget-pkgs/pull/444403
-Corsinvest.cv4pve.pepper,franklupo,https://github.com/microsoft/winget-pkgs/pull/443174
 Corsinvest.cv4pve.report,pl4nty,
-Corsinvest.cv4pve.vdi,franklupo,https://github.com/microsoft/winget-pkgs/pull/444814
 CorsixTH.CorsixTH,UnownBot,
 CortexKit.MagicContextDashboard,spectopo,
 CoScreen.CoScreen,spectopo,
@@ -1858,7 +1842,6 @@ cuteyuchen.ProjectManager,spectopo,
 cuzic.awase,damn-good-b0t,
 cvfile.cv,pl4nty,
 cvut.qtrvsim,pl4nty,
-Cwdio.CwdioFileManager,cwdio,https://github.com/microsoft/winget-pkgs/pull/442589
 CXWorld.CapFrameX,UnownBot,
 Cyan4973.xxhsum,UnownBot,
 Cyanfish.NAPS2,spectopo,
@@ -1936,7 +1919,7 @@ darktakayanagi.Achievement-Watcher,pl4nty,
 darrenprx.lolPing,spectopo,
 Darsono.HOTSHosts,pl4nty,
 darusc.Mousedroid,pl4nty,
-daruyanagi.Petapeta,daruyanagi,https://github.com/microsoft/winget-pkgs/pull/448666
+daruyanagi.Petapeta,daruyanagi,https://github.com/daruyanagi/Petapeta/blob/main/.github/workflows/release.yml
 daruyanagi.XTimelineViewer,pl4nty,
 DasCanard.Radioss,pl4nty,
 Dashlane.CLI,UnownBot,
@@ -1962,7 +1945,7 @@ DATEV.Belegtransfer,spectopo,
 DATEV.SicherheitspaketCompact,spectopo,
 DATEV.SmartITConnect,spectopo,
 Datto.Workplace,spectopo,
-davegallant.vpngate,davegallant,https://github.com/microsoft/winget-pkgs/pull/446217
+davegallant.vpngate,davegallant,https://github.com/davegallant/vpngate/blob/main/.goreleaser.yaml
 DaveWeaver.Silo,spectopo,
 DavidBeveridge.Tangent,spectopo,
 davidchiu66.TubeUltimatePlayer,spectopo,
@@ -1994,7 +1977,7 @@ DeaDBeeF.DeaDBeeF,pl4nty,
 deanxv.DoneHub,spectopo,
 Debba.Tabularis,debba,https://github.com/TabularisDB/tabularis/blob/main/.github/workflows/winget.yml
 Debian.Debian,spectopo,
-decipher.Capter,decipher3114,https://github.com/microsoft/winget-pkgs/pull/274909
+decipher.Capter,decipher3114,https://github.com/decipher3114/Capter/blob/master/.github/workflows/release.yml
 Decred.Decrediton,damn-good-b0t,
 DedAI.Bridge,pl4nty,
 Dedoose.Dedoose,spectopo,
@@ -2008,8 +1991,7 @@ DeepFounderAI.Desigma,spectopo,
 DeepL.DeepL,spectopo,
 DeepSeek.DeepSeekHarnessDesktop,spectopo,
 Deezer.Deezer,spectopo,
-DefangLabs.Defang,lionello,https://github.com/microsoft/winget-pkgs/pull/481121
-defendend.ast-index,defendend,https://github.com/microsoft/winget-pkgs/pull/445271
+defendend.ast-index,defendend,https://github.com/defendend/Claude-ast-index-search/blob/main/.github/workflows/release.yml
 defi.defi,damn-good-b0t,
 Defisym.FFmpeg,spectopo,
 degoya.rDownloader,pl4nty,
@@ -2067,9 +2049,7 @@ DevelopedMethods.playit,spectopo,
 developersu.ns-usbloader,pl4nty,
 Devflow.Uzi,spectopo,
 Devi766.Diodos,spectopo,
-deviceinsight.kafkactl,d-rk,https://github.com/microsoft/winget-pkgs/pull/449352
-deviceinsight.kafkactl-aws-plugin,d-rk,https://github.com/microsoft/winget-pkgs/pull/274784
-deviceinsight.kafkactl-azure-plugin,d-rk,https://github.com/microsoft/winget-pkgs/pull/274785
+deviceinsight.kafkactl,d-rk,https://github.com/deviceinsight/kafkactl/blob/main/.goreleaser.yml
 DevinCook.Flowgorithm,spectopo,
 Devlikebear.Linetta,pl4nty,
 Devlint.GitWand,devlint,https://github.com/devlint/GitWand/blob/main/.github/workflows/release.yml
@@ -2097,7 +2077,7 @@ DevProxy.DevProxy,pl4nty,
 Dewesoft.DSCalibrator,spectopo,
 Dexcom.DexcomUploader,spectopo,
 DeXPeriX.EbookTalker,pl4nty,
-DFetch-org.DFetch,spoorcc,https://github.com/microsoft/winget-pkgs/pull/426670
+DFetch-org.DFetch,spoorcc,https://github.com/dfetch-org/dfetch/blob/main/.github/workflows/winget-publish.yml
 dfgHiatus.VRCFaceTracking.Avalonia,pl4nty,
 DFNetResearch.DFdiscover,spectopo,
 DFNetResearch.DFexplore,spectopo,
@@ -2219,7 +2199,7 @@ DogecoinCoreproject.DogecoinCore,damn-good-b0t,
 Doist.Todoist,spectopo,
 DoiT.dci,damn-good-b0t,
 dokan-dev.Dokany,pl4nty,
-DollarLint.DollarLint,agorischek,https://github.com/microsoft/winget-pkgs/pull/443058
+DollarLint.DollarLint,agorischek,https://github.com/dollarlint/dollarlint/blob/main/.goreleaser.yaml
 DolphinComputerAccess.EasyReader,spectopo,
 DoltHub.Dolt,pl4nty,
 dom1torii.yasp,pl4nty,
@@ -2232,7 +2212,7 @@ DonutWare.Fladder,pl4nty,
 DonutWare.Fladder.Nightly,pl4nty,
 Doppler.doppler,doppler-bot,https://github.com/DopplerHQ/cli/blob/master/.goreleaser.yml
 DORON177.BatteryHub,pl4nty,
-dorssel.usbipd-win,dorssel,https://github.com/microsoft/winget-pkgs/pull/302698
+dorssel.usbipd-win,dorssel,https://github.com/dorssel/usbipd-win/blob/master/.github/workflows/winget.yml
 dosa.achu,pl4nty,
 DOSBoxStaging.DOSBoxStaging,spectopo,
 dotenvx.dotenvx,pl4nty,
@@ -2492,7 +2472,7 @@ emgeka.MK212DriveGlow,pl4nty,
 emoacht.Monitorian,UnownBot,
 EmoteInteractive.RemoteMouse,pl4nty,
 EMQ.MQTTX,spectopo,
-emuell.restic-browser,emuell,https://github.com/microsoft/winget-pkgs/pull/303230
+emuell.restic-browser,emuell,https://github.com/emuell/restic-browser/blob/master/.github/workflows/winget.yml
 eMule.eMule.community,spectopo,
 Emurasoft.EmEditor,spectopo,
 EnCroissant.EnCroissant,pl4nty,
@@ -2509,7 +2489,6 @@ ente-io.auth-desktop,UnownBot,
 ente-io.photos-desktop,UnownBot;damn-good-b0t,
 Enter-tainer.typstyle,spectopo,
 EnterpriseDT.CompleteFTP,spectopo,
-EntropiQ.agent,emaadali,https://github.com/microsoft/winget-pkgs/pull/287330
 Envarly.Envarly,pl4nty,
 EnvBox.Aura,spectopo,
 ENVI-met.ENVI-met,spectopo,
@@ -2605,7 +2584,7 @@ Evernote.Evernote,spectopo,
 Evernote.Evernote.CN,spectopo,
 evestudio.todo-list,pl4nty,
 EvilHumphrey.LegendCTL,pl4nty,
-evilmartians.lefthook,mrexox,https://github.com/microsoft/winget-pkgs/pull/451603
+evilmartians.lefthook,mrexox,https://github.com/evilmartians/lefthook/blob/master/.github/workflows/release.yml
 Evolis.BadgeStudio,spectopo,
 Evolith.Evolith,pl4nty,
 Evoluent.EvoluentMouseManager,spectopo,
@@ -2710,7 +2689,7 @@ FelixdelasPozas.TrayWeather,pl4nty,
 FelixRieseberg.Windows95,pl4nty,
 FelixZeller.markdown-oxide,UnownBot,
 FellowInsights.Fellow,spectopo,
-femtoCommunity.LegendUtil,Milkeyyy,https://github.com/microsoft/winget-pkgs/pull/284654
+femtoCommunity.LegendUtil,Milkeyyy,https://github.com/femtoCommunity/LegendUtil/blob/main/.github/workflows/winget.yml
 Fenzhi.tagLyst,spectopo,
 Feodor2.Mypal,damn-good-b0t,
 feraxhp.grp,pl4nty,
@@ -2769,7 +2748,7 @@ FlightDeck.FlightDeck,pl4nty,
 Flint.Fip-C,pl4nty,
 Flinto.ReadyRunner,spectopo,
 FlipperDevicesInc.qFlipper,damn-good-b0t,
-floatpane.matcha,floatpanebot,https://github.com/microsoft/winget-pkgs/pull/480908
+floatpane.matcha,floatpanebot,https://github.com/floatpane/matcha/blob/master/.goreleaser.yml
 FlorianBruniaux.ccboard,damn-good-b0t,
 FlorianHeidenreich.Mp3tag,spectopo,
 FlorinZamfir.Weather,pl4nty,
@@ -2795,7 +2774,7 @@ FlyByWireSimulations.FlyByWireSimulationsInstaller,damn-good-b0t,
 Flydigi.FlydigiPCSpace,spectopo,
 Flydigi.FlydigiSpaceStation,spectopo,
 flyhunterl.FlyMD,spectopo,
-FlyingNobita.llml,flyingnobita,https://github.com/microsoft/winget-pkgs/pull/442703
+FlyingNobita.llml,flyingnobita,https://github.com/flyingnobita/llml/blob/main/.goreleaser.yaml
 flyingpie.windows-terminal-quake.prerelease,damn-good-b0t,
 Flywheel.Local,UnownBot,
 fmuecke.ExeBundle,pl4nty,
@@ -2962,7 +2941,7 @@ GeorgeEnglezos.ScrcpyGUI,pl4nty,
 Gephi.Gephi,spectopo,
 gerardog.gsudo,spectopo,
 Gergilcan.Concentus,pl4nty,
-GermanCoding.SyncTrayzor,DandelionSprout,https://github.com/microsoft/winget-pkgs/pull/443035
+GermanCoding.SyncTrayzor,GermanCoding,https://github.com/GermanCoding/SyncTrayzor/blob/main/.github/workflows/dotnet-build.yml
 getchunes.Chunes,damn-good-b0t,
 geteduroam.geteduroam,UnownBot,
 GetItSimple.SoundMixer,pl4nty,
@@ -3122,7 +3101,7 @@ goplus.xgo,damn-good-b0t,
 goptics.vizb,pl4nty,
 GoreCode.GoreGraph,gorecodecom,https://github.com/gorecodecom/goregraph/blob/main/.goreleaser.yaml
 goreleaser.mcp,goreleaserbot,https://github.com/goreleaser/mcp/blob/main/.goreleaser.yaml
-goreleaser.nfpm,goreleaserbot,https://github.com/microsoft/winget-pkgs/pull/478014
+goreleaser.nfpm,goreleaserbot,https://github.com/goreleaser/nfpm/blob/main/.goreleaser.yml
 gorodulin.prj,gorodulin,https://github.com/microsoft/winget-pkgs/pull/461836
 GoshsLabs.Goshs,pl4nty,
 GoTo.GoTo,spectopo,
@@ -3201,7 +3180,7 @@ guzmandrade-dev.simple-dap-gui,guzmandrade-dev,https://github.com/guzmandrade-de
 Gyan.FFmpeg,spectopo,
 Gyan.FFmpeg.Shared,spectopo,
 Gynzy.GynzyDesktop,spectopo,
-Gyroflow.Gyroflow,AdrianEddy,https://github.com/microsoft/winget-pkgs/pull/473688
+Gyroflow.Gyroflow,AdrianEddy,https://github.com/gyroflow/gyroflow/blob/master/.github/workflows/release.yml
 H-BAU.FERBOXDesign,spectopo,
 H-BAU.ISODESIGN,spectopo,
 H3C.H3CShare,spectopo,
@@ -3244,7 +3223,7 @@ hardbeat920.MonoCode,spectopo,
 HarjotSinghRana.Reinstate,damn-good-b0t,
 HARMAN.AdobeAIR,spectopo,
 Harmonoid.Harmonoid,damn-good-b0t,
-HarryBMa.PCGamePak,HarryBMa,https://github.com/microsoft/winget-pkgs/pull/461595
+HarryBMa.PCGamePak,HarryBMa,https://github.com/HarryBMa/pc-gamepak/blob/main/.github/workflows/winget.yml
 harshsinghsv.SwiftDL,spectopo,
 HarumiWeb.Eitango,harumiWeb,https://github.com/harumiWeb/eitango/blob/main/.goreleaser.yaml
 HarumiWeb.Xlflow,harumiWeb,https://github.com/harumiWeb/xlflow/blob/main/.goreleaser.yaml
@@ -3285,7 +3264,7 @@ HeartbeatChat.Heartbeat,spectopo,
 HearthSim.HearthstoneDeckTracker,damn-good-b0t,
 heartleo.hn,heartleo,https://github.com/heartleo/hn-cli/blob/main/.goreleaser.yml
 heartleo.subtrans,pl4nty,
-heartleo.webdav-115drive,heartleo,https://github.com/microsoft/winget-pkgs/pull/435025
+heartleo.webdav-115drive,heartleo,https://github.com/heartleo/webdav-115drive/blob/main/.goreleaser.yaml
 heartleo.zlib,heartleo,https://github.com/heartleo/zlib/blob/main/.goreleaser.yml
 heaths.akv,pl4nty,
 Heaventools.PEexplorer,pl4nty,
@@ -3407,7 +3386,7 @@ hoppscotch.Hoppscotch,damn-good-b0t,
 HoraceMaxwell.Horosa,Horace-Maxwell,https://github.com/microsoft/winget-pkgs/pull/470862
 HorizonEDA.horizon-eda,pl4nty,
 horsicq.DIE-engine,UnownBot,
-HostTracker.ht-cli,shashek,https://github.com/microsoft/winget-pkgs/pull/423751
+HostTracker.ht-cli,shashek,https://github.com/HostTracker/cli/blob/main/.goreleaser.yaml
 houmain.GPUpad,damn-good-b0t,
 houmain.keymapper,UnownBot;damn-good-b0t,
 houmain.spright,pl4nty,
@@ -3604,7 +3583,7 @@ ingcreators.TesseraQL,pl4nty,
 Ingenico.IngenicoUSBDriver,spectopo,
 Inginnng.EditHere,spectopo,
 ingitdb.ingitdb,pl4nty,
-IngSquared99.agsy,yating00000,https://github.com/microsoft/winget-pkgs/pull/474249
+IngSquared99.agsy,yating00000,https://github.com/IngSquared99/agent-sync/blob/main/.goreleaser.yaml
 Inkle.Inky,damn-good-b0t,
 Inkscape.Inkscape,spectopo,
 Insomnia.Insomnia,UnownBot,
@@ -3629,7 +3608,7 @@ InterlinkGlobal.Interly,pl4nty,
 Interlynk.lynk-mcp,interlynk-support-bot,https://github.com/interlynk-io/lynk-mcp/blob/main/.goreleaser.yaml
 Intermedia.Unite,spectopo,
 Intermedia.UniteTeamsDesktopPlugin,spectopo,
-InternetData.Mmdb,UmanShahzad,https://github.com/microsoft/winget-pkgs/pull/482128
+InternetData.Mmdb,UmanShahzad,https://github.com/internetdata/mmdb/blob/main/.github/workflows/release.yml
 Internxt.Drive,damn-good-b0t,
 InTheLoop.LoopEmail,damn-good-b0t,
 Intralinks.IntralinksDesigner,spectopo,
@@ -3663,7 +3642,7 @@ IObit.Uninstaller,pl4nty,
 iOfficeAI.AionUi,spectopo,
 iOfficeAI.OfficeCLI,spectopo,
 iPAGet.iPAGet,spectopo,
-ipatalas.AppSwitcher,ipatalas,https://github.com/microsoft/winget-pkgs/pull/474264
+ipatalas.AppSwitcher,ipatalas,https://github.com/ipatalas/app-switcher/blob/main/.github/workflows/publish.yml
 IPEVO.Annotator,spectopo,
 IPEVO.CamControl,spectopo,
 IPEVO.Visualizer,spectopo,
@@ -3686,7 +3665,6 @@ iqnite.msix-no-cert,pl4nty,
 IrineSistiana.mosdns,spectopo,
 IrisInstruments.FullWaveViewerII,pl4nty,
 Ironben.5ire,spectopo,
-IronmanSoftware.PowerShellUniversal,devolutionsbot,https://github.com/microsoft/winget-pkgs/pull/2
 irwitzer.BookStitch,pl4nty,
 Isabel.IsabelOfflineReporting,spectopo,
 Isabel.IsabelSecurityComponents,spectopo,
@@ -3751,9 +3729,8 @@ Jackett.Jackett,ilike2burnthing,https://github.com/Jackett/Jackett/blob/master/.
 Jackharvest.ShapeCraft,spectopo,
 JackieLiu.NotepadsApp,damn-good-b0t,
 jacking75.Yeobaek,pl4nty,
-JackMordaunt.icnsify,JackMordaunt,https://github.com/microsoft/winget-pkgs/pull/437983
+JackMordaunt.icnsify,JackMordaunt,https://github.com/JackMordaunt/icns/blob/main/.github/workflows/winget.yml
 JackTrip.JackTrip,damn-good-b0t,
-JacobHuemmer.jkins,masonhuemmer,https://github.com/microsoft/winget-pkgs/pull/443872
 JacquelinPotier.AllDllsDependencies,pl4nty,
 jaegertracing.jaeger,damn-good-b0t,
 Jagogency.KasirPOS,damn-good-b0t,
@@ -3777,7 +3754,7 @@ JanetLang.Janet,pl4nty,
 JanFiala.PSPad.x64,spectopo,
 JanFiala.PSPad.x86,spectopo,
 JanKulhánek.ListenToMe,UnownBot,
-JanMesarc.GodMan,jame581,https://github.com/microsoft/winget-pkgs/pull/443848
+JanMesarc.GodMan,jame581,https://github.com/jame581/GodotManager/blob/main/.github/workflows/release.yml
 Janne6565.Wharf,pl4nty,
 JannisX11.Blockbench,damn-good-b0t,
 jannskiee.floe,jannskiee,https://github.com/jannskiee/floe/blob/main/.goreleaser.yml
@@ -3785,7 +3762,7 @@ JanOdegard.TinyClips,janode,https://github.com/janode/tiny-clips-win/blob/main/.
 janosmiko.lfk,janosmiko,https://github.com/janosmiko/lfk/blob/main/.goreleaser.yaml
 JanProchazka.dbgate,damn-good-b0t,
 jantari.rewinged,pl4nty,
-JaredMeadows.pulse-panel,meadowsjared,https://github.com/microsoft/winget-pkgs/pull/451614
+JaredMeadows.pulse-panel,meadowsjared,https://github.com/meadowsjared/pulse-panel/blob/main/.github/workflows/electron_build.yaml
 jark006.jarkViewer,damn-good-b0t,
 JasonMeng.rolltape,pl4nty,
 JasonTiw.PortKillforCommandPalette,pl4nty,
@@ -3861,7 +3838,7 @@ JetBrains.ThinkRailCLI,spectopo,
 JetBrains.Toolbox,spectopo,
 JetBrains.WebStorm,spectopo,
 JetBrains.WebStorm.EAP,spectopo,
-Jetsung.XSkill,jetsung,https://github.com/microsoft/winget-pkgs/pull/423801
+Jetsung.XSkill,jetsung,https://github.com/jetsung/xskill/blob/main/.github/workflows/release.yml
 jetyu.Snaptium,spectopo,
 JFrog.Cli,UnownBot,
 JFrog.Conan,UnownBot,
@@ -3943,7 +3920,7 @@ JosephFinney.Text-Grab,damn-good-b0t,
 jousse.pomodorolm,vjousse,https://github.com/vjousse/concentre/blob/main/.github/workflows/winget-release.yml
 JoyHak.QuickSwitch,pl4nty,
 joyint.joy,pl4nty,
-joyint.jyn,joydev-horst,https://github.com/microsoft/winget-pkgs/pull/446669
+joyint.jyn,joydev-horst,https://github.com/joyint/jyn/blob/main/.github/workflows/release.yml
 jpalaniselvam.myna,pl4nty,
 JPersson77.LGTVCompanion,JPersson77,https://github.com/JPersson77/LGTVCompanion/blob/master/.github/workflows/winget-releaser.yml
 jqlang.jq,UnownBot,
@@ -3951,10 +3928,10 @@ JqyModi.CodexMultiLauncher,spectopo,
 JReleaser.jreleaser,damn-good-b0t,
 JRpersonal.STReborn,pl4nty,
 JS8Call-improved.JS8Call-improved,spectopo,
-jsdelivr.Globalping,jimaek,https://github.com/microsoft/winget-pkgs/pull/447505
+jsdelivr.Globalping,jimaek,https://github.com/jsdelivr/globalping-cli/blob/master/.github/workflows/release.yml
 JTDev.RadioAutomation,jeffu231,https://github.com/jeffu231/Radio-Automation/blob/master/.github/workflows/build.yml
 jtroo.kanata_gui,pl4nty,
-juan7732.ergo,juan7732,https://github.com/microsoft/winget-pkgs/pull/429132
+juan7732.ergo,juan7732,https://github.com/juan7732/ergo/blob/main/.goreleaser.yaml
 JuanjoFuchs.agent-mail-cli,damn-good-b0t,
 JuanjoFuchs.atref,damn-good-b0t,
 JuanjoFuchs.ccburn,pl4nty,
@@ -3965,7 +3942,7 @@ juejijianghuaa.CoDock,spectopo,
 Julialang.Julia,spectopo,
 Julialang.Juliaup,spectopo,
 JulianAlarcon.ProspectMail,pl4nty,
-JulienCagniart.anyquery,julien040,https://github.com/microsoft/winget-pkgs/pull/449059
+JulienCagniart.anyquery,julien040,https://github.com/julien040/anyquery/blob/main/.goreleaser.yaml
 JumpCloud.PasswordManager,pl4nty,
 jumppad.jumppad,pl4nty,
 JunctionNetworks.OnSIP,spectopo,
@@ -3977,7 +3954,7 @@ JurgenRathlev.innounp,spectopo,
 JurgenRathlev.InnoUnpacker,spectopo,
 jurplel.qView,pl4nty,
 JustArchiNET.ArchiSteamFarm,damn-good-b0t,
-Justequal.VibeCalendar,justequal,https://github.com/microsoft/winget-pkgs/pull/450628
+Justequal.VibeCalendar,justequal,https://github.com/justequal/VibeCalendar/blob/main/.github/workflows/release.yml
 JustGenius-s.DSHDesktop,spectopo,
 justhil.piDesktop,spectopo,
 JustinGrote.PingoMeter,pl4nty,
@@ -4008,7 +3985,7 @@ kalink0.Crush,pl4nty,
 kalink0.Peach,pl4nty,
 KallistoX.replaycut,pl4nty,
 Kalmix.Askey,pl4nty,
-Kameleo.App,kameleo-team,https://github.com/microsoft/winget-pkgs/pull/475457
+Kameleo.App,kameleo-team,https://github.com/kameleo-io/kameleo/blob/master/.github/workflows/publish-to-winget.yml
 Kamjin.Chatless,spectopo,
 Kampfkarren.selene,pl4nty,
 KanakKholwal.Recast,kanakkholwal,https://github.com/kanakkholwal/recast/blob/main/.github/workflows/release-desktop.yml
@@ -4128,7 +4105,6 @@ KeePassXCTeam.KeePassXC,spectopo,
 KeeperSecurity.Commander,damn-good-b0t,
 KeeperSecurity.KeeperDesktop,spectopo,
 KeeperSecurity.KeeperForcefield,pl4nty,
-KeeperSecurity.KeeperSecretsManager,stas-schaller,https://github.com/microsoft/winget-pkgs/pull/453466
 KeeperSecurity.PasswordImporterStandalone,pl4nty,
 kelibiao.kelibiao,spectopo,
 KellyBrazil.jc,damn-good-b0t,
@@ -4138,11 +4114,11 @@ Kensington.TrueHue,spectopo,
 Kesomannen.Gale,damn-good-b0t,
 Kessriga.Flamberge,damn-good-b0t,
 kevin.Astral,damn-good-b0t,
-kevinboss.haus,kevinboss,https://github.com/microsoft/winget-pkgs/pull/447851
-kevinboss.port,kevinboss,https://github.com/microsoft/winget-pkgs/pull/452688
+kevinboss.haus,kevinboss,https://github.com/kevinboss/haus/blob/main/.github/workflows/winget.yml
+kevinboss.port,kevinboss,https://github.com/kevinboss/port/blob/master/.github/workflows/winget.yml
 KevinGoedecke.Doop,spectopo,
 KevinGosse.ClipPing,kevingosse,https://github.com/kevingosse/ClipPing/blob/master/.github/workflows/publish-winget.yml
-KeyArg.Statable,key-arg,https://github.com/microsoft/winget-pkgs/pull/435897
+KeyArg.Statable,key-arg,https://github.com/key-arg/statable-cli/blob/main/.goreleaser.yaml
 KeychainPGP.KeychainPGP,spectopo,
 KeyMasterPro.KeyMasterPro,damn-good-b0t,
 Keysight.OpenTAP,spectopo,
@@ -4205,7 +4181,7 @@ Koljam.Solarxy,marko-koljancic,https://github.com/marko-koljancic/solarxy/blob/m
 Kom1sh.MediaChef,pl4nty,
 Kongkong.AskLink,spectopo,
 KonicaMinolta.UniversalPrinterDriverPCL6,pl4nty,
-Kopi-vm.Kopi,satotaichi,https://github.com/microsoft/winget-pkgs/pull/308025
+Kopi-vm.Kopi,satotaichi,https://github.com/kopi-vm/kopi/blob/main/.github/workflows/release.yml
 Kopia.KopiaCLI,UnownBot,
 Kopia.KopiaUI,UnownBot,
 koprodev.Sumbo,pl4nty,
@@ -4332,7 +4308,7 @@ LEGO.MindstormsEduEV3Classroom,spectopo,
 LEGO.WeDo,spectopo,
 legowerewolf.AO3Fetch,legowerewolf,https://github.com/legowerewolf/AO3fetch/blob/main/.github/workflows/release.yml
 lehhair.PiUI,spectopo,
-lejy.Winchisel,lejyfps,https://github.com/microsoft/winget-pkgs/pull/481537
+lejy.Winchisel,lejyfps,https://github.com/lejyfps/winchisel/blob/master/.github/workflows/winget.yml
 lemueldls.mnemo,pl4nty,
 lencx.ChatGPT,spectopo,
 lencx.Noi,spectopo,
@@ -4451,7 +4427,7 @@ LobeHub.LobeHub,spectopo,
 Locaible.Locaible,pl4nty,
 LocalSend.LocalSend,UnownBot;pl4nty,
 LocalStack.localstack-cli,damn-good-b0t,
-LocalTV.Remote,creationsofm7,https://github.com/microsoft/winget-pkgs/pull/441639
+LocalTV.Remote,creationsofm7,https://github.com/creationsofm7/localtv-remote/blob/main/.github/workflows/winget-publish.yml
 Locklizard.SafeguardPDFViewer,spectopo,
 Locklizard.SafeguardPDFWriter,spectopo,
 Locklizard.SafeguardPDFWriter.Enterprise,spectopo,
@@ -4491,7 +4467,6 @@ looplj.AxonHub,spectopo,
 looplj.AxonHub.Desktop,spectopo,
 LoopTroopAI.LoopTroop,looptroop-ai,https://github.com/looptroop-ai/LoopTroop/blob/main/.github/workflows/channel-republish.yml
 LOOT.LOOT,spectopo,
-LorenEteval.Furious,LorenEteval,https://github.com/microsoft/winget-pkgs/pull/437614
 LoreoInc.Loreo,pl4nty,
 loreste.mako,damn-good-b0t,
 losbiw.erin,pl4nty,
@@ -4509,7 +4484,7 @@ Lparksi.WinLux,pl4nty,
 lqdev.PodcastTUI,pl4nty,
 LRCLIB.LRCGET,pl4nty,
 LRGEX.Compress,pl4nty,
-lsd-rs.lsd,zwpaper,https://github.com/microsoft/winget-pkgs/pull/302814
+lsd-rs.lsd,zwpaper,https://github.com/lsd-rs/lsd/blob/main/.github/workflows/CICD.yml
 LSEG.RefinitivWorkspace,spectopo,
 LSoftTechnologies.ActivePartitionManager,pl4nty,
 LSXPrime.ProseFlow,spectopo,
@@ -4658,7 +4633,6 @@ marlocarlo.tmuxpanel,pl4nty,
 Martchus.syncthingctl,damn-good-b0t,
 Martchus.syncthingtray,pl4nty,
 MartialBE.OneHub,spectopo,
-MartiCliment.UniGetUI.Pre-Release,devolutionsbot,https://github.com/microsoft/winget-pkgs/pull/477871
 MartinBresson.Executor,spectopo,
 martinchrzan.ColorPicker,pl4nty,
 MartinPospisil.Gleanvolt,pl4nty,
@@ -5079,12 +5053,12 @@ MindGenius.MindGenius.AI,spectopo,
 MINECO.AFORIX,spectopo,
 minerva.worker,pl4nty,
 mingchen666.Reviva,spectopo,
-Minibee.Viewer,PanteraPolnocy,https://github.com/microsoft/winget-pkgs/pull/480430
+Minibee.Viewer,PanteraPolnocy,https://github.com/PanteraPolnocy/Minibee-Viewer/blob/main/.github/workflows/release.yml
 MiniMax.MiniMaxCode,spectopo,
 MiniMax.MiniMaxDesign,spectopo,
 MiniMax.MiniMaxDesign.CN,spectopo,
 mininh.ConfiguradorWindows11,pl4nty,
-miniscruff.changie,miniscruff,https://github.com/microsoft/winget-pkgs/pull/421649
+miniscruff.changie,miniscruff,https://github.com/miniscruff/changie/blob/main/.goreleaser.yml
 MinistryOfEducationOfThePRC.SmartSchools,pl4nty,
 MiniTool.PartitionWizard.Free,pl4nty,
 MiniZinc.MiniZincIDE,spectopo,
@@ -5117,7 +5091,7 @@ MKProj.Minerva,pl4nty,
 MladenPrajdic.SSMSToolsPack,spectopo,
 mlcousek.ClaudeUsageTray,pl4nty,
 MLMGames.Imagot,damn-good-b0t,
-MLMGames.Pomodorot,mlm-games,https://github.com/microsoft/winget-pkgs/pull/339629
+MLMGames.Pomodorot,mlm-games,https://github.com/mlm-games/pomodorot/blob/main/.github/workflows/export_releases.yml
 MLMGames.VeloDown,damn-good-b0t,
 mmalmi.nostr-vpn,damn-good-b0t,
 mmletgo.cc-partner,spectopo,
@@ -5180,7 +5154,7 @@ Mono.GTKSharpforDotNet,pl4nty,
 Mono.Mono,spectopo,
 monodle.FontFinder,pl4nty,
 MonotypeImaging.Extensis.ConnectFonts,UnownBot;spectopo,
-MonsieurTib.service-bus-tui,MonsieurTib,https://github.com/microsoft/winget-pkgs/pull/410858
+MonsieurTib.service-bus-tui,MonsieurTib,https://github.com/MonsieurTib/service-bus-tui/blob/main/.goreleaser.yaml
 MonzerOsman.YallaVideo,pl4nty,
 MoonchildProductions.PaleMoon,spectopo,
 Moonfin.Moonfin,pl4nty,
@@ -5704,15 +5678,15 @@ nekename.OpenDeck,UnownBot,
 nekohy.MeowCLI,spectopo,
 nekomeowww.OllamaOperator,spectopo,
 nektos.act,cplee,https://github.com/nektos/act/blob/main/.github/workflows/release.yml
-Nemu-x.SlothClash,Nemu-x,https://github.com/microsoft/winget-pkgs/pull/480321
+Nemu-x.SlothClash,Nemu-x,https://github.com/Nemu-x/SlothClash/blob/main/.github/workflows/desktop-artifacts.yml
 Neo4j.Neo4jDesktop,spectopo,
 NeocomSoftware.TRBOnet.Enterprise,spectopo,
 NeocomSoftware.TRBOnet.Plus,spectopo,
 NeocomSoftware.TRBOnetWatch,spectopo,
 Neokapi.Kapi,asgeirf,https://github.com/neokapi/neokapi/blob/main/.github/workflows/winget.yml
 Neokapi.KapiCli,asgeirf,https://github.com/neokapi/neokapi/blob/main/.github/workflows/winget.yml
-Neosku.AviUtl2-Catalog,Neosku,https://github.com/microsoft/winget-pkgs/pull/349065
-neosubhamoy.neodlp,neosubhamoy,https://github.com/microsoft/winget-pkgs/pull/380375
+Neosku.AviUtl2-Catalog,Neosku,https://github.com/Neosku/aviutl2-catalog/blob/main/.github/workflows/winget.yml
+neosubhamoy.neodlp,neosubhamoy,https://github.com/neosubhamoy/neodlp/blob/main/.github/workflows/publish-to-winget.yml
 Neovide.Neovide,UnownBot,
 Neovim.Neovim,UnownBot;damn-good-b0t,
 Neprel.GitA2A,pl4nty,
@@ -6457,7 +6431,7 @@ PixtaleLab.PixtaleSync,spectopo,
 pizzaboxer.Bloxstrap,damn-good-b0t,
 pjpv.zcode-switch,spectopo,
 pkgconf.pkgconf,UnownBot,
-PlanetLinux98.GUARD,PlanetLinux98,https://github.com/microsoft/winget-pkgs/pull/417531
+PlanetLinux98.GUARD,PlanetLinux98,https://github.com/PlanetLinux98/guard/blob/main/.github/workflows/winget.yml
 PlanetScale.CLI,UnownBot,
 PlanGrid.PlanGrid,spectopo,
 Platten.Playlistforge,pl4nty,
@@ -6574,7 +6548,7 @@ ProDirt.NTFSFolderAudit,pl4nty,
 ProductOfAmerica.cairn,pl4nty,
 Profullstack.PairUX,ralyodio,https://github.com/microsoft/winget-pkgs/pull/468013
 Prog.ProgDVB.Free,UnownBot,
-ProjectEnv.ProjectEnvCli,repolevedavaj,https://github.com/microsoft/winget-pkgs/pull/418181
+ProjectEnv.ProjectEnvCli,repolevedavaj,https://github.com/Project-Env/project-env-cli/blob/main/.github/workflows/winget-releaser.yml
 ProjectJupyter.JupyterLab,jupyterlab-winget-bot,https://github.com/jupyterlab/jupyterlab-desktop/blob/master/.github/workflows/winget.yml
 projectkudu.ARMClient,spectopo,
 ProjectLibre.ProjectLibre,spectopo,
@@ -6605,7 +6579,7 @@ Prowise.ProwisePresenter,spectopo,
 Prowise.TouchServiceTool,spectopo,
 Prowise.TouchServiceTool.NFC,spectopo,
 Proxyman.Proxyman,spectopo,
-PRQL.prqlc,prql-bot,https://github.com/microsoft/winget-pkgs/pull/407440
+PRQL.prqlc,prql-bot,https://github.com/PRQL/prql/blob/main/.github/workflows/release.yaml
 prsyahmi.WicHeic,damn-good-b0t,
 psb140306.star_zip,pl4nty,
 Psenix.OverlayTimer,damn-good-b0t,
@@ -6721,7 +6695,7 @@ Quark.QuarkXPress.2025,spectopo,
 Quark.QuarkXPress.2026,spectopo,
 Quark.QuarkXPressCopyDesk.2025,spectopo,
 Quark.QuarkXPressDocumentConverter,spectopo,
-Qubernetic.copia-cli,q-soriarty,https://github.com/microsoft/winget-pkgs/pull/481807
+Qubernetic.copia-cli,q-soriarty,https://github.com/qubernetic/copia-cli/blob/main/.github/workflows/winget.yml
 Querz.MCASelector,pl4nty,
 QuestPDF.Companion,pl4nty,
 quick-lint.quick-lint-js,spectopo,
@@ -6808,7 +6782,6 @@ RawTherapee.RawTherapee,spectopo,
 Ray-lea.Argus,spectopo,
 RayCarrot.RaymanControlPanel,pl4nty,
 RazerInc.RazerInstaller.Synapse4,pl4nty,
-razpinator.scaffo,razpinator,https://github.com/microsoft/winget-pkgs/pull/323853
 RazrFalcon.SVGCleaner.GUI,pl4nty,
 RCDevs.OpenOTPCredentialProvider,spectopo,
 RCDevs.OpenOTPQuickSign,spectopo,
@@ -6914,13 +6887,13 @@ Revopoint.RevoScan.6,spectopo,
 Revopoint.RevoTrack,spectopo,
 RevoUninstaller.RevoUninstaller,spectopo,
 rexenv.rexenv,pl4nty,
-rexpose.rexpose,k4i6,https://github.com/microsoft/winget-pkgs/pull/410933
+rexpose.rexpose,k4i6,https://github.com/rexpose/rexpose/blob/main/.goreleaser.yaml
 rgdevment.LinkUnbound,rgdevment-bot,https://github.com/rgdevment/LinkUnbound/blob/main/.github/workflows/release.yml
-rgdevment.Tisty,rgdevment-bot,https://github.com/microsoft/winget-pkgs/pull/482123
+rgdevment.Tisty,rgdevment-bot,https://github.com/rgdevment/Tisty/blob/main/.github/workflows/release.yml
 rgst-io.stencil,jaredallard,https://github.com/microsoft/winget-pkgs/pull/422240
 rhrusha.WinFocus,pl4nty,
 rhshourav.Hydracast,pl4nty,
-rhysd.actionlint,rhysd,https://github.com/microsoft/winget-pkgs/pull/353922
+rhysd.actionlint,rhysd,https://github.com/rhysd/actionlint/blob/main/.github/workflows/release.yaml
 RIA.DigiDoc4,spectopo,
 RIA.eIDsoftware,spectopo,
 RIA.Libdigidocpp,spectopo,
@@ -7097,7 +7070,7 @@ Rupprath.AoMCounters,pl4nty,
 Rupprath.ModelMeter,pl4nty,
 rushabhpasad.MDEditor,pl4nty,
 RussellBanks.Komac,russellbanks,https://github.com/russellbanks/Komac/blob/main/.github/workflows/release.yml
-RussMckendrick.Aicommit,russmckendrick,https://github.com/microsoft/winget-pkgs/pull/479720
+RussMckendrick.Aicommit,russmckendrick,https://github.com/russmckendrick/aicommit/blob/main/.github/workflows/update-winget.yml
 RussMckendrick.TokenUse,russmckendrick,https://github.com/russmckendrick/tokenuse/blob/main/.github/workflows/update-winget.yml
 RustemMussabekov.Raindrop,pl4nty,
 Rustlang.mdBook,UnownBot,
@@ -7133,9 +7106,9 @@ SaaSGroup.Tower,spectopo,
 SabakiHQ.Sabaki,pl4nty,
 SABnzbdTeam.SABnzbd,damn-good-b0t,
 SabreTools.MPF,pl4nty,
-sabushanab.ghsync,samykabu,https://github.com/microsoft/winget-pkgs/pull/445196
+sabushanab.ghsync,samykabu,https://github.com/samykabu/ghsync/blob/main/.goreleaser.yaml
 sacloud.usacloud,pl4nty,
-SaeraSoft.CaesiumCLT,Lymphatus,https://github.com/microsoft/winget-pkgs/pull/435903
+SaeraSoft.CaesiumCLT,Lymphatus,https://github.com/Lymphatus/caesium-clt/blob/main/.github/workflows/winget.yml
 SaeraSoft.CaesiumImageCompressor,damn-good-b0t;spectopo,
 Safing.Portmaster,UnownBot,
 SagerNet.sing-box,pl4nty,
@@ -7189,7 +7162,7 @@ saransh121.flowChart,pl4nty,
 sasler.TroubleScout,sasler,https://github.com/sasler/TroubleScout/blob/main/.github/workflows/winget.yml
 SatDump.SatDump,pl4nty,
 SatisfactoryModding.SatisfactoryModManager,pl4nty,
-satodaiki.cntdwn,satodaiki,https://github.com/microsoft/winget-pkgs/pull/326491
+satodaiki.cntdwn,satodaiki,https://github.com/satodaiki/cntdwn/blob/main/.goreleaser.yaml
 SatoshiLabs.trezor-suite,UnownBot,
 Saturn9.FlowCLI,pl4nty,
 Saturneric.GpgFrontend,damn-good-b0t,
@@ -7255,7 +7228,7 @@ SecretsOPerationS.SOPS,damn-good-b0t,
 secrypt.digiSealreader,spectopo,
 SecureCloudGroup.SmartBrain,pl4nty,
 SecurepointGmbH.SecurepointSSLVPN,spectopo,
-SecurityRonin.blazehash,securityronin-bot,https://github.com/microsoft/winget-pkgs/pull/358190
+SecurityRonin.blazehash,securityronin-bot,https://github.com/SecurityRonin/blazehash/blob/main/.github/workflows/release.yml
 SecurityRonin.disk4n6,securityronin-bot,https://github.com/SecurityRonin/disk-forensic/blob/main/.github/workflows/release.yml
 SecurityRonin.sqlite4n6,securityronin-bot,https://github.com/SecurityRonin/sqlite-forensic/blob/main/.github/workflows/release.yml
 sedwards2009.extraterm,damn-good-b0t,
@@ -7289,7 +7262,7 @@ Selur.Hybrid,spectopo,
 SenseTime.ads-cli,spectopo,
 SenseTime.OfficeRaccoon,spectopo,
 SenseTime.SoWork,spectopo,
-SensibleBit.CertKit,danielewood,https://github.com/microsoft/winget-pkgs/pull/346859
+SensibleBit.CertKit,danielewood,https://github.com/sensiblebit/certkit/blob/main/.github/workflows/release.yml
 Sensslen.CameraControl,sensslen,https://github.com/sensslen/Cgf.CameraControl.Net/blob/main/.github/workflows/release.yml
 Sentry.sentry-cli,spectopo,
 SeqLens.SeqLens,seqlens-bot,https://github.com/microsoft/winget-pkgs/pull/405289
@@ -7332,7 +7305,7 @@ sharkdp.bat,sharkdp,https://github.com/sharkdp/bat/blob/master/.github/workflows
 sharkdp.fd,sharkdp,https://github.com/sharkdp/fd/blob/master/.github/workflows/CICD.yml
 sharkdp.hexyl,pl4nty,
 sharkdp.hyperfine,pl4nty,
-sharkdp.pastel,sharkdp,https://github.com/microsoft/winget-pkgs/pull/339395
+sharkdp.pastel,sharkdp,https://github.com/sharkdp/pastel/blob/master/.github/workflows/CICD.yml
 sharkdp.vivid,pl4nty,
 sharpemu.SharpEmu,pl4nty,
 sharpninja.ViceSharp,pl4nty,
@@ -7356,7 +7329,7 @@ Shinnosuke0722.jm,pl4nty,
 Shinokada.Gitstart,damn-good-b0t,
 Shinokada.SvelteNext,pl4nty,
 Shinokada.Tera,pl4nty,
-ShipDigital.PullWatch,deblasis,https://github.com/microsoft/winget-pkgs/pull/324294
+ShipDigital.PullWatch,deblasis,https://github.com/ship-digital/pull-watch/blob/main/.goreleaser.yaml
 shipengqi.commitizen,pl4nty,
 shixinhuang99.Czkawka.Tauri,pl4nty,
 shixinhuang99.Czkawka.Tauri.FFmpeg,pl4nty,
@@ -7381,9 +7354,9 @@ SiarheiM.LightDownloader,pl4nty,
 SiberSystems.RoboForm,pl4nty,
 sibexico.chartgen,pl4nty,
 sibexico.codemeter,pl4nty,
-sibexico.Eris,sibexico,https://github.com/microsoft/winget-pkgs/pull/432292
+sibexico.Eris,sibexico,https://github.com/sibexico/Eris/blob/main/.github/workflows/release.yml
 sibexico.Trailblazer,sibexico,https://github.com/sibexico/Trailblazer/blob/main/.github/workflows/release-binaries.yml
-sibexico.Trusty,sibexico,https://github.com/microsoft/winget-pkgs/pull/421245
+sibexico.Trusty,sibexico,https://github.com/sibexico/Trusty/blob/main/.github/workflows/build.yml
 SickSartori.SvgPreview,pl4nty,
 Siddharth.VSSProgrammingLanguage,damn-good-b0t,
 Sidero.omnictl,pl4nty,
@@ -7508,7 +7481,7 @@ SnoopWpf.Snoop,pl4nty,
 SnosMe.AwakenedPoETrade,damn-good-b0t,
 SnowdreamTech.unigo,snowdream,https://github.com/snowdreamtech/unigo/blob/main/.goreleaser.yaml
 SnowdreamTech.unirtm,snowdream,https://github.com/snowdreamtech/UniRTM/blob/main/.goreleaser.yaml
-SnowdreamTech.unistack,snowdream,https://github.com/microsoft/winget-pkgs/pull/430779
+SnowdreamTech.unistack,snowdream,https://github.com/snowdreamtech/unistack/blob/main/.goreleaser.yaml
 Snowflake.CortexCode,spectopo,
 Snowflake.OdbcDriver,spectopo,
 Snowflake.SnowflakeCLI,spectopo,
@@ -7608,7 +7581,6 @@ SourceBox.SearchBox,pl4nty,
 sourcegit-scm.SourceGit,UnownBot,
 Sourcegraph.Amp,spectopo,
 SouthRiverTechnologies.WebDrive,spectopo,
-Sovera.Pulse,sovera-dev,https://github.com/microsoft/winget-pkgs/pull/417828
 sowmiksudo.NetGlance,pl4nty,
 soymadip.quikrun,damn-good-b0t,
 spaam.svtplay-dl,UnownBot,
@@ -7694,7 +7666,7 @@ Station.Station,spectopo,
 Steady.Steady,spectopo,
 SteamDatabase.SteamTokenDumper,damn-good-b0t,
 SteamGridDB.RomManager,damn-good-b0t,
-SteampunkLabs.AWSLoggy,aegixx,https://github.com/microsoft/winget-pkgs/pull/381443
+SteampunkLabs.AWSLoggy,aegixx,https://github.com/aegixx/aws-loggy/blob/main/.github/workflows/release.yml
 SteelSeries.GG,UnownBot,
 Steerania.Oryx,pl4nty,
 StefanFreischlad.Filius,spectopo,
@@ -7758,7 +7730,7 @@ Stripe.StripeCli,damn-good-b0t,
 Stript.Stript,pl4nty,
 StructuredData.BERTTookit,spectopo,
 StruisICT.ClutterCutter,Struis112,https://github.com/StruisICT/ClutterCutter/blob/main/.github/workflows/winget-manifest.yml
-StruisICT.InLook,Struis112,https://github.com/microsoft/winget-pkgs/pull/425632
+StruisICT.InLook,Struis112,https://github.com/StruisICT/InLook/blob/main/.github/workflows/packagers.yml
 StruisICT.InSearch,pl4nty,
 StruisICT.SmtpTestTool,pl4nty,
 StudioAINE.AINEPaint,pl4nty,
@@ -7790,7 +7762,7 @@ Summay.Sunsama,spectopo,
 Summit.ActionsMonitor,pl4nty,
 Sumologic.OtelcolSumo,sumologic-otel-collector-ci,https://github.com/microsoft/winget-pkgs/pull/458926
 Sumologic.OtelcolSumo.Fips,sumologic-otel-collector-ci,https://github.com/microsoft/winget-pkgs/pull/458927
-sunbeam60.pathed,sunbeam60,https://github.com/microsoft/winget-pkgs/pull/350868
+sunbeam60.pathed,sunbeam60,https://github.com/sunbeam60/pathed-go/blob/master/.github/workflows/winget-publish.yml
 sunfish-shogi.shogihome,damn-good-b0t,
 SunJary.NetAssistant,pl4nty,
 sunuuc.mpv-AnimeFusion,spectopo,
@@ -7846,7 +7818,6 @@ SyncROSoft.OxygenXMLEditor,spectopo,
 Syncthing.Syncthing,UnownBot,
 syndicode.iNFekt,spectopo,
 Syngnat.GoNavi,pl4nty,
-SynheartAI.Synheart,synheart-bot,https://github.com/microsoft/winget-pkgs/pull/481919
 Synology.ActiveBackupForBusinessAgent,spectopo,
 Synology.ActiveProtectAgent,spectopo,
 Synology.BeeDrive,spectopo,
@@ -7874,7 +7845,7 @@ SZCHKT.Leaklog,spectopo,
 szTheory.exifcleaner,pl4nty,
 Szv.GitShadowtree,pl4nty,
 T-Troll.AlienFXTools,damn-good-b0t,
-t1m0thyj.WinDynamicDesktop,t1m0thyj,https://github.com/microsoft/winget-pkgs/pull/388506
+t1m0thyj.WinDynamicDesktop,t1m0thyj,https://github.com/t1m0thyj/WinDynamicDesktop/blob/main/.github/workflows/release-winget.yml
 T3Tools.T3Code,UnownBot,
 T3Tools.tsc-rs,spectopo,
 t4t5.caldir,pl4nty,
@@ -8004,7 +7975,6 @@ tecwindow.Albayan,damn-good-b0t,
 TEdit.TEdit,damn-good-b0t,
 TedZyzsdy.NegativeEncoder,spectopo,
 Tekinsv.Tekinote,pl4nty,
-tekumara.gh-doctor,tekumara,https://github.com/microsoft/winget-pkgs/pull/304713
 telcoray.DigitalDetox,pl4nty,
 TeleCode.TeleCode,damn-good-b0t,
 Telekom.CloudPBX,spectopo,
@@ -8105,7 +8075,6 @@ Th0rgal.ShardLauncher,damn-good-b0t,
 ThaddeusMcCleary.Seatsmart,damn-good-b0t,
 ThanhLe.RefiApp,spectopo,
 the-code-fixer-23.go-toolkit,pl4nty,
-the-code-fixer-23.javascript-package-delegator,louiss0,https://github.com/microsoft/winget-pkgs/pull/300657
 the-code-fixer-23.mace,louiss0,https://github.com/louiss0/mace/blob/main/.goreleaser.yaml
 TheBlind.T-Shell,spectopo,
 TheBrain.TheBrain,spectopo,
@@ -8128,7 +8097,7 @@ TheQucsTeam.Qucs-S,damn-good-b0t,
 therealpaulgg.ssh-sync,therealpaulgg,https://github.com/therealpaulgg/ssh-sync/blob/main/.github/workflows/update-winget-manifest.yml
 ThermoFisher.AmiraAvizo2D,spectopo,
 TheSaltyKorean.MarkdownStudio,TheSaltyKorean,https://github.com/TheSaltyKorean/md/blob/main/.github/workflows/release.yml
-TheSillyBoi.Wretch,DuckDuckStudio,https://github.com/microsoft/winget-pkgs/pull/292516
+TheSillyBoi.Wretch,coopeeobot,https://github.com/TheSillyBoi/wretch/blob/main/.github/workflows/update-sources.yml
 theswarmlord36.VNC4FREE,spectopo,
 Theta.DeskHatch,damn-good-b0t,
 TheWaWaR.simple-http-server,damn-good-b0t,
@@ -8231,7 +8200,7 @@ timokoessler.2FAGuard,pl4nty,
 TimoKokkonen.Jpegoptim,pl4nty,
 timschneeb.GalaxyBudsClient,timschneeb,https://github.com/timschneeb/GalaxyBudsClient/blob/master/.github/workflows/compile-windows.yml
 Timthreetwelve.GetMyIP,UnownBot,
-timvw.wt,timvw,https://github.com/microsoft/winget-pkgs/pull/425386
+timvw.wt,timvw,https://github.com/timvw/wt/blob/main/.goreleaser.yml
 Tina4Stack.Tina4,tina4stack,https://github.com/tina4stack/tina4/blob/main/.github/workflows/release-published.yml
 Tinn-R.Tinn-R,spectopo,
 TinyCraft.TinyRDM,spectopo,
@@ -8493,14 +8462,14 @@ v2matosevic.WinSnipper,pl4nty,
 v2rayA.v2rayA,MarksonHon,https://github.com/v2rayA/v2rayA/blob/main/.github/workflows/_release.yml
 VaclavJedlicka.ProfiCAD,spectopo,
 VaclavSlavik.Poedit,spectopo,
-ValentinBaron.DDK,valentin-baron,https://github.com/microsoft/winget-pkgs/pull/410468
+ValentinBaron.DDK,valentin-baron,https://github.com/valentin-baron/delphi-devkit/blob/main/.github/workflows/publish_extension.yml
 ValentinSoftware.GeoTSOL.2025,spectopo,
 ValentinSoftware.PVSOL.2025,spectopo,
 ValentinSoftware.PVSOL.Premium.2025,spectopo,
-Valtrainer.ValTrainer,idoraz1,https://github.com/microsoft/winget-pkgs/pull/481753
+Valtrainer.ValTrainer,idoraz1,https://github.com/idoraz1/ValTrainer/blob/main/.github/workflows/winget.yml
 Valve.SteamLink,UnownBot,
 VandenBroele.eIDSignerLauncher,spectopo,
-vantoan1511.Orbit,vantoan1511,https://github.com/microsoft/winget-pkgs/pull/479921
+vantoan1511.Orbit,vantoan1511,https://github.com/vantoan1511/orbit/blob/main/.github/workflows/winget.yml
 vantoan1511.TableView,damn-good-b0t,
 VapourSynth.VapourSynth,spectopo,
 var-gg.gitwink,var-gg,https://github.com/var-gg/gitwink/blob/main/.github/workflows/release.yml
@@ -8642,7 +8611,7 @@ Vixasol.DogdouSpec,pl4nty,
 VK.VKWorkspace,pl4nty,
 vkbo.novelWriter,spectopo,
 VkRainB.ccMesh,spectopo,
-VladElaina.Catime,vladelaina,https://github.com/microsoft/winget-pkgs/pull/425027
+VladElaina.Catime,vladelaina,https://github.com/vladelaina/Catime/blob/main/.github/workflows/release.yml
 VladimirYakovlev.ElectronMail,UnownBot,
 VMPlex.VMPlex,pl4nty,
 vmvarela.sql-pipe,vmvarela,https://github.com/vmvarela/sql-pipe/blob/master/.github/workflows/release.yml
@@ -8676,7 +8645,7 @@ VovSoft.KeyboardLights,pl4nty,
 VovSoft.WebsiteScreenshotGenerator,pl4nty,
 voxvanhieu.code-a-cv,pl4nty,
 VPad.Helper,pl4nty,
-VPNDetection.CLI,UmanShahzad,https://github.com/microsoft/winget-pkgs/pull/482106
+VPNDetection.CLI,UmanShahzad,https://github.com/vpndetection-io/cli/blob/main/.github/workflows/release.yml
 VRCX.VRCX,UnownBot,
 vriesdemichael.bb,vriesdemichael,https://github.com/vriesdemichael/bitbucket-data-center-cli/blob/main/.github/workflows/release.yml
 VruttantBalde.TermAI,pl4nty,
@@ -8976,7 +8945,7 @@ XimilalaXiang.DeLive,spectopo,
 xingkongliang.SkillsManager,spectopo,
 xingranya.GitHub-Stars-AI-Tools,spectopo,
 Xink.XinkClientAD,spectopo,
-xinnjie.onekeymap-cli,xinnjie,https://github.com/microsoft/winget-pkgs/pull/320082
+xinnjie.onekeymap-cli,xinnjie,https://github.com/xinnjie/onekeymap-cli/blob/main/.goreleaser.yaml
 XinTaoFei.Codeg,spectopo,
 xioTechnologies.x-IMU3GUI,pl4nty,
 Xiph.FLAC,spectopo,
@@ -9048,8 +9017,8 @@ Yaps.Yaps,pl4nty,
 YARC.YARCLauncher,pl4nty,
 Yash12007.SeraAntivirus,pl4nty,
 yashau.prick,yashau,https://github.com/yashau/prick/blob/main/.github/workflows/cli-release.yml
-YaSuenag.hvcp,YaSuenag,https://github.com/microsoft/winget-pkgs/pull/290976
-YaSuenag.SimpleCom,YaSuenag,https://github.com/microsoft/winget-pkgs/pull/293120
+YaSuenag.hvcp,YaSuenag,https://github.com/YaSuenag/hvcp/blob/main/.github/workflows/release.yaml
+YaSuenag.SimpleCom,YaSuenag,https://github.com/YaSuenag/SimpleCom/blob/master/.github/workflows/release.yaml
 YasuhisaKakurai.Pulsebar,damn-good-b0t,
 ycookiey.yClocky,ycookiey,https://github.com/ycookiey/yClocky/blob/main/.github/workflows/winget.yml
 yd-null.sbscraper,pl4nty,
@@ -9083,7 +9052,7 @@ YohanesOkta.OctaCoreUtils,pl4nty,
 YongcanYang.GameCheatsManager,damn-good-b0t,
 YongcanYang.GameSaveManager,damn-good-b0t,
 yoogie27.largecopy,damn-good-b0t,
-yorukot.superfile,DandelionSprout,https://github.com/microsoft/winget-pkgs/pull/401040
+yorukot.superfile,yorukot,https://github.com/yorukot/superfile/blob/main/.github/workflows/winget.yml
 Youda008.DoomRunner,pl4nty,
 Youku.Youku,spectopo,
 YOUNES-2-wq.CachyMonitor,pl4nty,
@@ -9128,7 +9097,7 @@ ZacharyL2.KeyEcho,damn-good-b0t,
 ZacharyYedidia.Eget,spectopo,
 zachtbeer.SqlDataPack,pl4nty,
 zafaco.Breitbandmessung,spectopo,
-ZaferKilic.MDPlus,zaferkilic2024,https://github.com/microsoft/winget-pkgs/pull/428823
+ZaferKilic.MDPlus,zaferkilic2024,https://github.com/zaferkilic2024/md-plus/blob/main/.github/workflows/release.yml
 zafnz.jqweb,pl4nty,
 Zagrios.BSManager,damn-good-b0t,
 ZAP.ZAP,spectopo,
@@ -9183,7 +9152,7 @@ Zidoro.Pomatez,damn-good-b0t,
 zig.zig,UnownBot,
 zigtools.zls,UnownBot,
 Zihun.Zihun,spectopo,
-zippoxer.recall,zippoxer,https://github.com/microsoft/winget-pkgs/pull/330106
+zippoxer.recall,zippoxer,https://github.com/zippoxer/recall/blob/main/.github/workflows/release.yml
 ZITAN.RELYR,pl4nty,
 zitzhen.patchsplit,pl4nty,
 Zivver.ZivverOfficePlugin,spectopo,
