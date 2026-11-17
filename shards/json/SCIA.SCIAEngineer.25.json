@@ -7,5 +7,8 @@
 	},
 	"urls": [
 		{ "url": "https://downloads.scia.net/support/sciaengineer/setup/25/release_{version}.zip", "nestedInstallerMatches": ["DISK1/SCIAEngineer25.0.msi"] }
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.scia.net/scia-engineer/downloads"
+	}
 }

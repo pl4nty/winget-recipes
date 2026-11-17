@@ -16,5 +16,6 @@ export default defineShard(async () => {
 	return {
 		version,
 		urls: () => [`https://updates.wavevms.com/hanwha/${build}/windows/wave-server-${version}-windows_x64.exe`],
+		releaseNotes: { releaseNotesUrl: `https://hanwhavisionamerica.com/wisenet-wave-vms-release-notes/#:~:text=${version}` },
 	};
 });

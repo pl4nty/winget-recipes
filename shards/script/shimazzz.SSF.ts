@@ -17,6 +17,7 @@ export default defineShard(async () => {
 
 	return {
 		version: `0.${latest.revision}`,
-		urls: () => [latest.asset.browser_download_url],
+		// SSF.exe in the zip is PE32+ x86-64; komac reports neutral for the zip.
+		urls: () => [{ url: latest.asset.browser_download_url, architecture: 'x64' }],
 	};
 });

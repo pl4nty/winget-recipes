@@ -5,9 +5,6 @@
 		"url": "https://github.com/IconsetApp/iconset/releases/latest/download/latest.yml"
 	},
 	"releaseNotes": {
-		"source": "github",
-		"owner": "IconsetApp",
-		"repo": "iconset",
-		"tag": "v{version}"
+		"releaseNotesUrl": "https://iconset.io/changelog"
 	}
 }
