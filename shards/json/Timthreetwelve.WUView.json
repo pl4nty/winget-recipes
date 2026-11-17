@@ -4,8 +4,9 @@
 	"version": "{version}.0",
 	"github": {
 		"owner": "Timthreetwelve",
-		"repo": "WUView",
-		"method": "api-latest",
-		"assetRegex": "^WindowsUpdateViewer_[\\d.]+(?:_x64)?_Setup\\.exe$"
-	}
+		"repo": "WUView"
+	},
+	"urls": [
+		"https://github.com/Timthreetwelve/WUView/releases/download/{github.rawTag}/WindowsUpdateViewer_{version}_SC_x64_Setup.exe"
+	]
 }

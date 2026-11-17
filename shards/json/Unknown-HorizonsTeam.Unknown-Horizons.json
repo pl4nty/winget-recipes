@@ -4,7 +4,7 @@
 	"github": {
 		"owner": "unknown-horizons",
 		"repo": "unknown-horizons",
-		"method": "api-latest",
+		"method": "api-sort",
 		"assetRegex": "^Unknown-Horizons-[\\d.]+-Setup-.*\\.exe$"
 	}
 }
