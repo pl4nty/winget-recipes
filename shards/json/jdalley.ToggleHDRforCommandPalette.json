@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "jdalley",
-		"repo": "command-palette-toggle-hdr",
-		"method": "api-latest",
-		"assetRegex": "^jdalley\\.ToggleHDRExtensionforCommandPalette_[\\d.]+_x64__ygjv9tpcda3x6\\.msix$"
-	}
+		"repo": "command-palette-toggle-hdr"
+	},
+	"urls": [
+		"https://github.com/jdalley/command-palette-toggle-hdr/releases/download/{github.rawTag}/jdalley.ToggleHDRExtensionforCommandPalette_{version}.0_x64__ygjv9tpcda3x6.Msix"
+	]
 }
