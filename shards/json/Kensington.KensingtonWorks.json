@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.kensington.com/software/kensingtonworks/",
+		"regex": "/siteassets/software-support/kensingtonworks/(?<dir>[^/\"']+)/kensingtonworks_(?<version>\\d+(?:\\.\\d+)+)_(?<ts>\\d+)\\.msi"
+	},
+	"urls": [
+		"https://www.kensington.com/siteassets/software-support/kensingtonworks/{captures.dir}/kensingtonworks_{version}_{captures.ts}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.kensington.com/software/kensingtonworks/"
+	}
+}
