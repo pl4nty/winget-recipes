@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "blueedgetechno",
+		"repo": "androidInReact"
+	},
+	"urls": [
+		"https://github.com/blueedgetechno/androidInReact/releases/download/{github.rawTag}/Android11React_{version}_x64_en-US.msi"
+	]
+}
