@@ -6,6 +6,9 @@
 		"repo": "verysleepy"
 	},
 	"urls": [
-		"https://github.com/VerySleepy/verysleepy/releases/download/{github.rawTag}/verysleepy-{version}.exe"
+		{
+			"url": "https://github.com/VerySleepy/verysleepy/releases/download/{github.rawTag}/verysleepy-{version}.exe",
+			"architecture": "neutral"
+		}
 	]
 }

@@ -6,6 +6,9 @@
 		"repo": "butterflow-ui"
 	},
 	"urls": [
-		"https://github.com/wagesj45/butterflow-ui/releases/download/{github.rawTag}/butterflow_ui.setup.msi"
+		{
+			"url": "https://github.com/wagesj45/butterflow-ui/releases/download/{github.rawTag}/butterflow_ui.setup.msi",
+			"architecture": "x64"
+		}
 	]
 }

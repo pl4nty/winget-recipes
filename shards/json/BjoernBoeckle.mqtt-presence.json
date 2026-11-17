@@ -6,6 +6,9 @@
 		"repo": "mqtt-presence"
 	},
 	"urls": [
-		"https://github.com/bjoernboeckle/mqtt-presence/releases/download/{github.rawTag}/mqtt-presence-{github.rawTag}-setup.exe"
+		{
+			"url": "https://github.com/bjoernboeckle/mqtt-presence/releases/download/{github.rawTag}/mqtt-presence-{github.rawTag}-setup.exe",
+			"architecture": "x64"
+		}
 	]
 }

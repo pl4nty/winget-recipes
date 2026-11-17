@@ -6,6 +6,9 @@
 		"repo": "MarkdownOutlook"
 	},
 	"urls": [
-		"https://github.com/mmanela/MarkdownOutlook/releases/download/{github.rawTag}/MarkdownOutlookSetup.msi"
+		{
+			"url": "https://github.com/mmanela/MarkdownOutlook/releases/download/{github.rawTag}/MarkdownOutlookSetup.msi",
+			"architecture": "neutral"
+		}
 	]
 }

@@ -5,7 +5,10 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://github.com/nodchip/tanuki-/releases/download/tanuki-dr4/tanuki-dr4.msi"
+		{
+			"url": "https://github.com/nodchip/tanuki-/releases/download/tanuki-dr4/tanuki-dr4.msi",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",

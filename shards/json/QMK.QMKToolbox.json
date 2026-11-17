@@ -6,6 +6,9 @@
 		"repo": "qmk_toolbox"
 	},
 	"urls": [
-		"https://github.com/qmk/qmk_toolbox/releases/download/{github.rawTag}/qmk_toolbox_install.exe"
+		{
+			"url": "https://github.com/qmk/qmk_toolbox/releases/download/{github.rawTag}/qmk_toolbox_install.exe",
+			"architecture": "x64"
+		}
 	]
 }

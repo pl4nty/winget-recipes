@@ -9,7 +9,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://sourceforge.net/projects/libusbdotnet/files/LibUsbDotNet/LibUsbDotNet%20v{version}/LibUsbDotNet_Setup.{version}.exe/download"
+		{
+			"url": "https://sourceforge.net/projects/libusbdotnet/files/LibUsbDotNet/LibUsbDotNet%20v{version}/LibUsbDotNet_Setup.{version}.exe/download",
+			"architecture": "neutral"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://sourceforge.net/projects/libusbdotnet/files/LibUsbDotNet/LibUsbDotNet%20v{version}/Release_Notes.{version}.txt/download"

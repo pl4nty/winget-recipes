@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://omg-cdn.woowa.in/latest/setup"
+		{
+			"url": "https://omg-cdn.woowa.in/latest/setup",
+			"architecture": "x86"
+		}
 	],
 	"state": {
 		"source": "response-header",

@@ -6,6 +6,9 @@
 		"repo": "VolumeScroller"
 	},
 	"urls": [
-		"https://github.com/patrickiel/VolumeScroller/releases/download/{github.rawTag}/Volume.Scroller.{version}.exe"
+		{
+			"url": "https://github.com/patrickiel/VolumeScroller/releases/download/{github.rawTag}/Volume.Scroller.{version}.exe",
+			"architecture": "x64"
+		}
 	]
 }

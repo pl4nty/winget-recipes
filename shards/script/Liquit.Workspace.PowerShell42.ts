@@ -19,7 +19,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [`https://download.liquit.com/release/${branch}/${build}/Liquit-Workspace-PowerShell-${version}.msi`],
+		urls: () => [{ url: `https://download.liquit.com/release/${branch}/${build}/Liquit-Workspace-PowerShell-${version}.msi`, architecture: 'neutral' }],
 		releaseNotes: { releaseNotesUrl: `https://docs.liquit.com/docs/lws-release-notes-42#${version.split('.').slice(0, 3).join('')}` },
 	};
 });

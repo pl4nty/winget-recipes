@@ -6,6 +6,9 @@
 		"regex": "href=\"ExpressoSetup-(?<version>\\d+(?:\\.\\d+)+)\\.msi\""
 	},
 	"urls": [
-		"https://ultrapico.com/ExpressoSetup-{version}.msi"
+		{
+			"url": "https://ultrapico.com/ExpressoSetup-{version}.msi",
+			"architecture": "neutral"
+		}
 	]
 }

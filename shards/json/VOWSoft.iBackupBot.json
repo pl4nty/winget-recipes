@@ -5,5 +5,10 @@
 		"url": "https://www.icopybot.com/itunes-backup-manager.htm",
 		"regex": "iBackupBot for Windows[\\s\\S]*?<td>V (\\d+(?:\\.\\d+)+) \\("
 	},
-	"urls": ["https://www.icopybot.com/ibackupbot_setup.exe"]
+	"urls": [
+		{
+			"url": "https://www.icopybot.com/ibackupbot_setup.exe",
+			"architecture": "neutral"
+		}
+	]
 }
