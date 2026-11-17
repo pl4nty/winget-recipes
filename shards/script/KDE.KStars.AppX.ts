@@ -10,7 +10,7 @@ async function getText(url: string) {
 }
 
 // KDE keeps one CI build per stable series (stable-X.Y.Z), so the newest series that has a Windows
-// sideload package is found first. The package version is the AppX identity version, which komac reads.
+// sideload package is found first. Its AppX identity version is 0.0.<CI build>.0.
 export default defineShard(async () => {
 	const series = [...(await getText(base)).matchAll(/href="stable-(\d+(?:\.\d+)+)\/"/gi)]
 		.map(([, version]) => version as string)
@@ -20,17 +20,17 @@ export default defineShard(async () => {
 		const dir = `${base}stable-${name}/windows/`;
 		const response = await fetch(dir);
 		if (!response.ok) continue;
-		const file = [
+		const match = [
 			...(await response.text()).matchAll(
-				/href="(kstars-stable-\d+(?:\.\d+)+-\d+-windows-cl-msvc2022-x86_64-sideload\.appx)"/gi,
+				/href="(kstars-stable-\d+(?:\.\d+)+-(\d+)-windows-cl-msvc2022-x86_64-sideload\.appx)"/gi,
 			),
-		].at(-1)?.[1];
-		if (!file) continue;
+		].at(-1);
+		if (!match) continue;
+		const [, file, build] = match;
 
 		return {
-			version: { source: 'product' },
+			version: ['0', '0', build, '0'].join('.'),
 			urls: () => [`${dir}${file}`],
-			state: file,
 		};
 	}
 	throw new Error('no stable Windows sideload package found');

@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
 		"https://delivery-clientinstall.s3.eu-north-1.amazonaws.com/installs/WIN/UnifaunOnlinePrinter64.msi"
