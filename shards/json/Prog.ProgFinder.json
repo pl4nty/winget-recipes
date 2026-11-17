@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.progdvb.com/prog_sat_finder.html",
+		"regex": "files\\.progdvb\\.com/progfinder/ProgFinderSetup(\\d+\\.\\d+)x64\\.exe"
+	},
+	"urls": [
+		"https://files.progdvb.com/progfinder/ProgFinderSetup{version}x86.exe",
+		"https://files.progdvb.com/progfinder/ProgFinderSetup{version}x64.exe"
+	]
+}
