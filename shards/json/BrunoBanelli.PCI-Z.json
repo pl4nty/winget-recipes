@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.pci-z.com/current/x64/PCI-Z.exe",
+		"https://www.pci-z.com/current/PCI-Z.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.pci-z.com/current/x64/PCI-Z.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.pci-z.com/"
+	}
+}
