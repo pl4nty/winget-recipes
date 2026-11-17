@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://app.voicehotkey.com/releases/win/VoiceKeySetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://app.voicehotkey.com/releases/win/VoiceKeySetup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://voicehotkey.com"
+	}
+}
