@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nikpapa",
+		"repo": "Palamedes"
+	},
+	"urls": [
+		"https://github.com/nikpapa/Palamedes/releases/download/{github.rawTag}/Polygammon_install_{version}.exe"
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://download-2.msi.com/uti_exe/monitor/Gaming-Intelligence-x64.zip",
+			"nestedInstallerMatches": [
+				"setup.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download-2.msi.com/uti_exe/monitor/Gaming-Intelligence-x64.zip",
+		"header": "etag"
+	}
+}

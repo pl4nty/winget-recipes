@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "warmdev17",
+		"repo": "ash"
+	},
+	"urls": [
+		"https://github.com/warmdev17/ash/releases/download/{github.rawTag}/ash-installer.exe"
+	]
+}
