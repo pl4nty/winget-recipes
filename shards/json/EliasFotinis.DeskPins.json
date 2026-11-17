@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://efotinis.neocities.org/deskpins/",
+		"regex": "/downloads/DeskPins-(\\d+(?:\\.\\d+)+)-setup\\.exe"
+	},
+	"urls": ["https://efotinis.neocities.org/downloads/DeskPins-{version}-setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://efotinis.neocities.org/deskpins/changelog.txt"
+	}
+}
