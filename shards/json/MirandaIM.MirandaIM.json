@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "miranda",
+		"file": "miranda-im-v{version}-unicode.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/miranda/files/miranda-im/{version}.0/miranda-im-v{version}-unicode.exe/download"
+	]
+}
