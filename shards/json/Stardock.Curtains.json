@@ -1,19 +1,14 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stardock.com/products/curtains/history",
+		"regex": "Curtains (\\d+(?:\\.\\d+)+) \\(Released"
 	},
 	"urls": [
 		"https://cdn.stardock.us/downloads/public/software/curtains/Curtains_setup.exe"
 	],
-	"state": {
-		"source": "response-header",
-		"url": "https://cdn.stardock.us/downloads/public/software/curtains/Curtains_setup.exe",
-		"header": "last-modified"
-	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.stardock.com/products/curtains/history"
-	},
-	"replace": true
+	}
 }

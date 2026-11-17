@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "SquitchYT",
+		"owner": "Squitch1",
 		"repo": "Tess"
 	},
 	"urls": [
-		"https://github.com/SquitchYT/Tess/releases/download/{github.rawTag}/tess-{version}-setup-x86_64.exe"
+		"https://github.com/Squitch1/Tess/releases/download/{github.rawTag}/tess-{version}-setup-x86_64.exe"
 	]
 }

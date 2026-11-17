@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "surge-synthesizer",
-		"repo": "releases"
+		"repo": "releases",
+		"method": "api-latest"
 	},
 	"urls": [
 		"https://github.com/surge-synthesizer/releases/releases/download/{version}/Surge-{version}-Setup-x86.exe",

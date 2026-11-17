@@ -1,19 +1,15 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stardock.com/products/start10/history",
+		"regex": "<h2>Start10 v(?<version>\\d+)\\.(?<minor>\\d)(?<patch>\\d)</h2>"
 	},
+	"version": "{version}.{captures.minor}.{captures.patch}.0",
 	"urls": [
 		"https://cdn.stardock.us/downloads/public/software/start/Start10_setup.exe"
 	],
-	"state": {
-		"source": "response-header",
-		"url": "https://cdn.stardock.us/downloads/public/software/start/Start10_setup.exe",
-		"header": "last-modified"
-	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.stardock.com/products/start10/history"
-	},
-	"replace": true
+	}
 }

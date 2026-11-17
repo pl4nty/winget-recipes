@@ -1,16 +1,15 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "display"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sweetscape.com/hamic/",
+		"regex": "/hamic(?<version>\\d)(?<minor>\\d+)\\.exe\""
 	},
+	"version": "{version}.{captures.minor}",
 	"urls": [
-		"https://download.sweetscape.com/hamic21.exe"
+		"https://download.sweetscape.com/hamic{captures.version}{captures.minor}.exe"
 	],
-	"state": {
-		"source": "response-header",
-		"url": "https://download.sweetscape.com/hamic21.exe",
-		"header": "etag"
-	},
-	"replace": true
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sweetscape.com/hamic/"
+	}
 }

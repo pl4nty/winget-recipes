@@ -2,12 +2,12 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "richaardev",
-		"repo": "squarecloud-cli"
+		"owner": "squarecloudofc",
+		"repo": "old-cli"
 	},
 	"urls": [
-		"https://github.com/richaardev/squarecloud-cli/releases/download/v{version}/squarecloud_{version}_windows_amd64.zip",
-		"https://github.com/richaardev/squarecloud-cli/releases/download/v{version}/squarecloud_{version}_windows_386.zip",
-		"https://github.com/richaardev/squarecloud-cli/releases/download/v{version}/squarecloud_{version}_windows_arm64.zip"
+		"https://github.com/squarecloudofc/old-cli/releases/download/v{version}/squarecloud_{version}_windows_amd64.zip",
+		"https://github.com/squarecloudofc/old-cli/releases/download/v{version}/squarecloud_{version}_windows_386.zip",
+		"https://github.com/squarecloudofc/old-cli/releases/download/v{version}/squarecloud_{version}_windows_arm64.zip"
 	]
 }
