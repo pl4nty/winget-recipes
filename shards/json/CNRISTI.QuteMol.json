@@ -6,6 +6,9 @@
 		"file": "QuteMol.V{version}.setup.exe"
 	},
 	"urls": [
-		"https://sourceforge.net/projects/qutemol/files/qutemol/QuteMol%20V{version}/QuteMol.V{version}.setup.exe/download"
+		{
+			"url": "https://sourceforge.net/projects/qutemol/files/qutemol/QuteMol%20V{version}/QuteMol.V{version}.setup.exe/download",
+			"architecture": "x86"
+		}
 	]
 }
