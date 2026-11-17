@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.denemo.org/~rshann/",
+		"regex": "href=\"Denemo(\\d+(?:\\.\\d+)+)Installer\\.exe\""
+	},
+	"urls": [
+		"https://www.denemo.org/~rshann/Denemo{version}Installer.exe"
+	]
+}
