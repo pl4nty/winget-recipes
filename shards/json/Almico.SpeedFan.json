@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.almico.com/sfdownload.php",
+		"regex": "The latest version is <a href=\"speedfan\\d+\\.exe\">SpeedFan (?<version>\\d+\\.\\d+)</a>"
+	},
+	"urls": [
+		"https://www.almico.com/instspeedfan{version|.|}.exe"
+	]
+}
