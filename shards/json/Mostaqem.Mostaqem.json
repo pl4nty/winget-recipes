@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mostaqem",
+		"repo": "mostaqem_desktop",
+		"tagRegex": "^\\."
+	},
+	"urls": [
+		"https://github.com/Mostaqem/mostaqem_desktop/releases/download/{github.rawTag}/mostaqem-windows-setup.exe"
+	]
+}
