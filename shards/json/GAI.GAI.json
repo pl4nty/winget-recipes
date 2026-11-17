@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://webpath.iche2.com/app/gai/download.json",
+		"path": "windows.Official.ver"
+	},
+	"urls": [
+		"https://webpath.iche2.com/release/Gai-{version}-Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://webpath.iche2.com/app/gai/download_en.html#elem_changelog"
+	}
+}
