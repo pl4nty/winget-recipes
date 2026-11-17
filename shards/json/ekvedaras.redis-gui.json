@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "ekvedaras",
-		"repo": "redis-gui"
+		"repo": "redis-gui",
+		"method": "api-list",
+		"kind": "all"
 	},
 	"urls": [
 		"https://github.com/ekvedaras/redis-gui/releases/download/{github.rawTag}/redis-gui-Setup-{version}.exe"

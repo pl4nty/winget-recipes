@@ -1,14 +1,15 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": { "source": "product" },
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.tweaking.com/features/windows-repair-all-in-one/",
+		"regex": "(?<version>\\d+\\.\\d+\\.\\d+)(?:\\s|&nbsp;|<[^>]+>)*(?:&ndash;|&#8211;|–|-)(?:\\s|&nbsp;|<[^>]+>)*For all versions of Windows"
+	},
 	"urls": [
 		"https://www.tweaking.com/files/setups/tweaking.com_windows_repair_aio_setup.exe"
 	],
-	"state": {
-		"source": "response-header",
-		"url": "https://www.tweaking.com/files/setups/tweaking.com_windows_repair_aio_setup.exe",
-		"header": "last-modified"
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.tweaking.com/features/windows-repair-all-in-one/"
 	},
 	"replace": true
 }
