@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://download.itopvpn.com/dl/itop-private-browser-setup.exe"
+		{
+			"url": "https://download.itopvpn.com/dl/itop-private-browser-setup.exe",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",

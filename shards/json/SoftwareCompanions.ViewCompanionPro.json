@@ -1,19 +1,17 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.softwarecompanions.com/proupdate.html",
+		"regex": "Version (?<major>\\d+)\\.(?<minor>\\d+)"
+	},
 	"version": {
 		"source": "product"
 	},
 	"urls": [
-		"https://www.softwarecompanions.com/download/vcpro.exe",
-		"https://www.softwarecompanions.com/download/vcprox64.exe"
+		"https://www.softwarecompanions.no/vc{captures.major}/vcpro{captures.major}{captures.minor}.exe",
+		"https://www.softwarecompanions.no/vc{captures.major}/vcpro{captures.major}{captures.minor}x64.exe"
 	],
-	"state": {
-		"source": "response-header",
-		"url": "https://www.softwarecompanions.com/download/vcpro.exe",
-		"header": "etag"
-	},
-	"replace": true,
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.softwarecompanions.com/proupdate.html"
 	}
