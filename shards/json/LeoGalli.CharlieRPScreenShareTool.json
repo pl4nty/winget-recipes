@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Leo-Galli",
+		"repo": "ScreenShareTool"
+	},
+	"urls": [
+		"https://github.com/Leo-Galli/ScreenShareTool/releases/download/{github.rawTag}/CharlieRPScreenShareTool-v{version}-GUI-x64.zip"
+	]
+}
