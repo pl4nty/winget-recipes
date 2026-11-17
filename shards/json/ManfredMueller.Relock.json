@@ -6,6 +6,9 @@
 		"repo": "Relock"
 	},
 	"urls": [
-		"https://github.com/manfred-mueller/Relock/releases/download/{github.rawTag}/Relock.exe"
+		{
+			"url": "https://github.com/manfred-mueller/Relock/releases/download/{github.rawTag}/Relock.exe",
+			"architecture": "x64"
+		}
 	]
 }
