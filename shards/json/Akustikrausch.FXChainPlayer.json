@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "akustikrausch",
+		"repo": "FXChainPlayer-Releases"
+	},
+	"urls": [
+		"https://github.com/akustikrausch/FXChainPlayer-Releases/releases/download/{github.rawTag}/FXChainPlayer-Setup-{version}.exe"
+	]
+}
