@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "7room",
+		"repo": "aya"
+	},
+	"urls": [
+		"https://github.com/7room/aya/releases/download/{github.rawTag}/Aya.Setup.{version}.exe"
+	]
+}
