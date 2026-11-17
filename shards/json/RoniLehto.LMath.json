@@ -5,6 +5,5 @@
 		"owner": "lehtoroni",
 		"repo": "lmath-issues"
 	},
-	"version": "r{version}",
 	"urls": ["https://github.com/lehtoroni/lmath-issues/releases/download/{github.rawTag}/LMath_Windows_r{version}-release.exe"]
 }

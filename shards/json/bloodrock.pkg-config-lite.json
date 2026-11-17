@@ -10,5 +10,8 @@
 			"url": "https://sourceforge.net/projects/pkgconfiglite/files/{version}/pkg-config-lite-{version}_bin-win32.zip/download",
 			"nestedInstallerMatches": ["pkg-config.exe"]
 		}
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/projects/pkgconfiglite/files/{version}/"
+	}
 }

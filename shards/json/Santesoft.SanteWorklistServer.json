@@ -8,6 +8,7 @@
 	"urls": [
 		{
 			"url": "https://www.santesoft.com/files/win/sante_worklist_server.zip",
+			"architecture": "x64",
 			"nestedInstallerMatches": ["sante_worklist_server.exe"]
 		}
 	]

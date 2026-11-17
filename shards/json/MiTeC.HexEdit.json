@@ -10,5 +10,8 @@
 			"url": "https://www.mitec.cz/wp/files/HEXEdit.zip",
 			"nestedInstallerMatches": ["HEXEdit.exe"]
 		}
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.mitec.cz/wp/xml/vh_hex.xml"
+	}
 }

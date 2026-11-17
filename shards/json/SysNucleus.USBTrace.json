@@ -14,5 +14,8 @@
 			"url": "https://www.sysnucleus.com/usbtrace-x64.zip",
 			"nestedInstallerMatches": ["Installer.exe"]
 		}
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sysnucleus.com/usbtrace_relnotes.html"
+	}
 }

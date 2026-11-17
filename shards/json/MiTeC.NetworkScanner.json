@@ -14,5 +14,8 @@
 			"url": "https://www.mitec.cz/wp/files/NetScanner.zip",
 			"nestedInstallerMatches": ["NetScanner64.exe"]
 		}
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.mitec.cz/wp/xml/vh_ns.xml"
+	}
 }
