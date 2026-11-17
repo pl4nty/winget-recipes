@@ -4,8 +4,7 @@
 	"github": {
 		"owner": "WolvenKit",
 		"repo": "WolvenKit-nightly-releases",
-		"method": "api-latest",
-		"assetRegex": "^WolvenKit\\.NightlySetup-.+\\.exe$"
+		"method": "api-latest"
 	},
 	"urls": [
 		{
