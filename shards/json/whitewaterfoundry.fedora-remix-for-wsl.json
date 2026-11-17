@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WhitewaterFoundry",
+		"repo": "Fedora-Remix-for-WSL"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL/releases/download/{github.rawTag}/Fedora-Remix-for-WSL-SL_{github.rawTag}.0_x64_arm64.msixbundle"
+	]
+}
