@@ -8,7 +8,7 @@ async function build(platform: string) {
 		response.json(),
 	)) as { taskId: string };
 	const { status } = (await fetch(`${API}/queue/v1/task/${taskId}/status`).then((response) => response.json())) as {
-		status: { runs: { runId: number; state: string }[] };
+		status: { runs: { runId: number; ['state']: string }[] };
 	};
 	const run = status.runs.findLast((r) => r.state === 'completed');
 	if (!run) throw new Error(`No completed run for ${platform} task ${taskId}`);
