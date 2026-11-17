@@ -6,6 +6,9 @@
 		"repo": "stl-thumb"
 	},
 	"urls": [
-		"https://github.com/unlimitedbacon/stl-thumb/releases/download/{github.rawTag}/STL-Thumb-Windows_{version}.exe"
+		{
+			"url": "https://github.com/unlimitedbacon/stl-thumb/releases/download/{github.rawTag}/STL-Thumb-Windows_{version}.exe",
+			"architecture": "x64"
+		}
 	]
 }
