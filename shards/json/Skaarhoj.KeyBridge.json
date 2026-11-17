@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SKAARHOJ",
+		"repo": "keybridge-releases"
+	},
+	"urls": [
+		"https://github.com/SKAARHOJ/keybridge-releases/releases/download/{github.rawTag}/KeyBridge.exe"
+	]
+}
