@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://tapatch.com/tools/clickmeter/",
+		"regex": "\"softwareVersion\":\\s*\"(?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://tapatch.com/downloads/ClickMeter-Setup-{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tapatch.com/tools/clickmeter/"
+	}
+}
