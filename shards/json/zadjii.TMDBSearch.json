@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zadjii",
+		"repo": "CmdPalExtensions",
+		"method": "api-sort",
+		"tagRegex": "^tmdb/v",
+		"assetRegex": "^TmdbExtension_[\\d.]+_x64\\.msix$"
+	}
+}
