@@ -5,11 +5,11 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://updates.ergofakt.de/downloads/ergofakt_v5/stable/default/ergofakt_v5_0_1_0.msi"
+		"https://updates.ergofakt.de/downloads/ergofakt_v5/stable/ergofakt5.msi"
 	],
 	"state": {
 		"source": "response-header",
-		"url": "https://updates.ergofakt.de/downloads/ergofakt_v5/stable/default/ergofakt_v5_0_1_0.msi",
+		"url": "https://updates.ergofakt.de/downloads/ergofakt_v5/stable/ergofakt5.msi",
 		"header": "etag"
 	},
 	"replace": true
