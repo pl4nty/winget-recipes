@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://cloud.tixeo.com/meet/client-download/?binary=TixeoClientW3D_dzNkJTNBJTJGJTJGY2xvdWQudGl4ZW8uY29tJTJGbWVldCUyRg_custom.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cloud.tixeo.com/meet/client-download/?binary=TixeoClientW3D_dzNkJTNBJTJGJTJGY2xvdWQudGl4ZW8uY29tJTJGbWVldCUyRg_custom.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}
