@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dl.acronis.com/u/AcronisCyberProtectHomeOffice.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.acronis.com/u/AcronisCyberProtectHomeOffice.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.acronis.com/en-us/support/updates/changes.html?p=41675"
+	}
+}
