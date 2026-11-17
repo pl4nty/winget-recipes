@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sysgauge.com/downloads.html",
+		"regex": "setups/sysgauge_setup_v(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.sysgauge.com/setups/sysgauge_setup_v{version}.exe",
+		"https://www.sysgauge.com/setups_x64/sysgauge_setup_v{version}_x64.exe"
+	]
+}
