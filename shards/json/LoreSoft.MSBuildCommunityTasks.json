@@ -6,6 +6,9 @@
 		"repo": "msbuildtasks"
 	},
 	"urls": [
-		"https://github.com/loresoft/msbuildtasks/releases/download/{github.rawTag}/MSBuild.Community.Tasks.v{version}.msi"
+		{
+			"url": "https://github.com/loresoft/msbuildtasks/releases/download/{github.rawTag}/MSBuild.Community.Tasks.v{version}.msi",
+			"architecture": "neutral"
+		}
 	]
 }

@@ -6,6 +6,9 @@
 		"repo": "umdt"
 	},
 	"urls": [
-		"https://github.com/kbralten/umdt/releases/download/{github.rawTag}/UMDT_Setup.exe"
+		{
+			"url": "https://github.com/kbralten/umdt/releases/download/{github.rawTag}/UMDT_Setup.exe",
+			"architecture": "x64"
+		}
 	]
 }

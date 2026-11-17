@@ -8,7 +8,7 @@
 	"urls": [
 		{
 			"url": "https://sourceforge.net/projects/scidavis/files/SciDAVis/{captures.major}/{captures.dir}/scidavis-{version}-win-dist.msi/download",
-			"architecture": "x86"
+			"architecture": "x64"
 		}
 	]
 }

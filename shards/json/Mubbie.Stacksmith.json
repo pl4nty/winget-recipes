@@ -6,6 +6,9 @@
 		"repo": "stacksmith"
 	},
 	"urls": [
-		"https://github.com/mubbie/stacksmith/releases/download/{github.rawTag}/stacksmith-setup.exe"
+		{
+			"url": "https://github.com/mubbie/stacksmith/releases/download/{github.rawTag}/stacksmith-setup.exe",
+			"architecture": "x64"
+		}
 	]
 }

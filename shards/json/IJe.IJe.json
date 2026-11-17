@@ -5,5 +5,10 @@
 		"owner": "ijesudhode",
 		"repo": "ije"
 	},
-	"urls": ["https://github.com/ijesudhode/ije/releases/download/{github.rawTag}/IJe_installer_{version}.exe"]
+	"urls": [
+		{
+			"url": "https://github.com/ijesudhode/ije/releases/download/{github.rawTag}/IJe_installer_{version}.exe",
+			"architecture": "x64"
+		}
+	]
 }

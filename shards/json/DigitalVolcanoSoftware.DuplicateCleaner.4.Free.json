@@ -5,7 +5,10 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://www.digitalvolcano.co.uk/download/DuplicateCleanerFree4_setup.exe"
+		{
+			"url": "https://www.digitalvolcano.co.uk/download/DuplicateCleanerFree4_setup.exe",
+			"architecture": "neutral"
+		}
 	],
 	"state": {
 		"source": "response-header",

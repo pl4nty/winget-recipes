@@ -9,7 +9,8 @@
 			"url": "https://gadgetsrevived.com/wp-content/uploads/2013/10/DesktopGadgetsInstaller.zip",
 			"nestedInstallerMatches": [
 				"DesktopGadgetsRevived-"
-			]
+			],
+			"architecture": "neutral"
 		}
 	],
 	"state": {
