@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "imabd645",
+		"repo": "EZ-language"
+	},
+	"urls": [
+		"https://github.com/imabd645/EZ-language/releases/download/{github.rawTag}/ez-v{version}-windows-x64-setup.exe"
+	]
+}
