@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://files.multimc.org/downloads/mmc-develop-win32.zip",
+			"nestedInstallerMatches": [
+				"MultiMC/MultiMC.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://files.multimc.org/downloads/mmc-develop-win32.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
