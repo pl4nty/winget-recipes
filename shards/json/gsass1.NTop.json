@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gsass1",
+		"repo": "NTop"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/gsass1/NTop/releases/download/{github.rawTag}/ntop.exe",
+			"architecture": "neutral"
+		}
+	]
+}

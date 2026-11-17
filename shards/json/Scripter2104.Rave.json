@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Scripter2104",
+		"repo": "RavePublished"
+	},
+	"urls": [
+		"https://github.com/Scripter2104/RavePublished/releases/download/{github.rawTag}/New.Rave.Publish.zip"
+	]
+}

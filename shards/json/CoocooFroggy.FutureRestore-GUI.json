@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CoocooFroggy",
+		"repo": "FutureRestore-GUI"
+	},
+	"urls": [
+		"https://github.com/CoocooFroggy/FutureRestore-GUI/releases/download/{github.rawTag}/FutureRestore-GUI-Windows-{version}.msi"
+	]
+}

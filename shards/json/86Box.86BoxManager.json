@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "86Box",
+		"repo": "86BoxManager"
+	},
+	"urls": [
+		"https://github.com/86Box/86BoxManager/releases/download/{github.rawTag}/86BoxManager_{version}.zip"
+	]
+}

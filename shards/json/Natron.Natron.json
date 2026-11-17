@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NatronGitHub",
+		"repo": "Natron"
+	},
+	"urls": [
+		"https://github.com/NatronGitHub/Natron/releases/download/{github.rawTag}/Natron-{version}-Windows-x86_64.zip"
+	]
+}

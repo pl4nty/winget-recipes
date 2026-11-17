@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "piratesephiroth",
+		"repo": "TeconmoonWiiVCInjector"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/piratesephiroth/TeconmoonWiiVCInjector/releases/download/{github.rawTag}/TeconMoon.s.WiiVC.Injector.zip",
+			"architecture": "neutral"
+		}
+	]
+}

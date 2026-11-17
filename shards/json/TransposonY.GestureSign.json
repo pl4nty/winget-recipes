@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TransposonY",
+		"repo": "GestureSign"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/TransposonY/GestureSign/releases/download/{github.rawTag}/GestureSignSetup-{version}.0.0.zip",
+			"architecture": "x86"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fujiapple852",
+		"repo": "claptrap"
+	},
+	"urls": [
+		"https://github.com/fujiapple852/claptrap/releases/download/{github.rawTag}/claptrap-{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
