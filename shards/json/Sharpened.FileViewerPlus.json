@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://fileviewerplus.com/dl"],
+		"regex": "/fvp_setup_(\\d+\\.\\d+\\.\\d+)\\.\\d+[a-z]*\\.exe$"
+	}
+}
