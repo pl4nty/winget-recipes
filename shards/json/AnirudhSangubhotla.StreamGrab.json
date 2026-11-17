@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wowanirudh-boop",
+		"repo": "streamgrab-releases"
+	},
+	"urls": [
+		"https://github.com/wowanirudh-boop/streamgrab-releases/releases/download/{github.rawTag}/StreamGrab-Setup.exe"
+	]
+}
