@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "kamranahmedse",
+		"owner": "nilbuild",
 		"repo": "pennywise"
 	},
 	"urls": [
-		"https://github.com/kamranahmedse/pennywise/releases/download/{github.rawTag}/pennywise-setup-{version}.exe"
+		"https://github.com/nilbuild/pennywise/releases/download/{github.rawTag}/pennywise-setup-{version}.exe"
 	]
 }

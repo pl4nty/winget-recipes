@@ -6,7 +6,7 @@
 		"file": "joewin-{version}.msi"
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
 		"https://sourceforge.net/projects/joe-editor/files/JOE%20for%20Windows/{version}/joewin-{version}.msi/download"

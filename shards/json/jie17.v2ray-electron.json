@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "jie17",
+		"owner": "jie-lyu",
 		"repo": "v2ray-electron"
 	},
 	"urls": [
-		"https://github.com/jie17/v2ray-electron/releases/download/{github.rawTag}/V2Ray-Electron-Setup-{version}.exe"
+		"https://github.com/jie-lyu/v2ray-electron/releases/download/{github.rawTag}/V2Ray-Electron-Setup-{version}.exe"
 	]
 }

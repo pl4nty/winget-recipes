@@ -7,7 +7,7 @@
 		"path": "Appel/setup.exe"
 	},
 	"version": {
-		"source": "product"
+		"source": "file"
 	},
 	"urls": [
 		"https://raw.githubusercontent.com/krishisrani61/exestorage/{github.commit}/Appel/setup.exe"

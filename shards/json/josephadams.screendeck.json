@@ -3,8 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "josephdadams",
-		"repo": "screendeck",
-		"method": "api-latest",
-		"assetRegex": "\\.exe$"
-	}
+		"repo": "screendeck"
+	},
+	"urls": [
+		"https://github.com/josephdadams/screendeck/releases/download/{github.rawTag}/screendeck-Setup-{version}.exe"
+	]
 }
