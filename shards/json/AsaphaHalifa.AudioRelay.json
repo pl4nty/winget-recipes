@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://audiorelay.net/downloads",
+		"regex": "setups/windows/audiorelay-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://dl.audiorelay.net/setups/windows/audiorelay-{version}.exe"
+	]
+}
