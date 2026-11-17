@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sibber5",
+		"repo": "MicMuter"
+	},
+	"urls": [
+		"https://github.com/sibber5/MicMuter/releases/download/{github.rawTag}/MicMuter_v{version}_win-x64_Setup.exe"
+	]
+}
