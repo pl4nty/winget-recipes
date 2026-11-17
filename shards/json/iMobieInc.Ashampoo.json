@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://www.imobie.com/go/download.php?product=ashampoo&id=0"
+		],
+		"regex": "/ashampoo_winoptimizer_(\\d+_\\d+)\\.exe$"
+	},
+	"version": {
+		"source": "product"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.imobie.com/landing/ashampoo-winoptimizer.htm"
+	}
+}
