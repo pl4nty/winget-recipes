@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "voltura",
+		"repo": "voltura-air"
+	},
+	"urls": [
+		"https://github.com/voltura/voltura-air/releases/download/{github.rawTag}/VolturaAir-Setup-{version}-win-x64-full.exe"
+	]
+}
