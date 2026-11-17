@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zrax",
+		"repo": "qtextpad"
+	},
+	"urls": [
+		"https://github.com/zrax/qtextpad/releases/download/{version}/qtextpad-win64-{version}.exe",
+		"https://github.com/zrax/qtextpad/releases/download/{version}/qtextpad-arm64-{version}.exe"
+	]
+}
