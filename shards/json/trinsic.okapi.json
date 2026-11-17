@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "trinsic-id",
+		"repo": "okapi"
+	},
+	"urls": [
+		"https://github.com/trinsic-id/okapi/releases/download/v{version}/okapi-{version}-x86_64.msi"
+	]
+}
