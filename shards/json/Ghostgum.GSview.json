@@ -6,7 +6,10 @@
 		"regex": "<title>Obtaining GSview (?<version>\\d+(?:\\.\\d+)+)</title>"
 	},
 	"urls": [
-		"http://www.ghostgum.com.au/download/gsv{version|.|}w64.exe"
+		{
+			"url": "http://www.ghostgum.com.au/download/gsv{version|.|}w64.exe",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "http://www.ghostgum.com.au/software/gsview.htm"
