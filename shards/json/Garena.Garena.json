@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdn.gxx.garenanow.com/gxx/pc/installer/Garena-v2.0.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.gxx.garenanow.com/gxx/pc/installer/Garena-v2.0.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
