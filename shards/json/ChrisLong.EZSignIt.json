@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ssesetup.com/download.html",
+		"regex": "EZSignIt[\\d-]+\\.exe\">[^<]*</a>\\s*<i>Version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://www.ssesetup.com/downloads/EZSignIt{version|.|}.exe",
+		"https://www.ssesetup.com/downloads/EZSignIt{version|.|}noinstall.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ty-Matthews-VisualStudio",
+		"repo": "Wally"
+	},
+	"urls": [
+		"https://github.com/Ty-Matthews-VisualStudio/Wally/releases/download/v{version}/Wally_{version|.|}.zip"
+	]
+}
