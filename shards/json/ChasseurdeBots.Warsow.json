@@ -5,5 +5,10 @@
 		"url": "https://warsow.net/bundles/client.bundle.js",
 		"regex": "warsow\\.net/warsow-(\\d+(?:\\.\\d+)+)-setup\\.exe"
 	},
-	"urls": ["https://warsow.net/warsow-{version}-setup.exe"]
+	"urls": [
+		{
+			"url": "https://warsow.net/warsow-{version}-setup.exe",
+			"architecture": "x64"
+		}
+	]
 }
