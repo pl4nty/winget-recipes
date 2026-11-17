@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://www.dxsoft.com/truetty.zip"
+		],
+		"regex": "/download/trtty(?<build>\\d+)\\.zip$"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.dxsoft.com/download/trtty{captures.build}.zip",
+			"nestedInstallerMatches": [
+				"setup.exe"
+			]
+		}
+	]
+}
