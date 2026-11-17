@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe"
+		{
+			"url": "https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",

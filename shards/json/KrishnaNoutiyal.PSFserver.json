@@ -6,6 +6,9 @@
 		"repo": "psf-server"
 	},
 	"urls": [
-		"https://github.com/Krishna-Noutiyal/psf-server/releases/download/{github.rawTag}/psfserver.zip"
+		{
+			"url": "https://github.com/Krishna-Noutiyal/psf-server/releases/download/{github.rawTag}/psfserver.zip",
+			"architecture": "neutral"
+		}
 	]
 }

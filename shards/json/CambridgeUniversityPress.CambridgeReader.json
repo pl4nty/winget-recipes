@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://elevate.cambridge.org/desktopreader/cambridgereader.exe"
+		{
+			"url": "https://elevate.cambridge.org/desktopreader/cambridgereader.exe",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",

@@ -6,6 +6,9 @@
 		"regex": "PSU\\.Version=(?<version>\\d+\\.\\d+\\.\\d+)\\.(?<revision>\\d+)"
 	},
 	"urls": [
-		"https://cdn.devolutions.net/download/Devolutions.PowerShellUniversal.{version}.{captures.revision}.msi"
+		{
+			"url": "https://cdn.devolutions.net/download/Devolutions.PowerShellUniversal.{version}.{captures.revision}.msi",
+			"architecture": "x64"
+		}
 	]
 }

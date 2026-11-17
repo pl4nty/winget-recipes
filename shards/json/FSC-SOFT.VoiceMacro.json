@@ -5,7 +5,12 @@
 		"url": "https://www.voicemacro.net/download/",
 		"regex": "href=\"VoiceMacro_(?<version>\\d+(?:\\.\\d+)+)_Setup\\.msi\""
 	},
-	"urls": ["https://www.voicemacro.net/download/VoiceMacro_{version}_Setup.msi"],
+	"urls": [
+		{
+			"url": "https://www.voicemacro.net/download/VoiceMacro_{version}_Setup.msi",
+			"architecture": "neutral"
+		}
+	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.voicemacro.net/ForumVM/discussion/2/voicemacro-changelog"
 	}

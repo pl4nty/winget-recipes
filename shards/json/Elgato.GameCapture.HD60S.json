@@ -5,8 +5,14 @@
 		"url": [
 			"https://gc-updates.elgato.com/windows/drivers/hd60-s/download.php"
 		],
-		"regex": "/Game_Capture_HD60_S_(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)(?:\\.\\d+)*\\.exe$"
+		"regex": "/(?<file>Game_Capture_HD60_S_(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)(?:\\.\\d+)*)\\.exe$"
 	},
+	"urls": [
+		{
+			"url": "https://edge.elgato.com/egc/windows/drivers/hd60-s/{captures.file}.exe",
+			"architecture": "x64"
+		}
+	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://help.elgato.com/hc/en-us/articles/360027961152-Elgato-Hardware-Drivers"
 	}

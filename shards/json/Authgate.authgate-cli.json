@@ -6,6 +6,9 @@
 		"repo": "authgate-cli"
 	},
 	"urls": [
-		"https://github.com/TengMengHouy/authgate-cli/releases/download/{github.rawTag}/AuthgateSetup.exe"
+		{
+			"url": "https://github.com/TengMengHouy/authgate-cli/releases/download/{github.rawTag}/AuthgateSetup.exe",
+			"architecture": "x64"
+		}
 	]
 }

@@ -3,6 +3,12 @@
 	"strategy": "redirect-match",
 	"redirectMatch": {
 		"url": ["https://www.icechat.net/site/download.php?did=18"],
-		"regex": "/releases/download/(?<version>\\d+\\.\\d+)[A-Za-z]*/icechat-setup\\.exe"
-	}
+		"regex": "/releases/download/(?<tag>(?<version>\\d+\\.\\d+)[A-Za-z]*)/icechat-setup\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/icechat/IceChat/releases/download/{captures.tag}/icechat-setup.exe",
+			"architecture": "neutral"
+		}
+	]
 }

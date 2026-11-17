@@ -6,7 +6,10 @@
 		"regex": "download=obd-auto-doctor_(\\d+(?:\\.\\d+)+)\\.exe"
 	},
 	"urls": [
-		"https://cdn2.obdautodoctor.com/release/obd-auto-doctor_{version}.exe"
+		{
+			"url": "https://cdn2.obdautodoctor.com/release/obd-auto-doctor_{version}.exe",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.obdautodoctor.com/release-notes/"
