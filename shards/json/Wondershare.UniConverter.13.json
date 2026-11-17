@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.wondershare.com/cbs_down/uniconverter13_full9629.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.wondershare.com/cbs_down/uniconverter13_full9629.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
