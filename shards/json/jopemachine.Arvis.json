@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jopemachine",
+		"repo": "arvis"
+	},
+	"urls": [
+		"https://github.com/jopemachine/arvis/releases/download/{github.rawTag}/Arvis-Setup-{version}.exe"
+	]
+}
