@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fetacore",
+		"repo": "Infinitex"
+	},
+	"urls": [
+		"https://github.com/fetacore/Infinitex/releases/download/{github.rawTag}/InfiniTex-Setup-{version}.exe"
+	]
+}
