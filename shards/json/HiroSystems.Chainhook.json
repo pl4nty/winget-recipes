@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hirosystems",
+		"repo": "chainhook"
+	},
+	"urls": [
+		"https://github.com/hirosystems/chainhook/releases/download/{github.rawTag}/chainhook-windows-x64.msi"
+	]
+}
