@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.cyotek.com/cyotek-webcopy/downloads",
+		"regex": "setup-cyowcopy-(\\d+\\.\\d+\\.\\d+\\.\\d+)-x64\\.exe\""
+	},
+	"urls": [
+		"https://www.cyotek.com/downloads/get/setup-cyowcopy-{version}-x64.exe",
+		"https://www.cyotek.com/downloads/get/setup-cyowcopy-{version}-x86.exe"
+	]
+}
