@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.plotsoft.com/download/PDFill_FREE_PDF_Editor_Basic.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.plotsoft.com/download/PDFill_FREE_PDF_Editor_Basic.msi",
+		"header": "etag"
+	}
+}
