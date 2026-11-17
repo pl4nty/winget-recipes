@@ -12,5 +12,8 @@
 		"url": "https://www.easefilter.com/download/MonitorFilterSetup.exe",
 		"header": "last-modified"
 	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.easefilter.com/info/easefilter_changeset.txt"
+	},
 	"replace": true
 }

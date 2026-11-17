@@ -7,5 +7,8 @@
 	},
 	"urls": [
 		"http://bluegriffon.org/freshmeat/{version}/bluegriffon-{version}.win-x86_64.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/therealglazou/bluegriffon/releases/tag/{version}"
+	}
 }

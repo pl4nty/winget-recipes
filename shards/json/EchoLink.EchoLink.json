@@ -10,5 +10,8 @@
 	},
 	"urls": [
 		"https://d34yfhzor7jtt3.cloudfront.net/EchoLinkSetup-{version}.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.echolink.org/news.htm"
+	}
 }
