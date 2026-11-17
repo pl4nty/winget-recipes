@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/from104/spin/releases/latest/download/latest.json",
+		"platforms": [
+			"windows-x86_64-msi",
+			"windows-x86_64-nsis"
+		]
+	}
+}
