@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.minitab.com/en-us/support/downloads/",
+		"regex": "/prodinstalls/minitabmodules/choosers/(\\d+(?:\\.\\d+)+)/win/massdeploy/minitabmodules[\\d.]+\\.x64\\.zip"
+	},
+	"urls": ["https://files3.minitab.com/prodinstalls/minitabmodules/choosers/{version}/win/massdeploy/minitabmodules{version}.x64.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.minitab.com/en-us/support/minitab-modules/modules-software-updates/"
+	}
+}

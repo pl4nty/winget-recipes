@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.x-ways.net/winhex/",
+		"regex": "<strong>WinHex (\\d+(?:\\.\\d+)+)<br>"
+	},
+	"urls": ["https://www.x-ways.net/winhex.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.x-ways.net/winhex/mailings/index.html"
+	}
+}
