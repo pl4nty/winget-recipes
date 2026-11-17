@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yaser01",
+		"repo": "mkv-muxing-batch-gui"
+	},
+	"urls": [
+		"https://github.com/yaser01/mkv-muxing-batch-gui/releases/download/{github.rawTag}/MKV.Muxing.Batch.GUI.x64.v{version}.Qt6.Windows.Installer.exe",
+		"https://github.com/yaser01/mkv-muxing-batch-gui/releases/download/{github.rawTag}/MKV.Muxing.Batch.GUI.x32.v{version}.Qt5.Windows.Installer.exe"
+	]
+}
