@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pkellyuk",
+		"repo": "VRX"
+	},
+	"urls": [
+		"https://github.com/pkellyuk/VRX/releases/download/{github.rawTag}/VRX-Setup-{version}.exe"
+	]
+}
