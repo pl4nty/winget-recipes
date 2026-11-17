@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://tmog.org/downloads/TMOG-Task-Manager-Setup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://tmog.org/downloads/TMOG-Task-Manager-Setup-arm64.exe",
+			"architecture": "arm64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://tmog.org/downloads/TMOG-Task-Manager-Setup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tmog.org/release-notes.html"
+	}
+}

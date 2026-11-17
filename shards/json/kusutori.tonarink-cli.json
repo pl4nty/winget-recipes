@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kusutori",
+		"repo": "Tonarink",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "^cli-v"
+	},
+	"urls": [
+		"https://github.com/kusutori/Tonarink/releases/download/{github.rawTag}/tonarink-cli-{version}-win-x64.zip",
+		"https://github.com/kusutori/Tonarink/releases/download/{github.rawTag}/tonarink-cli-{version}-win-arm64.zip"
+	]
+}

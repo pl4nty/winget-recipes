@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://keepersecurity.com/pam/keeperdb/versions.json",
+		"path": "latest"
+	},
+	"urls": [
+		"https://keepersecurity.com/pam/keeperdb/v{version}/KeeperDB_{version}_x64_en-US.msi"
+	]
+}

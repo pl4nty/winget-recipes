@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KlowdfurrRad",
+		"repo": "TrayAuth"
+	},
+	"urls": [
+		"https://github.com/KlowdfurrRad/TrayAuth/releases/download/{github.rawTag}/TrayAuth-Setup-{version}.exe"
+	]
+}

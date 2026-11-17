@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "colibird-ai",
+		"repo": "local-mcp-releases"
+	},
+	"urls": [
+		"https://download.local-mcp.com/winget/LMCP-Setup-{version}.exe"
+	]
+}
