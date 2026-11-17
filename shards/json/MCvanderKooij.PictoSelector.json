@@ -1,19 +1,14 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "file"
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.pictoselector.eu/news/versions/",
+		"regex": "versions/version-(\\d+(?:\\.\\d+)+)/"
 	},
 	"urls": [
 		"https://picto.cloud/setup_complete.exe"
 	],
-	"state": {
-		"source": "response-header",
-		"url": "https://picto.cloud/setup_complete.exe",
-		"header": "last-modified"
-	},
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.pictoselector.eu/news/versions/version-{version}/"
-	},
-	"replace": true
+	}
 }
