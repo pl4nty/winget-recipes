@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cyberpower.com/global/en/product/sku/powerpanel_personal_for_windows",
+		"regex": "\"DocumentId\":\"SU-18070001-\\d+\",\"Name\":\"PowerPanel Personal for Windows\"[^{}]*?\"Version\":\"v(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://dl4jz3rbrsfum.cloudfront.net/software/PPP_Windows_v{version}.exe"]
+}
