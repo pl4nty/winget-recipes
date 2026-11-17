@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "tinycad",
+		"file": "TinyCAD_{version}.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/tinycad/files/Official%20Release/{version}/TinyCAD_{version}.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/projects/tinycad/files/Official%20Release/{version}/"
+	}
+}
