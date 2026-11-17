@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "{version}.0",
+	"github": {
+		"owner": "tomlm",
+		"repo": "electron-outlook"
+	},
+	"urls": [
+		"https://github.com/tomlm/electron-outlook/releases/download/{github.rawTag}/Outlook.for.Office365.{version}.msi"
+	]
+}
