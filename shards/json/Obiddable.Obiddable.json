@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Obiddable",
+		"repo": "Obiddable"
+	},
+	"urls": [
+		"https://github.com/Obiddable/Obiddable/releases/download/{github.rawTag}/Obiddable-v{version}-win-x64.msi"
+	]
+}
