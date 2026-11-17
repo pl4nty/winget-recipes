@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HaxeFoundation",
+		"repo": "haxe"
+	},
+	"urls": [
+		"https://github.com/HaxeFoundation/haxe/releases/download/{version}/haxe-{version}-win.exe",
+		"https://github.com/HaxeFoundation/haxe/releases/download/{version}/haxe-{version}-win64.exe"
+	]
+}
