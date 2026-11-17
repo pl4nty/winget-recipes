@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cutls",
+		"repo": "TheDesk"
+	},
+	"urls": [
+		"https://github.com/cutls/TheDesk/releases/download/{github.rawTag}/TheDesk-setup-ia32.exe",
+		"https://github.com/cutls/TheDesk/releases/download/{github.rawTag}/TheDesk-setup.exe",
+		"https://github.com/cutls/TheDesk/releases/download/{github.rawTag}/TheDesk-setup-arm64.exe"
+	]
+}
