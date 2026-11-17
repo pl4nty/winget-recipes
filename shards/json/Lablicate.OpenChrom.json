@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://marketplace.lablicate.com/api/downloads?target=website&page=1&page_size=10&search_key=",
+		"regex": "\"version\":\"(?<version>\\d+(?:\\.\\d+)+)\"[^\\[]*?\"is_current\":true"
+	},
+	"urls": [
+		"https://products.lablicate.com/openchrom/{version}/OpenChrom_{version}_setup_x64.exe",
+		"https://products.lablicate.com/openchrom/{version}/OpenChrom_{version}_setup_ARM64.exe"
+	]
+}
