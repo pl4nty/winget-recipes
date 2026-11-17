@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdn.stardock.us/downloads/public/software/multiplicity/multiplicity4/Multiplicity4_Setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.stardock.us/downloads/public/software/multiplicity/multiplicity4/Multiplicity4_Setup.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.stardock.com/products/multiplicity/history"
+	},
+	"replace": true
+}
