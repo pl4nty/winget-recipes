@@ -6,7 +6,7 @@
 		"repo": "PrusaSlicer",
 		"method": "api-list",
 		"kind": "prerelease",
-		"tagRegex": "^version_",
+		"tagRegex": "^v?ersion_",
 		"assetRegex": "^PrusaSlicer-\\d+(?:\\.\\d+)+-[a-z]+\\d+\\.zip$"
 	}
 }
