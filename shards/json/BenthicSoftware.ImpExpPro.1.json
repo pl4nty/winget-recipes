@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.benthicsoftware.com/downloads.html",
+		"regex": "apps/impexpprosetup(?<version>\\d+)_32bit\\.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.benthicsoftware.com/apps/impexpprosetup{version}_32bit.exe",
+		"https://www.benthicsoftware.com/apps/impexpprosetup{version}_64bit.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.benthicsoftware.com/impexppro.html"
+	}
+}
