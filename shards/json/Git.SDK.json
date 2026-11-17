@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "git-for-windows",
+		"repo": "build-extra",
+		"method": "api-sort",
+		"tagRegex": "^git-sdk-",
+		"assetRegex": "^git-sdk-installer-[\\d.]+-(?:32|64)\\.7z\\.exe$"
+	}
+}
