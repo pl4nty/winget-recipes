@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mymonero",
+		"repo": "mymonero-app-js"
+	},
+	"urls": [
+		"https://github.com/mymonero/mymonero-app-js/releases/download/{github.rawTag}/MyMonero-Setup-{version}.exe"
+	]
+}
