@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "airsquared",
+		"repo": "blobsaver"
+	},
+	"urls": [
+		"https://github.com/airsquared/blobsaver/releases/download/{github.rawTag}/blobsaver-{version}.exe"
+	]
+}
