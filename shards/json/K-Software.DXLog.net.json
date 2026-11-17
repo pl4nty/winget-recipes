@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://dxlog.net/sw/scan.php",
+		"regex": "\"files\\\\/DXLog\\.net-(\\d+(?:\\.\\d+)+)\\.msi\""
+	},
+	"urls": [
+		"https://dxlog.net/sw/files/DXLog.net-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://dxlog.net/sw/files/release_notes.txt"
+	}
+}
