@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hbkworld.com/en/services-support/support/support-bksv/downloads/teds-editor-software-update",
+		"regex": "BZ5294(?:%20| )-(?:%20| )V(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		"https://www.bksv.com/downloads/teds/BZ5294%20-%20V{version}.zip"
+	]
+}
