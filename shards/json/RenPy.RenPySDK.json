@@ -6,7 +6,10 @@
 		"regex": "dl/(?<version>\\d+(?:\\.\\d+)+)/renpy-\\d+(?:\\.\\d+)+-sdk\\.zip"
 	},
 	"urls": [
-		"https://www.renpy.org/dl/{version}/renpy-{version}-sdk.zip"
+		{
+			"url": "https://www.renpy.org/dl/{version}/renpy-{version}-sdk.zip",
+			"architecture": "x64"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://www.renpy.org/doc/html/changelog.html"
