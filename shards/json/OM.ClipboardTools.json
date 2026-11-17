@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "orzmakoto",
+		"repo": "ClipboardTools",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/orzmakoto/ClipboardTools/releases/download/{github.rawTag}/cbt.zip"
+	]
+}
