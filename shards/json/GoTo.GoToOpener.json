@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://meet.goto.com/openerbinaries/latest/GoToOpenerMultiUser.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://meet.goto.com/openerbinaries/latest/GoToOpenerMultiUser.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
