@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.paludour.net/TenClips.html",
+		"regex": "href=\"TenClipsSetup(\\d+)\\.exe\""
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.paludour.net/TenClipsSetup{version}.exe"
+	]
+}
