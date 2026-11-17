@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "amnweb",
+		"repo": "icon-extractor"
+	},
+	"urls": [
+		"https://github.com/amnweb/icon-extractor/releases/download/{github.rawTag}/icon-extractor-{version}-win64.msi"
+	]
+}
