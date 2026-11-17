@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/patch",
+		"regex": "/files/patch/[^/]+/patch-(\\d+(?:[.-]\\d+)+)-bin\\.zip/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnuwin32/files/patch/{version}/patch-{version}-bin.zip/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gnuwin32.sourceforge.net/packages/patch.htm"
+	}
+}
