@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nelsonpires.com/software/dimmer",
+		"regex": "/download/dimmer/(?<version>\\d+(?:\\.\\d+)+)/zip"
+	},
+	"urls": [
+		"https://www.nelsonpires.com/download/dimmer/{version}/zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nelsonpires.com/assets/downloads/dimmer/{version}/whatsnew.txt"
+	}
+}
