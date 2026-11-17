@@ -5,9 +5,10 @@
 		"url": "https://www.elgato.com/us/en/s/downloads",
 		"regex": "edge\\.elgato\\.com/egc/windows/egcw/(?<dir>[\\d.]+)/final/GameCaptureSetup_(?<version>\\d+(?:\\.\\d+)+)_x64\\.msi"
 	},
-	"urls": ["https://edge.elgato.com/egc/windows/egcw/{captures.dir}/final/GameCaptureSetup_{version}_x64.msi"],
+	"urls": [
+		"https://edge.elgato.com/egc/windows/egcw/{captures.dir}/final/GameCaptureSetup_{version}_x64.msi"
+	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://help.elgato.com/hc/en-us/articles/360027964072-Elgato-Game-Capture-HD-Software-Release-Notes-Windows"
-	},
-	"cleanup": false
+	}
 }
