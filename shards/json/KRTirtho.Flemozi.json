@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KRTirtho",
+		"repo": "flemozi"
+	},
+	"urls": [
+		"https://github.com/KRTirtho/flemozi/releases/download/{github.rawTag}/Flemozi-windows-x86_64-setup.exe"
+	]
+}
