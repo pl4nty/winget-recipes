@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.two-notes.com/en/torpedo-remote",
+		"regex": "Torpedo_Remote_(?<version>\\d+(?:\\.\\d+)+)_x64_Setup\\.exe"
+	},
+	"urls": [
+		"https://public-downloads.two-notes.com/setups/remote/Torpedo_Remote_{version}_x64_Setup.exe",
+		"https://public-downloads.two-notes.com/setups/remote/Torpedo_Remote_{version}_x86_Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.two-notes.com/en/torpedo-remote"
+	}
+}
