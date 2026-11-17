@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tabulapdf",
+		"repo": "tabula"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/tabulapdf/tabula/releases/download/{github.rawTag}/tabula-win-{version}.zip",
+			"nestedInstallerMatches": [
+				"tabula/tabula.exe"
+			]
+		}
+	]
+}
