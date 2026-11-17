@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "keeweb",
+		"repo": "keeweb"
+	},
+	"urls": [
+		"https://github.com/keeweb/keeweb/releases/download/{github.rawTag}/KeeWeb-{version}.win.ia32.exe",
+		"https://github.com/keeweb/keeweb/releases/download/{github.rawTag}/KeeWeb-{version}.win.x64.exe",
+		"https://github.com/keeweb/keeweb/releases/download/{github.rawTag}/KeeWeb-{version}.win.arm64.exe"
+	]
+}
