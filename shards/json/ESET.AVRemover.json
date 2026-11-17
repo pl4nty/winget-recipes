@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.eset.com/special/avremover/avremover_nt64_enu.exe",
+		"https://download.eset.com/special/avremover/avremover_nt32_enu.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.eset.com/special/avremover/avremover_nt64_enu.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
