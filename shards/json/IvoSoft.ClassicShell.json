@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "sort-versions",
-	"sortVersions": {
-		"url": "https://sourceforge.net/projects/classicshell/rss?path=/",
-		"regex": "/Version (\\d+\\.\\d+\\.\\d+) general release/ClassicShellSetup_\\d+_\\d+_\\d+\\.exe\\]"
-	},
-	"urls": ["https://sourceforge.net/projects/classicshell/files/Version%20{version}%20general%20release/ClassicShellSetup_{version|.|_}.exe/download"]
-}
