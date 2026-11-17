@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wkhtmltopdf",
+		"repo": "packaging"
+	},
+	"urls": [
+		"https://github.com/wkhtmltopdf/packaging/releases/download/{github.rawTag}/wkhtmltox-{version}.msvc2015-win64.exe"
+	]
+}
