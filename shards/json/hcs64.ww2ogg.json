@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hcs64",
+		"repo": "ww2ogg"
+	},
+	"urls": [
+		"https://github.com/hcs64/ww2ogg/releases/download/{github.rawTag}/ww2ogg{version|.|}.zip"
+	]
+}
