@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ngudbhav",
+		"repo": "TriCo-electron-app"
+	},
+	"urls": [
+		"https://github.com/ngudbhav/TriCo-electron-app/releases/download/{github.rawTag}/Setup-x86.exe",
+		"https://github.com/ngudbhav/TriCo-electron-app/releases/download/{github.rawTag}/Setup-x64.exe"
+	]
+}
