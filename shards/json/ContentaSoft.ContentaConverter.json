@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.contenta-converter.com/download.php?language=en",
+		"regex": "ContentaConverterPremium(?<edition>\\d{4})-Setup\\.exe[\"'][\\s\\S]*?class=\"dl-version\">v(?<version>\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": ["https://www.contenta-software.com/ContentaConverterPremium{captures.edition}-Setup-{version}.exe"]
+}
