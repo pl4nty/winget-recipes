@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "album-art",
+		"file": "AlbumArtDownloaderXUI-{version}.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/album-art/files/album-art-xui/AlbumArtDownloaderXUI-{version}.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/projects/album-art/files/album-art-xui/Changelog.txt/download"
+	}
+}
