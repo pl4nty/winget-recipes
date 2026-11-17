@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://kreutzweb.de/tool-mrc-pdf-kompressor.html",
+		"regex": "\"softwareVersion\":\\s*\"(?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://kreutzweb.de/dl/mrc-pdf-kompressor-{version}.zip",
+		"https://kreutzweb.de/dl/mrc-pdf-kompressor-setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://kreutzweb.de/tool-mrc-pdf-kompressor.html"
+	}
+}
