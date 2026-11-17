@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "adobe",
+		"repo": "cryptr"
+	},
+	"urls": [
+		"https://github.com/adobe/cryptr/releases/download/{github.rawTag}/Cryptr.Setup.{version}.exe"
+	]
+}
