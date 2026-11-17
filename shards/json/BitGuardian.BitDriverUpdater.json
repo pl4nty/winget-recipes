@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://bit-guardian.com/downloadpage/?pid=128",
+		"regex": "https://webcf\\.bitdriverupdater\\.com/bitdrvupdt/instlr/build/(\\d+)/bitdurtsetup\\.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": ["https://webcf.bitdriverupdater.com/bitdrvupdt/instlr/build/{version}/bitdurtsetup.exe"],
+	"state": {
+		"source": "value",
+		"value": "{version}"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.bitdriverupdater.com/"
+	}
+}

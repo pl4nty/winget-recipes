@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://bitsum.com/files/corepriosetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://bitsum.com/files/corepriosetup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://bitsum.com/apps/coreprio/"
+	}
+}
