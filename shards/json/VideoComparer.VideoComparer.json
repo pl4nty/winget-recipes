@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.video-comparer.com/download-now.php",
+		"regex": "VideoComparer_Win64_(?<raw>(?<a>\\d+)\\.0*(?<b>\\d+)\\.0*(?<c>\\d+))\\.exe"
+	},
+	"version": "{captures.a}.{captures.b}.{captures.c}",
+	"urls": [
+		"https://www.video-comparer.com/download/VideoComparer_Win64_{captures.raw}.exe",
+		"https://www.video-comparer.com/download/VideoComparer_Win32_{captures.raw}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.video-comparer.com/download-release-history.php"
+	}
+}
