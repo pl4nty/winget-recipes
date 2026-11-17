@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Electron-Store",
+		"repo": "electron-app-store"
+	},
+	"urls": [
+		"https://github.com/Electron-Store/electron-app-store/releases/download/{github.rawTag}/Electron-Store-Setup-{version}.exe"
+	]
+}
