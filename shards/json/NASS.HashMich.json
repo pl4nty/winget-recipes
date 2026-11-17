@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "manfred-mueller",
+		"repo": "HashMich"
+	},
+	"urls": [
+		"https://github.com/manfred-mueller/HashMich/releases/download/{github.rawTag}/HashMich_setup-{version}.exe"
+	]
+}
