@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sirWest",
+		"repo": "AudioSwitch",
+		"method": "api-latest",
+		"assetRegex": "^AudioSwitchSetup[-.].*\\.exe$"
+	},
+	"version": { "source": "file" },
+	"state": { "source": "value", "value": "{github.rawTag}" }
+}

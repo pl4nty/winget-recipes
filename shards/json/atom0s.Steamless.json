@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "atom0s",
+		"repo": "Steamless"
+	},
+	"urls": [
+		"https://github.com/atom0s/Steamless/releases/download/{github.rawTag}/Steamless.{github.rawTag}.-.by.atom0s.zip"
+	]
+}

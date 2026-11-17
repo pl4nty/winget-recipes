@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "n457",
+		"repo": "Uncolored",
+		"tagRegex": "^v?\\."
+	},
+	"urls": [
+		"https://github.com/n457/Uncolored/releases/download/{github.rawTag}/Uncolored-{github.rawTag}-win-x64-setup.exe"
+	]
+}

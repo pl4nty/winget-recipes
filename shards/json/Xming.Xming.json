@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "xming",
+		"file": "Xming-{version}-setup.exe"
+	},
+	"version": "{version|-|.}",
+	"urls": ["https://sourceforge.net/projects/xming/files/Xming/{packageVersion}/Xming-{version}-setup.exe/download"]
+}
