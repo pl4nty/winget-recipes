@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.dlang.org/releases/LATEST",
+		"regex": "^(?<version>(?<major>\\d+)\\.\\d+\\.\\d+)\\s*$"
+	},
+	"urls": [
+		"https://downloads.dlang.org/releases/{captures.major}.x/{version}/dmd-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://dlang.org/changelog/{version}.html"
+	}
+}
