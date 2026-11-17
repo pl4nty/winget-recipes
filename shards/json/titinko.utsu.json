@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "titinko",
+		"repo": "utsu"
+	},
+	"urls": [
+		"https://github.com/titinko/utsu/releases/download/{github.rawTag}/Utsu-{version}.msi"
+	]
+}

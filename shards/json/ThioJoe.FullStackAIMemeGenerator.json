@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ThioJoe",
+		"repo": "Full-Stack-AI-Meme-Generator"
+	},
+	"urls": [
+		"https://github.com/ThioJoe/Full-Stack-AI-Meme-Generator/releases/download/{github.rawTag}/AIMemeGenerator.{version}.exe"
+	]
+}

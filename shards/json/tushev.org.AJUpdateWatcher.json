@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tushev",
+		"repo": "aojdk-updatewatcher"
+	},
+	"urls": [
+		"https://github.com/tushev/aojdk-updatewatcher/releases/download/{github.rawTag}/AJUpdateWatcher-{version}-setup.msi"
+	]
+}
