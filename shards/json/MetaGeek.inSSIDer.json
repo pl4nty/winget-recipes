@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://metageek-desktop.nyc3.digitaloceanspaces.com/Installers/inSSIDerLitePlus/inSSIDerSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://metageek-desktop.nyc3.digitaloceanspaces.com/Installers/inSSIDerLitePlus/inSSIDerSetup.exe",
+		"header": "etag"
+	}
+}
