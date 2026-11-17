@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xM4ddy",
+		"repo": "OFGB"
+	},
+	"urls": [
+		"https://github.com/xM4ddy/OFGB/releases/download/{github.rawTag}/OFGB-Deps.exe",
+		"https://github.com/xM4ddy/OFGB/releases/download/{github.rawTag}/OFGB-ARM.exe"
+	]
+}
