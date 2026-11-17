@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdn.stardock.us/downloads/public/software/start/Start10_setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.stardock.us/downloads/public/software/start/Start10_setup.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.stardock.com/products/start10/history"
+	},
+	"replace": true
+}
