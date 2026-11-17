@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "caobinrg",
+		"repo": "electron-office-tools"
+	},
+	"urls": [
+		"https://github.com/caobinrg/electron-office-tools/releases/download/{github.rawTag}/office.Setup.{version}.exe"
+	]
+}
