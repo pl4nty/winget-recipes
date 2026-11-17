@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oxen-io",
+		"repo": "lokinet"
+	},
+	"urls": [
+		"https://github.com/oxen-io/lokinet/releases/download/{github.rawTag}/lokinet-{version}-win64.exe"
+	]
+}
