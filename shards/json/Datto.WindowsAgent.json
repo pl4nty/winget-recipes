@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://cf-dl.datto.com/dwa/DattoWindowsAgent.exe",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cf-dl.datto.com/dwa/DattoWindowsAgent.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
