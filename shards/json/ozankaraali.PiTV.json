@@ -3,7 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "ozankaraali",
-		"repo": "PiTV"
+		"repo": "PiTV",
+		"method": "api-list"
 	},
 	"urls": [
 		"https://github.com/ozankaraali/PiTV/releases/download/{github.rawTag}/PiTV-{version}.Setup.exe"

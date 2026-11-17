@@ -6,7 +6,7 @@
 		"regex": "href=\"SetupOmapRevitPluginV(?<build>\\d+)\\.msi\""
 	},
 	"version": {
-		"source": "product"
+		"source": "display"
 	},
 	"urls": [
 		"https://download.ovital.com/pub/SetupOmapRevitPluginV{captures.build}.msi"

@@ -3,9 +3,8 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "oxen-io",
-		"repo": "lokinet"
-	},
-	"urls": [
-		"https://github.com/oxen-io/lokinet/releases/download/{github.rawTag}/lokinet-{version}-win64.exe"
-	]
+		"repo": "lokinet",
+		"method": "api-latest",
+		"assetRegex": "\\.exe$"
+	}
 }

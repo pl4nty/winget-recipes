@@ -6,7 +6,8 @@
 		"repo": "pnpm",
 		"method": "api-list",
 		"kind": "prerelease",
-		"tagRegex": "^v(?=\\d)"
+		"tagRegex": "^v(?=\\d)",
+		"perPage": 100
 	},
 	"urls": [
 		"https://github.com/pnpm/pnpm/releases/download/{github.rawTag}/pnpm-win32-x64.zip"

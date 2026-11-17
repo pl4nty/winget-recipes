@@ -5,6 +5,6 @@
 		"owner": "open-source-labs",
 		"repo": "ReacType",
 		"method": "api-latest",
-		"assetRegex": "\\.msi$"
+		"assetRegex": "\\.(?:msi|exe)$"
 	}
 }
