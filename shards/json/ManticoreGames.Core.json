@@ -5,7 +5,10 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://manticoreprod.azureedge.net/builds/CoreLauncherInstall.exe"
+		{
+			"url": "https://manticoreprod.azureedge.net/builds/CoreLauncherInstall.exe",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",
