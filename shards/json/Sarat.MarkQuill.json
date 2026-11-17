@@ -7,6 +7,9 @@
 	},
 	"urls": [
 		"https://github.com/sarat03/markquill/releases/download/{github.rawTag}/MarkQuill_{version}_win-x64-setup.exe",
-		"https://github.com/sarat03/markquill/releases/download/{github.rawTag}/MarkQuill_{version}_win-arm-setup.exe"
+		{
+			"url": "https://github.com/sarat03/markquill/releases/download/{github.rawTag}/MarkQuill_{version}_win-arm-setup.exe",
+			"architecture": "arm64"
+		}
 	]
 }

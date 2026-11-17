@@ -12,7 +12,8 @@ export default defineShard(async () => {
 
 	return {
 		version: parts.join('.'),
-		urls: () => [asset.browser_download_url],
+		// The Inno Setup stub is 32-bit; upstream lists the installer as x64.
+		urls: () => [{ url: asset.browser_download_url, architecture: 'x64' as const }],
 		releaseNotes: { releaseNotesUrl: release.html_url },
 	};
 });

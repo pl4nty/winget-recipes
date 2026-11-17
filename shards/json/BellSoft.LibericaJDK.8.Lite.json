@@ -5,6 +5,9 @@
 		"url": "https://api.bell-sw.com/v1/liberica/releases?version-feature=8&version-modifier=latest&update-type=psu&os=windows&package-type=msi&bundle-type=jdk-lite&bitness=64",
 		"path": "0.version"
 	},
+	"version": {
+		"source": "display"
+	},
 	"urls": [
 		"https://download.bell-sw.com/java/{version}/bellsoft-jdk{version}-windows-i586-lite.msi",
 		"https://download.bell-sw.com/java/{version}/bellsoft-jdk{version}-windows-amd64-lite.msi"

@@ -6,6 +6,9 @@
 		"repo": "motion-cues"
 	},
 	"urls": [
-		"https://github.com/Aweswomedude1234/motion-cues/releases/download/{github.rawTag}/SteadyCues.exe"
+		{
+			"url": "https://github.com/Aweswomedude1234/motion-cues/releases/download/{github.rawTag}/SteadyCues.exe",
+			"architecture": "neutral"
+		}
 	]
 }
