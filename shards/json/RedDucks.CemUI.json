@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jonbarrow",
+		"repo": "CemUI"
+	},
+	"urls": [
+		"https://github.com/jonbarrow/CemUI/releases/download/{github.rawTag}/CemUI.Setup.{version}.exe"
+	]
+}
