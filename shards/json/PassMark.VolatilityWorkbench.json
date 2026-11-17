@@ -1,21 +1,21 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.osforensics.com/tools/volatility-workbench.html",
+		"regex": "V(?<major>\\d+\\.\\d+)\\s+build\\s+(?<build>\\d+)"
 	},
+	"version": "{captures.major}.{captures.build}",
 	"urls": [
-		{
-			"url": "https://www.osforensics.com/downloads/VolatilityWorkbench.zip",
-			"nestedInstallerMatches": [
-				"VolatilityWorkbench.exe"
-			]
-		}
+		"https://www.osforensics.com/downloads/VolatilityWorkbench.zip"
 	],
 	"state": {
 		"source": "response-header",
 		"url": "https://www.osforensics.com/downloads/VolatilityWorkbench.zip",
 		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.osforensics.com/tools/volatility-workbench.html"
 	},
 	"replace": true
 }

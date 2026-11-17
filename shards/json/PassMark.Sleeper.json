@@ -1,21 +1,21 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "static",
-	"version": {
-		"source": "product"
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.passmark.com/products/sleeper/",
+		"regex": "V(?<major>\\d+\\.\\d+)\\s+build\\s+(?<build>\\d+)"
 	},
+	"version": "{captures.major}.{captures.build}",
 	"urls": [
-		{
-			"url": "https://www.passmark.com/downloads/sleeper.zip",
-			"nestedInstallerMatches": [
-				"Sleeper.exe"
-			]
-		}
+		"https://www.passmark.com/downloads/sleeper.zip"
 	],
 	"state": {
 		"source": "response-header",
 		"url": "https://www.passmark.com/downloads/sleeper.zip",
 		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.passmark.com/products/sleeper/"
 	},
 	"replace": true
 }
