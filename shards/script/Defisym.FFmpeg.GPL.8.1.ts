@@ -18,7 +18,7 @@ export default defineShard(async () => {
 		const asset = release.assets.find((a) => assetRegex.test(a.name));
 		if (!asset) throw new Error(`No win32 8.1 zip in ${release.tag_name}`);
 		const {
-			groups: [, ffmpegVersion],
+			groups: [ffmpegVersion],
 		} = match(asset.name, assetRegex);
 		return {
 			version: `${ffmpegVersion}-${date[1]}${date[2]}${date[3]}`,
