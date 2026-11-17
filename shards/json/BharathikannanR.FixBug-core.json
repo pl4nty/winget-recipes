@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "r-bharathikannan-2006",
+		"repo": "FixBug-core"
+	},
+	"urls": [
+		"https://github.com/r-bharathikannan-2006/FixBug-core/releases/download/{github.rawTag}/FixBug_core_Installer.exe"
+	]
+}
