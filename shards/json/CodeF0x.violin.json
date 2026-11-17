@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CodeF0x",
+		"repo": "violin"
+	},
+	"version": "{version}.0",
+	"urls": ["https://github.com/CodeF0x/violin/releases/download/{github.rawTag}/violin-setup-windows.msi"]
+}
