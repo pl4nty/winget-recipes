@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "spimsimulator"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/spimsimulator/files/QtSpim_{version}_Windows.msi/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://spimsimulator.sourceforge.net/"
+	}
+}
