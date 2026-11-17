@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RetroShare",
+		"repo": "RetroShare",
+		"method": "api-latest",
+		"assetRegex": "^RetroShare-.*-Qt-[\\d.]+-x(?:86|64)-setup\\.exe$"
+	}
+}
