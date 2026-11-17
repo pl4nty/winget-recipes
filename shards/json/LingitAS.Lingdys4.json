@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download2.lingit.no/update/LingX4/Lingdys_4-Installer.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download2.lingit.no/update/LingX4/Lingdys_4-Installer.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
