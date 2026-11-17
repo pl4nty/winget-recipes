@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.magicdesktop.com/MagicDesktopKiosk.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.magicdesktop.com/MagicDesktopKiosk.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
