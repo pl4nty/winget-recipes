@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://kopiorapido.com/changelog/",
+		"regex": "class=\"changelog-version\">v(\\d{4}\\.\\d{2}\\.\\d{2})<"
+	},
+	"urls": [
+		"https://releases.kopiorapido.com/{version}/cli/kopiorapido-cli-win-x64-{version}.zip",
+		"https://releases.kopiorapido.com/{version}/cli/kopiorapido-cli-win-arm64-{version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://kopiorapido.com/changelog"
+	}
+}
