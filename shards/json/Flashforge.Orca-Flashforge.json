@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.flashforge.com/pages/flash-studio-desktop",
+		"regex": "/Flash%20Studio/Flash_Studio_Desktop_(?<version>\\d+(?:\\.\\d+)+)_x64\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://flashforge-resource.oss-us-east-1.aliyuncs.com/Flash%20Studio/Flash_Studio_Desktop_{version}_x64.zip",
+			"nestedInstallerMatches": [
+				"Flash_Studio_Desktop_"
+			]
+		}
+	]
+}
