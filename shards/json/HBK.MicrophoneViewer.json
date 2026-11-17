@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hbkworld.com/en/services-support/support/support-bksv/downloads/microphone-viewer",
+		"regex": "Microphone(?:%20| )Viewer(?:%20| )(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		"https://www.bksv.com/downloads/micviewer/Microphone%20Viewer%20{version}.zip"
+	]
+}
