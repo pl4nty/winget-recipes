@@ -5,7 +5,7 @@
 		"owner": "hetoandrade",
 		"repo": "hetoandrade.github.io",
 		"method": "api-list",
-		"tagRegex": "^vozdigitada-v",
+		"tagRegex": "^v?ozdigitada-v",
 		"perPage": 100
 	},
 	"urls": [
