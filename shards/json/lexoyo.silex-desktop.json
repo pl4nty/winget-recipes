@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "silexlabs",
+		"repo": "silex-desktop"
+	},
+	"urls": [
+		"https://github.com/silexlabs/silex-desktop/releases/download/{github.rawTag}/silex-desktop-Setup-{version}.exe"
+	]
+}
