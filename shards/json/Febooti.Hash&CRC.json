@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://x.febooti.com/downloads/files/ftweak-hash-x64.msi",
+		"https://x.febooti.com/downloads/files/ftweak-hash.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://x.febooti.com/downloads/files/ftweak-hash-x64.msi",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.febooti.com/products/filetweak/members/hash-and-crc/"
+	},
+	"replace": true
+}
