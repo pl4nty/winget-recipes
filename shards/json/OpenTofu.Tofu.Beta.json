@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "opentofu",
+		"repo": "opentofu",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "^v(?=.*-beta\\d+$)"
+	},
+	"urls": [
+		"https://github.com/opentofu/opentofu/releases/download/{github.rawTag}/tofu_{version}_windows_386.zip",
+		"https://github.com/opentofu/opentofu/releases/download/{github.rawTag}/tofu_{version}_windows_amd64.zip"
+	]
+}

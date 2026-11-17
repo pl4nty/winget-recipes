@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.axis.com/ftp/pub_soft/cam_srv/acs_tool/DeviceCompatibilityTool/",
+		"regex": "/DeviceCompatibilityTool/(\\d+(?:\\.\\d+)+)/\\\""
+	},
+	"urls": [
+		"https://www.axis.com/ftp/pub_soft/cam_srv/acs_tool/DeviceCompatibilityTool/{version}/All_files/AXISDeviceCompatibilityToolSetup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.axis.com/products/axis-camera-station-device-compatibility-tool"
+	}
+}
