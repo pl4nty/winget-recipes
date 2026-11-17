@@ -8,15 +8,7 @@
 	"urls": [
 		{
 			"url": "https://github.com/sylviiu/ezytdl/releases/download/{github.rawTag}/ezytdl-win32.exe",
-			"architecture": "x86"
-		},
-		{
-			"url": "https://github.com/sylviiu/ezytdl/releases/download/{github.rawTag}/ezytdl-win32.exe",
-			"architecture": "x64"
-		},
-		{
-			"url": "https://github.com/sylviiu/ezytdl/releases/download/{github.rawTag}/ezytdl-win32.exe",
-			"architecture": "arm64"
+			"architecture": "neutral"
 		}
 	]
 }
