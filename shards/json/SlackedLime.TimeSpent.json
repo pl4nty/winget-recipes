@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "slackedlime",
+		"owner": "i-program-stuff",
 		"repo": "TimeSpent"
 	},
 	"urls": [
-		"https://github.com/slackedlime/TimeSpent/releases/download/{github.rawTag}/TimeSpent.Setup.v{version}.exe"
+		"https://github.com/i-program-stuff/TimeSpent/releases/download/{github.rawTag}/TimeSpent.Setup.v{version}.exe"
 	]
 }
