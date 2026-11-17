@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://origin.cdn.kde.org/ci-builds/education/labplot/master/windows/",
+		"regex": "labplot-master-(?<version>\\d+)-windows-cl-msvc2022-x86_64-sideload\\.appx\""
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://origin.cdn.kde.org/ci-builds/education/labplot/master/windows/labplot-master-{version}-windows-cl-msvc2022-x86_64-sideload.appx"
+	],
+	"state": {
+		"source": "value",
+		"value": "{version}"
+	}
+}
