@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "workspacer",
+		"repo": "workspacer",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/workspacer/workspacer/releases/download/{github.rawTag}/workspacer-latest-unstable.msi"
+	]
+}

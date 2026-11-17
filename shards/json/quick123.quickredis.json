@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "quick123official",
+		"repo": "quick_redis_blog"
+	},
+	"urls": [
+		"https://github.com/quick123official/quick_redis_blog/releases/download/{github.rawTag}/QuickRedis-{version}-win-ia32.exe"
+	]
+}

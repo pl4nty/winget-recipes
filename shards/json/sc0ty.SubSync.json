@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "sc0ty",
+		"repo": "subsync",
+		"method": "api-latest",
+		"assetRegex": "^subsync-[\\d.]+-amd64\\.msi$"
+	}
+}
