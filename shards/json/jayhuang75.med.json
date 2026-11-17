@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jayhuang75",
+		"repo": "rust-cli-med"
+	},
+	"urls": [
+		"https://github.com/jayhuang75/rust-cli-med/releases/download/{github.rawTag}/med-{version}-x86_64-windows-msvc.zip"
+	]
+}
