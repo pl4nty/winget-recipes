@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/orwelldevcpp/rss?path=/Setup%20Releases",
+		"regex": "/Setup Releases/Dev-Cpp (?<version>\\d+(?:\\.\\d+)+) TDM-GCC (?<gcc>\\d+(?:\\.\\d+)+) Setup\\.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/orwelldevcpp/files/Setup%20Releases/Dev-Cpp%20{version}%20TDM-GCC%20{captures.gcc}%20Setup.exe/download"
+	]
+}
