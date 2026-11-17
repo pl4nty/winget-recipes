@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "infinitepower18",
+		"repo": "WSA-SystemControl"
+	},
+	"urls": [
+		"https://github.com/infinitepower18/WSA-SystemControl/releases/download/{github.rawTag}/WSASystemControl_{version}_x64.exe",
+		"https://github.com/infinitepower18/WSA-SystemControl/releases/download/{github.rawTag}/WSASystemControl_{version}_arm64.exe"
+	]
+}
