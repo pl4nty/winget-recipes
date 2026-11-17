@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "namespace-ee",
+		"repo": "upcount",
+		"method": "api-list",
+		"kind": "stable",
+		"tagRegex": "^v(?=\\d+\\.\\d+\\.\\d+$)",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/namespace-ee/upcount/releases/download/{github.rawTag}/Upcount-Setup-{version}.exe"
+	]
+}
