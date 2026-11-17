@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fclairamb",
+		"repo": "solidping"
+	},
+	"urls": [
+		"https://github.com/fclairamb/solidping/releases/download/{github.rawTag}/solidping-windows-amd64.zip"
+	]
+}
