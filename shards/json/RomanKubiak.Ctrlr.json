@@ -5,7 +5,12 @@
 		"owner": "RomanKubiak",
 		"repo": "ctrlr",
 		"method": "api-list",
-		"assetRegex": "^Ctrlr-\\d+\\.\\d+\\.\\d+\\.exe$",
 		"kind": "prerelease"
-	}
+	},
+	"urls": [
+		{
+			"url": "https://github.com/RomanKubiak/ctrlr/releases/download/{github.rawTag}/Ctrlr-{version}.exe",
+			"architecture": "neutral"
+		}
+	]
 }
