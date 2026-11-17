@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://eclipseclp.org/Distribution/Builds/",
+		"regex": "href=\"7\\.0_(\\d+)/\""
+	},
+	"version": "7.0 #{version}",
+	"urls": ["https://eclipseclp.org/Distribution/Builds/7.0_{version}/x86_64_nt/ECLiPSe_7.0_{version}_x86_64_nt.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://eclipseclp.org/Distribution/ChangeLog.txt"
+	}
+}
