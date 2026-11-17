@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://www.wmzhe.com/soft-13163.html",
+		"regex": "\"softwareVersion\":\"(\\d{8})\""
+	},
+	"urls": [
+		"http://dl-t1.wmzhe.com/13/13163/PureCodec{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "http://diodiy.top/?thread-1.htm"
+	}
+}
