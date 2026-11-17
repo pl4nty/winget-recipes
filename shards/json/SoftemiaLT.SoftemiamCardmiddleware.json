@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nsc.vrm.lt/downloads.htm",
+		"regex": "files/mcard-middleware-LT-amd64-(?<version>\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": [
+		"https://www.nsc.vrm.lt/files/mcard-middleware-LT-amd64-{version}.msi"
+	]
+}
