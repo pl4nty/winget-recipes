@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.semanticmodeler.com/downloads",
+		"regex": "downloads-version-badge\"[^>]*><span>v(\\d+(?:\\.\\d+)+(?:-beta)?)</span>"
+	},
+	"urls": ["https://www.semanticmodeler.com/download/v{version}/SemanticModeler-win-Setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.semanticmodeler.com/release-notes#:~:text=v{version}"
+	}
+}
