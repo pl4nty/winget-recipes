@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://mupen64.emulation64.com/down.htm",
+		"regex": "files/(?<dir>[\\d.]+)/mupen64 (?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"version": "{captures.version}.0",
+	"urls": [
+		"http://mupen64.emulation64.com/files/{captures.dir}/mupen64%20{captures.version}.exe"
+	]
+}
