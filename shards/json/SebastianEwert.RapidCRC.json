@@ -6,7 +6,10 @@
 		"file": "RapidCRC_{version}_setup_NT.exe"
 	},
 	"urls": [
-		"https://sourceforge.net/projects/rapidcrc/files/RapidCRC/RapidCRC%20{version}/RapidCRC_{version}_setup_NT.exe/download"
+		{
+			"url": "https://sourceforge.net/projects/rapidcrc/files/RapidCRC/RapidCRC%20{version}/RapidCRC_{version}_setup_NT.exe/download",
+			"architecture": "x86"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://rapidcrc.sourceforge.net/"
