@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wordmark",
+		"repo": "wordmark"
+	},
+	"urls": [
+		"https://github.com/wordmark/wordmark/releases/download/{github.rawTag}/WordMark3-Setup-{version}.exe"
+	]
+}
