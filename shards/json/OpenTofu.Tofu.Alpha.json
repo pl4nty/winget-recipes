@@ -1,0 +1,26 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "opentofu",
+		"repo": "opentofu",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "^v?(?=\\d+\\.\\d+\\.\\d+-alpha)",
+		"perPage": 100
+	},
+	"urls": [
+		{
+			"url": "https://github.com/opentofu/opentofu/releases/download/{github.rawTag}/tofu_{version}_windows_386.zip",
+			"nestedInstallerMatches": [
+				"tofu.exe"
+			]
+		},
+		{
+			"url": "https://github.com/opentofu/opentofu/releases/download/{github.rawTag}/tofu_{version}_windows_amd64.zip",
+			"nestedInstallerMatches": [
+				"tofu.exe"
+			]
+		}
+	]
+}
