@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "atom",
+		"repo": "atom",
+		"method": "api-list",
+		"kind": "prerelease",
+		"assetRegex": "^AtomSetup(?:-x64)?\\.exe$"
+	}
+}
