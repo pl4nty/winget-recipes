@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://dnagenics.com/dna-kit-studio",
+		"regex": "downloads/DnaKitStudio-PublicRelease-(?<version>\\d+\\.\\d+)(?<rest>(?:\\.\\d+)*)\\.zip"
+	},
+	"urls": ["https://dgadmixstorage.blob.core.windows.net/downloads/DnaKitStudio-PublicRelease-{version}{captures.rest}.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://dnagenics.com/dna-kit-studio"
+	}
+}
