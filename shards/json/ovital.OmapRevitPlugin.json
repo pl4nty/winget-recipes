@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download.ovital.com/pub/?C=M&O=D",
+		"regex": "href=\"SetupOmapRevitPluginV(?<build>\\d+)\\.msi\""
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.ovital.com/pub/SetupOmapRevitPluginV{captures.build}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ovital.com/135217-2/"
+	}
+}
