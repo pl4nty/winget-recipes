@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.navrat.name/zpracovani-vysledku",
+		"regex": "download\\.navrat\\.name/lezeni/RemoteBoulderTimer_v(\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": ["https://download.navrat.name/lezeni/RemoteBoulderTimer_v{version}.msi"]
+}
