@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.royalapps.com/server/main/download",
+		"regex": "RoyalServer/RoyalServerInstaller_(\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": [
+		"https://download.royalapps.com/RoyalServer/RoyalServerInstaller_{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.royalapps.com/server/main/changes"
+	}
+}
