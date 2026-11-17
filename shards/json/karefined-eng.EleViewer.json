@@ -6,6 +6,9 @@
 		"repo": "eleviewer"
 	},
 	"urls": [
-		"https://github.com/karefined-eng/eleviewer/releases/download/{github.rawTag}/EleViewer_Setup_v{version}.exe"
+		{
+			"url": "https://github.com/karefined-eng/eleviewer/releases/download/{github.rawTag}/EleViewer_Setup_v{version}.exe",
+			"architecture": "x64"
+		}
 	]
 }
