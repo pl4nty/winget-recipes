@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JimHans",
+		"repo": "live2d-kanban-desktop"
+	},
+	"urls": [
+		"https://github.com/JimHans/live2d-kanban-desktop/releases/download/{github.rawTag}/Kanban-Desktop.Setup.{version}.exe"
+	]
+}
