@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Komet",
+		"repo": "MediaElch",
+		"method": "api-latest",
+		"assetRegex": "^MediaElch_win_10_or_later_Qt6_[^/]+\\.zip$"
+	}
+}
