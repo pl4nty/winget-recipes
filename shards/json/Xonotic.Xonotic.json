@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://dl.xonotic.org/",
+		"regex": "href=\"\\./xonotic-(\\d+(?:\\.\\d+)+)\\.zip\""
+	},
+	"urls": [
+		"https://dl.xonotic.org/xonotic-{version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://xonotic.org/posts/"
+	}
+}
