@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-commit",
+	"github": {
+		"owner": "qops-hub",
+		"repo": "WinGet",
+		"branch": "main",
+		"path": "QOpsModule.msi"
+	},
+	"version": { "source": "display" },
+	"state": { "source": "value", "value": "{github.commit}" },
+	"urls": ["https://raw.githubusercontent.com/qops-hub/WinGet/{github.commit}/QOpsModule.msi"]
+}
