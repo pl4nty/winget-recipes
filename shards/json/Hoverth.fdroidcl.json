@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Hoverth",
+		"repo": "fdroidcl"
+	},
+	"urls": [
+		"https://github.com/Hoverth/fdroidcl/releases/download/{github.rawTag}/fdroidcl_v{version}_windows_arm64.exe",
+		"https://github.com/Hoverth/fdroidcl/releases/download/{github.rawTag}/fdroidcl_v{version}_windows_arm.exe",
+		"https://github.com/Hoverth/fdroidcl/releases/download/{github.rawTag}/fdroidcl_v{version}_windows_amd64.exe",
+		"https://github.com/Hoverth/fdroidcl/releases/download/{github.rawTag}/fdroidcl_v{version}_windows_386.exe"
+	]
+}
