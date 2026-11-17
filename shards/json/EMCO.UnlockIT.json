@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://emcosoftware.com/unlock-it/download",
+		"regex": "Version\\s+(?<version>7\\.\\d+\\.\\d+)"
+	},
+	"urls": [
+		"https://storage.emcosoftware.com/download/archive/unlockit/v7/UnLockITSetup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://emcosoftware.com/unlock-it/whats-new"
+	}
+}
