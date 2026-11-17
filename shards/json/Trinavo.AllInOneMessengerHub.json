@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "doonfrs",
+		"repo": "all-in-one-messenger-hub-releases"
+	},
+	"urls": [
+		"https://github.com/doonfrs/all-in-one-messenger-hub-releases/releases/download/{github.rawTag}/AllInOneMessengerHub-Setup-{version}.exe"
+	]
+}
