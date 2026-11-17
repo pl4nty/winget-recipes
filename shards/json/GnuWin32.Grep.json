@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/grep",
+		"regex": "/gnuwin32/files/grep/(?<version>\\d+(?:\\.\\d+)+(?:-\\d+)?)/grep-\\k<version>-setup\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnuwin32/files/grep/{version}/grep-{version}-setup.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gnuwin32.sourceforge.net/packages/grep.htm"
+	}
+}
