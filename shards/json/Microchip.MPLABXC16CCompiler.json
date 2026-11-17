@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SoftwareTools/Readme_XC16.html",
+		"regex": "Release Notes for MPLAB XC16 C Compiler v(\\d+\\.\\d+)"
+	},
+	"urls": ["https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SoftwareTools/xc16-v{version}-full-install-windows64-installer.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SoftwareTools/Readme_XC16.html"
+	}
+}
