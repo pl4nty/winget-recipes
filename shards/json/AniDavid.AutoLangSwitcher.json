@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AniDavid",
+		"repo": "AutoLangSwitcher"
+	},
+	"urls": [
+		"https://github.com/AniDavid/AutoLangSwitcher/releases/download/{github.rawTag}/AutoLangSwitcher.msi"
+	]
+}
