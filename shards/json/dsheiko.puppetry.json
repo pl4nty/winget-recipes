@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dsheiko",
+		"repo": "puppetry"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/dsheiko/puppetry/releases/download/{github.rawTag}/puppetry-win-{github.rawTag}-x64.msi"
+	]
+}
