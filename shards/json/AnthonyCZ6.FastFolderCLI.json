@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AnthonyCZ6",
+		"repo": "fast-folder-cli"
+	},
+	"urls": [
+		"https://github.com/AnthonyCZ6/fast-folder-cli/releases/download/{github.rawTag}/fast-folder-cli-setup.exe"
+	]
+}
