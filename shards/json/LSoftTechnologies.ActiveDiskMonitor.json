@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.disk-monitor.com/index.html",
+		"regex": "class=\"version\">Version (\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": ["https://download.lsoft.net/DiskMonitorFree.exe"]
+}
