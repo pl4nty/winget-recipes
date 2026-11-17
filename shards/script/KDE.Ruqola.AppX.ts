@@ -10,7 +10,7 @@ async function getText(url: string) {
 
 // KDE keeps one CI build per stable branch (2.6/, 2.7/, ...), so both the newest branch
 // and the build number in its sideload appx name have to be discovered.
-// The appx identity carries the real version (2.600.<build>.0), so komac reads it from the package.
+// The appx identity carries the real version (2.600.<build>.0), so komac reads it from the package (DisplayVersion).
 export default defineShard(async () => {
 	const branch = [...(await getText(base)).matchAll(/href="(\d+)\.(\d+)\/"/g)]
 		.map(([, major, minor]) => ({ major: Number(major), minor: Number(minor), name: `${major}.${minor}` }))
@@ -26,7 +26,7 @@ export default defineShard(async () => {
 	if (!build) throw new Error(`no sideload appx found in ${dir}`);
 
 	return {
-		version: { source: 'product' },
+		version: { source: 'display' },
 		state: `${branch.name}-${build.number}`,
 		urls: () => [`${dir}${build.file}`],
 	};
