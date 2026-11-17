@@ -6,7 +6,8 @@
 		"repo": "arduino-ide",
 		"method": "api-list",
 		"kind": "prerelease",
-		"tagRegex": "-rc\\d"
+		"tagRegex": "^(?=\\d+\\.\\d+\\.\\d+-rc\\d)",
+		"perPage": 100
 	},
 	"urls": [
 		"https://downloads.arduino.cc/arduino-ide/arduino-ide_{version}_Windows_64bit.exe"
