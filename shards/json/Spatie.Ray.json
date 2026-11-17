@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://spatie.be/products/ray/v3/download/windows/latest"
+		],
+		"regex": "/ray-(\\d+(?:\\.\\d+)+)-latest-win32-x64-setup\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://myray.app/changelog"
+	}
+}
