@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://temprhq.io/cli/latest.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://temprhq.io/cli/v{version}/tempr-{version}-win-x64.zip",
+		"https://temprhq.io/cli/v{version}/tempr-{version}-win-arm64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://temprhq.io/changelog"
+	}
+}
