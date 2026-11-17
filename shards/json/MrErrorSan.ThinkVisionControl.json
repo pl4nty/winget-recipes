@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MrErrorSan",
+		"repo": "thinkvision-control"
+	},
+	"urls": [
+		"https://github.com/MrErrorSan/thinkvision-control/releases/download/v{version}/ThinkVisionControl-Setup-{version}.exe",
+		"https://github.com/MrErrorSan/thinkvision-control/releases/download/v{version}/ThinkVisionControl-Setup-{version}.exe"
+	]
+}
