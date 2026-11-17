@@ -2,7 +2,7 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "page-match",
 	"pageMatch": {
-		"url": "https://www.passmark.com/products/wirelessmonitor/",
+		"url": "https://www.passmark.com/products/wirelessmonitor/history.php",
 		"regex": "[Vv](?<major>\\d+\\.\\d+)(?:\\.|[\\s\\S]{0,60}?[Bb]uild\\s*)(?<build>\\d+)"
 	},
 	"version": "{captures.major}.{captures.build}",
