@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": ["https://www.jabblasoft.com/files/spr3/setup_spr3_viewer.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.jabblasoft.com/files/spr3/setup_spr3_viewer.exe",
+		"header": "etag"
+	}
+}
