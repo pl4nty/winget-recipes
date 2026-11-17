@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "QNapi",
+		"repo": "qnapi"
+	},
+	"urls": [
+		"https://github.com/QNapi/qnapi/releases/download/{github.rawTag}/QNapi-{version}-setup.exe"
+	]
+}
