@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "null-dev",
+		"repo": "firefox-profile-switcher-connector"
+	},
+	"urls": [
+		"https://github.com/null-dev/firefox-profile-switcher-connector/releases/download/{github.rawTag}/windows-x64.msi",
+		"https://github.com/null-dev/firefox-profile-switcher-connector/releases/download/{github.rawTag}/windows-x86.msi"
+	]
+}
