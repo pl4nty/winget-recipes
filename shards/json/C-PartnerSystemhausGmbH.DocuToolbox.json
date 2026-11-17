@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://download.c-partner.com/WinGet/DocuToolbox.zip"
+		],
+		"regex": "^(\\d+(?:\\.\\d+)+)/DocuToolbox\\.zip$"
+	},
+	"urls": [
+		"https://download.c-partner.com/WinGet/{version}/DocuToolbox.zip"
+	]
+}
