@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.firetrust.com/products/mailwasher-pro/download",
+		"regex": "/downloads/mailwasher_pro/(?<major>\\d+)/mailwasher_pro_setup_(?<version>\\d+(?:_\\d+)+)\\.exe"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://download.firetrust.com/downloads/mailwasher_pro/{captures.major}/mailwasher_pro_setup_{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.firetrust.com/products/mailwasher-pro/download"
+	}
+}
