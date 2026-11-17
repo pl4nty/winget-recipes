@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.echolink.org/download.htm",
+		"regex": "cloudfront\\.net/EchoLinkSetup-(?<version>\\d+-\\d+-\\d+)\\.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://d34yfhzor7jtt3.cloudfront.net/EchoLinkSetup-{version}.exe"
+	]
+}
