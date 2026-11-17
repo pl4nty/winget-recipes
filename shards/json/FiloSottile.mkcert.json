@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FiloSottile",
+		"repo": "mkcert"
+	},
+	"urls": [
+		"https://github.com/FiloSottile/mkcert/releases/download/{github.rawTag}/mkcert-v{version}-windows-amd64.exe",
+		"https://github.com/FiloSottile/mkcert/releases/download/{github.rawTag}/mkcert-v{version}-windows-arm64.exe"
+	]
+}
