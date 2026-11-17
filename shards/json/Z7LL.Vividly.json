@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Z7LL",
+		"repo": "Vividly"
+	},
+	"urls": [
+		"https://github.com/Z7LL/Vividly/releases/download/{github.rawTag}/Vividly.Setup.exe"
+	]
+}
