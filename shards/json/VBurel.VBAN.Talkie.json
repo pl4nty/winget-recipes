@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vb-audio.com/Voicemeeter/vban.htm",
+		"regex": "/VBANTalkie_v(?<major>\\d)(?<minor>\\d)(?<patch>\\d)(?<build>\\d)\\.zip"
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.patch}.{captures.build}",
+	"urls": [
+		"https://download.vb-audio.com/Download_CABLE/VBANTalkie_v{captures.major}{captures.minor}{captures.patch}{captures.build}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vb-audio.com/Voicemeeter/vban.htm"
+	}
+}
