@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DeskRelief",
+		"repo": "SitHealthy"
+	},
+	"urls": [
+		"https://github.com/DeskRelief/SitHealthy/releases/download/{github.rawTag}/sithealthy-setup-{version}.exe"
+	]
+}
