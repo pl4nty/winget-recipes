@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LeenHawk",
+		"repo": "gproxy"
+	},
+	"urls": [
+		"https://github.com/LeenHawk/gproxy/releases/download/{github.rawTag}/gproxy-tauri-windows-x86_64.zip",
+		"https://github.com/LeenHawk/gproxy/releases/download/{github.rawTag}/gproxy-tauri-windows-aarch64.zip"
+	]
+}
