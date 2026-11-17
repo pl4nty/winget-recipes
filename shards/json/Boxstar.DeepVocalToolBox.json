@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.deep-vocal.com/api/toolbox/version",
+		"path": "version"
+	},
+	"urls": [
+		{
+			"url": "https://dl.deep-vocal.com/toolbox/Setup_DeepVocalToolBox_{version}.zip",
+			"nestedInstallerMatches": [
+				"Setup_DeepVocalToolBox_{version}.exe"
+			]
+		}
+	],
+	"cleanup": false
+}
