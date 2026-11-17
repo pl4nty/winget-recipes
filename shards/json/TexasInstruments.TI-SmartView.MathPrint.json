@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://education.ti.com/en/software/details/en/F4D60658D2D947F38F0A4C9C043B12E6/ti-smartview-for-mathprint-calculators",
+		"regex": "/download/en/ed-tech/F4D60658D2D947F38F0A4C9C043B12E6/(?<id>[0-9A-F]{32})/TI-SmartView-MP-(?<version>\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": [
+		"https://education.ti.com/download/en/ed-tech/F4D60658D2D947F38F0A4C9C043B12E6/{captures.id}/TI-SmartView-MP-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://education.ti.com/en/software/details/en/F4D60658D2D947F38F0A4C9C043B12E6/ti-smartview-for-mathprint-calculators"
+	}
+}
