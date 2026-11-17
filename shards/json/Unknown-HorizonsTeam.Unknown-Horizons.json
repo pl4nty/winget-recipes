@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "unknown-horizons",
+		"repo": "unknown-horizons",
+		"method": "api-latest",
+		"assetRegex": "^Unknown-Horizons-[\\d.]+-Setup-.*\\.exe$"
+	}
+}
