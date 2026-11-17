@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vulongvy",
+		"repo": "LongATTest"
+	},
+	"urls": [
+		"https://github.com/vulongvy/LongATTest/releases/download/{github.rawTag}/LongATTest-Setup-{version}.exe"
+	]
+}
