@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mu-editor",
+		"repo": "mu"
+	},
+	"urls": [
+		"https://github.com/mu-editor/mu/releases/download/{github.rawTag}/MuEditor-win64-{version}.msi"
+	]
+}
