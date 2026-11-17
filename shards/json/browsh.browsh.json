@@ -1,0 +1,26 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "browsh-org",
+		"repo": "browsh"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/browsh-org/browsh/releases/download/{github.rawTag}/browsh_{version}_windows_386.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://github.com/browsh-org/browsh/releases/download/{github.rawTag}/browsh_{version}_windows_amd64.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/browsh-org/browsh/releases/download/{github.rawTag}/browsh_{version}_windows_armv6.exe",
+			"architecture": "arm"
+		},
+		{
+			"url": "https://github.com/browsh-org/browsh/releases/download/{github.rawTag}/browsh_{version}_windows_armv7.exe",
+			"architecture": "arm64"
+		}
+	]
+}
