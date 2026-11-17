@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Enigma-Game",
+		"repo": "Enigma"
+	},
+	"urls": [
+		"https://github.com/Enigma-Game/Enigma/releases/download/{github.rawTag}/Enigma-{version}-windows7and10.exe"
+	]
+}
