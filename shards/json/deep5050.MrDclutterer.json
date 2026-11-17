@@ -2,10 +2,10 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"github": {
-		"owner": "deep5050",
+		"owner": "dpnkrpl",
 		"repo": "Mr.Dclutterer"
 	},
 	"urls": [
-		"https://github.com/deep5050/Mr.Dclutterer/releases/download/{github.rawTag}/Mr.Dclutterer.Setup.{version}.exe"
+		"https://github.com/dpnkrpl/Mr.Dclutterer/releases/download/{github.rawTag}/Mr.Dclutterer.Setup.{version}.exe"
 	]
 }
