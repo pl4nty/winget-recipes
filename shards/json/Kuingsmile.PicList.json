@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kuingsmile",
+		"repo": "PicList"
+	},
+	"urls": [
+		"https://github.com/Kuingsmile/PicList/releases/download/{github.rawTag}/PicList-Setup-{version}-x64.exe",
+		"https://github.com/Kuingsmile/PicList/releases/download/{github.rawTag}/PicList-Setup-{version}-arm64.exe"
+	]
+}
