@@ -23,6 +23,9 @@ export default defineShard(async () => {
 
 	return {
 		version: latest,
-		urls: () => [{ url: `${base}/RobotStudio_${latest}.zip`, nestedInstallerMatches: ['RobotStudio/setup.exe'] }],
+		// The setup.exe bootstrapper and MSI are 32-bit, but the installed RobotStudio.exe (Data1.cab) is PE32+ x86-64.
+		urls: () => [
+			{ url: `${base}/RobotStudio_${latest}.zip`, architecture: 'x64' as const, nestedInstallerMatches: ['RobotStudio/setup.exe'] },
+		],
 	};
 });
