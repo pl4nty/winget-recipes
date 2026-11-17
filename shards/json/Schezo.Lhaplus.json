@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"http://www7a.biglobe.ne.jp/~schezo/lpls174.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "http://www7a.biglobe.ne.jp/~schezo/lpls174.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "http://www7a.biglobe.ne.jp/~schezo/history.html"
+	},
+	"cleanup": false,
+	"replace": true
+}
