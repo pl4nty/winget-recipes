@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nicojeske",
+		"repo": "MasterVolumeSync"
+	},
+	"urls": [
+		"https://github.com/nicojeske/MasterVolumeSync/releases/download/{github.rawTag}/MastervolumeSync-{github.rawTag}-Setup.exe"
+	]
+}
