@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lshachar",
+		"repo": "WiiBalanceWalker"
+	},
+	"urls": [
+		"https://github.com/lshachar/WiiBalanceWalker/releases/download/{github.rawTag}/WiiBalanceWalker_x64.zip",
+		"https://github.com/lshachar/WiiBalanceWalker/releases/download/{github.rawTag}/WiiBalanceWalker_x86.zip"
+	]
+}
