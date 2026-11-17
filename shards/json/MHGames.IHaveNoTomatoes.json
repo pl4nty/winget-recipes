@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "tomatoes",
+		"file": "tomatoes-win32-{version}.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/tomatoes/files/tomatoes/{version}/tomatoes-win32-{version}.exe/download"
+	]
+}
