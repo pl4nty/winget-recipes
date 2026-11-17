@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://en.dwgfastview.com/cloud/download/",
+		"regex": "popularize\\.dwgfastview\\.com/Download/(?<dir>[^/\"]+)/DWGFastView%28Channel-1%29_V(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://popularize.dwgfastview.com/Download/{captures.dir}/DWGFastView%28Channel-1%29_V{version}.exe"
+	]
+}
