@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://unicornhttps-production.s3.ap-northeast-2.amazonaws.com/unicornhttps/v1/hello/windows/unicorn-https-setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://unicornhttps-production.s3.ap-northeast-2.amazonaws.com/unicornhttps/v1/hello/windows/unicorn-https-setup.exe",
+		"header": "etag"
+	}
+}
