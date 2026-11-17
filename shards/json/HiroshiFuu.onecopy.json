@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HiroshiFuu",
+		"repo": "onecopy-electron"
+	},
+	"urls": [
+		"https://github.com/HiroshiFuu/onecopy-electron/releases/download/{github.rawTag}/onecopy-electron.Setup.{version}.exe"
+	]
+}
