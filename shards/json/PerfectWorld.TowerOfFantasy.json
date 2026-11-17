@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://tof.perfectworld.com/js/publicDown.js",
+		"regex": "\"windows\"\\s*:\\s*\"https://htkrydpatch1\\.wmupd\\.com/clientRes/htIntlWindowsInstaller/HT_Intl_setup_(?<version>\\d+(?:\\.\\d+){3})_(?<date>\\d{8})\\.exe\""
+	},
+	"urls": ["https://htkrydpatch1.wmupd.com/clientRes/htIntlWindowsInstaller/HT_Intl_setup_{version}_{captures.date}.exe"]
+}
