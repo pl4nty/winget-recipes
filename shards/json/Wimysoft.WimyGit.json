@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zelon",
+		"repo": "wimygit"
+	},
+	"urls": [
+		"https://github.com/zelon/wimygit/releases/download/{github.rawTag}/wimygit-windows-{github.rawTag}.zip"
+	]
+}
