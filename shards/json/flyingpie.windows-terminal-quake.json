@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "flyingpie",
+		"repo": "windows-terminal-quake"
+	},
+	"urls": [
+		"https://github.com/flyingpie/windows-terminal-quake/releases/download/{github.rawTag}/win-x64_self-contained.zip"
+	]
+}
