@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "floating",
+		"repo": "frame"
+	},
+	"urls": [
+		"https://github.com/floating/frame/releases/download/{github.rawTag}/Frame-Setup-{version}.exe"
+	]
+}
