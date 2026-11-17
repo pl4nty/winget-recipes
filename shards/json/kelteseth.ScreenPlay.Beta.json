@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://getsp.de/",
+		"regex": "\\./releases/v(\\d+\\.\\d+\\.\\d+-[a-z]+\\d+)/ScreenPlay-v\\1-x64-windows-Release\\.zip"
+	},
+	"urls": [
+		"https://getsp.de/releases/v{version}/ScreenPlay-v{version}-x64-windows-Release.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gitlab.com/kelteseth/ScreenPlay/-/releases/v{version}"
+	}
+}
