@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "unlimitedbacon",
+		"repo": "stl-thumb"
+	},
+	"urls": [
+		"https://github.com/unlimitedbacon/stl-thumb/releases/download/{github.rawTag}/STL-Thumb-Windows_{version}.exe"
+	]
+}
