@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ding.zj.gov.cn/pc/index.html",
+		"regex": "DingTalkGov_v(\\d+(?:\\.\\d+)+-Release\\.\\d+)\\.exe"
+	},
+	"urls": ["https://gov-cdn-pro.ding.zj.gov.cn/pc/DingTalkGov_v{version}.exe"]
+}
