@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.acdsee.com/en/products/acdsee-free/",
+		"regex": "(?<version>\\d+(?:\\.\\d+){3}) \\(64-bit\\)[\\s\\S]*?href=https://dl\\.acdsystems\\.com/acdsee-free/en/(?<file>[\\w.-]+\\.exe)"
+	},
+	"urls": ["https://dl.acdsystems.com/acdsee-free/en/{captures.file}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.acdsee.com/en/support/acdsee-free/release-notes/acfw02en/"
+	}
+}
