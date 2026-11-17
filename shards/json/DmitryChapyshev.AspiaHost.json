@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dchapyshev",
+		"repo": "aspia"
+	},
+	"urls": [
+		"https://github.com/dchapyshev/aspia/releases/download/{github.rawTag}/aspia-host-{version}-x86.msi",
+		"https://github.com/dchapyshev/aspia/releases/download/{github.rawTag}/aspia-host-{version}-x86_64.msi"
+	]
+}
