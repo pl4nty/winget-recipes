@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xgi",
+		"repo": "houdoku"
+	},
+	"urls": [
+		"https://github.com/xgi/houdoku/releases/download/v{version}/Houdoku-Setup-{version}.exe"
+	]
+}
