@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://download.itopvpn.com/download/iotpc/iotransfer_setup_V4.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.itopvpn.com/download/iotpc/iotransfer_setup_V4.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
