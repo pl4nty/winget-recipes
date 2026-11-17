@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Radarr",
+		"repo": "Radarr",
+		"tagRegex": "\\.\\d+$"
+	},
+	"urls": [
+		"https://github.com/Radarr/Radarr/releases/download/{github.rawTag}/Radarr.master.{github.tag}.windows-core-x86-installer.exe",
+		"https://github.com/Radarr/Radarr/releases/download/{github.rawTag}/Radarr.master.{github.tag}.windows-core-x64-installer.exe"
+	]
+}
