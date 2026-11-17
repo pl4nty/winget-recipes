@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "dvdflick",
+		"file": "dvdflick_setup_{version}.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/dvdflick/files/dvdflick/DVD%20Flick%20{version}/dvdflick_setup_{version}.exe/download"
+	]
+}
