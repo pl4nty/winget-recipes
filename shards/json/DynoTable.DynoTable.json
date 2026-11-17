@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://dynotable.com/api/version",
+		"path": "version"
+	},
+	"urls": [
+		"https://dynotable.com/api/download/win/{version}/DynoTable-{version}.Setup.exe"
+	]
+}
