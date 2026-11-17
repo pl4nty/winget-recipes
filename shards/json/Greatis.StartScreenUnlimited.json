@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.greatis.com/unlimited_setup.zip",
+			"nestedInstallerMatches": [
+				"unlimited_setup.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.greatis.com/unlimited_setup.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
