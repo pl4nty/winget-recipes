@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "whyboris",
+		"repo": "Video-Hub-App",
+		"method": "api-latest",
+		"assetRegex": "^Video\\.Hub\\.App\\.3\\.Demo\\.Setup\\.[\\d.]+\\.exe$"
+	},
+	"version": "{version}-demo"
+}
