@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sonic-visualiser",
+		"repo": "sonic-visualiser",
+		"tagRegex": "^sv_v"
+	},
+	"urls": [
+		"https://github.com/sonic-visualiser/sonic-visualiser/releases/download/{github.rawTag}/sonic-visualiser-{version}-win64.msi"
+	]
+}
