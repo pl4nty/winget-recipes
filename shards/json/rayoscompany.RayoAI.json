@@ -7,6 +7,6 @@
 	},
 	"versionRemove": "-stable$",
 	"urls": [
-		"https://github.com/rayo-alcantar/RayoAI_for_windows/releases/download/{github.rawTag}/RayoAI-{version}-Setup.exe"
+		"https://github.com/rayo-alcantar/RayoAI_for_windows/releases/download/{github.rawTag}/RayoAI-{version|-stable|}-Setup.exe"
 	]
 }

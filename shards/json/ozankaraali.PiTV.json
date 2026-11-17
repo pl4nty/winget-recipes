@@ -4,7 +4,8 @@
 	"github": {
 		"owner": "ozankaraali",
 		"repo": "PiTV",
-		"method": "api-list"
+		"method": "api-list",
+		"tagRegex": "^(?=\\d)"
 	},
 	"urls": [
 		"https://github.com/ozankaraali/PiTV/releases/download/{github.rawTag}/PiTV-{version}.Setup.exe"

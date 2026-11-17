@@ -1,9 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
-	"version": {
-		"source": "display"
-	},
+	"version": "{version}.0",
 	"github": {
 		"owner": "r12f",
 		"repo": "divoom"
