@@ -6,6 +6,9 @@
 		"repo": "fdspp"
 	},
 	"urls": [
-		"https://github.com/Smoke-Cloud/fdspp/releases/download/{github.rawTag}/FdsPpInstaller.msi"
+		{
+			"url": "https://github.com/Smoke-Cloud/fdspp/releases/download/{github.rawTag}/FdsPpInstaller.msi",
+			"architecture": "x64"
+		}
 	]
 }

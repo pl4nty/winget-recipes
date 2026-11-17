@@ -6,6 +6,9 @@
 		"repo": "TypeCode"
 	},
 	"urls": [
-		"https://github.com/byCrookie/TypeCode/releases/download/{github.rawTag}/TypeCode.Wpf.Setup.msi"
+		{
+			"url": "https://github.com/byCrookie/TypeCode/releases/download/{github.rawTag}/TypeCode.Wpf.Setup.msi",
+			"architecture": "x64"
+		}
 	]
 }

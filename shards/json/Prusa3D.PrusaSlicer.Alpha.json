@@ -8,5 +8,11 @@
 		"kind": "prerelease",
 		"tagRegex": "^v?ersion_",
 		"assetRegex": "^PrusaSlicer-\\d+(?:\\.\\d+)+-[a-z]+\\d+\\.zip$"
-	}
+	},
+	"urls": [
+		{
+			"url": "https://github.com/prusa3d/PrusaSlicer/releases/download/{github.rawTag}/PrusaSlicer-{version}.zip",
+			"architecture": "x64"
+		}
+	]
 }

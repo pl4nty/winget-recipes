@@ -15,7 +15,7 @@ export default defineShard(async () => {
 
 	return {
 		version,
-		urls: () => [{ url, nestedInstallerMatches: ['.msi'] }],
+		urls: () => [{ url, nestedInstallerMatches: ['.msi'], architecture: 'neutral' as const }],
 		releaseNotes: { source: 'github', owner: 'xkonglong', repo: 'gw', tag: release.rawTag },
 	};
 });

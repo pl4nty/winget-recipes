@@ -6,6 +6,9 @@
 		"repo": "OnenoteTaggingKit"
 	},
 	"urls": [
-		"https://github.com/WetHat/OnenoteTaggingKit/releases/download/{github.rawTag}/SetupTaggingKitWiX.{version}.msi"
+		{
+			"url": "https://github.com/WetHat/OnenoteTaggingKit/releases/download/{github.rawTag}/SetupTaggingKitWiX.{version}.msi",
+			"architecture": "neutral"
+		}
 	]
 }

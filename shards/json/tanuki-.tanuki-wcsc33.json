@@ -5,7 +5,10 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://github.com/nodchip/tanuki-/releases/download/tanuki-wcsc33-2023-05-04/tanuki-wcsc33.msi"
+		{
+			"url": "https://github.com/nodchip/tanuki-/releases/download/tanuki-wcsc33-2023-05-04/tanuki-wcsc33.msi",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",

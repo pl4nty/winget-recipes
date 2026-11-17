@@ -5,7 +5,10 @@
 		"source": "product"
 	},
 	"urls": [
-		"https://downloads.vspatial.com/dl1/vSpatialRemoteWindowsSetup_release.exe"
+		{
+			"url": "https://downloads.vspatial.com/dl1/vSpatialRemoteWindowsSetup_release.exe",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",

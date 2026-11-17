@@ -6,7 +6,10 @@
 		"regex": "RoyalTSInstaller_(5\\.\\d+\\.\\d+\\.\\d+)\\.msi"
 	},
 	"urls": [
-		"https://download.royalapps.com/RoyalTS/RoyalTSInstaller_{version}.msi"
+		{
+			"url": "https://download.royalapps.com/RoyalTS/RoyalTSInstaller_{version}.msi",
+			"architecture": "neutral"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://community.royalapps.com/t/royal-ts-v6-and-earlier-previous-versions/231"

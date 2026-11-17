@@ -6,6 +6,9 @@
 		"regex": "yacy_v(?<version>\\d+\\.\\d+)_(?<build>\\d+_[0-9a-f]+)\\.exe(?![\\s\\S]*yacy_v\\d+\\.\\d+_\\d+_[0-9a-f]+\\.exe)"
 	},
 	"urls": [
-		"https://download.yacy.net/yacy_v{version}_{captures.build}.exe"
+		{
+			"url": "https://download.yacy.net/yacy_v{version}_{captures.build}.exe",
+			"architecture": "neutral"
+		}
 	]
 }
