@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "ultradefrag",
+		"file": "ultradefrag-{version}.bin.amd64.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/ultradefrag/files/stable-release/{version}/ultradefrag-{version}.bin.amd64.exe/download",
+		"https://sourceforge.net/projects/ultradefrag/files/stable-release/{version}/ultradefrag-{version}.bin.i386.exe/download"
+	]
+}

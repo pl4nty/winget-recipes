@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "dispcalgui",
+		"file": "DisplayCAL-{version}-Setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/dispcalgui/files/release/{version}/DisplayCAL-{version}-Setup.exe/download"
+	]
+}
