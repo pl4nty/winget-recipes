@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "crftwr",
-		"repo": "keyhac-win"
-	},
-	"urls": ["https://github.com/crftwr/keyhac-win/releases/download/{github.rawTag}/keyhac_{version|.|}.zip"]
-}

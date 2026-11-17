@@ -1,9 +1,0 @@
-{
-	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "ClusterM",
-		"repo": "hakchi2"
-	},
-	"urls": ["https://github.com/ClusterM/hakchi2/releases/download/{github.rawTag}/hakchi2_web_installer.exe"]
-}

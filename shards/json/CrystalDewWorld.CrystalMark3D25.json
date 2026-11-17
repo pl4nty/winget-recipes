@@ -5,5 +5,10 @@
 		"url": "https://sourceforge.net/projects/crystalmark3d25/rss",
 		"regex": "/crystalmark3d25/files/(\\d+(?:\\.\\d+)+)/CrystalMark3D25_\\d+(?:_\\d+)+\\.exe/download"
 	},
-	"urls": ["https://sourceforge.net/projects/crystalmark3d25/files/{version}/CrystalMark3D25_{version|.|_}.exe/download"]
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/crystalmark3d25/files/{version}/CrystalMark3D25_{version|.|_}.exe/download",
+			"architecture": "x64"
+		}
+	]
 }
