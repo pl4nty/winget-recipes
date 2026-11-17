@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.japplis.com/toolbox/version.txt",
+		"regex": "^(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://www.japplis.com/toolbox/versions/Toolbox-{version}.exe",
+		"https://www.japplis.com/toolbox/versions/Toolbox-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.japplis.com/toolbox/changes.txt"
+	}
+}
