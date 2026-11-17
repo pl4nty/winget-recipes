@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.techpowerup.com/forums/threads/large-address-aware.112556/",
+		"regex": "attachments/laa_(?<file>(?<version>\\d+(?:_\\d+)+))-zip\\.(?<id>\\d+)/"
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://www.techpowerup.com/forums/attachments/laa_{captures.file}-zip.{captures.id}/"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.techpowerup.com/forums/threads/large-address-aware.112556/"
+	}
+}
