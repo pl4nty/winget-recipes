@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdn-r2.rgsvc.io/public/files/RAGEMultiplayer_Setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn-r2.rgsvc.io/public/files/RAGEMultiplayer_Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
