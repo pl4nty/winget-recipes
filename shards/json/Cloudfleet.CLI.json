@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://cloudfleet.ai/docs/introduction/install-cloudfleet-cli/",
+		"regex": "downloads\\.cloudfleet\\.ai/cli/(\\d+(?:\\.\\d+)+)/cloudfleet_"
+	},
+	"urls": [
+		"https://downloads.cloudfleet.ai/cli/{version}/cloudfleet_windows_amd64.zip",
+		"https://downloads.cloudfleet.ai/cli/{version}/cloudfleet_windows_arm64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://cloudfleet.ai/docs/release-notes/release-notes/"
+	}
+}
