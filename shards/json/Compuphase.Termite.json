@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.compuphase.com/software_termite.htm",
+		"regex": "software/termite-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://www.compuphase.com/software/termite-{version}.exe"]
+}
