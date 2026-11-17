@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oracle",
+		"repo": "visualvm"
+	},
+	"urls": [
+		"https://github.com/oracle/visualvm/releases/download/{github.rawTag}/visualvm_{version|.|}.zip"
+	]
+}
