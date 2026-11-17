@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ivosetyadi",
+		"repo": "gnutime"
+	},
+	"urls": ["https://github.com/ivosetyadi/gnutime/releases/download/{github.rawTag}/gtime.exe"]
+}
