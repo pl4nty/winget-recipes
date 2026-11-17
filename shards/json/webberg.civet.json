@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "webbery",
-		"repo": "civet"
+		"repo": "civet",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
 	"urls": [
 		"https://github.com/webbery/civet/releases/download/{github.rawTag}/CivetSetup.{version}.exe"

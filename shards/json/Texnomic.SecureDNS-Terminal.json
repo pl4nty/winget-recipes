@@ -3,7 +3,9 @@
 	"strategy": "github-release",
 	"github": {
 		"owner": "Texnomic",
-		"repo": "SecureDNS"
+		"repo": "SecureDNS",
+		"method": "api-list",
+		"kind": "prerelease"
 	},
 	"versionRemove": "-alpha",
 	"urls": [
