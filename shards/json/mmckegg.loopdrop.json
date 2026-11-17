@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mmckegg",
+		"repo": "loop-drop-app"
+	},
+	"urls": [
+		"https://github.com/mmckegg/loop-drop-app/releases/download/{github.rawTag}/Loop.Drop.{github.rawTag}.x64.msi"
+	]
+}
