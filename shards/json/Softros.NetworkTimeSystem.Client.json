@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://nts.softros.com/client/",
+		"regex": "Current Version:</h6>\\s*(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://download.softros.com/nts/NTS-Client-Setup-x32.msi",
+		"https://download.softros.com/nts/NTS-Client-Setup-x64.msi"
+	]
+}
