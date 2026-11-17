@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "necdetsanli",
+		"repo": "EyeRest"
+	},
+	"urls": [
+		"https://github.com/necdetsanli/EyeRest/releases/download/{github.rawTag}/Necdetanl.EyeRest20-20-20Reminder_{version}.0_x64__fdpcex3k5p6ep.msix",
+		"https://github.com/necdetsanli/EyeRest/releases/download/{github.rawTag}/EyeRest-{version}-setup.msi"
+	]
+}
