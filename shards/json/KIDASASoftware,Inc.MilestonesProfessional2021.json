@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://kidasa.com/download/Milestones-Professional-2021.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://kidasa.com/download/Milestones-Professional-2021.msi",
+		"header": "last-modified"
+	},
+	"replace": true
+}
