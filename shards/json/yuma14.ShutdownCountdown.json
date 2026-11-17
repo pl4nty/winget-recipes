@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yuma140902",
+		"repo": "ShutdownCountdown"
+	},
+	"urls": [
+		"https://github.com/yuma140902/ShutdownCountdown/releases/download/{github.rawTag}/shutdowncountdown-installer-x64.msi"
+	]
+}
