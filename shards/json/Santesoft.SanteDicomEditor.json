@@ -6,6 +6,12 @@
 		"regex": "sante_dicom_editor\\.zip\">\\s*Version (\\d+(?:\\.\\d+)+)"
 	},
 	"urls": [
-		"https://www.santesoft.com/files/win/sante_dicom_editor.zip"
-	]
+		{
+			"url": "https://www.santesoft.com/files/win/sante_dicom_editor.zip",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.santesoft.com/win/sante-dicom-editor/whats_new.html"
+	}
 }

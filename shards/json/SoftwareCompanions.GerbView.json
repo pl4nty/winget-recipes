@@ -13,5 +13,8 @@
 		"url": "https://www.gerbview.com/download/gv11x64.exe",
 		"header": "etag"
 	},
-	"replace": true
+	"replace": true,
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.gerbview.com/gbupdate.html"
+	}
 }

@@ -8,5 +8,8 @@
 	"urls": [
 		"https://www.sysgauge.com/setups/sysgauge_setup_v{version}.exe",
 		"https://www.sysgauge.com/setups_x64/sysgauge_setup_v{version}_x64.exe"
-	]
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sysgauge.com/news.html"
+	}
 }

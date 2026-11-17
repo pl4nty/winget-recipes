@@ -6,6 +6,9 @@
 		"repo": "AudioSwitcher_v1"
 	},
 	"urls": [
-		"https://github.com/xenolightning/AudioSwitcher_v1/releases/download/{github.rawTag}/AudioSwitcher.exe"
+		{
+			"url": "https://github.com/xenolightning/AudioSwitcher_v1/releases/download/{github.rawTag}/AudioSwitcher.exe",
+			"architecture": "x64"
+		}
 	]
 }

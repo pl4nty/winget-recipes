@@ -12,5 +12,8 @@
 		"url": "https://www.gamani.com/download/MovieGear4.exe",
 		"header": "last-modified"
 	},
-	"replace": true
+	"replace": true,
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.gamani.com/gmgver.htm"
+	}
 }

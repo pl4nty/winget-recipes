@@ -6,6 +6,9 @@
 		"regex": "sante_free_pacs_server\\.zip\">\\s*Sante Free PACS Server Version (\\d+(?:\\.\\d+)+)"
 	},
 	"urls": [
-		"https://www.santesoft.com/files/win/sante_free_pacs_server.zip"
+		{
+			"url": "https://www.santesoft.com/files/win/sante_free_pacs_server.zip",
+			"architecture": "x64"
+		}
 	]
 }

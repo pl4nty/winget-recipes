@@ -12,5 +12,8 @@
 		"url": "https://www.pixplant.com/download/PixPlant5-Setup.exe",
 		"header": "last-modified"
 	},
-	"replace": true
+	"replace": true,
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.pixplant.com/history.php"
+	}
 }
