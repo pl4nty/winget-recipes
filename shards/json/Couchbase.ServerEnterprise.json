@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.couchbase.com/server/current/release-notes/relnotes.html",
+		"regex": "Couchbase Server (\\d+\\.\\d+\\.\\d+) was released"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": ["https://packages.couchbase.com/releases/{version}/couchbase-server-enterprise_{version}-windows_amd64.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.couchbase.com/server/current/release-notes/relnotes.html"
+	}
+}
