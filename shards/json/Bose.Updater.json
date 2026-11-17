@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://btu.bose.com/prod/iot-btu-fe-core/muv.json",
+		"path": "MUV"
+	},
+	"urls": ["https://downloads.bose.com/ced/boseupdater/windows/BoseUpdaterInstaller_{version}.exe"]
+}
