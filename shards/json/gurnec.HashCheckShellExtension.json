@@ -11,11 +11,7 @@
 	"urls": [
 		{
 			"url": "https://github.com/gurnec/HashCheck/releases/download/{github.rawTag}/HashCheckSetup-{github.rawTag}.exe",
-			"architecture": "x86"
-		},
-		{
-			"url": "https://github.com/gurnec/HashCheck/releases/download/{github.rawTag}/HashCheckSetup-{github.rawTag}.exe",
-			"architecture": "x64"
+			"architecture": "neutral"
 		}
 	],
 	"state": {
