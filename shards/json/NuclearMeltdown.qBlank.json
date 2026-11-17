@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NuclearMeltdown",
+		"repo": "qBlank"
+	},
+	"urls": [
+		"https://github.com/NuclearMeltdown/qBlank/releases/download/{github.rawTag}/qBlank.exe"
+	]
+}
