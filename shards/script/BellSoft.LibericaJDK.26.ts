@@ -1,8 +1,9 @@
 import { defineShard } from 'anthelion';
-import { compareVersions } from 'anthelion/helpers';
+import { compareVersions, match } from 'anthelion/helpers';
 
 // The API lists the latest PSU and the latest CPU/CSPU of the feature line, so pick the
-// highest version (the MSI ProductVersion is the upstream PackageVersion format).
+// highest version. PackageVersion is feature.interim.update.N, where N is the build for a
+// PSU (26.0.2+13 -> 26.0.2.13) and patch * 100 + build for a CSPU (26.0.2.1+1 -> 26.0.2.101).
 type Release = { version: string };
 
 export default defineShard(async () => {
@@ -18,9 +19,13 @@ export default defineShard(async () => {
 			return compareVersions(bVersion, aVersion) || compareVersions(bBuild, aBuild);
 		});
 	if (!release) throw new Error('No Liberica release found');
+	const {
+		captures: { base, patch, build },
+	} = match(release, /^(?<base>\d+\.\d+\.\d+)(?:\.(?<patch>\d+))?\+(?<build>\d+)$/);
+	const version = `${base}.${patch ? Number(patch) * 100 + Number(build) : build}`;
 
 	return {
-		version: { source: 'display' },
+		version,
 		urls: () => [
 			`https://download.bell-sw.com/java/${release}/bellsoft-jdk${release}-windows-amd64.msi`,
 			`https://download.bell-sw.com/java/${release}/bellsoft-jdk${release}-windows-aarch64.msi`,

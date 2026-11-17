@@ -6,6 +6,9 @@
 		"repo": "WSLDiskShrinker"
 	},
 	"urls": [
-		"https://github.com/kxxt/WSLDiskShrinker/releases/download/{github.rawTag}/wsl-disk-shrinker-setup.exe"
+		{
+			"url": "https://github.com/kxxt/WSLDiskShrinker/releases/download/{github.rawTag}/wsl-disk-shrinker-setup.exe",
+			"architecture": "neutral"
+		}
 	]
 }
