@@ -6,7 +6,10 @@
 		"regex": "/gnuwin32/files/diffutils/(?<version>\\d+(?:\\.\\d+)+(?:-\\d+)?)/diffutils-\\k<version>\\.exe/download"
 	},
 	"urls": [
-		"https://sourceforge.net/projects/gnuwin32/files/diffutils/{version}/diffutils-{version}.exe/download"
+		{
+			"url": "https://sourceforge.net/projects/gnuwin32/files/diffutils/{version}/diffutils-{version}.exe/download",
+			"architecture": "x86"
+		}
 	],
 	"releaseNotes": {
 		"releaseNotesUrl": "https://gnuwin32.sourceforge.net/packages/diffutils.htm"
