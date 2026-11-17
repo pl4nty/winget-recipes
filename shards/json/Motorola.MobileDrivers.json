@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://en-us.support.motorola.com/euf/assets/downloads/Motorola_Mobile_Drivers_64bit.msi",
+		"https://en-us.support.motorola.com/euf/assets/downloads/Motorola_Mobile_Drivers_32bit.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://en-us.support.motorola.com/euf/assets/downloads/Motorola_Mobile_Drivers_64bit.msi",
+		"header": "last-modified"
+	},
+	"replace": true
+}
