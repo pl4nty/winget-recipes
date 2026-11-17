@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FaserF",
+		"repo": "SwitchCraft"
+	},
+	"urls": [
+		"https://github.com/FaserF/SwitchCraft/releases/download/{github.rawTag}/SwitchCraft-Setup.exe",
+		"https://github.com/FaserF/SwitchCraft/releases/download/{github.rawTag}/SwitchCraft-windows.exe"
+	]
+}
