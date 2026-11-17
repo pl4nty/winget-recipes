@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://downloadcallbar.talkdesk.com/release_metadata.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://downloadcallbar.talkdesk.com/Callbar%20Setup%20{version}.exe"
+	]
+}
