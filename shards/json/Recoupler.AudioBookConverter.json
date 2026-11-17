@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yermak",
+		"repo": "AudioBookConverter",
+		"tagRegex": "^version_"
+	},
+	"urls": [
+		"https://github.com/yermak/AudioBookConverter/releases/download/{github.rawTag}/AudioBookConverter-All-Users-{version}.msi",
+		"https://github.com/yermak/AudioBookConverter/releases/download/{github.rawTag}/AudioBookConverter-Single-User-{version}.msi"
+	]
+}
