@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "8051Enthusiast",
+		"repo": "biodiff"
+	},
+	"urls": [
+		"https://github.com/8051Enthusiast/biodiff/releases/download/{github.rawTag}/biodiff-windows-{version}.zip"
+	]
+}
