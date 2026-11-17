@@ -1,7 +1,7 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "static",
-	"version": { "source": "display" },
+	"version": { "source": "product" },
 	"urls": [
 		"https://download.worksmobile.com/k/wminst/r/naverworks/deploy_addon_win64_exe",
 		"https://download.worksmobile.com/k/wminst/r/naverworks/deploy_addon_win32_exe"
