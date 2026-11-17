@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://ledgersprout.superdavelab.com/downloads/electron/version.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://ledgersprout.superdavelab.com/downloads/electron/LedgerSprout.Setup.{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ledgersprout.superdavelab.com/"
+	}
+}
