@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "metalalchemist",
+		"repo": "VeTube"
+	},
+	"urls": [
+		"https://github.com/metalalchemist/VeTube/releases/download/{github.rawTag}/vetube-{github.rawTag}.msi"
+	]
+}

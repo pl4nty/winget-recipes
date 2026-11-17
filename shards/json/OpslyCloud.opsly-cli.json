@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Opsly",
+		"repo": "homebrew-cli",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/Opsly/homebrew-cli/releases/download/{github.rawTag}/opsly_Windows_x86_64.exe",
+		"https://github.com/Opsly/homebrew-cli/releases/download/{github.rawTag}/opsly_Windows_arm64.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kimlimjustin",
+		"repo": "xplorer"
+	},
+	"urls": [
+		"https://github.com/kimlimjustin/xplorer/releases/download/{github.rawTag}/Xplorer_{version}_x64.msi"
+	]
+}

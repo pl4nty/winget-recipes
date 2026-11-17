@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cjmweb.net/vbindiff/",
+		"regex": "href=\"(?<file>VBinDiff-(?<version>\\d+(?:\\.\\d+)+)_beta(?<beta>\\d+))\\.zip\""
+	},
+	"version": "{version}-beta.{captures.beta}",
+	"urls": [
+		"https://www.cjmweb.net/vbindiff/{captures.file}.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "miaulightouch",
+		"repo": "obs-virtual-cam"
+	},
+	"urls": [
+		"https://github.com/miaulightouch/obs-virtual-cam/releases/download/{github.rawTag}/obs-virtualcam-{version}-windows-x64-Installer.exe"
+	]
+}
