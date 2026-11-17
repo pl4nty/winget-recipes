@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ElisaMin",
+		"repo": "Heizi-Flashing-Tools"
+	},
+	"urls": [
+		"https://github.com/ElisaMin/Heizi-Flashing-Tools/releases/download/{github.rawTag}/HeiziFlashTools-lzma-{version}.exe"
+	]
+}
