@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://onlinehelp.colorlogic.de/en/whats-new-in-copra/",
+		"regex": "What&#8217;s new (\\d+\\.\\d+\\.\\d+)"
+	},
+	"urls": ["https://www.colorlogic.de/seiten/download/CoPrA-{version}-win-x64.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://onlinehelp.colorlogic.de/en/whats-new-in-copra/#{version|.|}"
+	}
+}
