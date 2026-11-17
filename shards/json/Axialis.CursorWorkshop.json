@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.axialis.com/download/cw.html",
+		"regex": "\"softwareVersion\":\"(?<version>\\d+)\\.(?<minor>\\d)\\.(?<patch>\\d)\\.\\d+\""
+	},
+	"version": "{version}.{captures.minor}{captures.patch}",
+	"urls": [
+		{
+			"url": "https://www.axialis.com/downloads/CursorWorkshop-Pro.exe",
+			"architecture": "x86"
+		}
+	]
+}
