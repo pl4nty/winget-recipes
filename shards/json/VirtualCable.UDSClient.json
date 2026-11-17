@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://images.udsenterprise.com/client/UDSClientSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://images.udsenterprise.com/client/UDSClientSetup.exe",
+		"header": "etag"
+	}
+}
