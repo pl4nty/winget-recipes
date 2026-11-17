@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hotdogee",
+		"repo": "toggle-audio"
+	},
+	"urls": [
+		"https://github.com/hotdogee/toggle-audio/releases/download/{github.rawTag}/toggle-audio-{version}-x64.msi"
+	]
+}
