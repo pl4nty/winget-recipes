@@ -6,6 +6,9 @@
 		"repo": "UWPHook"
 	},
 	"urls": [
-		"https://github.com/BrianLima/UWPHook/releases/download/{github.rawTag}/UWPHook.exe"
+		{
+			"url": "https://github.com/BrianLima/UWPHook/releases/download/{github.rawTag}/UWPHook.exe",
+			"architecture": "x64"
+		}
 	]
 }
