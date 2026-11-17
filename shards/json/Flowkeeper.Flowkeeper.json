@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "flowkeeper-org",
+		"repo": "fk-desktop"
+	},
+	"urls": [
+		"https://github.com/flowkeeper-org/fk-desktop/releases/download/{github.rawTag}/flowkeeper-{version}-windows-2022-nuitka-installer.exe"
+	]
+}
