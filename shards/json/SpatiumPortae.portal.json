@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SpatiumPortae",
+		"repo": "portal"
+	},
+	"urls": [
+		"https://github.com/SpatiumPortae/portal/releases/download/v{version}/portal_{version}_Windows_x86_64.zip",
+		"https://github.com/SpatiumPortae/portal/releases/download/v{version}/portal_{version}_Windows_arm64.zip"
+	]
+}
