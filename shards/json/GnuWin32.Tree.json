@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/tree",
+		"regex": "/gnuwin32/files/tree/(?<version>\\d+(?:\\.\\d+)+(?:-\\d+)?)/tree-\\k<version>-setup\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnuwin32/files/tree/{version}/tree-{version}-setup.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gnuwin32.sourceforge.net/packages/tree.htm"
+	}
+}
