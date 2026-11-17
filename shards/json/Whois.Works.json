@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://appstatic.whoisworks.com/deskapp/messenger/installerDownload/?os=windows&name=WhoisWorksSetup.Win64"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://appstatic.whoisworks.com/deskapp/messenger/installerDownload/?os=windows&name=WhoisWorksSetup.Win64",
+		"header": "content-disposition"
+	},
+	"replace": true
+}
