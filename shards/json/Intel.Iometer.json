@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/iometer/rss?path=/iometer-stable",
+		"regex": "/iometer-stable/(\\d+(?:\\.\\d+)+)/iometer-\\d+(?:\\.\\d+)+-win32\\.i386-setup\\.exe"
+	},
+	"urls": ["https://sourceforge.net/projects/iometer/files/iometer-stable/{version}/iometer-{version}-win32.i386-setup.exe/download"]
+}

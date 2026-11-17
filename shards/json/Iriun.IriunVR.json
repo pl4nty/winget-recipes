@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://iriun.com/",
+		"regex": "https://iriun\\.gitlab\\.io/IriunVR-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://iriun.gitlab.io/IriunVR-{version}.exe"]
+}
