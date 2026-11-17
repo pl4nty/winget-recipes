@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.maxon.net/en/downloads/cinema-4d-2026-downloads",
+		"regex": "installer/windows/maxon/cinema4d/releases/(?<version>\\d+(?:\\.\\d+)+)/(?<file>Cinema4D_\\d+_[\\d.]+_Win\\.exe)"
+	},
+	"urls": [
+		"https://mx-app-blob-prod.maxon.net/mx-package-production/installer/windows/maxon/cinema4d/releases/{version}/{captures.file}",
+		"https://mx-app-blob-prod.maxon.net/mx-package-production/installer/winarm/maxon/cinema4d/releases/{version}/{captures.file|_Win.exe|_WinArm.exe}"
+	]
+}
