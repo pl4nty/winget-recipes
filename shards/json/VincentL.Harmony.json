@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vincelwt",
+		"repo": "harmony"
+	},
+	"urls": [
+		"https://github.com/vincelwt/harmony/releases/download/{github.rawTag}/harmony-{version}-setup.exe"
+	]
+}
