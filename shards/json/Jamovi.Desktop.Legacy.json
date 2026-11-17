@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.jamovi.org/versions.json",
+		"regex": "\"win64\":\\{[^}]*\"legacy\":\"(?<full>(?<version>\\d+\\.\\d+\\.\\d+)\\.\\d+)\""
+	},
+	"urls": [
+		"https://dl.jamovi.org/jamovi-{captures.full}-win64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.jamovi.org/release-notes.html"
+	}
+}

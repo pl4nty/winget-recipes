@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.dji.com/downloads/products/dji-terra",
+		"regex": "terra-1-g\\.djicdn\\.com/(?<dir>[0-9a-f]+)/software/DJI%20Terra%20(?<version>\\d+(?:\\.\\d+)+)\\.iso"
+	},
+	"urls": [
+		"https://terra-1-g.djicdn.com/{captures.dir}/software/DJI%20Terra%20{version}.iso"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.dji.com/downloads/products/dji-terra"
+	}
+}
