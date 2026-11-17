@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MrDavidRios",
+		"repo": "remindr"
+	},
+	"urls": [
+		"https://github.com/MrDavidRios/remindr/releases/download/{github.rawTag}/Remindr-{version}-win-x64.exe"
+	]
+}
