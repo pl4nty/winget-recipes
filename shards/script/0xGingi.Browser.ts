@@ -17,7 +17,7 @@ export default defineShard(async () => {
 
 	return {
 		version: release.version,
-		urls: () => [installer.browser_download_url, zip.browser_download_url],
-		releaseNotes: { source: 'github', owner: '0xGingi', repo: '0xgingi-browser-windows', tag: release.rawTag },
+		urls: () => [installer.browser_download_url, { url: zip.browser_download_url, architecture: 'x64' }],
+		releaseNotes: { releaseNotesUrl: `https://github.com/0xGingi/0xgingi-browser-windows/releases/tag/${release.rawTag}` },
 	};
 });

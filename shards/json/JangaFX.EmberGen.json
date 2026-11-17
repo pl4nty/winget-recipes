@@ -6,5 +6,10 @@
 		"regex": "embergen/installers/windows/embergen_(\\d+(?:_\\d+)+)_installer\\.exe"
 	},
 	"version": "{version|_|.}",
-	"urls": ["https://jangafx-software-files.s3.amazonaws.com/embergen/installers/windows/embergen_{version}_installer.exe"]
+	"urls": [
+		{
+			"url": "https://jangafx-software-files.s3.amazonaws.com/embergen/installers/windows/embergen_{version}_installer.exe",
+			"architecture": "x64"
+		}
+	]
 }

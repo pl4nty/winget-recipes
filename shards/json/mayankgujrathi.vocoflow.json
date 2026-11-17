@@ -6,6 +6,9 @@
 		"repo": "vocoflow"
 	},
 	"urls": [
-		"https://github.com/mayankgujrathi/vocoflow/releases/download/v{version}/vocoflow-v{version}-windows-installer.exe"
+		{
+			"url": "https://github.com/mayankgujrathi/vocoflow/releases/download/v{version}/vocoflow-v{version}-windows-installer.exe",
+			"architecture": "x64"
+		}
 	]
 }
