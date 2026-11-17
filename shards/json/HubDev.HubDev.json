@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://apt.hubdev.io/dists/stable/main/binary-amd64/Packages",
+		"regex": "Filename: pool/main/h/hubdev/hubdev_(\\d+(?:\\.\\d+)+)_amd64\\.deb"
+	},
+	"urls": [
+		"https://apt.hubdev.io/v{version}/HubDev_{version}_Setup.exe"
+	]
+}
