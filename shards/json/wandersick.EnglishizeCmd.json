@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wandersick",
+		"repo": "englishize-cmd",
+		"method": "api-latest",
+		"assetRegex": "^EnglishizeCmd-[\\d.]+_Silent_Installer\\.exe$"
+	}
+}
