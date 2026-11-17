@@ -5,7 +5,10 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://wwwnaturalreaderscom.s3.amazonaws.com/software/naturalreader16.msi"
+		{
+			"url": "https://wwwnaturalreaderscom.s3.amazonaws.com/software/naturalreader16.msi",
+			"architecture": "x64"
+		}
 	],
 	"state": {
 		"source": "response-header",

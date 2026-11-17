@@ -6,6 +6,9 @@
 		"repo": "quick-picture-viewer"
 	},
 	"urls": [
-		"https://github.com/ModuleArt/quick-picture-viewer/releases/download/{github.rawTag}/QuickPictureViewer-Setup.exe"
+		{
+			"url": "https://github.com/ModuleArt/quick-picture-viewer/releases/download/{github.rawTag}/QuickPictureViewer-Setup.exe",
+			"architecture": "neutral"
+		}
 	]
 }

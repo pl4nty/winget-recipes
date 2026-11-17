@@ -9,6 +9,9 @@
 		"source": "display"
 	},
 	"urls": [
-		"https://github.com/Muhammed87643/Friday-Night-Funkin-Silent-Installer/releases/download/{github.rawTag}/Funkin.msi"
+		{
+			"url": "https://github.com/Muhammed87643/Friday-Night-Funkin-Silent-Installer/releases/download/{github.rawTag}/Funkin.msi",
+			"architecture": "x64"
+		}
 	]
 }

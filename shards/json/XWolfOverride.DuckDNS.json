@@ -6,6 +6,9 @@
 		"repo": "DuckDNS"
 	},
 	"urls": [
-		"https://github.com/XWolfOverride/DuckDNS/releases/download/{github.rawTag}/DuckDNS.zip"
+		{
+			"url": "https://github.com/XWolfOverride/DuckDNS/releases/download/{github.rawTag}/DuckDNS.zip",
+			"architecture": "neutral"
+		}
 	]
 }

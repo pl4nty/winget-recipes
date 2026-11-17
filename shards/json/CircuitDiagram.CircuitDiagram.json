@@ -6,6 +6,9 @@
 		"repo": "circuitdiagram"
 	},
 	"urls": [
-		"https://github.com/circuitdiagram/circuitdiagram/releases/download/{github.rawTag}/Setup.exe"
+		{
+			"url": "https://github.com/circuitdiagram/circuitdiagram/releases/download/{github.rawTag}/Setup.exe",
+			"architecture": "neutral"
+		}
 	]
 }

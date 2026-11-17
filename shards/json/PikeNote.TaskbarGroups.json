@@ -6,6 +6,9 @@
 		"repo": "taskbar-groups-pike-beta"
 	},
 	"urls": [
-		"https://github.com/PikeNote/taskbar-groups-pike-beta/releases/download/v{version}/Taskbar.Groups.exe"
+		{
+			"url": "https://github.com/PikeNote/taskbar-groups-pike-beta/releases/download/v{version}/Taskbar.Groups.exe",
+			"architecture": "neutral"
+		}
 	]
 }

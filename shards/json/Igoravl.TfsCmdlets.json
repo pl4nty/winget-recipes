@@ -6,5 +6,10 @@
 		"repo": "TfsCmdlets",
 		"tagRegex": "\\+\\d+\\.\\d+$"
 	},
-	"urls": ["https://github.com/igoravl/TfsCmdlets/releases/download/{github.rawTag}/TfsCmdlets-{version}.msi"]
+	"urls": [
+		{
+			"url": "https://github.com/igoravl/TfsCmdlets/releases/download/{github.rawTag}/TfsCmdlets-{version}.msi",
+			"architecture": "neutral"
+		}
+	]
 }

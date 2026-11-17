@@ -6,6 +6,9 @@
 		"repo": "wsly"
 	},
 	"urls": [
-		"https://github.com/mihai-valentin/wsly/releases/download/{github.rawTag}/wsly-{version}-setup.exe"
+		{
+			"url": "https://github.com/mihai-valentin/wsly/releases/download/{github.rawTag}/wsly-{version}-setup.exe",
+			"architecture": "neutral"
+		}
 	]
 }

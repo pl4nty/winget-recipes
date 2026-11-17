@@ -6,7 +6,13 @@
 		"repo": "MSFS2020-livery-manager"
 	},
 	"urls": [
-		"https://github.com/MSFS-Mega-Pack/MSFS2020-livery-manager/releases/download/{github.rawTag}/Liveries_Mega_Pack_Manager-{version}-setup.exe",
-		"https://github.com/MSFS-Mega-Pack/MSFS2020-livery-manager/releases/download/{github.rawTag}/Liveries_Mega_Pack_Manager-{version}-setup.msi"
+		{
+			"url": "https://github.com/MSFS-Mega-Pack/MSFS2020-livery-manager/releases/download/{github.rawTag}/Liveries_Mega_Pack_Manager-{version}-setup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/MSFS-Mega-Pack/MSFS2020-livery-manager/releases/download/{github.rawTag}/Liveries_Mega_Pack_Manager-{version}-setup.msi",
+			"architecture": "x64"
+		}
 	]
 }
