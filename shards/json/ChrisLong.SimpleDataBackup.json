@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ssesetup.com/download.html",
+		"regex": "SimpleDataBackup[\\d-]+\\.exe\">[^<]*</a>\\s*<i>Version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://www.simpledatabackup.net/downloads/SimpleDataBackup{version|.|-}.exe"
+	]
+}
