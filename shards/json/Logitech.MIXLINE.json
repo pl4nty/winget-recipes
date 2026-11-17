@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://updates-mixline.logitech.io/appgate/beta/channels/prod/updater.json",
+		"path": "version"
+	},
+	"urls": ["https://updates-mixline.logitech.io{data.msi}"]
+}
