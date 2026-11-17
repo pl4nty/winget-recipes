@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "harness-lens",
+		"repo": "cli"
+	},
+	"urls": [
+		"https://github.com/harness-lens/cli/releases/download/{github.rawTag}/harness-lens-{github.rawTag}-x86_64-pc-windows-msvc.zip"
+	]
+}
