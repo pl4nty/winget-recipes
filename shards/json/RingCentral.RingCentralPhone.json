@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://downloads.ringcentral.com/sp/RingCentralForWindows"],
+		"regex": "/RingCentral-Phone-(?<version>\\d+(?:\\.\\d+)+)\\.msi$"
+	},
+	"version": {
+		"source": "product"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.ringcentral.com/release-notes/ringex/phone/phone-desktop.html"
+	}
+}
