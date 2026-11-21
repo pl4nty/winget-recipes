@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://archive.mozilla.org/pub/xulrunner/releases/",
+		"regex": "/pub/xulrunner/releases/(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": [
+		"https://archive.mozilla.org/pub/xulrunner/releases/{version}/runtimes/xulrunner-{version}.en-US.win32.zip"
+	]
+}

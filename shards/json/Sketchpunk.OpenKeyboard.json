@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sketchpunk",
+		"repo": "openkeyboard"
+	},
+	"urls": [
+		"https://github.com/sketchpunk/openkeyboard/releases/download/{github.rawTag}/OpenKeyboard_v{version|.|_}.zip"
+	]
+}

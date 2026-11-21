@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://downloads.python.org/pypy/versions.json",
+		"regex": "/pypy3\\.11-v(\\d+(?:\\.\\d+)+)-win64\\.zip\""
+	},
+	"urls": [
+		"https://downloads.python.org/pypy/pypy3.11-v{version}-win64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://doc.pypy.org/en/latest/release-v{version}.html"
+	}
+}

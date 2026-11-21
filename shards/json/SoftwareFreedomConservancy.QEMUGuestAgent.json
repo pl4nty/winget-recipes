@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-qemu-ga/?C=M;O=D",
+		"regex": "href=\"qemu-ga-win-(?<version>\\d+(?:\\.\\d+)+)-(?<release>\\d+\\.el\\d+)/\""
+	},
+	"urls": [
+		"https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-qemu-ga/qemu-ga-win-{version}-{captures.release}/qemu-ga-i386.msi",
+		"https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-qemu-ga/qemu-ga-win-{version}-{captures.release}/qemu-ga-x86_64.msi"
+	]
+}

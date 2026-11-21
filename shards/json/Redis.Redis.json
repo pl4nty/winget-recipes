@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoftarchive",
+		"repo": "redis",
+		"tagRegex": "^win-"
+	},
+	"urls": [
+		"https://github.com/microsoftarchive/redis/releases/download/{github.rawTag}/Redis-x64-{version}.msi"
+	]
+}
