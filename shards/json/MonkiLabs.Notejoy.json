@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://s3.amazonaws.com/notejoy/clients/RELEASES",
+		"regex": "Notejoy-(\\d+(?:\\.\\d+)+)-full\\.nupkg"
+	},
+	"urls": [
+		{
+			"url": "https://s3.amazonaws.com/notejoy/clients/notejoy_win32_x64_{version}_setup.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://s3.amazonaws.com/notejoy/clients/notejoy_win32_ia32_{version}_setup.exe",
+			"architecture": "x86"
+		}
+	]
+}
