@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "darthdemono",
+		"repo": "PingDD",
+		"method": "api-sort",
+		"assetRegex": "^(?:pingdd\\-windows\\-arm64\\.zip|pingdd\\-windows\\-x86\\.zip)$"
+	}
+}
