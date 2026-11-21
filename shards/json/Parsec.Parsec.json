@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": [
+		"https://builds.parsec.app/package/parsec-windows.exe",
+		"https://builds.parsec.app/package/parsec-windows.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://builds.parsec.app/package/parsec-windows.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://parsec.app/changelog"
+	},
+	"replace": true
+}
