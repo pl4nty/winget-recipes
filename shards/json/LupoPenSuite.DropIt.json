@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "dropit",
+		"file": "DropIt_v{version}_Setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/dropit/files/DropIt/v{version}/DropIt_v{version}_Setup.exe/download"
+	]
+}

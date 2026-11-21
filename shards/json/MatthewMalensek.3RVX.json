@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://3rvx.com/",
+		"regex": "releases/3RVX-(\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://3rvx.com/releases/3RVX-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://3rvx.com/release-notes/{version}.html"
+	}
+}

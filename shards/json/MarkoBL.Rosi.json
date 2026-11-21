@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MarkoBL",
+		"repo": "Rosi"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/MarkoBL/Rosi/releases/download/{github.rawTag}/Rosi_Windows_x64.msi"
+	]
+}

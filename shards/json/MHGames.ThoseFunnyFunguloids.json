@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "funguloids",
+		"file": "funguloids-win32-{version}.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/funguloids/files/{version}/funguloids-win32-{version}.exe/download"
+	]
+}

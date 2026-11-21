@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "snowie2000",
+		"repo": "mactype",
+		"tagRegex": "^1\\."
+	},
+	"urls": [
+		"https://github.com/snowie2000/mactype/releases/download/{github.rawTag}/MacTypeInstaller_{version}.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "matthijsgroen",
+		"repo": "geppetto"
+	},
+	"urls": [
+		"https://github.com/matthijsgroen/geppetto/releases/download/{github.rawTag}/Geppetto.Setup.{version}.exe"
+	]
+}

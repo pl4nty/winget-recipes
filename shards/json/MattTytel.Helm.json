@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://tytel.org/helm/downloads",
+		"regex": "/static/dist/Helm_64bit_v(\\d+(?:_\\d+)+)_r\\.msi"
+	},
+	"version": "{version|_|.}.0",
+	"urls": [
+		"https://tytel.org/static/dist/Helm_64bit_v{version}_r.msi"
+	]
+}
