@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bryancandi",
+		"repo": "WinGet-Releases",
+		"tagRegex": "^BandwidthCalculator\\-"
+	},
+	"urls": [
+		"https://github.com/bryancandi/WinGet-Releases/releases/download/{github.rawTag}/BandwidthCalculatorInstaller.msi"
+	]
+}
