@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.angusj.com/pdftkb/",
+		"regex": "Version (\\d+(?:\\.\\d+)+)<br>\\s*Last Updated"
+	},
+	"urls": ["https://www.angusj.com/pdftkb/pdftkb_setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.angusj.com/pdftkb/"
+	},
+	"replace": true
+}

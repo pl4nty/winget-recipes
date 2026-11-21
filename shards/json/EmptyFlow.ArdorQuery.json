@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "trueromanus",
+		"repo": "ArdorQuery"
+	},
+	"urls": ["https://github.com/trueromanus/ArdorQuery/releases/download/{github.rawTag}/ArdorQuery.msi"]
+}

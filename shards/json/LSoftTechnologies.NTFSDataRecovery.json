@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://download.lsoft.net/NtfsRecoveryToolkit.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.lsoft.net/NtfsRecoveryToolkit.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ntfs.com/recovery-toolkit-history.htm"
+	},
+	"replace": true
+}

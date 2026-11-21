@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.serial-over-ethernet.com/downloads/",
+		"regex": "id=\"tab-1\">(?:(?!id=\"tab-2\")[\\s\\S])*?Version: <span class=\"information-text\">(\\d+(?:\\.\\d+)+)</span>"
+	},
+	"urls": ["https://cdn.electronic.us/products/sec/windows/download/serial_ethernet_connector.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://help.electronic.us/support/solutions/articles/44002207950-what-s-new-in-this-version-of-serial-to-ethernet-connector"
+	},
+	"replace": true
+}

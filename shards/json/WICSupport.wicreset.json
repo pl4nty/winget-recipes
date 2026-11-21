@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://www.2manuals.com/WIC/wicreset.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.2manuals.com/WIC/wicreset.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
