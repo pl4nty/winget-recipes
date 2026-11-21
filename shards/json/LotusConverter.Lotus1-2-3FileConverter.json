@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://lotusconverter.com",
+		"regex": "https://lotusconverter\\.com/download/LotusConverter\\-(\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": [
+		"https://lotusconverter.com/download/LotusConverter-{version}.msi"
+	]
+}
