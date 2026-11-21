@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SafeExamBrowser",
+		"repo": "seb-win-refactoring",
+		"method": "api-latest",
+		"assetRegex": "^SEB_[\\d.]+_(?:SetupBundle\\.exe|x64_Setup\\.msi|x86_Setup\\.msi)$"
+	}
+}
