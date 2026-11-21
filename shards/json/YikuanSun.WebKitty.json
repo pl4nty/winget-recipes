@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yikuansun",
+		"repo": "webkitty"
+	},
+	"urls": [
+		"https://github.com/yikuansun/webkitty/releases/download/{github.rawTag}/WebKitty.Setup.{version}.exe"
+	]
+}

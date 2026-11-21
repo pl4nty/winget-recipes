@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://worldofworkflows.blob.core.windows.net/releases/WorldOfWorkflowsPE-win_x64-1-6.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://worldofworkflows.blob.core.windows.net/releases/WorldOfWorkflowsPE-win_x64-1-6.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://download.httrack.com/cserv.php3?File=httrack_x64.exe"
+		],
+		"regex": "/httrack_x64-(\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"urls": [
+		{
+			"url": "https://download.httrack.com/httrack_x64-{version}.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.httrack.com/history.txt"
+	}
+}

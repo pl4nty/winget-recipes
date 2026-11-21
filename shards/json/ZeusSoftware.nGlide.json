@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.zeus-software.com/downloads/nglide",
+		"regex": "softwareVersion\">(\\d+\\.\\d+)<"
+	},
+	"urls": [
+		"https://www.zeus-software.com/files/nglide/nGlide{version|.|}_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.zeus-software.com/downloads/nglide"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.zeusedit.com/download.html",
+		"regex": "id=\"recaptcha-file-x86\" value=\"ze32v(?<version>\\d)(?<minor>\\d\\d[a-z])\\.zip\""
+	},
+	"version": "{version}.{captures.minor}",
+	"urls": [
+		{
+			"url": "https://www.zeusedit.com/z300/ze32v{captures.version}{captures.minor}.zip",
+			"nestedInstallerMatches": [
+				"mysetup.exe"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.zeusedit.com/whatsnew.html"
+	}
+}
