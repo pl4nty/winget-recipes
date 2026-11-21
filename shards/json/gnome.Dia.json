@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/dia-installer/best_release.json",
+		"regex": "/dia-win32-installer/(?<version>\\d+(?:\\.\\d+)+)/dia-setup-\\d+(?:\\.\\d+)+-(?<build>\\d+)-unsigned\\.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/dia-installer/files/dia-win32-installer/{version}/dia-setup-{version}-{captures.build}-unsigned.exe/download"
+	]
+}
