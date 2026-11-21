@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://www.heaventools.com/files/iM6JweUe7IBKC/ResTunerConsole_setup.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://www.heaventools.com/files/iM6JweUe7IBKC/ResTunerConsole_setup.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.heaventools.com/files/iM6JweUe7IBKC/ResTunerConsole_setup.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
