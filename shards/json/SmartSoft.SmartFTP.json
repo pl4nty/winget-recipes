@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.smartftp.com/en-us/download",
+		"regex": "SmartFTP (\\d+(?:\\.\\d+){3}) \\(x64\\)"
+	},
+	"urls": [
+		"https://static.smartftp.com/static/Products/Client/{version}/x64/SmartFTP.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.smartftp.com/en-us/changelog/1"
+	}
+}
