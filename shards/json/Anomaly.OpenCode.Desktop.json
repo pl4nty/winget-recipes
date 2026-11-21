@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "anomalyco",
+		"repo": "opencode",
+		"tagRegex": "^v(?=\\d)",
+		"method": "api-sort"
+	},
+	"urls": [
+		{ "url": "https://opencode.ai/files/bin/{version}/opencode-desktop-win-x64.exe", "architecture": "x64" },
+		{ "url": "https://opencode.ai/files/bin/{version}/opencode-desktop-win-arm64.exe", "architecture": "arm64" }
+	]
+}

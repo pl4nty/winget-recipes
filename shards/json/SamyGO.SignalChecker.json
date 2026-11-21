@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "http://download.samygo.tv/PC%20Applications/",
+		"regex": "href=\"Signal%20checker%20for%20DVB-T%20\\(v(\\d+(?:\\.\\d+)+)\\)\\.zip\""
+	},
+	"urls": [
+		"http://download.samygo.tv/PC%20Applications/Signal%20checker%20for%20DVB-T%20(v{version}).zip"
+	]
+}

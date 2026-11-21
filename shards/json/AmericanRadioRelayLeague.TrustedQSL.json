@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.arrl.org/tqsl-download",
+		"regex": "/files/file/LoTW%20Instructions/tqsl-(?<version>\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": [
+		"https://www.arrl.org/files/file/LoTW%20Instructions/tqsl-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.arrl.org/files/file/LoTW%20Instructions/TrustedQSL-{version|.|-}-release.pdf"
+	}
+}
