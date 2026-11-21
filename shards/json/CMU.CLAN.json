@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dali.talkbank.org/clan/clanwin.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://dali.talkbank.org/clan/changes.txt"
+	}
+}
