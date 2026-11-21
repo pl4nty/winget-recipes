@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://curl.se/windows/",
+		"regex": "dl-(?<curl>[\\d.]+_\\d+)/curl-[\\d.]+_\\d+-win64-mingw\\.zip[\\s\\S]*?trurl-(?<version>\\d+(?:\\.\\d+)+)\\.tar\\.gz"
+	},
+	"urls": [
+		{
+			"url": "https://curl.se/windows/dl-{captures.curl}/curl-{captures.curl}-win64-mingw.zip",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://curl.se/windows/dl-{captures.curl}/curl-{captures.curl}-win64a-mingw.zip",
+			"architecture": "arm64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/curl/trurl/releases/tag/trurl-{version}"
+	}
+}
