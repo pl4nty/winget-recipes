@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://emcosoftware.com/remote-shutdown/download",
+		"regex": "Version\\s+(?<version>7\\.\\d+\\.\\d+)"
+	},
+	"urls": [
+		{
+			"url": "https://storage.emcosoftware.com/download/archive/remoteshutdown/v7/RemoteShutdownSetup-{version}.exe",
+			"architecture": "neutral"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://emcosoftware.com/remote-shutdown/whats-new"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-commit",
+	"github": {
+		"owner": "RickStrahl",
+		"repo": "MarkdownMonsterReleases",
+		"path": "CurrentRelease/MarkdownMonsterSetup.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/RickStrahl/MarkdownMonsterReleases/raw/{github.commit}/CurrentRelease/MarkdownMonsterSetup.exe",
+			"architecture": "neutral"
+		}
+	],
+	"state": {
+		"source": "value",
+		"value": "{github.commit}"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/RickStrahl/MarkdownMonster/blob/main/Changelog.md"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://rdpguard.com/download.aspx",
+		"regex": "href=\"https://rdpguard\\.com/download/rdpguard-(?<major>\\d+)-(?<minor>\\d+)-(?<patch>\\d+)\\.exe\""
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.patch}",
+	"urls": [
+		"https://rdpguard.com/download/rdpguard-{captures.major}-{captures.minor}-{captures.patch}.exe",
+		"https://rdpguard.com/download/rdpguard-{captures.major}-{captures.minor}-{captures.patch}.msi",
+		"https://rdpguard.com/download/rdpguard-{captures.major}-{captures.minor}-{captures.patch}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://rdpguard.com/news.aspx"
+	}
+}
