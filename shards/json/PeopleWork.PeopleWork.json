@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.people-work.io/windows/PeopleWork.appinstaller",
+		"regex": "/releases/(?<version>\\d+(?:\\.\\d+)+)/People-Work-[\\d.]+\\.msixbundle"
+	},
+	"urls": ["https://downloads.people-work.io/releases/{version}/People-Work-{version}.msixbundle"]
+}
