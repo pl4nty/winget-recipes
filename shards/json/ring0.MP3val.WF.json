@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/mp3val/rss?path=/mp3val-bundle",
+		"regex": "/files/mp3val-bundle/(?<dir>[^/<]+)/mp3val-(?<mp3val>\\d+(?:\\.\\d+)+)_with_frontend-(?<frontend>\\d+(?:\\.\\d+)+)-bin-win32\\.zip/download"
+	},
+	"version": "{captures.mp3val}-{captures.frontend}",
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/mp3val/files/mp3val-bundle/{captures.dir}/mp3val-{captures.mp3val}_with_frontend-{captures.frontend}-bin-win32.zip/download",
+			"architecture": "x86"
+		}
+	]
+}
