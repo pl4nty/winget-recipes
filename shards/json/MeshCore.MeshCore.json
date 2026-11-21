@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://files.liamcottle.net/MeshCore/",
+		"regex": "href=\"\\./v(\\d+(?:\\.\\d+)+)/\""
+	},
+	"version": "v{version}",
+	"urls": ["https://files.liamcottle.net/MeshCore/v{version}/MeshCore-v{version}-windows-x64.zip"]
+}
