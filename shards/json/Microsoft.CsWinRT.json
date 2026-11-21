@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://api.nuget.org/v3-flatcontainer/microsoft.windows.cswinrt/index.json",
+		"regex": "\"(?<version>\\d+(?:\\.\\d+)+)\"(?=(?:,\\s*\"[^\"]*-[^\"]*\")*\\s*\\])"
+	},
+	"urls": [
+		{
+			"url": "https://globalcdn.nuget.org/packages/microsoft.windows.cswinrt.{version}.nupkg",
+			"architecture": "neutral",
+			"nestedInstallerMatches": ["cswinrt.exe", "IIDOptimizer.exe"]
+		}
+	]
+}
