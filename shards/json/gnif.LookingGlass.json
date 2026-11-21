@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://looking-glass.io/downloads",
+		"regex": "/artifact/(B\\d+(?:\\.\\d+)*)/host"
+	},
+	"urls": ["https://looking-glass.io/artifact/{version}/host"],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "gnif",
+		"repo": "LookingGlass",
+		"tag": "{version}"
+	}
+}
