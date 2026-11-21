@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://repo.timuscloud.com/connect/",
+		"regex": "Timus%20Connect%20Setup%20(\\d+(?:\\.\\d+)+)\\.msi\""
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://repo.timuscloud.com/connect/Timus%20Connect%20Setup%20{version}.msi",
+		"https://repo.timuscloud.com/connect/Timus%20Connect%20Setup%20{version}.exe"
+	]
+}
