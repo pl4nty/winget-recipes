@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "{version|-release|}",
+	"github": {
+		"owner": "blueprint-freespeech",
+		"repo": "ricochet-refresh",
+		"method": "api-latest",
+		"assetRegex": "^(?:ricochet\\-refresh\\-\\d+\\.\\d+\\.\\d+\\-windows\\-i686\\-installer\\.exe|ricochet\\-refresh\\-\\d+\\.\\d+\\.\\d+\\-windows\\-i686\\.zip|ricochet\\-refresh\\-\\d+\\.\\d+\\.\\d+\\-windows\\-x86_64\\-installer\\.exe|ricochet\\-refresh\\-\\d+\\.\\d+\\.\\d+\\-windows\\-x86_64\\.zip)$"
+	}
+}
