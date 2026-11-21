@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "samuelthomas2774",
+		"repo": "nxapi"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/samuelthomas2774/nxapi/releases/download/{github.rawTag}/Nintendo.Switch.Online.Setup.{version}.exe",
+			"architecture": "x64"
+		}
+	]
+}
