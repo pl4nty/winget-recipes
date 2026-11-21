@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dscalzi",
+		"repo": "HeliosLauncher"
+	},
+	"urls": [
+		"https://github.com/dscalzi/HeliosLauncher/releases/download/{github.rawTag}/Helios-Launcher-setup-{version}.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dscharrer",
+		"repo": "innoextract"
+	},
+	"urls": [
+		"https://github.com/dscharrer/innoextract/releases/download/{github.rawTag}/innoextract-{version}-windows.zip"
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://dxatlas.com/SstvTools/Files/SstvTools.zip",
+			"nestedInstallerMatches": [
+				"Setup.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dxatlas.com/SstvTools/Files/SstvTools.zip",
+		"header": "last-modified"
+	},
+	"replace": true
+}

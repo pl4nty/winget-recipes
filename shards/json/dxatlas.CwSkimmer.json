@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.dxatlas.com/CwSkimmer/",
+		"regex": "CW Skimmer (\\d+(?:\\.\\d+)+)</font>"
+	},
+	"urls": [
+		{
+			"url": "https://www.dxatlas.com/CwSkimmer/Files/CwSkimmer.zip",
+			"nestedInstallerMatches": ["Setup.exe"]
+		}
+	]
+}

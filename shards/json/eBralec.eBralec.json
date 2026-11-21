@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ebralec.si/prenos/",
+		"regex": "prenos-amebis\\.b-cdn\\.net/eBralec/(\\d+(?:\\.\\d+)+)/"
+	},
+	"urls": [
+		"https://prenos-amebis.b-cdn.net/eBralec/{version}/eBralec.Win32.En.msi",
+		"https://prenos-amebis.b-cdn.net/eBralec/{version}/eBralec.Win32.Sl.msi",
+		"https://prenos-amebis.b-cdn.net/eBralec/{version}/eBralec.x64.En.msi",
+		"https://prenos-amebis.b-cdn.net/eBralec/{version}/eBralec.x64.Sl.msi",
+		"https://prenos-amebis.b-cdn.net/eBralec/{version}/eBralec.ARM64.En.msi",
+		"https://prenos-amebis.b-cdn.net/eBralec/{version}/eBralec.ARM64.Sl.msi"
+	]
+}

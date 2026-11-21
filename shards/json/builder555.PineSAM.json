@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "builder555",
+		"repo": "PineSAM"
+	},
+	"urls": [
+		"https://github.com/builder555/PineSAM/releases/download/{github.rawTag}/PineSAM-Windows-x64-{github.rawTag}.zip"
+	]
+}
