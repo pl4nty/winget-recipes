@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://downloads.python.org/pypy/versions.json",
+		"regex": "pypy3\\.9-v(\\d+\\.\\d+\\.\\d+)-win64\\.zip"
+	},
+	"urls": [{ "url": "https://downloads.python.org/pypy/pypy3.9-v{version}-win64.zip", "architecture": "x64" }]
+}

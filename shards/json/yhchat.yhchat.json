@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://chat-web-go.jwzhd.com/v1/common/get-version",
+		"path": "data.windowsVersion"
+	},
+	"urls": [{ "url": "https://app-cdn1.jwznb.com/windows/yunhu-setup-{version}.exe", "architecture": "x86" }],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.yhchat.com/support/changelog"
+	}
+}

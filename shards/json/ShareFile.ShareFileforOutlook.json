@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://dl.sharefile.com/outlookplugin"],
+		"regex": "ShareFileForOutlook-v(\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"urls": [{ "url": "https://dl.sharefile.com/outlookplugin/ShareFileForOutlook-v{version}.exe", "architecture": "x86" }]
+}
