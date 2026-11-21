@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tompscanlan",
+		"repo": "light-dark-cli-win11"
+	},
+	"urls": [
+		"https://github.com/tompscanlan/light-dark-cli-win11/releases/download/{github.rawTag}/light-dark-cli-win11.exe"
+	]
+}

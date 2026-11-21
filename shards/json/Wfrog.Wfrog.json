@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wfrog",
+		"repo": "wfrog",
+		"tagRegex": "^wfrog-"
+	},
+	"urls": [
+		"https://github.com/wfrog/wfrog/releases/download/{github.rawTag}/wfrog_{version}_win32.zip"
+	]
+}
