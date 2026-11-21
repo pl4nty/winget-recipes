@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://file.cdn.minimax.io/public/minimax-hub/release/overseas/latest.yml"
+	}
+}
