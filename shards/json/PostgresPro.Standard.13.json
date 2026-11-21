@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://repo.postgrespro.ru/win/64/",
+		"regex": "PostgreSQL_(13\\.\\d+)_64bit_Setup\\.exe\""
+	},
+	"urls": ["https://repo.postgrespro.ru/win/64/PostgreSQL_{version}_64bit_Setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://postgrespro.ru/docs/postgrespro/13/release"
+	}
+}
