@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TechnicalSolutionsForBlind",
+		"repo": "Advanced-System-Cleanup-Utility",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^Advanced_System_Cleanup_Utility_Setup\\.exe$"
+	}
+}
