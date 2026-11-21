@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hdd-tool.com/js/ipp.js",
+		"regex": "version:\\s*\"(?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://www.hdd-tool.com/download/NPE_technician.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.hdd-tool.com/download.html"
+	}
+}
