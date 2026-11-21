@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://rstream.io/api/packages",
+		"regex": "^(?=[\\s\\S]*?\"name\":\"rstream\",\"version\":\"(?<version>[^\"]+)\",\"channel\":\"stable\",\"os\":\"windows\")(?=[\\s\\S]*?\"id\":\"(?<x64>[^\"]+)\",\"name\":\"rstream\",\"version\":\"\\k<version>\",\"channel\":\"stable\",\"os\":\"windows\",\"arch\":\"x86_64\")(?=[\\s\\S]*?\"id\":\"(?<arm64>[^\"]+)\",\"name\":\"rstream\",\"version\":\"\\k<version>\",\"channel\":\"stable\",\"os\":\"windows\",\"arch\":\"arm64\")(?=[\\s\\S]*?\"id\":\"(?<x86>[^\"]+)\",\"name\":\"rstream\",\"version\":\"\\k<version>\",\"channel\":\"stable\",\"os\":\"windows\",\"arch\":\"x86_i686\")"
+	},
+	"urls": [
+		{
+			"url": "https://rstream.io/api/packages/{captures.x64}/download",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://rstream.io/api/packages/{captures.arm64}/download",
+			"architecture": "arm64"
+		},
+		{
+			"url": "https://rstream.io/api/packages/{captures.x86}/download",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://rstream.io/"
+	}
+}
