@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "plynte-labs", "repo": "OpenCohost", "method": "api-list", "kind": "all" },
+	"urls": [
+		"https://github.com/plynte-labs/OpenCohost/releases/download/{github.rawTag}/OpenCohost-{version}-x64-setup.exe"
+	]
+}
