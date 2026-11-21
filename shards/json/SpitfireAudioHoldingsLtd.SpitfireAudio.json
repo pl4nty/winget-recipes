@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www2.spitfireaudio.com/library-manager/download/win/"],
+		"regex": "\\.Win-(\\d+(?:\\.\\d+)+)-[0-9a-f]+"
+	}
+}
