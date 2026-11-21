@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.samsung.com/global/download/smartswitchwin/"],
+		"method": "get",
+		"regex": "VPath=SW%2F(?<month>\\d{6})%2F(?<version>\\d+)%2FSmart\\.Switch\\.PC_Setup\\.exe"
+	},
+	"version": { "source": "product" },
+	"urls": ["https://downloadcenter.samsung.com/content/SW/{captures.month}/{captures.version}/Smart.Switch.PC_Setup.exe"]
+}
