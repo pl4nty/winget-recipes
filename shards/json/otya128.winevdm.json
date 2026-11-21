@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "otya128",
+		"repo": "winevdm"
+	},
+	"urls": [
+		"https://github.com/otya128/winevdm/releases/download/v{version}/otvdm-v{version}.zip"
+	]
+}

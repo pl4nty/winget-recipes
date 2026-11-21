@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Cimbali",
+		"repo": "pympress"
+	},
+	"urls": [
+		"https://github.com/Cimbali/pympress/releases/download/v{version}/pympress-{version}-x86_64.msi"
+	]
+}

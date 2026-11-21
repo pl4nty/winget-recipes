@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://omnitruck.cinc.sh/stable/cinc-workstation/metadata?p=windows&pv=2012r2&m=x86_64",
+		"path": "version"
+	},
+	"urls": [
+		"url"
+	]
+}

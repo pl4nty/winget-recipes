@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.smartversion.com/download.htm",
+		"regex": "smartvs(?<major>\\d)(?<minor>\\d{2})_x64\\.zip"
+	},
+	"version": "{captures.major}.{captures.minor}",
+	"urls": [
+		"https://www.smartversion.com/smartvs{captures.major}{captures.minor}_x64.zip",
+		"https://www.smartversion.com/smartvs{captures.major}{captures.minor}_x86.zip",
+		"https://www.smartversion.com/smartvs{captures.major}{captures.minor}_arm64.zip"
+	]
+}
