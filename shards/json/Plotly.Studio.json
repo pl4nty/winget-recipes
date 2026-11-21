@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://plotly-cloud-production-desktop-installer-bucket.s3.amazonaws.com/?list-type=2&prefix=plotly_studio_x64_no_update_v",
+		"regex": "<Key>plotly_studio_x64_no_update_v(\\d+(?:\\.\\d+)+)\\.msi</Key>"
+	},
+	"urls": ["https://plotly-cloud-production-desktop-installer-bucket.s3.amazonaws.com/plotly_studio_x64_no_update_v{version}.msi"]
+}
