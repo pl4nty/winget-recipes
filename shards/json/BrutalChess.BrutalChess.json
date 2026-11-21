@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "brutalchess",
+		"file": "brutalchess-alpha-{version}-win32.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/brutalchess/files/brutalchess-alpha/brutalchess-alpha-{version}/brutalchess-alpha-{version}-win32.exe/download"
+	],
+	"cleanup": false
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DavidMoore",
+		"repo": "ipfilter"
+	},
+	"urls": [
+		"https://github.com/DavidMoore/ipfilter/releases/download/{github.rawTag}/IPFilter.exe"
+	]
+}

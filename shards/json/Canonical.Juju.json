@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://launchpad.net/juju",
+		"regex": "Latest version is (?<version>(?<series>\\d+\\.\\d+)\\.\\d+)"
+	},
+	"urls": [
+		"https://launchpad.net/juju/{captures.series}/{version}/+download/juju-setup-{version}.exe"
+	],
+	"cleanup": false
+}

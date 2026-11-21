@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://manifold.net/updates/",
+		"regex": "manifold-(8\\.\\d+\\.\\d+)\\.exe"
+	},
+	"urls": [
+		"https://manifold.net/updates/manifold-{version}.exe"
+	]
+}

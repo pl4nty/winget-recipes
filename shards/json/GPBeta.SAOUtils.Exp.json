@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NERvGear",
+		"repo": "SAO-Utils"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/NERvGear/SAO-Utils/releases/download/{github.rawTag}/sao_utils_exp1_update2.exe"
+	]
+}

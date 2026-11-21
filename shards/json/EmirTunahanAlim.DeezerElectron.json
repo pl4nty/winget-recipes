@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Eta06",
+		"repo": "deezerelectron",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "-(?:alpha|beta)$"
+	},
+	"urls": [
+		"https://github.com/Eta06/deezerelectron/releases/download/{github.rawTag}/DeezerElectronSetup.exe"
+	]
+}

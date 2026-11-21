@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LN-Zap",
+		"repo": "zap-desktop"
+	},
+	"urls": [
+		"https://github.com/LN-Zap/zap-desktop/releases/download/{github.rawTag}/Zap-win-{github.rawTag}.exe"
+	]
+}
