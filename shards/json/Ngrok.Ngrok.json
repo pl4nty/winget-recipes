@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://dl.equinox.io/ngrok/ngrok-v3/stable/archive",
+		"regex": "/a/(?<arm64>\\w+)/ngrok-v3-(?<version>\\d+\\.\\d+\\.\\d+)-windows-arm64\\.zip[\\s\\S]*?/a/(?<x64>\\w+)/ngrok-v3-\\k<version>-windows-amd64\\.zip[\\s\\S]*?/a/(?<x86>\\w+)/ngrok-v3-\\k<version>-windows-386\\.zip"
+	},
+	"urls": [
+		{ "url": "https://bin.equinox.io/a/{captures.x86}/ngrok-v3-{version}-windows-386.zip", "architecture": "x86" },
+		{ "url": "https://bin.equinox.io/a/{captures.x64}/ngrok-v3-{version}-windows-amd64.zip", "architecture": "x64" },
+		{ "url": "https://bin.equinox.io/a/{captures.arm64}/ngrok-v3-{version}-windows-arm64.zip", "architecture": "arm64" }
+	]
+}
