@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "monsterkodi",
+		"repo": "kappo"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/monsterkodi/kappo/releases/download/{github.rawTag}/kappo-{version}-setup.exe",
+			"architecture": "x64"
+		}
+	]
+}

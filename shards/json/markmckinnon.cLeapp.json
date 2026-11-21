@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "markmckinnon",
+		"repo": "cLeapp"
+	},
+	"urls": [
+		"https://github.com/markmckinnon/cLeapp/releases/download/{github.rawTag}/cLeapp-{version}-Executables.zip"
+	]
+}

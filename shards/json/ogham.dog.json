@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ogham",
+		"repo": "dog"
+	},
+	"urls": [
+		"https://github.com/ogham/dog/releases/download/{github.rawTag}/dog-{github.rawTag}-x86_64-pc-windows-msvc.zip"
+	]
+}
