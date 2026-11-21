@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://termal.in/api/v1/updates/latest?platform=windows", "path": "data.version" },
+	"urls": [{ "url": "https://termal.in/download/Termalin-Setup-{version}.exe", "architecture": "x64" }],
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://termal.in/api/v1/updates/latest?platform=windows",
+		"path": "data.notes",
+		"nestedSource": "markdown",
+		"releaseNotesUrl": "https://termal.in/download/",
+		"cleanup": false
+	}
+}
