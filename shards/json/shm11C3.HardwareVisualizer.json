@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "shm11C3", "repo": "HardwareVisualizer" },
+	"urls": [
+		"https://github.com/shm11C3/HardwareVisualizer/releases/download/v{version}/HardwareVisualizer_{version}_x64_en-US.msi",
+		"https://github.com/shm11C3/HardwareVisualizer/releases/download/v{version}/HardwareVisualizer_{version}_x64-setup.exe"
+	],
+	"releaseNotes": { "source": "github", "cleanup": false }
+}
