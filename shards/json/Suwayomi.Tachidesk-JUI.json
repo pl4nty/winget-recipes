@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Suwayomi",
+		"repo": "Suwayomi-JUI"
+	},
+	"urls": [
+		"https://github.com/Suwayomi/Suwayomi-JUI/releases/download/{github.rawTag}/Suwayomi-JUI-windows-x64-{version}.msi"
+	]
+}

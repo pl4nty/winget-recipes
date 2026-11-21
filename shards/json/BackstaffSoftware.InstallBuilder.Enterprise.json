@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://installbuilder.com/changelog",
+		"regex": "<h4>Version (\\d+\\.\\d+\\.\\d+)"
+	},
+	"urls": [
+		"https://releases.installbuilder.com/installbuilder/installbuilder-enterprise-{version}-windows-installer.exe",
+		"https://releases.installbuilder.com/installbuilder/installbuilder-enterprise-{version}-windows-x64-installer.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://installbuilder.com/changelog"
+	}
+}

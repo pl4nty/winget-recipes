@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://quollwriter.com/download/windows"],
+		"regex": "QuollWriter-windows-install-(\\d+(?:\\.\\d+)+)\\.exe$"
+	}
+}

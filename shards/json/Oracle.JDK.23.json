@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.oracle.com/java/technologies/javase/jdk23-archive-downloads.html",
+		"regex": "/java/23/archive/jdk-(23\\.\\d+\\.\\d+)_windows-x64_bin\\.msi"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://download.oracle.com/java/23/archive/jdk-{version}_windows-x64_bin.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.oracle.com/java/technologies/javase/{version|.|-}-relnotes.html"
+	}
+}

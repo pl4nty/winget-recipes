@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hunterbeanland",
+		"repo": "AutoVer"
+	},
+	"urls": [
+		"https://github.com/hunterbeanland/AutoVer/releases/download/{github.rawTag}/AutoVer-setup{version|.|}.exe"
+	]
+}
