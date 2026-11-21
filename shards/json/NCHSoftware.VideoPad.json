@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.nchsoftware.com/videopad/versions.html",
+		"regex": "<h2>Version (\\d+(?:\\.\\d+)+)</h2>\\s*Windows Release"
+	},
+	"urls": [
+		{ "url": "https://www.nchsoftware.com/videopad/vppsetup.exe" },
+		{ "url": "https://www.nchsoftware.com/download/videopadsetup64.exe", "architecture": "x64" }
+	],
+	"replace": true
+}
