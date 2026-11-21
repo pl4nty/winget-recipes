@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://downloads.wdc.com/wdapp/WDSecurity_WIN.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["WDSecuritySetup.exe"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.wdc.com/wdapp/WDSecurity_WIN.zip",
+		"header": "etag"
+	},
+	"replace": true
+}

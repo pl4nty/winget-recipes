@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "spacedriveapp",
+		"repo": "spacedrive"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/spacedriveapp/spacedrive/releases/download/{github.rawTag}/Spacedrive-windows-x86_64.msi",
+			"architecture": "x64"
+		}
+	]
+}

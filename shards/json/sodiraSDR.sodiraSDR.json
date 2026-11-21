@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sodirasdr.de/",
+		"regex": "download/sodiraSDR_(?<raw>\\d+_\\d+_\\d+)\\.zip"
+	},
+	"version": "{captures.raw|_|.}",
+	"urls": [
+		{
+			"url": "https://www.sodirasdr.de/download/sodiraSDR_{captures.raw}.zip",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sodirasdr.de/"
+	}
+}
