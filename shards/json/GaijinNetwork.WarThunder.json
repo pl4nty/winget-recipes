@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://yupmaster.gaijinent.com/launcher/current.php?id=WarThunderLauncher"
+		],
+		"regex": "/wt_launcher_(?<version>\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"urls": [
+		{ "url": "https://cdnnow-distr.gaijinent.com/wt_launcher_{version}.exe", "architecture": "x64" }
+	]
+}
