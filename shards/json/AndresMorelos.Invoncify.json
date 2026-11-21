@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AndresMorelos",
+		"repo": "Invoncify"
+	},
+	"urls": [
+		"https://github.com/AndresMorelos/Invoncify/releases/download/{github.rawTag}/Invoncify-Setup-{version}.exe"
+	]
+}

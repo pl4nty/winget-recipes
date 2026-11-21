@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Artikash",
+		"repo": "Textractor"
+	},
+	"urls": [
+		"https://github.com/Artikash/Textractor/releases/download/{github.rawTag}/Textractor-{version}-Setup.exe"
+	]
+}
