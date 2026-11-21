@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://help.laurel.ai/en/articles/15538858-windows-assistant-2-0-release-log",
+		"regex": "https://download\\.laurel\\.ai/installer/windows/Launcher/Laurel\\.Launcher_(\\d+(?:\\.\\d+)+)_x64\\.msi"
+	},
+	"urls": [
+		{
+			"url": "https://download.laurel.ai/installer/windows/Launcher/Laurel.Launcher_{version}_x64.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://download.laurel.ai/installer/windows/Launcher/Laurel.Launcher_{version}_arm64.msi",
+			"architecture": "arm64"
+		}
+	]
+}
