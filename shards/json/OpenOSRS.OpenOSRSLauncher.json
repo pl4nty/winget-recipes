@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "open-osrs",
+		"repo": "launcher"
+	},
+	"urls": [
+		"https://github.com/open-osrs/launcher/releases/download/{github.rawTag}/OpenOSRSSetup64.exe"
+	]
+}

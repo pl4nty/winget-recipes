@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "owlbear-rodeo",
+		"repo": "kenku-fm",
+		"method": "api-sort"
+	},
+	"urls": [
+		"https://github.com/owlbear-rodeo/kenku-fm/releases/download/{github.rawTag}/kenku-fm-win32-x64-{version}.exe"
+	]
+}

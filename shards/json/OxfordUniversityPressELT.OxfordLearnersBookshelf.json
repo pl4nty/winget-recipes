@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://d1q4kqb8azk0w4.cloudfront.net/prod/windows-ia32/latest.yml"
+	}
+}

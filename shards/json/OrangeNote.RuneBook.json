@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Soundofdarkness",
+		"repo": "RuneBook"
+	},
+	"urls": [
+		"https://github.com/Soundofdarkness/RuneBook/releases/download/{github.rawTag}/RuneBook-Setup-{version}.exe"
+	]
+}
