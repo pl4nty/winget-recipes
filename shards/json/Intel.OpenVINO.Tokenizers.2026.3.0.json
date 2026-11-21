@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://storage.openvinotoolkit.org/filetree.json",
+		"regex": "\"name\": \"openvino_tokenizers_(2026\\.3\\.0\\.\\d+)\\.msix\""
+	},
+	"urls": [
+		"https://storage.openvinotoolkit.org/repositories/openvino_tokenizers/winget/{version}/openvino_tokenizers_{version}.msix"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.openvino.ai/2026/about-openvino/release-notes-openvino.html"
+	}
+}

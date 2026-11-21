@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://cdn.efficient-elements.com/msi/ee4p_pu.msi",
+		"https://cdn.efficient-elements.com/msi/ee4p_pm.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.efficient-elements.com/msi/ee4p_pu.msi",
+		"header": "etag"
+	}
+}

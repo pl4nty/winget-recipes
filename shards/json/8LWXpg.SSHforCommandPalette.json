@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "8LWXpg",
+		"repo": "CmdPal-SSH"
+	},
+	"urls": [
+		"https://github.com/8LWXpg/CmdPal-SSH/releases/download/{github.rawTag}/8LWXpg.SSHforCommandPalette_{version}.msixbundle"
+	]
+}

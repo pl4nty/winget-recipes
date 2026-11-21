@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AntSeed",
+		"repo": "antseed"
+	},
+	"urls": [
+		"https://github.com/AntSeed/antseed/releases/download/{github.rawTag}/Antseed-Desktop-Setup-{version}.exe"
+	]
+}

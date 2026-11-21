@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.plasticscm.com/download",
+		"regex": "Download Cloud Edition installer for version (\\d+(?:\\.\\d+)+), Windows"
+	},
+	"urls": [
+		"https://d26z97tczqnlef.cloudfront.net/releases/{version}/plasticscm/windows/unity-vcs-{version}-win.exe"
+	]
+}
