@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://git.silica.codes/api/v1/repos/Li/DumpDVD/releases/latest",
+		"path": "tag_name"
+	},
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://git.silica.codes/Li/DumpDVD/releases/download/{data.tag_name}/DumpDVD.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "{data.html_url}"
+	}
+}
