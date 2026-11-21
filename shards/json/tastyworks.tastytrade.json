@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://tastytrade.com/page-data/desktop-platform/page-data.json",
+		"path": "result.pageContext.globalSettings.tastyworksSoftware.desktopVersion"
+	},
+	"urls": [
+		"https://download.tastytrade.com/desktop-2.x.x/{version}/tastytrade-{version}.msi"
+	],
+	"cleanup": false
+}

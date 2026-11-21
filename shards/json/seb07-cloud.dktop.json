@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "seb07-cloud",
+		"repo": "dktop"
+	},
+	"urls": [
+		"https://github.com/seb07-cloud/dktop/releases/download/{github.rawTag}/dktop-windows-amd64.exe"
+	]
+}

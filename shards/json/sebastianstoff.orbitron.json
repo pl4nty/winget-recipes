@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stoff.pl/",
+		"regex": "Orbitron (\\d+(?:\\.\\d+)+), size"
+	},
+	"urls": [
+		"https://www.stoff.pl/orbitron/files/orbitron.exe"
+	],
+	"cleanup": false
+}
