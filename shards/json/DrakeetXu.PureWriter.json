@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://writer.drakeet.com/desktop",
+		"regex": "kuromi\\.drakeet\\.cn/PureWriter-(?<version>\\d+(?:\\.\\d+)+)-Windows-x64\\.exe"
+	},
+	"urls": [
+		"https://kuromi.drakeet.cn/PureWriter-{version}-Windows-x64.exe"
+	]
+}

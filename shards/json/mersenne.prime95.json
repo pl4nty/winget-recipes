@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mersenne.org/download/",
+		"regex": "download\\.mersenne\\.ca/gimps/v(?<major>\\d+)/(?<minor>\\d+\\.\\d+)/p95v(?<num>\\d+)b(?<build>\\d+)\\.win64\\.zip"
+	},
+	"version": "{captures.minor}b{captures.build}",
+	"urls": [
+		"https://download.mersenne.ca/gimps/v{captures.major}/{captures.minor}/p95v{captures.num}b{captures.build}.win32.zip",
+		"https://download.mersenne.ca/gimps/v{captures.major}/{captures.minor}/p95v{captures.num}b{captures.build}.win64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.mersenne.org/download/"
+	}
+}

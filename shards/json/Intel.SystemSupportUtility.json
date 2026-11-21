@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.intel.com/content/www/us/en/download/18377/intel-system-support-utility-for-windows.html",
+		"regex": "downloadmirror\\.intel\\.com/(?<id>\\d+)/SSU64_(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://downloadmirror.intel.com/{captures.id}/SSU64_{version}.exe",
+		"https://downloadmirror.intel.com/{captures.id}/SSU32_{version}.exe"
+	],
+	"state": {
+		"source": "value",
+		"value": "{version}"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://downloadmirror.intel.com/{captures.id}/SSU_{captures.version}.txt"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://click.smartalbums.com/downloads/smartalbums-windows/psa/x64"],
+		"regex": "/SmartAlbums-(\\d+(?:\\.\\d+)+)-x64\\.exe$"
+	}
+}
