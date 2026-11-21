@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "patrickiel",
+		"repo": "VolumeScroller"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/patrickiel/VolumeScroller/releases/download/{github.rawTag}/Volume.Scroller.{version}.exe",
+			"architecture": "x64"
+		}
+	]
+}

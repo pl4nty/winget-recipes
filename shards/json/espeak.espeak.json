@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/espeak/rss",
+		"regex": "/files/espeak/(?<dir>espeak-[\\d.]+)/setup_espeak-(?<version>\\d+(?:\\.\\d+)+)\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/espeak/files/espeak/{captures.dir}/setup_espeak-{version}.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://espeak.sourceforge.net/"
+	}
+}

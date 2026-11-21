@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ultrapico.com/ExpressoDownload.htm",
+		"regex": "href=\"ExpressoSetup-(?<version>\\d+(?:\\.\\d+)+)\\.msi\""
+	},
+	"urls": [
+		{
+			"url": "https://ultrapico.com/ExpressoSetup-{version}.msi",
+			"architecture": "neutral"
+		}
+	]
+}

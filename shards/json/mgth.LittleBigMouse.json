@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mgth",
+		"repo": "LittleBigMouse"
+	},
+	"version": "{version}.0",
+	"urls": [
+		{
+			"url": "https://github.com/mgth/LittleBigMouse/releases/download/v{version}/LittleBigMouse_{version}.exe",
+			"architecture": "x64"
+		}
+	]
+}

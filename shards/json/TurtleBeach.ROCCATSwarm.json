@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://acpv.prod.turtlebeach.com/support/software/us/376/ROCCAT-Swarm.zip"
+		],
+		"regex": "/ROCCAT_Swarm_(\\d+(?:\\.\\d+)+)\\.zip$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.turtlebeach.com/s/downloads?language=en_US#/76/Roccat/ROCCAT-Swarm"
+	}
+}
