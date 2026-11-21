@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "domcyrus",
+		"repo": "rustnet"
+	},
+	"urls": [
+		"https://github.com/domcyrus/rustnet/releases/download/{github.rawTag}/Rustnet_Windows_32-bit.msi",
+		"https://github.com/domcyrus/rustnet/releases/download/{github.rawTag}/Rustnet_Windows_64-bit.msi"
+	]
+}

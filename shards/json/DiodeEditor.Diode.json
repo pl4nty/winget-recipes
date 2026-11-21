@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "diode-editor",
+		"repo": "diode"
+	},
+	"urls": [
+		"https://github.com/diode-editor/diode/releases/download/{github.rawTag}/diode-windows-x64.exe"
+	]
+}
