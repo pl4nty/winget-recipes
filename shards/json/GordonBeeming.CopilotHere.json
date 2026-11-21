@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "GordonBeeming",
+		"repo": "copilot_here"
+	},
+	"urls": [
+		"https://github.com/GordonBeeming/copilot_here/releases/download/{github.rawTag}/copilot_here-win-arm64.zip",
+		"https://github.com/GordonBeeming/copilot_here/releases/download/{github.rawTag}/copilot_here-win-x64.zip"
+	]
+}
