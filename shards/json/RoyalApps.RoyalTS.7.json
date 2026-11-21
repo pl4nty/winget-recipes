@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.royalapps.com/ts/win/download",
+		"regex": "RoyalTSInstaller_(?<file>(?<version>7)\\.0*(?<minor>\\d+)\\.(?<build>\\d+\\.\\d+))_x64\\.msi"
+	},
+	"version": "{version}.{captures.minor}.{captures.build}",
+	"urls": [
+		"https://download.royalapps.com/royalts/RoyalTSInstaller_{captures.file}_x64.msi",
+		"https://download.royalapps.com/royalts/RoyalTSInstaller_{captures.file}_ARM64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.royalapps.com/go/kb-ts-win-v7-releasenotes"
+	}
+}
