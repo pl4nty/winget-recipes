@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "N0deZ3r0", "repo": "Win11Privacy" },
+	"urls": [
+		{ "url": "https://github.com/N0deZ3r0/Win11Privacy/releases/download/v{version}/Win11Privacy.exe", "architecture": "x64" }
+	]
+}
