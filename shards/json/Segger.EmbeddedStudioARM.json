@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.segger.com/downloads/embedded-studio/",
+		"regex": "Setup_EmbeddedStudio_Windows_x86_64\\.exe&quot;,&quot;filename&quot;:&quot;Setup_EmbeddedStudio_v(?<file>\\d+[a-z]?)_Windows_x86_64\\.exe.*?&quot;version&quot;:&quot;V(?<version>\\d+\\.\\d+[a-z]?)&quot;"
+	},
+	"urls": [
+		"https://www.segger.com/fd/embedded-studio/Setup_EmbeddedStudio_v{captures.file}_Windows_x86_64.exe",
+		"https://www.segger.com/fd/embedded-studio/Setup_EmbeddedStudio_v{captures.file}_Windows_arm64.exe"
+	]
+}
