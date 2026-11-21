@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "brackets-cont",
+		"repo": "brackets"
+	},
+	"urls": [
+		"https://github.com/brackets-cont/brackets/releases/download/{github.rawTag}/Brackets-{version}.exe"
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.bitrecover.com/windows-live-mail-converter/",
+		"regex": "\"softwareVersion\"\\s*:\\s*\"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://dl.bitrecover.com/bitrecover-windows-live-mail-converter-wizard.exe"],
+	"replace": true
+}

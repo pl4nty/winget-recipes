@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.incredibuild.com/site-landing/download-docs-center",
+		"regex": "downloads\\.incredibuild\\.com/incredibuild(?<version>\\d+\\.\\d+\\.\\d+)_(?<build>\\d+)-cmd\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://downloads.incredibuild.com/incredibuild{version}_{captures.build}-cmd.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.incredibuild.com/windows/release-notes"
+	}
+}

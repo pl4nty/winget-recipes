@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sideloadly.io/",
+		"regex": ">v(\\d+(?:\\.\\d+)+) &middot; macOS [^<]*Windows"
+	},
+	"urls": [
+		"https://sideloadly.io/SideloadlySetup32.exe",
+		{
+			"url": "https://sideloadly.io/SideloadlySetup64.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sideloadly.io/#changelog"
+	}
+}

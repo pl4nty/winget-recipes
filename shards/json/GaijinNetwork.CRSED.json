@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://yupmaster-proxy-02.gaijin.net/launcher/current.php?id=CuisineRoyaleLauncher"],
+		"regex": "\\.gaijinent\\.com/cr_launcher_(\\d+(?:\\.\\d+)+)\\.exe(?:\\?|$)"
+	},
+	"urls": ["https://aws-yup-distr-03.gaijinent.com/cr_launcher_{version}.exe"]
+}
