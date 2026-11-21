@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.hissenit.com/en/academy/downloads/HissenIT-Academy-Preview---it-security-awareness-for-employees-and-individuals.zip",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.hissenit.com/en/academy/downloads/HissenIT-Academy-Preview---it-security-awareness-for-employees-and-individuals.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
