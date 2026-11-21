@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "vadimgrn", "repo": "usbip-win2", "tagRegex": "^v?\\." },
+	"urls": [
+		"https://github.com/vadimgrn/usbip-win2/releases/download/v.{version}/USBip-{version}-x64.exe",
+		"https://github.com/vadimgrn/usbip-win2/releases/download/v.{version}/USBip-{version}-arm64.exe"
+	]
+}
