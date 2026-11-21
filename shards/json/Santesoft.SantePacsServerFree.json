@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.santesoft.com/win/sante-free-pacs-server/download.html",
+		"regex": "sante_free_pacs_server\\.zip\">\\s*Sante Free PACS Server Version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.santesoft.com/files/win/sante_free_pacs_server.zip",
+			"architecture": "x64"
+		}
+	]
+}

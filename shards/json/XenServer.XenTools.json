@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.xenserver.com/downloads",
+		"regex": "vm-tools-windows/(?<version>\\d+\\.\\d+\\.\\d+)(?<build>\\.\\d+)/managementagentx64-"
+	},
+	"urls": [
+		"https://downloads.xenserver.com/vm-tools-windows/{version}{captures.build}/managementagentx64-{version}{captures.build}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.citrix.com/s/article/CTX235403-updates-to-xenserver-vm-tools-for-windows-for-xenserver-and-citrix-hypervisor?language=en_US"
+	}
+}

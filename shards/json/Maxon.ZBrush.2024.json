@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.maxon.net/en/downloads",
+		"regex": "installer/windows/maxon/zbrush/releases/(\\d+(?:\\.\\d+)+)/ZBrush_[\\d.]+_Installer\\.exe"
+	},
+	"urls": [
+		"https://mx-app-blob-prod.maxon.net/mx-package-production/installer/windows/maxon/zbrush/releases/{version}/ZBrush_{version}_Installer.exe"
+	]
+}
