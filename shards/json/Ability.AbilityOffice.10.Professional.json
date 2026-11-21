@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://ability.com/ab10/msi/AbilityPRO10_EN.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://ability.com/ab10/msi/AbilityPRO10_EN.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
