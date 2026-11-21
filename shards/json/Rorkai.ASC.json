@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rorkai",
+		"repo": "App-Store-Connect-CLI"
+	},
+	"urls": ["https://github.com/rorkai/App-Store-Connect-CLI/releases/download/{version}/asc_{version}_windows_amd64.exe"]
+}
