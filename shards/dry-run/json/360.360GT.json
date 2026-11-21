@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://browser.360.cn/gt/",
+		"regex": "360gt(\\d+(?:\\.\\d+){3})\\.exe"
+	},
+	"urls": [
+		"https://down.360safe.com/gt/360gt{version}.exe"
+	]
+}

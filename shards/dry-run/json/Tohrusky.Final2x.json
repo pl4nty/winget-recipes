@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "EutropicAI",
+		"repo": "Final2x",
+		"method": "api-sort",
+		"assetRegex": "-windows-(x64|arm64)-setup\\.exe$"
+	},
+	"version": { "source": "display" }
+}

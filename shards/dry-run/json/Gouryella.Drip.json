@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Gouryella",
+		"repo": "drip",
+		"method": "api-sort",
+		"assetRegex": "-windows-(amd64|arm64)\\.exe$"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.airexplorer.net/downloads/AirExplorer-OnlineInstaller.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.airexplorer.net/en/history/"
+	}
+}

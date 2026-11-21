@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://cjwdev-pub.s3.amazonaws.com/ServicePermissionsReporter/ServicePermissionsReporter.zip",
+			"nestedInstallerMatches": [
+				"ServicePermissionsReporter.exe"
+			]
+		}
+	]
+}

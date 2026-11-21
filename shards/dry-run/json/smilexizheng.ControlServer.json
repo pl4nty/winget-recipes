@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "smilexizheng",
+		"repo": "mobile-pc-control-server",
+		"method": "api-sort",
+		"assetRegex": "-(x64|arm64)-setup\\.exe$"
+	}
+}
