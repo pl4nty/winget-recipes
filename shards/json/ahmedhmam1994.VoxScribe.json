@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ahmedhmam1994",
+		"repo": "voxscribe-ai-voice-dictation",
+		"method": "api-sort",
+		"assetRegex": "^(?:VoxScribe\\-Setup\\.exe)$"
+	}
+}
