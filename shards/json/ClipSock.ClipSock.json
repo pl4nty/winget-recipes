@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sstallion",
+		"repo": "ClipSock"
+	},
+	"urls": [
+		"https://github.com/sstallion/ClipSock/releases/download/{github.rawTag}/ClipSock-{version}-x64.msi",
+		"https://github.com/sstallion/ClipSock/releases/download/{github.rawTag}/ClipSock-{version}-x86.msi"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download.censoft.com/download/ttweb/?C=M;O=D",
+		"regex": "href=\"TinyTERM_Enterprise_TE_Server-Windows-(?<version>\\d+(?:\\.\\d+)+)_(?<build>\\d+)\\.msi\""
+	},
+	"urls": [
+		"https://download.censoft.com/download/ttweb/TinyTERM_Enterprise_TE_Server-Windows-{version}_{captures.build}.msi"
+	]
+}

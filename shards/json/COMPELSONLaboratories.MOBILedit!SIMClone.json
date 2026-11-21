@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mobiledit.com/download-list/sim-cloning-tool",
+		"regex": "/mobiledit!/setup_SimClone_(?<version>\\d+(?:_\\d+)+)\\.exe"
+	},
+	"version": "{captures.version|_|.}.0",
+	"urls": [
+		"https://download.mobiledit.com/mobiledit!/setup_SimClone_{captures.version}.exe"
+	]
+}

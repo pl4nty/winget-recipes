@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mobiledit.com/download-list/camera-ballistic",
+		"regex": "Version\\s+(?<version>\\d+(?:\\.\\d+){3})\\s"
+	},
+	"urls": [
+		"https://download.mobiledit.com/mobiledit!/setup_CameraBallistics_{version}_x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.mobiledit.com/camera-ballistics/whats-new"
+	}
+}

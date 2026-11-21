@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CelestiaProject",
+		"repo": "Celestia"
+	},
+	"urls": [
+		"https://github.com/CelestiaProject/Celestia/releases/download/{github.rawTag}/celestia-{version}.exe"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.chemaxon.com/latest/marvin_history-of-changes.html",
+		"regex": ": Marvin Desktop Suite (?<version>\\d+\\.\\d+\\.\\d+)<"
+	},
+	"urls": [
+		"https://dl.chemaxon.com/marvin/{version}/marvin_windows-x64_{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.chemaxon.com/latest/marvin_history-of-changes.html"
+	}
+}

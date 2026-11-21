@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://disthost.umbrella.com/roaming/upgrade/win/production/manifest.json",
+		"path": "nextVersion"
+	},
+	"urls": [
+		"https://disthost.umbrella.com/roaming/upgrade/win/production/{data.downloadFilename}"
+	]
+}

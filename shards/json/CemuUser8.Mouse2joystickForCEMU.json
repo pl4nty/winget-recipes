@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CemuUser8",
+		"repo": "mouse2joystick_custom_CEMU"
+	},
+	"urls": [
+		"https://github.com/CemuUser8/mouse2joystick_custom_CEMU/releases/download/{github.rawTag}/mouse2joystick_custom_CEMU.zip"
+	]
+}
