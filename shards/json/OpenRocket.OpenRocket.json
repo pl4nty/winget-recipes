@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "openrocket",
+		"repo": "openrocket",
+		"tagRegex": "^release-"
+	},
+	"urls": [
+		{ "url": "https://github.com/openrocket/openrocket/releases/download/{github.rawTag}/OpenRocket-{version}-installer-Windows-x86_64.exe", "architecture": "x64" }
+	]
+}

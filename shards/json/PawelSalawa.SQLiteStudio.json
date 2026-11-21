@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pawelsalawa",
+		"repo": "letos",
+		"method": "api-sort",
+		"perPage": 50,
+		"tagRegex": "^(?=3\\.)"
+	},
+	"urls": [
+		"https://github.com/pawelsalawa/letos/releases/download/{github.rawTag}/SQLiteStudio-{version}-windows-x86-installer.exe",
+		"https://github.com/pawelsalawa/letos/releases/download/{github.rawTag}/SQLiteStudio-{version}-windows-x64-installer.exe"
+	]
+}

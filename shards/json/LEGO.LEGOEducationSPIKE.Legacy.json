@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://education.lego.com/page-data/en-us/downloads/spike-legacy-app/software/page-data.json",
+		"path": "result.pageContext.page.spots.0.items.0.software.language.0.version"
+	},
+	"urls": [
+		"result.pageContext.page.spots.0.items.0.software.language.0.url"
+	]
+}

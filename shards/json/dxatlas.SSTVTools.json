@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dxatlas.com/SstvTools/Files/SstvTools.zip"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dxatlas.com/SstvTools/Files/SstvTools.zip",
+		"header": "etag"
+	},
+	"replace": true
+}

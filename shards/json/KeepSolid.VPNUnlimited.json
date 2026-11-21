@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.vpnunlimited.com/api/keepsolid/vpn-download?platform=windows"],
+		"regex": "/VPN_Unlimited_v?(?<version>\\d+(?:[._]\\d+)+)\\.exe$"
+	},
+	"version": "{version|_|.}"
+}

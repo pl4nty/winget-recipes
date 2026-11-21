@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://files.gpg4win.org/Beta/?C=M;O=D",
+		"regex": "href=\"gpg4win-(?<version>\\d+(?:\\.\\d+)+-beta\\d+)/\""
+	},
+	"urls": [
+		"https://files.gpg4win.org/Beta/gpg4win-{version}/gpg4win-{version}.exe"
+	]
+}
