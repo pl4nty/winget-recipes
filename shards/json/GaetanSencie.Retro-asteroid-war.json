@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "STENS66",
+		"repo": "Retro-asteroid-war"
+	},
+	"urls": [
+		"https://github.com/STENS66/Retro-asteroid-war/releases/download/{github.rawTag}/Retro-asteroid-war.exe"
+	]
+}
