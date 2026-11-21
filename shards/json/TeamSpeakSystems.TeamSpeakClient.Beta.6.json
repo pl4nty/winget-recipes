@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://teamspeak.com/en/downloads/",
+		"regex": "https://files\\.teamspeak-services\\.com/pre_releases/client/(?<version>6\\.[^/\"']+)/teamspeak-client\\.msi"
+	},
+	"urls": ["https://files.teamspeak-services.com/pre_releases/client/{version}/teamspeak-client.msi"]
+}
