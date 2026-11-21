@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ntwind.com/software/closeall.html",
+		"regex": "CloseAll_(?<version>\\d+(?:\\.\\d+)+)-setup\\.exe"
+	},
+	"urls": [
+		"https://www.ntwind.com/files/CloseAll_{version}-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ntwind.com/software/closeall/what-is-new.html"
+	}
+}
