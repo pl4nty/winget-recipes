@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.reiner-sct.com/treiber-windows",
+		"regex": "Treiber-Download Version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://dp.reiner-sct.com/downloads/dp/dp_{version|.|_}.exe"
+	]
+}
