@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://api.wemod.com/client/channels/stable/releases/latest"],
+		"regex": "/stable/Wand-(\\d+(?:\\.\\d+)+)\\.exe$"
+	}
+}
