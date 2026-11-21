@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://cdn.kde.org/ci-builds/pim/pim-sieve-editor/master/windows/",
+		"regex": "pim-sieve-editor-(?<version>master)-(?<build>\\d+)-windows-cl-msvc2022-x86_64\\.exe\""
+	},
+	"urls": [
+		"https://cdn.kde.org/ci-builds/pim/pim-sieve-editor/master/windows/pim-sieve-editor-master-{captures.build}-windows-cl-msvc2022-x86_64.exe",
+		"https://cdn.kde.org/ci-builds/pim/pim-sieve-editor/master/windows/pim-sieve-editor-master-{captures.build}-windows-cl-msvc2022-x86_64.exe"
+	],
+	"state": { "source": "value", "value": "{captures.build}" },
+	"releaseNotes": {
+		"releaseNotesUrl": "https://invent.kde.org/pim/pim-sieve-editor/-/commits/master"
+	},
+	"replace": true
+}

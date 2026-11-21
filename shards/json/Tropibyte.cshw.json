@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tropibyte",
+		"repo": "cshw-releases"
+	},
+	"urls": [
+		"https://github.com/tropibyte/cshw-releases/releases/download/{github.rawTag}/cshw-setup-{version}.exe"
+	]
+}

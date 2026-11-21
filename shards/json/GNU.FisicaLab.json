@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ftp.gnu.org/gnu/fisicalab/",
+		"regex": "fisicalab-(\\d+(?:\\.\\d+)+)-setup\\.exe(?![\\s\\S]*fisicalab-\\d+(?:\\.\\d+)+-setup\\.exe)"
+	},
+	"urls": ["https://ftp.gnu.org/gnu/fisicalab/fisicalab-{version}-setup.exe"]
+}

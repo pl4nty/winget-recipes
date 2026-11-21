@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DavLagoHern",
+		"repo": "LakeDB"
+	},
+	"urls": [
+		"https://github.com/DavLagoHern/LakeDB/releases/download/{github.rawTag}/LakeDB-{version}-win-x64-setup.exe"
+	]
+}

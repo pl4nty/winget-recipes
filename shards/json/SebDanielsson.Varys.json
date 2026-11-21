@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sebdanielsson",
+		"repo": "varys"
+	},
+	"urls": [
+		"https://github.com/sebdanielsson/varys/releases/download/{github.rawTag}/Varys-{github.rawTag}-win-x64.msi"
+	]
+}
