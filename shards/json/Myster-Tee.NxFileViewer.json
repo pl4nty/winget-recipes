@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "Myster-Tee", "repo": "NxFileViewer" },
+	"urls": [
+		{
+			"url": "https://github.com/Myster-Tee/NxFileViewer/releases/download/{version}/NxFileViewer_v{version}_x64.zip",
+			"nestedInstallerMatches": ["NxFileViewer.exe"]
+		},
+		{
+			"url": "https://github.com/Myster-Tee/NxFileViewer/releases/download/{version}/NxFileViewer_v{version}_x86.zip",
+			"nestedInstallerMatches": ["NxFileViewer.exe"]
+		}
+	]
+}
