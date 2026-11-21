@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://files.pharo.org/pharo-launcher/windows"],
+		"regex": "/pharo-launcher/(?<version>\\d+(?:\\.\\d+)+)/pharo-launcher-\\d+(?:\\.\\d+)+\\.msi$"
+	},
+	"urls": [
+		{ "url": "https://files.pharo.org/pharo-launcher/{version}/pharo-launcher-{version}.msi", "architecture": "x64" }
+	]
+}
