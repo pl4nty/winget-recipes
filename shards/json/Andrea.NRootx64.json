@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "NuggiDev",
+		"repo": "NRoot"
+	},
+	"urls": [
+		"https://github.com/NuggiDev/NRoot/releases/download/{github.rawTag}/NRootWindowsInstallerx64.msi",
+		"https://github.com/NuggiDev/NRoot/releases/download/{github.rawTag}/NRootWindowsInstallerARM64.msi",
+		"https://github.com/NuggiDev/NRoot/releases/download/{github.rawTag}/NRootWindowsInstallerx86.msi"
+	]
+}
