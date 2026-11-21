@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://relic.space/latest.json",
+		"path": "platforms.windows.version"
+	},
+	"urls": [{ "url": "https://relic.space/download/windows/relic-setup-{version}.exe", "architecture": "x64" }]
+}
