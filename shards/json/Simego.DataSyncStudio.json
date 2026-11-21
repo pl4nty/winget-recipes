@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.simego.com/licensing/release-notes/",
+		"regex": "<h4[^>]*\\bid=(?<version>\\d)(?<b>\\d)-(?<c>\\d+)---\\d+(?![\\s\\S]*<h4[^>]*\\bid=\\d\\d-\\d+---)"
+	},
+	"version": "{version}.{captures.b}.{captures.c}",
+	"urls": [
+		{
+			"url": "https://downloads.simego.com/datasync/{packageVersion}.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["_x64.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.simego.com/licensing/release-notes"
+	}
+}
