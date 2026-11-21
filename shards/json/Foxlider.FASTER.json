@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "Foxlider",
+		"repo": "FASTER"
+	},
+	"urls": [
+		"https://github.com/Foxlider/FASTER/releases/download/{github.rawTag}/Release_x64.zip"
+	]
+}
