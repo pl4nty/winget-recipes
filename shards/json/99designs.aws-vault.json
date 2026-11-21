@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "99designs",
+		"repo": "aws-vault"
+	},
+	"urls": [
+		"https://github.com/99designs/aws-vault/releases/download/{github.rawTag}/aws-vault-windows-386.exe",
+		"https://github.com/99designs/aws-vault/releases/download/{github.rawTag}/aws-vault-windows-arm64.exe"
+	]
+}

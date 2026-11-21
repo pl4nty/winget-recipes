@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PolarGoose",
+		"repo": "minisat-for-Windows",
+		"tagRegex": "(?:\\.0)*-master-[0-9a-f]+$"
+	},
+	"urls": [
+		"https://github.com/PolarGoose/minisat-for-Windows/releases/download/{github.rawTag}/minisat.zip"
+	]
+}
