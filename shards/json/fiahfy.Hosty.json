@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "fiahfy",
+		"repo": "hosty"
+	},
+	"urls": [
+		"https://github.com/fiahfy/hosty/releases/download/{github.rawTag}/hosty-setup-{version}.exe"
+	]
+}
