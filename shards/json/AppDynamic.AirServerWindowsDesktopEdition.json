@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "appinstaller",
+	"appinstaller": {
+		"url": "https://download.airserver.com/msix/AirServer-x64.appinstaller"
+	},
+	"versionRemove": ".0",
+	"urls": [
+		"https://download.airserver.com/msix/AirServer-{version}-x64.msix",
+		"https://download.airserver.com/msix/AirServer-{version}-x64.msix?p"
+	]
+}

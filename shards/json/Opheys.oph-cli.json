@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BuildmodeOne",
+		"repo": "oph-cli"
+	},
+	"urls": [
+		"https://github.com/BuildmodeOne/oph-cli/releases/download/v{version}/oph-win32-x64.exe"
+	]
+}

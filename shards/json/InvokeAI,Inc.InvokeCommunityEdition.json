@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "invoke-ai",
+		"repo": "launcher"
+	},
+	"urls": [
+		"https://github.com/invoke-ai/launcher/releases/download/v{version}/Invoke-Community-Edition-Setup-{version}.exe"
+	]
+}

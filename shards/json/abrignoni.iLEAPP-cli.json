@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "abrignoni",
+		"repo": "iLEAPP"
+	},
+	"urls": [
+		"https://github.com/abrignoni/iLEAPP/releases/download/v{version}/iLEAPP-{version}-windows-x64-portable.zip",
+		"https://github.com/abrignoni/iLEAPP/releases/download/v{version}/iLEAPP-{version}-windows-arm64-portable.zip"
+	]
+}

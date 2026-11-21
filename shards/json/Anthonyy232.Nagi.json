@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Anthonyy232",
+		"repo": "Nagi"
+	},
+	"urls": ["https://github.com/Anthonyy232/Nagi/releases/download/{github.rawTag}/Nagi.msixbundle"]
+}

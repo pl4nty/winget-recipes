@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Delido",
+		"repo": "signalrgb-wallpaper"
+	},
+	"urls": [
+		"https://github.com/Delido/signalrgb-wallpaper/releases/download/v{version}/SignalRGBWallpaperSetup-{version}.exe"
+	]
+}
