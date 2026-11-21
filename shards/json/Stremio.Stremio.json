@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://github.com/Stremio/stremio-shell/tags.atom",
+		"regex": "releases/tag/v(4\\.\\d+\\.\\d+)\""
+	},
+	"urls": ["https://dl.strem.io/shell-win/v{version}/Stremio+{version}.exe"]
+}
