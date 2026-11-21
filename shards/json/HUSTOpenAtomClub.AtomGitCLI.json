@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://atomgit.com/api/v5/repos/hust-open-atom-club/atomgit-cli/releases/latest",
+		"path": "tag_name"
+	},
+	"urls": [
+		"https://atomgit.com/hust-open-atom-club/atomgit-cli/releases/download/v{version}/ag_windows_amd64.zip",
+		"https://atomgit.com/hust-open-atom-club/atomgit-cli/releases/download/v{version}/ag_windows_arm64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://atomgit.com/hust-open-atom-club/atomgit-cli/releases"
+	}
+}

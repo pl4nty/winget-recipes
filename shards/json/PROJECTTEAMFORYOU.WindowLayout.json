@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://dl.windowlayout.com/latest.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://dl.windowlayout.com/v{version}/WindowLayout-{version}-setup-x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://windowlayout.com/en/changelog#v{version|.|-}"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JDE-Projects",
+		"repo": "Simple-Project-Manager"
+	},
+	"urls": [
+		"https://github.com/JDE-Projects/Simple-Project-Manager/releases/download/{github.rawTag}/SimpleProjectManager-v{version}-setup.exe"
+	]
+}

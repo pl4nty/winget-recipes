@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "liquidaty",
+		"repo": "zsv"
+	},
+	"urls": [
+		"https://github.com/liquidaty/zsv/releases/download/{github.rawTag}/zsv-{version}-amd64-windows-mingw.zip"
+	]
+}

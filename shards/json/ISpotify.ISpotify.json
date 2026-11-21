@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "itzlalpekhlua",
+		"repo": "ISpotify-Releases"
+	},
+	"urls": [
+		"https://github.com/itzlalpekhlua/ISpotify-Releases/releases/download/v{version}/ISpotify-Setup-x86_64.exe"
+	]
+}
