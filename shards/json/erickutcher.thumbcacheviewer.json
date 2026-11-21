@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "thumbcacheviewer",
+		"repo": "thumbcacheviewer",
+		"method": "api-sort",
+		"assetRegex": "^thumbcache_viewer_(?:32|64)\\.zip$"
+	}
+}

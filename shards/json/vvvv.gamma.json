@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vvvv.org/download",
+		"regex": "builds/id:(?<id>\\d+)/artifacts/content/vvvv_gamma_(?<version>\\d+(?:\\.\\d+)+)-win-x64_setup\\.exe"
+	},
+	"urls": ["https://teamcity.vvvv.org/guestAuth/app/rest/builds/id:{captures.id}/artifacts/content/vvvv_gamma_{version}-win-x64_setup.exe"]
+}
