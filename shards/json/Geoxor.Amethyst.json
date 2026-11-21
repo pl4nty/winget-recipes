@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Geoxor",
+		"repo": "Amethyst",
+		"method": "api-sort",
+		"assetRegex": "^(?:Amethyst\\-Setup\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
