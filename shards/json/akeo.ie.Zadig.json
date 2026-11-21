@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://zadig.akeo.ie/Zadig_win.ver",
+		"regex": "^(?=[\\s\\S]*?\\bversion = (?<version>\\d+(?:\\.\\d+)+)\\s)(?=[\\s\\S]*?\\bdownload_url = (?<url>https://github\\.com/pbatard/libwdi/releases/download/(?<tag>[^/]+)/zadig-[\\d.]+\\.exe)\\s)"
+	},
+	"urls": ["{captures.url}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/pbatard/libwdi/releases/tag/{captures.tag}"
+	}
+}
