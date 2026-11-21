@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.alcpu.com/CoreTemp/",
+		"regex": "https://www\\.alcpu\\.com/CoreTemp/Core\\-Temp\\-setup\\-v(\\d+(?:\\.\\d+)+)\\.207\\.exe"
+	},
+	"urls": [
+		"https://www.alcpu.com/CoreTemp/Core-Temp-setup-v{version}.207.exe"
+	]
+}
