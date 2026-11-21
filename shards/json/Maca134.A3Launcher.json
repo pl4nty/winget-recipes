@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://app.a3launcher.com/updates/setup_a3launcher.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://app.a3launcher.com/updates/setup_a3launcher.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

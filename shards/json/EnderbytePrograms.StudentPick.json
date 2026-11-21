@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Enderbyte09",
+		"repo": "StudentPick"
+	},
+	"urls": [
+		"https://github.com/Enderbyte09/StudentPick/releases/download/{github.rawTag}/studentpick-setup-{github.rawTag}.exe"
+	]
+}

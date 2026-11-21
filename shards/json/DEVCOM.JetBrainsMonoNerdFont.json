@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DevelopersCommunity",
+		"repo": "wix-JetBrainsMonoNF"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/DevelopersCommunity/wix-JetBrainsMonoNF/releases/download/{github.rawTag}/JetBrainsMono.msi",
+			"architecture": "neutral"
+		}
+	]
+}
