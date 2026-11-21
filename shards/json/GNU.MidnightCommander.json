@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "adamyg",
+		"repo": "mcwin32",
+		"method": "api-latest",
+		"assetRegex": "^mcwin32-build\\d+(?:-x64)?-setup\\.exe$"
+	}
+}
