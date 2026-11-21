@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.xdlab.ru/en/download.htm",
+		"regex": "/files/tagscan-(\\d+(?:\\.\\d+)+)-setup\\.exe"
+	},
+	"urls": ["https://www.xdlab.ru/files/tagscan-{version}-setup.exe", "https://www.xdlab.ru/files/tagscan-{version}_x64-setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.xdlab.ru/en/history.htm"
+	}
+}
