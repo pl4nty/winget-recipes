@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elieserdejesus",
+		"repo": "JamTaba"
+	},
+	"urls": [
+		{ "url": "https://github.com/elieserdejesus/JamTaba/releases/download/{github.rawTag}/Jamtaba.2.32.bits.installer.exe" },
+		{ "url": "https://github.com/elieserdejesus/JamTaba/releases/download/{github.rawTag}/Jamtaba.2.64.bits.installer.exe", "architecture": "x64" }
+	]
+}
