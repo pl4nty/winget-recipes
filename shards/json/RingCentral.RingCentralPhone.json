@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": ["https://downloads.ringcentral.com/sp/RingCentralForWindows"],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.ringcentral.com/sp/RingCentralForWindows",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.ringcentral.com/release-notes/ringex/phone/phone-desktop.html"
+	},
+	"replace": true
+}
