@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/Moosync/Moosync/releases/latest/download/latest.json"
+	},
+	"urls": [
+		"https://github.com/Moosync/Moosync/releases/download/Moosync-v{version}/Moosync_{version}_x64-setup.exe"
+	],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "Moosync",
+		"repo": "Moosync",
+		"tag": "Moosync-v{version}"
+	}
+}
