@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.iconedit2.com/download/IconEdit2_Setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.iconedit2.com/download/IconEdit2_Setup.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}

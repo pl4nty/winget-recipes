@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://duo.com/docs/checksums",
+		"regex": "DuoDeviceHealth-(?<version>\\d+\\.\\d+\\.\\d+)\\.msi"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://dl.duosecurity.com/DuoDeviceHealth-{version}.msi"
+	]
+}

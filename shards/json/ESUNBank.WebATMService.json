@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://netbank.esunbank.com.tw/webatm/assets/ActiveX/ESUNATM_ServiceInstallUI.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://netbank.esunbank.com.tw/webatm/assets/ActiveX/ESUNATM_ServiceInstallUI.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}

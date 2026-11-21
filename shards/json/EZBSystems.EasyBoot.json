@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dw.ezbsystems.com/ezb6_en.exe",
+		"https://dw.ezbsystems.com/ezb6_cn.exe",
+		"https://dw.ezbsystems.com/ezb6_tw.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dw.ezbsystems.com/ezb6_en.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}

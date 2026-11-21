@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "http://bluegriffon.org/freshmeat/",
+		"regex": "href=\"(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": [
+		"http://bluegriffon.org/freshmeat/{version}/bluegriffon-{version}.win-x86_64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/therealglazou/bluegriffon/releases/tag/{version}"
+	}
+}
