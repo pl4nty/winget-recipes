@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mkckr0",
+		"repo": "audio-share"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/mkckr0/audio-share/releases/download/{github.rawTag}/audio-share-server-cmd-windows.zip",
+			"nestedInstallerMatches": ["audio-share-server-cmd/bin/as-cmd.exe"]
+		}
+	]
+}

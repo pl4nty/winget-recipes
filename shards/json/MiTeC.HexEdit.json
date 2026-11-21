@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mitec.cz/wp/mhex/",
+		"regex": "changelog-scroll-wrapper[\\s\\S]*?<b>(\\d+(?:\\.\\d+)+)</b>"
+	},
+	"urls": [
+		{
+			"url": "https://www.mitec.cz/wp/files/HEXEdit.zip",
+			"nestedInstallerMatches": ["HEXEdit.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.mitec.cz/wp/xml/vh_hex.xml"
+	}
+}

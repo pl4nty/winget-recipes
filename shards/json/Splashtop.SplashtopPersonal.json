@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://my.splashtop.com/stp-src/win"],
+		"method": "get",
+		"regex": "/Splashtop_Personal_Win_v(?<version>(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)\\.(?<build>\\d+))\\.exe$"
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.patch}00.{captures.build}"
+}
