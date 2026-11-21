@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "trzsz",
+		"repo": "lrzsz-win32"
+	},
+	"urls": [
+		"https://github.com/trzsz/lrzsz-win32/releases/download/{github.rawTag}/lrzsz_{version}_windows_x86_64.zip"
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://dbschema.com/download.html",
+		"regex": "dbschema_windows_(\\d+_\\d+_\\d+)\\.exe"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://dbschema.com/download/dbschema_windows_{version}.exe",
+		"https://dbschema.com/download/dbschema_windows_arm_{version}.exe",
+		"https://dbschema.com/download/dbschema_windows_{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://dbschema.com/release-notes/"
+	}
+}
