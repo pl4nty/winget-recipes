@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://updates.wavevms.com/hanwha/releases.json",
+		"regex": "\"product\":\\s*\"vms\",\\s*\"version\":\\s*\"(?<version>\\d+\\.\\d+\\.\\d+\\.(?<build>\\d+))\",[^}]*?\"publication_type\":\\s*\"release\""
+	},
+	"urls": ["https://updates.wavevms.com/hanwha/{captures.build}/windows/wave-client-{version}-windows_x64.exe"]
+}
