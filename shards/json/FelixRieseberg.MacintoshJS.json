@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "felixrieseberg",
+		"repo": "macintosh.js"
+	},
+	"urls": [
+		"https://github.com/felixrieseberg/macintosh.js/releases/download/{github.rawTag}/macintoshjs-{version}-setup-x64.exe"
+	]
+}

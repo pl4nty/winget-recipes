@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FlorianFe",
+		"repo": "Cells"
+	},
+	"urls": [
+		"https://github.com/FlorianFe/Cells/releases/download/{github.rawTag}/Cells.exe"
+	]
+}

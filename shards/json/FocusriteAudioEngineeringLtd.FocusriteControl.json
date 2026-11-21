@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.focusrite.com/focusrite/scarlett-3rd-gen/scarlett-2i2-3rd-gen",
+		"regex": "https://fael-downloads-prod\\.focusrite\\.com/customer/prod/downloads/(?<file>focusrite_control_v(?<version>\\d+(?:_\\d+)+)\\.exe)"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://fael-downloads-prod.focusrite.com/customer/prod/downloads/{captures.file}"
+	],
+	"cleanup": false
+}

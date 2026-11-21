@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "firejox",
+		"repo": "WinSocat"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/firejox/WinSocat/releases/download/{github.rawTag}/winsocat-portable-arm64-{version}.zip",
+			"architecture": "arm64"
+		},
+		{
+			"url": "https://github.com/firejox/WinSocat/releases/download/{github.rawTag}/winsocat-portable-x64-{version}.zip",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/firejox/WinSocat/releases/download/{github.rawTag}/winsocat-portable-x86-{version}.zip",
+			"architecture": "x86"
+		}
+	]
+}

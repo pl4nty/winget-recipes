@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/klavaro/rss?path=/",
+		"regex": "/projects/klavaro/files/klavaro-(\\d+(?:\\.\\d+)+)-win-setup\\.exe/download"
+	},
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/klavaro/files/klavaro-{version}-win-setup.exe/download",
+			"architecture": "x64"
+		}
+	],
+	"cleanup": false
+}
