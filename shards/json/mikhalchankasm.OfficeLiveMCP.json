@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mikhalchankasm",
+		"repo": "office-live-mcp"
+	},
+	"urls": [
+		"https://github.com/mikhalchankasm/office-live-mcp/releases/download/{github.rawTag}/office-live-mcp-{version}-setup.exe"
+	]
+}

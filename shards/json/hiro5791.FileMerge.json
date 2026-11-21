@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hiro5791",
+		"repo": "FileMerge"
+	},
+	"urls": [
+		"https://github.com/hiro5791/FileMerge/releases/download/{github.rawTag}/FileMerge-{version}-setup-x64.exe"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.speed-soft.de/software/time_sync/?language=en",
+		"regex": "Version (?<version>(?<short>\\d+\\.\\d+)) ·"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://www.speed-soft.de/files/setup_timesync_{captures.short|.|}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.speed-soft.de/go/timesync-releasenotes?version={captures.short}&language=en"
+	}
+}

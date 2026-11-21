@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.defined.net/v1/downloads",
+		"path": "data.versionInfo.latest.dnclient"
+	},
+	"urls": [
+		"https://dl.defined.net/stable/binaries/dnclient/v{version}/windows/amd64/DNClient-Desktop.msi",
+		"https://dl.defined.net/stable/binaries/dnclient/v{version}/windows/arm64/DNClient-Desktop.msi"
+	]
+}
