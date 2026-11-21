@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gaozhangmin",
+		"repo": "boxplayer"
+	},
+	"urls": [
+		"https://github.com/gaozhangmin/boxplayer/releases/download/{github.rawTag}/boxplayer-{version}-win-x64.exe"
+	]
+}
