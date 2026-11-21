@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://wiresock.net/wiresock-sdk",
+		"regex": "product=wiresock-secure-connect-sdk&amp;platform=windows_x64&amp;version=(?<build>(?<version>\\d+\\.\\d+\\.\\d+)\\.\\d+)"
+	},
+	"urls": [
+		"https://wiresock.net/_api/download-release.php?product=wiresock-secure-connect-sdk&platform=x86&version={captures.build}&channel=winget",
+		"https://wiresock.net/_api/download-release.php?product=wiresock-secure-connect-sdk&platform=x64&version={captures.build}&channel=winget",
+		"https://wiresock.net/_api/download-release.php?product=wiresock-secure-connect-sdk&platform=ARM64&version={captures.build}&channel=winget"
+	]
+}
