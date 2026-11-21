@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://forum.mikrotik.com/c/announcements/5.rss",
+		"regex": "download\\.mikrotik\\.com/routeros/winbox/(\\d+\\.\\d+(?:beta|rc)\\d+)/WinBox_Windows\\.zip"
+	},
+	"urls": [
+		"https://download.mikrotik.com/routeros/winbox/{version}/WinBox_Windows.zip",
+		"https://download.mikrotik.com/routeros/winbox/{version}/WinBox_Windows_arm64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://mikrotik.com/download/changelogs?type=winbox"
+	}
+}
