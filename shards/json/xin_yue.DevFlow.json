@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "daphnee-ovo", "repo": "dev-flow" },
+	"urls": [
+		"https://github.com/daphnee-ovo/dev-flow/releases/download/v{version}/dow-v{version}-windows-x86_64.tar.gz"
+	]
+}
