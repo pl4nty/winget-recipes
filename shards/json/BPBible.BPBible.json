@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bpbible",
+		"repo": "bpbible",
+		"tagRegex": "^release\\-"
+	},
+	"urls": [
+		"https://github.com/bpbible/bpbible/releases/download/{github.rawTag}/bpbible-{version}-setup.exe"
+	]
+}
