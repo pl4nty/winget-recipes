@@ -1,0 +1,26 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.coreftp.com/server/download/mini-sftp-server.x64.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://www.coreftp.com/server/download/mini-sftp-server.exe",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.coreftp.com/server/download/mini-sftp-server.x64.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.coreftp.com/forums/viewtopic.php?t=4064705"
+	},
+	"replace": true
+}
