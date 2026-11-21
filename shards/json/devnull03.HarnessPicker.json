@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "devnull03",
+		"repo": "harness-picker"
+	},
+	"urls": [
+		"https://github.com/devnull03/harness-picker/releases/download/{github.rawTag}/hpick-windows-x86_64.exe"
+	]
+}

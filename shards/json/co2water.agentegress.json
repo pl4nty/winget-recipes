@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "co2water",
+		"repo": "agentegress"
+	},
+	"urls": [
+		"https://github.com/co2water/agentegress/releases/download/{github.rawTag}/agentegress_v{version}_windows_amd64.zip",
+		"https://github.com/co2water/agentegress/releases/download/{github.rawTag}/agentegress_v{version}_windows_arm64.zip"
+	]
+}

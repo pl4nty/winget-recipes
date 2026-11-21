@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.notch.one/downloads",
+		"regex": "NotchLC_AdobePlugin/NotchLC_AdobeCC_Plugin_(?<version>\\d+(?:\\.\\d+)+)_win64\\.exe"
+	},
+	"urls": [
+		"https://cloudreleases.notch.one/NotchLC_AdobePlugin/NotchLC_AdobeCC_Plugin_{version}_win64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.notch.one/downloads"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JeffLepp",
+		"repo": "AgentsRideShotgun"
+	},
+	"urls": [
+		"https://github.com/JeffLepp/AgentsRideShotgun/releases/download/{github.rawTag}/ARS-Setup.exe"
+	]
+}

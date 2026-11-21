@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Chaos-Tic",
+		"repo": "Lorenz"
+	},
+	"urls": [
+		"https://github.com/Chaos-Tic/Lorenz/releases/download/{github.rawTag}/Lorenz-Setup-x64.exe"
+	]
+}
