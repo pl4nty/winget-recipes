@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html",
+		"regex": "packages\\.wazuh\\.com/(?<major>\\d+)\\.x/windows/wazuh-agent-(?<version>\\d+(?:\\.\\d+)+)-(?<revision>\\d+)\\.msi"
+	},
+	"urls": [{ "url": "https://packages.wazuh.com/{captures.major}.x/windows/wazuh-agent-{version}-{captures.revision}.msi", "architecture": "x86" }],
+	"releaseNotes": { "source": "github", "owner": "wazuh", "repo": "wazuh", "tag": "v{version}" }
+}
