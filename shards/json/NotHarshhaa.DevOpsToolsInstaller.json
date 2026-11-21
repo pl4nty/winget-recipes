@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NotHarshhaa",
+		"repo": "DevOpsToolsInstaller"
+	},
+	"urls": [
+		"https://github.com/NotHarshhaa/DevOpsToolsInstaller/releases/download/{github.rawTag}/DevOpsToolsInstaller_x64_Setup.exe"
+	]
+}

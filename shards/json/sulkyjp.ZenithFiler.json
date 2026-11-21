@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sulkyjp",
+		"repo": "zenithFiler_update"
+	},
+	"urls": [
+		"https://github.com/sulkyjp/zenithFiler_update/releases/download/{github.rawTag}/ZenithFiler_v{version}.zip"
+	]
+}

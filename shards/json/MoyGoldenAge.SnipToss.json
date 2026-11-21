@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Moy339339",
+		"repo": "SnipToss"
+	},
+	"urls": [
+		"https://github.com/Moy339339/SnipToss/releases/download/{github.rawTag}/SnipToss-{version}-win-x64-setup.exe"
+	]
+}

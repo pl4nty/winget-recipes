@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zubairbinshaukat",
+		"repo": "devpit"
+	},
+	"urls": [
+		"https://github.com/zubairbinshaukat/devpit/releases/download/{github.rawTag}/devpit_{version}_windows_amd64.zip",
+		"https://github.com/zubairbinshaukat/devpit/releases/download/{github.rawTag}/devpit_{version}_windows_arm64.zip"
+	]
+}

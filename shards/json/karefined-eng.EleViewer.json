@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "karefined-eng",
+		"repo": "eleviewer"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/karefined-eng/eleviewer/releases/download/{github.rawTag}/EleViewer_Setup_v{version}.exe",
+			"architecture": "x64"
+		}
+	]
+}

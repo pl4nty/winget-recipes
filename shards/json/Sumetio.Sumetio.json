@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sumetio.pl/pobierz/",
+		"regex": "Sumetio-(\\d+(?:\\.\\d+)+)-setup\\.exe"
+	},
+	"urls": [
+		"https://pobierz.sumetio.pl/Sumetio-{version}-setup.exe"
+	]
+}

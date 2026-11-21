@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "the-youngrak",
+		"repo": "omnidicom-releases"
+	},
+	"urls": [
+		"https://github.com/the-youngrak/omnidicom-releases/releases/download/{github.rawTag}/OmniDICOM-{version}-windows-x64-setup.exe"
+	]
+}
