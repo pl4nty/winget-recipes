@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://download.symflower.com/local/latest/symflower-windows-x86_64.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.symflower.com/local/latest/symflower-windows-x86_64.msi",
+		"header": "etag"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FreeFem",
+		"repo": "FreeFem-sources",
+		"method": "api-latest",
+		"assetRegex": "win64\\.exe$"
+	}
+}

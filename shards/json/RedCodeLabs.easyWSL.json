@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "0.{version}",
+	"github": {
+		"owner": "redcode-labs",
+		"repo": "easyWSL"
+	},
+	"urls": [
+		"https://github.com/redcode-labs/easyWSL/releases/download/{github.rawTag}/27302RedCodeLabs.easyWSL_0.{version}_x64__m9ag49q0nrza2.Msix"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fzf404",
+		"repo": "Monit"
+	},
+	"urls": [
+		"https://github.com/fzf404/Monit/releases/download/{github.rawTag}/Monit-{version}-win-x64.exe"
+	]
+}

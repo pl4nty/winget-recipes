@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "HammerPDF",
+		"repo": "Smart-Scientific-Reader"
+	},
+	"urls": [
+		"https://github.com/HammerPDF/Smart-Scientific-Reader/releases/download/{github.rawTag}/Hammer.PDF-win-{version}.exe"
+	]
+}

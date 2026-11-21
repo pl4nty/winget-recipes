@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/flex",
+		"regex": "/gnuwin32/files/flex/(?<dir>(?<version>\\d+(?:\\.\\d+)+[a-z]?)-\\d+)/flex-[^/]+\\.exe/download"
+	},
+	"urls": [{ "url": "https://sourceforge.net/projects/gnuwin32/files/flex/{captures.dir}/flex-{captures.dir}.exe/download", "architecture": "x86" }]
+}
