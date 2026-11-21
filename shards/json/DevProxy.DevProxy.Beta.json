@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dotnet",
+		"repo": "dev-proxy",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/dotnet/dev-proxy/releases/download/{github.rawTag}/dev-proxy-installer-win-x64-{github.rawTag}.exe"
+	]
+}

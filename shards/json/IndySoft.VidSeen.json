@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://indyvidsrecordings.blob.core.windows.net/releases/win/releases.win-x64.json",
+		"path": "Assets.0.Version"
+	},
+	"urls": [
+		"https://indyvidsrecordings.blob.core.windows.net/releases/win/{version}/VidSeen-win-x64-Setup.exe",
+		"https://indyvidsrecordings.blob.core.windows.net/releases/win/{version}/VidSeen-win-arm64-Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vidseen.com/download"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://coderex.com/releases",
+		"regex": "/releases/(\\d+(?:\\.\\d+)+)[\"/]"
+	},
+	"urls": [
+		"https://releases.coderex.com/{version}/Coderex-{version}-Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://coderex.com/releases/{version}"
+	}
+}

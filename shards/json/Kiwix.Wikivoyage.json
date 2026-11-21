@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kiwix",
+		"repo": "kiwix-js-pwa",
+		"method": "api-list",
+		"tagRegex": "-Wikivoyage$",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/kiwix/kiwix-js-pwa/releases/download/{github.rawTag}/Wikivoyage-by-Kiwix-{version}-E.appx"
+	],
+	"version": "{version}.0"
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://s3.amazonaws.com/downloads.dinamonetworks.io?prefix=bin/client/windows/x64/&delimiter=/",
+		"regex": "<Prefix>bin/client/windows/x64/(\\d+\\.\\d+\\.\\d+)/</Prefix>"
+	},
+	"urls": [
+		"https://downloads.dinamonetworks.io/bin/client/windows/x64/{version}/dinamo-{version}-x64-setup-en_us.msi",
+		"https://downloads.dinamonetworks.io/bin/client/windows/x64/{version}/dinamo-{version}-x64-setup.msi"
+	]
+}

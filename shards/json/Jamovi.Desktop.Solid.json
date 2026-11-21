@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.jamovi.org/releases.html",
+		"regex": ">\\s*Solid\\s*</span>\\s*<span[^>]*>\\s*\\d+ releases\\s*</span>[\\s\\S]{0,1500}?font-bold\">\\s*(\\d+\\.\\d+\\.\\d+)\\s*</span>"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://archives.jamovi.org/jamovi-{version}.0-win-x64.exe",
+		"https://archives.jamovi.org/jamovi-{version}.0-win-x64.msix"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.jamovi.org/releases.html"
+	}
+}
