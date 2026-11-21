@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.qsl.net/on6mu/rxsstv.htm",
+		"regex": "RX-SSTV v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.qsl.net/on6mu/download/Setup_RXSSTV.exe"]
+}
