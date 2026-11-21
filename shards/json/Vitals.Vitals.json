@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dragoscv",
+		"repo": "vitals"
+	},
+	"urls": [
+		"https://github.com/dragoscv/vitals/releases/download/{github.rawTag}/Vitals_{version}_x64-setup.exe",
+		"https://github.com/dragoscv/vitals/releases/download/{github.rawTag}/Vitals_{version}_arm64-setup.exe"
+	]
+}
