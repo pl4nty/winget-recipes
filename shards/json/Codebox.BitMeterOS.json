@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://codebox.net/pages/bitmeteros-downloads",
+		"regex": "BitMeter OS v(\\d+(?:\\.\\d+)+) \\(stable\\)"
+	},
+	"urls": ["https://codebox.net/downloads/bitmeteros/{version|.|}/BitMeterOSInstaller.zip"]
+}

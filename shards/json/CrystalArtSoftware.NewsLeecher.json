@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://newsleecher.com/software/",
+		"regex": "Latest Final Version : <span[^>]*>(\\d+\\.\\d+) Final<"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://newsleecher.com/nl_setup.exe"]
+}
