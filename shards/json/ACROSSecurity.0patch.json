@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://dist.0patch.com/download/latestagent",
+			"architecture": "neutral"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dist.0patch.com/download/latestagent",
+		"header": "content-disposition"
+	},
+	"replace": true
+}
