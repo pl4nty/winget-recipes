@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://www.moderncsv.com/download-windows"
+		],
+		"regex": "ModernCSV-Win-v(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://www.moderncsv.com/release/ModernCSV-Win-v{version}.exe",
+			"architecture": "x64"
+		}
+	]
+}

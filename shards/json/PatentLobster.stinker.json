@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PatentLobster",
+		"repo": "stinker"
+	},
+	"urls": [
+		"https://github.com/PatentLobster/stinker/releases/download/{github.rawTag}/Stinker-Setup-{version}.exe"
+	]
+}

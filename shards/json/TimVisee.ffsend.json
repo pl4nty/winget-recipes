@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "timvisee",
+		"repo": "ffsend"
+	},
+	"urls": [
+		"https://github.com/timvisee/ffsend/releases/download/{github.rawTag}/ffsend-{github.rawTag}-windows-x64-static.exe"
+	]
+}

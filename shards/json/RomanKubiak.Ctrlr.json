@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RomanKubiak",
+		"repo": "ctrlr",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/RomanKubiak/ctrlr/releases/download/{github.rawTag}/Ctrlr-{version}.exe",
+			"architecture": "neutral"
+		}
+	]
+}

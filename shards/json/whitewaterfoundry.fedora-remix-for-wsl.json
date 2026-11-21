@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WhitewaterFoundry",
+		"repo": "Fedora-Remix-for-WSL",
+		"method": "api-latest"
+	},
+	"version": "{version}.0"
+}

@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "otter-browser"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/otter-browser/files/otter-browser-{version}/otter-browser-win64-{version}-setup.exe/download"
+	]
+}
