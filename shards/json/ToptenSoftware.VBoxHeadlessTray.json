@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.toptensoftware.com/vboxheadlesstray/",
+		"regex": "downloads/VBoxHeadlessTray(?<version>(?<a>\\d)(?<b>\\d)(?<c>\\d+))Setup\\.exe"
+	},
+	"version": "{captures.a}.{captures.b}.{captures.c}",
+	"urls": [
+		{
+			"url": "https://www.toptensoftware.com/downloads/VBoxHeadlessTray{captures.version}Setup.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.toptensoftware.com/vboxheadlesstray/"
+	}
+}

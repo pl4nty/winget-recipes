@@ -1,0 +1,26 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://www.softmaker.net/down/ofw2021_64.msi",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://www.softmaker.net/down/ofw2021_32.msi",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.softmaker.net/down/ofw2021_64.msi",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.softmaker.com/en/softmaker-office-whatsnew"
+	},
+	"replace": true
+}
