@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "acrylic",
+		"file": "{version}/Acrylic.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/acrylic/files/Acrylic/{version}/Acrylic.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://mayakron.altervista.org/support/acrylic/Home.htm"
+	}
+}

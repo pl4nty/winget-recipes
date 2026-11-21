@@ -1,0 +1,24 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		{
+			"url": "https://static.cebbank.com/static/cebbank/cebent/ass1/CEBAssistant.zip",
+			"nestedInstallerMatches": [
+				"EBankingAssistant.CEB.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://static.cebbank.com/static/cebbank/cebent/ass1/CEBAssistant.zip",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://static.cebbank.com/site/ceb_homepage33/about_us33/"
+	},
+	"replace": true
+}

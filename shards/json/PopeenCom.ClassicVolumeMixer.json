@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "popeen",
+		"repo": "Classic-Volume-Mixer"
+	},
+	"urls": [
+		"https://github.com/popeen/Classic-Volume-Mixer/releases/download/{github.rawTag}/setup.exe"
+	]
+}

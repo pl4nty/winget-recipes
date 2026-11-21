@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://releases.hashicorp.com/terraform/",
+		"regex": "/terraform/(\\d+\\.\\d+\\.\\d+-alpha\\d+)/"
+	},
+	"urls": [
+		"https://releases.hashicorp.com/terraform/{version}/terraform_{version}_windows_386.zip",
+		"https://releases.hashicorp.com/terraform/{version}/terraform_{version}_windows_amd64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/hashicorp/terraform/releases/tag/v{version}"
+	}
+}
