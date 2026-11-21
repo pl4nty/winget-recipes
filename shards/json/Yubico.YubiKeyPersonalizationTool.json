@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://developers.yubico.com/yubikey-personalization-gui/Releases/",
+		"regex": "href=\"yubikey-personalization-gui-(\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": ["https://developers.yubico.com/yubikey-personalization-gui/Releases/yubikey-personalization-gui-{version}.exe"]
+}

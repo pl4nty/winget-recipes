@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jamulussoftware",
+		"repo": "jamulus",
+		"tagRegex": "^r"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://github.com/jamulussoftware/jamulus/releases/download/{github.rawTag}/jamulus_{packageVersion}_win.exe"
+	]
+}

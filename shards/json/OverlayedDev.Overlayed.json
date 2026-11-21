@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "overlayeddev",
+		"repo": "overlayed"
+	},
+	"urls": [
+		"https://github.com/overlayeddev/overlayed/releases/download/{github.rawTag}/Overlayed_{version}_x64_en-US.msi"
+	]
+}

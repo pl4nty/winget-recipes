@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "uncrustify",
+		"repo": "uncrustify",
+		"tagRegex": "^uncrustify-"
+	},
+	"urls": [
+		"https://github.com/uncrustify/uncrustify/releases/download/{github.rawTag}/uncrustify-{version}_f-win64.zip",
+		"https://github.com/uncrustify/uncrustify/releases/download/{github.rawTag}/uncrustify-{version}_f-win32.zip"
+	]
+}

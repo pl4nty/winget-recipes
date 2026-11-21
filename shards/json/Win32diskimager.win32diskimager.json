@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "win32diskimager",
+		"file": "win32diskimager-{version}-install.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/win32diskimager/files/Archive/win32diskimager-{version}-install.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/p/win32diskimager/code/ci/master/tree/Changelog.txt"
+	},
+	"cleanup": false
+}

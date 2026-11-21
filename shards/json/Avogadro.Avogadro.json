@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/avogadro/rss?path=/avogadro",
+		"regex": "files/avogadro/(\\d+(?:\\.\\d+)+)/Avogadro-[\\d.]+n?-win32\\.exe"
+	},
+	"urls": ["https://sourceforge.net/projects/avogadro/files/avogadro/{version}/Avogadro-{version}n-win32.exe/download"]
+}
