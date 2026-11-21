@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "OhHaiBrowser",
+		"repo": "Browser"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/OhHaiBrowser/Browser/releases/download/{github.rawTag}/OhHaiBrowser-windows-setup.exe"
+	]
+}
