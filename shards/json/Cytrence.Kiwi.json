@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cytrence.com/software",
+		"regex": "_files/archives/(?<file>[0-9a-f]+_[0-9a-f]+)\\.zip\\?dn=CytrenceKiwi-(?<version>\\d+(?:\\.\\d+)+)-win_x64\\.zip"
+	},
+	"urls": ["https://www.cytrence.com/_files/archives/{captures.file}.zip?dn=CytrenceKiwi-{version}-win_x64.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.cytrence.com/release-notes"
+	}
+}
