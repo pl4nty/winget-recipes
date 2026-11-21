@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://artifacts.videolan.org/x264/release-win64/",
+		"regex": "x264-r(?<version>\\d+)-(?<commit>[0-9a-f]+)\\.exe"
+	},
+	"urls": [
+		"https://artifacts.videolan.org/x264/release-win32/x264-r{version}-{captures.commit}.exe",
+		"https://artifacts.videolan.org/x264/release-win64/x264-r{version}-{captures.commit}.exe"
+	]
+}
