@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://codesector.com/downloads",
+		"regex": "Direct Folders (?<version>\\d+(?:\\.\\d+)+)\\s*</td>"
+	},
+	"urls": [
+		{
+			"url": "https://codesector.com/files/directfolders{version}.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://codesector.com/files/directfolders{version}.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://blog.codesector.com/category/directfolders/"
+	}
+}
