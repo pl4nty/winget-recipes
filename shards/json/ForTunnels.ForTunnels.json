@@ -1,0 +1,28 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://fortunnels.ru/landing-assets/downloads/fortunnels-windows+amd64.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": [
+				"fortunnels.msi"
+			]
+		},
+		{
+			"url": "https://fortunnels.ru/landing-assets/downloads/fortunnels-windows+arm64.zip",
+			"architecture": "arm64",
+			"nestedInstallerMatches": [
+				"fortunnels.msi"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://fortunnels.ru/landing-assets/downloads/fortunnels-windows+amd64.zip",
+		"header": "last-modified"
+	}
+}

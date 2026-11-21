@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "EvanRaeder",
+		"repo": "image_files",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/EvanRaeder/image_files/releases/download/{github.rawTag}/image_files.exe"
+	]
+}

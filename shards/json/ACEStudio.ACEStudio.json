@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://as-api.tdacestudio.com/api/as/web/official/installer",
+		"path": "data.version_name"
+	},
+	"urls": [
+		"data.resource_win"
+	]
+}

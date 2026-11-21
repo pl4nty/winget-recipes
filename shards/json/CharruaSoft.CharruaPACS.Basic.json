@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://charruasoft.com/products/downloads/charruapacs.zip",
+			"nestedInstallerMatches": [
+				"charruapacs_install_"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://charruasoft.com/products/downloads/charruapacs.zip",
+		"header": "last-modified"
+	},
+	"replace": true
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "acaudwell",
+		"repo": "Gource",
+		"tagRegex": "^gource-"
+	},
+	"urls": [
+		"https://github.com/acaudwell/Gource/releases/download/{github.rawTag}/gource-{version}.win64-setup.exe"
+	]
+}

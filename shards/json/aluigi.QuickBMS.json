@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://aluigi.altervista.org/quickbms.htm",
+		"regex": "href=\"papers/quickbms-src-(\\d+(?:\\.\\d+)+)\\.zip\""
+	},
+	"urls": ["https://aluigi.altervista.org/papers/quickbms.zip"]
+}

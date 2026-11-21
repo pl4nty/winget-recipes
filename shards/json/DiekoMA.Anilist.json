@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DiekoMA",
+		"repo": "AnilistExt",
+		"tagRegex": "^AnilistExt-v"
+	},
+	"urls": [
+		"https://github.com/DiekoMA/AnilistExt/releases/download/{github.rawTag}/Anilist-Setup-{version}-x64.exe",
+		"https://github.com/DiekoMA/AnilistExt/releases/download/{github.rawTag}/Anilist-Setup-{version}-arm64.exe"
+	]
+}

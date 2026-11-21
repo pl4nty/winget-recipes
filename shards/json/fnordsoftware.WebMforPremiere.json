@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.fnord.com/",
+		"regex": "/downloads/WebM_Premiere_v(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://www.fnord.com/downloads/WebM_Premiere_v{version}.zip",
+			"nestedInstallerMatches": [
+				"WebM_Premiere.msi"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.fnord.com/"
+	}
+}

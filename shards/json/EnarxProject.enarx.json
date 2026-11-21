@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "enarx",
+		"repo": "enarx",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/enarx/enarx/releases/download/{github.rawTag}/enarx-x86_64-windows.msi"
+	]
+}
