@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.softwareok.com/?Download=WinScan2PDF",
+		"regex": "<title>WinScan2PDF (\\d+(?:\\.\\d+)+) Download"
+	},
+	"urls": ["https://www.softwareok.com/Download/WinScan2PDF.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.softwareok.com/?seite=Freeware/WinScan2PDF/History"
+	}
+}

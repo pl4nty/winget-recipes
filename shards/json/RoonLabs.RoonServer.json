@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://updates.roonlabs.net/update/?v=2&platform=linuxx64&version=&product=RoonServer&branding=roon&branch=production&curbranch=production",
+		"regex": "displayversion=(?<major>\\d+\\.\\d+) \\(build (?<build>\\d+)\\) production"
+	},
+	"version": "{captures.major}.{captures.build}",
+	"urls": ["https://download.roonlabs.net/builds/RoonInstaller64.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://community.roonlabs.com/c/roon/software-release-notes/18"
+	}
+}

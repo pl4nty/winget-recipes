@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.yy.com/yyweb/download/getLink?id=153&v=1",
+		"regex": "/client/yyaudio/(\\d+(?:\\.\\d+)+)/YYAudioSetup_web-"
+	},
+	"urls": ["https://yydl.yy.com/client/yyaudio/{version}/YYAudioSetup_web-{version}.exe"]
+}

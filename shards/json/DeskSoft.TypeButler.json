@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.desksoft.com/TypeButler_Version.htm",
+		"regex": "<p class=HF>Version (\\d+(?:\\.\\d+)+)<span"
+	},
+	"urls": ["https://www.desksoft.com/Download/TBSetup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.desksoft.com/TypeButler_Version.htm"
+	}
+}
