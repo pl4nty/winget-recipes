@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		{
+			"url": "https://dl1.wl-std.ir/Indi%20Necha%20Setup.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl1.wl-std.ir/Indi%20Necha%20Setup.exe",
+		"header": "last-modified"
+	}
+}

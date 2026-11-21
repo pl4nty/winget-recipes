@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/fldigi/rss?path=/flwrap",
+		"regex": "/flwrap/flwrap-(\\d+(?:\\.\\d+)+)_setup\\.exe/"
+	},
+	"urls": ["https://www.w1hkj.org/files/flwrap/flwrap-{version}_setup.exe"]
+}

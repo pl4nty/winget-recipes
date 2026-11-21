@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://gimespace.com/GMSRAMTemp.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://gimespace.com/GMSRAMTemp.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

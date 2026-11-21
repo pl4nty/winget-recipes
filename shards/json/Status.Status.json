@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "status-im",
+		"repo": "status-desktop",
+		"method": "api-latest",
+		"assetRegex": "^StatusIm-Desktop-\\d+(?:\\.\\d+)+-[0-9a-f]+-x86_64\\.exe$"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://yupmaster-proxy-02.gaijin.net/launcher/current.php?id=CrossoutLauncher"
+		],
+		"regex": "crossout_launcher_(\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://crossout.net/en/news"
+	}
+}
