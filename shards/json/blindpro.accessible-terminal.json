@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "blindpro",
+		"repo": "accessible-terminal"
+	},
+	"urls": [
+		"https://github.com/blindpro/accessible-terminal/releases/download/{github.rawTag}/accessible_terminal.zip"
+	]
+}

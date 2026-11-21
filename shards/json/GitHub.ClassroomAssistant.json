@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "github-education-resources",
+		"repo": "classroom-assistant"
+	},
+	"urls": [
+		"https://github.com/github-education-resources/classroom-assistant/releases/download/{github.rawTag}/Classroom.Assistant-{version}.Setup.exe"
+	]
+}

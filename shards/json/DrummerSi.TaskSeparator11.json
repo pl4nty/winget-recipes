@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DrummerSi",
+		"repo": "TaskSeparator11"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/DrummerSi/TaskSeparator11/releases/download/{github.rawTag}/TaskSplitter11.zip",
+			"architecture": "x64"
+		}
+	]
+}
