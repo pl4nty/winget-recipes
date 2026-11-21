@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "jddesktopentryedit",
+		"file": "jdDesktopEntryEdit-{version}-WindowsInstaller.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/jddesktopentryedit/files/{version}/jdDesktopEntryEdit-{version}-WindowsInstaller.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/projects/jddesktopentryedit/files/{version}/"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support.apple.com/en-us/106401",
+		"regex": "ProRes RAW for Windows (?<version>\\d+(?:\\.\\d+)+)[\\s\\S]*?href=\"https://updates\\.cdn-apple\\.com/(?<path>[^\"]+/ProResRAW\\.msi)\""
+	},
+	"urls": [
+		"https://updates.cdn-apple.com/{captures.path}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.apple.com/en-us/106401"
+	}
+}

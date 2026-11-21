@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mindmanager.com/en/support/download-library/",
+		"regex": "download\\.mindjet\\.com/MindManager_64bit_(24\\.\\d+\\.\\d+)_redist\\.exe"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://download.mindjet.com/MindManager_64bit_{version}_Admin.zip",
+		"https://download.mindjet.com/MindManager_64bit_{version}_redist.exe",
+		"https://download.mindjet.com/MindManager_32bit_{version}_Admin.zip",
+		"https://download.mindjet.com/MindManager_32bit_{version}_redist.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://download.mindjet.com/MindManager_24_Windows_Release_Notes_EN.pdf"
+	}
+}
