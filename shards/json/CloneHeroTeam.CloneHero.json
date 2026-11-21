@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "clonehero-game",
+		"repo": "releases",
+		"method": "api-sort",
+		"tagRegex": "-final$"
+	},
+	"urls": [
+		"https://github.com/clonehero-game/releases/releases/download/{github.rawTag}/CloneHero-Win-x64.zip",
+		"https://github.com/clonehero-game/releases/releases/download/{github.rawTag}/CloneHero-StandaloneServer.zip"
+	]
+}
