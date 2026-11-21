@@ -1,0 +1,24 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://pubhtml5.com/download/pub-html5.zip",
+			"nestedInstallerMatches": [
+				"pub-html5.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://pubhtml5.com/download/pub-html5.zip",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://pubhtml5.com/"
+	},
+	"replace": true
+}

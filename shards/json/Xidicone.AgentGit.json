@@ -1,0 +1,24 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.zeusedit.com/agentgit/index.html",
+		"regex": ">Agent Git (\\d+\\.\\d+)</a>"
+	},
+	"urls": [
+		{
+			"url": "https://www.zeusedit.com/agentgit/bin/agit32-v{version|.|}.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": [
+				"mysetup.exe"
+			]
+		},
+		{
+			"url": "https://www.zeusedit.com/agentgit/bin/agit64-v{version|.|}.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": [
+				"mysetup.exe"
+			]
+		}
+	]
+}
