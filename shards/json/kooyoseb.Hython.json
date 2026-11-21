@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kooyoseb",
+		"repo": "hython",
+		"method": "api-sort",
+		"assetRegex": "^(?:Hython\\-\\d+\\.\\d+\\.\\d+\\-x64\\.msi|Hython\\-\\d+\\.\\d+\\.\\d+\\-setup\\.exe)$"
+	}
+}
