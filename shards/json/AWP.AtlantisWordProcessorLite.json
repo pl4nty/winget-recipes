@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.atlantiswordprocessor.com/en/",
+		"regex": "href=\"news/(?<news>[\\d_]+)\\.htm\">Release of version <b>(?<version>\\d+(?:\\.\\d+)+)</b>"
+	},
+	"urls": [
+		"https://www.atlantiswordprocessor.com/download/awp_lite_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.atlantiswordprocessor.com/en/news/{captures.news}.htm"
+	}
+}
