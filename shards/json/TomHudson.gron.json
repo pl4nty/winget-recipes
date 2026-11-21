@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tomnomnom",
+		"repo": "gron"
+	},
+	"urls": [
+		"https://github.com/tomnomnom/gron/releases/download/{github.rawTag}/gron-windows-amd64-{version}.zip",
+		"https://github.com/tomnomnom/gron/releases/download/{github.rawTag}/gron-windows-arm64-{version}.zip"
+	]
+}

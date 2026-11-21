@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://benchmark.unigine.com/valley",
+		"regex": "assets\\.unigine\\.com/d/Unigine_Valley-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://assets.unigine.com/d/Unigine_Valley-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://benchmark.unigine.com/valley"
+	}
+}

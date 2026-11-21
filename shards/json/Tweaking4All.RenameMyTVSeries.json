@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.tweaking4all.com/home-theatre/rename-my-tv-series-v2/",
+		"regex": "downloads/video/RenameMyTVSeries-(\\d+(?:\\.\\d+)+)-Windows-32bit-setup\\.exe"
+	},
+	"urls": [
+		"https://www.tweaking4all.com/downloads/video/RenameMyTVSeries-{version}-Windows-32bit-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.tweaking4all.com/home-theatre/rename-my-tv-series-v2/"
+	}
+}

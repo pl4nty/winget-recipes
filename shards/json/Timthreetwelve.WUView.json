@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "{version}.0",
+	"github": {
+		"owner": "Timthreetwelve",
+		"repo": "WUView"
+	},
+	"urls": [
+		"https://github.com/Timthreetwelve/WUView/releases/download/{github.rawTag}/WindowsUpdateViewer_{version}_SC_x64_Setup.exe"
+	]
+}

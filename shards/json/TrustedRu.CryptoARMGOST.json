@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CryptoARM",
+		"repo": "CryptoARMGOST",
+		"tagRegex": "\\.\\d+$"
+	},
+	"urls": [
+		"https://github.com/CryptoARM/CryptoARMGOST/releases/download/{github.rawTag}/cryptoarm-gost-{github.rawTag}-win32-x64.msi"
+	]
+}

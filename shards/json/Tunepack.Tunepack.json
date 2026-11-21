@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tunepack",
+		"repo": "tunepack-desktop"
+	},
+	"urls": [
+		"https://github.com/tunepack/tunepack-desktop/releases/download/{github.rawTag}/tunepack-desktop-setup-{version}.exe"
+	]
+}
