@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://solibiz.com/pc-storage-guard/",
+		"regex": "/downloads/pc-storage-guard/(\\d+(?:\\.\\d+)+)/PCStorageGuard-Setup-\\1\\.exe"
+	},
+	"urls": ["https://solibiz.com/downloads/pc-storage-guard/{version}/PCStorageGuard-Setup-{version}.exe"]
+}
