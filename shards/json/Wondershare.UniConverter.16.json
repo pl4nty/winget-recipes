@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://download.wondershare.com/cbs_down/uniconverter16_64bit_full14204.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.wondershare.com/cbs_down/uniconverter16_64bit_full14204.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://videoconverter.wondershare.com/what-is-new.html"
+	},
+	"cleanup": false,
+	"replace": true
+}

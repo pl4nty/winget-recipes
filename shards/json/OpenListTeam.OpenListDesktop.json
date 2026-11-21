@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/OpenListTeam/OpenList-Desktop/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "OpenListTeam",
+		"repo": "OpenList-Desktop",
+		"tag": "v{version}"
+	}
+}

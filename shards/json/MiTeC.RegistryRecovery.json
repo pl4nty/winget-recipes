@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mitec.cz/wp/xml/vh_wrr.xml",
+		"regex": "<VERSION>(\\d+(?:\\.\\d+)+)</VERSION>"
+	},
+	"urls": [
+		{
+			"url": "https://www.mitec.cz/wp/files/WRR.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["WRR.exe"]
+		},
+		{
+			"url": "https://www.mitec.cz/wp/files/WRR.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["WRR64.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.mitec.cz/wp/xml/vh_wrr.xml"
+	},
+	"cleanup": false,
+	"replace": true
+}

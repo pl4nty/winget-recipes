@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Scripter2104",
+		"repo": "RavePublished"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/Scripter2104/RavePublished/releases/download/{github.rawTag}/New.Rave.Publish.zip",
+			"nestedInstallerMatches": ["WpfApp2.exe"]
+		}
+	]
+}

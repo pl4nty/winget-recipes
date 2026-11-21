@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://downloads.pentalogix.com/ViewMate_Setup.zip",
+			"nestedInstallerMatches": ["Setup.exe"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.pentalogix.com/ViewMate_Setup.zip",
+		"header": "etag"
+	},
+	"replace": true
+}

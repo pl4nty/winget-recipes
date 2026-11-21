@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mitec.cz/Data/XML/data_wfavh.xml",
+		"regex": "<VERSION>(\\d+(?:\\.\\d+)+)</VERSION>"
+	},
+	"urls": [
+		"https://www.mitec.cz/Downloads/WFA.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.mitec.cz/Data/XML/data_wfavh.xml"
+	},
+	"cleanup": false,
+	"replace": true
+}
