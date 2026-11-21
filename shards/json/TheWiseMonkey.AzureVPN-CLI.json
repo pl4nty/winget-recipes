@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "1930-dev",
+		"repo": "azure-vpn-cli",
+		"method": "api-sort",
+		"assetRegex": "^AzureVPN-CLI-[\\d.]+-setup\\.exe$"
+	}
+}
