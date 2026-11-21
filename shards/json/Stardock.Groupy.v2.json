@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://stardock.cachefly.net/software/Groupy/Groupy2/Groupy2_Setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://stardock.cachefly.net/software/Groupy/Groupy2/Groupy2_Setup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.stardock.com/products/groupy/history"
+	}
+}
