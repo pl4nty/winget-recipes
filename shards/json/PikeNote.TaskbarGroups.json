@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PikeNote",
+		"repo": "taskbar-groups-pike-beta"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/PikeNote/taskbar-groups-pike-beta/releases/download/v{version}/Taskbar.Groups.exe",
+			"architecture": "neutral"
+		}
+	]
+}

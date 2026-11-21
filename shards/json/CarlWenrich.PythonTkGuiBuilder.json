@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/ptkgb/files/OldFiles/ptkgb.msi/download"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://sourceforge.net/projects/ptkgb/files/OldFiles/ptkgb.msi/download",
+		"header": "last-modified"
+	},
+	"replace": true
+}

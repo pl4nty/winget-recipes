@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.cyotek.com/cyotek-palette-editor/downloads",
+		"regex": "setup-cyopaled-(\\d+\\.\\d+\\.\\d+\\.\\d+)\\.exe\""
+	},
+	"urls": [
+		{
+			"url": "https://www.cyotek.com/downloads/get/setup-cyopaled-{version}.exe",
+			"architecture": "neutral"
+		}
+	]
+}

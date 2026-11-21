@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "headsetapp",
+		"repo": "headset-electron"
+	},
+	"urls": [
+		"https://github.com/headsetapp/headset-electron/releases/download/{github.rawTag}/headset-{version}-setup.exe"
+	]
+}

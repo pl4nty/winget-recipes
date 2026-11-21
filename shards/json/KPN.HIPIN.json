@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://download.voipit.nl/HIPIN/HIPIN.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.voipit.nl/HIPIN/HIPIN.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

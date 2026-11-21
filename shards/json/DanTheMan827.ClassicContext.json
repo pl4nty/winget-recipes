@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DanTheMan827",
+		"repo": "ClassicContext"
+	},
+	"urls": [
+		"https://github.com/DanTheMan827/ClassicContext/releases/download/{github.rawTag}/ClassicContext.exe"
+	]
+}
