@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "vice-emu",
+		"file": "SDL2VICE-{version}-win64.zip"
+	},
+	"urls": ["https://sourceforge.net/projects/vice-emu/files/releases/binaries/windows/SDL2VICE-{version}-win64.zip/download"]
+}
