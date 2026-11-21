@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://github.com/Samurai-X-13/Jacked/releases/download/Jacked/Jacked-x86_x64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/Samurai-X-13/Jacked/releases/download/Jacked/Jacked-x86_x64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
