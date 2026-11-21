@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "IridiumIO",
+		"repo": "CompactGUI"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/IridiumIO/CompactGUI/releases/download/{github.rawTag}/CompactGUI.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/IridiumIO/CompactGUI/releases/download/{github.rawTag}/CompactGUI.arm64.exe",
+			"architecture": "arm64"
+		}
+	]
+}
