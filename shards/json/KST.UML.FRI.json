@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "umlfri",
+		"repo": "umlfri2"
+	},
+	"urls": [
+		"https://github.com/umlfri/umlfri2/releases/download/{github.rawTag}/umlfri-setup-{version}.exe"
+	]
+}

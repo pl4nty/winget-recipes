@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kotatogram",
+		"repo": "kotatogram-desktop",
+		"tagRegex": "^k(?=\\d)"
+	},
+	"urls": [
+		"https://github.com/kotatogram/kotatogram-desktop/releases/download/{github.rawTag}/{version}-win64-installer.exe",
+		"https://github.com/kotatogram/kotatogram-desktop/releases/download/{github.rawTag}/{version}-win32-installer.exe"
+	]
+}

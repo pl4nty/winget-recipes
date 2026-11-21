@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "iSnackyCracky",
+		"repo": "KeePassRDP"
+	},
+	"urls": [
+		"https://github.com/iSnackyCracky/KeePassRDP/releases/download/{github.rawTag}/KeePassRDP_{github.rawTag}.msi"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KeyWorksRW",
+		"repo": "wxUiEditor"
+	},
+	"urls": [
+		"https://github.com/KeyWorksRW/wxUiEditor/releases/download/{github.rawTag}/wxUiEditor-{version}-win64.exe"
+	]
+}

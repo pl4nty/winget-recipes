@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/LN-Juggernaut/juggernaut-desktop/releases/latest/download/latest.yml"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "LN-Juggernaut",
+		"repo": "juggernaut-desktop",
+		"tag": "{version}"
+	}
+}
