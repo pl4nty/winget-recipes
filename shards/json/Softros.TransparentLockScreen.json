@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://lockscreen.softros.com/",
+		"regex": "Version:</th>\\s*<td>(?<release>\\d+\\.\\d+) \\(build (?<build>\\d+)\\)"
+	},
+	"version": "{captures.release}.{captures.build}.0",
+	"urls": ["https://download.softros.com/tls/TransparentLockScreen{captures.release}.{captures.build}.msi"]
+}
