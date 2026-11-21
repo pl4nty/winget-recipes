@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kerinlin",
+		"repo": "localMusicPlayer"
+	},
+	"urls": [
+		"https://github.com/Kerinlin/localMusicPlayer/releases/download/{github.rawTag}/OrangePlayer-Setup-{version}.exe"
+	]
+}

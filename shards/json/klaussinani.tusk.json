@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "klaudiosinani",
+		"repo": "tusk"
+	},
+	"urls": [
+		"https://github.com/klaudiosinani/tusk/releases/download/{github.rawTag}/tusk-setup-{version}.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lhtuwrk",
+		"repo": "logifx"
+	},
+	"urls": [
+		"https://github.com/lhtuwrk/logifx/releases/download/{github.rawTag}/logifx_{github.rawTag}_windows_amd64.exe"
+	]
+}

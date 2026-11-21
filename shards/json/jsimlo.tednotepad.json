@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://jsimlo.sk/notepad/",
+		"regex": "Current version (\\d+\\.\\d+\\.\\d+)\\."
+	},
+	"urls": [
+		"https://jsimlo.sk/notepad/files.php/tnp{version|.|}se_uni_32.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://jsimlo.sk/notepad/changes.php"
+	}
+}

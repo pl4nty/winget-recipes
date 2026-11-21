@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jayakumarreddy",
+		"repo": "Local-Mock-Server"
+	},
+	"urls": [
+		"https://github.com/jayakumarreddy/Local-Mock-Server/releases/download/{github.rawTag}/Local-Mock-Server-Setup-{version}.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lauthieb",
+		"repo": "code-notes"
+	},
+	"urls": [
+		"https://github.com/lauthieb/code-notes/releases/download/{github.rawTag}/code-notes-{version}.exe"
+	]
+}

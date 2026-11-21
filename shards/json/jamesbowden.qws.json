@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://www.andrelouis.com/qws/dlmain.htm",
+		"regex": "The latest release \\(version (\\d+\\.\\d+)\\)"
+	},
+	"urls": [
+		"http://www.andrelouis.com/qws/pub/qws{version|.|}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "http://www.andrelouis.com/qws/dlmain.htm"
+	}
+}

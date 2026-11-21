@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "last-hit-aab",
+		"repo": "last-hit"
+	},
+	"urls": [
+		"https://github.com/last-hit-aab/last-hit/releases/download/{github.rawTag}/last-hit-{version}-win.exe"
+	]
+}
