@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://releases.gmetrix.net/smse/latest/win/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.gmetrix.net/"
+	}
+}

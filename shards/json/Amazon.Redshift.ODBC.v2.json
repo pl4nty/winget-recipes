@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.aws.amazon.com/redshift/latest/mgmt/odbc20-install-win.html",
+		"regex": "redshift-downloads/drivers/odbc/(\\d+(?:\\.\\d+)+)/AmazonRedshiftODBC64-"
+	},
+	"urls": [
+		"https://s3.amazonaws.com/redshift-downloads/drivers/odbc/{version}/AmazonRedshiftODBC64-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.aws.amazon.com/redshift/latest/mgmt/odbc20-install-win.html"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "iFrosty-tech",
+		"repo": "anthra"
+	},
+	"urls": [
+		"https://github.com/iFrosty-tech/anthra/releases/download/{github.rawTag}/Anthra-Setup-{version}-x64.exe"
+	]
+}

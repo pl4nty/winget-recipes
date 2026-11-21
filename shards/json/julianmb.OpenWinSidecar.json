@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "julianmb",
+		"repo": "OpenWinSidecar"
+	},
+	"urls": [
+		"https://github.com/julianmb/OpenWinSidecar/releases/download/{github.rawTag}/OpenWinSidecar-Setup-{version}.exe"
+	]
+}

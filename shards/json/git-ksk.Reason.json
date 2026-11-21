@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "git-ksk",
+		"repo": "reasoning-harness",
+		"method": "api-sort",
+		"tagRegex": "^reason-v"
+	},
+	"urls": [
+		"https://github.com/git-ksk/reasoning-harness/releases/download/{github.rawTag}/{github.rawTag}-windows-x86_64.zip"
+	]
+}

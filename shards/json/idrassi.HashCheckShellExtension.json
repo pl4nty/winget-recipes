@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "idrassi",
+		"repo": "HashCheck"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/idrassi/HashCheck/releases/download/{github.rawTag}/HashCheckSetup-{github.rawTag}.0.exe"
+	]
+}
