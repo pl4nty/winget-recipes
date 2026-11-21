@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://rambax.com/simpletransfer/desktop/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://rambax.com/simpletransfer/desktop/"
+	}
+}

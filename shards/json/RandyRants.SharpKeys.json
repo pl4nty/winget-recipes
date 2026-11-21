@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "randyrants",
+		"repo": "sharpkeys"
+	},
+	"version": "{version}000",
+	"urls": [
+		"https://github.com/randyrants/sharpkeys/releases/download/{github.rawTag}/sharpkeys{github.version|.|}.msi"
+	]
+}

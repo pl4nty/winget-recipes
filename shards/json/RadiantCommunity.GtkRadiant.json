@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://icculus.org/gtkradiant/downloads.html",
+		"regex": "downloads/(?<dir>\\d+\\.\\d+)/GtkRadiant-(?<version>\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": [
+		"https://icculus.org/gtkradiant/downloads/{captures.dir}/GtkRadiant-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://icculus.org/gtkradiant/downloads.html"
+	}
+}

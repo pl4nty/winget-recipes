@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.raxsoft.com/raxccm/software.php",
+		"regex": "AOL Removal Tool v(\\d+\\.\\d+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.raxsoft.com/raxccm/media/exe/AOLRemovalTool_{version|.|}.zip",
+			"nestedInstallerMatches": [
+				"REMAOL"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.raxsoft.com/raxccm/software_app.php?progid=1"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://www.rfspace.com/RFSPACE/SpectraVue.html",
+		"regex": "SpectraVue version (\\d+\\.\\d+) Download"
+	},
+	"urls": [
+		"http://www.rfspace.com/files/SpectraVueSetup{version|.|}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "http://www.rfspace.com/RFSPACE/SpectraVue.html"
+	}
+}
