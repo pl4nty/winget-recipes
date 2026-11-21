@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://gitlab.freedesktop.org/api/v4/projects/12908/releases/permalink/latest",
+		"path": "tag_name"
+	},
+	"urls": [
+		"https://gitlab.freedesktop.org/api/v4/projects/12908/packages/generic/gst-pipeline-studio/{version}/GstPipelineStudio-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gitlab.freedesktop.org/dabrain34/GstPipelineStudio/-/releases/{version}"
+	}
+}
