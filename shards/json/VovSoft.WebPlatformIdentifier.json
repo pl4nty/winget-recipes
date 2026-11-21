@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/web-platform-identifier/",
+		"regex": "<span class=\"notranslate\">Web Platform Identifier (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://files.vovsoft.com/web-platform-identifier.exe", "https://files.vovsoft.com/web-platform-identifier-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/web-platform-identifier/"
+	}
+}
