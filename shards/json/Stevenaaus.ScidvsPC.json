@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/scidvspc/rss?path=/windows",
+		"regex": "/files/windows/Scid%20vs%20PC-(\\d+(?:\\.\\d+)+)\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/scidvspc/files/windows/Scid%20vs%20PC-{version}.exe/download",
+		"https://sourceforge.net/projects/scidvspc/files/windows-64bit/Scid%20vs%20PC-{version}.x64.exe/download"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ssesetup.com/download.html",
+		"regex": "(?<file>NTFSHiddenDataFinder(?<version>(?<major>\\d+)(?<minor>\\d))\\.exe)"
+	},
+	"version": "{captures.major}.{captures.minor}",
+	"urls": [
+		{
+			"url": "https://www.ssesetup.com/downloads/{captures.file}",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ssesetup.com/download.html"
+	}
+}
