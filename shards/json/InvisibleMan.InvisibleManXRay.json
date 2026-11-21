@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "InvisibleManVPN",
+		"repo": "InvisibleMan-XRayClient"
+	},
+	"urls": [
+		"https://github.com/InvisibleManVPN/InvisibleMan-XRayClient/releases/download/{github.rawTag}/InvisibleManXRay-x86.zip",
+		"https://github.com/InvisibleManVPN/InvisibleMan-XRayClient/releases/download/{github.rawTag}/InvisibleManXRay-x64.zip"
+	]
+}

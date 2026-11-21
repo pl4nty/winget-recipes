@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "InferenceHub",
+		"repo": "inferencehub-desktop"
+	},
+	"urls": [
+		"https://github.com/InferenceHub/inferencehub-desktop/releases/download/{github.rawTag}/InferenceHub_{version}_x64-setup.exe"
+	]
+}

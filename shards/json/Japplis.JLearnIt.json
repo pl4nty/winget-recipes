@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.jlearnit.com/version.txt",
+		"regex": "^(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.jlearnit.com/versions/JLearnIt-{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.jlearnit.com/changes.txt"
+	}
+}
