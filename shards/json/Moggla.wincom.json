@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Moggla",
+		"repo": "wincom"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/Moggla/wincom/releases/download/v{version}/wincom.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/Moggla/wincom/releases/download/v{version}/wincom.exe",
+			"architecture": "x86"
+		}
+	]
+}
