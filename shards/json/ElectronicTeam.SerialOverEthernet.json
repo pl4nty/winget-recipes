@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.electronic.us/products/serial-to-ethernet/",
+		"regex": "\"softwareVersion\": \"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [{ "url": "https://cdn.electronic.us/products/sec/windows/download/serial_ethernet_connector.exe", "architecture": "x86" }]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://ava-tauri-prod.s3.amazonaws.com/?list-type=2&delimiter=/",
+		"regex": "<Prefix>app-v(\\d+\\.\\d+\\.\\d+)/</Prefix>"
+	},
+	"urls": [{ "url": "https://ava-tauri-prod.s3.amazonaws.com/app-v{version}/AvaCC_{version}_x64-setup.exe", "architecture": "x64" }],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ava.canny.io/changelog"
+	}
+}
