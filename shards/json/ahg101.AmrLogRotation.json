@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "ahg101",
+		"repo": "amr-log-rotation"
+	},
+	"urls": [
+		"https://github.com/ahg101/amr-log-rotation/releases/download/{github.rawTag}/amr-log-rotation.exe"
+	]
+}
