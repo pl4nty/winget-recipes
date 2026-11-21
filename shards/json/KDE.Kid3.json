@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://cdn.kde.org/ci-builds/multimedia/kid3/master/windows/",
+		"regex": "href=\"kid3-windows-amd64\\.zip\">kid3-windows-amd64\\.zip</a></td><td[^>]*>(\\d{4}-\\d{2}-\\d{2}) "
+	},
+	"urls": [
+		"https://cdn.kde.org/ci-builds/multimedia/kid3/master/windows/kid3-windows-amd64.zip"
+	]
+}
