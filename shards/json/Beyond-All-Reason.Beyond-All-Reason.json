@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "beyond-all-reason",
+		"repo": "BYAR-Chobby"
+	},
+	"urls": [
+		"https://github.com/beyond-all-reason/BYAR-Chobby/releases/download/{github.rawTag}/Beyond-All-Reason-{version}.exe"
+	]
+}

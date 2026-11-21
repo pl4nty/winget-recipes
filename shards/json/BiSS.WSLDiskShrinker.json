@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kxxt",
+		"repo": "WSLDiskShrinker"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/kxxt/WSLDiskShrinker/releases/download/{github.rawTag}/wsl-disk-shrinker-setup.exe",
+			"architecture": "neutral"
+		}
+	]
+}
