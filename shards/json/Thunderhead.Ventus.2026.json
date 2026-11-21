@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.thunderheadeng.com/release-notes/ventus/",
+		"regex": "Latest Version: 20(?<version>(?<year>26)\\.(?<minor>\\d+)\\.\\d{4})"
+	},
+	"urls": [
+		"https://www.thunderheadeng.net/releases/Ventus-20{version|.|-}-x64-en.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.thunderheadeng.com/docs/20{captures.year}-{captures.minor}/ventus/"
+	}
+}
