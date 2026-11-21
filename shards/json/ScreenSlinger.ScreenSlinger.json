@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://screenslinger.com/version.json", "path": "version" },
+	"urls": [
+		"https://screenslinger.com/ScreenSlinger-{version}.exe",
+		"https://screenslinger.com/ScreenSlinger-Setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://screenslinger.com/version.json",
+		"path": "notes.en",
+		"nestedSource": "plain-text",
+		"releaseNotesUrl": "https://screenslinger.com/changelog",
+		"cleanup": false
+	}
+}
