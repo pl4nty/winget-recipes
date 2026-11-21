@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://get.webpkiplugin.com/Downloads/2.12.3/setup-win-pt"
+		],
+		"regex": "/WebPkiSetup_(\\d+(?:\\.\\d+)+)_pt\\.msi$"
+	},
+	"version": "{version}.0",
+	"urls": [
+		{
+			"url": "https://blob.lacuna.net/webpki/WebPkiSetup_{version}_pt.msi",
+			"architecture": "x64"
+		}
+	]
+}
