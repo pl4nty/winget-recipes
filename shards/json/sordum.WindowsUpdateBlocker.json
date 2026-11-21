@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sordum.org/9470/",
+		"regex": "<title>Windows Update Blocker v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://www.sordum.org/files/downloads.php?st-windows-update-blocker"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sordum.org/9470/"
+	}
+}
