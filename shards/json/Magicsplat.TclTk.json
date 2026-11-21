@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/magicsplat/rss?path=/magicsplat-tcl",
+		"regex": "/magicsplat-tcl/tcl-(?<tcl>8\\.6\\.\\d+)-installer-(?<version>1\\.\\d+\\.\\d+)-x64\\.msi"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/magicsplat/files/magicsplat-tcl/tcl-{captures.tcl}-installer-{version}-x86.msi/download",
+		"https://sourceforge.net/projects/magicsplat/files/magicsplat-tcl/tcl-{captures.tcl}-installer-{version}-x64.msi/download"
+	]
+}
