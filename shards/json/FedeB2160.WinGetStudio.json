@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FedeB2160",
+		"repo": "WinGetStudio"
+	},
+	"urls": [
+		"https://github.com/FedeB2160/WinGetStudio/releases/download/{github.rawTag}/WinGetStudio_Setup.exe"
+	]
+}
