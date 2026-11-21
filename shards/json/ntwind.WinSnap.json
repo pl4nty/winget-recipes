@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ntwind.com/software/winsnap.html",
+		"regex": "/download/WinSnap_(?<version>\\d+(?:\\.\\d+)+)-setup\\.exe"
+	},
+	"urls": [
+		"https://www.ntwind.com/files/WinSnap_{version}-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ntwind.com/software/winsnap/what-is-new.html"
+	}
+}
