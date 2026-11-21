@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NyCodeGHG",
+		"repo": "omsi-launcher",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/NyCodeGHG/omsi-launcher/releases/download/{github.rawTag}/omsi-launcher-{version}.msi"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mmvanheusden",
+		"repo": "SteamDepotDownloaderGUI"
+	},
+	"urls": [
+		"https://github.com/mmvanheusden/SteamDepotDownloaderGUI/releases/download/{github.rawTag}/SteamDepotDownloaderGUI-Windows-{github.rawTag}-x64.exe"
+	]
+}

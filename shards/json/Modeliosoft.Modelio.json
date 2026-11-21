@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ModelioOpenSource",
+		"repo": "Modelio"
+	},
+	"urls": [
+		"https://github.com/ModelioOpenSource/Modelio/releases/download/{github.rawTag}/Modelio-Open-Source-{version}_64.exe"
+	]
+}
