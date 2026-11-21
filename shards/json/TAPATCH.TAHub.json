@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://tapatch.com/tools.json",
+		"regex": "\"id\":\\s*\"tahub\",[\\s\\S]*?\"version\":\\s*\"(?<version>[^\"]+)\"[\\s\\S]*?\"downloadExe\":\\s*\"(?<exe>[^\"]+)\""
+	},
+	"urls": ["https://tapatch.com{captures.exe}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tapatch.com/tools/tahub/"
+	}
+}
