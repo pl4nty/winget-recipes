@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Y2Z",
+		"repo": "monolith"
+	},
+	"urls": [
+		"https://github.com/Y2Z/monolith/releases/download/v{version}/monolith-cli.exe"
+	]
+}

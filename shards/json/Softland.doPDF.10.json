@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.dopdf.com/download/setup/dopdf-full-10.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.dopdf.com/download/setup/dopdf-full-10.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}

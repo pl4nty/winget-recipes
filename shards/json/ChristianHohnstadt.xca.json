@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chris2511",
+		"repo": "xca",
+		"tagRegex": "^RELEASE\\."
+	},
+	"urls": [
+		"https://github.com/chris2511/xca/releases/download/{github.rawTag}/xca-{version}-win64.msi"
+	]
+}

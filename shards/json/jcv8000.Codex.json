@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jcv8000",
+		"repo": "Codex"
+	},
+	"urls": [
+		"https://github.com/jcv8000/Codex/releases/download/v{version}/Codex-{version}-Setup.exe"
+	]
+}

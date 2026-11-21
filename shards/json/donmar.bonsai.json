@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mario185",
+		"repo": "bonsai",
+		"tagRegex": "^release_"
+	},
+	"urls": [
+		"https://github.com/Mario185/bonsai/releases/download/{github.rawTag}/bonsai.exe"
+	]
+}
