@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ewenske",
+		"repo": "image2graffiti"
+	},
+	"versionRemove": "V",
+	"version": "{version}.0",
+	"urls": ["https://github.com/ewenske/image2graffiti/releases/download/{github.rawTag}/JSRCustomGraffitiManager.exe"]
+}

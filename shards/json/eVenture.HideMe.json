@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://hide.me/download/windows"
+		],
+		"regex": "/Hide\\.me-Setup-(\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hide.me/en/software/windows"
+	}
+}

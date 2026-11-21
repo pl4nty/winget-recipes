@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "henrypp",
+		"repo": "memreduct",
+		"tagRegex": "^\\."
+	},
+	"urls": [
+		"https://github.com/henrypp/memreduct/releases/download/{github.rawTag}/memreduct-{version}-setup.exe"
+	]
+}

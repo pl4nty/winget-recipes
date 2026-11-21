@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ej-technologies.com/download/jprofiler/version_13",
+		"regex": "jprofiler_windows-x64_(?<version>13_\\d+_\\d+)\\.exe"
+	},
+	"version": "{captures.version|_|.}",
+	"urls": [
+		"https://download.ej-technologies.com/jprofiler/jprofiler_windows-x64_{captures.version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ej-technologies.com/jprofiler/changelog#{captures.version|_|.}"
+	}
+}
