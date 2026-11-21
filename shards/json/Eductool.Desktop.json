@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "eductool",
+		"repo": "desktop-gui",
+		"method": "api-sort",
+		"assetRegex": "^(?:Eductool\\-desktop_\\d+\\.\\d+\\.\\d+_x64\\-setup\\.exe|Eductool\\-desktop_\\d+\\.\\d+\\.\\d+_x64_en\\-US\\.msi)$"
+	}
+}
