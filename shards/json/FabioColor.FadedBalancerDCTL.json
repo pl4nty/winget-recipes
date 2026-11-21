@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fabiocolor",
+		"repo": "Faded-Balancer-DCTL"
+	},
+	"urls": [
+		{ "url": "https://github.com/fabiocolor/Faded-Balancer-DCTL/releases/download/{github.rawTag}/FadedBalancerDCTL-Setup-{version}.exe", "architecture": "x64" }
+	]
+}
