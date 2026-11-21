@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.realvnc.com/en/connect/download/viewer/windows/",
+		"regex": "VNC-Viewer-(?<version>\\d+(?:\\.\\d+)+)-Windows-msi\\.zip"
+	},
+	"version": { "source": "product" },
+	"state": { "source": "value", "value": "{version}" },
+	"urls": [
+		{
+			"url": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-{version}-Windows-msi.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["-en-32bit.msi"]
+		},
+		{
+			"url": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-{version}-Windows-msi.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["-en-64bit.msi"]
+		}
+	]
+}
