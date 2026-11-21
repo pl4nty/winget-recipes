@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cdisplayex.com/desktop/",
+		"regex": "/files/CDXWin64v(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.cdisplayex.com/files/CDXWin32v{version}.exe",
+		"https://www.cdisplayex.com/files/CDXWin64v{version}.exe"
+	]
+}
