@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jmrplens",
+		"repo": "libgen-mcp"
+	},
+	"urls": [
+		"https://github.com/jmrplens/libgen-mcp/releases/download/{github.rawTag}/libgen-mcp-windows-amd64.exe",
+		"https://github.com/jmrplens/libgen-mcp/releases/download/{github.rawTag}/libgen-mcp-windows-arm64.exe"
+	]
+}

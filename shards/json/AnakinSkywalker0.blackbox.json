@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AnakinSkywalker0",
+		"repo": "blackbox"
+	},
+	"urls": [
+		"https://github.com/AnakinSkywalker0/blackbox/releases/download/{github.rawTag}/bb-v{version}-setup-x64.exe"
+	]
+}

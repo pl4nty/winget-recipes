@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vdnp",
+		"repo": "proje-yoneticisi"
+	},
+	"urls": [
+		"https://github.com/vdnp/proje-yoneticisi/releases/download/{github.rawTag}/proje-yoneticisi-setup-{version}.exe"
+	]
+}

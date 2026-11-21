@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Git-Revenge",
+		"repo": "GitRevenge"
+	},
+	"urls": [
+		"https://github.com/Git-Revenge/GitRevenge/releases/download/{github.rawTag}/GitRevenge-{version}-windows-amd64-installer.exe"
+	]
+}

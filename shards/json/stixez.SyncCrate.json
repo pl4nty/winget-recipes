@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/stixez/SyncCrate/releases/latest/download/latest.json",
+		"platforms": [
+			"windows-x86_64-nsis",
+			"windows-x86_64-msi"
+		]
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "stixez",
+		"repo": "SyncCrate",
+		"tag": "v{version}"
+	}
+}
