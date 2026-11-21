@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{ "url": "https://download.ccleaner.com/ccsetup.exe", "architecture": "x64" },
+		{ "url": "https://download.ccleaner.com/ccsetup.exe", "architecture": "x86" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.ccleaner.com/ccsetup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ccleaner.com/ccleaner/version-history"
+	}
+}
