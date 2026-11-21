@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ydkhatri",
+		"repo": "UnifiedLogReader",
+		"method": "api-latest",
+		"assetRegex": "^UnifiedLogReader\\.exe$"
+	},
+	"version": "{github.title|v|}"
+}

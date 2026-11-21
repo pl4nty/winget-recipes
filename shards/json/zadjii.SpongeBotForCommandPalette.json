@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zadjii",
+		"repo": "CmdPalExtensions",
+		"method": "api-sort",
+		"tagRegex": "^sponge/v",
+		"assetRegex": "^SpongeBotExtension_[\\d.]+_x64\\.msix$"
+	},
+	"version": "{version}.0"
+}
