@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/initranslator/rss?path=/Releases",
+		"regex": "/Releases/IniTranslator (\\d+\\.\\d+\\.\\d+\\.\\d+)/initrans\\d+_full\\.exe"
+	},
+	"urls": ["https://sourceforge.net/projects/initranslator/files/Releases/IniTranslator%20{version}/initrans{version|.|}_full.exe/download"]
+}

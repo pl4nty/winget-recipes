@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://download.clis.cloud.ibm.com/ibm-cloud-cli-metadata/info.json",
+		"path": "latestVersion"
+	},
+	"urls": [
+		"https://download.clis.cloud.ibm.com/ibm-cloud-cli-dn/{version}/binaries/IBM_Cloud_CLI_{version}_windows_amd64.zip",
+		"https://download.clis.cloud.ibm.com/ibm-cloud-cli-dn/{version}/binaries/IBM_Cloud_CLI_{version}_windows_386.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/IBM-Cloud/ibm-cloud-cli-release/releases/tag/v{version}"
+	}
+}

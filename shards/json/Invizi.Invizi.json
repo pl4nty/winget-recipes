@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "invizi",
+		"repo": "invizi"
+	},
+	"urls": ["https://github.com/invizi/invizi/releases/download/{github.rawTag}/Invizi.Setup.{version}.exe"]
+}

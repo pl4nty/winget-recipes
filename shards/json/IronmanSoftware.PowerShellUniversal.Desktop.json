@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://imsreleases.blob.core.windows.net/universal/production/v4-version.txt",
+		"regex": "^\\W*(?<version>\\d+\\.\\d+\\.\\d+)\\s*$"
+	},
+	"urls": ["https://imsreleases.blob.core.windows.net/universal/production/{version}/PowerShellUniversal.Desktop.{version}.exe"]
+}
