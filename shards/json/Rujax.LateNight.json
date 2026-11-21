@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rujax",
+		"repo": "late-night"
+	},
+	"urls": [
+		"https://github.com/rujax/late-night/releases/download/{github.rawTag}/LateNight_{version}_x64-setup.exe"
+	]
+}

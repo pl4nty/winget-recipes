@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://downloads.ultraedit.com/main/ues/win/ues_allinone.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.ultraedit.com/main/ues/win/ues_allinone.exe",
+		"header": "etag"
+	}
+}

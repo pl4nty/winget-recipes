@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "strobejb",
+		"repo": "winspy"
+	},
+	"urls": [
+		"https://github.com/strobejb/winspy/releases/download/{github.rawTag}/WinSpy_x64.exe",
+		"https://github.com/strobejb/winspy/releases/download/{github.rawTag}/WinSpy_x86.exe"
+	]
+}

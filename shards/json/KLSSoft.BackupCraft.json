@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.backupcraft.com/downloads/backupcraft_setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.backupcraft.com/downloads/backupcraft_setup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.backupcraft.com/main/history.php"
+	}
+}

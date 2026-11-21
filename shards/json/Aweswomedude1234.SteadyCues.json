@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Aweswomedude1234",
+		"repo": "motion-cues"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/Aweswomedude1234/motion-cues/releases/download/{github.rawTag}/SteadyCues.exe",
+			"architecture": "neutral"
+		}
+	]
+}
