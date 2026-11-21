@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "winscp",
+		"file": "WinSCP-{version}.RC-Setup.exe"
+	},
+	"version": "{version}-",
+	"urls": [
+		"https://sourceforge.net/projects/winscp/files/WinSCP/{version}%20RC/WinSCP-{version}.RC-Setup.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://winscp.net/eng/docs/history#{version}"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "krishna-santosh",
+		"repo": "Windows_Spotlight"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/krishna-santosh/Windows_Spotlight/releases/download/{github.rawTag}/Windows-Spotlight.exe",
+			"architecture": "neutral"
+		}
+	]
+}

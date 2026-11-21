@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://whonet.org/WHONET+Automation+Tool_x64.msi",
+		"https://whonet.org/WHONET+Automation+Tool_x86.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://whonet.org/WHONET+Automation+Tool_x64.msi",
+		"header": "etag"
+	}
+}

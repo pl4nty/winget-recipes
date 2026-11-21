@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "magnifier",
+		"file": "Vmg{version}_install.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/magnifier/files/magnifier%20for%20Windows/{version}/Vmg{version}_install.exe/download"
+	]
+}

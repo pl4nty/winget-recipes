@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.wut.de/e-00102-11-inus-000.php",
+		"regex": "e-00102-ww-swww-\\d+\\.(?:exe|zip)\" title=\"(\\d+\\.\\d+) (?:EXE|ZIP) Download\""
+	},
+	"urls": [
+		"https://www.wut.de/download/tools/e-00102-ww-swde-{version|.|}.msi",
+		"https://www.wut.de/download/tools/e-00102-ww-swus-{version|.|}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.wut.de/e-00102-11-inus-000.php"
+	}
+}

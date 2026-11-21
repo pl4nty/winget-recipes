@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.wut.de/e-5764w-13-inus-000.php",
+		"regex": "e-576ww-10-sw[a-z]+-\\d+\\.zip\" title=\"Download Sensobase Rev (\\d+\\.\\d+)\""
+	},
+	"urls": [
+		"https://www.wut.de/download/tools/e-576ww-10-swde-{version|.|}.msi",
+		"https://www.wut.de/download/tools/e-576ww-10-swus-{version|.|}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.wut.de/e-5764w-13-inus-000.php"
+	}
+}

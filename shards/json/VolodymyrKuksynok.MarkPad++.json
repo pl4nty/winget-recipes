@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vkuksynok",
+		"repo": "MarkPadPP"
+	},
+	"urls": [
+		"https://github.com/vkuksynok/MarkPadPP/releases/download/{github.rawTag}/MarkPadPP-{version}-x64-setup.exe"
+	]
+}

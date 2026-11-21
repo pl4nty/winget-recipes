@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WikidPad",
+		"repo": "WikidPad",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "^WikidPad-(?=\\d+-\\d+-alpha\\d+$)"
+	},
+	"version": "{github.title|WikidPad |}"
+}
