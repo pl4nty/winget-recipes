@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://launchpad.net/armagetronad/+download",
+		"regex": "launchpad\\.net/armagetronad/(?<series>\\d+(?:\\.\\d+)+)/(?<version>\\d+(?:\\.\\d+)+)/\\+download/armagetronad-\\d+(?:\\.\\d+)+\\.win32\\.exe"
+	},
+	"urls": [
+		"https://launchpad.net/armagetronad/{captures.series}/{version}/+download/armagetronad-{version}.win32.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://launchpad.net/armagetronad/{captures.series}/{version}"
+	}
+}
