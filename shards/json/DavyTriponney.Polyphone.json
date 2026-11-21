@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.polyphone.io/en/software",
+		"regex": "file_id=(?<id>\\d+)\" title=\"Download the file &ldquo;Polyphone_(?<version>\\d+(?:\\.\\d+)+)-windows_x64-installer\\.exe"
+	},
+	"urls": [
+		"https://www.polyphone.io/download/0/v{captures.id}/Polyphone_{version}-windows_x64-installer.exe"
+	]
+}

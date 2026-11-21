@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.yubsoft.com/x64/hash.exe",
+		"https://download.yubsoft.com/x86/hash.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.yubsoft.com/x64/hash.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.yubsoft.com/hash.html"
+	},
+	"replace": true
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Orvid",
+		"repo": "Champollion"
+	},
+	"urls": [
+		"https://github.com/Orvid/Champollion/releases/download/{github.rawTag}/Champollion.{github.rawTag}.zip"
+	]
+}

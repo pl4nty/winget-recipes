@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "huggingface",
+		"repo": "xet-core",
+		"method": "api-sort",
+		"tagRegex": "^git-xet-v"
+	},
+	"urls": [
+		"https://github.com/huggingface/xet-core/releases/download/{github.rawTag}/git-xet-windows-installer-x86_64.zip"
+	]
+}

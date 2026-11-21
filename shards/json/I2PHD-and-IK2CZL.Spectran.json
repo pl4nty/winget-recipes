@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sdradio.eu/weaksignals/spectran.html",
+		"regex": "code/specpakv(?<raw>(?<major>\\d+)_(?<minor>\\d+))\\.exe"
+	},
+	"version": "{captures.major}.{captures.minor}",
+	"urls": [
+		"https://www.sdradio.eu/weaksignals/code/specpakv{captures.raw}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sdradio.eu/weaksignals/spectran.html"
+	}
+}
