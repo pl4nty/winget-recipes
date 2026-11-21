@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://windv.mourek.cz/",
+		"regex": "download/WinDV-(?<version>\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": ["http://windv.mourek.cz/download/WinDV-{version}.zip"]
+}
