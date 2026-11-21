@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://www.synology.com/api/releaseNote/findChangeLog?identify=Assistant&lang=en-global&os=Windows",
+		"path": "info.versions..all_versions.0.version"
+	},
+	"urls": [
+		"https://global.synologydownload.com/download/Utility/Assistant/{version}/Windows/synology-assistant-{version}.exe"
+	]
+}
