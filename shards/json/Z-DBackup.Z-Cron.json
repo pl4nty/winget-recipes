@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://z-dbackup.de/download/",
+		"regex": "id=\"z-cron\"[\\s\\S]*?<strong>Version:</strong> (?<version>\\d+\\.\\d+) Build 0?(?<build>\\d+)<"
+	},
+	"version": "{version}.0.{captures.build}",
+	"urls": [
+		{
+			"url": "https://z-download.de/down4711/zcron.zip",
+			"nestedInstallerMatches": [
+				"zcron.exe"
+			]
+		}
+	]
+}

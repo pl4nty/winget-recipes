@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ThioJoe",
+		"repo": "YT-Spammer-Purge"
+	},
+	"urls": [
+		"https://github.com/ThioJoe/YT-Spammer-Purge/releases/download/{github.rawTag}/YTSpammerPurge.{version}.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gqrx-sdr",
+		"repo": "gqrx"
+	},
+	"urls": [
+		"https://github.com/gqrx-sdr/gqrx/releases/download/{github.rawTag}/Gqrx-{version}-Windows.zip"
+	]
+}
