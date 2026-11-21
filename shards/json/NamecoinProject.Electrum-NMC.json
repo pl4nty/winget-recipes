@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.namecoin.org/download/betas/",
+		"regex": "/files/electrum-nmc/electrum-nmc-(?<raw>\\d+(?:\\.\\d+)+)/electrum-nmc-(?<version>nc\\d+(?:\\.\\d+)+)-setup\\.exe"
+	},
+	"urls": [
+		"https://www.namecoin.org/files/electrum-nmc/electrum-nmc-{captures.raw}/electrum-nmc-{version}-setup.exe"
+	],
+	"cleanup": false
+}

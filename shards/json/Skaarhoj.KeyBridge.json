@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SKAARHOJ",
+		"repo": "keybridge-releases",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "-(?:alpha|beta|rc)(?:\\.\\d+)?$"
+	},
+	"urls": [
+		"https://github.com/SKAARHOJ/keybridge-releases/releases/download/{github.rawTag}/KeyBridge.exe"
+	]
+}

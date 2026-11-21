@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sachabruttin",
+		"repo": "CosmosDbExplorer",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/sachabruttin/CosmosDbExplorer/releases/download/{github.rawTag}/install.exe"
+	]
+}
