@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.educatorengine.com/html/sub01/sub0101.asp",
+		"regex": "https://jlsms\\-downloads\\.s3\\.ap\\-northeast\\-1\\.amazonaws\\.com/Educator\\.Engine\\.Production\\-(\\d+(?:\\.\\d+)+)\\-x64\\.msi"
+	},
+	"urls": [
+		"https://jlsms-downloads.s3.ap-northeast-1.amazonaws.com/Educator.Engine.Production-{version}-x64.msi"
+	]
+}
