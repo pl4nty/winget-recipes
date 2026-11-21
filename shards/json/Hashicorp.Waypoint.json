@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.releases.hashicorp.com/v1/releases/waypoint/latest",
+		"path": "version"
+	},
+	"urls": [
+		"https://releases.hashicorp.com/waypoint/{version}/waypoint_{version}_windows_386.zip",
+		"https://releases.hashicorp.com/waypoint/{version}/waypoint_{version}_windows_amd64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/hashicorp/waypoint/releases/tag/v{version}"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tauri-apps",
+		"repo": "create-tauri-app",
+		"method": "api-sort",
+		"tagRegex": "^create-tauri-app-v(?=\\d+\\.\\d+\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/tauri-apps/create-tauri-app/releases/download/{github.rawTag}/create-tauri-app-i686-pc-windows-msvc.exe",
+		"https://github.com/tauri-apps/create-tauri-app/releases/download/{github.rawTag}/create-tauri-app-x86_64-pc-windows-msvc.exe",
+		"https://github.com/tauri-apps/create-tauri-app/releases/download/{github.rawTag}/create-tauri-app-aarch64-pc-windows-msvc.exe"
+	]
+}

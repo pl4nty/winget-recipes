@@ -1,0 +1,24 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jpassing",
+		"repo": "elevate"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/jpassing/elevate/releases/download/{github.rawTag}/elevate.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": [
+				"bin/x64/Release/Elevate.exe"
+			]
+		},
+		{
+			"url": "https://github.com/jpassing/elevate/releases/download/{github.rawTag}/elevate.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": [
+				"bin/x86/Release/Elevate.exe"
+			]
+		}
+	]
+}

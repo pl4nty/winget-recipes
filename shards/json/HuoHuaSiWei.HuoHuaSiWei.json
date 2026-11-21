@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://api.classpodcdn.com/mc/download/pkm/url?channel=stable&appId=huohua-learner-client-win",
+		"regex": "/huohua-learner-client-win/electron/(?<version>\\d+(?:\\.\\d+)+)/(?<file>[^\"/]+\\.exe)"
+	},
+	"urls": [
+		"https://pkm-01.classpodcdn.com/v2/online/huohua-learner-client-win/electron/{version}/{captures.file}"
+	]
+}

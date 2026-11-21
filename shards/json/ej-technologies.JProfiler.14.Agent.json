@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.ej-technologies.com/jprofiler/changelog",
+		"regex": "id=\"(14\\.\\d+\\.\\d+)\""
+	},
+	"urls": [
+		"https://download.ej-technologies.com/jprofiler/jprofiler_agent_windows-x32_{version|.|_}.zip",
+		"https://download.ej-technologies.com/jprofiler/jprofiler_agent_windows-x64_{version|.|_}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ej-technologies.com/jprofiler/changelog#{version}"
+	}
+}

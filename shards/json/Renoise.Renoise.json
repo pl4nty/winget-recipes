@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.renoise.com/download",
+		"regex": "files\\.renoise\\.com/demo/Renoise_(?<u>\\d+(?:_\\d+)+)_Demo_Windows\\.exe"
+	},
+	"version": "{captures.u|_|.}",
+	"urls": [
+		"https://files.renoise.com/demo/Renoise_{captures.u}_Demo_Windows.exe"
+	]
+}

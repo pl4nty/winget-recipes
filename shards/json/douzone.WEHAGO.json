@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://www.wehago.com/pctalkpub/wehago/latest.yml"
+	},
+	"version": {
+		"source": "file"
+	}
+}
