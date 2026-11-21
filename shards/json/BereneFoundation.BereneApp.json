@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "berenefoundation",
+		"repo": "bereneapp",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/berenefoundation/bereneapp/releases/download/{github.rawTag}/BereneApp-v{version}-x64-Setup.exe"
+	]
+}
