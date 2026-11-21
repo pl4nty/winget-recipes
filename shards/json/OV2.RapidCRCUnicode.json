@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.ov2.eu/programs/rapidcrc-unicode",
+		"regex": "RapidCRC-Setup-(\\d+(?:\\.\\d+)+)-x64\\.msi"
+	},
+	"urls": [
+		"https://dl.ov2.eu/programs/rapidcrc-unicode/RapidCRC-Setup-{version}-x64.msi",
+		"https://dl.ov2.eu/programs/rapidcrc-unicode/RapidCRC-Setup-{version}.msi"
+	]
+}
