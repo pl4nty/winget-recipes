@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "PeCeTfull", "repo": "Weather95-20" },
+	"urls": [
+		{
+			"url": "https://github.com/PeCeTfull/Weather95-20/releases/download/v{version}/weathr95-{version}.zip",
+			"nestedInstallerMatches": ["weathr95.exe"]
+		}
+	]
+}
