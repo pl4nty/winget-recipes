@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oo-software.com/en/download",
+		"regex": "/download/current/oodiskrecovery\"[^>]*>[^<]*</a></span><span class=\"dlbuild\">Version (\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": [
+		"https://package.oo-software.com/winget/diskrecovery/{version}/oodiskrecovery_{version}_eng_x64.msi",
+		"https://package.oo-software.com/winget/diskrecovery/{version}/oodiskrecovery_{version}_deu_x64.msi",
+		"https://package.oo-software.com/winget/diskrecovery/{version}/oodiskrecovery_{version}_eng_x86.msi",
+		"https://package.oo-software.com/winget/diskrecovery/{version}/oodiskrecovery_{version}_deu_x86.msi"
+	]
+}
