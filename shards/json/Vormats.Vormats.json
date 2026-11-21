@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://download.vormats.com/windows-desktop-app-latest-msi-enterprise.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.vormats.com/windows-desktop-app-latest-msi-enterprise.msi",
+		"header": "etag"
+	},
+	"replace": true
+}

@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://tetr.io/about/desktop/",
+		"regex": "builds/(\\d+)/TETR\\.IO Setup\\.exe"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://tetr.io/about/desktop/builds/{version}/TETR.IO%20Setup.exe"]
+}

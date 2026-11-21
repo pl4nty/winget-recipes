@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.emachineshop.com/free-download/",
+		"regex": "href=\"/ftp/eMachineShopCAD-WindowsSetup(?<version>(?<yy>\\d{2})(?<mm>\\d{2}))\\.exe\""
+	},
+	"version": "20{captures.yy}.{captures.mm}",
+	"urls": ["https://www.emachineshop.com/ftp/eMachineShopCAD-WindowsSetup{version}.exe"]
+}

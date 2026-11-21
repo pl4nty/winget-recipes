@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "epmpub",
+		"repo": "fswt"
+	},
+	"version": { "source": "file" },
+	"urls": ["https://github.com/epmpub/fswt/releases/download/{github.rawTag}/fswt.exe"],
+	"state": {
+		"source": "value",
+		"value": "{github.rawTag}"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chatasweetie",
+		"repo": "CmdPalExtensions",
+		"method": "api-list",
+		"tagRegex": "^RandomRiddle-v"
+	},
+	"urls": [
+		"https://github.com/chatasweetie/CmdPalExtensions/releases/download/{github.rawTag}/CmdPalRandomRiddleExtension-Setup-{version}-x64.exe",
+		"https://github.com/chatasweetie/CmdPalExtensions/releases/download/{github.rawTag}/CmdPalRandomRiddleExtension-Setup-{version}-arm64.exe"
+	]
+}
