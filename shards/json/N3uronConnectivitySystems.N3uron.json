@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://n3uron.com/downloads/",
+		"regex": "binaries\\.n3uron\\.com/release/n3uron-setup-(?<version>(?<major>\\d+)\\.(?<minor>\\d+)\\.\\d+)-x86_64-win32-msvc-(?<build>\\d+\\.\\d+)\\.exe"
+	},
+	"urls": ["https://binaries.n3uron.com/release/n3uron-setup-{version}-x86_64-win32-msvc-{captures.build}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://n3uron.com/releasenotes-v{captures.major}{captures.minor}/"
+	}
+}
