@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dpnkrpl",
+		"repo": "Mr.Dclutterer"
+	},
+	"urls": [
+		"https://github.com/dpnkrpl/Mr.Dclutterer/releases/download/{github.rawTag}/Mr.Dclutterer.Setup.{version}.exe"
+	]
+}

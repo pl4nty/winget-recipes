@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Smoke-Cloud",
+		"repo": "fdspp"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/Smoke-Cloud/fdspp/releases/download/{github.rawTag}/FdsPpInstaller.msi",
+			"architecture": "x64"
+		}
+	]
+}

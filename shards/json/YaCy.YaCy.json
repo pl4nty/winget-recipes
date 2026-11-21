@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download.yacy.net/",
+		"regex": "yacy_v(?<version>\\d+\\.\\d+)_(?<build>\\d+_[0-9a-f]+)\\.exe(?![\\s\\S]*yacy_v\\d+\\.\\d+_\\d+_[0-9a-f]+\\.exe)"
+	},
+	"urls": [
+		{
+			"url": "https://download.yacy.net/yacy_v{version}_{captures.build}.exe",
+			"architecture": "neutral"
+		}
+	]
+}

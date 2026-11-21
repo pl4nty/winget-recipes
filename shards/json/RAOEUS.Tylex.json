@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RAOEUS",
+		"repo": "tylex-windows"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/RAOEUS/tylex-windows/releases/download/{github.rawTag}/Tylex-Setup-v{version}.exe",
+			"architecture": "x64"
+		}
+	]
+}

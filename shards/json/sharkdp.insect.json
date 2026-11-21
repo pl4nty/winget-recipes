@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sharkdp",
+		"repo": "insect"
+	},
+	"urls": [
+		"https://github.com/sharkdp/insect/releases/download/{github.rawTag}/insect-windows-x64.exe",
+		"https://github.com/sharkdp/insect/releases/download/{github.rawTag}/insect-windows-x86.exe"
+	]
+}

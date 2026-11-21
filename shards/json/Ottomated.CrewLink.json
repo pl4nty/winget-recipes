@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ottomated",
+		"repo": "CrewLink"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/ottomated/CrewLink/releases/download/{github.rawTag}/CrewLink-Setup-{version}.exe",
+			"architecture": "neutral"
+		}
+	]
+}

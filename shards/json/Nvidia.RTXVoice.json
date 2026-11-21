@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://developer.nvidia.com/downloads/rtx/broadcast_engine/secure/nvidia_rtx_voice.exe"
+		],
+		"regex": "^(?<url>https://\\S+/RTX_Voice/NVIDIA_RTX_Voice_v(?<version>\\d+(?:\\.\\d+)+)(?:_Updated)?\\.exe)$"
+	},
+	"urls": [
+		{
+			"url": "{captures.url}",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nvidia.com/en-us/geforce/guides/nvidia-rtx-voice-setup-guide/"
+	}
+}

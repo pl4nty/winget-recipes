@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "martpie", "repo": "museeks" },
+	"urls": ["https://github.com/martpie/museeks/releases/download/{version}/Museeks_{version}_x64-setup.exe"]
+}
