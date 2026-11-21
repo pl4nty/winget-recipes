@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "earubioc",
+		"repo": "mdk"
+	},
+	"urls": [
+		"https://github.com/earubioc/mdk/releases/download/v{version}/MDK-Setup-{version}.exe"
+	]
+}

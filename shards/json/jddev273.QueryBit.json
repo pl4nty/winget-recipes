@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jddev273",
+		"repo": "querybit"
+	},
+	"urls": [
+		"https://github.com/jddev273/querybit/releases/download/v{version}/querybit-windows-x86_64.exe"
+	]
+}

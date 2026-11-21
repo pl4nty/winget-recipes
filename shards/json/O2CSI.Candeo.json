@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "o2csi",
+		"repo": "candeo"
+	},
+	"urls": [
+		"https://github.com/o2csi/candeo/releases/download/v{version}/Candeo_{version}_x64.msix"
+	]
+}

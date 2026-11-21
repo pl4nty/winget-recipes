@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tth05",
+		"repo": "reverything"
+	},
+	"urls": [
+		"https://github.com/tth05/reverything/releases/download/v{version}/reverything-setup-{version}.exe"
+	]
+}

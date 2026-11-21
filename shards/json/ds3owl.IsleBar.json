@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ds3owl",
+		"repo": "islebar"
+	},
+	"urls": [
+		"https://github.com/ds3owl/islebar/releases/download/v{version}/IsleBar-Setup-{version}.exe"
+	]
+}
