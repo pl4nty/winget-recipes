@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://release.lightburnsoftware.com/LightBurn/Release/latest/",
+		"regex": "/LightBurn-v(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://release.lightburnsoftware.com/LightBurn/Release/LightBurn-v{version}/LightBurn-v{version}.exe"],
+	"releaseNotes": {
+		"source": "markdown",
+		"sourceUrl": "https://release.lightburnsoftware.com/LightBurn/Release/LightBurn-v{version}/CHANGELOG",
+		"releaseNotesUrl": "https://release.lightburnsoftware.com/LightBurn/Release/LightBurn-v{version}/CHANGELOG",
+		"cleanup": false
+	}
+}
