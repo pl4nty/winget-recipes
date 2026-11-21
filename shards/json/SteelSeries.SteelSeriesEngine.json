@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://steelseries.com/engine/latest/windows"],
+		"regex": "SteelSeriesEngine(\\d+(?:\\.\\d+)+)Setup\\.exe"
+	}
+}
