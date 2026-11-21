@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "intel",
+		"repo": "BCT",
+		"tagRegex": "^BCT_v"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://github.com/intel/BCT/releases/download/{github.rawTag}/BCT-{version|_|.}-Windows-Installer.exe"
+	]
+}

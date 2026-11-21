@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://download.gnome.org/binaries/win32/shotwell/",
+		"regex": "shotwell-setup-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://download.gnome.org/binaries/win32/shotwell/shotwell-setup-{version}.exe"
+	]
+}

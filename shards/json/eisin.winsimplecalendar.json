@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "eisin",
+		"repo": "winsimplecalendar"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		"https://github.com/eisin/winsimplecalendar/releases/download/{github.rawTag}/eisin.winsimplecalendar_{version}.0.0_neutral.msixbundle"
+	]
+}

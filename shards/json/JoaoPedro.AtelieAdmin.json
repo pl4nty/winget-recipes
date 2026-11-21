@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "joaopedro08-dev",
+		"repo": "Atelie-Frontend"
+	},
+	"urls": [
+		"https://github.com/joaopedro08-dev/Atelie-Frontend/releases/download/{github.rawTag}/Atelie-Admin_{version}_x64-setup.exe"
+	]
+}

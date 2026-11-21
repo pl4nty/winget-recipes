@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://downloads.godwit.io/godwit-sync/latest.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://downloads.godwit.io/godwit-sync/v{version}/godwit-sync_{version}_windows_amd64.zip"
+	]
+}
