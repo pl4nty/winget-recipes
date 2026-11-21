@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://yumiusb.com/yumi-legacy/",
+		"regex": "/downloads/YUMI/YUMI-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://yumiusb.com/downloads/YUMI/YUMI-{version}.exe"
+	]
+}
