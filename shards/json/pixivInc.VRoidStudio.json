@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vroid.com/en/studio",
+		"regex": "href=\"(?<url>https://download\\.vroid\\.com/dist/[^/\"]+/VRoidStudio-v(?<version>\\d+(?:\\.\\d+)+)-win\\.exe)\""
+	},
+	"urls": [{ "url": "{captures.url}", "architecture": "x86" }]
+}
