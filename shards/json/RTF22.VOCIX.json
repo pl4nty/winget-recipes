@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RTF22",
+		"repo": "VOCIX"
+	},
+	"urls": [
+		"https://github.com/RTF22/VOCIX/releases/download/{github.rawTag}/VOCIX-{github.rawTag}-win-x64.zip"
+	]
+}

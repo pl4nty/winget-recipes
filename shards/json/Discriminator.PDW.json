@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://discriminator.nl/pdw/index-en.html",
+		"regex": "pdw(\\d+\\.\\d+)-full\\.zip"
+	},
+	"urls": [
+		"https://discriminator.nl/pdw/pdw{version}-full.zip"
+	]
+}

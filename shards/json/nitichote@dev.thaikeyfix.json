@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nchotenin-tech",
+		"repo": "thaikeyfix"
+	},
+	"urls": [
+		"https://github.com/nchotenin-tech/thaikeyfix/releases/download/{github.rawTag}/thaikeyfix-{github.rawTag}-x64.exe"
+	]
+}

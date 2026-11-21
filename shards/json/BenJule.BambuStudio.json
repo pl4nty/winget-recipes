@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BenJule",
+		"repo": "BambuStudio",
+		"method": "api-sort",
+		"tagRegex": "-bj\\.\\d+$"
+	},
+	"urls": [
+		"https://github.com/BenJule/BambuStudio/releases/download/{github.rawTag}/BambuStudio_windows_x64_V{version}_portable.zip",
+		"https://github.com/BenJule/BambuStudio/releases/download/{github.rawTag}/BambuStudio_windows_arm64_V{version}_portable.zip"
+	]
+}
