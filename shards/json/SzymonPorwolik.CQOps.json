@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "szporwolik",
+		"repo": "cqops"
+	},
+	"urls": ["https://github.com/szporwolik/cqops/releases/download/v{version}/cqops-setup.exe"]
+}
