@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kai63001",
+		"repo": "korva-releases"
+	},
+	"urls": [
+		"https://github.com/kai63001/korva-releases/releases/download/{github.rawTag}/Korva_{version}_x64-setup.exe",
+		"https://github.com/kai63001/korva-releases/releases/download/{github.rawTag}/Korva_{version}_x64_en-US.msi"
+	]
+}

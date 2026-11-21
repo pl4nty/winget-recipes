@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "h2depot",
+		"repo": "clipls"
+	},
+	"urls": [
+		"https://github.com/h2depot/clipls/releases/download/{github.rawTag}/clipls.exe"
+	]
+}

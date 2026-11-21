@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://updater.kogiqa.com/release/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://kogiqa.com/"
+	}
+}

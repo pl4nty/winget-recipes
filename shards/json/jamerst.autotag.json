@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jamerst",
+		"repo": "AutoTag"
+	},
+	"urls": [
+		"https://github.com/jamerst/AutoTag/releases/download/{github.rawTag}/autotag-v{version}_win-x64.zip"
+	]
+}
