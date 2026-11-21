@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "dualmonitortool",
+		"file": "DualMonitorTools-{version}.msi"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://downloads.sourceforge.net/project/dualmonitortool/dualmonitortool/{version}/DualMonitorTools-{version}.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://dualmonitortool.sourceforge.net/history.html"
+	}
+}
