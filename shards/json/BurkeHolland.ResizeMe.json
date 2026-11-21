@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "burkeholland",
+		"repo": "resize-me",
+		"method": "api-list",
+		"tagRegex": "-windows$"
+	},
+	"urls": [
+		"https://github.com/burkeholland/resize-me/releases/download/{github.rawTag}/ResizeMe-windows-amd64.exe",
+		"https://github.com/burkeholland/resize-me/releases/download/{github.rawTag}/ResizeMe-windows-arm64.exe"
+	]
+}
