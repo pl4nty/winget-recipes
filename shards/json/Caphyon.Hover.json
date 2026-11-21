@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": ["https://www.advancedinstaller.com/tools/Hover.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.advancedinstaller.com/tools/Hover.msi",
+		"header": "etag"
+	}
+}

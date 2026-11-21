@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://redream.io/download",
+		"regex": "/download/redream\\.x86_64-windows-v(?<version>\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": ["https://redream.io/download/redream.x86_64-windows-v{version}.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://redream.io/changelog"
+	}
+}

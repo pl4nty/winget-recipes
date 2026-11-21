@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.raysafe.com/resource/software/raysafe-view-software-multilingual-recommended",
+		"regex": "/sites/default/files/(?<file>RaySafe_?View(?:Setup)?_(?<version>\\d+\\.\\d+\\.\\d+)[\\w-]*\\.zip)"
+	},
+	"urls": [
+		{ "url": "https://www.raysafe.com/sites/default/files/{captures.file}", "nestedInstallerMatches": ["setup.exe"] }
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": ["https://ntcore.com/files/4gb_patch.zip"],
+	"state": {
+		"source": "response-header",
+		"url": "https://ntcore.com/files/4gb_patch.zip",
+		"header": "etag"
+	}
+}

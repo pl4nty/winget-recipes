@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "timminator",
+		"repo": "VideOCR"
+	},
+	"urls": [
+		"https://github.com/timminator/VideOCR/releases/download/{github.rawTag}/VideOCR-GPU-v{version}-CUDA-12.9-setup-x64.exe"
+	]
+}

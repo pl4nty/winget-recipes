@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.jam-software.com/heavyload/changes.shtml",
+		"regex": "aria-label=\"Version (?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://downloads.jam-software.de/heavyload/HeavyLoad-x64-Setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.jam-software.com/heavyload/changes.shtml"
+	}
+}
