@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "jdminecraftlauncher",
+		"file": "jdMinecraftLauncher-{version}-WindowsInstaller.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/jdminecraftlauncher/files/{version}/jdMinecraftLauncher-{version}-WindowsInstaller.exe/download",
+		"https://sourceforge.net/projects/jdminecraftlauncher/files/{version}/jdMinecraftLauncher-{version}-WindowsInstaller.exe/download"
+	]
+}

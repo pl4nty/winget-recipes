@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/ps3mediaserver/rss?path=/",
+		"regex": "/pms-(\\d+(?:\\.\\d+)+)-setup-full-x64\\.exe"
+	},
+	"urls": ["https://sourceforge.net/projects/ps3mediaserver/files/pms-{version}-setup-full-x64.exe/download"]
+}
