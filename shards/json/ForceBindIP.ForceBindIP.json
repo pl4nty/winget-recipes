@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://r1ch.net/projects/forcebindip",
+		"regex": "ForceBindIP-(\\d+(?:\\.\\d+)+)-Setup\\.exe"
+	},
+	"urls": [
+		"https://r1ch.net/assets/forcebindip/ForceBindIP-{version}-Setup.exe"
+	]
+}

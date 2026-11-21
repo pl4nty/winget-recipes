@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.alterphoto.net/download.html",
+		"regex": "data-testid=\"current-version\">Version (\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": [
+		{
+			"url": "https://www.alterphoto.net/download/alterphoto.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.alterphoto.net/download.html"
+	}
+}
