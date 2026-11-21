@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://zandronum.com/download",
+		"regex": "/downloads/zandronum(\\d+(?:\\.\\d+)+)-win32-installer\\.exe\""
+	},
+	"urls": [
+		"https://zandronum.com/downloads/zandronum{version}-win32-installer.exe",
+		"https://zandronum.com/downloads/zandronum{version}-win64-installer.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "natthasath",
+		"repo": "exam-timer"
+	},
+	"urls": [
+		"https://github.com/natthasath/exam-timer/releases/download/{github.rawTag}/ExamTimer.exe"
+	]
+}

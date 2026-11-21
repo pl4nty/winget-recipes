@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://download.kde.org/Attic/isoimagewriter/",
+		"regex": "href=\"(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": [
+		"https://download.kde.org/Attic/isoimagewriter/{version}/isoimagewriter-{version}.exe"
+	]
+}

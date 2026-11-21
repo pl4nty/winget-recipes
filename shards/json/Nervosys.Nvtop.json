@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nervosys",
+		"repo": "nvtop"
+	},
+	"urls": [
+		"https://github.com/nervosys/nvtop/releases/download/{github.rawTag}/nvtop-{version}-x64.msi"
+	]
+}

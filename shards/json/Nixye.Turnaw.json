@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Nixye",
+		"repo": "Turnaw"
+	},
+	"urls": [
+		"https://github.com/Nixye/Turnaw/releases/download/{github.rawTag}/Project.Turnaw.Setup.{version}.exe"
+	]
+}
