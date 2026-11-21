@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "tomasrudh", "repo": "WinSize4" },
+	"urls": [
+		"https://github.com/tomasrudh/WinSize4/releases/download/v{version}/WinSize4_x64.msi",
+		"https://github.com/tomasrudh/WinSize4/releases/download/v{version}/WinSize4_x64.zip",
+		"https://github.com/tomasrudh/WinSize4/releases/download/v{version}/WinSize4_x86.zip",
+		"https://github.com/tomasrudh/WinSize4/releases/download/v{version}/WinSize4_x86.msi"
+	]
+}
