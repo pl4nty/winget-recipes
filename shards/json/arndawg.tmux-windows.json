@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "arndawg",
+		"repo": "tmux-windows"
+	},
+	"urls": [
+		{ "url": "https://github.com/arndawg/tmux-windows/releases/download/{github.rawTag}/tmux-windows-v{version}.zip", "architecture": "x64" }
+	]
+}
