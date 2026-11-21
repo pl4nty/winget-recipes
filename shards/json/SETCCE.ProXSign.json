@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://public.setcce.si/proxsign/update/versionSetup",
+		"regex": "^(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://public.setcce.si/proxsign/update/SETCCE_proXSign_setup_{version}.exe"]
+}
