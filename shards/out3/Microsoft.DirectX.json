@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "ms-download-center",
+	"msDownloadCenter": {
+		"id": 35,
+		"regex": "^(?:UAPSignedBinary_Microsoft\\.DirectX\\.x64\\.appx|UAPSignedBinary_Microsoft\\.DirectX\\.x86\\.appx|dxwebsetup\\.exe)$"
+	}
+}
