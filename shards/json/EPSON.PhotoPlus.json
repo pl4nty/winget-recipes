@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download-center.epson.com/f/module/1d76ffd4-99a6-447f-97bf-1a28a73d2344/withoutRuntime/EPPlus_woR_4040_22.exe"
+	]
+}
