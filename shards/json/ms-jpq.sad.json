@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ms-jpq",
+		"repo": "sad"
+	},
+	"urls": [
+		"https://github.com/ms-jpq/sad/releases/download/{github.rawTag}/x86_64-pc-windows-msvc.zip",
+		"https://github.com/ms-jpq/sad/releases/download/{github.rawTag}/aarch64-pc-windows-msvc.zip"
+	]
+}

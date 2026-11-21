@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sa7mon",
+		"repo": "S3Scanner"
+	},
+	"urls": [
+		"https://github.com/sa7mon/S3Scanner/releases/download/{github.rawTag}/S3Scanner_Windows_i386.zip",
+		"https://github.com/sa7mon/S3Scanner/releases/download/{github.rawTag}/S3Scanner_Windows_x86_64.zip",
+		"https://github.com/sa7mon/S3Scanner/releases/download/{github.rawTag}/S3Scanner_Windows_arm64.zip"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AmrDeveloper",
+		"repo": "FileQL"
+	},
+	"urls": [
+		"https://github.com/AmrDeveloper/FileQL/releases/download/{github.rawTag}/fileql-x86-windows.exe",
+		"https://github.com/AmrDeveloper/FileQL/releases/download/{github.rawTag}/fileql-x86_64-windows.exe"
+	]
+}

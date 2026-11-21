@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jellyfin-archive",
+		"repo": "jellyamp"
+	},
+	"urls": [
+		"https://github.com/jellyfin-archive/jellyamp/releases/download/{github.rawTag}/jellyamp-{version}-install.exe"
+	]
+}
