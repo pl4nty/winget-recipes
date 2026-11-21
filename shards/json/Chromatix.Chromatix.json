@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chromatix-app",
+		"repo": "chromatix-release",
+		"method": "api-sort",
+		"assetRegex": "^(?:Chromatix\\-Setup\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
