@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "frostwire",
+		"repo": "frostwire",
+		"method": "api-list",
+		"tagRegex": "^frostwire-desktop-",
+		"assetRegex": "\\.windows\\.exe$"
+	},
+	"version": "{version|-build-|.}"
+}
