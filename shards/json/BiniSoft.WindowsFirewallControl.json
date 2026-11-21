@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.binisoft.org/changelog.txt",
+		"regex": "What's new in version (\\d+(?:\\.\\d+)+) - \\([^)]*\\)(?! - BETA)"
+	},
+	"urls": ["https://www.binisoft.org/download/wfc6setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.binisoft.org/changelog.txt"
+	}
+}
