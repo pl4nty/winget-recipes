@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "win-ngs",
+		"repo": "featurecounts-windows-exe",
+		"tagRegex": "-windows-x86_64$"
+	},
+	"urls": [
+		"https://github.com/win-ngs/featurecounts-windows-exe/releases/download/v{version}-windows-x86_64/win-ngs-featureCounts-{version}-windows-x86_64.msi"
+	]
+}
