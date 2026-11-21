@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "inkstitch",
+		"repo": "inkstitch"
+	},
+	"urls": ["https://github.com/inkstitch/inkstitch/releases/download/v{version}/inkstitch-v{version}-windows-64bit.exe"]
+}
