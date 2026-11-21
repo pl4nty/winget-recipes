@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://piston.feed-the-beast.com/app/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.feed-the-beast.com/ftb-app/changes"
+	}
+}
