@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://www.sick.com/media/zip/5/15/515/Safety_Designer_de_en_fr_es_it_pt_cs_pl_zh_ja_DC0006515.ZIP",
+			"nestedInstallerMatches": ["SafetyDesigner_V"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.sick.com/media/zip/5/15/515/Safety_Designer_de_en_fr_es_it_pt_cs_pl_zh_ja_DC0006515.ZIP",
+		"header": "etag"
+	},
+	"replace": true
+}
