@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sithlord48",
+		"repo": "blackchocobo",
+		"method": "api-sort"
+	},
+	"urls": [
+		"https://github.com/sithlord48/blackchocobo/releases/download/{github.rawTag}/Black_Chocobo-v{version}-win64-installer.exe"
+	]
+}
