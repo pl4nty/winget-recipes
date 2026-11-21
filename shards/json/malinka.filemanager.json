@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "my-nick-is-stolen", "repo": "Malinka-File-Manager", "method": "api-list", "kind": "all" },
+	"urls": [
+		"https://github.com/my-nick-is-stolen/Malinka-File-Manager/releases/download/v{version}/MalinkaFileManager-v.{version}-win-x64.exe",
+		"https://github.com/my-nick-is-stolen/Malinka-File-Manager/releases/download/v{version}/MalinkaFileManager-v.{version}-win-x86.exe"
+	]
+}
