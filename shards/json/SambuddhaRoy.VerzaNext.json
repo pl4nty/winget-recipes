@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SambuddhaRoy",
+		"repo": "Verza-Next-releases"
+	},
+	"urls": ["https://github.com/SambuddhaRoy/Verza-Next-releases/releases/download/v{version}/VerzaNext_{version}_x64-setup.exe"]
+}
