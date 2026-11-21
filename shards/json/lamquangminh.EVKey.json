@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "lamquangminh",
+		"repo": "EVKey"
+	},
+	"urls": [
+		"https://github.com/lamquangminh/EVKey/releases/download/{github.rawTag}/EVKey.zip"
+	]
+}
