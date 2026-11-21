@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ivtssh.nl/downloads/",
+		"regex": "/wp-content/Downloads/ivtfree_(?<version>\\d+_\\d+)\\.zip"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://www.ivtssh.nl/wp-content/Downloads/IVTFreeEdition-Setup-{version|_|.}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ivtssh.nl/release-notes/"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SosomLab",
+		"repo": "nexa-coffee"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/SosomLab/nexa-coffee/releases/download/{github.rawTag}/nexa-coffee-{version}-windows-x64-portable.zip",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/SosomLab/nexa-coffee/releases/download/{github.rawTag}/nexa-coffee-{version}-windows-x86-portable.zip",
+			"architecture": "x86"
+		}
+	]
+}

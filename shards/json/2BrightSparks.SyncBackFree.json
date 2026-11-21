@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.2brightsparks.com/syncback/changes.html",
+		"regex": "\\bV(\\d{2}\\.\\d+\\.\\d+\\.\\d+)\\b"
+	},
+	"urls": [
+		"https://www.2brightsparks.com/assets/software/SyncBack/SyncBack_Setup.{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.2brightsparks.com/syncback/changes.html"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://prowlarr.servarr.com/v1/update/master/changes?os=windows&runtime=netcore&arch=x64",
+		"regex": "\"version\":\"(?<version>\\d+\\.\\d+\\.\\d+)\\.(?<build>\\d+)\""
+	},
+	"urls": [
+		"https://github.com/Prowlarr/Prowlarr/releases/download/v{version}.{captures.build}/Prowlarr.master.{version}.{captures.build}.windows-core-x86-installer.exe",
+		"https://github.com/Prowlarr/Prowlarr/releases/download/v{version}.{captures.build}/Prowlarr.master.{version}.{captures.build}.windows-core-x64-installer.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/Prowlarr/Prowlarr/releases/tag/v{version}.{captures.build}"
+	}
+}

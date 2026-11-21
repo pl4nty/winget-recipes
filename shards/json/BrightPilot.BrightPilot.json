@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://getbrightpilot.com/brightpilot/en/",
+		"regex": "BrightPilot-(?<version>\\d+(?:\\.\\d+)+)-Setup\\.exe"
+	},
+	"urls": ["https://download.getbrightpilot.com/BrightPilot-{version}-Setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://getbrightpilot.com/brightpilot/en/changelog/"
+	}
+}
