@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "herm1t0",
+		"repo": "TaskbarHider"
+	},
+	"urls": [
+		"https://github.com/herm1t0/TaskbarHider/releases/download/{github.rawTag}/TaskbarHider.msi"
+	]
+}
