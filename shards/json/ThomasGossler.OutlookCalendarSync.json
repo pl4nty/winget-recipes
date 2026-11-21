@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://apps.thomas-gossler.de/OutlookCalendarSync/",
+		"regex": "/outlookcalendarsync/OutlookCalendarSync-Setup-v(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://thomasgossler.blob.core.windows.net/outlookcalendarsync/OutlookCalendarSync-Setup-v{version}.exe"]
+}
