@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cwdio",
+		"repo": "cwdio"
+	},
+	"urls": [
+		"https://github.com/cwdio/cwdio/releases/download/{github.rawTag}/cwdio-{version}-win32-x64-portable.zip"
+	]
+}
