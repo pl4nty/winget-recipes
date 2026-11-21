@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "nathanwijaya", "repo": "FileID" },
+	"urls": ["https://github.com/nathanwijaya/FileID/releases/download/v{version}/FileIDInstaller.msi"]
+}
