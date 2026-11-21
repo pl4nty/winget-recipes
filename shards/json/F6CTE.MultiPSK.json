@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://f6cte.free.fr/index_anglais.htm",
+		"regex": "Multipsk (\\d+(?:\\.\\d+)+), Clock"
+	},
+	"urls": ["http://f6cte.free.fr/MULTIPSK_setup.exe"]
+}
