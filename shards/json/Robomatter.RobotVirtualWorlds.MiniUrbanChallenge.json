@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.robotvirtualworlds.com/",
+		"regex": "href=\"(?<path>files/competition-worlds/RVWLevelPack_MiniUrbanChallenge(?<version>\\d)(?<b>\\d)(?<c>\\d+)\\.exe)\""
+	},
+	"version": "{version}.{captures.b}.{captures.c}",
+	"urls": ["https://www.robotvirtualworlds.com/{captures.path}"]
+}
