@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.datacolor.com/business-solutions/customer-support/colibri-software-downloads/",
+		"regex": "cdn\\.matchmycolor\\.com/downloads/ColibriInstaller_(3\\.\\d+\\.\\d+\\.\\d+)\\.exe"
+	},
+	"urls": [{ "url": "https://cdn.matchmycolor.com/downloads/ColibriInstaller_{version}.exe", "architecture": "x86" }]
+}
