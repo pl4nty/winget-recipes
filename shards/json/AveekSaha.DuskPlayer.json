@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Aveek-Saha",
+		"repo": "DuskPlayer"
+	},
+	"urls": [
+		"https://github.com/Aveek-Saha/DuskPlayer/releases/download/{github.rawTag}/DuskPlayer-Setup-{version}.exe"
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.byond.com/download/version.txt",
+		"regex": "(?<version>(?<major>\\d+)\\.\\d+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.byond.com/download/build/{captures.major}/{version}_byond.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.byond.com/docs/notes/{captures.major}.html"
+	}
+}

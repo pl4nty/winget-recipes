@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://steascree.download/",
+		"regex": "steascree-(\\d+(?:\\.\\d+)+)-windows\\.exe"
+	},
+	"urls": [
+		"https://steascree.download/steascree-{version}-windows.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/awthwathje/SteaScree/releases/tag/{version}"
+	}
+}
