@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://kb.firedaemon.com/support/solutions/articles/4000194049",
+		"regex": "download\\.firedaemon\\.com/FireDaemon-Pro/(?<version>\\d+(?:\\.\\d+)+)/FireDaemon-Pro-x64-"
+	},
+	"urls": ["https://download.firedaemon.com/FireDaemon-Pro/{version}/FireDaemon-Pro-x64-{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://kb.firedaemon.com/support/solutions/articles/4000194049"
+	}
+}
