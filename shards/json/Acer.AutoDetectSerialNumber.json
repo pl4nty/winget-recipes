@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://global-download.acer.com/SupportFiles/Files/SNID/APP/SerialNumberDetectionTool.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://global-download.acer.com/SupportFiles/Files/SNID/APP/SerialNumberDetectionTool.exe",
+		"header": "etag"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://cdn.aixifan.com/downloads/ARLiveForAcfunLive-Setup-X64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.aixifan.com/downloads/ARLiveForAcfunLive-Setup-X64.exe",
+		"header": "etag"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://telechargement.crm.acigo.fr/version.json",
+		"path": "version"
+	},
+	"urls": [
+		"https://telechargement.crm.acigo.fr/app-release-{version}.msi"
+	]
+}

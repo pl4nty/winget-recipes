@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AlexanderPershin",
+		"repo": "lsdeer"
+	},
+	"urls": [
+		"https://github.com/AlexanderPershin/lsdeer/releases/download/{github.rawTag}/lsdeer-Setup-{version}.exe"
+	]
+}

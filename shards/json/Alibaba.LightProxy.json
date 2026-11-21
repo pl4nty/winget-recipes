@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "alibaba",
+		"repo": "lightproxy"
+	},
+	"urls": [
+		"https://github.com/alibaba/lightproxy/releases/download/{github.rawTag}/LightProxy-Setup-{version}.exe"
+	]
+}
