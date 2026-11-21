@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "guilryder",
+		"repo": "clavier-plus",
+		"tagRegex": "^release"
+	},
+	"urls": [
+		"https://github.com/guilryder/clavier-plus/releases/download/{github.rawTag}/ClavierSetup.exe"
+	]
+}
