@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support-splashtopbusiness.splashtop.com/api/v2/help_center/en-us/sections/11960106075419/articles.json?sort_by=created_at&sort_order=desc&per_page=30",
+		"regex": "\"id\":(?<id>\\d+),[^{}]*?\"html_url\":\"(?<notes>[^\"]+)\"[^{}]*?\"title\":\"\\s*Splashtop Business app for Windows\\s*-?\\s*v(?<version>(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d)\\.(?<build>\\d))\\s*-?\\s*released\""
+	},
+	"urls": ["https://download.splashtop.com/winclient/STB/Splashtop_Business_Win_INSTALLER_v{version}.exe"],
+	"version": "{captures.major}.{captures.minor}.{captures.patch}0{captures.build}.0",
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://support-splashtopbusiness.splashtop.com/api/v2/help_center/en-us/articles/{captures.id}.json",
+		"path": "article.body",
+		"nestedSource": "html",
+		"releaseNotesUrl": "{captures.notes}",
+		"cleanup": false
+	}
+}
