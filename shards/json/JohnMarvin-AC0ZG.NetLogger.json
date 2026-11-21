@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.netlogger.org/download.php",
+		"regex": "NetLogger_(\\d+(?:\\.\\d+)+)_Windows_x86\\.msi"
+	},
+	"urls": [
+		"https://www.netlogger.org/downloads/NetLogger_{version}_Windows_x86.msi"
+	]
+}
