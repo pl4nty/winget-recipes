@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "moq-dev",
+		"repo": "moq",
+		"method": "api-list",
+		"tagRegex": "^moq-cli-v"
+	},
+	"urls": [
+		"https://github.com/moq-dev/moq/releases/download/{github.rawTag}/{github.rawTag}-x86_64-pc-windows-msvc.zip"
+	]
+}
