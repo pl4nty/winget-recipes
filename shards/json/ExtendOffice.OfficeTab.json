@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://cdn.extendoffice.com/custom-snipts/ot-snipts.json",
+		"path": "ot-version"
+	},
+	"urls": ["https://download.extendoffice.com/downloads/SetupOfficeTab.msi"]
+}

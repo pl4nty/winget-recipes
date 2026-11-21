@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://bined.exbin.org/download/",
+		"regex": "\\?f=bined-(?<version>\\d+(?:\\.\\d+)+)-win32\\.exe\""
+	},
+	"urls": ["https://bined.exbin.org/download/bined-{version}-win32.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://bined.exbin.org/?p=news"
+	}
+}
