@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sigrok.org/download/binary/pulseview/",
+		"regex": "pulseview-(\\d+(?:\\.\\d+)+)-64bit-static-release-installer\\.exe\""
+	},
+	"urls": [
+		"https://sigrok.org/download/binary/pulseview/pulseview-{version}-32bit-static-release-installer.exe",
+		"https://sigrok.org/download/binary/pulseview/pulseview-{version}-64bit-static-release-installer.exe"
+	]
+}
