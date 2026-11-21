@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.active-undelete.com/",
+		"regex": "New version (\\d+(?:\\.\\d+)+) released"
+	},
+	"urls": [
+		"https://download.lsoft.net/undelete-demo.exe"
+	]
+}

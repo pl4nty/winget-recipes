@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.jsoftware.com/download/j9.4/install/",
+		"regex": "href=\"\\./j(9\\.4\\.\\d+)_win64\\.exe\""
+	},
+	"urls": [
+		"https://www.jsoftware.com/download/j9.4/install/j{version}_win64.exe",
+		"https://www.jsoftware.com/download/j9.4/install/j{version}_win64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://code.jsoftware.com/wiki/System/ReleaseNotes/J9.4"
+	}
+}

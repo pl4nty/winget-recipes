@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mttzzz",
+		"repo": "poe2-oracle"
+	},
+	"urls": [
+		"https://github.com/mttzzz/poe2-oracle/releases/download/{github.rawTag}/PoE2-Oracle-Setup-{version}.exe"
+	]
+}

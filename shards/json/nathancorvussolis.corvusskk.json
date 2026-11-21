@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nathancorvussolis",
+		"repo": "corvusskk"
+	},
+	"urls": [
+		"https://github.com/nathancorvussolis/corvusskk/releases/download/{github.rawTag}/corvusskk-{version}.exe"
+	]
+}

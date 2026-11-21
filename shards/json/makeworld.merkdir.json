@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "makew0rld",
+		"repo": "merkdir"
+	},
+	"urls": [
+		"https://github.com/makew0rld/merkdir/releases/download/{github.rawTag}/merkdir_Windows_i386.zip",
+		"https://github.com/makew0rld/merkdir/releases/download/{github.rawTag}/merkdir_Windows_x86_64.zip",
+		"https://github.com/makew0rld/merkdir/releases/download/{github.rawTag}/merkdir_Windows_arm64.zip"
+	]
+}
