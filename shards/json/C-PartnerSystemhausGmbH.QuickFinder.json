@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://download.c-partner.com/WinGet/QuickFinder.zip"
+		],
+		"regex": "^(\\d+(?:\\.\\d+)+)/QuickFinder\\.zip$"
+	},
+	"urls": [
+		"https://download.c-partner.com/WinGet/{version}/QuickFinder.zip"
+	]
+}

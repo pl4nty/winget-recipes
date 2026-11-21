@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hxz393",
+		"repo": "BaiduPanFilesTransfers"
+	},
+	"urls": ["https://github.com/hxz393/BaiduPanFilesTransfers/releases/download/{version}/BaiduPanFilesTransfers.exe"]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "adirh3",
+		"repo": "Fluent-Search"
+	},
+	"urls": [
+		"https://github.com/adirh3/Fluent-Search/releases/download/{github.rawTag}/Fluent-Search-x64.exe",
+		"https://github.com/adirh3/Fluent-Search/releases/download/{github.rawTag}/Fluent-Search-arm64.exe"
+	]
+}
