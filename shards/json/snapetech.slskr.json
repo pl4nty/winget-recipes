@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "snapetech-org",
+		"repo": "slskr",
+		"tagRegex": "^release-v"
+	},
+	"urls": [
+		"https://github.com/snapetech-org/slskr/releases/download/{github.rawTag}/slskr-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
