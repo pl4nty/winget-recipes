@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "crgimenes",
+		"repo": "kutta"
+	},
+	"urls": [
+		"https://github.com/crgimenes/kutta/releases/download/{github.rawTag}/kutta-windows-amd64.exe",
+		"https://github.com/crgimenes/kutta/releases/download/{github.rawTag}/kutta-windows-arm64.exe"
+	]
+}
