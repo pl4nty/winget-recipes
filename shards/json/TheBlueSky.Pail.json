@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TheBlueSky",
+		"repo": "Pail",
+		"tagRegex": "^releases/v"
+	},
+	"urls": [
+		"https://github.com/TheBlueSky/Pail/releases/download/releases/v{version}/Pail-win-arm64.zip",
+		"https://github.com/TheBlueSky/Pail/releases/download/releases/v{version}/Pail-win-x64.zip",
+		"https://github.com/TheBlueSky/Pail/releases/download/releases/v{version}/Pail-win-x86.zip"
+	]
+}
