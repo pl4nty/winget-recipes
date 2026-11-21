@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ideagenthub.com/changelog",
+		"regex": "releases\\.ideagenthub\\.com/IDEAgentHub-(\\d+(?:\\.\\d+)+)-Setup\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://releases.ideagenthub.com/IDEAgentHub-{version}-Setup.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ideagenthub.com/changelog"
+	}
+}

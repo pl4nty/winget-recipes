@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://ftp.gnu.org/gnu/units/windows/",
+		"regex": "units-(\\d+(?:\\.\\d+)+)-setup\\.exe"
+	},
+	"urls": [
+		"https://ftp.gnu.org/gnu/units/windows/units-{version}-setup.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Bronya0",
+		"repo": "Kafka-King"
+	},
+	"urls": [
+		"https://github.com/Bronya0/Kafka-King/releases/download/{github.rawTag}/Kafka-King-{github.rawTag}-windows-x64.7z"
+	]
+}

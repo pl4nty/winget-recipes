@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tulleuchen",
+		"repo": "jirastopwatch"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/tulleuchen/jirastopwatch/releases/download/{github.rawTag}/jirastopwatch-setup-{version}.msi",
+			"architecture": "x86"
+		}
+	]
+}

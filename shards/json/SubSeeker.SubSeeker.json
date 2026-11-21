@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CinemaLibertad",
+		"repo": "SubSeeker-3.0-release"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/CinemaLibertad/SubSeeker-3.0-release/releases/download/{github.rawTag}/SubSeeker_Setup_v{version}.exe",
+			"architecture": "x64"
+		}
+	]
+}
