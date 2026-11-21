@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "gpxsee",
+		"file": "GPXSee-{version}_x64.exe"
+	},
+	"urls": ["https://sourceforge.net/projects/gpxsee/files/Windows/GPXSee-{version}_x64.exe/download"],
+	"releaseNotes": {
+		"source": "plain-text",
+		"sourceUrl": "https://api.opensuse.org/public/source/home:tumic:GPXSee/gpxsee/gpxsee.changes",
+		"releaseNotesUrl": "https://build.opensuse.org/projects/home:tumic:GPXSee/packages/gpxsee/files/gpxsee.changes",
+		"cleanup": false
+	}
+}
