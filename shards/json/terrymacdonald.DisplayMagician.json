@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "terrymacdonald",
+		"repo": "DisplayMagician",
+		"method": "api-list",
+		"assetRegex": "^DisplayMagicianSetup_v.*\\.exe$"
+	}
+}
