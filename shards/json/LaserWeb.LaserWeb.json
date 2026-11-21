@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LaserWeb",
+		"repo": "LaserWeb4-Binaries",
+		"tagRegex": "-\\d+$"
+	},
+	"urls": [
+		"https://github.com/LaserWeb/LaserWeb4-Binaries/releases/download/{github.rawTag}/LaserWeb.Setup.{github.tag}_win_x64.exe",
+		"https://github.com/LaserWeb/LaserWeb4-Binaries/releases/download/{github.rawTag}/LaserWeb.Setup.{github.tag}_win_x86.exe"
+	]
+}

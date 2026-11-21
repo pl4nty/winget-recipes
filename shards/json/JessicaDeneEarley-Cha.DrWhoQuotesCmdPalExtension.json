@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chatasweetie",
+		"repo": "CmdPalExtensionDrWhoQuotes",
+		"tagRegex": "^CmdPalExtensionDrWhoQuotes-v"
+	},
+	"urls": [
+		"https://github.com/chatasweetie/CmdPalExtensionDrWhoQuotes/releases/download/{github.rawTag}/CmdPalExtensionDrWhoQuotes-Setup-{version}-arm64.exe",
+		"https://github.com/chatasweetie/CmdPalExtensionDrWhoQuotes/releases/download/{github.rawTag}/CmdPalExtensionDrWhoQuotes-Setup-{version}-x64.exe"
+	]
+}

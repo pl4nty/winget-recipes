@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://sourceforge.net/projects/vjoystick/files/latest/download"],
+		"regex": "/vjoystick/Beta%202\\.x/(\\d+(?:\\.\\d+)+)-(?<date>\\d+)/"
+	},
+	"urls": ["https://sourceforge.net/projects/vjoystick/files/Beta%202.x/{version}-{captures.date}/vJoySetup.exe/download"]
+}

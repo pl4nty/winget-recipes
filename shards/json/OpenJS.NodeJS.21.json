@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://nodejs.org/dist/latest-v21.x/",
+		"regex": "node-v(21\\.\\d+\\.\\d+)-x64\\.msi"
+	},
+	"urls": [
+		"https://nodejs.org/dist/v{version}/node-v{version}-x64.msi",
+		"https://nodejs.org/dist/v{version}/node-v{version}-x86.msi",
+		"https://nodejs.org/dist/v{version}/node-v{version}-arm64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/nodejs/node/releases/tag/v{version}"
+	}
+}

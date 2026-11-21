@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mytonwallet-org",
+		"repo": "mytonwallet"
+	},
+	"urls": [
+		"https://github.com/mytonwallet-org/mytonwallet/releases/download/{github.rawTag}/MyWallet-x64.exe"
+	]
+}

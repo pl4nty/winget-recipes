@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://img.movavi.com/changelog/game-capture/changelog",
+		"regex": "new in Gecata by Movavi (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://cs18.movavi.com/x64/MovaviGecataSetup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://img.movavi.com/changelog/game-capture/changelog"
+	}
+}

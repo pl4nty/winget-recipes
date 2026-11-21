@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.desksoft.com/WindowManager_Version.htm",
+		"regex": "Version (\\d+\\.\\d+\\.\\d+)"
+	},
+	"urls": ["https://www.desksoft.com/Download/WMSetup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.desksoft.com/WindowManager_Version.htm"
+	}
+}
