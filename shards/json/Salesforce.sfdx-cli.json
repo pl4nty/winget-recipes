@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://developer.salesforce.com/media/salesforce-cli/sfdx/channels/stable/sfdx-win32-x64-buildmanifest",
+		"path": "version"
+	},
+	"urls": [
+		"https://developer.salesforce.com/media/salesforce-cli/sfdx/channels/stable/sfdx-x64.exe",
+		"https://developer.salesforce.com/media/salesforce-cli/sfdx/channels/stable/sfdx-x86.exe"
+	]
+}
