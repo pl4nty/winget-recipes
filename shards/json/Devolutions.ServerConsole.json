@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://devolutions.net/server/download",
+		"regex": "https://cdn\\.devolutions\\.net/download/Setup\\.DVLS\\.Console\\.(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://cdn.devolutions.net/download/Setup.DVLS.Console.{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://devolutions.net/server/release-notes/console/"
+	}
+}
