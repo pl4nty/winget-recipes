@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "valinet", "repo": "ExplorerPatcher" },
+	"urls": [
+		"https://github.com/valinet/ExplorerPatcher/releases/download/{github.rawTag}/ep_setup.exe",
+		{
+			"url": "https://github.com/valinet/ExplorerPatcher/releases/download/{github.rawTag}/ep_setup_arm64.exe",
+			"architecture": "arm64"
+		}
+	]
+}
