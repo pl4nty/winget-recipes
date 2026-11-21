@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Tautulli",
+		"repo": "Tautulli"
+	},
+	"version": "{version}.1",
+	"urls": ["https://github.com/Tautulli/Tautulli/releases/download/v{version}/Tautulli-windows-v{version}-x64.exe"]
+}
