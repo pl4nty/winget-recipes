@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://z.weixin.qq.com/",
+		"regex": "\"latest\":\"https://download\\.z\\.weixin\\.qq\\.com/app/win/WeTypeSetup_(?<version>\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": [
+		"https://download.z.weixin.qq.com/app/win/WeTypeSetup_{version}.exe"
+	]
+}
