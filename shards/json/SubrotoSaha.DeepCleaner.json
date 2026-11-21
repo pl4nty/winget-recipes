@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "isubroto",
+		"repo": "temp_cleaner"
+	},
+	"urls": [
+		"https://github.com/isubroto/temp_cleaner/releases/download/v{version}/DeepCleaner-{version}.msi"
+	]
+}

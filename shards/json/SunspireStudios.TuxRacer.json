@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/tuxracer/rss",
+		"regex": "/files/tuxracer/(?<dir>[\\d.]+)/tuxracer-win32-(?<version>\\d+(?:\\.\\d+)+[a-z]?)\\.zip/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/tuxracer/files/tuxracer/{captures.dir}/tuxracer-win32-{version}.zip/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tuxracer.sourceforge.net/"
+	}
+}

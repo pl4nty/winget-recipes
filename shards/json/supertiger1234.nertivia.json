@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SupertigerDev",
+		"repo": "nertivia-desktop-app"
+	},
+	"urls": [
+		"https://github.com/SupertigerDev/nertivia-desktop-app/releases/download/{github.rawTag}/nertivia-Setup-{version}.exe"
+	]
+}

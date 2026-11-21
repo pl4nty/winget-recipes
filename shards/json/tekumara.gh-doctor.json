@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tekumara",
+		"repo": "gh-doctor"
+	},
+	"urls": [
+		"https://github.com/tekumara/gh-doctor/releases/download/{github.rawTag}/gh-doctor-windows-arm64.exe",
+		"https://github.com/tekumara/gh-doctor/releases/download/{github.rawTag}/gh-doctor-windows-amd64.exe"
+	]
+}

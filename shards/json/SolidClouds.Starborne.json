@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://starbornecdn.azureedge.net/files/installers/StarborneInstaller.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://starbornecdn.azureedge.net/files/installers/StarborneInstaller.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://starborne.com/"
+	}
+}
