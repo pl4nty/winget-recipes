@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "afractal",
+		"repo": "echo-app"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/afractal/echo-app/releases/download/{github.rawTag}/Echo-v{packageVersion}.exe"
+	]
+}

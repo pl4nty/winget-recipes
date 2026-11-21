@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "arrow2nd",
+		"repo": "tokumei-player-plus"
+	},
+	"urls": [
+		"https://github.com/arrow2nd/tokumei-player-plus/releases/download/{github.rawTag}/tokumei-player-plus-{version}.exe"
+	]
+}

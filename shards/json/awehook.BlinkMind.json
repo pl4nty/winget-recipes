@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "awehook",
+		"repo": "blink-mind-desktop"
+	},
+	"urls": [
+		"https://github.com/awehook/blink-mind-desktop/releases/download/{github.rawTag}/BlinkMind-{version}.exe"
+	]
+}

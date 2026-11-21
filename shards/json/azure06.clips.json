@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/azure06/clips/releases/latest/download/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/azure06/clips/releases/tag/v{version}"
+	}
+}
