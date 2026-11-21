@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Hookwarden",
+		"repo": "hookwarden",
+		"method": "api-sort",
+		"tagRegex": "^v(?=\\d)"
+	},
+	"urls": [
+		"https://github.com/Hookwarden/hookwarden/releases/download/{github.rawTag}/hookwarden-windows-x64.exe"
+	]
+}
