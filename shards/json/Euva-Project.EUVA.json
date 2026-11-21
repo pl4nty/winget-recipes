@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "Euva-Project",
+		"repo": "EUVA",
+		"method": "api-latest",
+		"assetRegex": "^(?:EUVA_\\d+\\.\\d+_Installer\\.exe)$"
+	}
+}
