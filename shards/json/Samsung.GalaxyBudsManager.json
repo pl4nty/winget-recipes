@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.samsung.com/uk/support/model/SM-R175NZKAEUA/",
+		"regex": "\"fileName\":\"GalaxyBudsManager_[^\"]+\\.exe\"[^}]*?\"fileVersion\":\"(?<version>[^\"]+)\"[^}]*?\"filePath\":\"(?<path>[^\"]+\\.exe)\""
+	},
+	"urls": [
+		{
+			"url": "https://downloadcenter.samsung.com/content/{captures.path}",
+			"architecture": "x86"
+		}
+	]
+}
