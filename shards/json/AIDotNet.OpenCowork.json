@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AIDotNet",
+		"repo": "NextCoWork"
+	},
+	"urls": [
+		"https://github.com/AIDotNet/NextCoWork/releases/download/{github.rawTag}/nextcowork-{version}-setup.exe"
+	]
+}
