@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://appsdistributionstorage.blob.core.windows.net/msi/Narula/NLock/Narula.File.NLock.Setup.msi",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://appsdistributionstorage.blob.core.windows.net/msi/Narula/NLock/Narula.File.NLock.Setup.msi",
+		"header": "etag"
+	},
+	"replace": true
+}

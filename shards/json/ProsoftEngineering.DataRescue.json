@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.prosofteng.com/download-data-rescue-6-windows",
+		"regex": "downloads\\.prosofteng\\.com/dr/Data_Rescue_(\\d+\\.\\d+\\.\\d+)(?<suffix>[A-Za-z0-9]*)\\.exe"
+	},
+	"urls": [
+		"https://downloads.prosofteng.com/dr/Data_Rescue_{version}{captures.suffix}.exe"
+	]
+}

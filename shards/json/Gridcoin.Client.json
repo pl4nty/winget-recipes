@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gridcoin-community",
+		"repo": "Gridcoin-Research",
+		"method": "api-list",
+		"tagRegex": "\\.0$",
+		"assetRegex": "win(?:32|64)-setup\\.exe$"
+	}
+}

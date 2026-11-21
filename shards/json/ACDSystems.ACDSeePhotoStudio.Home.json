@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.acdsee.com/en/products/photo-studio-home/",
+		"regex": "fusion-toggle-heading>(\\d+(?:\\.\\d+)+)<[\\s\\S]*?href=https://dl\\.acdsystems\\.com/acdsee/en/(?<file>acdsee-photo-studio-home-\\d+(?:-\\d+)+-win-en\\.exe)"
+	},
+	"urls": [
+		{
+			"url": "https://dl.acdsystems.com/acdsee/en/{captures.file}",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.acdsee.com/en/support/photo-studio-home/changelog/"
+	}
+}

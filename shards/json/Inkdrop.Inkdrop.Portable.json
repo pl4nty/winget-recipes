@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.inkdrop.app/download/latest",
+		"path": "version"
+	},
+	"urls": [
+		"https://dist.inkdrop.app/releases/inkdrop-{version}-x64-windows.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.inkdrop.app/releases"
+	}
+}

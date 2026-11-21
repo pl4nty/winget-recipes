@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://www.linqpad.net/GetFile.aspx?LINQPad6Setup.exe"
+		],
+		"regex": "/LINQPad6Setup\\.exe\\?cache=(?<version>\\d+\\.\\d+\\.\\d+)\\.(?<build>\\d+)$"
+	},
+	"urls": [
+		{
+			"url": "https://cdn.linqpad.net/public/LINQPad6Setup.exe?cache={version}.{captures.build}",
+			"architecture": "neutral"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.linqpad.net/LINQPad6.aspx"
+	}
+}

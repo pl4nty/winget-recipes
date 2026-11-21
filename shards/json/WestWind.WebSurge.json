@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://west-wind.com/files/WebSurgeSetup.exe",
+			"architecture": "neutral"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://west-wind.com/files/WebSurgeSetup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/RickStrahl/WestWindWebSurge/blob/master/ChangeLog.md"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "appinstaller",
+	"appinstaller": {
+		"url": "https://apps.interfacefluidics.com/autoanalysis/beta/autoanalysis-beta.appinstaller"
+	},
+	"urls": [
+		{
+			"url": "https://apps.interfacefluidics.com/autoanalysis/beta/{version}/autoanalysis-{version}.msix",
+			"architecture": "x64"
+		}
+	]
+}
