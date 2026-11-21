@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://instedit.github.io/instedit_site/download.html",
+		"regex": "download2\\.html\\?file=InstEd-(?<version>\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": ["https://instedit.github.io/instedit_site/releases2/InstEd-{version}.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://instedit.github.io/instedit_site/features2.html"
+	}
+}
