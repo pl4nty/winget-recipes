@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "FireBlade211",
+		"repo": "ClipboardEdit"
+	},
+	"urls": [
+		"https://github.com/FireBlade211/ClipboardEdit/releases/download/{github.rawTag}/ClipboardEdit.zip"
+	]
+}
