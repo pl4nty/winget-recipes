@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Readarr",
+		"repo": "Readarr",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/Readarr/Readarr/releases/download/v{version}/Readarr.develop.{version}.windows-core-x86-installer.exe",
+		"https://github.com/Readarr/Readarr/releases/download/v{version}/Readarr.develop.{version}.windows-core-x64-installer.exe"
+	]
+}
