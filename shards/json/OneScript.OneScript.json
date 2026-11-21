@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://oscript.io/api/archive/lts",
+		"regex": "\"filename\":\\s*\"OneScript-(\\d+(?:\\.\\d+)+)-x64\\.exe\""
+	},
+	"urls": [
+		"https://oscript.io/downloads/{version|.|_}/x64/OneScript-{version}-x64.exe",
+		"https://oscript.io/downloads/{version|.|_}/OneScript-{version}-x86.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/EvilBeaver/OneScript/releases/tag/v{version}"
+	}
+}

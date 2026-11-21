@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TAPR",
+		"repo": "OpenHPSDR-PowerSDR"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/TAPR/OpenHPSDR-PowerSDR/releases/download/{github.rawTag}/PowerSDR_mRX_PS_v{version}.0_Setup.msi"
+	]
+}

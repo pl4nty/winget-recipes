@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "notion-enhancer",
+		"repo": "notion-repackaged"
+	},
+	"urls": [
+		"https://github.com/notion-enhancer/notion-repackaged/releases/download/{github.rawTag}/Notion-Enhanced-Setup-{version}.exe"
+	]
+}

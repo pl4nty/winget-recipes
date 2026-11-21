@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nodists",
+		"repo": "nodist"
+	},
+	"urls": [
+		"https://github.com/nodists/nodist/releases/download/{github.rawTag}/NodistSetup-{version}.exe"
+	]
+}

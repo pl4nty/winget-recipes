@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "the-via",
+		"repo": "releases",
+		"method": "api-latest"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/the-via/releases/releases/download/{github.rawTag}/via-{version}-win.msi"
+	]
+}
