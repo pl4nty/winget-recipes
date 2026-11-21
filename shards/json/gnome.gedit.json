@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://download.gnome.org/binaries/win64/gedit/",
+		"regex": "gedit-x86_64-(\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": [
+		"https://download.gnome.org/binaries/win64/gedit/gedit-x86_64-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gitlab.gnome.org/GNOME/gedit/-/blob/master/NEWS"
+	}
+}

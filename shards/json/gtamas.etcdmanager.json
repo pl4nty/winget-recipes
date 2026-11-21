@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gtamas",
+		"repo": "etcdmanager"
+	},
+	"urls": [
+		"https://github.com/gtamas/etcdmanager/releases/download/{github.rawTag}/etcd-manager-{version}-win64.exe"
+	]
+}

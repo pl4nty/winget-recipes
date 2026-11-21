@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ilime",
+		"repo": "Petal"
+	},
+	"urls": [
+		"https://github.com/ilime/Petal/releases/download/{github.rawTag}/Petal.Setup.{version}.exe"
+	]
+}

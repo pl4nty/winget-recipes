@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "feugy",
+		"repo": "melodie"
+	},
+	"urls": [
+		"https://github.com/feugy/melodie/releases/download/{github.rawTag}/melodie-setup-{version}.exe"
+	]
+}

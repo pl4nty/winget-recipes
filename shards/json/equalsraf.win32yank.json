@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "equalsraf",
+		"repo": "win32yank"
+	},
+	"urls": [
+		"https://github.com/equalsraf/win32yank/releases/download/{github.rawTag}/win32yank-x86.zip",
+		"https://github.com/equalsraf/win32yank/releases/download/{github.rawTag}/win32yank-x64.zip"
+	]
+}
