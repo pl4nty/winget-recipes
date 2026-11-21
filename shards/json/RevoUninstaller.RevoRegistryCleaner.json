@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.revouninstaller.com/revo-registry-cleaner-free-version-history/",
+		"regex": "<article class=\"version\">[\\s\\S]*?Version (?<version>\\d+(?:\\.\\d+)+)\\s*</span>"
+	},
+	"urls": ["https://revoregcleaner.b-cdn.net/rrc{version|.|}/RevoRegCleanerFreeSetup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.revouninstaller.com/revo-registry-cleaner-free-version-history/"
+	}
+}
