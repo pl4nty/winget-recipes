@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://enreach.de/de/service/downloads",
+		"regex": "swyxit!_(\\d+(?:\\.\\d+)+)_64bit_german\\.zip\""
+	},
+	"version": { "source": "display" },
+	"urls": [
+		{
+			"url": "https://downloads.enreach.de/download/swyxit!_{version}_64bit_german.zip",
+			"nestedInstallerMatches": ["SwyxIt!German64.msi"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.enreach.de/download/swyxit!_{version}_64bit_german.zip",
+		"header": "etag"
+	}
+}
