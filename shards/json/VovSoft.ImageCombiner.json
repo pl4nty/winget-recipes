@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/image-combiner/",
+		"regex": "<span class=\"notranslate\">Image Combiner (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		{
+			"url": "https://files.vovsoft.com/image-combiner.exe",
+			"architecture": "x64"
+		},
+		"https://files.vovsoft.com/image-combiner-portable.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/image-combiner/"
+	}
+}
