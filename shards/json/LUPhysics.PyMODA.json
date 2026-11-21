@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "luphysics",
+		"repo": "pymoda-installation"
+	},
+	"urls": [
+		"https://github.com/luphysics/pymoda-installation/releases/download/{github.rawTag}/setup-win64.exe"
+	]
+}

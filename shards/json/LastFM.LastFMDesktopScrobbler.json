@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://www.last.fm/download/windows-scrobbler"
+		],
+		"regex": "/LastFM_Scrobbler_(\\d+(?:\\.\\d+)+)\\.msi$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.last.fm/about/trackmymusic"
+	}
+}

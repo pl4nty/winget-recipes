@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://app.letsconnect-vpn.org/windows/",
+		"regex": "LetsConnectClient_(\\d+(?:\\.\\d+)+)_x64\\.msi"
+	},
+	"urls": [
+		"https://app.letsconnect-vpn.org/windows/LetsConnectClient_{version}_ARM64.msi",
+		"https://app.letsconnect-vpn.org/windows/LetsConnectClient_{version}_x64.msi",
+		"https://app.letsconnect-vpn.org/windows/LetsConnectClient_{version}_x86.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://codeberg.org/eduVPN/windows/releases/tag/{version}"
+	}
+}

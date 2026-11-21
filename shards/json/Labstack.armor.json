@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "labstack",
+		"repo": "armor"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/labstack/armor/releases/download/{github.rawTag}/armor_{version}_windows_64-bit.zip",
+			"nestedInstallerMatches": [
+				"armor.exe"
+			]
+		}
+	]
+}

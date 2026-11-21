@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://leonflix.net/",
+		"regex": "Downloads \\(Beta (?<version>\\d+(?:\\.\\d+)+)\\)"
+	},
+	"urls": [
+		"https://leonflix.net/downloads/Leonflix-Installer.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://leonflix.net/"
+	}
+}
