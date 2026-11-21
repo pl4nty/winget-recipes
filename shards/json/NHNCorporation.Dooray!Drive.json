@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		"https://dooray.com/release/files/drive/win-x64/DoorayDriveSetup-x64.exe",
+		"https://dooray.com/release/files/drive/win-x86/DoorayDriveSetup-x86.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dooray.com/release/files/drive/win-x64/DoorayDriveSetup-x64.exe",
+		"header": "etag"
+	}
+}

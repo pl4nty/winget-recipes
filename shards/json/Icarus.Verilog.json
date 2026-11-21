@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://bleyer.org/icarus/",
+		"regex": "iverilog-v(?<version>\\d+)-(?<year>\\d{4})(?<month>\\d{2})(?<day>\\d{2})-x64_setup\\.exe"
+	},
+	"version": "{version}.{captures.year}.{captures.month}.{captures.day}",
+	"urls": ["https://bleyer.org/icarus/iverilog-v{version}-{captures.year}{captures.month}{captures.day}-x64_setup.exe"]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MaxCoteLeKing",
+		"repo": "ttimer"
+	},
+	"urls": [
+		"https://github.com/MaxCoteLeKing/ttimer/releases/download/{github.rawTag}/ttimer.zip"
+	],
+	"version": {
+		"source": "product"
+	}
+}

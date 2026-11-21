@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://manticoreprod.azureedge.net/builds/CoreLauncherInstall.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://manticoreprod.azureedge.net/builds/CoreLauncherInstall.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

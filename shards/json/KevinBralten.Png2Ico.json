@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kbralten",
+		"repo": "png2ico"
+	},
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://github.com/kbralten/png2ico/releases/download/{github.rawTag}/Png2Ico-{github.rawTag}-installer.msi"
+	]
+}
