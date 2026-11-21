@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://paycoscdn.toastoven.net/payco/offline/order_limited/setup/PayCoOrderSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://paycoscdn.toastoven.net/payco/offline/order_limited/setup/PayCoOrderSetup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

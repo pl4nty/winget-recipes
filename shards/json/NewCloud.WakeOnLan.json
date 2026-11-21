@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://www.newcloud.cn/downloads/",
+		"regex": "newcloud_wakeonlan_ver(?<version>(?<major>\\d+)\\.(?<minor>\\d)(?<patch>\\d+))\\.zip"
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.patch}",
+	"urls": ["http://www.newcloud.cn/downloads/newcloud_wakeonlan_ver{version}.zip"]
+}
