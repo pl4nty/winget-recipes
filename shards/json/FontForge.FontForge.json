@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fontforge",
+		"repo": "fontforge",
+		"method": "api-latest",
+		"assetRegex": "^FontForge-[\\d-]+-Windows-[^/]+\\.exe$"
+	}
+}
