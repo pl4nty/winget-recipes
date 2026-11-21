@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://octopus.com/downloads/server",
+		"regex": "releaseVersion=(?<version>\\d+(?:\\.\\d+)+)&amp;filePlatform=WindowsX64"
+	},
+	"urls": [
+		"https://download.octopusdeploy.com/octopus/Octopus.{version}-x64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://octopus.com/downloads/compare?to={version}"
+	}
+}

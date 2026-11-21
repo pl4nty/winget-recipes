@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.wakdev.com/en/apps/nfc-tools-pc-mac.html",
+		"regex": "Latest version: (?<version>\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": [
+		"https://apps.wakdev.com/ntgui/releases/download.php?version=windows"
+	]
+}

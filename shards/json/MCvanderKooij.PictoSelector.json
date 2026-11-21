@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.pictoselector.eu/news/versions/",
+		"regex": "versions/version-(\\d+(?:\\.\\d+)+)/"
+	},
+	"urls": [
+		"https://picto.cloud/setup_complete.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.pictoselector.eu/news/versions/version-{version}/"
+	}
+}

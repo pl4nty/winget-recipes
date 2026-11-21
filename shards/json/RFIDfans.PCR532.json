@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"http://120.24.245.232/app/pcr532.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "http://120.24.245.232/app/pcr532.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

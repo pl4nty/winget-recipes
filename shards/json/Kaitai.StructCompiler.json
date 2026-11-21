@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kaitai-io",
+		"repo": "kaitai_struct_compiler"
+	},
+	"urls": [
+		"https://github.com/kaitai-io/kaitai_struct_compiler/releases/download/{github.rawTag}/kaitai-struct-compiler-{version}.msi"
+	]
+}
