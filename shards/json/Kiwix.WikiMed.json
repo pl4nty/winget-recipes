@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kiwix",
+		"repo": "kiwix-js-pwa",
+		"method": "api-list",
+		"tagRegex": "-WikiMed$"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://s3.eu-west-2.wasabisys.com/org-kiwix-download.branded-apps/WikiMed/v{version}/WikiMed%20by%20Kiwix%20{version}-E.appx"
+	]
+}
