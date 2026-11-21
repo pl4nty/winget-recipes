@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://get.clipclip.com/index.php?p=direct"],
+		"regex": "/builds/(\\d+(?:\\.\\d+)+)/ClipClipSetup\\.exe"
+	}
+}
