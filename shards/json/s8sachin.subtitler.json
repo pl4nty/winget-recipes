@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "s8sachin",
+		"repo": "subtitler"
+	},
+	"urls": [
+		"https://github.com/s8sachin/subtitler/releases/download/{github.rawTag}/Subtitler-Setup-{version}.exe"
+	]
+}

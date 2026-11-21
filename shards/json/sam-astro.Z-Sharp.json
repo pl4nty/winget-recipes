@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "sam-astro",
+		"repo": "Z-Sharp"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/sam-astro/Z-Sharp/releases/download/{github.rawTag}/ZSharp-Win-Installer.zip",
+			"nestedInstallerMatches": [
+				"ZSharp-Win-Installer/ZSharp-Setup.exe"
+			],
+			"architecture": "x64"
+		}
+	]
+}

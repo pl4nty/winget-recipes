@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "okibcn",
+		"repo": "nano-for-windows"
+	},
+	"urls": [
+		"https://github.com/okibcn/nano-for-windows/releases/download/{github.rawTag}/nano-for-windows_win32_{github.rawTag}.zip",
+		"https://github.com/okibcn/nano-for-windows/releases/download/{github.rawTag}/nano-for-windows_win64_{github.rawTag}.zip",
+		"https://github.com/okibcn/nano-for-windows/releases/download/{github.rawTag}/nano-for-windows_arm64_{github.rawTag}.zip"
+	]
+}

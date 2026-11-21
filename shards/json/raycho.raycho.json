@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "raychosystem",
+		"repo": "raycho-release"
+	},
+	"urls": [
+		"https://github.com/raychosystem/raycho-release/releases/download/{github.rawTag}/raycho-win.exe"
+	]
+}
