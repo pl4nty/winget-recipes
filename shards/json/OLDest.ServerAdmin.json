@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://serveradmin.su/en/",
+		"regex": "/ServerAdmin/ServerAdmin-(\\d+(?:\\.\\d+)+)\\.zip\""
+	},
+	"urls": [
+		{
+			"url": "https://download.agbis.co/download/admin_tools/ServerAdmin/ServerAdmin-{version}.zip",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": { "source": "github", "owner": "OLDest", "repo": "ServerAdmin", "tag": "v{version}", "cleanup": false }
+}
