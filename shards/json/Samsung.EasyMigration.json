@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://downloadcenter.samsung.com/content/SW/201205/20120503112745428/Easy_Migration_1.0.0.19.ZIP",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloadcenter.samsung.com/content/SW/201205/20120503112745428/Easy_Migration_1.0.0.19.ZIP",
+		"header": "etag"
+	},
+	"replace": true
+}
