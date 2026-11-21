@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://archive.mozilla.org/pub/opus/win64/",
+		"regex": "/opus-tools-(\\d+(?:\\.\\d+)+)-win64\\.zip\""
+	},
+	"urls": [
+		"https://archive.mozilla.org/pub/opus/win64/opus-tools-{version}-win64.zip",
+		"https://archive.mozilla.org/pub/opus/win32/opus-tools-{version}-win32.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://opus-codec.org/release/dev/"
+	}
+}

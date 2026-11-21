@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "t4h4-05",
+		"repo": "AutoVideoEnhancer"
+	},
+	"urls": [
+		"https://github.com/t4h4-05/AutoVideoEnhancer/releases/download/{github.rawTag}/vae.exe"
+	]
+}

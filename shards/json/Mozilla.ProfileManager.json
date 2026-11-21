@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://archive.mozilla.org/pub/utilities/profilemanager/",
+		"regex": "/profilemanager/(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": [
+		"https://archive.mozilla.org/pub/utilities/profilemanager/{version}/profilemanager.win32.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://archive.mozilla.org/pub/utilities/profilemanager/{version}/"
+	}
+}

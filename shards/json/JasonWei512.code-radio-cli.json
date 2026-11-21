@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JasonWei512",
+		"repo": "code-radio-cli"
+	},
+	"urls": [
+		"https://github.com/JasonWei512/code-radio-cli/releases/download/{github.rawTag}/code-radio-{version}-windows-x64.exe",
+		"https://github.com/JasonWei512/code-radio-cli/releases/download/{github.rawTag}/code-radio-{version}-windows-arm64.exe"
+	]
+}

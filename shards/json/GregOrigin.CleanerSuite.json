@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gregorik",
+		"repo": "gregorigin-cleaner-suite"
+	},
+	"urls": [
+		"https://github.com/gregorik/gregorigin-cleaner-suite/releases/download/{github.rawTag}/GregOriginSuiteApp.exe"
+	]
+}

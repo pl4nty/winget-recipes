@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://downloads.akka.io/?delimiter=/",
+		"regex": "<Prefix>(\\d+\\.\\d+\\.\\d+)/</Prefix>"
+	},
+	"urls": [
+		"https://downloads.akka.io/{version}/akka_windows_amd64_{version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://doc.akka.io/reference/release-notes.html"
+	}
+}
