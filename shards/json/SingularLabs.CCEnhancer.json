@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://singularlabs.com/download/13238/"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://singularlabs.com/download/13238/",
+		"header": "content-disposition",
+		"method": "get"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://singularlabs.com/software/ccenhancer/"
+	}
+}

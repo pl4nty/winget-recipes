@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://e.seewo.com/",
+		"regex": "EasiCare_PC_(?<version>\\d+(?:\\.\\d+)+)\\((?<build>\\d+)\\)\\.exe"
+	},
+	"urls": [
+		"https://imlizhi-store-https.seewo.com/EasiCare_PC_{version}({captures.build}).exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://e.seewo.com/"
+	}
+}

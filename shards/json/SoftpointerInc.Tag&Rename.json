@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.softpointer.com/tag_rename_rss.xml",
+		"regex": "Tag&amp;Rename (\\d+(?:\\.\\d+)+) released"
+	},
+	"urls": [
+		"https://www.softpointer.com/downloads/TagRename{version|.|}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.softpointer.com/tr_history.htm"
+	}
+}

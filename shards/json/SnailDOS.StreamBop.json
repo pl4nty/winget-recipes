@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "snaildos",
+		"repo": "StreamBop"
+	},
+	"urls": [
+		"https://github.com/snaildos/StreamBop/releases/download/{github.rawTag}/StreamBop-Setup-{version}.exe"
+	]
+}
