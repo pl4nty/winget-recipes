@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://pkgs.cloudnet.world/stable/windows/",
+		"regex": "href=\"CloudNet_v(\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": [
+		"https://pkgs.cloudnet.world/stable/windows/CloudNet_v{version}.exe"
+	]
+}

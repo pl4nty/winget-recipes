@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "charmbracelet",
+		"repo": "gum"
+	},
+	"urls": [
+		"https://github.com/charmbracelet/gum/releases/download/{github.rawTag}/gum_{version}_Windows_i386.zip",
+		"https://github.com/charmbracelet/gum/releases/download/{github.rawTag}/gum_{version}_Windows_x86_64.zip"
+	]
+}

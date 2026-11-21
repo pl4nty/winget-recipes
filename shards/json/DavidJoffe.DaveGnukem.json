@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnukem/rss",
+		"regex": "/gnukem/files/(?<dir>[^/]+)/Dave_Gnukem_Setup_(?<version>\\d+(?:\\.\\d+)+)\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnukem/files/{captures.dir}/Dave_Gnukem_Setup_{version}.exe/download"
+	]
+}

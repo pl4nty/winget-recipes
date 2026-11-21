@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://dl.enforce.dev/?prefix=chainctl/&delimiter=/",
+		"regex": "<Prefix>chainctl/(\\d+(?:\\.\\d+)+)/</Prefix>"
+	},
+	"urls": [
+		"https://dl.enforce.dev/chainctl/{version}/chainctl_windows_x86_64.exe",
+		"https://dl.enforce.dev/chainctl/{version}/chainctl_windows_arm64.exe"
+	]
+}

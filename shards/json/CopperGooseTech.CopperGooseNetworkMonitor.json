@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.coppergoosetech.com/whats-new",
+		"regex": "<article id=\"v[\\d-]+\"><h2[^>]*>(?<version>\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": ["https://www.coppergoosetech.com/downloads/CopperGooseSetup-{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.coppergoosetech.com/whats-new#v{version|.|-}"
+	}
+}
