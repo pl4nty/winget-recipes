@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PolarGoose",
+		"repo": "Ragel-for-Windows",
+		"tagRegex": "^ragel-"
+	},
+	"urls": [
+		"https://github.com/PolarGoose/Ragel-for-Windows/releases/download/{github.rawTag}/Ragel.zip"
+	]
+}
