@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ptweezy",
+		"repo": "cronstable"
+	},
+	"urls": [
+		"https://github.com/ptweezy/cronstable/releases/download/{version}/cronstable-windows-amd64-setup.exe",
+		"https://github.com/ptweezy/cronstable/releases/download/{version}/cronstable-windows-arm64-setup.exe",
+		"https://github.com/ptweezy/cronstable/releases/download/{version}/cronstable-windows-amd64.msi",
+		"https://github.com/ptweezy/cronstable/releases/download/{version}/cronstable-windows-arm64.msi"
+	]
+}
