@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "russellbanks",
+		"repo": "HashHash"
+	},
+	"urls": [
+		"https://github.com/russellbanks/HashHash/releases/download/v{version}/HashHash-{version}.msi",
+		"https://github.com/russellbanks/HashHash/releases/download/v{version}/HashHash-{version}.exe"
+	]
+}

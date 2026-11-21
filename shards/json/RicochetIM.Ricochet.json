@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ricochet-im",
+		"repo": "ricochet"
+	},
+	"urls": [
+		"https://github.com/ricochet-im/ricochet/releases/download/v{version}/ricochet-{version}-win-install.exe"
+	],
+	"version": "{version}.0"
+}

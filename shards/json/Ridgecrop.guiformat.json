@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://ridgecrop.co.uk/guiformat.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://ridgecrop.co.uk/guiformat.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "http://ridgecrop.co.uk/index.htm?guiformat.htm"
+	},
+	"replace": true
+}

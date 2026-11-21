@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://ridgecrop.co.uk/fat32format.htm",
+		"regex": "<b>(\\d+\\.\\d+)</b><br>"
+	},
+	"urls": ["https://ridgecrop.co.uk/download/fat32format.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ridgecrop.co.uk/fat32format.htm"
+	},
+	"replace": true
+}
