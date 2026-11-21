@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.influxdata.com/influxdb3/cloud-dedicated/reference/cli/influxctl/",
+		"regex": "dl\\.influxdata\\.com/influxctl/releases/influxctl-v(\\d+(?:\\.\\d+)+)-windows-x86_64\\.zip"
+	},
+	"urls": [{ "url": "https://dl.influxdata.com/influxctl/releases/influxctl-v{version}-windows-x86_64.zip", "architecture": "x64" }]
+}

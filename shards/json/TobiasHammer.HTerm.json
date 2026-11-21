@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.der-hammer.info/pages/terminal.html",
+		"regex": "Latest:&nbsp;(\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": [
+		{
+			"url": "https://www.der-hammer.info/terminal/hterm-windows.zip",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.der-hammer.info/terminal/CHANGELOG.txt"
+	}
+}

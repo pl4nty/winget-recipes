@@ -1,0 +1,26 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.timestored.com/qstudio/files/qstudio.zip",
+			"architecture": "neutral"
+		},
+		{
+			"url": "https://www.timestored.com/qstudio/files/qstudio-setup.exe",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.timestored.com/qstudio/files/qstudio-setup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.timestored.com/qstudio/release-notes"
+	},
+	"replace": true
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.influxdata.com/influxdb3/enterprise/install/",
+		"regex": "dl\\.influxdata\\.com/influxdb/releases/influxdb3-enterprise-(\\d+(?:\\.\\d+)+)-windows_amd64\\.zip"
+	},
+	"urls": [{ "url": "https://dl.influxdata.com/influxdb/releases/influxdb3-enterprise-{version}-windows_amd64.zip", "architecture": "x64" }]
+}
