@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://firebasestorage.googleapis.com/v0/b/touchvpn-windows/o/Installer%2FTouchVPN.msi?alt=media",
+			"architecture": "neutral"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://firebasestorage.googleapis.com/v0/b/touchvpn-windows/o/Installer%2FTouchVPN.msi?alt=media",
+		"header": "etag"
+	},
+	"replace": true
+}
