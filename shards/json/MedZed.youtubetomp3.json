@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MedZed",
+		"repo": "Electron-Youtube-to-Mp3-Converter"
+	},
+	"urls": [
+		"https://github.com/MedZed/Electron-Youtube-to-Mp3-Converter/releases/download/{github.rawTag}/Youtube-mp3.exe"
+	]
+}

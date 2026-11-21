@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DiRoots-Limited",
+		"repo": "DiRoots.AppManager.Releases"
+	},
+	"urls": [
+		"https://github.com/DiRoots-Limited/DiRoots.AppManager.Releases/releases/download/{github.rawTag}/DiRoots.AppManager-{version}.exe"
+	]
+}

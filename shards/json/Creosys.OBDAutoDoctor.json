@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.obdautodoctor.com/download/",
+		"regex": "download=obd-auto-doctor_(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://cdn2.obdautodoctor.com/release/obd-auto-doctor_{version}.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.obdautodoctor.com/release-notes/"
+	}
+}

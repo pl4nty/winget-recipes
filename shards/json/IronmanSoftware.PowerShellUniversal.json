@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://devolutions.net/productinfo.htm",
+		"regex": "PSU\\.Version=(?<version>\\d+\\.\\d+\\.\\d+)\\.(?<revision>\\d+)"
+	},
+	"urls": [
+		{
+			"url": "https://cdn.devolutions.net/download/Devolutions.PowerShellUniversal.{version}.{captures.revision}.msi",
+			"architecture": "x64"
+		}
+	]
+}

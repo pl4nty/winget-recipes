@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FreeterApp",
+		"repo": "v1-releases"
+	},
+	"urls": [
+		"https://github.com/FreeterApp/v1-releases/releases/download/{github.rawTag}/FreeterSetup.exe"
+	]
+}

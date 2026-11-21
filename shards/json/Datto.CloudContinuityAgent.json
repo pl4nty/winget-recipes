@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://cf-dl.datto.com/cc4pc/DattoCloudContinuityInstaller.exe",
+			"architecture": "neutral"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cf-dl.datto.com/cc4pc/DattoCloudContinuityInstaller.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

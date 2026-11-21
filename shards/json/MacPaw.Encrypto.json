@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
