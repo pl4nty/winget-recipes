@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support-splashtopbusiness.splashtop.com/api/v2/help_center/en-us/sections/11960321666203/articles.json?sort_by=created_at&sort_order=desc&per_page=30",
+		"regex": "\"title\":\"Splashtop Streamer version v(?<version>\\d+(?:\\.\\d+)+) for Windows released\""
+	},
+	"urls": [
+		{
+			"url": "https://download.splashtop.com/csrs/msi/v{version}/setup.msi",
+			"architecture": "x86"
+		}
+	]
+}
