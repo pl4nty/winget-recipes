@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://rii7.com/alarm/",
+		"regex": "/assets/file/al_(?<version>\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": ["https://rii7.com/assets/file/al_{version}.zip"]
+}
