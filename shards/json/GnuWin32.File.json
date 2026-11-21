@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "gnuwin32",
+		"file": "file-{version}-setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnuwin32/files/file/{version}/file-{version}-setup.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gnuwin32.sourceforge.net/packages/file.htm"
+	}
+}
