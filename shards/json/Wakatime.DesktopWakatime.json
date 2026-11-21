@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wakatime",
+		"repo": "desktop-wakatime"
+	},
+	"version": "{version|+|.}",
+	"urls": [
+		{
+			"url": "https://github.com/wakatime/desktop-wakatime/releases/download/{github.rawTag}/wakatime-win32-ia32.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://github.com/wakatime/desktop-wakatime/releases/download/{github.rawTag}/wakatime-win32-x64.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/wakatime/desktop-wakatime/releases/download/{github.rawTag}/wakatime-win32-arm64.exe",
+			"architecture": "arm64"
+		}
+	]
+}
