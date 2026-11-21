@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.microsoft.com/download/1/9/8/198838b0-4ddf-4a50-aae3-7210680c3be6/Setup.exe"
+	]
+}
