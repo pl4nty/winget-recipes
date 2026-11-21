@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://buildserver.futureglobe.de/NorthReader/NorthReaderSetup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://buildserver.futureglobe.de/NorthReader/NorthReaderSetup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://imsreleases.blob.core.windows.net/psscriptpad/PSScriptPad.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://imsreleases.blob.core.windows.net/psscriptpad/PSScriptPad.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

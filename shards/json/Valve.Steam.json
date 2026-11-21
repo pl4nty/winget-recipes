@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

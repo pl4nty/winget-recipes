@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.shure.com/en-US/support/downloads/software-firmware-archive/wireless-workbench",
+		"regex": "mr-8\">(6\\.\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": ["https://files.shure.com/wireless-workbench/{version|.|-}/Wireless-Workbench-win-{version}.exe"]
+}
