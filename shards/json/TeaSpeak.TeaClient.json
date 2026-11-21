@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://teaspeak.de/",
+		"regex": "/files/release/(?<version>\\d+(?:\\.\\d+)+(?:-\\d+)?)/TeaClient-win32_x64\\.exe"
+	},
+	"urls": [
+		"https://clientapi.teaspeak.de/files/release/{version}/TeaClient-win32_x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://teaspeak.de/"
+	}
+}

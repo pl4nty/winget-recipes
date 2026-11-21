@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WindowsGSM",
+		"repo": "WindowsGSM"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/WindowsGSM/WindowsGSM/releases/download/{github.rawTag}/WindowsGSM.exe"
+	]
+}
