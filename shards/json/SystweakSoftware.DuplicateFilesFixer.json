@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://cdn.systweak.com/setups/dffw/baps/dffsetupg_dffw-site.exe?of=dffsetupg_.exe",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.systweak.com/setups/dffw/baps/dffsetupg_dffw-site.exe?of=dffsetupg_.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

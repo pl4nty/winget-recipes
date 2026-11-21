@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stream-pi",
+		"repo": "client",
+		"tagRegex": "\\.0-EA\\+\\d+$"
+	},
+	"urls": [
+		"https://github.com/stream-pi/client/releases/download/{github.rawTag}/stream-pi-client-windows-x64-{github.rawTag}-installer.msi"
+	]
+}

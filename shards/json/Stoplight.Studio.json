@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stoplightio",
+		"repo": "studio",
+		"tagRegex": "-stable\\..*$"
+	},
+	"urls": [
+		"https://github.com/stoplightio/studio/releases/download/{github.rawTag}/stoplight-studio-win.exe"
+	]
+}

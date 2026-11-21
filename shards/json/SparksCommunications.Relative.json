@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.csparks.com/Relative/index.html",
+		"regex": "RelativeSetup-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.csparks.com/Relative/RelativeSetup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.csparks.com/Relative/index.html"
+	}
+}
