@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JRScott812",
+		"repo": "CmdPal.Ext.Power",
+		"tagRegex": "^CmdPal\\.Ext\\.Power\\-v"
+	},
+	"urls": [
+		"https://github.com/JRScott812/CmdPal.Ext.Power/releases/download/{github.rawTag}/CmdPal.Ext.Power-Setup-{version}-arm64.exe",
+		"https://github.com/JRScott812/CmdPal.Ext.Power/releases/download/{github.rawTag}/CmdPal.Ext.Power-Setup-{version}-x64.exe"
+	]
+}
