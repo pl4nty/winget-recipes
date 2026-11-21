@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://downloads.puppetlabs.com/windows/puppet/",
+		"regex": "href=\"puppet-bolt-(\\d+\\.\\d+\\.\\d+)-x64\\.msi\""
+	},
+	"urls": [
+		"https://downloads.puppetlabs.com/windows/puppet/puppet-bolt-{version}-x64.msi"
+	]
+}

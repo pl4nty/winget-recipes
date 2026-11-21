@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://downloads.myriadrf.org/builds/PothosSDR/",
+		"regex": "href=\"/builds/PothosSDR/PothosSDR-(\\d{4}\\.\\d{2}\\.\\d{2})-vc16-x64\\.exe\""
+	},
+	"urls": [
+		"https://downloads.myriadrf.org/builds/PothosSDR/PothosSDR-{version}-vc16-x64.exe"
+	]
+}

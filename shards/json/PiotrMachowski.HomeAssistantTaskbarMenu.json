@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PiotrMachowski",
+		"repo": "Home-Assistant-Taskbar-Menu"
+	},
+	"urls": [
+		"https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu/releases/download/v{version}/Home.Assistant.Taskbar.Menu.Installer.v{version}.exe"
+	]
+}

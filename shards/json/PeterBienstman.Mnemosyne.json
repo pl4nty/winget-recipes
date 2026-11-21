@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "mnemosyne-proj",
+		"file": "mnemosyne-{version}-setup.exe"
+	},
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/mnemosyne-proj/files/mnemosyne/mnemosyne-{version}/mnemosyne-{version}-setup.exe/download",
+			"architecture": "x64"
+		}
+	]
+}

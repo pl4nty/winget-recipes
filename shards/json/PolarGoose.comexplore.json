@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PolarGoose",
+		"repo": "comexplore-build"
+	},
+	"urls": [
+		"https://github.com/PolarGoose/comexplore-build/releases/download/v{version}/comexplore.zip"
+	]
+}
