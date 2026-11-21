@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{ "url": "https://software.vc.logitech.com/downloads/tune/LogiTuneInstall.exe", "architecture": "x64" },
+		{ "url": "https://software.vc.logitech.com/downloads/tune/LogiTuneInstall-arm64.exe", "architecture": "arm64" },
+		{ "url": "https://software.vc.logitech.com/downloads/tune/LogiTuneSetup-x64.msi", "architecture": "x64" },
+		{ "url": "https://software.vc.logitech.com/downloads/tune/LogiTuneSetup-arm64.msi", "architecture": "arm64" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://software.vc.logitech.com/downloads/tune/LogiTuneInstall.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
