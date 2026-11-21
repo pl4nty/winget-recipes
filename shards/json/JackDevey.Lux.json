@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jackdevey",
+		"repo": "Lux"
+	},
+	"urls": [
+		"https://github.com/jackdevey/Lux/releases/download/{github.rawTag}/setup-x64.exe",
+		"https://github.com/jackdevey/Lux/releases/download/{github.rawTag}/setup-x86.exe"
+	]
+}

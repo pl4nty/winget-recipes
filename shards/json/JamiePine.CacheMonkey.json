@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jamiepine",
+		"repo": "cache-monkey"
+	},
+	"urls": [
+		{ "url": "https://github.com/jamiepine/cache-monkey/releases/download/{github.rawTag}/cache-monkey-setup-{version}.exe", "architecture": "neutral" }
+	]
+}

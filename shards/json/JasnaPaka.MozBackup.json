@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://mozbackup.jasnapaka.com/download.php",
+		"regex": "files/(\\d+(?:\\.\\d+)+)/MozBackup-\\d+(?:\\.\\d+)+-EN\\.exe"
+	},
+	"urls": ["https://mozbackup.jasnapaka.com/files/{version}/MozBackup-{version}-EN.exe"]
+}

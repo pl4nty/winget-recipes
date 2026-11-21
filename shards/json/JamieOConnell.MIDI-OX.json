@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://www.midiox.com/moxchg.htm",
+		"regex": "Version\\s+(\\d+(?:\\.\\d+)+)\\s*</font>"
+	},
+	"urls": ["http://www.midiox.com/zip/midioxse.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "http://www.midiox.com/moxchg.htm"
+	}
+}
