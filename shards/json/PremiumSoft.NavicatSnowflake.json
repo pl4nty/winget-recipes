@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.navicat.com/en/products/navicat-for-snowflake-release-note",
+		"regex": "Navicat for Snowflake \\(Windows\\) version (?<version>(?<major>\\d+)\\.\\d+\\.\\d+)<"
+	},
+	"urls": [
+		"https://download3.navicat.com/download/navicat{captures.major}_snowflake_es_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_snowflake_en_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_snowflake_cs_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_snowflake_ct_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_snowflake_id_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_snowflake_jp_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_snowflake_de_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_snowflake_ru_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_snowflake_pl_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_snowflake_fr_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_snowflake_kr_x64.exe",
+		"https://download3.navicat.com/download/navicat{captures.major}_snowflake_th_x64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.navicat.com/products/navicat-for-snowflake-release-note"
+	}
+}
