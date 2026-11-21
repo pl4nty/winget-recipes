@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://medibangpaint.com/en/jumppaint/",
+		"regex": "/static/installer/JumpPaint/JumpPaintSetup-(?<version>\\d+(?:\\.\\d+)+)-64bit\\.exe"
+	},
+	"urls": ["https://medibangpaint.com/static/installer/JumpPaint/JumpPaintSetup-{version}-64bit.exe"]
+}
