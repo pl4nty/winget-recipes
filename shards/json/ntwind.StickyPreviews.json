@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ntwind.com/software/sticky-previews.html",
+		"regex": "/download/StickyPreviews_(?<version>\\d+(?:\\.\\d+)+)-setup\\.exe"
+	},
+	"urls": [
+		"https://www.ntwind.com/files/StickyPreviews_{version}-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ntwind.com/software/sticky-previews/what-is-new.html"
+	}
+}
