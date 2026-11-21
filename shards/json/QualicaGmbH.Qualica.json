@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [{ "url": "https://www.qualica.net/en/support/downloads/?download=setup", "architecture": "x86" }],
+	"replace": true
+}
