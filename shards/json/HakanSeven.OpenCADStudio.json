@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "HakanSeven12",
+		"repo": "OpenCADStudio",
+		"method": "api-latest",
+		"assetRegex": "^(?:OpenCADStudio\\-v\\d+\\.\\d+\\-windows\\-x86_64\\-installer\\.msi|OpenCADStudio\\-v\\d+\\.\\d+\\-windows\\-arm64\\-installer\\.msi)$"
+	}
+}
