@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.benthicsoftware.com/downloads.html",
+		"regex": "PLEdit 6\\.x[\\s\\S]*?apps/pleditsetup(?<version>\\d+)\\.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.benthicsoftware.com/apps/pleditsetup{version}.exe",
+		"https://www.benthicsoftware.com/apps/pledit64setup{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.benthicsoftware.com/pledit.html"
+	}
+}

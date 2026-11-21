@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://capnproto.org/install.html",
+		"regex": "capnproto-c\\+\\+-win32-(?<version>\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		"https://capnproto.org/capnproto-c++-win32-{version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/capnproto/capnproto/releases/tag/v{version}"
+	}
+}

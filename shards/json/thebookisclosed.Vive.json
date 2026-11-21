@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "thebookisclosed",
+		"repo": "ViVe"
+	},
+	"urls": [
+		"https://github.com/thebookisclosed/ViVe/releases/download/{github.rawTag}/ViVeTool-v{version}-IntelAmd.zip",
+		"https://github.com/thebookisclosed/ViVe/releases/download/{github.rawTag}/ViVeTool-v{version}-SnapdragonArm64.zip"
+	]
+}
