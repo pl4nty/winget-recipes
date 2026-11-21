@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		{ "url": "https://www.cantab.net/users/john.wiseman/Downloads/QtTermTCP64.zip", "architecture": "x64" },
+		{ "url": "https://www.cantab.net/users/john.wiseman/Downloads/QtTermTCP.zip", "architecture": "x86" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.cantab.net/users/john.wiseman/Downloads/QtTermTCP64.zip",
+		"header": "etag"
+	},
+	"replace": true
+}

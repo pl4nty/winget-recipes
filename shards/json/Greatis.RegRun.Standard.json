@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [{ "url": "https://greatissoftware.com/regruns.zip", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://greatissoftware.com/regruns.zip",
+		"header": "last-modified"
+	},
+	"replace": true
+}

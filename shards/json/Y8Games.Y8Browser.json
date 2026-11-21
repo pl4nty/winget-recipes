@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.y8.com/download-app",
+		"regex": "y8-apps/y8-browser-web-setup-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [{ "url": "https://storage.y8.com/y8-studio/y8-apps/y8-browser-web-setup-{version}.exe", "architecture": "x86" }]
+}

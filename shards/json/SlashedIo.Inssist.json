@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [{ "url": "https://storage.googleapis.com/inssist-app-builds/Inssist-setup-windows.exe", "architecture": "x64" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://storage.googleapis.com/inssist-app-builds/Inssist-setup-windows.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

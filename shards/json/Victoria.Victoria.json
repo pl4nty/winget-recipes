@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://hdd.by/victoria/",
+		"regex": "Victoria (?<version>\\d+\\.\\d+) HDD[\\s\\S]*?kccpid=(?<pid>\\d+)&#038;kcccount=https://hdd\\.by/Victoria/Victoria(?<file>\\d+)\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://hdd.by/?download=1&kccpid={captures.pid}&kcccount=https://hdd.by/Victoria/Victoria{captures.file}.zip",
+			"architecture": "x86"
+		}
+	]
+}
