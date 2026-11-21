@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/gzip",
+		"regex": "/gnuwin32/files/gzip/(?<dir>[^/]+)/(?<file>gzip-(?<version>\\d+(?:\\.\\d+)+(?:-\\d+)?)(?:-setup)?\\.exe)/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnuwin32/files/gzip/{captures.dir}/{captures.file}/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gnuwin32.sourceforge.net/packages/gzip.htm"
+	}
+}

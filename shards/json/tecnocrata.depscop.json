@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tecnocrata",
+		"repo": "deps-cop"
+	},
+	"urls": [
+		"https://github.com/tecnocrata/deps-cop/releases/download/{github.rawTag}/depscop.exe"
+	]
+}

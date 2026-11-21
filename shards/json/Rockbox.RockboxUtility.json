@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://download.rockbox.org/rbutil/win32/",
+		"regex": "RockboxUtility-v(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		"https://download.rockbox.org/rbutil/win32/RockboxUtility-v{version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.rockbox.org/wiki/RockboxUtility#Change_Log"
+	}
+}
