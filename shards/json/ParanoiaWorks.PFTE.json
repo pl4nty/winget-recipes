@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://paranoiaworks.com/download/",
+		"regex": "ParanoiaFileTextEnc-(\\d+(?:\\.\\d+)+)\\.msi\""
+	},
+	"urls": ["https://paranoiaworks.com/download/ParanoiaFileTextEnc-{version}.msi"]
+}
