@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "simon-knuth",
+		"repo": "scanner"
+	},
+	"urls": [
+		"https://github.com/simon-knuth/scanner/releases/download/{github.rawTag}/9390SimonKnuth.ScannerforWindows10_{version}_neutral_._69n05hp4v3s90.Msixbundle"
+	]
+}

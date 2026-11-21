@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sap.github.io/SapMachine/assets/data/sapmachine-releases-all.json",
+		"regex": "sapmachine-jre-(23(?:\\.\\d+)+)_windows-x64_bin\\.msi"
+	},
+	"urls": [
+		"https://github.com/SAP/SapMachine/releases/download/sapmachine-{version}/sapmachine-jre-{version}_windows-x64_bin.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/SAP/SapMachine/releases/tag/sapmachine-{version}"
+	}
+}

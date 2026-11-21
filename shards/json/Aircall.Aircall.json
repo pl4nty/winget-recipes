@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download-electron.aircall.io/RELEASES",
+		"regex": "Aircall-(\\d+(?:\\.\\d+)+)-full\\.nupkg"
+	},
+	"urls": [
+		"https://download-electron.aircall.io/Aircall-{version}.msi"
+	]
+}

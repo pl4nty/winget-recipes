@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://docs.liquidfiles.com/outlook/v2/release_notes.html",
+		"regex": "<h2>[^<]*?\\b(2\\.\\d+\\.\\d+)\\b[^<]*\\(Released"
+	},
+	"urls": [
+		"https://updates.liquidfiles.com/clients/outlook/admin_msi/LiquidFiles_Admin_{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.liquidfiles.com/outlook/v2/release_notes.html"
+	}
+}

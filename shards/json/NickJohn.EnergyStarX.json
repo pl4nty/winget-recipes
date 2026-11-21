@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "{version}.0",
+	"github": {
+		"owner": "JasonWei512",
+		"repo": "EnergyStarX"
+	},
+	"urls": [
+		"https://github.com/JasonWei512/EnergyStarX/releases/download/{github.rawTag}/EnergyStarX_{version}.0_arm64.Msix",
+		"https://github.com/JasonWei512/EnergyStarX/releases/download/{github.rawTag}/EnergyStarX_{version}.0_x64.Msix"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.scopefun.com/files/latest/Windows/",
+		"regex": "/ScopeFun-(\\d+(?:\\.\\d+)+)-win64\\.exe\""
+	},
+	"urls": [
+		"https://www.scopefun.com/files/latest/Windows/ScopeFun-{version}-win64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gitlab.com/scopefun/scopefun-software/-/releases/Release_v.{version}"
+	}
+}

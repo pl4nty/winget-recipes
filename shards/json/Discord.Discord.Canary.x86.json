@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://discord.com/api/downloads/distributions/app/installers/latest?channel=canary&platform=win&arch=x86"
+		],
+		"regex": "/win/x86/(\\d+(?:\\.\\d+)+)/DiscordCanarySetup\\.exe$"
+	}
+}

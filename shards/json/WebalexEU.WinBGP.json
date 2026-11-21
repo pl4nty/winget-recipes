@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "webalexeu",
+		"repo": "WinBGP"
+	},
+	"urls": [
+		"https://github.com/webalexeu/WinBGP/releases/download/{github.rawTag}/WinBGP-{version}-amd64.msi"
+	]
+}

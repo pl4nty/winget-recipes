@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sylpheed.sraoss.jp/en/download.html",
+		"regex": "/sylpheed/win32/Sylpheed-(\\d+(?:\\.\\d+)+)_setup\\.exe\""
+	},
+	"urls": [
+		"https://sylpheed.sraoss.jp/sylpheed/win32/Sylpheed-{version}_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sylpheed.sraoss.jp/en/news.html"
+	}
+}
