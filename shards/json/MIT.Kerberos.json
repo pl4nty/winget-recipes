@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://kerberos.org/dist/index.html",
+		"regex": "kfw/(?<dir>[\\d.]+)/kfw-(?<version>\\d+\\.\\d+)-amd64\\.msi"
+	},
+	"version": "{version}.0",
+	"urls": [
+		{ "url": "https://kerberos.org/dist/kfw/{captures.dir}/kfw-{version}-amd64.msi", "architecture": "x64" },
+		{ "url": "https://kerberos.org/dist/kfw/{captures.dir}/kfw-{version}-i386.msi", "architecture": "x86" }
+	]
+}

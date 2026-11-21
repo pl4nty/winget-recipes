@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://git.silica.codes/api/v1/repos/Li/Worms4Editor/releases/latest",
+		"path": "tag_name"
+	},
+	"version": "{version}.0",
+	"urls": [{ "url": "https://git.silica.codes/Li/Worms4Editor/releases/download/{data.tag_name}/Worms%204%20Mayhem%21%20Save%20Editor.msi", "architecture": "x86" }],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://git.silica.codes/Li/Worms4Editor/releases/tag/{data.tag_name}"
+	}
+}
