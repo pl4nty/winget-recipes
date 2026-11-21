@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "EpicMorg",
+		"repo": "enodia"
+	},
+	"urls": [
+		"https://github.com/EpicMorg/enodia/releases/download/{github.rawTag}/enodia_windows_386.zip",
+		"https://github.com/EpicMorg/enodia/releases/download/{github.rawTag}/enodia_windows_amd64.zip",
+		"https://github.com/EpicMorg/enodia/releases/download/{github.rawTag}/enodia_windows_arm64.zip"
+	]
+}
