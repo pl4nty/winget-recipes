@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://wingware.com/downloads/wingpro",
+		"regex": "^(?=[\\s\\S]*?pub/wingpro/(?<version>\\d+(?:\\.\\d+)+)/(?<name>wing(?:pro)?-\\k<version>)\\.exe)(?=[\\s\\S]*?pub/wingpro/(?<av>\\d+(?:\\.\\d+)+)/(?<an>wing(?:pro)?-\\k<av>-arm64)\\.exe)"
+	},
+	"urls": [
+		{
+			"url": "https://wingware.com/pub/wingpro/{version}/{captures.name}.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://wingware.com/pub/wingpro/{captures.av}/{captures.an}.exe",
+			"architecture": "arm64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://wingware.com/pub/wingpro/{captures.version}/CHANGELOG.txt"
+	}
+}
