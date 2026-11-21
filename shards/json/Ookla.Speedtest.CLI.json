@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.speedtest.net/apps/cli",
+		"regex": "install\\.speedtest\\.net/app/cli/ookla-speedtest-(\\d+(?:\\.\\d+)+)-win64\\.zip"
+	},
+	"urls": ["https://install.speedtest.net/app/cli/ookla-speedtest-{version}-win64.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.speedtest.net/apps/cli"
+	}
+}
