@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://downloads.ptomaster.com/version.json", "path": "version" },
+	"urls": ["downloadUrl"]
+}
