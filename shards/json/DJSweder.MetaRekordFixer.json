@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DJSweder",
+		"repo": "MetaRekordFixer"
+	},
+	"urls": [
+		"https://github.com/DJSweder/MetaRekordFixer/releases/download/{github.rawTag}/metarekordfixer-{version}-win64-setup.exe"
+	]
+}
