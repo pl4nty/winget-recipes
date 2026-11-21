@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Paving-Base",
+		"repo": "WSA-Tools"
+	},
+	"urls": [
+		"https://github.com/Paving-Base/WSA-Tools/releases/download/{github.rawTag}/WSATools.Installer_{version}.0_x64.msi"
+	]
+}

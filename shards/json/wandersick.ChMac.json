@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "wandersick",
+		"repo": "chmac",
+		"method": "api-latest",
+		"assetRegex": "^ChMac-[\\d.]+_Silent_Installer\\.exe$"
+	}
+}

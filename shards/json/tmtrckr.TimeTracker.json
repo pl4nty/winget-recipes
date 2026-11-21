@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tmtrckr",
+		"repo": "time-tracker-app"
+	},
+	"urls": [
+		"https://github.com/tmtrckr/time-tracker-app/releases/download/{github.rawTag}/TimeTracker_{version}_x64_en-US.msi"
+	]
+}
