@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Snesnopic",
+		"repo": "vbrfix"
+	},
+	"urls": [
+		"https://github.com/Snesnopic/vbrfix/releases/download/v{version}/vbrfix-windows-x64.zip",
+		"https://github.com/Snesnopic/vbrfix/releases/download/v{version}/vbrfix-windows-x86.zip",
+		"https://github.com/Snesnopic/vbrfix/releases/download/v{version}/vbrfix-windows-arm64.zip"
+	],
+	"version": "{version}.0"
+}
