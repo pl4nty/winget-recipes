@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gielcobben",
+		"repo": "caption"
+	},
+	"urls": [
+		"https://github.com/gielcobben/caption/releases/download/{github.rawTag}/caption-setup-{version}.exe"
+	]
+}

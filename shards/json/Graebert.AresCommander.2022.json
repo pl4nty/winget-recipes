@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://help.graebert.com/en/articles/5630536-download-links-of-ares-commander-2022",
+		"regex": "files\\.graebert\\.com/ares/(?<dir>(?:20)?(?<y>\\d\\d)\\.(?<sp>\\d+)\\.\\d+\\.(?<b>\\d+))/(?<file>ARES_C_2022_SP[\\d.]+_[\\d.]+_\\d+)_x64\\.exe"
+	},
+	"version": "{captures.y}.{captures.sp}.{captures.b}",
+	"urls": [
+		"https://files.graebert.com/ares/{captures.dir}/{captures.file}_x64.exe",
+		"https://files.graebert.com/ares/{captures.dir}/{captures.file}_x86.exe"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://georgielabs.net/",
+		"regex": "Windows 7/8/10/11<br>\\s*\\((?<version>\\d+(?:\\.\\d+)+)\\)"
+	},
+	"urls": [
+		"https://georgielabs.net/SoundWire_Server_setup7-8-10.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://georgielabs.net/"
+	}
+}
