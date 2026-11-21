@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AcclaimSoftwareLtd",
+		"repo": "Fast-Backup"
+	},
+	"urls": [
+		"https://github.com/AcclaimSoftwareLtd/Fast-Backup/releases/download/{github.rawTag}/Fast-Backup{version|.|}_32.exe",
+		"https://github.com/AcclaimSoftwareLtd/Fast-Backup/releases/download/{github.rawTag}/Fast-Backup{version|.|}_64.exe"
+	]
+}

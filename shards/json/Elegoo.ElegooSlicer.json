@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elegooofficial",
+		"repo": "ElegooSlicer"
+	},
+	"urls": [
+		"https://github.com/elegooofficial/ElegooSlicer/releases/download/{github.rawTag}/ElegooSlicer_Windows_Installer_V{version}.exe"
+	]
+}

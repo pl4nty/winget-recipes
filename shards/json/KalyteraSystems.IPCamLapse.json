@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KalyteraSystems",
+		"repo": "IPCamLapse"
+	},
+	"urls": [
+		"https://github.com/KalyteraSystems/IPCamLapse/releases/download/{github.rawTag}/IPCamLapse-v{version}-win-x64.zip"
+	]
+}
