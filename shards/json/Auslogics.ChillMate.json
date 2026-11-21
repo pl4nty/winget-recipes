@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.auslogics.com/en/software/chillmate/ajax/history/",
+		"regex": "class=\"d-history-version\">(\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": ["https://downloads.auslogics.com/en/chillmate/auslogics-chillmate-setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.auslogics.com/en/software/chillmate/ajax/history/"
+	}
+}

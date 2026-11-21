@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://software.hydrosolutions.co.uk/winfap5/latest"],
+		"regex": "Winfap_Installer_(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.hydrosolutions.co.uk/software/winfap-5/whats-new/"
+	}
+}

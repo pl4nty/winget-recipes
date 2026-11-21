@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sos.noaa.gov/support/sosx/release-notes/",
+		"regex": "release-notes/(?<slug>sos-explorer-\\d+-\\d+)/\"[^<]*</a>[\\s\\S]{0,200}?Changes in version (?<version>\\d+(?:\\.\\d+)+) released"
+	},
+	"urls": ["https://sos-explorer-s3.noaa.gov/web-installer/current-release/sos_explorer_installer.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sos.noaa.gov/support/sosx/release-notes/{captures.slug}/"
+	}
+}
