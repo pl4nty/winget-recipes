@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "7gxycn08",
+		"repo": "WinGetCreateGui"
+	},
+	"urls": [
+		"https://github.com/7gxycn08/WinGetCreateGui/releases/download/{github.rawTag}/WinGetCreateGui-win64.zip"
+	]
+}

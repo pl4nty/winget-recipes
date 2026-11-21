@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://subsurface-divelog.org/",
+		"regex": "/downloads/(?<file>[Ss]ubsurface-(?<version>\\d+(?:\\.\\d+)+)-CICD-release-installer\\.exe)"
+	},
+	"urls": [
+		"https://subsurface-divelog.org/downloads/{captures.file}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://subsurface-divelog.org/current-release/"
+	}
+}

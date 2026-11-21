@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://starbornecdn.azureedge.net/frontiers-env/FrontiersLauncher.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://starbornecdn.azureedge.net/frontiers-env/FrontiersLauncher.exe",
+		"header": "etag"
+	},
+	"replace": true,
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.solidclouds.com/"
+	}
+}

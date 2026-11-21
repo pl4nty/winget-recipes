@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.jp-minerals.org/vesta/en/download.html",
+		"regex": "archives/(\\d+(?:\\.\\d+)+)/VESTA-win64\\.zip"
+	},
+	"urls": [
+		"https://www.jp-minerals.org/vesta/archives/{version}/VESTA-win64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.jp-minerals.org/vesta/en/"
+	}
+}

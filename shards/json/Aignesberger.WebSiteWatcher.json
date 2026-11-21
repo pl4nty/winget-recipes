@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.aignes.com/wsw_history.htm",
+		"regex": "Version \\d{4} \\((\\d+\\.\\d+)\\)"
+	},
+	"urls": [
+		"https://www.aignes.com/download/wswsetup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.aignes.com/wsw_history.htm"
+	}
+}

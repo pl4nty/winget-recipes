@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.hydraulic.dev/conveyor/metadata.properties",
+		"regex": "app\\.version=(?<short>\\d+(?:\\.\\d+)*)[\\s\\S]*?app\\.windows\\.manifests\\.version-quad=(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://downloads.hydraulic.dev/conveyor/conveyor-{captures.short}.x64.msix"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://conveyor.hydraulic.dev/latest/release-notes/"
+	}
+}
