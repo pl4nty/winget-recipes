@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://tv.update.me.sony.com/euched/SONY_CHANNEL_EDITOR_INSTALLER_V1.2.0.ZIP",
+			"nestedInstallerMatches": ["Setup.exe"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://tv.update.me.sony.com/euched/SONY_CHANNEL_EDITOR_INSTALLER_V1.2.0.ZIP",
+		"header": "etag"
+	},
+	"replace": true
+}
