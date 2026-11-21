@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.atlantiswordprocessor.com/en/",
+		"regex": "<a href=\"news/(?<version>(?<major>\\d+)_(?<minor>\\d+)_(?<patch>\\d+)_0*(?<build>\\d+))\\.htm\">Release of version <b>"
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.patch}.{captures.build}",
+	"urls": [
+		"https://www.atlantiswordprocessor.com/download/awp_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.atlantiswordprocessor.com/en/news/{version}.htm"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://websitetoapk.com/download.html",
+		"regex": "<h3>Download v(?<version>\\d+(?:\\.\\d+)+) \\(Latest Release"
+	},
+	"urls": [
+		"https://download.websitetoapk.com/Website.2.APK.Builder.v{version}.Installer.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://websitetoapk.com/download.html"
+	}
+}
