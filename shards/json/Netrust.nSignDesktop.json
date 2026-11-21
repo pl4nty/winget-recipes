@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.netrust.net/resources/downloads/",
+		"regex": "/downloads/public/nSign/InstallnSign(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		"https://www.netrust.net/downloads/public/nSign/InstallnSign{version}.zip"
+	]
+}

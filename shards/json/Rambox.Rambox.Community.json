@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ramboxapp",
+		"repo": "community-edition"
+	},
+	"urls": [
+		"https://github.com/ramboxapp/community-edition/releases/download/{github.rawTag}/Rambox-{version}-win-ia32.exe",
+		"https://github.com/ramboxapp/community-edition/releases/download/{github.rawTag}/Rambox-{version}-win-x64.exe"
+	]
+}

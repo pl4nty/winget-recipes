@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU",
+		"regex": "/download/cru/cru-(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		"https://www.monitortests.com/download/cru/cru-{version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU"
+	}
+}
