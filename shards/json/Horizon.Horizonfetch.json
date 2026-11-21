@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "horizonwiki",
+		"repo": "horizonfetch"
+	},
+	"urls": [
+		"https://github.com/horizonwiki/horizonfetch/releases/download/{github.rawTag}/horizonfetch-amd64.zip",
+		"https://github.com/horizonwiki/horizonfetch/releases/download/{github.rawTag}/horizonfetch-arm64.zip"
+	]
+}

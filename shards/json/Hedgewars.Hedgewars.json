@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hedgewars.org/download.html",
+		"regex": "/download/releases/Hedgewars-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.hedgewars.org/download/releases/Hedgewars-{version}.exe"
+	]
+}

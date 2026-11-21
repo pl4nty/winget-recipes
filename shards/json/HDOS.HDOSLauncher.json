@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdn.hdos.dev/launcher/latest/HDOSSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.hdos.dev/launcher/latest/HDOSSetup.exe",
+		"header": "etag"
+	}
+}

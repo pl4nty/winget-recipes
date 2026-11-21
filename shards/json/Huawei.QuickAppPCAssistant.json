@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://appfile1.hicloud.com/FileServer/getFile/appAttach/011/111/111/0000000000011111111.20210506094623.38645140498548109078905047426055:20471231000000:0001:55C6BF7EE4BF63FCE52DE5C083F57C05C749F0183EECE196120551C7E76AD0CF.exe?needInitFileName=true"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://appfile1.hicloud.com/FileServer/getFile/appAttach/011/111/111/0000000000011111111.20210506094623.38645140498548109078905047426055:20471231000000:0001:55C6BF7EE4BF63FCE52DE5C083F57C05C749F0183EECE196120551C7E76AD0CF.exe?needInitFileName=true",
+		"header": "content-disposition",
+		"method": "get"
+	}
+}

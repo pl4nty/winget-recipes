@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "harshkhandeparkar",
+		"repo": "rainbow-board"
+	},
+	"urls": [
+		"https://github.com/harshkhandeparkar/rainbow-board/releases/download/{github.rawTag}/Rainbow-Board-{version}.msi",
+		"https://github.com/harshkhandeparkar/rainbow-board/releases/download/{github.rawTag}/Rainbow-Board-Setup-{version}.exe"
+	]
+}

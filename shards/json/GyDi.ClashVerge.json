@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zzzgydi",
+		"repo": "clash-verge"
+	},
+	"urls": [
+		"https://github.com/zzzgydi/clash-verge/releases/download/{github.rawTag}/Clash.Verge_{version}_x64_en-US.msi",
+		"https://github.com/zzzgydi/clash-verge/releases/download/{github.rawTag}/Clash.Verge_{version}_x64_zh-CN.msi",
+		"https://github.com/zzzgydi/clash-verge/releases/download/{github.rawTag}/Clash.Verge_{version}_x64_ru-RU.msi"
+	]
+}
