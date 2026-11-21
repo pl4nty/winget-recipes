@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "google",
+		"repo": "UIforETW",
+		"method": "api-sort",
+		"assetRegex": "^etwpackage\\d+(?:\\.\\d+)*\\.zip$"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ic005k",
+		"repo": "OCAuxiliaryTools"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/ic005k/OCAuxiliaryTools/releases/download/{github.rawTag}/OCAT-Win64.zip",
+			"architecture": "x64"
+		}
+	]
+}

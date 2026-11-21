@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "HemantKArya",
+		"repo": "Melodfy",
+		"method": "api-sort",
+		"tagRegex": "\\+\\d+$",
+		"assetRegex": "^Melodfy_v[\\d.]+_Win\\.exe$"
+	}
+}

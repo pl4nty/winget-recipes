@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sc0ty",
+		"repo": "subsync"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/sc0ty/subsync/releases/download/{github.rawTag}/subsync-{version}.0-amd64.msi"
+	]
+}

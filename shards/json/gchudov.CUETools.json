@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gchudov",
+		"repo": "cuetools.net"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/gchudov/cuetools.net/releases/download/{github.rawTag}/CUETools_{version}.zip",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://github.com/gchudov/cuetools.net/releases/download/{github.rawTag}/CUETools_{version}.zip",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/gchudov/cuetools.net/releases/download/{github.rawTag}/CUETools_{version}.zip",
+			"architecture": "arm64"
+		}
+	]
+}
