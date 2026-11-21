@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://cygwin.com/setup/",
+		"regex": "href=\"setup-(\\d+\\.\\d+)\\.x86_64\\.exe\""
+	},
+	"urls": [
+		"https://cygwin.com/setup/setup-{version}.x86_64.exe",
+		"https://cygwin.com/setup/setup-{version}.x86.exe"
+	]
+}
