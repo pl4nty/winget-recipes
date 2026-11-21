@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dropbox",
+		"repo": "dbxcli"
+	},
+	"urls": [
+		"https://github.com/dropbox/dbxcli/releases/download/{github.rawTag}/dbxcli_{version}_windows_amd64.zip"
+	]
+}

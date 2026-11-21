@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "asystech-chen",
+		"repo": "Vantage"
+	},
+	"urls": [
+		{ "url": "https://dl.asystech.cn/latest/amd/vantage-{version}.x86_64-installer.exe", "architecture": "x64" },
+		{ "url": "https://dl.asystech.cn/latest/aarch/vantage-{version}.aarch64-installer.exe", "architecture": "arm64" }
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mindmapvault",
+		"repo": "mindmapvault-foss"
+	},
+	"urls": ["https://downloads.mindmapvault.com/foss/windows/{version}/MindMapVault-FOSS_{version}_x64-setup.exe"]
+}

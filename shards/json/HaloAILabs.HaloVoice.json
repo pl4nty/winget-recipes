@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": ["https://downloads.haloailabs.com/halovoice/Windows/App/HaloVoiceSetup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.haloailabs.com/halovoice/Windows/App/HaloVoiceSetup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ven4ru",
+		"repo": "Ven4Tools",
+		"method": "api-sort",
+		"tagRegex": "^launcher-v"
+	},
+	"urls": ["https://github.com/Ven4ru/Ven4Tools/releases/download/{github.rawTag}/Ven4Tools.Setup-{version}.exe"]
+}
