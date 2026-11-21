@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-commit",
+	"github": {
+		"owner": "SagMeinenNamen",
+		"repo": "OpenStore",
+		"path": "OpenStoreInstaller.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://raw.githubusercontent.com/SagMeinenNamen/OpenStore/{github.commit}/OpenStoreInstaller.exe"
+	],
+	"state": {
+		"source": "value",
+		"value": "{github.commit}"
+	}
+}

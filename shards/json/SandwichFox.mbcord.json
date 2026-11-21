@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SandwichFox",
+		"repo": "MBCord"
+	},
+	"urls": [
+		"https://github.com/SandwichFox/MBCord/releases/download/{github.rawTag}/mbcord-Setup-{version}.exe"
+	]
+}
