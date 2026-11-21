@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dicarne",
+		"repo": "the-center"
+	},
+	"urls": [
+		"https://github.com/dicarne/the-center/releases/download/{github.rawTag}/the_center_desktop.Setup.{version}.exe"
+	]
+}

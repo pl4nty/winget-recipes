@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dewdb",
+		"repo": "dewdb"
+	},
+	"urls": [
+		"https://github.com/dewdb/dewdb/releases/download/{github.rawTag}/dewdb-v{version}-windows-x86_64.zip"
+	]
+}

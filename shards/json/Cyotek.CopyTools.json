@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.cyotek.com/cyotek-copytools/downloads",
+		"regex": "setup-cyoct-(\\d+\\.\\d+\\.\\d+-build-\\d+)\\.exe\""
+	},
+	"version": "{version|-build-|.}",
+	"urls": [
+		"https://www.cyotek.com/downloads/get/setup-cyoct-{version}.exe"
+	]
+}

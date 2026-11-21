@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://downloads.spacedesk.net/downloadclient"
+		],
+		"regex": "/spacedeskWindowsVIEWER_v(?<build>\\d+)_BETA\\.msi$"
+	},
+	"version": {
+		"source": "display"
+	}
+}

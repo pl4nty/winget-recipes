@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TASEmulators",
+		"repo": "desmume",
+		"tagRegex": "^release_"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://github.com/TASEmulators/desmume/releases/download/{github.rawTag}/desmume-{version|_|.}-win64.zip"
+	]
+}

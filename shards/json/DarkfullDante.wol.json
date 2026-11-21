@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fcusson",
+		"repo": "wol"
+	},
+	"urls": [
+		"https://github.com/fcusson/wol/releases/download/{github.rawTag}/wol_setup.exe"
+	]
+}
