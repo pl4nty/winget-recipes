@@ -1,30 +1,17 @@
 name: Close Superseded
 
 on:
-  pull_request:
-    paths:
-      - .github/workflows/close-superseded.yml
-      - close-superseded.ts
-      - versions.ts
   workflow_dispatch:
   schedule:
     - cron: 41 */6 * * *
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
-  cancel-in-progress: false
-
 permissions: {}
-
-defaults:
-  run:
-    shell: bash -euo pipefail {0}
 
 jobs:
   close-superseded:
     name: Close Superseded
     runs-on: ubuntu-26.04-arm
-    timeout-minutes: 30
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -37,8 +24,7 @@ jobs:
           version: 2026.10.22
           install_args: bun
 
-      # Pull requests only list what would be closed.
       - name: Close Superseded PRs
-        run: bun close-superseded.ts ${{ github.event_name != 'pull_request' && '--close' || '' }} | tee -a "$GITHUB_STEP_SUMMARY"
+        run: bun close-superseded.ts --close | tee -a "$GITHUB_STEP_SUMMARY"
         env:
-          GITHUB_TOKEN: ${{ secrets.UPDATE_TOKEN }}
+          GH_TOKEN: ${{ secrets.UPDATE_TOKEN }}
