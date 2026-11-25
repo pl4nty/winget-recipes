@@ -6,6 +6,6 @@
 		"path": "version"
 	},
 	"urls": [
-		"{data.package_url}"
+		"https://dl.pctweaker.app/redexa-social/v{version}/Redexa-Social-v{version}-win64.zip"
 	]
 }
