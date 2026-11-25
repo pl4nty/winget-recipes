@@ -11,53 +11,29 @@ concurrency:
 
 permissions: {}
 
-env:
-  OPEN_PR_LIMIT: 16
-  OPEN_PR_MARGIN: 2
-
 jobs:
   batches:
     name: Batches
-    runs-on: ubuntu-26.04-arm
-    timeout-minutes: 10
+    runs-on: ubuntu-slim
     outputs:
       batches: ${{ steps.batches.outputs.batches }}
-      budget: ${{ steps.budget.outputs.budget }}
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
 
-      - name: Setup Environment
-        uses: jdx/mise-action@82a612c5ab8bcda7cc5db6b7e81a8e7584c3dc6e # v5.2.3
-        with:
-          version: 2026.10.22
-          install_args: bun
-
-      - name: Close Superseded PRs
-        run: bun close-superseded.ts --close | tee -a "$GITHUB_STEP_SUMMARY"
-        env:
-          GH_TOKEN: ${{ secrets.UPDATE_TOKEN }}
-
-      - name: PR Budget
-        id: budget
-        run: echo "budget=$((OPEN_PR_LIMIT - OPEN_PR_MARGIN - $(gh api -X GET search/issues -f q="repo:microsoft/winget-pkgs is:pr is:open author:$OWNER" --jq .total_count)))" | tee -a "$GITHUB_OUTPUT"
-        env:
-          GH_TOKEN: ${{ secrets.UPDATE_TOKEN }}
-          OWNER: ${{ github.repository_owner }}
-
       - name: Split Shards
         id: batches
         run: echo "batches=[$(seq -s, 0 $((($(find shards -type f | wc -l) - 1) / 512)))]" >> "$GITHUB_OUTPUT"
 
-  find-updates:
-    name: Find Updates
+  update-packages:
+    name: Update Packages
     needs: batches
-    if: fromJSON(needs.batches.outputs.budget) > 0
     runs-on: ubuntu-26.04-arm
     strategy:
       fail-fast: false
+      max-parallel: 1
       matrix:
         batch: ${{ fromJSON(needs.batches.outputs.batches) }}
     timeout-minutes: 30
@@ -86,74 +62,12 @@ jobs:
       - name: Install komac
         run: curl -fsSLo "$NAPI_RS_NATIVE_LIBRARY_PATH" https://github.com/devicie/Komac-anthelion/releases/latest/download/anthelion-komac.linux-arm64-gnu.node
 
-      - name: Find Updates
-        run: |
-          bun start | sed -n 's/^Candidate: //p' > "candidates-$BATCH.txt"
-        env:
-          ANTHELION_DETECT: 1
-          BATCH: ${{ matrix.batch }}
-          KOMAC_FORK_OWNER: ${{ github.repository_owner }}
-          GITHUB_TOKEN: ${{ secrets.UPDATE_TOKEN }}
-
-      - name: Upload Candidates
-        if: ${{ !cancelled() }}
-        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
-        with:
-          name: candidates-${{ matrix.batch }}
-          path: candidates-${{ matrix.batch }}.txt
-
-  update-packages:
-    name: Update Packages
-    needs: find-updates
-    runs-on: ubuntu-26.04-arm
-    timeout-minutes: 30
-    env:
-      NAPI_RS_NATIVE_LIBRARY_PATH: ${{ github.workspace }}/anthelion-komac.node
-    steps:
-      - name: Checkout
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: false
-
-      - name: Setup Environment
-        uses: jdx/mise-action@82a612c5ab8bcda7cc5db6b7e81a8e7584c3dc6e # v5.2.3
-        with:
-          version: 2026.10.22
-          install_args: bun
-
-      - name: Download Candidates
-        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
-        with:
-          pattern: candidates-*
-          path: candidates
-          merge-multiple: true
-
-      - name: Select Shards
-        id: select
-        run: |
-          budget=$((OPEN_PR_LIMIT - OPEN_PR_MARGIN - $(gh api -X GET search/issues -f q="repo:microsoft/winget-pkgs is:pr is:open author:$OWNER" --jq .total_count)))
-          gh api -X GET search/issues -f q='repo:microsoft/winget-pkgs is:issue is:open label:Package-Update' -f per_page=100 --paginate --jq '.items[].body // "" | capture("### Current Package Identifier\\s+`?(?<id>[^`\\s]+)")? | .id | ascii_downcase' | sort -u > requested.txt || true
-          sort -u candidates/*.txt | shuf | awk 'NR == FNR { requested[$0]; next } { id = tolower($0); sub(/\.(json|ts)$/, "", id); print (id in requested ? 0 : 1) "\t" $0 }' requested.txt - | sort -s -k1,1n | cut -f2 | awk -v budget="$budget" 'NR <= budget' | tee selected.txt
-          find shards -type f | awk -F/ 'NR == FNR { selected[$0]; next } !($NF in selected)' selected.txt - | xargs -r rm
-          { echo "PR budget: $budget"; echo; sed 's/^/- /' selected.txt; } >> "$GITHUB_STEP_SUMMARY"
-          echo "count=$(wc -l < selected.txt)" >> "$GITHUB_OUTPUT"
-        env:
-          GH_TOKEN: ${{ secrets.UPDATE_TOKEN }}
-          OWNER: ${{ github.repository_owner }}
-
-      - name: Install Dependencies
-        if: steps.select.outputs.count > 0
-        run: bun ci --production
-
-      - name: Install komac
-        if: steps.select.outputs.count > 0
-        run: curl -fsSLo "$NAPI_RS_NATIVE_LIBRARY_PATH" https://github.com/devicie/Komac-anthelion/releases/latest/download/anthelion-komac.linux-arm64-gnu.node
-
       - name: Update Packages
-        if: steps.select.outputs.count > 0
         run: |
           status=0
-          bun start || status=$?
+          ANTHELION_MAX_PRS=$((14 - $(gh api -X GET search/issues -f q="repo:microsoft/winget-pkgs is:pr is:open author:$KOMAC_FORK_OWNER" --jq .total_count)))
+          [ "$ANTHELION_MAX_PRS" -gt 0 ] || { echo "No PR budget"; exit 0; }
+          ANTHELION_MAX_PRS=$ANTHELION_MAX_PRS bun start || status=$?
           retry() { for i in 1 2 3; do out=$("$@") && { printf '%s\n' "$out"; return; }; sleep 60; done; false; }
           sed -n 's|^Pull Request: \(https://.*\)$|\1|p' "$GITHUB_STEP_SUMMARY" | while read -r url; do
             pr=$(retry gh pr view "$url" --json id,title,body) || continue
