@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://dl.pctweaker.app/redexa-social/latest.json",
+		"path": "version"
+	},
+	"urls": [
+		"{data.package_url}"
+	]
+}
