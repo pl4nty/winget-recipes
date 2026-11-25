@@ -6,7 +6,7 @@
 		"repo": "YUView"
 	},
 	"urls": [
-		"https://github.com/IENT/YUView/releases/download/{github.rawTag}/YUViewSetup-windows-2022.exe",
-		{ "url": "https://github.com/IENT/YUView/releases/download/{github.rawTag}/YUViewSetup-windows-11-vs2026-arm.exe", "architecture": "arm64" }
+		{ "url": "https://github.com/IENT/YUView/releases/download/{github.rawTag}/YUView-windows-2022.zip", "nestedInstallerMatches": ["YUView.exe"] },
+		{ "url": "https://github.com/IENT/YUView/releases/download/{github.rawTag}/YUView-windows-11-vs2026-arm.zip", "architecture": "arm64", "nestedInstallerMatches": ["YUView.exe"] }
 	]
 }
