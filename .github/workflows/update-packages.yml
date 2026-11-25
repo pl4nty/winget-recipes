@@ -33,6 +33,7 @@ jobs:
     runs-on: ubuntu-26.04-arm
     strategy:
       fail-fast: false
+      max-parallel: 1
       matrix:
         batch: ${{ fromJSON(needs.batches.outputs.batches) }}
     timeout-minutes: 30
@@ -64,7 +65,9 @@ jobs:
       - name: Update Packages
         run: |
           status=0
-          bun start || status=$?
+          ANTHELION_MAX_PRS=$((14 - $(gh api -X GET search/issues -f q="repo:microsoft/winget-pkgs is:pr is:open author:$KOMAC_FORK_OWNER" --jq .total_count)))
+          [ "$ANTHELION_MAX_PRS" -gt 0 ] || { echo "No PR budget"; exit 0; }
+          ANTHELION_MAX_PRS=$ANTHELION_MAX_PRS bun start || status=$?
           retry() { for i in 1 2 3; do out=$("$@") && { printf '%s\n' "$out"; return; }; sleep 60; done; false; }
           sed -n 's|^Pull Request: \(https://.*\)$|\1|p' "$GITHUB_STEP_SUMMARY" | while read -r url; do
             pr=$(retry gh pr view "$url" --json id,title,body) || continue
