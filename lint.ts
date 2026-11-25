@@ -304,9 +304,12 @@ const droppedFields: Rule = async (shards, report) => {
 			return { DisplayName: PackageName, Publisher };
 		});
 		for (const [name, raw] of raws) {
+			const yaml = yamls.get(name);
+			// A new installer type (e.g. burn to portable zip) legitimately drops the old type's fields.
+			const types = (yaml: string) => new Set(installers(yaml).map(({ InstallerType }) => InstallerType));
+			if (yaml && name.endsWith('.installer.yaml') && types(yaml).isDisjointFrom(types(raw))) continue;
 			const before = fields(raw, beforeArp);
 			const defaultLocale = DEFAULT_LOCALE.test(raw);
-			const yaml = yamls.get(name);
 			const after = yaml === undefined ? new Map<string, number>() : fields(yaml, afterArp);
 			for (const [field, count] of before) {
 				const kept = after.get(field) ?? 0;
