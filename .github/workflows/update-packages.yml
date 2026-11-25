@@ -87,7 +87,8 @@ jobs:
         run: curl -fsSLo "$NAPI_RS_NATIVE_LIBRARY_PATH" https://github.com/devicie/Komac-anthelion/releases/latest/download/anthelion-komac.linux-arm64-gnu.node
 
       - name: Find Updates
-        run: bun start | sed -n 's/^Candidate: //p' > "candidates-$BATCH.txt"
+        run: |
+          bun start | sed -n 's/^Candidate: //p' > "candidates-$BATCH.txt"
         env:
           ANTHELION_DETECT: 1
           BATCH: ${{ matrix.batch }}
