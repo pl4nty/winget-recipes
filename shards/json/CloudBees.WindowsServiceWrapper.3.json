@@ -11,5 +11,8 @@
 		"kind": "all",
 		"tagRegex": "^v?(?=3\\.)",
 		"assetRegex": "^(?:WinSW\\-net\\d+\\.exe)$"
-	}
+	},
+	"urls": [
+		{ "url": "https://github.com/winsw/winsw/releases/download/{github.rawTag}/WinSW-net461.exe", "architecture": "x64" }
+	]
 }
