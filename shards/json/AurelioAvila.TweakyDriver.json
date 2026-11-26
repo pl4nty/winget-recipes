@@ -3,11 +3,5 @@
 	"strategy": "tauri",
 	"tauri": {
 		"url": "https://dl.pctweaker.app/tweaky-driver/latest.json"
-	},
-	"releaseNotes": {
-		"source": "json",
-		"sourceUrl": "https://dl.pctweaker.app/tweaky-driver/latest.json",
-		"path": "notes",
-		"nestedSource": "plain-text"
 	}
 }
