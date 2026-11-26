@@ -6,6 +6,8 @@
 		"repo": "GUI.for.SingBox"
 	},
 	"urls": [
-		"https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/{github.rawTag}/GUI.for.SingBox-windows-amd64.zip"
+		"https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/{github.rawTag}/GUI.for.SingBox-windows-386.zip",
+		"https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/{github.rawTag}/GUI.for.SingBox-windows-amd64.zip",
+		"https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/{github.rawTag}/GUI.for.SingBox-windows-arm64.zip"
 	]
 }
