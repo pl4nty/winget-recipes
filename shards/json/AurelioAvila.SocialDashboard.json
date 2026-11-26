@@ -1,12 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "AurelioAvila",
-		"repo": "redexa-social"
+	"strategy": "json",
+	"json": {
+		"url": "https://dl.pctweaker.app/redexa-social/latest.json",
+		"path": "version"
 	},
 	"urls": [
-		"https://github.com/AurelioAvila/redexa-social/releases/download/{github.rawTag}/Redexa-Social-v{version}-win64.zip",
-		"https://github.com/AurelioAvila/redexa-social/releases/download/{github.rawTag}/Redexa-Social-Setup.exe"
+		"https://dl.pctweaker.app/redexa-social/v{version}/Redexa-Social-v{version}-win64.zip"
 	]
 }

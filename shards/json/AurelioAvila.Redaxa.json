@@ -1,12 +1,11 @@
 {
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
-	"strategy": "github-release",
-	"github": {
-		"owner": "AurelioAvila",
-		"repo": "redaxa"
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://dl.pctweaker.app/redaxa/latest.json"
 	},
 	"urls": [
-		"https://github.com/AurelioAvila/redaxa/releases/download/{github.rawTag}/Redaxa_{version}_x64-setup.exe",
-		"https://github.com/AurelioAvila/redaxa/releases/download/{github.rawTag}/Redaxa_{version}_x64_en-US.msi"
+		"https://dl.pctweaker.app/redaxa/v{version}/Redaxa_{version}_x64-setup.exe",
+		"https://dl.pctweaker.app/redaxa/v{version}/Redaxa_{version}_x64_en-US.msi"
 	]
 }
