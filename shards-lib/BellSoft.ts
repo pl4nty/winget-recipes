@@ -26,6 +26,6 @@ export const liberica = (feature: number, bundle: string, { display = false, rel
 		return {
 			version: display ? { source: 'display' as const } : latest.version,
 			urls: () => installers,
-			...(releaseNotes && { releaseNotes: { releaseNotesUrl: `https://bell-sw.com/pages/liberica-release-notes-${latest.version.replace('+', '-')}/` } }),
+			...(releaseNotes && { releaseNotes: { releaseNotesUrl: `https://docs.bell-sw.com/liberica-jdk/${latest.version.replace('+', 'b')}/general/release-notes/` } }),
 		};
 	});
