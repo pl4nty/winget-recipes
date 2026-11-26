@@ -9,8 +9,7 @@
 		"repo": "winsw",
 		"method": "api-list",
 		"kind": "all",
-		"tagRegex": "^v?(?=3\\.)",
-		"assetRegex": "^(?:WinSW\\-net\\d+\\.exe)$"
+		"tagRegex": "^v?(?=3\\.)"
 	},
 	"urls": [
 		{ "url": "https://github.com/winsw/winsw/releases/download/{github.rawTag}/WinSW-net461.exe", "architecture": "x64" }
