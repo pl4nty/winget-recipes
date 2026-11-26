@@ -3,5 +3,11 @@
 	"strategy": "tauri",
 	"tauri": {
 		"url": "https://dl.pctweaker.app/pc-tweaker/latest.json"
+	},
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://dl.pctweaker.app/pc-tweaker/latest.json",
+		"path": "notes",
+		"nestedSource": "plain-text"
 	}
 }
