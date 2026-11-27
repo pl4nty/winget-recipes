@@ -233,6 +233,7 @@ function fields(yaml: string, arp: Record<string, unknown> = {}) {
 type DryRun = {
 	shard: string;
 	latest: string;
+	versions: string[];
 	version: string;
 	stable: string[];
 	raws: Map<string, string>;
@@ -278,7 +279,8 @@ const dryRuns = (shards: string[]) =>
 				const identifier = pkg.split('/').slice(2).join('.').toLowerCase();
 				const shard = shards.find((shard) => id(shard).toLowerCase() === identifier) ?? pkg;
 				const paths = await Array.fromAsync(glob(`${pkg}/*/*.yaml`, { cwd: dir }));
-				const latest = [...new Set(paths.map((path) => basename(dirname(path))))].sort(compareVersions).at(-1)!;
+				const versions = [...new Set(paths.map((path) => basename(dirname(path))))].sort(compareVersions);
+				const latest = versions.at(-1)!;
 				const version = [...generated.keys()].find((path) => dirname(dirname(path)) === pkg)!.split('/').at(-2)!;
 				const stable = CHANNEL.test(pkg)
 					? [...new Set((await Array.fromAsync(glob(`${dirname(pkg)}/*/*.yaml`, { cwd: dir }))).map((path) => basename(dirname(path))))]
@@ -287,7 +289,7 @@ const dryRuns = (shards: string[]) =>
 				for (const path of paths.filter((path) => basename(dirname(path)) === latest))
 					raws.set(basename(path), await readFile(join(dir, path), 'utf8'));
 				const yamls = new Map([...raws.keys()].map((name) => [name, generated.get(`${pkg}/${version}/${name}`)]));
-				return { shard, latest, version, stable, raws, yamls };
+				return { shard, latest, versions, version, stable, raws, yamls };
 			}),
 		);
 	})());
@@ -354,7 +356,7 @@ const REFINED = new Set(['msi>wix', 'wix>msi', 'exe>burn', 'exe>inno', 'exe>msi'
 
 // dropped-fields counts fields, so it misses values that change: architectures, scopes, types, sources and versions.
 const dryRunValues: Rule = async (shards, report) => {
-	for (const { shard, latest, raws, yamls } of await dryRuns(shards)) {
+	for (const { shard, latest, versions, raws, yamls } of await dryRuns(shards)) {
 		const name = [...raws.keys()].find((name) => name.endsWith('.installer.yaml'));
 		const yaml = name && yamls.get(name);
 		if (!name || !yaml) continue;
@@ -365,7 +367,8 @@ const dryRunValues: Rule = async (shards, report) => {
 			report(shard, `${name}: dry run version ${version} is ${latest} written differently`);
 		else if (/[\s()]/.test(version) && !/[\s()]/.test(latest))
 			report(shard, `${name}: dry run version ${version} has spaces or brackets, unlike ${latest}`);
-		else if (formatDifference(version, latest))
+		// Some vendors keep two formats (Liberica PSU 11.0.33.0.3+7, CSPU 11.0.33.1+5), so any upstream format passes.
+		else if (versions.every((upstream) => formatDifference(version, upstream)))
 			report(shard, `${name}: dry run version ${version} is not written like ${latest}: ${formatDifference(version, latest)}`);
 		const hashes = new Set(before.map((installer) => installer.InstallerSha256));
 		if (version !== latest && after.every((installer) => hashes.has(installer.InstallerSha256)))
