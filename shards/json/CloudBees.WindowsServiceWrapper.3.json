@@ -2,14 +2,17 @@
 	"$schema": "https://anthelion.unownplain.dev/schema.json",
 	"strategy": "github-release",
 	"version": {
-		"source": "product"
+		"source": "file"
 	},
 	"github": {
 		"owner": "winsw",
 		"repo": "winsw",
 		"method": "api-list",
 		"kind": "all",
-		"tagRegex": "^v?(?=3\\.)",
-		"assetRegex": "^(?:WinSW\\-net\\d+\\.exe)$"
-	}
+		"tagRegex": "^v?(?=3\\.)"
+	},
+	"urls": [
+		{ "url": "https://github.com/winsw/winsw/releases/download/{github.rawTag}/WinSW-x64.exe", "architecture": "x64" },
+		{ "url": "https://github.com/winsw/winsw/releases/download/{github.rawTag}/WinSW-x86.exe", "architecture": "x86" }
+	]
 }
