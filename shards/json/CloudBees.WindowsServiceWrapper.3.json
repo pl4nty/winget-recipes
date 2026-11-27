@@ -12,6 +12,7 @@
 		"tagRegex": "^v?(?=3\\.)"
 	},
 	"urls": [
-		{ "url": "https://github.com/winsw/winsw/releases/download/{github.rawTag}/WinSW-net461.exe", "architecture": "x64" }
+		{ "url": "https://github.com/winsw/winsw/releases/download/{github.rawTag}/WinSW-x64.exe", "architecture": "x64" },
+		{ "url": "https://github.com/winsw/winsw/releases/download/{github.rawTag}/WinSW-x86.exe", "architecture": "x86" }
 	]
 }
