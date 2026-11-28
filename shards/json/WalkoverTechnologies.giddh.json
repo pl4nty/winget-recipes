@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Walkover-Web-Solution",
+		"repo": "Giddh-New-Angular4-App"
+	},
+	"urls": [
+		"https://github.com/Walkover-Web-Solution/Giddh-New-Angular4-App/releases/download/{github.rawTag}/giddh.Setup.{version}.exe"
+	]
+}

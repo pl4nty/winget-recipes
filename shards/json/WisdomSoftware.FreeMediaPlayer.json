@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.wisdom-soft.com/downloads/downloadfiles.htm",
+		"regex": "Version:?\\s*(\\d+(?:\\.\\d+)+)(?:(?!Version)[\\s\\S])*?href=\"setupfreemediaplayer\\.exe\""
+	},
+	"urls": [
+		"https://www.wisdom-soft.com/downloads/setupfreemediaplayer.exe"
+	]
+}
