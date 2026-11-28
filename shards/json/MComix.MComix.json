@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "mcomix",
+		"file": "mcomix-win64-{version}.msi"
+	},
+	"urls": [
+		"https://downloads.sourceforge.net/project/mcomix/MComix-{version}/mcomix-win64-{version}.msi"
+	]
+}
