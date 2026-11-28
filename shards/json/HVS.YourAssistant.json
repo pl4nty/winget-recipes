@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Harshvs2003",
+		"repo": "Your-s_Assistant_Releases"
+	},
+	"urls": [
+		{ "url": "https://github.com/Harshvs2003/Your-s_Assistant_Releases/releases/download/{github.rawTag}/AssistantAppInstaller.exe", "architecture": "x64" }
+	]
+}
