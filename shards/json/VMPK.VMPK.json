@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "vmpk",
+		"file": "VMPK-v{version}-Windows-x64.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/vmpk/files/vmpk/{version}/VMPK-v{version}-Windows-x64.exe/download",
+		"https://sourceforge.net/projects/vmpk/files/vmpk/{version}/VMPK-v{version}-Windows-arm64.exe/download"
+	]
+}

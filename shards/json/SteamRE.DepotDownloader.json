@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SteamRE",
+		"repo": "DepotDownloader",
+		"tagRegex": "^DepotDownloader_"
+	},
+	"urls": [
+		"https://github.com/SteamRE/DepotDownloader/releases/download/{github.rawTag}/DepotDownloader-windows-x64.zip",
+		"https://github.com/SteamRE/DepotDownloader/releases/download/{github.rawTag}/DepotDownloader-windows-arm64.zip"
+	]
+}

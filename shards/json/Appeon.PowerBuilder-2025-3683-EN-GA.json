@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://file.appeon.com/download/APB/2025/R1/GA/build_3683/PB2025-3683-EN-FULL.zip",
+			"nestedInstallerMatches": [
+				"setup.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://file.appeon.com/download/APB/2025/R1/GA/build_3683/PB2025-3683-EN-FULL.zip",
+		"header": "etag"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JonahFintzDev",
+		"repo": "CommandPaletteVSCode"
+	},
+	"urls": [
+		"https://github.com/JonahFintzDev/CommandPaletteVSCode/releases/download/v{version}/CmdPalVsCode_{version}_x64.Msix",
+		"https://github.com/JonahFintzDev/CommandPaletteVSCode/releases/download/v{version}/CmdPalVsCode_{version}_arm64.Msix"
+	]
+}
