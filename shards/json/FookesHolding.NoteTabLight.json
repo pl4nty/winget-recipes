@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.notetab.com/download.php",
+		"regex": "NoteTab Light (\\d+(?:\\.\\d+)+)</h2>"
+	},
+	"urls": [
+		"https://www.notetab.com/ftp/NoteTab_Light_Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.notetab.com/versions.php"
+	},
+	"cleanup": false
+}

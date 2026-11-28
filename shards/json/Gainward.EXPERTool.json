@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.gainward.com/main/download.php",
+		"regex": "support/vga/Setup_EXPERTool_NV_(?<version>\\d+_\\d+)\\.zip"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		{
+			"url": "https://www.gainward.com/support/vga/Setup_EXPERTool_NV_{version|.|_}.zip",
+			"nestedInstallerMatches": [
+				"Setup_EXPERTool_v"
+			]
+		}
+	],
+	"cleanup": false
+}

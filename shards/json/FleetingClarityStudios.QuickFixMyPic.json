@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Echostorm44",
+		"repo": "QuickFixMyPic",
+		"tagRegex": "(?<=^\\d+\\.\\d+\\.\\d+)\\.0$"
+	},
+	"urls": [
+		"https://github.com/Echostorm44/QuickFixMyPic/releases/download/{github.rawTag}/SetupQuickFixMyPic.msi"
+	]
+}

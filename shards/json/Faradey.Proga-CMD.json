@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Faradey1751V2",
+		"repo": "proga_cmd_ui",
+		"method": "api-list",
+		"tagRegex": "^proga_cmd_V-(?=\\d+(?:\\.\\d+)*$)"
+	}
+}

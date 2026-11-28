@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Fenrirthviti",
+		"repo": "obs-virtual-cam"
+	},
+	"urls": [
+		"https://github.com/Fenrirthviti/obs-virtual-cam/releases/download/{github.rawTag}/obs-virtualcam-{version}-Windows-installer.exe"
+	]
+}

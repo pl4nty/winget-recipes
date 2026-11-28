@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.fernandozamboni.com/DiarioAcessivel-Setup-latest.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.fernandozamboni.com/DiarioAcessivel-Setup-latest.exe",
+		"header": "last-modified"
+	},
+	"replace": true,
+	"cleanup": false
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.complang.tuwien.ac.at/forth/gforth/old/",
+		"regex": "gforth-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.complang.tuwien.ac.at/forth/gforth/old/gforth-{version}.exe"
+	],
+	"cleanup": false
+}

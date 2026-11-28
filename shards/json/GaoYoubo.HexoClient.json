@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gaoyoubo",
+		"repo": "hexo-client"
+	},
+	"urls": [
+		"https://github.com/gaoyoubo/hexo-client/releases/download/{github.rawTag}/HexoClient-Setup-{version}.exe"
+	]
+}
