@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RaphGL",
+		"repo": "Tuckr",
+		"method": "api-sort",
+		"assetRegex": "^tuckr-x86_64-windows\\.exe$"
+	}
+}
