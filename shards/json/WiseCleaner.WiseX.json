@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://www.wisecleaner.com/index.php?r=download-product/latest-version&product=wisex"
+		],
+		"regex": "/soft/WiseX_(\\d+\\.\\d+\\.\\d+)\\.(?<build>\\d+)\\.exe$"
+	},
+	"urls": [
+		{
+			"url": "https://downloads.wisecleaner.com/soft/WiseX_{version}.{captures.build}.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.wisecleaner.com/blog_sort_34.html"
+	}
+}

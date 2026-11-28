@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://www.wisecleaner.com/index.php?r=download-product/latest-version&product=wise-game-booster"
+		],
+		"regex": "/soft/WGBSetup_(\\d+\\.\\d+\\.\\d+)\\.\\d+\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.wisecleaner.com/blog_sort_10.html"
+	}
+}

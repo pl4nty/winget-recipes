@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.neatdownloadmanager.com/index.php/en/",
+		"regex": "setup\\sFile[^<]*\\(ver (\\d+(?:\\.\\d+)+)\\)"
+	},
+	"urls": ["https://www.neatdownloadmanager.com/file/NeatDM_setup.exe"],
+	"replace": true
+}

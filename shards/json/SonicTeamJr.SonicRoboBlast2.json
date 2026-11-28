@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "STJr",
+		"repo": "SRB2",
+		"tagRegex": "^SRB2_release_"
+	},
+	"urls": [
+		"https://github.com/STJr/SRB2/releases/download/{github.rawTag}/SRB2-v{version|.|}-Installer.exe"
+	]
+}

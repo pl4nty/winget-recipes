@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://uk.yamaha.com/en/support/updates/yap-win.html",
+		"regex": "id=\"d(?<id>\\d+)\">Audio Phraser V(?<version>\\d+(?:\\.\\d+)+) for Windows"
+	},
+	"urls": ["https://data.yamaha.com/en/download/files/{captures.id}/"]
+}

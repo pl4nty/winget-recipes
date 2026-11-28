@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://ftp.osuosl.org/pub/freedroid/",
+		"regex": "href=\"freedroidRPG-(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": ["https://ftp.osuosl.org/pub/freedroid/freedroidRPG-{version}/freedroidRPG-{version}-win32-x86-64.exe"]
+}
