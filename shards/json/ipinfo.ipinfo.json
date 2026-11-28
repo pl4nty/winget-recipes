@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ipinfo",
+		"repo": "cli",
+		"tagRegex": "^ipinfo\\-",
+		"method": "api-sort",
+		"assetRegex": "^(?:ipinfo_\\d+\\.\\d+\\.\\d+_windows_\\d+\\.zip|ipinfo_\\d+\\.\\d+\\.\\d+_windows_amd64\\.zip|ipinfo_\\d+\\.\\d+\\.\\d+_windows_arm64\\.zip)$"
+	}
+}
