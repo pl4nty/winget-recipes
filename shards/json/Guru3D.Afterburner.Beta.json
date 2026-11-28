@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.guru3d.com/download/msi-afterburner-beta-download/",
+		"regex": "(?:\\[|%5B)Guru3D(?:\\]|%5D)-MSIAfterburnerSetup(?<version>(?<major>\\d)(?<minor>\\d)(?<patch>\\d+))Beta(?<beta>\\d+)Build(?<build>\\d+)\\.zip"
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.patch} Beta {captures.beta}",
+	"urls": [
+		{
+			"url": "https://ftp.nluug.nl/pub/games/PC/guru3d/afterburner/[Guru3D]-MSIAfterburnerSetup{captures.version}Beta{captures.beta}Build{captures.build}.zip",
+			"nestedInstallerMatches": ["MSIAfterburnerSetup"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.guru3d.com/download/msi-afterburner-beta-download/"
+	}
+}
