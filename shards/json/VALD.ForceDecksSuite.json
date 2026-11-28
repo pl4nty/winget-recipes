@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		"https://content.valdperformance.com/forcedecks/ForceDecksSuiteSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://content.valdperformance.com/forcedecks/ForceDecksSuiteSetup.exe",
+		"header": "etag"
+	}
+}
