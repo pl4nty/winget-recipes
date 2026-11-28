@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ni.com/en/support/downloads/drivers/download.ni-xnet.html",
+		"regex": "/ni-xnet/(?<short>\\d+\\.\\d+)/offline/ni-xnet_(?<version>\\d+\\.\\d+\\.\\d+)_offline\\.iso(?![\\s\\S]*/ni-xnet/\\d+\\.\\d+/offline/ni-xnet_\\d)"
+	},
+	"urls": [
+		{
+			"url": "https://download.ni.com/support/nipkg/products/ni-x/ni-xnet/{captures.short}/online/ni-xnet_{captures.short}_online.exe",
+			"architecture": "x64"
+		}
+	]
+}
