@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dnGrep",
+		"repo": "dnGrep",
+		"method": "api-list",
+		"assetRegex": "^dnGREP\\.\\d+(?:\\.\\d+)+\\.(?:x86|x64|ARM64)\\.msi$"
+	}
+}

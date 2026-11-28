@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "californiaAlmonds",
+		"repo": "auricle"
+	},
+	"urls": [
+		"https://github.com/californiaAlmonds/auricle/releases/download/{github.rawTag}/auricle-{version}-setup.exe"
+	]
+}

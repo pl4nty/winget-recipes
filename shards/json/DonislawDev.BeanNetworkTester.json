@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "donislawdev",
+		"repo": "BeanNetworkTester"
+	},
+	"urls": [
+		"https://github.com/donislawdev/BeanNetworkTester/releases/download/{github.rawTag}/BeanNetworkTester-v{version}-windows-x64.msi",
+		"https://github.com/donislawdev/BeanNetworkTester/releases/download/{github.rawTag}/BeanNetworkTester-v{version}-windows-x64.zip"
+	]
+}

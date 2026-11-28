@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://maxisnap.com/",
+		"regex": "\"softwareVersion\":\"(?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://maxisnap.com/download/Maxisnap-v{version}-Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://maxisnap.com/releases/"
+	}
+}
