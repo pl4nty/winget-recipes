@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://downloads.transitai.app/download/windows-exe",
+			"https://downloads.transitai.app/download/windows-msi"
+		],
+		"regex": "/v(?<version>\\d+(?:\\.\\d+)+)/Transit_"
+	}
+}
