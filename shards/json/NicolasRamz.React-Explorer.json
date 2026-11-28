@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "warpdesign",
+		"repo": "react-explorer",
+		"method": "api-sort"
+	},
+	"urls": [
+		"https://github.com/warpdesign/react-explorer/releases/download/{github.rawTag}/react-explorer-{version}-windows-universal-setup.exe"
+	]
+}

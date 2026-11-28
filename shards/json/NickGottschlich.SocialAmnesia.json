@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Nick-Gottschlich",
+		"repo": "Social-Amnesia",
+		"method": "api-sort"
+	},
+	"urls": [
+		"https://github.com/Nick-Gottschlich/Social-Amnesia/releases/download/{github.rawTag}/Social.Amnesia.Setup.{version}-WINDOWS.exe"
+	]
+}

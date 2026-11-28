@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "myqueuelol",
+		"repo": "myqueue-app"
+	},
+	"urls": [
+		"https://github.com/myqueuelol/myqueue-app/releases/download/{github.rawTag}/MyQueue.exe"
+	]
+}
