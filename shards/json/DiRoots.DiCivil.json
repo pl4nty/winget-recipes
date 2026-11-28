@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DiRoots-Limited",
+		"repo": "DiRoots.Civil3D.Releases",
+		"method": "api-sort",
+		"assetRegex": "^(?:C\\d+D\\.Products\\-\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
