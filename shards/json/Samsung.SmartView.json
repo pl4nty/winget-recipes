@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		{
+			"url": "https://d3f5cmlctbt8h4.cloudfront.net/Public/UwBWAEMAMAAwADEAMAAyAA==/MQBpAGEAZABtAGkAbgA=/SmartView.msi",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://d3f5cmlctbt8h4.cloudfront.net/Public/UwBWAEMAMAAwADEAMAAyAA==/MQBpAGEAZABtAGkAbgA=/SmartView.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
