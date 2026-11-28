@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "ImpulseAdventure",
+		"repo": "JPEGsnoop"
+	},
+	"urls": [
+		"https://github.com/ImpulseAdventure/JPEGsnoop/releases/download/{github.rawTag}/JPEGsnoop_v1_8_0a.zip"
+	]
+}
