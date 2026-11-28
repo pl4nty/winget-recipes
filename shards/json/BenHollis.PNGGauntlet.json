@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://pnggauntlet.com/",
+		"regex": "href='PNGGauntlet-(?<version>\\d+(?:\\.\\d+)+)\\.exe'"
+	},
+	"urls": [
+		"https://pnggauntlet.com/PNGGauntlet-{version}.exe"
+	]
+}
