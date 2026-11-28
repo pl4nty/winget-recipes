@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.giuspen.com/cherrytree/",
+		"regex": "cherrytree_(?<version>\\d+\\.\\d+\\.\\d+)\\.(?<build>\\d+)_win64_setup\\.exe"
+	},
+	"urls": [
+		"https://github.com/giuspen/cherrytree/releases/download/v{version}/cherrytree_{version}.{captures.build}_win64_setup.exe"
+	],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "giuspen",
+		"repo": "cherrytree",
+		"tag": "v{version}"
+	}
+}
