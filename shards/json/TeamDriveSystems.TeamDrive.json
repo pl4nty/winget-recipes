@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://teamdrive.com/en/downloads/",
+		"regex": "download\\.teamdrive\\.net/(\\d+(?:\\.\\d+){3})/TMDR/win-x64/Install-TeamDrive-\\d"
+	},
+	"urls": ["https://download.teamdrive.net/{version}/TMDR/win-x64/Install-TeamDrive-{version}_TMDR.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://teamdrive.com/en/release-notes-en/"
+	}
+}
