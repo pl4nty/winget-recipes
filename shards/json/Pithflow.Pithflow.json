@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://pithflow.com/api/download?os=windows"],
+		"regex": "/Pithflow_(\\d+(?:\\.\\d+)+)_x64-setup\\.exe"
+	}
+}
