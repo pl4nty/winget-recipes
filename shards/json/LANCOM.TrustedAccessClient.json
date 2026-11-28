@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://rs-nc.rohde-schwarz.com/fileadmin/download/LC-Trusted-Access-Client/LC-Trusted-Access-Client-Win-625-Rel-x86-64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.lancom-systems.com/fileadmin/download/LC-Trusted-Access-Client/RN_LTA-Client-Windows-625-Rel_EN.pdf"
+	}
+}
