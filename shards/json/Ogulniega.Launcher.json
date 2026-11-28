@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://ogulniega.com/files/launcher.json", "path": "latest_launcher_version" },
+	"urls": ["https://ogulniega.com/files/installers/Ogulniega%20Minecraft_{version}_x64-setup.exe"],
+	"version": "{version|0.0.|}"
+}
