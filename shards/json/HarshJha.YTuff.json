@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "life2harsh",
+		"repo": "ytuff",
+		"method": "api-sort",
+		"assetRegex": "^(?:ytuff\\-windows\\-x64\\.msi)$"
+	}
+}
