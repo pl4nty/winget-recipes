@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.privoxy.org/feeds/privoxy-releases.xml",
+		"regex": "<link>https://www\\.privoxy\\.org/sf-download-mirror/Win32/(?<dir>[^/<]+)/privoxy_setup_(?<version>\\d+(?:\\.\\d+)+)\\.exe</link>"
+	},
+	"urls": ["https://www.privoxy.org/sf-download-mirror/Win32/{captures.dir}/privoxy_setup_{version}.exe"]
+}
