@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "kiwix",
+		"repo": "kiwix-js-pwa",
+		"method": "api-latest",
+		"assetRegex": "^(?:Wikivoyage\\-by\\-Kiwix\\-Setup\\-\\d+\\.\\d+\\.\\d+\\-E\\.exe|Wikivoyage\\-by\\-Kiwix\\-\\d+\\.\\d+\\.\\d+\\-E\\.appx)$"
+	}
+}
