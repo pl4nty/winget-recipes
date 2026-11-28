@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://distro.windriver.com/dist/wrstudio/wrstudio-cli-distro-cd-staged/",
+		"regex": "href=\"(\\d+\\.\\d+\\.\\d+)/\""
+	},
+	"urls": ["https://distro.windriver.com/dist/wrstudio/wrstudio-cli-distro-cd-staged/{version}/win64/studio-cli_all.zip"]
+}
