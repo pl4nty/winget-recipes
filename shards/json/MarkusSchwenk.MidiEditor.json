@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "markusschwenk",
+		"repo": "midieditor",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/markusschwenk/midieditor/releases/download/{github.rawTag}/MidiEditor-{version}-Setup.exe"
+	]
+}

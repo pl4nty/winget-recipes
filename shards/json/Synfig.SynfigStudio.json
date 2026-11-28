@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "synfig",
+		"repo": "synfig",
+		"method": "api-list",
+		"assetRegex": "^SynfigStudio-[\\d.]+-[\\d.]+-win(?:32|64)-[0-9a-f]+\\.exe$"
+	}
+}

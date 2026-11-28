@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yunforis",
+		"repo": "EasyRename"
+	},
+	"urls": [
+		"https://github.com/yunforis/EasyRename/releases/download/{github.rawTag}/EasyRename_{version}_x64_zh-CN.msi"
+	]
+}
