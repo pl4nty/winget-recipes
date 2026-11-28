@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "couchcoding",
+		"repo": "Logbert"
+	},
+	"urls": [
+		"https://github.com/couchcoding/Logbert/releases/download/{github.rawTag}/Logbert.{version}.-.Setup.-.x86.msi",
+		"https://github.com/couchcoding/Logbert/releases/download/{github.rawTag}/Logbert.{version}.-.Setup.-.x64.msi"
+	]
+}

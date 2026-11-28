@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.codelite.org/",
+		"regex": "<h2>CodeLite (\\d+\\.\\d+\\.\\d+)</h2>"
+	},
+	"urls": ["https://downloads.codelite.org/codelite/{version}/codelite-amd64-{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://docs.codelite.org/release_notes/v{version|.|_}/"
+	}
+}

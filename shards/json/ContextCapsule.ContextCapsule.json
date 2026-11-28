@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Context-Capsule",
+		"repo": "Capsule-Desktop-App"
+	},
+	"urls": ["https://github.com/Context-Capsule/Capsule-Desktop-App/releases/download/{github.rawTag}/Context.Capsule_{version}_x64-setup.exe"]
+}

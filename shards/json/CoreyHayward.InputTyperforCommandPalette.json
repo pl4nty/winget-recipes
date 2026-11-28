@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CoreyHayward",
+		"repo": "CmdPal-InputTyper"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/CoreyHayward/CmdPal-InputTyper/releases/download/{github.rawTag}/CoreyHayward.InputTyperforCommandPalette_{version}.0_x64__27q3g5krfrtz2.Msix",
+		"https://github.com/CoreyHayward/CmdPal-InputTyper/releases/download/{github.rawTag}/CoreyHayward.InputTyperforCommandPalette_{version}.0_arm64__27q3g5krfrtz2.Msix"
+	]
+}

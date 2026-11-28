@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cockos.com/licecap/",
+		"regex": "href=\"licecap(?<file>\\d+)-install\\.exe\">LICEcap v(?<version>\\d+(?:\\.\\d+)+) for Windows"
+	},
+	"urls": ["https://www.cockos.com/licecap/licecap{captures.file}-install.exe"]
+}
