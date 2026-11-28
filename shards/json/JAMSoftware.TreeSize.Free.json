@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": [
+		{ "url": "https://downloads.jam-software.de/treesize_free/TreeSizeFreeSetup.exe", "architecture": "x64" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.jam-software.de/treesize_free/TreeSizeFreeSetup.exe",
+		"header": "etag"
+	}
+}
