@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "atakankizilyuce",
+		"repo": "LeaveSafe"
+	},
+	"urls": [
+		"https://github.com/atakankizilyuce/LeaveSafe/releases/download/{github.rawTag}/leavesafe-windows-amd64.exe"
+	]
+}

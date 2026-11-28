@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "autobrr",
+		"repo": "mkbrr"
+	},
+	"urls": [
+		"https://github.com/autobrr/mkbrr/releases/download/{github.rawTag}/mkbrr_{version}_windows_x86_64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Ahmadhassan806",
+		"repo": "RAMView"
+	},
+	"urls": [
+		"https://github.com/Ahmadhassan806/RAMView/releases/download/{github.rawTag}/RAMView.zip"
+	]
+}

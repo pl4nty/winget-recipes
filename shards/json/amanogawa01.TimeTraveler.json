@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "amanogawa01",
+		"repo": "time-traveler"
+	},
+	"urls": [
+		"https://github.com/amanogawa01/time-traveler/releases/download/{github.rawTag}/time-traveler.exe"
+	]
+}

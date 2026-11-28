@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "justnullname",
+		"repo": "QuickView",
+		"method": "api-latest",
+		"assetRegex": "^QuickView_Installer_.*\\.exe$"
+	}
+}
