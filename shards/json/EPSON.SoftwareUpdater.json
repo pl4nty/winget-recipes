@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download-center.epson.com/f/module/10735d1a-5759-44f0-a54a-01b7cd938e82/CESU5010_22.exe"
+	]
+}
