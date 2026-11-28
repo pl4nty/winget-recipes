@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ftp.gnu.org/gnu/gnubg/",
+		"regex": "gnubg-(?<version>\\d+(?:_\\d+)+)-(?<date>\\d{8})-setup\\.exe(?![\\s\\S]*gnubg-\\d+(?:_\\d+)+-\\d{8}-setup\\.exe)"
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://ftp.gnu.org/gnu/gnubg/gnubg-{version}-{captures.date}-setup.exe"]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jiripolasek",
+		"repo": "MediaControlsExtension"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/jiripolasek/MediaControlsExtension/releases/download/{github.rawTag}/JiriPolasek.MediaControlsForCmdPal_{version}.0.Msixbundle"
+	]
+}
