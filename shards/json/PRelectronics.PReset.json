@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.prelectronics.com/downloads/software/preset-software/",
+		"regex": "^(?=[\\s\\S]*?/media/(?<path>[a-z0-9]+)/preset\\.exe)(?=[\\s\\S]*?PReset\\s+(?:version\\s+|v)?(?<version>\\d+\\.\\d+\\.\\d{3,}))"
+	},
+	"urls": [
+		{
+			"url": "https://www.prelectronics.com/media/{captures.path}/preset.exe",
+			"architecture": "x86"
+		}
+	]
+}
