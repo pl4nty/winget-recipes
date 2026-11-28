@@ -1,0 +1,24 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sordum.org/9341/",
+		"regex": "<title>Show Desktop Icons\\s+v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.sordum.org/files/downloads.php?st-show-desktop-icons",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["sDeskIcon.exe"]
+		},
+		{
+			"url": "https://www.sordum.org/files/downloads.php?st-show-desktop-icons",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["sDeskIcon_x64.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sordum.org/9341/"
+	},
+	"replace": true
+}
