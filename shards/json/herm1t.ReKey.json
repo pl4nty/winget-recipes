@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "herm1t0",
+		"repo": "ReKey"
+	},
+	"urls": [
+		"https://github.com/herm1t0/ReKey/releases/download/{github.rawTag}/ReKey.msi"
+	]
+}
