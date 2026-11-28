@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "53-software",
+		"repo": "vram-shield",
+		"method": "api-latest",
+		"assetRegex": "^(?:VRAMShield_\\d+\\.\\d+\\.\\d+\\.exe)$"
+	}
+}
