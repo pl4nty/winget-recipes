@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://nevercenter.com/camerabag/download/?filetype=pc",
+		"regex": "Install_CameraBag_Photo_(?<major>\\d+)_(?<minor>\\d+)_(?<patch>\\d+)_win\\.exe"
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.patch}",
+	"urls": [
+		"https://nevercenter.com/camerabag/download/filearchive/Install_CameraBag_Photo_{captures.major}_{captures.minor}_{captures.patch}_win.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://nevercenter.com/camerabag/features/#whatsnew"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.w1hkj.org/files/flmsg/",
+		"regex": "flmsg-(\\d+(?:\\.\\d+)+)_setup\\.exe"
+	},
+	"urls": [
+		"https://www.w1hkj.org/files/flmsg/flmsg-{version}_setup.exe"
+	]
+}

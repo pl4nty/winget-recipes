@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/products/richmond/",
+		"regex": "title=\"Version (?<version>\\d+(?:\\.\\d+)+) &middot;[^\"]*\">Free Download Richmond"
+	},
+	"urls": [
+		"https://the-sz.com/products/richmond/Richmond.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=richmond"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aqtq314",
+		"repo": "Vogen.Client"
+	},
+	"urls": [
+		"https://github.com/aqtq314/Vogen.Client/releases/download/{github.rawTag}/Vogen.Client.v{version}.zip"
+	]
+}

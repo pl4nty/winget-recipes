@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/nclass/best_release.json",
+		"regex": "\"filename\": \"/(?<dir>[^/\"]+)/(?<version>\\d+(?:\\.\\d+)+)/NClass_v[\\d.]+_setup\\.exe\""
+	},
+	"urls": [
+		"https://sourceforge.net/projects/nclass/files/{captures.dir| |%20}/{version}/NClass_v{version}_setup.exe/download"
+	]
+}
