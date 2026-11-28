@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BhusanInTheShell",
+		"repo": "qixfix"
+	},
+	"urls": [
+		"https://github.com/BhusanInTheShell/qixfix/releases/download/{github.rawTag}/qixfix-win-x64.zip"
+	]
+}

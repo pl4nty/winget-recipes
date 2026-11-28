@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Dking08",
+		"repo": "windrop"
+	},
+	"urls": [
+		"https://github.com/Dking08/windrop/releases/download/{github.rawTag}/windrop.exe"
+	]
+}
