@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "ghostery",
+		"repo": "user-agent-desktop",
+		"method": "api-latest",
+		"assetRegex": "^(?:Ghostery\\-\\d+\\.\\d+\\.\\d+\\.de\\.win64\\-aarch64\\.installer\\-stub\\.exe|Ghostery\\-\\d+\\.\\d+\\.\\d+\\.de\\.win64\\.installer\\-stub\\.exe|Ghostery\\-\\d+\\.\\d+\\.\\d+\\.en\\-US\\.win64\\-aarch64\\.installer\\-stub\\.exe|Ghostery\\-\\d+\\.\\d+\\.\\d+\\.en\\-US\\.win64\\.installer\\-stub\\.exe|Ghostery\\-\\d+\\.\\d+\\.\\d+\\.fr\\.win64\\-aarch64\\.installer\\-stub\\.exe|Ghostery\\-\\d+\\.\\d+\\.\\d+\\.fr\\.win64\\.installer\\-stub\\.exe)$"
+	}
+}
