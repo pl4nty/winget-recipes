@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://whatpulse.org/downloads/",
+		"regex": "id=\"latest-client-version\" data-version=\"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://releases.whatpulse.org/archives/{version}/windows/whatpulse-win-{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://whatpulse.org/releasenotes/{version}"
+	}
+}
