@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://static.cdesoftware.com/bls2025/MBD2025INSTALLER.EXE"],
+	"state": {
+		"source": "response-header",
+		"url": "https://static.cdesoftware.com/bls2025/MBD2025INSTALLER.EXE",
+		"header": "last-modified"
+	},
+	"replace": true
+}

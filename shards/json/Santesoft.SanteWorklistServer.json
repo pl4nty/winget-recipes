@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.santesoft.com/downloads.html",
+		"regex": "win/sante-worklist-server/download\\.html\">Download version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.santesoft.com/files/win/sante_worklist_server.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["sante_worklist_server.exe"]
+		}
+	]
+}

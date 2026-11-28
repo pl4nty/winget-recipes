@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "nfs-server",
+		"file": "NFS_Server_{version}_Portable.zip"
+	},
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/nfs-server/files/NFS_Server_v{version}/NFS_Server_{version}_Portable.zip/download",
+			"nestedInstallerMatches": ["NFS_Server.exe"]
+		}
+	]
+}

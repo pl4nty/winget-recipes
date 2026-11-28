@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.syncovery.com/szarchiver/",
+		"regex": "/release/SzArchiver64Setup(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://www.syncovery.com/release/SzArchiver64Setup{version}.exe"]
+}

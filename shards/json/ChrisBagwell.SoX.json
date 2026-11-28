@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "sox",
+		"file": "sox-{version}-win32.zip"
+	},
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/sox/files/sox/{version}/sox-{version}-win32.zip/download",
+			"nestedInstallerMatches": ["sox.exe"]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PJO2",
+		"repo": "tftpd64"
+	},
+	"urls": ["https://github.com/PJO2/tftpd64/releases/download/{github.rawTag}/--Recommended--Tftpd64_Installer_v{version}.exe"]
+}

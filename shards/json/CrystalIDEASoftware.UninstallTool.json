@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "crystalidea",
+		"repo": "uninstall-tool"
+	},
+	"urls": ["https://github.com/crystalidea/uninstall-tool/releases/download/{github.rawTag}/uninstalltool_setup.exe"]
+}

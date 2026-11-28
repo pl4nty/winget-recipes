@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "gifviewer",
+		"file": "gifviewer_{version}_setup.exe"
+	},
+	"urls": ["https://sourceforge.net/projects/gifviewer/files/Releases/GIF%20Viewer%20{version}/bin/gifviewer_{version}_setup.exe/download"]
+}

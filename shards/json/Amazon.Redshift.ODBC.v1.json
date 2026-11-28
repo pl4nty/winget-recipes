@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://docs.aws.amazon.com/redshift/latest/mgmt/odbc-driver-windows-how-to-install.html",
+		"regex": "drivers/odbc/(?<version>\\d+(?:\\.\\d+)+)/AmazonRedshiftODBC64-\\d+(?:\\.\\d+)+\\.msi[\\s\\S]*?drivers/odbc/(?<x86>\\d+(?:\\.\\d+)+)/AmazonRedshiftODBC32-\\d+(?:\\.\\d+)+\\.msi"
+	},
+	"urls": [
+		"https://s3.amazonaws.com/redshift-downloads/drivers/odbc/{version}/AmazonRedshiftODBC64-{version}.msi",
+		"https://s3.amazonaws.com/redshift-downloads/drivers/odbc/{captures.x86}/AmazonRedshiftODBC32-{captures.x86}.msi"
+	]
+}

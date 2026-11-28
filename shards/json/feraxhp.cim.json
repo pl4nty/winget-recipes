@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "feraxhp",
+		"repo": "cim",
+		"tagRegex": "-alpha$"
+	},
+	"urls": ["https://github.com/feraxhp/cim/releases/download/{github.rawTag}/cim-cli-{version}-x86_64.msi"]
+}

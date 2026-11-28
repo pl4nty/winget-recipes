@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "parezj",
+		"repo": "NTP-Client"
+	},
+	"urls": ["https://github.com/parezj/NTP-Client/releases/download/{github.rawTag}/ntp_client_console.exe"]
+}
