@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CollapseLauncher",
+		"repo": "Collapse",
+		"tagRegex": "^CL-v"
+	},
+	"urls": ["https://github.com/CollapseLauncher/Collapse/releases/download/CL-v{version}/CollapseLauncher-stable-Setup.exe"]
+}
