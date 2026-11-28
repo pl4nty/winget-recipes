@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ocbase.com/download",
+		"regex": "\"occtReleasesWindows\":\\[\\{\"stable\":\\{\"release\":\\{\"version\":\\{[^}]*\"versionStr\":\"(?<version>\\d+\\.\\d+\\.\\d+)\"\\},\"edition\":\"Personal\""
+	},
+	"version": "{version}.0",
+	"urls": ["https://www.ocbase.com/download/edition:Personal/skin:5/os:Windows"]
+}
