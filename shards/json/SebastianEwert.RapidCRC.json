@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "rapidcrc",
+		"file": "RapidCRC_{version}_setup_NT.exe"
+	},
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/rapidcrc/files/RapidCRC/RapidCRC%20{version}/RapidCRC_{version}_setup_NT.exe/download",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://rapidcrc.sourceforge.net/"
+	}
+}

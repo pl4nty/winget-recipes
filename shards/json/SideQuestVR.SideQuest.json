@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SideQuestVR",
+		"repo": "SideQuest"
+	},
+	"urls": [
+		"https://github.com/SideQuestVR/SideQuest/releases/download/{github.rawTag}/SideQuest-Setup-{version}-x64-win.exe"
+	]
+}

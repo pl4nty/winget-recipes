@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Shivi991-collab",
+		"repo": "TVShowManager"
+	},
+	"urls": [
+		"https://github.com/Shivi991-collab/TVShowManager/releases/download/{github.rawTag}/TVShowManagerSetup.msi"
+	]
+}

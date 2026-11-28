@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "snaildos",
+		"repo": "Fifo-Browser"
+	},
+	"urls": [
+		"https://github.com/snaildos/Fifo-Browser/releases/download/{github.rawTag}/Fifo-Web-Setup-{version}.exe"
+	]
+}

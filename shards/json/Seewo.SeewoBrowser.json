@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://e.seewo.com/download/file?code=SeewoBrowser"
+		],
+		"regex": "SeewoBrowser_x86_(\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://e.seewo.com/"
+	}
+}

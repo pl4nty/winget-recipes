@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "snaildos",
+		"repo": "SnailFM-Application"
+	},
+	"urls": [
+		"https://github.com/snaildos/SnailFM-Application/releases/download/{github.rawTag}/SnailFM-Setup-{version}.exe"
+	]
+}
