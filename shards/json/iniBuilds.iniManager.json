@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://inibuilds.com/pages/inimanager-v2",
+		"regex": "website/manager/iniManager-(\\d+(?:\\.\\d+)+)\\+Setup\\.exe"
+	},
+	"urls": [
+		"https://inibuilds.s3.eu-west-1.amazonaws.com/website/manager/iniManager-{version}+Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://inibuilds.com/pages/inimanager-v2"
+	}
+}

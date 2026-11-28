@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "klinker24",
+		"repo": "google-calendar-desktop"
+	},
+	"urls": [
+		"https://github.com/klinker24/google-calendar-desktop/releases/download/{github.rawTag}/calendar-{version}.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jeffvli",
+		"repo": "sonixd"
+	},
+	"urls": [
+		"https://github.com/jeffvli/sonixd/releases/download/{github.rawTag}/Sonixd-{version}-win-x64.exe"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "intxcc",
+		"repo": "pyaudio_portaudio",
+		"method": "api-latest",
+		"assetRegex": "win-amd64-py3\\.7\\.msi$"
+	}
+}
