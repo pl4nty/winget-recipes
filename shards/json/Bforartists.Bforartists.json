@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Bforartists",
+		"repo": "Bforartists",
+		"method": "api-latest",
+		"assetRegex": "^(?:Bforartists-[0-9.]+-Windows\\.zip|Install_Bforartists[0-9]+_[0-9]+\\.exe)$"
+	}
+}
