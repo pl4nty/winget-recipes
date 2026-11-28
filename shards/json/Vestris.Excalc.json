@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dblock",
+		"repo": "excalc-rs"
+	},
+	"urls": [
+		"https://github.com/dblock/excalc-rs/releases/download/{github.rawTag}/excalc-{version}-x86_64.msi"
+	]
+}

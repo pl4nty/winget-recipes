@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tombanaszek1-sketch",
+		"repo": "TaskManagerPlus"
+	},
+	"urls": [
+		"https://github.com/tombanaszek1-sketch/TaskManagerPlus/releases/download/{github.rawTag}/TaskManagerPlus-{version}-win-x64.exe"
+	]
+}

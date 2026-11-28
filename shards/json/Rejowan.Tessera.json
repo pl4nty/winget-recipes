@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ahmmedrejowan",
+		"repo": "tessera"
+	},
+	"urls": [
+		"https://github.com/ahmmedrejowan/tessera/releases/download/{github.rawTag}/Tessera-{version}-win-x64.exe",
+		"https://github.com/ahmmedrejowan/tessera/releases/download/{github.rawTag}/Tessera-{version}-win-arm64.exe"
+	]
+}

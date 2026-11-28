@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MathiasCodes",
+		"repo": "winstow"
+	},
+	"urls": [
+		"https://github.com/MathiasCodes/winstow/releases/download/{github.rawTag}/winstow-v{version}-windows-x64.zip"
+	]
+}

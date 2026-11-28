@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Beso1227",
+		"repo": "Deltempo"
+	},
+	"urls": [
+		"https://github.com/Beso1227/Deltempo/releases/download/{github.rawTag}/Deltempo.exe"
+	]
+}

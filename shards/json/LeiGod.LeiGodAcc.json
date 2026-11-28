@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.leigod.com/",
+		"regex": "版本：V(?<version>(?<major>\\d+)(?:\\.\\d+){3})<"
+	},
+	"urls": [
+		"https://update.leigod.com/soft/leigod/win/{captures.major}.0.0.0/LeiGodSetup.{version}.exe"
+	]
+}

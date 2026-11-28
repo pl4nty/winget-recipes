@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.speed-soft.de/software/pingt/?language=en",
+		"regex": "\"softwareVersion\":\"(?<version>\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://www.speed-soft.de/files/pingt/{version}/pingt.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.speed-soft.de/software/pingt/releasenotes.php?language=en"
+	}
+}

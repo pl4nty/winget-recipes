@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hetoandrade",
+		"repo": "hetoandrade.github.io",
+		"method": "api-list",
+		"tagRegex": "^v?ozdigitada-v",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/hetoandrade/hetoandrade.github.io/releases/download/{github.rawTag}/VozDigitada_Setup_v{version}.exe"
+	]
+}

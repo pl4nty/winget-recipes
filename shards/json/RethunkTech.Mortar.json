@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Rethunk-Tech",
+		"repo": "mortar"
+	},
+	"urls": [
+		"https://github.com/Rethunk-Tech/mortar/releases/download/{github.rawTag}/mortar-amd64-installer.exe",
+		"https://github.com/Rethunk-Tech/mortar/releases/download/{github.rawTag}/mortar-arm64-installer.exe"
+	]
+}
