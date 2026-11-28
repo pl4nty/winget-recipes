@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KeraDB",
+		"repo": "keradb"
+	},
+	"urls": [
+		"https://github.com/KeraDB/keradb/releases/download/{github.rawTag}/keradb-windows-x64.exe"
+	]
+}

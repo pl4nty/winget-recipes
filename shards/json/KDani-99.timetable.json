@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KDani-99",
+		"repo": "school_timetable"
+	},
+	"urls": [
+		"https://github.com/KDani-99/school_timetable/releases/download/{github.rawTag}/Timetable.Setup.{version}.exe"
+	]
+}

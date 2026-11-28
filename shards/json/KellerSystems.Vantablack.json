@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KELLERBABG",
+		"repo": "Vantablack"
+	},
+	"urls": [
+		"https://github.com/KELLERBABG/Vantablack/releases/download/{github.rawTag}/ggn-{version}-windows-setup.exe"
+	]
+}

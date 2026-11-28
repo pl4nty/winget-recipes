@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://katjah.de/toris.html",
+		"regex": "Setups/TViewer_(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"http://katjah.de/Setups/TViewer_{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "http://katjah.de/Setups/ChangeLogTV.txt"
+	}
+}
