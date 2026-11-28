@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mhogomchungu",
+		"repo": "sirikali"
+	},
+	"urls": [
+		{ "url": "https://github.com/mhogomchungu/sirikali/releases/download/{github.rawTag}/SiriKaliQt5-{version}.setup.exe" },
+		{ "url": "https://github.com/mhogomchungu/sirikali/releases/download/{github.rawTag}/SiriKaliQt6-{version}.setup.exe", "architecture": "x64" }
+	]
+}
