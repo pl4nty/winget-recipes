@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mudlet",
+		"repo": "Mudlet",
+		"tagRegex": "^Mudlet-(?=\\d+(?:\\.\\d+)+$)"
+	},
+	"urls": [
+		"https://github.com/Mudlet/Mudlet/releases/download/{github.rawTag}/{github.rawTag}-windows-64-installer.exe"
+	]
+}
