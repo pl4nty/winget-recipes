@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://chatzilla.rdmsoft.com/xulrunner/",
+		"regex": "chatzilla-(\\d+(?:\\.\\d+)+)\\.en-US\\.win32\\.installer\\.msi"
+	},
+	"urls": [
+		"https://chatzilla.rdmsoft.com/xulrunner/download/chatzilla-{version}.en-US.win32.installer.msi"
+	]
+}
