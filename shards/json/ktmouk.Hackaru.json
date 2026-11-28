@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://github.com/hackaru-app/hackaru-desktop/releases/latest/download/latest.yml"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "hackaru-app",
+		"repo": "hackaru-desktop",
+		"tag": "v{version}"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tecwindow",
+		"repo": "SoundTranscriber"
+	},
+	"urls": [
+		"https://github.com/tecwindow/SoundTranscriber/releases/download/{github.rawTag}/SoundTranscriberSetupV{version}.exe"
+	]
+}

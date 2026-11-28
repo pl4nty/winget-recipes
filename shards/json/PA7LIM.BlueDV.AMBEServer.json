@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://software.pa7lim.nl/BlueDV-AMBEServer/",
+		"regex": "href=\"BlueDVAMBEServer-(?<raw>(?<a>\\d)(?<b>\\d)(?<c>\\d)(?<d>\\d+))\\.zip\""
+	},
+	"version": "{captures.a}.{captures.b}.{captures.c}.{captures.d}",
+	"urls": [
+		"https://software.pa7lim.nl/BlueDV-AMBEServer/BlueDVAMBEServer-{captures.raw}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://software.pa7lim.nl/BlueDV-AMBEServer/README.txt"
+	}
+}

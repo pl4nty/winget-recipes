@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "deta",
+		"repo": "space-cli"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/deta/space-cli/releases/download/{github.rawTag}/space-windows-x86_64.zip",
+			"nestedInstallerMatches": [
+				"space.exe"
+			]
+		},
+		{
+			"url": "https://github.com/deta/space-cli/releases/download/{github.rawTag}/space-windows-arm64.zip",
+			"nestedInstallerMatches": [
+				"space.exe"
+			]
+		}
+	]
+}

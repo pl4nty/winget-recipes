@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pychess",
+		"repo": "pychess"
+	},
+	"urls": [
+		"https://github.com/pychess/pychess/releases/download/{github.rawTag}/pychess-{version}-win64.msi"
+	]
+}

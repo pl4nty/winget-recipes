@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.memurai.com/get-memurai",
+		"regex": "\"aws_file_valkey_windows\":\"https://download\\.memurai\\.com/Memurai-Developer/(?<version>\\d+(?:\\.\\d+)+)/Memurai-Developer-v[\\d.]+\\.msi\""
+	},
+	"urls": [
+		"https://dist.memurai.com/releases/Memurai-Developer/{version}/Memurai-Developer-v{version}.msi"
+	]
+}
