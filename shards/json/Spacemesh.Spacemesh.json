@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "spacemeshos",
+		"repo": "smapp"
+	},
+	"urls": ["https://smapp.spacemesh.network/dist/v{version}/Spacemesh%20Setup%20{version}.exe"]
+}
