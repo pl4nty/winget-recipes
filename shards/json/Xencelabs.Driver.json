@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.xencelabs.com/support/download-drivers",
+		"regex": "<h3>Windows</h3>\\s*<p class=\"drivers_info\">XencelabsWin_(?<version>\\d+(?:\\.\\d+)+-\\d+)</p>[\\s\\S]*?href=\"/support/file/id/(?<id>\\d+)/type/1\""
+	},
+	"urls": [{ "url": "https://www.xencelabs.com/support/file/id/{captures.id}/type/1", "architecture": "x86" }]
+}
