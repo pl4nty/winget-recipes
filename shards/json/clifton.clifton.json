@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "isambard-sc",
+		"repo": "clifton"
+	},
+	"urls": [
+		"https://github.com/isambard-sc/clifton/releases/download/{github.rawTag}/clifton-windows-x86_64.zip"
+	]
+}

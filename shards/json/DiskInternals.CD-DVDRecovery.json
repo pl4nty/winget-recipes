@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.diskinternals.com/cd-dvd-recovery/",
+		"regex": "\"softwareVersion\":\"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://eu.diskinternals.com/download/CD_DVD_Recovery.exe"]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sordum.org/8266/",
+		"regex": "<title>BlueLife Hosts Editor v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.sordum.org/files/download/host-editor/HostsEditor.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sordum.org/8266/"
+	}
+}
