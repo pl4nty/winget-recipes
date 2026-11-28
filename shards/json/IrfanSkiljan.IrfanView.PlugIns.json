@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.irfanview.com/plugins.htm",
+		"regex": "current PlugIns version is:\\s*(\\d+\\.\\d+)"
+	},
+	"urls": [
+		"https://download.fileforum.com/download/1099412658-1/iview{version|.|}_plugins_setup.exe",
+		"https://download.fileforum.com/download/1099412658-1/iview{version|.|}_plugins_x64_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.irfanview.com/plugins.htm#UpdatedPlugins"
+	}
+}

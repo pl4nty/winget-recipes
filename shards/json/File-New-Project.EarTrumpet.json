@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "appinstaller",
+	"appinstaller": {
+		"url": "https://install.eartrumpet.app/master/EarTrumpet.Package.appinstaller"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/File-New-Project/EarTrumpet/blob/master/CHANGELOG.md"
+	}
+}

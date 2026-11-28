@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://ams.ecosia-browser.net/api/getLatest/0aac13df-2a94-4570-8229-285102897d3d/win/?channelprofilename=PROD&arch=x64",
+		"path": "Version"
+	},
+	"urls": [
+		"https://app-cms-repo.ecosia-browser.net/0aac13df-2a94-4570-8229-285102897d3d/build/{version}/mini_installer_{version}_x86.exe",
+		"https://app-cms-repo.ecosia-browser.net/0aac13df-2a94-4570-8229-285102897d3d/build/{version}/mini_installer_{version}_x64.exe"
+	]
+}
