@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SynrgStudio",
+		"repo": "STL-Renderer"
+	},
+	"urls": [
+		"https://github.com/SynrgStudio/STL-Renderer/releases/download/v{version}/STLRenderer-Setup-{version}.msi"
+	]
+}

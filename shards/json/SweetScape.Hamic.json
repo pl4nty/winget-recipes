@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sweetscape.com/hamic/",
+		"regex": "/hamic(?<version>\\d)(?<minor>\\d+)\\.exe\""
+	},
+	"version": "{version}.{captures.minor}",
+	"urls": [
+		"https://download.sweetscape.com/hamic{captures.version}{captures.minor}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sweetscape.com/hamic/"
+	}
+}

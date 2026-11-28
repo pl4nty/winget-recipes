@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sublimetext.com/3",
+		"regex": "<i>Version:</i> Build (\\d+)"
+	},
+	"urls": [
+		"https://download.sublimetext.com/Sublime%20Text%20Build%20{version}%20x64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sublimetext.com/3"
+	}
+}

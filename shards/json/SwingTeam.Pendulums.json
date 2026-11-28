@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Swing-team",
+		"repo": "pendulums-web-client"
+	},
+	"urls": [
+		"https://github.com/Swing-team/pendulums-web-client/releases/download/v{version}/Pendulums.exe"
+	]
+}

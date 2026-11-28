@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdn.systweak.com/setups/baps/adrsetup_systweak-default.exe?of=adrsetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.systweak.com/setups/baps/adrsetup_systweak-default.exe?of=adrsetup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

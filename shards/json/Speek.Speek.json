@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Speek-App",
+		"repo": "Speek",
+		"tagRegex": "-release$"
+	},
+	"urls": [
+		"https://github.com/Speek-App/Speek/releases/download/{github.rawTag}/Speek.Chat-v{version}-windows-x86_64.exe"
+	]
+}

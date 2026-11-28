@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://cdn.systweak.com/setups/baps/adug_systweak-default.exe?of=adug.exe",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.systweak.com/setups/baps/adug_systweak-default.exe?of=adug.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

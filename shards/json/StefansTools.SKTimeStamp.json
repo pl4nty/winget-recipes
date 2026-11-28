@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "stefanstools",
+		"file": "SKTimeStamp64-{version}.msi"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/stefanstools/files/SKTimeStamp/SKTimeStamp64-{version}.msi/download",
+		"https://sourceforge.net/projects/stefanstools/files/SKTimeStamp/SKTimeStamp-{version}.msi/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tools.stefankueng.com/SKTimeStamp.html"
+	}
+}

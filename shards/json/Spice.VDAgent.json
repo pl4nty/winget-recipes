@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.spice-space.org/download/windows/vdagent/",
+		"regex": "href=\"vdagent-win-(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": [
+		"https://www.spice-space.org/download/windows/vdagent/vdagent-win-{version}/spice-vdagent-x64-{version}.msi",
+		"https://www.spice-space.org/download/windows/vdagent/vdagent-win-{version}/spice-vdagent-x86-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gitlab.freedesktop.org/spice/win32/vd_agent/-/blob/master/NEWS"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stefansundin",
+		"repo": "superf4"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/stefansundin/superf4/releases/download/v{version}/SuperF4-{version}.exe",
+			"architecture": "neutral"
+		}
+	]
+}

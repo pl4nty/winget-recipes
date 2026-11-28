@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sht2017",
+		"repo": "SteamCmdPalExtension",
+		"method": "api-latest"
+	},
+	"version": "{version}.0"
+}
