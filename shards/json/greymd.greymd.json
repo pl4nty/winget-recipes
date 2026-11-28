@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "leg0",
+		"repo": "greymd",
+		"tagRegex": "^release_v"
+	},
+	"urls": [
+		"https://github.com/leg0/greymd/releases/download/{github.rawTag}/greymd-windows-x64.zip"
+	]
+}
