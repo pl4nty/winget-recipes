@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support.logi.com/api/v2/help_center/en-us/articles/360048967733",
+		"regex": "<strong>Version (\\d+(?:\\.\\d+)+)</strong>"
+	},
+	"urls": ["https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://support.logi.com/hc/en-us/articles/360048967733"
+	},
+	"replace": true
+}
