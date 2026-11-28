@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MM120-i",
+		"repo": "AudioMixer",
+		"tagRegex": "^\\."
+	},
+	"urls": [
+		"https://github.com/MM120-i/AudioMixer/releases/download/{github.rawTag}/AudioMixer-Release.zip"
+	]
+}
