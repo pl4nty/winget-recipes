@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://mirillis.com/download-splash-free-hd-video-player",
+		"regex": "files/splash_(\\d+(?:_\\d+)+)_setup\\.exe"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://download.mirillis.com/files/splash_{version}_setup.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MehdiDinari",
+		"repo": "mehdi-winget-source"
+	},
+	"urls": [
+		"https://github.com/MehdiDinari/mehdi-winget-source/releases/download/{github.rawTag}/AppMehdi.exe"
+	]
+}

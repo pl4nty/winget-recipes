@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "misfitmodel3d",
+		"file": "mm3d-{version}/mm3d-"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/misfitmodel3d/files/misfitmodel3d-devel/mm3d-{version}/mm3d-{version|.|_}-win32-installer.exe/download"
+	]
+}

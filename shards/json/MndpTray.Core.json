@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xmegz",
+		"repo": "MndpTray"
+	},
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://github.com/xmegz/MndpTray/releases/download/{github.rawTag}/MndpTray.Core.Full.exe"
+	]
+}

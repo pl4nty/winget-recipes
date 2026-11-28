@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "midry3",
+		"repo": "hato"
+	},
+	"urls": [
+		"https://github.com/midry3/hato/releases/download/{github.rawTag}/hato_windows_amd64.zip"
+	]
+}

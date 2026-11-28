@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://web-cdn.melodics.com/download/MelodicsV2Installer.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://web-cdn.melodics.com/download/MelodicsV2Installer.exe",
+		"header": "etag"
+	}
+}
