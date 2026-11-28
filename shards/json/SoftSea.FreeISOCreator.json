@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://file1.softsea.com/get.php?file=freeisocreator_setup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://file1.softsea.com/get.php?file=freeisocreator_setup.exe",
+		"header": "last-modified"
+	}
+}
