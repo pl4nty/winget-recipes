@@ -1,0 +1,24 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.bitgamebooster.com/",
+		"regex": "https://webcf\\.bitgamebooster\\.com/bitgamebooster/instlr/build/(\\d+)/bitgbstsetup\\.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://webcf.bitgamebooster.com/bitgamebooster/instlr/build/{version}/bitgbstsetup.exe",
+			"architecture": "neutral"
+		}
+	],
+	"state": {
+		"source": "value",
+		"value": "{version}"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.bitgamebooster.com/"
+	}
+}
