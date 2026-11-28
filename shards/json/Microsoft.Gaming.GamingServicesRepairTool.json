@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://dlassets-ssl.xboxlive.com/public/content/XboxInstaller/GamingRepairTool.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://dlassets-ssl.xboxlive.com/public/content/XboxInstaller/GamingRepairTool.exe",
+			"architecture": "neutral"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dlassets-ssl.xboxlive.com/public/content/XboxInstaller/GamingRepairTool.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
