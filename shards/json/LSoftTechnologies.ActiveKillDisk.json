@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		{
+			"url": "https://download.lsoft.net/KillDisk-Freeware-Setup.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.killdisk.com/history.htm#responsive-example-table"
+	},
+	"state": {
+		"source": "response-header",
+		"url": "https://download.lsoft.net/KillDisk-Freeware-Setup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
