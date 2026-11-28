@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hec.usace.army.mil/software/hec-ras/download.aspx",
+		"regex": "href=\"https://github\\.com/HydrologicEngineeringCenter/hec-downloads/releases/download/(?<tag>[^/\"]+)/(?<file>HEC-RAS_\\d+_Setup\\.exe)\"[^>]*>(?:<[^>]*>)*Download</a>\\s*HEC-RAS (?<version>\\d+(?:\\.\\d+)+) Setup Package"
+	},
+	"urls": ["https://github.com/HydrologicEngineeringCenter/hec-downloads/releases/download/{captures.tag}/{captures.file}"],
+	"releaseNotes": {
+		"source": "json",
+		"sourceUrl": "https://www.hec.usace.army.mil/confluence/rest/api/content?spaceKey=RASRN&title=.HEC-RAS%20Release%20Notes%20v{version}&expand=body.view",
+		"path": "results.0.body.view.value",
+		"nestedSource": "html",
+		"releaseNotesUrl": "https://www.hec.usace.army.mil/confluence/rasdocs/rasrn/{version}",
+		"cleanup": false
+	}
+}
