@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://aivoice.jp/member/downloads/character/BenizakuraSyoga",
+		"regex": "/downloads/data/benizakura-syoga/(\\d+(?:\\.\\d+)+)/windows"
+	},
+	"urls": [
+		{
+			"url": "https://aivoice.jp/member/downloads/data/benizakura-syoga/{version}/windows",
+			"architecture": "x64"
+		}
+	]
+}

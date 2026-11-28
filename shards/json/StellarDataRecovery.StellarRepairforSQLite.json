@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://cloud.stellarinfo.com/demo/StellarRepairforSQLite.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cloud.stellarinfo.com/demo/StellarRepairforSQLite.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

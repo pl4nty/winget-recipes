@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Gilgamech",
+		"repo": "Cat"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/Gilgamech/Cat/releases/download/{github.rawTag}/Cat.exe",
+			"architecture": "neutral"
+		}
+	]
+}

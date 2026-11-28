@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nullpomino",
+		"repo": "nullpomino",
+		"tagRegex": "\\.0$"
+	},
+	"urls": [
+		"https://github.com/nullpomino/nullpomino/releases/download/{github.rawTag}/NullpoMino{github.rawTag|v|}.exe"
+	]
+}
