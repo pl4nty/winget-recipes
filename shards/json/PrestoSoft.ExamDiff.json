@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.prestosoft.com/edp_examdiff.asp",
+		"regex": "^(?=[\\s\\S]*?\"softwareVersion\":\"(?<version>\\d+(?:\\.\\d+)+)\")(?=[\\s\\S]*?file=ed(?<code>\\d+)_setup\\.exe)"
+	},
+	"urls": [
+		"https://www.prestosoft.com/download/ed{captures.code}_setup.exe",
+		{
+			"url": "https://www.prestosoft.com/download/ed{captures.code}_setup.zip",
+			"nestedInstallerMatches": ["setup.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.prestosoft.com/edp_edhistory.asp"
+	}
+}
