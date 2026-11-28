@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "dpzxfuture",
+		"repo": "dpzxgit1",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/dpzxfuture/dpzxgit1/releases/download/{github.rawTag}/dpzxbrowse-setup.exe"
+	]
+}
