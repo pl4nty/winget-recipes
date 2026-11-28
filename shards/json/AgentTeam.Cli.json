@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "stick109",
+		"repo": "agent-team-releases"
+	},
+	"urls": [
+		"https://github.com/stick109/agent-team-releases/releases/download/{github.rawTag}/agentteam-win-x64.exe"
+	]
+}
