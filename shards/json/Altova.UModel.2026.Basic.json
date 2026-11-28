@@ -1,0 +1,38 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/en/UModelBasic2026rel2.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/de/UModelBasic2026rel2_DE.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/es/UModelBasic2026rel2_ES.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/fr/UModelBasic2026rel2_FR.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://cdn.sw.altova.com/v2026r2/jp/UModelBasic2026rel2_JP.exe",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.sw.altova.com/v2026r2/en/UModelBasic2026rel2.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.altova.com/support/release-notes"
+	},
+	"replace": true
+}
