@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://zandronum.com/download",
+		"regex": "/downloads/zandronum(\\d+(?:\\.\\d+)+)-win64-installer\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://zandronum.com/downloads/zandronum{version}-win32-installer.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://zandronum.com/downloads/zandronum{version}-win64-installer.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://zandronum.com/download"
+	}
+}

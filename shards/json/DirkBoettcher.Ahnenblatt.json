@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [{ "url": "https://www.ahnenblatt.de/downloads/absetup4.exe", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.ahnenblatt.de/downloads/absetup4.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}

@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.zr6tg.co.za/open-tuner/",
+		"regex": "files/open_tuner_(?<version>[0-9A-Za-z.]+)_(?<date>\\d{8})\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://www.zr6tg.co.za/files/open_tuner_{version}_{captures.date}.zip",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.zr6tg.co.za/open-tuner/"
+	}
+}

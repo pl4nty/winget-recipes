@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.dxatlas.com/cwskimmer/",
+		"regex": "CW Skimmer (\\d+\\.\\d+)<"
+	},
+	"urls": [
+		{
+			"url": "https://www.dxatlas.com/CwSkimmer/Files/CwSkimmer.zip",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.dxatlas.com/cwskimmer/"
+	}
+}

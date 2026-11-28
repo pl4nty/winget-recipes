@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.coinomi.com/en/downloads/",
+		"regex": "binaries&#x2F;desktop&#x2F;coinomi-wallet-(?<version>\\d+(?:\\.\\d+)+)-win64\\.exe"
+	},
+	"urls": [{ "url": "https://storage.coinomi.com/binaries/desktop/coinomi-wallet-{version}-win64.exe", "architecture": "x64" }]
+}
