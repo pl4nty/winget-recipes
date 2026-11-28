@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aserto-dev",
+		"repo": "check2decision"
+	},
+	"urls": [
+		"https://github.com/aserto-dev/check2decision/releases/download/{github.rawTag}/check2decision-windows-amd64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "libnyanpasu",
+		"repo": "clash-nyanpasu"
+	},
+	"urls": [
+		"https://github.com/libnyanpasu/clash-nyanpasu/releases/download/{github.rawTag}/Clash.Nyanpasu_{version}_x64-setup.exe"
+	]
+}

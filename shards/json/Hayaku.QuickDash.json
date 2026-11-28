@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "iamtakingithard",
+		"repo": "QuickDash"
+	},
+	"urls": [
+		"https://github.com/iamtakingithard/QuickDash/releases/download/{github.rawTag}/quickdash-v{version}-x86_64-pc-windows-msvc.exe"
+	]
+}

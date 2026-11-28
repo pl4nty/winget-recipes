@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FalconNL93",
+		"repo": "WslToolbox"
+	},
+	"urls": [
+		"https://github.com/FalconNL93/WslToolbox/releases/download/{github.rawTag}/wsltoolbox_{version}_x64_setup.exe"
+	]
+}

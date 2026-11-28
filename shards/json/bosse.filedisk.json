@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.accum.se/~bosse/",
+		"regex": "href=\"filedisk/filedisk-(\\d+)\\.zip\""
+	},
+	"urls": [
+		"https://www.accum.se/~bosse/filedisk/filedisk-{version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.accum.se/~bosse/"
+	}
+}

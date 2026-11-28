@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.accum.se/~bosse/",
+		"regex": "href=\"romfs/romfs-(\\d+)\\.zip\""
+	},
+	"urls": [
+		"https://www.accum.se/~bosse/romfs/romfs-{version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.accum.se/~bosse/"
+	}
+}

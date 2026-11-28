@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Coloryr",
+		"repo": "ColorMC",
+		"tagRegex": "-\\d{8}(?:-\\d+)?$"
+	},
+	"version": "1.{version|ersion-|}",
+	"urls": [
+		"https://github.com/Coloryr/ColorMC/releases/download/{github.rawTag}/colormc-windows-{version|ersion-|}-x64.msi"
+	]
+}
