@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oo-software.com/en/diskimage-backup-your-data/whats-new",
+		"regex": "<h4>(?<version>\\d+\\.\\d+\\.\\d+) &#8211; released"
+	},
+	"urls": [
+		"https://package.oo-software.com/winget/diskimage/{version}/oodiskimage_{version}_premium_eng_x64.msi",
+		"https://package.oo-software.com/winget/diskimage/{version}/oodiskimage_{version}_premium_deu_x64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.oo-software.com/en/diskimage-backup-your-data/whats-new"
+	}
+}
