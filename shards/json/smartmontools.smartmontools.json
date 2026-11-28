@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "smartmontools",
+		"repo": "smartmontools",
+		"tagRegex": "^RELEASE_"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://github.com/smartmontools/smartmontools/releases/download/{github.rawTag}/smartmontools-{packageVersion}.win32-setup.exe"
+	]
+}
