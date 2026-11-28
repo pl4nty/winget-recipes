@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://emcosoftware.com/msi-package-builder/download",
+		"regex": "Version\\s+(?<version>12\\.\\d+\\.\\d+)"
+	},
+	"urls": [
+		{
+			"url": "https://storage.emcosoftware.com/download/archive/msipackagebuilder/v12/MSIPackageBuilderSetup-{version}.exe",
+			"architecture": "neutral"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://emcosoftware.com/msi-package-builder/whats-new"
+	}
+}

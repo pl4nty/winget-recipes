@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gregorik",
+		"repo": "LogicAtlas-CLI"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/gregorik/LogicAtlas-CLI/releases/download/{github.rawTag}/LogicAtlas-CLI_{github.rawTag}.zip",
+			"architecture": "neutral"
+		}
+	]
+}

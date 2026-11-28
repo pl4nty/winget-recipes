@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "goldendict",
+		"repo": "goldendict"
+	},
+	"urls": [
+		"https://github.com/goldendict/goldendict/releases/download/{github.rawTag}/GoldenDict-{version}-Install.exe"
+	]
+}

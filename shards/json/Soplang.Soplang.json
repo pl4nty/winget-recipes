@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "soplang",
+		"repo": "soplang"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/soplang/soplang/releases/download/v{version}/soplang-setup.exe",
+			"architecture": "x64"
+		}
+	]
+}
