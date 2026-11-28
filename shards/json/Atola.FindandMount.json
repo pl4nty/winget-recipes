@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"http://findandmount.com/fnmsetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "http://findandmount.com/fnmsetup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

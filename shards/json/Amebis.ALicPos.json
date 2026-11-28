@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://prenos-amebis.b-cdn.net/ALicPos/",
+		"regex": "href=\"(\\d+(?:\\.\\d+)+)/\""
+	},
+	"urls": [
+		"https://prenos-amebis.b-cdn.net/ALicPos/{version}/ALicPos.Win32.En.msi",
+		"https://prenos-amebis.b-cdn.net/ALicPos/{version}/ALicPos.Win32.Sl.msi",
+		"https://prenos-amebis.b-cdn.net/ALicPos/{version}/ALicPos.x64.En.msi",
+		"https://prenos-amebis.b-cdn.net/ALicPos/{version}/ALicPos.x64.Sl.msi",
+		"https://prenos-amebis.b-cdn.net/ALicPos/{version}/ALicPos.ARM64.En.msi",
+		"https://prenos-amebis.b-cdn.net/ALicPos/{version}/ALicPos.ARM64.Sl.msi"
+	]
+}

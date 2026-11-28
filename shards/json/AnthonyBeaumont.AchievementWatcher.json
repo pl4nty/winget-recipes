@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xan105",
+		"repo": "Achievement-Watcher"
+	},
+	"urls": [
+		"https://github.com/xan105/Achievement-Watcher/releases/download/{github.rawTag}/Achievement.Watcher.Setup.exe"
+	]
+}

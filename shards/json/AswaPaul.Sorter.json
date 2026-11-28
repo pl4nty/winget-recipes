@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "omushpapa",
+		"repo": "sorter"
+	},
+	"urls": [
+		"https://github.com/omushpapa/sorter/releases/download/{github.rawTag}/Sorter_{github.rawTag}_W10_x64.exe"
+	]
+}

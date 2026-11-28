@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.bitbucket.org/2.0/repositories/AshleyStone/defaultaudio/refs/tags?sort=-target.date",
+		"path": "values.0.name"
+	},
+	"urls": [
+		"https://bitbucket.org/AshleyStone/defaultaudio/downloads/DefaultAudio-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://bitbucket.org/AshleyStone/defaultaudio/src/{version}/"
+	}
+}

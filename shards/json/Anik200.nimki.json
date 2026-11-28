@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Anik200",
+		"repo": "nimki"
+	},
+	"urls": [
+		"https://github.com/Anik200/nimki/releases/download/{github.rawTag}/nimki-windows-x64.zip"
+	]
+}

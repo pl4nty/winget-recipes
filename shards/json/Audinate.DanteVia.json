@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.getdante.com/support/software-downloads/",
+		"regex": "DanteVia/(?<major>\\d+)/(?<minor>\\d+\\.\\d+)/DanteVia-(?<version>\\d+(?:\\.\\d+)+)_windows\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://audinate-software-updates.sgp1.cdn.digitaloceanspaces.com/DanteVia/{captures.major}/{captures.minor}/DanteVia-{version}_windows.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.getdante.com/releases/dante-via/windows/dante-via-v{version|.|-}-windows/"
+	}
+}

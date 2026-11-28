@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AntiMicro",
+		"repo": "antimicro"
+	},
+	"version": "{github.rawTag|-final|.0}",
+	"urls": [
+		"https://github.com/AntiMicro/antimicro/releases/download/{github.rawTag}/antimicro-{github.rawTag|-final|}-win64.msi"
+	]
+}
