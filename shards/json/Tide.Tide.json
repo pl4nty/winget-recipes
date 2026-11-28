@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "code-with-current",
+		"repo": "tide"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/code-with-current/tide/releases/download/{github.rawTag}/tide-{github.rawTag}-windows-x64-setup.exe"
+	]
+}

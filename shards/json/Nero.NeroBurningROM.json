@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://dl9.nero.com/software/NeroNewInstallComm/NeroBurningROM2026_28.0.1000.0.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl9.nero.com/software/NeroNewInstallComm/NeroBurningROM2026_28.0.1000.0.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

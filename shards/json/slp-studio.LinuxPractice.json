@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-commit",
+	"github": {
+		"owner": "slp-studio",
+		"repo": "Linux-Practice",
+		"branch": "main",
+		"path": "Linux_run.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://raw.githubusercontent.com/slp-studio/Linux-Practice/{github.commit}/Linux_run.exe"
+	],
+	"state": {
+		"source": "value",
+		"value": "{github.commit}"
+	}
+}

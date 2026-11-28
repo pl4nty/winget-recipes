@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "palermostest25",
+		"repo": "Calculator",
+		"method": "api-list",
+		"tagRegex": "^Calculator\\d"
+	},
+	"versionRemove": "Calculator",
+	"urls": ["https://github.com/palermostest25/Calculator/releases/download/{github.rawTag}/Installer.Requires.Python.exe"]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ds415057r4",
+		"repo": "ncp-nuke"
+	},
+	"urls": [
+		"https://github.com/ds415057r4/ncp-nuke/releases/download/{github.rawTag}/NCP-Nuke_{version}_windows_amd64.msi"
+	]
+}
