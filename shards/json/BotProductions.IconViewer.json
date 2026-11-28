@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.botproductions.com/iconview/download.html",
+		"regex": "href=\"download/IconViewer(?<release>\\d+(?:\\.\\d+)+)-Setup-x64\\.exe\""
+	},
+	"version": { "source": "product" },
+	"state": { "source": "value", "value": "{captures.release}" },
+	"urls": [
+		"https://www.botproductions.com/iconview/download/IconViewer{captures.release}-Setup-x64.exe",
+		"https://www.botproductions.com/iconview/download/IconViewer{captures.release}-Setup-x86.exe"
+	]
+}
