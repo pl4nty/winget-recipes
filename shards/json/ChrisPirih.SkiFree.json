@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ski.ihoc.net/",
+		"regex": "released version (?<version>\\d+\\.\\d+)"
+	},
+	"urls": [
+		"https://ski.ihoc.net/ski32.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ski.ihoc.net/"
+	}
+}

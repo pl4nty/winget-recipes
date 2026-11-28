@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.renpy.org/latest.html",
+		"regex": "dl/(?<version>\\d+(?:\\.\\d+)+)/renpy-\\d+(?:\\.\\d+)+-sdk\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://www.renpy.org/dl/{version}/renpy-{version}-sdk.zip",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.renpy.org/doc/html/changelog.html"
+	}
+}

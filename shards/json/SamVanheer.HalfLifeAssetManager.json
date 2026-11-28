@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SamVanheer",
+		"repo": "HalfLifeAssetManager",
+		"tagRegex": "^HLAM-V"
+	},
+	"urls": [
+		"https://github.com/SamVanheer/HalfLifeAssetManager/releases/download/{github.rawTag}/HalfLifeAssetManagerInstaller.exe"
+	]
+}
