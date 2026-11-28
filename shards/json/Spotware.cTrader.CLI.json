@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://raw.githubusercontent.com/spotware/homebrew-tap/HEAD/Formula/ctrader-cli.rb",
+		"regex": "version \"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://getctraderwin.spotware.com/cli/winget/ctrader-cli-{version}-win-x64.exe"]
+}
