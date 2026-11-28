@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.santesoft.com/downloads.html",
+		"regex": "win/sante-dicom-viewer-lite/download\\.html\">Download version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.santesoft.com/files/win/sante_dicom_viewer_lite.zip",
+			"nestedInstallerMatches": ["sante_dicom_viewer_lite.exe"]
+		}
+	]
+}

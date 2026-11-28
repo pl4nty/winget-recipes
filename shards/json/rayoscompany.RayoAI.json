@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rayo-alcantar",
+		"repo": "RayoAI_for_windows"
+	},
+	"versionRemove": "-stable",
+	"urls": [
+		"https://github.com/rayo-alcantar/RayoAI_for_windows/releases/download/{github.rawTag}/RayoAI-{version|-stable|}-Setup.exe"
+	]
+}

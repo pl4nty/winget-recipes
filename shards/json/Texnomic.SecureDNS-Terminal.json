@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Texnomic",
+		"repo": "SecureDNS",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"versionRemove": "-alpha",
+	"urls": [
+		"https://github.com/Texnomic/SecureDNS/releases/download/{github.rawTag}/Texnomic.SecureDNS.Terminal-x64.msi"
+	]
+}

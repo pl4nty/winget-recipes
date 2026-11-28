@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "willnewii",
+		"repo": "qiniuClient"
+	},
+	"urls": [
+		"https://github.com/willnewii/qiniuClient/releases/download/{github.rawTag}/qiniu.client-{version}-win.exe"
+	]
+}

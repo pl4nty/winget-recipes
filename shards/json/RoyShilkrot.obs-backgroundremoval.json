@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "royshil",
+		"repo": "obs-backgroundremoval"
+	},
+	"urls": ["https://github.com/royshil/obs-backgroundremoval/releases/download/{version}/obs-backgroundremoval-{version}-windows-x64.zip"]
+}
