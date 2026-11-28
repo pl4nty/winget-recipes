@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "david419kr",
+		"repo": "steamless-controller-XB-PS-NS",
+		"tagRegex": "^Build\\-"
+	},
+	"urls": [
+		"https://github.com/david419kr/steamless-controller-XB-PS-NS/releases/download/{github.rawTag}/SteamlessController-Setup-{version}.exe"
+	]
+}
