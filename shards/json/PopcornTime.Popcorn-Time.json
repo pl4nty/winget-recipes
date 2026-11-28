@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://popcorntime.app/download",
+		"regex": "https://get\\.popcorntime\\.app/nightly/(?<version>(?<short>\\d+(?:\\.\\d+)+)-\\d+)/windows/x86_64/Popcorn_Time_Nightly_\\d+(?:\\.\\d+)+_x64_en-US\\.msi"
+	},
+	"urls": ["https://get.popcorntime.app/nightly/{version}/windows/x86_64/Popcorn_Time_Nightly_{captures.short}_x64_en-US.msi"]
+}
