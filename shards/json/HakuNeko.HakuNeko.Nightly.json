@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "manga-download",
+		"repo": "hakuneko",
+		"tagRegex": "^nightly\\-",
+		"method": "api-list",
+		"kind": "all",
+		"assetRegex": "^(?:hakuneko\\-desktop_\\d+\\.\\d+\\.\\d+_windows\\-portable_amd64\\.zip|hakuneko\\-desktop_\\d+\\.\\d+\\.\\d+_windows\\-portable_i386\\.zip|hakuneko\\-desktop_\\d+\\.\\d+\\.\\d+_windows\\-setup_amd64\\.exe|hakuneko\\-desktop_\\d+\\.\\d+\\.\\d+_windows\\-setup_i386\\.exe)$"
+	}
+}
