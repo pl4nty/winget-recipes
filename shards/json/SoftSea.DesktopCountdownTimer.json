@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.softsea.com/software/Desktop-Countdown-Timer.html",
+		"regex": "<li>Version: (\\d+(?:\\.\\d+)+)</li>"
+	},
+	"urls": ["https://file1.softsea.com/get.php?file=desktopcountdowntimer_setup.exe"],
+	"replace": true
+}
