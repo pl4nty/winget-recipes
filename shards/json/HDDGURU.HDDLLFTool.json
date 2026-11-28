@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://hddguru.com/software/HDD-LLF-Low-Level-Format-Tool/",
+		"regex": "href=\"\\./HDDLowLevelFormatTool(?<version>\\d+(?:\\.\\d+)+)Setup\\.exe\""
+	},
+	"urls": ["https://hddguru.com/software/HDD-LLF-Low-Level-Format-Tool/HDDLowLevelFormatTool{version}Setup.exe"]
+}
