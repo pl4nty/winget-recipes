@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://kurtzimmermann.com/downrc_en.html",
+		"regex": "Version (?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [{ "url": "https://kurtzimmermann.com/files/RegCool.exe", "architecture": "x86" }],
+	"releaseNotes": { "releaseNotesUrl": "https://kurtzimmermann.com/downrc_en.html" },
+	"replace": true
+}
