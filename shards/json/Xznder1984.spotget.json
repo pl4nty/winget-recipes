@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://github.com/Xznder1984/SpotGet/releases/download/versions/spotget.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/Xznder1984/SpotGet/releases/download/versions/spotget.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
