@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xenia-canary",
+		"repo": "xenia-canary-releases"
+	},
+	"urls": [
+		"https://github.com/xenia-canary/xenia-canary-releases/releases/download/{github.rawTag}/xenia_canary_windows.zip"
+	]
+}

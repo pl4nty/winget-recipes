@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SFTtech",
+		"repo": "openage"
+	},
+	"urls": [
+		"https://github.com/SFTtech/openage/releases/download/{github.rawTag}/openage-{github.rawTag}-amd64-installer.exe",
+		"https://github.com/SFTtech/openage/releases/download/{github.rawTag}/openage-{github.rawTag}-x86-installer.exe"
+	]
+}

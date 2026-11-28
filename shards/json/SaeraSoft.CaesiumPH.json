@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Lymphatus",
+		"repo": "CaesiumPH",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "-beta$"
+	},
+	"urls": [
+		"https://github.com/Lymphatus/CaesiumPH/releases/download/{github.rawTag}/caesiumph-{github.rawTag|v|}.exe"
+	]
+}

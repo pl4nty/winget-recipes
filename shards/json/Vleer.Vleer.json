@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Vleerapp",
+		"repo": "Vleer"
+	},
+	"urls": [
+		"https://github.com/Vleerapp/Vleer/releases/download/{github.rawTag}/Vleer_{version}_x64-setup.msi"
+	]
+}

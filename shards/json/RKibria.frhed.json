@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/frhed/rss",
+		"regex": "/(?<folder>(?:1\\.%20Stable|3\\.%20Alpha)%20Releases)/(?<version>\\d+(?:\\.\\d+)+)/Frhed-\\d+(?:\\.\\d+)+-Setup\\.exe/"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/frhed/files/{captures.folder}/{version}/Frhed-{version}-Setup.exe/download"
+	],
+	"cleanup": false
+}
