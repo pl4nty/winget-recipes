@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ramensoftware.com/downloads/textify_setup.exe?changelog",
+		"regex": "<b>v(\\d+(?:\\.\\d+)+) \\("
+	},
+	"urls": [
+		"https://ramensoftware.com/downloads/textify_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ramensoftware.com/downloads/textify_setup.exe?changelog"
+	}
+}
