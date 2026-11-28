@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gvshemanth30034",
+		"repo": "winget-pkgs"
+	},
+	"urls": [
+		{ "url": "https://github.com/gvshemanth30034/winget-pkgs/releases/download/v{version}/VisualStudioSetup.exe", "architecture": "x64" }
+	]
+}
