@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{ "url": "https://anvilstudio.com/x64/asinstall.exe", "architecture": "x64" },
+		{ "url": "https://anvilstudio.com/x/asinstall.exe", "architecture": "x86" }
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://anvilstudio.com/x64/asinstall.exe",
+		"header": "etag"
+	},
+	"releaseNotes": { "releaseNotesUrl": "https://anvilstudio.com/history.htm" }
+}
