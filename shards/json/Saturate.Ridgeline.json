@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Saturate",
+		"repo": "ridgeline",
+		"method": "api-sort",
+		"assetRegex": "^Ridgeline_\\d+(?:\\.\\d+)+_(?:x64|arm64)(?:-setup\\.exe|_en-US\\.msi)$"
+	}
+}
