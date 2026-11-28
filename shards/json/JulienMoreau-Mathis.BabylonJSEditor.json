@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://babylonjs-editor.fra1.cdn.digitaloceanspaces.com/updates/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/BabylonJS/Editor/releases/tag/v{version}"
+	}
+}
