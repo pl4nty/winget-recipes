@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "xbox-game-streaming-tools",
+		"tagRegex": "^tak\\-cli\\-v"
+	},
+	"urls": [
+		"https://github.com/microsoft/xbox-game-streaming-tools/releases/download/tak-cli-v{version}/tak.exe"
+	]
+}
