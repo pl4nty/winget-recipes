@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elements-storage",
+		"repo": "ZXPInstaller"
+	},
+	"urls": [
+		"https://github.com/elements-storage/ZXPInstaller/releases/download/{github.rawTag}/ZXPInstaller-Setup-{version}.exe"
+	]
+}

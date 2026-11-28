@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://remotedeckapp.com/download/RemoteDeck-Setup-latest.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://remotedeckapp.com/download/RemoteDeck-Setup-latest.exe",
+		"header": "etag"
+	}
+}

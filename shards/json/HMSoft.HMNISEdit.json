@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "hmne",
+		"file": "nisedit{version}.exe"
+	},
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/hmne/files/HM%20NIS%20Edit/{version}/nisedit{version}.exe/download",
+			"architecture": "x86"
+		}
+	]
+}

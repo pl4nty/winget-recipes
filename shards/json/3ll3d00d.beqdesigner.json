@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "3ll3d00d",
+		"repo": "beqdesigner"
+	},
+	"urls": [
+		"https://github.com/3ll3d00d/beqdesigner/releases/download/{github.rawTag}/beqdesigner_2022Server.exe",
+		"https://github.com/3ll3d00d/beqdesigner/releases/download/{github.rawTag}/beqdesigner_2022Server.exe"
+	]
+}

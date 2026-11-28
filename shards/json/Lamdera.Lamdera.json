@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://github.com/lamdera/compiler/tags",
+		"regex": "/lamdera/compiler/releases/tag/(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://static.lamdera.com/bin/lamdera-{version}-windows-x86_64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vb-audio.com/Voicemeeter/potato.htm",
+		"regex": "Voicemeeter (?<version>\\d+(?:\\.\\d+){3}) \\(ZIP Package\\)"
+	},
+	"urls": [
+		"https://download.vb-audio.com/Download_CABLE/Voicemeeter8Setup_v{version|.|}.zip"
+	]
+}
