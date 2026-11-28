@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/cube/rss",
+		"regex": "/files/cube/(\\d{4}_\\d{2}_\\d{2})/cube_\\d{4}_\\d{2}_\\d{2}_win32\\.exe"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		"https://sourceforge.net/projects/cube/files/cube/{version}/cube_{version}_win32.exe/download"
+	]
+}
