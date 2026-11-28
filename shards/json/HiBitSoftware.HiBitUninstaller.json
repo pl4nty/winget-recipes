@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hibitsoft.ir/Uninstaller.html",
+		"regex": "HiBitUninstaller-setup-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://www.hibitsoft.ir/HiBitUninstaller/HiBitUninstaller-setup-{version}.exe",
+			"architecture": "x86"
+		}
+	]
+}
