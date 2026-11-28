@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/anytxt/rss?limit=100",
+		"regex": "/Anytxt_(\\d+(?:\\.\\d+)+)_Windows_X86_64\\.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/anytxt/files/Anytxt_{version}_Windows_X86_32.exe/download",
+		"https://sourceforge.net/projects/anytxt/files/Anytxt_{version}_Windows_X86_64.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://anytxt.net/download/"
+	}
+}
