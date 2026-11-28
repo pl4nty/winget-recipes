@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://t1.daumcdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html",
+		"regex": "\\[(?<version>\\d{2})(?<month>\\d{2})(?<day>\\d{2})\\]"
+	},
+	"version": "{version}.{captures.month}.{captures.day}.0",
+	"urls": [
+		"https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe",
+		"https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe",
+		"https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetupARM64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://t1.daumcdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html"
+	}
+}
