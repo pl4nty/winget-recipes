@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://download.liquit.com/updates/liquitworkspace/production.json",
+		"regex": "[\\s\\S]*release/4\\.2/(?<build>\\d+)/Liquit-Workspace-Server-(?<version>4\\.2\\.\\d+\\.\\d+)\\.zip"
+	},
+	"urls": [
+		"https://download.liquit.com/release/4.2/{captures.build}/Liquit-Universal-Agent-Win-{version}-x64.msi",
+		"https://download.liquit.com/release/4.2/{captures.build}/Liquit-Universal-Agent-Win-{version}-x86.msi"
+	]
+}

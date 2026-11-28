@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "isaacrlevin",
+		"repo": "presencelight",
+		"method": "api-list",
+		"tagRegex": "^Desktop-v"
+	},
+	"urls": ["https://github.com/isaacrlevin/presencelight/releases/download/Desktop-v{version}/PresenceLight.Package_{version}.0_x64_x86_ARM64.appxbundle"]
+}

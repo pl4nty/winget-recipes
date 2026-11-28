@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Chuyu-Team",
+		"repo": "Dism-Multi-language",
+		"method": "api-latest",
+		"assetRegex": "^Dism(?:\\+|%2B){2}.*\\.zip$"
+	}
+}

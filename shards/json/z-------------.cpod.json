@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "z-------------",
+		"repo": "CPod"
+	},
+	"urls": [
+		"https://github.com/z-------------/CPod/releases/download/v{version}/CPod-Setup-{version}.exe"
+	]
+}
