@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sam-astro",
+		"repo": "Z-Sharp"
+	},
+	"version": "{version}-alpha",
+	"urls": [
+		"https://github.com/sam-astro/Z-Sharp/releases/download/{github.rawTag}/ZSharp-Win-Installer.zip"
+	]
+}

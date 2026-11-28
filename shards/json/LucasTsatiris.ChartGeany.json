@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/chart-geany/rss",
+		"regex": "/files/(?<dir>[^/]+)/chartgeany-(?<version>\\d+(?:\\.\\d+)+)-setup-win10\\.exe"
+	},
+	"urls": [{ "url": "https://sourceforge.net/projects/chart-geany/files/{captures.dir}/chartgeany-{version}-setup-win10.exe/download", "architecture": "x86" }]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.claws-mail.org/win32/",
+		"regex": "file=win32/claws-mail-(\\d+(?:\\.\\d+)+-\\d+)-64bit\\.exe"
+	},
+	"urls": [
+		{ "url": "https://www.claws-mail.org/win32/claws-mail-{version}-64bit.exe", "architecture": "x64" },
+		{ "url": "https://www.claws-mail.org/win32/claws-mail-{version}-32bit.exe", "architecture": "x86" }
+	]
+}

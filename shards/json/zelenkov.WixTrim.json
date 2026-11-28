@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [{ "url": "https://sourceforge.net/projects/wixtrim/files/wixtrim/first%20cut/wixtrim-bin.zip/download", "architecture": "x86" }],
+	"state": {
+		"source": "response-header",
+		"url": "https://sourceforge.net/projects/wixtrim/files/wixtrim/first%20cut/wixtrim-bin.zip/download",
+		"header": "etag"
+	},
+	"replace": true
+}

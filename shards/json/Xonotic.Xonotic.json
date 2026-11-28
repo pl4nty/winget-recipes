@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://xonotic.org/download/",
+		"regex": "dl\\.xonotic\\.org/xonotic-(\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://dl.xonotic.org/xonotic-{version}.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["Xonotic/xonotic-x86.exe"]
+		},
+		{
+			"url": "https://dl.xonotic.org/xonotic-{version}.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["Xonotic/xonotic.exe"]
+		}
+	]
+}
