@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "anomalyco",
+		"repo": "opencode",
+		"method": "api-sort",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/anomalyco/opencode/releases/download/{github.rawTag}/opencode-windows-x64-baseline.zip",
+		"https://github.com/anomalyco/opencode/releases/download/{github.rawTag}/opencode-windows-arm64.zip"
+	]
+}
