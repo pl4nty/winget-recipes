@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.datacolor.com/business-solutions/customer-support/colibri-software-downloads/",
+		"regex": "cdn\\.matchmycolor\\.com/colibri/(\\d+\\.\\d+\\.\\d+)/Colibri_DotNet_\\1\\.exe"
+	},
+	"version": "{version}.0",
+	"urls": [{ "url": "https://cdn.matchmycolor.com/colibri/{version}/Colibri_DotNet_{version}.exe", "architecture": "x86" }]
+}
