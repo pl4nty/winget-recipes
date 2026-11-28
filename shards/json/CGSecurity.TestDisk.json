@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cgsecurity.org/wiki/TestDisk_Download",
+		"regex": "/(?<file>testdisk-(?<version>\\d+(?:\\.\\d+)+)(?:-WIP)?)\\.win64\\.zip\""
+	},
+	"urls": ["https://www.cgsecurity.org/{captures.file}.win64.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.cgsecurity.org/wiki/TestDisk_Download"
+	}
+}
