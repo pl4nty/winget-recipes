@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "flowersauce",
+		"repo": "Flori-Input",
+		"method": "api-sort",
+		"assetRegex": "^(?:Flori\\-Input\\-v\\d+\\.\\d+\\.\\d+\\-windows\\-x64\\-setup\\.exe)$"
+	}
+}
