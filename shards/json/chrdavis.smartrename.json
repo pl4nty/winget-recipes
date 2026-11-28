@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chrdavis",
+		"repo": "SmartRename",
+		"tagRegex": "^v\\."
+	},
+	"urls": [
+		"https://github.com/chrdavis/SmartRename/releases/download/{github.rawTag}/SmartRenameInstaller32.msi",
+		"https://github.com/chrdavis/SmartRename/releases/download/{github.rawTag}/SmartRenameInstaller64.msi"
+	]
+}
