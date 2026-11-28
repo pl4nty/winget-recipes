@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ahsayde",
+		"repo": "Serial-Lab",
+		"method": "api-list",
+		"kind": "all",
+		"tagRegex": "^V"
+	},
+	"urls": [
+		"https://github.com/ahsayde/Serial-Lab/releases/download/{github.rawTag}/SerialLabSetup{github.rawTag}.msi"
+	]
+}

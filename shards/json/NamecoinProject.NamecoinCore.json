@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.namecoin.org/download/",
+		"regex": "files/namecoin-core/namecoin-core-(\\d+(?:\\.\\d+)+)/namecoin-\\1-win64-setup-unsigned\\.exe"
+	},
+	"urls": ["https://www.namecoin.org/files/namecoin-core/namecoin-core-{version}/namecoin-{version}-win64-setup-unsigned.exe"]
+}

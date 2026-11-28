@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ietdview-online.rohde-schwarz.com/",
+		"regex": "href=\"/downloads/R&amp;S® IETDView Autark (\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": [
+		"https://ietdview-online.rohde-schwarz.com/downloads/R%26S%C2%AE%20IETDView%20Autark%20{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ietdview-online.rohde-schwarz.com/downloads/IETDView%20Autark%20-%20Release%20Notes%20-%20English.pdf?v={version}"
+	}
+}
