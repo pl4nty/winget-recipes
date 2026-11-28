@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zxch3n",
+		"repo": "PomodoroLogger"
+	},
+	"urls": [
+		"https://github.com/zxch3n/PomodoroLogger/releases/download/{github.rawTag}/Pomodoro-Logger-Setup-{version}.exe"
+	]
+}
