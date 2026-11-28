@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://otr.cypherpunks.ca/",
+		"regex": "https://otr\\.cypherpunks\\.ca/binaries/windows/pidgin\\-otr\\-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://otr.cypherpunks.ca/binaries/windows/pidgin-otr-{version}.exe"
+	]
+}
