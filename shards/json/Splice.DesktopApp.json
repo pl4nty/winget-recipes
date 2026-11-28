@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://desktop.splice.com/conveyor/stable/metadata.properties",
+		"regex": "(?:^|\\n)app\\.version=(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://desktop.splice.com/conveyor/stable/splice-{version}.x64.msix",
+		"https://desktop.splice.com/conveyor/stable/splice-{version}-windows-amd64.zip",
+		"https://desktop.splice.com/conveyor/stable/splice.exe"
+	]
+}
