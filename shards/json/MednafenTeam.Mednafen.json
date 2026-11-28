@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://mednafen.github.io/releases/",
+		"regex": "/releases/files/mednafen-(\\d+(?:\\.\\d+)+)-win64\\.zip"
+	},
+	"urls": [
+		"https://mednafen.github.io/releases/files/mednafen-{version}-win64.zip",
+		"https://mednafen.github.io/releases/files/mednafen-{version}-win32.zip"
+	]
+}
