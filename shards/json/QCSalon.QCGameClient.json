@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://qcsalon.net/",
+		"regex": "href=\"/autodl/qcgc-setup\\.exe\"[^>]*>[^<]*version (?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [{ "url": "https://qcsalon.net/autodl/qcgc-setup.exe", "architecture": "neutral" }]
+}

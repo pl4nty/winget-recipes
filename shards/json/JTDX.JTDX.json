@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "jtdx",
+		"file": "jtdx-{version}-win32.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/jtdx/files/jtdx_{version}/Microsoft%20Windows/16-bit_audio/jtdx-{version}-win32.exe/download",
+		"https://sourceforge.net/projects/jtdx/files/jtdx_{version}/Microsoft%20Windows/16-bit_audio/jtdx-{version}-win64.exe/download"
+	]
+}

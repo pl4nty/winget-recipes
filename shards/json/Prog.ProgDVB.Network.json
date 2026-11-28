@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.progdvb.com/download_progdvb.html",
+		"regex": "files4\\.progdvb\\.com/progdvb/ProgDVB(\\d+(?:\\.\\d+)+)\\.x64NetPro\\.exe"
+	},
+	"urls": [
+		{ "url": "https://files4.progdvb.com/progdvb/ProgDVB{version}.NetPro.exe", "architecture": "x86" },
+		{ "url": "https://files4.progdvb.com/progdvb/ProgDVB{version}.x64NetPro.exe", "architecture": "x64" }
+	]
+}

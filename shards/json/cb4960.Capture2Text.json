@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "capture2text",
+		"file": "Capture2Text_v{version}_32bit.zip"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/capture2text/files/Capture2Text/Capture2Text_v{version}/Capture2Text_v{version}_32bit.zip/download",
+		"https://sourceforge.net/projects/capture2text/files/Capture2Text/Capture2Text_v{version}/Capture2Text_v{version}_64bit.zip/download"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "pkgconfiglite",
+		"file": "pkg-config-lite-{version}_bin-win32.zip"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/pkgconfiglite/files/{version}/pkg-config-lite-{version}_bin-win32.zip/download"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		{
+			"url": "https://downloads.solarwinds.com/solarwinds/Release/FreeTool/SolarWinds-TFTP-Server.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["TFTPInstaller.msi"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.solarwinds.com/solarwinds/Release/FreeTool/SolarWinds-TFTP-Server.zip",
+		"header": "last-modified"
+	},
+	"replace": true
+}
