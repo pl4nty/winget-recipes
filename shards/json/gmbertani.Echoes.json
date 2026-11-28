@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "echoes",
+		"file": "Install-echoes-{version}-Win64.exe"
+	},
+	"urls": ["https://sourceforge.net/projects/echoes/files/Windows%20binaries/Install-echoes-{version}-Win64.exe/download"]
+}
