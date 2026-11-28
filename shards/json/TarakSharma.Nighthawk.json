@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "octavezero",
+		"repo": "nighthawk"
+	},
+	"urls": [
+		"https://github.com/octavezero/nighthawk/releases/download/{github.rawTag}/nighthawkSetup-win-v{version}-x64.exe"
+	]
+}

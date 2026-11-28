@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://pcchannel.imtt.qq.com/channel/QQBrowser_Setup_SEM1.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://pcchannel.imtt.qq.com/channel/QQBrowser_Setup_SEM1.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://browser.qq.com/"
+	},
+	"replace": true
+}

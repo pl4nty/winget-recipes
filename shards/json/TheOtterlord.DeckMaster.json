@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TheOtterlord",
+		"repo": "deckmaster"
+	},
+	"urls": [
+		"https://github.com/TheOtterlord/deckmaster/releases/download/{github.rawTag}/installer.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.toontownrewritten.com/play",
+		"regex": "/launcher/windows/TTRInstaller-v(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://cdn.toontownrewritten.com/launcher/windows/TTRInstaller-v{captures.version}.exe"
+	]
+}

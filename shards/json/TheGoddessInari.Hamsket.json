@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TheGoddessInari",
+		"repo": "hamsket"
+	},
+	"urls": [
+		"https://github.com/TheGoddessInari/hamsket/releases/download/{github.rawTag}/Hamsket.Setup.{version}.exe"
+	]
+}

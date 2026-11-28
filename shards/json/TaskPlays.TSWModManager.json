@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://tsw-mod-manager.de/installer/tsw2/latest.yml"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://tsw-mod-manager.de/"
+	}
+}

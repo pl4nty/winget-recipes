@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TheZoraiz",
+		"repo": "ascii-image-converter"
+	},
+	"urls": [
+		"https://github.com/TheZoraiz/ascii-image-converter/releases/download/{github.rawTag}/ascii-image-converter_Windows_amd64_64bit.zip"
+	]
+}
