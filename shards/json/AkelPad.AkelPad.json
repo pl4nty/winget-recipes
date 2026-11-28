@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/akelpad/rss",
+		"regex": "/projects/akelpad/files/(?<folder>AkelPad%20\\d+)/(?<version>\\d+(?:\\.\\d+)+)/x64/AkelPad-\\k<version>-x64-setup\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/akelpad/files/{captures.folder}/{version}/x64/AkelPad-{version}-x64-setup.exe/download",
+		"https://sourceforge.net/projects/akelpad/files/{captures.folder}/{version}/AkelPad-{version}-setup.exe/download"
+	]
+}
