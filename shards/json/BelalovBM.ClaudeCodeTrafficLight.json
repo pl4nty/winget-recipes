@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BelalovBM",
+		"repo": "claude-code-traffic-light"
+	},
+	"urls": [
+		"https://github.com/BelalovBM/claude-code-traffic-light/releases/download/{github.rawTag}/ClaudeCodeTrafficLight.exe"
+	]
+}

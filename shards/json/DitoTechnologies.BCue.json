@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ditotechnologies",
+		"repo": "brushcue",
+		"tagRegex": "^brushcue-v"
+	},
+	"urls": ["https://github.com/ditotechnologies/brushcue/releases/download/{github.rawTag}/bcue-{version}-windows-x86_64.zip"]
+}

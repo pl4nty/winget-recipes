@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Bikuuuu",
+		"repo": "tiny-tracker"
+	},
+	"urls": [
+		"https://github.com/Bikuuuu/tiny-tracker/releases/download/{github.rawTag}/TinyTracker-Setup-{version}-x64.exe"
+	]
+}
