@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://print.stamps.com/Webpostage/resources_connect_download/EndiciaConnect.exe"
+	]
+}
