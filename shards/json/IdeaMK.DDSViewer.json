@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ddsviewer.com/download.aspx",
+		"regex": "DDS Viewer (\\d+(?:\\.\\d+)+)"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		{
+			"url": "https://ddsviewer.com/ddsviewersetup.exe",
+			"architecture": "x64"
+		}
+	]
+}
