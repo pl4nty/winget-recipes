@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://installbuilder.com/changelog.html",
+		"regex": "<h4>Version (\\d+(?:\\.\\d+)+) "
+	},
+	"urls": [
+		"https://releases.installbuilder.com/installbuilder/installbuilder-qt-professional-{version}-windows-installer.exe",
+		"https://releases.installbuilder.com/installbuilder/installbuilder-qt-professional-{version}-windows-x64-installer.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://installbuilder.com/changelog.html"
+	}
+}

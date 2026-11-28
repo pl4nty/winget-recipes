@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tariibaba",
+		"repo": "stopawu"
+	},
+	"urls": [
+		"https://github.com/tariibaba/stopawu/releases/download/{github.rawTag}/Stopawu-{version}-x64.exe",
+		"https://github.com/tariibaba/stopawu/releases/download/{github.rawTag}/Stopawu-{version}-x86.exe"
+	]
+}

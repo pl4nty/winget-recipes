@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://aivoice.baidu.com/logi/baiduvoicewin"
+		],
+		"regex": "/BaiduSpeechInput_(\\d+(?:\\.\\d+)+)\\.exe$"
+	}
+}
