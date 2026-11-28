@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://cdn.chillicream.com/app/nitro.yml"
+	},
+	"urls": [
+		"https://cdn.chillicream.com/app/Nitro-{version}-win-x64.exe",
+		"https://cdn.chillicream.com/app/Nitro-{version}-win-arm64.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Lazap-Development",
+		"repo": "Lazap"
+	},
+	"urls": [
+		"https://github.com/Lazap-Development/Lazap/releases/download/{github.rawTag}/Lazap-{version}-x86_64.msi"
+	]
+}

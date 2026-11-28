@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://storage.googleapis.com/app-releases-production?prefix=pieces_cli/winget/&delimiter=/",
+		"regex": "<Key>pieces_cli/winget/pieces-cli-win_x86_64-(\\d+(?:\\.\\d+)+)\\.zip</Key>"
+	},
+	"urls": [
+		"https://storage.googleapis.com/app-releases-production/pieces_cli/winget/pieces-cli-win_x86_64-{version}.zip"
+	]
+}

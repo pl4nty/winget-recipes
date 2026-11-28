@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "LazyDuchess",
+		"repo": "AlderLakePatcher"
+	},
+	"urls": [
+		"https://github.com/LazyDuchess/AlderLakePatcher/releases/download/{github.rawTag}/AlderLakePatch.zip"
+	]
+}
