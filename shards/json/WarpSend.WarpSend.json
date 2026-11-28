@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://warpsend.io/download/",
+		"regex": "^(?=[\\s\\S]*?(?<x64>https://download\\.warpsend\\.io/downloads/[0-9a-f]+/warpsend-x86_64-pc-windows-gnu\\.[0-9a-f]+\\.zip))(?=[\\s\\S]*?(?<arm64>https://download\\.warpsend\\.io/downloads/[0-9a-f]+/warpsend-aarch64-pc-windows-gnullvm\\.[0-9a-f]+\\.zip))(?=[\\s\\S]*?warpsend[^\"]*?(?<version>\\d+\\.\\d+\\.\\d+)[-.](?<build>\\d{12})[^\"]*?windows)"
+	},
+	"version": "{version}.{captures.build}",
+	"urls": ["{captures.x64}", "{captures.arm64}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://warpsend.io/download/"
+	}
+}
