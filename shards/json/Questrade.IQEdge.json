@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://media.questrade.com/iq_downloads/QuestradeEdge.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://media.questrade.com/iq_downloads/QuestradeEdge.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}

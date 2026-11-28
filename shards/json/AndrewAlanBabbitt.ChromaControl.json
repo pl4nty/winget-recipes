@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ChromaControl",
+		"repo": "ChromaControl",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "^(?=\\d+(?:\\.\\d+)+$)"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/ChromaControl/ChromaControl/releases/download/{github.rawTag}/ChromaControl_{version}.0_x86_x64.msixbundle"
+	]
+}

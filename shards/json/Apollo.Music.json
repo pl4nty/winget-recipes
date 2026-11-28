@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://apollo.devtype.com.br",
+		"regex": "/releases/v(?<version>\\d+(?:\\.\\d+)+)/apollo-music_\\d+(?:\\.\\d+)+_x64-setup\\.exe"
+	},
+	"urls": [
+		"https://apollo.devtype.com.br/releases/v{version}/apollo-music_{version}_x64-setup.exe"
+	],
+	"cleanup": false
+}

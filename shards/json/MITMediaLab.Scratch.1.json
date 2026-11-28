@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://scratch.mit.edu/js/scratch_1.4.bundle.js",
+		"regex": "download\\.scratch\\.mit\\.edu/Scratch(\\d+(?:\\.\\d+)+)\\.msi\\.installer\\.zip"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://download.scratch.mit.edu/Scratch{version}.msi.installer.zip"
+	]
+}
