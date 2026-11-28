@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pizi-0",
+		"repo": "flutter-scrcpygui"
+	},
+	"urls": [
+		"https://github.com/pizi-0/flutter-scrcpygui/releases/download/{github.rawTag}/scrcpygui-{version}-win.exe"
+	]
+}

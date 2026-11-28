@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fire-eggs",
+		"repo": "DarkThumbs",
+		"tagRegex": "^V"
+	},
+	"urls": [
+		"https://github.com/fire-eggs/DarkThumbs/releases/download/{github.rawTag}/DarkThumbsSetup_x64.msi"
+	]
+}
