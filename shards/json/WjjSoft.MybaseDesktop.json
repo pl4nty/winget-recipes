@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.wjjsoft.com/mybase_desktop_v8_changelog.html",
+		"regex": "<h2>Version (\\d+(?:\\.\\d+)+) \\(\\d"
+	},
+	"urls": ["https://www.wjjsoft.com/dl_nyfedit_win"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.wjjsoft.com/mybase_desktop_v8_changelog.html"
+	}
+}
