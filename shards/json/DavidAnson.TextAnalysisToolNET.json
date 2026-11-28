@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/TextAnalysisTool/Releases/raw/refs/heads/master/TextAnalysisTool.NET.zip"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/TextAnalysisTool/Releases/raw/refs/heads/master/TextAnalysisTool.NET.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
