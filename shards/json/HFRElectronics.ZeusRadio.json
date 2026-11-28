@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hfrelectronics.com/",
+		"regex": "ZeusSetup(\\d+\\.\\d+\\.\\d+)\\.msi"
+	},
+	"urls": [
+		"https://www.hfrelectronics.com/files/ZeusSetup{version}.msi"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://schinagl.priv.at/nt/ln/ln.html",
+		"regex": "Version (\\d+\\.\\d+\\.\\d+\\.\\d+)"
+	},
+	"urls": [
+		"https://schinagl.priv.at/nt/ln/save/{version|.|}/64/ln.exe",
+		"https://schinagl.priv.at/nt/ln/save/{version|.|}/32/ln.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://schinagl.priv.at/nt/ln/ln.html#history"
+	}
+}

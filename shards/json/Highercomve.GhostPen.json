@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "highercomve",
+		"repo": "GhostPen"
+	},
+	"urls": [
+		"https://github.com/highercomve/GhostPen/releases/download/{github.rawTag}/ghostpen-{version}-setup.exe"
+	]
+}

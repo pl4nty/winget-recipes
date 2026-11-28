@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VSCodeConfigHelper",
+		"repo": "v4"
+	},
+	"urls": [
+		"https://github.com/VSCodeConfigHelper/v4/releases/download/{github.rawTag}/vscch_{version}_x64_zh-CN.msi"
+	]
+}
