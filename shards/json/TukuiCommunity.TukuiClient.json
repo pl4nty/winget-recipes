@@ -1,0 +1,7 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": { "url": "https://api.tukui.org/v1/client/version", "path": "version" },
+	"urls": [{ "url": "https://api.tukui.org/v1/client/windows-msi", "architecture": "x64" }],
+	"replace": true
+}
