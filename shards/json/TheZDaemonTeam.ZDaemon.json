@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.zdaemon.org/?CMD=downloads",
+		"regex": "ZDaemon (\\d+\\.\\d+\\.\\d+) for Windows setup"
+	},
+	"urls": ["https://downloads.zdaemon.org/zdaemon{version|.|}-setup.exe"]
+}
