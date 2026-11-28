@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://updates.zenarmor.com/repo/desktop?platform=windows&architecture=x86_64&mime_type=msi",
+		"path": "version"
+	},
+	"urls": ["https://updates.zenarmor.net/desktop/Zenarmor_{version}_x86_64.msi"]
+}
