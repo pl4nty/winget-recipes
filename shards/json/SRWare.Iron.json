@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.srware.net/downloads/srware_iron64.exe",
+		"https://www.srware.net/downloads/srware_iron.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.srware.net/downloads/srware_iron64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
