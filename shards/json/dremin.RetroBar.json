@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dremin",
+		"repo": "RetroBar"
+	},
+	"urls": [
+		"https://github.com/dremin/RetroBar/releases/download/{github.rawTag}/RetroBar.Installer.zip",
+		"https://github.com/dremin/RetroBar/releases/download/{github.rawTag}/RetroBar.Portable.zip"
+	]
+}
