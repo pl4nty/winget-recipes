@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "dmidiplayer",
+		"file": "dmidiplayer-v{version}-Windows-x64.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/dmidiplayer/files/v{version}/dmidiplayer-v{version}-Windows-x64.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/projects/dmidiplayer/files/v{version}/"
+	}
+}

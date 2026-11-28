@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.scintilla.org/SciTEDownload.html",
+		"regex": "Release (\\d+\\.\\d+\\.\\d+)"
+	},
+	"urls": [
+		"https://www.scintilla.org/Sc32_{version|.|}.exe",
+		"https://www.scintilla.org/Sc{version|.|}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.scintilla.org/SciTEHistory.html"
+	}
+}
