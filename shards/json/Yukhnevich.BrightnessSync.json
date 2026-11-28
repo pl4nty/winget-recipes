@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Yukhnevich",
+		"repo": "BrightnessSync"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/Yukhnevich/BrightnessSync/releases/download/{github.rawTag}/BrightnessSync.exe",
+			"architecture": "neutral"
+		}
+	]
+}

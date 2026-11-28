@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "geoparquet",
+		"repo": "geoparquet-validator"
+	},
+	"urls": [
+		"https://github.com/geoparquet/geoparquet-validator/releases/download/{github.rawTag}/geoparquet-validator-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}

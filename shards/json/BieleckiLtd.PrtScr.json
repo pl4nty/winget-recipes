@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BieleckiLtd",
+		"repo": "PrtScr-releases"
+	},
+	"urls": [
+		"https://github.com/BieleckiLtd/PrtScr-releases/releases/download/{github.rawTag}/PrtScr-{version}-win-x64-setup.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AndrewFribush",
+		"repo": "tokenpylon-releases"
+	},
+	"urls": [
+		"https://github.com/AndrewFribush/tokenpylon-releases/releases/download/{github.rawTag}/tokenpylon_{version}_windows_amd64.zip",
+		"https://github.com/AndrewFribush/tokenpylon-releases/releases/download/{github.rawTag}/tokenpylon_{version}_windows_arm64.zip"
+	]
+}

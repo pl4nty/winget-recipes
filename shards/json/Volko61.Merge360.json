@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Volko61",
+		"repo": "Merge360-Vibecoded-Inspired-Fusion360"
+	},
+	"urls": [
+		"https://github.com/Volko61/Merge360-Vibecoded-Inspired-Fusion360/releases/download/{github.rawTag}/merge360-{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/Volko61/Merge360-Vibecoded-Inspired-Fusion360/releases/download/{github.rawTag}/merge360-{version}-aarch64-pc-windows-msvc.zip"
+	]
+}

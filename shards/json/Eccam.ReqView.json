@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.reqview.com/release-notes/latest/",
+		"regex": "<h2 id=\"rel-[\\d-]+\"[^>]*>ReqView (?<version>\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": ["https://reqview.s3.eu-central-1.amazonaws.com/updates/{version}/win64/ReqViewSetup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.reqview.com/release-notes/latest/#rel-{version|.|-}"
+	}
+}
