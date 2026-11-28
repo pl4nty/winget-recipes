@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "accolytebyte",
+		"repo": "griffinpowermate"
+	},
+	"urls": [
+		"https://github.com/accolytebyte/griffinpowermate/releases/download/{github.rawTag}/PowerMate.exe"
+	]
+}
