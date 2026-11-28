@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "debauchee",
+		"repo": "barrier"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/debauchee/barrier/releases/download/{github.rawTag}/BarrierSetup-{version}-release.exe",
+			"architecture": "x64"
+		}
+	]
+}

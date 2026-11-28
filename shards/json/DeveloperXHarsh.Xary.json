@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DeveloperXHarsh",
+		"repo": "Xary"
+	},
+	"urls": [
+		"https://github.com/DeveloperXHarsh/Xary/releases/download/{github.rawTag}/xary-v{version}-windows-x64.zip"
+	]
+}
