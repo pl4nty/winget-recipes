@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.melkert.net/LDCad/download",
+		"regex": "href=\"action/download/LDCad-(\\d+-\\d+[a-z]?\\d*)-Win\\.exe\""
+	},
+	"version": "{version|-|.}",
+	"urls": [
+		"https://www.melkert.net/action/download/LDCad-{version}-Win.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.melkert.net/LDCad/news"
+	}
+}

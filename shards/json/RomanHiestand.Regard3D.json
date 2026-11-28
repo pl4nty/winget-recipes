@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "regard3d",
+		"file": "Regard3D_{version}_Setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/regard3d/files/Regard3D/{version}/Regard3D_{version}_Setup.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/projects/regard3d/files/Regard3D/{version}/"
+	}
+}

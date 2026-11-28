@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.romcenter.com/downloadpage/",
+		"regex": "downloadfile\\.php\\?file=romcenter32_(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.romcenter.com/download/romcenter32_{version}.exe"
+	]
+}
