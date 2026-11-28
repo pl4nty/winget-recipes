@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "shrimqy",
+		"repo": "Sefirah",
+		"method": "api-sort",
+		"assetRegex": "\\.[Mm]sixbundle$"
+	}
+}
