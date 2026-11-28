@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://chronoplexsoftware.com/myfamilytree/updates/versionhistory.htm",
+		"regex": "<h4>Version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://chronoplexsoftware.com/myfamilytree/downloads/myfamilytree{version}arm64.msi",
+		"https://chronoplexsoftware.com/myfamilytree/downloads/myfamilytree{version}x64.msi",
+		"https://chronoplexsoftware.com/myfamilytree/downloads/myfamilytree{version}x86.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://chronoplexsoftware.com/myfamilytree/updates/versionhistory.htm"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://cloudbase.it/qemu-img-windows/",
+		"regex": "/downloads/qemu-img-win-x64-(?<version>\\d+_\\d+_\\d+)\\.zip"
+	},
+	"version": "{captures.version|_|.}",
+	"urls": [
+		"https://cloudbase.it/downloads/qemu-img-win-x64-{captures.version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://cloudbase.it/qemu-img-windows/"
+	}
+}
