@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.saversplanet.com/portable_winget/etherealechoes.zip",
+			"nestedInstallerMatches": ["EtherealEchoesScreensaver.exe"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.saversplanet.com/portable_winget/etherealechoes.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
