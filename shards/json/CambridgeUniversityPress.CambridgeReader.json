@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://elevate.cambridge.org/desktopreader/cambridgereader.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://elevate.cambridge.org/desktopreader/cambridgereader.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}

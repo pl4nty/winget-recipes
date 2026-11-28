@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "manfred-mueller",
+		"repo": "FBReconnect"
+	},
+	"urls": [
+		"https://github.com/manfred-mueller/FBReconnect/releases/download/{github.rawTag}/FBReconnect_setup-{version}.exe"
+	]
+}

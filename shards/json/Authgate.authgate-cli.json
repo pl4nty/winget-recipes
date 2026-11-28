@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TengMengHouy",
+		"repo": "authgate-cli"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/TengMengHouy/authgate-cli/releases/download/{github.rawTag}/AuthgateSetup.exe",
+			"architecture": "x64"
+		}
+	]
+}
