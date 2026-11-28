@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://accoblobstorageus.blob.core.windows.net/software/363bcb38-6b7d-43f5-b5b7-3ddc11991136.zip",
+			"nestedInstallerMatches": [
+				"KensingtonFingerprintApplication.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://accoblobstorageus.blob.core.windows.net/software/363bcb38-6b7d-43f5-b5b7-3ddc11991136.zip",
+		"header": "etag"
+	},
+	"replace": true
+}
