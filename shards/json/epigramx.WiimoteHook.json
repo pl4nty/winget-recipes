@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "epigramx",
+		"repo": "WiimoteHook",
+		"tagRegex": "^WiimoteHook_",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/epigramx/WiimoteHook/releases/download/{github.rawTag}/WiimoteHook_{version}.zip"
+	]
+}
