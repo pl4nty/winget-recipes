@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.softsea.com/software/UTM-Converter.html",
+		"regex": "<li>Version: (\\d+(?:\\.\\d+)+)</li>"
+	},
+	"urls": [
+		"https://file1.softsea.com/get.php?file=utmconverter_setup.exe"
+	]
+}

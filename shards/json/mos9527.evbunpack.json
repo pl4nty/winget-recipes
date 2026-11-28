@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mos9527",
+		"repo": "evbunpack"
+	},
+	"urls": [
+		"https://github.com/mos9527/evbunpack/releases/download/{github.rawTag}/evbunpack.exe"
+	]
+}
