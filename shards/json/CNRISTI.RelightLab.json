@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "cnr-isti-vclab",
+		"repo": "relight",
+		"tagRegex": "^RelightLab\\-"
+	},
+	"urls": [
+		"https://github.com/cnr-isti-vclab/relight/releases/download/{github.rawTag}/RelightLab{version}-windows.exe"
+	]
+}
