@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html",
+		"regex": "hp-hpia-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://hpia.hpcloud.hp.com/downloads/hpia/hp-hpia-{version}.exe"]
+}
