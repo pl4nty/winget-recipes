@@ -1,0 +1,49 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.logiccircuit.org/download.html",
+		"regex": "downloads/LogicCircuit\\.Setup64bit\\.(?<version>\\d+(?:\\.\\d+)+)\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://www.logiccircuit.org/downloads/LogicCircuit.Setup64bit.{version}.zip",
+			"nestedInstallerMatches": [
+				"LogicCircuitSetup_64.msi"
+			]
+		},
+		{
+			"url": "https://www.logiccircuit.org/downloads/LogicCircuit.Setup32bit.{version}.zip",
+			"nestedInstallerMatches": [
+				"LogicCircuitSetup_32.msi"
+			]
+		},
+		{
+			"url": "https://www.logiccircuit.org/downloads/LogicCircuit.SetupArm64bit.{version}.zip",
+			"nestedInstallerMatches": [
+				"LogicCircuitSetup_arm64.msi"
+			]
+		},
+		{
+			"url": "https://www.logiccircuit.org/downloads/LogicCircuit_64bit.{version}.zip",
+			"nestedInstallerMatches": [
+				"LogicCircuit.exe"
+			]
+		},
+		{
+			"url": "https://www.logiccircuit.org/downloads/LogicCircuit_32bit.{version}.zip",
+			"nestedInstallerMatches": [
+				"LogicCircuit.exe"
+			]
+		},
+		{
+			"url": "https://www.logiccircuit.org/downloads/LogicCircuit_arm64bit.{version}.zip",
+			"nestedInstallerMatches": [
+				"LogicCircuit.exe"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.logiccircuit.org/download.html"
+	}
+}

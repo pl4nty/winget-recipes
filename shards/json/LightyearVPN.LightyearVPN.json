@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lightyearvpn",
+		"repo": "LightyearVPN"
+	},
+	"urls": [
+		"https://github.com/lightyearvpn/LightyearVPN/releases/download/{github.rawTag}/LightyearVPN-Setup-{version}.exe"
+	]
+}

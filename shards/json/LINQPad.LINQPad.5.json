@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdn.linqpad.net/public/LINQPad5Setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.linqpad.net/public/LINQPad5Setup.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.linqpad.net/LINQPad5.aspx"
+	},
+	"replace": true
+}

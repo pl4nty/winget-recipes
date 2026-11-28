@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lbryio",
+		"repo": "lbry-desktop"
+	},
+	"urls": [
+		"https://github.com/lbryio/lbry-desktop/releases/download/{github.rawTag}/LBRY_{version}.exe"
+	]
+}

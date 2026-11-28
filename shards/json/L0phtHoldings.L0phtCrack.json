@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://l0phtcrack.gitlab.io/",
+		"regex": "/releases/(?<version>\\d+(?:\\.\\d+)+)/lc7setup_v\\d+(?:\\.\\d+)+_Win64\\.exe"
+	},
+	"urls": [
+		"https://l0phtcrack.gitlab.io/releases/{version}/lc7setup_v{version}_Win32.exe",
+		"https://l0phtcrack.gitlab.io/releases/{version}/lc7setup_v{version}_Win64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://l0phtcrack.gitlab.io/"
+	}
+}
