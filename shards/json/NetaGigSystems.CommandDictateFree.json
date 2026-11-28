@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Nubulizer",
+		"repo": "Command-Dictate-App",
+		"method": "api-sort",
+		"assetRegex": "^CommandDictateFree.*\\.exe$"
+	}
+}
