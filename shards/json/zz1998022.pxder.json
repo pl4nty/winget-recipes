@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zz1998022",
+		"repo": "pxder-zig",
+		"method": "api-latest",
+		"assetRegex": "^pxder-v[^-]+-windows-[a-z0-9_]+\\.zip$"
+	}
+}
