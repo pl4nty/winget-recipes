@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Aureliolo",
+		"repo": "steamship"
+	},
+	"urls": [
+		"https://github.com/Aureliolo/steamship/releases/download/{github.rawTag}/steamship-{version}-x86_64-pc-windows-msvc.zip",
+		"https://github.com/Aureliolo/steamship/releases/download/{github.rawTag}/steamship-{version}-aarch64-pc-windows-msvc.zip"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://bursucm.com/download",
+		"regex": "<span class=\"v\">(\\d+(?:\\.\\d+)+)</span>\\s*<span class=\"d\">Installer x64"
+	},
+	"urls": [{ "url": "https://bursucm.com/downloads/BURSUcm-Setup-{version}.exe", "architecture": "neutral" }],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://bursucm.com/download/changelog#windows"
+	}
+}

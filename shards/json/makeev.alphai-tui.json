@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "makeev",
+		"repo": "alphai-tui"
+	},
+	"urls": [
+		"https://github.com/makeev/alphai-tui/releases/download/{github.rawTag}/alphai-tui-x86_64-pc-windows-msvc.zip"
+	]
+}
