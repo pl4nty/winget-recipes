@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download-center.epson.com/f/module/57e0e8ee-e749-41c5-a33d-4334be000e64/mepSetUp_20210922.exe"
+	]
+}
