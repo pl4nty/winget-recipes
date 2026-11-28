@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "amitmerchant1990",
+		"repo": "electron-markdownify",
+		"method": "api-sort",
+		"assetRegex": "^(?:Markdownify\\-win32\\-x64\\.zip|Markdownify\\-win32\\-ia32\\.zip)$"
+	}
+}
