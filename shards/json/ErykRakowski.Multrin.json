@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sentialx",
+		"repo": "multrin"
+	},
+	"urls": [
+		"https://github.com/sentialx/multrin/releases/download/{github.rawTag}/Multrin-Setup-{version}.exe"
+	]
+}

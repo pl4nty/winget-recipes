@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "elk-zone",
+		"repo": "elk-native",
+		"tagRegex": "^elk-native-v"
+	},
+	"urls": [
+		"https://github.com/elk-zone/elk-native/releases/download/{github.rawTag}/Elk_{version}_windows_x86_64.msi"
+	]
+}

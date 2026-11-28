@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://entropy6.com/xmeters/downloads/XMetersSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://entropy6.com/xmeters/downloads/XMetersSetup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
