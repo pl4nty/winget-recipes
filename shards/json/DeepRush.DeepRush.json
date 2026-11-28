@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xghini",
+		"repo": "deeprush-releases",
+		"method": "api-sort",
+		"assetRegex": "^(?:DeepRush_\\d+\\.\\d+\\.\\d+_x64\\-setup\\.exe)$"
+	}
+}
