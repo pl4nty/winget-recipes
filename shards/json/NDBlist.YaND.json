@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ndblist.info/datamodes.htm",
+		"regex": "href=\"index_htm_files/(?<file>YaNDsetup(?<version>\\d+(?:_\\d+)+)\\.exe)\""
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://www.ndblist.info/index_htm_files/{captures.file}"]
+}
