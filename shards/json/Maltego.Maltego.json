@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.maltego.com/maltego-v4/info.json",
+		"regex": "/windows/MaltegoSetup\\.JRE64\\.v(\\d+(?:\\.\\d+)+)\\.exe\""
+	},
+	"urls": [
+		{ "url": "https://downloads.maltego.com/maltego-v4/windows/MaltegoSetup.JRE64.v{version}.exe", "architecture": "x64" }
+	]
+}
