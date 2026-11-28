@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sagami121",
+		"repo": "DotVis"
+	},
+	"urls": [
+		"https://github.com/sagami121/DotVis/releases/download/{github.rawTag}/DotVis_{github.rawTag}_x64_ja-JP.msi"
+	]
+}
