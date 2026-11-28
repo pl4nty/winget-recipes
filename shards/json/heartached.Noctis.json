@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "heartached",
+		"repo": "Noctis"
+	},
+	"urls": [
+		"https://github.com/heartached/Noctis/releases/download/{github.rawTag}/Noctis-v{version}-Setup.exe"
+	]
+}
