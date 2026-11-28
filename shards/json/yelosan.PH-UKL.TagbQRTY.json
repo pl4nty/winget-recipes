@@ -1,0 +1,27 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://codeberg.org/api/v1/repos/yelosan/unicode-keyboard-layout-philippines/releases/latest",
+		"path": "tag_name"
+	},
+	"urls": [
+		{
+			"url": "https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/releases/download/v{version}/PH-UKL-v{version}-Baybayin_pack%20%28Windows%29.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": [
+				"TagbQRTY/TagbQRTY_amd64.msi"
+			]
+		},
+		{
+			"url": "https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/releases/download/v{version}/PH-UKL-v{version}-Baybayin_pack%20%28Windows%29.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": [
+				"TagbQRTY/TagbQRTY_i386.msi"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/releases/tag/v{version}"
+	}
+}
