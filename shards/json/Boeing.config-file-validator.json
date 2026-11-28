@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Boeing",
+		"repo": "config-file-validator",
+		"method": "api-sort",
+		"assetRegex": "^(?:validator\\-v\\d+\\.\\d+\\-windows\\-\\d+\\.zip|validator\\-v\\d+\\.\\d+\\-windows\\-amd64\\.zip)$"
+	}
+}
