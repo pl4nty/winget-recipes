@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vcc.docs.vrchat.com/news/atom.xml",
+		"regex": "<!\\[CDATA\\[Release (\\d+\\.\\d+\\.\\d+)\\]\\]>"
+	},
+	"urls": ["https://vrcpm.vrchat.cloud/vcc/Builds/{version}/VRChat_CreatorCompanion_Setup_{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vcc.docs.vrchat.com/news/release-{version}"
+	}
+}
