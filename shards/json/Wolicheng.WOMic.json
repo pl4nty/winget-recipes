@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://wolicheng.com/womic/download.html",
+		"regex": "downloads/WOMicClientSetup(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [{ "url": "https://wolicheng.com/womic/downloads/WOMicClientSetup{version}.exe", "architecture": "x86" }]
+}

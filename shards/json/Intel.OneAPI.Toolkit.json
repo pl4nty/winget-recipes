@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://raw.githubusercontent.com/oneapi-src/oneapi-ci/master/.github/workflows/build_all.yml",
+		"regex": "WINDOWS_TOOLKIT_URL: https://registrationcenter-download\\.intel\\.com/akdlm/IRC_NAS/(?<id>[0-9a-f-]+)/intel-oneapi-toolkit-(?<version>\\d+(?:\\.\\d+)+)_offline\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/{captures.id}/intel-oneapi-toolkit-{version}_offline.exe",
+			"architecture": "x64"
+		}
+	]
+}

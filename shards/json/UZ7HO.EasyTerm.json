@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://uz7.ho.ua/packetradio.htm",
+		"regex": "href=\"/apps/easyterm(?<version>(?<major>\\d)(?<minor>\\d+))\\.zip\""
+	},
+	"version": "{captures.major}.{captures.minor}",
+	"urls": [
+		{
+			"url": "https://uz7.ho.ua/apps/easyterm{version}.zip",
+			"architecture": "x86"
+		}
+	]
+}

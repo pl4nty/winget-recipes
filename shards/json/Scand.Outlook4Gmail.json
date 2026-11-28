@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://outlook4gmail.scand.com/download/",
+		"regex": "class=\"version-title\">(?<version>\\d+(?:\\.\\d+)+),"
+	},
+	"urls": [{ "url": "https://outlook4gmail.scand.com/downloads/Outlook4GmailSetup.exe", "architecture": "x86" }]
+}

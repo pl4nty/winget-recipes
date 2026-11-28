@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://icculus.org/gtkradiant/downloads/1.5/",
+		"regex": "href=\"GtkRadiant-(?<version>(?<branch>\\d+\\.\\d+)\\.\\d+)\\.msi\""
+	},
+	"urls": ["https://icculus.org/gtkradiant/downloads/{captures.branch}/GtkRadiant-{version}.msi"]
+}
