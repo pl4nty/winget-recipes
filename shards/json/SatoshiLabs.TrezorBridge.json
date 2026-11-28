@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://data.trezor.io/bridge/latest.txt",
+		"regex": "^(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://data.trezor.io/bridge/{version}/trezor-bridge-{version}-win32-install.exe"
+	]
+}

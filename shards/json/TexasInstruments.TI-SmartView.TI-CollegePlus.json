@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://education.ti.com/en/software/details/en/F023C422368F4EA3B612C1FF45B2087D/ti-smartview-college-plus",
+		"regex": "/download/en/ed-tech/F023C422368F4EA3B612C1FF45B2087D/(?<id>[0-9A-F]{32})/TISmartViewTICollegePlus-(?<version>\\d+(?:\\.\\d+)+)\\.msi"
+	},
+	"urls": [
+		"https://education.ti.com/download/en/ed-tech/F023C422368F4EA3B612C1FF45B2087D/{captures.id}/TISmartViewTICollegePlus-{version}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://education.ti.com/en/software/details/en/F023C422368F4EA3B612C1FF45B2087D/ti-smartview-college-plus"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://studio.zerobrane.com/download",
+		"regex": "ZeroBraneStudioEduPack-(\\d+\\.\\d+)-win32\\.exe"
+	},
+	"urls": [
+		"https://download.zerobrane.com/ZeroBraneStudioEduPack-{version}-win32.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/pkulchenko/ZeroBraneStudio/blob/master/CHANGELOG.md"
+	}
+}

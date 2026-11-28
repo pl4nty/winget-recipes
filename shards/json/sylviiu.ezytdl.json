@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sylviiu",
+		"repo": "ezytdl"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/sylviiu/ezytdl/releases/download/{github.rawTag}/ezytdl-win32.exe",
+			"architecture": "neutral"
+		}
+	]
+}

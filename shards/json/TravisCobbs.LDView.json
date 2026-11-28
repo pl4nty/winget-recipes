@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "{version}.0.0",
+	"github": {
+		"owner": "tcobbs",
+		"repo": "ldview",
+		"method": "api-latest"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/tcobbs/ldview/releases/download/{github.rawTag}/LDView-{version|.|}00.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://github.com/tcobbs/ldview/releases/download/{github.rawTag}/LDView64-{version|.|}00.exe",
+			"architecture": "x64"
+		}
+	]
+}

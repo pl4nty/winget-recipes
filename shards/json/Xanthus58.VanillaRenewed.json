@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zephiowl",
+		"repo": "Vanilla-Renewed",
+		"tagRegex": "^\\d+(?:\\.\\d+)*-"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/zephiowl/Vanilla-Renewed/releases/download/{github.rawTag}/INSTALLER_Vanilla_Renewed_{github.rawTag}.exe",
+			"architecture": "neutral"
+		}
+	]
+}
