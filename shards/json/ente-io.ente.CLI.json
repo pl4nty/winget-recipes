@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ente",
+		"repo": "ente",
+		"method": "api-list",
+		"tagRegex": "^ente-cli-v",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/ente/ente/releases/download/ente-cli-v{version}/ente-cli-v{version}-windows-amd64.zip",
+		"https://github.com/ente/ente/releases/download/ente-cli-v{version}/ente-cli-v{version}-windows-arm64.zip"
+	]
+}
