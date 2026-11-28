@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Yutaka-Sawada",
+		"repo": "MultiPar"
+	},
+	"urls": [
+		"https://github.com/Yutaka-Sawada/MultiPar/releases/download/v{version}/MultiPar{version|.|}_setup.exe"
+	]
+}
