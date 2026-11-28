@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.aloxbook.com/en/",
+		"regex": "/downloads/windows/AloxBook-(?<version>\\d+(?:\\.\\d+)+)-Setup\\.exe"
+	},
+	"urls": [
+		"https://www.aloxbook.com/downloads/windows/AloxBook-{version}-Setup.exe?source=winget"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.aloxbook.com/en/changelog.html"
+	}
+}

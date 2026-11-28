@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PolarGoose",
+		"repo": "BluetoothDevicePairing"
+	},
+	"urls": [
+		"https://github.com/PolarGoose/BluetoothDevicePairing/releases/download/{github.rawTag}/BluetoothDevicePairing.zip"
+	]
+}

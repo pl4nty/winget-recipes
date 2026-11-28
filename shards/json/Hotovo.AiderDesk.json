@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "magiksoft",
+		"repo": "aider-desk"
+	},
+	"urls": [
+		"https://github.com/magiksoft/aider-desk/releases/download/{github.rawTag}/aider-desk-{version}-setup.exe"
+	]
+}

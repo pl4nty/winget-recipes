@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.radpdf.com/install/",
+		"regex": "RadPdfInstaller\\.(?<version>\\d+\\.\\d+\\.\\d+)\\.0\\.exe"
+	},
+	"urls": [
+		"https://downloads.radpdf.com/RadPdfInstaller.{version}.0.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.radpdf.com/releases/"
+	}
+}

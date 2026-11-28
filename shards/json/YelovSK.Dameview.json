@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "YelovSK",
+		"repo": "Dameview"
+	},
+	"urls": [
+		"https://github.com/YelovSK/Dameview/releases/download/{github.rawTag}/Dameview.exe"
+	]
+}

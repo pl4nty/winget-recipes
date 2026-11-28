@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Jeon1691",
+		"repo": "clipsync"
+	},
+	"urls": [
+		"https://github.com/Jeon1691/clipsync/releases/download/{github.rawTag}/clipsync-x86_64-pc-windows-msvc.zip"
+	]
+}
