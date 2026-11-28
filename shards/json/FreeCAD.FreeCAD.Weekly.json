@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FreeCAD",
+		"repo": "FreeCAD",
+		"tagRegex": "^weekly\\-",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/FreeCAD/FreeCAD/releases/download/{github.rawTag}/FreeCAD_weekly-{version}-Windows-x86_64-installer.exe"
+	]
+}
