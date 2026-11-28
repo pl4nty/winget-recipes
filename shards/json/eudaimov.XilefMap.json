@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "eudaimov",
+		"repo": "XilefMap"
+	},
+	"urls": [
+		"https://github.com/eudaimov/XilefMap/releases/download/{github.rawTag}/XilefMap.Setup.{version}.exe"
+	]
+}

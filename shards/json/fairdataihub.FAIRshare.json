@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fairdataihub",
+		"repo": "FAIRshare"
+	},
+	"urls": [
+		"https://github.com/fairdataihub/FAIRshare/releases/download/{github.rawTag}/FAIRshare-Setup-{version}.exe"
+	]
+}

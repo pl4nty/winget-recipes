@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "felixgborrego",
+		"repo": "simple-docker-ui"
+	},
+	"urls": [
+		"https://github.com/felixgborrego/simple-docker-ui/releases/download/{github.rawTag}/SimpleDockerUI-setup.exe"
+	]
+}

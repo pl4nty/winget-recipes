@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.gdiobjects.com/downloads.php",
+		"regex": "xBar for Windows</a></h3>[\\s\\S]*?Latest Version:&nbsp;<strong>(\\d+(?:\\.\\d+)+)</strong>"
+	},
+	"urls": [
+		"https://www.gdiobjects.com/files/xbinstall.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.gdiobjects.com/products/xbar/index.php"
+	}
+}

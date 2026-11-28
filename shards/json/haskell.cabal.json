@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://downloads.haskell.org/~cabal/cabal-install-latest/",
+		"regex": "cabal-install-(\\d+(?:\\.\\d+)+)-x86_64-mingw64\\.zip"
+	},
+	"urls": [
+		"https://downloads.haskell.org/~cabal/cabal-install-{version}/cabal-install-{version}-x86_64-mingw64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/haskell/cabal/blob/master/release-notes/cabal-install-{version}.md"
+	}
+}

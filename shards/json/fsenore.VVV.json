@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "vvvapp",
+		"file": "VVV-{version}-Setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/vvvapp/files/VVV/{version}/VVV-{version}-Setup.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.fsoft.it/VVV/index.html"
+	}
+}

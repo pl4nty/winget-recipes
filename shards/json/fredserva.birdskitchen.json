@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fredserva",
+		"repo": "birdskitchen"
+	},
+	"urls": [
+		"https://github.com/fredserva/birdskitchen/releases/download/{github.rawTag}/Birds-Kitchen-Setup-{version}.exe"
+	]
+}
