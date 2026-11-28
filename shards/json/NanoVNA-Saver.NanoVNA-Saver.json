@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NanoVNA-Saver",
+		"repo": "nanovna-saver"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/NanoVNA-Saver/nanovna-saver/releases/download/{github.rawTag}/NanoVNASaver.x64.zip",
+			"architecture": "x64"
+		}
+	]
+}
