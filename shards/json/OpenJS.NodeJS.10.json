@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://nodejs.org/dist/",
+		"regex": "href=\"v(10\\.\\d+\\.\\d+)/\""
+	},
+	"urls": [
+		"https://nodejs.org/dist/v{version}/node-v{version}-x86.msi",
+		"https://nodejs.org/dist/v{version}/node-v{version}-x64.msi",
+		"https://nodejs.org/dist/v{version}/node-v{version}-win-x86.zip",
+		"https://nodejs.org/dist/v{version}/node-v{version}-win-x64.zip"
+	],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "nodejs",
+		"repo": "node",
+		"tag": "v{version}"
+	}
+}

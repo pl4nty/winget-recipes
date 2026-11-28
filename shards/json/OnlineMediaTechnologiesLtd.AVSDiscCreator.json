@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.avs4you.com/avs-disc-creator.aspx",
+		"regex": "Current Version:</p><p[^>]*>(\\d+(?:\\.\\d+)+)</p>"
+	},
+	"urls": ["https://downloads.avs4you.com/distributives/AVSDiscCreator.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.avs4you.com/avs-disc-creator.aspx"
+	},
+	"replace": true
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "okieselbach",
+		"repo": "SyncMLViewer"
+	},
+	"urls": [
+		"https://github.com/okieselbach/SyncMLViewer/releases/download/{github.rawTag}/SyncMLViewer-v{version|.|}.zip"
+	]
+}

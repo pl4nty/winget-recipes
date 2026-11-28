@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "npackd",
+		"repo": "npackd-cpp",
+		"tagRegex": "^v?ersion_"
+	},
+	"urls": [
+		"https://github.com/npackd/npackd-cpp/releases/download/{github.rawTag}/Npackd64-{version}.msi",
+		"https://github.com/npackd/npackd-cpp/releases/download/{github.rawTag}/Npackd32-{version}.msi"
+	]
+}

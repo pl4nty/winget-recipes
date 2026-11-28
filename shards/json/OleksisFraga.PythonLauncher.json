@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oleksis",
+		"repo": "pylauncher"
+	},
+	"urls": [
+		"https://github.com/oleksis/pylauncher/releases/download/{github.rawTag}/uilauncherwin-{version}.amd64.msi"
+	]
+}
