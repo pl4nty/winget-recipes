@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ssswagatss",
+		"repo": "dhan-cli-dist"
+	},
+	"urls": [
+		"https://github.com/ssswagatss/dhan-cli-dist/releases/download/{github.rawTag}/dhan-cli-{github.rawTag}-win-arm64.zip"
+	]
+}
