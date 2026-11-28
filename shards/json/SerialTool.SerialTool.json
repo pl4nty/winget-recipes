@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.serialtool.com/_en/download",
+		"regex": "SerialTool_(\\d+(?:\\.\\d+)+)_Windows_Setup\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://www.serialtool.com/dist/SerialTool_{version}_Windows_Setup.zip",
+			"nestedInstallerMatches": ["SerialTool_Setup.exe"]
+		}
+	]
+}
