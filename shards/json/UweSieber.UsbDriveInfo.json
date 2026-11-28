@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.uwe-sieber.de/usbdriveinfo_e.html",
+		"regex": "USB Drive Info V(\\d+\\.\\d+\\.\\d+)"
+	},
+	"urls": [
+		"https://www.uwe-sieber.de/files/UsbDriveInfo{version|.|}_Win32.zip",
+		"https://www.uwe-sieber.de/files/UsbDriveInfo{version|.|}_x64.zip"
+	]
+}

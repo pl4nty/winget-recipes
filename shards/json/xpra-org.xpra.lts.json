@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://xpra.org/lts/windows/",
+		"regex": "href=\"/lts/MSWindows/x86_64/Xpra-x86_64_Setup_(?<version>\\d+(?:\\.\\d+)+)-r(?<rev>\\d+)\\.exe\""
+	},
+	"urls": [
+		"https://xpra.org/lts/windows/Xpra-x86_64_Setup_{version}-r{captures.rev}.exe"
+	]
+}

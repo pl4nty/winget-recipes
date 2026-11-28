@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "rhash",
+		"file": "rhash-{version}-win32.zip"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/rhash/files/rhash/{version}/rhash-{version}-win32.zip/download",
+		"https://sourceforge.net/projects/rhash/files/rhash/{version}/rhash-{version}-win64.zip/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/rhash/RHash/blob/v{version}/ChangeLog"
+	}
+}
