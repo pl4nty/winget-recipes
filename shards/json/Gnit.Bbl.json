@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nehemiaharchives",
+		"repo": "bbl",
+		"method": "api-sort",
+		"assetRegex": "^(?:bbl\\-windows\\-x64\\.exe|bbl\\-\\d+\\.\\d+\\-windows\\-x64\\.msi)$"
+	}
+}
