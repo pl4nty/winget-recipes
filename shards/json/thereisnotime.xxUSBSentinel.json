@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "thereisnotime", "repo": "xxUSBSentinel" },
+	"urls": ["https://github.com/thereisnotime/xxUSBSentinel/releases/download/v{version}/xxusbsentinel-v{version}-windows-x86_64.exe"]
+}
