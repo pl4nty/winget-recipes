@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.antcommander.com/version.txt",
+		"regex": "^(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://www.antcommander.com/versions/AntCommanderPro-{version}.exe",
+		"https://www.antcommander.com/versions/AntCommanderPro-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.antcommander.com/changes.txt"
+	}
+}
