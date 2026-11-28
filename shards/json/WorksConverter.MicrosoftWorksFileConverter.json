@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://worksconverter.com/release-notes",
+		"regex": "The current public release is <strong[^>]*>(?<version>\\d+(?:\\.\\d+)+)</strong>"
+	},
+	"urls": [
+		{
+			"url": "https://worksconverter.com/download/WorksConverter-{version}.msi",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://worksconverter.com/release-notes"
+	}
+}
