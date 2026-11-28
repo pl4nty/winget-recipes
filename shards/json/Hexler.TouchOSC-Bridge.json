@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://hexler.net/touchosc",
+		"regex": "touchosc-bridge-(\\d+(?:\\.\\d+)+)-win32\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://downloads.hexler.net/touchosc/touchosc-bridge-{version}-win32.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://hexler.net/touchosc/bridge-releases"
+	}
+}

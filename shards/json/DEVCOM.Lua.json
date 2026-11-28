@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DevelopersCommunity",
+		"repo": "cmake-lua"
+	},
+	"urls": [
+		"https://github.com/DevelopersCommunity/cmake-lua/releases/download/{github.rawTag}/Lua-{version}-win64.msi"
+	]
+}

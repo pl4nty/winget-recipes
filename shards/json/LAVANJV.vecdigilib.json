@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "VEC-CSE",
+		"repo": "setup-files-v1",
+		"tagRegex": "^winget-v"
+	},
+	"urls": [
+		"https://github.com/VEC-CSE/setup-files-v1/releases/download/{github.rawTag}/VECDigilib_Setup.exe"
+	]
+}

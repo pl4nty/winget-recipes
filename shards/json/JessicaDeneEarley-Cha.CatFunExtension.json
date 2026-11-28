@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "chatasweetie",
+		"repo": "CmdPalExtensions",
+		"method": "api-sort",
+		"tagRegex": "^CmdPalCatFunExtension-v"
+	},
+	"urls": [
+		"https://github.com/chatasweetie/CmdPalExtensions/releases/download/{github.rawTag}/CmdPalCatFunExtension-Setup-{version}.exe"
+	]
+}
