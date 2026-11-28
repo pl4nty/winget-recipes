@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "caoyue",
+		"repo": "WindowResizer"
+	},
+	"urls": [
+		"https://github.com/caoyue/WindowResizer/releases/download/{github.rawTag}/WindowResizer-{version}.exe"
+	]
+}

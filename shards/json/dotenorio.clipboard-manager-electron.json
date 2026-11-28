@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dotenorio",
+		"repo": "clipboard-manager-electron"
+	},
+	"urls": [
+		"https://github.com/dotenorio/clipboard-manager-electron/releases/download/{github.rawTag}/clipboard-manager-electron.Setup.{version}.exe"
+	]
+}

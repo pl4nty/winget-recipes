@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/emule/rss?path=/eMule",
+		"regex": "/eMule/(\\d+\\.\\d+[a-z]?)/eMule\\1-Installer\\.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/emule/files/eMule/{version}/eMule{version}-Installer.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.emule-project.com/home/perl/news.cgi?cat_id=22&b=0"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "espeak-ng",
+		"repo": "espeak-ng"
+	},
+	"urls": [
+		"https://github.com/espeak-ng/espeak-ng/releases/download/{github.rawTag}/espeak-ng.msi"
+	]
+}

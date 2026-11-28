@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "csyezheng",
+		"repo": "a2fa"
+	},
+	"urls": [
+		"https://github.com/csyezheng/a2fa/releases/download/{github.rawTag}/a2fa_Windows_x86_64.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "deskfiler",
+		"repo": "deskfiler"
+	},
+	"urls": [
+		"https://github.com/deskfiler/deskfiler/releases/download/{github.rawTag}/Deskfiler-Setup-{version}.exe"
+	]
+}

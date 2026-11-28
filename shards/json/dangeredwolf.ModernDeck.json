@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dangeredwolf",
+		"repo": "ModernDeck"
+	},
+	"urls": [
+		"https://github.com/dangeredwolf/ModernDeck/releases/download/{github.rawTag}/ModernDeck-x64.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "corda",
+		"repo": "node-explorer",
+		"tagRegex": "-rev$"
+	},
+	"urls": [
+		"https://github.com/corda/node-explorer/releases/download/{github.rawTag}/Corda.Node.Explorer.Setup.{version}.exe"
+	]
+}
