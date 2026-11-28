@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://ci.dot.net/public/aspire/13.6.1-preview.1.26506.6/aspire-cli-win-x64-13.6.1.zip",
+		"https://ci.dot.net/public/aspire/13.6.1-preview.1.26506.6/aspire-cli-win-arm64-13.6.1.zip"
+	]
+}
