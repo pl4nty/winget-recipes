@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qarmin",
+		"repo": "czkawka"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/qarmin/czkawka/releases/download/{version}/windows_czkawka_gui_gtk_412.zip",
+			"architecture": "neutral"
+		}
+	]
+}
