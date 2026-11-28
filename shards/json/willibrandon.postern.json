@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "willibrandon",
+		"repo": "postern"
+	},
+	"urls": [
+		"https://github.com/willibrandon/postern/releases/download/{github.rawTag}/postern-{version}-win32-x64.msi"
+	]
+}

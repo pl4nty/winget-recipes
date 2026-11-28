@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "nitinya9av",
+		"repo": "campus-connect"
+	},
+	"urls": [
+		"https://github.com/nitinya9av/campus-connect/releases/download/{github.rawTag}/campus-connect.exe"
+	],
+	"version": "{version}.0"
+}
