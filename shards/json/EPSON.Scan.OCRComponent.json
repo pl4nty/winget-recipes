@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://download.epson-europe.com/pub/download/6651/epson665103eu.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.epson-europe.com/pub/download/6651/epson665103eu.exe",
+		"header": "etag"
+	},
+	"replace": true
+}
