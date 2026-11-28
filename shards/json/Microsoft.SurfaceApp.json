@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.microsoft.com/download/details.aspx?id=105302",
+		"regex": "\"(?<url>https://download\\.microsoft\\.com/download/[^\"]*_(?<version>\\d+\\.\\d+\\.\\d+)\\.\\d+_Desktop_[^\"]*)\""
+	},
+	"urls": ["{captures.url}"]
+}
