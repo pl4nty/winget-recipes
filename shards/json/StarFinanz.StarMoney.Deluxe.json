@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.starmoney.de/produkte-und-preise/starmoney-deluxe-testen/",
+		"regex": "https://downloads\\.starfinanz\\.de/(?<path>[^\"' ]+/D18TVRD0*(?<version>\\d+))/smoneydeluxe\\.exe"
+	},
+	"urls": ["https://downloads.starfinanz.de/{captures.path}/smoneydeluxe.exe"]
+}
