@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://x-diesel.com/?download",
+		"regex": "evolution/uncomsetup(?<raw>(?<major>\\d+)\\.(?<minor>\\d)(?<patch>\\d)\\(build(?<build>\\d+)\\))\\.exe"
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.patch}.{captures.build}",
+	"urls": [
+		{ "url": "https://unrealcommander.org/download/evolution/uncomsetup{captures.raw}.exe", "architecture": "neutral" }
+	]
+}

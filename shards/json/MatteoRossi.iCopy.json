@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/icopy/rss",
+		"regex": "/files/iCopy/(\\d+(?:\\.\\d+)+)/iCopy\\1setup\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/icopy/files/iCopy/{version}/iCopy{version}setup.exe/download"
+	]
+}

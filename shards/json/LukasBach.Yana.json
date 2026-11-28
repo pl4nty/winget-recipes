@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lukasbach",
+		"repo": "yana"
+	},
+	"urls": [
+		"https://github.com/lukasbach/yana/releases/download/{github.rawTag}/Yana-Setup-{version}.exe"
+	]
+}

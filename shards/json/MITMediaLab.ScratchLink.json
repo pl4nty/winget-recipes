@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://downloads.scratch.mit.edu/link/windows.zip"],
+		"regex": "/link/scratch-link-windows-(\\d+(?:\\.\\d+)+)\\.zip$"
+	},
+	"version": "{version}.0"
+}

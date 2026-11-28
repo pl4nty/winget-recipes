@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://manaplus.org/",
+		"regex": "Download - Latest version: (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"http://download.manaplus.org/manaplus/download/manaplus-win64.exe",
+		"http://download.manaplus.org/manaplus/download/manaplus-win32.exe"
+	],
+	"replace": true
+}

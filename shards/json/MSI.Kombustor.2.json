@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://geeks3d.com/furmark/kombustor/downloads/",
+		"regex": "Kombustor\\(v2\\) (\\d+(?:\\.\\d+)+) 32-bit"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://ozone3d.net/dl/201507/MSI_Kombustor_Setup_{version}.exe"
+	]
+}

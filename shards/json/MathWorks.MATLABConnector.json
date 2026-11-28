@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.mathworks.com/MathWorksServiceHost/win64/installer.exe"],
+		"regex": "/MathWorksServiceHost/v(\\d+(?:\\.\\d+)+)/installers/mathworksservicehost_\\1_win64_installer\\.exe$"
+	}
+}
