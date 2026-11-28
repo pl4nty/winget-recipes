@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://trans.xinpianchang.com/",
+		"regex": "trans/download/windows/StudioTrans-(?<version>\\d+(?:\\.\\d+)+)-(?<build>\\d+)\\.exe"
+	},
+	"urls": [
+		"https://qiniu-xpc0-thor.xpccdn.com/trans/download/windows/StudioTrans-{version}-{captures.build}.exe"
+	]
+}
