@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xenolightning",
+		"repo": "AudioSwitcher_v1"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/xenolightning/AudioSwitcher_v1/releases/download/{github.rawTag}/AudioSwitcher.exe",
+			"architecture": "x64"
+		}
+	]
+}

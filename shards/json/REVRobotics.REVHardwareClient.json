@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "REVrobotics",
+		"repo": "REV-Software-Binaries",
+		"tagRegex": "^rhc-",
+		"method": "api-sort",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/REVrobotics/REV-Software-Binaries/releases/download/{github.rawTag}/REV-Hardware-Client-Setup-{version}.exe"
+	]
+}
