@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Enderbyte-Programs",
+		"repo": "PyinstallerHelper"
+	},
+	"urls": [
+		"https://github.com/Enderbyte-Programs/PyinstallerHelper/releases/download/{github.rawTag}/pyinstallerhelper-{version}-setup.exe"
+	]
+}

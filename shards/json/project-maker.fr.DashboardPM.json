@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ProjectMakerfr",
+		"repo": "dash.project-maker.fr"
+	},
+	"urls": [
+		"https://github.com/ProjectMakerfr/dash.project-maker.fr/releases/download/{github.rawTag}/Dashboard-PM-Setup-{version}.exe"
+	]
+}

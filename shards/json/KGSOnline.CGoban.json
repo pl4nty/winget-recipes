@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.gokgs.com/download.jsp",
+		"regex": "downloads for CGoban v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://files.gokgs.com/javaBin/cgoban.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://files.gokgs.com/changeLog.txt"
+	},
+	"replace": true
+}

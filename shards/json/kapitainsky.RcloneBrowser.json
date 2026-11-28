@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kapitainsky",
+		"repo": "RcloneBrowser",
+		"method": "api-latest",
+		"assetRegex": "^rclone-browser-\\d+(?:\\.\\d+)+-[0-9a-f]+-windows-(?:32|64)-bit\\.exe$"
+	}
+}
