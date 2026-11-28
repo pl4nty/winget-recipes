@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "replylayer",
+		"repo": "rly",
+		"tagRegex": "^cli-v"
+	},
+	"urls": ["https://github.com/replylayer/rly/releases/download/cli-v{version}/replylayer-{version}-windows-x64.exe"]
+}
