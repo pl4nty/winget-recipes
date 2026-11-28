@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://jpsoft.com/all-downloads/downloads.html",
+		"regex": "href=\"/downloads/v(?<major>\\d+)/tcmd\\.exe\"[\\s\\S]*?<span>\\d+\\.(?<minor>\\d+) Build (?<build>\\d+)</span>"
+	},
+	"version": "{captures.major}.{captures.minor}.{captures.build}.0",
+	"urls": ["https://jpsoft.com/downloads/v{captures.major}/tcmd.exe"]
+}
