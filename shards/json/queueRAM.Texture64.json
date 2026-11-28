@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "queueRAM",
+		"repo": "Texture64"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/queueRAM/Texture64/releases/download/v{version}/Texture64-v{version}.zip",
+			"nestedInstallerMatches": ["\\Texture64.exe"]
+		}
+	]
+}
