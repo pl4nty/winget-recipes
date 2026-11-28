@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Daydreamer-riri",
+		"repo": "QRCode-CmdPal"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/Daydreamer-riri/QRCode-CmdPal/releases/download/{github.rawTag}/Riri.QRCodeForCmdPal_{version}.0_arm64.msix",
+		"https://github.com/Daydreamer-riri/QRCode-CmdPal/releases/download/{github.rawTag}/Riri.QRCodeForCmdPal_{version}.0_x64.msix"
+	]
+}
