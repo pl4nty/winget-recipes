@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.tweaknow.com/AutoDark.php",
+		"regex": "<p>\\s*Version (\\d+(?:\\.\\d+)+) \\("
+	},
+	"urls": ["https://tweaknow.com/Downloads/AutoDark{version|.|}.exe"],
+	"cleanup": false
+}

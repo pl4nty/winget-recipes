@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://adl.netease.com/d/g/starhunterlglr/c/officialna",
+		"regex": "easebar\\.com/(?<file>lglr_setup_global_online_[a-z]+_(?<version>\\d{8})_[\\d_]+)\\.zip"
+	},
+	"urls": ["https://g86naxx2gb.gdl.easebar.com/{captures.file}.zip"]
+}

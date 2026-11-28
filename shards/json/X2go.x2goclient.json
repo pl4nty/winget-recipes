@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://code.x2go.org/releases/binary-win32/x2goclient/releases/",
+		"regex": "href=\"(\\d+(?:\\.\\d+)+-\\d{4}\\.\\d{2}\\.\\d{2})/\"(?![\\s\\S]*href=\"\\d+(?:\\.\\d+)+-\\d{4}\\.\\d{2}\\.\\d{2}/\")"
+	},
+	"urls": [
+		"https://code.x2go.org/releases/binary-win32/x2goclient/releases/{version}/x2goclient-{version}-setup.exe"
+	]
+}

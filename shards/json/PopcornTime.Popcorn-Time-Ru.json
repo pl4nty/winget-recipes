@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "popcorn-time-ru", "repo": "popcorn-desktop" },
+	"urls": ["https://github.com/popcorn-time-ru/popcorn-desktop/releases/download/v{version}/Popcorn-Time-{version}-win64-Setup.exe"]
+}
