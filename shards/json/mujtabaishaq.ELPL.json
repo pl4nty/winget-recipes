@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": ["https://github.com/mujtabaishaq5/homebrew-elpl/releases/download/programminglanguage/elpl-winx64.zip"],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/mujtabaishaq5/homebrew-elpl/releases/download/programminglanguage/elpl-winx64.zip",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/mujtabaishaq5/homebrew-elpl/releases/tag/programminglanguage"
+	},
+	"replace": true
+}
