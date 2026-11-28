@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://update.saby.ru/SabyDesktop/master/win32/saby-setup-full.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://update.saby.ru/SabyDesktop/master/win32/saby-setup-full.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
