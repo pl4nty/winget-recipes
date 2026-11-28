@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Flowseal",
+		"repo": "tg-ws-proxy"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/Flowseal/tg-ws-proxy/releases/download/{github.rawTag}/TgWsProxy_windows.exe"
+	]
+}
