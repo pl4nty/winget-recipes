@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://dist.synheart.ai/synheart-cli/latest/manifest.json",
+		"path": "package.version"
+	},
+	"urls": [
+		"https://dist.synheart.ai/synheart-cli/v{version}/synheart_{version}_windows_amd64.zip",
+		"https://dist.synheart.ai/synheart-cli/v{version}/synheart_{version}_windows_arm64.zip"
+	]
+}
