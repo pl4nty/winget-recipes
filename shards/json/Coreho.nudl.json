@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Coreho",
+		"repo": "nudl"
+	},
+	"urls": [
+		"https://github.com/Coreho/nudl/releases/download/{github.rawTag}/nudl-{version}-win64.zip"
+	]
+}

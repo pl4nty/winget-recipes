@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://montage-updates.displaynote.com/api/download/c1280df6-9fba-11e8-987b-a74ba9f05714/vanilla/released/last?app_name=PhilipsScreenShare-windows",
+			"https://montage-updates.displaynote.com/api/download/c1280df6-9fba-11e8-987b-a74ba9f05714/msi/released/last?app_name=PhilipsScreenShare-msi"
+		],
+		"regex": "DisplaynoteMontageClient-(?<version>\\d+\\.\\d+\\.\\d+)\\.\\d+"
+	}
+}

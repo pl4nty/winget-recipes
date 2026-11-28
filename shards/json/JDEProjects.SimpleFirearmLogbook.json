@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "JDE-Projects",
+		"repo": "Simple-Firearm-Logbook"
+	},
+	"urls": [
+		"https://github.com/JDE-Projects/Simple-Firearm-Logbook/releases/download/{github.rawTag}/SimpleFirearmLogbook-v{version}-setup.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AbrarZShahriar",
+		"repo": "omawrite-windows"
+	},
+	"urls": [
+		"https://github.com/AbrarZShahriar/omawrite-windows/releases/download/{github.rawTag}/OmaWrite-Windows-{github.rawTag}-x64-Setup.exe"
+	],
+	"version": "{version|-windows.|.}"
+}

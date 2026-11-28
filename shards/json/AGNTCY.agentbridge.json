@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "agntcy",
+		"repo": "shadi",
+		"method": "api-sort",
+		"tagRegex": "^agntcy-agentbridge-cli-v",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/agntcy/shadi/releases/download/{github.rawTag}/agentbridge-v{version}-x86_64-pc-windows-msvc.zip"
+	]
+}
