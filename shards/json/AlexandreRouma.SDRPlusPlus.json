@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AlexandreRouma",
+		"repo": "SDRPlusPlus"
+	},
+	"urls": [
+		"https://github.com/AlexandreRouma/SDRPlusPlus/releases/download/{github.rawTag}/sdrpp_windows_x64.zip"
+	]
+}
