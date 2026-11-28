@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "GVCoder09",
+		"repo": "NoDPI",
+		"method": "api-sort",
+		"assetRegex": "^(?:NoDPI_v\\d+\\.\\d+_win_setup_x64\\.exe)$"
+	}
+}
