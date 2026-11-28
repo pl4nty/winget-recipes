@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://ss1.xrea.com/pyonkichi.g1.xrea.com/en/claunch.html",
+		"regex": "archives/CLaunch_(\\d+(?:\\.\\d+)+)_x64\\.zip"
+	},
+	"urls": [
+		"https://ss1.xrea.com/pyonkichi.g1.xrea.com/archives/CLaunch_{version}_x64.zip",
+		"https://ss1.xrea.com/pyonkichi.g1.xrea.com/archives/CLaunch_{version}_x86.zip",
+		"https://ss1.xrea.com/pyonkichi.g1.xrea.com/archives/CLaunch_{version}_x64_setup.exe",
+		"https://ss1.xrea.com/pyonkichi.g1.xrea.com/archives/CLaunch_{version}_x86_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ss1.xrea.com/pyonkichi.g1.xrea.com/en/claunch_history.html"
+	}
+}
