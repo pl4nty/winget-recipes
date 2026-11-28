@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.firedaemon.com/download-firedaemon-openssl",
+		"regex": "OpenSSL (\\d+(?:\\.\\d+)+) [A-Z]+ EXE Installer x64"
+	},
+	"urls": ["https://download.firedaemon.com/FireDaemon-OpenSSL/FireDaemon-OpenSSL-x64-{version}.exe"]
+}
