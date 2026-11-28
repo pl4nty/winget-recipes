@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stellarinfo.com/photo-repair-software.php",
+		"regex": "\"softwareVersion\": \"(?<version>\\d+(?:\\.\\d+)+) for Windows"
+	},
+	"urls": [
+		{ "url": "https://cloud.stellarinfo.com/StellarRepairforPhoto.exe", "architecture": "x64" }
+	]
+}
