@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sa-mp.mp/downloads/",
+		"regex": "(?<url>https://gta-multiplayer\\.cz/downloads/sa-mp-(?<version>0\\.3\\.7)-R(?<r>\\d+(?:-\\d+)?)-MP-install\\.exe)"
+	},
+	"version": "{version}-r{captures.r}",
+	"urls": ["{captures.url}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sa-mp.mp/downloads/"
+	}
+}
