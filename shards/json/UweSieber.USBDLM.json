@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.uwe-sieber.de/usbdlm_e.html",
+		"regex": "name=\"history\"[\\s\\S]*?\\sV(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"version": "{version}.0",
+	"urls": ["https://www.uwe-sieber.de/files/usbdlm_Win32.msi", "https://www.uwe-sieber.de/files/usbdlm_x64.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.uwe-sieber.de/usbdlm_e.html#history"
+	},
+	"replace": true
+}
