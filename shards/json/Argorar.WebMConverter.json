@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "argorar",
+		"repo": "WebMConverter",
+		"method": "api-sort",
+		"assetRegex": "^(?:WebMConverter\\-\\d+\\.\\d+\\.\\d+\\.zip)$"
+	}
+}
