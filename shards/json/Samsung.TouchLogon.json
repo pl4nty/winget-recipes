@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": [
+		{
+			"url": "https://downloadcenter.samsung.com/content/SW/201201/20120105111636324/Touch_Logon_64bit_2.0.0.8.ZIP",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["Setup_x64-R.msi"]
+		},
+		{
+			"url": "https://downloadcenter.samsung.com/content/SW/201201/20120105111636324/Touch_Logon_64bit_2.0.0.8.ZIP",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["Setup_x86-R.msi"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloadcenter.samsung.com/content/SW/201201/20120105111636324/Touch_Logon_64bit_2.0.0.8.ZIP",
+		"header": "etag"
+	},
+	"replace": true
+}
