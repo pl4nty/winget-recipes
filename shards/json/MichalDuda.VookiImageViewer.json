@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "vookimedlo",
+		"repo": "vooki-image-viewer",
+		"tagRegex": "^20"
+	},
+	"urls": [
+		"https://github.com/vookimedlo/vooki-image-viewer/releases/download/{github.rawTag}/VookiImageViewer-{github.tag}-win64-x64.msi",
+		"https://github.com/vookimedlo/vooki-image-viewer/releases/download/{github.rawTag}/VookiImageViewer-{github.tag}-win64-arm64.msi"
+	]
+}

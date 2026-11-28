@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "xxanqw",
+		"repo": "mikusays"
+	},
+	"urls": [
+		"https://github.com/xxanqw/mikusays/releases/download/{github.rawTag}/mikusays-windows-x86_64-{version}.exe",
+		"https://github.com/xxanqw/mikusays/releases/download/{github.rawTag}/mikusays-windows-aarch64-{version}.exe",
+		"https://github.com/xxanqw/mikusays/releases/download/{github.rawTag}/mikusays-windows-inst-any-{version}.exe"
+	]
+}

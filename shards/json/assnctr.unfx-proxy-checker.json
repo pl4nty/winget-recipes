@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "openproxyspace",
+		"repo": "unfx-proxy-checker"
+	},
+	"urls": [
+		"https://github.com/openproxyspace/unfx-proxy-checker/releases/download/{github.rawTag}/unfx-proxy-checker-{github.rawTag}-x64-win-installer.exe",
+		"https://github.com/openproxyspace/unfx-proxy-checker/releases/download/{github.rawTag}/unfx-proxy-checker-{github.rawTag}-win-installer.exe"
+	]
+}

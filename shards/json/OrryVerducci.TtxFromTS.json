@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "orryverducci",
+		"repo": "TtxFromTS"
+	},
+	"urls": [
+		"https://github.com/orryverducci/TtxFromTS/releases/download/{github.rawTag}/win-x64.zip",
+		"https://github.com/orryverducci/TtxFromTS/releases/download/{github.rawTag}/win-x86.zip",
+		"https://github.com/orryverducci/TtxFromTS/releases/download/{github.rawTag}/win-arm64.zip"
+	]
+}
