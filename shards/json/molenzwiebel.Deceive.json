@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "molenzwiebel",
+		"repo": "Deceive"
+	},
+	"urls": [{ "url": "https://github.com/molenzwiebel/Deceive/releases/download/v{version}/Deceive.exe", "architecture": "x86" }]
+}
