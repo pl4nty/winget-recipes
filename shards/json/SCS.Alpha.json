@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.scs-pactor.com/downloads.html",
+		"regex": "assets/downloads/(?<file>[^\"]*Alpha%20(?<version>\\d+(?:\\.\\d+)+)%20Setup\\.exe)"
+	},
+	"urls": [
+		{
+			"url": "https://www.scs-pactor.com/assets/downloads/{captures.file}",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.scs-pactor.com/downloads.html"
+	}
+}
