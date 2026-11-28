@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "product" },
+	"urls": ["https://cdn.download.comodo.com/browser/release/dragon/x86/dragonsetup.exe", "https://cdn.download.comodo.com/browser/release/dragon/x64/dragonsetup.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.download.comodo.com/browser/release/dragon/x86/dragonsetup.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

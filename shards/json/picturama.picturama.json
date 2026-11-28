@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "picturama",
+		"repo": "picturama",
+		"method": "api-latest",
+		"assetRegex": "^Picturama\\.Setup\\.\\d+(?:\\.\\d+)+\\.exe$"
+	},
+	"version": { "source": "product" },
+	"state": { "source": "value", "value": "{github.rawTag}" }
+}

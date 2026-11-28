@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://invo.blob.core.windows.net/clienttools/InvoConnect/InvoConnect.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://invo.blob.core.windows.net/clienttools/InvoConnect/InvoConnect.msi",
+		"header": "etag"
+	},
+	"replace": true
+}
