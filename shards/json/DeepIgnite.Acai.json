@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "acai-lang",
+		"repo": "acai-language",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/acai-lang/acai-language/releases/download/{github.rawTag}/Acai-windows-x64.exe"
+	]
+}
