@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.uwe-sieber.de/ComPortInfo_e.html",
+		"regex": "COM Port Info V(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://www.uwe-sieber.de/files/ComPortInfo{version|.|}_Win32.zip",
+		"https://www.uwe-sieber.de/files/ComPortInfo{version|.|}_x64.zip"
+	]
+}
