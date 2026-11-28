@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://api.bell-sw.com/v1/liberica/releases?version-feature=20&version-modifier=latest&os=windows&package-type=msi&bundle-type=jre-full",
+		"path": "0.version"
+	},
+	"urls": [
+		"https://download.bell-sw.com/java/{version}/bellsoft-jre{version}-windows-i586-full.msi",
+		"https://download.bell-sw.com/java/{version}/bellsoft-jre{version}-windows-amd64-full.msi",
+		"https://download.bell-sw.com/java/{version}/bellsoft-jre{version}-windows-aarch64-full.msi"
+	]
+}
