@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dechamps",
+		"repo": "FlexASIO",
+		"tagRegex": "^flexasio-"
+	},
+	"urls": [
+		"https://github.com/dechamps/FlexASIO/releases/download/{github.rawTag}/FlexASIO-{version}.exe"
+	]
+}
