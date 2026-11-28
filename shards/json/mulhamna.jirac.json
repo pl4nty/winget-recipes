@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "mulhamna", "repo": "jira-commands" },
+	"urls": [
+		{
+			"url": "https://github.com/mulhamna/jira-commands/releases/download/v{version}/jirac-windows-x86_64.zip",
+			"nestedInstallerMatches": ["jirac-windows-x86_64.exe"]
+		},
+		{
+			"url": "https://github.com/mulhamna/jira-commands/releases/download/v{version}/jirac-windows-aarch64.zip",
+			"nestedInstallerMatches": ["jirac-windows-aarch64.exe"]
+		}
+	]
+}
