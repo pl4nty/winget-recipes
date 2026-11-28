@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jiripolasek",
+		"repo": "QRCodesExtension"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/jiripolasek/QRCodesExtension/releases/download/{github.rawTag}/JiriPolasek.QRCodesforCommandPalette_{packageVersion}_arm64__15b1mzc2p8w76.Msix",
+		"https://github.com/jiripolasek/QRCodesExtension/releases/download/{github.rawTag}/JiriPolasek.QRCodesforCommandPalette_{packageVersion}_x64__15b1mzc2p8w76.Msix"
+	]
+}
