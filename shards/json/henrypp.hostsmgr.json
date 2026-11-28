@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "henrypp",
+		"repo": "hostsmgr",
+		"tagRegex": "^v?\\."
+	},
+	"urls": [
+		"https://github.com/henrypp/hostsmgr/releases/download/{github.rawTag}/hostsmgr-{version}-bin.zip"
+	]
+}
