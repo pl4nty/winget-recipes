@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "laurent22",
+		"repo": "joplin",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "^v(?=\\d)"
+	},
+	"urls": [
+		"https://github.com/laurent22/joplin/releases/download/{github.rawTag}/Joplin-Setup-{version}.exe",
+		"https://github.com/laurent22/joplin/releases/download/{github.rawTag}/Joplin-Setup-{version}.exe"
+	]
+}

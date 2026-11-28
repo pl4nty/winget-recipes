@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://mediatab.mediaarea.net/descargar.php",
+		"regex": "MediaTab%20v(\\d+(?:\\.\\d+)+)%20Setup\\.zip"
+	},
+	"urls": [
+		"https://mediatab.mediaarea.net/MediaTab%20v{version}%20Setup.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://mediatab.mediaarea.net/changelog.php"
+	}
+}
