@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://atticsuite.com/dl.php?p=cht&f=msi"],
+		"regex": "/downloads/ChatAttic-(\\d+(?:\\.\\d+)+)\\.msi$"
+	}
+}
