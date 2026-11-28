@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.izotope.com/in-app/pp/download/pc"],
+		"regex": "/iZotope_Product_Portal_v(\\d+(?:_\\d+)+)\\.exe"
+	},
+	"version": "{version|_|.}"
+}
