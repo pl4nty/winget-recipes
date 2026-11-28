@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://download.censoft.com/download/HostTE/HostTE-alpha01.msi"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.censoft.com/download/HostTE/HostTE-alpha01.msi",
+		"header": "last-modified"
+	},
+	"replace": true
+}

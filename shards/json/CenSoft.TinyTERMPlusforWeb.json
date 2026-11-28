@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://download.censoft.com/download/ttweb/",
+		"regex": "href=\"TinyTERM-Plus-for-Web-(\\d+(?:\\.\\d+)+)\\.msi\""
+	},
+	"urls": [
+		"https://download.censoft.com/download/ttweb/TinyTERM-Plus-for-Web-{version}.msi"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ChilliCream",
+		"repo": "graphql-platform"
+	},
+	"urls": [
+		"https://github.com/ChilliCream/graphql-platform/releases/download/{github.rawTag}/nitro-win-x64.zip",
+		"https://github.com/ChilliCream/graphql-platform/releases/download/{github.rawTag}/nitro-win-x86.zip"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "EragonJ",
+		"repo": "Kaku"
+	},
+	"urls": [
+		"https://github.com/EragonJ/Kaku/releases/download/{github.rawTag}/Kaku-Setup-{version}.exe"
+	]
+}

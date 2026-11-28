@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zirnc",
+		"repo": "notepanda"
+	},
+	"urls": [
+		"https://github.com/zirnc/notepanda/releases/download/{github.rawTag}/Notepanda.{github.rawTag}.Windows-x64.exe"
+	]
+}
