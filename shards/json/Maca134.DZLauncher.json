@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://app.dayzlauncher.com/updates/setup_dzlauncher.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://app.dayzlauncher.com/updates/setup_dzlauncher.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

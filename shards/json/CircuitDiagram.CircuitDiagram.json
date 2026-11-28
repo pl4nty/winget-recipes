@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "circuitdiagram",
+		"repo": "circuitdiagram"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/circuitdiagram/circuitdiagram/releases/download/{github.rawTag}/Setup.exe",
+			"architecture": "neutral"
+		}
+	]
+}

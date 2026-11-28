@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://cherpake.com/latest.php?os=win"],
+		"regex": "/RemoteSetup-(?<version>\\d+\\.\\d+)\\.exe$"
+	},
+	"version": "{version}.0.0"
+}
