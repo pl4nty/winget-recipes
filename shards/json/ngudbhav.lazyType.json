@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ngudbhav",
+		"repo": "lazyType"
+	},
+	"urls": [
+		"https://github.com/ngudbhav/lazyType/releases/download/{github.rawTag}/Setupx64.exe"
+	]
+}

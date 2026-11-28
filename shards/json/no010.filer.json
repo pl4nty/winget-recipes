@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/no010/filer-app/releases/latest/download/latest.json",
+		"platforms": [
+			"windows-x86_64"
+		]
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "no010",
+		"repo": "filer-app",
+		"tag": "v{version}"
+	}
+}

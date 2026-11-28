@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lxorb",
+		"repo": "orden"
+	},
+	"urls": [
+		"https://github.com/lxorb/orden/releases/download/{github.rawTag}/Orden-{version}-windows-x64-setup.exe",
+		"https://github.com/lxorb/orden/releases/download/{github.rawTag}/Orden-{version}-windows-arm64-setup.exe"
+	]
+}

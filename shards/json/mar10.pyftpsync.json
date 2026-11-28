@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mar10",
+		"repo": "pyftpsync",
+		"method": "api-latest",
+		"assetRegex": "^pyftpsync-[\\d.]+-win64\\.msi$"
+	},
+	"version": {
+		"source": "display"
+	}
+}

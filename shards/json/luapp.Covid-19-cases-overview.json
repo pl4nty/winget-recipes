@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "luapp",
+		"repo": "Covid-19-cases-overview"
+	},
+	"urls": [
+		"https://github.com/luapp/Covid-19-cases-overview/releases/download/{github.rawTag}/Covid-19.Setup.{version}.exe"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://lionprogramming.weebly.com/uploads/4/1/7/5/4175194/setup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://lionprogramming.weebly.com/uploads/4/1/7/5/4175194/setup.exe",
+		"header": "etag"
+	}
+}
