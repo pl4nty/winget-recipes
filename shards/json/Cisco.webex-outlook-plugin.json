@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://akamaicdn.webex.com/upgradeserver/client/ptool/45.2.0/msi/webexplugin.msi"],
+	"state": {
+		"source": "response-header",
+		"url": "https://akamaicdn.webex.com/upgradeserver/client/ptool/45.2.0/msi/webexplugin.msi",
+		"header": "etag"
+	}
+}
