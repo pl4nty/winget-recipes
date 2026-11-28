@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://download.pdfforge.org/download/pdfcreator/PDFCreator-stable?download"],
+		"regex": "/pdfcreator/(?<version>\\d+(?:\\.\\d+)+)/PDFCreator-[\\d_]+-Setup\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://download.pdfforge.org/download/pdfcreator/{version}/PDFCreator-{version|.|_}-Setup.exe?file=PDFCreator-{version|.|_}-Setup.exe&download",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://download.pdfforge.org/download/pdfcreator/{version}/PDFCreator-{version|.|_}-Setup.exe?file=PDFCreator-{version|.|_}-Setup.exe&download",
+			"architecture": "arm64"
+		}
+	]
+}
