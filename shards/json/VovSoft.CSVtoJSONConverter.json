@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/csv-to-json-converter/",
+		"regex": "<span class=\"notranslate\">CSV to JSON Converter (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		{
+			"url": "https://files.vovsoft.com/csv-to-json-converter.exe",
+			"architecture": "x64"
+		},
+		"https://files.vovsoft.com/csv-to-json-converter-portable.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/csv-to-json-converter/"
+	}
+}
