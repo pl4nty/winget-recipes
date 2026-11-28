@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://get.plask.app/packages/",
+		"regex": "href=\"PLaSK-(\\d{4}\\.\\d{2}\\.\\d{2})-win64-py314\\.exe\""
+	},
+	"urls": [
+		"https://get.plask.app/packages/PLaSK-{version}-win64-py314.exe"
+	]
+}

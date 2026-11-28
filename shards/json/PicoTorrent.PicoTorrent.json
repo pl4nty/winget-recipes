@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "picotorrent",
+		"repo": "picotorrent"
+	},
+	"urls": [
+		"https://github.com/picotorrent/picotorrent/releases/download/v{version}/PicoTorrent-{version}-x64.exe",
+		"https://github.com/picotorrent/picotorrent/releases/download/v{version}/PicoTorrent-{version}-x86.exe"
+	]
+}

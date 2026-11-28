@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "PhonePresenter",
+		"repo": "PhonePresenter"
+	},
+	"urls": [
+		"https://github.com/PhonePresenter/PhonePresenter/releases/download/{github.rawTag}/PhonePresenter.Setup.{version}.exe"
+	]
+}
