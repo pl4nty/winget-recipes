@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://neverawayteams.com/",
+		"regex": "href=\"/downloads/Helper-(?<version>\\d+(?:\\.\\d+)+)\\.zip\""
+	},
+	"urls": [
+		{
+			"url": "https://neverawayteams.com/downloads/Helper-{version}.zip",
+			"nestedInstallerMatches": ["Helper.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://neverawayteams.com/news/"
+	}
+}
