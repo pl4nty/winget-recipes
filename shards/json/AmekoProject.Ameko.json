@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AmekoProject",
+		"repo": "Ameko",
+		"method": "api-sort",
+		"assetRegex": "^(?:ameko\\-win\\-x64\\-\\d+\\.\\d+\\.\\d+\\.\\d+a\\d+a\\d+a\\.zip)$"
+	}
+}
