@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tomrsae",
+		"repo": "XWindows"
+	},
+	"urls": [{ "url": "https://github.com/tomrsae/XWindows/releases/download/{github.rawTag}/XWindows_installer.exe", "architecture": "x86" }]
+}
