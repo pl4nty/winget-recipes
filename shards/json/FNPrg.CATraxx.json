@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.fnprg.com/catraxx/dl/Release.txt",
+		"regex": "(\\d+\\.\\d+) - [A-Z][a-z]+ \\d+, \\d{4}"
+	},
+	"urls": [
+		"https://www.fnprg.com/catraxx/dl_prg/catraxx_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.fnprg.com/catraxx/dl/Release.txt"
+	}
+}

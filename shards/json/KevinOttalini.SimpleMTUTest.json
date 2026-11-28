@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://qsextreme.com/mtutest/",
+		"regex": "latest tool \\([^v]*v(\\d+\\.\\d+[a-z]?\\d*)"
+	},
+	"urls": [
+		"http://qsextreme.com/mtutest/mtutest.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "http://qsextreme.com/mtutest/"
+	}
+}

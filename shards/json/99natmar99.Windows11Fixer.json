@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "99natmar99",
+		"repo": "Windows-11-Fixer"
+	},
+	"urls": [
+		"https://github.com/99natmar99/Windows-11-Fixer/releases/download/{github.rawTag}/Windows.11.Fixer.v{version}.Lite.zip"
+	]
+}

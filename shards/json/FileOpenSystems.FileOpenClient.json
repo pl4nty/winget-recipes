@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://plugin.fileopen.com/current/FileOpenInstaller.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://plugin.fileopen.com/current/FileOpenInstaller.exe",
+		"header": "etag"
+	},
+	"replace": true,
+	"releaseNotes": {
+		"releaseNotesUrl": "https://plugin.fileopen.com/all.aspx"
+	}
+}

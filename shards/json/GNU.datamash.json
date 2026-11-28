@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://download.savannah.gnu.org/releases/datamash/windows-binaries/",
+		"regex": "datamash-(\\d+(?:\\.\\d+)+)-no-locale-64bit\\.exe"
+	},
+	"urls": [
+		"https://download.savannah.gnu.org/releases/datamash/windows-binaries/datamash-{version}-no-locale-64bit.exe",
+		"https://download.savannah.gnu.org/releases/datamash/windows-binaries/datamash-{version}-no-locale-32bit.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.gnu.org/software/datamash/"
+	}
+}

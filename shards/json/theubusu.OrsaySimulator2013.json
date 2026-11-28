@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://theubusu.xyz/orsay/index.html",
+		"regex": "RELEASE_simulator_(\\d+(?:\\.\\d+)+)_win\\.zip"
+	},
+	"urls": [
+		"https://s1.theubusu.xyz/0/simulator/release/RELEASE_simulator_{version}_win.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://theubusu.xyz/orsay/index.html"
+	}
+}
