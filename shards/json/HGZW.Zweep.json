@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://apps.heiguozhi.wang/zweep/",
+		"regex": "zweep/(?<version>\\d+(?:\\.\\d+)+)/zweep-setup-x64-[\\d.]+-(?<x64>[a-z0-9]+)\\.exe[\\s\\S]*?zweep-setup-arm64-[\\d.]+-(?<arm64>[a-z0-9]+)\\.exe"
+	},
+	"urls": [
+		"https://apps.heiguozhi.wang/zweep/{version}/zweep-setup-x64-{version}-{captures.x64}.exe",
+		"https://apps.heiguozhi.wang/zweep/{version}/zweep-setup-arm64-{version}-{captures.arm64}.exe"
+	]
+}

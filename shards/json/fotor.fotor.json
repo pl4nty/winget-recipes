@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.fotor.com/windows/index.html",
+		"regex": "static/desktop/Fotor(?<version>\\d+(?:\\.\\d+)+)_(?<build>[\\d.]+)_x64_installer_official_windows_download\\.exe"
+	},
+	"urls": [
+		"https://static.fotor.com/static/desktop/Fotor{version}_{captures.build}_x64_installer_official_windows_download.exe"
+	]
+}
