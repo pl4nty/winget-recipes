@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Bildungsportal",
+		"repo": "next-exam",
+		"method": "api-sort",
+		"assetRegex": "^(?:Next\\-Exam\\-Teacher_\\d+\\.\\d+\\.\\d+\\.\\d+_\\d+_x64\\.msi)$"
+	}
+}
