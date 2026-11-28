@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/products/quartz/",
+		"regex": "Product: 'quartz', Link[^>]*title=\"Version (\\d+(?:\\.\\d+)+) &middot;"
+	},
+	"urls": [
+		"https://the-sz.com/products/quartz/history/{version}/Quartz.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=quartz"
+	},
+	"cleanup": false
+}

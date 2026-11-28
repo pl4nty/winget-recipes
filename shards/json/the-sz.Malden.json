@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/products/malden/",
+		"regex": "Product: 'malden', Link[^>]*title=\"Version (\\d+(?:\\.\\d+)+) &middot;"
+	},
+	"urls": [
+		"https://the-sz.com/products/malden/history/{version}/Malden.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=malden"
+	},
+	"cleanup": false
+}

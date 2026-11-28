@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sunabozu",
+		"repo": "subordination"
+	},
+	"urls": [
+		"https://github.com/sunabozu/subordination/releases/download/{github.rawTag}/subordination-Setup-{version}.exe"
+	]
+}

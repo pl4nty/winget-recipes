@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "sidneys",
+		"repo": "desktop-dimmer"
+	},
+	"urls": [
+		"https://github.com/sidneys/desktop-dimmer/releases/download/{github.rawTag}/desktop-dimmer-{version}-setup.exe"
+	]
+}

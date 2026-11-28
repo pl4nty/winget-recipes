@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "spluxx",
+		"repo": "Protoman"
+	},
+	"urls": [
+		"https://github.com/spluxx/Protoman/releases/download/{github.rawTag}/Protoman.Setup.{version}.exe"
+	]
+}

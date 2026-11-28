@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/products/bear/",
+		"regex": "Product: 'bear', Link[^>]*title=\"Version (\\d+(?:\\.\\d+)+) &middot;"
+	},
+	"urls": [
+		"https://the-sz.com/products/bear/history/{version}/Bear.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=bear"
+	},
+	"cleanup": false
+}
