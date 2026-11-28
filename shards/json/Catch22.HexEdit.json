@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "strobejb",
+		"repo": "HexEdit",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/strobejb/HexEdit/releases/download/{github.rawTag}/HexEdit_Release_x64.zip",
+		"https://github.com/strobejb/HexEdit/releases/download/{github.rawTag}/HexEdit_Release_x86.zip"
+	]
+}
