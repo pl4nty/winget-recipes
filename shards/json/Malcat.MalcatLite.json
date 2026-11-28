@@ -1,0 +1,24 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://malcat.fr/latest/malcat_win313_lite.zip",
+			"nestedInstallerMatches": [
+				"bin/malcat.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://malcat.fr/latest/malcat_win313_lite.zip",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://malcat.fr/blog.html"
+	},
+	"replace": true
+}

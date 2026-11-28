@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kovidgoyal",
+		"repo": "calibre"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://download.calibre-ebook.com/{version}/calibre-portable-installer-{version}.exe"
+	]
+}
