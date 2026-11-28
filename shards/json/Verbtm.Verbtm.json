@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://download.verbtm.app/version.json",
+		"path": "version"
+	},
+	"urls": ["https://download.verbtm.app/v{version}/Verbtm-Setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://verbtm.app/changelog"
+	}
+}
