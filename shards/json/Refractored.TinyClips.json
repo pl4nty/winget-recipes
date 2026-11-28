@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "jamesmontemagno",
+		"repo": "tiny-clips",
+		"method": "api-list",
+		"tagRegex": "-windows$"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/jamesmontemagno/tiny-clips/releases/download/{github.rawTag}/TinyClips-{version}-x64.msix",
+		"https://github.com/jamesmontemagno/tiny-clips/releases/download/{github.rawTag}/TinyClips-{version}-arm64.msix"
+	]
+}
