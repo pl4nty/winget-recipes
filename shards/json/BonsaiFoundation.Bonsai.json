@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bonsai-rx",
+		"repo": "bonsai",
+		"method": "api-sort"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/bonsai-rx/bonsai/releases/download/{github.rawTag}/Bonsai-{github.rawTag}.exe",
+			"architecture": "neutral"
+		}
+	]
+}

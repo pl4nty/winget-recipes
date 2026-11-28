@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sketchup.com/en/download/all",
+		"regex": "download\\.sketchup\\.com/(?<file>SketchUp(?:Studio)?-2023-(?<minor>\\d+)-(?<build>\\d+)-\\d+\\.exe)"
+	},
+	"version": "23.{captures.minor}.{captures.build}",
+	"urls": [
+		"https://download.sketchup.com/{captures.file}"
+	]
+}

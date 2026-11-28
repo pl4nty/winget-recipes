@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "zzzgydi",
+		"repo": "clash-verge",
+		"method": "api-sort",
+		"assetRegex": "^Clash\\.Verge_[\\d.]+_x64_(?:en-US|zh-CN|ru-RU)\\.msi$"
+	}
+}

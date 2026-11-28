@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ldraw.org/article/104.html",
+		"regex": "LDraw_All-In-One-Installer_2024-(?<month>\\d+)_setup_64Bit_v(?<revision>\\d+)\\.exe"
+	},
+	"version": "2024.{captures.month}.{captures.revision}",
+	"urls": [
+		"https://www.ldraw.org/files/aioi/LDraw_All-In-One-Installer_2024-{captures.month}_setup_64Bit_v{captures.revision}.exe"
+	]
+}

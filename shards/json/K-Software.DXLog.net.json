@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://dxlog.net/sw/files/download/old/",
+		"regex": "href=\"DXLog\\.net-(\\d+(?:\\.\\d+)+)\\.msi\""
+	},
+	"urls": [
+		{
+			"url": "https://dxlog.net/sw/files/download/old/DXLog.net-{version}.msi",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://dxlog.net/sw/files/release_notes.txt"
+	}
+}

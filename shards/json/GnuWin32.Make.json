@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/make",
+		"regex": "/make/(\\d+(?:\\.\\d+)+)/make-\\d+(?:\\.\\d+)+\\.exe/"
+	},
+	"urls": ["https://sourceforge.net/projects/gnuwin32/files/make/{version}/make-{version}.exe/download"]
+}

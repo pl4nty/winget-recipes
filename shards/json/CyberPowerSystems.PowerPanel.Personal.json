@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.cyberpowersystems.com/product/software/power-panel-personal/powerpanel-personal-windows/",
+		"regex": "https://dl4jz3rbrsfum\\.cloudfront\\.net/software/PPP_Windows_v(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://dl4jz3rbrsfum.cloudfront.net/software/PPP_Windows_v{version}.exe"]
+}
