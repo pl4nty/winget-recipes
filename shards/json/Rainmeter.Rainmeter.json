@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "rainmeter",
+		"repo": "rainmeter",
+		"method": "api-latest",
+		"assetRegex": "^Rainmeter-\\d+\\.\\d+\\.\\d+\\.exe$"
+	}
+}
