@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://files.openscad.org/snapshots/",
+		"regex": "href=\"OpenSCAD-(\\d{4}\\.\\d{2}\\.\\d{2})-x86-64-Installer\\.exe\""
+	},
+	"urls": ["https://files.openscad.org/snapshots/OpenSCAD-{version}-x86-64-Installer.exe"]
+}
