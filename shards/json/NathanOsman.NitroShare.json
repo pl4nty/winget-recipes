@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://launchpad.net/nitroshare/+download",
+		"regex": "launchpad\\.net/nitroshare/(?<series>[^/]+)/(?<version>\\d+(?:\\.\\d+)+)/\\+download/nitroshare-\\k<version>-windows-x86_64\\.exe\""
+	},
+	"urls": [
+		"https://launchpad.net/nitroshare/{captures.series}/{version}/+download/nitroshare-{version}-windows-x86_64.exe",
+		"https://launchpad.net/nitroshare/{captures.series}/{version}/+download/nitroshare-{version}-windows-x86.exe"
+	]
+}

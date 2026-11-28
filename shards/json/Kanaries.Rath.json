@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kanaries",
+		"repo": "Rath"
+	},
+	"urls": [
+		"https://github.com/Kanaries/Rath/releases/download/{github.rawTag}/Kanaries.Rath.Setup.{version}.exe",
+		"https://github.com/Kanaries/Rath/releases/download/{github.rawTag}/Kanaries.Rath.Setup.{version}.exe"
+	]
+}

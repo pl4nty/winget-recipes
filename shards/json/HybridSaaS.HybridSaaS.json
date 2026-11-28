@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": ["https://downloadsite.blob.core.windows.net/hybrid-saas-multi-browser/windows-latest.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloadsite.blob.core.windows.net/hybrid-saas-multi-browser/windows-latest.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

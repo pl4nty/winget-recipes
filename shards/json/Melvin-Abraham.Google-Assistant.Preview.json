@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Melvin-Abraham",
+		"repo": "Google-Assistant-Unofficial-Desktop-Client",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases/download/{github.rawTag}/Google_Assistant-Setup-{version}.exe"
+	]
+}

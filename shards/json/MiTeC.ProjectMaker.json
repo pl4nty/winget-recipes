@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mitec.cz/wp/xml/vh_pm.xml",
+		"regex": "<VERSION>(\\d+(?:\\.\\d+)+)</VERSION>"
+	},
+	"urls": [
+		"https://www.mitec.cz/wp/files/PMInstall.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.mitec.cz/wp/xml/vh_pm.xml"
+	}
+}

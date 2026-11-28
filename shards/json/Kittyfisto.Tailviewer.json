@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Kittyfisto",
+		"repo": "Tailviewer",
+		"method": "api-list",
+		"assetRegex": "^Tailviewer-setup-[\\d.]+\\.exe$"
+	},
+	"version": {
+		"source": "product"
+	}
+}

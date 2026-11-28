@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.meinbergglobal.com/english/sw/mbg-devman.htm",
+		"regex": "Version (\\d+(?:\\.\\d+)+) - \\w+, \\d{4}-\\d{2}-\\d{2}"
+	},
+	"urls": ["https://www.meinbergglobal.com/download/utils/windows/mbgdevman_setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.meinbergglobal.com/english/sw/mbg-devman.htm"
+	}
+}

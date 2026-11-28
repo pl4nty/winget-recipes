@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://euz.ihk.de/blueprint/servlet/resource/blob/5635106/2063355f80a8230bfb91ef904daf61b0/signaturanwendung-data.zip",
+			"nestedInstallerMatches": ["IHKGfISignaturanwendung.msi"]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://euz.ihk.de/blueprint/servlet/resource/blob/5635106/2063355f80a8230bfb91ef904daf61b0/signaturanwendung-data.zip",
+		"header": "etag"
+	},
+	"replace": true
+}

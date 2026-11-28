@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "monsterkodi",
+		"repo": "clippo"
+	},
+	"urls": [
+		"https://github.com/monsterkodi/clippo/releases/download/{github.rawTag}/clippo-{version}-setup.exe"
+	]
+}
