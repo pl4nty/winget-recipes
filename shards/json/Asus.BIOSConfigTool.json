@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.asus.com/support/api/product.asmx/GetPDDrivers?website=global&model=b3404cva&cpu=&osid=52&pdhashedid=",
+		"regex": "SoftwareandUtility/(?<id>\\d+)/ASUSBIOSConfigTool_ASUS_Z_V(?<version>\\d+\\.\\d+\\.\\d+)\\.(?<rev>\\d+)_\\d+\\.exe"
+	},
+	"urls": [
+		"https://dlcdnets.asus.com/pub/ASUS/Commercial_NB/Image/Software/SoftwareandUtility/{captures.id}/ASUSBIOSConfigTool_ASUS_Z_V{version}.{captures.rev}_{captures.id}.exe"
+	]
+}

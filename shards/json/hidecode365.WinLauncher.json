@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/hidecode365/win-launcher/releases/latest/download/latest.json"
+	},
+	"urls": [
+		"https://github.com/hidecode365/win-launcher/releases/download/v{version}/win-launcher_{version}_x64-setup.exe",
+		"https://github.com/hidecode365/win-launcher/releases/download/v{version}/win-launcher_{version}_x64_en-US.msi"
+	],
+	"releaseNotes": {
+		"source": "github",
+		"owner": "hidecode365",
+		"repo": "win-launcher",
+		"tag": "v{version}"
+	}
+}
