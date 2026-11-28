@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dev-five-git",
+		"repo": "braillify",
+		"method": "api-list",
+		"tagRegex": "^braillify\\(libs/braillify/Cargo\\.toml\\)@",
+		"perPage": 100
+	},
+	"urls": [
+		"https://github.com/dev-five-git/braillify/releases/download/{github.rawTag}/braillify-windows-x86_64.exe"
+	]
+}
