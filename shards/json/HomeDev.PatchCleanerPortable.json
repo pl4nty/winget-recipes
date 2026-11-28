@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "patchcleaner",
+		"file": "v{version}/PatchCleanerPortable_"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/patchcleaner/files/PatchCleaner_Portable/v{version}/PatchCleanerPortable_{version|.|_}.zip/download"
+	]
+}

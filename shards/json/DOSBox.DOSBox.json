@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "dosbox",
+		"file": "DOSBox{version}-win32-installer.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/dosbox/files/dosbox/{version}/DOSBox{version}-win32-installer.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/projects/dosbox/files/dosbox/{version}/"
+	}
+}

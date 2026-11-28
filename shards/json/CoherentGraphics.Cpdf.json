@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "coherentgraphics",
+		"repo": "cpdf-binaries"
+	},
+	"urls": [
+		"https://raw.githubusercontent.com/coherentgraphics/cpdf-binaries/{github.rawTag}/Windows-64bit/cpdf.exe",
+		"https://raw.githubusercontent.com/coherentgraphics/cpdf-binaries/{github.rawTag}/Windows-32bit/cpdf.exe"
+	]
+}
