@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "unitarylab",
+		"repo": "unitarylab-agent"
+	},
+	"urls": ["https://github.com/unitarylab/unitarylab-agent/releases/download/v{version}/unitarylab-windows-x86_64.exe"]
+}
