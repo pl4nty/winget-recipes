@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.axis.com/support/tools/axis-device-manager",
+		"regex": ">Version (?<version>\\d+\\.\\d+\\.\\d+)<"
+	},
+	"urls": [
+		{
+			"url": "https://www.axis.com/ftp/pub_soft/cam_srv/adm/{version|.|_}/AXISDeviceManagerSetup.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.axis.com/ftp/pub_soft/cam_srv/adm/{version|.|_}/relnote.md"
+	}
+}
