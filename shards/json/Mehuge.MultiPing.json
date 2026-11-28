@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Mehuge",
+		"repo": "MultiPing",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": ["https://github.com/Mehuge/MultiPing/releases/download/{github.rawTag}/MultiPing.exe"]
+}
