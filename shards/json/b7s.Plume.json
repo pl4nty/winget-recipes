@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "b7s",
+		"repo": "plume",
+		"tagRegex": "^plume\\-v"
+	},
+	"urls": [
+		"https://github.com/b7s/plume/releases/download/{github.rawTag}/Plume_{version}_x64-setup.exe"
+	]
+}
