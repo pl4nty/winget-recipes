@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.oo-software.com/en/download/current/oodefragpro",
+		"regex": "Version: (?<version>\\d+\\.\\d+\\.\\d+),"
+	},
+	"urls": [
+		"https://package.oo-software.com/winget/defrag/{version}/oodefrag_{version}_pro_eng_x64.msi",
+		"https://package.oo-software.com/winget/defrag/{version}/oodefrag_{version}_pro_deu_x64.msi",
+		"https://package.oo-software.com/winget/defrag/{version}/oodefrag_{version}_pro_eng_arm64.msi",
+		"https://package.oo-software.com/winget/defrag/{version}/oodefrag_{version}_pro_deu_arm64.msi"
+	]
+}
