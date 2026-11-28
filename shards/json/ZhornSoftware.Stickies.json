@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.zhornsoftware.co.uk/stickies/download.html",
+		"regex": "stickies_setup_(\\d+_\\d+[a-z]?)\\.exe"
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://www.zhornsoftware.co.uk/stickies/stickies_setup_{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.zhornsoftware.co.uk/stickies/versions.html"
+	}
+}

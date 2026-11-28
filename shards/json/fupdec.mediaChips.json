@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "fupdec",
+		"repo": "mediaChips",
+		"method": "api-latest",
+		"assetRegex": "Windows.*Installer.*\\.exe$"
+	}
+}

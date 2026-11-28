@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "acorn-io",
+		"repo": "runtime"
+	},
+	"urls": [
+		"https://github.com/acorn-io/runtime/releases/download/{github.rawTag}/acorn-{github.rawTag}-windows-amd64.zip"
+	]
+}

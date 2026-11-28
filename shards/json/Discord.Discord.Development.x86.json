@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://discord.com/api/downloads/distributions/app/installers/latest?channel=development&platform=win&arch=x86"],
+		"regex": "/development/win/x86/(\\d+(?:\\.\\d+)+)/"
+	}
+}

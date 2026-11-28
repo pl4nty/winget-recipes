@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://qsl.net/4nec2/Home.htm",
+		"regex": "Latest 4nec2 version</a> \\((\\d+(?:\\.\\d+)+)\\)"
+	},
+	"urls": [
+		{
+			"url": "https://qsl.net/4nec2/4nec2.zip",
+			"nestedInstallerMatches": ["Setup_4nec2.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://qsl.net/4nec2/_ReleaseNotes.htm"
+	}
+}
