@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "o-murphy",
+		"repo": "ebalistyka",
+		"tagRegex": "^v(?=\\d+\\.\\d+\\.\\d+$)"
+	},
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/o-murphy/ebalistyka/releases/download/{github.rawTag}/ebalistyka_windows_x86_64.zip",
+			"nestedInstallerMatches": [
+				"ebalistyka.exe"
+			]
+		},
+		"https://github.com/o-murphy/ebalistyka/releases/download/{github.rawTag}/ebalistyka_windows_x86_64.msix"
+	]
+}
