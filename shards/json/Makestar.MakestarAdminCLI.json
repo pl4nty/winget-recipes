@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "makestarlab", "repo": "makestar-admin-cli-releases" },
+	"version": { "source": "product" },
+	"urls": ["https://github.com/makestarlab/makestar-admin-cli-releases/releases/download/{github.rawTag}/makestar-admin-windows-x86_64.msi"],
+	"state": { "source": "value", "value": "{github.rawTag}" }
+}
