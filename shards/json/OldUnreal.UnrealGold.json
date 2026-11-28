@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": "227",
+	"urls": ["https://github.com/OldUnreal/FullGameInstallers/releases/download/windows-game-installers/Unreal_Gold.exe"],
+	"state": {
+		"source": "response-header",
+		"url": "https://github.com/OldUnreal/FullGameInstallers/releases/download/windows-game-installers/Unreal_Gold.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "OldUnreal",
+		"repo": "FullGameInstallers",
+		"tag": "windows-game-installers"
+	},
+	"replace": true
+}
