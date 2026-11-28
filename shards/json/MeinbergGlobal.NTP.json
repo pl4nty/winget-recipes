@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.meinbergglobal.com/english/sw/ntp.htm",
+		"regex": "/download/ntp/windows/ntp-(?<version>\\d+\\.\\d+\\.\\d+p\\w+)-win32-setup\\.exe"
+	},
+	"urls": ["https://www.meinbergglobal.com/download/ntp/windows/ntp-{version}-win32-setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://kb.meinbergglobal.com/kb/time_sync/ntp/ntp_for_windows/ntp_for_windows_installer_-_release_notes#version_information"
+	}
+}
