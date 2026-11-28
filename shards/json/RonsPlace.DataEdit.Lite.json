@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.ronsplace.ca/products/ronsdataedit/download",
+		"regex": "Rons Data Edit<br/><small>(?=(?<version>\\d+(?:\\.\\d+)+)</small>)(?<year>\\d+)\\.0*(?<month>\\d+)\\.0*(?<day>\\d+)\\.0*(?<build>\\d+)</small>"
+	},
+	"version": "{captures.year}.{captures.month}.{captures.day}.{captures.build}",
+	"urls": ["https://www.ronsplace.ca/contentproduct/data-edit/setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.ronsplace.ca/products/ronsdataedit/history#version-{version}"
+	}
+}
