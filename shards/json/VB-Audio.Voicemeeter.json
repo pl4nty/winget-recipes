@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vb-audio.com/Voicemeeter/index.htm",
+		"regex": "(?<url>https://download\\.vb-audio\\.com/Download_CABLE/VoicemeeterSetup_v(?<version>\\d)(?<b>\\d)(?<c>\\d)(?<d>\\d)\\.zip)"
+	},
+	"version": "{version}.{captures.b}.{captures.c}.{captures.d}",
+	"urls": [
+		{
+			"url": "{captures.url}",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vb-audio.com/Voicemeeter/index.htm"
+	},
+	"replace": true
+}
