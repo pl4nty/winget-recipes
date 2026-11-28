@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.pdfarchitect.org/download/?configid=AF3CEDDA-7E46-429B-A312-C8F312C86063"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.pdfarchitect.org/download/?configid=AF3CEDDA-7E46-429B-A312-C8F312C86063",
+		"header": "etag"
+	},
+	"replace": true
+}
