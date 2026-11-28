@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.winedt.com/download.html",
+		"regex": "href=\"download/winedt(?<major>\\d+)\\.exe\">WinEdt (?<version>\\d+(?:\\.\\d+)+) \\(64-bit\\)"
+	},
+	"urls": [
+		"https://www.winedt.com/download/winedt{captures.major}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.winedt.com/news.html"
+	}
+}

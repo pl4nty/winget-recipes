@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "G07cha",
+		"repo": "pomodoro"
+	},
+	"urls": [
+		"https://github.com/G07cha/pomodoro/releases/download/{github.rawTag}/Pomodoro_{version}_x64-setup.exe"
+	]
+}
