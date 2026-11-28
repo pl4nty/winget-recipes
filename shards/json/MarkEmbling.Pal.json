@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://git.markembling.info/api/v1/repos/markembling/pal/releases/latest",
+		"path": "tag_name"
+	},
+	"urls": [
+		"https://git.markembling.info/markembling/pal/releases/download/v{version}/pal_{version}_windows_amd64.zip",
+		"https://git.markembling.info/markembling/pal/releases/download/v{version}/pal_{version}_windows_arm64.zip"
+	]
+}
