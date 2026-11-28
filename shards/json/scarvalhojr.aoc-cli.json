@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "scarvalhojr",
+		"repo": "aoc-cli"
+	},
+	"urls": [
+		"https://github.com/scarvalhojr/aoc-cli/releases/download/{github.rawTag}/aoc-cli-{version}-x86_64.msi"
+	]
+}

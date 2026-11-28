@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "poooi",
+		"repo": "poi"
+	},
+	"urls": [
+		"https://github.com/poooi/poi/releases/download/{github.rawTag}/poi-setup-{version}.exe"
+	]
+}

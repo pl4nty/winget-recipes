@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "pixel-point",
+		"repo": "kube-forwarder"
+	},
+	"urls": [
+		"https://github.com/pixel-point/kube-forwarder/releases/download/{github.rawTag}/kube-forwarder.exe"
+	]
+}

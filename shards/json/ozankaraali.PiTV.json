@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ozankaraali",
+		"repo": "PiTV",
+		"method": "api-list",
+		"tagRegex": "^(?=\\d)"
+	},
+	"urls": [
+		"https://github.com/ozankaraali/PiTV/releases/download/{github.rawTag}/PiTV-{version}.Setup.exe"
+	]
+}

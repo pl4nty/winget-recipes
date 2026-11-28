@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sandboxlab.ru/download.htm",
+		"regex": "HippoScan (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://sandboxlab.ru/soft/hipposcan/hipposcan{version|.|}setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sandboxlab.ru/hipposcandoc.htm"
+	}
+}

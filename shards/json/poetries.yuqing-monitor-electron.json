@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "poetries",
+		"repo": "yuqing-monitor-electron"
+	},
+	"urls": [
+		"https://github.com/poetries/yuqing-monitor-electron/releases/download/{github.rawTag}/windows.yuqing.monitor.Setup.{version}.exe"
+	]
+}

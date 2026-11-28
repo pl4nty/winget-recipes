@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "qcksys",
+		"repo": "qlipq"
+	},
+	"urls": [
+		"https://github.com/qcksys/qlipq/releases/download/{github.rawTag}/qlipq-setup-x64.exe"
+	]
+}
