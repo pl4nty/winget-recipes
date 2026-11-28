@@ -1,0 +1,6 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "miangee21", "repo": "Msgify-Lite" },
+	"urls": ["https://github.com/miangee21/Msgify-Lite/releases/download/v{version}/Msgify_{version}_x64_en-US.msi"]
+}
