@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.stardock.com/products/deskscapes/history",
+		"regex": "<h1>DeskScapes 2026 v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://stardock.cachefly.net/software/DeskScapes/DeskScapes2026/DeskScapes2026_setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.stardock.com/products/deskscapes/history"
+	},
+	"replace": true
+}
