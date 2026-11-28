@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.seventhstring.com/xscribe/download_windows.html",
+		"regex": "downwo/xscsetup-(\\d+\\.\\d+\\.\\d+)\\.exe"
+	},
+	"urls": [
+		"https://www.seventhstring.com/xscribe/downwo/xscsetup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.seventhstring.com/xscribe/history.html"
+	}
+}
