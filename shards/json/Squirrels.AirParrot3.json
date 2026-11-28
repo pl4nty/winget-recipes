@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://www.airsquirrels.com/airparrot/download/app/windows/64",
+			"https://www.airsquirrels.com/airparrot/download/app/windows/32"
+		],
+		"regex": "AirParrot-(\\d+(?:\\.\\d+)+)-(?:64|32)\\.msi",
+		"method": "head"
+	},
+	"urls": [
+		"https://download.airsquirrels.com/AirParrot3/Windows/AirParrot-{version}-64.msi",
+		"https://download.airsquirrels.com/AirParrot3/Windows/AirParrot-{version}-32.msi"
+	]
+}
