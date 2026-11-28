@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.realtimesoft.com/ultramon/download.asp",
+		"regex": "UltraMon_(\\d+(?:\\.\\d+)+)_en_x64\\.msi"
+	},
+	"urls": [
+		{
+			"url": "https://www.realtimesoft.com/files/UltraMon_{version}_en_x32.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://www.realtimesoft.com/files/UltraMon_{version}_en_x64.msi",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.realtimesoft.com/ultramon/relnotes/{version}.asp"
+	}
+}

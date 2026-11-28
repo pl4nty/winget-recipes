@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://rakk.ph/wp-content/uploads/2023/05/RAKK-TALAN-AIR.zip",
+			"nestedInstallerMatches": [
+				"Wireless Setup"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://rakk.ph/wp-content/uploads/2023/05/RAKK-TALAN-AIR.zip",
+		"header": "etag"
+	},
+	"replace": true
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "quadren",
+		"repo": "arc",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/quadren/arc/releases/download/{github.rawTag}/Arc_Setup.exe",
+			"architecture": "x64"
+		}
+	]
+}

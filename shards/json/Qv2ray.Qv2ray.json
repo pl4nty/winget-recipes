@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Qv2ray",
+		"repo": "Qv2ray"
+	},
+	"urls": [
+		"https://github.com/Qv2ray/Qv2ray/releases/download/{github.rawTag}/Qv2ray-v{version}-Windows-Installer.exe"
+	]
+}
