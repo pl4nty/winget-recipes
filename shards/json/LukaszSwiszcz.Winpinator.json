@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "swiszczoo",
+		"repo": "winpinator"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/swiszczoo/winpinator/releases/download/{github.rawTag}/winpinator_setup_{version}_x64.exe",
+			"architecture": "x64"
+		},
+		{
+			"url": "https://github.com/swiszczoo/winpinator/releases/download/{github.rawTag}/winpinator_setup_{version}_x86.exe",
+			"architecture": "x86"
+		}
+	]
+}

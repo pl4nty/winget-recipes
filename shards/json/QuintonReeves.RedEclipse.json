@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "redeclipse",
+		"repo": "base"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/redeclipse/base/releases/download/{github.rawTag}/redeclipse_{version}_win.exe",
+			"architecture": "x86"
+		}
+	]
+}
