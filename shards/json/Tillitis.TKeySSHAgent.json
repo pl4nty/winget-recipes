@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tillitis",
+		"repo": "tkey-ssh-agent"
+	},
+	"version": "{version}.0",
+	"urls": ["https://github.com/tillitis/tkey-ssh-agent/releases/download/v{version}/tkey-ssh-agent-{packageVersion}.msi"]
+}
