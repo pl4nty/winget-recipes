@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://artifactoryext01.keysight.com/artifactory/kal-external/KeysightSoftwareManagerUtility/",
+		"regex": "href=[\"']KeysightSoftwareManagerUtility-(\\d+(?:\\.\\d+)+)-windows\\.exe[\"']"
+	},
+	"urls": [
+		"https://artifactoryext01.keysight.com/artifactory/kal-external/KeysightSoftwareManagerUtility/KeysightSoftwareManagerUtility-{version}-windows.exe"
+	]
+}

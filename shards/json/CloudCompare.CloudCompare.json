@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://cloudcompare.org/release/index.html",
+		"regex": "Latest stable release: (\\d+(?:\\.\\d+)+)"
+	},
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://cloudcompare.org/release/CloudCompare_v{version}_setup_x64.exe"
+	]
+}

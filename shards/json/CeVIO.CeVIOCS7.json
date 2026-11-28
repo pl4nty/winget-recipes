@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://cevio.jp/downloads/",
+		"regex": "href=\"(?<url>https://www\\.dropbox\\.com/scl/fi/[^\"]+/CeVIO_Creative_Studio_x64_Setup_-(?<version>\\d+(?:\\.\\d+)+)\\.msi\\?[^\"]+)\""
+	},
+	"urls": [
+		"{captures.url}"
+	]
+}

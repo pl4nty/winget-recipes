@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "openobserve",
+		"repo": "openobserve",
+		"method": "api-sort"
+	},
+	"urls": [
+		"https://downloads.openobserve.ai/releases/openobserve/v{version}/openobserve-v{version}-windows-amd64.zip"
+	]
+}
