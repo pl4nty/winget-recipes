@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://lilypond.org/download.html",
+		"regex": "/releases/v(\\d+\\.\\d+\\.\\d+)/downloads/lilypond-\\d+\\.\\d+\\.\\d+-mingw-x86_64\\.zip"
+	},
+	"urls": ["https://gitlab.com/lilypond/lilypond/-/releases/v{version}/downloads/lilypond-{version}-mingw-x86_64.zip"]
+}
