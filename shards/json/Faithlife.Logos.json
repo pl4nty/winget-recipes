@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://downloads.logoscdn.com/LBS9/Installer/9.10.0.0017/Logos-x64.msi"
+	]
+}
