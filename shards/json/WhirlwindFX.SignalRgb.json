@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://release.signalrgb.com/RELEASES",
+		"regex": "VortxEngine-(\\d+(?:\\.\\d+)+)-full\\.nupkg"
+	},
+	"urls": ["https://release.signalrgb.com/Install_SignalRgb.exe"]
+}
