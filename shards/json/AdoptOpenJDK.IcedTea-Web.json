@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "AdoptOpenJDK",
+		"repo": "IcedTea-Web",
+		"tagRegex": "^icedtea-web-"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/AdoptOpenJDK/IcedTea-Web/releases/download/{github.rawTag}/icedtea-web-{version}.msi"
+	]
+}
