@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sublimemerge.com/updates/dev_update_check",
+		"regex": "\"latest_version\":\\s*(\\d+)"
+	},
+	"urls": ["https://download.sublimetext.com/sublime_merge_build_{version}_x64_setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sublimemerge.com/dev"
+	}
+}
