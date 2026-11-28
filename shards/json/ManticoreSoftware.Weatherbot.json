@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://manticore.nz/weatherbot",
+		"regex": "set-01__version\">\\s*(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://files.mac-attic.com/downloads/manticoresw/weatherbot/Weatherbot-windows-{version}.zip"]
+}
