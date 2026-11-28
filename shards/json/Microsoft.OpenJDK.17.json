@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://aka.ms/download-jdk/microsoft-jdk-17-windows-x64.msi",
+			"https://aka.ms/download-jdk/microsoft-jdk-17-windows-aarch64.msi"
+		],
+		"regex": "microsoft-jdk-(17(?:\\.\\d+)+)-windows"
+	},
+	"version": { "source": "display" }
+}
