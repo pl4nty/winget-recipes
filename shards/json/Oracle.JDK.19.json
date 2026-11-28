@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html",
+		"regex": "/java/19/archive/jdk-(19\\.\\d+\\.\\d+)_windows-x64_bin\\.msi"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://download.oracle.com/java/19/archive/jdk-{version}_windows-x64_bin.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.oracle.com/java/technologies/javase/{version|.|-}-relnotes.html"
+	}
+}

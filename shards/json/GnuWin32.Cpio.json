@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/cpio",
+		"regex": "/gnuwin32/files/cpio/(?<dir>[^/]+)/(?<file>cpio-(?<version>\\d+(?:\\.\\d+)+(?:-\\d+)?)(?:-setup)?\\.exe)/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnuwin32/files/cpio/{captures.dir}/{captures.file}/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gnuwin32.sourceforge.net/packages/cpio.htm"
+	}
+}

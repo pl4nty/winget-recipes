@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://dl1.wl-std.ir/WL%20Downloader%20Installer.exe",
+			"architecture": "x64"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://dl1.wl-std.ir/WL%20Downloader%20Installer.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

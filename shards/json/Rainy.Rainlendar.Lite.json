@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.rainlendar.net/",
+		"regex": "/download/(\\d+(?:\\.\\d+)+)/Rainlendar-Lite-[\\d.]+-64bit\\.exe"
+	},
+	"urls": [
+		"https://www.rainlendar.net/download/{version}/Rainlendar-Lite-{version}-64bit.exe"
+	]
+}
