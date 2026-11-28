@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.intel.com/content/www/us/en/download/822291/thunderbolt-share.html",
+		"regex": "^(?=[\\s\\S]*?downloadmirror\\.intel\\.com/(?<id>\\d+)/TSSetup\\.exe)(?=[\\s\\S]*?(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)\\s*\\(Latest\\))"
+	},
+	"urls": ["https://downloadmirror.intel.com/{captures.id}/TSSetup.exe"]
+}
