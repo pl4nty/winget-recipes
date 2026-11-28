@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.diladele.com/webproxy/download.html",
+		"regex": "/pkg/webproxy/(?<version>\\d+(?:\\.\\d+)+)\\.(?<build>[0-9A-Fa-f]+)/amd64/release/windows/webproxy-\\k<version>\\.\\k<build>_amd64\\.msi\" title=\"[^\"]*stable"
+	},
+	"version": "{version}.0",
+	"urls": [
+		{ "url": "https://www.diladele.com/pkg/webproxy/{version}.{captures.build}/amd64/release/windows/webproxy-{version}.{captures.build}_amd64.msi", "architecture": "x64" }
+	]
+}

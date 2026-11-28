@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Picorims",
+		"repo": "wav2bar"
+	},
+	"version": "{version|-beta|}",
+	"urls": [
+		"https://github.com/Picorims/wav2bar/releases/download/{github.rawTag}/Wav2Bar-win32-x64-{github.tag}.msi"
+	]
+}
