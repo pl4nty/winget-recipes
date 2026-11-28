@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "lodeapp",
+		"repo": "lode"
+	},
+	"urls": [
+		"https://github.com/lodeapp/lode/releases/download/{github.rawTag}/Lode-Setup-{version}.exe"
+	]
+}

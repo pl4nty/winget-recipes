@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ce-dric",
+		"repo": "FA2TV"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/ce-dric/FA2TV/releases/download/{github.rawTag}/installer.exe"
+	]
+}

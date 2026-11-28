@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "idrassi",
+		"repo": "DirHash",
+		"tagRegex": "^DirHash_"
+	},
+	"urls": [
+		"https://github.com/idrassi/DirHash/releases/download/{github.rawTag}/DirHash-{version}-x64.zip",
+		"https://github.com/idrassi/DirHash/releases/download/{github.rawTag}/DirHash-{version}-x86.zip",
+		"https://github.com/idrassi/DirHash/releases/download/{github.rawTag}/DirHash-{version}-arm64.zip"
+	]
+}

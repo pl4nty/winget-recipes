@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "yafp",
+		"repo": "ttth"
+	},
+	"urls": [
+		"https://github.com/yafp/ttth/releases/download/{github.rawTag}/ttth-{version}-win-installer.exe"
+	]
+}

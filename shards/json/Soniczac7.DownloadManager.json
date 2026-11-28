@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Download-Manager-Community",
+		"repo": "Download-Manager"
+	},
+	"urls": [
+		"https://github.com/Download-Manager-Community/Download-Manager/releases/download/{github.rawTag}/DownloadManagerInstallerUnpacked.zip"
+	]
+}

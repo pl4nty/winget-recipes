@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ssbc",
+		"repo": "patchwork"
+	},
+	"urls": [
+		"https://github.com/ssbc/patchwork/releases/download/{github.rawTag}/Patchwork-Setup-{version}.exe"
+	]
+}
