@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://discriminator.nl/pdw/",
+		"regex": "pdw(\\d+\\.\\d+)-full\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://discriminator.nl/pdw/pdw{version}-full.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["PDW.exe"]
+		}
+	]
+}

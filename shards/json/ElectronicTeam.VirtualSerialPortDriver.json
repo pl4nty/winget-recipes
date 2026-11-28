@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.virtual-serial-port.org/",
+		"regex": "\"softwareVersion\": \"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		{ "url": "https://cdn.electronic.us/products/vspd/windows/download/vspd.exe", "architecture": "x64" },
+		{ "url": "https://cdn.electronic.us/products/vspd/windows/download/vspd.exe", "architecture": "x86" }
+	]
+}

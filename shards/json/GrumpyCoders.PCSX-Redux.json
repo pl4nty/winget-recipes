@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://distrib.app/pub/org/pcsx-redux/project/dev-win-x64/latest"],
+		"regex": "/storage/assets/(?<path>[0-9a-f/]+)/pcsx-redux-nightly-(?<version>\\d+\\.\\d+\\.\\d+)-x64\\.zip$"
+	},
+	"urls": [
+		{
+			"url": "https://distrib.app/storage/assets/{captures.path}/pcsx-redux-nightly-{version}-x64.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["pcsx-redux.exe"]
+		}
+	]
+}

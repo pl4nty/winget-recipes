@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://www.plasticscm.com/api/lastversion/after/10.0.0.0/for/cloud/windows",
+		"path": "version"
+	},
+	"urls": [
+		{
+			"url": "https://d26z97tczqnlef.cloudfront.net/releases/{version}/plasticscm/windows/unity-vcs-on-prem-full-{version}-win.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.plasticscm.com/download/releasenotes/{version}"
+	}
+}
