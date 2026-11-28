@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.picoauto.com/downloads",
+		"regex": "https://www\\.picoauto\\.com/download/software/beta/PicoScope_7_Automotive_Early_Access_(?<version>[\\d.]+)\\.x64\\.exe"
+	},
+	"urls": [
+		"https://www.picoauto.com/download/software/beta/PicoScope_7_Automotive_Early_Access_{version}.x64.exe",
+		"https://www.picoauto.com/download/software/beta/PicoScope_7_Automotive_Early_Access_{version}.arm64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.picoauto.com/downloads"
+	}
+}
