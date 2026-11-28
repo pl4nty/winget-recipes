@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://corretto.aws/downloads/latest/amazon-corretto-18-x64-windows-jdk.msi"],
+		"regex": "/resources/(?<full>(?<version>\\d+(?:\\.\\d+){3})(?:\\.\\d+)?)/amazon-corretto-[\\d.]+-windows-x64\\.msi$"
+	},
+	"urls": ["https://corretto.aws/downloads/resources/{captures.full}/amazon-corretto-{captures.full}-windows-x64.msi"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/corretto/corretto-18/blob/develop/CHANGELOG.md"
+	}
+}

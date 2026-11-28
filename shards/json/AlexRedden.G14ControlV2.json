@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "aredden",
+		"repo": "electron-G14Control"
+	},
+	"urls": [
+		"https://github.com/aredden/electron-G14Control/releases/download/{github.rawTag}/G14ControlV2-Setup-{version}.exe"
+	]
+}

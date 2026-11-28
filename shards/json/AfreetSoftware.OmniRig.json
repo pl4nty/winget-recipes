@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.dxatlas.com/OmniRig/",
+		"regex": ">Omni-Rig (?<version>\\d+\\.\\d+)</font>"
+	},
+	"urls": [
+		"https://www.dxatlas.com/OmniRig/Files/OmniRig.zip"
+	]
+}
