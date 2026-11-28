@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "prusa3d",
+		"repo": "PrusaSlicer"
+	},
+	"versionRemove": "ersion_",
+	"urls": ["https://github.com/prusa3d/PrusaSlicer/releases/download/{github.rawTag}/PrusaSlicer-{version}-setup.exe"]
+}
