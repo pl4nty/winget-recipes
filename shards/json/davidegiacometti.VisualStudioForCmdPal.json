@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "davidegiacometti",
+		"repo": "CmdPal-Extensions",
+		"method": "api-list",
+		"tagRegex": "^vs\\-"
+	},
+	"version": "{version|s-|}",
+	"urls": [
+		"https://github.com/davidegiacometti/CmdPal-Extensions/releases/download/{github.rawTag}/DavideGiacometti.VisualStudioForCmdPal_{version|s-|}.0_arm64__vmjk9v3vswc4e.msix",
+		"https://github.com/davidegiacometti/CmdPal-Extensions/releases/download/{github.rawTag}/DavideGiacometti.VisualStudioForCmdPal_{version|s-|}.0_x64__vmjk9v3vswc4e.msix"
+	]
+}
