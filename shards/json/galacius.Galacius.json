@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "galacius",
+		"repo": "galacius"
+	},
+	"urls": [
+		"https://github.com/galacius/galacius/releases/download/v{version}/galacius-windows-amd64.exe"
+	]
+}

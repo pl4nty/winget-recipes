@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TheServer-lab",
+		"repo": "fly"
+	},
+	"urls": [
+		"https://github.com/TheServer-lab/fly/releases/download/v{version}/fly-installer-{version}.exe"
+	]
+}
