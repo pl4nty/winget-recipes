@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "whyboris",
+		"repo": "Simplest-File-Renamer"
+	},
+	"urls": [
+		"https://github.com/whyboris/Simplest-File-Renamer/releases/download/{github.rawTag}/Simplest.File.Renamer.Setup.{version}.exe"
+	]
+}

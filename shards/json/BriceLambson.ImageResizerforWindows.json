@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bricelam",
+		"repo": "ImageResizer"
+	},
+	"urls": [
+		"https://github.com/bricelam/ImageResizer/releases/download/{github.rawTag}/ImageResizerSetup-{version}.exe"
+	]
+}

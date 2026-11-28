@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.pci-z.com/",
+		"regex": "Download PCI-Z (\\d+(?:\\.\\d+)+) \\([\\d.,]+ kB\\)"
+	},
+	"urls": ["https://www.pci-z.com/current/x64/PCI-Z.exe", "https://www.pci-z.com/current/PCI-Z.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.pci-z.com/"
+	}
+}

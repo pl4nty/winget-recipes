@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "CKingX",
+		"repo": "haveibeenpwned"
+	},
+	"urls": [
+		"https://github.com/CKingX/haveibeenpwned/releases/download/{github.rawTag}/haveibeenpwned-x86-64-installer.exe"
+	]
+}

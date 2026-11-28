@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "blocktronics",
+		"repo": "moebius"
+	},
+	"urls": [
+		"https://github.com/blocktronics/moebius/releases/download/{github.rawTag}/Moebius.Setup.exe"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "claration",
+		"repo": "impactor"
+	},
+	"urls": [
+		"https://github.com/claration/impactor/releases/download/{github.rawTag}/plumesign-windows-x86.exe",
+		"https://github.com/claration/impactor/releases/download/{github.rawTag}/plumesign-windows-x86_64.exe",
+		"https://github.com/claration/impactor/releases/download/{github.rawTag}/plumesign-windows-arm64.exe"
+	]
+}
