@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "prsh9",
+		"repo": "kubectl-dashboard"
+	},
+	"urls": [
+		"https://github.com/prsh9/kubectl-dashboard/releases/download/{github.rawTag}/kube-dev-dashboard-{version}-win.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ozmartian",
+		"repo": "vidcutter"
+	},
+	"urls": [
+		"https://github.com/ozmartian/vidcutter/releases/download/{github.rawTag}/VidCutter-{version}-setup-win64.exe"
+	]
+}

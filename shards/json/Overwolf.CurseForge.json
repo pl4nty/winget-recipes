@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://curseforge.overwolf.com/downloads/curseforge-latest-win64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://curseforge.overwolf.com/downloads/curseforge-latest-win64.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

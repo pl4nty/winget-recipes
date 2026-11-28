@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.paludour.net/Barcode2Win.html",
+		"regex": "href=\"Barcode2WinSetup(\\d+)\\.exe\""
+	},
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		"https://www.paludour.net/Barcode2WinSetup{version}.exe"
+	]
+}

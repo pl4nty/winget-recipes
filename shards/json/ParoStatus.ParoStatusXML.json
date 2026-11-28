@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://downloads.parostatus.de/",
+		"regex": "<Key>releases/(\\d+(?:\\.\\d+)+)/Setup_x\\.\\d+(?:\\.\\d+)+\\.exe</Key>"
+	},
+	"urls": [
+		"https://downloads.parostatus.de/releases/{version}/Setup_x.{version}.exe"
+	]
+}
