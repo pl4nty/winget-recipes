@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://codeberg.org/api/v1/repos/PXStudio/OpenPnt/releases/latest",
+		"path": "tag_name"
+	},
+	"urls": ["https://codeberg.org/PXStudio/OpenPnt/releases/download/{version}/OpenPnt_setup.exe"]
+}
