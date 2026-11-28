@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "darknodebros",
+		"repo": "EleSync"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/darknodebros/EleSync/releases/download/{github.rawTag}/ele-windows.zip",
+			"nestedInstallerMatches": [
+				"ele.exe"
+			]
+		}
+	]
+}

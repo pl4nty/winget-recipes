@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.charruasoft.com/versions/",
+		"regex": "Charrua Workstation</span><span class=\"ver-ed\"[^>]*>CWS</span></td><td class=\"ver-num\"[^>]*><span class=\"ver-badge\"[^>]*>(?<version>\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": [
+		{
+			"url": "https://charruasoft.com/products/downloads/cws.zip",
+			"nestedInstallerMatches": [
+				"cws_install.exe"
+			]
+		}
+	],
+	"replace": true
+}

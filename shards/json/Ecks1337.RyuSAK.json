@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FennyFatal",
+		"repo": "RyuSAK"
+	},
+	"urls": [
+		"https://github.com/FennyFatal/RyuSAK/releases/download/{github.rawTag}/RyuSAK-{version}.Setup.exe"
+	]
+}
