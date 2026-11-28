@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://etx.ca/downloads/DuckDnsInst.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://etx.ca/downloads/DuckDnsInst.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

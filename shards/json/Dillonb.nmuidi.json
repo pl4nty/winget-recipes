@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Dillonb",
+		"repo": "nmuidi"
+	},
+	"urls": [
+		"https://github.com/Dillonb/nmuidi/releases/download/{github.rawTag}/nmuidi.exe"
+	]
+}
