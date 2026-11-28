@@ -1,0 +1,24 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.sordum.org/9660/",
+		"regex": "<title>Net Disabler\\s+v(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "https://www.sordum.org/files/download/net-disabler/NetDisabler.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": ["NetDisabler.exe"]
+		},
+		{
+			"url": "https://www.sordum.org/files/download/net-disabler/NetDisabler.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": ["NetDisabler_x64.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.sordum.org/9660/"
+	},
+	"replace": true
+}
