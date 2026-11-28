@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "display" },
+	"urls": [
+		"https://teams.ringcentral.com/assets/desktop-plugin/avaya/latest/windows/AvayaCloudOfficeForTeamsDesktopPlugin-admin.msi"
+	]
+}

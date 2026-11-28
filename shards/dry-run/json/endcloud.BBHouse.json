@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "endcloud",
+		"repo": "bbhouse-tauri",
+		"method": "api-sort",
+		"assetRegex": "_x64_en-US\\.msi$"
+	}
+}

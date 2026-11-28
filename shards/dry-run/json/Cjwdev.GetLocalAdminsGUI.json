@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://cjwdev.com/Software/GetLocalAdminsGUI/GetLocalAdminsGUI.zip",
+			"nestedInstallerMatches": [
+				"GetLocalAdminsGUISetup.exe"
+			]
+		}
+	]
+}
