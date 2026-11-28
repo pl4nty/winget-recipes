@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.smartgit.dev/download/",
+		"regex": "download\\.smartgit\\.dev/smartgit/smartgit-(?<version>(?<minor>\\d+_\\d+)_\\d+)-win-installer\\.zip"
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://download.smartgit.dev/smartgit/smartgit-{version}-win-installer.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.smartgit.dev/changelogs/changelog-{captures.minor|_|.}.txt"
+	}
+}
