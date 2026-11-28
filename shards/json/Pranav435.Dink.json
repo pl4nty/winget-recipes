@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Pranav435",
+		"repo": "dink"
+	},
+	"urls": [
+		"https://github.com/Pranav435/dink/releases/download/v{version}/dink_installer_windows.exe"
+	]
+}

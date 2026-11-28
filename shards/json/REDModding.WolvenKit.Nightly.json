@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WolvenKit",
+		"repo": "WolvenKit-nightly-releases",
+		"method": "api-latest"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/download/{github.rawTag}/WolvenKit.NightlySetup-{github.rawTag}.exe",
+			"architecture": "x64"
+		}
+	]
+}

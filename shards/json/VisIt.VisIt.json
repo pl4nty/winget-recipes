@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "visit-dav",
+		"repo": "visit"
+	},
+	"urls": [
+		"https://github.com/visit-dav/visit/releases/download/{github.rawTag}/visit{version}_x64.exe"
+	]
+}

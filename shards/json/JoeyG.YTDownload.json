@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Joey451-OG",
+		"repo": "YT-Download"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/Joey451-OG/YT-Download/releases/download/{github.rawTag}/YT-Download-Installer.msi",
+			"architecture": "x64"
+		}
+	]
+}
