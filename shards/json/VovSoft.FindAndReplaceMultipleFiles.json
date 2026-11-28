@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/find-and-replace-multiple-files/",
+		"regex": "<span class=\"notranslate\">Find And Replace Multiple Files (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		"https://files.vovsoft.com/find-and-replace-multiple-files.exe",
+		"https://files.vovsoft.com/find-and-replace-multiple-files-portable.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/find-and-replace-multiple-files/"
+	}
+}
