@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RestApia",
+		"repo": "Releases.Win.Stable",
+		"tagRegex": "-win-stable$"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/RestApia/Releases.Win.Stable/releases/download/{github.rawTag}/RestApia-win-stable-Setup.exe",
+			"architecture": "x64"
+		}
+	]
+}

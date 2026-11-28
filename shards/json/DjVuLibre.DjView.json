@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/djvu/rss?path=/DjVuLibre_Windows",
+		"regex": "/DjVuLibre_Windows/(?<version>\\d+(?:\\.\\d+)+)%2B(?<djview>\\d+(?:\\.\\d+)+)/(?<file>DjVuLibre-\\d+(?:\\.\\d+)+_DjView-\\d+(?:\\.\\d+)+_Setup\\.exe)/download"
+	},
+	"version": "{version}+{captures.djview}",
+	"urls": [
+		"https://sourceforge.net/projects/djvu/files/DjVuLibre_Windows/{version}+{captures.djview}/{captures.file}/download"
+	]
+}
