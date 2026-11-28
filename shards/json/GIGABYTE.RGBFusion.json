@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://download.gigabyte.com/FileList/Utility/RGB_Fusion_B26.0923.1.zip?v=45f96f62eb51fd4fccfb70028f7ee0ce"
+	]
+}
