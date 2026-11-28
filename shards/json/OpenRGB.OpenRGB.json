@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://codeberg.org/api/v1/repos/OpenRGB/OpenRGB/releases/latest",
+		"regex": "\"tag_name\":\"release_(?<version>\\d+\\.\\d+)\"[\\s\\S]*?\"html_url\":\"(?<page>[^\"]+)\"[\\s\\S]*?\"browser_download_url\":\"(?<msi>[^\"]*_Windows_64_[0-9a-f]+\\.msi)\""
+	},
+	"version": "{version}.0",
+	"urls": ["{captures.msi}"],
+	"releaseNotes": {
+		"releaseNotesUrl": "{captures.page}"
+	}
+}
