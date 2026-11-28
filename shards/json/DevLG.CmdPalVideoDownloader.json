@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "DevLGuilherme", "repo": "CmdPal-VideoDownloader" },
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/DevLGuilherme/CmdPal-VideoDownloader/releases/download/v{version}/DevLG.VideoDownloaderforCommandPalette_{version}.0_arm64.Msix",
+		"https://github.com/DevLGuilherme/CmdPal-VideoDownloader/releases/download/v{version}/DevLG.VideoDownloaderforCommandPalette_{version}.0_x64.Msix"
+	]
+}

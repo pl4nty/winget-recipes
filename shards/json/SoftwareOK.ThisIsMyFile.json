@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.softwareok.com/?seite=Freeware/ThisIsMyFile",
+		"regex": "<title>ThisIsMyFile (\\d+(?:\\.\\d+)+) "
+	},
+	"urls": [
+		"https://www.softwareok.com/Download/ThisIsMyFile_x64.zip",
+		"https://www.softwareok.com/Download/ThisIsMyFile.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.softwareok.com/?seite=Freeware/ThisIsMyFile/History"
+	}
+}

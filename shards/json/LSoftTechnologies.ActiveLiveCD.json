@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.livecd.com/version-history.html",
+		"regex": "<td>Version (\\d+(?:\\.\\d+){2,})</td>"
+	},
+	"urls": ["https://download.lsoft.net/ActiveLiveCD.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.livecd.com/version-history.html"
+	}
+}

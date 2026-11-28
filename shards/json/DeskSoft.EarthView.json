@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.desksoft.com/EarthView_Version.htm",
+		"regex": "<p class=HF>Version (\\d+(?:\\.\\d+)+)<"
+	},
+	"urls": ["https://www.desksoft.com/Download/EVSetup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.desksoft.com/EarthView_Version.htm"
+	}
+}

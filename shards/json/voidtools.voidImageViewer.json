@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "voidtools", "repo": "voidImageViewer" },
+	"urls": [
+		"https://www.voidtools.com/voidImageViewer-{version}.x86.en-US-Setup.exe",
+		"https://www.voidtools.com/voidImageViewer-{version}.x64.en-US-Setup.exe"
+	]
+}
