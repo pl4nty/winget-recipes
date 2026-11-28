@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://cydia.saurik.com/api/latest/2"
+		],
+		"regex": "/Impactor_(\\d+(?:\\.\\d+)+)\\.zip$"
+	}
+}

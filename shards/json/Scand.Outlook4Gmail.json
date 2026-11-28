@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://outlook4gmail.scand.com/downloads/Outlook4GmailSetup.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://outlook4gmail.scand.com/downloads/Outlook4GmailSetup.exe",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://outlook4gmail.scand.com/changelog/"
+	},
+	"cleanup": false,
+	"replace": true
+}

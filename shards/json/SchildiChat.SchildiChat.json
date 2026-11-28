@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SchildiChat",
+		"repo": "schildichat-desktop"
+	},
+	"urls": [
+		"https://github.com/SchildiChat/schildichat-desktop/releases/download/{github.rawTag}/SchildiChat_Setup_{github.rawTag}.exe"
+	]
+}

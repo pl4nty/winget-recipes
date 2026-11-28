@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "saxobroko",
+		"repo": "Ginger-Chrome"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://github.com/saxobroko/Ginger-Chrome/releases/download/{github.rawTag}/gingerinstall.exe"
+	]
+}

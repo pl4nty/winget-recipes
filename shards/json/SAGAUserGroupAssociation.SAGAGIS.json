@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/saga-gis/rss?path=/",
+		"regex": "/files/SAGA%20-%20(?<major>\\d+)/SAGA%20-%20(?<version>\\d+(?:\\.\\d+)+)/saga-\\d+(?:\\.\\d+)+_msw_setup\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/saga-gis/files/SAGA%20-%20{captures.major}/SAGA%20-%20{version}/saga-{version}_msw_setup.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/p/saga-gis/wiki/Changelog%20{version}/attachment/changelog_saga_{version}.txt"
+	},
+	"cleanup": false
+}

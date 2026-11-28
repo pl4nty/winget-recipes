@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://www.safer-networking.org/antibeaconallocator.php"
+		],
+		"regex": "/SpybotAntiBeacon-(\\d+(?:\\.\\d+)+)-setup\\.exe$"
+	},
+	"urls": [
+		"https://download.spybot.info/AntiBeacon/SpybotAntiBeacon-{version}-setup.exe"
+	]
+}

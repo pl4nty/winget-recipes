@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "saisandeepvaddi",
+		"repo": "ten-hands"
+	},
+	"urls": [
+		"https://github.com/saisandeepvaddi/ten-hands/releases/download/{github.rawTag}/Ten.Hands.Setup.{version}.exe"
+	]
+}

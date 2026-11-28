@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://artefatos-assinador.serpro.gov.br/",
+		"regex": "/downloads/(\\d+(?:\\.\\d+)+)/Assinador-Serpro-\\d+(?:\\.\\d+)+-Windows-x86_64\\.exe"
+	},
+	"urls": [
+		"https://artefatos-assinador.serpro.gov.br/downloads/{version}/Assinador-Serpro-{version}-Windows-x86_64.exe"
+	]
+}
