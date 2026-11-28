@@ -1,0 +1,25 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.mitec.cz/wp/xml/vh_xmlv.xml",
+		"regex": "<VERSION>(\\d+(?:\\.\\d+)+)</VERSION>"
+	},
+	"urls": [
+		{
+			"url": "https://www.mitec.cz/wp/files/XMLView.zip",
+			"nestedInstallerMatches": [
+				"XMLView.exe"
+			]
+		},
+		{
+			"url": "https://www.mitec.cz/wp/files/XMLView.zip",
+			"nestedInstallerMatches": [
+				"XMLView64.exe"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.mitec.cz/wp/xml/vh_xmlv.xml"
+	}
+}

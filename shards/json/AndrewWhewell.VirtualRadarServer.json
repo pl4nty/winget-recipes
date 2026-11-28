@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.virtualradarserver.co.uk/Download.aspx",
+		"regex": "id=\"server-collapse\"[\\s\\S]*?Version (\\d+(?:\\.\\d+)+)<br"
+	},
+	"urls": ["https://www.virtualradarserver.co.uk/Files/VirtualRadarSetup-x64.exe", "https://www.virtualradarserver.co.uk/Files/VirtualRadarSetup.exe"]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hanewin.net/tftp-e.htm",
+		"regex": "https://r\\.hanewin\\.net/tftp(\\d+)\\.exe"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": ["https://r.hanewin.net/tftp{version}.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.hanewin.net/doc/tftp/readme.txt"
+	}
+}

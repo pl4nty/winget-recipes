@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://nevercenter.com/silo/download/?filetype=milowin",
+		"regex": "filearchive/Install_Milo_(?<version>\\d+_\\d+_\\d+)_win\\.exe"
+	},
+	"version": "{version|_|.}",
+	"urls": ["https://nevercenter.com/silo/download/filearchive/Install_Milo_{captures.version}_win.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://nevercenter.com/silo/features/#release_notes"
+	}
+}

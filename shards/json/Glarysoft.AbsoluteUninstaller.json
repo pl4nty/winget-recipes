@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.glarysoft.com/absolute-uninstaller/",
+		"regex": "<span class=\"au_index_ver\">(\\d+(?:\\.\\d+)+)</span>"
+	},
+	"urls": ["https://download.glarysoft.com/ausetup.exe"]
+}

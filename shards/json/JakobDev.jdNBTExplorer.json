@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "jdnbtexplorer",
+		"file": "jdNBTExplorer-{version}-WindowsInstaller.exe"
+	},
+	"urls": ["https://sourceforge.net/projects/jdnbtexplorer/files/{version}/jdNBTExplorer-{version}-WindowsInstaller.exe/download"]
+}

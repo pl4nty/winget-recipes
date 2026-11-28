@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www-fourier.univ-grenoble-alpes.fr/~parisse/install_en.html",
+		"regex": "giac/xcaswininst\\.exe\">[^<]*</a> \\((\\d+\\.\\d+\\.\\d+-\\d+) "
+	},
+	"urls": [
+		"https://www-fourier.univ-grenoble-alpes.fr/~parisse/giac/xcaswininst.exe"
+	]
+}

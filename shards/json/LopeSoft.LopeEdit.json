@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.lopesoft.com/index.php/en/lopeedit/changelog",
+		"regex": "itemprop=\"headline\">\\s*v(\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.lopesoft.com/lopeedit/LopeEdit-setup.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.lopesoft.com/index.php/en/lopeedit/changelog"
+	}
+}

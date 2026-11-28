@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "jdmrpackinstaller",
+		"file": "jdMrpackInstaller-{version}-WindowsInstaller.exe"
+	},
+	"urls": ["https://sourceforge.net/projects/jdmrpackinstaller/files/{version}/jdMrpackInstaller-{version}-WindowsInstaller.exe/download"]
+}

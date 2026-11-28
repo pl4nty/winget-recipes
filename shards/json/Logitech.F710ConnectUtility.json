@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support.logi.com/hc/en-us/articles/360025130154",
+		"regex": "/F710ConnectUtility_(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://download01.logi.com/web/ftp/pub/techsupport/joystick/F710ConnectUtility_{version}.exe"]
+}
