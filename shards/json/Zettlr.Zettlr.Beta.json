@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Zettlr",
+		"repo": "Zettlr",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"urls": [
+		"https://github.com/Zettlr/Zettlr/releases/download/{github.rawTag}/Zettlr-{version}-x64.exe"
+	]
+}

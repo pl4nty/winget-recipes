@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "WowUp",
+		"repo": "WowUp.CF",
+		"method": "api-list",
+		"kind": "prerelease",
+		"tagRegex": "^v(?=\\d+(?:\\.\\d+)+-beta\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/WowUp/WowUp.CF/releases/download/{github.rawTag}/WowUp-CF-Setup-{version}.exe"
+	]
+}
