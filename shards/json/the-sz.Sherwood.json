@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/products/sherwood/",
+		"regex": "class=\"download-link\"[^>]*title=\"Version (?<version>\\d+(?:\\.\\d+)+) &middot;"
+	},
+	"urls": [
+		"https://the-sz.com/products/sherwood/history/{version}/Sherwood.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=sherwood"
+	}
+}

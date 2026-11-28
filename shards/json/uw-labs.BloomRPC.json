@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "bloomrpc",
+		"repo": "bloomrpc"
+	},
+	"urls": [
+		"https://github.com/bloomrpc/bloomrpc/releases/download/{github.rawTag}/BloomRPC-Setup-{version}.exe"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ugetdm",
+		"repo": "uget-windows-installer",
+		"tagRegex": "-\\d+$"
+	},
+	"urls": [
+		"https://github.com/ugetdm/uget-windows-installer/releases/download/{github.rawTag}/uGet-{github.tag}-win32.gtk3.exe"
+	]
+}

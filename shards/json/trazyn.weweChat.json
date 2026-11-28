@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "trazyn",
+		"repo": "weweChat"
+	},
+	"urls": [
+		"https://github.com/trazyn/weweChat/releases/download/{github.rawTag}/wewechat-{version}-win-setup.exe"
+	]
+}
