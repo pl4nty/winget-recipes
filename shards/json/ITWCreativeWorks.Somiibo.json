@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "product"
+	},
+	"github": {
+		"owner": "somiibo",
+		"repo": "download-server"
+	},
+	"urls": [
+		"https://github.com/somiibo/download-server/releases/download/{github.rawTag}/Somiibo-Setup.exe"
+	]
+}
