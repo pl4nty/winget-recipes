@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://vovsoft.com/version-history/batch-translator/",
+		"regex": "<span class=\"notranslate\">Batch Translator (?<version>\\d+\\.\\d+)</span>"
+	},
+	"version": "{version}.0.0",
+	"urls": ["https://files.vovsoft.com/batch-translator.exe", "https://files.vovsoft.com/batch-translator-portable.zip"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://vovsoft.com/version-history/batch-translator/"
+	}
+}
