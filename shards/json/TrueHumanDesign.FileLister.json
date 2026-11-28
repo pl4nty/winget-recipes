@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://truehumandesign.se/s_filelister.php",
+		"regex": "<b>Version:</b>\\s*(\\d+(?:\\.\\d+)+)<br"
+	},
+	"urls": ["https://truehumandesign.se/dl.php?file=FilelisterSetup-{version}.exe"]
+}
