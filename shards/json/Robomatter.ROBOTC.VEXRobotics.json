@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.robotvirtualworlds.com/",
+		"regex": "href=\"(?<path>files/free-trial/ROBOTCforVEXRobotics_(?<version>\\d+)Release[^\"]*\\.exe)\""
+	},
+	"version": { "source": "product" },
+	"state": { "source": "value", "value": "{version}" },
+	"urls": ["https://www.robotvirtualworlds.com/{captures.path}"]
+}
