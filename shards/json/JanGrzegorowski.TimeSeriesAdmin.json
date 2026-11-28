@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "timeseriesadmin",
+		"repo": "timeseriesadmin"
+	},
+	"urls": [
+		"https://github.com/timeseriesadmin/timeseriesadmin/releases/download/{github.rawTag}/TimeSeriesAdmin.exe"
+	]
+}

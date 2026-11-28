@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.jriver.com/download.html",
+		"regex": "files\\.jriver-cdn\\.com/mediacenter/channels/v(?<version>\\d+)/stable/MediaCenter(?<build>\\d+)\\.exe"
+	},
+	"urls": [
+		"https://files.jriver-cdn.com/mediacenter/channels/v{version}/stable/MediaCenter{captures.build}.exe",
+		"https://files.jriver-cdn.com/mediacenter/channels/v{version}/stable/MediaCenter{captures.build}-x64.exe"
+	]
+}

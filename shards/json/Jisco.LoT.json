@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Jisco",
+		"repo": "LotOfThings"
+	},
+	"urls": [
+		"https://github.com/Jisco/LotOfThings/releases/download/{github.rawTag}/LoT.{version}.exe"
+	]
+}
