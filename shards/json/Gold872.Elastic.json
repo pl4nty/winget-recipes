@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Gold872",
+		"repo": "elastic_dashboard",
+		"method": "api-list",
+		"kind": "all"
+	},
+	"urls": [
+		"https://github.com/Gold872/elastic_dashboard/releases/download/{github.rawTag}/elastic-setup-windows.exe"
+	]
+}
