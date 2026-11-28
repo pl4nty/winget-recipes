@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "buzz-captions"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/buzz-captions/files/Buzz-{version}-Windows-X64.zip/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/chidiwilliams/buzz/releases/tag/v{version}"
+	}
+}
