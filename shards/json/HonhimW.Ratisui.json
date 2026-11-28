@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "honhimW",
+		"repo": "ratisui"
+	},
+	"urls": [
+		"https://github.com/honhimW/ratisui/releases/download/{github.rawTag}/ratisui-windows-amd64.zip"
+	]
+}

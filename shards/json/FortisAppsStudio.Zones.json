@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://fortis-apps-studio.com/download"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://fortis-apps-studio.com/download",
+		"header": "content-disposition"
+	},
+	"replace": true,
+	"cleanup": false
+}

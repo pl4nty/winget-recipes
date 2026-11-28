@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ezoa-page",
+		"repo": "ECHOOF"
+	},
+	"urls": ["https://github.com/ezoa-page/ECHOOF/releases/download/{github.rawTag}/ECHOOF.msi"]
+}

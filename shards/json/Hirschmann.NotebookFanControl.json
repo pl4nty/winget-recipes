@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "hirschmann",
+		"repo": "nbfc"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://github.com/hirschmann/nbfc/releases/download/{github.rawTag}/NoteBookFanControl.{version}.setup.exe"
+	]
+}
