@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support.zermelo.nl/downloads/files/laatste-desktopversie",
+		"regex": "downloads\\.zermelo\\.nl/programmas/zermelo64-(?<year>\\d+)-(?<month>\\d+)-(?<patch>\\d+)-setup\\.exe"
+	},
+	"version": "{captures.year}.{captures.month}.{captures.patch}",
+	"urls": ["https://downloads.zermelo.nl/programmas/zermelo64-{captures.year}-{captures.month}-{captures.patch}-setup.exe"]
+}
