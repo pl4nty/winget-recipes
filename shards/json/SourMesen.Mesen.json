@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "SourMesen",
+		"repo": "Mesen"
+	},
+	"urls": [
+		"https://github.com/SourMesen/Mesen/releases/download/{github.rawTag}/Mesen.{version}.zip"
+	]
+}

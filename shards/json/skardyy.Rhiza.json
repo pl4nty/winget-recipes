@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Skardyy",
+		"repo": "Rhiza",
+		"method": "api-latest",
+		"assetRegex": "^rhiza-[0-9.]+-x86_64\\.msi$"
+	}
+}

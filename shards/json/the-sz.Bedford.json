@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://the-sz.com/common/history.php?product=bedford",
+		"regex": "get\\.php\\?product=bedford&(?:amp;)?version=(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://the-sz.com/products/bedford/history/{version}/Bedford.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://the-sz.com/common/history.php?product=bedford"
+	}
+}
