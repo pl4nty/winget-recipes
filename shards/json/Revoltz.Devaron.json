@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://devaron.app/",
+		"regex": "DevaronInstaller\\.exe\\?v=(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://devaron.app/DevaronInstaller.exe?v={version}"
+	]
+}
