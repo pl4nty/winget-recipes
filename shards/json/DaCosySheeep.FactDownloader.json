@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "DaCosySheeep",
+		"repo": "FactDownloader"
+	},
+	"urls": [
+		"https://github.com/DaCosySheeep/FactDownloader/releases/download/{github.rawTag}/factdownloader-{version}-setup.exe"
+	]
+}
