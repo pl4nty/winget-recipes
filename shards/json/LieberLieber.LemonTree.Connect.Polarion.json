@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://help.lieberlieber.com/Polarion/current-version/",
+		"regex": "LemonTree\\.Connect for Polarion (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"https://customers.lieberlieber.com/Downloads/LemonTree/Connect/Polarion/LemonTree.Connect.Polarion_{version}.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://help.lieberlieber.com/Polarion/current-version/"
+	}
+}

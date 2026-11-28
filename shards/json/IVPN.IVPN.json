@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://repo.ivpn.net/windows/update.json",
+		"path": "generic.version"
+	},
+	"urls": [
+		"https://repo.ivpn.net/windows/bin/IVPN-Client-v{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/ivpn/desktop-app/releases/tag/v{version}"
+	}
+}

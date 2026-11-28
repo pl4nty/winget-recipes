@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.kutasoftware.com/trial/icadl.html",
+		"regex": "/trial/win/ICA-Trial-(\\d+(?:\\.\\d+)+)-x64\\.msi"
+	},
+	"urls": [
+		"https://cdn.kutasoftware.com/trial/win/ICA-Trial-{version}-x64.msi",
+		"https://cdn.kutasoftware.com/trial/win/ICA-Trial-{version}-ARM64.msi"
+	]
+}

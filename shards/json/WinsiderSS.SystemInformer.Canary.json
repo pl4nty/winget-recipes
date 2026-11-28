@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "winsiderss",
+		"repo": "si-builds"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/winsiderss/si-builds/releases/download/{github.rawTag}/systeminformer-build-canary-setup.exe",
+			"architecture": "neutral"
+		}
+	]
+}

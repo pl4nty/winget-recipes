@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "paolosalvatori",
+		"repo": "ServiceBusExplorer"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/paolosalvatori/ServiceBusExplorer/releases/download/{github.rawTag}/ServiceBusExplorer-{version}.zip",
+			"architecture": "x64"
+		}
+	]
+}
