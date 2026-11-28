@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://its.pku.edu.cn/download_ipgwclient.jsp",
+		"regex": "/pku_gateway_apps/win/dist/PKU_Gateway_win_(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://its.pku.edu.cn/pku_gateway_apps/win/dist/PKU_Gateway_win_{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://its.pku.edu.cn/download_ipgwclient.jsp"
+	}
+}

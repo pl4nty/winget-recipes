@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://thinkman.com/dimension4/download.htm",
+		"regex": "href=\"d4time(?<file>\\d+)\\.msi\">Download Dimension 4 v(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		"http://thinkman.com/dimension4/d4time{captures.file}.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "http://thinkman.com/dimension4/download.htm"
+	}
+}

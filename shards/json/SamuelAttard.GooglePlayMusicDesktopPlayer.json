@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MarshallOfSound",
+		"repo": "Google-Play-Music-Desktop-Player-UNOFFICIAL-"
+	},
+	"urls": [
+		"https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/releases/download/{github.rawTag}/Google.Play.Music.Desktop.Player.Setup.exe"
+	]
+}

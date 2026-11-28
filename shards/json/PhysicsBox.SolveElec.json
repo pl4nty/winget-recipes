@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://www.physicsbox.com/indexsolveelec2en.html",
+		"regex": "Solve Elec (\\d+\\.\\d+) for Windows"
+	},
+	"urls": [
+		"http://www.physicsbox.com/appfiles/solveelec{version|.|}frsetup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "http://www.physicsbox.com/indexsolveelec2en.html"
+	}
+}

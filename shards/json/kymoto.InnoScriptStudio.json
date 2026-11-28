@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://www.kymoto.org/downloads/ISStudio_Latest.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.kymoto.org/downloads/ISStudio_Latest.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.kymoto.org/#release-history"
+	},
+	"replace": true
+}
