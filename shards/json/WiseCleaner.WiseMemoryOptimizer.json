@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://www.wisecleaner.com/index.php?r=download-product/latest-version&product=wise-memory-optimizer"],
+		"regex": "/soft/WMOSetup_(\\d+\\.\\d+\\.\\d+)\\.\\d+\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://wisecleaner.blogspot.com/search?q=%22Wise+Memory+Optimizer+v{version}%22"
+	},
+	"cleanup": false
+}

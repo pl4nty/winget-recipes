@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "http://jacquelin.potier.free.fr/CryptoStuff/history.php",
+		"regex": "Version (\\d+(?:\\.\\d+)+)"
+	},
+	"urls": [
+		{
+			"url": "http://jacquelin.potier.free.fr/exe/CryptoStuff_bin.zip",
+			"nestedInstallerMatches": ["CryptoStuff.exe"]
+		},
+		{
+			"url": "http://jacquelin.potier.free.fr/exe/CryptoStuff_bin64.zip",
+			"nestedInstallerMatches": ["CryptoStuff64.exe"]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "http://jacquelin.potier.free.fr/CryptoStuff/history.php"
+	},
+	"cleanup": false,
+	"replace": true
+}

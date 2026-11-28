@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": { "source": "file" },
+	"urls": ["https://sourceforge.net/projects/freenfs/files/Current%20Version/FreeNFS.exe/download"],
+	"state": {
+		"source": "response-header",
+		"url": "https://sourceforge.net/projects/freenfs/files/Current%20Version/FreeNFS.exe/download",
+		"header": "etag"
+	},
+	"replace": true
+}
