@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://phrasevault.app/download/windows"
+		],
+		"regex": "/PhraseVault-Setup-(?<version>\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://phrasevault.app"
+	}
+}
