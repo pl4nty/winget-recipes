@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "DxCapsViewer"
+	},
+	"urls": [
+		"https://github.com/microsoft/DxCapsViewer/releases/download/{github.rawTag}/dxcapsviewer.exe"
+	],
+	"version": {
+		"source": "product"
+	}
+}
