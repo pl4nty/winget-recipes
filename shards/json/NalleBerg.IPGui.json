@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://prog.nalle.no/nb/home/ipgui",
+		"regex": "/user/(?<path>[^\"' ]+)/IPGui-(?<version>\\d+(?:\\.\\d+)+)-Setup\\.msi"
+	},
+	"urls": ["https://prog.nalle.no/user/{captures.path}/IPGui-{version}-Setup.msi"]
+}
