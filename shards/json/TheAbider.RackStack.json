@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "TheAbider",
+		"repo": "RackStack"
+	},
+	"urls": [
+		{ "url": "https://github.com/TheAbider/RackStack/releases/download/v{version}/RackStack.exe", "architecture": "x64" }
+	]
+}
