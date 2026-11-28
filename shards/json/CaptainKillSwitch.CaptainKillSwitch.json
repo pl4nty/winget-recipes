@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "captainkillswitch",
+		"repo": "downloads"
+	},
+	"urls": [
+		"https://github.com/captainkillswitch/downloads/releases/download/{github.rawTag}/captain-kill-switch-{version}-windows-x64.msi"
+	]
+}

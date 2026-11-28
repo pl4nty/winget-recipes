@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dixieflatline76",
+		"repo": "nacho-flow"
+	},
+	"urls": [
+		"https://github.com/dixieflatline76/nacho-flow/releases/download/{github.rawTag}/nacho-flow-{version}-windows-amd64.exe"
+	]
+}

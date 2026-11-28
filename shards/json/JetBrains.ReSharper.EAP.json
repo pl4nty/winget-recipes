@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://data.services.jetbrains.com/products/releases?code=RSU&latest=true&type=eap",
+		"path": "RSU.0.version"
+	},
+	"version": "{version|.EAP| EAP }",
+	"urls": [
+		{
+			"url": "RSU.0.downloads.windowsWeb.link",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.jetbrains.com/resharper/nextversion/"
+	}
+}
