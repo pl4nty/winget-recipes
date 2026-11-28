@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://datacore.mydrive.danfoss.com/assets/1a46936b-6b64-4854-9637-306d20ea88e2?download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://suite.mydrive.danfoss.com/content/tools?tags=iC2%20Series&category=all&id=24&lang=EN&release=open"
+	}
+}
