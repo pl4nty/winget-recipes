@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://jangafx.com/software/gametextureviewer/download",
+		"regex": "gtv/installers/gtv_setup_(\\d+(?:_\\d+)+)\\.exe"
+	},
+	"version": "{version|_|.}",
+	"urls": [
+		{
+			"url": "https://jangafx-software-files.s3.amazonaws.com/gtv/installers/gtv_setup_{version}.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://jangafx.com/software/gametextureviewer"
+	}
+}

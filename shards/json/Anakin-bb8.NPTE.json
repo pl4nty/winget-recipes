@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Anakin-bb8",
+		"repo": "Nuitka-GUI-NPTE",
+		"tagRegex": "^NPTE"
+	},
+	"urls": [
+		"https://github.com/Anakin-bb8/Nuitka-GUI-NPTE/releases/download/{github.rawTag}/NPTESetup{version}.exe"
+	]
+}

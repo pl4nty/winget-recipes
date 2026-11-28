@@ -1,0 +1,21 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "gurnec",
+		"repo": "HashCheck"
+	},
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/gurnec/HashCheck/releases/download/{github.rawTag}/HashCheckSetup-{github.rawTag}.exe",
+			"architecture": "neutral"
+		}
+	],
+	"state": {
+		"source": "value",
+		"value": "{github.rawTag}"
+	}
+}
