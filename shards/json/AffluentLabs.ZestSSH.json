@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://zestssh.com/download",
+		"regex": "/downloads/ZestSSH\\-(\\d+(?:\\.\\d+)+)\\-Setup\\.exe"
+	},
+	"urls": [
+		"https://zestssh.com/downloads/ZestSSH-{version}-Setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://zestssh.com/changelog"
+	}
+}
