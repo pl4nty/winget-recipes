@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "kipergrof",
+		"repo": "ShortcutForge"
+	},
+	"urls": [
+		"https://github.com/kipergrof/ShortcutForge/releases/download/{github.rawTag}/ShortcutForge-{version}-win-x64.exe"
+	]
+}
