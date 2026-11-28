@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "microsoft",
+		"repo": "hidtools",
+		"tagRegex": "^Waratah\\-v"
+	},
+	"urls": [
+		"https://github.com/microsoft/hidtools/releases/download/Waratah-v{version}/Waratah-Published.zip"
+	]
+}
