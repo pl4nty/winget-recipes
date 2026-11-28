@@ -1,0 +1,10 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download-center.epson.com/f/module/1de56c83-75b6-4f1d-b105-4219dd38972d/EpsonConnect1411.exe"
+	]
+}
