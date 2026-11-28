@@ -1,0 +1,27 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.richwhitehouse.com/index.php?content=inc_projects.php",
+		"regex": "filemirror=noesisv(\\d+)\\.zip"
+	},
+	"urls": [
+		{
+			"url": "https://www.richwhitehouse.com/filemirror/noesisv{version}.zip",
+			"architecture": "x86",
+			"nestedInstallerMatches": [
+				"Noesis.exe"
+			]
+		},
+		{
+			"url": "https://www.richwhitehouse.com/filemirror/noesisv{version}.zip",
+			"architecture": "x64",
+			"nestedInstallerMatches": [
+				"Noesis64.exe"
+			]
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.richwhitehouse.com/index.php?content=inc_projects.php"
+	}
+}

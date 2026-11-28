@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.saharlow.com/technology/sigmira/",
+		"regex": "sigtools_(\\d+r\\d+)_installer\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://www.saharlow.com/technology/sigtools_{version}_installer.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.saharlow.com/technology/sigmira/"
+	}
+}

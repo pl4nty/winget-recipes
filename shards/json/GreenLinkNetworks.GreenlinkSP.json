@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://www.greenlinknetworks.com/assets/downloads/greenlink_softphone.msi",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.greenlinknetworks.com/assets/downloads/greenlink_softphone.msi",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.greenlinknetworks.com/download"
+	},
+	"replace": true
+}

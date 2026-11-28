@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.lc-tech.com/productdemo/RP/RPDLXWIN.zip",
+			"architecture": "x86"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.lc-tech.com/productdemo/RP/RPDLXWIN.zip",
+		"header": "etag"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://lc-tech.com/sandisk-rescuepro-and-rescuepro-deluxe/"
+	},
+	"replace": true
+}
