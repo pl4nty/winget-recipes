@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hec.usace.army.mil/software/hec-rpt/downloads.aspx",
+		"regex": "href=\"downloads/(?<file>HEC-RPT_\\d+_Setup\\.exe)\"><span class=\"fas fa-download\"></span> Download</a> HEC-RPT\\s+(?<version>\\d+(?:\\.\\d+)+)"
+	},
+	"urls": ["https://www.hec.usace.army.mil/software/hec-rpt/downloads/{captures.file}"]
+}
