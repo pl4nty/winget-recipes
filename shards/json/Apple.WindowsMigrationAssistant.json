@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://support.apple.com/en-us/118595",
+		"regex": "Windows Migration Assistant v(?<version>\\d+(?:\\.\\d+){3})[\\s\\S]*?https://updates\\.cdn-apple\\.com/(?<path>[^\"]+?)/WindowsMigrationAssistantSetup\\.exe"
+	},
+	"urls": [{ "url": "https://updates.cdn-apple.com/{captures.path}/WindowsMigrationAssistantSetup.exe", "architecture": "x86" }]
+}
