@@ -1,0 +1,23 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://community.rootsmagic.com/t/rootsmagic-update-history/6700.json",
+		"regex": "\\\\u003cstrong\\\\u003e(?<version>10\\.\\d+\\.\\d+) - "
+	},
+	"version": "{version}.0",
+	"urls": [
+		{
+			"url": "https://files.rootsmagic.com/RM10/RootsMagic10Setup.exe",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://files.rootsmagic.com/RM10/RootsMagic10SetupX64.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://community.rootsmagic.com/t/rootsmagic-update-history/6700"
+	},
+	"replace": true
+}
