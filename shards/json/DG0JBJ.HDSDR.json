@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.hdsdr.de/wnew.html",
+		"regex": "Version (\\d+\\.\\d+[a-z]?) \\("
+	},
+	"urls": ["https://hdsdr.de/download/HDSDR_install.exe"],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.hdsdr.de/wnew.html"
+	}
+}
