@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.reaper.fm/download.php",
+		"regex": "REAPER v(?<version>\\d+\\.\\d+) - [\\s\\S]*?href=\"files/(?<major>\\d+)\\.x/reaper\\d+_x64-install\\.exe\""
+	},
+	"urls": [
+		"https://www.reaper.fm/files/{captures.major}.x/reaper{version|.|}-install.exe",
+		"https://www.reaper.fm/files/{captures.major}.x/reaper{version|.|}_x64-install.exe",
+		{
+			"url": "https://www.reaper.fm/files/{captures.major}.x/reaper{version|.|}_win11_arm64ec_beta-install.exe",
+			"architecture": "arm64"
+		}
+	]
+}
