@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "teeworlds",
+		"repo": "teeworlds"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/teeworlds/teeworlds/releases/download/{version}/teeworlds-{version}-win64.zip",
+			"nestedInstallerMatches": ["teeworlds.exe"]
+		},
+		{
+			"url": "https://github.com/teeworlds/teeworlds/releases/download/{version}/teeworlds-{version}-win32.zip",
+			"nestedInstallerMatches": ["teeworlds.exe"]
+		}
+	]
+}
