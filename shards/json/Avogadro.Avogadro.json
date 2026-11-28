@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "avogadro",
+		"file": "Avogadro-{version}n-win32.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/avogadro/files/avogadro/{version}/Avogadro-{version}n-win32.exe/download"
+	]
+}

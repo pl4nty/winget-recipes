@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "gpredict",
+		"file": "gpredict-win32-{version}.zip"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gpredict/files/Gpredict/{version}/gpredict-win32-{version}.zip/download"
+	]
+}

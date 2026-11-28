@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://sourceforge.net/projects/robomirror/rss?path=/RoboMirror",
+		"regex": "/files/RoboMirror/RoboMirror%20(\\d+(?:\\.\\d+)+)%20Setup\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/robomirror/files/RoboMirror/RoboMirror%20{version}%20Setup.exe/download"
+	]
+}

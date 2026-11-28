@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://fotosketcher.com/download-fotosketcher/",
+		"regex": "FotoSketcher_(\\d+\\.\\d+)_setup_64bit\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://www.fotosketcher.com/FotoSketcher_{version}_setup_64bit.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://fotosketcher.com/download-fotosketcher/"
+	}
+}

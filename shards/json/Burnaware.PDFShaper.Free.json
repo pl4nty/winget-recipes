@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.pdfshaper.com/download.html",
+		"regex": "pdfshaper_free_(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		{
+			"url": "https://www.pdfshaper.com/downloads/pdfshaper_free_{version}.exe",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.pdfshaper.com/release-notes.html"
+	}
+}

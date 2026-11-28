@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "nclass",
+		"file": "NClass_v{version}_setup.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/nclass/files/NClass_v{version}_setup.exe/download"
+	]
+}

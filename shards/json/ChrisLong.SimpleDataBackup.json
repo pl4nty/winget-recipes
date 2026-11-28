@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.simpledatabackup.net/",
+		"regex": "(?<file>SimpleDataBackup(?<version>\\d+-\\d+)\\.exe)"
+	},
+	"version": "{version|-|.}",
+	"urls": [
+		{
+			"url": "https://www.simpledatabackup.net/downloads/{captures.file}",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.simpledatabackup.net/"
+	}
+}
