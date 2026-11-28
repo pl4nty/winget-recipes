@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Barre",
+		"repo": "privaxy"
+	},
+	"urls": [
+		"https://github.com/Barre/privaxy/releases/download/{github.rawTag}/Privaxy_{version}_x64_en-US.msi"
+	]
+}

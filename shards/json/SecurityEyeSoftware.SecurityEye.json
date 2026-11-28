@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.security-eye-software.com/",
+		"regex": "\"softwareVersion\":\"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": [
+		"https://www.security-eye-software.com/download/se-setup.zip",
+		"https://www.security-eye-software.com/download/se-setup.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.security-eye-software.com/download.php"
+	}
+}

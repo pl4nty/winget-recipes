@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.unikey.org/download.html",
+		"regex": "assets/release/unikey(?<major>\\d)(?<minor>\\d)(?<rc>RC\\d+)-(?<version>\\d+)-arm64\\.zip"
+	},
+	"version": "{captures.major}.{captures.minor}.{version}",
+	"urls": [
+		"https://www.unikey.org/assets/release/unikey{captures.major}{captures.minor}{captures.rc}-{version}-arm64.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.unikey.org/unikey_arm64.html"
+	}
+}

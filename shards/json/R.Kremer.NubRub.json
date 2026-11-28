@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "RubenKremer",
+		"repo": "NubRub"
+	},
+	"urls": [
+		"https://github.com/RubenKremer/NubRub/releases/download/{github.rawTag}/NubRub-{version}.msi"
+	]
+}

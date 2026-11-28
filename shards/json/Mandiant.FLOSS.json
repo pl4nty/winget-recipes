@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mandiant",
+		"repo": "flare-floss"
+	},
+	"urls": [
+		"https://github.com/mandiant/flare-floss/releases/download/{github.rawTag}/floss-v{version}-windows.zip"
+	]
+}
