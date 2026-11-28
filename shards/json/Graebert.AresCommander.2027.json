@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://www.graebert.com/cad-software/download/ares-commander/windows/latest64"
+		],
+		"regex": "/ares/(?:20)?(?<y>\\d\\d)\\.(?<sp>\\d+)\\.\\d+\\.(?<b>\\d+)/ARES_C_2027_SP[\\d.]+_[\\d.]+_\\d+_x64\\.exe$"
+	},
+	"version": "{captures.y}.{captures.sp}.{captures.b}",
+	"releaseNotes": {
+		"releaseNotesUrl": "https://help.graebert.com/en/articles/14717266-ares-commander-2027-release-notes"
+	}
+}

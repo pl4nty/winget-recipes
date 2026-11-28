@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://help.graebert.com/en/articles/7949359-download-links-of-ares-mechanical-2023",
+		"regex": "files\\.graebert\\.com/aresmechanical/(?<dir>(?:20)?(?<y>\\d\\d)\\.(?<sp>\\d+)\\.\\d+\\.(?<b>\\d+))/(?<file>ARES_M_2023_SP[\\d.]+_[\\d.]+_\\d+)_x64\\.exe"
+	},
+	"version": "{captures.y}.{captures.sp}.{captures.b}",
+	"urls": [
+		"https://files.graebert.com/aresmechanical/{captures.dir}/{captures.file}_x64.exe"
+	]
+}

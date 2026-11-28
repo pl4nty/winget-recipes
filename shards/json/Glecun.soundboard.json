@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "Glecun",
+		"repo": "soundboard"
+	},
+	"urls": [
+		"https://github.com/Glecun/soundboard/releases/download/{github.rawTag}/soundboard-Setup-{version}.exe"
+	]
+}

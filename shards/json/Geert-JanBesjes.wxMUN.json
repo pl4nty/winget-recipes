@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "wxmun",
+		"file": "wxmun-{version}-setup-win32.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/wxmun/files/wxmun/{version}/wxmun-{version}-setup-win32.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://sourceforge.net/projects/wxmun/files/wxmun/{version}/"
+	}
+}

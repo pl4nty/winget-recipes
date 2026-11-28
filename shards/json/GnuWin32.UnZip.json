@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/unzip",
+		"regex": "/gnuwin32/files/unzip/(?<version>\\d+(?:\\.\\d+)+(?:-\\d+)?)/unzip-\\k<version>\\.exe/download"
+	},
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/gnuwin32/files/unzip/{version}/unzip-{version}.exe/download",
+			"architecture": "x86"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gnuwin32.sourceforge.net/packages/unzip.htm"
+	}
+}

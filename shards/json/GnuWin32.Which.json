@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/gnuwin32/rss?path=/which",
+		"regex": "/gnuwin32/files/which/(?<version>\\d+(?:\\.\\d+)+(?:-\\d+)?)/which-\\k<version>-bin\\.zip/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/gnuwin32/files/which/{version}/which-{version}-bin.zip/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://gnuwin32.sourceforge.net/packages/which.htm"
+	}
+}

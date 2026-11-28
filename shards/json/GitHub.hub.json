@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "mislav",
+		"repo": "hub"
+	},
+	"urls": [
+		"https://github.com/mislav/hub/releases/download/{github.rawTag}/hub-windows-386-{version}.zip",
+		"https://github.com/mislav/hub/releases/download/{github.rawTag}/hub-windows-amd64-{version}.zip"
+	]
+}
