@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "BrianLima",
+		"repo": "UWPHook"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/BrianLima/UWPHook/releases/download/{github.rawTag}/UWPHook.exe",
+			"architecture": "x64"
+		}
+	]
+}
