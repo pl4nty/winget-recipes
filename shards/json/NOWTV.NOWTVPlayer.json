@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://web.static.nowtv.com/watch/player/nowtv/gb/latest/NOWTVPlayer-Windows.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://web.static.nowtv.com/watch/player/nowtv/gb/latest/NOWTVPlayer-Windows.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

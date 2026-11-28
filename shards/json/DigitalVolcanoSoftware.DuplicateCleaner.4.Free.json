@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://www.digitalvolcano.co.uk/download/DuplicateCleanerFree4_setup.exe",
+			"architecture": "neutral"
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.digitalvolcano.co.uk/download/DuplicateCleanerFree4_setup.exe",
+		"header": "last-modified"
+	},
+	"replace": true
+}

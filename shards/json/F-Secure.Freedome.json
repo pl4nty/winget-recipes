@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://download.sp.f-secure.com/freedome/installer/2/Freedome.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://download.sp.f-secure.com/freedome/installer/2/Freedome.exe",
+		"header": "etag"
+	},
+	"replace": true
+}

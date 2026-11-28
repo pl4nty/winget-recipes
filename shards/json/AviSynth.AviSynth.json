@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/avisynth2/rss?path=/AviSynth%202.6",
+		"regex": "/files/AviSynth%20(?<series>\\d+\\.\\d+)/AviSynth%20(?<version>\\d+(?:\\.\\d+)+)/AviSynth_(?<file>\\d+)\\.exe/download"
+	},
+	"version": {
+		"source": "file"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/avisynth2/files/AviSynth%20{captures.series}/AviSynth%20{version}/AviSynth_{captures.file}.exe/download"
+	]
+}

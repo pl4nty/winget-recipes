@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "MathewSachin",
+		"repo": "Captura"
+	},
+	"urls": [
+		"https://github.com/MathewSachin/Captura/releases/download/{github.rawTag}/Captura-Setup.exe"
+	]
+}

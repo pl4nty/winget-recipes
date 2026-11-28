@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/scidavis/rss?path=/SciDAVis",
+		"regex": "/SciDAVis/(?<major>\\d+)/(?<dir>[^/]+)/scidavis-(?<version>\\d+(?:\\.\\d+)+)-win-dist\\.msi/download"
+	},
+	"urls": [
+		{
+			"url": "https://sourceforge.net/projects/scidavis/files/SciDAVis/{captures.major}/{captures.dir}/scidavis-{version}-win-dist.msi/download",
+			"architecture": "x64"
+		}
+	]
+}
