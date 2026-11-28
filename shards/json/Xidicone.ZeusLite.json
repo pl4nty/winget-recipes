@@ -1,0 +1,24 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.zeusedit.com/lite/bin/zl.zip",
+			"nestedInstallerMatches": [
+				"mysetup.exe"
+			]
+		}
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://www.zeusedit.com/lite/bin/zl.zip",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.zeusedit.com/whatsnew.html"
+	},
+	"replace": true
+}

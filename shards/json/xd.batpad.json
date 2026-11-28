@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "win17-moss",
+		"repo": "web",
+		"method": "api-list",
+		"kind": "prerelease"
+	},
+	"version": "{version}.0.0",
+	"urls": [
+		"https://github.com/win17-moss/web/releases/download/{github.rawTag}/batpad.exe"
+	]
+}
