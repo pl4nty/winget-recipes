@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": { "owner": "zs-yg", "repo": "moonviewer" },
+	"urls": [
+		{ "url": "https://github.com/zs-yg/moonviewer/releases/download/{github.rawTag}/moonviewer_setup.exe", "architecture": "x64" }
+	]
+}
