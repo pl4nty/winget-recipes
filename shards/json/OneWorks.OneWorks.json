@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "oneworks-ai",
+		"repo": "app",
+		"method": "api-list",
+		"tagRegex": "^pkg/oneworks/v"
+	},
+	"urls": [
+		"https://github.com/oneworks-ai/app/releases/download/{github.rawTag}/oneworks-windows-{version}.msi"
+	]
+}
