@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "depthbomb",
+		"repo": "CarePackage"
+	},
+	"urls": [
+		"https://github.com/depthbomb/CarePackage/releases/download/{github.rawTag}/carepackage_installer.exe"
+	]
+}
