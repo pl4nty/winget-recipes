@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "abooodbah",
+		"repo": "leanrows"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/abooodbah/leanrows/releases/download/{github.rawTag}/LeanRows-v{version}-windows-x64-unsigned.zip",
+			"nestedInstallerMatches": [
+				"*/leanrows.exe"
+			]
+		}
+	]
+}

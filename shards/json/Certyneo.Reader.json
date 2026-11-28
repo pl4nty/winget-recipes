@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "electron-builder",
+	"electronBuilder": {
+		"url": "https://certyneo.com/downloads/desktop/latest.yml"
+	},
+	"urls": [
+		"https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-{version}-offline-x64.exe",
+		"https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-{version}-offline-arm64.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://certyneo.com/downloads/desktop/releases.json"
+	}
+}

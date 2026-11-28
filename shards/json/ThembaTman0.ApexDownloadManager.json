@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "tauri",
+	"tauri": {
+		"url": "https://github.com/ThembaTman0/apex-download-manager-releases/releases/latest/download/latest.json"
+	},
+	"releaseNotes": {
+		"source": "github",
+		"owner": "ThembaTman0",
+		"repo": "apex-download-manager-releases",
+		"tag": "v{version}"
+	}
+}

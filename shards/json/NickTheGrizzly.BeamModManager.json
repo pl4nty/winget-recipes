@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "NickTheGrizzly",
+		"repo": "beam-mod-manager-releases"
+	},
+	"urls": [
+		"https://github.com/NickTheGrizzly/beam-mod-manager-releases/releases/download/{github.rawTag}/Beam-Mod-Manager-{version}-Setup.exe"
+	]
+}

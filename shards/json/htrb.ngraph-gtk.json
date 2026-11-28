@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "htrb",
+		"repo": "ngraph-gtk"
+	},
+	"urls": [
+		"https://github.com/htrb/ngraph-gtk/releases/download/{github.rawTag}/ngraph-gtk-{version}-winarm64.zip",
+		"https://github.com/htrb/ngraph-gtk/releases/download/{github.rawTag}/ngraph-gtk-{version}-win64.zip"
+	]
+}

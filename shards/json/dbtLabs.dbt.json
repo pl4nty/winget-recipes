@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://public.cdn.getdbt.com/fs/latest.json",
+		"path": "tag"
+	},
+	"urls": [
+		"https://public.cdn.getdbt.com/fs/cli/fs-v{version}-x86_64-pc-windows-msvc.zip"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/dbt-labs/dbt-fusion/blob/main/CHANGELOG.md"
+	}
+}

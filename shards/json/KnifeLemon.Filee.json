@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "KnifeLemon",
+		"repo": "Filee"
+	},
+	"urls": [
+		"https://github.com/KnifeLemon/Filee/releases/download/{github.rawTag}/Filee-{version}-win-Setup.exe",
+		"https://github.com/KnifeLemon/Filee/releases/download/{github.rawTag}/Filee-{version}-win-arm64-Setup.exe"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "justcoding121",
+		"repo": "titanium-web-proxy"
+	},
+	"urls": [
+		"https://github.com/justcoding121/titanium-web-proxy/releases/download/{github.rawTag}/TitaniumInspector-win-x64.msi"
+	]
+}
