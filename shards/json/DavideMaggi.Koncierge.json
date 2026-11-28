@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "davidemaggi",
+		"repo": "koncierge-ui"
+	},
+	"urls": [
+		"https://github.com/davidemaggi/koncierge-ui/releases/download/{github.rawTag}/Koncierge-cli-setup-{version}.exe",
+		"https://github.com/davidemaggi/koncierge-ui/releases/download/{github.rawTag}/Koncierge-cli-win-{version}-1.zip"
+	]
+}
