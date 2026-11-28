@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://s3.amazonaws.com/packages.treasuredata.com?prefix=4/windows/",
+		"regex": "<Key>4/windows/td-agent-(\\d+(?:\\.\\d+)+)-x64\\.msi</Key>"
+	},
+	"urls": [
+		"https://s3.amazonaws.com/packages.treasuredata.com/4/windows/td-agent-{version}-x64.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://github.com/fluent/fluent-package-builder/blob/master/CHANGELOG-v4.md"
+	}
+}

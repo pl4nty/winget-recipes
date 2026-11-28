@@ -1,0 +1,13 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": {
+		"source": "display"
+	},
+	"github": {
+		"owner": "variar",
+		"repo": "klogg",
+		"method": "api-latest",
+		"assetRegex": "^klogg-[\\d.]+-Win-x(?:64|86)-Qt5-setup\\.exe$"
+	}
+}

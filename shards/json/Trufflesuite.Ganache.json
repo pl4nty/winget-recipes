@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ConsenSys-archive",
+		"repo": "ganache-ui"
+	},
+	"urls": [
+		"https://github.com/ConsenSys-archive/ganache-ui/releases/download/{github.rawTag}/Ganache-{version}-win-x64.appx",
+		"https://github.com/ConsenSys-archive/ganache-ui/releases/download/{github.rawTag}/Ganache-{version}-win-x64-setup.exe"
+	]
+}

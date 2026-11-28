@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://updates.torguard.biz/Software/Windows/",
+		"regex": "torguard-setup-v(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://updates.torguard.biz/Software/Windows/torguard-setup-v{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://torguard.net/blog/"
+	}
+}
