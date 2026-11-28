@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "artha",
+		"file": "{version}/artha_"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://sourceforge.net/projects/artha/files/artha/{version}/artha_{version}.0.exe/download"
+	]
+}

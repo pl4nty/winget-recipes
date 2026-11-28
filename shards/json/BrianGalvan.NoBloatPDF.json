@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.nobloatpdf.com/download.html",
+		"regex": "downloads/NoBloatPDF-Setup-(\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": [
+		"https://www.nobloatpdf.com/downloads/NoBloatPDF-Setup-{version}.exe"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.nobloatpdf.com/download.html"
+	}
+}

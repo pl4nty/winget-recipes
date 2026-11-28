@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "brunonova",
+		"repo": "drmips"
+	},
+	"urls": [
+		"https://github.com/brunonova/drmips/releases/download/{github.rawTag}/DrMIPS_v{version}_setup.exe"
+	]
+}

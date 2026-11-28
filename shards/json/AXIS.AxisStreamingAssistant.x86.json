@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.axis.com/ftp/pub_soft/cam_srv/asa/x86/latest/relnote.txt",
+		"regex": "Software version:\\s+(\\d+(?:\\.\\d+)+)"
+	},
+	"version": "{version}.0",
+	"urls": [
+		"https://www.axis.com/ftp/pub_soft/cam_srv/asa/x86/latest/AxisStreamingAssistantSetup.msi"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.axis.com/ftp/pub_soft/cam_srv/asa/x86/latest/relnote.txt"
+	}
+}
