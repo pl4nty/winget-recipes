@@ -1,0 +1,15 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sourceforge",
+	"sourceforge": {
+		"project": "jdreplace",
+		"file": "jdReplace-{version}-WindowsInstaller.exe"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/jdreplace/files/{version}/jdReplace-{version}-WindowsInstaller.exe/download",
+		"https://sourceforge.net/projects/jdreplace/files/{version}/jdReplace-{version}-WindowsInstaller.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://codeberg.org/JakobDev/jdReplace/releases/tag/{version}"
+	}
+}

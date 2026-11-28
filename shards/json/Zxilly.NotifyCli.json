@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "ZNotify",
+		"repo": "cli",
+		"method": "api-list",
+		"tagRegex": "^(?=\\d+\\.\\d+\\.\\d+$)"
+	},
+	"urls": [
+		"https://github.com/ZNotify/cli/releases/download/{github.rawTag}/znotify-x86_64-pc-windows-msvc.exe",
+		"https://github.com/ZNotify/cli/releases/download/{github.rawTag}/znotify-aarch64-pc-windows-msvc.exe"
+	]
+}

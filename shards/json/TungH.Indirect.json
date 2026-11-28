@@ -1,0 +1,12 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"version": "{version}.0",
+	"github": {
+		"owner": "huynhsontung",
+		"repo": "Indirect"
+	},
+	"urls": [
+		"https://github.com/huynhsontung/Indirect/releases/download/{github.rawTag}/Indirect_{version}.0_neutral.msixbundle"
+	]
+}

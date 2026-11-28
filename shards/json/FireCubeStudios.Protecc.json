@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "FireCubeStudios",
+		"repo": "Protecc"
+	},
+	"urls": [
+		"https://github.com/FireCubeStudios/Protecc/releases/download/{github.rawTag}/2505FireCubeStudios.Protecc_{version}_neutral___k45w5yt88e21j.Msixbundle"
+	]
+}

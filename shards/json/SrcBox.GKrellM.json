@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "sort-versions",
+	"sortVersions": {
+		"url": "https://www.srcbox.net/projects/gkrellm/downloads/",
+		"regex": "/gkrellm-(\\d+(?:\\.\\d+)+)-win64-setup\\.exe"
+	},
+	"urls": [
+		"https://www.srcbox.net/projects/gkrellm/downloads/{version}/gkrellm-{version}-win64-setup.exe"
+	]
+}
