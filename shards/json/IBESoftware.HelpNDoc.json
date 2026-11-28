@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://www.helpndoc.com/download/",
+		"regex": "latest_version=\"(\\d+(?:\\.\\d+)+)\""
+	},
+	"urls": ["https://dl.ibe-software.com/hnd/helpndoc-setup-{version}.exe"]
+}
