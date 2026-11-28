@@ -1,0 +1,17 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "display"
+	},
+	"urls": [
+		{
+			"url": "https://cdn.kerio.com/dwn/connect/connect-10.0.8-9507/kerio-connect-koff-10.0.8-9507-p2-win32.msi",
+			"architecture": "x86"
+		},
+		{
+			"url": "https://cdn.kerio.com/dwn/connect/connect-10.0.8-9507/kerio-connect-koff-10.0.8-9507-p2-win64.msi",
+			"architecture": "x64"
+		}
+	]
+}
