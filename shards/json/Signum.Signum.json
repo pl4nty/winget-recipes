@@ -1,0 +1,8 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": ["https://appbank.pw/signum/download.php?platform=windows"],
+		"regex": "/signum/releases/(?<version>\\d+(?:\\.\\d+)+)-b\\d+\\.exe$"
+	}
+}
