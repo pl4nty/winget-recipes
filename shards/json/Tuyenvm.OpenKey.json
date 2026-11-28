@@ -1,0 +1,16 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "tuyenvm",
+		"repo": "OpenKey"
+	},
+	"urls": [
+		{
+			"url": "https://github.com/tuyenvm/OpenKey/releases/download/{github.rawTag}/OpenKey64-Windows-{version}-RC.zip",
+			"nestedInstallerMatches": [
+				"OpenKey64.exe"
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "json",
+	"json": {
+		"url": "https://services.api.unity.com/unity/editor/release/v1/releases?limit=1&order=RELEASE_DATE_DESC&version=2020&stream=LTS&platform=WINDOWS&architecture=X86_64",
+		"path": "results.0.version"
+	},
+	"urls": [
+		"https://download.unity3d.com/download_unity/{data.results.0.downloads.0.url|https://download.unity3d.com/download_unity/|}"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://unity.com/releases/editor/whats-new/{version}"
+	}
+}

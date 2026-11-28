@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://sourceforge.net/projects/ufraw/rss",
+		"regex": "/files/ufraw/ufraw-(?<version>\\d+(?:\\.\\d+)+)/ufraw-[\\d.]+-(?<build>\\d+)-setup\\.exe/download"
+	},
+	"urls": [
+		"https://sourceforge.net/projects/ufraw/files/ufraw/ufraw-{version}/ufraw-{version}-{captures.build}-setup.exe/download"
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://ufraw.sourceforge.net/"
+	}
+}

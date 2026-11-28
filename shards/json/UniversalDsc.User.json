@@ -1,0 +1,14 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "dscv3-universal-resources",
+		"repo": "dscv3-universal-resources",
+		"method": "api-list",
+		"tagRegex": "^resources/UniversalDsc\\.Resource\\.Windows\\.User/"
+	},
+	"urls": [
+		"https://github.com/dscv3-universal-resources/dscv3-universal-resources/releases/download/{github.rawTag}/windows-user-{version}-x64.zip",
+		"https://github.com/dscv3-universal-resources/dscv3-universal-resources/releases/download/{github.rawTag}/windows-user-{version}-x86.zip"
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://acemovi.tuneskit.com/download/AceMovi.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://acemovi.tuneskit.com/download/AceMovi.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.tuneskit.com/acemovi-video-editor.html"
+	},
+	"replace": true
+}

@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://downloads.videosoftdev.com/video_tools/free_screen_recorder_x64.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://downloads.videosoftdev.com/video_tools/free_screen_recorder_x64.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.videosoftdev.com/free-screen-recorder"
+	},
+	"replace": true
+}

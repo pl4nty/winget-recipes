@@ -1,0 +1,19 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		"https://cdn.systweak.com/runcamps/tscsetupipg_tweaking-site.exe?of=tscsetupipg_.exe"
+	],
+	"state": {
+		"source": "response-header",
+		"url": "https://cdn.systweak.com/runcamps/tscsetupipg_tweaking-site.exe?of=tscsetupipg_.exe",
+		"header": "last-modified"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.tweakshot.com/"
+	},
+	"replace": true
+}
