@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "IliasHad",
+		"repo": "makerlapse-app"
+	},
+	"urls": ["https://github.com/IliasHad/makerlapse-app/releases/download/{github.rawTag}/Makerlapse.exe"]
+}

@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "github-release",
+	"github": {
+		"owner": "indentapis",
+		"repo": "access"
+	},
+	"urls": ["https://github.com/indentapis/access/releases/download/{github.rawTag}/access_{version}_windows_amd64.zip"]
+}

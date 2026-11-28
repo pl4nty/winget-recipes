@@ -1,0 +1,9 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://comeniascriptapp.cz/cs/interaktivni-tabule/instalace",
+		"regex": "ComeniaScriptAppSetup-(?<version>\\d+(?:\\.\\d+)+)\\.exe"
+	},
+	"urls": ["https://comeniascriptapp.cz/public/downloads/ComeniaScriptAppSetup-{version}.exe"]
+}
