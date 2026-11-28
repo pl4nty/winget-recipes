@@ -1,0 +1,20 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "redirect-match",
+	"redirectMatch": {
+		"url": [
+			"https://www.actualsolution.com/bin/Volume_Lock_Win10.exe"
+		],
+		"regex": "/bin/Volume_Lock_(\\d+(?:\\.\\d+)+)\\.exe$"
+	},
+	"version": {
+		"source": "display"
+	},
+	"state": {
+		"source": "value",
+		"value": "{version}"
+	},
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.actualsolution.com/volume-lock/whats-new/"
+	}
+}

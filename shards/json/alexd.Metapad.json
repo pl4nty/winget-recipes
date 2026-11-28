@@ -1,0 +1,11 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "page-match",
+	"pageMatch": {
+		"url": "https://liquidninja.com/metapad/download.html",
+		"regex": "Version (\\d+(?:\\.\\d+)+)\\s*</td>"
+	},
+	"urls": [
+		"https://liquidninja.com/metapad/downloads/metapad{version|.|}.zip"
+	]
+}
