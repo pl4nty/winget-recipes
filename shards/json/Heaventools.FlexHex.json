@@ -1,0 +1,22 @@
+{
+	"$schema": "https://anthelion.unownplain.dev/schema.json",
+	"strategy": "static",
+	"version": {
+		"source": "product"
+	},
+	"urls": [
+		{
+			"url": "https://www.heaventools.com/download/flexhexsetup.exe",
+			"architecture": "x64"
+		}
+	],
+	"releaseNotes": {
+		"releaseNotesUrl": "https://www.heaventools.com/flexhex-version-history.htm"
+	},
+	"replace": true,
+	"state": {
+		"source": "response-header",
+		"url": "https://www.heaventools.com/download/flexhexsetup.exe",
+		"header": "etag"
+	}
+}
